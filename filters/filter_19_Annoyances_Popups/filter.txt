@@ -4519,13 +4519,6 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
-nichegamer.com#$?#.custom-html-widget > div[style^="position: fixed; bottom:"]:has(iframe[src^="https://www.youtube.com/embed/"]) { remove: true; }
-aeon.co##section[data-test="Cta-MainDonate-banner"]
-bieudogiavang.vn##a[href="https://www.insurlink.vn/partner"][target="_blank"]
-chromewebstore.google.com##div[aria-labelledby="promo-header"]
-envader.plus#?##headlessui-dialog-2:has(img[src^="/_next/image?url=%2Fassets%2Fbanner%2Flogin-to-linux-basic-course.png"])
-cnet.com#%#//scriptlet('remove-class', 'c-avLazyStickyVideo-sticky', '.c-avLazyStickyVideo-container')
-m.inven.co.kr###mobileHeadline ~ .party-banner
 kartable.fr#$#.modal--push-more-content { display: none !important; }
 kartable.fr#$#body { overflow: auto !important; }
 huya.com#$##UDBSdkLgn { display: none !important; }
@@ -12485,20 +12478,6 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
-||rovesnyknews.te.ua/wp-content/plugins/bilujSocialModalPlugin/
-aeon.co##div[data-ga-view-prompt="aeon_sidebar_videonewsletter_blue"]
-twitchquotes.com##aside[id^="financetldr-top-bar"]
-ilrestodelcarlino.it,quotidiano.net##div[class^="Newsletter_newsletter__"]
-profuture.co.jp##.mailmagazine-box
-newstalkkgvo.com##.incontent-newsletter
-logist.today#?#.article__text > p[style="text-align: center;"]:has(> strong > a[href^="https://t.me/"])
-lastampa.it##div[id^="gedi-newsletter"]
-businesstoday.in##.what
-businesstoday.in##.whatsapp_channel
-news18.com##.shareNlocation
-news18.com##.whatsapp_strip
-mistergadget.tech#?#body > #overlay:has(> #newsletter-popup)
-elespanol.com##.md-newsletter
 hani.co.kr##.newsLetter
 dot.asahi.com##.g-sidebar-magazine
 politico.com##.story-enhancement > #weekend-promo
