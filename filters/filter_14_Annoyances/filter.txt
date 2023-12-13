@@ -2321,6 +2321,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+global.cainiao.com##.puckinn-cookie-consent
 surveys.com#%#//scriptlet('trusted-click-element', '#btnRejectAll')
 insomnia.gr###elInsomniaCookieBar
 egon-w-kreutzer.de#%#//scriptlet('trusted-click-element', 'a[style="order: 1;"]')
@@ -31021,6 +31022,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+logist.today#?#.article__text > p[style="text-align: center;"]:has(> strong > a[href^="https://t.me/"])
 lastampa.it##div[id^="gedi-newsletter"]
 businesstoday.in##.what
 businesstoday.in##.whatsapp_channel
@@ -40862,10 +40864,6 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/168168
-forum.outerspace.com.br##.focus-guest
-! https://github.com/AdguardTeam/AdguardFilters/issues/168449
-seekingalpha.com##div[style^="--largeTopBannerBackground:"]
 ! banner in news articles
 sports.ru##.news-item__content a[href^="https://specials.sports.ru/"] > img
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167620
