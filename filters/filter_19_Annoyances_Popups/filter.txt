@@ -532,7 +532,6 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ! reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.promotedlink
 !#safari_cb_affinity
 !
-||skisofa.com^$third-party
 ||functionalfeather.com^$third-party
 ||whisperingsummit.com^$third-party
 ||crystalboulevard.com^$third-party
@@ -4517,6 +4516,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+envader.plus#?##headlessui-dialog-2:has(img[src^="/_next/image?url=%2Fassets%2Fbanner%2Flogin-to-linux-basic-course.png"])
 cnet.com#%#//scriptlet('remove-class', 'c-avLazyStickyVideo-sticky', '.c-avLazyStickyVideo-container')
 m.inven.co.kr###mobileHeadline ~ .party-banner
 kartable.fr#$#.modal--push-more-content { display: none !important; }
@@ -12478,6 +12478,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+newstalkkgvo.com##.incontent-newsletter
 logist.today#?#.article__text > p[style="text-align: center;"]:has(> strong > a[href^="https://t.me/"])
 lastampa.it##div[id^="gedi-newsletter"]
 businesstoday.in##.what

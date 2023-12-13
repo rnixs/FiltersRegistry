@@ -2321,6 +2321,8 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+yle.fi#$#body { overflow: auto !important; }
+yle.fi#$##yle-consent-sdk-container { display: none !important; }
 evaair.com#%#//scriptlet('set-cookie', '_EVAcookieaccept', 'Y')
 neckermann-reisen.de#%#//scriptlet('set-cookie', 'useOfCookiesAccepted_live', 'true')
 global.cainiao.com##.puckinn-cookie-consent
@@ -19079,7 +19081,6 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ! reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.promotedlink
 !#safari_cb_affinity
 !
-||skisofa.com^$third-party
 ||functionalfeather.com^$third-party
 ||whisperingsummit.com^$third-party
 ||crystalboulevard.com^$third-party
@@ -23064,6 +23065,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+envader.plus#?##headlessui-dialog-2:has(img[src^="/_next/image?url=%2Fassets%2Fbanner%2Flogin-to-linux-basic-course.png"])
 cnet.com#%#//scriptlet('remove-class', 'c-avLazyStickyVideo-sticky', '.c-avLazyStickyVideo-container')
 m.inven.co.kr###mobileHeadline ~ .party-banner
 kartable.fr#$#.modal--push-more-content { display: none !important; }
@@ -31025,6 +31027,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+newstalkkgvo.com##.incontent-newsletter
 logist.today#?#.article__text > p[style="text-align: center;"]:has(> strong > a[href^="https://t.me/"])
 lastampa.it##div[id^="gedi-newsletter"]
 businesstoday.in##.what
@@ -40867,6 +40870,8 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/168449
+seekingalpha.com##div[style^="--largeTopBannerBackground:"]
 ! banner in news articles
 sports.ru##.news-item__content a[href^="https://specials.sports.ru/"] > img
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167620
@@ -45747,10 +45752,6 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
-blog.skillfactory.ru###banner-course-id
-hexlet.io##.x-promo-bg-gradient
-support.microsoft.com##.ucsPromotionContainer
-hexlet.io##.sticky-top
 ||envader.plus/_next/image?url=%2Fassets%2Fbanner%2Fbanner-2.jpg
 ||techplay.jp/tp-images/ad/
 techplay.jp##.prBanner
