@@ -23062,6 +23062,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+cnet.com#%#//scriptlet('remove-class', 'c-avLazyStickyVideo-sticky', '.c-avLazyStickyVideo-container')
 m.inven.co.kr###mobileHeadline ~ .party-banner
 kartable.fr#$#.modal--push-more-content { display: none !important; }
 kartable.fr#$#body { overflow: auto !important; }
@@ -50398,8 +50399,6 @@ blog.livedoor.jp##div[id^="shitarss_title_"]
 !
 ! NOTE: Blogroll specific rules
 !
-||rutube.ru/pangolin/api/web/yappy/$xmlhttprequest
-rutube.ru##section[aria-label="информационный баннер"]
 ||nullpoantenna.com^$domain=samuraisoccer.doorblog.jp
 hitoikigame.com#?#.p3_outline .plugin-freearea:has(td[style="display: none !important;"])
 crx7601.com#?#.article-body-inner .twitter-tweet ~ b:has(+ .ninja-recommend-block)
