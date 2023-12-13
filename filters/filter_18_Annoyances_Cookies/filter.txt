@@ -2321,6 +2321,8 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+evaair.com#%#//scriptlet('set-cookie', '_EVAcookieaccept', 'Y')
+neckermann-reisen.de#%#//scriptlet('set-cookie', 'useOfCookiesAccepted_live', 'true')
 global.cainiao.com##.puckinn-cookie-consent
 surveys.com#%#//scriptlet('trusted-click-element', '#btnRejectAll')
 insomnia.gr###elInsomniaCookieBar
