@@ -2321,6 +2321,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+surveys.com#%#//scriptlet('trusted-click-element', '#btnRejectAll')
 insomnia.gr###elInsomniaCookieBar
 egon-w-kreutzer.de#%#//scriptlet('trusted-click-element', 'a[style="order: 1;"]')
 huffingtonpost.fr#%#//scriptlet('trusted-click-element', 'button[data-gdpr-expression="acceptAll"]')
@@ -14901,18 +14902,6 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/168075
-fix-price.com#@#.gdpr-container
-! https://github.com/AdguardTeam/AdguardFilters/issues/168507
-@@||cmp.pubtech.ai/*/pubtech-cmp-v2.js$script,domain=ilrestodelcarlino.it
-! https://github.com/AdguardTeam/AdguardFilters/issues/167366
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||reddit.com/*/cookie_consent_
-! https://github.com/AdguardTeam/AdguardFilters/issues/168446
-!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-besport.org#@##cliSettingsPopup
-besport.org#@##cookie-law-info-bar
-!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168133
 @@||sdk.privacy-center.org^$domain=lalsace.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168165
