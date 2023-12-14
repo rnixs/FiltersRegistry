@@ -1,8 +1,8 @@
 !
-! Checksum: 3Np06C8RcxMf+61kGRzlog
-! OriginalVersion: 202312140451
+! Checksum: gMhKETo7DSdrA4UqAh3OiA
+! OriginalVersion: 202312140851
 ! Title: EasyList Polish
-! Last modified: 14 Dec 2023 04:51 UTC
+! Last modified: 14 Dec 2023 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -498,6 +498,7 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=sportsinwinter.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2507,6 +2508,13 @@ bolec.info##small + a
 wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
+glossokolowa.pl##[class*="banner--"]
+ziemiagorowska.pl##[class*="banner--"]
+e-lubon.pl##[class*="banner--"]
+tukutno.pl##[class*="banner--"]
+pleszew24.info##[class*="banner--"]
+hej.slupsk.pl##[class*="banner--"]
+goral.info.pl##.l-news__more
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2

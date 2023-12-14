@@ -1,8 +1,8 @@
 !#if (adguard_ext_android_cb)
 ! version for AdGuard Content Blocker only
-! OriginalVersion: 20231214114225
+! OriginalVersion: 20231214154426
 ! Title: ABPVN List
-! Last modified: 14 Dec 2023 11:42:25 UTC+7
+! Last modified: 14 Dec 2023 15:44:26 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -156,7 +156,6 @@
 ||images2.imgbox.com^*.gif$image,domain=ocumoe.com
 ||img.dtruyen.com/login-ads-desktop.gif$domain=dtruyen.com
 ||img.upanh.tv^*.gif$image,domain=phimtuoitho.tv|xemhay24h.com
-||img_bongdalu.thscore.fun^*.gif
 ||imgyn.imageshh.com^*.gif$image,domain=mphim14.com|hhchina.tv
 ||kenhgamez.info^*.gif
 ||kenhtin.net/upload/images/banner-
@@ -1520,9 +1519,9 @@ vn.phym18.org##div#bnads
 !
 !#if (!adguard_ext_android_cb)
 ! version for all other AdGuard products
-! OriginalVersion: 20231214114225
+! OriginalVersion: 20231214154426
 ! Title: ABPVN List
-! Last modified: 14 Dec 2023 11:42:25 UTC+7
+! Last modified: 14 Dec 2023 15:44:26 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -1676,7 +1675,6 @@ vn.phym18.org##div#bnads
 ||images2.imgbox.com^*.gif$image,domain=ocumoe.com
 ||img.dtruyen.com/login-ads-desktop.gif$domain=dtruyen.com
 ||img.upanh.tv^*.gif$image,domain=phimtuoitho.tv|xemhay24h.com
-||img_bongdalu.thscore.fun^*.gif
 ||imgyn.imageshh.com^*.gif$image,domain=mphim14.com|hhchina.tv
 ||kenhgamez.info^*.gif
 ||kenhtin.net/upload/images/banner-
