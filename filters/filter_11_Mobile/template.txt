@@ -1,5 +1,5 @@
-! Homepage: http://adguard.com/filters.html#mobile
-! License: http://creativecommons.org/licenses/by-sa/3.0/
+! Homepage: https://github.com/AdguardTeam/AdGuardFilters
+! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
 !
 !---------------------------------------------------------------------------!
 !-------------- General JS API ---------------------------------------------!
@@ -42,9 +42,6 @@
 !---------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_app.txt"
 !---------------------------------------------------------------------------!
-!-------------- Rules for mobile analytics ---------------------------------!
+!------------------ Content replacement rules ------------------------------!
 !---------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/spyware.txt"
-!------------------ Content replacement rules ----------------------------------!
-!-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/replace.txt"

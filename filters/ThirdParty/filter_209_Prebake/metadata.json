@@ -1,16 +1,17 @@
 {
   "filterId": 209,
-  "name": "Prebake",
-  "description": "filters obtrusive EU cookie law notices",
+  "name": "(Obsolete) Prebake",
+  "description": "Filters obtrusive EU cookie law notices",
   "timeAdded": 1404115015843,
-  "homepage": "http://liamja.co.uk/Prebake/",
-  "expires": "1 day",
-  "displayNumber": 224,
-  "groupId": 3,
-  "subscriptionUrl": "https://raw.github.com/liamja/Prebake/master/obtrusive.txt",
+  "homepage": "http://prebake.eu/",
+  "expires": "4 days",
+  "displayNumber": 100,
+  "groupId": 4,
+  "subscriptionUrl": "https://raw.githubusercontent.com/liamja/Prebake/master/obtrusive.txt",
   "tags": [
-    "purpose:cookies",
-    "obsolete"
+    "obsolete",
+    "purpose:annoyances"
   ],
+  "trustLevel": "low",
   "disabled": true
 }

@@ -1,15 +1,16 @@
 {
   "filterId": 235,
   "name": "Iranian filter",
-  "description": "Adblock Iran filter",
+  "description": "Ad blocking rules for Iranian/Persian websites.",
   "timeAdded": 1404115015843,
   "homepage": "https://github.com/farrokhi/adblock-iran",
-  "expires": "1 day",
-  "displayNumber": 235,
-  "groupId": 3,
+  "expires": "4 days",
+  "displayNumber": 2,
+  "groupId": 7,
   "subscriptionUrl": "https://raw.githubusercontent.com/farrokhi/adblock-iran/master/filter.txt",
   "tags": [
     "purpose:ads",
     "lang:fa"
-  ]
+  ],
+  "trustLevel": "high"
 }

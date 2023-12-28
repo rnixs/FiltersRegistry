@@ -1,26 +1,27 @@
 !
-! Checksum: KjjPVVMK//F3u1U1/KLWWg
+! Checksum: ALZnjb8mi3qBz51mZTwJsw
 ! Title: Latvian List
 ! Homepage: https://notabug.org/latvian-list/adblock-latvian
 ! Expires: 4 days
-! OriginalVersion: 201712041928
-! Last modified: 2017-12-04 19:28 UTC
+! OriginalVersion: 202104291503
+! Last modified: 2021-04-29 15:03 UTC
 ! Licence: CC BY-SA 4.0  https://creativecommons.org/licenses/by-sa/4.0/
 !
 ! Lūdzu paziņojiet par nebloķētām reklāmām vai problēmām
-! pa e-pastu (latvian-list@googlegroups.com)
-! vai forumā (https://forums.lanik.us/viewforum.php?f=99)
+! pa e-pastu ( latvian-list@googlegroups.com )
+! vai forumā ( https://forums.lanik.us/viewforum.php?f=99 )
 !
 ! -------------- Generic ad blocking filters ---------------
 !
 .lv/ads/
 .lv/banners/
-.lv/images/banners/
+.lv/images/banners/$third-party
 .lv/img/banners/
 !
 ! ------------- 1st party ad blocking filters --------------
 !
 ||1188.lv^*/banners/
+||1a.lv/images/creamcredit
 ||1w.lv/banner_
 ||220.lv/rek_html/
 ||2x2.lv/img/$object
@@ -28,8 +29,9 @@
 ||admp-tc.delfi.lv^
 ||ao.skaties.lv^
 ||atlaides.delfi.lv/export.php
-||b.inbox.lv^
+||balticlivecam.com/images/acb_logo.png
 ||banners.zl.lv^
+||bdaugava.lv/media/uploads/banners/
 ||bigshop.lv/baners/
 ||bilesuserviss.lv/upload/banner/
 ||bm.lv/images/*.swf
@@ -46,12 +48,14 @@
 ||delfi.lv/tr/g/
 ||delfi.lv/ve/g/
 ||delphi.lv/city24/
+||delphi.lv/news-blocks/external/inchlv
 ||discover.lv/userfiles/promofotos/
 ||e-pica.lv/mce/uploads/banners/
 ||ecompics.power.oho.lv^
 ||ehalle.lv/grupu_bildes/
 ||elittesport.lv/pictures/banneri_gar_malam/
 ||elittesport.lv/pictures/Tirgoshanas/
+||eveselibaspunkts.lv/images/banners/
 ||fotoreceptes.lv/banneris
 ||fotoreceptes.lv/iespeja.GIF
 ||gudriem.lv/App_Themes/Default/Banners/
@@ -60,8 +64,8 @@
 ||hop.lv^*/banneri/
 ||iaptieka.lv/atteli/apmaina/
 ||intim.lv/res/banners/
-||kasjauns.lv/objs/shops/
 ||kurpirkt.lv/ba/
+||kurpirkt.lv/img/ieskaties2.png
 ||latauto.tvnet.lv/infoblock
 ||leta.lv/img/*/info_banneris_
 ||leta.lv^*/preview_banner
@@ -97,6 +101,7 @@
 ||sexparty.lv/uploads/vip/
 ||signe.lv/userfiles/image/main%20page%20banners/
 ||simpsoni.lv/rtr/
+||sportazinas.com/wp-content/uploads/*.gif
 ||sudzibas.lv/baneris_
 ||tavacena.lv/images/ltc/
 ||tele2.lv^*_popup_
@@ -111,6 +116,7 @@
 !
 ! ------------- 3rd party ad blocking filters --------------
 !
+||1188.lv^$third-party
 ||1shop.lv/i/ban/
 ||a.alicdn.com^*300x250.$third-party
 ||a.draugiem.lv^
@@ -120,6 +126,7 @@
 ||adsplius.lt^$third-party
 ||adsxchange.lv^$third-party
 ||agk.lv^$third-party
+||airbalticblog.com/shared/$third-party
 ||alida.lv/upload/banner/
 ||anymedia.lv^$third-party
 ||apollo.lv/article/feed/iframe/$third-party
@@ -137,12 +144,13 @@
 ||clo.lv^$third-party
 ||cv.lv^*?type=banner
 ||deal24.lv^$third-party
+||delphi.lv/bizness/techchill/
+||delphi.lv/fp/i/airBaltic_block_v3_logo.svg
 ||delphi.lv^*/ads/
 ||diena.lv/boxnews.html$third-party
 ||doaffiliate.net^$third-party
 ||evolution.lv^$third-party
 ||freewheel-mtgx-tv.akamaized.net^$media,domain=skaties.lv
-||garmtech.lv^$third-party
 ||getgamers.ru^$popup
 ||getgamers.ru^$third-party
 ||goaff.com^$third-party
@@ -167,6 +175,8 @@
 ||nerealitate.lv^$third-party
 ||next.lv^$third-party
 ||novonews.lv/ticker/flash/$third-party
+||olybet.lv^$popup
+||olybet.lv^$third-party
 ||openx.diena.lv^$popup
 ||optibet.lv^$popup
 ||optibet.lv^$third-party
@@ -197,14 +207,10 @@
 !
 ! ------------------ 1st party whitelists ------------------
 !
-@@||fwmrm.net/ad/$script,domain=tvplay.skaties.lv
-@@||fwmrm.net/ad/*MTG_Play_HTML5_Live$xmlhttprequest,domain=tvplay.skaties.lv
-@@||fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=tvplay.skaties.lv
 @@||h.itvnet.lv^*/adjs/adjs/ads.js$script,domain=tvnet.lv
 @@||lsm.lv/public/scripts/ads.js$script,~third-party
-@@||openx.kasjauns.lv/www/delivery/spcjs.php$domain=kasjauns.lv
+@@||ltv.lsm.lv/scripts/ads.js$script
 @@||playapi.mtgx.tv/v3/adinfo$xmlhttprequest
-@@||tvplay.skaties.lv/ad$xmlhttprequest
 @@||varianti.lv/ads/load_ad_images/$xmlhttprequest,~third-party
 @@||visidarbi.lv/advertisements$xmlhttprequest,~third-party
 !
@@ -213,7 +219,7 @@
 @@||b.adbox.lv/bxlib/js/emiter.js?$script,domain=lsm.lv
 @@||b.adbox.lv/bxlib/js/loader.js?$script,domain=lsm.lv
 @@||b.adbox.lv/emiter/bx_placement.js?$script,domain=lsm.lv
-@@||emediate.se/eas?*ty=video$object-subrequest,domain=apollo.lv
+@@||emediate.se/eas?*ty=video$object,domain=apollo.lv
 @@||fwmrm.net/ad/g/$xmlhttprequest,domain=skaties.lv
 @@||fwmrm.net/ad/l/$xmlhttprequest,domain=skaties.lv
 @@||viastream.viasat.tv^*?affiliate=
@@ -226,6 +232,7 @@
 ! ---------- Site specific element hiding filters ----------
 !
 1188.lv##.LabsservissAdd
+1a.lv##.creamcredit
 1s.lv##.reklama2
 apollo.tvnet.lv###e-shop-banner-block
 apollo.tvnet.lv##.banner-block
@@ -247,9 +254,12 @@ db.lv,sportacentrs.com,tvnet.lv##.banner
 delfi.lv###background-giga
 delfi.lv###column3 a[style="margin-bottom: 10px;"]
 delfi.lv###horoweatherblock
+delfi.lv###inch-lv
 delfi.lv###top-banner
 delfi.lv##.ads-block-small
 delfi.lv##.ads-blocks-link
+delfi.lv##.adsAdmin-section
+delfi.lv##.airbaltic-blog
 delfi.lv##.car-city24
 delfi.lv##.city24-2nd
 delfi.lv##.city24-2nd-block-title
@@ -260,6 +270,7 @@ delfi.lv##.city24-topBlock-extraLine
 delfi.lv##.city24-topBlock-wrapper
 delfi.lv##.city24ni
 delfi.lv##.city24nib
+delfi.lv##.d-sm-block
 delfi.lv##.pardod-widget
 delfi.lv##.top-banner
 delfi.lv##.veikali-banners-active
@@ -285,6 +296,7 @@ e-klase.lv##.adv_urls_t
 e-klase.lv##.right_widget_item.tvnet
 easyget.lv##[class^="adholder"]
 easyget.lv##div[style="padding-top:5px;text-align:center;margin-bottom:10px;line-height:1;"]
+elektroenergija.lv##.adv-txt
 europeanhitradio.com,europeanhitradio.lv##td[style="padding-top:10px;padding-left:6px;padding-bottom:10px;"]
 forums.delfi.lv##div[style="width:250px;"]:last-child
 gay.lv##div[style="width:568px;height:60px;background-color:#000000;"]
@@ -299,20 +311,19 @@ inbox.lv###inxAds-imr
 inbox.lv###inxHeadAdsPlace
 inbox.lv##.bxS-text_link
 inbox.lv##[style^="background:url(http://b.inbox.lv/"]
-inbox.lv##a[href^="http://b.inbox.lv/"]
 intim.lv##div[style="margin: 8px 0px; cursor: hand;"]
 ir.lv###abonbanner
 izklaide.delfi.lv###rightTop
 izklaide.delfi.lv##.iepazisanas
-kasjauns.lv###left
-kasjauns.lv###top_banner_container
-kasjauns.lv##.oxbanner
-kasjauns.lv##div[style="overflow:hidden; width:277px; height:70px; border-bottom: 1px dotted #C1C1C1; margin-bottom: 3px;"]
-kasjauns.lv##div[style="overflow:hidden; width:277px; height:70px; border: 1px solid #C1C1C1; margin-bottom: 3px;"]
-kasjauns.lv##li[style=" line-height:1.5em;"]
+jauns.lv##.ad-dfp
+jauns.lv##.meta-info__subscribe
+jauns.lv##.shop-list
 kurpirkt.lv###leja_scroll
+kurpirkt.lv###top_ba_pos
 kurpirkt.lv##.campaignblock1
 kurpirkt.lv##.campaignblock2
+kurpirkt.lv##.labsblock1
+kurpirkt.lv##.labsblock2
 kurpirkt.lv##.producttd[style="border:solid 1px #448c26;background:#fafafa;"]
 la.lv##.side-banner
 lattelecom.lv##[id^="fixme_"]
@@ -343,12 +354,14 @@ rigaslaiks.lv###ctl00_divAd1
 runabildes.lv##div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
 salidzini.lv###AM_bottom
 salidzini.lv###AM_giga
+salidzini.lv###AM_mobile_1
 salidzini.lv###AM_scroll_row
 salidzini.lv###AM_tower_div
 salidzini.lv##.item_link[href^="/rekred.php"]
 salidzini.lv##[id^="media_place"]
 sexparty.lv##td[width="230"]
 simpsoni.lv###head_banner
+skaties.lv##[id^="_fw_frame_"]
 spoki.tvnet.lv###spec_head
 sportacentrs.com##.r_article
 sportacentrs.com##table[style="width: 240px; height: 97px;"]
@@ -388,7 +401,6 @@ tvnet.lv##[href^="http://q.tvnet.lv/"]
 tvnet.lv##[id^="ad120x600"]
 tvnet.lv##a[style="text-decoration: underline; cursor: pointer; padding-right: 17px; background: url('/assets/images/title_link.gif') right center no-repeat;"]
 tvnet.lv##div[style="height:53px; width:100%; position:fixed; bottom:0px; left:0px; background-color:white; z-index:999999; background-position:center center; background-image: url('http://b.itvnet.lv/_sa_alkohols.jpg'); background-repeat:no-repeat;"]
-tvplay.skaties.lv##.ad
 uzkartes.lv###sz
 varianti.lv##.ad_prian
 varianti.lv##.textbanners
@@ -401,3 +413,8 @@ zip.lv##.zip_spotlight.main_td
 !
 varianti.lv#@##ad_table
 varianti.lv#@#.single_ad
+!
+! -------------- uBO extended syntax filters ---------------
+!
+sportazinas.com#$#body { background-image: none !important; }
+sportazinas.com#%#//scriptlet('ubo-abort-current-inline-script.js', 'td_ad_background_click_link')

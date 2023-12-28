@@ -1,10 +1,20 @@
-! Invalid rule options:
-||observatorulph.ro/cdn-cgi/apps/*$script,first-party
-! Invalid rule options:
-@@||www.trafictube.ro/favicon.ico$image,first-party
-! Invalid rule options:
-||prosport.ro^$inline-script
-! Invalid rule options:
+! ||104.154.237.193^$popup is excluded by "||104." in exclusions.txt
+||104.154.237.193^$popup
+! ||130.211.212.60^$popup is excluded by "||130.211." in exclusions.txt
+||130.211.212.60^$popup
+! ||130.211.230.53^$popup is excluded by "||130.211." in exclusions.txt
+||130.211.230.53^$popup
+! !||prosport.ro^$inline-script is excluded by "$inline-script" in exclusions.txt
+!||prosport.ro^$inline-script
+! ||zf.ro^$inline-script is excluded by "$inline-script" in exclusions.txt
 ||zf.ro^$inline-script
-! Invalid rule options:
+! @@||prosport.ro/embed/$first-party,inline-script is excluded by ",inline-script" in exclusions.txt
 @@||prosport.ro/embed/$first-party,inline-script
+! Rule "||observatorulph.ro/cdn-cgi/apps/*$script,first-party" converted to: "||observatorulph.ro/cdn-cgi/apps/*$script,~third-party"
+||observatorulph.ro/cdn-cgi/apps/*$script,first-party
+! Rule "/cdn-cgi/apps/head/*$script,first-party,domain=dot.ro" converted to: "/cdn-cgi/apps/head/*$script,~third-party,domain=dot.ro"
+/cdn-cgi/apps/head/*$script,first-party,domain=dot.ro
+! Rule "@@||trafictube.ro/favicon.ico$image,first-party" converted to: "@@||trafictube.ro/favicon.ico$image,~third-party"
+@@||trafictube.ro/favicon.ico$image,first-party
+Error: "Invalid cosmetic rule, wrong brackets" in the rule: "science.hotnews.ro###\$\{tile\.name\}_\$\{tile\.id\}"
+science.hotnews.ro###\$\{tile\.name\}_\$\{tile\.id\}

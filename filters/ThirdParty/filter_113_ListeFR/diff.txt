@@ -1,192 +1,126 @@
-! &pubref=*&utm_campaign=$popup is excluded by: _campaign=$popup
-&pubref=*&utm_campaign=$popup
-! =partenariat&utm_campaign=$popup is excluded by: _campaign=$popup
+! -Block-ads- is excluded by "-Block-ads-" in exclusions.txt
+-Block-ads-
+! /click/*$subdocument is excluded by "/click/*$subdocument" in exclusions.txt
+/click/*$subdocument
+! ://partner.$third-party,domain=~lopinion.fr|~viator.com|~viatorcom.de|~viatorcom.fr|~viatorcom.nl|~viatorcom.no|~viatorcom.se is excluded by "://partner.$third-party" in exclusions.txt
+://partner.$third-party,domain=~lopinion.fr|~viator.com|~viatorcom.de|~viatorcom.fr|~viatorcom.nl|~viatorcom.no|~viatorcom.se
+! =adblock_ is excluded by "=adblock_" in exclusions.txt
+=adblock_
+! /^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|click|club|cricket|date|download|faith|fun|ga|gdn|gq|link|loan|men|ml|network|online|ovh|party|pro|pw|racing|review|rocks|science|sh|site|space|stream|tk|top|trade|webcam|win|xyz|zone)(\.)?\/(.*)/$third-party,websocket,domain=~arium.events|~file.pizza|~instant.io|~mellivora.pro|~mellivora.trade|~myinterview.com|~polkadot.js.org|~proctoredu.com|~proctoredu.ru|~redirect-ads.com|~spaceship.media.mit.edu|~webtorrent.io|~yorbbackend.xyz is excluded by "/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|" in exclusions.txt
+/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|click|club|cricket|date|download|faith|fun|ga|gdn|gq|link|loan|men|ml|network|online|ovh|party|pro|pw|racing|review|rocks|science|sh|site|space|stream|tk|top|trade|webcam|win|xyz|zone)(\.)?\/(.*)/$third-party,websocket,domain=~arium.events|~file.pizza|~instant.io|~mellivora.pro|~mellivora.trade|~myinterview.com|~polkadot.js.org|~proctoredu.com|~proctoredu.ru|~redirect-ads.com|~spaceship.media.mit.edu|~webtorrent.io|~yorbbackend.xyz
+! +Popunder+$popup is excluded by "+Popunder+$popup" in exclusions.txt
++Popunder+$popup
+! /afu.php?zoneid=$popup is excluded by ".php?zoneid=" in exclusions.txt
+/afu.php?zoneid=$popup
+! /apu.php?zoneid=$popup is excluded by ".php?zoneid=" in exclusions.txt
+/apu.php?zoneid=$popup
+! =adblock_pop&$popup is excluded by "=adblock_" in exclusions.txt
+=adblock_pop&$popup
+! =partenariat&utm_campaign=$popup is excluded by "_campaign=$popup" in exclusions.txt
 =partenariat&utm_campaign=$popup
-! ||piguiqproxy.com^$third-party is excluded by: ||piguiqproxy.com^$third-party
-||piguiqproxy.com^$third-party
-! @@|http://*.digiteka.net/*,,/*?mdtk=$object-subrequest,third-party,domain=ultimedia.com is excluded by: |http://*
-@@|http://*.digiteka.net/*,,/*?mdtk=$object-subrequest,third-party,domain=ultimedia.com
-! ||sound-park.fr^$popup,~third-party is excluded by: $popup,~third-party
-||sound-park.fr^$popup,~third-party
-! @@||www.speedvid.net/dl?op=download_orig&id=*&r=$popup,~third-party,domain=speedvid.net is excluded by: $popup,~third-party
-@@||www.speedvid.net/dl?op=download_orig&id=*&r=$popup,~third-party,domain=speedvid.net
-! ||1divx.co/*-film-$popup,~third-party is excluded by: $popup,~third-party
+! ||104.154.237.$third-party is excluded by "||104." in exclusions.txt
+||104.154.237.$third-party
+! ||104.197.$script,third-party,xmlhttprequest is excluded by "||104." in exclusions.txt
+||104.197.$script,third-party,xmlhttprequest
+! ||104.198.$script,third-party,xmlhttprequest is excluded by "||104." in exclusions.txt
+||104.198.$script,third-party,xmlhttprequest
+! ||104.203.72.254^$third-party is excluded by "||104." in exclusions.txt
+||104.203.72.254^$third-party
+! ||104.238.188.$script,third-party is excluded by "||104." in exclusions.txt
+||104.238.188.$script,third-party
+! ||104.238.189.$script,third-party is excluded by "||104." in exclusions.txt
+||104.238.189.$script,third-party
+! ||130.211.$third-party,domain=~picoxia.com|~picoxia.fr is excluded by "||130.211." in exclusions.txt
+||130.211.$third-party,domain=~picoxia.com|~picoxia.fr
+! ||35.184.$third-party is excluded by "||35." in exclusions.txt
+||35.184.$third-party
+! ||35.184.169.188^ is excluded by "||35." in exclusions.txt
+||35.184.169.188^
+! ||35.188.$third-party is excluded by "||35." in exclusions.txt
+||35.188.$third-party
+! ||35.193.89.147^$third-party is excluded by "||35." in exclusions.txt
+||35.193.89.147^$third-party
+! ||kiev.ua^$third-party is excluded by "||kiev.ua^$third-party" in exclusions.txt
+||kiev.ua^$third-party
+! /^https?:\/\/(www\.)?([a-z0-9]{3,10}\.)?[a-z0-9]{5,25}\.(click|co|club|com|bid|date|download|men|net|network|online|party|pw|racing|review|site|space|stream|top|trade|webcam|website|win|xyz)\/([a-z0-9]{2,3}\/){3}[a-f0-9]{32}\.js$/$script,xmlhttprequest is excluded by "/^https?:\/\/(www\.)?([a-z0-9]{3,10}\.)?[a-z0-9]{5,25}\.(click|co|club|com|bid|date|download|men|net|network|online|party|pw|racing|review|site|space|stream|top|trade|webcam|website|win|xyz)\/([a-z0-9]{2,3}\/){3}[a-f0-9]{32}\.js$/$script,xmlhttprequest" in exclusions.txt
+/^https?:\/\/(www\.)?([a-z0-9]{3,10}\.)?[a-z0-9]{5,25}\.(click|co|club|com|bid|date|download|men|net|network|online|party|pw|racing|review|site|space|stream|top|trade|webcam|website|win|xyz)\/([a-z0-9]{2,3}\/){3}[a-f0-9]{32}\.js$/$script,xmlhttprequest
+! ||35.194.16.41^$third-party is excluded by "||35." in exclusions.txt
+||35.194.16.41^$third-party
+! ||35.194.26.233^$third-party is excluded by "||35." in exclusions.txt
+||35.194.26.233^$third-party
+! ||35.224.227.218^$third-party is excluded by "||35." in exclusions.txt
+||35.224.227.218^$third-party
+! ||35.225.234.73^$third-party is excluded by "||35." in exclusions.txt
+||35.225.234.73^$third-party
+! ||35.239.57.233^$third-party is excluded by "||35." in exclusions.txt
+||35.239.57.233^$third-party
+! ||104.154.237.$popup,third-party is excluded by "||104." in exclusions.txt
+||104.154.237.$popup,third-party
+! ||104.238.188.$popup,third-party is excluded by "||104." in exclusions.txt
+||104.238.188.$popup,third-party
+! ||104.238.189.$popup,third-party is excluded by "||104." in exclusions.txt
+||104.238.189.$popup,third-party
+! ||35.224.227.218^$popup,third-party is excluded by "||35." in exclusions.txt
+||35.224.227.218^$popup,third-party
+! ||netdna-ssl.com^$popup,third-party is excluded by "||netdna-ssl.com^$popup,third-party" in exclusions.txt
+||netdna-ssl.com^$popup,third-party
+! $popup,domain=1155xmv.com|123movie.cc|1fichier.com|1movietv.com|35.184.169.188|35.184.188.211|35.193.89.147|35.194.16.41|3movs.com|3rbup.com|7-up.net|9anime.to|9xupload.me|9xupload.xyz|abcvideo.cc|adf.ly|adfloz.co|adpop.me|adshort.co|adshort.im|adshort.me|adsrt.com|adsrt.me|adultproxy.men|adyou.co|adyou.me|ahbmryom.club|akvideo.stream|al.ly|allanalpass.com|allostreaming.co|ally.sh|an-online.com|anavids.com|animepertutticdn.com|any.gs|arabramadan.com|arabseed.me|arvancloud.com|arvanvod.com|assiatv.com|ay.gy|azvideo.net|babblecase.com|babesxworld.com|bc.vc|bdupload.asia|bdupload.info|bidzen.co|biter.tv|bonstreams.net|briskgram.net|byter.tv|cartoonwire.to|cash4files.com|channelstream.club|channelstream.me|chrt.pw|cimaclub.org|cineiz.co|cineiz.io|clickopen.club|clictune.com|clik.pw|clipconverter.cc|clipwatching.com|clk.sh|cloudvideo.tv|cocogals.com|convert2mp3.net|core1player.com|cpasbien.to|cpasbien0.com|cpasbien0.net|cpasbiens-netflix.com|cpasbiens-streaming.com|cpasbiens.net|d0stream.com|daclips.com|dailyuploads.net|darkomplayer.com|databasegdriveplayer.co|datoporn.co|dausel.co|ddl-francais.com|ddl.to|ddownload.com|desiupload.in|divxtotal1.org|dood.so|dood.to|dood.video|dood.watch|doodstream.com|down-paradise.com|downace.com|download.replaymod.com|dpstreaming.to|dropapk.com|dropapk.to|drstickyfingers.com|dwindly.io|dyo.gs|e-wok.tv|easyload.io|easyplayer.cc|easyvid.org|elitegol.live|embed-channel.stream|embed.media|embed.one|embed.tv|embedezcast.com|empireshort.com|escdn.co|espn-live.stream|estream.to|estream.xyz|etmirror.com|etproxy.com|europixhd.com|europixhd.net|evoload.io|exe.io|extremotvplay.com|exvcon.com|eztv-proxy.net|eztv.ag|eztv.io|eztv.tf|eztv.yt|fastplay.to|faststream.in|fc.lc|femax20.com|fembed.com|feurl.com|fflares.com|file-up.org|file-upload.com|filebebo.com|filerio.in|filescdn.com|filescdn.net|filesonthe.net|filmeonline.biz|filmhdstream.net|filmlecteur.info|filmstreamz.net|flashx.net|flashx.pw|flashx.tv|flowyourvideo.com|fmovie.cc|freean.us|freepornik.com|fsimg.info|fvs.io|g5u.pw|gamovideo.com|gaobook.review|gateaflam.com|gcloud.live|gdriveplayer.me|gdriveplayer.us|gdtot.com|gets-link.com|getsurl.com|gledajonline.net|gloyah.net|gnula.biz|go.ad2upapp.com|go4up.com|gomostream.com|gomovies.film|gomovies.pl|gomovies.sc|gomovieshub.io|goneviral.com|gorillavid.com|gostream.nu|gounlimited.to|govid.co|govid.me|gowatchseries.ac|gowatchseries.movie|gowatchseries.tv|gslink.co|gsurl.in|gsurl.me|guadeloupe-paradise.fr|gum-gum-stream.fr|gum-gum-stream.tv|gum-gum-streaming.co|gum-gum-streaming.com|h-l.icu|hash2magnet.com|hdeuropix.com|hdeuropix.io|hdfull.me|hdvid.fun|hdvid.online|hdvid.tv|heapfiles.com|hentai-paradise.fr|hiend.xyz|hindipix.in|holavid.com|hornywood.tv|hqq.to|hqq.tv|hqq.watch|hxfile.co|hydrax.net|iamcdn.net|ianimes.co|ianimes.org|ianimes.top|ifp.re|iframe-secure.com|iframe-secure.net|iframe-secured.com|iframesecure.com|imgchili.net|imgpeak.com|indishare.org|intoupload.net|islyce.gq|j.gs|janjua.pw|janjua.tv|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|jawcloud.co|jetload.net|jkanime.net|jwpstream.com|k-streaming.cc|k-streaming.ch|k-streaming.com|k-vid.co|k-vid.net|k2s.cc|kaitect.com|kastream.biz|kat.sx|katcr.io|katfile.com|kingvid.tv|kshows.to|kvid.org|kwik.cx|larati.net|lb.gogomovies.to|le-streaming.com|letsupload.co|letsupload.io|libertyvf.co|libertyvf.com|libertyvf.net|libertyvf.tv|liivideo.com|limetorrents.cc|linkbabes.com|linkbucks.com|linkcaptcha.net|linksof.life|linksoflife.co|lirescan.me|loadsubs.net|loadvid.online|macupload.net|magic-game.fr|makeurl.co|mangovideo.pw|mavplay.com|mavplay.xyz|mavplayer.xyz|mcloud.to|mcloud2.to|mediumarticles.com|megadrive.co|megaline.co|megaup.net|miniurls.co|mitly.us|mixdrop.co|mixdrop.to|monova.org|movcloud.net|moviefishers.org|movizland.org|movstream.net|mp3-youtube.download|mp3clan.it|mp3clan.ws|mp3guild.com|mp3guild.net|mp3im.org|mp4upload.com|mrdhan.com|mstream.best|mstream.fun|mstream.icu|mstream.press|mstream.rocks|mstream.space|mstream.tech|mstream.website|mstream.xyz|mylink.love|mylink.zone|mylink1.biz|mystream.io|mystream.to|myvidis.top|newdmn.icu|nidzen.co|ninjastream.to|nitroflare.com|notsmutty.com|novelplanet.me|nowvideo.club|nudogram.com|ocloud.stream|ofunmore.space|oko.sh|oload.party|oloadcdn.net|onlystream.tv|onmovies.to|onvid.pw|openload.cc|openload.fun|opensubtitles.org|openvideo.net|opsktp.com|ovid.online|ovid.pro|ovid.space|ovid.tv|ovid.xyz|papstream.co|papstream.com|papstream.net|papstream.xyz|pasteca.sh|pelispedia.co|pelispedia.tv|pframe.eu|picocurl.com|pintient.com|planet-streaming.com|planet-streaming.net|planet-streaming1.com|player.freebiesforyou.net|plink.re|poontown.net|povvideo.net|povwideo.cc|povwideo.net|powv1deo.cc|powvideo.cc|powvideo.net|powvideo.xyz|prettyfast.to|prfr.re|prifr.eu|protect-iframe.com|protect-link.biz|prozik.net|pstream.net|pururin.io|putlocker.ninja|putlockers.movie|q.gs|qqc.co|rapidgator.net|rapidvid.to|rd1.gamecopyworld.click|rdv-hard.com|restorecosm.bid|revivelink.com|riere.club|rojadirectaonlinetv.com|sandup.co|saveoffline.com|sblive.online|scispace.work|scuseami.net|secfilm.xyz|sendit.cloud|sendvid.com|seriousdeals.net|sexkino.to|short-url.link|short.pe|shrink-service.it|skstream.biz|skstream.cc|skstream.co|skstream.ws|smutty.com|solarmoviex.to|sonline.pro|sonyoutube.com|souqsky.net|sportzonline.to|srt.am|strcloud.club|strcloud.link|stream-zone.net|stream365.pro|stream4free.live|streamcdn.to|streamcloud.eu|streamhds.xyz|streaming-planet.com|streamlive.to|streamloverx.com|streamp1ay.cc|streamplay.to|streamsforu.com|streamtape.cc|streamtape.com|streamtape.net|streamtape.to|streamtape.xyz|streamty.com|streamup.xyz|streamvid.co|streamwire.net|streamx.me|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.club|strtapeadblock.me|superitu.com|supervideo.tv|suspents.info|svpri.xyz|szs.pw|tazmovies.com|telechargement-film.club|telechargement-film.co|telechargement-film.link|telecharger-videos-youtube.com|telechargerunevideo.com|telerium.club|telerium.digital|telerium.net|telerium.tv|teleriumtv.net|tellerium.com|there.to|theseblogs.com|theseforums.com|thevid.net|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|thevideobee.to|tinylinks.co|tinypic.com|tnabucks.com|tohds.me|toncinema.online|toonanime.xyz|topeuropix.com|topeuropix.net|torlock.com|torlock.icu|torlock2.com|torrentfunk.com|tusfiles.com|tusfiles.net|tv-porinternet.com|tvonlinestreams.com|tvrush.eu|uclaut.net|uii.io|ul.to|ultimedia.com|ultrafiles.net|unblockvid.com|up-4ever.com|up-4ever.org|upload.ac|upload4earn.org|uploadbyte.com|uploaded.net|uploadfiles.pw|uploadocean.com|uploadproper.com|uploadproper.net|uploadrar.com|uploadrocket.net|uploads.to|upornia.com|uppit.com|uppom.live|upstream.to|uptobox.com|uptostream.com|upvid.co|upvid.host|upvid.live|upvid.net|upvid.pro|uqload.com|uqload.org|uqvid.org|urlbeat.net|userload.co|userscloud.com|uv9ieb2ohr.com|vaplayer.xyz|vcrypt.net|vcstream.to|verystream.info|vev.io|vev.red|vid.ag|vidbem.com|vidbm.com|vidbom.com|vidcloud.co|vidembed.cc|videobin.co|videospider.in|videowood.tv|vidfast.co|vidhd.host|vidhd.online|vidhd.pro|vidhd.site|vidhd.space|vidhd.world|vidhos.com|vidia.tv|vidlo.us|vidlox.me|vidlox.tv|vidnode.net|vido.fun|vidon.club|vidon.xyz|vidop.icu|vidoza.co|vidoza.net|vidplayer.cz|vidshar.tv|vidshare.tv|vidsource.me|vidspeed.net|vidsrc.me|vidstream.kim|vidstream.to|vidstream.top|vidstreaming.io|vidtod.com|vidtodo.com|vidup.io|vidup.tv|viduplayer.com|vidwatch3.me|vidzen.co|vimple.me|vip7stream.pw|vipbox.live|vipleague.cc|vipleague.me|vipleague.pw|vipleague.se|vipleague.ws|viva-stream.net|vkpass.com|vodlocker.to|vshare.eu|vudeo.net|vup.to|w4files.ws|waaw.tv|waaw1.tv|watch4unow.com|watchcartoonsonline.eu|watchers.to|watchnnow.com|watchvideo.us|wenger.stream|whackyvidz.com|wstream.to|wstream.video|xdrive.cc|xfilesharing.com|xrares.com|xstreamcdn.com|xvideosharing.com|yggtorrent.site|yify.online|youdbox.com|younetu.com|yourbittorrent.com|yourupload.com|youtubedownloader.cx|youwatch.org|yts.ag|yts.lt|yts.mx|yts.pm|yyv.co|zipansion.com|zippyshare.com|zone-telechargement2.net is excluded by "/^\$popup,domain=[\s\S]*\|hqq\.tv\|[\s\S]*\|tinypic\.com\|/" in exclusions.txt
+$popup,domain=1155xmv.com|123movie.cc|1fichier.com|1movietv.com|35.184.169.188|35.184.188.211|35.193.89.147|35.194.16.41|3movs.com|3rbup.com|7-up.net|9anime.to|9xupload.me|9xupload.xyz|abcvideo.cc|adf.ly|adfloz.co|adpop.me|adshort.co|adshort.im|adshort.me|adsrt.com|adsrt.me|adultproxy.men|adyou.co|adyou.me|ahbmryom.club|akvideo.stream|al.ly|allanalpass.com|allostreaming.co|ally.sh|an-online.com|anavids.com|animepertutticdn.com|any.gs|arabramadan.com|arabseed.me|arvancloud.com|arvanvod.com|assiatv.com|ay.gy|azvideo.net|babblecase.com|babesxworld.com|bc.vc|bdupload.asia|bdupload.info|bidzen.co|biter.tv|bonstreams.net|briskgram.net|byter.tv|cartoonwire.to|cash4files.com|channelstream.club|channelstream.me|chrt.pw|cimaclub.org|cineiz.co|cineiz.io|clickopen.club|clictune.com|clik.pw|clipconverter.cc|clipwatching.com|clk.sh|cloudvideo.tv|cocogals.com|convert2mp3.net|core1player.com|cpasbien.to|cpasbien0.com|cpasbien0.net|cpasbiens-netflix.com|cpasbiens-streaming.com|cpasbiens.net|d0stream.com|daclips.com|dailyuploads.net|darkomplayer.com|databasegdriveplayer.co|datoporn.co|dausel.co|ddl-francais.com|ddl.to|ddownload.com|desiupload.in|divxtotal1.org|dood.so|dood.to|dood.video|dood.watch|doodstream.com|down-paradise.com|downace.com|download.replaymod.com|dpstreaming.to|dropapk.com|dropapk.to|drstickyfingers.com|dwindly.io|dyo.gs|e-wok.tv|easyload.io|easyplayer.cc|easyvid.org|elitegol.live|embed-channel.stream|embed.media|embed.one|embed.tv|embedezcast.com|empireshort.com|escdn.co|espn-live.stream|estream.to|estream.xyz|etmirror.com|etproxy.com|europixhd.com|europixhd.net|evoload.io|exe.io|extremotvplay.com|exvcon.com|eztv-proxy.net|eztv.ag|eztv.io|eztv.tf|eztv.yt|fastplay.to|faststream.in|fc.lc|femax20.com|fembed.com|feurl.com|fflares.com|file-up.org|file-upload.com|filebebo.com|filerio.in|filescdn.com|filescdn.net|filesonthe.net|filmeonline.biz|filmhdstream.net|filmlecteur.info|filmstreamz.net|flashx.net|flashx.pw|flashx.tv|flowyourvideo.com|fmovie.cc|freean.us|freepornik.com|fsimg.info|fvs.io|g5u.pw|gamovideo.com|gaobook.review|gateaflam.com|gcloud.live|gdriveplayer.me|gdriveplayer.us|gdtot.com|gets-link.com|getsurl.com|gledajonline.net|gloyah.net|gnula.biz|go.ad2upapp.com|go4up.com|gomostream.com|gomovies.film|gomovies.pl|gomovies.sc|gomovieshub.io|goneviral.com|gorillavid.com|gostream.nu|gounlimited.to|govid.co|govid.me|gowatchseries.ac|gowatchseries.movie|gowatchseries.tv|gslink.co|gsurl.in|gsurl.me|guadeloupe-paradise.fr|gum-gum-stream.fr|gum-gum-stream.tv|gum-gum-streaming.co|gum-gum-streaming.com|h-l.icu|hash2magnet.com|hdeuropix.com|hdeuropix.io|hdfull.me|hdvid.fun|hdvid.online|hdvid.tv|heapfiles.com|hentai-paradise.fr|hiend.xyz|hindipix.in|holavid.com|hornywood.tv|hqq.to|hqq.tv|hqq.watch|hxfile.co|hydrax.net|iamcdn.net|ianimes.co|ianimes.org|ianimes.top|ifp.re|iframe-secure.com|iframe-secure.net|iframe-secured.com|iframesecure.com|imgchili.net|imgpeak.com|indishare.org|intoupload.net|islyce.gq|j.gs|janjua.pw|janjua.tv|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|jawcloud.co|jetload.net|jkanime.net|jwpstream.com|k-streaming.cc|k-streaming.ch|k-streaming.com|k-vid.co|k-vid.net|k2s.cc|kaitect.com|kastream.biz|kat.sx|katcr.io|katfile.com|kingvid.tv|kshows.to|kvid.org|kwik.cx|larati.net|lb.gogomovies.to|le-streaming.com|letsupload.co|letsupload.io|libertyvf.co|libertyvf.com|libertyvf.net|libertyvf.tv|liivideo.com|limetorrents.cc|linkbabes.com|linkbucks.com|linkcaptcha.net|linksof.life|linksoflife.co|lirescan.me|loadsubs.net|loadvid.online|macupload.net|magic-game.fr|makeurl.co|mangovideo.pw|mavplay.com|mavplay.xyz|mavplayer.xyz|mcloud.to|mcloud2.to|mediumarticles.com|megadrive.co|megaline.co|megaup.net|miniurls.co|mitly.us|mixdrop.co|mixdrop.to|monova.org|movcloud.net|moviefishers.org|movizland.org|movstream.net|mp3-youtube.download|mp3clan.it|mp3clan.ws|mp3guild.com|mp3guild.net|mp3im.org|mp4upload.com|mrdhan.com|mstream.best|mstream.fun|mstream.icu|mstream.press|mstream.rocks|mstream.space|mstream.tech|mstream.website|mstream.xyz|mylink.love|mylink.zone|mylink1.biz|mystream.io|mystream.to|myvidis.top|newdmn.icu|nidzen.co|ninjastream.to|nitroflare.com|notsmutty.com|novelplanet.me|nowvideo.club|nudogram.com|ocloud.stream|ofunmore.space|oko.sh|oload.party|oloadcdn.net|onlystream.tv|onmovies.to|onvid.pw|openload.cc|openload.fun|opensubtitles.org|openvideo.net|opsktp.com|ovid.online|ovid.pro|ovid.space|ovid.tv|ovid.xyz|papstream.co|papstream.com|papstream.net|papstream.xyz|pasteca.sh|pelispedia.co|pelispedia.tv|pframe.eu|picocurl.com|pintient.com|planet-streaming.com|planet-streaming.net|planet-streaming1.com|player.freebiesforyou.net|plink.re|poontown.net|povvideo.net|povwideo.cc|povwideo.net|powv1deo.cc|powvideo.cc|powvideo.net|powvideo.xyz|prettyfast.to|prfr.re|prifr.eu|protect-iframe.com|protect-link.biz|prozik.net|pstream.net|pururin.io|putlocker.ninja|putlockers.movie|q.gs|qqc.co|rapidgator.net|rapidvid.to|rd1.gamecopyworld.click|rdv-hard.com|restorecosm.bid|revivelink.com|riere.club|rojadirectaonlinetv.com|sandup.co|saveoffline.com|sblive.online|scispace.work|scuseami.net|secfilm.xyz|sendit.cloud|sendvid.com|seriousdeals.net|sexkino.to|short-url.link|short.pe|shrink-service.it|skstream.biz|skstream.cc|skstream.co|skstream.ws|smutty.com|solarmoviex.to|sonline.pro|sonyoutube.com|souqsky.net|sportzonline.to|srt.am|strcloud.club|strcloud.link|stream-zone.net|stream365.pro|stream4free.live|streamcdn.to|streamcloud.eu|streamhds.xyz|streaming-planet.com|streamlive.to|streamloverx.com|streamp1ay.cc|streamplay.to|streamsforu.com|streamtape.cc|streamtape.com|streamtape.net|streamtape.to|streamtape.xyz|streamty.com|streamup.xyz|streamvid.co|streamwire.net|streamx.me|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.club|strtapeadblock.me|superitu.com|supervideo.tv|suspents.info|svpri.xyz|szs.pw|tazmovies.com|telechargement-film.club|telechargement-film.co|telechargement-film.link|telecharger-videos-youtube.com|telechargerunevideo.com|telerium.club|telerium.digital|telerium.net|telerium.tv|teleriumtv.net|tellerium.com|there.to|theseblogs.com|theseforums.com|thevid.net|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|thevideobee.to|tinylinks.co|tinypic.com|tnabucks.com|tohds.me|toncinema.online|toonanime.xyz|topeuropix.com|topeuropix.net|torlock.com|torlock.icu|torlock2.com|torrentfunk.com|tusfiles.com|tusfiles.net|tv-porinternet.com|tvonlinestreams.com|tvrush.eu|uclaut.net|uii.io|ul.to|ultimedia.com|ultrafiles.net|unblockvid.com|up-4ever.com|up-4ever.org|upload.ac|upload4earn.org|uploadbyte.com|uploaded.net|uploadfiles.pw|uploadocean.com|uploadproper.com|uploadproper.net|uploadrar.com|uploadrocket.net|uploads.to|upornia.com|uppit.com|uppom.live|upstream.to|uptobox.com|uptostream.com|upvid.co|upvid.host|upvid.live|upvid.net|upvid.pro|uqload.com|uqload.org|uqvid.org|urlbeat.net|userload.co|userscloud.com|uv9ieb2ohr.com|vaplayer.xyz|vcrypt.net|vcstream.to|verystream.info|vev.io|vev.red|vid.ag|vidbem.com|vidbm.com|vidbom.com|vidcloud.co|vidembed.cc|videobin.co|videospider.in|videowood.tv|vidfast.co|vidhd.host|vidhd.online|vidhd.pro|vidhd.site|vidhd.space|vidhd.world|vidhos.com|vidia.tv|vidlo.us|vidlox.me|vidlox.tv|vidnode.net|vido.fun|vidon.club|vidon.xyz|vidop.icu|vidoza.co|vidoza.net|vidplayer.cz|vidshar.tv|vidshare.tv|vidsource.me|vidspeed.net|vidsrc.me|vidstream.kim|vidstream.to|vidstream.top|vidstreaming.io|vidtod.com|vidtodo.com|vidup.io|vidup.tv|viduplayer.com|vidwatch3.me|vidzen.co|vimple.me|vip7stream.pw|vipbox.live|vipleague.cc|vipleague.me|vipleague.pw|vipleague.se|vipleague.ws|viva-stream.net|vkpass.com|vodlocker.to|vshare.eu|vudeo.net|vup.to|w4files.ws|waaw.tv|waaw1.tv|watch4unow.com|watchcartoonsonline.eu|watchers.to|watchnnow.com|watchvideo.us|wenger.stream|whackyvidz.com|wstream.to|wstream.video|xdrive.cc|xfilesharing.com|xrares.com|xstreamcdn.com|xvideosharing.com|yggtorrent.site|yify.online|youdbox.com|younetu.com|yourbittorrent.com|yourupload.com|youtubedownloader.cx|youwatch.org|yts.ag|yts.lt|yts.mx|yts.pm|yyv.co|zipansion.com|zippyshare.com|zone-telechargement2.net
+! $popup,~third-party,domain=9divx.org|a40ans.com|airsexe.com|amateurdusexe.com|amatrys.com|clicknupload.co|clicknupload.org|configspc.com|cpasbien.reviews|cutwi.in|exotrik.com|gareauxcoquines.com|machinasexe.com|mrsexe.com|mustvideos.com|plan-sex.net|plancul-gratuit.fr|plancul-gratuit.org|pornz.fr|rabbitfinder.com|seriehentai.com|sexandtrash.com|sexeautop.com|sillonsdeculture.fr|streaming-hard.org|strip-webcam.com|thefrenchporn.com|torrent9-super.com|touzai-sekai.fr|vidshort.net|wallagain.cc|wiid.me|youwatch-series.com is excluded by "$popup,~third-party" in exclusions.txt
+$popup,~third-party,domain=9divx.org|a40ans.com|airsexe.com|amateurdusexe.com|amatrys.com|clicknupload.co|clicknupload.org|configspc.com|cpasbien.reviews|cutwi.in|exotrik.com|gareauxcoquines.com|machinasexe.com|mrsexe.com|mustvideos.com|plan-sex.net|plancul-gratuit.fr|plancul-gratuit.org|pornz.fr|rabbitfinder.com|seriehentai.com|sexandtrash.com|sexeautop.com|sillonsdeculture.fr|streaming-hard.org|strip-webcam.com|thefrenchporn.com|torrent9-super.com|touzai-sekai.fr|vidshort.net|wallagain.cc|wiid.me|youwatch-series.com
+! ||out.pladform.ru^ is excluded by "/^\|\|out\.pladform\.ru\^$/" in exclusions.txt
+||out.pladform.ru^
+! ||1divx.co/*-film-$popup,~third-party is excluded by "$popup,~third-party" in exclusions.txt
 ||1divx.co/*-film-$popup,~third-party
-! ||9divx.org^$popup,~third-party is excluded by: $popup,~third-party
-||9divx.org^$popup,~third-party
-! ||a40ans.com^$popup,~third-party is excluded by: $popup,~third-party
-||a40ans.com^$popup,~third-party
-! ||airsexe.com^$popup,~third-party is excluded by: $popup,~third-party
-||airsexe.com^$popup,~third-party
-! ||amateurdusexe.com^$popup,~third-party is excluded by: $popup,~third-party
-||amateurdusexe.com^$popup,~third-party
-! ||anilinkz.$popup,~third-party is excluded by: $popup,~third-party
+! ||anilinkz.$popup,~third-party is excluded by "$popup,~third-party" in exclusions.txt
 ||anilinkz.$popup,~third-party
-! ||configspc.com^$popup,~third-party is excluded by: $popup,~third-party
-||configspc.com^$popup,~third-party
-! ||exotrik.com^$popup,~third-party is excluded by: $popup,~third-party
-||exotrik.com^$popup,~third-party
-! ||filerio.in^$popup,~third-party is excluded by: $popup,~third-party
-||filerio.in^$popup,~third-party
-! ||frmovies.me^$popup,~third-party is excluded by: $popup,~third-party
-||frmovies.me^$popup,~third-party
-! ||govoyages.com^$popup,~third-party is excluded by: $popup,~third-party
-||govoyages.com^$popup,~third-party
-! ||jeddl.co^$popup,~third-party is excluded by: $popup,~third-party
-||jeddl.co^$popup,~third-party
-! ||machinasexe.com^$popup,~third-party is excluded by: $popup,~third-party
-||machinasexe.com^$popup,~third-party
-! ||mustvideos.com^$popup,~third-party is excluded by: $popup,~third-party
-||mustvideos.com^$popup,~third-party
-! ||opodo.fr^$popup,~third-party is excluded by: $popup,~third-party
-||opodo.fr^$popup,~third-party
-! ||plan-sex.net^$popup,~third-party is excluded by: $popup,~third-party
-||plan-sex.net^$popup,~third-party
-! ||plancul-gratuit.fr^$popup,~third-party is excluded by: $popup,~third-party
-||plancul-gratuit.fr^$popup,~third-party
-! ||porno-2luxe.com^$popup,~third-party is excluded by: $popup,~third-party
-||porno-2luxe.com^$popup,~third-party
-! ||pornz.fr^$popup,~third-party is excluded by: $popup,~third-party
-||pornz.fr^$popup,~third-party
-! ||rabbitfinder.com^$popup,~third-party is excluded by: $popup,~third-party
-||rabbitfinder.com^$popup,~third-party
-! ||seriehentai.com^$popup,~third-party is excluded by: $popup,~third-party
-||seriehentai.com^$popup,~third-party
-! ||sexeautop.com^$popup,~third-party is excluded by: $popup,~third-party
-||sexeautop.com^$popup,~third-party
-! ||sexecine.com^$popup,~third-party is excluded by: $popup,~third-party
-||sexecine.com^$popup,~third-party
-! ||streaming-hardcore.com^$popup,~third-party is excluded by: $popup,~third-party
-||streaming-hardcore.com^$popup,~third-party
-! ||telechargement-film.org^$popup,~third-party is excluded by: $popup,~third-party
-||telechargement-film.org^$popup,~third-party
-! ||thefrenchporn.com^$popup,~third-party is excluded by: $popup,~third-party
-||thefrenchporn.com^$popup,~third-party
-! ||youwatch-series.com^$popup,~third-party is excluded by: $popup,~third-party
-||youwatch-series.com^$popup,~third-party
-! igen.fr##.article > div + [class] [id]:last-child[-abp-properties='background-image:*;'] is excluded by: [-abp-properties
-igen.fr##.article > div + [class] [id]:last-child[-abp-properties='background-image:*;']
-! macg.co##.article > div > div > [class]:last-child[-abp-properties='background-image:*;'] is excluded by: [-abp-properties
-macg.co##.article > div > div > [class]:last-child[-abp-properties='background-image:*;']
-! igen.fr##.article [-abp-properties='cursor: pointer;'] is excluded by: [-abp-properties
-igen.fr##.article [-abp-properties='cursor: pointer;']
-! igen.fr##.article a[-abp-properties='background-image: *;'] is excluded by: [-abp-properties
-igen.fr##.article a[-abp-properties='background-image: *;']
-! igen.fr##.article a[-abp-properties='display: block;'] is excluded by: [-abp-properties
-igen.fr##.article a[-abp-properties='display: block;']
-! macg.co##.article div a[-abp-properties='background-image: *;'] is excluded by: [-abp-properties
-macg.co##.article div a[-abp-properties='background-image: *;']
-! igen.fr,macg.co##.article span[-abp-properties='background-image: *;'] is excluded by: [-abp-properties
-igen.fr,macg.co##.article span[-abp-properties='background-image: *;']
-! igen.fr,macg.co##.article span[-abp-properties='padding-top: *px;'] is excluded by: [-abp-properties
-igen.fr,macg.co##.article span[-abp-properties='padding-top: *px;']
-! igen.fr##.content [-abp-properties='height: 60*px;'] is excluded by: [-abp-properties
-igen.fr##.content [-abp-properties='height: 60*px;']
-! igen.fr##.content [-abp-properties='width: 30*px;'] is excluded by: [-abp-properties
-igen.fr##.content [-abp-properties='width: 30*px;']
-! igen.fr##.region-sidebar a[-abp-properties='*'] is excluded by: [-abp-properties
-igen.fr##.region-sidebar a[-abp-properties='*']
-! igen.fr##.sidebar [-abp-properties='cursor: pointer;'] is excluded by: [-abp-properties
-igen.fr##.sidebar [-abp-properties='cursor: pointer;']
-! igen.fr##.view-content [-abp-properties='background-image:*;'] is excluded by: [-abp-properties
-igen.fr##.view-content [-abp-properties='background-image:*;']
-! igen.fr,macg.co,watchgeneration.fr##[-abp-properties='*: 300px;'] is excluded by: [-abp-properties
-igen.fr,macg.co,watchgeneration.fr##[-abp-properties='*: 300px;']
-! femmesplus.fr,medisite.fr,planet.fr##[-abp-properties='background-image: *;'] is excluded by: [-abp-properties
-femmesplus.fr,medisite.fr,planet.fr##[-abp-properties='background-image: *;']
-! igen.fr,macg.co##[-abp-properties='background-image: url(*;'] is excluded by: [-abp-properties
-igen.fr,macg.co##[-abp-properties='background-image: url(*;']
-! amateur-sexe.fr,annoncedesexe.com,jeux-hentai.com##[-abp-properties='base64'] is excluded by: [-abp-properties
-amateur-sexe.fr,annoncedesexe.com,jeux-hentai.com##[-abp-properties='base64']
-! igen.fr,macg.co,watchgeneration.fr##[-abp-properties='content:*;'] is excluded by: [-abp-properties
-igen.fr,macg.co,watchgeneration.fr##[-abp-properties='content:*;']
-! amateur-sexe.fr,annoncedesexe.com,jeux-hentai.com,senscritique.com,seriehentai.com##[-abp-properties='data:'] is excluded by: [-abp-properties
-amateur-sexe.fr,annoncedesexe.com,jeux-hentai.com,senscritique.com,seriehentai.com##[-abp-properties='data:']
-! igen.fr,macg.co,watchgeneration.fr##[-abp-properties='display: inherit;'] is excluded by: [-abp-properties
-igen.fr,macg.co,watchgeneration.fr##[-abp-properties='display: inherit;']
-! igen.fr##[-abp-properties='height: 61*px;'] is excluded by: [-abp-properties
-igen.fr##[-abp-properties='height: 61*px;']
-! igen.fr##[-abp-properties='height: 62*px;'] is excluded by: [-abp-properties
-igen.fr##[-abp-properties='height: 62*px;']
-! igen.fr,macg.co##[-abp-properties='padding-bottom: 50*px;'] is excluded by: [-abp-properties
-igen.fr,macg.co##[-abp-properties='padding-bottom: 50*px;']
-! igen.fr##[-abp-properties='width: 31*px;'] is excluded by: [-abp-properties
-igen.fr##[-abp-properties='width: 31*px;']
-! igen.fr##[-abp-properties='width: 32*px;'] is excluded by: [-abp-properties
-igen.fr##[-abp-properties='width: 32*px;']
-! uploads.to##[-abp-properties='z-index: *'] is excluded by: [-abp-properties
-uploads.to##[-abp-properties='z-index: *']
-! lucariostream.eu##[-abp-properties='z-index: 999*;'] is excluded by: [-abp-properties
-lucariostream.eu##[-abp-properties='z-index: 999*;']
-! macg.co##article > a[-abp-properties='*'] > img is excluded by: [-abp-properties
-macg.co##article > a[-abp-properties='*'] > img
-! ccm.net#?#.ccm_list_catch__item:-abp-contains(Sponsored) is excluded by: #?#
-ccm.net#?#.ccm_list_catch__item:-abp-contains(Sponsored)
-! commentcamarche.net#?#.ccm_list_catch__item:-abp-contains(Annonces) is excluded by: #?#
-commentcamarche.net#?#.ccm_list_catch__item:-abp-contains(Annonces)
-! dzgeek.com#?#li + .postbit:-abp-has(img[src$="/avatars/partenaire.png"]) is excluded by: #?#
-dzgeek.com#?#li + .postbit:-abp-has(img[src$="/avatars/partenaire.png"])
-! extreme-down.pro#?#a:-abp-contains(usenet) is excluded by: #?#
-extreme-down.pro#?#a:-abp-contains(usenet)
-! femmesplus.fr,igen.fr,medisite.fr#?#:-abp-properties(cursor: pointer;) is excluded by: #?#
-femmesplus.fr,igen.fr,medisite.fr#?#:-abp-properties(cursor: pointer;)
-! forumconstruire.com#?#div.post_classic:-abp-has(.post_classic_pseudo:-abp-contains(Autopromo)) is excluded by: #?#
-forumconstruire.com#?#div.post_classic:-abp-has(.post_classic_pseudo:-abp-contains(Autopromo))
-! forumpiscine.com#?#div[id][class^="postbox_forum_"]:-abp-has(.forum_pseudo_contener:-abp-contains(Autopromo)) is excluded by: #?#
-forumpiscine.com#?#div[id][class^="postbox_forum_"]:-abp-has(.forum_pseudo_contener:-abp-contains(Autopromo))
-! frandroid.com#?#.post-preview:-abp-has(.sponsoring-brand-link) is excluded by: #?#
-frandroid.com#?#.post-preview:-abp-has(.sponsoring-brand-link)
-! ifp.re,ifpx.xyz,mp3free.pw,pandos2play.free.fr,piframe.tk,protect-stream.com,ultimate-catch.eu,soap-passion.com#?#:-abp-properties(opacity:) is excluded by: #?#
-ifp.re,ifpx.xyz,mp3free.pw,pandos2play.free.fr,piframe.tk,protect-stream.com,ultimate-catch.eu,soap-passion.com#?#:-abp-properties(opacity:)
-! radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(!important;) is excluded by: #?#
-radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(!important;)
-! radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(cursor:) is excluded by: #?#
-radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(cursor:)
-! radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(display:) is excluded by: #?#
-radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(display:)
-! radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(inherit;) is excluded by: #?#
-radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(inherit;)
-! radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(pointer-events:) is excluded by: #?#
-radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(pointer-events:)
-! radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(position:) is excluded by: #?#
-radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#:-abp-properties(position:)
-! radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#[class][style]:-abp-contains(Anzeige) is excluded by: #?#
-radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#[class][style]:-abp-contains(Anzeige)
-! radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#[id][style]:-abp-contains(Anzeige) is excluded by: #?#
-radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#[id][style]:-abp-contains(Anzeige)
-! radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#[id][style]:-abp-has(img) is excluded by: #?#
-radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se#?#[id][style]:-abp-has(img)
-! facebook.com#?#.userContentWrapper:-abp-contains(Sponsorisé) is excluded by: #?#
+! ||toonanime.*/templates/$popup,~third-party is excluded by "$popup,~third-party" in exclusions.txt
+||toonanime.*/templates/$popup,~third-party
+! ##.an-advert-banner is excluded by "/##\.an-advert-banner$/" in exclusions.txt
+##.an-advert-banner
+! ##.an-sponsored is excluded by "/##\.an-sponsored$/" in exclusions.txt
+##.an-sponsored
+! ##a[href*=".taobao.com/"] is excluded by "##a[href*=".taobao.com/"]" in exclusions.txt
+##a[href*=".taobao.com/"]
+! ##a[href*="/apu.php?zoneid="] is excluded by ".php?zoneid=" in exclusions.txt
+##a[href*="/apu.php?zoneid="]
+! ##div[class^="div-gpt-ad"] is excluded by "/^##div\[class\^="div-gpt-ad"\]$/" in exclusions.txt
+##div[class^="div-gpt-ad"]
+! pandos2play.free.fr,soap-passion.com,ultimate-catch.eu#?#:-abp-properties(opacity:) is excluded by "-abp-properties" in exclusions.txt
+pandos2play.free.fr,soap-passion.com,ultimate-catch.eu#?#:-abp-properties(opacity:)
+! senscritique.com,seriehentai.com#?#:-abp-properties(data:) is excluded by "-abp-properties" in exclusions.txt
+senscritique.com,seriehentai.com#?#:-abp-properties(data:)
+! voyageforum.com#?#div[id]:-abp-properties(height: 127*px;) is excluded by "-abp-properties" in exclusions.txt
+voyageforum.com#?#div[id]:-abp-properties(height: 127*px;)
+! facebook.com#?#.userContentWrapper:-abp-contains(Sponsorisé) is excluded by "facebook.com#?#" in exclusions.txt
 facebook.com#?#.userContentWrapper:-abp-contains(Sponsorisé)
-! facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(Sponsorisé)) is excluded by: #?#
+! facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(Nebulus)) is excluded by "facebook.com#?#" in exclusions.txt
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(Nebulus))
+! facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(Sponsorisé)) is excluded by "facebook.com#?#" in exclusions.txt
 facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(Sponsorisé))
-! facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href="#"]:-abp-contains(Sponsorisé)) is excluded by: #?#
+! facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href="#"]:-abp-contains(Sponsorisé)) is excluded by "facebook.com#?#" in exclusions.txt
 facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href="#"]:-abp-contains(Sponsorisé))
-! facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href="#"]:-abp-properties(content: "Sponsorisé")) is excluded by: #?#
+! facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href="#"]:-abp-properties(content: "Sponsorisé")) is excluded by "-abp-properties" in exclusions.txt
 facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href="#"]:-abp-properties(content: "Sponsorisé"))
-! |http://*.lol/$third-party,xmlhttprequest,domain=actu95.net|addons-wow.fr|adunblock.com|adunblock.fr|annuaire-bleu.net|annuaire-email.net|anthonix.fr|arpac.eu|basket-ballworld.fr|blog-bibi.com|chrono-frise.fr|consoledejeux.info|femmes-de-footballeurs.fr|gamewinner.fr|jeuxvideo24.com|lesarbres.fr|lil-life.com|meilleur-vpn.biz|nifoune.com|ocre-annuaire.net|physagreg.fr|space-blogs.com|space-blogs.net|teranya.fr|ulg-droit.be|xavbox.com|xavbox.info|xavbox360.com|xavboxcube.com|xavboxds.com|xavboxforum.com|xavboxnews.com|xavboxone.com|xavboxphone.com|xavboxps2.com|xavboxps3.com|xavboxpsp.com|xavboxtuning.com is excluded by: |http://*
-|http://*.lol/$third-party,xmlhttprequest,domain=actu95.net|addons-wow.fr|adunblock.com|adunblock.fr|annuaire-bleu.net|annuaire-email.net|anthonix.fr|arpac.eu|basket-ballworld.fr|blog-bibi.com|chrono-frise.fr|consoledejeux.info|femmes-de-footballeurs.fr|gamewinner.fr|jeuxvideo24.com|lesarbres.fr|lil-life.com|meilleur-vpn.biz|nifoune.com|ocre-annuaire.net|physagreg.fr|space-blogs.com|space-blogs.net|teranya.fr|ulg-droit.be|xavbox.com|xavbox.info|xavbox360.com|xavboxcube.com|xavboxds.com|xavboxforum.com|xavboxnews.com|xavboxone.com|xavboxphone.com|xavboxps2.com|xavboxps3.com|xavboxpsp.com|xavboxtuning.com
-! |http://*.tech/$third-party,xmlhttprequest,domain=actu95.net|addons-wow.fr|adunblock.com|adunblock.fr|annuaire-bleu.net|annuaire-email.net|anthonix.fr|arpac.eu|basket-ballworld.fr|blog-bibi.com|chrono-frise.fr|consoledejeux.info|femmes-de-footballeurs.fr|gamewinner.fr|jeuxvideo24.com|lesarbres.fr|lil-life.com|meilleur-vpn.biz|nifoune.com|ocre-annuaire.net|physagreg.fr|space-blogs.com|space-blogs.net|teranya.fr|ulg-droit.be|xavbox.com|xavbox.info|xavbox360.com|xavboxcube.com|xavboxds.com|xavboxforum.com|xavboxnews.com|xavboxone.com|xavboxphone.com|xavboxps2.com|xavboxps3.com|xavboxpsp.com|xavboxtuning.com is excluded by: |http://*
-|http://*.tech/$third-party,xmlhttprequest,domain=actu95.net|addons-wow.fr|adunblock.com|adunblock.fr|annuaire-bleu.net|annuaire-email.net|anthonix.fr|arpac.eu|basket-ballworld.fr|blog-bibi.com|chrono-frise.fr|consoledejeux.info|femmes-de-footballeurs.fr|gamewinner.fr|jeuxvideo24.com|lesarbres.fr|lil-life.com|meilleur-vpn.biz|nifoune.com|ocre-annuaire.net|physagreg.fr|space-blogs.com|space-blogs.net|teranya.fr|ulg-droit.be|xavbox.com|xavbox.info|xavbox360.com|xavboxcube.com|xavboxds.com|xavboxforum.com|xavboxnews.com|xavboxone.com|xavboxphone.com|xavboxps2.com|xavboxps3.com|xavboxpsp.com|xavboxtuning.com
-! |http://*.top/$third-party,xmlhttprequest,domain=actu95.net|addons-wow.fr|adunblock.com|adunblock.fr|annuaire-bleu.net|annuaire-email.net|anthonix.fr|arpac.eu|basket-ballworld.fr|blog-bibi.com|chrono-frise.fr|consoledejeux.info|femmes-de-footballeurs.fr|gamewinner.fr|jeuxvideo24.com|lesarbres.fr|lil-life.com|meilleur-vpn.biz|nifoune.com|ocre-annuaire.net|physagreg.fr|space-blogs.com|space-blogs.net|teranya.fr|ulg-droit.be|xavbox.com|xavbox.info|xavbox360.com|xavboxcube.com|xavboxds.com|xavboxforum.com|xavboxnews.com|xavboxone.com|xavboxphone.com|xavboxps2.com|xavboxps3.com|xavboxpsp.com|xavboxtuning.com is excluded by: |http://*
-|http://*.top/$third-party,xmlhttprequest,domain=actu95.net|addons-wow.fr|adunblock.com|adunblock.fr|annuaire-bleu.net|annuaire-email.net|anthonix.fr|arpac.eu|basket-ballworld.fr|blog-bibi.com|chrono-frise.fr|consoledejeux.info|femmes-de-footballeurs.fr|gamewinner.fr|jeuxvideo24.com|lesarbres.fr|lil-life.com|meilleur-vpn.biz|nifoune.com|ocre-annuaire.net|physagreg.fr|space-blogs.com|space-blogs.net|teranya.fr|ulg-droit.be|xavbox.com|xavbox.info|xavbox360.com|xavboxcube.com|xavboxds.com|xavboxforum.com|xavboxnews.com|xavboxone.com|xavboxphone.com|xavboxps2.com|xavboxps3.com|xavboxpsp.com|xavboxtuning.com
-! |http://*.xyz/$third-party,xmlhttprequest,domain=actu95.net|addons-wow.fr|adunblock.com|adunblock.fr|annuaire-bleu.net|annuaire-email.net|anthonix.fr|arpac.eu|basket-ballworld.fr|blog-bibi.com|chrono-frise.fr|consoledejeux.info|femmes-de-footballeurs.fr|gamewinner.fr|jeuxvideo24.com|lesarbres.fr|lil-life.com|meilleur-vpn.biz|nifoune.com|ocre-annuaire.net|physagreg.fr|space-blogs.com|space-blogs.net|teranya.fr|ulg-droit.be|xavbox.com|xavbox.info|xavbox360.com|xavboxcube.com|xavboxds.com|xavboxforum.com|xavboxnews.com|xavboxone.com|xavboxphone.com|xavboxps2.com|xavboxps3.com|xavboxpsp.com|xavboxtuning.com is excluded by: |http://*
-|http://*.xyz/$third-party,xmlhttprequest,domain=actu95.net|addons-wow.fr|adunblock.com|adunblock.fr|annuaire-bleu.net|annuaire-email.net|anthonix.fr|arpac.eu|basket-ballworld.fr|blog-bibi.com|chrono-frise.fr|consoledejeux.info|femmes-de-footballeurs.fr|gamewinner.fr|jeuxvideo24.com|lesarbres.fr|lil-life.com|meilleur-vpn.biz|nifoune.com|ocre-annuaire.net|physagreg.fr|space-blogs.com|space-blogs.net|teranya.fr|ulg-droit.be|xavbox.com|xavbox.info|xavbox360.com|xavboxcube.com|xavboxds.com|xavboxforum.com|xavboxnews.com|xavboxone.com|xavboxphone.com|xavboxps2.com|xavboxps3.com|xavboxpsp.com|xavboxtuning.com
-! |http://*/ZGdraDt2O21lamtiO2E4MD is excluded by: |http://*
-|http://*/ZGdraDt2O21lamtiO2E4MD
-! |http://*=|$xmlhttprequest,domain=actu95.net|addons-wow.fr|adunblock.com|adunblock.fr|annuaire-bleu.net|annuaire-email.net|anthonix.fr|arpac.eu|basket-ballworld.fr|blog-bibi.com|chrono-frise.fr|consoledejeux.info|femmes-de-footballeurs.fr|gamewinner.fr|jeuxvideo24.com|lesarbres.fr|lil-life.com|meilleur-vpn.biz|nifoune.com|ocre-annuaire.net|physagreg.fr|space-blogs.com|space-blogs.net|teranya.fr|ulg-droit.be|xavbox.com|xavbox.info|xavbox360.com|xavboxcube.com|xavboxds.com|xavboxforum.com|xavboxnews.com|xavboxone.com|xavboxphone.com|xavboxps2.com|xavboxps3.com|xavboxpsp.com|xavboxtuning.com is excluded by: |http://*
-|http://*=|$xmlhttprequest,domain=actu95.net|addons-wow.fr|adunblock.com|adunblock.fr|annuaire-bleu.net|annuaire-email.net|anthonix.fr|arpac.eu|basket-ballworld.fr|blog-bibi.com|chrono-frise.fr|consoledejeux.info|femmes-de-footballeurs.fr|gamewinner.fr|jeuxvideo24.com|lesarbres.fr|lil-life.com|meilleur-vpn.biz|nifoune.com|ocre-annuaire.net|physagreg.fr|space-blogs.com|space-blogs.net|teranya.fr|ulg-droit.be|xavbox.com|xavbox.info|xavbox360.com|xavboxcube.com|xavboxds.com|xavboxforum.com|xavboxnews.com|xavboxone.com|xavboxphone.com|xavboxps2.com|xavboxps3.com|xavboxpsp.com|xavboxtuning.com
-! Duplicated:
-||bestfreecounterstat.com^$third-party
-! Duplicated:
-||1yqbp.com^$third-party
-! Duplicated:
-||baiduccdn1.com^$third-party
-! Duplicated:
-||mercy.ga^$third-party
-! Duplicated:
-||adzs.com^$popup,third-party
-! Duplicated:
-||clickzzs.nl^$popup,third-party
-! Duplicated:
-||scripmode.info^$popup,third-party
+! facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(span:-abp-contains(/Post suggéré|Vidéo suggéré/)) is excluded by "facebook.com#?#" in exclusions.txt
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(span:-abp-contains(/Post suggéré|Vidéo suggéré/))
+! @@||7-up.net/embed-$popup,~third-party is excluded by "$popup,~third-party" in exclusions.txt
+@@||7-up.net/embed-$popup,~third-party
+! @@||e-casier.mjustice.dz^$popup,~third-party is excluded by "$popup,~third-party" in exclusions.txt
+@@||e-casier.mjustice.dz^$popup,~third-party
+! @@||thepiratebay.org/description.php?id=$popup,~third-party is excluded by "$popup,~third-party" in exclusions.txt
+@@||thepiratebay.org/description.php?id=$popup,~third-party
+! Rule "||delivery.tf1.fr/pub$media,rewrite=abp-resource:blank-mp3,domain=tf1.fr" converted to: "||delivery.tf1.fr/pub$media,redirect=noopmp3-0.1s,domain=tf1.fr"
+||delivery.tf1.fr/pub$media,rewrite=abp-resource:blank-mp3,domain=tf1.fr
+! Rule "||dnl-adv-ssl.tf1.fr^$media,rewrite=abp-resource:blank-mp3,domain=tf1.fr" converted to: "||dnl-adv-ssl.tf1.fr^$media,redirect=noopmp3-0.1s,domain=tf1.fr"
+||dnl-adv-ssl.tf1.fr^$media,rewrite=abp-resource:blank-mp3,domain=tf1.fr
+! Rule "||loadshare.org/custom/$media,rewrite=abp-resource:blank-mp3,domain=01fmovies.com" converted to: "||loadshare.org/custom/$media,redirect=noopmp3-0.1s,domain=01fmovies.com"
+||loadshare.org/custom/$media,rewrite=abp-resource:blank-mp3,domain=01fmovies.com
+! Rule "||slpubmedias.tf1.fr^$media,rewrite=abp-resource:blank-mp3,domain=tf1.fr" converted to: "||slpubmedias.tf1.fr^$media,redirect=noopmp3-0.1s,domain=tf1.fr"
+||slpubmedias.tf1.fr^$media,rewrite=abp-resource:blank-mp3,domain=tf1.fr
+! Rule "||static.6cloud.fr^*.mp4$media,rewrite=abp-resource:blank-mp3,domain=6play.fr" converted to: "||static.6cloud.fr^*.mp4$media,redirect=noopmp3-0.1s,domain=6play.fr"
+||static.6cloud.fr^*.mp4$media,rewrite=abp-resource:blank-mp3,domain=6play.fr
+! Rule "||tf1.fr/assets/js/build/lib/ad$rewrite=abp-resource:blank-js,domain=tf1.fr" converted to: "||tf1.fr/assets/js/build/lib/ad$redirect=noopjs,domain=tf1.fr"
+||tf1.fr/assets/js/build/lib/ad$rewrite=abp-resource:blank-js,domain=tf1.fr
+Error: "Rule has invalid regex pattern: "/^((?!(^https?):\/\/(([0-9a-z\.\-]+)\.(20mn\.fr|amazonaws\.com|axept\.io|axeptio\.eu|azureedge\.net|beop\.io|beopinion\.com|coralproject\.net|disquscdn\.com|doyoudreamup\.com|edgecastcdn\.net|facebook\.com|facebook\.net|fastly\.net|jokerly\.com|lcl\.fr|netdna-ssl\.com|nexcesscdn\.net|og4\.me|qualifio\.com|qualifioapp\.com|sdv\.fr|verifiedbyvisa\.com|wp\.com)|([0-9a-z]+\.)?disqus\.com|(ajax|cdnjs)\.cloudflare\.com|(d3oaqdppb204mi)\.cloudfront\.net|(ajax|maps|storage)\.googleapis\.com|api\.(viafoura\.co|viafoura\.com)|(apis|fundingchoicesmessages|plus|www|youtube-ui\.l)\.google\.com|(api|assets|cdn)\.poool\.fr|(api|de|en|fr|www)\.tipeee\.com|(api|assets)\.pinterest\.com|(api|cdn|cdn1|cdn2|cdn3|cdn4)\.wibbitz\.com|(api|static1)\.dmcdn\.net|(api|app|static)\.flymenu\.fr|(assets|secure\.assets)\.tumblr\.com|(beta|static|www)\.qiota\.com|(cdn-us|embed)\.air\.tv|(cdn\.digitrust|quantcast|static\.quantcast)\.mgr\.consensu\.org|art19\.com|builder-assets\.unbounce\.com|castbox\.fm|cdn-files\.prsmedia\.fr|(cdns|cdns2|cdns\.eu1)\.gigya\.com|sdk-gcp\.privacy-center\.org|(embedr|widgets)\.flickr\.com|forum\.mmzstatic\.com|(i|s)\.po\.st|(maxcdn|stackpath)\.bootstrapcdn\.com|(odb|storage|widgets)\.outbrain\.com|payments\.mppglobal\.com|(platform|www)\.instagram\.com|(secure|www)\.ultimedia\.com|(tel\.cdn|tra\.scds)\.pmdstatic\.net|api\.matchchat\.co\.uk|app\.viewdeos\.com|assets\.(afcdn\.com|reach5\.co)|build\.suggestv\.io|cdn\.([0-9a-z\.\-)\.(nicematin\.com)|cdn\.(ampproject\.org|jwplayer\.com|polyfill\.io|syndication\.twimg\.com|viafoura\.net)|(cdn|trc)\.taboola\.com|code\.jquery\.com|content\.invisioncic\.com|content\.jwplatform\.com|e\.infogr\.am|embed\.waze\.com|graphcomment\.com|hap\.h-cdn\.com|images\.marmitoncdn\.org|js\.stripe\.com|jwpsrv\.com|mb\.pixel\.swello\.com|p\.monetico-services\.com|paiement\.creditmutuel\.fr|platform\.twitter\.com|player\.(acast\.com|ausha\.co|pippa\.io|vimeo\.com)|players\.brightcove\.net|po\.st|rcijeux\.fr|ressources\.regionsjob\.com|s\.pinimg\.com|s\.ytimg\.com|sadmin\.brightcove\.com|scontent-rtl\.akamaized\.net|sdk\.privacy-center\.org|snapwidget\.com|ssl\.p\.jwpcdn\.com|static\.(afcdn\.com|allovoisins\.com|bfmtv\.com|lephoceen\.net|mmzstatic\.com)|twitter\.com|use\.edgefonts\.net|vjs\.zencdn\.net|widget\.(ausha\.co|beopinion\.com|crowdleap\.com)|widgets\.snack-projects\.co\.uk|www\.(bloglovin\.com|dailymotion\.com|httpcs\.com|radioking\.com|rtbf\.be|rtl\.be|stanza\.co|youtube\.com|zap-tele\.com))\/).*)$/$script,subdocument,third-party,domain=alfemminile.com|alsumaria.tv|americanlisted.com|arcinfo.ch|astucesexpress.com|audiofanzine.com|aufeminin.com|aujourdhui.com|autojournal.fr|autoplus.fr|basketusa.com|betaseries.com|bibamagazine.fr|blog-rct.com|butfootballclub.fr|cabaneaidees.com|caradisiac.com|chezasite.com|clubic.com|collegehumor.com|cuisineaz.com|direct-radio.fr|dzfoot.com|eclypsia.com|enfemenino.com|enfermeriahoy.com|familyhandyman.com|focus-numerique.com|football365.fr|fourchette-et-bikini.fr|gameblog.fr|gofeminin.de|grands-meres.net|grazia.fr|hommedumatch.fr|journaldugeek.com|ketoconnect.net|lacote.ch|ladepeche.fr|lejournaldelamaison.fr|lenouvelliste.ch|lephoceen.fr|lequipe.fr|lesoir.be|letribunaldunet.fr|lippycorn.com|livepeople.fr|madmoizelle.com|mariefrance.fr|marmiton.org|mcetv.fr|mercato365.com|mjsbigblog.com|monacomatin.mc|netmums.com|nicematin.com|nrj-play.fr|obsev.com|ofeminin.pl|olhardigital.com.br|paroles-musique.com|passeportsante.net|planificacionmedios.com|portail.free.fr|recreatisse.com|rugby365.fr|science-et-vie.com|sofeminine.co.uk|sport365.fr|sportauto.fr|supertoinette.com|taofeminino.com.br|telechargerunevideo.com|thecelticblog.com|thelovenerds.com|tuttogusto.it|ultimate-catch.eu|varmatin.com|viedemerde.fr|viepratique.fr|weather-wherever.co.uk|wewomen.be|worldfreeware.com"" in the rule: "/^((?!(^https?):\/\/(([0-9a-z\.\-]+)\.(20mn\.fr|amazonaws\.com|axept\.io|axeptio\.eu|azureedge\.net|beop\.io|beopinion\.com|coralproject\.net|disquscdn\.com|doyoudreamup\.com|edgecastcdn\.net|facebook\.com|facebook\.net|fastly\.net|jokerly\.com|lcl\.fr|netdna-ssl\.com|nexcesscdn\.net|og4\.me|qualifio\.com|qualifioapp\.com|sdv\.fr|verifiedbyvisa\.com|wp\.com)|([0-9a-z]+\.)?disqus\.com|(ajax|cdnjs)\.cloudflare\.com|(d3oaqdppb204mi)\.cloudfront\.net|(ajax|maps|storage)\.googleapis\.com|api\.(viafoura\.co|viafoura\.com)|(apis|fundingchoicesmessages|plus|www|youtube-ui\.l)\.google\.com|(api|assets|cdn)\.poool\.fr|(api|de|en|fr|www)\.tipeee\.com|(api|assets)\.pinterest\.com|(api|cdn|cdn1|cdn2|cdn3|cdn4)\.wibbitz\.com|(api|static1)\.dmcdn\.net|(api|app|static)\.flymenu\.fr|(assets|secure\.assets)\.tumblr\.com|(beta|static|www)\.qiota\.com|(cdn-us|embed)\.air\.tv|(cdn\.digitrust|quantcast|static\.quantcast)\.mgr\.consensu\.org|art19\.com|builder-assets\.unbounce\.com|castbox\.fm|cdn-files\.prsmedia\.fr|(cdns|cdns2|cdns\.eu1)\.gigya\.com|sdk-gcp\.privacy-center\.org|(embedr|widgets)\.flickr\.com|forum\.mmzstatic\.com|(i|s)\.po\.st|(maxcdn|stackpath)\.bootstrapcdn\.com|(odb|storage|widgets)\.outbrain\.com|payments\.mppglobal\.com|(platform|www)\.instagram\.com|(secure|www)\.ultimedia\.com|(tel\.cdn|tra\.scds)\.pmdstatic\.net|api\.matchchat\.co\.uk|app\.viewdeos\.com|assets\.(afcdn\.com|reach5\.co)|build\.suggestv\.io|cdn\.([0-9a-z\.\-)\.(nicematin\.com)|cdn\.(ampproject\.org|jwplayer\.com|polyfill\.io|syndication\.twimg\.com|viafoura\.net)|(cdn|trc)\.taboola\.com|code\.jquery\.com|content\.invisioncic\.com|content\.jwplatform\.com|e\.infogr\.am|embed\.waze\.com|graphcomment\.com|hap\.h-cdn\.com|images\.marmitoncdn\.org|js\.stripe\.com|jwpsrv\.com|mb\.pixel\.swello\.com|p\.monetico-services\.com|paiement\.creditmutuel\.fr|platform\.twitter\.com|player\.(acast\.com|ausha\.co|pippa\.io|vimeo\.com)|players\.brightcove\.net|po\.st|rcijeux\.fr|ressources\.regionsjob\.com|s\.pinimg\.com|s\.ytimg\.com|sadmin\.brightcove\.com|scontent-rtl\.akamaized\.net|sdk\.privacy-center\.org|snapwidget\.com|ssl\.p\.jwpcdn\.com|static\.(afcdn\.com|allovoisins\.com|bfmtv\.com|lephoceen\.net|mmzstatic\.com)|twitter\.com|use\.edgefonts\.net|vjs\.zencdn\.net|widget\.(ausha\.co|beopinion\.com|crowdleap\.com)|widgets\.snack-projects\.co\.uk|www\.(bloglovin\.com|dailymotion\.com|httpcs\.com|radioking\.com|rtbf\.be|rtl\.be|stanza\.co|youtube\.com|zap-tele\.com))\/).*)$/$script,subdocument,third-party,domain=alfemminile.com|alsumaria.tv|americanlisted.com|arcinfo.ch|astucesexpress.com|audiofanzine.com|aufeminin.com|aujourdhui.com|autojournal.fr|autoplus.fr|basketusa.com|betaseries.com|bibamagazine.fr|blog-rct.com|butfootballclub.fr|cabaneaidees.com|caradisiac.com|chezasite.com|clubic.com|collegehumor.com|cuisineaz.com|direct-radio.fr|dzfoot.com|eclypsia.com|enfemenino.com|enfermeriahoy.com|familyhandyman.com|focus-numerique.com|football365.fr|fourchette-et-bikini.fr|gameblog.fr|gofeminin.de|grands-meres.net|grazia.fr|hommedumatch.fr|journaldugeek.com|ketoconnect.net|lacote.ch|ladepeche.fr|lejournaldelamaison.fr|lenouvelliste.ch|lephoceen.fr|lequipe.fr|lesoir.be|letribunaldunet.fr|lippycorn.com|livepeople.fr|madmoizelle.com|mariefrance.fr|marmiton.org|mcetv.fr|mercato365.com|mjsbigblog.com|monacomatin.mc|netmums.com|nicematin.com|nrj-play.fr|obsev.com|ofeminin.pl|olhardigital.com.br|paroles-musique.com|passeportsante.net|planificacionmedios.com|portail.free.fr|recreatisse.com|rugby365.fr|science-et-vie.com|sofeminine.co.uk|sport365.fr|sportauto.fr|supertoinette.com|taofeminino.com.br|telechargerunevideo.com|thecelticblog.com|thelovenerds.com|tuttogusto.it|ultimate-catch.eu|varmatin.com|viedemerde.fr|viepratique.fr|weather-wherever.co.uk|wewomen.be|worldfreeware.com"
+/^((?!(^https?):\/\/(([0-9a-z\.\-]+)\.(20mn\.fr|amazonaws\.com|axept\.io|axeptio\.eu|azureedge\.net|beop\.io|beopinion\.com|coralproject\.net|disquscdn\.com|doyoudreamup\.com|edgecastcdn\.net|facebook\.com|facebook\.net|fastly\.net|jokerly\.com|lcl\.fr|netdna-ssl\.com|nexcesscdn\.net|og4\.me|qualifio\.com|qualifioapp\.com|sdv\.fr|verifiedbyvisa\.com|wp\.com)|([0-9a-z]+\.)?disqus\.com|(ajax|cdnjs)\.cloudflare\.com|(d3oaqdppb204mi)\.cloudfront\.net|(ajax|maps|storage)\.googleapis\.com|api\.(viafoura\.co|viafoura\.com)|(apis|fundingchoicesmessages|plus|www|youtube-ui\.l)\.google\.com|(api|assets|cdn)\.poool\.fr|(api|de|en|fr|www)\.tipeee\.com|(api|assets)\.pinterest\.com|(api|cdn|cdn1|cdn2|cdn3|cdn4)\.wibbitz\.com|(api|static1)\.dmcdn\.net|(api|app|static)\.flymenu\.fr|(assets|secure\.assets)\.tumblr\.com|(beta|static|www)\.qiota\.com|(cdn-us|embed)\.air\.tv|(cdn\.digitrust|quantcast|static\.quantcast)\.mgr\.consensu\.org|art19\.com|builder-assets\.unbounce\.com|castbox\.fm|cdn-files\.prsmedia\.fr|(cdns|cdns2|cdns\.eu1)\.gigya\.com|sdk-gcp\.privacy-center\.org|(embedr|widgets)\.flickr\.com|forum\.mmzstatic\.com|(i|s)\.po\.st|(maxcdn|stackpath)\.bootstrapcdn\.com|(odb|storage|widgets)\.outbrain\.com|payments\.mppglobal\.com|(platform|www)\.instagram\.com|(secure|www)\.ultimedia\.com|(tel\.cdn|tra\.scds)\.pmdstatic\.net|api\.matchchat\.co\.uk|app\.viewdeos\.com|assets\.(afcdn\.com|reach5\.co)|build\.suggestv\.io|cdn\.([0-9a-z\.\-)\.(nicematin\.com)|cdn\.(ampproject\.org|jwplayer\.com|polyfill\.io|syndication\.twimg\.com|viafoura\.net)|(cdn|trc)\.taboola\.com|code\.jquery\.com|content\.invisioncic\.com|content\.jwplatform\.com|e\.infogr\.am|embed\.waze\.com|graphcomment\.com|hap\.h-cdn\.com|images\.marmitoncdn\.org|js\.stripe\.com|jwpsrv\.com|mb\.pixel\.swello\.com|p\.monetico-services\.com|paiement\.creditmutuel\.fr|platform\.twitter\.com|player\.(acast\.com|ausha\.co|pippa\.io|vimeo\.com)|players\.brightcove\.net|po\.st|rcijeux\.fr|ressources\.regionsjob\.com|s\.pinimg\.com|s\.ytimg\.com|sadmin\.brightcove\.com|scontent-rtl\.akamaized\.net|sdk\.privacy-center\.org|snapwidget\.com|ssl\.p\.jwpcdn\.com|static\.(afcdn\.com|allovoisins\.com|bfmtv\.com|lephoceen\.net|mmzstatic\.com)|twitter\.com|use\.edgefonts\.net|vjs\.zencdn\.net|widget\.(ausha\.co|beopinion\.com|crowdleap\.com)|widgets\.snack-projects\.co\.uk|www\.(bloglovin\.com|dailymotion\.com|httpcs\.com|radioking\.com|rtbf\.be|rtl\.be|stanza\.co|youtube\.com|zap-tele\.com))\/).*)$/$script,subdocument,third-party,domain=alfemminile.com|alsumaria.tv|americanlisted.com|arcinfo.ch|astucesexpress.com|audiofanzine.com|aufeminin.com|aujourdhui.com|autojournal.fr|autoplus.fr|basketusa.com|betaseries.com|bibamagazine.fr|blog-rct.com|butfootballclub.fr|cabaneaidees.com|caradisiac.com|chezasite.com|clubic.com|collegehumor.com|cuisineaz.com|direct-radio.fr|dzfoot.com|eclypsia.com|enfemenino.com|enfermeriahoy.com|familyhandyman.com|focus-numerique.com|football365.fr|fourchette-et-bikini.fr|gameblog.fr|gofeminin.de|grands-meres.net|grazia.fr|hommedumatch.fr|journaldugeek.com|ketoconnect.net|lacote.ch|ladepeche.fr|lejournaldelamaison.fr|lenouvelliste.ch|lephoceen.fr|lequipe.fr|lesoir.be|letribunaldunet.fr|lippycorn.com|livepeople.fr|madmoizelle.com|mariefrance.fr|marmiton.org|mcetv.fr|mercato365.com|mjsbigblog.com|monacomatin.mc|netmums.com|nicematin.com|nrj-play.fr|obsev.com|ofeminin.pl|olhardigital.com.br|paroles-musique.com|passeportsante.net|planificacionmedios.com|portail.free.fr|recreatisse.com|rugby365.fr|science-et-vie.com|sofeminine.co.uk|sport365.fr|sportauto.fr|supertoinette.com|taofeminino.com.br|telechargerunevideo.com|thecelticblog.com|thelovenerds.com|tuttogusto.it|ultimate-catch.eu|varmatin.com|viedemerde.fr|viepratique.fr|weather-wherever.co.uk|wewomen.be|worldfreeware.com
