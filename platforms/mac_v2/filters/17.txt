@@ -1,9 +1,9 @@
-! Checksum: /DqfLgkFFFcPJXtKmgpIzg
-! Diff-Path: ../patches/17/17-s-1703774181-3600.patch
+! Checksum: 0zUwhnNpocO5iLIeZJIRUA
+! Diff-Path: ../patches/17/17-s-1703798058-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.66
-! TimeUpdated: 2023-12-28T14:31:57+00:00
+! Version: 2.0.7.67
+! TimeUpdated: 2023-12-28T21:09:52+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1649,6 +1649,8 @@ $removeparam=igshid,domain=instagram.com|threads.net
 ||google.*/search$removeparam=gs_lcrp
 !
 ! eBay tracking parameters
+||www.ebay.$removeparam=mkevt
+||www.ebay.$removeparam=mkcid
 ||www.ebay.$removeparam=_trkparms
 ||www.ebay.$removeparam=_trksid
 ||www.ebay.$removeparam=amdata

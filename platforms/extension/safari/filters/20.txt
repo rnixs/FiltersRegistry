@@ -1,9 +1,9 @@
-! Checksum: WjAXDWFt1TFgCh+iNs2F7A
-! Diff-Path: ../patches/20/20-s-1703766957-3600.patch
+! Checksum: 6PkwuIZhBaKQQB1vLf9GcQ
+! Diff-Path: ../patches/20/20-s-1703798040-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.52
-! TimeUpdated: 2023-12-28T12:31:55+00:00
+! Version: 2.0.11.53
+! TimeUpdated: 2023-12-28T21:10:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -124,7 +124,7 @@ bfmtv.com#$##android_banner { display: none!important; }
 bfmtv.com#%#//scriptlet('remove-class', 'app_banner', 'body')
 indiatimes.com##.site-header__getapp
 fressnapf.de#$#.smartbanner { display: none !important; }
-fressnapf.de#$#.header--smart-banner-visible { top: 0!important; }
+fressnapf.de#$#.header--smart-banner-visible { top: 0 !important; }
 bnnbreaking.com##.post__mobile-placement
 yimenapp.com##.widget_image_ad
 glavcom.ua##.banner_amp

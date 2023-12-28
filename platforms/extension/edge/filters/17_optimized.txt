@@ -1,9 +1,9 @@
-! Checksum: n9Xgz+YzVz2AZCvKtTJceQ
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1703774149-3600.patch
+! Checksum: q1mOaI5dM2IqJaoKKXlwvg
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1703798024-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.66
-! TimeUpdated: 2023-12-28T14:31:57+00:00
+! Version: 2.0.7.67
+! TimeUpdated: 2023-12-28T21:09:52+00:00
 ! Expires: 5 days (update frequency)
 $removeparam=spot_im_redirect_source
 $cookie=_wp_visitor
@@ -1111,6 +1111,8 @@ $removeparam=igshid,domain=instagram.com|threads.net
 ||google.*/search$removeparam=ei
 ||google.*/search$removeparam=gs_lcp
 ||google.*/search$removeparam=gs_lcrp
+||www.ebay.$removeparam=mkevt
+||www.ebay.$removeparam=mkcid
 ||www.ebay.$removeparam=_trkparms
 ||www.ebay.$removeparam=_trksid
 ||www.ebay.$removeparam=amdata
