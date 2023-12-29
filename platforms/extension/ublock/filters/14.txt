@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0awQ5hiKN8wVbPE/5m6pcg
-! Diff-Path: ../patches/14/14-s-1703838946-3600.patch
+! Checksum: XEysghd8QmC3xUMEKZqwxA
+! Diff-Path: ../patches/14/14-s-1703846171-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.38
-! TimeUpdated: 2023-12-29T08:31:28+00:00
+! Version: 2.1.83.39
+! TimeUpdated: 2023-12-29T10:31:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18841,6 +18841,9 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+newsnow.com##.hero-wrapper
+newsnow.com##div[class^="page-grid_"]:not([class*="main"]):has(.ad__container)
+newsnow.com,newsnow.co.uk##.ad__container + div
 pks.raenonx.cc##.bg-red-500\/50
 ||chinahandys.net/*/adblock-tracker.js
 ||baeldung.com/*/wp-content/themes/baeldung/library/dist/js/ad-recovery.min.js
@@ -18880,7 +18883,6 @@ collegepolltracker.com##.noticeBarAdBlocker
 ||homebank.free.fr/inc/js-adblocker-old.js
 mysb555.com##+js(addEventListener-defuser, DOMContentLoaded, adsBlocked)
 myshows.me##.DetectAdBlock__modal
-newsnow.co.uk##.ad__container + div
 elitepvpers.com##+js(no-setTimeout-if, .first().height())
 bypass.city##+js(no-fetch-if, /googlesyndication\.com|googletagmanager\.com/)
 ||googletagmanager.com/gtm.js$xmlhttprequest,redirect=noop.txt,domain=bypass.city
