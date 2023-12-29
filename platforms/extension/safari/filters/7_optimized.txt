@@ -1,9 +1,9 @@
-! Checksum: Feisuv5Mg1oZA34avyNUEQ
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1703763348-3600.patch
+! Checksum: Va3LelNJTGFsNZYnrcP8eg
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1703824525-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.7
-! TimeUpdated: 2023-12-28T11:33:02+00:00
+! Version: 2.0.47.8
+! TimeUpdated: 2023-12-29T04:32:58+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -397,7 +397,7 @@
 ||ad-hatena.com^
 ||advert.punyu.com^
 ||gum.dlbooks.to^
-iwb.jp#%#//scriptlet('abort-on-stack-trace', 'onload', 'getComputedStyle')
+iwb.jp#%#//scriptlet('prevent-setTimeout', 'location.href')
 ||nazology.net/*/adb/adb.js
 pvpoke-re.com#@#ins.adsbygoogle
 pvpoke-re.com##.adsbygoogle.nitro-side
