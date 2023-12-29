@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: c06RIDwPT1pBitvsBTpFHA
-! Diff-Path: ../patches/14/14-s-1703874945-3600.patch
+! Checksum: Zr2lU8hHh6SRsSWZCJQhQQ
+! Diff-Path: ../patches/14/14-s-1703878546-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.45
-! TimeUpdated: 2023-12-29T18:31:15+00:00
+! Version: 2.1.83.46
+! TimeUpdated: 2023-12-29T19:31:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2311,6 +2311,7 @@ cioccolatonippon.it,movieplayer.it,hwupgrade.it,iphoneitalia.com,mediaset.it,tom
 !
 ! NOTE: Regular rules
 !
+nowpayments.io##.b-cookies-alert
 capcut.com##.DZhOXCcROI3vywSXT6B4
 pccomponentes.com##+js(set-cookie, accept_cookie, 1)
 ||saldaodainformatica.com.br/modules/cookiesplus/
@@ -17710,6 +17711,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ! reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.promotedlink
 !#safari_cb_affinity
 !
+||haplesshydrant.com^$third-party
 ||catalogcake.com^$third-party
 ||dinnerquartz.com^$third-party
 ||cattlecommittee.com^$third-party

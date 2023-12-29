@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: D9nE/n5mVi39OjtYIdrjBQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1703874949-3600.patch
+! Checksum: Iccvdj0wRfUm39z4bjMvvA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1703878549-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.15.88
-! TimeUpdated: 2023-12-29T18:32:12+00:00
+! Version: 2.3.15.89
+! TimeUpdated: 2023-12-29T19:32:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15920,6 +15920,8 @@ gjirafa.com##div[id^="an-holder-"]
 !---------------------------------------------------------------------
 ! NOTE: Arabian
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169260
+techradar.ink##.adbn9-wrap9
 ! Anti Ad Blocker Code by elsabagh (usually sport streams sites)
 livekoora.info##+js(abort-on-property-write, checkAdsStatus)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168547
@@ -54691,6 +54693,7 @@ implbits.com#@#.banner_container
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169404 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169441 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168999 [Stealth Mode - IP hiding]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168619 [Stealth Mode - Block third-party Authorization header]
