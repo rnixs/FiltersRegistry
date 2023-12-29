@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 7uZZIiRCwYM8HltXXF5ZOg
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1703768827-14400.patch
+! Checksum: AAeXPjOQLajq8JOXpAjqAA
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1703811967-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.18.31
-! TimeUpdated: 2023-12-28T13:01:36+00:00
+! Version: 2.1.18.32
+! TimeUpdated: 2023-12-29T01:01:16+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -12130,6 +12130,7 @@ browsershots.org#@#.advert_area
 ||broughtenragesince.com^
 ||broweb.site^
 ||brown-gas.com^
+||brownerchunam.com^
 ||broworker4s.com^
 ||broworker6s.com^
 ||broworker7.com^
@@ -12362,6 +12363,7 @@ browsershots.org#@#.advert_area
 ||cash-ads.com^
 ||cashewsforlife208.com^
 ||cashieratrocity.com^
+||cashooscrunode.com^
 ||casinohacksforyou.com^
 ||casksteam.com^
 ||cassetteflask.com^
@@ -13101,6 +13103,7 @@ browsershots.org#@#.advert_area
 ||crestfallenwall.com^
 ||crevicedepressingpumpkin.com^
 ||cribwarilyintentional.com^
+||cricksnatchez.com^
 ||criesnonstopbake.com^
 ||criminalweightforetaste.com^
 ||crimsondozeprofessional.com^
@@ -16025,6 +16028,7 @@ browsershots.org#@#.advert_area
 ||honoursdashed.com^
 ||hoo1luha.com^
 ||hoofexcessively.com^
+||hooglidi.net^
 ||hookersecus.com^
 ||hooliganmedia.com^
 ||hoood.info^
@@ -17638,6 +17642,7 @@ browsershots.org#@#.advert_area
 ||lovemateforyou.com^
 ||loverevenue.com^
 ||loverfellow.com^
+||lovesgoner.com^
 ||lovesparkle.space^
 ||low-sad.com^
 ||lowereasygoing.com^
@@ -19810,6 +19815,7 @@ browsershots.org#@#.advert_area
 ||pipeoverwhelm.com^
 ||piqueendogen.com^
 ||piratedivide.com^
+||pirniemagi.com^
 ||pirogidecnet.com^
 ||pisism.com^
 ||pitchedgenuinevillain.com^
@@ -23764,6 +23770,7 @@ browsershots.org#@#.advert_area
 ||usuallyblack.com^
 ||usualt.com^
 ||uswardwot.com^
+||ut13r.site^
 ||utarget.ru^
 ||utilitypresent.com^
 ||utilized-memory.pro^
@@ -25314,6 +25321,7 @@ browsershots.org#@#.advert_area
 ||clickmon.co.kr^$third-party
 ||clicktripz.com^$third-party
 ||clixtrac.com^$third-party
+||codegown.care^$third-party
 ||cointraffic.io^$third-party
 ||connexity.net^$third-party
 ||content-cooperation.com^$third-party
@@ -27149,6 +27157,10 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||adultasianporn.com/puty3s/
 ||adultfilmdatabase.com/graphics/porndude.png
 ||akiba-online.com/data/siropu/
+||alaska.xhamster.com^
+||alaska.xhamster.desi^
+||alaska.xhamster2.com^
+||alaska.xhamster3.com^
 ||alrincon.com/nbk/
 ||anyporn.com/aa/
 ||asg.faperoni.com^
@@ -27232,10 +27244,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||lolhentai.net/tceb29242cf7.js
 ||madmen2.alastonsuomi.com^
 ||mansurfer.com/flash_promo/
-||marine.xhamster.com^
-||marine.xhamster.desi^
-||marine.xhamster2.com^
-||marine.xhamster3.com^
 ||matureworld.ws/images/banners/
 ||milfnut.net/assets/jquery/$script
 ||milkmanbook.com/dat/promo/
@@ -28180,6 +28188,7 @@ euronews.com##.base-leaderboard
 propublica.org##.bb-ad
 fakenamegenerator.com##.bcsw
 userbenchmark.com##.be-lb-page-top-banner
+chowhound.com,glam.com,moneydigest.com,outdoorguide.com,svg.com##.before-ad
 gobankingrates.com##.bestbanks-slidein
 aiscore.com##.bet365
 hotnewhiphop.com##.bg-ad-bg-color
@@ -29388,7 +29397,7 @@ everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
 barandbench.com##[class*="ad-slot"]
 usnews.com##[class*="ad-spacer"]
-beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,techreport.com##[class*="clickout-"]
+beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,philnews.ph,techreport.com##[class*="clickout-"]
 smallseotools.com##[class*="gram"]
 alternativeto.net##[class^="AdsenseAd"]
 thesouthafrican.com##[class^="Advertisement_"]
