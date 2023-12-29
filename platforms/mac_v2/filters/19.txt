@@ -1,9 +1,9 @@
-! Checksum: 3Z442qUj2Tw4VGnBASbZPA
-! Diff-Path: ../patches/19/19-s-1703857068-3600.patch
+! Checksum: XE3VYzb4x78cdezytnqUUQ
+! Diff-Path: ../patches/19/19-s-1703860688-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.23
-! TimeUpdated: 2023-12-29T13:31:32+00:00
+! Version: 2.0.29.24
+! TimeUpdated: 2023-12-29T14:31:45+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10136,6 +10136,10 @@ com-magazin.de##w-div[role$="dialog"]
 ||sud.ua/js/jquery.arcticmodal*.min.js
 /jquery.magnific-popup.min.js$domain=ufatime.ru|koreanworld.ru
 !
+! TODO: replace when the 'abort-on-localStorage-read' scriptlet will be added to AdGuards
+! https://github.com/AdguardTeam/Scriptlets/issues/383
+wtsp.com#%#!function(){const e={apply:(e,o,t)=>{if(t[0]&&t[0].includes("_tegna_exitInterstitial_cooldown"))throw new Error;return Reflect.apply(e,o,t)}};window.localStorage.setItem=new Proxy(window.localStorage.setItem,e)}();
+!
 ! manatoki*.net - frequently changed domains
 ##body[class^="responsive is-"] > div#hd_pop
 !
@@ -11735,7 +11739,7 @@ square-enix-games.com##div[class^="notificationsBannerPadding_Layout"]
 square-enix-games.com##div[class^="container_NotificationsBanner"]
 thebell.io##.banner-bottom-subscribe
 woman.rambler.ru##.popup.j-mail-alert
-wfaa.com,13newsnow.com,wusa9.com,kgw.com,king5.com,wcnc.com,kens5.com,khou.com,wkyc.com,ksdk.com##.page__notifications
+wtsp.com,wfaa.com,13newsnow.com,wusa9.com,kgw.com,king5.com,wcnc.com,kens5.com,khou.com,wkyc.com,ksdk.com##.page__notifications
 fox17online.com###desktop-notifications
 ||s.aimg.sk/zive_symfony/build/push-notification.*.js
 ||rankomat.pl/kalkulator/client_app/assets/push-notifications/push-notifications.script.js

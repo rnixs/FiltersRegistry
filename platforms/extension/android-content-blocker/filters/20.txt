@@ -1,9 +1,9 @@
-! Checksum: 2LT6mC099WR/1iywzVtXGQ
-! Diff-Path: ../patches/20/20-s-1703798017-3600.patch
+! Checksum: h7tLH/7LkJtRM4iUjBr5/A
+! Diff-Path: ../patches/20/20-s-1703860603-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.53
-! TimeUpdated: 2023-12-28T21:10:07+00:00
+! Version: 2.0.11.54
+! TimeUpdated: 2023-12-29T14:31:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2749,6 +2749,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! Limit it to mobile versions only
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 !
+baynews9.com##img[alt="Live News On The Go! Download the Spectrum News App"]
 rnd.de##div[class^="Articlestyled__"] div[data-testid="piano-container"]
 live.erinn.biz###win_appinstallhint
 kinarino.jp###js-appeal-top-banner

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: oATpzk+2cmGtj7v6+XweTw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1703857046-3600.patch
+! Checksum: vjlqbi8s3Yoh1vuPaV1TRg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1703860663-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.15.83
-! TimeUpdated: 2023-12-29T13:32:17+00:00
+! Version: 2.3.15.84
+! TimeUpdated: 2023-12-29T14:32:30+00:00
 ! Expires: 5 days (update frequency)
 ||fipkcakk.com^
 ||hooglidi.net^
@@ -8922,6 +8922,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||olalivehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+baynews9.com##.google-dfp-ads
 fool.com##.sticky.top-152
 fool.com##.show-ad-label
 elektrotanya.com##.rside_ad

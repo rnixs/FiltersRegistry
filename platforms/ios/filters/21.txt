@@ -1,9 +1,9 @@
-! Checksum: aE5hdlemXF5QvnTV72dYRA
-! Diff-Path: ../patches/21/21-s-1703777752-3600.patch
+! Checksum: InbqXYkO2D626JKXnM+gsA
+! Diff-Path: ../patches/21/21-s-1703860672-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.24
-! TimeUpdated: 2023-12-28T15:31:53+00:00
+! Version: 2.0.18.25
+! TimeUpdated: 2023-12-29T14:31:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4970,6 +4970,8 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+chugaku-juken.com###satori__creative_container
+chugaku-juken.com##.entry-content > a[href="https://chugaku-juken.com/post_lp/mailmagazine/"]
 blog.skillfactory.ru##.banner__middle
 blog.skillfactory.ru##.wp-block-vadim-banner-strip
 blog.skillfactory.ru##.wp-block-vadim-banner-center

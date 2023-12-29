@@ -1,9 +1,9 @@
-! Checksum: lmlQxSJ0iN5Yo17BYOuRJg
-! Diff-Path: ../patches/18/18-s-1703857031-3600.patch
+! Checksum: mUo49OPIPtw+Atx03VrdKQ
+! Diff-Path: ../patches/18/18-s-1703860641-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.49
-! TimeUpdated: 2023-12-29T13:31:29+00:00
+! Version: 2.0.30.50
+! TimeUpdated: 2023-12-29T14:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2336,6 +2336,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+pccomponentes.com#%#//scriptlet('set-cookie', 'accept_cookie', '1')
 stpetecatalyst.com#%#//scriptlet('trusted-set-cookie', 'newsletter_popup_dismissed', '1')
 ||saldaodainformatica.com.br/modules/cookiesplus/
 sg.theasianparent.com##.cookie-acceptance-popup

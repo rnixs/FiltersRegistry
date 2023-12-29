@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /9nui6tRLZgxRU0IS/uK5A
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1703817319-3600.patch
+! Checksum: FUG+2/FQQla09LMR1FQlsQ
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1703860662-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.53
-! TimeUpdated: 2023-12-28T21:10:07+00:00
+! Version: 2.0.11.54
+! TimeUpdated: 2023-12-29T14:31:57+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ##amp-app-banner
@@ -1483,6 +1483,7 @@ honeysanime.com#$##header-line-2 { margin-top: -60px !important; }
 honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
+baynews9.com##img[alt="Live News On The Go! Download the Spectrum News App"]
 rnd.de##div[class^="Articlestyled__"] div[data-testid="piano-container"]
 live.erinn.biz###win_appinstallhint
 kinarino.jp###js-appeal-top-banner
