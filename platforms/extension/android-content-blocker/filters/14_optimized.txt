@@ -1,9 +1,9 @@
-! Checksum: Jv5HzVv/zIkMicoa8gMAmw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1703828129-3600.patch
+! Checksum: du/10bOiWmIeQDqPKrFw3g
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1703838921-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.37
-! TimeUpdated: 2023-12-29T05:31:44+00:00
+! Version: 2.1.83.38
+! TimeUpdated: 2023-12-29T08:31:28+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -7795,6 +7795,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Hom
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InArticleAd
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
+||catalogcake.com^$third-party
 ||dinnerquartz.com^$third-party
 ||cattlecommittee.com^$third-party
 ||cmpworker.dotesports.com^
@@ -9061,6 +9062,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+gamechampions.com#$#div[style="height:1px"] + section { display: none !important; }
+gamechampions.com#$#body { overflow-y: auto !important; }
 aftermath.site##div[class^="single_metaContainer"] > div[class^="PostContent_wrapper"] > div[class^="ContentGate_wrapper"]
 frag-mutti.de##.popup-box.guest
 frag-mutti.de###signup-popup

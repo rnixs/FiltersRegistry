@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: VyboiWDgcc5OUKvSBsPAFg
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1703831724-3600.patch
+! Checksum: gm9qGizs/65/yMzuzD2Ahg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1703838949-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.15.78
-! TimeUpdated: 2023-12-29T06:32:11+00:00
+! Version: 2.3.15.79
+! TimeUpdated: 2023-12-29T08:32:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7171,6 +7171,7 @@ datasciencelearner.com#$#.site-access-popup { display: none !important; }
 alltechnerd.com##+js(set-constant, nitroAds.abp, true)
 ||s.nitropay.com/2.gif?$image,redirect-rule=1x1.gif,domain=alltechnerd.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168921
+@@||ytlarge.com/youtube/css/adscroll.js
 ytlarge.com##+js(no-fetch-if, /doubleclick\.(net|com)/)
 ytlarge.com#@#.ad-box:not(#ad-banner)
 ytlarge.com#@#.ad-wrapper

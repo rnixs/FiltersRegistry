@@ -1,9 +1,9 @@
-! Checksum: i6m6JwOga0tZn1x/cIK3gw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1703828130-3600.patch
+! Checksum: /tOJ1yjiOlMp3LRqgs+LRw
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1703838922-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation.
-! Version: 2.0.29.19
-! TimeUpdated: 2023-12-29T05:31:57+00:00
+! Version: 2.0.29.20
+! TimeUpdated: 2023-12-29T08:31:41+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -138,6 +138,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Hom
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InArticleAd
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
+||catalogcake.com^$third-party
 ||dinnerquartz.com^$third-party
 ||cattlecommittee.com^$third-party
 ||cmpworker.dotesports.com^
@@ -1404,6 +1405,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+gamechampions.com#$#div[style="height:1px"] + section { display: none !important; }
+gamechampions.com#$#body { overflow-y: auto !important; }
 aftermath.site##div[class^="single_metaContainer"] > div[class^="PostContent_wrapper"] > div[class^="ContentGate_wrapper"]
 frag-mutti.de##.popup-box.guest
 frag-mutti.de###signup-popup
