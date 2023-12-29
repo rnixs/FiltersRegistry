@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 9w9QlrOyJCjEhT5YCEHFUQ
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1703860660-3600.patch
+! Checksum: JYvd2tvddJxb8Pq4CumhBA
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1703867811-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.50
-! TimeUpdated: 2023-12-29T14:31:43+00:00
+! Version: 2.0.30.51
+! TimeUpdated: 2023-12-29T16:32:27+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1171,7 +1171,7 @@ cioccolatonippon.it,movieplayer.it,hwupgrade.it,iphoneitalia.com,mediaset.it,tom
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 pccomponentes.com##+js(set-cookie, accept_cookie, 1)
 ||saldaodainformatica.com.br/modules/cookiesplus/
-sg.theasianparent.com##.cookie-acceptance-popup
+theasianparent.com##.cookie-acceptance-popup
 ||std.wpcdn.pl/wpjslib6/wpjslib-sgap.js$domain=easygo.pl
 ||ferroflex.ch/typo3temp/assets/compressed/cookieman-theme.min-
 login.plurall.net##div[class^="PrivacyFooter_privacy"]

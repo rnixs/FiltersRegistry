@@ -1,9 +1,9 @@
-! Checksum: JqtOL6H+NWNPueDtXA6OTg
-! Diff-Path: ../patches/18/18-s-1703860668-3600.patch
+! Checksum: WyCSZiJtBfokAVKDUjYvpw
+! Diff-Path: ../patches/18/18-s-1703867817-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.50
-! TimeUpdated: 2023-12-29T14:31:43+00:00
+! Version: 2.0.30.51
+! TimeUpdated: 2023-12-29T16:32:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2340,7 +2340,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 pccomponentes.com#%#//scriptlet('set-cookie', 'accept_cookie', '1')
 stpetecatalyst.com#%#//scriptlet('trusted-set-cookie', 'newsletter_popup_dismissed', '1')
 ||saldaodainformatica.com.br/modules/cookiesplus/
-sg.theasianparent.com##.cookie-acceptance-popup
+theasianparent.com##.cookie-acceptance-popup
 ||std.wpcdn.pl/wpjslib6/wpjslib-sgap.js$domain=easygo.pl
 inps.it#%#//scriptlet('trusted-set-cookie', 'cc_cookie', '{"level":["tecnici","analytics"],"revision":0,"data":null,"rfc_cookie":false}')
 ||ferroflex.ch/typo3temp/assets/compressed/cookieman-theme.min-

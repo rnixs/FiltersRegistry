@@ -1,9 +1,9 @@
-! Checksum: xON8WkRY1TyEwvXV4QfC3A
-! Diff-Path: ../patches/19/19-s-1703860618-3600.patch
+! Checksum: dr25tB8xJaTtWv3b6+u+kw
+! Diff-Path: ../patches/19/19-s-1703867789-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.24
-! TimeUpdated: 2023-12-29T14:31:45+00:00
+! Version: 2.0.29.25
+! TimeUpdated: 2023-12-29T16:32:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12098,7 +12098,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
-sg.theasianparent.com##.newsletter-subscribe-card-warp
+codereliant.io##.gh-portal-triggerbtn-iframe
+theasianparent.com##.newsletter-subscribe-card-warp
 cloudflare.com##.site-content > div.fixed.bottom-0
 aftermath.site##div[class^="NewsletterSignup_wrapper"]
 iguides.ru##div[itemprop="articleBody"] blockquote:has(> a[href="https://t.me/iguides"])

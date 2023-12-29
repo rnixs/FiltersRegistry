@@ -1,9 +1,9 @@
-! Checksum: STFOpXGpRplCOvypNX9SoA
-! Diff-Path: ../patches/14/14-s-1703860607-3600.patch
+! Checksum: Tz+TIXCXLou2hZmeQHo3sg
+! Diff-Path: ../patches/14/14-s-1703867782-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.43
-! TimeUpdated: 2023-12-29T14:31:33+00:00
+! Version: 2.1.83.44
+! TimeUpdated: 2023-12-29T16:32:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2338,7 +2338,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 pccomponentes.com#%#//scriptlet('set-cookie', 'accept_cookie', '1')
 stpetecatalyst.com#%#//scriptlet('trusted-set-cookie', 'newsletter_popup_dismissed', '1')
 ||saldaodainformatica.com.br/modules/cookiesplus/
-sg.theasianparent.com##.cookie-acceptance-popup
+theasianparent.com##.cookie-acceptance-popup
 ||std.wpcdn.pl/wpjslib6/wpjslib-sgap.js$domain=easygo.pl
 inps.it#%#//scriptlet('trusted-set-cookie', 'cc_cookie', '{"level":["tecnici","analytics"],"revision":0,"data":null,"rfc_cookie":false}')
 ||ferroflex.ch/typo3temp/assets/compressed/cookieman-theme.min-
@@ -30230,7 +30230,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
-sg.theasianparent.com##.newsletter-subscribe-card-warp
+codereliant.io##.gh-portal-triggerbtn-iframe
+theasianparent.com##.newsletter-subscribe-card-warp
 cloudflare.com##.site-content > div.fixed.bottom-0
 aftermath.site##div[class^="NewsletterSignup_wrapper"]
 iguides.ru##div[itemprop="articleBody"] blockquote:has(> a[href="https://t.me/iguides"])
@@ -39685,6 +39686,8 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169424
+livejournal.com#$?#div[lj0sale0autoplay0dockable0video0mount] { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169290
 remanga.org##canvas[data-testid="SnowfallCanvas"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168666
