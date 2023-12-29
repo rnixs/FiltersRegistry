@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: tpk9ULJODvBwiZGsdZevXw
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1703826361-14400.patch
+! Checksum: pd3PzP3d6k74KuwiJUBNNQ
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1703840858-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.37.38
-! TimeUpdated: 2023-12-29T05:02:20+00:00
+! Version: 2.1.37.39
+! TimeUpdated: 2023-12-29T09:03:08+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -2075,6 +2075,7 @@ pfmrc.eu##a[href="https://www.skyrc.pl/"]
 tulodz.pl##a[href="https://www.ucando.pl/"]
 portalplock.pl##a[href="https://www.ucando.pl/k/hamulce/U02"]
 angolia.co.uk##a[href="https://www.zaklad-pogrzebowy-uk.co.uk/"]
+angolia.co.uk##a[href="https://zbiorka.uk/"]
 tomaszowiak.net##a[href="infusions/weblinks/weblinks.php?weblink_id=106"]
 tomaszowiak.net##a[href="infusions/weblinks/weblinks.php?weblink_id=113"]
 tomaszowiak.net##a[href="infusions/weblinks/weblinks.php?weblink_id=115"]
@@ -2351,7 +2352,6 @@ tvwlodawa.pl##div[id^="layerslider_"]
 agropolska.pl##div[id^="mediaContent"]
 lesko.info##div[id^="media_image-"]
 tonaszregion.pl##div[id^="media_image-"] a:not([href^="http://93.175."])
-zawiercianskie.pl##div[id^="metaslider_"]
 capuccino.eu##div[id^="n2-ss-"]
 kurierzamojski.pl##div[id^="nowyk-"]
 se.pl##div[id^="placement"]

@@ -367,8 +367,8 @@
 			"displayNumber": 3,
 			"groupId": 1,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylist.txt",
-			"version": "2.1.18.33",
-			"timeUpdated": "2023-12-29T05:00:59+0000",
+			"version": "2.1.18.34",
+			"timeUpdated": "2023-12-29T09:01:43+0000",
 			"languages": []
 		},
 		{
@@ -408,8 +408,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt",
-			"version": "2.1.33.22",
-			"timeUpdated": "2023-12-29T05:01:05+0000",
+			"version": "2.1.33.23",
+			"timeUpdated": "2023-12-29T09:01:50+0000",
 			"languages": []
 		},
 		{
@@ -437,8 +437,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
-			"version": "2.1.41.30",
-			"timeUpdated": "2023-12-29T05:01:07+0000",
+			"version": "2.1.41.31",
+			"timeUpdated": "2023-12-29T09:01:51+0000",
 			"languages": []
 		},
 		{
@@ -478,8 +478,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylistitaly.txt",
-			"version": "2.1.41.32",
-			"timeUpdated": "2023-12-29T05:01:10+0000",
+			"version": "2.1.41.33",
+			"timeUpdated": "2023-12-29T09:01:55+0000",
 			"languages": [
 				"it"
 			]
@@ -523,8 +523,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/Liste_AR.txt",
-			"version": "2.1.41.31",
-			"timeUpdated": "2023-12-29T05:01:12+0000",
+			"version": "2.1.41.32",
+			"timeUpdated": "2023-12-29T09:01:56+0000",
 			"languages": [
 				"ar"
 			]
@@ -538,8 +538,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/liste_fr.txt",
-			"version": "2.1.41.30",
-			"timeUpdated": "2023-12-29T05:01:14+0000",
+			"version": "2.1.41.31",
+			"timeUpdated": "2023-12-29T09:02:00+0000",
 			"languages": []
 		},
 		{
@@ -603,8 +603,8 @@
 			"displayNumber": 2,
 			"groupId": 2,
 			"subscriptionUrl": "https://easylist.to/easylist/easyprivacy.txt",
-			"version": "2.1.19.71",
-			"timeUpdated": "2023-12-29T05:01:18+0000",
+			"version": "2.1.19.72",
+			"timeUpdated": "2023-12-29T09:02:03+0000",
 			"languages": []
 		},
 		{
@@ -657,8 +657,8 @@
 			"displayNumber": 100,
 			"groupId": 4,
 			"subscriptionUrl": "https://secure.fanboy.co.nz/fanboy-annoyance_ubo.txt",
-			"version": "2.1.18.59",
-			"timeUpdated": "2023-12-29T05:01:30+0000",
+			"version": "2.1.18.60",
+			"timeUpdated": "2023-12-29T09:02:17+0000",
 			"languages": []
 		},
 		{
@@ -670,8 +670,8 @@
 			"displayNumber": 2,
 			"groupId": 3,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/fanboy-social.txt",
-			"version": "2.1.17.2",
-			"timeUpdated": "2023-12-29T05:01:32+0000",
+			"version": "2.1.17.3",
+			"timeUpdated": "2023-12-29T09:02:19+0000",
 			"languages": []
 		},
 		{
@@ -683,8 +683,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylistportuguese.txt",
-			"version": "2.0.13.5",
-			"timeUpdated": "2023-12-29T05:01:32+0000",
+			"version": "2.0.13.6",
+			"timeUpdated": "2023-12-29T09:02:20+0000",
 			"languages": []
 		},
 		{
@@ -791,8 +791,8 @@
 			"displayNumber": 3,
 			"groupId": 4,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
-			"version": "2.1.41.31",
-			"timeUpdated": "2023-12-29T05:01:36+0000",
+			"version": "2.1.41.32",
+			"timeUpdated": "2023-12-29T09:02:24+0000",
 			"languages": []
 		},
 		{
@@ -856,8 +856,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/cntblock.txt",
-			"version": "2.1.40.56",
-			"timeUpdated": "2023-12-29T05:01:37+0000",
+			"version": "2.1.40.57",
+			"timeUpdated": "2023-12-29T09:02:25+0000",
 			"languages": []
 		},
 		{
@@ -882,8 +882,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_adguard.txt",
-			"version": "2.0.25.83",
-			"timeUpdated": "2023-12-29T05:01:38+0000",
+			"version": "2.0.25.84",
+			"timeUpdated": "2023-12-29T09:02:26+0000",
 			"languages": [
 				"vi"
 			]
@@ -1113,8 +1113,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylistspanish.txt",
-			"version": "2.1.41.32",
-			"timeUpdated": "2023-12-29T05:01:58+0000",
+			"version": "2.1.41.33",
+			"timeUpdated": "2023-12-29T09:02:47+0000",
 			"languages": []
 		},
 		{
@@ -1126,8 +1126,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/FiltersHeroes/KAD/master/KAD.txt",
-			"version": "2.0.51.9",
-			"timeUpdated": "2023-12-29T01:02:21+0000",
+			"version": "2.0.51.10",
+			"timeUpdated": "2023-12-29T09:02:52+0000",
 			"languages": []
 		},
 		{
@@ -1251,8 +1251,8 @@
 			"displayNumber": 100,
 			"groupId": 4,
 			"subscriptionUrl": "https://www.fanboy.co.nz/fanboy-cookiemonster.txt",
-			"version": "2.1.26.62",
-			"timeUpdated": "2023-12-29T05:02:16+0000",
+			"version": "2.1.26.63",
+			"timeUpdated": "2023-12-29T09:03:04+0000",
 			"languages": []
 		},
 		{
@@ -1318,8 +1318,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylistpolish.txt",
-			"version": "2.1.37.38",
-			"timeUpdated": "2023-12-29T05:02:20+0000",
+			"version": "2.1.37.39",
+			"timeUpdated": "2023-12-29T09:03:08+0000",
 			"languages": []
 		},
 		{
@@ -1362,8 +1362,8 @@
 			"displayNumber": 100,
 			"groupId": 4,
 			"subscriptionUrl": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AnnoyancesList",
-			"version": "2.0.12.83",
-			"timeUpdated": "2023-12-29T05:02:31+0000",
+			"version": "2.0.12.84",
+			"timeUpdated": "2023-12-29T09:03:20+0000",
 			"languages": []
 		},
 		{
@@ -1406,8 +1406,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/indianlist.txt",
-			"version": "2.0.34.63",
-			"timeUpdated": "2023-12-29T05:02:35+0000",
+			"version": "2.0.34.64",
+			"timeUpdated": "2023-12-29T09:03:24+0000",
 			"languages": [
 				"hi"
 			]
