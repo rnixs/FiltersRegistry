@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wkG3ET0PQnvtapKoLu0xaw
-! Diff-Path: ../patches/14/14-s-1703853402-3600.patch
+! Checksum: 5N+aC0GIB6rQffWJtRYcFg
+! Diff-Path: ../patches/14/14-s-1703857037-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.41
-! TimeUpdated: 2023-12-29T12:31:58+00:00
+! Version: 2.1.83.42
+! TimeUpdated: 2023-12-29T13:31:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2311,6 +2311,7 @@ cioccolatonippon.it,movieplayer.it,hwupgrade.it,iphoneitalia.com,mediaset.it,tom
 !
 ! NOTE: Regular rules
 !
+||saldaodainformatica.com.br/modules/cookiesplus/
 sg.theasianparent.com##.cookie-acceptance-popup
 ||std.wpcdn.pl/wpjslib6/wpjslib-sgap.js$domain=easygo.pl
 ||ferroflex.ch/typo3temp/assets/compressed/cookieman-theme.min-
@@ -35335,7 +35336,7 @@ techspot.com,mos-holidays.ru,igate.com.ua,harpersbazaar.com.ua,incrussia.ru##.su
 gastronom.ru,marketplace.magazineluiza.com.br,supersadovnik.ru,tripoli.land,rockstargame.su##.subs-form
 buyon.ru##.subscribe-b
 rabota.ru##.subscribe-block__inner
-carnegie-mec.org,newegg.com,bracontece.com.br,livemint.com##.subscribe-box
+infoq.com,carnegie-mec.org,newegg.com,bracontece.com.br,livemint.com##.subscribe-box
 ppt.ru##.subscribe-card-wide
 scmp.com,foxtrot.com.ua,dazeddigital.com,ellegirl.ru##.subscribe-container
 nautil.us,last.fm##.subscribe-cta
