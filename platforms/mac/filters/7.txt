@@ -1,9 +1,9 @@
-! Checksum: 6qo1Y6U9Wc+bRXRlkuNlUw
-! Diff-Path: ../patches/7/7-s-1703828155-3600.patch
+! Checksum: SfRKNsvPtvrsdIYxkHmwyQ
+! Diff-Path: ../patches/7/7-s-1703853417-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.9
-! TimeUpdated: 2023-12-29T05:33:08+00:00
+! Version: 2.0.47.10
+! TimeUpdated: 2023-12-29T12:33:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1128,6 +1128,8 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169518
+ge-soku.com#$##custom_html-48 { margin-top: 0px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168163
 hitoikigame.com#$#.plugin-freearea td[bgcolor] > div[style] { width: 100% !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167699
@@ -1499,7 +1501,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 .xyz/win/^$document
 ://smbc-$document,domain=fit|shop
 .xyz/funccode.php|$document
-.cloud/_/*/WHkFeaR2U/*$document
+.cloud/*/WHkFeaR2U/$document
 /mos/?t=$document
 /wos/?t=$document
 /?type=lp001&afl=$document
@@ -1658,6 +1660,10 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+ge-soku.com###diver_widget_pcsp-5
+ge-soku.com###diver_widget_pcsp-16
+ge-soku.com###diver_widget_pcsp-14
+ge-soku.com###custom_html-108
 pks.raenonx.cc##.w-full.info-section-opaque.fixed.bottom-0.z-nav
 pks.raenonx.cc#?#.h-full:has(> div > div.absolute > ins.adsbygoogle)
 automaton-media.com##.td-ss-main-sidebar > aside.widget:has(> div.block-title > span)

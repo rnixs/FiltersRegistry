@@ -1,9 +1,9 @@
-! Checksum: ykdNZdDsbLzA2+asrqQtJQ
-! Diff-Path: ../patches/17/17-s-1703798015-3600.patch
+! Checksum: 891kzhMuTg5HVrcVUMStVA
+! Diff-Path: ../patches/17/17-s-1703853370-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.67
-! TimeUpdated: 2023-12-28T21:09:52+00:00
+! Version: 2.0.7.68
+! TimeUpdated: 2023-12-29T12:32:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -113,6 +113,7 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169365
 ! boredpanda.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169023
 ! huffingtonpost.it

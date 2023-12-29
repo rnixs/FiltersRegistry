@@ -1,9 +1,9 @@
-! Checksum: 4954gys4wlQNYcyeqQAeOQ
-! Diff-Path: ../patches/3/3-s-1703849963-3600.patch
+! Checksum: X+0eRrSdtRJwjLjr3Pd5Qw
+! Diff-Path: ../patches/3/3-s-1703853411-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.6
-! TimeUpdated: 2023-12-29T11:35:35+00:00
+! Version: 2.0.65.7
+! TimeUpdated: 2023-12-29T12:33:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -37978,6 +37978,8 @@ nethunt.com/api/v1/track/email/$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125119
 ! adingo.jp
 ! wp.pl
+!
+!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123962
 ! gazeta.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118022
