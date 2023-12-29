@@ -3714,7 +3714,7 @@
 			},
 			"en": {
 				"name": "AdGuard Popups filter",
-				"description": "Blocks all kinds of pop-ups that are not necessary for websites' operation."
+				"description": "Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy."
 			},
 			"es": {
 				"name": "Filtro de ventanas emergentes",

@@ -61,8 +61,8 @@
 			"displayNumber": 1,
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/2.txt",
-			"version": "2.3.15.81",
-			"timeUpdated": "2023-12-29T10:32:31+0000",
+			"version": "2.3.15.82",
+			"timeUpdated": "2023-12-29T11:35:27+0000",
 			"languages": []
 		},
 		{
@@ -74,8 +74,8 @@
 			"displayNumber": 1,
 			"groupId": 2,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/3.txt",
-			"version": "2.0.65.5",
-			"timeUpdated": "2023-12-28T16:32:33+0000",
+			"version": "2.0.65.6",
+			"timeUpdated": "2023-12-29T11:35:35+0000",
 			"languages": []
 		},
 		{
@@ -213,8 +213,8 @@
 			"displayNumber": 1,
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/13.txt",
-			"version": "2.0.49.15",
-			"timeUpdated": "2023-12-29T10:31:20+0000",
+			"version": "2.0.49.16",
+			"timeUpdated": "2023-12-29T11:34:14+0000",
 			"languages": [
 				"tr"
 			]
@@ -228,8 +228,8 @@
 			"displayNumber": 1,
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/14.txt",
-			"version": "2.1.83.39",
-			"timeUpdated": "2023-12-29T10:31:34+0000",
+			"version": "2.1.83.40",
+			"timeUpdated": "2023-12-29T11:34:28+0000",
 			"languages": []
 		},
 		{
@@ -287,14 +287,14 @@
 			"displayNumber": 2,
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/18.txt",
-			"version": "2.0.30.46",
-			"timeUpdated": "2023-12-28T21:09:53+0000",
+			"version": "2.0.30.47",
+			"timeUpdated": "2023-12-29T11:34:39+0000",
 			"languages": []
 		},
 		{
 			"filterId": 19,
 			"name": "AdGuard Popups filter",
-			"description": "Blocks all kinds of pop-ups that are not necessary for websites' operation.",
+			"description": "Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.",
 			"homepage": "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
 			"expires": 432000,
 			"displayNumber": 2,
@@ -1018,8 +1018,8 @@
 			"displayNumber": 1,
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/224.txt",
-			"version": "2.1.6.98",
-			"timeUpdated": "2023-12-29T10:32:06+0000",
+			"version": "2.1.6.99",
+			"timeUpdated": "2023-12-29T11:35:03+0000",
 			"languages": [
 				"zh"
 			]
