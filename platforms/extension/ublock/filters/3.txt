@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 2PUQciSsRWGRNH5/l6RaYg
-! Diff-Path: ../patches/3/3-s-1703860665-3600.patch
+! Checksum: 5yRM/4U4vK2NikGuLruWcA
+! Diff-Path: ../patches/3/3-s-1703864212-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.9
-! TimeUpdated: 2023-12-29T14:32:38+00:00
+! Version: 2.0.65.10
+! TimeUpdated: 2023-12-29T15:32:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -74898,8 +74898,8 @@ _tracking.php?b=
 ! https://github.com/AdguardTeam/Scriptlets/issues/253#issuecomment-1308957501 - do not remove `~id.x5.ru`
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137243
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155158
-!+ NOT_PLATFORM(windows, mac, android)
-! TODO: replace `~domain.com` by exclusions after ext4.0 release
+! https://github.com/AdguardTeam/AdguardFilters/issues/137243
+!
 ! https://github.com/AdguardTeam/AdguardForWindows/issues/3973
 ! Probably caused by overriding "dataLayer.push" function
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=~olx.*|~banki.ru|~bigc.co.th

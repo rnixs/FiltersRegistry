@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0eh8JYqXpWfRmsEtXYr7Vw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1703860664-3600.patch
+! Checksum: MpAqQcQ1r9yMOAKjLWH2MA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1703864211-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.15.84
-! TimeUpdated: 2023-12-29T14:32:30+00:00
+! Version: 2.3.15.85
+! TimeUpdated: 2023-12-29T15:32:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -77,6 +77,7 @@
 !
 !
 !
+||azqqloborwwba.top^$all
 ||fipkcakk.com^
 ||hooglidi.net^
 ||ixxljgh.com^
@@ -1435,6 +1436,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||sponsor.imacdn.com^
 ||d3qvcyf9oa6vhw.cloudfront.net^
 ||d264dxqvolp03e.cloudfront.net^
 ||d2ovgc4ipdt6us.cloudfront.net^
