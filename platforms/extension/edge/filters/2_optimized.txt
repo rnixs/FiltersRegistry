@@ -1,9 +1,9 @@
-! Checksum: SQ+3Gua0i13xSXCjZuHfbQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1703885731-3600.patch
+! Checksum: qIC4dTHZI3syyNWVAfeqcA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1703889310-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.15.91
-! TimeUpdated: 2023-12-29T21:32:38+00:00
+! Version: 2.3.15.92
+! TimeUpdated: 2023-12-29T22:32:15+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -29610,7 +29610,7 @@ rumble.com##.a-break
 abcya.com##.a-leader
 chimpreports.com,collive.com,defence-industry.eu,islandecho.co.uk,locklab.com,mallorcasunshineradio.com,runwaygirlnetwork.com,spaceref.com,talkradioeurope.com,theshoesnobblog.com##.a-single
 abcya.com##.a-skyscraper
-androidtrends.com,backthetruckup.com,bingehulu.com,streamsgeek.com,trendstorys.com##.a-wrap
+androidtrends.com,backthetruckup.com,bingehulu.com,streamsgeek.com,techcentral.co.za,trendstorys.com##.a-wrap
 breitbart.com##.a-wrapper
 fastweb.com##.a_cls_s
 premierguitar.com##.a_promo
