@@ -1,9 +1,9 @@
-! Checksum: cFCh4HRNJJjIN3BqcObrRw
-! Diff-Path: ../patches/227_optimized/227_optimized-s-1703811974-14400.patch
+! Checksum: sJfsQosNJqyABqXRPu5IlA
+! Diff-Path: ../patches/227_optimized/227_optimized-s-1703869602-14400.patch
 ! Title: List-KR (Optimized)
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.24
-! TimeUpdated: 2023-12-29T01:02:08+00:00
+! Version: 2.0.17.25
+! TimeUpdated: 2023-12-29T17:02:12+00:00
 ! Expires: 1 day (update frequency)
 ||ad1.missyusa.com^
 ||ads.motorgraph.com^
@@ -1427,6 +1427,7 @@ lol.ps##div[class*="ad-"]
 jobkorea.co.kr##div[id^="Banner"]
 eegosa.com##section[id*="_ads_"]
 sports.donga.com##div[id*="_AD"]
+m.comic.naver.com##.band_banner
 chzzk.naver.com##a[class*="banner_link_"][target="_blank"] > img[class*="banner_image_"][src*="/Banner_"]
 buly.kr##.modal > #pop_modal
 search.danawa.com##li[style][id^="ad"]
@@ -2374,7 +2375,7 @@ comic.naver.com##[id^="flex_ad_"]
 bera.world,1412.live##.custom_code.board_top
 news.appstory.co.kr###shopping_wrap
 news.appstory.co.kr##a[href*="//wrd.appstory.co.kr/rd.flad?"]
-m.comic.naver.com,news.appstory.co.kr##a[class^="banner_"]
+news.appstory.co.kr##a[class^="banner_"]
 news.appstory.co.kr##.header_banner
 mground.kr##[data-postid].ultp-shortcode
 daum.net##iframe[src^="//shop-redapi.daum.net/red-apigate/daumtop/"]

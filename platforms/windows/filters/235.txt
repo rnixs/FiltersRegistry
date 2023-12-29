@@ -1,9 +1,9 @@
-! Checksum: 44Say3NaBxsLb34xaL0HSA
-! Diff-Path: ../patches/235/235-s-1703811991-14400.patch
+! Checksum: K/s/Wwj7whNLYbqp3Kygxw
+! Diff-Path: ../patches/235/235-s-1703869620-14400.patch
 ! Title: Persian Blocker
 ! Description: Filter list for blocking ads and trackers on websites in Persian.
-! Version: 2.0.3.99
-! TimeUpdated: 2023-12-29T01:02:23+00:00
+! Version: 2.0.4.0
+! TimeUpdated: 2023-12-29T17:02:27+00:00
 ! Expires: 12 hours (update frequency)
 !
 ! Title: PersianBlocker
@@ -599,6 +599,7 @@ apktops.ir##.post-article > .content > .row .entry-content:has-text(اسپاتی
 apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 ! >> B <<
+bizma.ir#%#//scriptlet('ubo-aeld.js', '/contextmenu|copy|cut/', 'return"undefined"')
 ||sentry.bale.sh^$third-party,domain=bale.ai
 ||web.bale.ai/static/js/web-vitals.$script,~third-party
 ||next-api.bale.ai/bale.seraj_proxy.v1.SerajProxy/SendSerajEvent^$xmlhttprequest,~third-party,method=options|post
@@ -1504,10 +1505,9 @@ khabarpu.com#%#//scriptlet('ubo-nano-stb.js', 'document.getElementById', '*', '0
 khabarpu.com##.rbox .rbox-h:has-text(تبلیغات):upward(.rbox)
 khabarpu.com##.inline_ads
 ! https://github.com/MasterKia/PersianBlocker/issues/38
-khabarfoori.com##[href*="/advertisements/"]
 khabarfoori.com##.zxc
-khabarfoori.com##.peyvand
-khabarfoori.com#$#.rowTwo .right_side, .rowTwo .column_1 { width: 100% !important; }
+khabarfoori.com##div.type-resource-image:has(> a[href^="/advertisements/triggered/"])
+khabarfoori.com##div.peyvand
 ketabesabz.com#%#//scriptlet('ubo-set.js', 'KetabrahPopup', 'noopFunc')
 ketabesabz.com##div.white-block:nth-of-type(2)
 kalakamuz.ir##div.main > div.box:has(> p > a[href="http://botsaz.com/"])

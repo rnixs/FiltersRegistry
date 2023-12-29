@@ -1,9 +1,9 @@
-! Checksum: uxtbTEcbeELM5b3GCnX3fA
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1703840816-14400.patch
+! Checksum: YLGvCNdo3OeVsGEseMlgHA
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1703869566-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.26.63
-! TimeUpdated: 2023-12-29T09:03:04+00:00
+! Version: 2.1.26.64
+! TimeUpdated: 2023-12-29T17:02:37+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -18474,7 +18474,7 @@
 ||bysarahkhan.com/wp-content/plugins/surbma-yes-no-popup/
 ||cb-mms.carbuyer.co.uk^
 ||cc.werk3.de/public/app.js
-||cdn-cookieyes.com^$domain=lykke.com|tarisio.com
+||cdn-cookieyes.com^$domain=lykke.com|meiro.io|tarisio.com
 ||cdn259.talksport.com^
 ||channel4.com/consent/
 ||cmp-static.nature.com^
@@ -21972,7 +21972,6 @@ lepermislibre.fr,brico.be,praxis.nl##.chakra-slide
 lepermislibre.fr,brico.be,praxis.nl##.chakra-modal__content-container
 lepermislibre.fr,brico.be,praxis.nl##.chakra-modal__overlay
 lepermislibre.fr,brico.be,praxis.nl#$#body,html { overflow: auto !important; position: initial !important; }
-close2.de,medicalti.it,grottisrl.it,vilmie-pet.com,private-krankenversicherungen-vergleich.de,ipanema-shop.com,buero-rothenfusser.com,versi24.de,rs-vertriebsservice.com,matina-gmbh.de,erding-solar.de,greenwoods-small-pet.com,kfz-schwabing.de,comune.randazzo.ct.it,comune.catania.it,ordineavvocaticatania.it,agentur-alberts.de,waveaudio.de,alexide.com,sbit.ag,smilla-katzenfutter.de##.chefcookie
 owners.kia.com##.privacy-banner-contain
 owners.kia.com#$#body,html { overflow: auto !important; position: initial !important; }
 bing.com##.bnp_cookie_banner
@@ -22899,11 +22898,6 @@ cupt.gov.pl###wiCookieBar1
 cupt.gov.pl#$#html { position: static !important; overflow: auto !important; width: auto !important; }
 metro.pk,metro.rs,metro-tr.com,metro.sk,metro.at,metro.bg,metro.de,metro.fr,metro.hu,makro.cz,makro.pl,makro.nl##.consent-disclaimer
 metro.pk,metro.rs,metro-tr.com,metro.sk,metro.at,metro.bg,metro.de,metro.fr,metro.hu,makro.cz,makro.pl,makro.nl#$#body,html { height: auto !important; overflow: auto !important }
-understandingsociety.ac.uk###cookieOpts
-understandingsociety.ac.uk##.modal-backdrop
-meiro.io##.wp-exclude-emoji
-meiro.io##[data-bg]
-meiro.io#$#body,html { overflow: auto !important; position: initial !important; }
 elespanol.com###didomi-host
 elespanol.com###nhfp_didomi_block_page
 elespanol.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -22935,28 +22929,12 @@ topannonces.fr,paruvendu.fr##.cmpcontainer
 storyhouseegmont.dk,storyhouseegmont.no,storyhouseegmont.se,egmont.com,nordiskfilm.com###CybotCookiebotDialog
 storyhouseegmont.dk,storyhouseegmont.no,storyhouseegmont.se,egmont.com,nordiskfilm.com##div[class^="Navigation__Overlay-"]
 storyhouseegmont.dk,storyhouseegmont.no,storyhouseegmont.se,egmont.com,nordiskfilm.com#$#body { overflow: auto !important }
-hanse-haus-greifswald.de##.background-overlay
-hanse-haus-greifswald.de###cookie-law-info-bar
-hanse-haus-greifswald.de#$#body,html { overflow: auto !important; position: initial !important; }
-autohero.com##.backdrop___is1w-
-autohero.com##.root___3ffa6
-autohero.com#$#body { overflow: auto !important; position: initial !important; }
 tallink.com###cms-web-consent-root
 tallink.com#$#.cws-modal-open { overflow: auto !important; pointer-events: auto !important; }
 faq.whatsapp.com,blog.whatsapp.com,www.whatsapp.com##[data-testid="wa_cookies_banner_modal"]
-seurakuntavaalit.fi#$#body { overflow: auto !important }
-seurakuntavaalit.fi##.is-active.site-overlay
-seurakuntavaalit.fi###cookie-modal
-kangasalansanomat.fi###kscookiebox
-kangasalansanomat.fi#$##td-outer-wrap { filter: none !important; user-select: auto !important; }
 akaanseutu.fi,alueviesti.fi,kiuruvesilehti.fi,lempaala.ideapark.fi,lvs.fi,olutposti.fi,orivedensanomat.fi,pirmediat.fi,radiosun.fi,shl.fi,urjalansanomat.fi,ylojarvenuutiset.fi###cookie_disclaimer.cm_ui
 historianet.fi,tieku.fi##.topscroll-banner
 podimo.com##.cookie
-sugi-net.jp##.CookieConsent
-sugi-net.jp##div[style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 999; background-color: rgba(0, 0, 0, 0.3);"]
-sugi-net.jp#$#body[style="overflow: hidden;"] { overflow: auto !important; }
-ilonpolku.fi##[style="background: rgba(0, 0, 0, 0.38); backdrop-filter: blur(2px); position: fixed; inset: 0px; z-index: 999999; pointer-events: all; display: block; filter: none; max-width: 100vw; max-height: 100vh;"]
-ilonpolku.fi#$#html { overflow: auto !important }
 kiertokanki.com#$#body { overflow: auto !important; }
 kiertokanki.com##.modal-backdrop
 flip.bg#$#.modal-open { overflow: auto !important; }

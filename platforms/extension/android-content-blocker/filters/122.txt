@@ -1,15 +1,15 @@
-! Checksum: 2p+clh1LYr9x9Hk0zI9yQw
-! Diff-Path: ../patches/122/122-s-1703840814-14400.patch
+! Checksum: YhVB1aVM5w494TO5QgSSCg
+! Diff-Path: ../patches/122/122-s-1703869564-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.18.60
-! TimeUpdated: 2023-12-29T09:02:17+00:00
+! Version: 2.1.18.61
+! TimeUpdated: 2023-12-29T17:01:50+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: Rq7Y9gTSz7yBq2OTgfISnQ
-! OriginalVersion: 202312290845
+! Checksum: 5rPHojiWagEv9pq+RXNGnQ
+! OriginalVersion: 202312291700
 ! Title: Fanboy's Annoyance List
-! Last modified: 2023-12-29 08:45 UTC
+! Last modified: 2023-12-29 17:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35175,7 +35175,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||bysarahkhan.com/wp-content/plugins/surbma-yes-no-popup/
 ||cb-mms.carbuyer.co.uk^
 ||cc.werk3.de/public/app.js
-||cdn-cookieyes.com^$domain=lykke.com|tarisio.com
+||cdn-cookieyes.com^$domain=lykke.com|meiro.io|tarisio.com
 ||cdn259.talksport.com^
 ||channel4.com/consent/
 ||cmp-static.nature.com^
@@ -37931,6 +37931,7 @@ npr.org,symmetrymagazine.org,thefinance.sg,topbet.eu##.subscribe
 jasonwatmore.com##.subscribe-buttons
 newsandguts.com##.subscribeBar
 techweekmag.com##.supersharer
+locals.com##.support-now
 arigatojapan.co.jp##.swp-hover-pin-button
 elements.visualcapitalist.com,marktechpost.com##.swp_social_panel
 echonewshub.com,jugomobile.com##.t-shared-sec
@@ -41541,8 +41542,8 @@ bayaspirina.com.ar,actron.com.ar,restoralax.ca,aspirina-ca.com,rennie.com.ar,aer
 !! .cookieWarning-container
 eteam-winkler.de,kdn-elektro.de,elektro-kotz.de,elektro-service-rauh.de,elektroanlagenbuettner.de,be-connect.online,bayergruppe.com,bayer-wkt.de,bayer-wind.de,bayer-wd.de,elektro-joa.de,htechnik.de,ehk-service.de,bittner-tv.de,elektro-suelzner.de,elektro-leps.de,elektromax-hausgeraete.de,elektrotechnik-schedel.de,elkugmbh.de,ln-elektro-gmbh.de,weiss-blau-gmbh.de,sunbeam-energy.de,prokauf.com,lichtstudio-kerl.de,liebing-beese.de,hoeschel-baumann.de,hausgeraete-kraemer.de,gehlhaar-elektrotechnik.de,ehs-elektrotechnik.de,elektrojarschke.de,elektrotechnik-fleischmann.de,elektroseemueller.de,schoerling-blitz.de,ast-apolda.com,elektro-klippel.de,arntz-haustechnik.de,elektro-bindel.de,elektrotechnik-weiss.com,brandschutz-hamburg.de,wagnerelektrotechnik.de,el-kramer.de,mks-hof.de,wernz-elektro.de,e3-energy.de,sg-solar.de,elektrokrebs.de,elektro-roehrl.de,elektro-kreher.de,giegling-vonsaal.de,elektro-lehmann.com,ems-wurzen.de##.cookieWarning-container
 !! .overlay
-justinguitar.com,autoteiledirekt.de,hotcourses.ru,mathem.se,primehome.de,diebayerische.de,fups.com,goteborg.com,solcom.de,erdinger.de,auto-doc.be,auto-doc.ch,auto-doc.ie,auto-doc.pt,autodoc.be,autodoc.bg,autodoc.cz,autodoc.co.no,autodoc.dk,autodoc.ee,autodoc.fi,autodoc.gr,autodoc.hu,autodoc.lt,autodoc.lu,autodoc.lv,autodoc.nl,autodoc.pl,autodoc.si,autodoc.sk,autodoc24.ch,autodoc24.ro##.overlay
-justinguitar.com,autoteiledirekt.de,hotcourses.ru,mathem.se,primehome.de,diebayerische.de,fups.com,goteborg.com,solcom.de,erdinger.de,auto-doc.be,auto-doc.ch,auto-doc.ie,auto-doc.pt,autodoc.be,autodoc.bg,autodoc.cz,autodoc.co.no,autodoc.dk,autodoc.ee,autodoc.fi,autodoc.gr,autodoc.hu,autodoc.lt,autodoc.lu,autodoc.lv,autodoc.nl,autodoc.pl,autodoc.si,autodoc.sk,autodoc24.ch,autodoc24.ro#$#body,html { overflow: auto !important; position: initial !important; }
+autodoc.de,autodoc.se,auto-doc.at,auto-doc.fr,autodoc.co.uk,auto-doc.it,justinguitar.com,autoteiledirekt.de,hotcourses.ru,mathem.se,primehome.de,diebayerische.de,fups.com,goteborg.com,solcom.de,erdinger.de,auto-doc.be,auto-doc.ch,auto-doc.ie,auto-doc.pt,autodoc.be,autodoc.bg,autodoc.cz,autodoc.co.no,autodoc.dk,autodoc.ee,autodoc.fi,autodoc.gr,autodoc.hu,autodoc.lt,autodoc.lu,autodoc.lv,autodoc.nl,autodoc.pl,autodoc.si,autodoc.sk,autodoc24.ch,autodoc24.ro##.overlay
+autodoc.de,autodoc.se,auto-doc.at,auto-doc.fr,autodoc.co.uk,auto-doc.it,justinguitar.com,autoteiledirekt.de,hotcourses.ru,mathem.se,primehome.de,diebayerische.de,fups.com,goteborg.com,solcom.de,erdinger.de,auto-doc.be,auto-doc.ch,auto-doc.ie,auto-doc.pt,autodoc.be,autodoc.bg,autodoc.cz,autodoc.co.no,autodoc.dk,autodoc.ee,autodoc.fi,autodoc.gr,autodoc.hu,autodoc.lt,autodoc.lu,autodoc.lv,autodoc.nl,autodoc.pl,autodoc.si,autodoc.sk,autodoc24.ch,autodoc24.ro#$#body,html { overflow: auto !important; position: initial !important; }
 !! .cdk-overlay-container (non-scroll fix)
 cursr.app##.cdk-overlay-container
 !! .cdk-overlay-container
@@ -42129,8 +42130,6 @@ lepermislibre.fr,brico.be,praxis.nl##.chakra-slide
 lepermislibre.fr,brico.be,praxis.nl##.chakra-modal__content-container
 lepermislibre.fr,brico.be,praxis.nl##.chakra-modal__overlay
 lepermislibre.fr,brico.be,praxis.nl#$#body,html { overflow: auto !important; position: initial !important; }
-!! chefcookie
-close2.de,medicalti.it,grottisrl.it,vilmie-pet.com,private-krankenversicherungen-vergleich.de,ipanema-shop.com,buero-rothenfusser.com,versi24.de,rs-vertriebsservice.com,matina-gmbh.de,erding-solar.de,greenwoods-small-pet.com,kfz-schwabing.de,comune.randazzo.ct.it,comune.catania.it,ordineavvocaticatania.it,agentur-alberts.de,waveaudio.de,alexide.com,sbit.ag,smilla-katzenfutter.de##.chefcookie
 ! owners.kia.com
 owners.kia.com##.privacy-banner-contain
 owners.kia.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -43508,14 +43507,7 @@ cupt.gov.pl#$#html { position: static !important; overflow: auto !important; wid
 ! metro.*
 metro.pk,metro.rs,metro-tr.com,metro.sk,metro.at,metro.bg,metro.de,metro.fr,metro.hu,makro.cz,makro.pl,makro.nl##.consent-disclaimer
 metro.pk,metro.rs,metro-tr.com,metro.sk,metro.at,metro.bg,metro.de,metro.fr,metro.hu,makro.cz,makro.pl,makro.nl#$#body,html { height: auto !important; overflow: auto !important }
-! understandingsociety.ac.uk
-understandingsociety.ac.uk###cookieOpts
-understandingsociety.ac.uk##.modal-backdrop
 ! https://github.com/easylist/easylist/issues/9006
-! meiro.io
-meiro.io##.wp-exclude-emoji
-meiro.io##[data-bg]
-meiro.io#$#body,html { overflow: auto !important; position: initial !important; }
 ! elespanol.com
 elespanol.com###didomi-host
 elespanol.com###nhfp_didomi_block_page
@@ -43560,27 +43552,12 @@ topannonces.fr,paruvendu.fr##.cmpcontainer
 storyhouseegmont.dk,storyhouseegmont.no,storyhouseegmont.se,egmont.com,nordiskfilm.com###CybotCookiebotDialog
 storyhouseegmont.dk,storyhouseegmont.no,storyhouseegmont.se,egmont.com,nordiskfilm.com##div[class^="Navigation__Overlay-"]
 storyhouseegmont.dk,storyhouseegmont.no,storyhouseegmont.se,egmont.com,nordiskfilm.com#$#body { overflow: auto !important }
-! hanse-haus-greifswald.de
-hanse-haus-greifswald.de##.background-overlay
-hanse-haus-greifswald.de###cookie-law-info-bar
-hanse-haus-greifswald.de#$#body,html { overflow: auto !important; position: initial !important; }
-! autohero.com
-autohero.com##.backdrop___is1w-
-autohero.com##.root___3ffa6
-autohero.com#$#body { overflow: auto !important; position: initial !important; }
 ! tallink.com
 tallink.com###cms-web-consent-root
 tallink.com#$#.cws-modal-open { overflow: auto !important; pointer-events: auto !important; }
 ! supla.fi
 ! whatsapp.com
 faq.whatsapp.com,blog.whatsapp.com,www.whatsapp.com##[data-testid="wa_cookies_banner_modal"]
-! seurakuntavaalit.fi
-seurakuntavaalit.fi#$#body { overflow: auto !important }
-seurakuntavaalit.fi##.is-active.site-overlay
-seurakuntavaalit.fi###cookie-modal
-! kangasalansanomat.fi
-kangasalansanomat.fi###kscookiebox
-kangasalansanomat.fi#$##td-outer-wrap { filter: none !important; user-select: auto !important; }
 ! #cookie_disclaimer + (aeld, scroll, innerHeight)
 akaanseutu.fi,alueviesti.fi,kiuruvesilehti.fi,lempaala.ideapark.fi,lvs.fi,olutposti.fi,orivedensanomat.fi,pirmediat.fi,radiosun.fi,shl.fi,urjalansanomat.fi,ylojarvenuutiset.fi###cookie_disclaimer.cm_ui
 ! anna.fi
@@ -43591,13 +43568,6 @@ historianet.fi,tieku.fi##.topscroll-banner
 ! philips-hue.com
 ! podimo.com
 podimo.com##.cookie
-! sugi-net.jp
-sugi-net.jp##.CookieConsent
-sugi-net.jp##div[style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 999; background-color: rgba(0, 0, 0, 0.3);"]
-sugi-net.jp#$#body[style="overflow: hidden;"] { overflow: auto !important; }
-! ilonpolku.fi
-ilonpolku.fi##[style="background: rgba(0, 0, 0, 0.38); backdrop-filter: blur(2px); position: fixed; inset: 0px; z-index: 999999; pointer-events: all; display: block; filter: none; max-width: 100vw; max-height: 100vh;"]
-ilonpolku.fi#$#html { overflow: auto !important }
 ! kiertokanki.com
 kiertokanki.com#$#body { overflow: auto !important; }
 kiertokanki.com##.modal-backdrop
@@ -47729,8 +47699,6 @@ lepermislibre.fr,brico.be,praxis.nl##.chakra-slide
 lepermislibre.fr,brico.be,praxis.nl##.chakra-modal__content-container
 lepermislibre.fr,brico.be,praxis.nl##.chakra-modal__overlay
 lepermislibre.fr,brico.be,praxis.nl#$#body,html { overflow: auto !important; position: initial !important; }
-!! chefcookie
-close2.de,medicalti.it,grottisrl.it,vilmie-pet.com,private-krankenversicherungen-vergleich.de,ipanema-shop.com,buero-rothenfusser.com,versi24.de,rs-vertriebsservice.com,matina-gmbh.de,erding-solar.de,greenwoods-small-pet.com,kfz-schwabing.de,comune.randazzo.ct.it,comune.catania.it,ordineavvocaticatania.it,agentur-alberts.de,waveaudio.de,alexide.com,sbit.ag,smilla-katzenfutter.de##.chefcookie
 ! owners.kia.com
 owners.kia.com##.privacy-banner-contain
 owners.kia.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -49108,14 +49076,7 @@ cupt.gov.pl#$#html { position: static !important; overflow: auto !important; wid
 ! metro.*
 metro.pk,metro.rs,metro-tr.com,metro.sk,metro.at,metro.bg,metro.de,metro.fr,metro.hu,makro.cz,makro.pl,makro.nl##.consent-disclaimer
 metro.pk,metro.rs,metro-tr.com,metro.sk,metro.at,metro.bg,metro.de,metro.fr,metro.hu,makro.cz,makro.pl,makro.nl#$#body,html { height: auto !important; overflow: auto !important }
-! understandingsociety.ac.uk
-understandingsociety.ac.uk###cookieOpts
-understandingsociety.ac.uk##.modal-backdrop
 ! https://github.com/easylist/easylist/issues/9006
-! meiro.io
-meiro.io##.wp-exclude-emoji
-meiro.io##[data-bg]
-meiro.io#$#body,html { overflow: auto !important; position: initial !important; }
 ! elespanol.com
 elespanol.com###didomi-host
 elespanol.com###nhfp_didomi_block_page
@@ -49160,27 +49121,12 @@ topannonces.fr,paruvendu.fr##.cmpcontainer
 storyhouseegmont.dk,storyhouseegmont.no,storyhouseegmont.se,egmont.com,nordiskfilm.com###CybotCookiebotDialog
 storyhouseegmont.dk,storyhouseegmont.no,storyhouseegmont.se,egmont.com,nordiskfilm.com##div[class^="Navigation__Overlay-"]
 storyhouseegmont.dk,storyhouseegmont.no,storyhouseegmont.se,egmont.com,nordiskfilm.com#$#body { overflow: auto !important }
-! hanse-haus-greifswald.de
-hanse-haus-greifswald.de##.background-overlay
-hanse-haus-greifswald.de###cookie-law-info-bar
-hanse-haus-greifswald.de#$#body,html { overflow: auto !important; position: initial !important; }
-! autohero.com
-autohero.com##.backdrop___is1w-
-autohero.com##.root___3ffa6
-autohero.com#$#body { overflow: auto !important; position: initial !important; }
 ! tallink.com
 tallink.com###cms-web-consent-root
 tallink.com#$#.cws-modal-open { overflow: auto !important; pointer-events: auto !important; }
 ! supla.fi
 ! whatsapp.com
 faq.whatsapp.com,blog.whatsapp.com,www.whatsapp.com##[data-testid="wa_cookies_banner_modal"]
-! seurakuntavaalit.fi
-seurakuntavaalit.fi#$#body { overflow: auto !important }
-seurakuntavaalit.fi##.is-active.site-overlay
-seurakuntavaalit.fi###cookie-modal
-! kangasalansanomat.fi
-kangasalansanomat.fi###kscookiebox
-kangasalansanomat.fi#$##td-outer-wrap { filter: none !important; user-select: auto !important; }
 ! #cookie_disclaimer + (aeld, scroll, innerHeight)
 akaanseutu.fi,alueviesti.fi,kiuruvesilehti.fi,lempaala.ideapark.fi,lvs.fi,olutposti.fi,orivedensanomat.fi,pirmediat.fi,radiosun.fi,shl.fi,urjalansanomat.fi,ylojarvenuutiset.fi###cookie_disclaimer.cm_ui
 ! anna.fi
@@ -49191,13 +49137,6 @@ historianet.fi,tieku.fi##.topscroll-banner
 ! philips-hue.com
 ! podimo.com
 podimo.com##.cookie
-! sugi-net.jp
-sugi-net.jp##.CookieConsent
-sugi-net.jp##div[style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 999; background-color: rgba(0, 0, 0, 0.3);"]
-sugi-net.jp#$#body[style="overflow: hidden;"] { overflow: auto !important; }
-! ilonpolku.fi
-ilonpolku.fi##[style="background: rgba(0, 0, 0, 0.38); backdrop-filter: blur(2px); position: fixed; inset: 0px; z-index: 999999; pointer-events: all; display: block; filter: none; max-width: 100vw; max-height: 100vh;"]
-ilonpolku.fi#$#html { overflow: auto !important }
 ! kiertokanki.com
 kiertokanki.com#$#body { overflow: auto !important; }
 kiertokanki.com##.modal-backdrop

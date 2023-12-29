@@ -1,9 +1,9 @@
-! Checksum: TcQyvodIHX1s5PuifIEHDQ
-! Diff-Path: ../patches/123_optimized/123_optimized-s-1703840840-14400.patch
+! Checksum: OoJsCOXin2D9gk9pYdylRg
+! Diff-Path: ../patches/123_optimized/123_optimized-s-1703869585-14400.patch
 ! Title: Fanboy's Social Blocking List (Optimized)
 ! Description: Hides and blocks social content, social widgets, social scripts and social icons. Already included in Fanboy's Annoyances list.
-! Version: 2.1.17.3
-! TimeUpdated: 2023-12-29T09:02:19+00:00
+! Version: 2.1.17.4
+! TimeUpdated: 2023-12-29T17:01:52+00:00
 ! Expires: 5 days (update frequency)
 -buttons-facebook.
 -facebook-share.
@@ -5261,6 +5261,7 @@ etonline.com##.story__links
 patch.com##.styles_SocialShare__lQpUq
 firstpost.com##.subcrbe_btn
 npr.org,symmetrymagazine.org,thefinance.sg,topbet.eu##.subscribe
+locals.com##.support-now
 echonewshub.com,jugomobile.com##.t-shared-sec
 gamingbolt.com##.tag-social-media
 thediplomat.com##.td-follow

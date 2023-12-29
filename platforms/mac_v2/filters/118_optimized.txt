@@ -1,9 +1,9 @@
-! Checksum: 0kqLqdSpPb5JMLqhYG+0Qw
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1703840871-14400.patch
+! Checksum: ZSll8NGuy1lnXCnbz8oqIQ
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1703869612-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.19.72
-! TimeUpdated: 2023-12-29T09:02:03+00:00
+! Version: 2.1.19.73
+! TimeUpdated: 2023-12-29T17:01:37+00:00
 ! Expires: 12 hours (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -1375,6 +1375,7 @@
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
 /wp-content/plugins/pageviews/pageviews.min.js
+/wp-sentry-browser.min.js
 /wp-slimstat.min.js
 /wp-statistics-tracker.min.js
 /wp-statistics/assets/js/tracker.js
