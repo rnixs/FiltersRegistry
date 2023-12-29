@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: UVElTCoNSC2MSs5CYQf0Ww
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1703817318-3600.patch
+! Checksum: 6Xas3z60Y963iQfbSjW1eg
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1703828147-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.36
-! TimeUpdated: 2023-12-28T21:09:43+00:00
+! Version: 2.1.83.37
+! TimeUpdated: 2023-12-29T05:31:44+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -8567,6 +8567,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ||wp-r.github.io/*/assets/js/jquery.adsplacer.ab-testing.js
 ||wp-r.github.io/adsplacer_pro/$third-party
 !#safari_cb_affinity
+pks.raenonx.cc##.bg-red-500\/50
 ||chinahandys.net/*/adblock-tracker.js
 ||baeldung.com/*/wp-content/themes/baeldung/library/dist/js/ad-recovery.min.js
 phoneky.com##+js(abort-on-property-read, adBlockFunction)
