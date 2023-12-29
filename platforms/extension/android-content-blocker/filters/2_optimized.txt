@@ -1,9 +1,9 @@
-! Checksum: nl155ctYeH+/nBh25KQZsA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1703817304-3600.patch
+! Checksum: By6uM48al1ftHsdSiFVk7g
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1703831704-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.15.77
-! TimeUpdated: 2023-12-28T23:32:39+00:00
+! Version: 2.3.15.78
+! TimeUpdated: 2023-12-29T06:32:11+00:00
 ! Expires: 5 days (update frequency)
 ||fipkcakk.com^
 ||hooglidi.net^
@@ -7432,6 +7432,8 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||olalivehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+elektrotanya.com##.rside_ad
+elektrotanya.com##div[id^="ad"]
 jdpower.com##.jdpAd-placeholder
 easyupload.io##.mb-0.pb-0
 easyupload.io##div[class^="reklam"]
