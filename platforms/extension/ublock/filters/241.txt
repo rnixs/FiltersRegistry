@@ -1,15 +1,15 @@
 ![Adblock Plus 2.0]
-! Checksum: vASmUfbO3k6mOScpklg4gw
-! Diff-Path: ../patches/241/241-s-1703869597-14400.patch
+! Checksum: Nhsctk99oGywloa9tjdaWw
+! Diff-Path: ../patches/241/241-s-1703883985-14400.patch
 ! Title: EasyList Cookie List
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.26.64
-! TimeUpdated: 2023-12-29T17:02:37+00:00
+! Version: 2.1.26.65
+! TimeUpdated: 2023-12-29T21:02:45+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: gqI+bBMFokcp8HBoWn3C6g
+! Checksum: Y+KSb0KTJb+7sGGxyp9lVQ
 ! Title: Easylist Cookie List
-! Updated: 2023-12-29 17:00 UTC
+! Updated: 2023-12-29 20:45 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -22011,6 +22011,7 @@ sugi-net.jp##+js(set-cookie, cookie-use-accept, false)
 understandingsociety.ac.uk##+js(set-cookie, ga-disable-UA-xxxxxxxx-x, true)
 autohero.com##+js(set-cookie, consent, 1)
 bargaintown.ie##+js(set-cookie, cookie-bar, no)
+finimize.com##+js(set-cookie, cookie_consent, false)
 rtu.lv##+js(set-cookie, uce-cookie, N)
 sysdream.com##+js(set-cookie, tarteaucitron, false)
 cinemarkca.com##+js(set-cookie, cookiePolicies, true)
@@ -22056,6 +22057,7 @@ kh.hu##+js(set-cookie, kh_cookie_level1, true)
 aplgo.com##+js(set-cookie, cookie_agreement, 1, , reload, 1)
 securityconference.org##+js(set-cookie, MSC_Cookiebanner, false)
 aha.or.at##+js(set-cookie, cookieConsent_marketing, false)
+fantasyfitnessing.com##+js(set-cookie, Fitnessing21-15-9, 0)
 aha.or.at##+js(set-cookie, cookieConsent_required, true, , reload, 1)
 account.samsung.com##+js(set-cookie, sa_enable, off)
 crushwineco.com##+js(set-cookie, acceptcookietermCookieBanner, true)
@@ -23881,6 +23883,9 @@ arcane.no#$#body,html { overflow: auto !important; position: initial !important;
 lifepointspanel.com###cookie-modal-box
 lifepointspanel.com##.modal-backdrop
 lifepointspanel.com#$#body { overflow: auto !important; position: initial !important; }
+! happiesthealth.com
+happiesthealth.com##.dialog-lightbox-widget
+happiesthealth.com#$#body,html { overflow: auto !important; position: initial !important; }
 ! mibe.de
 mibe.de###layer-wrapper
 mibe.de##+js(remove-class, layerActive, , stay)

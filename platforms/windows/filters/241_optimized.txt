@@ -1,9 +1,9 @@
-! Checksum: piwRlys5QF3qZqflYoYcKg
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1703869620-14400.patch
+! Checksum: fcAXYOiTrTwCQ0uZ6OKwMA
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1703884004-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.26.64
-! TimeUpdated: 2023-12-29T17:02:37+00:00
+! Version: 2.1.26.65
+! TimeUpdated: 2023-12-29T21:02:45+00:00
 ! Expires: 12 hours (update frequency)
 -consent-banner-
 -consent-banner.
@@ -21576,6 +21576,7 @@ sugi-net.jp#%#//scriptlet('ubo-set-cookie.js', 'cookie-use-accept', 'false')
 understandingsociety.ac.uk#%#//scriptlet('ubo-set-cookie.js', 'ga-disable-UA-xxxxxxxx-x', 'true')
 autohero.com#%#//scriptlet('ubo-set-cookie.js', 'consent', '1')
 bargaintown.ie#%#//scriptlet('ubo-set-cookie.js', 'cookie-bar', 'no')
+finimize.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', 'false')
 rtu.lv#%#//scriptlet('ubo-set-cookie.js', 'uce-cookie', 'N')
 sysdream.com#%#//scriptlet('ubo-set-cookie.js', 'tarteaucitron', 'false')
 cinemarkca.com#%#//scriptlet('ubo-set-cookie.js', 'cookiePolicies', 'true')
@@ -21621,6 +21622,7 @@ kh.hu#%#//scriptlet('ubo-set-cookie.js', 'kh_cookie_level1', 'true')
 aplgo.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_agreement', '1', '', 'reload', '1')
 securityconference.org#%#//scriptlet('ubo-set-cookie.js', 'MSC_Cookiebanner', 'false')
 aha.or.at#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent_marketing', 'false')
+fantasyfitnessing.com#%#//scriptlet('ubo-set-cookie.js', 'Fitnessing21-15-9', '0')
 aha.or.at#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent_required', 'true', '', 'reload', '1')
 account.samsung.com#%#//scriptlet('ubo-set-cookie.js', 'sa_enable', 'off')
 crushwineco.com#%#//scriptlet('ubo-set-cookie.js', 'acceptcookietermCookieBanner', 'true')
@@ -23067,6 +23069,8 @@ arcane.no#$#body,html { overflow: auto !important; position: initial !important;
 lifepointspanel.com###cookie-modal-box
 lifepointspanel.com##.modal-backdrop
 lifepointspanel.com#$#body { overflow: auto !important; position: initial !important; }
+happiesthealth.com##.dialog-lightbox-widget
+happiesthealth.com#$#body,html { overflow: auto !important; position: initial !important; }
 mibe.de###layer-wrapper
 mibe.de#%#//scriptlet('ubo-rc.js', 'layerActive', '', 'stay')
 24helmets.co.uk,koliro.de,24helmets.de##.js--overlay
