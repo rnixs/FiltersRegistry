@@ -1,9 +1,9 @@
-! Checksum: LzwUIcZTzWenXGu2Nlgjqg
-! Diff-Path: ../patches/18/18-s-1703867778-3600.patch
+! Checksum: /Zso/yjzIktGaOvXozl1qQ
+! Diff-Path: ../patches/18/18-s-1703874911-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.51
-! TimeUpdated: 2023-12-29T16:32:27+00:00
+! Version: 2.0.30.52
+! TimeUpdated: 2023-12-29T18:31:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2303,6 +2303,7 @@ cioccolatonippon.it,movieplayer.it,hwupgrade.it,iphoneitalia.com,mediaset.it,tom
 !
 ! NOTE: Regular rules
 !
+capcut.com##.DZhOXCcROI3vywSXT6B4
 ||saldaodainformatica.com.br/modules/cookiesplus/
 theasianparent.com##.cookie-acceptance-popup
 ||std.wpcdn.pl/wpjslib6/wpjslib-sgap.js$domain=easygo.pl

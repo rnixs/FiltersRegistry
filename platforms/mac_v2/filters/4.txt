@@ -1,9 +1,9 @@
-! Checksum: Jujo7knAh8wGjgwMGJX5wQ
-! Diff-Path: ../patches/4/4-s-1703864240-3600.patch
+! Checksum: KHhDHcRyNME4VcQBDV04ww
+! Diff-Path: ../patches/4/4-s-1703874968-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.47
-! TimeUpdated: 2023-12-29T15:32:50+00:00
+! Version: 2.0.95.48
+! TimeUpdated: 2023-12-29T18:32:25+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -756,12 +756,12 @@ blog.skillfactory.ru##.block__history-share
 habervakti.com##.social-buttons
 gartic.com.br###blocoFacebook
 read.engineerscodex.com##.like-button-container + a.post-ufi-comment-button + a[role="button"]
-read.engineerscodex.com##button[class*="frontend-components-NavbarShare"]
+blog.omnivore.app,read.engineerscodex.com##button[class*="frontend-components-NavbarShare"]
 read.engineerscodex.com#?#.comment-rest > div.pencraft > span:has(> a > div > div.pencraft:contains(Share))
 thehansindia.com##.social-share-wrap
 block.fm##.bg-card-01.px-8
 dailygeekshow.com##.twitter-follow-button
-read.engineerscodex.com##.pencraft + div.pencraft > a.no-icon[role="button"]
+blog.omnivore.app,read.engineerscodex.com##.pencraft + div.pencraft > a.no-icon[role="button"]
 bnnbreaking.com##.post__socials
 autonomous.ai##div[class^="BlogDetail_SocialWrapper"]
 turkish123.com##.social-home

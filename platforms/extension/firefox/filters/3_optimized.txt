@@ -1,9 +1,9 @@
-! Checksum: aoQCvAx9bW+bTjdwGAG+3Q
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1703867798-3600.patch
+! Checksum: 0HDp0pv/7tDUjWp6VgkHMQ
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1703874932-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.11
-! TimeUpdated: 2023-12-29T16:33:25+00:00
+! Version: 2.0.65.12
+! TimeUpdated: 2023-12-29T18:32:20+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -80492,7 +80492,6 @@ demae-can.com#%#//scriptlet('remove-attr', 'data-trm-action|data-trm-category|da
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=dplay.co.uk
 @@||assets.adobedtm.com/*-source.min.js$domain=samsung.com
 @@||assets.adobedtm.com/*launch-*.min.js$domain=samsung.com
-@@||googletagmanager.com/gtm.js$domain=liga.net
 @@||s.imgur.com/min/px.js$domain=imgur.com
 @@||googletagmanager.com/gtm.js$domain=braun.com
 @@||thehackernews.com/images^

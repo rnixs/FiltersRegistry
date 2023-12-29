@@ -1,9 +1,9 @@
-! Checksum: JupArOkyd1eAhJSM2XdTKw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1703867778-3600.patch
+! Checksum: T8SAzt2ZINN4SCNKVYYlvw
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1703874912-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.25
-! TimeUpdated: 2023-12-29T16:32:30+00:00
+! Version: 2.0.29.26
+! TimeUpdated: 2023-12-29T18:31:28+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -7112,7 +7112,7 @@ habr.com##.tm-editoral-subscription
 moneycontrol.com###right > div.contact
 nymag.com,vulture.com##.newsletter-flex-text
 fitomarket.ru##.subscribe_section_mainpage
-substack.com##.post-end-cta-full
+blog.omnivore.app,substack.com##.post-end-cta-full
 theguardian.com##gu-island[props*="/email/form/plaintone/"]
 theguardian.com##.email-sub__iframe
 dictionary.com##.sidebar .gform_wrapper form[method="post"]
