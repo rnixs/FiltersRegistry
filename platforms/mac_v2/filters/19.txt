@@ -1,9 +1,9 @@
-! Checksum: Qi3xexblWSIN6PD4p+T/LA
-! Diff-Path: ../patches/19/19-s-1703878561-3600.patch
+! Checksum: BuALh/TyNlxLB39heU94Gg
+! Diff-Path: ../patches/19/19-s-1703943352-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.27
-! TimeUpdated: 2023-12-29T19:31:43+00:00
+! Version: 2.0.29.28
+! TimeUpdated: 2023-12-30T13:31:43+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4192,7 +4192,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 games.dmm.co.jp#?#section[data-gtm-rotating-banner] ~ div:not([class],[id]):has(> div[class]:only-child > div[style]:only-child > div[class]:only-child > button[aria-label="close"])
 games.dmm.co.jp#?#section[data-gtm-rotating-banner] ~ aside:has(> div[class] > div[class] > div[class] > button[aria-label="close"])
-games.dmm.co.jp#?#main > div[class] > aside[class]:has(> div[class] > div[class] > button[aria-label="close"])
+games.dmm.co.jp#?#main > div[class] > aside[class]:has(> div[class] > a[href^="https://rcv.ixd.dmm.com/api/surl?"])
 games.dmm.co.jp#?#main > div[class] > div[class]:has(> div[class] > div[class] > button[data-gtm-pwa-android-install])
 games.dmm.co.jp#?#main > div[class] > div[class]:has(> div[class] > div[class] > div[class] > svg[aria-label="Add to home screen"])
 gamechampions.com#$#div[style="height:1px"] + section { display: none !important; }
