@@ -1,9 +1,9 @@
-! Checksum: r37B3xpbJHkaXN2vbra7kw
-! Diff-Path: ../patches/6_optimized/6_optimized-s-1703903713-3600.patch
+! Checksum: 3fHZkCnRKe0l1dKyDh9yOQ
+! Diff-Path: ../patches/6_optimized/6_optimized-s-1703968530-3600.patch
 ! Title: AdGuard German filter (Optimized)
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.68
-! TimeUpdated: 2023-12-29T17:32:42+00:00
+! Version: 2.0.39.69
+! TimeUpdated: 2023-12-30T20:33:05+00:00
 ! Expires: 5 days (update frequency)
 ||lehrer-finden.de^
 ||lokalwerben.t-online.de^
@@ -234,6 +234,8 @@ wa.de,hna.de,kreiszeitung.de,heidelberg24.de,nordbayern.de,volksfreund.de,infran
 @@||teltarif.de/img/arch/
 !+ NOT_OPTIMIZED
 ||teltarif.de/img$xmlhttprequest,~image
+!+ NOT_OPTIMIZED
+@@||p*.focus.de/img/
 !+ NOT_OPTIMIZED
 24hamburg.de,firmenwissen.de,news.de,freenet.de,jappy.com,quoka.de,tichyseinblick.de,mathebibel.de,wallstreet-online.de,pc-magazin.de,golem.de,wetter.de,fuldaerzeitung.de,gamestar.de,gmx.net,web.de,videogameszone.de,wetter.com,wn.de,woman.at,womenshealth.de,yachtrevue.at,chefkoch.de,hersfelder-zeitung.de,az-online.de,boerse.de,hanauer.de,op-online.de#@#.AdBar
 !+ NOT_OPTIMIZED
@@ -3365,6 +3367,7 @@ ipadblog.de,presse-nachrichten.de,signal-online.de,urheberrecht.de###custom_html
 nachrichten.es,primavera24.de,radsportjournaltourman.com,signal-online.d###custom_html-5
 finanznachrichten.de,wallstreet-online.de###dban1
 finanznachrichten.de,wallstreet-online.de###dban2
+wallstreet-online.de###dban3
 wallstreet-online.de###dcb1
 bluray-disc.de###deals-aktionen-box
 gamestar.de###dfp-header
@@ -3870,6 +3873,7 @@ lokalo.de##.media_image-29
 lokalo.de##.media_image-30
 fuersie.de,grazia-magazin.de,idee-fuer-mich.de,jolie.de,leben-und-erziehen.de,maedchen.de,ok-magazin.de,petra.de,vital.de##.mediumrectangle
 ligaportal.at##.medrec
+android-hilfe.de,hardwareluxx.de,macuser.de,toyota-forum.de,usp-forum.de##.message--post:not([data-author])
 hallanzeiger.de##.mh-widget.s5214-widget
 schweizer-illustrierte.ch##.ministage-channel-sponsor-paragraph
 abendblatt.de##.mj-pf-widget
@@ -4157,7 +4161,6 @@ wallstreet-online.de##a[onclick*="'tableAd'"]
 shaz.ch##a[onclick^="__gaTracker('send', 'event', 'Ads'"]
 allround-pc.com##a[rel*="sponsored"]
 anisearch.de,herz-fuer-tiere.de,schweizer-illustrierte.ch##a[rel="sponsored"]
-android-hilfe.de,macuser.de,usp-forum.de##article.message--post:not([data-author])
 chip.de##article[data-vr-zone="hp-aquamarin"]
 chip.de##article[data-vr-zone="hp-aquamarin-1"]
 chip.de##article[data-vr-zone="hp-aquamarin-2"]

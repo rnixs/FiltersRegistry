@@ -1,11 +1,25 @@
 ![Adblock Plus 2.0]
-! Checksum: vLsXy/CUAOPqOnaNqT3nhw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1703954140-3600.patch
+! Checksum: Z251K5B1hDI+1Xf+0RLp6g
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1703968548-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.16.0
-! TimeUpdated: 2023-12-30T16:32:28+00:00
+! Version: 2.3.16.1
+! TimeUpdated: 2023-12-30T20:32:39+00:00
 ! Expires: 5 days (update frequency)
+||srwfwllymprt.com^
+||orpoobj.com^
+||worldwhoisq.org^
+||nandasmile.org^
+||mileesidesu.org^
+||happymuttere.org^
+||rronsep.com^
+||umqiapzsc.com^
+||acvnhayikyutjsn.xyz^
+||iovxhfavijyu.com^
+||ogwqkgtboxol.com^
+||gnvpmftcgp.com^
+||unaswpzo.com^
+||pcvlpotybnd.com^
 ||fnrbulqws.com^
 ||ptompeer.net^
 ||neintheworld.org^
@@ -447,6 +461,7 @@
 !+ NOT_PLATFORM(windows, mac, android)
 ||amgload.net^$third-party,badfilter
 ||adconsent.samsungrs.com^
+||d2s31asn9gp5vl.cloudfront.net^
 ||d1aukpqf83rqhe.cloudfront.net^
 ||sponsor.imacdn.com^
 ||d3qvcyf9oa6vhw.cloudfront.net^
@@ -17480,6 +17495,7 @@ _800x80_
 ##.advert-unit
 ##.advert-wrap
 ##.advert-wrapper
+##.advert-wrapper-exco
 ##.advert.box
 ##.advert.desktop
 ##.advert.mobile
@@ -28664,6 +28680,7 @@ browsershots.org#@#.advert_area
 ||wsj.com/asset/ace/ace.min.js
 ||x.castanet.net^
 ||xinhuanet.com/s?
+||y3o.tv/nevarro/video-ads/$domain=yallo.tv
 ||yahoo.com/sdarla/
 ||yimg.com/rq/darla/$domain=yahoo.com
 ||ynet.co.il/gpt/
@@ -30518,6 +30535,7 @@ msn.com##.articlePage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.intra-article-ad-full
 msn.com##.intra-article-module
 msn.com##[class^="articlePage_eoabContent"]
+msn.com##a[href="https://aka.ms/QVC"]
 msn.com##above-river-block
 msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##div[class^="galleryPage_bannerAd"]
@@ -30595,6 +30613,8 @@ regex101.com#?#div > header + div > div + div:-abp-contains(Sponsors)
 rustlabs.com#?#.sub-info-block:-abp-has(#banner)
 sainsburys.co.uk#?#.pt-grid-item:-abp-has([data-test-id="citrus-label"])
 search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
+shipt.com#?#li[class$="eBAnBw"]:-abp-contains(Sponsored)
+shipt.com#?#div.swiper-slide:-abp-contains(Sponsored)
 skyscanner.com,skyscanner.net#?#div:-abp-has(>a[data-testid="inline-brand-banner"])
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
 thebay.com#?#li.ais-Hits-item:-abp-has(div.piq-sponsored)

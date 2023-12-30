@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JrQkPiwjW2oLfKUSKf0u8w
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1703954141-3600.patch
+! Checksum: OUKZapjqZj7wv3AKxTe9FQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1703968548-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.16.0
-! TimeUpdated: 2023-12-30T16:32:28+00:00
+! Version: 2.3.16.1
+! TimeUpdated: 2023-12-30T20:32:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -77,6 +77,20 @@
 !
 !
 !
+||srwfwllymprt.com^
+||orpoobj.com^
+||worldwhoisq.org^
+||nandasmile.org^
+||mileesidesu.org^
+||happymuttere.org^
+||rronsep.com^
+||umqiapzsc.com^
+||acvnhayikyutjsn.xyz^
+||iovxhfavijyu.com^
+||ogwqkgtboxol.com^
+||gnvpmftcgp.com^
+||unaswpzo.com^
+||pcvlpotybnd.com^
 ||fnrbulqws.com^
 ||ptompeer.net^
 ||neintheworld.org^
@@ -1447,6 +1461,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||d2s31asn9gp5vl.cloudfront.net^
 ||d1aukpqf83rqhe.cloudfront.net^
 ||sponsor.imacdn.com^
 ||d3qvcyf9oa6vhw.cloudfront.net^
