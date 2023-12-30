@@ -1,9 +1,9 @@
-! Checksum: tw7zcpMYIDTVOmhllDvRVQ
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1703883964-14400.patch
+! Checksum: SsIt+SfNB2z1L5QMZlPrkw
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1703927165-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.23
-! TimeUpdated: 2023-12-29T21:01:48+00:00
+! Version: 2.0.18.24
+! TimeUpdated: 2023-12-30T09:01:48+00:00
 ! Expires: 5 days (update frequency)
 .id^*/ads_$domain=~cartalog.id
 .id^*/adv-$domain=~adv.kompas.id
@@ -2510,6 +2510,7 @@ fifthbloom.com##.banner-subs-artikel
 elshinta.com,tangerangnews.com##.banner-top
 industry.co.id##.banner-top-header
 klikindonesia.co##.banner-wrap
+kuatbaca.com##.banner1
 radarriaunet.com##.banner120
 kompiajaib.com##.banner300sidebar
 radarriaunet.com##.banner625
@@ -5596,6 +5597,7 @@ _topbandar_$image
 ##[href="https://yok.la/gentong99"]
 ##[href^="http://yukclick.me/kebioskop21"]
 ##[href^="https://jurangikan.com/adsmovie"]
+##[href^="https://klik4.me/dunia21"]
 ##[href^="https://rebrand.ly/Big855_"]
 ##[href^="https://rebrand.ly/Bijiqq"]
 ##[href^="https://rebrand.ly/Fifa855_"]
