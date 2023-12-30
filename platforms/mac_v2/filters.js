@@ -607,8 +607,8 @@
 			"groupId": 6,
 			"subscriptionUrl": "https://filters.adtidy.org/mac_v2/filters/15.txt",
 			"trustLevel": "full",
-			"version": "2.0.59.85",
-			"timeUpdated": "2023-12-30T00:31:25+0000",
+			"version": "2.0.59.86",
+			"timeUpdated": "2023-12-30T06:31:32+0000",
 			"languages": [],
 			"tags": [
 				45,
