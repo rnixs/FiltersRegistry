@@ -1,9 +1,9 @@
-! Checksum: dcQVTIFfl8NeNfde56qVdg
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1703903732-3600.patch
+! Checksum: YKp6VvIY7DHKMEyTJfyCqA
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1703975736-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.49
-! TimeUpdated: 2023-12-29T20:32:50+00:00
+! Version: 2.0.95.50
+! TimeUpdated: 2023-12-30T22:32:38+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -7922,6 +7922,7 @@ catalogmineralov.ru#$#body { overflow: visible!important; }
 thehungryjpeg.com#@#body .twitter-share-button
 thehungryjpeg.com#@#.fb-like
 designervn.net#@#.fb-share-button
+@@||facebook.com/plugins/like_box.php$domain=fenix-magazin.de
 bilibili.com#@#.video-share
 mouse-sensitivity.com#@##sharebox
 guilded.gg#@#.icon-reddit

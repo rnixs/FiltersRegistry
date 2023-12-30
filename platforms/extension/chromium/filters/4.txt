@@ -1,9 +1,9 @@
-! Checksum: AbtbnWO0/wdTPWgT7NQ9cQ
-! Diff-Path: ../patches/4/4-s-1703882133-3600.patch
+! Checksum: j9Jv4HDYXTion2jj/Vfs3w
+! Diff-Path: ../patches/4/4-s-1703975723-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.49
-! TimeUpdated: 2023-12-29T20:32:50+00:00
+! Version: 2.0.95.50
+! TimeUpdated: 2023-12-30T22:32:38+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13847,6 +13847,8 @@ bomb01.com#$#.modal-open { overflow: visible!important; }
 ! #Social locker#
 ! #End Social locker
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169620
+@@||facebook.com/plugins/like_box.php$domain=fenix-magazin.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168635
 bilibili.com#@#.video-share
 ! https://github.com/uBlockOrigin/uAssets/issues/20993
