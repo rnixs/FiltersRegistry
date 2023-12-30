@@ -1,15 +1,15 @@
-! Checksum: v3KtnQUsPqnXmm6wJB+BBQ
-! Diff-Path: ../patches/101/101-s-1703955999-14400.patch
+! Checksum: 2xFXFWRyAEetdMftynyclQ
+! Diff-Path: ../patches/101/101-s-1703970395-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.18.41
-! TimeUpdated: 2023-12-30T17:01:29+00:00
+! Version: 2.1.18.42
+! TimeUpdated: 2023-12-30T21:01:28+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: hI4KRkILFrN9Ek5fgaQkJQ
-! OriginalVersion: 202312301651
+! Checksum: ZI/I1Aj0Qerx/R73fa4brA
+! OriginalVersion: 202312302051
 ! Title: EasyList
-! Last modified: 30 Dec 2023 16:51 UTC
+! Last modified: 30 Dec 2023 20:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11292,6 +11292,7 @@ _800x80_
 ##.advert-wrap1
 ##.advert-wrap2
 ##.advert-wrapper
+##.advert-wrapper-exco
 ##.advert.box
 ##.advert.desktop
 ##.advert.mobile
@@ -58061,6 +58062,7 @@ browsershots.org#@#.advert_area
 ||xboxone-hq.com/images/banners/
 ||xda-developers.com/app/plugins/xda-kco-affiliate/
 ||xinhuanet.com/s?
+||y3o.tv/nevarro/video-ads/$domain=yallo.tv
 ||yahoo.com/m/gemini_api/
 ||yahoo.com/pdarla/
 ||yahoo.com/sdarla/
@@ -64416,6 +64418,7 @@ msn.com##a[aria-label="eBay"]
 msn.com##a[href*=".booking.com/"]
 msn.com##a[href*="/aff_m?offer_id="]
 msn.com##a[href*="?sub_aff_id="]
+msn.com##a[href="https://aka.ms/QVC"]
 msn.com##a[href^="https://amzn.to/"]
 msn.com##a[href^="https://clk.tradedoubler.com/click?"]
 msn.com##a[href^="https://clkde.tradedoubler.com/click?"]
@@ -64598,7 +64601,8 @@ sainsburys.co.uk#?#.pt-grid-item:-abp-has([data-test-id="citrus-label"])
 search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
 seattleweekly.com#?#.marketplace-row:-abp-contains(Sponsored)
 sephora.com#?#div[class^="css-"]:-abp-has(>a:-abp-has(span:-abp-contains(Sponsored)))
-shipt.com#?#li[class^="sc-9570959f-2 sc-9570959f-4"]:-abp-has(p:-abp-contains(Sponsored))
+shipt.com#?#li[class$="eBAnBw"]:-abp-contains(Sponsored)
+shipt.com#?#div.swiper-slide:-abp-contains(Sponsored)
 skyscanner.com,skyscanner.net#?#div:-abp-has(>a[data-testid="inline-brand-banner"])
 skyscanner.com,skyscanner.net#?#div>a:-abp-has(div[class^="DefaultBanner_sponsorshipRow"])
 sprouts.com#?#li.product-wrapper:-abp-has(span:-abp-contains(Sponsored))
