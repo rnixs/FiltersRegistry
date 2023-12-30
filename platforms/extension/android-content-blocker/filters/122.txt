@@ -1,15 +1,15 @@
-! Checksum: jL9cYgpHKjvYv59mc4+5Gg
-! Diff-Path: ../patches/122/122-s-1703941545-14400.patch
+! Checksum: DbfEfsUfDKuvgzY/hSy7hA
+! Diff-Path: ../patches/122/122-s-1703955964-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.18.66
-! TimeUpdated: 2023-12-30T13:01:48+00:00
+! Version: 2.1.18.67
+! TimeUpdated: 2023-12-30T17:02:01+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 52xMSMgrnQdpE2+cz+yf8w
-! OriginalVersion: 202312301230
+! Checksum: kboM5uss8RnKouHlAgOpUA
+! OriginalVersion: 202312301640
 ! Title: Fanboy's Annoyance List
-! Last modified: 2023-12-30 12:30 UTC
+! Last modified: 2023-12-30 16:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35127,6 +35127,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||iol.co.za/sw.js
 ||kogan.com/sw.js
 ||latestdeals.co.uk/sw.js
+||msn.com/bundles/v1/homePage/latest/experiences_conditional-banner
 ||ndtv.com/js/breaking_pushalert_revised.js
 ||ndtv.com/sw.js
 ||newsukraine.rbc.ua/sworker.js
@@ -41722,10 +41723,6 @@ britishcornershop.co.uk,pickyou.ru,myrewardspoints.com#$#body,html { overflow: a
 malerblatt-medienservice.de,architekturbuch.de,medienservice-holz.de,leuchtstark.de###cookieNote
 malerblatt-medienservice.de,architekturbuch.de,medienservice-holz.de,leuchtstark.de##.modal-backdrop
 malerblatt-medienservice.de,architekturbuch.de,medienservice-holz.de,leuchtstark.de#$#body,html { overflow: auto !important; position: initial !important; }
-!! .offcanvas
-taste-market.de,delker-optik.de,stuhl24-shop.de,karls-shop.de,g-nestle.de,alpine-hygiene.ch,schwab-san.it,cordon.de,belisse-beauty.de,wpc-shop24.de,liv.si##.offcanvas
-taste-market.de,delker-optik.de,stuhl24-shop.de,karls-shop.de,g-nestle.de,alpine-hygiene.ch,schwab-san.it,cordon.de,belisse-beauty.de,wpc-shop24.de,liv.si##.modal-backdrop
-taste-market.de,delker-optik.de,stuhl24-shop.de,karls-shop.de,g-nestle.de,alpine-hygiene.ch,schwab-san.it,cordon.de,belisse-beauty.de,wpc-shop24.de,liv.si#$#body,html { overflow: auto !important; position: initial !important; }
 !! .cookies-widget--light
 habitatparisien.com,giens.com,the-only-place.com,nerjaparadiserentals.com,rent-paris.com,mallorcaprivilege.com,rentlikehome.com,le-regent.fr,ma-villa-en-provence.fr,sleepaways.com,zewelcome.com,locastay.com,majordome-prive.fr,tahitiresidences.com,clickyourflat.com,benakey.com,conciergerie-remigriffoul.com,anderslocation.com,pelican-paros.com,smrraurisapartments.com,rose-vacances.com,casavaleriosb.com,carlton-riviera-cannes.com,sivotavillashotel.com,booking-locly.com,benakey.com,bookingsync.com##.cookies-widget--light
 habitatparisien.com,giens.com,the-only-place.com,nerjaparadiserentals.com,rent-paris.com,mallorcaprivilege.com,rentlikehome.com,le-regent.fr,ma-villa-en-provence.fr,sleepaways.com,zewelcome.com,locastay.com,majordome-prive.fr,tahitiresidences.com,clickyourflat.com,benakey.com,conciergerie-remigriffoul.com,anderslocation.com,pelican-paros.com,smrraurisapartments.com,rose-vacances.com,casavaleriosb.com,carlton-riviera-cannes.com,sivotavillashotel.com,booking-locly.com,benakey.com,bookingsync.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -43255,9 +43252,6 @@ toysrus.ca,babiesrus.ca,riselittleearthling.ca#$#body,html { overflow: auto !imp
 ! kyoceradocumentsolutions
 kyoceradocumentsolutions.us,kyoceradocumentsolutions.ch,kyoceradocumentsolutions.co.uk,kyoceradocumentsolutions.de,kyoceradocumentsolutions.es,kyoceradocumentsolutions.eu,kyoceradocumentsolutions.fr,kyoceradocumentsolutions.it,kyoceradocumentsolutions.ru,kyoceradocumentsolutions.mx,kyoceradocumentsolutions.cl,kyoceradocumentsolutions.com.br##.l-overlay
 kyoceradocumentsolutions.us,kyoceradocumentsolutions.ch,kyoceradocumentsolutions.co.uk,kyoceradocumentsolutions.de,kyoceradocumentsolutions.es,kyoceradocumentsolutions.eu,kyoceradocumentsolutions.fr,kyoceradocumentsolutions.it,kyoceradocumentsolutions.ru,kyoceradocumentsolutions.mx,kyoceradocumentsolutions.cl,kyoceradocumentsolutions.com.br#$#body,html { overflow: auto !important; position: initial !important; }
-! pulpe.eu (wordpress)
-pulpe.eu##[data-bg]
-pulpe.eu#$#body,html { overflow: auto !important; position: initial !important; }
 ! samsonite.
 samsonite.com.pe,samsonite.com.co,samsonite.cl,samsonite.com.ar,samsonite.com.mx##.glow-banner
 samsonite.ie,samsonite.lu,samsonite.no,samsonite.sk,samsonite.se,samsonite.dk,samsonite.fi,samsonite.ma,samsonite.hu,samsonite.ch,samsonite.de,samsonite.fr,samsonite.nl,samsonite.cz,samsonite.it,samsonite.es,samsonite.at,samsonite.be,samsonite.co.uk,samsonite.pl,gregorypacks.com##.overlay-wrapper
@@ -47266,10 +47260,6 @@ britishcornershop.co.uk,pickyou.ru,myrewardspoints.com#$#body,html { overflow: a
 malerblatt-medienservice.de,architekturbuch.de,medienservice-holz.de,leuchtstark.de###cookieNote
 malerblatt-medienservice.de,architekturbuch.de,medienservice-holz.de,leuchtstark.de##.modal-backdrop
 malerblatt-medienservice.de,architekturbuch.de,medienservice-holz.de,leuchtstark.de#$#body,html { overflow: auto !important; position: initial !important; }
-!! .offcanvas
-taste-market.de,delker-optik.de,stuhl24-shop.de,karls-shop.de,g-nestle.de,alpine-hygiene.ch,schwab-san.it,cordon.de,belisse-beauty.de,wpc-shop24.de,liv.si##.offcanvas
-taste-market.de,delker-optik.de,stuhl24-shop.de,karls-shop.de,g-nestle.de,alpine-hygiene.ch,schwab-san.it,cordon.de,belisse-beauty.de,wpc-shop24.de,liv.si##.modal-backdrop
-taste-market.de,delker-optik.de,stuhl24-shop.de,karls-shop.de,g-nestle.de,alpine-hygiene.ch,schwab-san.it,cordon.de,belisse-beauty.de,wpc-shop24.de,liv.si#$#body,html { overflow: auto !important; position: initial !important; }
 !! .cookies-widget--light
 habitatparisien.com,giens.com,the-only-place.com,nerjaparadiserentals.com,rent-paris.com,mallorcaprivilege.com,rentlikehome.com,le-regent.fr,ma-villa-en-provence.fr,sleepaways.com,zewelcome.com,locastay.com,majordome-prive.fr,tahitiresidences.com,clickyourflat.com,benakey.com,conciergerie-remigriffoul.com,anderslocation.com,pelican-paros.com,smrraurisapartments.com,rose-vacances.com,casavaleriosb.com,carlton-riviera-cannes.com,sivotavillashotel.com,booking-locly.com,benakey.com,bookingsync.com##.cookies-widget--light
 habitatparisien.com,giens.com,the-only-place.com,nerjaparadiserentals.com,rent-paris.com,mallorcaprivilege.com,rentlikehome.com,le-regent.fr,ma-villa-en-provence.fr,sleepaways.com,zewelcome.com,locastay.com,majordome-prive.fr,tahitiresidences.com,clickyourflat.com,benakey.com,conciergerie-remigriffoul.com,anderslocation.com,pelican-paros.com,smrraurisapartments.com,rose-vacances.com,casavaleriosb.com,carlton-riviera-cannes.com,sivotavillashotel.com,booking-locly.com,benakey.com,bookingsync.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -48799,9 +48789,6 @@ toysrus.ca,babiesrus.ca,riselittleearthling.ca#$#body,html { overflow: auto !imp
 ! kyoceradocumentsolutions
 kyoceradocumentsolutions.us,kyoceradocumentsolutions.ch,kyoceradocumentsolutions.co.uk,kyoceradocumentsolutions.de,kyoceradocumentsolutions.es,kyoceradocumentsolutions.eu,kyoceradocumentsolutions.fr,kyoceradocumentsolutions.it,kyoceradocumentsolutions.ru,kyoceradocumentsolutions.mx,kyoceradocumentsolutions.cl,kyoceradocumentsolutions.com.br##.l-overlay
 kyoceradocumentsolutions.us,kyoceradocumentsolutions.ch,kyoceradocumentsolutions.co.uk,kyoceradocumentsolutions.de,kyoceradocumentsolutions.es,kyoceradocumentsolutions.eu,kyoceradocumentsolutions.fr,kyoceradocumentsolutions.it,kyoceradocumentsolutions.ru,kyoceradocumentsolutions.mx,kyoceradocumentsolutions.cl,kyoceradocumentsolutions.com.br#$#body,html { overflow: auto !important; position: initial !important; }
-! pulpe.eu (wordpress)
-pulpe.eu##[data-bg]
-pulpe.eu#$#body,html { overflow: auto !important; position: initial !important; }
 ! samsonite.
 samsonite.com.pe,samsonite.com.co,samsonite.cl,samsonite.com.ar,samsonite.com.mx##.glow-banner
 samsonite.ie,samsonite.lu,samsonite.no,samsonite.sk,samsonite.se,samsonite.dk,samsonite.fi,samsonite.ma,samsonite.hu,samsonite.ch,samsonite.de,samsonite.fr,samsonite.nl,samsonite.cz,samsonite.it,samsonite.es,samsonite.at,samsonite.be,samsonite.co.uk,samsonite.pl,gregorypacks.com##.overlay-wrapper
@@ -52145,7 +52132,7 @@ autentiek.nl###ciWrapper
 blog.andwork.com###ckm
 pensioenleeftijdberekenen.nl###ckpol
 cdh.be###comp-jkmod7cm
-denhaagfm.nl,gld.nl,omroepwest.nl,omroepzeeland.nl,rtvdrenthe.nl,rtvnoord.nl,rtvoost.nl,rtvutrecht.nl###consent-plugin
+denhaagfm.nl,gld.nl,omroepwest.nl,omroepzeeland.nl,omropfryslan.nl,rtvdrenthe.nl,rtvnoord.nl,rtvoost.nl,rtvutrecht.nl###consent-plugin
 targetsupport.nl###consentModal
 ekoplaza.nl###cookie-prompt-modal___BV_modal_outer_
 l28.nl###cookie_popup_body

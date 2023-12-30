@@ -1,9 +1,9 @@
-! Checksum: kb009pmgyzkana/Mzkfjyg
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1703927157-14400.patch
+! Checksum: VSHxOVylumAozeuN6EyZQw
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1703955963-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.24
-! TimeUpdated: 2023-12-30T09:01:48+00:00
+! Version: 2.0.18.25
+! TimeUpdated: 2023-12-30T17:01:50+00:00
 ! Expires: 5 days (update frequency)
 .id^*/ads_$domain=~cartalog.id
 .id^*/adv-$domain=~adv.kompas.id
@@ -3708,7 +3708,6 @@ nodrakor.store#@#.idmuvi-topbanner-aftermenu
 /wp-content/plugins/angwp/*$domain=dramabarat.com
 kopajasubs.info###fb-fanbox
 anichin.art,animeindo.watch,anoboy.web.id,isekaisubs.web.id,punknime.com,riie.stream,sokuja.co,sokuja.xyz###overplay
-179.43.163.53###popup
 manganime.live###tutupx
 doroni.me##.Popup
 drakorfilm.pro##.gmr-bannerpopup
