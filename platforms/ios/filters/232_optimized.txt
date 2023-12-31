@@ -1,9 +1,9 @@
-! Checksum: DFSkAzX7Rjc9CkL2LgQ5HA
-! Diff-Path: ../patches/232_optimized/232_optimized-s-1704027982-14400.patch
+! Checksum: Jr2FGSirvlafK0M2FfB1bg
+! Diff-Path: ../patches/232_optimized/232_optimized-s-1704042382-14400.patch
 ! Title: KAD - Anti-Scam (Optimized)
 ! Description: Filter that protects against various types of scams in the Polish network, such as mass text messaging, fake online stores, etc.
-! Version: 2.0.51.18
-! TimeUpdated: 2023-12-31T13:02:23+00:00
+! Version: 2.0.51.19
+! TimeUpdated: 2023-12-31T17:02:26+00:00
 ! Expires: 5 days (update frequency)
 !#safari_cb_affinity(security)
 ||1vulkanvegas.com^$all
@@ -34084,6 +34084,7 @@
 ||olx.e-przesylki24.pl^$all
 ||olx.edkosyi.org^$all
 ||olx.eplatnosci24.pl^$all
+||olx.ezubote.org^$all
 ||olx.ink^$all
 ||olx.kupuje-teraz.pl^$all
 ||olx.linkm.info^$all
@@ -45014,6 +45015,7 @@
 ||the-smartest-investment.com^$all
 ||the-tatacrypto.com^$all
 ||the-tradermate.financialmarketsworld.com^$all
+||the-walt-company-inc1.com^$all
 ||the-walt-company-inc.com^$all
 ||the-walt-company-management-inc.com^$all
 ||the-walt-company-management.com^$all
@@ -46549,6 +46551,7 @@
 ||twoja-praca.life^$all
 ||twoja-praca.quest^$all
 ||twoja-praca.site^$all
+||twoja-prawda24.pl^$all
 ||twojagazeta.e-kei.pl^$all
 ||twojakarta.pl^$all
 ||twojaopiniapl.pl^$all
