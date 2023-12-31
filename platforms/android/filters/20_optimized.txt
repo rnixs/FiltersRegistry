@@ -1,9 +1,9 @@
-! Checksum: 6Ol/auZa2pNCjjWon8tPpA
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1703990126-3600.patch
+! Checksum: CZsDW+e3Iy8cnk1mCawkcg
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1704036932-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.55
-! TimeUpdated: 2023-12-29T18:31:39+00:00
+! Version: 2.0.11.56
+! TimeUpdated: 2023-12-31T15:32:08+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1531,6 +1531,8 @@ honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~xltrax.ee,~hitta.se,~mail.ru,~v7player.wostreaming.net,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
+search.yahoo.co.jp#?#div[class^="ContentWrapper_wrapper_"]:has(> article[class^="W2ALink_"])
+search.yahoo.co.jp##article[class^="W2ALink_"]
 baynews9.com##img[alt="Live News On The Go! Download the Spectrum News App"]
 rnd.de##div[class^="Articlestyled__"] div[data-testid="piano-container"]
 live.erinn.biz###win_appinstallhint
