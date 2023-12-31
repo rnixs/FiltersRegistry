@@ -1,9 +1,9 @@
-! Checksum: pzYixag9eC1Ah7ueVuZAbA
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1703990149-3600.patch
+! Checksum: uVffNp70pSUK/bpqcFPA8A
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704054940-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.28
-! TimeUpdated: 2023-12-30T13:31:43+00:00
+! Version: 2.0.29.29
+! TimeUpdated: 2023-12-31T20:31:48+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -5765,7 +5765,6 @@ medimagazin.com.tr#?#.flex:has(> div > div.flex > div > a[href^="https://news.go
 news.northwestern.edu###main-content > #sticky
 earthsky.org##.earth-widget
 shrm.org##.hr-daily-newsletter
-howtogeek.com###signin-banner-container
 timesofindia.indiatimes.com#?#div[data-mod="sidebar"] > div[class*=" "]:has(.et_subscription_container_entertainment)
 prnewswire.com##.newsletters-wrapper
 cybernews.com#?#.content > p:has(> a[href*="/newsletter/"]):contains(Subscribe)

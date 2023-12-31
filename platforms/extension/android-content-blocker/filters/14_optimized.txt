@@ -1,9 +1,9 @@
-! Checksum: cG7BaGTNAIxlqxzJ02l3pA
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1704036933-3600.patch
+! Checksum: I9ZcQvEpmEXU4I/AcrP7HQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1704054920-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.50
-! TimeUpdated: 2023-12-31T15:31:44+00:00
+! Version: 2.1.83.51
+! TimeUpdated: 2023-12-31T20:31:35+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -12466,7 +12466,6 @@ knowtechie.com##button[swg-standard-button="subscription"] + div[data-block-id].
 news.northwestern.edu###main-content > #sticky
 earthsky.org##.earth-widget
 shrm.org##.hr-daily-newsletter
-howtogeek.com###signin-banner-container
 prnewswire.com##.newsletters-wrapper
 geopop.it##.gp-login_underfollow
 fanpage.it##.fp-login_underfollow

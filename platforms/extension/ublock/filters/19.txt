@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Lsl+TeHqR9No/a7JXRkOFw
-! Diff-Path: ../patches/19/19-s-1703943341-3600.patch
+! Checksum: chcy21SogAXLYUA0ONY6Wg
+! Diff-Path: ../patches/19/19-s-1704054937-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.28
-! TimeUpdated: 2023-12-30T13:31:43+00:00
+! Version: 2.0.29.29
+! TimeUpdated: 2023-12-31T20:31:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12382,7 +12382,6 @@ news.northwestern.edu###main-content > #sticky
 earthsky.org##.earth-widget
 thealpenanews.com###newsletter_article
 shrm.org##.hr-daily-newsletter
-howtogeek.com###signin-banner-container
 timesofindia.indiatimes.com#?#div[data-mod="sidebar"] > div[class*=" "]:has(.et_subscription_container_entertainment)
 gizchina.it#?#.mrf-detailsBody > nav:has(> a[href^="https://t.me/gizdeals"])
 prnewswire.com##.newsletters-wrapper
