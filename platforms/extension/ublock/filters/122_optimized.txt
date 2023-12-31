@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 3BNAc1Uz6ksAhnzGkD6aww
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1703999181-14400.patch
+! Checksum: lkcVYO4zpgOpg7goGkNnjQ
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1704013580-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.18.70
-! TimeUpdated: 2023-12-31T05:02:06+00:00
+! Version: 2.1.18.71
+! TimeUpdated: 2023-12-31T09:01:52+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -15418,7 +15418,9 @@ takko.com#$#body,html { overflow: auto !important; position: initial !important;
 start-nrw.de#$#body,html { overflow: auto !important; position: initial !important; }
 jugend-praesentiert.de##+js(remove-class, messages-active, , stay)
 markushaenni.com#$#body,html { overflow: auto !important; position: initial !important; }
-tatararazors.com,opmaatzagen.nl##.bottom-0.fixed
+tatararazors.com##.z-50.left-0.w-full.fixed
+tatararazors.com##.duration-700.transition-all.flex.bottom-0.fixed
+opmaatzagen.nl##.bottom-0.fixed
 tatararazors.com,opmaatzagen.nl#$#body,html { overflow: auto !important; position: initial !important; }
 otelo.de#$#body,html { overflow: auto !important; position: initial !important; }
 sklepy-odido.pl#$#body,html { overflow: auto !important; position: initial !important; }
@@ -18422,7 +18424,9 @@ takko.com#$#body,html { overflow: auto !important; position: initial !important;
 start-nrw.de#$#body,html { overflow: auto !important; position: initial !important; }
 jugend-praesentiert.de##+js(remove-class, messages-active, , stay)
 markushaenni.com#$#body,html { overflow: auto !important; position: initial !important; }
-tatararazors.com,opmaatzagen.nl##.bottom-0.fixed
+tatararazors.com##.z-50.left-0.w-full.fixed
+tatararazors.com##.duration-700.transition-all.flex.bottom-0.fixed
+opmaatzagen.nl##.bottom-0.fixed
 tatararazors.com,opmaatzagen.nl#$#body,html { overflow: auto !important; position: initial !important; }
 otelo.de#$#body,html { overflow: auto !important; position: initial !important; }
 sklepy-odido.pl#$#body,html { overflow: auto !important; position: initial !important; }

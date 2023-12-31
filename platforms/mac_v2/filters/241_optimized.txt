@@ -1,9 +1,9 @@
-! Checksum: YP9r1hJlezslzw0fyBHuIQ
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1703999196-14400.patch
+! Checksum: Ni7nlNJH1dDhvAirdC7l9w
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1704013596-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.26.73
-! TimeUpdated: 2023-12-31T05:02:51+00:00
+! Version: 2.1.26.74
+! TimeUpdated: 2023-12-31T09:02:38+00:00
 ! Expires: 12 hours (update frequency)
 -consent-banner-
 -consent-banner.
@@ -23113,7 +23113,9 @@ jugend-praesentiert.de##.modal
 jugend-praesentiert.de#%#//scriptlet('ubo-rc.js', 'messages-active', '', 'stay')
 markushaenni.com##.incms-dpbanner
 markushaenni.com#$#body,html { overflow: auto !important; position: initial !important; }
-tatararazors.com,opmaatzagen.nl##.bottom-0.fixed
+tatararazors.com##.z-50.left-0.w-full.fixed
+tatararazors.com##.duration-700.transition-all.flex.bottom-0.fixed
+opmaatzagen.nl##.bottom-0.fixed
 tatararazors.com,opmaatzagen.nl#$#body,html { overflow: auto !important; position: initial !important; }
 otelo.de##.Lightbox
 otelo.de#$#body,html { overflow: auto !important; position: initial !important; }

@@ -1,15 +1,15 @@
-! Checksum: VBOzzUA1tWDpMTv6FTR3SQ
-! Diff-Path: ../patches/122/122-s-1703999154-14400.patch
+! Checksum: 61p1Hn7VJ1P7ubB1lBg1lA
+! Diff-Path: ../patches/122/122-s-1704013551-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.18.70
-! TimeUpdated: 2023-12-31T05:02:06+00:00
+! Version: 2.1.18.71
+! TimeUpdated: 2023-12-31T09:01:52+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: atweuhW3EHnrNNd6Xwtd5w
-! OriginalVersion: 202312310415
+! Checksum: XEM5d3oaoHvaKTKSVPmNvA
+! OriginalVersion: 202312310800
 ! Title: Fanboy's Annoyance List
-! Last modified: 2023-12-31 04:15 UTC
+! Last modified: 2023-12-31 08:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42476,7 +42476,9 @@ jugend-praesentiert.de##.modal
 markushaenni.com##.incms-dpbanner
 markushaenni.com#$#body,html { overflow: auto !important; position: initial !important; }
 ! opmaatzagen.nl
-tatararazors.com,opmaatzagen.nl##.bottom-0.fixed
+tatararazors.com##.z-50.left-0.w-full.fixed
+tatararazors.com##.duration-700.transition-all.flex.bottom-0.fixed
+opmaatzagen.nl##.bottom-0.fixed
 tatararazors.com,opmaatzagen.nl#$#body,html { overflow: auto !important; position: initial !important; }
 ! otelo.de
 otelo.de##.Lightbox
@@ -47914,7 +47916,9 @@ jugend-praesentiert.de##.modal
 markushaenni.com##.incms-dpbanner
 markushaenni.com#$#body,html { overflow: auto !important; position: initial !important; }
 ! opmaatzagen.nl
-tatararazors.com,opmaatzagen.nl##.bottom-0.fixed
+tatararazors.com##.z-50.left-0.w-full.fixed
+tatararazors.com##.duration-700.transition-all.flex.bottom-0.fixed
+opmaatzagen.nl##.bottom-0.fixed
 tatararazors.com,opmaatzagen.nl#$#body,html { overflow: auto !important; position: initial !important; }
 ! otelo.de
 otelo.de##.Lightbox
