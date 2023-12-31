@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: EFX3FZG1aT3Km/bxMllmNA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1703975738-3600.patch
+! Checksum: jVpClYvRDd8zPV8mRW1rXg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1703982950-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.16.2
-! TimeUpdated: 2023-12-30T22:32:25+00:00
+! Version: 2.3.16.3
+! TimeUpdated: 2023-12-31T00:32:30+00:00
 ! Expires: 5 days (update frequency)
 ||srwfwllymprt.com^
 ||orpoobj.com^
@@ -15203,7 +15203,6 @@ gotvach.bg###artbot
 ?adunitid=
 ?advertiser_id=$domain=~ads.pinterest.com|~panel.rightflow.com
 ?bannerid=
-?category=ad&
 ?cs=*&abt=0&red=1&sm=$third-party
 ?service=ad&
 ?wppaszoneid=
