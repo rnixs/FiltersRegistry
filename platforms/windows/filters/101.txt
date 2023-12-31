@@ -1,15 +1,15 @@
-! Checksum: a0y7yIpoXCkMGlKLthDxsA
-! Diff-Path: ../patches/101/101-s-1703970400-14400.patch
+! Checksum: JxDsP4oGXZVUF85kzlLl4w
+! Diff-Path: ../patches/101/101-s-1703984788-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.18.42
-! TimeUpdated: 2023-12-30T21:01:28+00:00
+! Version: 2.1.18.43
+! TimeUpdated: 2023-12-31T01:01:21+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: ZI/I1Aj0Qerx/R73fa4brA
-! OriginalVersion: 202312302051
+! Checksum: KPmFxms7yz1K1IRCG69tSg
+! OriginalVersion: 202312310050
 ! Title: EasyList
-! Last modified: 30 Dec 2023 20:51 UTC
+! Last modified: 31 Dec 2023 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1636,7 +1636,6 @@
 ?adunitid=
 ?advertiser_id=$domain=~ads.pinterest.com|~panel.rightflow.com
 ?bannerid=
-?category=ad&
 ?cs=*&abt=0&red=1&sm=$third-party
 ?service=ad&
 ?whichAd=freestar&
@@ -50112,6 +50111,7 @@ browsershots.org#@#.advert_area
 ||apexcdn.com^$third-party
 ||aphookkensidah.pro^$third-party
 ||apmebf.com^$third-party
+||app.ebyn.ai^$third-party
 ||appnext.com^$third-party
 ||apprupt.com^$third-party
 ||apptap.com^$third-party

@@ -1,14 +1,14 @@
-! Checksum: sC+yWvVewxR47hzzxWH0lQ
-! Diff-Path: ../patches/118/118-s-1703970392-14400.patch
+! Checksum: cKYwxfjDhDfK8EtXY2BAFA
+! Diff-Path: ../patches/118/118-s-1703984780-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.19.79
-! TimeUpdated: 2023-12-30T21:01:46+00:00
+! Version: 2.1.19.80
+! TimeUpdated: 2023-12-31T01:01:39+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202312302028
+! OriginalVersion: 202312310049
 ! Title: EasyPrivacy
-! Last modified: 30 Dec 2023 20:28 UTC
+! Last modified: 31 Dec 2023 00:49 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -8267,6 +8267,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lumitos.com^$third-party
 ||mairdumont.com^$third-party
 ||marketing-page.de^$third-party
+||matelso.de^$third-party
 ||mateti.net^$third-party
 ||md-nx.com^$third-party
 ||meetrics.net^$third-party
@@ -11414,6 +11415,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uadblocker.com/pixel1.php?$third-party
 ||uc.cn/collect?
 ||ucounter.ucoz.net^
+||ucoz.net/stat/
 ||uhit.eu/id/$third-party
 ||uid.mediacorp.sg^
 ||uim.tifbs.net^
@@ -13761,6 +13763,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||perr.hola.org^
 ||petametrics.com^$domain=meidastouch.com
 ||pf.newegg.com^
+||pftk.temu.com^
 ||ph.thenextweb.com^
 ||phonearena.com/_track.php
 ||pikbest.com/?m=Stats&
@@ -32583,6 +32586,7 @@ arketing.indianadunes.com^
 ||2gis.ru/_/metrics
 ||3dnews.ru/track
 ||4pda.ru/stat/
+||a.mts.ru^
 ||a.pikabu.ru^
 ||ad.mail.ru/static/sync-loader.js
 ||ad7.bigmir.net^
@@ -32627,6 +32631,7 @@ arketing.indianadunes.com^
 ||mail.ru/count/
 ||metrika.kontur.ru^
 ||mirtesen.ru/js/ms.js
+||mts.ru/fe-api/logger
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/
 ||odnoklassniki.ru/dk?cmd=videoStatNew
@@ -33308,6 +33313,7 @@ arketing.indianadunes.com^
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kameleoon.io/geolocation^$domain=welt.de
 @@||kameleoon.io/ip^$domain=welt.de
+@@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
