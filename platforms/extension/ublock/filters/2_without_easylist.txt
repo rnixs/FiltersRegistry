@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: J/a5e3kkv8trepLKdQKC3Q
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704029745-3600.patch
+! Checksum: m5y+HETdiukc02T7QnfKRw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704033347-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.16.5
-! TimeUpdated: 2023-12-31T13:32:32+00:00
+! Version: 2.3.16.6
+! TimeUpdated: 2023-12-31T14:32:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7178,6 +7178,9 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 ! NOTE: Regular rules
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169660
+flixscans.org##+js(no-fetch-if, pagead2.googlesyndication.com)
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication.com/adsbygoogle.js,domain=flixscans.org
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169271
 @@||nytimes.com/ads/$domain=panel.freemcserver.net
 @@||panel.freemcserver.net/adblock-detect/
