@@ -1,15 +1,15 @@
-! Checksum: BoJxyHbzzS0j7JJNmvSF/w
-! Diff-Path: ../patches/101/101-s-1704013583-14400.patch
+! Checksum: /OuUqoVbB5WRFGirp6LLSQ
+! Diff-Path: ../patches/101/101-s-1704027979-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.18.45
-! TimeUpdated: 2023-12-31T09:01:20+00:00
+! Version: 2.1.18.46
+! TimeUpdated: 2023-12-31T13:01:17+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: KpNwOEO5QqIGWGEsHCvZaQ
-! OriginalVersion: 202312310851
+! Checksum: o7/s3uxoGkzVHJ7nd1mxYw
+! OriginalVersion: 202312311251
 ! Title: EasyList
-! Last modified: 31 Dec 2023 08:51 UTC
+! Last modified: 31 Dec 2023 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -63237,7 +63237,6 @@ nationalfile.com##.wpb_wrapper > p
 coralspringstalk.com##.wpbdp-listings-widget-list
 sashares.co.za##.wppopups-whole
 theregister.com##.wptl
-paste.fo##.wrapper a[href][target="_blank"]
 memeburn.com,ventureburn.com##.wrapper--grey
 hotnewhiphop.com##.wrapper-Desktop_Header
 paultan.org##.wrapper-footer
@@ -63639,6 +63638,7 @@ linkz.fun##a[href="https://cozmo.fun/"]
 vofomovies.info##a[href="https://futaonfemale.com"]
 ghostbin.me##a[href="https://paste.fo/adspot"]
 nzbstars.com##a[href="usenetbucket.php"]
+paste.fo##a[href][class] img
 techporn.ph##a[href][target*="blank"]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
 tractorbynet.com##a[href][target="_blank"] > img[class^="attachment-large"]
@@ -64101,6 +64101,7 @@ cointelegraph.com##mm-collectors
 escorenews.com##noindex
 adblock-tester.com##object[width="240"]
 mrchecker.net##p > [href^="https://www.mrchecker.net/"]
+paste.fo##p[class][style="font-size:16px"]
 bitref.com##picture > img[src]
 courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com##promo-story-bucket-short[style="min-height: 335px;"]
 healthgrades.com##ps-action-intercept
@@ -65767,7 +65768,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||akamaized.net^*.stream/$domain=naver.com
 @@||akamaized.net^*/playlist.m3u8?$domain=naver.com
 @@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$script,~third-party
-@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|sportbible.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||aniview.com/api/$script,domain=gamingbible.co.uk|ladbible.com
 @@||antlionaudio.com/cdn/shop/*/assets/fastclick.min.js$~third-party
@@ -65906,7 +65907,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
 @@||media.kijiji.ca/api/$image,~third-party
 @@||mediaalpha.com/js/serve.js$domain=goseek.com
-@@||micro.rubiconproject.com/prebid/dynamic/$script,domain=gamingbible.co.uk|ladbible.com
+@@||micro.rubiconproject.com/prebid/dynamic/$script,xmlhttprequest,domain=gamingbible.co.uk|ladbible.com|sportbible.com
 @@||motortrader.com.my/advert/$image,~third-party
 @@||mtouch.facebook.com/ads/api/preview/$domain=business.facebook.com
 @@||newscgp.com/prod/prebid/nyp/pb.js$domain=nypost.com

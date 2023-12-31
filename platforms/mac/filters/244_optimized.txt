@@ -1,9 +1,9 @@
-! Checksum: rrg4zdIpleDO9nb+j5uJkw
-! Diff-Path: ../patches/244_optimized/244_optimized-s-1703696822-14400.patch
+! Checksum: cxmveSkk/VUr9tTj9CQooQ
+! Diff-Path: ../patches/244_optimized/244_optimized-s-1704027988-14400.patch
 ! Title: YousList (Optimized)
 ! Description: Filter that blocks ads on Korean sites.
-! Version: 2.0.10.24
-! TimeUpdated: 2023-12-25T21:01:47+00:00
+! Version: 2.0.10.25
+! TimeUpdated: 2023-12-31T13:02:38+00:00
 ! Expires: 5 days (update frequency)
 ##amp-ad
 ##amp-embed.ad_cnt
@@ -3048,6 +3048,11 @@ deadline.com##div#skin-ad-section
 deadline.com##div.admz
 deadline.com##div.markplace-ads
 deal.11st.co.kr##div.sponsor_link_wrap
+dealsite.co.kr##a.hm-l-banner
+dealsite.co.kr##a.hm-r-banner
+dealsite.co.kr##a[class^="main-banner"]
+dealsite.co.kr##div.ad-main-bottom
+dealsite.co.kr##div[class^="ad-article-"]
 deepdive.zum.com##div.slick-slide>ul.list>li>a.ad_slot
 deepdive.zum.com##ul.slick-slide>li>div.ad_area
 deezer.com##div#ads_banner_left
@@ -3974,6 +3979,7 @@ instiz.net##div.foot_ad
 instiz.net##div.footad
 instiz.net##div.pc_topad
 instiz.net##div.powerlink
+instiz.net##div.realchart_body>div.powerlink_m4
 instiz.net##div[id^="adx"]
 instiz.net##div[id^="div-"]
 instiz.net##div[id^="sidead"]

@@ -1,9 +1,9 @@
-! Checksum: w0EAAGbB8AQsE9YxdcQ4uQ
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1704013551-14400.patch
+! Checksum: cP1lmaYiHRu2H1WcWxzk9A
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1704027946-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.19.82
-! TimeUpdated: 2023-12-31T09:01:39+00:00
+! Version: 2.1.19.83
+! TimeUpdated: 2023-12-31T13:01:36+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -6336,6 +6336,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.viewlift.com^
 ||beacons.mediamelon.com^
 ||beam.mjhlifesciences.com^
+||beamanalytics.b-cdn.net^
 ||bee.tc.easebar.com^
 ||behavior.tongdun.net^
 ||bento.agoda.com^
@@ -6367,6 +6368,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c3metrics.medifast1.com^
 ||cache2.delvenetworks.com^
 ||cahf4eed.mooo.com^
+||calltrack.co^
 ||calltrk.com/companies/
 ||camel.headfarming.com^
 ||capture-api.ap3prod.com^
@@ -6900,6 +6902,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logs-api.shoprunner.com^
 ||logs.animaapp.com^
 ||logs.datadoghq.com^$third-party
+||logs.mezmo.com^
 ||logs.spilgames.com^
 ||logs.thebloggernetwork.com^
 ||lps.qantas.com^
