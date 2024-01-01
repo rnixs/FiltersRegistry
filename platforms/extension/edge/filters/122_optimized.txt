@@ -1,9 +1,9 @@
-! Checksum: 89HC8t53Eh0b0AZt5TeutA
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1704099969-14400.patch
+! Checksum: NUe/2fWlqynTCWvyY93YWA
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1704114359-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.18.77
-! TimeUpdated: 2024-01-01T09:01:53+00:00
+! Version: 2.1.18.78
+! TimeUpdated: 2024-01-01T13:01:52+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -14256,6 +14256,7 @@ crushwineco.com#%#//scriptlet('ubo-set-cookie.js', 'acceptcookietermCookieBanner
 levi.pt#%#//scriptlet('ubo-set-cookie.js', 'cookie_status', '1', '', 'reload', '1')
 fertagus.pt#%#//scriptlet('ubo-set-cookie.js', 'FTCookieCompliance', '1')
 rockpoint.cz,rockpoint.sk#%#//scriptlet('ubo-set-cookie.js', 'cookie-bar', '0')
+smiggle.co.uk#%#//scriptlet('ubo-set-cookie.js', 'cookiePopupAccepted', 'true')
 ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_POLICY_VIEWED', 'true')
 ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_ADS_OPTOUT', 'true')
 ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_POLICY_ACCEPTED', 'false')
@@ -17257,6 +17258,7 @@ crushwineco.com#%#//scriptlet('ubo-set-cookie.js', 'acceptcookietermCookieBanner
 levi.pt#%#//scriptlet('ubo-set-cookie.js', 'cookie_status', '1', '', 'reload', '1')
 fertagus.pt#%#//scriptlet('ubo-set-cookie.js', 'FTCookieCompliance', '1')
 rockpoint.cz,rockpoint.sk#%#//scriptlet('ubo-set-cookie.js', 'cookie-bar', '0')
+smiggle.co.uk#%#//scriptlet('ubo-set-cookie.js', 'cookiePopupAccepted', 'true')
 ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_POLICY_VIEWED', 'true')
 ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_ADS_OPTOUT', 'true')
 ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_POLICY_ACCEPTED', 'false')
