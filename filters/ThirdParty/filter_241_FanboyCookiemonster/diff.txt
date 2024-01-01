@@ -238,6 +238,8 @@ samplerite.com,samplerite.cn##+js(set-cookie, consented, false)
 blukit.com.br##+js(set-cookie, blukit_novo, true)
 ! Rule "biegnaszczyt.pl##+js(set-cookie, cr, true)" converted to: "biegnaszczyt.pl#%#//scriptlet('ubo-set-cookie.js', 'cr', 'true')"
 biegnaszczyt.pl##+js(set-cookie, cr, true)
+! Rule "itv.com##+js(set-cookie, accept-cookies, accepted)" converted to: "itv.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'accepted')"
+itv.com##+js(set-cookie, accept-cookies, accepted)
 ! Rule "dvag.de##+js(set-cookie, dvag_cookies2023, 1)" converted to: "dvag.de#%#//scriptlet('ubo-set-cookie.js', 'dvag_cookies2023', '1')"
 dvag.de##+js(set-cookie, dvag_cookies2023, 1)
 ! Rule "premierinn.com,whitbreadinns.co.uk,barandblock.co.uk,tabletable.co.uk,brewersfayre.co.uk,beefeater.co.uk##+js(set-cookie, consent_cookie, 1)" converted to: "premierinn.com,whitbreadinns.co.uk,barandblock.co.uk,tabletable.co.uk,brewersfayre.co.uk,beefeater.co.uk#%#//scriptlet('ubo-set-cookie.js', 'consent_cookie', '1')"
