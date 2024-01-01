@@ -1,9 +1,9 @@
-! Checksum: EIfkh/3rdR8Ci6DZnfAqTg
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1704056806-14400.patch
+! Checksum: d0IFkm4fzWLoUFGxlS0lCw
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1704071154-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.18.48
-! TimeUpdated: 2023-12-31T21:02:03+00:00
+! Version: 2.1.18.49
+! TimeUpdated: 2024-01-01T01:01:23+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -29474,6 +29474,7 @@ petco.com##[class^="StaticBannerAd"]
 economist.com##[class^="adComponent"]
 champion.gg##[class^="aside-content-column"]
 flipline.com##[class^="box_grey"]
+reuters.com##[class^="primary-video__container_"]
 nofilmschool.com##[class^="rblad-nfs_content"]
 cmswire.com##[class^="styles_ad-block"]
 torlock.com##[class^="wrn"]
