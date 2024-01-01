@@ -1,9 +1,9 @@
-! Checksum: Hw70SON0QXaENkdJxNov7A
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1704076568-3600.patch
+! Checksum: uEF8JcVHxEndNhQfGX7hTQ
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1704101750-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.14
-! TimeUpdated: 2024-01-01T02:32:59+00:00
+! Version: 2.0.47.15
+! TimeUpdated: 2024-01-01T09:33:01+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -399,7 +399,7 @@
 ||ad-hatena.com^
 ||advert.punyu.com^
 ||gum.dlbooks.to^
-iwb.jp#%#//scriptlet('prevent-setTimeout', 'location.href')
+iwb.jp#%#//scriptlet('prevent-setTimeout', 'getComputedStyle')
 ||nazology.net/*/adb/adb.js
 pvpoke-re.com#@#ins.adsbygoogle
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=pvpoke-re.com
@@ -1072,6 +1072,8 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /openstrap/js/meerkat_side_double_ad.js
 /wp-content/plugins/amazonjs/*
 /wp-content/themes/CashLINESystem/js/modal.$script
+.xyz/loginone.php?do?$document
+://smba.co.jp.*.cn/$document
 .cfd/*?_t=$document
 &p=*&_mi|$document,domain=top
 .com/ibg/client/*.php|$document

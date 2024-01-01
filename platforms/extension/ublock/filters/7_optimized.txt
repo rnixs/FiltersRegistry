@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mvaVFCGo9DlSvcU+wYX2lA
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1704076557-3600.patch
+! Checksum: NI2DDKu32j6HHOyNKiFrEw
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1704101740-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.14
-! TimeUpdated: 2024-01-01T02:32:59+00:00
+! Version: 2.0.47.15
+! TimeUpdated: 2024-01-01T09:33:01+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||compass-fit.jp^$third-party
@@ -387,7 +387,7 @@
 ||ad-hatena.com^
 ||advert.punyu.com^
 ||gum.dlbooks.to^
-iwb.jp##+js(no-setTimeout-if, location.href)
+iwb.jp##+js(no-setTimeout-if, getComputedStyle)
 ||nazology.net/*/adb/adb.js
 pvpoke-re.com#@#ins.adsbygoogle
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication.com/adsbygoogle.js,domain=pvpoke-re.com
@@ -1061,6 +1061,8 @@ jikayosha.jp#$#.wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-
 /openstrap/js/meerkat_side_double_ad.js
 /wp-content/plugins/amazonjs/*
 /wp-content/themes/CashLINESystem/js/modal.$script
+.xyz/loginone.php?do?$document
+://smba.co.jp.*.cn/$document
 .cfd/*?_t=$document
 &p=*&_mi|$document,domain=top
 .com/ibg/client/*.php|$document

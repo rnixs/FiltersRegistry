@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: g1aIaDb+40VBS2oLEkpPUg
-! Diff-Path: ../patches/7/7-s-1704076556-3600.patch
+! Checksum: oZzH2lxsDF6QoJXKL7mnMA
+! Diff-Path: ../patches/7/7-s-1704101740-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.14
-! TimeUpdated: 2024-01-01T02:32:59+00:00
+! Version: 2.0.47.15
+! TimeUpdated: 2024-01-01T09:33:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -489,7 +489,7 @@
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159931
-iwb.jp##+js(no-setTimeout-if, location.href)
+iwb.jp##+js(no-setTimeout-if, getComputedStyle)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167887
 ||nazology.net/*/adb/adb.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167723
@@ -1476,6 +1476,8 @@ jikayosha.jp#$#.wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+.xyz/loginone.php?do?$document
+://smba.co.jp.*.cn/$document
 .cfd/*?_t=$document
 &p=*&_mi|$document,domain=top
 .com/ibg/client/*.php|$document
