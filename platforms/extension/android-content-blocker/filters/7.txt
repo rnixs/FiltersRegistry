@@ -1,9 +1,9 @@
-! Checksum: 9YIFe39CCtIMK/sRAaGJMQ
-! Diff-Path: ../patches/7/7-s-1704072930-3600.patch
+! Checksum: stldEhiOqGUr49Np2B1/8Q
+! Diff-Path: ../patches/7/7-s-1704076533-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.13
-! TimeUpdated: 2024-01-01T01:33:04+00:00
+! Version: 2.0.47.14
+! TimeUpdated: 2024-01-01T02:32:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -744,9 +744,6 @@ applion.jp#$##adcheck.ads-ad { display: block!important; }
 gigaho.com#$##unblk { display: none!important; }
 gigaho.com#$#.entry-content { display: block!important; }
 gigaho.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display:block!important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/35930
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||vacation-et.work^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35721
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||teachios.com^$generichide

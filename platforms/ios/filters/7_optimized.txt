@@ -1,9 +1,9 @@
-! Checksum: J+pabC59mY4zsz7ri5RYPA
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1704072955-3600.patch
+! Checksum: /8lSrId3fiK68nNsRB5wFA
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1704076560-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.13
-! TimeUpdated: 2024-01-01T01:33:04+00:00
+! Version: 2.0.47.14
+! TimeUpdated: 2024-01-01T02:32:59+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -660,8 +660,6 @@ gigaho.com#$##unblk { display: none!important; }
 gigaho.com#$#.entry-content { display: block!important; }
 gigaho.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display:block!important; }
 gigaho.com#%#AG_onLoad(function() { var el=document.querySelector('ins.adsbygoogle'); var ce=document.createElement('iframe'); ce.style = 'width: 0px !important; border: none !important;'; if(el) { el.appendChild(ce); } });
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||vacation-et.work^$generichide
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||teachios.com^$generichide
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
