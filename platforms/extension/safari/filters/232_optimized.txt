@@ -1,9 +1,9 @@
-! Checksum: 6YxSqxR7pyx9DxHIyldEoA
-! Diff-Path: ../patches/232_optimized/232_optimized-s-1704056823-14400.patch
+! Checksum: ROXKv61iNx5dH6meYN9eRQ
+! Diff-Path: ../patches/232_optimized/232_optimized-s-1704099986-14400.patch
 ! Title: KAD - Anti-Scam (Optimized)
 ! Description: Filter that protects against various types of scams in the Polish network, such as mass text messaging, fake online stores, etc.
-! Version: 2.0.51.20
-! TimeUpdated: 2023-12-31T21:03:09+00:00
+! Version: 2.0.51.21
+! TimeUpdated: 2024-01-01T09:02:37+00:00
 ! Expires: 5 days (update frequency)
 !#safari_cb_affinity(security)
 ||1vulkanvegas.com^$all
@@ -3021,6 +3021,7 @@
 ||6smart5nline.xyz^$all
 ||6weekmuscleplan.com^$all
 ||6wk4.vakiv.cfd^$all
+||7-aut.live^$all
 ||7a28606ea92d0c1191fc3efa8f600534.actgro.pl^$all
 ||7abbc0d2b9c.chefs-kitchen.co.uk^$all
 ||7abd7ba9879.chefs-kitchen.co.uk^$all
@@ -5464,6 +5465,7 @@
 ||allegro.i-aukcje.pl^$all
 ||allegro.i-payu-24.pl^$all
 ||allegro.iaukcje24.pl^$all
+||allegro.kupteraz24.pl^$all
 ||allegro.kupuj-payu24.pl^$all
 ||allegro.kupujacy-czat.info^$all
 ||allegro.kupujacy-pomoc.eu^$all
@@ -33291,6 +33293,7 @@
 ||nsiy.boats^$all
 ||nsmqn.brujoychamanhernan.com^$all
 ||nsp.thisissecure.net^$all
+||nsp.thisissecuree.net^$all
 ||nsse.ru^$all
 ||nssi92.byseniscon.top^$all
 ||nste-9.cfd^$all

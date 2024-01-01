@@ -1,9 +1,9 @@
-! Checksum: 2vhMwuEziGMGgJpJgqNIvw
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1704085586-14400.patch
+! Checksum: qtpR1AkqmBEKCCs+bQqzrw
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1704100003-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.18.76
-! TimeUpdated: 2024-01-01T05:01:53+00:00
+! Version: 2.1.18.77
+! TimeUpdated: 2024-01-01T09:01:53+00:00
 ! Expires: 12 hours (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -731,6 +731,9 @@ _social_footer_
 ###message-purchased.wn-background-template-type-2
 ###message-purchased.wn-extended
 ##.cbSalesPopContainer
+##.ck-sp-app-wrapper
+##.fomo-notification-container
+##.js-pn.payment-notification
 ##.noti-container-main
 ##.wpcsn-notification-inner
 ##.yo-notification
@@ -11521,7 +11524,9 @@ dashboard.razorpay.com#@##credential_picker_container
 ||zotabox.com^*/widgets.js$third-party
 /wp-content/plugins/woocommerce-notification/*
 ||api.postscript.io/v2/public/popups/
+||app.actionfeed.net/app/popup.js
 ||goldendev.win/shopify/show-recent-orders/
+||load.fomo.com^$third-party
 ||app.chaport.com/sounds/
 ||azureedge.neti^$media,domain=oct8ne.com
 ||bac-assets.com/chat/spa-assets/$media,domain=bankofamerica.com
@@ -13304,6 +13309,7 @@ wotinfo.net###coo
 mathsisfun.com###cookOK
 peterchristian.co.uk,peterchristianoutfitters.com###cookie-acceptancce
 shop.naturtrend.com###cookie-appliance-popup-box
+ecigarettedirect.co.uk###cookie-message-slide-in
 kimkim.com###cookie-permissions-footer
 asus.com###cookie-policy-info-bg
 forbestravelguide.com###cookiePolicyWrap
@@ -13548,6 +13554,7 @@ quillbot.com##.css-1lxznmp
 streamelements.com##.css-1tg1tld
 tiktok.com##.css-bu8whx-DivBannerContainer
 quixel.com##.css-wzviqn
+glamwize.com##.customcookie--banermain
 careerswales.gov.wales##.cw-cookies-policy-banner
 roundshot.com##.data-consent-edge
 chess24.com##.dataConsentModal
