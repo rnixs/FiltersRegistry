@@ -1,9 +1,9 @@
-! Checksum: 77u13QGZqzFSHGXOoNnxWA
-! Diff-Path: ../patches/16/16-s-1704213374-3600.patch
+! Checksum: JXl4gjhLpb477XRmEFWgKw
+! Diff-Path: ../patches/16/16-s-1704216951-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.42.65
-! TimeUpdated: 2024-01-02T16:32:18+00:00
+! Version: 2.0.42.66
+! TimeUpdated: 2024-01-02T17:31:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3804,7 +3804,7 @@ alfresco-holidays.com,alfresco-holidays.nl,alfresco-camping.de,eurocamp.co.uk#@#
 /cd_pop_dhtml-
 /cd_pop_dhtml/*
 /cdn-ads-
-/cdn.*/ads.
+/cdn.*/ads.$domain=~tubitv.com
 /cdn.adv.
 /cdn/affiliates/*
 /cdn/banners/*
