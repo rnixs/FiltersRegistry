@@ -1,14 +1,14 @@
-! Checksum: JnyD17sgNGvMbHeytNrKhA
-! Diff-Path: ../patches/118/118-s-1704157547-14400.patch
+! Checksum: FGWlO8u6RnvrIRVYF9w8BQ
+! Diff-Path: ../patches/118/118-s-1704171946-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.19.91
-! TimeUpdated: 2024-01-02T01:01:41+00:00
+! Version: 2.1.19.92
+! TimeUpdated: 2024-01-02T05:01:41+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202401020053
+! OriginalVersion: 202401020441
 ! Title: EasyPrivacy
-! Last modified: 02 Jan 2024 00:53 UTC
+! Last modified: 02 Jan 2024 04:41 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -10639,6 +10639,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ohnorobot.com/verify.pl?
 ||olytics.omeda.com^
 ||ondigitalocean.app/insight-analytics.js
+||one.store/v1/analytics/
 ||onecount.net/onecount/oc_track/
 ||onescreen.net/os/static/pixels/
 ||onesignal.com/api/v*/apps/
