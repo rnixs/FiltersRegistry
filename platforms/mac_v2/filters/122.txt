@@ -1,15 +1,15 @@
-! Checksum: s0Vd82i/DMwI0YZ0qpxM5A
-! Diff-Path: ../patches/122/122-s-1704186399-14400.patch
+! Checksum: Ev4gj/oskviBFzt6SdHa+Q
+! Diff-Path: ../patches/122/122-s-1704200803-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.18.83
-! TimeUpdated: 2024-01-02T09:01:58+00:00
+! Version: 2.1.18.84
+! TimeUpdated: 2024-01-02T13:01:57+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: TLN8vRcFOlKfGpIJe/p72A
-! OriginalVersion: 202401020800
+! Checksum: 2B4oI8TIeKNmQosboENkUA
+! OriginalVersion: 202401021200
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-02 08:00 UTC
+! Last modified: 2024-01-02 12:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2144,8 +2144,11 @@ _twitter_follow.
 ##.preezie-widget-modal
 ! Someone also bought popups
 ###cb-widget-sales-pop
+###goodreviews-wrapper
 ###message-purchased.wn-background-template-type-2
 ###message-purchased.wn-extended
+###mps-sales-notification
+###sales-pop-plugin
 ##.cbSalesPopContainer
 ##.ck-sp-app-wrapper
 ##.fomo-notification-container
@@ -34438,8 +34441,11 @@ dashboard.razorpay.com#@##credential_picker_container
 /wp-content/plugins/woocommerce-notification/*
 ||api.postscript.io/v2/public/popups/
 ||app.actionfeed.net/app/popup.js
+||cdn.shopify.com/extensions/*/salekit-v2.js
 ||goldendev.win/shopify/show-recent-orders/
+||goodreviews.io^$third-party
 ||load.fomo.com^$third-party
+||toastibar-cdn.makeprosimp.com^$third-party
 ||widget-social-proof-api.one.store^
 ! 3rd-party sounds
 ||acquire.io/assets/sound/
@@ -38665,7 +38671,6 @@ dailyjigsawpuzzles.net###privacy_notification
 ids-imaging.com###privacycheck
 keil.com###privacymodule
 zoomin.tv###privacyoverlay
-voila.ca###privacytoast
 rocketleague.com###privmessage
 procreate.art###pro-banner
 scalemates.com###prv
@@ -40299,7 +40304,7 @@ ghresources.com##.wpt-modal
 ridero.eu##.wrapper-notify
 dubz.live##.wrapper.show
 applehousetravel.co.uk,e-sportsbetting.nl,flysharp.com,iddoberger.com,mandrarossatour.com,o-nine.co.uk,onetime.bet,onetimecasino.com,onetimecasinos.com,southalltravel.co.uk,stashdesign.dk,stfly.com,stsports.com,studio-eastwood.nl,theholidayteam.co.uk,thkarayannis.gr,toysupermarket.ie,utelindenberg.com##.wrapperbtm
-atticskateshop.com,tjinstoko.eu,tricoloresports.com##.wsa-cookielaw
+atticskateshop.com,elevatedbws.com,tjinstoko.eu,tricoloresports.com##.wsa-cookielaw
 warthunder.com##.wt-cb
 waterfordwhispersnews.com##.wwn-gdpr-modal
 spoonflower.com##.x-global-dialog
@@ -42042,6 +42047,7 @@ ilmotorsport.de#%#//scriptlet('ubo-set-cookie.js', 'cookieMsg', 'true', '', 'rel
 monese.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'true')
 psbank.ru,myriad.social,exeedme.com,followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'true')
 aqua-store.fr#%#//scriptlet('ubo-set-cookie.js', 'abz_seo_choosen', '1')
+voila.ca#%#//scriptlet('ubo-set-cookie.js', 'privacyAccepted', 'true')
 app.arzt-direkt.de#%#//scriptlet('ubo-set-cookie.js', 'ARE_DSGVO_PREFERENCES_SUBMITTED', 'true')
 dasfutterhaus.at#%#//scriptlet('ubo-set-cookie.js', 'dsgvo_consent', '1')
 e-pity.pl#%#//scriptlet('ubo-set-cookie.js', 'efile-cookiename-28', '1')
@@ -42237,6 +42243,7 @@ parrotsec.org#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieConsent', 't
 dorkgpt.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieConsent', 'false')
 adfilteringdevsummit.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptCookies', 'no')
 learngerman.dw.com#%#//scriptlet('ubo-set-local-storage-item.js', 'hasAcceptedGdpr', 'true')
+garageproject.co.nz#%#//scriptlet('ubo-set-local-storage-item.js', 'accepted_cookies', 'true')
 gostanford.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies-accept', 'true')
 namensetiketten.de#%#//scriptlet('ubo-set-local-storage-item.js', 'load-scripts-v2', '2')
 drafthound.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptsAnalyticsCookies', 'false')
@@ -48497,6 +48504,7 @@ ilmotorsport.de#%#//scriptlet('ubo-set-cookie.js', 'cookieMsg', 'true', '', 'rel
 monese.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'true')
 psbank.ru,myriad.social,exeedme.com,followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'true')
 aqua-store.fr#%#//scriptlet('ubo-set-cookie.js', 'abz_seo_choosen', '1')
+voila.ca#%#//scriptlet('ubo-set-cookie.js', 'privacyAccepted', 'true')
 app.arzt-direkt.de#%#//scriptlet('ubo-set-cookie.js', 'ARE_DSGVO_PREFERENCES_SUBMITTED', 'true')
 dasfutterhaus.at#%#//scriptlet('ubo-set-cookie.js', 'dsgvo_consent', '1')
 e-pity.pl#%#//scriptlet('ubo-set-cookie.js', 'efile-cookiename-28', '1')
@@ -48692,6 +48700,7 @@ parrotsec.org#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieConsent', 't
 dorkgpt.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieConsent', 'false')
 adfilteringdevsummit.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptCookies', 'no')
 learngerman.dw.com#%#//scriptlet('ubo-set-local-storage-item.js', 'hasAcceptedGdpr', 'true')
+garageproject.co.nz#%#//scriptlet('ubo-set-local-storage-item.js', 'accepted_cookies', 'true')
 gostanford.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies-accept', 'true')
 namensetiketten.de#%#//scriptlet('ubo-set-local-storage-item.js', 'load-scripts-v2', '2')
 drafthound.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptsAnalyticsCookies', 'false')
