@@ -357,8 +357,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/2.txt",
 			"trustLevel": "full",
-			"version": "2.3.16.25",
-			"timeUpdated": "2024-01-02T12:32:40+0000",
+			"version": "2.3.16.26",
+			"timeUpdated": "2024-01-02T13:32:38+0000",
 			"languages": [],
 			"tags": [
 				10,
@@ -397,8 +397,8 @@
 			"groupId": 3,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/4.txt",
 			"trustLevel": "full",
-			"version": "2.0.95.52",
-			"timeUpdated": "2024-01-02T12:32:53+0000",
+			"version": "2.0.95.53",
+			"timeUpdated": "2024-01-02T13:32:52+0000",
 			"languages": [],
 			"tags": [
 				3,
@@ -503,8 +503,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/9.txt",
 			"trustLevel": "full",
-			"version": "2.0.22.68",
-			"timeUpdated": "2023-12-31T13:33:09+0000",
+			"version": "2.0.22.69",
+			"timeUpdated": "2024-01-02T13:33:17+0000",
 			"languages": [
 				"es",
 				"pt"
@@ -588,8 +588,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/14.txt",
 			"trustLevel": "full",
-			"version": "2.1.83.56",
-			"timeUpdated": "2024-01-02T12:31:43+0000",
+			"version": "2.1.83.57",
+			"timeUpdated": "2024-01-02T13:31:41+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -636,8 +636,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/16.txt",
 			"trustLevel": "full",
-			"version": "2.0.42.63",
-			"timeUpdated": "2024-01-01T21:31:56+0000",
+			"version": "2.0.42.64",
+			"timeUpdated": "2024-01-02T13:31:49+0000",
 			"languages": [
 				"fr"
 			],
@@ -683,8 +683,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/18.txt",
 			"trustLevel": "full",
-			"version": "2.0.30.57",
-			"timeUpdated": "2024-01-02T12:31:53+0000",
+			"version": "2.0.30.58",
+			"timeUpdated": "2024-01-02T13:31:52+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -703,8 +703,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/19.txt",
 			"trustLevel": "full",
-			"version": "2.0.29.33",
-			"timeUpdated": "2024-01-02T12:31:56+0000",
+			"version": "2.0.29.34",
+			"timeUpdated": "2024-01-02T13:31:55+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -743,8 +743,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/21.txt",
 			"trustLevel": "full",
-			"version": "2.0.18.28",
-			"timeUpdated": "2023-12-31T20:32:00+0000",
+			"version": "2.0.18.29",
+			"timeUpdated": "2024-01-02T13:32:07+0000",
 			"languages": [],
 			"tags": [
 				5,
