@@ -1,9 +1,9 @@
-! Checksum: aMxHtyRgvPx7NpshW2SxTA
-! Diff-Path: ../patches/21/21-s-1704202543-3600.patch
+! Checksum: Q5HUn8d6fVeWyY40XcsKGQ
+! Diff-Path: ../patches/21/21-s-1704213371-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.29
-! TimeUpdated: 2024-01-02T13:32:07+00:00
+! Version: 2.0.18.30
+! TimeUpdated: 2024-01-02T16:32:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2884,7 +2884,7 @@ eurosport.co.uk#$#div[data-testid^="player-pip"] { position: static !important; 
 eurosport.co.uk#$##navigation-wrapper { position: static !important; }
 dr-farfar.com##.widget_boombox_social
 xatakamovil.com##.menu-follow
-bugun.uz##.tg_link
+trashexpert.ru,bugun.uz##.tg_link
 kommersant.uk##.content-default__sidebar > aside > div.advertising
 mcafee.com##.stay-updated
 mcafee.com##.sidebar-socialicons

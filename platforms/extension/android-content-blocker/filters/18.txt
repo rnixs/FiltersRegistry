@@ -1,9 +1,9 @@
-! Checksum: FvS2yZCICQqARHC37PMbLg
-! Diff-Path: ../patches/18/18-s-1704209738-3600.patch
+! Checksum: sKvsfiyyOpjhSyBz4feV5g
+! Diff-Path: ../patches/18/18-s-1704213364-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.60
-! TimeUpdated: 2024-01-02T15:31:55+00:00
+! Version: 2.0.30.61
+! TimeUpdated: 2024-01-02T16:32:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2303,6 +2303,9 @@ cioccolatonippon.it,movieplayer.it,hwupgrade.it,iphoneitalia.com,mediaset.it,tom
 !
 ! NOTE: Regular rules
 !
+szkolawchmurze.org##app-cookies-consent-banner
+riga.lv#$#body { overflow: auto !important; }
+riga.lv#$#body #cookieConsent { display: none !important; }
 manninc.co.uk##body.bodyLock::before
 ||stores.enzuzo.com/apps/enzuzo/static/js/__enzuzo-cookiebar.js$domain=manninc.co.uk
 tuasaude.com##.consent-bar-wrapper
@@ -12988,6 +12991,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169734
+riga.lv#@##cookieConsent
+riga.lv#@#.cookie-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169393
 @@||app.usercentrics.eu/browser-ui/$domain=wohnglueck.de
 @@||api.usercentrics.eu/settings/$domain=wohnglueck.de

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: P233a3iQj70PBibofaw+vQ
-! Diff-Path: ../patches/18/18-s-1704209765-3600.patch
+! Checksum: TX1reB0sXQ8yuSXW5eSFFQ
+! Diff-Path: ../patches/18/18-s-1704213396-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.60
-! TimeUpdated: 2024-01-02T15:31:55+00:00
+! Version: 2.0.30.61
+! TimeUpdated: 2024-01-02T16:32:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2311,6 +2311,9 @@ cioccolatonippon.it,movieplayer.it,hwupgrade.it,iphoneitalia.com,mediaset.it,tom
 !
 ! NOTE: Regular rules
 !
+szkolawchmurze.org##app-cookies-consent-banner
+riga.lv#$#body { overflow: auto !important; }
+riga.lv#$#body #cookieConsent { display: none !important; }
 manninc.co.uk##body.bodyLock::before
 ||stores.enzuzo.com/apps/enzuzo/static/js/__enzuzo-cookiebar.js$domain=manninc.co.uk
 tuasaude.com##.consent-bar-wrapper
@@ -13599,7 +13602,7 @@ depop.com##+js(set-cookie, gdpr__depop__functional, true)
 depop.com##+js(set-cookie, gdpr__google__analytics, false)
 depop.com##+js(set-cookie, gdpr__facebook__social, false)
 qwic.nl,qwic.eu,qwic.de##+js(set-cookie, cookie_consent, 0)
-coder.com##+js(set-local-storage-item, cookie, true)
+turkusowawieza.pl,coder.com##+js(set-local-storage-item, cookie, true)
 minefort.com,diariodaregiao.com.br,sticpay.com##+js(set-local-storage-item, cookie-consent, true)
 mantel.com##+js(set-cookie, tracking_cookie, 0)
 amd-moebel.de##+js(set-cookie, cookies_mandatory, true)
@@ -14017,6 +14020,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169734
+riga.lv#@##cookieConsent
+riga.lv#@#.cookie-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169393
 @@||app.usercentrics.eu/browser-ui/$domain=wohnglueck.de
 @@||api.usercentrics.eu/settings/$domain=wohnglueck.de
