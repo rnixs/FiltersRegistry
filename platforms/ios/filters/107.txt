@@ -1,14 +1,14 @@
-! Checksum: wpvOV0R9Jfkvz4iGMQMISQ
-! Diff-Path: ../patches/107/107-s-1704027979-14400.patch
+! Checksum: 55SPEZW9NXNI+Zu7k3zpAA
+! Diff-Path: ../patches/107/107-s-1704215190-14400.patch
 ! Title: EasyList Germany
 ! Description: Additional filter list for websites in German. Already included in AdGuard German filter.
-! Version: 2.0.12.31
-! TimeUpdated: 2023-12-31T13:01:26+00:00
+! Version: 2.0.12.32
+! TimeUpdated: 2024-01-02T17:01:35+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202312311005
+! OriginalVersion: 202401021615
 ! Title: EasyList Germany
-! Last modified: 31 Dec 2023 10:05 UTC
+! Last modified: 02 Jan 2024 16:15 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4735,7 +4735,7 @@ grenzecho.net##div[class^="pane-dpipub-"]
 pictures-magazin.de##div[class^="pictu-"]
 rundschau.info##div[class^="runds-werbung-"]
 berliner-kurier.de##div[class^="showheroes_"]
-berliner-zeitung.de,evangelische-zeitung.de##div[class^="traffective_"]
+berliner-kurier.de,berliner-zeitung.de,evangelische-zeitung.de##div[class^="traffective_"]
 winfuture.de##div[class^="ws_contentAd"]
 amazon.de##div[data-ad-id]
 welt.de##div[data-ad]
