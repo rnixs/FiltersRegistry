@@ -1,9 +1,9 @@
-! Checksum: O6GOT6d9o2TpjJn4PxMLIg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1704206139-3600.patch
+! Checksum: +q61LyU5oYRDU1QjWFSRBQ
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1704209738-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.59
-! TimeUpdated: 2024-01-02T14:31:54+00:00
+! Version: 2.0.30.60
+! TimeUpdated: 2024-01-02T15:31:55+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1244,7 +1244,7 @@ audiobooksnow.com##.sticky_consent_footer
 flip.bg#$#.modal-open { overflow: auto !important; }
 newsflare.com##.nf-cookie-consent
 itvbd.com##.cookies-eu-banner
-||cmp.inmobi.com^$domain=24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac
+||cmp.inmobi.com^$domain=24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com
 withhive.com##.gdpr_cookie
 visme.co##.vismecookie
 dozapteka.pl#$#.popup-cookies { display: none !important; }
@@ -1413,7 +1413,7 @@ shop.garten-bienen.at##.cookie-information
 sfr.gov.ru##.user-data-processing-wrapper
 careerswales.gov.wales##.cw-cookies-policy-banner
 allyouplay.com##.cookie-card_container
-eltrox.pl##.modal-gdpr
+predge.jp,eltrox.pl##.modal-gdpr
 eltrox.pl##.overlay-gdpr
 weverse.io###wevConsentManagerLayer
 toshibatec.eu##.cookie-consent-background
