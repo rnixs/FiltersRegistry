@@ -1,9 +1,9 @@
-! Checksum: zBSQDK+Bknse+tXJHQfRwA
-! Diff-Path: ../patches/18/18-s-1704184534-3600.patch
+! Checksum: Z6uh01+XCO16aP32XVcV2g
+! Diff-Path: ../patches/18/18-s-1704188126-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.55
-! TimeUpdated: 2024-01-02T08:31:52+00:00
+! Version: 2.0.30.56
+! TimeUpdated: 2024-01-02T09:31:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2303,6 +2303,7 @@ cioccolatonippon.it,movieplayer.it,hwupgrade.it,iphoneitalia.com,mediaset.it,tom
 !
 ! NOTE: Regular rules
 !
+e10.klimat.gov.pl###root > .flexbox > footer ~ .sidebar[style*="inAnimationSidebar"]
 bialystok.pl###cookie-info-overlay
 varlamov.ru##div[role="alertdialog"]
 nowpayments.io##.b-cookies-alert

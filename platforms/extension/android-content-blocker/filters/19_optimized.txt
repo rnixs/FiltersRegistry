@@ -1,9 +1,9 @@
-! Checksum: KMXO8aYfKm/PF2pRuFZtWA
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1704180927-3600.patch
+! Checksum: 93SGWjc1TbelV711FDe6nQ
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704188127-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.30
-! TimeUpdated: 2024-01-02T07:31:52+00:00
+! Version: 2.0.29.31
+! TimeUpdated: 2024-01-02T09:31:49+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -4320,6 +4320,7 @@ elconsolto.com,masrawy.com###izooto-optin
 androidmakale.com##.widget_onesignalwidget
 ||acasa.ro/js/web-push-sdk.js
 ||drevostavitel.cz/js/notification
+cgmagonline.com,gamerevolution.com,comingsoon.net##div[data-spot-im-shadow-host="floating-bell"]
 ||cdn.dataroid.com/sdk/web/dataroid-websdk.js
 bukinfo.com.ua###notification-subscribe
 ||robot.net.ua/upload/crm/site_button/loader_$third-party

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: IX7lVSYbG79vjnYT/XFTlg
-! Diff-Path: ../patches/19/19-s-1704180952-3600.patch
+! Checksum: QEIbaCD/zJexUXmKO8mKTw
+! Diff-Path: ../patches/19/19-s-1704188155-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.30
-! TimeUpdated: 2024-01-02T07:31:52+00:00
+! Version: 2.0.29.31
+! TimeUpdated: 2024-01-02T09:31:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11346,7 +11346,7 @@ timesofindia.indiatimes.com##.bluy8
 ||community.gemeinsamerleben.com/OneSignalSDKWorker.js$script,redirect=noop.js,important
 ||piano.io/public/sdk/$domain=pravda.com.ua
 ||drevostavitel.cz/js/notification
-gamerevolution.com,comingsoon.net##div[data-spot-im-shadow-host="floating-bell"]
+cgmagonline.com,gamerevolution.com,comingsoon.net##div[data-spot-im-shadow-host="floating-bell"]
 lavanguardia.com###gg-alert
 ||cdn.dataroid.com/sdk/web/dataroid-websdk.js
 ||vr4you.net/sw.js
