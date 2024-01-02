@@ -1,9 +1,9 @@
-! Checksum: 99dhAZSbLPMaHI2aBazfFQ
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1704162924-3600.patch
+! Checksum: KMXO8aYfKm/PF2pRuFZtWA
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704180927-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.29
-! TimeUpdated: 2023-12-31T20:31:48+00:00
+! Version: 2.0.29.30
+! TimeUpdated: 2024-01-02T07:31:52+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -138,6 +138,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Hom
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InArticleAd
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
+||alertarithmetic.com^$third-party
 ||haplesshydrant.com^$third-party
 ||catalogcake.com^$third-party
 ||dinnerquartz.com^$third-party
@@ -1274,6 +1275,7 @@ aol.com#@#.adwrap
 !+ NOT_PLATFORM(windows, mac, android)
 @@||pubads.g.doubleclick.net/gampad/adx?*/ad-blk$domain=washingtonpost.com
 !#safari_cb_affinity(general)
+@@||s.nitropay.com/ads-*.js$domain=maxroll.gg
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=calcmaps.com
 @@||googlesyndication.com/|$xmlhttprequest,domain=bypass.city
 @@||b.adbox.lv/bxlib/js/loader.js$domain=posti.mail.ee

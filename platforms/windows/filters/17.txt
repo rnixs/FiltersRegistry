@@ -1,9 +1,9 @@
-! Checksum: EOJIyeSRLgdxRnQQmtJz5Q
-! Diff-Path: ../patches/17/17-s-1704033358-3600.patch
+! Checksum: aUBTeRF7pktCKXErLGu28Q
+! Diff-Path: ../patches/17/17-s-1704180969-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.70
-! TimeUpdated: 2023-12-31T14:31:44+00:00
+! Version: 2.0.7.71
+! TimeUpdated: 2024-01-02T07:31:48+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1558,6 +1558,7 @@ $removeparam=a_aid,domain=expressvpn.com|vpnarea.com
 ||kohls.com^$removeparam=CID
 ! instagram.com - share tracking
 ||instagram.com^$removeparam=ig_rid
+||instagram.com^$removeparam=igsh
 $removeparam=igshid,domain=instagram.com|threads.net
 ! euronews.com - email subscription tracking
 ||euronews.com^$removeparam=_ope
