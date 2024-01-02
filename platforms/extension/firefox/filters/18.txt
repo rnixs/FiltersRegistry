@@ -1,9 +1,9 @@
-! Checksum: o5UwvdY0nkqjMhXyAAaVlg
-! Diff-Path: ../patches/18/18-s-1703882139-3600.patch
+! Checksum: hKtJIs4I1n8U2VzsL2xgKQ
+! Diff-Path: ../patches/18/18-s-1704184549-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.54
-! TimeUpdated: 2023-12-29T20:31:50+00:00
+! Version: 2.0.30.55
+! TimeUpdated: 2024-01-02T08:31:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2335,6 +2335,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+bialystok.pl###cookie-info-overlay
 varlamov.ru##div[role="alertdialog"]
 nowpayments.io##.b-cookies-alert
 capcut.com##.DZhOXCcROI3vywSXT6B4
@@ -4969,7 +4970,7 @@ paz.de#$#body { overflow: auto !important; padding-right: 0 !important; }
 paz.de#$##cookieSelect { display: none !important; }
 paz.de#$##cookieSelect ~ div.modal-backdrop { display: none !important; }
 teijin.co.jp,kapook.com##.footer-policy
-kritikos-sm.gr##section[class^="CookieBar_"]
+teamgullit.com,kritikos-sm.gr##section[class^="CookieBar_"]
 xgroovy.com##.cookie_warn
 satis.amazon.com.tr###cookie-consent-window
 motonet.fi###cookienotify

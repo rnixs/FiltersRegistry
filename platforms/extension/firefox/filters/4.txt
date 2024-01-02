@@ -1,9 +1,9 @@
-! Checksum: WnC4UW5Zc/RFIk9cu4Ni/Q
-! Diff-Path: ../patches/4/4-s-1703975729-3600.patch
+! Checksum: uxymm8hjnWcbAvw1TWJReQ
+! Diff-Path: ../patches/4/4-s-1704184553-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.50
-! TimeUpdated: 2023-12-30T22:32:38+00:00
+! Version: 2.0.95.51
+! TimeUpdated: 2024-01-02T08:32:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2304,7 +2304,8 @@ nationalreview.com##.floating-share-buttons--inner ul.article-utility-nav__list 
 shop.aimerfeel.jp##.block-simpleblog-detail--article-sns
 tokubai.co.jp##.c-share-wrap
 m-cacm.acm.org##.social-links_wrapper
-smule.com##.sc-hLaujc:last-child
+smule.com##a[aria-label="Share Link"][href*="http"]
+smule.com#?#.sc-bxSTMQ:last-child > div[coords]:has(> div[class] > div:contains(/^Share[\s\u00A0]on$/))
 magazine.tabelog.com##.bookmark-buttons
 a-z-animals.com###social-shares
 hinative.com##.mod_share_buttons

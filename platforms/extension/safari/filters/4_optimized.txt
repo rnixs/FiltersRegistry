@@ -1,9 +1,9 @@
-! Checksum: R7yeaEeNi0TqalWjqxiPWA
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1704162938-3600.patch
+! Checksum: BYbEib+SVd66NCIkrZTgug
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1704184563-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.50
-! TimeUpdated: 2023-12-30T22:32:38+00:00
+! Version: 2.0.95.51
+! TimeUpdated: 2024-01-02T08:32:52+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1701,7 +1701,8 @@ nationalreview.com##.floating-share-buttons--inner > span.floating-share-buttons
 nationalreview.com##.floating-share-buttons--inner ul.article-utility-nav__list > li.article-utility-nav__item:not([data-service="comment"])
 shop.aimerfeel.jp##.block-simpleblog-detail--article-sns
 tokubai.co.jp##.c-share-wrap
-smule.com##.sc-hLaujc:last-child
+smule.com##a[aria-label="Share Link"][href*="http"]
+smule.com#?#.sc-bxSTMQ:last-child > div[coords]:has(> div[class] > div:contains(/^Share[\s\u00A0]on$/))
 magazine.tabelog.com##.bookmark-buttons
 a-z-animals.com###social-shares
 hinative.com##.mod_share_buttons
