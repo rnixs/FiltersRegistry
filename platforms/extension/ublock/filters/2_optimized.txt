@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: o+KCq/XCuAgsFj2FGbpWlA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704162940-3600.patch
+! Checksum: QjXRQUIC5gHcoqFh97ATWw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704173743-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.16.18
-! TimeUpdated: 2024-01-01T23:32:48+00:00
+! Version: 2.3.16.19
+! TimeUpdated: 2024-01-02T05:32:33+00:00
 ! Expires: 5 days (update frequency)
 ||igjptqlywyvfveq.com^
 ||wuksosta.com^
@@ -16392,6 +16392,7 @@ _800x80_
 ###topbannerad
 ###vc-maincontainer-ad
 ###vc-maincontainer-midad
+###velsof_wheel_container
 ###video-ad
 ###video-advert
 ###video-sponsor-links
@@ -27566,6 +27567,7 @@ browsershots.org#@#.advert_area
 ||weborama.fr^$third-party
 ||webshark.pl^$third-party
 ||whizzco.com^$third-party
+||widget.packeta.com^$third-party
 ||wwads.cn^$third-party
 ||yieldlove.com^$third-party
 ||yieldmo.com^$third-party
