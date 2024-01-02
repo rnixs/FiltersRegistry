@@ -1,9 +1,9 @@
-! Checksum: 5nSI51HoByjGfuwr/J4Wtg
-! Diff-Path: ../patches/14/14-s-1704195334-3600.patch
+! Checksum: B1zVaUAjPLMX+d52t7cvDw
+! Diff-Path: ../patches/14/14-s-1704198936-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.55
-! TimeUpdated: 2024-01-02T11:31:42+00:00
+! Version: 2.1.83.56
+! TimeUpdated: 2024-01-02T12:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2303,6 +2303,7 @@ cioccolatonippon.it,movieplayer.it,hwupgrade.it,iphoneitalia.com,mediaset.it,tom
 !
 ! NOTE: Regular rules
 !
+support.mts.ru##div[class^="snackbars-"]
 e10.klimat.gov.pl###root > .flexbox > footer ~ .sidebar[style*="inAnimationSidebar"]
 bialystok.pl###cookie-info-overlay
 varlamov.ru##div[role="alertdialog"]
@@ -16867,6 +16868,8 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ! reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.promotedlink
 !#safari_cb_affinity
 !
+||whispermeeting.com^$third-party
+||sincerepelican.com^$third-party
 ||steepscale.com^$third-party
 ||alertarithmetic.com^$third-party
 ||haplesshydrant.com^$third-party
