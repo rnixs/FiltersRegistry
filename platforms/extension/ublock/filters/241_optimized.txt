@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JG2FVS63u9nDG6u1+7lEHw
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1704215188-14400.patch
+! Checksum: TNyLCTau6mAMLf0DVvmmLQ
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1704229626-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.26.88
-! TimeUpdated: 2024-01-02T17:02:45+00:00
+! Version: 2.1.26.89
+! TimeUpdated: 2024-01-02T21:03:26+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -21029,7 +21029,7 @@ alppimatkat.fi,als.royalholloway.ac.uk,bubblemaths.com,ecosto.fi,homenet.no,kial
 agritrader.eu,befunky.com,bidvestbank.co.za,bisu.com.tr,byutv.org,cmo.de,dlford.io,freesound.org,interflora.by,interflora.ee,itineraricamper.it,pasfoto-frederiksberg.dk,puzzlemaster.ca,szybkopraca.pl,tbs.com,tntdrama.com,usave.co.uk##.toast
 aminarubinacci.it,atlasstoked.com,avlonbg.com,butor-mirjan24.hu,castroniaviacatania.com,cheapoutdoor.nl,diamante.sk,fraggerzstuff.pt,franc-music-shop.com,gritija.lt,lafermeducbd.fr,meterspec.it,mirjan24.de,papirbolt.com,premiumtools.ro##.gdprModal
 cam4.com,ddctoolbox.com,pusher.com##div[class^="CookiesConsent"]
-bungie.net,certik.com,etonshirts.com,footshop.com,forzafootball.com,get-in-engineering.de,heavenhr.com,mec.ca,pictogrammers.com,prezly.com,print24.com,scmagazine.com,sierranevada.es,visitstockholm.com,zilliz.com##div[class*="CookieConsent"]
+bungie.net,certik.com,etonshirts.com,footshop.com,forzafootball.com,get-in-engineering.de,heavenhr.com,mec.ca,pictogrammers.com,prezly.com,print24.com,repvue.com,scmagazine.com,sierranevada.es,visitstockholm.com,zilliz.com##div[class*="CookieConsent"]
 twitch.tv##.consent-banner
 1800runaway.org,aceprensa.com,ak-asya.com.tr,alivia.org.pl,almeidastextile.pt,ancon.io,caltex.co.za,cerre.eu,cofense.com,cronycle.com,direct-carpets.com,experiorfinancial.com,fermedelinciaux.be,fft.mt,getspace.us,gilmoreglobal.com,ingeniamc.com,janninebarron.com,lsisoftware.pl,lucerna-chem.ch,luukku.com,lwab.se,maltaconsulting.mt,marathonhr.com,marshfieldpre-school.co.uk,medyascope.tv,mitreprinting.co.uk,realvnc.com,ritchy.com,rwi.se,shotam.info,smackcoders.com,takeoff.org.mt,terracreta.gr,terveyskauneus.fi,tvpop.com.br,tzumi.com,vrxdb.com,webdesignspecialistamsterdam.nl,webdesignspecialistdenhaag.nl,whatcounts.com##.dialog-lightbox-message
 ardutronix.de,awdisbrands.com,blackmusicscholar.com,coachdaveacademy.com,courses.heatgeek.com,cover-4-less.com,dogfoodreviews.com,elegis.com.br,itepexam.com,martonmedia.pl,mindigital.gr,onlyonce.today,renovainvest.com.br,saferpass.com,satel.pl,sublabmusic.com,tealstreet.io,thebfa.org,veracore.com,victorvision.com.br##.dialog-lightbox-widget
@@ -21710,7 +21710,7 @@ bokadirekt.se##+js(set-cookie, BokadirektCookiePreferencesMP, 1)
 ford.lt,ford.pt,ford.fr,ford.de,ford.dk,ford.pl,ford.se,ford.nl,ford.no,ford.fi,ford.gr,ford.it##+js(set-cookie, cookieAcknowledged, true)
 data-media.gr##+js(set-cookie, data-privacy-statement, true)
 e-food.gr##+js(set-cookie, cookie_privacy_level, required)
-e-food.gr##+js(set-cookie, accepted_cookies, true)
+e-food.gr##+js(set-cookie, accepted_cookies, true, , reload, 1)
 bvmed.de##+js(set-cookie, MATOMO_CONSENT_GIVEN, 0)
 babyshop.com##+js(set-cookie, BABY_MARKETING_COOKIES_CONSENTED, false)
 babyshop.com##+js(set-cookie, BABY_PERFORMANCE_COOKIES_CONSENTED, false)
@@ -22095,6 +22095,7 @@ monese.com##+js(set-cookie, accept-cookies, true)
 psbank.ru,myriad.social,exeedme.com,followalice.com##+js(set-cookie, cookie-consent, true)
 aqua-store.fr##+js(set-cookie, abz_seo_choosen, 1)
 voila.ca##+js(set-cookie, privacyAccepted, true)
+anastore.com##+js(set-cookie, cok, 1, , reload, 1)
 app.arzt-direkt.de##+js(set-cookie, ARE_DSGVO_PREFERENCES_SUBMITTED, true)
 dasfutterhaus.at##+js(set-cookie, dsgvo_consent, 1)
 e-pity.pl##+js(set-cookie, efile-cookiename-28, 1)

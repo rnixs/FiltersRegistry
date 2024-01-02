@@ -1,9 +1,9 @@
-! Checksum: 17Evg+9AkoZajrP/jIfaVQ
-! Diff-Path: ../patches/113_optimized/113_optimized-s-1704215161-14400.patch
+! Checksum: 7oXrrGWZ1RDLtbAWNyUZEA
+! Diff-Path: ../patches/113_optimized/113_optimized-s-1704229599-14400.patch
 ! Title: Liste FR (Optimized)
 ! Description: Additional filter list for websites in French. Already included in AdGuard French filter.
-! Version: 2.1.41.56
-! TimeUpdated: 2024-01-02T17:01:42+00:00
+! Version: 2.1.41.57
+! TimeUpdated: 2024-01-02T21:02:24+00:00
 ! Expires: 5 days (update frequency)
 &ad_count=
 &ad_target_
@@ -571,7 +571,7 @@
 /campaigns/banner?
 /cams/live-banners/*
 /CCcam-pub.
-/cdn.*/ads.
+/cdn.*/ads.$domain=~tubitv.com
 /cdn/banners/*
 /cgi-bin/affiliates/*
 /cgi-bin/banner/*

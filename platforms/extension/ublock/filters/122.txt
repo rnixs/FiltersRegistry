@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: nb5EDsEIcNVVmknQvyGCEw
-! Diff-Path: ../patches/122/122-s-1704215186-14400.patch
+! Checksum: dAKNTqOj2roco2MaF34t5w
+! Diff-Path: ../patches/122/122-s-1704229624-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.18.85
-! TimeUpdated: 2024-01-02T17:01:58+00:00
+! Version: 2.1.18.86
+! TimeUpdated: 2024-01-02T21:02:40+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 3eklBG8g8QRoL3P4/vz7yw
-! OriginalVersion: 202401021600
+! Checksum: Gv2XNhcExsWBI+fO+EATtg
+! OriginalVersion: 202401022015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-02 16:00 UTC
+! Last modified: 2024-01-02 20:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -40776,7 +40776,7 @@ aminarubinacci.it,atlasstoked.com,avlonbg.com,butor-mirjan24.hu,castroniaviacata
 !! ^.CookiesConsent
 cam4.com,ddctoolbox.com,pusher.com##div[class^="CookiesConsent"]
 !! class*="CookieConsent"
-bungie.net,certik.com,etonshirts.com,footshop.com,forzafootball.com,get-in-engineering.de,heavenhr.com,mec.ca,pictogrammers.com,prezly.com,print24.com,scmagazine.com,sierranevada.es,visitstockholm.com,zilliz.com##div[class*="CookieConsent"]
+bungie.net,certik.com,etonshirts.com,footshop.com,forzafootball.com,get-in-engineering.de,heavenhr.com,mec.ca,pictogrammers.com,prezly.com,print24.com,repvue.com,scmagazine.com,sierranevada.es,visitstockholm.com,zilliz.com##div[class*="CookieConsent"]
 !! .consent-banner
 twitch.tv##.consent-banner
 !! .dialog-lightbox-message
@@ -47378,6 +47378,9 @@ amp.reddit.com##.upsell_banner
 tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
 tiktok.com##.e1pecv674.css-99ed1t-DivFooterGuide
 tiktok.com##.e1x4pa920.css-18fyv6p-DivFloatButtonWrapper
+! lightnovelworld.com
+lightnovelworld.com###lnwappmsg
+lightnovelworld.com#$#html { overflow: auto !important; }
 ! bestbuy.com (mobile UA open-app)
 bestbuy.com##+js(set-local-storage-item, smartBannerDismissed, 1)
 bestbuy.com###smartbannerContainer

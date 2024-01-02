@@ -1,14 +1,14 @@
-! Checksum: JhhpDeiSgMr4lxkqZiSQ5Q
-! Diff-Path: ../patches/118/118-s-1704215157-14400.patch
+! Checksum: 2vpO+Sd5640DUT0LkAQXXg
+! Diff-Path: ../patches/118/118-s-1704229596-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.19.95
-! TimeUpdated: 2024-01-02T17:01:45+00:00
+! Version: 2.1.19.96
+! TimeUpdated: 2024-01-02T21:02:27+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202401021657
+! OriginalVersion: 202401022040
 ! Title: EasyPrivacy
-! Last modified: 02 Jan 2024 16:57 UTC
+! Last modified: 02 Jan 2024 20:40 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -3981,7 +3981,6 @@ omni.soundestlink.com$image
 ||crowdscience.com^$third-party
 ||crtx.info^$third-party
 ||csdata1.com^$third-party
-||ctnsnet.com^$third-party
 ||cuberoot.co^$third-party
 ||curalate.com^$third-party
 ||customer.io^$third-party
@@ -8475,7 +8474,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ctags.cn^$third-party
 ||datayi.cn^$third-party
 ||emarbox.com^$third-party
-||eyeota.net^$third-party
 ||fraudmetrix.cn^$third-party
 ||ggxt.net^$third-party
 ||giocdn.com^$third-party
@@ -32874,6 +32872,7 @@ arketing.indianadunes.com^
 @@||att.com/ui/services_co_myatt_common/$script,~third-party
 @@||att.tv^*/VisitorAPI.js$script,~third-party
 @@||autocomplete.clearbit.com^$xmlhttprequest,domain=dzone.com
+@@||awswaf.com/*/telemetry$domain=platform.ledn.io
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||azureedge.net^*/analytics/eventtracking.js$script,domain=crimemapping.com
 @@||bam.nr-data.net^$script,domain=kapwing.com
