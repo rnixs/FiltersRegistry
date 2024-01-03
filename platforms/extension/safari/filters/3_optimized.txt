@@ -1,9 +1,9 @@
-! Checksum: yB7HzaDxsTRxahboVq6RiQ
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1704285385-3600.patch
+! Checksum: UzQKMCNTPO/VdKqLnioBgg
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1704292576-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.20
-! TimeUpdated: 2024-01-03T12:33:03+00:00
+! Version: 2.0.65.21
+! TimeUpdated: 2024-01-03T14:32:48+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -37834,6 +37834,7 @@ inapps.appsflyersdk.com^
 !#################
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=7flowers.ru
+@@||easyupload.io/cdn-cgi/zaraz/s.js
 @@||dlswbr.baidu.com/heicha/mw/abclite-$domain=haoma.baidu.com,script
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
 @@||idm.hit.gemius.pl/gplayer.js$domain=muratorplus.pl

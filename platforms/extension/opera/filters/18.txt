@@ -1,9 +1,9 @@
-! Checksum: ppEtWqSmk13pF0nhIMEeYA
-! Diff-Path: ../patches/18/18-s-1704288954-3600.patch
+! Checksum: 41tKGlV3ETpdP1GJtDy4gQ
+! Diff-Path: ../patches/18/18-s-1704292567-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.69
-! TimeUpdated: 2024-01-03T13:31:55+00:00
+! Version: 2.0.30.70
+! TimeUpdated: 2024-01-03T14:31:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2335,6 +2335,9 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+jagex.com#$#body { overflow: auto !important; }
+jagex.com#$#div[id^="CybotCookiebotDialog"] { display: none !important; }
+jagex.com#%#//scriptlet('trusted-click-element', 'input[data-target="CybotCookiebotDialogBodyLevelButtonMarketingInline"], button[id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection"]')
 kulaklik.com##div[class^="CookieInfo_cookieContainer"]
 libero.it#$#body { overflow: auto !important; }
 libero.it#$#html { overflow: auto !important; }
@@ -14842,6 +14845,10 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169615
+talentsconnect.com#@#.cookie-alert
+! https://github.com/AdguardTeam/AdguardFilters/issues/169852
+@@||consent.cookiebot.com/uc.js$domain=jagex.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169560
 @@||lvmgeo.lv/media/mod_cookie_notification/CookieNotification.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169734

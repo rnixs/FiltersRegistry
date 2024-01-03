@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: IE7rav7k4q/o6idVtpJUxA
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1704249353-3600.patch
+! Checksum: miP1zaT7ehME+yGvZaL2oQ
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1704292579-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.87.55
-! TimeUpdated: 2024-01-02T16:32:35+00:00
+! Version: 2.0.87.56
+! TimeUpdated: 2024-01-03T14:32:08+00:00
 ! Expires: 5 days (update frequency)
 /resources/js/sticker.js?$third-party
 .xml?v=3.0&external_subid=
@@ -2552,6 +2552,7 @@ dzen.ru##:matches-path(/a/).article__content_limited div[class^="article-bottom-
 dzen.ru##.ad-split-embed
 dzen.ru##:matches-path(/media)div[class$="__ad-content"]
 dzen.ru##.viewer-layout__content > div[class*="-content"] > div[aria-label] div[class*="-placeholder__root-"]
+dzen.ru##div[class^="doc2doc-video-list-placeholder__"]
 dzen.ru##.viewer-layout__sidebar div[class*="__content"] > div[class*="__feed"] div[class^="video-card-stub-"]
 dzen.ru##:matches-path(/video)div[class$="sidebar__item"] div[class*="-sidebar__ad"]
 @@||ad.mail.ru/static/admanhtml/rbadman-html5.min.js$domain=dzen.ru

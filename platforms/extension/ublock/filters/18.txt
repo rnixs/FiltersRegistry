@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: zOd8MaTE19A+bd5dNeg0Fg
-! Diff-Path: ../patches/18/18-s-1704288963-3600.patch
+! Checksum: xCNMEWHq/b4yBXpa+ZISVw
+! Diff-Path: ../patches/18/18-s-1704292578-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.69
-! TimeUpdated: 2024-01-03T13:31:55+00:00
+! Version: 2.0.30.70
+! TimeUpdated: 2024-01-03T14:31:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2311,6 +2311,8 @@ cioccolatonippon.it,movieplayer.it,hwupgrade.it,iphoneitalia.com,mediaset.it,tom
 !
 ! NOTE: Regular rules
 !
+jagex.com#$#body { overflow: auto !important; }
+jagex.com#$#div[id^="CybotCookiebotDialog"] { display: none !important; }
 kulaklik.com##div[class^="CookieInfo_cookieContainer"]
 libero.it#$#body { overflow: auto !important; }
 libero.it#$#html { overflow: auto !important; }
@@ -14027,6 +14029,10 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169615
+talentsconnect.com#@#.cookie-alert
+! https://github.com/AdguardTeam/AdguardFilters/issues/169852
+@@||consent.cookiebot.com/uc.js$domain=jagex.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169560
 @@||lvmgeo.lv/media/mod_cookie_notification/CookieNotification.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169734

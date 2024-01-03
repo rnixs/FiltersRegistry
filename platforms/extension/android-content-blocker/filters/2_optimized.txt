@@ -1,9 +1,9 @@
-! Checksum: 8+R8meUaElQwpasCtyZnRw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704288937-3600.patch
+! Checksum: RyIsvFqt3bgn5HgjeAuC9g
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704292546-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.16.40
-! TimeUpdated: 2024-01-03T13:32:42+00:00
+! Version: 2.3.16.41
+! TimeUpdated: 2024-01-03T14:32:41+00:00
 ! Expires: 5 days (update frequency)
 ||dotercouther.uno^
 ||overlapparians.com^
@@ -32012,6 +32012,7 @@ browsershots.org#@#.advert_area
 ||htvapps.com/ad_fallback/
 ||ifoneunlock.com/*_banner_
 ||instant-gaming.com/affgames/
+||js.mangalove.top^
 ||jsdelivr.net/npm/prebid-
 ||jwpcdn.com/player/*/googima.js
 ||jwpcdn.com/player/plugins/bidding/
@@ -33989,6 +33990,7 @@ reverso.net##.top-horizontal
 sportingnews.com##.top-mpu-container
 webmd.com##.top-picks
 speedtest.net##.top-placeholder
+financemagnates.com,forexlive.com##.top-side-unit
 news18.com##.topAdd
 ganjingworld.com##.topAdsSection_wrapper__cgH4h
 ada.org,globes.co.il,techcentral.ie,texteditor.co,versus.com##.topBanner
