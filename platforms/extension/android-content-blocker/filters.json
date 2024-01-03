@@ -1501,8 +1501,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/android-content-blocker/filters/224.txt",
 			"trustLevel": "full",
-			"version": "2.1.7.37",
-			"timeUpdated": "2024-01-02T23:32:19+0000",
+			"version": "2.1.7.38",
+			"timeUpdated": "2024-01-03T01:32:30+0000",
 			"languages": [
 				"zh"
 			],
