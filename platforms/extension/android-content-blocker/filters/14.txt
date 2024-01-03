@@ -1,9 +1,9 @@
-! Checksum: oJL//Lr9J9wAid8+6zD8UA
-! Diff-Path: ../patches/14/14-s-1704267340-3600.patch
+! Checksum: WMBS0KSXxvZVA6RyFEcL+A
+! Diff-Path: ../patches/14/14-s-1704270932-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.65
-! TimeUpdated: 2024-01-03T07:31:50+00:00
+! Version: 2.1.83.66
+! TimeUpdated: 2024-01-03T08:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18018,6 +18018,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+radarbox.com###ad-blocking
 newsnow.com##.hero-wrapper
 newsnow.com,newsnow.co.uk##.ad__container + div
 pks.raenonx.cc##.bg-red-500\/50

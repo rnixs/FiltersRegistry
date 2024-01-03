@@ -1,9 +1,9 @@
-! Checksum: w23pAgM6W5bbl7N54MidPw
-! Diff-Path: ../patches/19/19-s-1704231353-3600.patch
+! Checksum: 9gkVStFZTLGCSTOLt+ChYA
+! Diff-Path: ../patches/19/19-s-1704270937-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.37
-! TimeUpdated: 2024-01-02T21:32:11+00:00
+! Version: 2.0.29.38
+! TimeUpdated: 2024-01-03T08:31:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1565,6 +1565,8 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+radarbox.com###ad-blocking
+radarbox.com#%#//scriptlet('set-constant', 'ads_enabled', 'true')
 maxroll.gg#%#//scriptlet('set-constant', 'nitroAds.loaded', 'true')
 newsnow.com##.hero-wrapper
 newsnow.com##div[class^="page-grid_"]:not([class*="main"]):has(.ad__container)
@@ -4186,6 +4188,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+radarbox.com#%#//scriptlet('trusted-set-cookie', 'has-seen-splash', 'twitter')
 programmercollege.jp###goSessionPopup
 programmercollege.jp##.singlewrapper__side
 games.dmm.co.jp#?#section[data-gtm-rotating-banner] ~ div:not([class],[id]):has(> div[class]:only-child > div[style]:only-child > div[class]:only-child > button[aria-label="close"])
