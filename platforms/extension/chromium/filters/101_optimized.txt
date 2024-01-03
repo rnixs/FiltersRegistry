@@ -1,9 +1,9 @@
-! Checksum: jAu0TKq944X+IYwzDID9iw
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1704301561-14400.patch
+! Checksum: /TvdaNcWj4572e7LNMChyw
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1704315963-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.18.65
-! TimeUpdated: 2024-01-03T17:01:29+00:00
+! Version: 2.1.18.66
+! TimeUpdated: 2024-01-03T21:01:32+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -30671,6 +30671,7 @@ tokyomotion.com#?#.is-gapless > .has-text-centered:-abp-has(> div > .adv)
 @@||playwire.com/bolt/js/zeus/embed.js$script,third-party
 @@||pngimg.com/distr/$image,~third-party
 @@||promo.com/embed/$subdocument,third-party
+@@||pub.doubleverify.com/dvtag/$script,domain=time.com
 @@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$script,domain=independent.co.uk
 @@||radiotimes.com/static/advertising/$script,~third-party
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
