@@ -543,8 +543,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/android/filters/11_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.47.95",
-			"timeUpdated": "2024-01-03T13:31:27+0000",
+			"version": "2.0.47.96",
+			"timeUpdated": "2024-01-03T18:31:24+0000",
 			"languages": [],
 			"tags": [
 				1,
@@ -607,8 +607,8 @@
 			"groupId": 6,
 			"subscriptionUrl": "https://filters.adtidy.org/android/filters/15_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.60.4",
-			"timeUpdated": "2024-01-03T17:31:50+0000",
+			"version": "2.0.60.5",
+			"timeUpdated": "2024-01-03T18:31:44+0000",
 			"languages": [],
 			"tags": [
 				45,
