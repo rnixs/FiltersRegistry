@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: hOTe9NUv8uWRFbZ8FUmGaw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1704278170-3600.patch
+! Checksum: G9/7fcjSj8kFMSpQXQGCJg
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704281768-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.40
-! TimeUpdated: 2024-01-03T10:31:57+00:00
+! Version: 2.0.29.41
+! TimeUpdated: 2024-01-03T11:31:55+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -1512,6 +1512,7 @@ aol.com#@#.adwrap
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+dhgate.com#?#div[spm-c="bottomb"].j-foot-login:contains(first-hand offers)
 programmercollege.jp###goSessionPopup
 programmercollege.jp##.singlewrapper__side
 games.dmm.co.jp#?#section[data-gtm-rotating-banner] ~ div:not([class],[id]):has(> div[class]:only-child > div[style]:only-child > div[class]:only-child > button[aria-label="close"])

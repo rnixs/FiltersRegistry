@@ -1,9 +1,9 @@
-! Checksum: Cuxr1eHyAnBI+XFfSrZDPg
-! Diff-Path: ../patches/19/19-s-1704278165-3600.patch
+! Checksum: 6p6x6O7HVnovtbMpRh/Y8w
+! Diff-Path: ../patches/19/19-s-1704281764-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.40
-! TimeUpdated: 2024-01-03T10:31:57+00:00
+! Version: 2.0.29.41
+! TimeUpdated: 2024-01-03T11:31:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4354,6 +4354,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+dhgate.com#?#div[spm-c="bottomb"].j-foot-login:contains(first-hand offers)
 radarbox.com#%#//scriptlet('trusted-set-cookie', 'has-seen-splash', 'twitter')
 programmercollege.jp###goSessionPopup
 programmercollege.jp##.singlewrapper__side

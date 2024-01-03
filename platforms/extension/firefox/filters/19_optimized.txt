@@ -1,9 +1,9 @@
-! Checksum: Zb4VAIkrB2UtsXK/4I/t5g
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1704278156-3600.patch
+! Checksum: 4P6yu+GQjqfjFhLk1W42ow
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704281754-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.40
-! TimeUpdated: 2024-01-03T10:31:57+00:00
+! Version: 2.0.29.41
+! TimeUpdated: 2024-01-03T11:31:55+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1600,6 +1600,7 @@ aol.com#@#.adwrap
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+dhgate.com#?#div[spm-c="bottomb"].j-foot-login:contains(first-hand offers)
 radarbox.com#%#//scriptlet('trusted-set-cookie', 'has-seen-splash', 'twitter')
 programmercollege.jp###goSessionPopup
 programmercollege.jp##.singlewrapper__side
