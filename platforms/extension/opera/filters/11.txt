@@ -1,9 +1,9 @@
-! Checksum: CgJWB4Br8wcgbU/kndESTA
-! Diff-Path: ../patches/11/11-s-1704285374-3600.patch
+! Checksum: 4PZeLmQDG2fKyQrnKEnOgA
+! Diff-Path: ../patches/11/11-s-1704288952-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.47.94
-! TimeUpdated: 2024-01-03T12:31:41+00:00
+! Version: 2.0.47.95
+! TimeUpdated: 2024-01-03T13:31:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5736,7 +5736,6 @@ mangapanda.com,memecenter.com,mangareader.net,animeland.tv,animetoon.org,goodani
 mangapanda.com,memecenter.com,mangareader.net,animeland.tv,animetoon.org,goodanime.co,animeplus.tv,animeflv.net,toonova.net,gogoanime.in,kiss-anime.me##iframe[src*="/Ads"]
 themercury.com.au##.widget-area-main-content > .tgc-footer-fixed
 m.winfuture.de###main > .mb25.mr5
-||m.fantasti.cc/rb^
 gsp.ro##.banner-branding
 fukuishimbun.co.jp##div[id^="uz-"][id*="fukuishimbun_sp-"]
 imzog.com##div[id^="im-vda"]

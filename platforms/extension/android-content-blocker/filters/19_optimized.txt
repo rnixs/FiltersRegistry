@@ -1,9 +1,9 @@
-! Checksum: vQ64+34Q4S/b18/epcOyFA
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1704281740-3600.patch
+! Checksum: O5flxlL8zpUfCjrMADAZIQ
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704288936-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.41
-! TimeUpdated: 2024-01-03T11:31:55+00:00
+! Version: 2.0.29.42
+! TimeUpdated: 2024-01-03T13:31:58+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -138,6 +138,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Hom
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InArticleAd
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
+||mushywaste.com^$third-party
 ||whispermeeting.com^$third-party
 ||sincerepelican.com^$third-party
 ||steepscale.com^$third-party
@@ -1400,6 +1401,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+investorshub.advfn.com###interstitial-wrapper
 programmercollege.jp###goSessionPopup
 programmercollege.jp##.singlewrapper__side
 gamechampions.com#$#div[style="height:1px"] + section { display: none !important; }
@@ -4029,6 +4031,7 @@ epaper.thehindu.com,h5.g123.jp,accounts.binance.com,zlavomat.sk,id.rambler.ru,pi
 ##.insider-opt-in-notification
 ##.tsoft-push--in-notification
 ##.cleverpush-bell
+||sdk.chirpyweb.com^$third-party
 /larapush_script_
 /OneSignalPageSDKES6.js
 /OneSignalSDKWorker.js
