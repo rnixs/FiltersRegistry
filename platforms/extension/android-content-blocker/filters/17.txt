@@ -1,9 +1,9 @@
-! Checksum: GIEQRP4V97Ov1FsA0Tv7ng
-! Diff-Path: ../patches/17/17-s-1704180927-3600.patch
+! Checksum: wpC6ZJk6c9OK/MwKeFjPSw
+! Diff-Path: ../patches/17/17-s-1704296136-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.71
-! TimeUpdated: 2024-01-02T07:31:48+00:00
+! Version: 2.0.7.72
+! TimeUpdated: 2024-01-03T15:31:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -113,6 +113,7 @@
 !
 !
 !
+! go2jump.org / tr.rdrtr.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168508#issuecomment-1872568599
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-7975883
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169365
