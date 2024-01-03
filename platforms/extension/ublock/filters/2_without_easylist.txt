@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: kGXK9S04FuR+JWYizPbA9w
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704299757-3600.patch
+! Checksum: DUtM0E3D6O5zzvotCsHJEg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704303362-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.16.42
-! TimeUpdated: 2024-01-03T16:32:43+00:00
+! Version: 2.3.16.43
+! TimeUpdated: 2024-01-03T17:32:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -32556,7 +32556,7 @@ abxxx.com##.video-page__content > div.left > section
 abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com##.video__wrapper > div.wrapper.headline
 hclips.com##.video-page__content > div.left + div:not([class])
-crackstreamsfree.com##div[class^="penci-block-vc "][style]
+weakstreams.online,crackstreamsfree.com##div[class^="penci-block-vc "][style]
 baynews9.com##.google-dfp-ads
 fool.com##.sticky.top-152
 fool.com##.show-ad-label
