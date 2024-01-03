@@ -1,9 +1,9 @@
-! Checksum: gIyQkEXQeW76cK85sPtL/A
-! Diff-Path: ../patches/110_optimized/110_optimized-s-1703811937-14400.patch
+! Checksum: 2mqopZ2Sa0pMr5TL6pzBuQ
+! Diff-Path: ../patches/110_optimized/110_optimized-s-1704258349-14400.patch
 ! Title: EasyList Lithuania (Optimized)
 ! Description: Additional filter list for websites in Lithuanian.
-! Version: 2.0.2.76
-! TimeUpdated: 2023-12-29T01:01:27+00:00
+! Version: 2.0.2.77
+! TimeUpdated: 2024-01-03T05:01:38+00:00
 ! Expires: 5 days (update frequency)
 ##.baneriai
 ##.reklamos_nuorodos
@@ -621,6 +621,7 @@ _Adcash|$popup
 ||topsport.lt^$popup,third-party
 ||skaitliukas.eu^$third-party
 /reklamjuostes^$image
+||core.dimatter.ai^
 imones.lt#$#.brandpage-wrapper { margin-top: unset !important }
 15min.lt#$#.wrapper { margin-top: 0 !important }
 /images/banners/*$domain=dumblas.com|onlyoffice.com|viskasvestuvems.eu
