@@ -1,9 +1,9 @@
-! Checksum: 6gE+JRrDMqCBRGQnb9vjyg
-! Diff-Path: ../patches/14/14-s-1704281734-3600.patch
+! Checksum: 3hQT4kVffoBpQrm0ByOCaA
+! Diff-Path: ../patches/14/14-s-1704285345-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.69
-! TimeUpdated: 2024-01-03T11:31:41+00:00
+! Version: 2.1.83.70
+! TimeUpdated: 2024-01-03T12:31:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -38763,7 +38763,7 @@ tw.stock.yahoo.com##a[href="https://yahoomode.tumblr.com/yahooapp/#stock"] > img
 go2bus.ru###banner-for-mobile
 pons.com###widget_apps
 tinhte.vn##.pro-container > a[href="http://tinhte.vn/app"]
-indianexpress.com,financialexpress.com##.app-btn
+m.mobile01.com,indianexpress.com,financialexpress.com##.app-btn
 duolingo.com##._1e7JD
 ||nekto.me/chat/img/gplay.
 moneycontrol.com##.fixed_downapp
@@ -45165,6 +45165,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+||fc2.com/video/css/u/pm/img/PC_bnr_
 flickr.com##.nav-banner-container
 chugaku-juken.com###satori__creative_container
 chugaku-juken.com##.entry-content > a[href="https://chugaku-juken.com/post_lp/mailmagazine/"]

@@ -1,9 +1,9 @@
-! Checksum: A9ApuwHaFu8+/J7hPP54/g
-! Diff-Path: ../patches/20/20-s-1704274560-3600.patch
+! Checksum: Uh/D4dI4mIYELk1ACpkYRQ
+! Diff-Path: ../patches/20/20-s-1704285383-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.57
-! TimeUpdated: 2024-01-03T09:32:06+00:00
+! Version: 2.0.11.58
+! TimeUpdated: 2024-01-03T12:32:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2056,7 +2056,7 @@ tw.stock.yahoo.com##a[href="https://yahoomode.tumblr.com/yahooapp/#stock"] > img
 go2bus.ru###banner-for-mobile
 pons.com###widget_apps
 tinhte.vn##.pro-container > a[href="http://tinhte.vn/app"]
-indianexpress.com,financialexpress.com##.app-btn
+m.mobile01.com,indianexpress.com,financialexpress.com##.app-btn
 duolingo.com##._1e7JD
 ||nekto.me/chat/img/gplay.
 moneycontrol.com##.fixed_downapp

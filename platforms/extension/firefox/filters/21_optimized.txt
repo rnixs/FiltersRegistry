@@ -1,9 +1,9 @@
-! Checksum: dzEgQjdqZR+E3Bl6BC2S5g
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1704281756-3600.patch
+! Checksum: OfDuKPjcZWj5q66Pdqj35w
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1704285371-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.33
-! TimeUpdated: 2024-01-03T11:32:08+00:00
+! Version: 2.0.18.34
+! TimeUpdated: 2024-01-03T12:32:24+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1321,6 +1321,7 @@ alexfitness.ru#$#div.modal-backdrop { display: none!important; }
 alexfitness.ru#$#.modal-open { overflow: visible!important; }
 tf1.fr##div[aria-describedby^="max-banner-"]
 ||contributions.guardianapis.com^
+||fc2.com/video/css/u/pm/img/PC_bnr_
 flickr.com##.nav-banner-container
 chugaku-juken.com###satori__creative_container
 chugaku-juken.com##.entry-content > a[href="https://chugaku-juken.com/post_lp/mailmagazine/"]

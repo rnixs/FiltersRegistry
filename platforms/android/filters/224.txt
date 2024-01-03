@@ -1,9 +1,9 @@
-! Checksum: lk7t/N3TZFJBZVG6nYOidw
-! Diff-Path: ../patches/224/224-s-1704278139-3600.patch
+! Checksum: vbBSvWs0QgxBMCXVIWDeAA
+! Diff-Path: ../patches/224/224-s-1704285348-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.7.41
-! TimeUpdated: 2024-01-03T10:32:16+00:00
+! Version: 2.1.7.42
+! TimeUpdated: 2024-01-03T12:32:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -946,6 +946,7 @@ x99av.com#%#//scriptlet('set-constant', 'ADSOBJET', 'emptyObj')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160509
 embedrise.com#%#//scriptlet('prevent-window-open')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158639
+aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-stack-trace', 'Object.prototype.ppmm', 'invokeInterstitial')
 ! https://github.com/uBlockOrigin/uAssets/issues/19027
 datapps.org#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="setpos"]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/154174
@@ -1279,6 +1280,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+aiyifan.tv,iyf.tv##.video-player > .cc > .ng-star-inserted[style="position: relative;"]
 huya.com##.room-sidebar #public-screen-ab
 vidhub.me,vidhub.tv##.promolnk
 vidhub.me,vidhub.tv##.promote-link
