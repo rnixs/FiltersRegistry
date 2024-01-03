@@ -1,9 +1,9 @@
-! Checksum: n8cXxcH3mQsKbNbKSBgLCA
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1704229618-14400.patch
+! Checksum: Qu5Cgt+Len6LucqKaAuv0w
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1704244030-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.18.60
-! TimeUpdated: 2024-01-02T21:02:08+00:00
+! Version: 2.1.18.61
+! TimeUpdated: 2024-01-03T01:02:22+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -30004,6 +30004,7 @@ bing.com##.b_adPATitleBlock
 bing.com##.b_spa_adblock
 bing.com##.mapsTextAds
 bing.com##.mma_il
+bing.com##.text-ads-container
 bing.com##a[href*="/aclick?ld="]
 bing.com##div[aria-label$="ProductAds"]
 bing.com##div[class="ins_exp tds"]
@@ -30588,6 +30589,7 @@ motherless.com##table[style*="max-width:"]
 porndoe.com,tube8.es,tube8.fr,youporngay.com##video[autoplay]
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
+hdpornpics.net#?#.money:-abp-has(.century:-abp-contains(ADS))
 hotmovs.com#?#.block_label--last:-abp-contains(Advertisement)
 porn-w.org#?#.align-items-center.list-row:-abp-has(.col:empty)
 porn-w.org#?#.row:-abp-contains(Promotion Bot)
