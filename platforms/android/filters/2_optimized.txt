@@ -1,9 +1,9 @@
-! Checksum: eALzSOs505JyDaKt7V0yrA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704314134-3600.patch
+! Checksum: Zf8W5dXtr6rHhDYKifybiw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704317730-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.16.44
-! TimeUpdated: 2024-01-03T20:32:44+00:00
+! Version: 2.3.16.45
+! TimeUpdated: 2024-01-03T21:32:44+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -29992,6 +29992,7 @@ khaleejtimes.com##.fix-mpu-nf
 whatismyipaddress.com##.fl-module-wipa-concerns
 whatismyipaddress.com##.fl-photo
 klmanga.net,shareae.com##.float-ck
+news4jax.com##.floatingWrapper
 thehindu.com##.flooting-ad
 momjunction.com,stylecraze.com##.flying-carpet-wrapper
 advocate.com,emergencyemail.org,out.com##.footer
