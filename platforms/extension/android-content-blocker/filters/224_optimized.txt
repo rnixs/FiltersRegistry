@@ -1,9 +1,9 @@
-! Checksum: /2nLtyQIYedPrQSvu3Cm2Q
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1704267343-3600.patch
+! Checksum: wv8n8+8TsuTDF4niTLL+xA
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1704278143-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.7.40
-! TimeUpdated: 2024-01-03T07:32:22+00:00
+! Version: 2.1.7.41
+! TimeUpdated: 2024-01-03T10:32:16+00:00
 ! Expires: 5 days (update frequency)
 ||98765.pw^
 ||cdn.holmesmind.com^$third-party
@@ -469,7 +469,7 @@ linovelib.com#$##byspider { display: none !important; }
 linovelib.com#$#body[style] { overflow: auto !important; }
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linovelib.com
-@@||assets.tingfm.com/wp-content/themes/radio-hub/static/js/adpro.js$domain=tingfm.com
+@@/wp-content/themes/radio-hub/static/js/adpro.js$domain=tingfm.com
 movieclassic.net###billboard-modal
 movieclassic.net##.modal-backdrop
 freedidi.com#@#.adsBanner
@@ -5231,6 +5231,8 @@ newduba.cn###jq_youxi
 ||bkbbjtfp.xyz^
 ||xkbbjtfp.xyz^
 ||nhcdn.cn^
+||tkbbjtfp.xyz^
+||ahernssa.com^
 ||ukbbjtfp.xyz^
 ||zzyy20.top^
 ##[style*="sotv.me"]
