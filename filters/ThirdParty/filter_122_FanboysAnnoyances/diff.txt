@@ -358,6 +358,8 @@ samplerite.com,samplerite.cn##+js(set-cookie, consented, false)
 blukit.com.br##+js(set-cookie, blukit_novo, true)
 ! Rule "biegnaszczyt.pl##+js(set-cookie, cr, true)" converted to: "biegnaszczyt.pl#%#//scriptlet('ubo-set-cookie.js', 'cr', 'true')"
 biegnaszczyt.pl##+js(set-cookie, cr, true)
+! Rule "staff-gallery.com##+js(set-cookie, gdpr_check_cookie, accepted, , reload, 1)" converted to: "staff-gallery.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr_check_cookie', 'accepted', '', 'reload', '1')"
+staff-gallery.com##+js(set-cookie, gdpr_check_cookie, accepted, , reload, 1)
 ! Rule "itv.com##+js(set-cookie, accept-cookies, accepted)" converted to: "itv.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'accepted')"
 itv.com##+js(set-cookie, accept-cookies, accepted)
 ! Rule "dvag.de##+js(set-cookie, dvag_cookies2023, 1)" converted to: "dvag.de#%#//scriptlet('ubo-set-cookie.js', 'dvag_cookies2023', '1')"
@@ -1588,6 +1590,10 @@ omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-social, true)
 makerz.me##+js(set-local-storage-item, makerz_allow_consentmgr, 0)
 ! Rule "beermerchants.com##+js(set-local-storage-item, amCookieBarFirstShow, 1)" converted to: "beermerchants.com#%#//scriptlet('ubo-set-local-storage-item.js', 'amCookieBarFirstShow', '1')"
 beermerchants.com##+js(set-local-storage-item, amCookieBarFirstShow, 1)
+! Rule "saamexe.com##+js(set-local-storage-item, acceptedCookies, false)" converted to: "saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptedCookies', 'false')"
+saamexe.com##+js(set-local-storage-item, acceptedCookies, false)
+! Rule "saamexe.com##+js(set-local-storage-item, viewedCookieBanner, true)" converted to: "saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'viewedCookieBanner', 'true')"
+saamexe.com##+js(set-local-storage-item, viewedCookieBanner, true)
 ! Rule "app.bionic-reading.com##+js(set-local-storage-item, accept_all_cookies, false)" converted to: "app.bionic-reading.com#%#//scriptlet('ubo-set-local-storage-item.js', 'accept_all_cookies', 'false')"
 app.bionic-reading.com##+js(set-local-storage-item, accept_all_cookies, false)
 ! Rule "nloto.ru##+js(set-local-storage-item, isCookies, 1)" converted to: "nloto.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'isCookies', '1')"
@@ -2008,8 +2014,8 @@ ufs.br##body,html:style(height: auto !important; overflow: auto !important)
 proteincompany.fi,proteinbolaget.se##+js(rc, dimmeractive, body, stay)
 ! Rule "gera.de##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "gera.de#$#body,html { overflow: auto !important; position: initial !important; }"
 gera.de##body,html:style(overflow: auto !important; position: initial !important;)
-! Rule "sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }"
-sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##body,html:style(overflow: auto !important; position: initial !important;)
+! Rule "s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }"
+s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##body,html:style(overflow: auto !important; position: initial !important;)
 ! Rule "dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se#$#body,html { overflow: auto !important; position: initial !important; }"
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se##body,html:style(overflow: auto !important; position: initial !important;)
 ! Rule "mfr-chessy.fr,mfr-lamure.fr,mfr-saint-romain.fr,mfr-lapalma.fr,mfrvilliemorgon.asso.fr,mfr-charentay.fr,mfr.fr##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "mfr-chessy.fr,mfr-lamure.fr,mfr-saint-romain.fr,mfr-lapalma.fr,mfrvilliemorgon.asso.fr,mfr-charentay.fr,mfr.fr#$#body,html { overflow: auto !important; position: initial !important; }"
@@ -3970,6 +3976,8 @@ samplerite.com,samplerite.cn##+js(set-cookie, consented, false)
 blukit.com.br##+js(set-cookie, blukit_novo, true)
 ! Rule "biegnaszczyt.pl##+js(set-cookie, cr, true)" converted to: "biegnaszczyt.pl#%#//scriptlet('ubo-set-cookie.js', 'cr', 'true')"
 biegnaszczyt.pl##+js(set-cookie, cr, true)
+! Rule "staff-gallery.com##+js(set-cookie, gdpr_check_cookie, accepted, , reload, 1)" converted to: "staff-gallery.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr_check_cookie', 'accepted', '', 'reload', '1')"
+staff-gallery.com##+js(set-cookie, gdpr_check_cookie, accepted, , reload, 1)
 ! Rule "itv.com##+js(set-cookie, accept-cookies, accepted)" converted to: "itv.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'accepted')"
 itv.com##+js(set-cookie, accept-cookies, accepted)
 ! Rule "dvag.de##+js(set-cookie, dvag_cookies2023, 1)" converted to: "dvag.de#%#//scriptlet('ubo-set-cookie.js', 'dvag_cookies2023', '1')"
@@ -5200,6 +5208,10 @@ omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-social, true)
 makerz.me##+js(set-local-storage-item, makerz_allow_consentmgr, 0)
 ! Rule "beermerchants.com##+js(set-local-storage-item, amCookieBarFirstShow, 1)" converted to: "beermerchants.com#%#//scriptlet('ubo-set-local-storage-item.js', 'amCookieBarFirstShow', '1')"
 beermerchants.com##+js(set-local-storage-item, amCookieBarFirstShow, 1)
+! Rule "saamexe.com##+js(set-local-storage-item, acceptedCookies, false)" converted to: "saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptedCookies', 'false')"
+saamexe.com##+js(set-local-storage-item, acceptedCookies, false)
+! Rule "saamexe.com##+js(set-local-storage-item, viewedCookieBanner, true)" converted to: "saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'viewedCookieBanner', 'true')"
+saamexe.com##+js(set-local-storage-item, viewedCookieBanner, true)
 ! Rule "app.bionic-reading.com##+js(set-local-storage-item, accept_all_cookies, false)" converted to: "app.bionic-reading.com#%#//scriptlet('ubo-set-local-storage-item.js', 'accept_all_cookies', 'false')"
 app.bionic-reading.com##+js(set-local-storage-item, accept_all_cookies, false)
 ! Rule "nloto.ru##+js(set-local-storage-item, isCookies, 1)" converted to: "nloto.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'isCookies', '1')"
@@ -5620,8 +5632,8 @@ ufs.br##body,html:style(height: auto !important; overflow: auto !important)
 proteincompany.fi,proteinbolaget.se##+js(rc, dimmeractive, body, stay)
 ! Rule "gera.de##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "gera.de#$#body,html { overflow: auto !important; position: initial !important; }"
 gera.de##body,html:style(overflow: auto !important; position: initial !important;)
-! Rule "sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }"
-sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##body,html:style(overflow: auto !important; position: initial !important;)
+! Rule "s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }"
+s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##body,html:style(overflow: auto !important; position: initial !important;)
 ! Rule "dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se#$#body,html { overflow: auto !important; position: initial !important; }"
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se##body,html:style(overflow: auto !important; position: initial !important;)
 ! Rule "mfr-chessy.fr,mfr-lamure.fr,mfr-saint-romain.fr,mfr-lapalma.fr,mfrvilliemorgon.asso.fr,mfr-charentay.fr,mfr.fr##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "mfr-chessy.fr,mfr-lamure.fr,mfr-saint-romain.fr,mfr-lapalma.fr,mfrvilliemorgon.asso.fr,mfr-charentay.fr,mfr.fr#$#body,html { overflow: auto !important; position: initial !important; }"
@@ -7236,9 +7248,13 @@ zippia.com##+js(set-local-storage-item, gatedSignupTimerCounter, $remove$)
 deepl.com##+js(set-local-storage-item, LMT_freeUserUsageBlock, $remove$)
 ! Error: Invalid selector: '+js(set-local-storage-item, onboardingData, $remove$)' -- '+js(set-local-storage-item, onboardingData, $remove$)' is not a valid selector in rule:
 deepl.com##+js(set-local-storage-item, onboardingData, $remove$)
+! Error: "Rule has spaces, seems to be an host rule" in the rule: "hashop.nl#+js(set-cookie, cookie_preference, 1)"
+hashop.nl#+js(set-cookie, cookie_preference, 1)
 ! Error: Invalid selector: '+js(set-local-storage-item, gatedSignupTimerCounter, $remove$)' -- '+js(set-local-storage-item, gatedSignupTimerCounter, $remove$)' is not a valid selector in rule:
 zippia.com##+js(set-local-storage-item, gatedSignupTimerCounter, $remove$)
 ! Error: Invalid selector: '+js(set-local-storage-item, LMT_freeUserUsageBlock, $remove$)' -- '+js(set-local-storage-item, LMT_freeUserUsageBlock, $remove$)' is not a valid selector in rule:
 deepl.com##+js(set-local-storage-item, LMT_freeUserUsageBlock, $remove$)
 ! Error: Invalid selector: '+js(set-local-storage-item, onboardingData, $remove$)' -- '+js(set-local-storage-item, onboardingData, $remove$)' is not a valid selector in rule:
 deepl.com##+js(set-local-storage-item, onboardingData, $remove$)
+! Error: "Rule has spaces, seems to be an host rule" in the rule: "hashop.nl#+js(set-cookie, cookie_preference, 1)"
+hashop.nl#+js(set-cookie, cookie_preference, 1)

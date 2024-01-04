@@ -1,9 +1,9 @@
-! Checksum: u4q6hqdk3DSbgYbSSOWALg
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1704315974-14400.patch
+! Checksum: NgSSvdG3YCEPa3qA5QJXCw
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1704330375-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.18.92
-! TimeUpdated: 2024-01-03T21:02:03+00:00
+! Version: 2.1.18.93
+! TimeUpdated: 2024-01-04T01:02:06+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -13336,6 +13336,7 @@ escapefromtarkov.com###legalLightBlock
 allabout-japan.com###meerkat-wrap
 iplogger.org,psyonix.com,rocketleague.com,rocketleagueesports.com,wts.com###message
 wowza.com###modal-3vufhe18z0kd
+anthonytravel.com###nb
 plotz.co.uk,skyremotecodes.co.uk###nfaModal
 plotz.co.uk,skyremotecodes.co.uk###nfaPopup
 amcharts.com###notices
@@ -13501,6 +13502,7 @@ remotly.com##.consent_container
 azureprice.net##.consent_container__YUEm1
 papayaplay.com##.cont--cookie
 iconscout.com##.container_hP6iH
+visitflorida.com##.contentRender_name_plugins_common_cookie_banner
 chucklingcheese.co.uk##.cookie-accept-bar-v2
 uxcel.com##.cookie-banner-wrap
 surferseo.com##.cookie-banner_component
@@ -13636,6 +13638,7 @@ digimobil.es,youinvest.co.uk##.modal-overlay
 compress-or-die.com##.module_global-cookie-consent
 motherless.com##.motherless-cookie-wrapper
 motorsport.com,motorsport.uol.com.br##.ms-footer-messages
+floridashistoriccoast.com##.msg--cookie-consent
 miraheze.org##.mw-cookiewarning-container
 mygovid.ie##.mygovid-overlay
 ft.com##.n-messaging-slot
@@ -13897,7 +13900,7 @@ my-sportswear.de,myinstructorclub.com,sc24.com,soccer-fans-shop.de,store-connect
 80dni.pl,adventure-team.eu,ap-goal.pl,app.mycard520.com.tw,assuropoil.fr,badaniaprenatalne.pl,bellpolska.com.pl,bezprawaanirusz.pl,businesstraveller.pl,camping-le-ruisseau.fr,careego.pl,centrum-terapii.pl,certum.eu,certum.pl,clubdelux.pt,codzienniefit.pl,conference2go.com,dmsj.org,ecochemia.pl,edenred.hu,erif.pl,esportnow.pl,faktykonopne.pl,haft.com.pl,healthypsych.com,hearttoheartmedicalcenter.com,horizonconsulting.pt,hudolia.fr,indonesiaexpat.id,infokonsument.pl,instalnet.pl,intercyza-blog.pl,investjourney.pl,ironsky.pl,jasnastronamocy.info,jmdi.pl,joespizza.it,kamienieogrodowe.com,karmopedia.pl,kartanauczycielablog.pl,konsalnet.pl,lecourrier.es,leszekbloch.pl,madameedith.com,magasinsdeco.fr,mamysprawy.pl,maxbus.com.pl,mhtm.pl,mj.recipes,naszesprawy.eu,naszwybir.pl,nergb.ru,nowasprzedaz.pl,opentuition.com,opolo.com,osiedlenatura.com.pl,pandrwal.pl,piekarniabialogon.pl,pierwsze-kroki.com,poloniawroclaw.pl,predathor.pl,programistanaswoim.pl,przedawnione.pl,przedsiebiorcza.com,przedszkolankowo.pl,przesył-energii.pl,radiowarszawa.com.pl,rauhanpuolustajat.org,recreatisse.com,sds-automatyka.pl,spkomandytowa.pl,stanprawnynieruchomosci.pl,studiosante.pl,suwalki.pl,szkoleniamaciolek.com,teatr-capitol.pl,teleradiopadrepio.it,the-cca.org,towsrodku.pl,transportsitransfer.ro,viakable.com,wars.pl,warunki-zabudowy.com.pl,watergarden.com.tr,wharton.upenn.edu,worldclassfitness.be,wspolnotakrzyzasmolec.pl,x-plane.com,yaizakon.com.ua,yasumi.pl,zabieganamama.com,zatorland.pl,zebrapen.ca,zsm.edu.pl,zuch.media##.spu-bg
 bookbeat.at,bookbeat.be,bookbeat.ch,bookbeat.co.uk,bookbeat.com,bookbeat.de,bookbeat.dk,bookbeat.fi,bookbeat.nl,bookbeat.no,bookbeat.pl,bookbeat.se,schwiizer-schueuemli.de##div[class*="cookieBanner_"]
 alandsradio.ax,audirsclub.it,automobil.se,bell-labs.com,bigsocietycapital.com,camperlife.it,caroftheyear.se,cartoonnetwork.co.uk,eif.co.uk,endurobloggen.se,integralmemory.com,juce.com,kantarsifo.se,lanutrition.fr,meethue.com,middleeasteye.net,mopedgaraget.se,parkinsons.org.uk,rmg.co.uk,servimedia.es,spainbs.com,svjt.se,thalesgroup.com,topuniversities.com,ucas.com###sliding-popup
-accessonline.com,ar.iiarjournals.org,asobostudio.com,avvir.no,axa-im.es,beko.fr,biorxiv.org,blikopnieuws.nl,bportugal.pt,cam.ac.uk,centrale-canine.fr,cervantes.es,ciee.org,circuitdigest.com,cmaj.ca,der-baecker-eifler.de,derprivatpatient.de,diena.lt,domradio.de,dtm.com,eluniversal.com.mx,encuentre-abierto.es,escort-ads.com,europapark.de,europol.europa.eu,fdp.de,financialsense.com,firmania.es,gsis.gr,handballerd.hu,helsinginkaupunginorkesteri.fi,herbatint.com,ilm.pri.ee,indstate.edu,intelligentcitieschallenge.eu,iphonefaq.org,iva.de,jneurosci.org,kodi.tv,kpnpensioen.nl,land.nrw,lexcellence.swiss,ligainsider.de,mags.nrw,manner.com,medindia.net,medrxiv.org,metromadrid.es,migros.fr,minsait.com,muhabirce.de,nationalinterest.org,news.ki.se,nibusinessinfo.co.uk,nnieuws.be,novartis.co.jp,nrscotland.gov.uk,nutella.com,oneforall.com,orange.be,osmanlicakelam.net,ovomaltine.de,paihdelinkki.fi,paladinomedia.com,piaggiogroup.com,pioneer-car.eu,prestashop.com,psau.edu.sa,questionmark.com,radiosaw.de,rae.es,reinisfischer.com,rotel.com,sandoz.com.tr,sergeferrari.com,sonntagsblatt.de,staff.ki.se,stainlessgames.com,thuisarts.nl,timeshighereducation.com,tolisihoni.com,topuniversities.com,total.com,trademark-clearinghouse.com,ucg.org,unesco.de,unicef.org,usccb.org,uwaterloo.ca,veganjunkfoodbar.com,veggiepeople.org,voltimum.de,voxmail.it,waffengebraucht.at,weightwatchers.com,wildlifetrusts.org,wis-wander.weizmann.ac.il,worldpressphoto.org,zanzu.be,ziraatkatilim.com.tr,zuerich.com##.sliding-popup-bottom
+accessonline.com,ar.iiarjournals.org,asobostudio.com,avvir.no,axa-im.es,beko.fr,biorxiv.org,blikopnieuws.nl,bportugal.pt,cam.ac.uk,centrale-canine.fr,cervantes.es,ciee.org,circuitdigest.com,cmaj.ca,der-baecker-eifler.de,derprivatpatient.de,diena.lt,domradio.de,dtm.com,eluniversal.com.mx,encuentre-abierto.es,escort-ads.com,europapark.de,europol.europa.eu,exploregeorgia.org,fdp.de,financialsense.com,firmania.es,gsis.gr,handballerd.hu,helsinginkaupunginorkesteri.fi,herbatint.com,ilm.pri.ee,indstate.edu,intelligentcitieschallenge.eu,iphonefaq.org,iva.de,jneurosci.org,kodi.tv,kpnpensioen.nl,land.nrw,lexcellence.swiss,ligainsider.de,mags.nrw,manner.com,medindia.net,medrxiv.org,metromadrid.es,migros.fr,minsait.com,muhabirce.de,nationalinterest.org,news.ki.se,nibusinessinfo.co.uk,nnieuws.be,novartis.co.jp,nrscotland.gov.uk,nutella.com,oneforall.com,orange.be,osmanlicakelam.net,ovomaltine.de,paihdelinkki.fi,paladinomedia.com,piaggiogroup.com,pioneer-car.eu,prestashop.com,psau.edu.sa,questionmark.com,radiosaw.de,rae.es,reinisfischer.com,rotel.com,sandoz.com.tr,sergeferrari.com,sonntagsblatt.de,staff.ki.se,stainlessgames.com,thuisarts.nl,timeshighereducation.com,tolisihoni.com,topuniversities.com,total.com,trademark-clearinghouse.com,ucg.org,unesco.de,unicef.org,usccb.org,uwaterloo.ca,veganjunkfoodbar.com,veggiepeople.org,voltimum.de,voxmail.it,waffengebraucht.at,weightwatchers.com,wildlifetrusts.org,wis-wander.weizmann.ac.il,worldpressphoto.org,zanzu.be,ziraatkatilim.com.tr,zuerich.com##.sliding-popup-bottom
 pkprintprof.ru,themodernhouse.com,wildberries.by##.modal--cookie
 brokerdefense.net,cfmradio.fr,cmm.fr,espace-competition.com,fareneit.fr,fermeturegarage.com,fmauto.fr,freemaths.fr,ic4.fr,restaurantdieppe.fr,sensationlarge.com,sonomix.ch,ville-eu.fr,voyagesdenis.com###rgpd
 dirbam.lt,otsintood.ee,visidarbi.lv,zaposlitev.net##.vd-message-wrapper
@@ -14142,6 +14145,7 @@ macfarlanes.com#%#//scriptlet('ubo-set-cookie.js', 'macfarlanes-necessary-cookie
 samplerite.com,samplerite.cn#%#//scriptlet('ubo-set-cookie.js', 'consented', 'false')
 blukit.com.br#%#//scriptlet('ubo-set-cookie.js', 'blukit_novo', 'true')
 biegnaszczyt.pl#%#//scriptlet('ubo-set-cookie.js', 'cr', 'true')
+staff-gallery.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr_check_cookie', 'accepted', '', 'reload', '1')
 itv.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'accepted')
 dvag.de#%#//scriptlet('ubo-set-cookie.js', 'dvag_cookies2023', '1')
 premierinn.com,whitbreadinns.co.uk,barandblock.co.uk,tabletable.co.uk,brewersfayre.co.uk,beefeater.co.uk#%#//scriptlet('ubo-set-cookie.js', 'consent_cookie', '1')
@@ -14757,6 +14761,8 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 makerz.me#%#//scriptlet('ubo-set-local-storage-item.js', 'makerz_allow_consentmgr', '0')
 beermerchants.com#%#//scriptlet('ubo-set-local-storage-item.js', 'amCookieBarFirstShow', '1')
+saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptedCookies', 'false')
+saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'viewedCookieBanner', 'true')
 app.bionic-reading.com#%#//scriptlet('ubo-set-local-storage-item.js', 'accept_all_cookies', 'false')
 nloto.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'isCookies', '1')
 librinova.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieconsent_status', 'false')
@@ -14998,8 +15004,8 @@ proteincompany.fi,proteinbolaget.se#%#//scriptlet('ubo-rc.js', 'dimmeractive', '
 gera.de##.cookie-banner-container
 gera.de##.cookie-banner-overlay-blocker
 gera.de#$#body,html { overflow: auto !important; position: initial !important; }
-sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##.if6_eprivacy
-sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }
+s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##.if6_eprivacy
+s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se##.dwa-cms-ui-cookie
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se#$#body,html { overflow: auto !important; position: initial !important; }
 mfr-chessy.fr,mfr-lamure.fr,mfr-saint-romain.fr,mfr-lapalma.fr,mfrvilliemorgon.asso.fr,mfr-charentay.fr,mfr.fr#$#body,html { overflow: auto !important; position: initial !important; }
@@ -17146,6 +17152,7 @@ macfarlanes.com#%#//scriptlet('ubo-set-cookie.js', 'macfarlanes-necessary-cookie
 samplerite.com,samplerite.cn#%#//scriptlet('ubo-set-cookie.js', 'consented', 'false')
 blukit.com.br#%#//scriptlet('ubo-set-cookie.js', 'blukit_novo', 'true')
 biegnaszczyt.pl#%#//scriptlet('ubo-set-cookie.js', 'cr', 'true')
+staff-gallery.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr_check_cookie', 'accepted', '', 'reload', '1')
 itv.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'accepted')
 dvag.de#%#//scriptlet('ubo-set-cookie.js', 'dvag_cookies2023', '1')
 premierinn.com,whitbreadinns.co.uk,barandblock.co.uk,tabletable.co.uk,brewersfayre.co.uk,beefeater.co.uk#%#//scriptlet('ubo-set-cookie.js', 'consent_cookie', '1')
@@ -17761,6 +17768,8 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 makerz.me#%#//scriptlet('ubo-set-local-storage-item.js', 'makerz_allow_consentmgr', '0')
 beermerchants.com#%#//scriptlet('ubo-set-local-storage-item.js', 'amCookieBarFirstShow', '1')
+saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptedCookies', 'false')
+saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'viewedCookieBanner', 'true')
 app.bionic-reading.com#%#//scriptlet('ubo-set-local-storage-item.js', 'accept_all_cookies', 'false')
 nloto.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'isCookies', '1')
 librinova.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieconsent_status', 'false')
@@ -18002,8 +18011,8 @@ proteincompany.fi,proteinbolaget.se#%#//scriptlet('ubo-rc.js', 'dimmeractive', '
 gera.de##.cookie-banner-container
 gera.de##.cookie-banner-overlay-blocker
 gera.de#$#body,html { overflow: auto !important; position: initial !important; }
-sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##.if6_eprivacy
-sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }
+s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##.if6_eprivacy
+s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se##.dwa-cms-ui-cookie
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se#$#body,html { overflow: auto !important; position: initial !important; }
 mfr-chessy.fr,mfr-lamure.fr,mfr-saint-romain.fr,mfr-lapalma.fr,mfrvilliemorgon.asso.fr,mfr-charentay.fr,mfr.fr#$#body,html { overflow: auto !important; position: initial !important; }
@@ -19594,6 +19603,7 @@ ubuntu-it.org###\5f ubuntu-it_cookie_policy
 indire.it###bannerContent
 cosedicasa.com###blur-bg
 prezzoforte.it###bottombar
+trapiantocapelli.it###byswind
 infojobs.it###cmpContainer
 melarossa.it###cookieMelaBanner
 annunci.net###cookies_policy_bottom_left
@@ -19765,6 +19775,7 @@ holodilnik.ru##.alert-compliance
 domrfbank.ru##.announce-cookie
 autopoisk24.net##.b-popup
 finuslugi.ru##.bottom-message
+apteka-april.ru##.c-notices > .hasButton.c-notice
 2x2tv.ru##.cook-web
 supersamsev.ru##.cookie-consent-container-wrap
 gostest.com##.cookie__open
