@@ -1,9 +1,9 @@
-! Checksum: bcKu3uIaMuCyDtxhhw9IPw
-! Diff-Path: ../patches/18/18-s-1704353770-3600.patch
+! Checksum: ZAzZrIQaoX3/s1YnRORV5Q
+! Diff-Path: ../patches/18/18-s-1704364587-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.71
-! TimeUpdated: 2024-01-04T07:32:36+00:00
+! Version: 2.0.30.72
+! TimeUpdated: 2024-01-04T10:32:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2346,8 +2346,8 @@ cherytr.com##.cc-nb-main-container
 enisa.europa.eu##.privacy-message-container
 konami.com###privacy-information-cookie-notice
 szkolawchmurze.org##app-cookies-consent-banner
-riga.lv#$#body { overflow: auto !important; }
-riga.lv#$#body #cookieConsent { display: none !important; }
+neplp.lv,riga.lv#$#body { overflow: auto !important; }
+neplp.lv,riga.lv#$#body #cookieConsent { display: none !important; }
 manninc.co.uk##body.bodyLock::before
 ||stores.enzuzo.com/apps/enzuzo/static/js/__enzuzo-cookiebar.js$domain=manninc.co.uk
 tuasaude.com##.consent-bar-wrapper
@@ -2569,7 +2569,7 @@ giphy.com#%#//scriptlet('trusted-set-local-storage-item', 'has-seen-tos-modal', 
 npo.nl##ccm-notification
 cnyes.com#?##content div[class^="_"]:has(> div[class^="_"] > img[alt="cookies"])
 infopedia.pt###gpe-cookies-warn
-biglobe.ne.jp###gdpr-box
+naslovi.net,biglobe.ne.jp###gdpr-box
 ||cookies.eo.nl^
 calm.com###cookie-preferences-banner
 santa.by###cookiebars
@@ -14895,6 +14895,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169634
+neplp.lv#@##cookieConsent
+neplp.lv#@#.cookie-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169615
 talentsconnect.com#@#.cookie-alert
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169852
