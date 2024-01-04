@@ -1,9 +1,9 @@
-! Checksum: ZAzZrIQaoX3/s1YnRORV5Q
-! Diff-Path: ../patches/18/18-s-1704364587-3600.patch
+! Checksum: wvZdr5ztDmNbD5Wgg04Mew
+! Diff-Path: ../patches/18/18-s-1704368199-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.72
-! TimeUpdated: 2024-01-04T10:32:41+00:00
+! Version: 2.0.30.73
+! TimeUpdated: 2024-01-04T11:31:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2335,6 +2335,8 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+gezondleven.be##.cookiebanner-overlay
+g2a.com##div[data-test-id="cookie-modal"]
 jagex.com#$#body { overflow: auto !important; }
 jagex.com#$#div[id^="CybotCookiebotDialog"] { display: none !important; }
 jagex.com#%#//scriptlet('trusted-click-element', 'input[data-target="CybotCookiebotDialogBodyLevelButtonMarketingInline"], button[id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection"]')

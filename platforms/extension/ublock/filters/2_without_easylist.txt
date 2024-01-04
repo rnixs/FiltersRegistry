@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: gKjUCetn7Ivm4cM2rZ3mYg
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704364623-3600.patch
+! Checksum: jVNDQ7sYOTb0fZjbzMC9Yw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704368238-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.16.52
-! TimeUpdated: 2024-01-04T10:33:29+00:00
+! Version: 2.3.16.53
+! TimeUpdated: 2024-01-04T11:32:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -49726,6 +49726,8 @@ adultlingeriepics.com,adultlingeriepics.com,adultspankingtgp.com,allfeetporn.com
 /(?:com|net)\/[0-9a-f]{12}\.js$/$script,~third-party,domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
 !
 !
+!+ NOT_OPTIMIZED
+euractiv.com##.ea-gat-slot-wrapper
 !+ NOT_OPTIMIZED
 businesstoday.in##.secondAdPosition
 !+ NOT_OPTIMIZED

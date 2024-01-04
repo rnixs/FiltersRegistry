@@ -1,9 +1,9 @@
-! Checksum: xGq0k/FgoZVGm/VV6OnkSg
-! Diff-Path: ../patches/21/21-s-1704353819-3600.patch
+! Checksum: OXOksQvdlW60IYYFzwBqBw
+! Diff-Path: ../patches/21/21-s-1704368258-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.36
-! TimeUpdated: 2024-01-04T07:32:51+00:00
+! Version: 2.0.18.37
+! TimeUpdated: 2024-01-04T11:32:13+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3298,6 +3298,12 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169654
+moneycontrol.com##.creScroe
+moneycontrol.com###sticky_middle_cb
+moneycontrol.com##.pink-bar[href*="/credit-score"]
+moneycontrol.com##.mcApp_btn[href*="/credit-score"]
+moneycontrol.com###top_header_container[title="Credit Score"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169074
 wyofile.com##.newspack-popup-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168879
