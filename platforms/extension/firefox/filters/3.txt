@@ -1,9 +1,9 @@
-! Checksum: 3lblDEzEy84L4T9JNrxFLw
-! Diff-Path: ../patches/3/3-s-1704378967-3600.patch
+! Checksum: I4TX0402D7chle+tPm1xnw
+! Diff-Path: ../patches/3/3-s-1704382566-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.27
-! TimeUpdated: 2024-01-04T14:33:00+00:00
+! Version: 2.0.65.28
+! TimeUpdated: 2024-01-04T15:33:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -76986,8 +76986,8 @@ zelda.paperlesspost.com$image
 /wp-statistics/assets/js/tracker.js
 /wp-content/plugins/s2f-referral-tracking/*
 /swlapi/stats|
-.com/stats?t=$xmlhttprequest
-.net/stats?t=$xmlhttprequest
+.com/api/stats?t=$xmlhttprequest,ping
+.net/api/stats?t=$xmlhttprequest,ping
 /wp-content/plugins/flying-analytics/*
 /sayacff.html
 /share/js/gAnalytics.js
@@ -82262,6 +82262,8 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169629
+||tvnoviny.sk^$cookie=MS_PPID
 ! rnd.de - analytics
 ||rnd.de^$cookie=__vads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169286
