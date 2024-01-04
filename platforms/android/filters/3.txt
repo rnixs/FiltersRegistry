@@ -1,9 +1,9 @@
-! Checksum: WE2cHZVa5geBf3lIE1kpxA
-! Diff-Path: ../patches/3/3-s-1704382546-3600.patch
+! Checksum: NfpeJzY3ZUCytg+KiBz3SQ
+! Diff-Path: ../patches/3/3-s-1704386146-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.28
-! TimeUpdated: 2024-01-04T15:33:00+00:00
+! Version: 2.0.65.29
+! TimeUpdated: 2024-01-04T16:33:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -424,6 +424,7 @@ accountkiller.com#%#window.ga = function(){var a = arguments[5];a&&a.hitCallback
 ! AGLint temporarily disabled for this rule due to https://github.com/AdguardTeam/AGLint/issues/191
 ! TODO: Enable it back when AGLint is fixed.
 ! aglint-disable-next-line
+://*.*$permissions=join-ad-interest-group=()\, run-ad-auction=()\, browsing-topics=()
 !
 ! End: Rules for Google "Privacy" Sandbox
 !
