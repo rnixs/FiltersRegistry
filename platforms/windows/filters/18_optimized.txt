@@ -1,9 +1,9 @@
-! Checksum: AAIOWfHO7qjxMiVCdsRlsg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1704375403-3600.patch
+! Checksum: 9+oC1d4iFug5oca/3xtpVQ
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1704379004-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.75
-! TimeUpdated: 2024-01-04T13:32:00+00:00
+! Version: 2.0.30.76
+! TimeUpdated: 2024-01-04T14:32:04+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};

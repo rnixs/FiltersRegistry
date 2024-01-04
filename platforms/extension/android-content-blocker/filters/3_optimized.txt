@@ -1,9 +1,9 @@
-! Checksum: LncqXjlb/0t0Lm1wSBm0Vw
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1704375349-3600.patch
+! Checksum: qkIUKDdx8/C5d8fPys8adA
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1704378951-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.26
-! TimeUpdated: 2024-01-04T13:32:55+00:00
+! Version: 2.0.65.27
+! TimeUpdated: 2024-01-04T14:33:00+00:00
 ! Expires: 5 days (update frequency)
 itmedia.co.jp#$##ulCommentWidget[style*="display"] { display: block !important; }
 elcomercio.es#$##engagement-top { display: none !important; }
@@ -3856,6 +3856,13 @@ adseek.site#$##primary { display: block !important; }
 ||zoosnet.net^$third-party
 ||zoossoft.net^$third-party
 ||zqtk.net^$third-party
+||brightdata.com^
+||brightdata.de^
+||perr.l-agent.me^
+||perr.l-err.biz^
+||brdtest.com^
+||brdtnet.com^
+||luminati.io^
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 .ay.delivery^
