@@ -1,9 +1,9 @@
-! Checksum: pa6wxT6QytbmU0rT+8cvuw
-! Diff-Path: ../patches/6/6-s-1704397014-3600.patch
+! Checksum: U9U/RolZQisNeg20LNgpjQ
+! Diff-Path: ../patches/6/6-s-1704407771-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.78
-! TimeUpdated: 2024-01-04T19:34:17+00:00
+! Version: 2.0.39.79
+! TimeUpdated: 2024-01-04T22:33:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -8409,6 +8409,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||pornohexen.com/js/a9k3jf823m4.js
 ||pornohirsch.net/cpanel/
 ||pornohirsch.net/img/linklist2/
+||pornohut.info/ad/
 ||pornohutdeutsch.net/wp-content/*/93kgk95aw2q.js
 ||pornojenny.com/cpanel/
 ||pornojenny.com/img/linklist/
@@ -10169,6 +10170,8 @@ my-homo.net##.gxt_feed
 qiez.de##.h5v
 news.de##.halfpage
 hallobuer.ruhr##.hallo-inhalt_2
+pornotim.com##.happy-inside-player
+pornohut.info##.happy-player-beside
 hc-erlangen-ev.de##.hauptsponsor
 fc-hansa.de##.hauptsponsoren
 tagesspiegel.de##.hcf-news-aktuell
@@ -10793,6 +10796,7 @@ regensburg-digital.de##.wk-slideshow
 ariva.de##.woBannerHeader
 ariva.de##.wo_news_top_banner
 allround-pc.com##.wp-element-button[href^="https://amzn.to/"]
+pornohut.info,xvideos-deutsch.com,youporndeutsch.info##.wps-player__happy-inside
 technic3d.com##.wrap > footer[style="bottom: -260px;"]:last-child > div:first-child
 fkk24.de##.wrapper-banner
 come-on.de,fnp.de,fr.de,merkur.de,soester-anzeiger.de,tz.de,wa.de##.wv_story_el_billboard
