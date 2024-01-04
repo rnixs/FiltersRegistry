@@ -1,9 +1,9 @@
-! Checksum: e0IK/1v0Q5x3WICDR6ERUQ
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1704388005-14400.patch
+! Checksum: HJ9BgxAYBAoNqA6OgrVHMQ
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1704402402-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.37.75
-! TimeUpdated: 2024-01-04T17:02:59+00:00
+! Version: 2.1.37.76
+! TimeUpdated: 2024-01-04T21:02:57+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -1739,6 +1739,7 @@ cosiedzieje.tv,expresskaszebe.pl,gostynin24.pl,kk24.pl,malbork1.pl,nasztomaszow.
 kk24.pl##.tipad_tag + a
 transfermarkt.pl##.tm-header > div > img[src$=".gif"]
 meblarskapolska.pl##.tm-promt-image
+audycje.tokfm.pl##.tok-advertisement
 egzotycznaturystyka.pl,franchising.pl,lubliniec.info,pulsmiasta.tv##.top-banner
 ortograf.pl##.top-billboard
 zycieczestochowy.pl##.top-element

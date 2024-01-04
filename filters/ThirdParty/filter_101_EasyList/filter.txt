@@ -1,8 +1,8 @@
 !
-! Checksum: /a3GysMybTTJyNEpOkt9fA
-! OriginalVersion: 202401041650
+! Checksum: 2/JBJDqkb6K3TRN22yx2Jg
+! OriginalVersion: 202401042050
 ! Title: EasyList
-! Last modified: 04 Jan 2024 16:50 UTC
+! Last modified: 04 Jan 2024 20:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -19093,6 +19093,7 @@ browsershots.org#@#.advert_area
 ||3sjhdbjfsdf3.monster^
 ||3sk7d418al8u.com^
 ||3wr110.net^
+||3xbrh4rxsvbl.top^
 ||4-interads.com^
 ||4030b44c32.com^
 ||4073284684.com^
@@ -22185,6 +22186,7 @@ browsershots.org#@#.advert_area
 ||ayvfzwttm.com^
 ||aywikhsw.xyz^
 ||ayxfqtxrgoc.com^
+||ayxuadkeh.com^
 ||azads.com^
 ||azaipsee.com^
 ||azbaclxror.com^
@@ -30868,6 +30870,7 @@ browsershots.org#@#.advert_area
 ||gtoonfd.com^
 ||gtsads.com^
 ||gtudkfe.com^
+||gtxlouky.xyz^
 ||guabapeewee.com^
 ||guadam.com^
 ||guanaoutfawn.life^
@@ -37790,6 +37793,7 @@ browsershots.org#@#.advert_area
 ||ohpgamsojj.com^
 ||ohrdsplu.com^
 ||ohsatum.info^
+||ohsruxbixgzu.com^
 ||ohtctjiuow.com^
 ||ohwhdspj.com^
 ||oiarske.com^
@@ -51543,6 +51547,7 @@ browsershots.org#@#.advert_area
 ||360adshost.net^$popup
 ||3r1kwxcd.top^$popup
 ||3wr110.xyz^$popup
+||3xbrh4rxsvbl.top^$popup
 ||4b6994dfa47cee4.com^$popup
 ||4dcdc.com^$popup
 ||4dsply.com^$popup
@@ -64416,8 +64421,7 @@ digg.com##article.fp-vertical-story:has(a[href="/channel/promotion"])
 twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
-wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
-wish.com##div[class^="WishExpressProductsRow__FeedTileColumnWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
+wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="DesignSpec__TextSpecWrapper-"] + div[class^="DesignSpec__TextSpecWrapper-"])
 flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##div[data-test-id="pin"]:has(div[title^="Promoted"])
 twitter.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
