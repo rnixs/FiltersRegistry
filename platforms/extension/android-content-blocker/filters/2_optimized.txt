@@ -1,9 +1,9 @@
-! Checksum: /S5j2jL7ONnrUlALQG3m5g
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704407760-3600.patch
+! Checksum: VmHxwjHHDzytUI3dvA+WcQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704411393-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.16.62
-! TimeUpdated: 2024-01-04T22:33:04+00:00
+! Version: 2.3.16.63
+! TimeUpdated: 2024-01-04T23:33:43+00:00
 ! Expires: 5 days (update frequency)
 ||dotercouther.uno^
 ||overlapparians.com^
@@ -24116,6 +24116,7 @@ browsershots.org#@#.advert_area
 ||apesdescriptionprojects.com^
 ||apglinks.net^
 ||apidata.info^
+||apnpr.com^
 ||apologizingrigorousmorally.com^
 ||appads.com^
 ||appbetnewapp.top^
@@ -34539,6 +34540,7 @@ yahoo.com##[data-content="Advertisement"]
 mail.yahoo.com##[data-test-id^="pencil-ad"]
 yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
+mail.yahoo.com##article[aria-labelledby*="-pencil-ad-"]
 yahoo.com##div[class*="ads-"]
 yahoo.com##div[class*="gemini-ad"]
 yahoo.com##div[data-beacon] > div[class*="streamBoxShadow"]

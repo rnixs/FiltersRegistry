@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0+PtDobVEQssUG4LOM7htQ
-! Diff-Path: ../patches/6/6-s-1704407781-3600.patch
+! Checksum: JWig5EGzz5mf3Sfh7o+2cQ
+! Diff-Path: ../patches/6/6-s-1704411415-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.79
-! TimeUpdated: 2024-01-04T22:33:30+00:00
+! Version: 2.0.39.80
+! TimeUpdated: 2024-01-04T23:34:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6222,6 +6222,7 @@ _woz_banner_vote.
 ##a[href^="https://www.tik-tok-date.com/"]
 ##a[href^="https://www.tipico.com/?affiliateId="]
 ##a[href^="https://www.vavoo.tv/promo/"] > img
+##a[href^="https://www.wazazu.com/NWS/"]
 ping-timeout.de#@##Advertisements
 openlimit.com#@##adLink
 az.com.na#@##ad_block_1
@@ -9528,7 +9529,7 @@ my-homo.net##.gxt_feed
 qiez.de##.h5v
 news.de##.halfpage
 hallobuer.ruhr##.hallo-inhalt_2
-pornotim.com##.happy-inside-player
+pornotim.com,xhammer.net##.happy-inside-player
 pornohut.info##.happy-player-beside
 hc-erlangen-ev.de##.hauptsponsor
 fc-hansa.de##.hauptsponsoren

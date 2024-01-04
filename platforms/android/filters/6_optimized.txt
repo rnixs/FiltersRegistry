@@ -1,9 +1,9 @@
-! Checksum: RaYf4zwKaX5+rAqXtjUURw
-! Diff-Path: ../patches/6_optimized/6_optimized-s-1704407758-3600.patch
+! Checksum: wt9Jl2eT+X4RzzZraGfoUQ
+! Diff-Path: ../patches/6_optimized/6_optimized-s-1704411391-3600.patch
 ! Title: AdGuard German filter (Optimized)
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.79
-! TimeUpdated: 2024-01-04T22:33:30+00:00
+! Version: 2.0.39.80
+! TimeUpdated: 2024-01-04T23:34:07+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -2473,6 +2473,7 @@ _werbung.pl
 ##a[href^="https://t.trafai.com/"]
 ##a[href^="https://trk.imobtrk.com/"]
 ##a[href^="https://www.tipico.com/?affiliateId="]
+##a[href^="https://www.wazazu.com/NWS/"]
 ping-timeout.de#@##Advertisements
 openlimit.com#@##adLink
 az.com.na#@##ad_block_1
@@ -3601,7 +3602,7 @@ wetter.de##.guj-ad-slot
 my-homo.net##.gxt_banner
 my-homo.net##.gxt_feed
 qiez.de##.h5v
-pornotim.com##.happy-inside-player
+pornotim.com,xhammer.net##.happy-inside-player
 pornohut.info##.happy-player-beside
 ak-kurier.de##.hd-banner
 fkk24.de##.head-top-bannerplace
