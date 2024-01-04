@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 92kj6gQU9ATZVn7vyh2Fow
-! Diff-Path: ../patches/16_optimized/16_optimized-s-1704353800-3600.patch
+! Checksum: SRBZH4EtkoUCba0ESipTVw
+! Diff-Path: ../patches/16_optimized/16_optimized-s-1704375380-3600.patch
 ! Title: AdGuard French filter (Optimized)
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.42.70
-! TimeUpdated: 2024-01-04T07:32:33+00:00
+! Version: 2.0.42.71
+! TimeUpdated: 2024-01-04T13:31:58+00:00
 ! Expires: 5 days (update frequency)
 ||vookamoo.com^
 ||proxy.ads.canalplus-bo.net^
@@ -175,7 +175,7 @@ iphonetweak.fr,iphonesoft.fr##body > #msgUser
 iphonetweak.fr,iphonesoft.fr##+js(abort-on-property-read, onload)
 @@||googletagmanager.com/gtm.js$domain=commentcamarche.net
 animedigitalnetwork.fr##+js(no-fetch-if, pagead2.googlesyndication.com)
-@@||ads.videoadex.com/jw/advertisement.js
+@@||ads.videoadex.com/jw/advertisement.js$domain=animedigitalnetwork.fr
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari, ext_ublock)
 @@||torrent9.uno^$generichide
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari, ext_ublock)

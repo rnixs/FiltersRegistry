@@ -1,9 +1,9 @@
-! Checksum: kk6TU/J98z9v8t9Msg7NpA
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1704371781-3600.patch
+! Checksum: /iA8jucnmo0i8UXFhxUnJg
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1704375345-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.62
-! TimeUpdated: 2024-01-04T12:33:24+00:00
+! Version: 2.0.95.63
+! TimeUpdated: 2024-01-04T13:33:01+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -942,7 +942,6 @@ newscientist.com##.ArticleHeader__SocialWrapper
 ibahia.com##.ib-shareFlutuante
 haberturk.com##.widget-share
 beargoggleson.com,thepewterplank.com,ramblinfan.com,rhymejunkie.com,90min.de,dbltap.com,mentalfloss.com##button[aria-label="share-button"]
-leakporner.com,thenudebay.com,fulltaboo.tv,javfc2.net###video-share
 snopes.com##.social_total
 reuters.com##button[aria-label^="Share"]
 shueisha.co.jp##.cover__share
@@ -6828,6 +6827,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_social
 ##.o-noteContentHeader__share
 ##.p-article__articleWrapper ~ div.p-article__share
 ##.ytp-share-button
+###video-share
 ##.ct-share-box
 ###abn-shares-buttons
 ##.social-share-container

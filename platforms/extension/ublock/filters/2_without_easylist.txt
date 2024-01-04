@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Q2obrqzFMsrXnFRgovnGTA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704371933-3600.patch
+! Checksum: yutdYlSikJzU7SYkPsKHAw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704375382-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.16.54
-! TimeUpdated: 2024-01-04T12:33:10+00:00
+! Version: 2.3.16.55
+! TimeUpdated: 2024-01-04T13:32:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -20843,6 +20843,7 @@ dbplanet.net###some_ad_block_key_popup
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3030
 @@||calciomercato.com/promodisplay
 !
+buonissimo.it##.adv
 leggo.it###outbrain
 ilfattoquotidiano.it##.rullo-item.special
 ridble.com##.adisclaimer
@@ -32535,6 +32536,8 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+multirbl.valli.org###lo-ads
+||multirbl.valli.org/images/hetrixtools-ad-banner.gif
 wsls.com##.floatingWrapper
 investorshub.advfn.com##.placements-container
 investorshub.advfn.com##.col-message > div.text-center > div.full-message-card

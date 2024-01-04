@@ -1,9 +1,9 @@
-! Checksum: XlfgihMjJnZe5ldbSGZ8XA
-! Diff-Path: ../patches/7/7-s-1704371803-3600.patch
+! Checksum: JN9a73zmOZTc9vVI2Gd/1g
+! Diff-Path: ../patches/7/7-s-1704375350-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.26
-! TimeUpdated: 2024-01-04T12:33:41+00:00
+! Version: 2.0.47.27
+! TimeUpdated: 2024-01-04T13:33:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1362,6 +1362,8 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+://jp-safebgt-$document,domain=s3.ap-southeast-1.amazonaws.com
+/ap/sign.php?authenticated=true&openid%2Fgp%2Fsignin%2Fx%26i%3Da%26oauth%3Dm%26i%3Fie%3DUTF8%26ref_%3Drhf_custrec_signin^$document,domain=best
 ||s3.us-west-2.amazonaws.com/*/index%25%$document
 /g?visitorid=*&extra_data2=|$document
 ||amplifyapp.com/*=(0101)-$document
@@ -1533,6 +1535,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+||video.fc2.com/api/v3/advertise/
 asobeans.jp,warau.jp##div[class^="sw-AdNetWork"]
 iphone-mania.jp##.fluxoverlay__wrapper
 map.yahoo.co.jp##.App__contentsAd
@@ -1542,7 +1545,6 @@ ge-soku.com###diver_widget_pcsp-14
 ge-soku.com###custom_html-108
 pks.raenonx.cc##.w-full.info-section-opaque.fixed.bottom-0.z-nav
 nbblog.jp##div[class^="napbiz_ad"]
-/^https:\/\/javplayer\.org\/[0-9a-zA-Z]{5,7}\.js$/$script,~third-party
 itmedia.co.jp###TopLink
 diamond.jp##.kabunushiyutai-ir
 s-max.jp###extra div.plugin-memo + div.ad
