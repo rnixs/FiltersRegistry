@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: OiVW1mN6EaQ7KLEbuvBaRw
-! Diff-Path: ../patches/21/21-s-1704368237-3600.patch
+! Checksum: ZnqIt1lAQX2mOb1FXUBUHg
+! Diff-Path: ../patches/21/21-s-1704371931-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.37
-! TimeUpdated: 2024-01-04T11:32:13+00:00
+! Version: 2.0.18.38
+! TimeUpdated: 2024-01-04T12:32:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7317,6 +7317,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169542
+bishalghale.com.np##+js(nano-setInterval-booster, timer, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169882
 privatemoviez.*##+js(nano-setInterval-booster, count, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169605

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 7t9uIWiljE1HfNxBBJmDGA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704368237-3600.patch
+! Checksum: X9ZYIkGtcs4vnjrx+lbIkw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704371932-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.16.53
-! TimeUpdated: 2024-01-04T11:32:45+00:00
+! Version: 2.3.16.54
+! TimeUpdated: 2024-01-04T12:33:10+00:00
 ! Expires: 5 days (update frequency)
 ||dotercouther.uno^
 ||overlapparians.com^
@@ -9968,6 +9968,7 @@ xozilla.com##div[style="height: 220px !important; overflow: hidden;"]
 fapnow.xxx##.content center
 slideshare.net##.inbetween-overlay
 snipboard.io##.non-pro > .main-page-parent > div > .ad-container + .call-to-action
+linuxtuto.com,thepcenthusiast.com,boundingintocomics.com,pridesource.com,thehouseofportable.com###custom_html-13
 postimees.ee##.aside--ad
 ||spankbang.com/official/serve_
 spankbang.com##.video-list-with-ads > div.video-item[data-id="0"]
@@ -18766,6 +18767,7 @@ _800x80_
 ##[data-rc-widget]
 ##[data-revive-zoneid]
 ##[data-role="tile-ads-module"]
+##[data-testid="adBanner-wrapper"]
 ##[data-testid="ad_testID"]
 ##[data-type="ad-vertical"]
 ##[href^="https://ad.admitad.com/"]

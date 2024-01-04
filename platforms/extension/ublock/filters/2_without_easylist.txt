@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: jVNDQ7sYOTb0fZjbzMC9Yw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704368238-3600.patch
+! Checksum: Q2obrqzFMsrXnFRgovnGTA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704371933-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.16.53
-! TimeUpdated: 2024-01-04T11:32:45+00:00
+! Version: 2.3.16.54
+! TimeUpdated: 2024-01-04T12:33:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -35279,7 +35279,7 @@ collectiveray.com##div[data-id="3"]
 matureporn.com##.b-spot-section
 slideshare.net##.inbetween-overlay
 snipboard.io##.non-pro > .main-page-parent > div > .ad-container + .call-to-action
-thepcenthusiast.com,boundingintocomics.com,pridesource.com,thehouseofportable.com###custom_html-13
+linuxtuto.com,thepcenthusiast.com,boundingintocomics.com,pridesource.com,thehouseofportable.com###custom_html-13
 thehouseofportable.com##a[href^="https://billing.purevpn.com/aff.php?"]
 porno247.net###spot-player
 porno247.net##.top-spot
@@ -54766,6 +54766,7 @@ implbits.com#@#.banner_container
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169542 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169404 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169441 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168999 [Stealth Mode - IP hiding]

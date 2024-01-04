@@ -1,9 +1,9 @@
-! Checksum: rhc0iH/ncownE7+h0ewRLQ
-! Diff-Path: ../patches/3/3-s-1704360949-3600.patch
+! Checksum: v7zPKnEvfDZNpGXdEBcAsw
+! Diff-Path: ../patches/3/3-s-1704371802-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.24
-! TimeUpdated: 2024-01-04T09:32:59+00:00
+! Version: 2.0.65.25
+! TimeUpdated: 2024-01-04T12:33:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -149,10 +149,6 @@ itmedia.co.jp#$##ulCommentWidget[style*="display"] { display: block !important; 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136436
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134220
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131034
-! This rule is for suppressing Google Topics.
-! Read more about it here:
-! https://developer.chrome.com/docs/privacy-sandbox/topics/
-! TODO: replace with the 'no-topics' scriptlet later: https://github.com/AdguardTeam/Scriptlets/issues/214
 ! https://github.com/AdguardTeam/AdguardFilters/pull/133054
 ! https://github.com/AdguardTeam/AdguardFilters/pull/130514
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132024
@@ -228,6 +224,24 @@ itmedia.co.jp#$##ulCommentWidget[style*="display"] { display: block !important; 
 ! Fixing http://forum.adguard.com/showthread.php?1437
 ! Fixing apteka.ru map
 ! https://forum.adguard.com/index.php?threads/resolved-accountkiller-com.16162/
+!
+! Start: Rules for Google "Privacy" Sandbox
+!
+! Suppressing Google's Topics API:
+! https://developers.google.com/privacy-sandbox/relevance/topics
+!
+! Suppressing Google's "Protected" Audience API:
+! https://wicg.github.io/turtledove/
+! TODO: Add a scriptlet: https://github.com/AdguardTeam/Scriptlets/issues/395
+!
+! Suppressing both Google's Topics API and Topics API using Permissions policy
+! Works in CoreLibs-based AdGuard versions, the browser extension waits for https://github.com/AdguardTeam/tsurlfilter/issues/66
+! AGLint temporarily disabled for this rule due to https://github.com/AdguardTeam/AGLint/issues/191
+! TODO: Enable it back when AGLint is fixed.
+! aglint-disable-next-line
+!
+! End: Rules for Google "Privacy" Sandbox
+!
 !-------------------
 !-------CSS---------
 !
