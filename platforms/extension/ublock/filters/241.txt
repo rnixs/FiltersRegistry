@@ -1,15 +1,15 @@
 ![Adblock Plus 2.0]
-! Checksum: weg/Vi37h46fjdGQ4eNFdQ
-! Diff-Path: ../patches/241/241-s-1704344799-14400.patch
+! Checksum: v4AZBRy9Fvi+D8BCVJDnMQ
+! Diff-Path: ../patches/241/241-s-1704373612-14400.patch
 ! Title: EasyList Cookie List
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.26.97
-! TimeUpdated: 2024-01-04T05:02:50+00:00
+! Version: 2.1.26.98
+! TimeUpdated: 2024-01-04T13:02:48+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: phgb0X/nJ+0bPtt3OWNTRQ
+! Checksum: dTDpim5RVpaU4DvCkO00aA
 ! Title: Easylist Cookie List
-! Updated: 2024-01-04 05:00 UTC
+! Updated: 2024-01-04 13:00 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -18536,7 +18536,7 @@
 ||wpcc.io^$third-party
 ||x-c.eu^$third-party
 ! privacy-mgmt.com
-||cdn.privacy-mgmt.com^$domain=anisearch.com|anisearch.de|anisearch.es|anisearch.fr|anisearch.it|anisearch.jp|idealo.co.uk|marketwatch.com|taz.de|wsj.com
+||cdn.privacy-mgmt.com^$domain=anisearch.com|anisearch.de|anisearch.es|anisearch.fr|anisearch.it|anisearch.jp|consent-manager.ft.com|idealo.co.uk|marketwatch.com|taz.de|wsj.com
 ! Consent Trackers
 ||opencmp.net^$script,third-party
 !--------------------------Specific blocking filters--------------------------!
@@ -22633,6 +22633,10 @@ tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-necessary, yes)
 tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-markkinointi, no)
 tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-tilastointi, no)
 tampereenratikka.fi##+js(set-cookie, viewed_cookie_policy, no)
+onnibus.com##+js(set-cookie, functionalCookies, true)
+onnibus.com##+js(set-cookie, contentPersonalisationCookies, false)
+onnibus.com##+js(set-cookie, marketingCookies, false)
+onnibus.com##+js(set-cookie, statisticalCookies, false)
 ! set-local-storage-item
 omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-other, false)
 omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-seen, true)
@@ -24951,6 +24955,11 @@ flip.bg#$#.modal-open { overflow: auto !important; }
 ! 50plusmatch.fi
 50plusmatch.fi#$#.compensate-for-scrollbar { margin-right: 0 !important }
 50plusmatch.fi##.fancybox-container:has(a[onclick="document.getElementById('privacy_more').style.display='block';"])
+! kymppikatsastus.fi (necessary and functional for chat)
+kymppikatsastus.fi##+js(set-cookie, cookielawinfo-checkbox-necessary, yes)
+kymppikatsastus.fi##+js(set-cookie, cookielawinfo-checkbox-toiminnalliset-evasteet, yes)
+kymppikatsastus.fi##+js(set-cookie, cookielawinfo-checkbox-analytics, no)
+kymppikatsastus.fi##+js(set-cookie, viewed_cookie_policy, yes)
 !------------------------Specific ABP/uBO rules ------------------------!
 ! ABP-specific fixes
 !------------------------Rules for international sites------------------------!
@@ -25291,6 +25300,7 @@ deutschlandticket.de##.ghoviH
 siegelklarheit.de##.glasspane
 dreissigacker-wein.de##.global-background
 nebenan.de##.goodhood-components__nANBU
+services.gov.gr##.govgr-cookie-banner
 galaxus.de##.gzlDA-D
 elisabethenquelle.de,vita-cola.de##.hc-notice
 forum-ddr-grenze.de##.headeroverlay
@@ -27864,6 +27874,7 @@ ants.vn##.sg-popup-content
 ||jeu.video^*/partners.js
 ||privacy.footmercato.net^
 ||ratp.fr/modules/custom/ratp_tarteaucitron/
+||static.lefigaro.fr/figconsent/
 ||thesiteoueb.net/js/cm-head.js
 ||vape-phone.fr/bundles/webtoolcore/js/newCookieChoice.js
 ||var.uicdn.net/shopsshort/privacy/v1/bundle.
@@ -28399,7 +28410,7 @@ educationconnection.com#@#div.ccpa-message
 legifrance.gouv.fr#@#div.cnil
 baden-wuerttemberg.de,calameo.com#@#div.cookie-alert
 autohaus24.de,cera.coop,channel4.com,intersport.de#@#div.cookie-banner
-epochtimes.it,stilord.com,stilord.de,stilord.fr,stilord.pl#@#div.cookie-bar
+epochtimes.it,onnibus.com,stilord.com,stilord.de,stilord.fr,stilord.pl#@#div.cookie-bar
 dovoba.de,forcetools-kepmar.eu,moreincommon.de#@#div.cookie-consent
 sevdesk.de#@#div.cookie-consent-modal
 ieatfoodtours.co.uk,onceinrome.com,weliketuscany.it#@#div.cookie-consent-popup

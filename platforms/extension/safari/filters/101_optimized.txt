@@ -1,9 +1,9 @@
-! Checksum: YwKWo0FHYnPBG6j14jxByQ
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1704344791-14400.patch
+! Checksum: 4YguZSykrZECKXIFlzeEMA
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1704373599-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.18.68
-! TimeUpdated: 2024-01-04T05:01:32+00:00
+! Version: 2.1.18.69
+! TimeUpdated: 2024-01-04T13:01:30+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -8980,6 +8980,7 @@ _800x80_
 ##[data-rc-widget]
 ##[data-revive-zoneid]
 ##[data-role="tile-ads-module"]
+##[data-testid="adBanner-wrapper"]
 ##[data-testid="ad_testID"]
 ##[data-type="ad-vertical"]
 ##[data-wpas-zoneid]
@@ -9234,6 +9235,7 @@ _800x80_
 ##a[href^="https://www.nutaku.net/signup/landing/"]
 ##a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
 ##ad-shield-ads
+##ad-slot
 ##app-ad
 ##app-advertisement
 ##ark-top-ad
@@ -10820,6 +10822,7 @@ browsershots.org#@#.advert_area
 ||alitems.site^
 ||alivecheery.com^
 ||alivedriftcommandment.com^
+||aliwjo.com^
 ||alklinker.com^
 ||all-ti-cod.com^
 ||all2cnjuh34jb.com^
@@ -11090,6 +11093,7 @@ browsershots.org#@#.advert_area
 ||apptechnewz.com^
 ||apptjmp.com^
 ||appwoolfeatures.com^
+||appyrincene.com^
 ||appzery.com^
 ||appzeyland.com^
 ||aprilineffective.com^
@@ -11584,6 +11588,7 @@ browsershots.org#@#.advert_area
 ||bassengravefascinated.com^
 ||bassoonavatara.com^
 ||bastardminims.com^
+||batangam.digital^
 ||batataslavify.guru^
 ||batcrack.icu^
 ||batedisqualify.com^
@@ -13077,6 +13082,7 @@ browsershots.org#@#.advert_area
 ||crcgrilses.com^
 ||crdefault.link^
 ||crdefault1.com^
+||crdkibrwkiua.com^
 ||creamssicsite.com^
 ||createsgummous.com^
 ||creative-bars1.com^
@@ -13986,6 +13992,7 @@ browsershots.org#@#.advert_area
 ||eagletskoku.com^
 ||eaglingauslaut.com^
 ||eajpryc.com^
+||eajqezprowiuy.com^
 ||eakelandorders.org^
 ||ealeo.com^
 ||eanlingtumfie.com^
@@ -14573,7 +14580,6 @@ browsershots.org#@#.advert_area
 ||falcatayamalka.com^
 ||falkag.net^
 ||falkwo.com^
-||fallaciousfifth.com^
 ||fallingseveral.com^
 ||fallinsolence.com^
 ||falloutmariasauce.com^
@@ -15718,6 +15724,7 @@ browsershots.org#@#.advert_area
 ||gwfcpecnwwtgn.xyz^
 ||gwjdaazribz.com^
 ||gwvjcrtucd.com^
+||gxcvxdeda.com^
 ||gxgu9gktreso.com^
 ||gxikmksjuz.com^
 ||gxmlkgraj.com^
@@ -15811,6 +15818,7 @@ browsershots.org#@#.advert_area
 ||hats-47b.com^
 ||hatwasallokmv.info^
 ||hauchiwu.com^
+||haukrgukep.org^
 ||haulstugging.com^
 ||haunchbelongings.com^
 ||haunigre.net^
@@ -16147,6 +16155,7 @@ browsershots.org#@#.advert_area
 ||hrahdmon.com^
 ||hrhufhhay.com^
 ||hriahotcake.com^
+||hrnhmral.com^
 ||hrrlyfdnxlzxe.com^
 ||hrscouchoutbreak.com^
 ||hrtennaarn.com^
@@ -17588,6 +17597,7 @@ browsershots.org#@#.advert_area
 ||livestockfeaturenecessary.com^
 ||livestormy.com^
 ||livezombymil.com^
+||livid-inspector.com^
 ||livrfufzios.com^
 ||liwnffsxdhn.com^
 ||lixnirokjqp.com^
@@ -20273,6 +20283,7 @@ browsershots.org#@#.advert_area
 ||presidentialprism.com^
 ||presidentialtumble.com^
 ||presideproreassure.com^
+||prespurmaness.com^
 ||pressize.com^
 ||pressyour.com^
 ||prestigefunction.com^
@@ -20699,6 +20710,7 @@ browsershots.org#@#.advert_area
 ||qdotzfy.com^
 ||qdxzpcytii.com^
 ||qe0ckm024b.com^
+||qedeczzdt.com^
 ||qelqlunebz.com^
 ||qemyetwxfcwhtyy.com^
 ||qfisatztut.com^
@@ -20815,6 +20827,7 @@ browsershots.org#@#.advert_area
 ||qxgbgixnzcoen.com^
 ||qxiabfmmtjhyv.com^
 ||qxycdoexyj.com^
+||qylgfuikc.com^
 ||qymdcuco.com^
 ||qynqvkkmbzvkk.top^
 ||qzdmvwewzxzzze.com^
@@ -21526,6 +21539,7 @@ browsershots.org#@#.advert_area
 ||runningdestructioncleanliness.com^
 ||runsclothingpig.com^
 ||runwaff.com^
+||ruozukk.xyz^
 ||rural-patience.com^
 ||rural-report.pro^
 ||rusenov.com^
@@ -21966,7 +21980,6 @@ browsershots.org#@#.advert_area
 ||shippingswimsuitflog.com^
 ||shipsmotorw.xyz^
 ||shitcustody.com^
-||shiverscissors.com^
 ||shoaltor.com^
 ||shockadviceinsult.com^
 ||shockingstrategynovelty.com^
@@ -24628,6 +24641,7 @@ browsershots.org#@#.advert_area
 ||wizardmarndl.com^
 ||wizardunstablecommissioner.com^
 ||wizkrdxivl.com^
+||wkoeoaavammkr.top^
 ||wkpfgjbmd.com^
 ||wl-cornholio.com^
 ||wlafx4trk.com^
@@ -25202,6 +25216,7 @@ browsershots.org#@#.advert_area
 ||zjyeblzkajwba.top^
 ||zkcvb.com^
 ||zkczzltlhp6y.com^
+||zkxggrwzswhpgn.com^
 ||zlbvewof.com^
 ||zlink2.com^
 ||zlink6.com^
@@ -25760,7 +25775,6 @@ browsershots.org#@#.advert_area
 ||webshark.pl^$third-party
 ||webtrafic.ru^$third-party
 ||whizzco.com^$third-party
-||widget.packeta.com^$third-party
 ||wwads.cn^$third-party
 ||yieldlove.com^$third-party
 ||yieldmo.com^$third-party
@@ -28606,6 +28620,7 @@ metric-conversions.org##.exists
 proprivacy.com##.exit-popup.modal-background
 appuals.com##.expu-protipeop
 appuals.com##.expu-protipmiddle_2
+chorus.fm##.f-soc
 formula1.com##.f1-dfp-banner-wrapper
 freeads.co.uk##.fa_box_m
 tvtropes.org##.fad
@@ -28627,7 +28642,7 @@ whatismyipaddress.com##.fl-module-wipa-concerns
 whatismyipaddress.com##.fl-photo
 libhunt.com##.flex.mt-5.boxed
 klmanga.net,shareae.com##.float-ck
-news4jax.com##.floatingWrapper
+click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.floatingWrapper
 thehindu.com##.flooting-ad
 momjunction.com,stylecraze.com##.flying-carpet-wrapper
 advocate.com,emergencyemail.org,out.com##.footer
@@ -30031,6 +30046,7 @@ ldoceonline.com###rightslot2-container
 tweaktown.com##.adcon
 tweaktown.com##.center-tag-rightad
 rawstory.com##.connatix-hodler
+boatsonline.com.au,yachthub.com##.js-sticky
 mail.google.com##a[href^="http://li.blogtrottr.com/click?"]
 geekzone.co.nz##div.cornered.box > center
 yandex.com##div[id^="yandex_ad"]

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TX/Dr/9uh8vMKZ28KPb3uA
-! Diff-Path: ../patches/251_optimized/251_optimized-s-1703912766-14400.patch
+! Checksum: TJMRX97W59LlDqJh02PC/w
+! Diff-Path: ../patches/251_optimized/251_optimized-s-1704373613-14400.patch
 ! Title: Legitimate URL Shortener (Optimized)
 ! Description: Automatically removes unnecessary '$' and '&' values from URLs, making them easier to copy from the URL bar and pasting elsewhere as links.
-! Version: 2.0.7.20
-! TimeUpdated: 2023-12-30T05:02:48+00:00
+! Version: 2.0.7.21
+! TimeUpdated: 2024-01-04T13:03:05+00:00
 ! Expires: 5 days (update frequency)
 $removeparam=yclid
 $removeparam=gclid
@@ -2506,8 +2506,8 @@ $document,removeparam=sal,domain=indeed.com
 $document,removeparam=vjk,domain=indeed.com
 $document,removeparam=fvj,domain=indeed.com
 ||bp.blogspot.com^$removeparam=/^r[hn].*$/
-$removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
-$removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
+$removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
+$removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
 $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
 ||ikea.com/*/images/products^$removeparam=f

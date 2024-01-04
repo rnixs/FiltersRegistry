@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BJIaDGJhvwNk95NCCVOVZw
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1704344800-14400.patch
+! Checksum: frYx8YbOTIpMrzfgPFG3rQ
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704373613-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.87
-! TimeUpdated: 2024-01-03T17:03:03+00:00
+! Version: 2.0.12.88
+! TimeUpdated: 2024-01-04T13:03:04+00:00
 ! Expires: 5 days (update frequency)
 ###smart-banner
 ###smartbanner
@@ -2746,8 +2746,8 @@ $document,removeparam=sal,domain=indeed.com
 $document,removeparam=vjk,domain=indeed.com
 $document,removeparam=fvj,domain=indeed.com
 ||bp.blogspot.com^$removeparam=/^r[hn].*$/
-$removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
-$removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
+$removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
+$removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
 $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
 ||ikea.com/*/images/products^$removeparam=f
