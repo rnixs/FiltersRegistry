@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Ql6jHFrndroleLWNJNKjmg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704397023-3600.patch
+! Checksum: EQCyQcY9wsCm6SglS1Nzhg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704404160-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.16.60
-! TimeUpdated: 2024-01-04T19:33:52+00:00
+! Version: 2.3.16.61
+! TimeUpdated: 2024-01-04T21:32:45+00:00
 ! Expires: 5 days (update frequency)
 ||dotercouther.uno^
 ||overlapparians.com^
@@ -8954,6 +8954,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||olalivehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+paste.fo##fuck_you + * > a img
 multirbl.valli.org###lo-ads
 ||multirbl.valli.org/images/hetrixtools-ad-banner.gif
 wsls.com##.floatingWrapper
@@ -19402,6 +19403,7 @@ browsershots.org#@#.advert_area
 ||3lift.com^
 ||3mhg.site^
 ||3myad.com^
+||3xbrh4rxsvbl.top^
 ||4087aa0dc1.com^
 ||43t53c9e.de^
 ||44ffd27303.com^
@@ -27732,6 +27734,7 @@ browsershots.org#@#.advert_area
 ||1ts17.top^$popup
 ||23.109.82.222^$popup
 ||24click.top^$popup
+||3xbrh4rxsvbl.top^$popup
 ||activate-game.com^$popup
 ||adfpoint.com^$popup
 ||admitad.com^$popup
