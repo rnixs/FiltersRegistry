@@ -1,9 +1,9 @@
-! Checksum: JznblbCA3sffBJ/u0WlwSQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704342957-3600.patch
+! Checksum: 4pIBwv0eIQnfXWph9p8uog
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704350177-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.16.47
-! TimeUpdated: 2024-01-04T04:32:47+00:00
+! Version: 2.3.16.48
+! TimeUpdated: 2024-01-04T06:33:01+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -35464,7 +35464,6 @@ browsershots.org#@#.advert_area
 ||weborama.fr^$third-party
 ||webshark.pl^$third-party
 ||whizzco.com^$third-party
-||widget.packeta.com^$third-party
 ||wwads.cn^$third-party
 ||yieldlove.com^$third-party
 ||yieldmo.com^$third-party
@@ -37320,7 +37319,7 @@ khaleejtimes.com##.fix-mpu-nf
 whatismyipaddress.com##.fl-module-wipa-concerns
 whatismyipaddress.com##.fl-photo
 klmanga.net,shareae.com##.float-ck
-news4jax.com##.floatingWrapper
+click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.floatingWrapper
 thehindu.com##.flooting-ad
 momjunction.com,stylecraze.com##.flying-carpet-wrapper
 advocate.com,emergencyemail.org,out.com##.footer
