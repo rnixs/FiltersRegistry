@@ -1,9 +1,9 @@
-! Checksum: 9oLIb7apUnTkNRNuRPAIWQ
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1704373568-14400.patch
+! Checksum: 7FD3VDBxsGYViLJLA6KNHQ
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704416761-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.88
-! TimeUpdated: 2024-01-04T13:03:04+00:00
+! Version: 2.0.12.89
+! TimeUpdated: 2024-01-05T01:03:07+00:00
 ! Expires: 5 days (update frequency)
 ###smart-banner
 ###smartbanner
@@ -64,6 +64,8 @@ bfmtv.com###android_banner
 .smartbanner.js
 /js/smartbanner.
 /smart-app-banner.
+fandom.com##.global-footer__section-fandom-apps
+fandom.com##.global-footer__section-fandom-stores
 no#$#html.smartbanner-show[data-paywall] { margin-top: 0 !important }
 ##a[href*=".app.link/"]
 .SmartMessage.$script,domain=weather.com
@@ -669,6 +671,7 @@ fandom.com##.openweb-slot
 fandom.com##[data-testid=QuizBanner]
 fandom.com###quiz_module_desktop_link_styles
 fandom.com##section[class^=trfc]
+fandom.com##.global-footer__section-advertise
 ##.SnowFlakesBg:not(html, body)
 /particles.min.js^
 /images/event/*_christmas/bg_menu_*.gif^

@@ -1,9 +1,9 @@
-! Checksum: uyjqXy1n/wGtuwiSiYGvdg
-! Diff-Path: ../patches/104_optimized/104_optimized-s-1704387996-14400.patch
+! Checksum: DdxVgvgVk/wDbCrSDZM2Xg
+! Diff-Path: ../patches/104_optimized/104_optimized-s-1704416792-14400.patch
 ! Title: EasyList China (Optimized)
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.33.53
-! TimeUpdated: 2024-01-04T17:01:42+00:00
+! Version: 2.1.33.54
+! TimeUpdated: 2024-01-05T01:01:40+00:00
 ! Expires: 5 days (update frequency)
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
@@ -776,6 +776,7 @@ newduba.cn###jq_youxi
 ##img[src$=".gif"][style="width:100%;max-width: 960px;height:45px;margin-bottom:2px;"]
 ##script + #coupletBox
 ##script + #rbbox
+##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ##script + div[id^="a-loading-"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
@@ -2052,6 +2053,14 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||baxbyfn.cn^
+||vnvyhj.xyz^
+||kpyerxzn.xyz^
+||sakguz.icu^
+||wvyqks.xyz^
+||avvfjhg.xyz^
+||szmkr.cn^
+||sd2ua.icu^
 ||zzyy19.top^
 ||zzyy20.top^
 ##a[href*=".337771.xyz"]
@@ -6306,6 +6315,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zt2088.com^
 ||ztyumn.ifeng.com^
 ||zzzyk.com/js/
+||mddcloud.*/oweApi/ad/
+hqyman.cn##a[href="https://hqyman.cn/taobao/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 21yq.com###AD1
@@ -8854,6 +8865,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||939394.xyz^$generichide
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
+@@||pkstep.com^$generichide
 @@||abchina.com^*ad
 @@||aboluowang.com^$generichide
 @@||ad.10010.com^

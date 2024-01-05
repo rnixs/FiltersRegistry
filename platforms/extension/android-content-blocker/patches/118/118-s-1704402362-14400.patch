@@ -1,0 +1,955 @@
+d1 2
+a2 2
+! Checksum: xNrc6i6lT2voGiDq3gRBtQ
+! Diff-Path: ../patches/118/118-s-1704416758-14400.patch
+d5 2
+a6 2
+! Version: 2.1.20.8
+! TimeUpdated: 2024-01-05T01:01:52+00:00
+d9 1
+a9 1
+! OriginalVersion: 202401050048
+d11 1
+a11 1
+! Last modified: 05 Jan 2024 00:48 UTC
+d14343 1
+d14407 54
+a14577 136
+! #if ext_abp
+! Specific filters necessary for sites allowlisting with $genericblock filter option
+/__utm.gif$domain=autobild.de|quoka.de|tellows.de|transfermarkt.de
+/csi?v=*&action=$domain=tellows.de
+/nm_trck.gif?$domain=spiegel.de
+/pic.gif?m=$domain=autobild.de
+||3gl.net^$domain=stern.de
+||babator.com^$domain=focus.de
+||bluekai.com^$domain=disqus.com|widgets.outbrain.com
+||chartbeat.com^$domain=stern.de
+||contentexchange.me^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||contentspread.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||cpx.to^$domain=quoka.de
+||criteo.com^$domain=spiegel.de
+||cxense.com^$domain=focus.de
+||disqus.com/api/ping?$domain=autobild.de
+||dnn506yrbagrg.cloudfront.net^$domain=quoka.de
+||ds-aksb-a.akamaihd.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||emetriq.de^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de|stern.de|transfermarkt.de
+||exactag.com^$domain=quoka.de
+||exelator.com^$domain=disqus.com
+||facebook.com*/impression.php$domain=autobild.de|focus.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
+||facebook.com/common/scribe_endpoint.php$domain=transfermarkt.de
+||facebook.com/tr/?$domain=metal-hammer.de|musikexpress.de|rollingstone.de
+||google-analytics.com/analytics.js$domain=kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|rollingstone.de|sat1.de|sixx.de|spiegel.de|stern.de
+||google-analytics.com/collect$domain=stern.de
+||googleapis.com^*/gen_204?$domain=tellows.de
+||googletagmanager.com/gtm.js?$domain=autobild.de|transfermarkt.de
+||hotjar.com^$domain=quoka.de
+||hpr.outbrain.com^$domain=focus.de
+||imrworldwide.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||ioam.de/?$domain=autobild.de|focus.de|spiegel.de|stern.de|tellows.de|transfermarkt.de
+||ioam.de/tx.io?$domain=autobild.de|focus.de|kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|rollingstone.de|sat1.de|sixx.de|spiegel.de|stern.de|tellows.de|transfermarkt.de
+||irqs.ioam.de^$domain=metal-hammer.de|musikexpress.de|rollingstone.de
+||log.outbrain.com^$domain=autobild.de|focus.de|metal-hammer.de|musikexpress.de|rollingstone.de|widgets.outbrain.com
+||meetrics.net^$domain=spiegel.de|stern.de
+||metrics.brightcove.com^$domain=stern.de
+||mxcdn.net^$domain=spiegel.de|stern.de
+||nuggad.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de|transfermarkt.de
+||optimizely.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||pingdom.net^$domain=musikexpress.de
+||pippio.com^$domain=disqus.com
+||referrer.disqus.com^$domain=autobild.de
+||rlcdn.com^$domain=autobild.de|widgets.outbrain.com
+||rqtrk.eu^$domain=stern.de
+||semasio.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||static.parsely.com^$domain=spiegel.de
+||tealiumiq.com^$domain=autobild.de|metal-hammer.de|musikexpress.de|transfermarkt.de
+||theadex.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de
+||tisoomi-services.com^$domain=metal-hammer.de|musikexpress.de
+||visualrevenue.com^$domain=autobild.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de
+||webtrekk.net^$domain=kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|ran.de|rollingstone.de|sat1.de|sixx.de
+||wt-eu02.net^$domain=stern.de
+||wt-safetag.com^$domain=stern.de
+||xplosion.de^$domain=spiegel.de|stern.de
+!
+! easyprivacy_specific_international.txt
+! Specific blocking filters necessary for sites allowlisting with $genericblock filter option
+! Gamestar.de
+/ping.gif?$domain=gamestar.de
+||gamestar.de/_misc/tracking/$domain=gamestar.de
+||google-analytics.com/analytics.js$domain=gamestar.de
+||googletagmanager.com/gtm.js?$third-party,domain=gamestar.de
+||ioam.de/tx.io?$domain=gamestar.de
+||scorecardresearch.com^$domain=gamestar.de
+! Focus.de
+/pagedot.gif?$domain=focus.de
+||clicktale.net^$domain=focus.de
+||cloudfront.net/track?$domain=focus.de
+||emetriq.de^$domain=focus.de
+||googletagmanager.com^$domain=focus.de
+||ioam.de/tx.io?$domain=focus.de
+||krxd.net^$domain=focus.de
+||log.outbrain.com^$domain=focus.de
+||lp4.io^$domain=focus.de
+||optimizely.com^$domain=focus.de
+||scorecardresearch.com^$domain=outbrain.com
+||visualrevenue.com^$domain=focus.de
+||xplosion.de^$domain=focus.de
+! tvspielfilm.de
+||facebook.com/tr?$domain=tvspielfilm.de
+||googletagmanager.com/gtm.js?$domain=tvspielfilm.de
+||intelliad.de^$domain=tvspielfilm.de
+||ioam.de/?$domain=tvspielfilm.de
+||ioam.de/tx.io?$domain=tvspielfilm.de
+||vinsight.de^$domain=tvspielfilm.de
+! Prosieben
+||chartbeat.com^$domain=prosieben.at|prosieben.ch|prosieben.de
+||contentspread.net^$domain=prosieben.at|prosieben.ch|prosieben.de
+||google-analytics.com/analytics.js$domain=prosieben.at|prosieben.ch|prosieben.de
+||imrworldwide.com^$domain=prosieben.at|prosieben.ch|prosieben.de
+||movad.de/c.ount?$domain=prosieben.at|prosieben.ch|prosieben.de
+||nuggad.net^$domain=prosieben.at|prosieben.ch|prosieben.de
+||semasio.net^$domain=prosieben.at|prosieben.ch|prosieben.de
+||theadex.com^$domain=prosieben.at|prosieben.ch|prosieben.de
+||visualrevenue.com^$domain=prosieben.at|prosieben.ch|prosieben.de
+||webtrekk.net^$domain=prosieben.at|prosieben.ch|prosieben.de
+||xplosion.de^$domain=prosieben.at|prosieben.ch|prosieben.de
+! Wetter.com
+/__utm.gif?$domain=wetter.com
+/chartbeat.js$domain=wetter.com
+/piwik.$domain=wetter.com
+||ioam.de/tx.io?$domain=wetter.com
+||mouseflow.com^$domain=wetter.com
+||theadex.com^$domain=wetter.com
+||visualwebsiteoptimizer.com^$domain=wetter.com
+! Woxikon.de
+/__utm.gif$domain=woxikon.de
+||ioam.de/?$domain=woxikon.de
+||ioam.de/tx.io?$domain=woxikon.de
+! Fanfiktion.de
+||criteo.com^$domain=fanfiktion.de
+||google-analytics.com/analytics.js$domain=fanfiktion.de
+! boote-forum.de
+||google-analytics.com/analytics.js$domain=boote-forum.de
+! comunio.de
+||analytics.comunio.de^$domain=comunio.de
+||analytics.comunio.net^$domain=comunio.de
+||criteo.com^$domain=comunio.de
+||ioam.de/?$domain=comunio.de
+||ioam.de/tx.io?$domain=comunio.de
+||xplosion.de^$domain=comunio.de
+! planetsnow.de
+||google-analytics.com/analytics.js$domain=planetsnow.de
+||ioam.de/?$domain=planetsnow.de
+||ioam.de/tx.io?$domain=planetsnow.de
+||plista.com/iframeShowItem.php$domain=planetsnow.de
+||stroeerdigitalmedia.de^$domain=planetsnow.de
+! Notebookcheck.com
+||google-analytics.com/analytics.js$domain=notebookcheck.com
+||ioam.de/?$domain=notebookcheck.com
+||ioam.de/tx.io?$domain=notebookcheck.com
+! Gofeminin.de
+/__utm.gif?$domain=gofeminin.de
+||digidip.net^$domain=gofeminin.de
+! #endif
+a14709 1
+||a8-kouten.kouten.work^
+d14711 1
+a14715 1
+||a8.123.rheos.jp^
+a14716 1
+||a8.366vivi.com^
+a14719 5
+||a8.ahcswiss.com^
+||a8.air-snet.com^
+||a8.aliceandolivia.jp^
+||a8.ama-mail.jp^
+||a8.amairo-sky.com^
+a14720 1
+||a8.arrrt-shop.com^
+a14724 1
+||a8.bambi-craft.com^
+d14727 1
+a14727 1
+||a8.beerowle.com^
+a14728 1
+||a8.big-hikari.com^
+a14736 1
+||a8.brandkaimasu.com^
+a14739 1
+||a8.calmia-clinic.com^
+a14741 1
+||a8.careerpark.jp^
+a14749 1
+||a8.chuo-estate.net^
+a14754 1
+||a8.copyki-pr.com^
+a14766 1
+||a8.denwa-kaisen.jp^
+a14768 1
+||a8.doctorstretch.com^
+a14769 2
+||a8.drinco.jp^
+||a8.dstation.jp^
+a14770 1
+||a8.earth-shiho.com^
+a14774 1
+||a8.emestore.me^
+a14783 1
+||a8.exam-katekyo.com^
+a14784 3
+||a8.exwimax.jp^
+||a8.final-seo.jp^
+||a8.fishing-v.jp^
+a14785 1
+||a8.foods.petokoto.com^
+a14787 2
+||a8.fpo.bz^
+||a8.fracora.com^
+a14788 2
+||a8.freeengineer.btcagent.jp^
+||a8.ftcbeauty.com^
+a14797 1
+||a8.gtm.co.jp^
+a14799 1
+||a8.hagent.jp^
+d14810 1
+a14817 1
+||a8.i-staff.jp^
+a14818 1
+||a8.ihinnoseiriyasan.com^
+a14819 1
+||a8.ikkatsu.jp^
+a14820 1
+||a8.infinitussub.com^
+a14823 4
+||a8.joygirl.jp^
+||a8.joylab.jp^
+||a8.joyvack.com^
+||a8.jp.peacebird.com^
+a14826 1
+||a8.kateikyoushi.kuraveil.jp^
+a14829 1
+||a8.kinkaimasu.jp^
+a14831 1
+||a8.kireisalone.style^
+a14832 3
+||a8.kissmusic.net^
+||a8.kizuna-link.jp^
+||a8.kland.shop^
+a14835 1
+||a8.kougu-kaitoriyasan.com^
+a14837 1
+||a8.labiotte.jp^
+a14838 1
+||a8.lalala-clean.com^
+a14839 1
+||a8.lat-international.com^
+a14843 2
+||a8.liver-rhythm.jp^
+||a8.looom.jp^
+a14847 1
+||a8.maf.mentor-capital.jp^
+a14848 1
+||a8.mamacosme.co.jp^
+d14851 2
+a14852 2
+||a8.medireanetshopoi.com^
+||a8.migxl.com^
+d14863 1
+a14869 6
+||a8.netdego.jp^
+||a8.neur.jp^
+||a8.next-hikari.jp^
+||a8.nezumi-guard.com^
+||a8.nezumi-kanzentaiji.com^
+||a8.nitta-biolab.co.jp^
+a14871 1
+||a8.novicetokyo.com^
+a14878 1
+||a8.ones-ones.jp^
+d14883 1
+a14888 2
+||a8.pla-cole.wedding^
+||a8.pocket-m.jp^
+a14891 1
+||a8.projectee.online^
+a14893 1
+||a8.recmount-plus.com^
+a14904 1
+||a8.sakuramobile.jp^
+a14907 1
+||a8.schecon.com^
+a14913 1
+||a8.shinnihonjisyo.co.jp^
+d14917 1
+a14922 2
+||a8.shukatsu-note.com^
+||a8.sibody.tw^
+a14923 2
+||a8.skr-labo.jp^
+||a8.smart-onepage.com^
+a14928 2
+||a8.sp-hoken.net^
+||a8.speever.jp^
+d14932 1
+a14932 1
+||a8.store.aceservice.jp^
+a14936 1
+||a8.sumai-planet.com^
+a14937 1
+||a8.tabechoku.com^
+a14939 2
+||a8.taylormadegolf.jp^
+||a8.tcha-tcha-japan.com^
+a14940 1
+||a8.tecgate.jp^
+a14945 2
+||a8.themoonmilk.jp^
+||a8.thermostand.jp^
+a14946 2
+||a8.tideisturning.com^
+||a8.tokihana.net^
+a14954 2
+||a8.uchi-iwai.net^
+||a8.uchideno-kozuchi.com^
+a14957 1
+||a8.uzuz-college.jp^
+a14958 2
+||a8.vie-magique.com^
+||a8.vinew.jp^
+a14970 1
+||a8.willcloud.jp^
+a14972 4
+||a8.woodlife.jp^
+||a8.worldikids.com^
+||a8.ws.job.career-tasu.jp^
+||a8.www.keurig.jp^
+a14973 3
+||a8.www.nicosuma.com^
+||a8.www.retrospect.co.jp^
+||a8.www.seesaa.co.jp^
+a14974 1
+||a8.xn--google-873exa8m6161dbbyb.net^
+a14975 1
+||a8.yakumatch.com^
+a14977 1
+||a8.yellmall.jp^
+a14981 1
+||a8.zipan.jp^
+a14983 2
+||a803.xn--38jf6c4pa86a1dv833cexrb.com^
+||a8affiliate.liftup-turban.net^
+a14990 1
+||a8aspconv.xn--ipv6-yn4cxgwe959zqrkp58g.com^
+a14992 1
+||a8clic.alcosystem.co.jp^
+a14997 1
+||a8clk.292957.jp^
+a15010 1
+||a8clk.app.iioffice.net^
+a15020 1
+||a8clk.beauteq.jp^
+a15023 1
+||a8clk.birai-cm.com^
+a15024 1
+||a8clk.bizworkers.jp^
+d15026 1
+a15026 1
+||a8clk.bresmile.jp^
+a15028 1
+||a8clk.buyking.club^
+a15035 2
+||a8clk.cart.co-heart.com^
+||a8clk.cart.dr-vegefru.com^
+a15037 1
+||a8clk.cd.ecostorecom.jp^
+a15038 1
+||a8clk.chance.com^
+a15041 1
+||a8clk.chibakan-yachiyo.net^
+d15046 1
+a15046 1
+||a8clk.coreda.jp^
+a15051 1
+||a8clk.cv.dreamsv.jp^
+a15058 1
+||a8clk.cv.shop.resalon.co.jp^
+a15061 2
+||a8clk.cv.yanuk.jp^
+||a8clk.d.toyo-case.co.jp^
+a15066 1
+||a8clk.dr-40.com^
+a15068 1
+||a8clk.e-ninniku.jp^
+a15073 1
+||a8clk.es.akyrise.jp^
+a15075 1
+||a8clk.famm.us^
+a15079 2
+||a8clk.for-customer.com^
+||a8clk.form.coached.jp^
+a15089 1
+||a8clk.golf-kace.com^
+a15095 1
+||a8clk.hikarinobe.com^
+a15102 2
+||a8clk.inakakon.jp^
+||a8clk.info2.sunbridge.com^
+a15104 1
+||a8clk.jlp-shop.jp^
+a15108 1
+||a8clk.justfitoffice.com^
+d15112 1
+a15116 1
+||a8clk.kaitori.kind.co.jp^
+a15124 1
+||a8clk.label-seal-print.com^
+a15125 1
+||a8clk.laundry-out.jp^
+a15126 1
+||a8clk.libinc.jp^
+a15140 1
+||a8clk.mens-mr.jp^
+d15143 1
+d15147 1
+a15149 1
+||a8clk.moriichi-net.co.jp^
+a15155 2
+||a8clk.mypage.awesome-wash.com^
+||a8clk.nandemo-kimono.com^
+a15160 1
+||a8clk.nobirun.jp^
+a15162 1
+||a8clk.okamoto-homelife.com^
+a15163 1
+||a8clk.okuta.com^
+a15165 3
+||a8clk.only-story.jp^
+||a8clk.order-box.net^
+||a8clk.order.banana-wifi.com^
+a15166 1
+||a8clk.orders.bon-book.jp^
+a15174 2
+||a8clk.plusone.space^
+||a8clk.point-island.com^
+a15178 1
+||a8clk.purekon.jp^
+a15183 1
+||a8clk.rei-book.com^
+a15185 1
+||a8clk.resortbaito-dive.com^
+a15192 2
+||a8clk.shadoten.com^
+||a8clk.shareboss.net^
+a15196 1
+||a8clk.shop.echigofuton.jp^
+a15197 1
+||a8clk.shop.saraya.com^
+a15210 1
+||a8clk.sohbi-company.com^
+a15211 1
+||a8clk.speedcoaching.co.jp^
+a15217 1
+||a8clk.suguchoku.jp^
+a15222 1
+||a8clk.taisho-beauty.jp^
+d15229 1
+d15231 1
+a15234 1
+||a8clk.uchinotoypoo.jp^
+a15238 2
+||a8clk.uzu.team^
+||a8clk.videocash.tv^
+a15240 2
+||a8clk.web-camp.io^
+||a8clk.wedding.294p.com^
+a15256 1
+||a8clk.www.fitnessshop.jp^
+a15263 1
+||a8clk.www.khaki.jp^
+a15265 2
+||a8clk.www.oms.energy-itsol.com^
+||a8clk.www.rebo-success.co.jp^
+a15269 2
+||a8clk.www.workport.co.jp^
+||a8clk.www.xebiocard.co.jp^
+a15276 1
+||a8clk.yubisashi.com^
+a15281 2
+||a8clkcv.lognavi.com^
+||a8clkcv.tcb-beauty.net^
+a15286 1
+||a8cv.03plus.net^
+d15295 1
+a15296 2
+||a8cv.adornmonde.com^
+||a8cv.aff.life-110.com^
+a15298 1
+||a8cv.akapon.kanritools.com^
+a15303 1
+||a8cv.alvo.co.jp^
+a15307 1
+||a8cv.aplod.jp^
+d15314 1
+a15314 5
+||a8cv.b-e-l.jp^
+||a8cv.b-noix.jp^
+||a8cv.babybjorn.jp^
+||a8cv.baku-art.jp^
+||a8cv.balanslab.jp^
+a15318 1
+||a8cv.belion.jp^
+a15321 1
+||a8cv.beyondvape.jp^
+a15322 2
+||a8cv.biz-maps.com^
+||a8cv.bizcircle.jp^
+a15328 1
+||a8cv.bresmile.jp^
+a15330 1
+||a8cv.bugsfarm.jp^
+a15332 1
+||a8cv.c-hikari.biz^
+d15341 1
+a15341 1
+||a8cv.celav.net^
+a15342 2
+||a8cv.cellbic.net^
+||a8cv.chapobook.com^
+a15343 1
+||a8cv.chillaxy.jp^
+a15347 1
+||a8cv.cloudthome.com^
+a15352 3
+||a8cv.cosmo-water.net^
+||a8cv.cosmosfoods.jp^
+||a8cv.covermark.co.jp^
+a15356 1
+||a8cv.crefus.jp^
+a15358 1
+||a8cv.cv2308001.tanomelu.com^
+a15363 1
+||a8cv.deiba.jp^
+d15370 1
+a15370 1
+||a8cv.doctoryotsu.com^
+a15373 1
+||a8cv.dream-licence.jp^
+a15375 1
+||a8cv.drsoie.com^
+a15377 1
+||a8cv.duo.jp^
+a15378 1
+||a8cv.e-3x.jp^
+a15382 1
+||a8cv.ec.oliveunion.com^
+a15386 1
+||a8cv.eikajapan.com^
+a15389 2
+||a8cv.english-cc.com^
+||a8cv.english-village.net^
+a15392 1
+||a8cv.exrg-premium.shop^
+a15396 1
+||a8cv.fc-japan.biz^
+a15399 1
+||a8cv.focusneo.net^
+a15400 2
+||a8cv.folli.jp^
+||a8cv.follome.motaras.co.jp^
+a15403 1
+||a8cv.fp-life.design^
+a15404 1
+||a8cv.free-max.com^
+a15405 1
+||a8cv.freelance-start.com^
+a15407 1
+||a8cv.fundrop.jp^
+a15409 1
+||a8cv.gaiasign.co.jp^
+a15410 1
+||a8cv.gaikouexterior-partners.jp^
+a15416 1
+||a8cv.global-dive.jp^
+a15417 2
+||a8cv.glocalnet.jp^
+||a8cv.glow-clinic.com^
+a15418 1
+||a8cv.goqoo.me^
+a15423 1
+||a8cv.hanamaro.jp^
+a15424 1
+||a8cv.happy-bears.com^
+a15428 1
+||a8cv.hi-tailor.jp^
+a15431 1
+||a8cv.homepage296.com^
+a15432 1
+||a8cv.hoppin-garage.com^
+a15439 1
+||a8cv.ias.il24.net^
+a15440 1
+||a8cv.ieagent.jp^
+a15444 1
+||a8cv.inkan-takumi.com^
+a15455 1
+||a8cv.iy-net.jp^
+d15457 1
+a15457 1
+||a8cv.jbl-link.com^
+a15462 1
+||a8cv.joy-karaokerental.com^
+a15463 2
+||a8cv.jp.metrocityworld.com^
+||a8cv.jp.redodopower.com^
+a15464 1
+||a8cv.kabu-online.jp^
+a15465 1
+||a8cv.kaimonocart.com^
+a15466 1
+||a8cv.kaiteki.gr.jp^
+a15469 3
+||a8cv.kamurogi.net^
+||a8cv.karitoke.jp^
+||a8cv.kidsmoneyschool.net^
+a15471 2
+||a8cv.kk-orange.jp^
+||a8cv.kkmatsusho.jp^
+a15472 1
+||a8cv.kobe38.com^
+a15476 2
+||a8cv.kuzefuku-arcade.jp^
+||a8cv.kxn.co.jp^
+a15477 1
+||a8cv.l-meal.com^
+a15479 3
+||a8cv.lancers.jp^
+||a8cv.laviepre.co.jp^
+||a8cv.lc-jewel.jp^
+d15483 1
+a15483 1
+||a8cv.lianest.co.jp^
+a15484 1
+||a8cv.lp.x-house.co.jp^
+a15491 1
+||a8cv.mamarket.co.jp^
+a15492 1
+||a8cv.marumochiya.net^
+a15493 1
+||a8cv.mbb-inc.com^
+a15495 1
+||a8cv.memberpay.jp^
+d15498 1
+a15499 1
+||a8cv.mi-vision.co.jp^
+d15504 1
+d15507 1
+a15508 1
+||a8cv.mokumokumarket.com^
+a15517 2
+||a8cv.naturaltech.jp^
+||a8cv.naturebreath-store.com^
+a15518 3
+||a8cv.nd-clinic.net^
+||a8cv.netvisionacademy.com^
+||a8cv.next1-one.jp^
+a15522 3
+||a8cv.nikugatodoke.com^
+||a8cv.nippon-olive.co.jp^
+||a8cv.nipt-clinic.jp^
+a15528 1
+||a8cv.off-site.jp^
+a15530 1
+||a8cv.omakase-cyber-mimamori.net^
+a15531 1
+||a8cv.omobic.com^
+a15533 1
+||a8cv.online.aivil.jp^
+a15536 1
+||a8cv.onlinestore.xmobile.ne.jp^
+a15539 1
+||a8cv.orochoku.shop^
+a15543 4
+||a8cv.palms-gym.com^
+||a8cv.perrot.co^
+||a8cv.pf.classicmusic.tokyo^
+||a8cv.phonim.com^
+a15544 1
+||a8cv.physiqueframe.com^
+a15545 1
+||a8cv.pigeon-fw.com^
+a15549 1
+||a8cv.pre-sana.com^
+a15553 1
+||a8cv.quick-management.jp^
+a15554 1
+||a8cv.radi-cool.shop^
+a15557 2
+||a8cv.renoveru.jp^
+||a8cv.repairman.jp^
+a15562 1
+||a8cv.rmkrmk.com^
+a15563 1
+||a8cv.runteq.jp^
+d15565 1
+a15565 2
+||a8cv.sabusuta.jp^
+||a8cv.saitoma.com^
+a15567 1
+||a8cv.sankyo-fs.jp^
+a15568 1
+||a8cv.sarastear.com^
+a15570 1
+||a8cv.second-hand.jp^
+a15576 1
+||a8cv.shadoten.com^
+a15581 1
+||a8cv.shokubun.ec-design.co.jp^
+a15583 2
+||a8cv.shop.mintme.jp^
+||a8cv.shop.pixela.jp^
+d15585 1
+a15587 1
+||a8cv.sirusi.jp^
+a15588 2
+||a8cv.slp.partners-re.co.jp^
+||a8cv.smart-shikaku.com^
+a15590 1
+||a8cv.softbankhikari-collabo.net^
+a15592 5
+||a8cv.soyafarm.com^
+||a8cv.spalab-chintai.uk-corp.co.jp^
+||a8cv.spot-pj.com^
+||a8cv.staff-manzoku.co.jp^
+||a8cv.staffagent.co.jp^
+d15594 1
+a15601 1
+||a8cv.story365.co.jp^
+a15604 2
+||a8cv.studygear.evidus.com^
+||a8cv.success-idea.com^
+a15606 2
+||a8cv.surusuru.jp^
+||a8cv.suzaku.or.jp^
+a15610 1
+||a8cv.taclinic.jp^
+a15612 2
+||a8cv.taxi-qjin.com^
+||a8cv.techkidsschool.jp^
+a15613 2
+||a8cv.tenkuryo.jp^
+||a8cv.tenshinocart.com^
+a15618 1
+||a8cv.tokyo-dive.com^
+d15621 1
+a15621 4
+||a8cv.tomodachi-my.com^
+||a8cv.tomorrow-bright.jp^
+||a8cv.tonyuclub.com^
+||a8cv.toushi-up.com^
+a15622 3
+||a8cv.toysub.net^
+||a8cv.treasure-f.com^
+||a8cv.trext.tokyo^
+a15633 1
+||a8cv.waterserver.co.jp^
+a15635 2
+||a8cv.wellcrew.net^
+||a8cv.whynot.jp^
+a15636 3
+||a8cv.will-gocon.net^
+||a8cv.willfu.jp^
+||a8cv.winkle.online^
+a15640 1
+||a8cv.worx.jp^
+a15641 1
+||a8cv.www.bigability.co.jp^
+a15646 1
+||a8cv.www.mogecheck.jp^
+a15648 1
+||a8cv.www.sofastyle.jp^
+a15650 3
+||a8cv.xn--eckl3qmbc6976d2udy3ah35b.com^
+||a8cv.xn--hckxam3skb2412b1hxe.com^
+||a8cv.xn--hdks151yx96c.com^
+a15656 1
+||a8cv.yamatokouso.com^
+a15659 1
+||a8cv.yokoyamakaban.com^
+a15661 1
+||a8cv.yui.gift^
+a15665 1
+||a8cv.zoner.com^
+a15668 2
+||a8cvhoiku.kidsmate.jp^
+||a8cvtrack.sincere-garden.jp^
+a15670 2
+||a8dns.webcircle.co.jp^
+||a8hokuro.ike-sunshine.co.jp^
+a15671 2
+||a8itp.skinx-japan.com^
+||a8kotsujiko.ike-sunshine.co.jp^
+a15675 1
+||a8net.augustberg.jp^
+a15683 1
+||a8nikibi.ike-sunshine.co.jp^
+d15688 1
+a15688 1
+||a8tag.emprorm.com^
+a15694 1
+||a8track.www.pontely.com^
+a15698 1
+||a8trck.sibody.co.jp^
+d15700 1
+a15700 2
+||a8trck.worldone.to^
+||a8trck.ws.formzu.net^
+a15701 2
+||a8wakiga.ike-sunshine.co.jp^
+||a8wristcut.ike-sunshine.co.jp^
+a15702 2
+||ac.livelty.com^
+||acv.auhikari-norikae.com^
+a15703 1
+||acv.aun-company.com^
+a15704 1
+||acv.aun-softbank-hikari.com^
+a15707 2
+||acv.fletsntt.com^
+||acv.hikariocn.com^
+a15708 3
+||acv.internet-moushikomi.net^
+||acv.kyushu-internet.com^
+||acv.mc-doctor.net^
+a15712 2
+||acv.next-internet.info^
+||acv.nft-hikari.net^
+a15715 5
+||acv.xn--lck7b0fy49k9y1b.com^
+||ad-a8.www.zeiri4.com^
+||ad.belleeau.jp^
+||ad.e-dpe.jp^
+||ad.houkei-shinjuku.com^
+a15722 1
+||ada8-2.ampleur.jp^
+a15724 1
+||af.gmobile.biz^
+a15726 1
+||afep.pivn.shop^
+a15738 2
+||afi.biyou.web-marketing.ai^
+||afi.iino.life^
+a15739 1
+||afi.sougou.web-marketing.ai^
+a15740 1
+||aficv.finebase.jp^
+a15741 2
+||ahachi.dreamdenki.jp^
+||ai.kaishabaikyaku.com^
+a15742 2
+||approach.wise1-golf.com^
+||asp.glasspp119.jp^
+a15743 1
+||asp.taishokunext.com^
+a15745 4
+||cart.matsuzaka-steak.com^
+||click.techtree.jp^
+||clk.entry.surala.jp^
+||clk.glam-print.com^
+a15746 7
+||clk.liberty-e.com^
+||clk.wagon-hire.com^
+||clkcv.biglobehikari-kaisen.com^
+||contact.kdg-yobi.com^
+||cosme.caseepo.jp^
+||cp.cp.twendee.jp^
+||cv-match.sharebase.jp^
+a15747 5
+||cv.a-cial.com^
+||cv.a-hikkoshi.com^
+||cv.a-internet.jp^
+||cv.ag.cybersecurity-jp.com^
+||cv.agent-sana.com^
+a15748 1
+||cv.b2b.subscription-store.com^
+d15751 24
+a15774 4
+||cv.betrading.jp^
+||cv.bikoshaen.coiption-store.com^
+||cv.sumaho-hoken.jp^
+||cv.taskar.online^
+a15776 1
+||cv.tokyowork.jp^
+a15777 3
+||cv.virtualoffice-resonance.jp^
+||cv.web-sana.com^
+||cv.willbefit.jp^
+a15779 8
+||cv.www.risetokyo.jp^
+||cv.www.rokuzan.net^
+||cv.xn--bcktcvdzde3c.biz^
+||cv.xn--zbs202g.com^
+||cv.zephylrin-x.net^
+||cv1.start-eo.jp^
+||cv1.stefany.co.jp^
+||cvtk01.gmo-agree.com^
+a15780 1
+||electricity2.tokyu-ps.jp^
+d15782 1
+a15783 2
+||investment.lianest.co.jp^
+||itp.yaku-job.com^
+a15785 2
+||kikoe.aisei.co.jp^
+||kobetu.grand1corp.com^
+a15786 1
+||lp.kumamoto4510.com^
+a15787 2
+||nccaf.ncc-mens.com^
+||ntt-fletscv.ntt-flets.com^
+a15790 4
+||pages2.rizap.jp^
+||pr.yokohama-chokin.com^
+||rsv.dankore.jp^
+||rsv.pairorder.jp^
+a15791 2
+||sekaopi.nocre.jp^
+||sfcv.chinavi-shop.jp^
+a15792 3
+||shopping.cellpure.co.jp^
+||smn.dankore.jp^
+||sokutei.car2828.jp^
+a15796 1
+||sub.turningpoint.work^
+a15797 5
+||sync-a8.cocolocala.jp^
+||test.shigoto-web.com^
+||test.zeus-wifi.jp^
+||testa8wifi.dokoyorimo.com^
+||thanks.hubspaces.jp^
+a15801 2
+||track.kiafudousan.com^
+||track.xmarketech.com^
+a15802 3
+||tracking.lead-plus.jp^
+||traka8.crypto-mall.org^
+||trck-a8.j-depo.com^
+a15803 2
+||trck.atnenga.com^
+||trck.flexnet.co.jp^
+a15804 1
+||trck.kenkiya.com^
+a15805 2
+||trck.nuwlnuwl.com^
+||trck.propo.co.jp^
+a15810 2
+||trcka8net.bestlens.jp^
+||trcka8net.glens.jp^
+a15813 2
+||web.air-entry.com^
+||web.collaboration-access.com^
+a15814 1
+||web.hikari-ocn.com^
+a15818 1
+||yoiku-sub.yoiku.support^
+d31371 78

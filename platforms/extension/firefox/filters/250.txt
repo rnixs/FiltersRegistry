@@ -1,9 +1,9 @@
-! Checksum: iP91oCSVGf72C7jq8HBj7Q
-! Diff-Path: ../patches/250/250-s-1704373591-14400.patch
+! Checksum: YXhGh87KK2YXWrKnZXS5mQ
+! Diff-Path: ../patches/250/250-s-1704416776-14400.patch
 ! Title: Dandelion Sprout's Annoyances List
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.88
-! TimeUpdated: 2024-01-04T13:03:04+00:00
+! Version: 2.0.12.89
+! TimeUpdated: 2024-01-05T01:03:07+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: ⚙️ Dandelion Sprout's Annoyances List
@@ -13,7 +13,7 @@
 ! What this broad compilation blocks in AdGuard and uBO (from top to bottom): Mobile app download banners, highly untrustworthy TLDs (and their Google results), domains that major tech groups lost the ownership of, PC "optimiser" sponsorships, malicious or tracker-inserting adblockers, auto-generated Android root "guides" that will brick your phone, "Share page" buttons, "Download [browser/Acrobat]" buttons, unnecessary login prompts, blurring of article previews, fake notification counters, empty padding (esp. on macOS), gradients when moving your mouse on video embeds, extra dumb comment sections, prayer time clocks on newssites, webstore "coupon" aggregator listings that are not coupons, large subscription promo banners, general annoyances on Dailymotion/Wikia, falling snow on pages, URL parameters believed to be unnecessary or trackers, custom embedded cursors, softens and modernises Japanese fonts on Windows, spacewasting pagelist entries, the "Anonymous animal" bubbles on Google Docs, external IMDB rating embeds, opt-out autoplay on video sites
 ! What this broad compilation does not block: Newsletters, cookie banners, social media links to company pages
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
-! OriginalVersion: 13November2023v2
+! OriginalVersion: 05January2024v1
 ! Title: 📱 Staying On The Phone Browser
 ! Expires: 10 days
 ! Description: Created as a proof of concept, and for the benefit of people who really like their phone's web browsers and who are less keen on using various apps.
@@ -427,6 +427,8 @@ valdemarsro.dk##.promobar-container
 /smart-app-banner.
 /smartbanner/appbanner.js
 /wp-content/plugins/ioimedia-app-banner/*
+fandom.com##.global-footer__section-fandom-apps
+fandom.com##.global-footer__section-fandom-stores
 ||2app.lk^$third-party
 ||anistar.ru/templates/*/images/android-app-on-google-play.png^
 ||assets.ilcdn.fi/IL_Parassaa_612px.gif^$image
@@ -24858,7 +24860,7 @@ dailymotion.com##div[class*=_adCell_]
 ! Removes the "Browse more videos" feed below the video player"
 dailymotion.com#?#div[class^=DiscoveryQueueDisplay__sectionContainer_]:has-text(Browse more )
 ! Title: 🎓 Wikia: Pure Browsing Experience
-! OriginalVersion: 29December2023v1-Beta
+! OriginalVersion: 05January2024v1-Beta
 ! Expires: 5 days
 ! Description: Do you like to browse casually through different Wikia wikis, but are tired of FANDOM promotions, and promotions for movies that you don't care about? Then this list will save your day.
 ! Note: To make Wikia pages wider, check out https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Website%20Stretcher.txt. The Wikia rules that were previously in this list, were removed by request and for being arguably superfluous.
@@ -24956,6 +24958,8 @@ fandom.com###quiz_module_desktop_link_styles
 fandom.com##section[class^=trfc]
 ! Anon notifications in the lower left asking people to sign up
 fandom.com##.notifications-placeholder:has(a[href$=":Signup" i])
+! Removes menus of the "Advertise here" category from various wikias (https://github.com/DandelionSprout/adfilt/issues/921#issuecomment-1868299455)
+fandom.com##.global-footer__section-advertise
 ! Title: 🚤 Anti-'Snow marketing' List
 ! OriginalVersion: 08November2023v1-Beta
 ! Expires: 3 days

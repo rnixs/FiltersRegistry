@@ -1,9 +1,9 @@
-! Checksum: NU8E+tCofwpcvvvaDmuisw
-! Diff-Path: ../patches/214_optimized/214_optimized-s-1704387969-14400.patch
+! Checksum: KXlWPPjtj3Wart6uZeS5pg
+! Diff-Path: ../patches/214_optimized/214_optimized-s-1704416765-14400.patch
 ! Title: ABPVN List (Optimized)
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.25.97
-! TimeUpdated: 2024-01-04T17:02:18+00:00
+! Version: 2.0.25.98
+! TimeUpdated: 2024-01-05T01:02:14+00:00
 ! Expires: 5 days (update frequency)
 .com/cpc/$script
 .com/qc/
@@ -14,6 +14,7 @@
 .vn/c3s-ad/$xmlhttprequest
 .vn/qc/
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
+/Content/JS/jwplayer/vast.js$script
 /\w{2}\.\w+\.com\/\w{13,}\/\w{5}$/$script
 /\w{60}\.\w{2,5}\/\w{84}\.js/$script
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xmlhttprequest,third-party,domain=~amazon.com
@@ -47,7 +48,7 @@
 /taichinhdoanhnghiep.net.vn/files/qc
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
-/vast.js$script,domain=tvzinghd.com|ophimhay.com|watch.ezyproxy.com|boctem.com|cdn.tinny2.tech|cdn.lookapi.website|phimvietsub.pro|cdn.tinnyapi.tech
+/vast.js$script,domain=tvzinghd.com|ophimhay.com|watch.ezyproxy.com|boctem.com|cdn.tinny2.tech|cdn.lookapi.website|phimvietsub.pro
 /videojs.ads.$domain=~danet.vn
 /videojs.ima.js$domain=~jut.su|~earthcam.com
 ||123nhadatviet.com/Media/CK/banners/

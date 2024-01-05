@@ -1,8 +1,8 @@
 !#if (adguard_ext_android_cb)
 ! version for AdGuard Content Blocker only
-! OriginalVersion: 20240104210943
+! OriginalVersion: 20240105075625
 ! Title: ABPVN List
-! Last modified: 04 Jan 2024 21:09:43 UTC+7
+! Last modified: 05 Jan 2024 07:56:25 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -25,6 +25,7 @@
 .vn/c3s-ad/$xmlhttprequest
 .vn/qc/
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
+/Content/JS/jwplayer/vast.js$script
 /\w{2}\.\w+\.com\/\w{13,}\/\w{5}$/$script
 /\w{60}\.\w{2,5}\/\w{84}\.js/$script
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xmlhttprequest,third-party,domain=~amazon.com
@@ -58,7 +59,7 @@
 /taichinhdoanhnghiep.net.vn/files/qc
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
-/vast.js$script,domain=tvzinghd.com|ophimhay.com|watch.ezyproxy.com|boctem.com|cdn.tinny2.tech|cdn.lookapi.website|phimvietsub.pro|cdn.tinnyapi.tech
+/vast.js$script,domain=tvzinghd.com|ophimhay.com|watch.ezyproxy.com|boctem.com|cdn.tinny2.tech|cdn.lookapi.website|phimvietsub.pro
 /videojs.ads.$domain=~danet.vn
 /videojs.ima.js$domain=~jut.su|~earthcam.com
 ||123nhadatviet.com/Media/CK/banners/
@@ -1396,9 +1397,9 @@ web25.sexphim1.com##.code-block-4
 !
 !#if (!adguard_ext_android_cb)
 ! version for all other AdGuard products
-! OriginalVersion: 20240104210943
+! OriginalVersion: 20240105075625
 ! Title: ABPVN List
-! Last modified: 04 Jan 2024 21:09:43 UTC+7
+! Last modified: 05 Jan 2024 07:56:25 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -1421,6 +1422,7 @@ web25.sexphim1.com##.code-block-4
 .vn/c3s-ad/$xmlhttprequest
 .vn/qc/
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
+/Content/JS/jwplayer/vast.js$script
 /\w{2}\.\w+\.com\/\w{13,}\/\w{5}$/$script
 /\w{60}\.\w{2,5}\/\w{84}\.js/$script
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xmlhttprequest,third-party,domain=~amazon.com
@@ -1454,7 +1456,7 @@ web25.sexphim1.com##.code-block-4
 /taichinhdoanhnghiep.net.vn/files/qc
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
-/vast.js$script,domain=tvzinghd.com|ophimhay.com|watch.ezyproxy.com|boctem.com|cdn.tinny2.tech|cdn.lookapi.website|phimvietsub.pro|cdn.tinnyapi.tech
+/vast.js$script,domain=tvzinghd.com|ophimhay.com|watch.ezyproxy.com|boctem.com|cdn.tinny2.tech|cdn.lookapi.website|phimvietsub.pro
 /videojs.ads.$domain=~danet.vn
 /videojs.ima.js$domain=~jut.su|~earthcam.com
 ||123nhadatviet.com/Media/CK/banners/
