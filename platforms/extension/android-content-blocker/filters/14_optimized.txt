@@ -1,9 +1,9 @@
-! Checksum: W9D2Gg1IAt+0R6OHaL2Ziw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1704476148-3600.patch
+! Checksum: pQtzDkuI4N9X0ESITP4jhw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1704479753-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.91
-! TimeUpdated: 2024-01-05T17:31:59+00:00
+! Version: 2.1.83.92
+! TimeUpdated: 2024-01-05T18:32:03+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -7793,6 +7793,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Hom
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InArticleAd
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
+||featherstage.com^$third-party
 ||soggyzoo.com^$third-party
 ||sneakwind.com^$third-party
 ||mushywaste.com^$third-party

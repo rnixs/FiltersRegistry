@@ -1,9 +1,9 @@
-! Checksum: o7DcKY1iep3yBcC7IFT3SA
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1704472582-3600.patch
+! Checksum: phVm6OBv1OnelNBPFGLeOA
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704479779-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.54
-! TimeUpdated: 2024-01-05T16:32:04+00:00
+! Version: 2.0.29.55
+! TimeUpdated: 2024-01-05T18:32:15+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -221,6 +221,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Hom
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InArticleAd
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
+||featherstage.com^$third-party
 ||soggyzoo.com^$third-party
 ||sneakwind.com^$third-party
 ||mushywaste.com^$third-party
