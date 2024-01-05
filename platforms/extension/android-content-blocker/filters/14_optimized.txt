@@ -1,9 +1,9 @@
-! Checksum: VMmI7aTzgl1y6zljW9PSQw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1704472556-3600.patch
+! Checksum: W9D2Gg1IAt+0R6OHaL2Ziw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1704476148-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.90
-! TimeUpdated: 2024-01-05T16:31:50+00:00
+! Version: 2.1.83.91
+! TimeUpdated: 2024-01-05T17:31:59+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -17882,6 +17882,7 @@ alexfitness.ru#$#.modal-open { overflow: visible!important; }
 banggood.com##.top_mt.datacube_banner
 tf1.fr##div[aria-describedby^="max-banner-"]
 ||contributions.guardianapis.com^
+dlsoft.dmm.co.jp##.dmm-c-banner-tags
 ||fc2.com/video/css/u/pm/img/PC_bnr_
 flickr.com##.nav-banner-container
 chugaku-juken.com###satori__creative_container

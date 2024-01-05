@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wrqJn0bMFAzKx+iq/wVCJA
-! Diff-Path: ../patches/6/6-s-1704472590-3600.patch
+! Checksum: r5Pl+fmXpNgyuBWDhStNeg
+! Diff-Path: ../patches/6/6-s-1704476176-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.82
-! TimeUpdated: 2024-01-05T16:33:13+00:00
+! Version: 2.0.39.83
+! TimeUpdated: 2024-01-05T17:33:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6993,6 +6993,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||aerger.tv/images/sch_de.gif
 ||aerger.tv/images/sozhius.jpg
 ||aerger.tv/images/wer.gif
+||aerzteblatt.de/inc/js/ba_utils/arzt.js
 ||affiliate-marketing.de/media/banner/
 ||affiliate-marketing.de/media/medienpartnerschaften/
 ||africa-positive.de/wp-content/uploads/*/werbung_
