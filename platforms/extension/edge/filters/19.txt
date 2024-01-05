@@ -1,9 +1,9 @@
-! Checksum: AcwZ/+8ef+gMRFSvii6iag
-! Diff-Path: ../patches/19/19-s-1704454557-3600.patch
+! Checksum: C/nEyM/vKWBc46NJqQImxg
+! Diff-Path: ../patches/19/19-s-1704458171-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.51
-! TimeUpdated: 2024-01-05T11:32:05+00:00
+! Version: 2.0.29.52
+! TimeUpdated: 2024-01-05T12:32:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4193,6 +4193,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+bitmovin.com##.nesscity-campaign
 gilt.com#$#.remodal-is-locked body { overflow: auto !important; }
 brilliant.org###loggedout-wiki-footer
 brilliant.org#$#body.wiki-page.logged-out.modal-open.cropped > .modal-bg.in { display: none !important; }
