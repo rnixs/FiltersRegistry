@@ -1,9 +1,9 @@
-! Checksum: PoqYN9vqMupIhPgbhOVbzQ
-! Diff-Path: ../patches/7/7-s-1704454572-3600.patch
+! Checksum: s/F3VCYCUMWOi62RdyqZow
+! Diff-Path: ../patches/7/7-s-1704461773-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.30
-! TimeUpdated: 2024-01-05T11:33:20+00:00
+! Version: 2.0.47.31
+! TimeUpdated: 2024-01-05T13:33:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -806,9 +806,6 @@ video.tv-tokyo.co.jp#@#.ad-placeholder
 ! https://github.com/AdguardTeam/AdguardFilters/issues/7918
 avgle.com#@#img[src*=".php"]
 avgle.com#@#iframe[width="728"][height="90"]
-! https://github.com/AdguardTeam/AdguardFilters/issues/9125
-socom.yokohama#@#.an-advert-banner
-socom.yokohama#@#.an-sponsored
 ! https://github.com/AdguardTeam/AdguardFilters/issues/9094
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||nasubiblog.com^$generichide

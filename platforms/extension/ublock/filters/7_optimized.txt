@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: rO0F6aWzTxpyG4deLzUfvA
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1704454583-3600.patch
+! Checksum: XSUmdKbNu8Ese1XBeVIbug
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1704461784-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.30
-! TimeUpdated: 2024-01-05T11:33:20+00:00
+! Version: 2.0.47.31
+! TimeUpdated: 2024-01-05T13:33:28+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||compass-fit.jp^$third-party
@@ -608,8 +608,6 @@ video.tv-tokyo.co.jp#@#.ad-placeholder
 380cc.cc#$##playertopads { height: 51px!important; position: absolute!important; left: -3000px!important; }
 avgle.com#@#img[src*=".php"]
 avgle.com#@#iframe[width="728"][height="90"]
-socom.yokohama#@#.an-advert-banner
-socom.yokohama#@#.an-sponsored
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||nasubiblog.com^$generichide
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)

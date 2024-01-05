@@ -1,9 +1,9 @@
-! Checksum: 4YdF4r18OvZ/L+rT+B/7Rw
-! Diff-Path: ../patches/6/6-s-1704411418-3600.patch
+! Checksum: 52bOR8oekEYD7kGlrWMEoQ
+! Diff-Path: ../patches/6/6-s-1704461789-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.80
-! TimeUpdated: 2024-01-04T23:34:07+00:00
+! Version: 2.0.39.81
+! TimeUpdated: 2024-01-05T13:33:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1392,9 +1392,6 @@ shoop.de#@#.adbanner
 @@||mediamarkt.de^$genericblock
 !+ PLATFORM(ios)
 @@||saturn.de^$genericblock
-! https://github.com/AdguardTeam/AdguardFilters/issues/18062
-blaulichtreport-saarland.de#@#.an-advert-banner
-blaulichtreport-saarland.de#@#.an-sponsored
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17467
 @@||pagead2.googlesyndication.com/pagead/osd.js^$domain=heise.de
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=heise.de
@@ -1456,9 +1453,6 @@ caravaning.de#%#//scriptlet("set-constant", "adblockActive", "false")
 ||fussballgucken.info/js/adblock.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/10135
 @@||adspirit.de^$domain=mathaeser.de
-! https://github.com/AdguardTeam/AdguardFilters/issues/9172
-gannikus.com#@#.an-sponsored
-gannikus.com#@#.an-advert-banner
 ! https://forum.adguard.com/index.php?threads/serienjunkies-de-videos-anti-adblock.27402/
 @@||media.oadts.com/www/delivery/afv.php$domain=serienjunkies.de
 @@||media.oadts.com/www/delivery/video.php$domain=serienjunkies.de
