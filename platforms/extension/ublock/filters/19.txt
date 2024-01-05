@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 3avd8ZyXb+K3aHCH4qq8mg
-! Diff-Path: ../patches/19/19-s-1704451025-3600.patch
+! Checksum: JiwZ/eFI+7Ely3dCMu1cLA
+! Diff-Path: ../patches/19/19-s-1704454579-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.50
-! TimeUpdated: 2024-01-05T10:32:04+00:00
+! Version: 2.0.29.51
+! TimeUpdated: 2024-01-05T11:32:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1521,6 +1521,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+||search-module.*.amazonaws.com/pubs/trib/aa_adb_modal.js$domain=triblive.com
 radarbox.com###ad-blocking
 radarbox.com##+js(set-constant, ads_enabled, true)
 maxroll.gg##+js(set-constant, nitroAds.loaded, true)
@@ -4097,6 +4098,10 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+gilt.com#$#.remodal-is-locked body { overflow: auto !important; }
+brilliant.org###loggedout-wiki-footer
+brilliant.org#$#body.wiki-page.logged-out.modal-open.cropped > .modal-bg.in { display: none !important; }
+brilliant.org#$#body.wiki-page.logged-out.modal-open.cropped { overflow: auto !important; }
 iobit.com##div[class*="float-"]
 iobit.com##div[class*="-pop"]
 investorshub.advfn.com###interstitial-wrapper
@@ -5619,9 +5624,9 @@ bookoffonline.co.jp###m1
 bookoffonline.co.jp##.ModalItems-overlay
 angrybirds.com##.campaign-splash
 manabi.benesse.ne.jp##.adsenseWrap
-legionathletics.com,view-next.benesse.jp#$#.remodal-is-locked { overflow: auto !important; touch-action: auto !important; }
-legionathletics.com,view-next.benesse.jp#$#.remodal-overlay { display: none !important; }
-legionathletics.com,view-next.benesse.jp#$#.remodal-wrapper { display: none !important; }
+gilt.com,legionathletics.com,view-next.benesse.jp#$#.remodal-is-locked { overflow: auto !important; touch-action: auto !important; }
+gilt.com,legionathletics.com,view-next.benesse.jp#$#.remodal-overlay { display: none !important; }
+gilt.com,legionathletics.com,view-next.benesse.jp#$#.remodal-wrapper { display: none !important; }
 steamgriddb.com###noty_layout__bottomLeft
 dr-recella.com##.floating_banner
 iqihang.com##.home-float

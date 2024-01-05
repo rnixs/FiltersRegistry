@@ -1,9 +1,9 @@
-! Checksum: V1WazVrMx4Cat3PEbpCBSA
-! Diff-Path: ../patches/11/11-s-1704443790-3600.patch
+! Checksum: 84QN1JLWPuLh5fX9A1WuvQ
+! Diff-Path: ../patches/11/11-s-1704454599-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.0
-! TimeUpdated: 2024-01-05T08:31:31+00:00
+! Version: 2.0.48.1
+! TimeUpdated: 2024-01-05T11:31:34+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6254,7 +6254,7 @@ news18.com,m.economictimes.com,m.haberler.com,redtube.com,redtube.net,pornhub.co
 bhaskar.com,divyabhaskar.co.in,fashion101.in##.ad_320
 m.delfi.lt##.ad_atop
 seclub.org##.ad_block
-about.com##.adhesive
+fastcompany.com,about.com##.adhesive
 forums.androidcentral.com##.adunit
 redtube.com,redtube.net##.after-header
 m.sondakika.com##.an-container
