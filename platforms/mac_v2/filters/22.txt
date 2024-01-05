@@ -1,9 +1,9 @@
-! Checksum: MX82bC6hVKJdtTDKeTZxYA
-! Diff-Path: ../patches/22/22-s-1704231377-3600.patch
+! Checksum: EvtAXn1k/SlWTPwG/+kDxA
+! Diff-Path: ../patches/22/22-s-1704469007-3600.patch
 ! Title: AdGuard Widgets filter
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.0
-! TimeUpdated: 2024-01-02T21:32:31+00:00
+! Version: 2.0.7.1
+! TimeUpdated: 2024-01-05T15:32:43+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2096,6 +2096,7 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !
 !   NOTE: Donation widgets (which are really annoying only)
 !
+winstall.app##div[class^="donateCard_container__"]
 openstreetmap.org###banner
 wbur.org##.section--takeover
 www.wikipedia.org##div[id^="portalBanner_"].banner-bottom

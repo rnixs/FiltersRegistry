@@ -1,9 +1,9 @@
-! Checksum: FXm7aVTsKzTWylzIlndKpQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1704461750-3600.patch
+! Checksum: xNOayEJsHyRaXPcQhcrLfw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1704468965-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.88
-! TimeUpdated: 2024-01-05T13:32:01+00:00
+! Version: 2.1.83.89
+! TimeUpdated: 2024-01-05T15:32:10+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -20132,6 +20132,7 @@ ukr.net###sinoptik_container
 /gs_informerClient.min.$third-party
 ||gismeteo.*/getInformer/$third-party
 ||meteoprog.ua/*/weather/informer/$third-party
+winstall.app##div[class^="donateCard_container__"]
 openstreetmap.org###banner
 wbur.org##.section--takeover
 www.wikipedia.org##div[id^="portalBanner_"].banner-bottom

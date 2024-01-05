@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: A/quaSjTD45Ya7B5BW8wLA
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1704422179-3600.patch
+! Checksum: z1CVvFfuV4DYDfga+pwg9w
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1704468993-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.0
-! TimeUpdated: 2024-01-02T21:32:31+00:00
+! Version: 2.0.7.1
+! TimeUpdated: 2024-01-05T15:32:43+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### Block useless widgets #######################
@@ -1061,6 +1061,7 @@ ukr.net###sinoptik_container
 ##.gsInformer
 /gs_informerClient.min.$third-party
 ||gismeteo.*/getInformer/$third-party
+winstall.app##div[class^="donateCard_container__"]
 openstreetmap.org###banner
 wbur.org##.section--takeover
 www.wikipedia.org##div[id^="portalBanner_"].banner-bottom

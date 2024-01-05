@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8GHNeKljGPsNiODPJxA6rQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704465370-3600.patch
+! Checksum: ClrGr/+PuM9iXNh3tX7KTg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704468993-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.16.71
-! TimeUpdated: 2024-01-05T14:32:52+00:00
+! Version: 2.3.16.72
+! TimeUpdated: 2024-01-05T15:33:07+00:00
 ! Expires: 5 days (update frequency)
 ||glowedhyalins.com^
 ||dotercouther.uno^
@@ -16025,6 +16025,7 @@ _800x80_
 ###adsbox
 ###adscontainer
 ###adsdiv
+###adsense-container-bottom
 ###adsense1
 ###adsenseContainer
 ###adsense_r_side_sticky_container
