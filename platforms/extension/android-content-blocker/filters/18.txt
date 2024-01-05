@@ -1,9 +1,9 @@
-! Checksum: Mwyrsurwa2HcMR0LC5690A
-! Diff-Path: ../patches/18/18-s-1704472556-3600.patch
+! Checksum: SJ6VgvDecGgUmw4t+FOtAA
+! Diff-Path: ../patches/18/18-s-1704483355-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.82
-! TimeUpdated: 2024-01-05T16:32:01+00:00
+! Version: 2.0.30.83
+! TimeUpdated: 2024-01-05T19:32:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13010,6 +13010,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169574
+@@||auto1-cookie-gdpr.prod.mp.auto1.cloud/latest/cookieBanner.js$domain=auto1.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169966
 @@||geolocation.onetrust.com/cookieconsentpub/v*/geo/location$domain=soundcloud.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169963

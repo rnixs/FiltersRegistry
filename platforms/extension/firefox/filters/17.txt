@@ -1,9 +1,9 @@
-! Checksum: 4uqrkEgu2oxxwkbnukw+oQ
-! Diff-Path: ../patches/17/17-s-1704303349-3600.patch
+! Checksum: ITpF7MyfTjIEFjw/8jDXuw
+! Diff-Path: ../patches/17/17-s-1704483365-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.73
-! TimeUpdated: 2024-01-03T17:31:58+00:00
+! Version: 2.0.7.74
+! TimeUpdated: 2024-01-05T19:32:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -301,6 +301,13 @@ $removeparam=fb_source
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169585
+||dvdfab.org^$removeparam=soft
+||dvdfab.org^$removeparam=ad
+||dvdfab.org^$removeparam=ver
+||dvdfab.org^$removeparam=clientusertype
+||dvdfab.org^$removeparam=client_e
+||dvdfab.org^$removeparam=c_ex
 ! go2jump.org / tr.rdrtr.com
 ||rdrtr.com^$removeparam=source
 ||rdrtr.com^$removeparam=aff_sub
