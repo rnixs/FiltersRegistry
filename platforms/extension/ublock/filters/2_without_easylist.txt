@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: KFFFvL5NMUsSH+ZHIPugcA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704411414-3600.patch
+! Checksum: Tn/j2jhNUJNuXIwbxLBLQQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704440167-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.16.63
-! TimeUpdated: 2024-01-04T23:33:43+00:00
+! Version: 2.3.16.64
+! TimeUpdated: 2024-01-05T07:32:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -8030,11 +8030,12 @@ bedfix.wurstclient.net#@#ins.adsbygoogle
 bedfix.wurstclient.net#$?#ins[data-ad-client^="ca-pub-"] { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155341
 ||mycoding.id/assets/seosecret/seosecretidnblockads.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/169958
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161650
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160545
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155510
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155332
-ytsyifymovie.com,ytstv.me,ytstvmovies.*##+js(abort-current-script, document.createElement, adsbygoogle.js)
+torrents.vip,ytsyifymovie.com,ytstv.me,ytstvmovies.*##+js(abort-current-script, document.createElement, adsbygoogle.js)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/154197#issuecomment-1616180413
 globalnews.ca#@#.ad-placeholder
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155110
@@ -32534,6 +32535,8 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+nesninja.com#?#.game_sm:has(> .game_inner > .game_box > .game_iframe_block > script)
+nesninja.com#?#.game_lg:has(> .game_inner > .game_box > .game_iframe_block > script)
 paste.fo##fuck_you + * > a img
 multirbl.valli.org###lo-ads
 ||multirbl.valli.org/images/hetrixtools-ad-banner.gif
