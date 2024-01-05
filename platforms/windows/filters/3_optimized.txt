@@ -1,9 +1,9 @@
-! Checksum: x0EqSfRxeeB4TyWYI2GAZA
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1704458224-3600.patch
+! Checksum: xQDtb2Bkv4+LXSNz+c+xAA
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1704465390-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.34
-! TimeUpdated: 2024-01-05T12:33:08+00:00
+! Version: 2.0.65.35
+! TimeUpdated: 2024-01-05T14:33:00+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
