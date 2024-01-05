@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: RdsDNNbYV52+xPvcVEtCXw
-! Diff-Path: ../patches/18/18-s-1704483374-3600.patch
+! Checksum: bdDUl0WA1+/VkvuMO4D31A
+! Diff-Path: ../patches/18/18-s-1704486972-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.83
-! TimeUpdated: 2024-01-05T19:32:04+00:00
+! Version: 2.0.30.84
+! TimeUpdated: 2024-01-05T20:32:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2860,7 +2860,7 @@ tddomovoy.ru##.block_mess_cookies
 crispedge.com##.load-accept-cookies
 nta.co.jp##.ImCmpApp
 ertflix.gr##div[class^="CookiePolicyInfo__"]
-rtl.hr,24ur.com,dozapteka.pl,u24.gov.ua,calltouch.ru,vlab.cz##.cookies
+infoprice.by,rtl.hr,24ur.com,dozapteka.pl,u24.gov.ua,calltouch.ru,vlab.cz##.cookies
 jumbomail.me##.cookies-usage-panel
 journal.lemonde.fr##.gdpr-lmd-standard
 ||cmp.lemonde.fr/js/lemonde.min.js$domain=journal.lemonde.fr

@@ -1,9 +1,9 @@
-! Checksum: o1Qwb9MyftbAUyLN4FVNlA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704479781-3600.patch
+! Checksum: JBlo3Uw0y6s7sM5h5TazeA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704486970-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.16.75
-! TimeUpdated: 2024-01-05T18:32:59+00:00
+! Version: 2.3.16.76
+! TimeUpdated: 2024-01-05T20:32:48+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -21906,7 +21906,7 @@ gotvach.bg###artbot
 .com/a?pagetype
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com|~wsj.com
 .com/ads?
-.com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~archiproducts.com|~tritondigital.com
+.com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/adz/
 .com/peeltr.js
 .com/sc/*?n=$script,third-party
