@@ -1,9 +1,9 @@
-! Checksum: 8GGLpIuJ65y39D6N/m8I3A
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1704465343-3600.patch
+! Checksum: Tkcaa44tVZ9GfHv/12ULkg
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1704472557-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.87.59
-! TimeUpdated: 2024-01-05T14:32:19+00:00
+! Version: 2.0.87.60
+! TimeUpdated: 2024-01-05T16:32:14+00:00
 ! Expires: 5 days (update frequency)
 /resources/js/sticker.js?$third-party
 .xml?v=3.0&external_subid=
@@ -87,6 +87,7 @@ sb.php?s=$script
 .info/embed_code/*/goclick?ref=
 .com/native.php?b=
 /kadam.base.min.js?
+.bid/pjs/$script
 &adtype=
 -120x600
 -160x600
@@ -3156,7 +3157,6 @@ redtorrent.org##a[href="/yan.php"]
 ont.by##.b-renommee__wrap
 rzd-partner.ru##.banner200
 rzd-partner.ru##.banner240100
-soccer365.com.ua##.adv
 soccer365.com.ua##div[style^="position:"][style*="height:90px"]
 disk.karelia.pro###cl_widget_reklama
 virtmachine.ru###content-holder article[id^="post-"] ~ br
@@ -3236,7 +3236,7 @@ tvmag.ru##a[href*=".tricolor.tv"] > img
 atorus.ru###block-headerads
 korsars.pro##a[href^="https://bit.ly/"] > img
 fontanka.ru##div[style*="--creative-height:"]
-kniga-online.com##.adv
+xcadr.online,soccer365.com.ua,kniga-online.com##.adv
 notepadonline.ru##.adbox
 cian.ru##div[data-name="AdFoxBannerTracker"]
 huzhe.net##.ads-inside

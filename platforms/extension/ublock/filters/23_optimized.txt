@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BFPgPXE+KZ+8lXXlmB9F6Q
-! Diff-Path: ../patches/23_optimized/23_optimized-s-1704465370-3600.patch
+! Checksum: VkOtpxAnnumQPPZ992zyAw
+! Diff-Path: ../patches/23_optimized/23_optimized-s-1704472588-3600.patch
 ! Title: AdGuard Ukrainian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Ukrainian language.
-! Version: 2.0.3.60
-! TimeUpdated: 2024-01-05T14:32:30+00:00
+! Version: 2.0.3.61
+! TimeUpdated: 2024-01-05T16:32:26+00:00
 ! Expires: 5 days (update frequency)
 /resources/js/sticker.js?$third-party
 .xml?v=3.0&external_subid=
@@ -251,6 +251,7 @@ sb.php?s=$script
 /?bn=*&ad=
 http://*.ru/leftunit.pl?
 /kadam.base.min.js?
+.bid/pjs/$script
 &adtype=
 &afftraf=
 &clientype=*&adid=
@@ -1294,6 +1295,7 @@ ucoz.ru/informer/
 ##noindex > div[onmouseout]
 ##noindex > nofollow > table[onmouseout^="this.bgColor"]
 ##td[id^="advtd"]
+||bngtrak.com^$all
 ||fnasmpygwa.com^
 ||o1qry0qq83.com^
 ||fft.delovoemesto.ru^
