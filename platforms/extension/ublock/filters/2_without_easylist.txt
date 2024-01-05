@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: cudazQaJ5cUN29/rVrtQZw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704447434-3600.patch
+! Checksum: UuQZJYV2gAXIUgwC1ra41g
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704451028-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.16.66
-! TimeUpdated: 2024-01-05T09:33:26+00:00
+! Version: 2.3.16.67
+! TimeUpdated: 2024-01-05T10:32:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -17114,6 +17114,11 @@ mob.hr##.side_banner
 !---------------------------------------------------------------------
 ! NOTE: Czech and Slovakian
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169928
+hnonline.sk##.item__ad-center
+hnonline.sk##div[class^="position_break_"]
+hnonline.sk##div[class^="position_item_right_"]
+hnonline.sk##+js(json-prune, ads.*)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169629
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167656
 fdrive.cz##.bannerMN

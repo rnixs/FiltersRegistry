@@ -1,9 +1,9 @@
-! Checksum: 23ZX+qz9BdVn1ljLzMHqTQ
-! Diff-Path: ../patches/224/224-s-1704440162-3600.patch
+! Checksum: t3ZSf1PfJR2lzJrhriXyBQ
+! Diff-Path: ../patches/224/224-s-1704451023-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.7.59
-! TimeUpdated: 2024-01-05T07:32:21+00:00
+! Version: 2.1.7.60
+! TimeUpdated: 2024-01-05T10:32:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -484,6 +484,10 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169925
+playwright.nodejs.cn#%#//scriptlet('set-constant', '_AdBlockInit', 'noopFunc')
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||cdn.wwads.cn/js/makemoney.js$domain=playwright.nodejs.cn
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169356
 docsmall.com#@##google-ads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168132
@@ -1322,6 +1326,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+playwright.nodejs.cn###pagead
 3dmgame.com##.addownbox_gaosu
 3dmgame.com#?#.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
 gvm.com.tw##.promotion_ad
@@ -6157,6 +6162,7 @@ newduba.cn###jq_youxi
 ||bpyerxzn.xyz^
 ||szbpf.cn^
 ||xpyerxzn.xyz^
+||tpyerxzn.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
