@@ -61,8 +61,8 @@
 			"displayNumber": 1,
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/2.txt",
-			"version": "2.3.16.78",
-			"timeUpdated": "2024-01-06T02:32:52+0000",
+			"version": "2.3.16.79",
+			"timeUpdated": "2024-01-06T10:32:52+0000",
 			"languages": []
 		},
 		{
@@ -74,8 +74,8 @@
 			"displayNumber": 1,
 			"groupId": 2,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/3.txt",
-			"version": "2.0.65.37",
-			"timeUpdated": "2024-01-06T05:32:51+0000",
+			"version": "2.0.65.38",
+			"timeUpdated": "2024-01-06T10:32:59+0000",
 			"languages": []
 		},
 		{
@@ -128,8 +128,8 @@
 			"displayNumber": 1,
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/7.txt",
-			"version": "2.0.47.33",
-			"timeUpdated": "2024-01-06T03:33:28+0000",
+			"version": "2.0.47.34",
+			"timeUpdated": "2024-01-06T10:33:22+0000",
 			"languages": [
 				"ja"
 			]
@@ -187,8 +187,8 @@
 			"displayNumber": 2,
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/11.txt",
-			"version": "2.0.48.1",
-			"timeUpdated": "2024-01-05T11:31:34+0000",
+			"version": "2.0.48.2",
+			"timeUpdated": "2024-01-06T10:31:37+0000",
 			"languages": []
 		},
 		{
@@ -274,8 +274,8 @@
 				"ext_safari",
 				"ext_android_cb"
 			],
-			"version": "2.0.7.74",
-			"timeUpdated": "2024-01-05T19:32:02+0000",
+			"version": "2.0.7.75",
+			"timeUpdated": "2024-01-06T10:32:04+0000",
 			"languages": []
 		},
 		{
@@ -1018,8 +1018,8 @@
 			"displayNumber": 1,
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/224.txt",
-			"version": "2.1.7.68",
-			"timeUpdated": "2024-01-06T09:32:41+0000",
+			"version": "2.1.7.69",
+			"timeUpdated": "2024-01-06T10:32:27+0000",
 			"languages": [
 				"zh"
 			]
