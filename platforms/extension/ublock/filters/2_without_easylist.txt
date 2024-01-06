@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qC72TIf/uaLAOwVNNYIe/Q
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704558965-3600.patch
+! Checksum: IUGCL0kppC6H2zAPZEw/vQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704573378-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.16.83
-! TimeUpdated: 2024-01-06T16:32:51+00:00
+! Version: 2.3.16.84
+! TimeUpdated: 2024-01-06T20:33:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7168,6 +7168,17 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 ! NOTE: Regular rules
 !
 !
+! Prevent Admiral detection
+#@#.stickyads
+#@#.ads_banner
+##.stickyads:not([style^="width: 32px"])
+##.ads_banner:not([style^="width: 32px"])
+@@||static.adsafeprotected.com/skeleton.js?adslot=
+@@||static.adsafeprotected.com/skeleton.js?adunitid=
+@@||static.adsafeprotected.com/skeleton.js?bannnerid=
+@@||static.adsafeprotected.com/skeleton.gif?*adslot=
+@@||static.adsafeprotected.com/skeleton.gif?*adunitid=
+@@||static.adsafeprotected.com/skeleton.gif?*bannnerid=
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169962
 nudecams.xxx###adb
 nudecams.xxx##+js(no-xhr-if, pagead2.googlesyndication.com)
