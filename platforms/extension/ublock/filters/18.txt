@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: bdDUl0WA1+/VkvuMO4D31A
-! Diff-Path: ../patches/18/18-s-1704486972-3600.patch
+! Checksum: jIjXhy/qJmBp39PPSE/EfQ
+! Diff-Path: ../patches/18/18-s-1704584187-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.84
-! TimeUpdated: 2024-01-05T20:32:01+00:00
+! Version: 2.0.30.85
+! TimeUpdated: 2024-01-06T23:32:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2316,6 +2316,7 @@ dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.
 !
 ! NOTE: Regular rules
 !
+||okucia-sklep.pl/modules/pdcookiepro/
 energy.instrat.pl###elementor-popup-modal-5014
 greencaffenero.pl###cookie-consent__dialog
 kfc.by###simple-cookies
