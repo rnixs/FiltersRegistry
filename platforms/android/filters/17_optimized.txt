@@ -1,10 +1,14 @@
-! Checksum: vonyKP86sDk/mqJxxlOacg
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1704537340-3600.patch
+! Checksum: 918nyXiU+582bBf10RdiUw
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1704638138-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.75
-! TimeUpdated: 2024-01-06T10:32:04+00:00
+! Version: 2.0.7.76
+! TimeUpdated: 2024-01-07T14:31:59+00:00
 ! Expires: 5 days (update frequency)
+$removeparam=sms_click
+$removeparam=sms_source
+$removeparam=sms_uph
+$removeparam=ttclid
 $removeparam=spot_im_redirect_source
 $cookie=_wp_visitor
 $removeparam=mt_link_id

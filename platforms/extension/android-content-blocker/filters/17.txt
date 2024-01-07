@@ -1,9 +1,9 @@
-! Checksum: 2BB0NZ0/0uLYTOMqwtKJJw
-! Diff-Path: ../patches/17/17-s-1704537345-3600.patch
+! Checksum: QKDhicrhW9b55JgI8OdHtw
+! Diff-Path: ../patches/17/17-s-1704638140-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.75
-! TimeUpdated: 2024-01-06T10:32:04+00:00
+! Version: 2.0.7.76
+! TimeUpdated: 2024-01-07T14:31:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18,6 +18,7 @@
 ! Ideally, supply a link to the document that explains how this parameter is used.
 !
 !
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-8036123
 ! spot.im
 ! WordPress Visitor Statistics plugin
 ! tracker.my.com

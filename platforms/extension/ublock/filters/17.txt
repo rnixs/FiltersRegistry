@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: LkNFEnNreX6+aY4GuAji8Q
-! Diff-Path: ../patches/17/17-s-1704537371-3600.patch
+! Checksum: O+GYw8Bk74wLwqwHb+0cFw
+! Diff-Path: ../patches/17/17-s-1704638151-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.75
-! TimeUpdated: 2024-01-06T10:32:04+00:00
+! Version: 2.0.7.76
+! TimeUpdated: 2024-01-07T14:31:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -21,6 +21,11 @@
 ! Good: $removeparam=utm_id
 ! Bad:  $removeparam=utm_id,domain=example.org (for instance, should be in specific.txt)
 !
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-8036123
+$removeparam=sms_click
+$removeparam=sms_source
+$removeparam=sms_uph
+$removeparam=ttclid
 ! spot.im
 $removeparam=spot_im_redirect_source
 ! WordPress Visitor Statistics plugin

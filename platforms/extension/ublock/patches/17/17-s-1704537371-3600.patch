@@ -1,0 +1,14 @@
+d2 2
+a3 2
+! Checksum: O+GYw8Bk74wLwqwHb+0cFw
+! Diff-Path: ../patches/17/17-s-1704638151-3600.patch
+d6 2
+a7 2
+! Version: 2.0.7.76
+! TimeUpdated: 2024-01-07T14:31:59+00:00
+a23 5
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-8036123
+$removeparam=sms_click
+$removeparam=sms_source
+$removeparam=sms_uph
+$removeparam=ttclid
