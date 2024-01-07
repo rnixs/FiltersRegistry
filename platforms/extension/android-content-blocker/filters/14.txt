@@ -1,9 +1,9 @@
-! Checksum: Y1SrZB1wYO+kqdD8HaOjWw
-! Diff-Path: ../patches/14/14-s-1704584169-3600.patch
+! Checksum: B9Tnz/YqMwep9/YDrWAYnQ
+! Diff-Path: ../patches/14/14-s-1704648951-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.83.98
-! TimeUpdated: 2024-01-06T23:32:16+00:00
+! Version: 2.1.83.99
+! TimeUpdated: 2024-01-07T17:31:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -36033,6 +36033,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! Limit it to mobile versions only
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 !
+m.hoyolab.com##.guide-download-drawer
 search.yahoo.co.jp##article[class^="W2ALink_"]
 baynews9.com##img[alt="Live News On The Go! Download the Spectrum News App"]
 rnd.de##div[class^="Articlestyled__"] div[data-testid="piano-container"]
