@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: f9SyBJtO1eAlgIb6uGkHGg
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1704555367-3600.patch
+! Checksum: 2Q6V7uf+07RZt3Tnz+hlpg
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1704645379-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.35
-! TimeUpdated: 2024-01-06T15:33:18+00:00
+! Version: 2.0.47.36
+! TimeUpdated: 2024-01-07T16:33:27+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||compass-fit.jp^$third-party
@@ -387,7 +387,7 @@
 ||ad-hatena.com^
 ||advert.punyu.com^
 ||gum.dlbooks.to^
-iwb.jp##+js(no-setTimeout-if, getComputedStyle)
+iwb.jp##+js(no-setInterval-if, getComputedStyle)
 ||nazology.net/*/adb/adb.js
 pvpoke-re.com#@#ins.adsbygoogle
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication.com/adsbygoogle.js,domain=pvpoke-re.com
