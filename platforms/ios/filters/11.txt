@@ -1,9 +1,9 @@
-! Checksum: q6SvUFc4Rw0Tq3qvky5nnQ
-! Diff-Path: ../patches/11/11-s-1704555367-3600.patch
+! Checksum: BMY2EjbBSTEwMIVky+JFvw
+! Diff-Path: ../patches/11/11-s-1704714384-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.3
-! TimeUpdated: 2024-01-06T15:31:34+00:00
+! Version: 2.0.48.4
+! TimeUpdated: 2024-01-08T10:31:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2417,6 +2417,8 @@ chip.de,gamesworld.de,fnn.jp##.Ad
 !
 ! SECTION: Regular rules
 !
+spiegel.de#?#div[data-area="body"] > .sm\:mb-24:has(> div[style*="-ad-sticky-offset"]:only-child)
+spiegel.de#?#.OffsetContainer > .relative > .relative:has(> div[style*="-ad-sticky-offset"]:only-child)
 crank-in.net##.wrap_general > section.ad-area_dp
 macaro-ni.jp##.articleShow__adTaboolaArticleThumbnail
 summary.fc2.com#?#.tmb_list:has(> a[href^="https://cnt.affiliate.fc2.com"])

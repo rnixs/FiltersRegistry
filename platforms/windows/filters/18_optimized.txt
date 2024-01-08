@@ -1,9 +1,9 @@
-! Checksum: 4ZDhDsWmJbjJ1Xsl1wXVeg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1704706620-3600.patch
+! Checksum: fRuCEh+yaRwDHnIQqrMO/Q
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1704715858-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.86
-! TimeUpdated: 2024-01-08T09:32:28+00:00
+! Version: 2.0.30.87
+! TimeUpdated: 2024-01-08T10:32:08+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1728,8 +1728,8 @@ fitx.de#$#.cookie_overlay { display: none !important; }
 mydirtyhobby.com###modals
 hepsijet.com##div[class^="cookie-policy"]
 asus.com###cookie-policy-info-bg
-bing.com#$#.bnp_cookie_banner { display: none !important; }
-bing.com#$#html[style*="overflow"] { overflow: auto !important; }
+copilot.microsoft.com,bing.com#$#.bnp_cookie_banner { display: none !important; }
+copilot.microsoft.com,bing.com#$#html[style*="overflow"] { overflow: auto !important; }
 shop.braun.de##.stickyOptanonCookieButton
 0815.at,0815.eu#$#html { overflow: auto !important; }
 0815.at,0815.eu#$#.offcanvas ~ div.modal-backdrop { display: none !important; }

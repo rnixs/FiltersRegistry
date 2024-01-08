@@ -1,9 +1,9 @@
-! Checksum: dYF5aW2VzDjWNu5V7WWWdw
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1704692169-3600.patch
+! Checksum: qmbpVIPJb6PUncwQkhOHMg
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1704715860-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.7.85
-! TimeUpdated: 2024-01-08T05:32:29+00:00
+! Version: 2.1.7.86
+! TimeUpdated: 2024-01-08T10:32:30+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -2487,6 +2487,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 !+ PLATFORM(windows, mac, android)
 ||101.qq.com/js/base.js$replace=/(el\.getAttribute\("type"\) === "text\/javascript")/\(\$1 && !el\.getAttribute\("nonce"\)\)/
 ||acs.youku.com/*/mtop.youku.play.ups.appinfo.get/*/?jsv=$replace=/("ad":\{)[\s\S]*?(\}\,"playlog")/\$1\$2/,important
+||cdn77.org^*.mp4$badfilter
 mfa.gov.cn,fmprc.gov.cn#@#.adbox2
 @@||apkpure.com^$generichide,badfilter
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=hoy.tv

@@ -1,9 +1,9 @@
-! Checksum: DHqkLF3AghGr6pVIK+7+XA
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1704706574-3600.patch
+! Checksum: sPqsh1CuqayMh41WFAGT3w
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1704710847-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.2
-! TimeUpdated: 2024-01-08T09:32:16+00:00
+! Version: 2.1.84.3
+! TimeUpdated: 2024-01-08T10:31:57+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1720,8 +1720,8 @@ fitx.de#$#.cookie_overlay { display: none !important; }
 mydirtyhobby.com###modals
 hepsijet.com##div[class^="cookie-policy"]
 asus.com###cookie-policy-info-bg
-bing.com#$#.bnp_cookie_banner { display: none !important; }
-bing.com#$#html[style*="overflow"] { overflow: auto !important; }
+copilot.microsoft.com,bing.com#$#.bnp_cookie_banner { display: none !important; }
+copilot.microsoft.com,bing.com#$#html[style*="overflow"] { overflow: auto !important; }
 shop.braun.de##.stickyOptanonCookieButton
 0815.at,0815.eu#$#html { overflow: auto !important; }
 0815.at,0815.eu#$#.offcanvas ~ div.modal-backdrop { display: none !important; }
