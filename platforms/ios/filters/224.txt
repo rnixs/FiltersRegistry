@@ -1,9 +1,9 @@
-! Checksum: RA2pK241SRH9RS5cYdw4fw
-! Diff-Path: ../patches/224/224-s-1704714388-3600.patch
+! Checksum: 1EI5NoSQHLrZ8QnXmFsT/Q
+! Diff-Path: ../patches/224/224-s-1704717397-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.7.86
-! TimeUpdated: 2024-01-08T10:32:30+00:00
+! Version: 2.1.7.87
+! TimeUpdated: 2024-01-08T12:32:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -484,6 +484,8 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170075
+caq98i.top#%#//scriptlet('abort-on-property-read', 'alertadmodal')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169925
 playwright.nodejs.cn#%#//scriptlet('set-constant', '_AdBlockInit', 'noopFunc')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -2746,7 +2748,8 @@ fashionwaltz.com###single_reading
 fashionwaltz.com##.entry-content > div.copyright ~ div[style*="text-align:center;"]
 ||tui56.com/guanggao*.html
 duodada.com##.row > div[class] > div.page-header ~ div[style^="width:100%;"]
-ip138.com,av1868.com,edc1014070.pixnet.net###banner
+ip138.com###banana
+av1868.com,edc1014070.pixnet.net###banner
 av1868.com###totalStationAD
 dmhy.anoneko.com##div[id$="_adv"]
 51nongyao.net###reportPop
@@ -6286,6 +6289,7 @@ newduba.cn###jq_youxi
 ||nenmu1obbi.info^
 ||szmtd.cn^
 ||btwwzqdx.xyz^
+||ttwwzqdx.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
