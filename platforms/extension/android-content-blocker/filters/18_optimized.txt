@@ -1,9 +1,9 @@
-! Checksum: 4pNCklj1RHGpugzfy3Nu3g
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1704717351-3600.patch
+! Checksum: M6IZ2T/pzs6KdMhrx7xS4Q
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1704720950-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.88
-! TimeUpdated: 2024-01-08T12:32:05+00:00
+! Version: 2.0.30.89
+! TimeUpdated: 2024-01-08T13:32:08+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1385,9 +1385,6 @@ autoczescizielonki.pl#$#body { overflow: auto !important; padding-right: 0 !impo
 mentoday.ru##.app-popup
 pdfextra.com##.display-cookies
 theloadstar.com###lc-cookie-bar
-nouvelobs.com#$#.gdpr-glm-wall { display: none !important; }
-nouvelobs.com#$#body[class] { overflow: auto !important; }
-nouvelobs.com#$#html[class] { overflow: auto !important; }
 inpa.gov.it##.ngx-lib-privacy-cookie-banner-backdrop
 bo3.gg##.c-modal-cookie
 walmart.ca##div[data-testid="privacy-banner"]

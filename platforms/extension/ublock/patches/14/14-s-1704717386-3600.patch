@@ -1,0 +1,16 @@
+d2 2
+a3 2
+! Checksum: 99vCxA5BUM0TYCtvAYL0TA
+! Diff-Path: ../patches/14/14-s-1704720984-3600.patch
+d6 2
+a7 2
+! Version: 2.1.84.5
+! TimeUpdated: 2024-01-08T13:31:58+00:00
+d2660 3
+d11242 1
+a28174 1
+||pushouse.com^$third-party
+a46477 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/170094
+! Streamplay - speed up loading captcha
+stre4mplay.*,streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##+js(adjust-setTimeout, letgo, *, 0.001)

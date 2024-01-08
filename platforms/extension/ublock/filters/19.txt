@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6ww1kkQoX9KCNCMMtjQC2A
-! Diff-Path: ../patches/19/19-s-1704717388-3600.patch
+! Checksum: 9BuHlqQeSA6E/hBdD67gYA
+! Diff-Path: ../patches/19/19-s-1704720985-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.60
-! TimeUpdated: 2024-01-08T12:32:08+00:00
+! Version: 2.0.29.61
+! TimeUpdated: 2024-01-08T13:32:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10775,6 +10775,7 @@ epaper.thehindu.com,h5.g123.jp,accounts.binance.com,zlavomat.sk,id.rambler.ru,pi
 .name/?pus=$script,third-party
 .site/?pus=$script,third-party
 !
+||pushouse.com^$third-party
 ||dpns-notifications.com^
 ||cdn-server.live^$third-party
 ||potisni.me^$third-party
