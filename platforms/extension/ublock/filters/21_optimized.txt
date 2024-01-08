@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Q6buXQYXCkBnb3LV/HF5UA
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1704720987-3600.patch
+! Checksum: Ex+gCovX3HVxHzr2d0qE1Q
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1704722606-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.43
-! TimeUpdated: 2024-01-08T13:32:23+00:00
+! Version: 2.0.18.44
+! TimeUpdated: 2024-01-08T13:59:29+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
@@ -2628,7 +2628,7 @@ joongang.co.kr##+js(abort-on-property-write, history.pushState)
 pahe.win##+js(nano-setInterval-booster, count, , 0.02)
 insurglobal.xyz##+js(nano-setInterval-booster, yuidea-, *, 0.02)
 premads.com##+js(nano-setInterval-booster, myCounter, *, 0.001)
-infortechno.com,getintoway.com,gktech.uk,worldmak.com,ftuapps.dev,dl.tech-story.net,themorningtribune.com,veganho.co,veganal.co,mosqam.com,bimo-cash.readi.online,blog.textpage.xyz,claimlite.club,bitcomarket.net,1apple.xyz,mcrypto.club,gamepure.in,veganab.co,apkmaven.io,gaminplay.com,choiceappstore.xyz,pn.cgchotbox.com,worldappsstore.xyz,gifans.com,iptvjournal.com,kienthucrangmieng.com,coin-free.com,moddingzone.in,insurance-space.xyz,blognews.in,noithatmyphu.vn,dulichkhanhhoa.net,therootdroid.com##+js(nano-setInterval-booster, /wpsafe|wait/, *, 0.001)
+mayaremix.in,infortechno.com,getintoway.com,gktech.uk,worldmak.com,ftuapps.dev,dl.tech-story.net,themorningtribune.com,veganho.co,veganal.co,mosqam.com,bimo-cash.readi.online,blog.textpage.xyz,claimlite.club,bitcomarket.net,1apple.xyz,mcrypto.club,gamepure.in,veganab.co,apkmaven.io,gaminplay.com,choiceappstore.xyz,pn.cgchotbox.com,worldappsstore.xyz,gifans.com,iptvjournal.com,kienthucrangmieng.com,coin-free.com,moddingzone.in,insurance-space.xyz,blognews.in,noithatmyphu.vn,dulichkhanhhoa.net,therootdroid.com##+js(nano-setInterval-booster, /wpsafe|wait/, *, 0.001)
 technoashwath.com##+js(adjust-setTimeout, /waiting|\.classList\.remove|gotoo/, *, 0.02)
 forexeen.us,health-and.me##+js(nano-setInterval-booster, counter, , 0.02)
 mdn.rest##+js(set-constant, waitTime, 0)
