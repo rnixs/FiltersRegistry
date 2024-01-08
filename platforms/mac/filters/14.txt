@@ -1,9 +1,9 @@
-! Checksum: 8VzlpXgl36ZHuN41CQ1nZA
-! Diff-Path: ../patches/14/14-s-1704746179-3600.patch
+! Checksum: 3+DF+W/Fe58vNjqzPplRGw
+! Diff-Path: ../patches/14/14-s-1704749778-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.7
-! TimeUpdated: 2024-01-08T20:31:54+00:00
+! Version: 2.1.84.8
+! TimeUpdated: 2024-01-08T21:31:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -30378,6 +30378,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+sketchplanations.com#%#//scriptlet('trusted-set-cookie', 'mjPopinShown', 'true')
 la-croix.com#%#//scriptlet('trusted-set-cookie', 'ap_popin_newsletter', 'is-display')
 systemed.fr##.text-center:has(.inscription-nl)
 systemed.fr###insidedroite > div:has(> form.inscription-nl)
