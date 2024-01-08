@@ -1,9 +1,9 @@
-! Checksum: t18LSriXNNj5AlntY3QrYA
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1704677771-3600.patch
+! Checksum: 3tl02GufA3z7aSmUJNX/Ww
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1704681385-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.7.82
-! TimeUpdated: 2024-01-08T01:32:38+00:00
+! Version: 2.1.7.83
+! TimeUpdated: 2024-01-08T02:32:32+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -5617,6 +5617,7 @@ newduba.cn###jq_youxi
 ||wewbnso.cn^
 ||dkyd6.xyz^
 ||utwwzqdx.xyz^
+||nenmu1obbi.info^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -13679,6 +13680,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||yueipaoo.xyz^*.gif
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -19333,6 +19335,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
 @@/home/ads/*$domain=esunbank.com.tw
+@@||wwads.cn/js/makemoney.js$domain=nodejs.cn
 @@/image/ad/*$domain=gashpoint.com
 @@/images/*/*.gif$domain=maichun5.info|myhhg.com
 @@/images/ad/*$domain=9588.com|casio.com.cn|dod-tec.com|ourgame.com|pro-partner.com.tw|snh48.com|tingbook.com
