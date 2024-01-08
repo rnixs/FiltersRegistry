@@ -1,9 +1,9 @@
-! Checksum: iKhSotXakb8tm1kbosusIQ
-! Diff-Path: ../patches/9/9-s-1704479803-3600.patch
+! Checksum: mTOgpY2jFYv1ApzwfpFvDw
+! Diff-Path: ../patches/9/9-s-1704703060-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.22.77
-! TimeUpdated: 2024-01-05T18:33:35+00:00
+! Version: 2.0.22.78
+! TimeUpdated: 2024-01-08T08:34:26+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -512,7 +512,8 @@ nptmedia.tv#%#//scriptlet('prevent-fetch', '/pagead2\.googlesyndication\.com|ads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168950
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142951
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142462
-netcine2.la#%#//scriptlet('abort-on-stack-trace', 'alert', 'eval')
+netcine3.la#%#//scriptlet('abort-on-stack-trace', 'alert', 'eval')
+netcine3.la#%#//scriptlet('abort-on-stack-trace', 'history.go', 'eval')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142265
 antoniomote.com#$#[id].adsbox.doubleclick.ad-placement { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142266

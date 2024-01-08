@@ -1,9 +1,9 @@
-! Checksum: jr2Yx49NHGifmd6P6ieFSA
-! Diff-Path: ../patches/14/14-s-1704699416-3600.patch
+! Checksum: L5igVtmbOHEGlUeE3rZu3w
+! Diff-Path: ../patches/14/14-s-1704703061-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.0
-! TimeUpdated: 2024-01-08T07:32:21+00:00
+! Version: 2.1.84.1
+! TimeUpdated: 2024-01-08T08:32:49+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -28495,6 +28495,8 @@ auto.ru#?#body > div:has(> div.Modal > div.Modal__container > div[class*="Admins
 !
 ! END: Yandex
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169531#issuecomment-1877526044
+||smetrics.telegraph.co.uk^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166762#issuecomment-1820750011
 abema.tv#$#.body--prevent-scroll { overflow: auto !important; }
 abema.tv#$#.com-onboarding-OnboardingModalContainerView--enter-done { display: none !important; }

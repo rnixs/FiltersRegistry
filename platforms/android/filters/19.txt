@@ -1,9 +1,9 @@
-! Checksum: FBBz7htb92yjSYmzrxyreA
-! Diff-Path: ../patches/19/19-s-1704569758-3600.patch
+! Checksum: 7i8Ho6TCgwxRwrsUxN5DqQ
+! Diff-Path: ../patches/19/19-s-1704703003-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.57
-! TimeUpdated: 2024-01-06T19:32:25+00:00
+! Version: 2.0.29.58
+! TimeUpdated: 2024-01-08T08:33:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10243,6 +10243,8 @@ auto.ru#?#body > div:has(> div.Modal > div.Modal__container > div[class*="Admins
 !
 ! END: Yandex
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169531#issuecomment-1877526044
+||smetrics.telegraph.co.uk^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166762#issuecomment-1820750011
 abema.tv#$#.body--prevent-scroll { overflow: auto !important; }
 abema.tv#$#.com-onboarding-OnboardingModalContainerView--enter-done { display: none !important; }
