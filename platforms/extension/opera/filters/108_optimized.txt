@@ -1,9 +1,9 @@
-! Checksum: KzHKeQK1OpcSS68LiSqvPQ
-! Diff-Path: ../patches/108_optimized/108_optimized-s-1704344787-14400.patch
+! Checksum: rmj3KMm+2g6s57fRDrE5gA
+! Diff-Path: ../patches/108_optimized/108_optimized-s-1704719717-14400.patch
 ! Title: EasyList Hebrew (Optimized)
 ! Description: Additional filter list for websites in Hebrew.
-! Version: 2.0.4.54
-! TimeUpdated: 2024-01-04T05:01:42+00:00
+! Version: 2.0.4.55
+! TimeUpdated: 2024-01-08T13:01:54+00:00
 ! Expires: 5 days (update frequency)
 ||213.8.137.51^
 ||activated.co.il^$third-party
@@ -573,7 +573,6 @@ zegvid.net##*
 @@/ads.min.js?$script,~third-party,domain=13news.co.il|13tv.co.il
 @@/adunits.$script,~third-party,domain=13news.co.il|13tv.co.il
 @@/advert.$image,domain=13news.co.il|13tv.co.il
-@@?pageurl=$xmlhttprequest,third-party,domain=sdarot.buzz|sdarot.tw
 @@||2mdn.net/instream/video/client.js$script,domain=13news.co.il|13tv.co.il|hamal.co.il|mako.co.il|ynet.co.il
 @@||a7.org/Combine.js$script,domain=inn.co.il
 @@||a7.org/cab/*.min.js$script,domain=inn.co.il
@@ -632,7 +631,7 @@ zegvid.net##*
 @@||holmesplace.co.il/sites/all/modules$domain=holmesplace.co.il
 @@||hwzone.co.il/wp-content/plugins/wpadverts/assets/js/adverts-frontend.js$script,~third-party
 @@||imaot.co.il/Recipe/$xmlhttprequest
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=13news.co.il|13tv.co.il|calcalist.co.il|hamal.co.il|maariv.co.il|mako.co.il|n12.co.il|one.co.il|sdarot.buzz|sdarot.tw|sport5.co.il|tech12.co.il|tvbee.co.il|ynet.co.il
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=13news.co.il|13tv.co.il|calcalist.co.il|hamal.co.il|maariv.co.il|mako.co.il|n12.co.il|one.co.il|sport5.co.il|tech12.co.il|tvbee.co.il|ynet.co.il
 @@||info.a7.org/info/a7delivery_f.php$script,domain=inn.co.il
 @@||info.a7.org/info/delivery/lg*.php?$image,domain=inn.co.il
 @@||info.jdn.co.il/r/a7delivery_f.php?func=fLoadOne$script
@@ -676,7 +675,6 @@ zegvid.net##*
 @@||shukitv.ucoz.com/script/ads.js
 @@||sport5.co.il^*/dfp.$script,~third-party
 @@||sport5.co.il^*/dfp/$script,~third-party
-@@||static.sdarot.*^*/plugins/*/videojs.ads.$script,stylesheet,~third-party,domain=sdarot.buzz|sdarot.tw
 @@||static.site24x7rum.com/beacon/site24x7rum-min.js$script,domain=one.co.il
 @@||tags.dxmdp.com/tags/$script,domain=13news.co.il|13tv.co.il
 @@||taimeod.co.il^$document
@@ -746,6 +744,7 @@ radio-head.co.il##.ad-100-300
 radio-head.co.il##.ad-300-600
 rlive.co.il##.ad-container-row
 rlive.co.il##.adv.anchor
+rotter.co.il##.ads
 walla.co.il##.no-desktop.homepage-mobile-top-ad
 yad2.co.il##.iosLoad.mobile_strip_top
 yad2.co.il##.iosLoad.mobile_top_dfp_placeholder_bill
@@ -1038,7 +1037,6 @@ rateonclick.com##a[href*="campaigns.layer.co.il/"]
 rlive.co.il##.adv-placeholder
 rlive.co.il##.is-only-desktop.ad-container
 rlive.co.il##.station-middle-ad
-rotter.co.il##.ads
 rotter.name##.bookingaff
 rotter.name##a[href*="theadblockerproject.org"]
 rotter.net###RoterHePromo
@@ -1081,7 +1079,6 @@ sport5.co.il##[onclick*="hpClickEvent('mako');"]
 sport5.co.il##[src^="https://meitavads-"]
 sports.walla.co.il##.type-2.common-hp-articles.sequence
 sports.walla.co.il##[src="/public/assets/sport/winner_logo.webp"]
-sratim.tv,sratim.video##.advertisment-wrapper
 srugim.co.il##.gapunit
 srugim.co.il##.kidums_separate
 srugim.co.il##.srugim_top_slider
@@ -1267,8 +1264,6 @@ hm-news.co.il###sticky_banner_bottom_mobile
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=nooptext,domain=jmusic.me
 jmusic.me#%#//scriptlet('ubo-aopr.js', 'mdp_deblocker')
 jmusic.me#%#//scriptlet('ubo-nostif.js', 'mdpDeBlocker')
-sdarot.*#$?##afterLoad { display: block !important }
-sdarot.*##[href*="channel22.co.il"]
 koozi.info#$#.tien-ads-video > div#player { visibility: visible!important; }
 koozi.info#$#.tien-ads-video { background: none!important; }
 www-globes-co-il.eu1.proxy.openathens.net#%#//scriptlet('ubo-set.js', 'document.blocked_var', '1')

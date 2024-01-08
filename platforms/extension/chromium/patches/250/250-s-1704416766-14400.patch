@@ -1,0 +1,217 @@
+d1 2
+a2 2
+! Checksum: vbSLFSWLyWqfh/GQKV9G5g
+! Diff-Path: ../patches/250/250-s-1704719496-14400.patch
+d5 2
+a6 2
+! Version: 2.0.12.90
+! TimeUpdated: 2024-01-08T13:03:20+00:00
+d486 1
+a486 1
+! OriginalVersion: 29December2023v2
+d917 4
+a920 21
+! ——— Typo squatting, misspellings, and honest TLD address bar mistakes ———
+||ubuntu.org^$document,domain=~you-were-likely-looking-for-ubuntu.com
+||speedtest.com^$document,domain=~you-were-likely-looking-for-speedtest.net
+||snapchat.cm^$document,domain=~malware-typo-squatter-of-snapchat.com
+||facebook.cm^$document,domain=~malware-typo-squatter-of-facebook.com
+||wix.cm^$document,domain=~malware-typo-squatter-of-wix.com
+|http://ww01.$document,domain=~very-very-extremely-frequently-used-in-malware-redirections.*
+! https://github.com/DevSpen/links/blob/master/src/links.txt
+||steamcommin*$document,domain=~likely-a-fake-malware-version-of-steamcommunity.com
+||steamconnu*$document,domain=~likely-a-fake-malware-version-of-steamcommunity.com
+||steancomm*$document,domain=~likely-a-fake-malware-version-of-steamcommunity.com
+||free-discordnitro.$all
+||freediscordnitro.$all
+||githubus.com^$document,domain=~you-were-likely-looking-for-githubusercontent.com
+||githubu.com^$document,domain=~you-were-likely-looking-for-githubusercontent.com
+||githu.com^$document,domain=~you-were-likely-looking-for-github.com
+||wgithub.com^$document,domain=~you-were-likely-looking-for-githubusercontent.com
+||githubuser.com^$document,domain=~you-were-likely-looking-for-githubusercontent.com
+||rgithub.com^$document,domain=~you-were-likely-looking-for-githubusercontent.com
+||githubt.com^$document,domain=~you-were-likely-looking-for-githubusercontent.com
+! https://scammer.info/t/discord-nitro-scam-25/87887
+d941 1
+a941 1
+||zeroredirect5.com^$document,domain=~malware-redirection-trains.*
+d944 1
+d953 3
+d966 7
+d977 1
+d982 3
+a984 3
+||bemobtracks.com^$document,popup,domain=~malware-redirection-trains.*
+||bemobtrk.com^$document,popup,domain=~malware-redirection-trains.*
+||bemobpath.com^$document,popup,domain=~malware-redirection-trains.*
+d4112 1
+d4184 2
+a4185 2
+||best-prizes-202*.com^$document,domain=~malware-site.*
+||all-best-prize-202*.com^$document,domain=~malware-site.*
+d4193 2
+d4261 1
+d4381 1
+d4401 1
+d4411 1
+d4422 1
+a4422 1
+||trc.*.co^$document,domain=~malware-redirection-trains.*
+d4510 1
+d4515 2
+d4518 1
+d4548 1
+d4559 1
+a4559 1
+||trkk4.com^$document,domain=~malware-redirection-trains.*
+d4561 1
+a4561 1
+||hosting-redirect.com^$document,domain=~malware-redirection-trains.*
+d4654 1
+d4683 1
+d4691 26
+d4852 2
+d4883 1
+a4883 1
+/(^|\.|://)[a-z0-9-]{2,}trk\.xyz(/|$)/$document,popup,domain=~malware-redirection-trains.*
+d4942 2
+a4943 1
+/trk2/*?lddomain=$document,domain=~very-likely-a-malware-redirection.*
+d4947 2
+a4948 2
+||cpmrevdirect.com^$document,domain=~malware-redirection-trains.*
+||rtbverdirect.com^$document,domain=~malware-redirection-trains.*
+d4950 6
+a4955 6
+||cpmvrdirect.com^$document,domain=~malware-redirection-trains.*
+||fadverdirect.com^$document,domain=~malware-redirection-trains.*
+||cpmrvdirect.com^$document,domain=~malware-redirection-trains.*
+||rtbrevdirect.com^$document,domain=~malware-redirection-trains.*
+||rtbvrdirect.com^$document,domain=~malware-redirection-trains.*
+||cpmverdirect.com^$document,domain=~malware-redirection-trains.*
+d4964 1
+d4969 1
+d4993 1
+d4995 1
+a4995 1
+/mcafee-safe-browsing/?*=*&*=*&*=*&*=*&*=*&*=$document,popup,domain=~fake-site-with-malware.*
+d5239 4
+d5507 1
+d5544 1
+a5544 1
+/pushredirect/?$document,domain=~malware-redirection-trains.*
+d6337 1
+d7383 1
+d7777 1
+d10775 1
+d10777 1
+a10777 1
+||redirect.newprogrammatic.click^$document,domain=~likely-a-malware-redirection.*
+d10811 1
+a10811 1
+/land/*&afftrack=$document,domain=~likely-a-malware-redirection.*
+d11100 2
+d11128 2
+d11258 1
+d11345 1
+d11353 1
+d11421 1
+d11453 12
+d11750 1
+a11750 1
+||go.redirected*/click?^$document,popup,domain=~malware-redirection-trains.*
+d12051 1
+d12604 1
+d17179 1
+a17179 1
+://trk.*.run/$document,domain=~very-likely-a-malware-redirection-train.*
+d17268 1
+d17393 1
+d17610 6
+d19564 1
+a19564 1
+||redirectme.net^$document,domain=~malware-redirection-trains.*
+d19570 11
+d19584 2
+d19591 2
+d19597 12
+d20324 2
+d20331 4
+d20340 2
+d20397 1
+d20466 2
+a20467 2
+|http://www6.$document,domain=~often-used-in-malware-redirections.*
+|http://www1.*&kw$document,domain=~often-used-in-malware-redirections.*
+d20512 1
+d20845 1
+d22860 3
+a22862 3
+/^https?://[a-z0-9.-]{1,}\.([a-z]{3,}|[a-z][a-tv-z]|[a-qs-z][a-z])/.*(go\.php|redirect|url=|\?re=).*\.(xn--p1ai|рф|%D1%80%D1%84)$/$document,domain=~malware-redirection-results.*
+||adservice.google.*/ddm/clk/$document,domain=~malware-redirection-results.*
+/ad_click/q?&url=$document,domain=~malware-redirection-results.*
+d22867 15
+a22881 7
+||unofficialtwrp.com^$document,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
+||androidweblog.com^$document,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
+||androidgreek.com^$document,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
+||ytechb.com^$document,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
+||gadgetstwist.com^$document,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
+||gadgetsfarms.com^$document,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
+||techorfy.com^$document,domain=~had-not-updated-their-root-guides-to-reflect-a-b-partition-phones-as-of-2021.*
+d22889 41
+a22929 41
+://ww10.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww11.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww12.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww13.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww14.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww15.$document,domain=~ww15.nl|~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww16.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww17.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww18.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww19.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww20.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww21.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww22.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww23.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww24.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww25.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww26.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww27.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww28.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww29.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww30.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww31.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww32.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww33.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww34.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww35.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww36.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww37.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww38.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww39.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww40.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww41.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww42.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww43.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww44.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww45.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww46.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww47.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww48.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww49.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+://ww50.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
+d22960 6
+d25649 1
+a25649 1
+! OriginalVersion: 07January2023v1
+d29161 1
+a29161 1
+!!! $removeparam=rdt,doc,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
+a29372 5
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-8036123
+$document,removeparam=sms_click
+$document,removeparam=sms_source
+$document,removeparam=sms_uph
+$document,removeparam=ttclid
