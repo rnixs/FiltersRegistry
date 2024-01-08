@@ -2560,15 +2560,15 @@ tiwall.com##.sponsor-link
 tinn.ir##[href^="/advertisements/"]
 tinn.ir##.type-resource-image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96925
-||tgju.org/cdn-cgi/apps/head^$script,~third-party
-||api.tgju.org/v1/advertisement^$xmlhttprequest,~third-party
+!#if cap_html_filtering
 tgju.org$$script[tag-content="ad.setAttribute"][max-length="262144"]
-!#if !cap_html_filtering
-tgju.org#%#//scriptlet('ubo-acis.js', 'document.getElementById', 'ad')
+!#else
+tgju.org#%#//scriptlet('ubo-rmnt.js', 'script', 'ad.setAttribute')
 !#endif
-tgju.org##.advertise
-tgju.org##.bottom-left-ad
-tgju.org##.bottom-right-ad
+||static.tgju.org/advertisement^$image,~third-party
+tgju.org##ul.advertise
+tgju.org##div.bottom-left-ad
+tgju.org##div.bottom-right-ad
 tejaratnews.com##.tj-ad-box
 tejaratnews.com##.home-web-surfing
 tejaratnews.com##.full-width-tabligh

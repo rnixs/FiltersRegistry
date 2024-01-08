@@ -1,15 +1,15 @@
-! Checksum: t9EdJT2Hqx8JaeXI/z4Mhw
-! Diff-Path: ../patches/109/109-s-1704720381-14400.patch
+! Checksum: r8li9WABHc9r/Cb6Re3Wew
+! Diff-Path: ../patches/109/109-s-1704733630-14400.patch
 ! Title: EasyList Italy
 ! Description: Additional filter list for websites in Italian.
-! Version: 2.1.41.72
-! TimeUpdated: 2024-01-08T13:01:56+00:00
+! Version: 2.1.41.73
+! TimeUpdated: 2024-01-08T17:01:55+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: T2ijpWVR4vKLPQxfXUxA/Q
-! OriginalVersion: 202401081251
+! Checksum: uBHnBYtFtLzOkfW7E80oDA
+! OriginalVersion: 202401081651
 ! Title: EasyList Italy
-! Last modified: 08 Jan 2024 12:51 UTC
+! Last modified: 08 Jan 2024 16:51 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -117,6 +117,13 @@ _sito/adv/
 ###adk_spalla-bottom
 ###adk_spalla-middle
 ###adk_spalla-top
+###adv-Middle1-hr
+###adv-Middle1-mobile
+###adv-Middle2-mobile
+###adv-Middle3
+###adv-Middle3-mobile
+###adv-x40
+###adv-x40-mobile
 ###adv_nativa
 ###advertisingStriscia
 ###eadv-aside
@@ -1661,7 +1668,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||zonalotto.it/banner_
 ||zonalotto.it/banner_zl/
 !
-/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$script,third-party,xmlhttprequest,domain=calcio.re|guardaserie01.click|pepperlive.info
+/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$script,third-party,xmlhttprequest,domain=calcio.re|guardaserie01.click|pepperlive.info|streamingcommunity.cz
 /^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$script,third-party,xmlhttprequest,domain=ilgeniodellostreaming.zone
 ! (/sw.js)
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,domain=mrpornogratis.it|pornototale.com
@@ -2384,7 +2391,7 @@ operaclick.com###head-left-banner
 operaclick.com###head-right-banner
 ferrovie.it###head_r
 centrometeoitaliano.it###head_skin_placeholder
-altamuralife.it,andriaviva.it,bariviva.it,barlettaviva.it,bisceglieviva.it,bitontoviva.it,canosaviva.it,cerignolaviva.it,coratoviva.it,giovinazzoviva.it,gravinalife.it,hotelmag.it,margheritaviva.it,materalife.it,minervinoviva.it,modugnoviva.it,molfettaviva.it,pugliaviva.it,ruvoviva.it,sanferdinandoviva.it,spinazzolaviva.it,terlizziviva.it,traniviva.it,trinitapoliviva.it###header-banner
+altamuralife.it,andriaviva.it,bariviva.it,barlettaviva.it,bisceglieviva.it,bitontoviva.it,canosaviva.it,cerignolaviva.it,coratoviva.it,giovinazzoviva.it,gravinalife.it,hotelmag.it,insella.it,margheritaviva.it,materalife.it,minervinoviva.it,modugnoviva.it,molfettaviva.it,pugliaviva.it,ruvoviva.it,sanferdinandoviva.it,spinazzolaviva.it,terlizziviva.it,traniviva.it,trinitapoliviva.it###header-banner
 transfermarkt.it###home-rectangle-newsticker
 transfermarkt.it###home-rectangle-spotlight
 filmatipornohd.com###horizontal-banner
@@ -2768,7 +2775,9 @@ primaonline.it##.blocco-autopromo-container
 winenews.it##.blocco_banner_top
 giornaledellamusica.it##.block-ad-gdm
 corrierecesenate.it,lavitacattolica.it##.block-banners
+alvolante.it##.block-banners-manzoni
 cascinanotizie.it##.block-block
+alvolante.it##.block-dcbanners-header
 lavocedimanduria.it##.block-first-ads
 ilroma.net##.block-rotating-banner
 iphoneitalia.com##.block_vidverto
@@ -2920,6 +2929,7 @@ bussolafinanziaria.it##.elementor-element-d185417
 business24tv.it##.elementor-element-d7cafb1
 tv9italia.it##.elementor-element-d985f61
 nuoto.com##.elementor-element-dc93016
+lacittadisalerno.it##.elementor-element-e1e064e
 rovigo.news##.elementor-element-e55fe4b
 tuttopisa.com##.elementor-element-eafee8c
 lostrillonenews.it##.elementor-element-f5fc7c3
@@ -3532,6 +3542,7 @@ controradio.it##div[id^="contr-"]
 corriereal.info,corriereromagna.it##div[id^="corri-"]
 crotoneok.it##div[id^="croto-"]
 filmtv.it##div[id^="datalit_"]
+alvolante.it##div[id^="dfp-alv-"]
 umbriatv.com##div[id^="div-home-banner-"]
 ekuonews.it##div[id^="ekuon-"]
 eurofestivalnews.com##div[id^="eurof-"]

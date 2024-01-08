@@ -4156,6 +4156,8 @@ autohero.com##+js(set-cookie, consent, 1)
 bargaintown.ie##+js(set-cookie, cookie-bar, no)
 ! Rule "tui.nl##+js(set-cookie, CookiesAccepted, no)" converted to: "tui.nl#%#//scriptlet('ubo-set-cookie.js', 'CookiesAccepted', 'no')"
 tui.nl##+js(set-cookie, CookiesAccepted, no)
+! Rule "doppelmayr.com##+js(set-cookie, essential, true)" converted to: "doppelmayr.com#%#//scriptlet('ubo-set-cookie.js', 'essential', 'true')"
+doppelmayr.com##+js(set-cookie, essential, true)
 ! Rule "finimize.com##+js(set-cookie, cookie_consent, false)" converted to: "finimize.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', 'false')"
 finimize.com##+js(set-cookie, cookie_consent, false)
 ! Rule "rtu.lv##+js(set-cookie, uce-cookie, N)" converted to: "rtu.lv#%#//scriptlet('ubo-set-cookie.js', 'uce-cookie', 'N')"

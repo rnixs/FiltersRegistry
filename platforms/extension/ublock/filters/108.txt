@@ -1,15 +1,15 @@
 ![Adblock Plus 2.0]
-! Checksum: SEzH+wr9/A4aHAdF96n9yg
-! Diff-Path: ../patches/108/108-s-1704719942-14400.patch
+! Checksum: yh3lqSaytfl80U7jeGnwsw
+! Diff-Path: ../patches/108/108-s-1704733609-14400.patch
 ! Title: EasyList Hebrew
 ! Description: Additional filter list for websites in Hebrew.
-! Version: 2.0.4.55
-! TimeUpdated: 2024-01-08T13:01:54+00:00
+! Version: 2.0.4.56
+! TimeUpdated: 2024-01-08T17:01:54+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: tdKd4UMol4K5y06I1PtHag
+! Checksum: 9wCVr1Y99nkaoKg+MlweZQ
 ! Title: EasyList Hebrew
-! Last modified: 07 Jan 2024 02:39 UTC
+! Last modified: 08 Jan 2024 16:34 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/EasyListHebrew
 ! Licence: https://easylist.to/pages/licence.html
@@ -540,6 +540,7 @@
 !
 !--------------------------1st party blocking rules---------------------------!
 !
+||avoda-mehabait.co.il^
 ||banners.news1.co.il^
 ||banners.news1.co.il^$popup
 ||beaverscripts.com/openwindow.js
@@ -554,6 +555,7 @@
 ||player.vimeo.com/video/383596619|$subdocument,domain=ch10.co.il
 ||psakdin.co.il/Pictures/Banners/
 ||raddar.co.il/bannersa.php
+||saphiretelavivisrael.com^
 ||shoofoo.co.il/banners
 ||takana.co.il^$image,third-party
 ||wcdn.co.il/banners/
@@ -570,6 +572,7 @@
 ##.wpvl.wpvl-youtube.ng-scope.size-xl > .ng-scope + .fblogin.lockoverlay.ng-scope
 ##.wpvl.wpvl-youtube.ng-scope.size-xxl > [ng-show="!blocked"] + * + .ng-scope + .fblogin.lockoverlay.ng-scope
 asface.pw##*
+avoda-mehabait.co.il##*
 balimon.info##*
 bitys.pw##*
 bobuzz.com##*
@@ -619,6 +622,7 @@ movitop.info##*
 mporli.info##*
 myvod.me##*
 pinukim.net##*
+saphiretelavivisrael.com##*
 sdarotil.top##*
 seret.live##*
 shaardollar.co.il##*

@@ -1,9 +1,9 @@
-! Checksum: Uy+ombIb6FDTj9QYf1lJpw
-! Diff-Path: ../patches/104_optimized/104_optimized-s-1704719498-14400.patch
+! Checksum: p11tDP6UunqgUz648DYSQA
+! Diff-Path: ../patches/104_optimized/104_optimized-s-1704733588-14400.patch
 ! Title: EasyList China (Optimized)
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.33.55
-! TimeUpdated: 2024-01-08T13:01:51+00:00
+! Version: 2.1.33.56
+! TimeUpdated: 2024-01-08T17:01:51+00:00
 ! Expires: 5 days (update frequency)
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
@@ -999,6 +999,7 @@ newduba.cn###jq_youxi
 ||btfjjwt.xyz^
 ||bthypgm.cn^
 ||btnwxhjv.xyz^
+||btwwzqdx.xyz^
 ||bujz.top^
 ||buoizbtl.xyz^
 ||buxfznnf.xyz^
@@ -1069,6 +1070,7 @@ newduba.cn###jq_youxi
 ||djiuss.cn^
 ||djponj.xyz^
 ||dkvakldvnsv.com^
+||dkyd6.xyz^
 ||dnn1300.top^
 ||dotuij.top^
 ||dpj0uvy.icu^
@@ -1122,6 +1124,7 @@ newduba.cn###jq_youxi
 ||exemptambientcream.com^
 ||eyjvq.xyz^
 ||eypqbjju.xyz^
+||eyyqwd.icu^
 ||ezacci.xyz^
 ||ezeqcy.xyz^
 ||f23al.xyz^
@@ -1230,6 +1233,7 @@ newduba.cn###jq_youxi
 ||gscsahv012.com^
 ||gscsahv013.com^
 ||gscsahv014.com^
+||gsiawq.xyz^
 ||gslejoki.xyz^
 ||gszetzdm.xyz^
 ||gth112.com^
@@ -1415,6 +1419,7 @@ newduba.cn###jq_youxi
 ||ksvkfwth.xyz^
 ||ktnwxhjv.xyz^
 ||ktvtxir.xyz^
+||ktwwzqdx.xyz^
 ||kuoizbtl.xyz^
 ||kuxfznnf.xyz^
 ||kvhee.com^
@@ -1423,6 +1428,7 @@ newduba.cn###jq_youxi
 ||kvskknklssv.com^
 ||kvsvug.xyz^
 ||kwtgntyu.xyz^
+||kxdhrqz.xyz^
 ||kycxhgrp.xyz^
 ||kydzfldt.xyz^
 ||kyikdee.cn^
@@ -1466,6 +1472,7 @@ newduba.cn###jq_youxi
 ||lnxpdj.xyz^
 ||lovespenhas.com^
 ||lppgjf.xyz^
+||lrbvxx.xyz^
 ||lryqef.xyz^
 ||lsce.top^
 ||lutrbr.xyz^
@@ -1537,6 +1544,7 @@ newduba.cn###jq_youxi
 ||mstkvnya.xyz^
 ||msvkfwth.xyz^
 ||mtnwxhjv.xyz^
+||mtwwzqdx.xyz^
 ||muoizbtl.xyz^
 ||murdyq.com^
 ||muycpg.xyz^
@@ -1567,6 +1575,7 @@ newduba.cn###jq_youxi
 ||neeujqf.cn^
 ||nefrpt.top^
 ||negnixa.cn^
+||nenmu1obbi.info^
 ||nerydw.xyz^
 ||newpgqnfapkamg.xyz^
 ||nfldgbt.xyz^
@@ -1773,6 +1782,7 @@ newduba.cn###jq_youxi
 ||szbpf.cn^
 ||szbxm.cn^
 ||szmkr.cn^
+||szmtd.cn^
 ||szmty.cn^
 ||szpbg.cn^
 ||tafuzcxr.xyz^
@@ -1822,6 +1832,7 @@ newduba.cn###jq_youxi
 ||tszoxhtk.xyz^
 ||ttgjwxp.icu^
 ||ttnwxhjv.xyz^
+||ttwwzqdx.xyz^
 ||tunovl.xyz^
 ||tuoizbtl.xyz^
 ||tupwiwm.com^
@@ -1877,6 +1888,7 @@ newduba.cn###jq_youxi
 ||usvkfwth.xyz^
 ||usxuyr.icu^
 ||utnwxhjv.xyz^
+||utwwzqdx.xyz^
 ||uuishsa.com^
 ||uuoizbtl.xyz^
 ||uuuzuu.xyz^
@@ -1944,6 +1956,7 @@ newduba.cn###jq_youxi
 ||waxin0gjue.cn^
 ||wecklrb.cn^
 ||werssf.com^
+||wewbnso.cn^
 ||wfqgfaa.cn^
 ||whdwydt.cn^
 ||whols.cn^
@@ -2107,18 +2120,6 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
-||ktwwzqdx.xyz^
-||gsiawq.xyz^
-||lrbvxx.xyz^
-||eyyqwd.icu^
-||kxdhrqz.xyz^
-||wewbnso.cn^
-||dkyd6.xyz^
-||utwwzqdx.xyz^
-||nenmu1obbi.info^
-||szmtd.cn^
-||btwwzqdx.xyz^
-||ttwwzqdx.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##a[href*=".337771.xyz"]
@@ -6340,6 +6341,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yt-adp.nosdn.127.net^
 ||yt-adp.ws.126.net^
 ||ytbbs.com/images/index/
+||yueipaoo.xyz^*.gif
 ||yuntue.com/zb_users/plugin/MoreLinks*.php
 ||yxdown.com/cj/
 ||yxdown.com/zt/zt/js/zt.js
@@ -6375,7 +6377,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zt2088.com^
 ||ztyumn.ifeng.com^
 ||zzzyk.com/js/
-||yueipaoo.xyz^*.gif
 szxx.com.cn###A1
 szxx.com.cn###A2
 21yq.com###AD1
@@ -8932,7 +8933,6 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@/api/ads?$domain=nmkjxy.com
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
-@@||wwads.cn/js/makemoney.js$domain=nodejs.cn
 @@/images/ad/*$domain=9588.com|casio.com.cn|dod-tec.com|ourgame.com|pro-partner.com.tw|snh48.com|tingbook.com
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/mobileads.$domain=naviking.localking.com.tw
@@ -9259,6 +9259,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||wgun.net^$elemhide
 @@||wuyong.fun^$generichide
 @@||wuyou.com.cn/Js/ad.js
+@@||wwads.cn/js/makemoney.js$domain=nodejs.cn
 @@||xbeibeix.com^$generichide
 @@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
 @@||xidian.edu.cn^$generichide

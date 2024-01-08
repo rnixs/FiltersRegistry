@@ -1150,14 +1150,12 @@ takhfifan.com##+js(set, _paq.push, noopFunc)
 ||takhfifan.com/static/matomo.js^$script,1p
 ! Rule "@@||toranji.ir/wp-content/uploads/*/Toranji-Banner-Ad-$image,1p" converted to: "@@||toranji.ir/wp-content/uploads/*/Toranji-Banner-Ad-$image,~third-party"
 @@||toranji.ir/wp-content/uploads/*/Toranji-Banner-Ad-$image,1p
-! Rule "||tgju.org/cdn-cgi/apps/head^$script,1p" converted to: "||tgju.org/cdn-cgi/apps/head^$script,~third-party"
-||tgju.org/cdn-cgi/apps/head^$script,1p
-! Rule "||api.tgju.org/v1/advertisement^$xhr,1p" converted to: "||api.tgju.org/v1/advertisement^$xmlhttprequest,~third-party"
-||api.tgju.org/v1/advertisement^$xhr,1p
 ! Rule "tgju.org##^script:has-text(ad.setAttribute)" converted to: "tgju.org$$script[tag-content="ad.setAttribute"][max-length="262144"]"
 tgju.org##^script:has-text(ad.setAttribute)
-! Rule "tgju.org##+js(acis, document.getElementById, ad)" converted to: "tgju.org#%#//scriptlet('ubo-acis.js', 'document.getElementById', 'ad')"
-tgju.org##+js(acis, document.getElementById, ad)
+! Rule "tgju.org##+js(rmnt, script, ad.setAttribute)" converted to: "tgju.org#%#//scriptlet('ubo-rmnt.js', 'script', 'ad.setAttribute')"
+tgju.org##+js(rmnt, script, ad.setAttribute)
+! Rule "||static.tgju.org/advertisement^$image,1p" converted to: "||static.tgju.org/advertisement^$image,~third-party"
+||static.tgju.org/advertisement^$image,1p
 ! Rule "tasnimnews.com##.col-md-9:style(width: 100% !important;)" converted to: "tasnimnews.com#$#.col-md-9 { width: 100% !important; }"
 tasnimnews.com##.col-md-9:style(width: 100% !important;)
 ! Rule "||uploadkon.ir/styles/UploadKon/assets/img/ad.png^$image,1p" converted to: "||uploadkon.ir/styles/UploadKon/assets/img/ad.png^$image,~third-party"

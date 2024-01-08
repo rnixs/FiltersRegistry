@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Y1AwQJjRBLUK76jm9joTxg
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1704720047-14400.patch
+! Checksum: rfh1U0NU/HOLUt6Bl8rU6g
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1704733610-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.18.99
-! TimeUpdated: 2024-01-08T13:02:18+00:00
+! Version: 2.1.19.0
+! TimeUpdated: 2024-01-08T17:02:17+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -11560,6 +11560,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||pushmaster-cdn.xyz^$third-party
 ||pushmejs.com^$third-party
 ||pushnews.eu^$third-party
+||pushouse.com^$third-party
 ||pushowl.com^$third-party
 ||pushpad.xyz^$third-party
 ||pushpanda.io^$third-party
@@ -17172,6 +17173,7 @@ understandingsociety.ac.uk##+js(set-cookie, ga-disable-UA-xxxxxxxx-x, true)
 autohero.com##+js(set-cookie, consent, 1)
 bargaintown.ie##+js(set-cookie, cookie-bar, no)
 tui.nl##+js(set-cookie, CookiesAccepted, no)
+doppelmayr.com##+js(set-cookie, essential, true)
 finimize.com##+js(set-cookie, cookie_consent, false)
 rtu.lv##+js(set-cookie, uce-cookie, N)
 sysdream.com##+js(set-cookie, tarteaucitron, false)

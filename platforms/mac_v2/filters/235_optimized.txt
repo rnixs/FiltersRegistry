@@ -1,9 +1,9 @@
-! Checksum: JRmu92UGf18E9raJl1UwgQ
-! Diff-Path: ../patches/235_optimized/235_optimized-s-1704258392-14400.patch
+! Checksum: 80fui2scsi9KnqWPEh6eSA
+! Diff-Path: ../patches/235_optimized/235_optimized-s-1704733628-14400.patch
 ! Title: Persian Blocker (Optimized)
 ! Description: Filter list for blocking ads and trackers on websites in Persian.
-! Version: 2.0.4.2
-! TimeUpdated: 2024-01-03T05:02:35+00:00
+! Version: 2.0.4.3
+! TimeUpdated: 2024-01-08T17:02:54+00:00
 ! Expires: 12 hours (update frequency)
 ~arongroups.site,~arongroups.co##a[href^="https://arongroups.site/"]
 ~arongroups.site,~arongroups.co##a[href^="https://arongroups.co/"]
@@ -2005,13 +2005,11 @@ tiwall.com##.slider-banners.partial
 tiwall.com##.sponsor-link
 tinn.ir##[href^="/advertisements/"]
 tinn.ir##.type-resource-image
-||tgju.org/cdn-cgi/apps/head^$script,~third-party
-||api.tgju.org/v1/advertisement^$xmlhttprequest,~third-party
-tgju.org$$script[tag-content="ad.setAttribute"][max-length="262144"]
-tgju.org#%#//scriptlet('ubo-acis.js', 'document.getElementById', 'ad')
-tgju.org##.advertise
-tgju.org##.bottom-left-ad
-tgju.org##.bottom-right-ad
+tgju.org#%#//scriptlet('ubo-rmnt.js', 'script', 'ad.setAttribute')
+||static.tgju.org/advertisement^$image,~third-party
+tgju.org##ul.advertise
+tgju.org##div.bottom-left-ad
+tgju.org##div.bottom-right-ad
 tejaratnews.com##.tj-ad-box
 tejaratnews.com##.home-web-surfing
 tejaratnews.com##.full-width-tabligh

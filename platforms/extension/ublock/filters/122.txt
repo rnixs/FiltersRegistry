@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: NgNWNxBkBSLzh8eeNTyKQg
-! Diff-Path: ../patches/122/122-s-1704720046-14400.patch
+! Checksum: Zx4WBD/exeo4EcdkmNM5gg
+! Diff-Path: ../patches/122/122-s-1704733610-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.18.99
-! TimeUpdated: 2024-01-08T13:02:18+00:00
+! Version: 2.1.19.0
+! TimeUpdated: 2024-01-08T17:02:17+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 3M1EZ2iZo3o73ro1glF5wg
-! OriginalVersion: 202401081215
+! Checksum: g2ZIwSAQIXmF9Gdc11Uc4A
+! OriginalVersion: 202401081640
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-08 12:15 UTC
+! Last modified: 2024-01-08 16:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34608,6 +34608,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||pushmejs.com^$third-party
 ||pushnews.eu^$third-party
 ||pushnotifications.click^$third-party
+||pushouse.com^$third-party
 ||pushowl.com^$third-party
 ||pushpad.xyz^$third-party
 ||pushpanda.io^$third-party
@@ -48122,6 +48123,7 @@ understandingsociety.ac.uk##+js(set-cookie, ga-disable-UA-xxxxxxxx-x, true)
 autohero.com##+js(set-cookie, consent, 1)
 bargaintown.ie##+js(set-cookie, cookie-bar, no)
 tui.nl##+js(set-cookie, CookiesAccepted, no)
+doppelmayr.com##+js(set-cookie, essential, true)
 finimize.com##+js(set-cookie, cookie_consent, false)
 rtu.lv##+js(set-cookie, uce-cookie, N)
 sysdream.com##+js(set-cookie, tarteaucitron, false)
