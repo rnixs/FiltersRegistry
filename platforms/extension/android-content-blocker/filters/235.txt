@@ -1,9 +1,9 @@
-! Checksum: 40AajvA83v6Lz+Y02xL0lw
-! Diff-Path: ../patches/235/235-s-1704733581-14400.patch
+! Checksum: yOzkfcmVLDM/gTKe5dY6hg
+! Diff-Path: ../patches/235/235-s-1704747999-14400.patch
 ! Title: Persian Blocker
 ! Description: Filter list for blocking ads and trackers on websites in Persian.
-! Version: 2.0.4.3
-! TimeUpdated: 2024-01-08T17:02:54+00:00
+! Version: 2.0.4.4
+! TimeUpdated: 2024-01-08T21:03:12+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: PersianBlocker
@@ -975,13 +975,10 @@ faceit.ir##.advertisement
 ! https://github.com/MasterKia/PersianBlocker/issues/84
 ||farnet.io/wp-content/plugins/better-post-views^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
-||farsroid.com/js/?url=$script
-! ||farsroid.com/api/os-info$xhr
-farsroid.com##.site-middle-banners
-farsroid.com##.gtm-farsroid-ads
-farsroid.com##.download-link-ads-below
-farsroid.com##.cas-pubg.cas
-farsroid.com##.ads-dashed-banner
+||farsroid.com/js/?url=$script,~third-party
+farsroid.com##div.single-text-ads
+farsroid.com##div.download-link-ads-below
+farsroid.com##div.cas
 farsroid.com#@#.place-ads
 ||analysis.faradars.org
 ! https://github.com/MasterKia/PersianBlocker/pull/39

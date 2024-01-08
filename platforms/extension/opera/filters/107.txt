@@ -1,14 +1,14 @@
-! Checksum: I4bx1y1TQZD9V16f/7K6yQ
-! Diff-Path: ../patches/107/107-s-1704719717-14400.patch
+! Checksum: 3KERa5IDz5bu/QRjaCzqfg
+! Diff-Path: ../patches/107/107-s-1704748015-14400.patch
 ! Title: EasyList Germany
 ! Description: Additional filter list for websites in German. Already included in AdGuard German filter.
-! Version: 2.0.12.37
-! TimeUpdated: 2024-01-08T13:01:54+00:00
+! Version: 2.0.12.38
+! TimeUpdated: 2024-01-08T21:02:10+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202401071835
+! OriginalVersion: 202401081742
 ! Title: EasyList Germany
-! Last modified: 07 Jan 2024 18:35 UTC
+! Last modified: 08 Jan 2024 17:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3399,6 +3399,7 @@ de.rt.com##.TopBanner-root
 t-online.de,www-t--online-de.cdn.ampproject.org##.Tprtnrmobilesib
 t-online.de,www-t--online-de.cdn.ampproject.org##.Tshlogobox
 t-online.de,www-t--online-de.cdn.ampproject.org##.Tsshopst2 + .Tmm
+suchen.mobile.de##.ViD7S
 via-ferrata.de##.YouTubeDachstein
 via-ferrata.de##.YouTubeLEKI
 via-ferrata.de##.YouTubeoetz

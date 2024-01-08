@@ -1,9 +1,9 @@
-! Checksum: +ywO+WhUgJvHgbhBXhG+Hw
-! Diff-Path: ../patches/235/235-s-1704733591-14400.patch
+! Checksum: TIhvqa13peD2uHwfN6bV1g
+! Diff-Path: ../patches/235/235-s-1704748009-14400.patch
 ! Title: Persian Blocker
 ! Description: Filter list for blocking ads and trackers on websites in Persian.
-! Version: 2.0.4.3
-! TimeUpdated: 2024-01-08T17:02:54+00:00
+! Version: 2.0.4.4
+! TimeUpdated: 2024-01-08T21:03:12+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: PersianBlocker
@@ -1133,15 +1133,14 @@ farnet.io##.eif:not(:has(a[href*="farnet.io"]))
 farnet.io##.content-column:not(> .archive-title:has-text(رپرتاژ تبلیغاتی)) .item-inner:has(a[href*="/pr/"])
 farnet.io###site-footer .col-sm-4:has(a[rel="noopener"][target="_blank"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
-farsroid.com#%#//scriptlet('ubo-aopr.js', 'faPa')
-||farsroid.com/js/?url=$script
-! ||farsroid.com/api/os-info$xhr
-farsroid.com##.swiper-wrapper > .swiper-slide:not(:has(a[href*="farsroid.com/"]))
-farsroid.com##.site-middle-banners
-farsroid.com##.gtm-farsroid-ads
-farsroid.com##.download-link-ads-below
-farsroid.com##.cas-pubg.cas
-farsroid.com##.ads-dashed-banner
+farsroid.com#%#//scriptlet('ubo-rmnt.js', 'script', 'ads_app_downloads')
+||farsroid.com/js/?url=$script,~third-party
+farsroid.com##header.site-header > div.container > nav.site-top-nav > ul.grid-row > li:has(> a[href][rel="dofollow"][target="_blank"]:is([href^="https://1000gem.org/"],[href^="https://kifpool.me/"], [href^="https://dicardo.com/"]))
+farsroid.com##div.site-middle-banners:has(> div.banner > a.farsroid-ads)
+farsroid.com##div.single-text-ads
+farsroid.com##article.post-single-box > div.post-content > p:has(> a[href="https://www.farsroid.com/download-imo-android/"][target="_blank"][rel="noopener"])
+farsroid.com##div.download-link-ads-below
+farsroid.com##div.cas
 farsroid.com#@#.place-ads
 ||analysis.faradars.org
 ! https://github.com/MasterKia/PersianBlocker/pull/39

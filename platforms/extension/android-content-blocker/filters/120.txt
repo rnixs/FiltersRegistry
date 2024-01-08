@@ -1,15 +1,15 @@
-! Checksum: y65ECNJSjPjTOMjWrMcEJw
-! Diff-Path: ../patches/120/120-s-1704719380-14400.patch
+! Checksum: /UXocFAIrJspwL12HSkpnA
+! Diff-Path: ../patches/120/120-s-1704747998-14400.patch
 ! Title: AdBlockID
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.30
-! TimeUpdated: 2024-01-08T13:02:07+00:00
+! Version: 2.0.18.31
+! TimeUpdated: 2024-01-08T21:02:25+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 24.1.6
+! OriginalVersion: 24.1.9
 ! Title: AdBlockID
 ! Description: Filter list that specifically removes adverts on Indonesian language websites.
-! Last modified: 06 Jan 2024 20:57 UTC
+! Last modified: 08 Jan 2024 19:00 UTC
 ! Expires: 1 days
 ! Homepage: https://github.com/realodix/AdBlockID
 .id^*/ads_$domain=~cartalog.id
@@ -660,6 +660,7 @@ _TimAds_$image
 ###iklan-kontad1
 ###iklan-kontad3
 ###iklan-newsfeed
+###iklan-paralax
 ###iklan-rekanan
 ###iklan-rekanan1
 ###iklan-rekanan2
@@ -845,7 +846,6 @@ _TimAds_$image
 ##.ads-middle-list-news
 ##.ads-mr
 ##.ads-nontonfilm
-##.ads-paralax
 ##.ads-parallax
 ##.ads-partner-wrap
 ##.ads-pop
@@ -3377,6 +3377,7 @@ okezone.com##.flying_ads
 inews.id,sindonews.com##.parallax-ad
 sindonews.com##.content-row .voutstream
 okezone.com#$#.ads-mega-box + #app { margin-top: 0!important }
+inews.id#$#.ads-paralax.app { top: 0 !important; }
 sindonews.com##.parallax-close
 sindonews.com#$#.parallax-non.t600 { top: 0 !important; }
 inews.id#$#.content-wrap { margin-top:0!important; }
@@ -3419,17 +3420,17 @@ jawapos.com##img[width="1200"][height="149"]
 wowbabel.com#$#script + .container { padding-top: 160px!important; }
 @@||iklanjitu.jawapos.com/app/media/$image,domain=iklanjitu.jawapos.com
 @@||iklanjitu.jawapos.com/media/$image,domain=iklanjitu.jawapos.com
-bolasiar8.lol,bolasiar8.pro,bolasiar8.sbs,bolasiar8.website###floatcenter
-bolasiar8.lol,bolasiar8.pro,bolasiar8.sbs,bolasiar8.website###floating_banner_top
-okestream4.lol##.bottom-player-banner
-okestream4.lol##.header-banner
-okestream4.lol##.player-button-ad
-okestream4.lol###popbox
-bgibola77.*,bgibola8.*,bgibola88.*###floatcenter
-bgibola77.*,bgibola8.*,bgibola88.*###floating_banner_top
-bgibola77.*,bgibola8.*,bgibola88.*##.inline-banner
-bgibola77.*,bgibola8.*,bgibola88.*##.sidebar-content
-bgibola77.*,bgibola8.*,bgibola88.*##.top-player-banner
+bolasiar.homes###floatcenter
+bolasiar.homes###floating_banner_top
+okestream.cfd##.bottom-player-banner
+okestream.cfd##.header-banner
+okestream.cfd##.player-button-ad
+okestream.cfd###popbox
+bgibola.monster,bgibola77.*,bgibola8.*,bgibola88.*###floatcenter
+bgibola.monster,bgibola77.*,bgibola8.*,bgibola88.*###floating_banner_top
+bgibola.monster,bgibola77.*,bgibola8.*,bgibola88.*##.inline-banner
+bgibola.monster,bgibola77.*,bgibola8.*,bgibola88.*##.sidebar-content
+bgibola.monster,bgibola77.*,bgibola8.*,bgibola88.*##.top-player-banner
 nobartv8.xyz,tvbersama9.lol###floatcenter
 nobartv8.xyz,tvbersama9.lol###floating_banner_top
 nobartv8.xyz,tvbersama9.lol##.top-player-banner
@@ -4574,6 +4575,7 @@ _topbandar_$image
 ##[href="https://rebrand.ly/bethoki77"]
 ##[href="https://rebrand.ly/bethoki77-gacor303"]
 ##[href="https://rebrand.ly/betslot88"]
+##[href="https://rebrand.ly/bgimasbet888"]
 ##[href="https://rebrand.ly/bioskop777"]
 ##[href="https://rebrand.ly/bola001"]
 ##[href="https://rebrand.ly/bolagg-gacor303"]

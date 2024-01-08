@@ -1,15 +1,15 @@
-! Checksum: 8PDXV4TyynotTBRBI4aceQ
-! Diff-Path: ../patches/109/109-s-1704733593-14400.patch
+! Checksum: INcXc1luq6QBDSaPPf/UrQ
+! Diff-Path: ../patches/109/109-s-1704748011-14400.patch
 ! Title: EasyList Italy
 ! Description: Additional filter list for websites in Italian.
-! Version: 2.1.41.73
-! TimeUpdated: 2024-01-08T17:01:55+00:00
+! Version: 2.1.41.74
+! TimeUpdated: 2024-01-08T21:02:13+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: uBHnBYtFtLzOkfW7E80oDA
-! OriginalVersion: 202401081651
+! Checksum: W/ByA03J7I4/LThfgBCmFw
+! OriginalVersion: 202401082051
 ! Title: EasyList Italy
-! Last modified: 08 Jan 2024 16:51 UTC
+! Last modified: 08 Jan 2024 20:51 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -2253,7 +2253,7 @@ $popup,third-party,domain=serieturche.eu
 !--------------Regole specifiche per le pubblicità da nascondere--------------!
 ! *** easylistitaly:easylistitaly/easylistitaly_specific_hide.txt ***
 trend-online.com###CONT_D_1
-trend-online.com###CONT_T
+trend-online.com,youmath.it###CONT_T
 comprovendolibri.it###CVLR_banner_ADX
 flashgames.it,scambieuropei.info,soldioggi.it,youmath.it###C_1
 flashgames.it###C_2

@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: fPR20biELiDWVW1zbbdNCg
-! Diff-Path: ../patches/212/212-s-1704733611-14400.patch
+! Checksum: WnvofN6gRWJ+5+T+FTJMqg
+! Diff-Path: ../patches/212/212-s-1704748027-14400.patch
 ! Title: RU AdList: Counters
 ! Description: RU AdList supplement for trackers blocking.
-! Version: 2.1.40.97
-! TimeUpdated: 2024-01-08T17:02:25+00:00
+! Version: 2.1.40.98
+! TimeUpdated: 2024-01-08T21:02:44+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: eHY467UeJOXPllK9NpcRDg
-! OriginalVersion: 202401081651
+! Checksum: i7FX3dTVRQoED1aQyvjybQ
+! OriginalVersion: 202401082051
 ! Title: RU AdList: Counters
-! Last modified: 08 Jan 2024 16:51 UTC
+! Last modified: 08 Jan 2024 20:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1222,9 +1222,8 @@ ya.*,yandex.*##.DirectInline
 ya.*,yandex.*##.RsyaOrganic
 ya.*,yandex.*##.SerpListFeature > .SearchBlock ~ :not(.SearchBlock)
 ya.*,yandex.*##.VideoViewer div[class*="_placement_"]
-ya.*,yandex.*#?#.serp-list > .serp-item:-abp-has(> .bno .serp-adv__counter)
-ya.*,yandex.*#?#.serp-list > .serp-item:-abp-has(> div > div > [data-event-required])
-ya.*,yandex.*#?#.serp-list > .serp-item:-abp-has(> div > div > [data-vnl*="advertiser"])
+ya.*,yandex.*#?#[class*="_left_yes"] > .serp-item:-abp-has(> div > div > [data-event-required])
+ya.*,yandex.*#?#[class*="_left_yes"] > .serp-item:-abp-has(> div [data-vnl*="advertiser"])
 yandex.*###bk-container
 yandex.*##.card-rtb-one-column-stub
 yandex.*##.dist-popup

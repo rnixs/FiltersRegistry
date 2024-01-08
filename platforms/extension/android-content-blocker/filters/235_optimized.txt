@@ -1,9 +1,9 @@
-! Checksum: LAhJk+JmaeXxhlTSR43+Zg
-! Diff-Path: ../patches/235_optimized/235_optimized-s-1704733581-14400.patch
+! Checksum: +vfNd+6aVZi80tZluRQbaA
+! Diff-Path: ../patches/235_optimized/235_optimized-s-1704747999-14400.patch
 ! Title: Persian Blocker (Optimized)
 ! Description: Filter list for blocking ads and trackers on websites in Persian.
-! Version: 2.0.4.3
-! TimeUpdated: 2024-01-08T17:02:54+00:00
+! Version: 2.0.4.4
+! TimeUpdated: 2024-01-08T21:03:12+00:00
 ! Expires: 5 days (update frequency)
 ~arongroups.site,~arongroups.co##a[href^="https://arongroups.site/"]
 ~arongroups.site,~arongroups.co##a[href^="https://arongroups.co/"]
@@ -747,12 +747,10 @@ faceit.ir##.pull-right.zm-post-lay-a-area
 faceit.ir##.header-mdh
 faceit.ir##.advertisement
 ||farnet.io/wp-content/plugins/better-post-views^
-||farsroid.com/js/?url=$script
-farsroid.com##.site-middle-banners
-farsroid.com##.gtm-farsroid-ads
-farsroid.com##.download-link-ads-below
-farsroid.com##.cas-pubg.cas
-farsroid.com##.ads-dashed-banner
+||farsroid.com/js/?url=$script,~third-party
+farsroid.com##div.single-text-ads
+farsroid.com##div.download-link-ads-below
+farsroid.com##div.cas
 farsroid.com#@#.place-ads
 ||analysis.faradars.org
 ||media.farsnews.ir/Uploaded/Files/Documents/*.gif^$image,~third-party

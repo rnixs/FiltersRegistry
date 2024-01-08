@@ -1,8 +1,8 @@
 !
-! Checksum: eHY467UeJOXPllK9NpcRDg
-! OriginalVersion: 202401081651
+! Checksum: i7FX3dTVRQoED1aQyvjybQ
+! OriginalVersion: 202401082051
 ! Title: RU AdList: Counters
-! Last modified: 08 Jan 2024 16:51 UTC
+! Last modified: 08 Jan 2024 20:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1216,9 +1216,8 @@ ya.*,yandex.*##.DirectInline
 ya.*,yandex.*##.RsyaOrganic
 ya.*,yandex.*##.SerpListFeature > .SearchBlock ~ :not(.SearchBlock)
 ya.*,yandex.*##.VideoViewer div[class*="_placement_"]
-ya.*,yandex.*#?#.serp-list > .serp-item:-abp-has(> .bno .serp-adv__counter)
-ya.*,yandex.*#?#.serp-list > .serp-item:-abp-has(> div > div > [data-event-required])
-ya.*,yandex.*#?#.serp-list > .serp-item:-abp-has(> div > div > [data-vnl*="advertiser"])
+ya.*,yandex.*#?#[class*="_left_yes"] > .serp-item:-abp-has(> div > div > [data-event-required])
+ya.*,yandex.*#?#[class*="_left_yes"] > .serp-item:-abp-has(> div [data-vnl*="advertiser"])
 yandex.*###bk-container
 yandex.*##.card-rtb-one-column-stub
 yandex.*##.dist-popup
