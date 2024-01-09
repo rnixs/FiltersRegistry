@@ -1,9 +1,9 @@
-! Checksum: PX8xF8ut9uxiFhwm20oO/w
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1704818187-3600.patch
+! Checksum: nO9iL7Z5E2A4oC73ct3cyg
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1704821780-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.77
-! TimeUpdated: 2024-01-09T16:33:12+00:00
+! Version: 2.0.95.78
+! TimeUpdated: 2024-01-09T17:33:17+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -2699,6 +2699,7 @@ utaten.com##.newShareLinkWrap
 meetia.net###float-sns-btn-label
 edureka.co##.icon-bar-sticky
 komchadluek.net##div[class^="id__ArticleContent-"] > div[id="add-line"]
+surabaya.kompas.com,thairath.co.th##.buttonShare
 tn.com.ar##.horizontal-share
 news.ru##.tags-single-post__share
 docomo.ne.jp##.sns_block

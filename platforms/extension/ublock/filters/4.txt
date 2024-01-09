@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: DpWEDow3fvBnfLsqtSHhJg
-! Diff-Path: ../patches/4/4-s-1704818198-3600.patch
+! Checksum: BiPIzF/+7LBEWFJqSmf2CA
+! Diff-Path: ../patches/4/4-s-1704821790-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.77
-! TimeUpdated: 2024-01-09T16:33:12+00:00
+! Version: 2.0.95.78
+! TimeUpdated: 2024-01-09T17:33:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3600,7 +3600,7 @@ edureka.co##.icon-bar-sticky
 komchadluek.net##div[class^="id__ArticleContent-"] > div[id="add-line"]
 weekly-economist.mainichi.jp##.date ~ .toolbox
 fakty.com.ua##.read-more-in-social
-thairath.co.th##.buttonShare
+surabaya.kompas.com,thairath.co.th##.buttonShare
 tn.com.ar##.horizontal-share
 enyenimp3indir.net##.footer-share-title
 mp3yeni.org##.sosyal-medyalar

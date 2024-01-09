@@ -1,9 +1,9 @@
-! Checksum: IUO5YqmIcTzkJ2YVz3nrag
-! Diff-Path: ../patches/23/23-s-1704792986-3600.patch
+! Checksum: oc+QuSb29wL8n7B/UVKN+g
+! Diff-Path: ../patches/23/23-s-1704821774-3600.patch
 ! Title: AdGuard Ukrainian filter
 ! Description: Filter that enables ad blocking on websites in Ukrainian language.
-! Version: 2.0.3.62
-! TimeUpdated: 2024-01-09T09:32:42+00:00
+! Version: 2.0.3.63
+! TimeUpdated: 2024-01-09T17:32:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1478,6 +1478,7 @@ ucoz.ru/informer/
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||s.cummerata.link^
 ||cchbdata.net^
 ||s.ccsyncuuid.net^
 ||bngtrak.com^$all

@@ -1,9 +1,9 @@
-! Checksum: hb0WxBo53FMvXyeE5v40og
-! Diff-Path: ../patches/20/20-s-1704818164-3600.patch
+! Checksum: j2ZJjK93Yi9nk3nRvRr8UA
+! Diff-Path: ../patches/20/20-s-1704821760-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.71
-! TimeUpdated: 2024-01-09T16:32:27+00:00
+! Version: 2.0.11.72
+! TimeUpdated: 2024-01-09T17:32:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -272,7 +272,7 @@ map.yahoo.co.jp##.StickyBanner
 filemail.com###mobile-go-to-app
 routeyou.com##.installApp
 artsandculture.google.com##.iMnvWc
-news18.com##body .instlsapp_fxd:not(#style_important)
+www-news18-com.cdn.ampproject.org,news18.com##body .instlsapp_fxd:not(#style_important)
 hetushu.com##.code
 forumd.hkgolden.com##.forum_banner_app
 forum.hkgolden.com##img[alt="New App Promtion"][usemap="#app_map"]
