@@ -1,0 +1,14 @@
+d1 2
+a2 2
+! Checksum: Qs098zd6P/JjvyhnLwzPHg
+! Diff-Path: ../patches/2/2-s-1704832580-3600.patch
+d5 2
+a6 2
+! Version: 2.3.17.22
+! TimeUpdated: 2024-01-09T20:32:55+00:00
+a28123 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/169794
+||st.nettruyenbing.com/data/sites/*banner
+a29664 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/170296
+filmcomment.com#%#//scriptlet('trusted-set-cookie', 'fc_global_ad', 'true')

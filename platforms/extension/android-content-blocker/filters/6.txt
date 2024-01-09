@@ -1,9 +1,9 @@
-! Checksum: oYQAhuMGBVEN20820Strpg
-! Diff-Path: ../patches/6/6-s-1704825365-3600.patch
+! Checksum: PRW+8UyUESK1Qzyqi2aD5Q
+! Diff-Path: ../patches/6/6-s-1704832550-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.91
-! TimeUpdated: 2024-01-09T18:33:26+00:00
+! Version: 2.0.39.92
+! TimeUpdated: 2024-01-09T20:33:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1047,7 +1047,7 @@ hausbau-forum.de###consent_info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157415
 gartenfreunde.de###ez-content-blocker-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157392
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=southpark.de
+@@||imasdk.googleapis.com/js/sdkloader/ima3*.js$domain=southpark.de
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=southpark.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156446
 @@||imagenetz.de/werbebanner-ad.js
@@ -2086,6 +2086,7 @@ formel1.de,krautundrueben.de,motorsport-total.com,traktorpool.de,fnweb.de,laborj
 !
 !
 !
+winfuture.de##a[title*="gesponsert"]
 chip.de##.Advanced-Boost-Widget-Block
 hifi.de##.deal-single
 hifi.de##.deals-multi-wrap

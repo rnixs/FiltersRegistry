@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: V9MyLXjxO+n88MZqbycpkg
-! Diff-Path: ../patches/14/14-s-1704828996-3600.patch
+! Checksum: QSaOCM+iwpkUPtPCVEV67A
+! Diff-Path: ../patches/14/14-s-1704832573-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.21
-! TimeUpdated: 2024-01-09T19:32:17+00:00
+! Version: 2.1.84.22
+! TimeUpdated: 2024-01-09T20:31:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -21483,6 +21483,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+inbiz.in.gov###tars-widget-fab
 ||yanmaga.jp/viewer/banner.html
 privacysavvy.com##+js(addEventListener-defuser, savvy_popup_in_dom, setTimeout)
 theconversation.com#$#div[role="presentation"] { display: none !important; }
@@ -34326,7 +34327,7 @@ reminder.media###footer-mailing
 baladain.com.br##.bn-newsletter
 eff.org##.pane-effector-signup
 catsthemusical.com##.two-column > div.gform_wrapper
-outkick.com,nubiapage.com,geniusinteractive.org,olumhaberi.com,teknikhukuk.com,mbk-news.appspot.com##.g1-newsletter
+freedomnews.tv,outkick.com,nubiapage.com,geniusinteractive.org,olumhaberi.com,teknikhukuk.com,mbk-news.appspot.com##.g1-newsletter
 hstoday.us##a[href$="/newsletter-ad/"]
 takiedela.ru##.i-subscribe
 iptv4best.com##.g1-sidebar > #custom_html-2

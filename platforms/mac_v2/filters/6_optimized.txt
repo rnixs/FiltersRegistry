@@ -1,9 +1,9 @@
-! Checksum: TMjc3tlcj7sk0aFBbe7/bw
-! Diff-Path: ../patches/6_optimized/6_optimized-s-1704825408-3600.patch
+! Checksum: SGpU1QPdBhuHXDS2WmfaEA
+! Diff-Path: ../patches/6_optimized/6_optimized-s-1704832592-3600.patch
 ! Title: AdGuard German filter (Optimized)
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.91
-! TimeUpdated: 2024-01-09T18:33:26+00:00
+! Version: 2.0.39.92
+! TimeUpdated: 2024-01-09T20:33:21+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -698,6 +698,7 @@ jetzt.de,derwesten.de,eurosport.de,ingenieur.de,heise.de,ww-kurier.de,1prospekte
 cleverdialer.de,sueddeutsche.de,geo.de,northdata.de,losungencodycross.com,game-dna.de,spieletipps.de,heise.de,netdoktor.de,aachener-zeitung.de,wissen.de##.ad-container
 winfuture.de,netzwelt.de,quoka.de,farmeramania.de,bravofly.de,computerbild.de,digitalfernsehen.de,hl-live.de,chinamobilemag.de,focus.de,pcwelt.de##.adsbygoogle
 formel1.de,krautundrueben.de,motorsport-total.com,traktorpool.de,fnweb.de,laborjournal.de,tarnkappe.info,deraktionaer.tv,food-tiger.de,morgenweb.de##.billboard
+winfuture.de##a[title*="gesponsert"]
 nordbayern.de##article:has(> a > .modul__teaser > .modul__teaser__anzeige)
 chip.de##.Advanced-Boost-Widget-Block
 chip.de#?#li:has(> article > figure > figcaption > .fb-cell-footer > .meta:contains(Anzeige))

@@ -1,9 +1,9 @@
-! Checksum: DeZfNk/xlYY8S1qxx2AQyQ
-! Diff-Path: ../patches/11/11-s-1704821761-3600.patch
+! Checksum: hvh/mXh2eVvwT3WJxz/saA
+! Diff-Path: ../patches/11/11-s-1704832550-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.15
-! TimeUpdated: 2024-01-09T17:31:48+00:00
+! Version: 2.0.48.16
+! TimeUpdated: 2024-01-09T20:31:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1042,6 +1042,7 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169823
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164959
 mx3a.nan-net.jp#%#//scriptlet('remove-node-text', 'script', 'adblock')
 mx3a.nan-net.jp##div[id^="adblock"]

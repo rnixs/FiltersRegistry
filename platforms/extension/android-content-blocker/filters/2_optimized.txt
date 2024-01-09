@@ -1,9 +1,9 @@
-! Checksum: RNJ93TVe2xTXVDi8fa59aw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704828969-3600.patch
+! Checksum: z9eW3uKZ+ERgdwrWyKyV+A
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704832550-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.17.21
-! TimeUpdated: 2024-01-09T19:33:13+00:00
+! Version: 2.3.17.22
+! TimeUpdated: 2024-01-09T20:32:55+00:00
 ! Expires: 5 days (update frequency)
 ||sugpgeaunpet.com^
 ||capletstyldia.com^
@@ -6679,6 +6679,7 @@ brandbuffet.in.th#@#.category-advertorial
 asilmedia.org#$#.site-wrap { margin-top: 0 !important; }
 ||yangi-kinolar.ru/vast/*.xml
 asilmedia.org###banner
+||st.nettruyenbing.com/data/sites/*banner
 animet.net###menubentrai
 animet.net##.sticky_bottom
 vietjack.com##.box-most-viewed
