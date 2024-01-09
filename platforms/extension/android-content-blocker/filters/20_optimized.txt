@@ -1,9 +1,9 @@
-! Checksum: 5Ym96ZAah27UeegOPGjJ0Q
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1704821760-3600.patch
+! Checksum: IpBu+gixNiH2dvMfqp/NPA
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1704825364-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.72
-! TimeUpdated: 2024-01-09T17:32:31+00:00
+! Version: 2.0.11.73
+! TimeUpdated: 2024-01-09T18:32:29+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ##amp-app-banner
@@ -1092,7 +1092,8 @@ auto.ru##div[class^="AppInstallRoundedBanner"]
 auto.ru#$#.AdminsMarketingSplash { display: none !important; }
 auto.ru#$#.page_freeze { overflow: auto !important; position: static !important; }
 bookmate.ru##.book-cover div.store-links
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#body { pointer-events: auto !important; overflow: auto !important; }
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#body:not([style^="overflow:"]) { pointer-events: auto !important; overflow: auto !important; }
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#body:not(.with-listing-chooser) { overflow: visible !important; position: static !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#shreddit-app > div.sidebar-grid.pdp { filter: unset !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#shreddit-experience-tree { display: none !important; }
@@ -1338,8 +1339,6 @@ m.zol.com.cn###bottom-fixed-wrapper
 ifanr.com##.popup-download
 oschina.net##.app-download-banner-box
 togetter.com###app_download_box
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#body:not(.with-listing-chooser) { overflow: visible !important; position: static !important; }
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#body { pointer-events: auto !important; overflow: auto !important; }
 buzzap.jp###im_panel_top
 duckduckgo.com##.legacyMobileHomepage_atbBadge__Wau98
 keyt.com###promo_box_widget-4
