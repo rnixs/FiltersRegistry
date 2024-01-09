@@ -142,6 +142,8 @@ instingjurnalis.com###slotbanner:remove()
 wartaekonomi.co.id##.ad-container:remove()
 ! Rule "harianjogja.com##.ads:remove()" converted to: "harianjogja.com#$?#.ads { remove: true; }"
 harianjogja.com##.ads:remove()
+! Rule "lensanesia.com##.float-ads-video:remove()" converted to: "lensanesia.com#$?#.float-ads-video { remove: true; }"
+lensanesia.com##.float-ads-video:remove()
 ! Rule "alkitabonline.org##a[data-ref="AD"]:remove()" converted to: "alkitabonline.org#$?#a[data-ref="AD"] { remove: true; }"
 alkitabonline.org##a[data-ref="AD"]:remove()
 ! Rule "alkitabonline.org##a[data-ref="YUEDUYE-AD"]:remove()" converted to: "alkitabonline.org#$?#a[data-ref="YUEDUYE-AD"] { remove: true; }"
@@ -946,8 +948,8 @@ crotpedia.net##+js(noeval-if, ads)
 klikmanga.com,komikgo.org,komikstation.co,sekaikomik.bio##+js(aeld, /^(?:load|click)$/, popMagic)
 ! Rule "kiryuu.id,komikav.com,komikcast.lol,komikindo.tv,komikmoe.web.id,mangakita.id,manhwaindo.id,manhwaindo.sbs,ngomik.net,sekaikomik.bio,sektedoujin.cc,sheakomik.com##+js(nowoif)" converted to: "kiryuu.id,komikav.com,komikcast.lol,komikindo.tv,komikmoe.web.id,mangakita.id,manhwaindo.id,manhwaindo.sbs,ngomik.net,sekaikomik.bio,sektedoujin.cc,sheakomik.com#%#//scriptlet('ubo-nowoif.js')"
 kiryuu.id,komikav.com,komikcast.lol,komikindo.tv,komikmoe.web.id,mangakita.id,manhwaindo.id,manhwaindo.sbs,ngomik.net,sekaikomik.bio,sektedoujin.cc,sheakomik.com##+js(nowoif)
-! Rule "shinigami.moe##+js(aopr, lepopup_vars)" converted to: "shinigami.moe#%#//scriptlet('ubo-aopr.js', 'lepopup_vars')"
-shinigami.moe##+js(aopr, lepopup_vars)
+! Rule "shinigamitoon.com##+js(aopr, lepopup_vars)" converted to: "shinigamitoon.com#%#//scriptlet('ubo-aopr.js', 'lepopup_vars')"
+shinigamitoon.com##+js(aopr, lepopup_vars)
 ! Rule "mangakita.id##+js(aopr, popup_custom_data)" converted to: "mangakita.id#%#//scriptlet('ubo-aopr.js', 'popup_custom_data')"
 mangakita.id##+js(aopr, popup_custom_data)
 ! Rule "bacamanga.id,komikindo.tv,komikstation.co,ngomik.net##+js(acis, JSON.parse, break;case $.)" converted to: "bacamanga.id,komikindo.tv,komikstation.co,ngomik.net#%#//scriptlet('ubo-acis.js', 'JSON.parse', 'break;case $.')"
