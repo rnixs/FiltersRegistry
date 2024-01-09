@@ -1,9 +1,9 @@
-! Checksum: m2Goo2QGCIcGyrr5hrFZCg
-! Diff-Path: ../patches/227_optimized/227_optimized-s-1704777042-14400.patch
+! Checksum: nexkejw9d3AwPzSrYNiVFw
+! Diff-Path: ../patches/227_optimized/227_optimized-s-1704820022-14400.patch
 ! Title: List-KR (Optimized)
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.31
-! TimeUpdated: 2024-01-09T05:04:08+00:00
+! Version: 2.0.17.32
+! TimeUpdated: 2024-01-09T17:03:13+00:00
 ! Expires: 1 day (update frequency)
 ||ad1.missyusa.com^
 ||ads.motorgraph.com^
@@ -1263,7 +1263,7 @@
 /^https:\/\/www\.torrentreel[0-9]+\.site\/ad\//
 /^https:\/\/tvchak[0-9]+\.com\/img\/bbnn/
 /^https:\/\/agit[0-9]+\.com\/upload\/[0-9]+\/[0-9]+\/[0-9]+\./
-||hoohootv.*/static/bnner/$domain=hoohootv.*
+||hoohootv*.*/static/bnner/$domain=hoohootv27.*|hoohootv28.*|hoohootv29.*|hoohootv30.*|hoohootv31.*|hoohootv32.*|hoohootv33.*|hoohootv34.*|hoohootv35.*|hoohootv36.*|hoohootv37.*|hoohootv38.*|hoohootv39.*|hoohootv40.*
 /^https:\/\/cdn\.kktv[0-9]+\.com\/data\/editor\//$domain=kktv365.com|kktv366.com|kktv367.com|kktv368.com|kktv369.com|kktv370.com|kktv371.com|kktv372.com|kktv373.com|kktv374.com|kktv375.com|kktv376.com
 ||cdn.ksportscdn.com/data/editor/$domain=kktv365.com|kktv366.com|kktv367.com|kktv368.com|kktv369.com|kktv370.com|kktv371.com|kktv372.com|kktv373.com|kktv374.com|kktv375.com|kktv376.com
 /^https:\/\/tv[0-9]+\.avsee\.[a-z]+\/imgs\//$domain=avsee.*
@@ -1971,7 +1971,7 @@ digitalasset.works,khgames.co.kr,digitaltoday.co.kr,ilemonde.com,mjmedi.com,erou
 hogaeng.co.kr##div[id^="container_"] .slide_box
 zdnet.co.kr##div[class*="_bn_"][style]
 dprime.kr.dvdprime.com##div[style~="height:"][style~="border-top:"].relative
-comic.naver.com,health.chosun.com,dprime.kr##[class*="_ad_"]
+m.ppomppu.co.kr,comic.naver.com,health.chosun.com,dprime.kr##[class*="_ad_"]
 ypbooks.co.kr##td[id^="divBn_"]
 m.mimint.co.kr,m.dailian.co.kr,uwayapply.com,ypbooks.co.kr##div[id$="Banner"]
 ypbooks.co.kr##div[style]#cenArea > .today

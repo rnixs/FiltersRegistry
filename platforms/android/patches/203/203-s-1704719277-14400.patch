@@ -1,0 +1,33 @@
+d1 2
+a2 2
+! Checksum: qXt8LAg0vV5yWcQIax48Pg
+! Diff-Path: ../patches/203/203-s-1704820011-14400.patch
+d5 2
+a6 2
+! Version: 2.0.2.72
+! TimeUpdated: 2024-01-09T17:02:55+00:00
+d9 2
+a10 2
+! Checksum: ss3dvjFMt40yzU4HYwaBuQ
+! OriginalVersion: 202401091209
+d12 1
+a12 1
+! Last modified: 09 Jan 2024 12:09 UTC
+a1692 2
+! https://github.com/hufilter/hufilter-dev/issues/427
+myonlineradio.hu##.fb-page-cont
+d1790 1
+a1790 1
+||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu
+d1793 1
+a1793 1
+||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu
+d1976 1
+a1976 3
+myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.checkAddBlock', 'noopFunc')
+myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.hasAdblock', 'falseFunc')
+myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.setAddBlockMsg', 'noopFunc')
+a2028 3
+! https://github.com/hufilter/hufilter-dev/issues/427
+! Fix large space at the top of the page on desktop
+myonlineradio.hu#$#@media (min-width: 1200px) { .isSubPage ._bannerTop1 { height: 90px !important; } }

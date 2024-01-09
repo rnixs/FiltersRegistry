@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: flnnZ7PFDS/ssljLVHOaFQ
-! Diff-Path: ../patches/203_optimized/203_optimized-s-1704720047-14400.patch
+! Checksum: aVP5mHGgnqa+5QyaBz2Zhw
+! Diff-Path: ../patches/203_optimized/203_optimized-s-1704820052-14400.patch
 ! Title: Hungarian filter (Optimized)
 ! Description: Hufilter. Filter list that specifically removes ads on websites in the Hungarian language.
-! Version: 2.0.2.71
-! TimeUpdated: 2024-01-08T13:02:22+00:00
+! Version: 2.0.2.72
+! TimeUpdated: 2024-01-09T17:02:55+00:00
 ! Expires: 5 days (update frequency)
 ##.ad__main
 ##.adblokk
@@ -1613,6 +1613,7 @@ mindmegette.hu###recipeAndRelateds > h2.noprint
 moly.hu###sticky
 moly.hu##.b336
 myonlineradio.hu##[src^="/public/img/efi/"]
+myonlineradio.hu##.fb-page-cont
 najlepsie-clanky.com##[class*="pea_cook"]
 napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
@@ -1701,10 +1702,10 @@ femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 hirado.hu#?#.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
 infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /js/push.js$script,domain=infostart.hu
-||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu|gsplus.hu
+||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu
 ||consent.cookiebot.com^$third-party,script,domain=agroinform.hu
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
-||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu|gsplus.hu
+||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$script,domain=szeretlekmagyarorszag.hu
 ||widget.blck4d.com/js/block/widget.js^$script,domain=starity.hu
 ||chatrobot.mia.gov.hu^
@@ -1809,7 +1810,9 @@ huaweiblog.hu##+js(set-constant, tie.ad_blocker_detector, undefined)
 karpathir.com##+js(abort-on-property-write, getComputedStyle)
 magyarhang.org,hang.hu##+js(abort-current-script, document.addEventListener, ai_run_)
 magyarhang.org,hang.hu##+js(abort-current-script, document.getElementById, ai_run_)
-myonlineradio.hu##+js(set-constant, AddAdsV2I.addBlock, false)
+myonlineradio.hu##+js(set-constant, AddAdsV2I.checkAddBlock, noopFunc)
+myonlineradio.hu##+js(set-constant, AddAdsV2I.hasAdblock, falseFunc)
+myonlineradio.hu##+js(set-constant, AddAdsV2I.setAddBlockMsg, noopFunc)
 pcworld.hu##+js(remove-class, have-ad, body)
 port.hu##+js(addEventListener-defuser, DOMContentLoaded, window.ado.blocked)
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]

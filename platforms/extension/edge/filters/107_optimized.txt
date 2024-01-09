@@ -1,9 +1,9 @@
-! Checksum: u7Ep3/p7qyG3oiSmcBPHDw
-! Diff-Path: ../patches/107_optimized/107_optimized-s-1704748006-14400.patch
+! Checksum: ty2TMf38kPleUvi68rv6aQ
+! Diff-Path: ../patches/107_optimized/107_optimized-s-1704820025-14400.patch
 ! Title: EasyList Germany (Optimized)
 ! Description: Additional filter list for websites in German. Already included in AdGuard German filter.
-! Version: 2.0.12.38
-! TimeUpdated: 2024-01-08T21:02:10+00:00
+! Version: 2.0.12.39
+! TimeUpdated: 2024-01-09T17:02:25+00:00
 ! Expires: 5 days (update frequency)
 &werbemittel=
 -Bannerwerbung-
@@ -4543,6 +4543,7 @@ bild.de##a[href*="/partner/"]
 tarnkappe.info##a[href*="/prf.hn/click/"]
 emtb-news.de,ladies.de,mtb-news.de##a[href*="/redirect/"]
 tarnkappe.info##a[href*="?sca_ref="]
+live.vodafone.de##a[href*="https://vflive.de/lotto24_desktop300x250-home"] > .card-promo
 finanzen.net##a[href="#p500Werbehinweis"]
 areadvd.de##a[href="/panasonic_de"]
 strippokerregeln.com##a[href="/www/888casino"]

@@ -1,15 +1,15 @@
-! Checksum: 8Ju0AoEVtrw26stMge5oDA
-! Diff-Path: ../patches/122/122-s-1704791190-14400.patch
+! Checksum: 4BkGOx6EpdJKCu8zY+68fQ
+! Diff-Path: ../patches/122/122-s-1704820026-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.4
-! TimeUpdated: 2024-01-09T09:02:17+00:00
+! Version: 2.1.19.5
+! TimeUpdated: 2024-01-09T17:02:49+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: +JFzD0kAnh+sCDjF9PE/sQ
-! OriginalVersion: 202401090840
+! Checksum: Liz7yfiOEwtbH+dvs+OR9Q
+! OriginalVersion: 202401091640
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-09 08:40 UTC
+! Last modified: 2024-01-09 16:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -52097,6 +52097,7 @@ video.fc2.com##div[style^="position: fixed; transition: right 1s ease-out 0s; bo
 ||medibot-image.s3.ap-northeast-1.amazonaws.com/medibot_lp_
 ||share.gree.jp^$third-party
 ||tweetbuzz.jp^$third-party
+||yanmaga.jp/viewer/banner.html
 !
 ! ---------- Korean Site Specific Hiding Rules ----------
 !

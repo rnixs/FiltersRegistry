@@ -1,9 +1,9 @@
-! Checksum: OxpxQ/ZqIjWS1NcpodhycQ
-! Diff-Path: ../patches/244_optimized/244_optimized-s-1704720491-14400.patch
+! Checksum: yb/1g5FSbLJE9Zqw6Ep2mg
+! Diff-Path: ../patches/244_optimized/244_optimized-s-1704820080-14400.patch
 ! Title: YousList (Optimized)
 ! Description: Filter that blocks ads on Korean sites.
-! Version: 2.0.10.27
-! TimeUpdated: 2024-01-08T13:03:07+00:00
+! Version: 2.0.10.28
+! TimeUpdated: 2024-01-09T17:03:43+00:00
 ! Expires: 12 hours (update frequency)
 ##amp-ad
 ##amp-embed.ad_cnt
@@ -2265,6 +2265,7 @@
 ||web.n2s.co.kr^
 ||webstore.ansi.org/Images/banners/$domain=webstore.ansi.org
 ||wec.co.kr/banner/
+||whosaeng.com/data/whosaeng_com/upload/banner/$domain=m.whosaeng.com|whosaeng.com
 ||widget.barnebys.com/widget.php^
 ||wiki.dcinside.com/main_top_realclick_banner.php^$domain=wiki.dcinside.com
 ||wikileaks-kr.org/script/floating.banner.js^$domain=wikileaks-kr.org
@@ -5292,6 +5293,10 @@ m.webtoon.daum.net##div.wrap_valuepotion
 m.weekly.chosun.com##div.AD_link
 m.weekly.khan.co.kr##div#adArea
 m.weekly.khan.co.kr##div[data-widget_id="OoRxNely"]
+m.whosaeng.com##div#bottom_src
+m.whosaeng.com##div#main_bottom_src
+m.whosaeng.com##div#main_top_src
+m.whosaeng.com##div#top_src
 m.wikitree.co.kr##div#contentMidBanner
 m.wikitree.co.kr##div.ad230
 m.wikitree.co.kr##div.ad250
@@ -7215,6 +7220,9 @@ whatis.techtarget.com##div.ad-embedded
 whatis.techtarget.com##div.ad-wrapper
 whatis.techtarget.com##section.ads-by-google
 whatismybrowser.com##div.fun-adsense
+whosaeng.com##div.bn
+whosaeng.com##div.bn_wing_le
+whosaeng.com##div.bn_wing_ri
 whosampled.com##div.ad-slot
 wiki.dcinside.com##div.pb_area
 wiki.dcinside.com##iframe[src^="http://wiki.dcinside.com/main_top_realclick_banner.php"]

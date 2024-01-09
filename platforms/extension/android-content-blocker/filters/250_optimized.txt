@@ -1,9 +1,9 @@
-! Checksum: iYf4/lecqdV4Pj3vHgRAqA
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1704776983-14400.patch
+! Checksum: z+hbV3TaLc0KfZuk6es2ww
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704820018-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.91
-! TimeUpdated: 2024-01-09T05:04:48+00:00
+! Version: 2.0.12.92
+! TimeUpdated: 2024-01-09T17:03:55+00:00
 ! Expires: 5 days (update frequency)
 ###smart-banner
 ###smartbanner
@@ -177,7 +177,7 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ||go.redirected*/click?^$document,popup,domain=~malware-redirection-trains.*
 ://||192.243.58.$document
 ://trk.*.run/$document,domain=~very-likely-a-malware-redirection-train.*
-/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,domain=~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
+/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
 ||betzykrisesenter.no^$document
 ||citra2010oslo.no^$document
 ||digiter.no^$document

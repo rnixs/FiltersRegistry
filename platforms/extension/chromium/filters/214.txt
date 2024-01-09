@@ -1,15 +1,15 @@
-! Checksum: eqwCB1MFcBcOh7G8DX9ocQ
-! Diff-Path: ../patches/214/214-s-1704777042-14400.patch
+! Checksum: Y9YUMOmurxCMEPBShUAkcw
+! Diff-Path: ../patches/214/214-s-1704820022-14400.patch
 ! Title: ABPVN List
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.26.0
-! TimeUpdated: 2024-01-09T05:03:56+00:00
+! Version: 2.0.26.1
+! TimeUpdated: 2024-01-09T17:03:01+00:00
 ! Expires: 5 days (update frequency)
 !
 ! version for all other AdGuard products
-! OriginalVersion: 20240109105125
+! OriginalVersion: 20240109173009
 ! Title: ABPVN List
-! Last modified: 09 Jan 2024 10:51:25 UTC+7
+! Last modified: 09 Jan 2024 17:30:09 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -303,8 +303,6 @@
 ||www.thuocbietduoc.com.vn/aqc/$image
 ||xahoingaynay.com.vn/upload/$image
 ||xc.1357668.com^*.gif$domain=7mvn2.com
-||xemphim365vn.net/public/*.mp4$domain=xemphim365vn.net,redirect=noopmp3-0.1s
-||xemphim365vn.net/public/banner/$image
 ||xevathethao.vn/wp-content/uploads/banner
 ||xmedia.antt.vn/upload/*.gif$image
 ||xonxao.com/images/banners/

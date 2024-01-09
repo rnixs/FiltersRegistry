@@ -1,9 +1,9 @@
-! Checksum: teU2L8lXQsG88g6IuoxELQ
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1704791181-14400.patch
+! Checksum: SqNFTXm66nlECMbfEP+ftw
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1704820016-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.4
-! TimeUpdated: 2024-01-09T09:02:17+00:00
+! Version: 2.1.19.5
+! TimeUpdated: 2024-01-09T17:02:49+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -16992,6 +16992,7 @@ video.fc2.com##div[style^="position: fixed; transition: right 1s ease-out 0s; bo
 ||api.popin.cc^$third-party
 ||medibot-image.s3.ap-northeast-1.amazonaws.com/medibot_lp_
 ||share.gree.jp^$third-party
+||yanmaga.jp/viewer/banner.html
 auction.co.kr###btnSkipTop
 ||kodcad.kr^$third-party
 gosc.pl###l-overlay

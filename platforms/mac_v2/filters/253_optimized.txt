@@ -1,9 +1,9 @@
-! Checksum: fELGbRetO6Q/CnDETIvung
-! Diff-Path: ../patches/253_optimized/253_optimized-s-1704791229-14400.patch
+! Checksum: zjWkytFI+JZ69y2AYbOyrA
+! Diff-Path: ../patches/253_optimized/253_optimized-s-1704820074-14400.patch
 ! Title: IndianList (Optimized)
 ! Description: Additional filter list for websites in Hindi, Tamil and other Dravidian and Indic languages.
-! Version: 2.0.35.8
-! TimeUpdated: 2024-01-09T09:03:22+00:00
+! Version: 2.0.35.9
+! TimeUpdated: 2024-01-09T17:03:59+00:00
 ! Expires: 12 hours (update frequency)
 -ad-mob
 -ad-space-
@@ -668,8 +668,8 @@ _advt.jpg|
 /banner-$domain=navakal.in
 /banner/*$domain=arthparkash.com|firlive.com|jogsanjogtimes.com|kanvkanv.com|keralafinance.com|khabor.com|laksam.com|nbs24.org|tamil.com|thereport24.com
 /banners/*$domain=bajroshakti.com|digiana.com|karobardaily.com|tamil.srilankamirror.com|tcvonline.co.in|thaiveedu.com
-/bigyaapan/*$domain=godawarinews.com|khelpati.com|lumbinitimes.com|nayadainiki.com|nepalipublic.com|newsgriha.com|ninglashainionline.com|setopati.com|swasthyakhabar.com
-/bigyaapan^$domain=baahrakhari.com|kalikanews.com|khulaasa.com|nepalitwa.com|nepallive.com|shilapatra.com
+/bigyaapan/*$domain=baahrakhari.com|godawarinews.com|khelpati.com|lumbinitimes.com|nayadainiki.com|nepalipublic.com|nepalsamaya.com|newsgriha.com|ninglashainionline.com|setopati.com|swasthyakhabar.com
+/bigyaapan^$domain=kalikanews.com|khulaasa.com|nepalitwa.com|nepallive.com|shilapatra.com
 /bigyapan/*$domain=himalkhabar.com|khelpati.com|merolagani.com
 /block_$image,domain=ntvtelugu.com
 /blocks/block_$domain=aajtakmedia.net|aankhennews24.com|bhavtarini.com|encounterindia.in|firstbharat.in|firstrajasthan.com|gexpressnews.com|hindustankhabar.com|islamonweb.net|just36news.com|newsexpress24.com|pickthekhoj.in|polkholindia.com|postcardbd.com|purvikranti.com|sansaninews.com|vartanews.com
@@ -2865,6 +2865,8 @@ perfection-ias-upsc$domain=nextbihar.com
 ||malabarinews.com^*/sameeksha
 ||malayalamdaily.in/wp-content/uploads/2020/11/Bestwood-Hoarding-1-1-300x158.jpg
 ||malayalamemagazine.com^*/ogilvia-design-studio-250.gif
+||malayalamexpress.in/wp-content/uploads/2023/12/0a98d272-886c-46de-bec5-477f5defed62
+||malayalamexpress.in/wp-content/uploads/2023/12/feb-1.jpg
 ||malayalammedia.one/UploadedFiles/Ads
 ||malayalamtodayonline.com/wp-content/themes/malayalam/images/innerpagesidebar.gif
 ||malayalamuk.com^*/bloggif_
@@ -3141,6 +3143,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||nayabikalpa.com/wp-content/uploads/2023/10/naya-ad.gif
 ||nayaharyana.com/assets/vendor/image/family%20farmer%20samalkha%20panipat.jpeg
 ||nayaindia.com/wp-content/uploads/2020/05/2.png
+||nayapatrikadaily.com/uploads/advertise/
 ||nayasadak.com/users_upload/
 ||nbs24.org^*/nbs-
 ||nbs24.org^*/walton
@@ -6205,8 +6208,8 @@ capitallivenews.com##.bignews_slider
 mediapunjab.com##.bigposter
 janatapati.com##.bigyaapan
 himalkhabar.com,nayadainiki.com,sajhapost.com##.bigyaapan-box
-baahrakhari.com,himalkhabar.com##.bigyaapan-item
-dekhapadhi.com,sajhapost.com##.bigyaapan-section
+himalkhabar.com##.bigyaapan-item
+baahrakhari.com,dekhapadhi.com,sajhapost.com##.bigyaapan-section
 janaaastha.com##.bigyapaan
 merofilm.com##.bigyapaan__section
 janaaastha.com##.bigyapaan__section img:not([src*="election_result.jpg"])
@@ -6413,7 +6416,6 @@ kholakagojbd.com,poriborton.com##.desktop-ad-nilsagor
 argusnews.in##.desktop-square-ad
 bikashnews.com##.desktop_main_news_banner
 nayabishwo.com##.detail-ad-holder
-baahrakhari.com##.detail-bigyapan
 khabardabali.com##.detail-right-ad img:not([src*="unicode_converter.jpg"])
 ekusheysangbad.com##.details-big-banner
 citynewsdhaka.com,ekusheysangbad.com##.details-page-side-banner
@@ -6562,7 +6564,6 @@ hpnewsatl.com##.et_pb_post_content img
 hpnewsatl.com##.et_pb_slider
 satyapathnews.com##.etad
 tandavnews.com##.euvradxs
-eveningkerala.com##.eveni-content_5
 chauthiduniya.com##.evo-header-banner
 khabarexpert.in##.ewic-slider
 womeneye24.com##.exclusiveSec + .row
@@ -6628,7 +6629,7 @@ rastriyakhabar.com##.full-ads-wrapper
 samadhannews.com##.full-bann
 safalkhabar.com##.full-banner
 nepalsamaya.com##.full-bigyaapan
-baahrakhari.com,capitalnepal.com,khelpati.com,sajhapost.com##.full-bigyapan
+baahrakhari.com,capitalnepal.com,khelpati.com,nepallive.com,sajhapost.com##.full-bigyapan
 emountaintv.com##.full-width-bigyapan-wrapper
 biratkhabar.com##.full-with-add
 hetaudatoday.com,kolhabinews.com,lalkhabar.com,murchungatv.com##.full_ad_section
@@ -6765,6 +6766,7 @@ jeevalokam.com##.homeboxouter
 saharanpurweb.in##.homemainads
 doolnews.com##.horiz_adv_area
 nepalcanadanews.com##.horizental-ad-image
+desimartini.com##.horizontal_ad_wrap
 tips4blog.com##.hot_rwc_ads
 eisamay.com,indiatimes.com,maharashtratimes.com,vijaykarnataka.com##.hp-rhs-ads-container
 daijiworld.com##.hpRightAdvt
@@ -6939,7 +6941,7 @@ anandabazar.com##.marketingbnnerbox
 ideatvnews.com##.marquee-ads
 ayushindianews.com,khabarpahad.com,tv20news.in##.master-slider
 newshubinsight.in,newsspecial.in##.master-slider-main-widget
-veerdharanews.com##.master-slider-parent
+eveningkerala.com,veerdharanews.com##.master-slider-parent
 mzamin.com##.mb-5.justify-content-center
 filmistreet.com##.mb-hidden img.center
 divyamarathi.bhaskar.com##.mb_ads_title
@@ -7048,13 +7050,12 @@ nepalkhabar.com##.nk-sidebar-ads
 newskannada.com##.nktv_adv
 nnews24.com##.nnews-content
 ganaadhikar.com,jhabualive.com,live7tv.com,minnal24.com,newsnerve.in,newstodaycg.com,sakalakhabar.com,sakshamuttarakhand.com,spreaditnews.com,sudurawaj.com,sudurpashimkhabar.com,tvannapurna.com,wayanadnewsdaily.com##.no-bg-box-model
-malayalamexpress.in##.no-bg-box-model img
 nepalraftar.com##.no-bod > a
 narayanionline.com##.no-vigyapan-section
 narayanionline.com##.no-vigyapan-single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
@@ -7236,7 +7237,6 @@ rastriyakhabar.com##.side-ads-wrapper
 gayanews.in##.side-bar > .widget:nth-child(2)
 ayodhyasamachar.com##.side-bar center > embed
 ekuruvi.com##.side-bar-big-ads
-baahrakhari.com##.side-bigyaapan
 gournadi24.com##.side-indent .wgs-ads:first-child
 allnewsbharat.com,provatnews.com##.sideAdd
 gramnagarbarta.com##.sideAds_bg
@@ -7824,7 +7824,6 @@ daynikekusherbani.com##.widget_area img:not(.wp-image-1166)
 barisalcrimetrace.com##.widget_area p>img
 dailydishari.com##.widget_area:not(.widget_text)
 rsnewslive.com##.widget_awaken_medium_rectangle_ad
-malayalamexpress.in##.widget_azrmih
 amarsandesh.com##.widget_beside_slider
 nepalbritain.com##.widget_black-studio-tinymce
 24webnews.com,36garhi.com,a2znewsup.com,avikaluttarakhand.com,azchavattomonline.com,bharatsarathi.com,dainikchhattisgarhwatch.com,insightonlinenews.in,khabareducation.com,khabredinraat.com,nammakudlanews.com,newsaroma.com,odishatime.com,rashtrasamvad.com,samastipurlive.com,scgnews.in,thetruths.in,upaajtak.com##.widget_block
@@ -8472,7 +8471,7 @@ uttranews.com##div[class^="uttra-content_"]
 manobkantha.com.bd##div[data-ad-slot] ~ hr
 ahinsaexpress.in,akashjatra.com,ananda-alo.com,angultv.com,bdsangbad24.com,biharnation.in,biharnewslive.com,cgtazanews.com,citypostlive.com,cumillarpaper.com,dainikjagrotochattogram.com,dainikpotrika.com,dhenkanalupdate.com,ganthan.com,hamaratoday.com,journalistcafe.com,kilinochchinet.com,konarklive.com,koshalnews.in,makalukhabar.com,malayalamdaily.in,morbinews.in,nationexpress.live,nayapusta.com,odishanews365.com,onlinemalayali.in,paharbarta.com,parichaya.com,pehchanfaridabad.in,peoplespresstrust.com,raajdhaninews.com,safalnews.com,sudurkhabar.com,tandavnews.com,thesigmanews.com,upnn.in##div[data-adid]
 arthosuchak.com##div[data-adid] a:not([href*="arthosuchak.com"]) img
-himaliawaj.com,ontimenews.in,tv20news.in##div[data-adid] img
+himaliawaj.com,ontimenews.in,sahityapost.com,tv20news.in##div[data-adid] img
 alokitoctg.com##div[data-adid] img:not([alt*="e-Paper"])
 meddlingmedia.com##div[data-adid]:not([data-adid="3307"])
 bikalpadainik.com##div[data-adid]:not([data-adid="5022"]):not([data-adid="3716"])

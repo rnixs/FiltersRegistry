@@ -1,9 +1,9 @@
-! Checksum: /Zb0zvLXOTA5kMjBF8o9rA
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1704791200-14400.patch
+! Checksum: Z9aH1wH2PVnKbe1ElrzJVg
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1704820039-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.13
-! TimeUpdated: 2024-01-09T09:02:05+00:00
+! Version: 2.1.20.14
+! TimeUpdated: 2024-01-09T17:02:36+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -8739,7 +8739,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||drop.com/impressionsBeacon
 ||drop.com/statBeacon
 ||dropbox.com/2/client_metrics
-||dropbox.com/2/ml_platform/log_predictions_events
 ||dropbox.com/2/pap_event_logging
 ||dropbox.com/alternate_
 ||dropbox.com/jse
@@ -19600,8 +19599,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||link.adhdinsight.com^
 ||link.ag.fan^
 ||link.carfax.com^
-||link.clubmanagergame.com^
 ||link.clickipo.com^
+||link.clubmanagergame.com^
 ||link.cluno.com^
 ||link.crazyquest.com^
 ||link.creatively.life^
