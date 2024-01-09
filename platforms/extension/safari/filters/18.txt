@@ -1,9 +1,9 @@
-! Checksum: qM7504/W/hbMuRBH3GyXMg
-! Diff-Path: ../patches/18/18-s-1704803787-3600.patch
+! Checksum: OAuMSn58TNLtB6+k1fSkmw
+! Diff-Path: ../patches/18/18-s-1704807412-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.93
-! TimeUpdated: 2024-01-09T12:32:11+00:00
+! Version: 2.0.30.94
+! TimeUpdated: 2024-01-09T13:32:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2519,7 +2519,7 @@ newsflare.com##.nf-cookie-consent
 itvbd.com##.cookies-eu-banner
 topsporter.net##.penci-wrap-gprd-law
 baltimoresun.com##.osano-cm-dialog-custom
-||cmp.inmobi.com^$domain=24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it
+||cmp.inmobi.com^$domain=24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it|icy-veins.com
 blue.vanmarcke.com#$##cookieModal { display: none !important; }
 blue.vanmarcke.com#$#.modal-backdrop { display: none !important; }
 blue.vanmarcke.com#$#body.modal-open { overflow: auto !important; }

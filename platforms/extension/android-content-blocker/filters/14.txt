@@ -1,9 +1,9 @@
-! Checksum: o9cp2zaqSQttskc/gaCMhg
-! Diff-Path: ../patches/14/14-s-1704803757-3600.patch
+! Checksum: MlZ5VwAmb5JiQ0Vy6k2GiQ
+! Diff-Path: ../patches/14/14-s-1704807386-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.14
-! TimeUpdated: 2024-01-09T12:32:00+00:00
+! Version: 2.1.84.15
+! TimeUpdated: 2024-01-09T13:32:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2414,7 +2414,7 @@ newsflare.com##.nf-cookie-consent
 itvbd.com##.cookies-eu-banner
 topsporter.net##.penci-wrap-gprd-law
 baltimoresun.com##.osano-cm-dialog-custom
-||cmp.inmobi.com^$domain=24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it
+||cmp.inmobi.com^$domain=24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it|icy-veins.com
 blue.vanmarcke.com#$##cookieModal { display: none !important; }
 blue.vanmarcke.com#$#.modal-backdrop { display: none !important; }
 blue.vanmarcke.com#$#body.modal-open { overflow: auto !important; }

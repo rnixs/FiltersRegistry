@@ -1,0 +1,24 @@
+d1 2
+a2 2
+! Checksum: 5dG0ZmHgv0RVjnq68+lAxA
+! Diff-Path: ../patches/2/2-s-1704807387-3600.patch
+d5 2
+a6 2
+! Version: 2.3.17.15
+! TimeUpdated: 2024-01-09T13:33:11+00:00
+a1056 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/170063
+! spam ads
+d22642 2
+d22645 1
+a22645 1
+lowcygier.pl###page > [data-url^="https://lowcygier.pl/r/"]
+a27902 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/170087
+a29839 4
+icy-veins.com###premium_cta_block
+icy-veins.com###top_leaderboard_container
+icy-veins.com###bottom_leaderboard_container
+icy-veins.com###right_top > #top_rectangle_container
+a50046 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/170261 [Stealth Mode - User-Agent]

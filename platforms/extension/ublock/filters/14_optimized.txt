@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: i5XU7bm8n3tV+UcUGuXqiA
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1704803792-3600.patch
+! Checksum: bbokI9Mtbze1O7GBAi7J5Q
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1704807417-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.14
-! TimeUpdated: 2024-01-09T12:32:00+00:00
+! Version: 2.1.84.15
+! TimeUpdated: 2024-01-09T13:32:09+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1457,7 +1457,7 @@ ekokoza.*#$##CookiesConfirmation { display: none !important; }
 ekokoza.*#$#body { overflow: auto !important; }
 newsflare.com##.nf-cookie-consent
 itvbd.com##.cookies-eu-banner
-||cmp.inmobi.com^$domain=24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it
+||cmp.inmobi.com^$domain=24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it|icy-veins.com
 withhive.com##.gdpr_cookie
 visme.co##.vismecookie
 dozapteka.pl#$#.popup-cookies { display: none !important; }
