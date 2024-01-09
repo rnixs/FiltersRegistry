@@ -1,9 +1,9 @@
-! Checksum: PaVVYP26rSzE5Njz9DRs5A
-! Diff-Path: ../patches/5_optimized/5_optimized-s-1703694975-3600.patch
+! Checksum: wafDCMs6z2cde4RYlKCKxg
+! Diff-Path: ../patches/5_optimized/5_optimized-s-1704782164-3600.patch
 ! Title: AdGuard Experimental filter (Optimized)
 ! Description: Filter designed to test certain hazardous filtering rules before they are added to the basic filters.
-! Version: 2.0.1.25
-! TimeUpdated: 2023-12-25T09:32:03+00:00
+! Version: 2.0.1.26
+! TimeUpdated: 2024-01-09T06:33:28+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -23,13 +23,11 @@ www.youtube.com#$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-ri
 developer.android.com,adssettings.google.com##sc-survey-survey-manager
 mail.yandex.ru#?#.modal:has(> div[data-lego] div[class^="mail-SubscriptionsPopup"])
 ||android.test.filter^$third-party
-||open.camscanner.com^$app=com.intsig.camscanner
 ||chrome.test.filter.com^$third-party
 imdb.com#?#div[data-testid="promptable"]:has(.ipc-rating-display-with-poster__image)
 imdb.com#$?#body:has(div[data-testid="promptable"] .ipc-rating-display-with-poster__image) { overflow: auto !important; }
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_experimental
-||open.camscanner.com^$app=com.intsig.camscanner
 !#######################################################
 !######### The list of dangerous rules #################
 !#######################################################
