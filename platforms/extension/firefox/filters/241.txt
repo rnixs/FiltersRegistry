@@ -1,14 +1,14 @@
-! Checksum: YLn2+FpsGAf9Ry5if1T2mQ
-! Diff-Path: ../patches/241/241-s-1704748014-14400.patch
+! Checksum: 6fKrfMBmBslNmXH2s79WYQ
+! Diff-Path: ../patches/241/241-s-1704762386-14400.patch
 ! Title: EasyList Cookie List
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.27.4
-! TimeUpdated: 2024-01-08T21:03:23+00:00
+! Version: 2.1.27.5
+! TimeUpdated: 2024-01-09T01:02:57+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 0lRrbHSJiTWFPNNuzuzfMQ
+! Checksum: Qse1Rtq9ka3SA5tSdZSyBQ
 ! Title: Easylist Cookie List
-! Updated: 2024-01-08 20:40 UTC
+! Updated: 2024-01-09 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -742,6 +742,7 @@
 /meWantCookies1.8.js
 /mfe-cookies/main.js
 /mindshape_cookie_consent/Resources/Public/JavaScript/cookie_consent.js
+/mkm-dsgvo-plugin/1-blocker.js
 /mod_cookie/tmpl/assets/js/cookie_script.js
 /mod_ebstickycookienotice/tmpl/assets/js/cookie_script.js
 /mod_logikamentecookielaw/screen.css
@@ -20803,7 +20804,7 @@ ghresources.com##.wpt-modal
 ridero.eu##.wrapper-notify
 dubz.live##.wrapper.show
 applehousetravel.co.uk,e-sportsbetting.nl,flysharp.com,iddoberger.com,mandrarossatour.com,o-nine.co.uk,onetime.bet,onetimecasino.com,onetimecasinos.com,southalltravel.co.uk,stashdesign.dk,stfly.com,stsports.com,studio-eastwood.nl,theholidayteam.co.uk,thkarayannis.gr,toysupermarket.ie,utelindenberg.com##.wrapperbtm
-atticskateshop.com,elevatedbws.com,tjinstoko.eu,tricoloresports.com##.wsa-cookielaw
+atticskateshop.com,elevatedbws.com,erotic-discount.eu,tjinstoko.eu,tricoloresports.com##.wsa-cookielaw
 warthunder.com##.wt-cb
 waterfordwhispersnews.com##.wwn-gdpr-modal
 spoonflower.com##.x-global-dialog
@@ -22095,6 +22096,8 @@ autohero.com#%#//scriptlet('ubo-set-cookie.js', 'consent', '1')
 bargaintown.ie#%#//scriptlet('ubo-set-cookie.js', 'cookie-bar', 'no')
 tui.nl#%#//scriptlet('ubo-set-cookie.js', 'CookiesAccepted', 'no')
 doppelmayr.com#%#//scriptlet('ubo-set-cookie.js', 'essential', 'true')
+case-score.com#%#//scriptlet('ubo-set-cookie.js', 'cookieConfirm', 'true')
+case-score.com#%#//scriptlet('ubo-set-cookie.js', 'trackingConfirm', 'false')
 finimize.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', 'false')
 rtu.lv#%#//scriptlet('ubo-set-cookie.js', 'uce-cookie', 'N')
 sysdream.com#%#//scriptlet('ubo-set-cookie.js', 'tarteaucitron', 'false')
@@ -24079,9 +24082,9 @@ coolblue.nl,coolblue.de,coolblue.be#$#body,html { overflow: auto !important; pos
 metzler-stiftung.de##.cookieConfig
 metzler-stiftung.de#$#body,html { overflow: auto !important; position: initial !important; }
 ! lightbox--cookie-consent
-bremischevb.de,meinebank.de,vb-rb.de,gladbacher-bank.de,nordthueringer-volksbank.de,bodenseebank.de,rb-oberaudorf.de,volksbank-trossingen.de,owl-immobilien.de,volksbank-backnang.de,volksbank-international.de,raiba-westhausen.de,vr-nopf.cz,vrbankimmobilien.de,cvw-privatbank-ag.de,rb-denzlingen-sexau.de,rv-banken.de,volksbank-remseck.de,raiba-gr.de,vrb-spangenberg.de,rb-berghuelen.de,vb-lauterecken.de,rb-sondelfingen.de,voba-deisslingen.de,saechsischer-gewinnsparverein.de,rb-hardt-bruhrain.de,volksbank-daaden.de,dervolksbanker.de,volksbank-kirnau.de,skbwitten.de,raiba-ndwa.de,volksbank-mittleres-erzgebirge.de,rb-eching.de,volksbank-aktiv.de,vbsuedemsland.de,voba-moeckmuehl.de,volksbank-freiburg.de,vbleos.de,meine-rvb.de,aachener-bank.de,muenchner-bank.de,volksbank-dh.de,volksbankeg.de,sparda-bank-hamburg.de,sparda-sw.de,volksbank-thueringen-mitte.de,vrbankeg.de,bernhauser-bank.de,vvrbank-krp.de,vvr-bank.de,vb-mittelhessen.de,vr-bayernmitte.de##.darken-layer
-bremischevb.de,meinebank.de,vb-rb.de,gladbacher-bank.de,nordthueringer-volksbank.de,bodenseebank.de,rb-oberaudorf.de,volksbank-trossingen.de,owl-immobilien.de,volksbank-backnang.de,volksbank-international.de,raiba-westhausen.de,vr-nopf.cz,vrbankimmobilien.de,cvw-privatbank-ag.de,rb-denzlingen-sexau.de,rv-banken.de,volksbank-remseck.de,raiba-gr.de,vrb-spangenberg.de,rb-berghuelen.de,vb-lauterecken.de,rb-sondelfingen.de,voba-deisslingen.de,saechsischer-gewinnsparverein.de,rb-hardt-bruhrain.de,volksbank-daaden.de,dervolksbanker.de,volksbank-kirnau.de,skbwitten.de,raiba-ndwa.de,volksbank-mittleres-erzgebirge.de,rb-eching.de,volksbank-aktiv.de,vbsuedemsland.de,voba-moeckmuehl.de,volksbank-freiburg.de,vbleos.de,meine-rvb.de,aachener-bank.de,muenchner-bank.de,volksbank-dh.de,volksbankeg.de,sparda-bank-hamburg.de,sparda-sw.de,volksbank-thueringen-mitte.de,vrbankeg.de,bernhauser-bank.de,vvrbank-krp.de,vvr-bank.de,vb-mittelhessen.de,vr-bayernmitte.de#%#//scriptlet('ubo-rc.js', 'cookie-consent-is-active', 'body', 'stay')
-bremischevb.de,meinebank.de,vb-rb.de,gladbacher-bank.de,nordthueringer-volksbank.de,bodenseebank.de,rb-oberaudorf.de,volksbank-trossingen.de,owl-immobilien.de,volksbank-backnang.de,volksbank-international.de,raiba-westhausen.de,vr-nopf.cz,vrbankimmobilien.de,cvw-privatbank-ag.de,rb-denzlingen-sexau.de,rv-banken.de,volksbank-remseck.de,raiba-gr.de,vrb-spangenberg.de,rb-berghuelen.de,vb-lauterecken.de,rb-sondelfingen.de,voba-deisslingen.de,saechsischer-gewinnsparverein.de,rb-hardt-bruhrain.de,volksbank-daaden.de,dervolksbanker.de,volksbank-kirnau.de,skbwitten.de,raiba-ndwa.de,volksbank-mittleres-erzgebirge.de,rb-eching.de,volksbank-aktiv.de,vbsuedemsland.de,voba-moeckmuehl.de,volksbank-freiburg.de,vbleos.de,meine-rvb.de,aachener-bank.de,muenchner-bank.de,volksbank-dh.de,volksbankeg.de,sparda-bank-hamburg.de,sparda-sw.de,volksbank-thueringen-mitte.de,vrbankeg.de,bernhauser-bank.de,vvrbank-krp.de,vvr-bank.de,vb-mittelhessen.de,vr-bayernmitte.de#%#//scriptlet('ubo-rc.js', 'no-scroll', 'body', 'stay')
+bremischevb.de,meinebank.de,vb-rb.de,gladbacher-bank.de,nordthueringer-volksbank.de,bodenseebank.de,rb-oberaudorf.de,volksbank-trossingen.de,owl-immobilien.de,volksbank-backnang.de,volksbank-international.de,raiba-westhausen.de,vr-nopf.cz,vrbankimmobilien.de,cvw-privatbank-ag.de,rb-denzlingen-sexau.de,rv-banken.de,volksbank-remseck.de,raiba-gr.de,vrb-spangenberg.de,rb-berghuelen.de,vb-lauterecken.de,rb-sondelfingen.de,voba-deisslingen.de,saechsischer-gewinnsparverein.de,rb-hardt-bruhrain.de,volksbank-daaden.de,dervolksbanker.de,volksbank-kirnau.de,skbwitten.de,raiba-ndwa.de,volksbank-mittleres-erzgebirge.de,rb-eching.de,volksbank-aktiv.de,vbsuedemsland.de,voba-moeckmuehl.de,volksbank-freiburg.de,vbleos.de,meine-rvb.de,aachener-bank.de,muenchner-bank.de,volksbank-dh.de,volksbankeg.de,sparda-bank-hamburg.de,sparda-sw.de,volksbank-thueringen-mitte.de,vrbankeg.de,bernhauser-bank.de,vvrbank-krp.de,vvr-bank.de,vb-mittelhessen.de,vr-bayernmitte.de,vobadhk.de,rheingauer-volksbank.de,dovoba.de,vr-dachau.de##.darken-layer
+bremischevb.de,meinebank.de,vb-rb.de,gladbacher-bank.de,nordthueringer-volksbank.de,bodenseebank.de,rb-oberaudorf.de,volksbank-trossingen.de,owl-immobilien.de,volksbank-backnang.de,volksbank-international.de,raiba-westhausen.de,vr-nopf.cz,vrbankimmobilien.de,cvw-privatbank-ag.de,rb-denzlingen-sexau.de,rv-banken.de,volksbank-remseck.de,raiba-gr.de,vrb-spangenberg.de,rb-berghuelen.de,vb-lauterecken.de,rb-sondelfingen.de,voba-deisslingen.de,saechsischer-gewinnsparverein.de,rb-hardt-bruhrain.de,volksbank-daaden.de,dervolksbanker.de,volksbank-kirnau.de,skbwitten.de,raiba-ndwa.de,volksbank-mittleres-erzgebirge.de,rb-eching.de,volksbank-aktiv.de,vbsuedemsland.de,voba-moeckmuehl.de,volksbank-freiburg.de,vbleos.de,meine-rvb.de,aachener-bank.de,muenchner-bank.de,volksbank-dh.de,volksbankeg.de,sparda-bank-hamburg.de,sparda-sw.de,volksbank-thueringen-mitte.de,vrbankeg.de,bernhauser-bank.de,vvrbank-krp.de,vvr-bank.de,vb-mittelhessen.de,vr-bayernmitte.de,vobadhk.de,rheingauer-volksbank.de,dovoba.de,vr-dachau.de#%#//scriptlet('ubo-rc.js', 'cookie-consent-is-active', 'body', 'stay')
+bremischevb.de,meinebank.de,vb-rb.de,gladbacher-bank.de,nordthueringer-volksbank.de,bodenseebank.de,rb-oberaudorf.de,volksbank-trossingen.de,owl-immobilien.de,volksbank-backnang.de,volksbank-international.de,raiba-westhausen.de,vr-nopf.cz,vrbankimmobilien.de,cvw-privatbank-ag.de,rb-denzlingen-sexau.de,rv-banken.de,volksbank-remseck.de,raiba-gr.de,vrb-spangenberg.de,rb-berghuelen.de,vb-lauterecken.de,rb-sondelfingen.de,voba-deisslingen.de,saechsischer-gewinnsparverein.de,rb-hardt-bruhrain.de,volksbank-daaden.de,dervolksbanker.de,volksbank-kirnau.de,skbwitten.de,raiba-ndwa.de,volksbank-mittleres-erzgebirge.de,rb-eching.de,volksbank-aktiv.de,vbsuedemsland.de,voba-moeckmuehl.de,volksbank-freiburg.de,vbleos.de,meine-rvb.de,aachener-bank.de,muenchner-bank.de,volksbank-dh.de,volksbankeg.de,sparda-bank-hamburg.de,sparda-sw.de,volksbank-thueringen-mitte.de,vrbankeg.de,bernhauser-bank.de,vvrbank-krp.de,vvr-bank.de,vb-mittelhessen.de,vr-bayernmitte.de,vobadhk.de,rheingauer-volksbank.de,dovoba.de,vr-dachau.de#%#//scriptlet('ubo-rc.js', 'no-scroll', 'body', 'stay')
 !! .TraminoConsent
 zipfelbund.de,kueren.de,landhaus-thaumiller.de,schraudolf-oberstdorf.de,art-harder.de,ahrtal-klinik.de,kornau.de,bs-landschaftsarchitekten.de,reifenservice-oberstdorf.de,steinbockhuette.de,baldauf-oberstdorf.de,gaestehaus-schlegel.de,oberstdorf-buchen.de,fewo-heides-haus.de,lingg-oberstdorf.de,hoermann-kleinwalsertal.de,marktbaehnle.de,ferienwohnungen-rotzler.de,erholung-oberstdorf.de,dach-bau.info,landurlaub-allgaeu.de,ski-light.de,alte-sennerei.com,haus-bergbluemle.de,golfschwung.com,gasthof-riefenkopf.de,buehler-segelfreunde.de,neumann-grafik.de,breitachklamm.com,oberstdorf.de,ok-bergbahnen.com##.TraminoConsent
 zipfelbund.de,kueren.de,landhaus-thaumiller.de,schraudolf-oberstdorf.de,art-harder.de,ahrtal-klinik.de,kornau.de,bs-landschaftsarchitekten.de,reifenservice-oberstdorf.de,steinbockhuette.de,baldauf-oberstdorf.de,gaestehaus-schlegel.de,oberstdorf-buchen.de,fewo-heides-haus.de,lingg-oberstdorf.de,hoermann-kleinwalsertal.de,marktbaehnle.de,ferienwohnungen-rotzler.de,erholung-oberstdorf.de,dach-bau.info,landurlaub-allgaeu.de,ski-light.de,alte-sennerei.com,haus-bergbluemle.de,golfschwung.com,gasthof-riefenkopf.de,buehler-segelfreunde.de,neumann-grafik.de,breitachklamm.com,oberstdorf.de,ok-bergbahnen.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -24491,10 +24494,6 @@ happyplates.com#$#body { overflow: auto !important; position: initial !important
 ! .darken
 icvs2023.conf.tuwien.ac.at##.darken
 icvs2023.conf.tuwien.ac.at#$#body,html { overflow: auto !important; position: initial !important; }
-! dovoba.de
-rheingauer-volksbank.de,dovoba.de,vr-dachau.de##.darken-layer
-rheingauer-volksbank.de,dovoba.de,vr-dachau.de##.lightbox--cookie-consent
-rheingauer-volksbank.de,dovoba.de,vr-dachau.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! #cookie-wall
 favi.sk,favi.hu,favi.hr,favi.it,favi.se,favi.co.uk,favi.ro,favi.pl,favi.cz###cookie-wall
 favi.sk,favi.hu,favi.hr,favi.it,favi.se,favi.co.uk,favi.ro,favi.pl,favi.cz#$#body,html { overflow: auto !important; position: initial !important; }

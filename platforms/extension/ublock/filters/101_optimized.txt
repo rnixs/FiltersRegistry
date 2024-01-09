@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wm0lFH4nPrDT81LGtpPtug
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1704748025-14400.patch
+! Checksum: L41gL0krDT8E61WKC7FwKw
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1704762397-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.18.75
-! TimeUpdated: 2024-01-08T21:02:01+00:00
+! Version: 2.1.18.76
+! TimeUpdated: 2024-01-09T01:01:38+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -902,6 +902,7 @@
 /Nuggad?
 /nwm-fcn.min.js
 /nwm-pw2.min.js
+/nxst-advertising/dist/htlbid-advertising.min.js
 /oas-config.
 /oas_ad.
 /oas_ad_
@@ -27079,6 +27080,7 @@ browsershots.org#@#.advert_area
 ||outlookads.live.com^
 ||ownedcore.com/forums/ocpbanners/
 ||pafvertizing.crazygames.com^
+||pasteheaven.com/assets/images/banners/
 ||picrew.me/vol/ads/
 ||plagiarismdetector.net/img-pop/
 ||pons.com/assets/javascripts/modules-min/ad-utilities_
@@ -28282,7 +28284,7 @@ barnstormers.com##.banner_rh
 mamul.am##.bannerb
 2merkato.com,2mfm.org,aps.dz,armyrecognition.com,cbn.co.za,dailynews.co.tz,digitalmediaworld.tv,eprop.co.za,finchannel.com,i-programmer.info,killerdirectory.com,limesurvey.org,pamplinmedia.com,radiolumiere.org,rapidtvnews.com,southfloridagaynews.com,thepatriot.co.bw,usedcarnews.com##.bannergroup
 asianmirror.lk,catholicregister.org,crown.co.za,marengo-uniontimes.com,nikktech.com##.banneritem
-domainnamewire.com,ghostbin.me,i24news.tv,marinetechnologynews.com,maritimepropulsion.com,mumbrella.com.au,paste.fo,petapixel.com,rapidtvnews.com,telesurtv.net,travelpulse.com##.banners
+domainnamewire.com,ghostbin.me,i24news.tv,marinetechnologynews.com,maritimepropulsion.com,mumbrella.com.au,paste.fo,pasteheaven.com,petapixel.com,rapidtvnews.com,telesurtv.net,travelpulse.com##.banners
 rt.com##.banners__border
 marketscreener.com##.bas
 euronews.com##.base-leaderboard
@@ -28883,6 +28885,7 @@ extremetech.com##.min-h-24
 copyprogramming.com##.min-h-250
 uwufufu.com##.min-h-\[253px\]
 uwufufu.com##.min-h-\[300px\]
+instavideosave.net##.min-h-\[350px\]
 mumsnet.com##.min-w-\[300px\]
 moviemeter.com##.minheight250
 kitco.com##.mining-banner-container
@@ -29380,6 +29383,7 @@ news18.com##.topAdd
 ganjingworld.com##.topAdsSection_wrapper__cgH4h
 ada.org,globes.co.il,techcentral.ie,texteditor.co,versus.com##.topBanner
 tech.hindustantimes.com##.topGadgetsAppend
+theepochtimes.com##.top_ad
 joebucsfan.com##.top_banner_cont
 archaeology.org##.top_black
 justjared.com,justjaredjr.com##.top_rail_shell
@@ -30423,6 +30427,7 @@ jizzbunker.com,jizzbunker2.com##.ftrzx1
 kompoz2.com,pornvideos4k.com,roleplayers.co##.full-bns-block
 youx.xxx##.gallery-link
 xxxonxxx.com,youtubelike.com##.gallery-thumbs
+porngamesverse.com##.game-aaa
 bravoteens.com,bravotube.net##.good_list_wrap
 kbjfree.com##.h-\[250px\]
 amateur-vids.eu,leaktape.com,mature.community,mature.mom,mature.sexy,milf.community,milf.mom,milf.plus,milf.sexy##.happy-footer
@@ -30775,6 +30780,7 @@ tokyomotion.com#?#.is-gapless > .has-text-centered:-abp-has(> div > .adv)
 @@||doodcdn.co^$domain=dood.la|dood.pm|dood.to|dood.ws
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
 @@||einthusan.tv/prebid.js$script,~third-party
+@@||embed.ex.co^$xmlhttprequest,domain=espncricinfo.com
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
 @@||experienceleague.adobe.com^$~third-party
 @@||explainxkcd.com/wiki/images/$image,~third-party

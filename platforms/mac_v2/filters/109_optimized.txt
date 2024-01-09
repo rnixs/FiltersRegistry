@@ -1,9 +1,9 @@
-! Checksum: NJIj2nTmPmZuvXI/en9Ufw
-! Diff-Path: ../patches/109_optimized/109_optimized-s-1704748039-14400.patch
+! Checksum: M+MUc8i7mOEbGZctrr8UDg
+! Diff-Path: ../patches/109_optimized/109_optimized-s-1704762411-14400.patch
 ! Title: EasyList Italy (Optimized)
 ! Description: Additional filter list for websites in Italian.
-! Version: 2.1.41.74
-! TimeUpdated: 2024-01-08T21:02:13+00:00
+! Version: 2.1.41.75
+! TimeUpdated: 2024-01-09T01:01:50+00:00
 ! Expires: 12 hours (update frequency)
 -000Pubblicita-
 -000pubblicita.
@@ -698,6 +698,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||advx.esprimo.com^
 ||affiliatetxt.nextmediaweb.com^
 ||affiliati.ionoleggioauto.com^$third-party
+||affiliazioni.misterdomain.eu^$third-party
 ||api.vivisail.com^$domain=italiavela.it
 ||autoxy.it/js/combine/lead_banner_min.js$third-party
 ||bannerpress.bps.plap.it^
@@ -750,7 +751,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||affiliati.bet2bet.it^
 ||affiliation.majeeko.com^$third-party
 ||affiliation.sostariffe.it^$third-party
-||affiliazioni.misterdomain.eu^$third-party
 ||aimon.it/banner_
 ||alpitour.it/widget/$third-party
 ||andreafranzoso.com/banner/
