@@ -1,9 +1,9 @@
-! Checksum: eFpsfVy8v0w1S8jkrIM++A
-! Diff-Path: ../patches/18/18-s-1704789362-3600.patch
+! Checksum: Lo4zRGUMDd++3bokci2vQg
+! Diff-Path: ../patches/18/18-s-1704792967-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.90
-! TimeUpdated: 2024-01-09T08:32:07+00:00
+! Version: 2.0.30.91
+! TimeUpdated: 2024-01-09T09:32:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2308,6 +2308,7 @@ dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.
 !
 ! NOTE: Regular rules
 !
+player.amperwave.net##.v7-us-privacy-explicit-notice
 a2mobile.pl###oreos-popup
 ||okucia-sklep.pl/modules/pdcookiepro/
 energy.instrat.pl###elementor-popup-modal-5014

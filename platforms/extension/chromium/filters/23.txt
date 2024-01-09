@@ -1,9 +1,9 @@
-! Checksum: Bbd0ylYrOkgtbGtzX9Fd/Q
-! Diff-Path: ../patches/23/23-s-1704472563-3600.patch
+! Checksum: iz2tS6Z8pirvXOQXtQQGEQ
+! Diff-Path: ../patches/23/23-s-1704792974-3600.patch
 ! Title: AdGuard Ukrainian filter
 ! Description: Filter that enables ad blocking on websites in Ukrainian language.
-! Version: 2.0.3.61
-! TimeUpdated: 2024-01-05T16:32:26+00:00
+! Version: 2.0.3.62
+! TimeUpdated: 2024-01-09T09:32:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1478,6 +1478,8 @@ ucoz.ru/informer/
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||cchbdata.net^
+||s.ccsyncuuid.net^
 ||bngtrak.com^$all
 ||fnasmpygwa.com^
 ||o1qry0qq83.com^
@@ -5743,6 +5745,8 @@ http://wq3.ru^$third-party
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
+||exad.smi2.ru^
+||tgb.hsmedia.ru^$third-party
 ||market-backend.api.2gis.ru^
 !
 ! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
