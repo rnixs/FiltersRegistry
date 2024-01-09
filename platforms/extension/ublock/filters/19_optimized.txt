@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: RkHXm+Ji4Ri1Ckc4l/iVMQ
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1704767820-3600.patch
+! Checksum: w50Jlst7ScwuvHRNT9xl+A
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704785787-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.62
-! TimeUpdated: 2024-01-08T21:32:06+00:00
+! Version: 2.0.29.63
+! TimeUpdated: 2024-01-09T07:32:26+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -1513,6 +1513,8 @@ aol.com#@#.adwrap
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+theconversation.com#$#div[role="presentation"] { display: none !important; }
+theconversation.com#$#body[style] { padding-right: 0 !important; overflow: auto !important; }
 ukrainart.com.ua###bg_popup
 hyperhost.ua#$#.pop-ups { display: none !important; }
 hyperhost.ua#$#.pop-ups ~ div.modal-backdrop { display: none !important; }

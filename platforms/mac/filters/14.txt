@@ -1,9 +1,9 @@
-! Checksum: 3+DF+W/Fe58vNjqzPplRGw
-! Diff-Path: ../patches/14/14-s-1704749778-3600.patch
+! Checksum: JwKfb2FarFRFgsvPeaO0og
+! Diff-Path: ../patches/14/14-s-1704785795-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.8
-! TimeUpdated: 2024-01-08T21:31:52+00:00
+! Version: 2.1.84.9
+! TimeUpdated: 2024-01-09T07:32:13+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -22443,6 +22443,8 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+theconversation.com#$#div[role="presentation"] { display: none !important; }
+theconversation.com#$#body[style] { padding-right: 0 !important; overflow: auto !important; }
 ukrainart.com.ua###bg_popup
 hyperhost.ua#$#.pop-ups { display: none !important; }
 hyperhost.ua#$#.pop-ups ~ div.modal-backdrop { display: none !important; }
