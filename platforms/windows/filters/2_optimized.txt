@@ -1,9 +1,9 @@
-! Checksum: uYtTkhVC32JHxWSAmNUUHA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704836185-3600.patch
+! Checksum: ttvgUT8l76o8pa2NdffpZA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704843389-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.17.23
-! TimeUpdated: 2024-01-09T21:32:59+00:00
+! Version: 2.3.17.24
+! TimeUpdated: 2024-01-09T23:33:00+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -20748,6 +20748,7 @@ browsershots.org#@#.advert_area
 ||aweprt.com^
 ||awept.com^
 ||awfulresolvedraised.com^
+||awhajdorzawd.com^
 ||awistats.com^
 ||awkwardpurfles.com^
 ||awltovhc.com^
