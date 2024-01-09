@@ -1,9 +1,9 @@
-! Checksum: yQ0mLG4bQ+/x9CVocnBx+w
-! Diff-Path: ../patches/18/18-s-1704807387-3600.patch
+! Checksum: RlSXuG5o5LTsIhnC1efCyw
+! Diff-Path: ../patches/18/18-s-1704814596-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.94
-! TimeUpdated: 2024-01-09T13:32:21+00:00
+! Version: 2.0.30.95
+! TimeUpdated: 2024-01-09T15:32:38+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4872,7 +4872,8 @@ oper-leipzig.de#$#.cookie-manager { display: none !important; }
 oper-leipzig.de#$#body { overflow: auto !important; }
 spar.hu,alpenclassics.de#$##cmpwrapper { display: none !important; }
 spar.hu,alpenclassics.de#$#body { overflow: auto !important; }
-readly.com##div[id^="CookieConsentDialog"]
+readly.com#$#div[id^="CookieConsentDialog"] { display: none !important; }
+readly.com#$#body { overflow: auto !important; }
 interred.de###cookieconsentgreyspace
 faustauto.ch,cuxhaven.de###ccm-widget
 jedlinazdroj.eu###bs_cookie_alert_container
@@ -8474,8 +8475,6 @@ exame.com,home.kpmg##.privacy-container
 porn.com##.cookie-alert
 trickstercards.com###EUCookiesWarning
 chipkartenleser-shop.de,reiner-sct.com###cookie-consent-outer
-readly.com#$##cookie-consent-window { display: none !important; }
-readly.com#$#html > body.cookie-consent { overflow: visible !important; }
 emsa.com##.cookie_wrapper_tool
 bitclix.io,ad-doge.com,litegpt.com###cookieok_bar
 weightwatchers.com##div[class*="DPRBanner_gdpr__banner"]

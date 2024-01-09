@@ -1,0 +1,12 @@
+d2 2
+a3 2
+! Checksum: 4StBgUjb4/PKHh5VYHJ6ZA
+! Diff-Path: ../patches/3/3-s-1704814637-3600.patch
+d6 2
+a7 2
+! Version: 2.0.65.46
+! TimeUpdated: 2024-01-09T15:33:33+00:00
+a95 3
+! 4players.de - remove onclick tracking
+4players.de##+js(remove-attr, onclick, a[onclick*="send4PEvent"])
+4players.de##+js(remove-attr, onclick, a[onclick*="Buy"])

@@ -1,0 +1,73 @@
+d1 2
+a2 2
+! Checksum: sVd+bo9qnR+5HcxnDZbqog
+! Diff-Path: ../patches/2/2-s-1704814596-3600.patch
+d5 2
+a6 2
+! Version: 2.3.17.17
+! TimeUpdated: 2024-01-09T15:33:26+00:00
+a78 1
+||capletstyldia.com^
+a6850 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/170276
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hiraethtranslation.com
+d8181 4
+a27435 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/170266
+a29841 2
+||amazonaws.com/*.*.*.*.*.*.*.*/*/index*.html$document
+jezebel.com###secondScroll > div.js_sticky-second-scroll
+d30733 1
+a30733 1
+kaystls.site,gamertweak.com,mrinformatico.it,pianetacellulare.it,inwepo.co,updoc.site,oliveoiltimes.com,cgmagonline.com,happymag.tv,cpophome.com##.code-block
+a31545 1
+||ondigitalocean.app/*/index.php?cezp=$document
+d36352 1
+a36352 1
+$script,third-party,denyallow=doodcdn.co|fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|twitter.com|ulogin.ru|unpkg.com|userapi.com|ytimg.com|zencdn.net|youtube.com|googleoptimize.com|vuukle.com|chatango.com|twimg.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=ds2play.com|doods.pro|dooood.com|dood.yt|dood.re|dood.wf|dood.la|dood.pm|dood.so|dood.to|dood.watch|dood.ws
+a44454 5
+! 808scoretv
+! *808* - frequently changed domains
+! Maybe could be generic
+score808.tv,808ball.com,score808pro.com##.min-height-fullscreen a.banner
+!
+a75949 1
+##a[href^="https://pb-front.com/"]
+a77109 1
+||3467b7d02e.com^
+a83148 1
+||cohade.uno^
+a84191 1
+||dawplm.com^
+a85319 1
+||dtkhbsictxpu.com^
+a89193 1
+||hapbtualkfi.com^
+a91664 1
+||jzokkejmqrbyj.top^
+a92209 1
+||kxemrjbvsrd.com^
+a94873 1
+||nawcgetfwpbff.com^
+a94910 1
+||nderthfeo.info^
+a97339 1
+||pgtabxxmb.com^
+a97794 1
+||pnufzbzzomt.com^
+a97828 1
+||poi3d.space^
+a99412 1
+||rbcxttd.com^
+a101290 1
+||seynatcreative.com^
+a101340 1
+||shalomitll.top^
+a103291 1
+||tbgmckdemnv.com^
+a108142 1
+||zugeme.uno^
+d124047 1
+a124047 1
+@@||live.primis.tech^$script,domain=eurogamer.net|loudwire.com|vg247.com|xxlmag.com

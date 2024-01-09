@@ -1,0 +1,75 @@
+d1 2
+a2 2
+! Checksum: /sEAf7mLlVodJYYGWFVdTw
+! Diff-Path: ../patches/2/2-s-1704814613-3600.patch
+d5 2
+a6 2
+! Version: 2.3.17.17
+! TimeUpdated: 2024-01-09T15:33:26+00:00
+a89 1
+||capletstyldia.com^
+a7280 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/170276
+hiraethtranslation.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+d8634 3
+a30811 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/170266
+a30812 2
+ds2play.com,doods.pro,dooood.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws#%#//scriptlet("json-prune", "*", "rot_url")
+ds2play.com,doods.pro,dooood.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws#%#//scriptlet("json-prune", "*", "pop_type")
+a33779 2
+||amazonaws.com/*.*.*.*.*.*.*.*/*/index*.html$document
+jezebel.com###secondScroll > div.js_sticky-second-scroll
+d34800 1
+a34800 1
+kaystls.site,gamertweak.com,mrinformatico.it,pianetacellulare.it,inwepo.co,updoc.site,oliveoiltimes.com,cgmagonline.com,happymag.tv,cpophome.com##.code-block
+a35625 1
+||ondigitalocean.app/*/index.php?cezp=$document
+d40477 1
+a40477 1
+$script,third-party,denyallow=doodcdn.co|fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|twitter.com|ulogin.ru|unpkg.com|userapi.com|ytimg.com|zencdn.net|youtube.com|googleoptimize.com|vuukle.com|chatango.com|twimg.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=ds2play.com|doods.pro|dooood.com|dood.yt|dood.re|dood.wf|dood.la|dood.pm|dood.so|dood.to|dood.watch|dood.ws
+a50462 5
+! 808scoretv
+! *808* - frequently changed domains
+! Maybe could be generic
+score808.tv,808ball.com,score808pro.com##.min-height-fullscreen a.banner
+!
+a76742 1
+##a[href^="https://pb-front.com/"]
+a77902 1
+||3467b7d02e.com^
+a83941 1
+||cohade.uno^
+a84984 1
+||dawplm.com^
+a86112 1
+||dtkhbsictxpu.com^
+a89986 1
+||hapbtualkfi.com^
+a92457 1
+||jzokkejmqrbyj.top^
+a93002 1
+||kxemrjbvsrd.com^
+a95666 1
+||nawcgetfwpbff.com^
+a95703 1
+||nderthfeo.info^
+a98132 1
+||pgtabxxmb.com^
+a98587 1
+||pnufzbzzomt.com^
+a98621 1
+||poi3d.space^
+a100205 1
+||rbcxttd.com^
+a102083 1
+||seynatcreative.com^
+a102133 1
+||shalomitll.top^
+a104084 1
+||tbgmckdemnv.com^
+a108935 1
+||zugeme.uno^
+d125066 1
+a125066 1
+@@||live.primis.tech^$script,domain=eurogamer.net|loudwire.com|vg247.com|xxlmag.com

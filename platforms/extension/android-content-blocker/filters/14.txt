@@ -1,9 +1,9 @@
-! Checksum: 6j4jMhj/x0mvtQZ6wLkHtQ
-! Diff-Path: ../patches/14/14-s-1704810959-3600.patch
+! Checksum: Cqz/+PxTa1Jdp/sIgUwgiQ
+! Diff-Path: ../patches/14/14-s-1704814595-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.16
-! TimeUpdated: 2024-01-09T14:32:03+00:00
+! Version: 2.1.84.17
+! TimeUpdated: 2024-01-09T15:32:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4872,7 +4872,8 @@ oper-leipzig.de#$#.cookie-manager { display: none !important; }
 oper-leipzig.de#$#body { overflow: auto !important; }
 spar.hu,alpenclassics.de#$##cmpwrapper { display: none !important; }
 spar.hu,alpenclassics.de#$#body { overflow: auto !important; }
-readly.com##div[id^="CookieConsentDialog"]
+readly.com#$#div[id^="CookieConsentDialog"] { display: none !important; }
+readly.com#$#body { overflow: auto !important; }
 interred.de###cookieconsentgreyspace
 faustauto.ch,cuxhaven.de###ccm-widget
 jedlinazdroj.eu###bs_cookie_alert_container
@@ -8474,8 +8475,6 @@ exame.com,home.kpmg##.privacy-container
 porn.com##.cookie-alert
 trickstercards.com###EUCookiesWarning
 chipkartenleser-shop.de,reiner-sct.com###cookie-consent-outer
-readly.com#$##cookie-consent-window { display: none !important; }
-readly.com#$#html > body.cookie-consent { overflow: visible !important; }
 emsa.com##.cookie_wrapper_tool
 bitclix.io,ad-doge.com,litegpt.com###cookieok_bar
 weightwatchers.com##div[class*="DPRBanner_gdpr__banner"]
@@ -20252,6 +20251,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Anti-adblock - The rules for content blockers only
 !#safari_cb_affinity(general)
+@@||adskeeper.co.uk^$domain=bravedown.com
 @@||s.nitropay.com/ads-*.js$domain=maxroll.gg
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=calcmaps.com
 @@||googlesyndication.com/|$xmlhttprequest,domain=bypass.city
