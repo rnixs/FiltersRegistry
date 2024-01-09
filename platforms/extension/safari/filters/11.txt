@@ -1,9 +1,9 @@
-! Checksum: aUG/xcULmjz3i7srQow+ig
-! Diff-Path: ../patches/11/11-s-1704814623-3600.patch
+! Checksum: BDbnZlayKlS3MZFmpPWA6Q
+! Diff-Path: ../patches/11/11-s-1704818187-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.13
-! TimeUpdated: 2024-01-09T15:32:08+00:00
+! Version: 2.0.48.14
+! TimeUpdated: 2024-01-09T16:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2987,7 +2987,6 @@ drochka.vip##.container > center[style="min-height:250px"]
 vkusno.plus##.block-xofda-block
 oppaisan.com###fix-bottom-AD
 oppaisan.com##.header_koukoku
-niraw.com##.adsterra
 ||bl-doujinsouko.com/fam2.html
 ero-doujinshiworld.com,ero-mangacafe.com##.archive__item ~ div[style="margin:0 auto;"]
 eromanga-moeerolibrar.com,bl-doujinsouko.com,bl-boyslove.com,eromanga-musou.com##.content > p > a[href] ~ center

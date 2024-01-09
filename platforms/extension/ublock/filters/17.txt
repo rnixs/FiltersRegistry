@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: O+GYw8Bk74wLwqwHb+0cFw
-! Diff-Path: ../patches/17/17-s-1704638151-3600.patch
+! Checksum: K+K3JLMwTME2ZCH/3AKkqA
+! Diff-Path: ../patches/17/17-s-1704818194-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.76
-! TimeUpdated: 2024-01-07T14:31:59+00:00
+! Version: 2.0.7.77
+! TimeUpdated: 2024-01-09T16:32:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1973,6 +1973,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169890
+@@||lifehacker.ru^$removeparam=erid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168271
 @@||transfernow.net/*/*?utm_source=$removeparam=utm_source
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166698

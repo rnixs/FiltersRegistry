@@ -1,9 +1,9 @@
-! Checksum: s94EBQDA4+l6W0K9g8VdKA
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1704814645-3600.patch
+! Checksum: AccEGDA+GUlQhHkB/PxhtQ
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1704818204-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.39
-! TimeUpdated: 2024-01-09T15:33:56+00:00
+! Version: 2.0.47.40
+! TimeUpdated: 2024-01-09T16:33:30+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4343,7 +4343,7 @@ news.ameba.jp##div[class^="SpAd"]
 huffingtonpost.jp##.leaderboard-flex-placeholder
 macaro-ni.jp##.articleShow__nativeAd
 macaro-ni.jp##.yadsOverlay
-mitok.info,entamega.com,getnews.jp,webcartop.jp##div[style="min-height: 250px;"]
+ac-illust.com,photo-ac.com,mitok.info,entamega.com,getnews.jp,webcartop.jp##div[style="min-height: 250px;"]
 response.jp,getnews.jp,withonline.jp,jprime.jp##div[style="min-height:250px;"]
 otajo.jp##iframe[src^="https://rcm-jp.amazon.co.jp/e/cm?"]
 2chmatome2.jp###gn_overlay_wrapper

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: kBK7x3kT5SstBq0OAQ8+Jw
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1704803794-3600.patch
+! Checksum: ZHRd5UBv19ELd2MvFpXTkw
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1704818196-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.70
-! TimeUpdated: 2024-01-09T12:32:26+00:00
+! Version: 2.0.11.71
+! TimeUpdated: 2024-01-09T16:32:27+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ##amp-app-banner
@@ -1023,6 +1023,7 @@ gaode.com##.amap-app-download
 app.slack.com##.p-download_modal
 app.slack.com##.p-ia__workspace_banner
 foursquare.com##.appButton
+syndication-bleacherreport-com.cdn.ampproject.org,nbcnewyork.com,foursquare.com,wsj.com###branch-banner-iframe
 infobus.eu##.application-block-background
 ||farmlend.ru/images/megi-app.jpg
 currenttime.tv##+js(remove-class, has-promo-bannner--enabled, body)

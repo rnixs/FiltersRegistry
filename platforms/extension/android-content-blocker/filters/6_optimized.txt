@@ -1,9 +1,9 @@
-! Checksum: b7NYFhU6rR+E1n65JQ4O8A
-! Diff-Path: ../patches/6_optimized/6_optimized-s-1704810962-3600.patch
+! Checksum: Ns4PAT0H2YAQSk75vo2t9A
+! Diff-Path: ../patches/6_optimized/6_optimized-s-1704818165-3600.patch
 ! Title: AdGuard German filter (Optimized)
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.89
-! TimeUpdated: 2024-01-09T14:33:26+00:00
+! Version: 2.0.39.90
+! TimeUpdated: 2024-01-09T16:33:25+00:00
 ! Expires: 5 days (update frequency)
 ||lehrer-finden.de^
 ||lokalwerben.t-online.de^
@@ -4112,6 +4112,7 @@ tarnkappe.info##a[href*="/hide.me/de/?friend="]
 3druck.com,cannabis-special.com,supertipp-online.de##a[href*="/linkout/"]
 bild.de##a[href*="/partner/"]
 emtb-news.de,ladies.de,mtb-news.de##a[href*="/redirect/"]
+live.vodafone.de##a[href*="https://vflive.de/lotto24_desktop300x250-home"] > .card-promo
 finanzen.net##a[href="#p500Werbehinweis"]
 apfelpage.de##a[href="https://www.betrugstest.com/online-casino/apple-pay/"]
 hammerporno.xxx##a[href^="//plx.hammerporno.xxx/pool_link/"]

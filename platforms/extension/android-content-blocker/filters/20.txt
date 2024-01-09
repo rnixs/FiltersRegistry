@@ -1,9 +1,9 @@
-! Checksum: k5/6Dtoyea+rX3BIpZB/Pw
-! Diff-Path: ../patches/20/20-s-1704803760-3600.patch
+! Checksum: hb0WxBo53FMvXyeE5v40og
+! Diff-Path: ../patches/20/20-s-1704818164-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.70
-! TimeUpdated: 2024-01-09T12:32:26+00:00
+! Version: 2.0.11.71
+! TimeUpdated: 2024-01-09T16:32:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -452,7 +452,6 @@ m.v.qq.com##.at-app-banner
 peru21.pe###appstick
 guides.gamepressure.com##.guide19-app-cc
 m.11st.co.kr##.c-footer__app-download
-nbcnewyork.com###branch-banner-iframe
 finance.sina.com.cn##.m-p1-lb2_5
 qanda.ai###__next > footer + div[type="bottom"]
 theinformation.com###ti-wrapper::after
@@ -1774,7 +1773,7 @@ maximiles.com.tr##div[id^="App_Market_Maximiles_"]
 app.slack.com##.p-download_modal
 app.slack.com##.p-ia__workspace_banner
 foursquare.com##.appButton
-foursquare.com,wsj.com###branch-banner-iframe
+syndication-bleacherreport-com.cdn.ampproject.org,nbcnewyork.com,foursquare.com,wsj.com###branch-banner-iframe
 kitsu.io##.alert-kitsu
 infobus.eu##.application-block-background
 lachainemeteo.com###autopromoAppli
