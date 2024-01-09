@@ -1,9 +1,9 @@
-! Checksum: qJE0rS9syJiPiNb1+CAHTw
-! Diff-Path: ../patches/11_optimized/11_optimized-s-1704796590-3600.patch
+! Checksum: v61GMwFiWHaQ53Bp+sAdCA
+! Diff-Path: ../patches/11_optimized/11_optimized-s-1704800218-3600.patch
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.8
-! TimeUpdated: 2024-01-09T10:32:11+00:00
+! Version: 2.0.48.9
+! TimeUpdated: 2024-01-09T11:32:40+00:00
 ! Expires: 5 days (update frequency)
 ||dad-api.dcard.tw^
 ||ad-splash-tracking.hktvmall.com^
@@ -1996,7 +1996,7 @@ si.com##amp-video-iframe[src^="//player.ex.co/"]
 andhrajyothy.com##.onlyMobileADS
 technologyreview.jp###adMobile
 ero-video.net##.c-advert
-tennessean.com,northjersey.com,detroitnews.com,greatfallstribune.com,onlineathens.com,usatoday.com,freep.com##.gnt_xmst
+palmbeachpost.com,tennessean.com,northjersey.com,detroitnews.com,greatfallstribune.com,onlineathens.com,usatoday.com,freep.com##.gnt_xmst
 minpachi.com##.ad_interstitial
 kurashi-no.jp,minpachi.com##.ad_overlay
 sn-jp.com##article[class="post-box"]:not([role])
