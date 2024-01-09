@@ -1,0 +1,18 @@
+d1 2
+a2 2
+! Checksum: Y3w1QjYQzSvjxtxhpaO1RA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704828984-3600.patch
+d5 2
+a6 2
+! Version: 2.3.17.21
+! TimeUpdated: 2024-01-09T19:33:13+00:00
+a5674 1
+||serverside.ai/vod/mpds/*.mpd$replace=/(<BaseURL>).*?\/ad\/.*?(<\/BaseURL>)/\$1\$2/
+a20381 1
+##a[href^="https://www.dql2clk.com/"]
+a21956 1
+||bngdin.com^
+a22891 1
+||dnfs24.com^
+a24946 1
+||madmoney.eu^
