@@ -1,9 +1,9 @@
-! Checksum: ySm5vG/8rBJ+1ZH3GQemBQ
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1704719497-14400.patch
+! Checksum: VlBhSNM/nXvn0QzaXiKiSA
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704777043-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.90
-! TimeUpdated: 2024-01-08T13:03:20+00:00
+! Version: 2.0.12.91
+! TimeUpdated: 2024-01-09T05:04:48+00:00
 ! Expires: 5 days (update frequency)
 ###smart-banner
 ###smartbanner
@@ -217,6 +217,7 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ||totalwebshield.com^$all
 ||totaladblock.com^$all
 ||spnccrzone.com^$all
+||d2m2wsoho8qq12.cloudfront.net^$all
 ||info.leadid.com^$all
 ||traversedlp.com^$all
 /(^|\.|//)tkqlhce\.com/click-.*([?&][a-tv-z]{1,}(=[a-zA-Z0-9]{1,})?){1,}$/$document
@@ -308,7 +309,6 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ||outsliggooa.com^$all
 ||postlnk.com^$all
 ||rndskittytor.com^$all
-||roudoduor.com^$all
 ||taghaugh.com^$all
 ||thaudray.com^$all
 ||thefacux.com^$all
@@ -362,13 +362,13 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ||garglingably.com^$all
 ||handwritingnomad.com^$all
 ||highcpmrevenuegate.com^$all
+||highperformancedformats.com^$all
 ||jobfilletfortitude.com^$all
 ||knownwarn.com^$all
 ||loatheskeletonethic.com^$all
 ||militantwitnessfelon.com^$all
 ||naggingirresponsible.com^$all
 ||profitabledisplaynetwork.com^$all
-||profitablegatetocontent.com^$all
 ||proxyponyperiods.com^$all
 ||semblanceafford.com^$all
 ||significantoperativeclearance.com^$all
@@ -1042,7 +1042,6 @@ fandom.com#$##WikiaAdInContentPlaceHolder { padding: 7px !important }
 fandom.com##.reviews
 fandom.com##.recirculation-prefooter__recommendations
 fandom.com##.global-navigation__fanhub-wrapper
-fandom.com##.global-footer a[href*=futhead]
 fandom.com##.notifications-box
 fandom.com##.render-wiki-recommendations
 fandom.com##div[class^=page-footer__]
@@ -1221,7 +1220,7 @@ $removeparam=ysclid
 &uclick=*&uclickhash=$removeparam
 /?r=dir&zoneid=$removeparam
 /?rb=*&zoneid=$removeparam
-$removeparam=/^utm_/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl
+$removeparam=/^\??utm_/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl
 $document,removeparam=/^itm_/,domain=~redir.tradedoubler.com
 $document,removeparam=/^stm_/,domain=~redir.tradedoubler.com
 $removeparam=logTag,document
@@ -1283,7 +1282,7 @@ $removeparam=rlz
 $removeparam=pcampaignid
 $removeparam=igshid
 $removeparam=snr,domain=steampowered.com|steamcommunity.com|steamgames.com
-$document,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk
+$document,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com
 $removeparam=iradid
 $removeparam=irpid
 $removeparam=iradtype
@@ -1297,6 +1296,7 @@ $removeparam=tpcc
 $removeparam=onetime_FromEmail
 $~xmlhttprequest,removeparam=mbid
 $removeparam=itid
+$removeparam=full_trSrc
 $document,removeparam=/^ICID=/i,domain=~api.mapbox.com|~microsoft.com
 $document,removeparam=/^utm-/
 $~subdocument,removeparam=aff,domain=~discoverbank.com|~discover.com
@@ -1339,6 +1339,7 @@ $document,removeparam=/^adword_/,domain=~justdial.com
 $removeparam=adw_src_id
 $removeparam=ftag
 $document,removeparam=/^__xts__/
+$removeparam=custlixnkid
 $removeparam=akmClientCountry
 $removeparam=hss_channel
 $removeparam=ns_mchannel
@@ -1440,6 +1441,7 @@ $removeparam=CJPIXEL
 $document,removeparam=/^affiliateID=/i
 $removeparam=affiliate_id
 $removeparam=affiliate_location_id
+$removeparam=afn_sr
 $removeparam=cjdata
 $removeparam=click_id,domain=~bookings.beatthatflight.*
 $removeparam=cm_soc
@@ -1451,6 +1453,7 @@ $removeparam=FpAffiliate
 $removeparam=rfsn
 $removeparam=bclid
 $document,removeparam=trackid,domain=~nzpost.co.nz
+$removeparam=strackid
 $removeparam=afsrc
 $~ping,removeparam=lcid,domain=~rekono.si
 $document,removeparam=/^mpid=/i,domain=~miguvideo.*
@@ -1486,6 +1489,7 @@ $removeparam=subacctid
 $removeparam=subacctname
 $document,removeparam=/affcid/i
 $removeparam=afflid
+$removeparam=maid
 $~xmlhttprequest,removeparam=mcid,domain=~miguvideo.*
 $~xmlhttprequest,removeparam=msid,domain=~rsc.org
 $removeparam=exactag_uk
@@ -1807,6 +1811,7 @@ $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|
 $removeparam=sid,domain=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*
 $removeparam=from,document,domain=apkpure.com|bandcamp.com|browserling.com|ettoday.net|luisaviaroma.com|sogou.com|store.hbr.org|app.snyk.io|onlinepngtools.com|indiatimes.com|jetbrains.com|nextdns.io|tvtropes.org
 $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.com|karkkainen.com
+$removeparam=offer_id,domain=catch.com.au|surfshark.com
 $removeparam=adid,domain=nikkei.co.jp|mcafee.com|indeed.com
 ||amazon.$removeparam=th
 ||amazon.$removeparam=linkCode
@@ -2207,11 +2212,14 @@ $removeparam=user_ip
 ||mp.weixin.qq.com^$removeparam=pass_ticket
 $removeparam=clicktime
 $removeparam=nettype
+||mp.weixin.qq.com^$removeparam=abtest_cookie
 ||mp.weixin.qq.com^$removeparam=chksm
 ||mp.weixin.qq.com^$removeparam=count
+||mp.weixin.qq.com^$removeparam=enterid
 ||mp.weixin.qq.com^$removeparam=from_msgid
 ||mp.weixin.qq.com^$removeparam=from_itemidx
 ||mp.weixin.qq.com^$removeparam=sessionid
+||mp.weixin.qq.com^$removeparam=subscene
 ||mail.qq.com/cgi-bin/frame_html?$removeparam=r
 ||qq.com^$removeparam=ptag
 ||view.inews.qq.com^$removeparam=refer
@@ -2237,6 +2245,7 @@ $removeparam=epi,domain=fernerjacobsen.no|webhallen.com|microsoft.com|xbox.com|a
 $removeparam=epi2,domain=tradedoubler.com
 $removeparam=sm12
 $removeparam=ts,domain=al.to|baidu.com|combat.pl|x-kom.pl
+$removeparam=token,domain=al.to|combat.pl|x-kom.pl
 ||pbtech.$removeparam=qr
 ||fnac.$removeparam=Origin
 ||paypal.com^$removeparam=calc
@@ -2314,9 +2323,10 @@ $removeparam=site_id,domain=taskrabbit.com|kochava.com
 ||kochava.com^$removeparam=device_id
 ||skyscanner.$removeparam=redirectedFrom
 ||skyscanner.$removeparam=previousCultureSource
-||shopdisney.com^$removeparam=att
-||shopdisney.com^$removeparam=EFC
 ||shopbop.com^$removeparam=extid
+||saksfifthavenue.com^$removeparam=LSoid
+||saksfifthavenue.com^$removeparam=LSlinkid
+||saksfifthavenue.com^$removeparam=LScreativeid
 ||fubo.tv^$removeparam=irad
 ||fubo.tv^$removeparam=irmp
 ||imobiliare.ro^$removeparam=exprec
@@ -2387,8 +2397,8 @@ $removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com
 ||apple.com^$removeparam=mttnsubkw
 ||apple.com^$removeparam=mttnsubplmnt
 $removeparam=wfr,domain=weidian.com|baidu.com
-||weidian.com^$removeparam=share_relation
 $removeparam=organic_search_click
+$removeparam=pop,domain=etsy.com
 $removeparam=pro,domain=etsy.com
 $removeparam=frs,domain=etsy.com
 $removeparam=click_key,domain=etsy.com
@@ -2606,6 +2616,7 @@ $removeparam=cvid,domain=chinadaily.com.cn|eastday.com|msn.cn|msn.com|tianqi.com
 ||quizlet.com^$removeparam=funnelUUID
 ||quizlet.com^$removeparam=signupOrigin
 $removeparam=qid,domain=bookdepository.com|eastday.com
+$removeparam=pk_vid,document
 ||xiaohongshu.com^$removeparam=app_platform,document
 ||xiaohongshu.com^$removeparam=app_version,document
 ||xiaohongshu.com^$removeparam=share_from_user_hidden,document

@@ -1,9 +1,9 @@
-! Checksum: oLpvpirFrX3/IJGX3rp9lQ
-! Diff-Path: ../patches/227_optimized/227_optimized-s-1704719713-14400.patch
+! Checksum: Ckt8sHBpuKzPnhiI1Jxd6A
+! Diff-Path: ../patches/227_optimized/227_optimized-s-1704777163-14400.patch
 ! Title: List-KR (Optimized)
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.30
-! TimeUpdated: 2024-01-08T13:02:39+00:00
+! Version: 2.0.17.31
+! TimeUpdated: 2024-01-09T05:04:08+00:00
 ! Expires: 1 day (update frequency)
 ||ad1.missyusa.com^
 ||ads.motorgraph.com^
@@ -36,7 +36,6 @@
 ||iadsdk.apple.com^
 ||skt-asum.com^
 ||iad-*.braze.com^
-||adplatform-cdn.baemin.com^
 ||external-ad.bunjang.co.kr^
 ||epnt.ebay.com^
 ||img.side.mythiell.com^

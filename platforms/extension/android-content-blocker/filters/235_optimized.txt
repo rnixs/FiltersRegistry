@@ -1,9 +1,9 @@
-! Checksum: +vfNd+6aVZi80tZluRQbaA
-! Diff-Path: ../patches/235_optimized/235_optimized-s-1704747999-14400.patch
+! Checksum: pgEv82Jkl4KkCz/F7JdU3w
+! Diff-Path: ../patches/235_optimized/235_optimized-s-1704776982-14400.patch
 ! Title: Persian Blocker (Optimized)
 ! Description: Filter list for blocking ads and trackers on websites in Persian.
-! Version: 2.0.4.4
-! TimeUpdated: 2024-01-08T21:03:12+00:00
+! Version: 2.0.4.5
+! TimeUpdated: 2024-01-09T05:04:23+00:00
 ! Expires: 5 days (update frequency)
 ~arongroups.site,~arongroups.co##a[href^="https://arongroups.site/"]
 ~arongroups.site,~arongroups.co##a[href^="https://arongroups.co/"]
@@ -1010,6 +1010,7 @@ lenzak.com###text-31
 lenzak.com###text-35
 lastsecond.ir##.ads-widget
 ||lahzeakhar.com/ShowAds
+magiran.com##div.blur-text
 mediat.ir##div.widget-ad-image
 mediat.ir##div.ad-wrap
 ||danialtaherifar.ir^$third-party,domain=musicdel.ir

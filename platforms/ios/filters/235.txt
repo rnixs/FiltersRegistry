@@ -1,9 +1,9 @@
-! Checksum: qNSHQty5D8eSJnMQt+ri9g
-! Diff-Path: ../patches/235/235-s-1704748033-14400.patch
+! Checksum: uHBw0atxcxcUhBN2dT9jXw
+! Diff-Path: ../patches/235/235-s-1704777411-14400.patch
 ! Title: Persian Blocker
 ! Description: Filter list for blocking ads and trackers on websites in Persian.
-! Version: 2.0.4.4
-! TimeUpdated: 2024-01-08T21:03:12+00:00
+! Version: 2.0.4.5
+! TimeUpdated: 2024-01-09T05:04:23+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: PersianBlocker
@@ -1505,6 +1505,7 @@ lahzeakhar.com#%#//scriptlet('ubo-set.js', 'customnotify', 'noopFunc')
 ||lahzeakhar.com/ShowAds
 ! ||lahzeakhar.com/sw.js
 ! >> M <<
+magiran.com##div.blur-text
 mohandescenter.ir##div.col-12 div#ctl00_topModule1_pnlTop:has(> div.divleftmod > div.py-2 > strong:has-text(جت سئو))
 ! https://github.com/MasterKia/PersianBlocker/issues/211
 mediat.ir##div.widget-ad-image

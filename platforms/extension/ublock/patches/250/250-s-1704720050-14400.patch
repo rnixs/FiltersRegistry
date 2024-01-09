@@ -1,0 +1,17 @@
+d2 2
+a3 2
+! Checksum: Bg/JoztIb/qEha/WC/jfrQ
+! Diff-Path: ../patches/250/250-s-1704777349-14400.patch
+d6 2
+a7 2
+! Version: 2.0.12.91
+! TimeUpdated: 2024-01-09T05:04:48+00:00
+d4648 1
+a4648 1
+! OriginalVersion: 09January2023v3
+d4694 1
+a4694 1
+$removeparam=/^\??utm_/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl
+d4826 1
+a4826 1
+$document,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com

@@ -482,6 +482,10 @@ bargaintown.ie##+js(set-cookie, cookie-bar, no)
 tui.nl##+js(set-cookie, CookiesAccepted, no)
 ! Rule "doppelmayr.com##+js(set-cookie, essential, true)" converted to: "doppelmayr.com#%#//scriptlet('ubo-set-cookie.js', 'essential', 'true')"
 doppelmayr.com##+js(set-cookie, essential, true)
+! Rule "case-score.com##+js(set-cookie, cookieConfirm, true)" converted to: "case-score.com#%#//scriptlet('ubo-set-cookie.js', 'cookieConfirm', 'true')"
+case-score.com##+js(set-cookie, cookieConfirm, true)
+! Rule "case-score.com##+js(set-cookie, trackingConfirm, false)" converted to: "case-score.com#%#//scriptlet('ubo-set-cookie.js', 'trackingConfirm', 'false')"
+case-score.com##+js(set-cookie, trackingConfirm, false)
 ! Rule "finimize.com##+js(set-cookie, cookie_consent, false)" converted to: "finimize.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', 'false')"
 finimize.com##+js(set-cookie, cookie_consent, false)
 ! Rule "rtu.lv##+js(set-cookie, uce-cookie, N)" converted to: "rtu.lv#%#//scriptlet('ubo-set-cookie.js', 'uce-cookie', 'N')"
@@ -4156,6 +4160,10 @@ bargaintown.ie##+js(set-cookie, cookie-bar, no)
 tui.nl##+js(set-cookie, CookiesAccepted, no)
 ! Rule "doppelmayr.com##+js(set-cookie, essential, true)" converted to: "doppelmayr.com#%#//scriptlet('ubo-set-cookie.js', 'essential', 'true')"
 doppelmayr.com##+js(set-cookie, essential, true)
+! Rule "case-score.com##+js(set-cookie, cookieConfirm, true)" converted to: "case-score.com#%#//scriptlet('ubo-set-cookie.js', 'cookieConfirm', 'true')"
+case-score.com##+js(set-cookie, cookieConfirm, true)
+! Rule "case-score.com##+js(set-cookie, trackingConfirm, false)" converted to: "case-score.com#%#//scriptlet('ubo-set-cookie.js', 'trackingConfirm', 'false')"
+case-score.com##+js(set-cookie, trackingConfirm, false)
 ! Rule "finimize.com##+js(set-cookie, cookie_consent, false)" converted to: "finimize.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', 'false')"
 finimize.com##+js(set-cookie, cookie_consent, false)
 ! Rule "rtu.lv##+js(set-cookie, uce-cookie, N)" converted to: "rtu.lv#%#//scriptlet('ubo-set-cookie.js', 'uce-cookie', 'N')"

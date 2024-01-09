@@ -1,9 +1,9 @@
-! Checksum: 3SpTXtdGZ16cqsr+pefgQA
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1704720158-14400.patch
+! Checksum: VrXNOVxZqcZKEgbRJoOAWQ
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704777412-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.90
-! TimeUpdated: 2024-01-08T13:03:20+00:00
+! Version: 2.0.12.91
+! TimeUpdated: 2024-01-09T05:04:48+00:00
 ! Expires: 5 days (update frequency)
 ###smart-banner
 ###smartbanner
@@ -217,6 +217,7 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ||totalwebshield.com^$all
 ||totaladblock.com^$all
 ||spnccrzone.com^$all
+||d2m2wsoho8qq12.cloudfront.net^$all
 ||info.leadid.com^$all
 ||traversedlp.com^$all
 /(^|\.|//)tkqlhce\.com/click-.*([?&][a-tv-z]{1,}(=[a-zA-Z0-9]{1,})?){1,}$/$document
@@ -308,7 +309,6 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ||outsliggooa.com^$all
 ||postlnk.com^$all
 ||rndskittytor.com^$all
-||roudoduor.com^$all
 ||taghaugh.com^$all
 ||thaudray.com^$all
 ||thefacux.com^$all
@@ -362,13 +362,13 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ||garglingably.com^$all
 ||handwritingnomad.com^$all
 ||highcpmrevenuegate.com^$all
+||highperformancedformats.com^$all
 ||jobfilletfortitude.com^$all
 ||knownwarn.com^$all
 ||loatheskeletonethic.com^$all
 ||militantwitnessfelon.com^$all
 ||naggingirresponsible.com^$all
 ||profitabledisplaynetwork.com^$all
-||profitablegatetocontent.com^$all
 ||proxyponyperiods.com^$all
 ||semblanceafford.com^$all
 ||significantoperativeclearance.com^$all
@@ -1041,7 +1041,6 @@ fandom.com#$##WikiaAdInContentPlaceHolder { padding: 7px !important }
 fandom.com##.reviews
 fandom.com##.recirculation-prefooter__recommendations
 fandom.com##.global-navigation__fanhub-wrapper
-fandom.com##.global-footer a[href*=futhead]
 fandom.com##.notifications-box
 fandom.com##.render-wiki-recommendations
 fandom.com##div[class^=page-footer__]

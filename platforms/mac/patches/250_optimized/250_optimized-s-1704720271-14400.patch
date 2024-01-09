@@ -1,0 +1,51 @@
+d1 2
+a2 2
+! Checksum: Yk+5BOyKjb/N4uobL9PMYA
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704777475-14400.patch
+d5 2
+a6 2
+! Version: 2.0.12.91
+! TimeUpdated: 2024-01-09T05:04:48+00:00
+a332 1
+||d2m2wsoho8qq12.cloudfront.net^$all
+d621 1
+a720 1
+||highperformancedformats.com^$all
+d727 1
+d1481 1
+d1660 1
+a1660 1
+$removeparam=/^\??utm_/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl
+d1723 1
+a1723 1
+$document,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com
+a1736 1
+$removeparam=full_trSrc
+a1779 1
+$removeparam=custlixnkid
+a1880 1
+$removeparam=afn_sr
+a1891 1
+$removeparam=strackid
+a1926 1
+$removeparam=maid
+a2248 1
+$removeparam=offer_id,domain=catch.com.au|surfshark.com
+a2648 1
+||mp.weixin.qq.com^$removeparam=abtest_cookie
+a2650 1
+||mp.weixin.qq.com^$removeparam=enterid
+a2653 1
+||mp.weixin.qq.com^$removeparam=subscene
+a2678 1
+$removeparam=token,domain=al.to|combat.pl|x-kom.pl
+d2756 2
+a2758 3
+||saksfifthavenue.com^$removeparam=LSoid
+||saksfifthavenue.com^$removeparam=LSlinkid
+||saksfifthavenue.com^$removeparam=LScreativeid
+d2829 1
+a2830 1
+$removeparam=pop,domain=etsy.com
+a3047 1
+$removeparam=pk_vid,document

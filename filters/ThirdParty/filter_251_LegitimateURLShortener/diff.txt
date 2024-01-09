@@ -28,8 +28,8 @@ $doc,removeparam=/^hmb_/
 $doc,removeparam=LID
 ! Rule "$doc,removeparam=/^clickid=/i,domain=~discover.*" converted to: "$document,removeparam=/^clickid=/i,domain=~discover.*"
 $doc,removeparam=/^clickid=/i,domain=~discover.*
-! Rule "$doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk" converted to: "$document,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk"
-$doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk
+! Rule "$doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com" converted to: "$document,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com"
+$doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com
 ! Rule "$doc,removeparam=/^ICID=/i,domain=~api.mapbox.com|~microsoft.com" converted to: "$document,removeparam=/^ICID=/i,domain=~api.mapbox.com|~microsoft.com"
 $doc,removeparam=/^ICID=/i,domain=~api.mapbox.com|~microsoft.com
 ! Rule "$doc,removeparam=/^utm-/" converted to: "$document,removeparam=/^utm-/"

@@ -1,15 +1,15 @@
-! Checksum: pUaFDBb4hrhACosUOaYU+g
-! Diff-Path: ../patches/122/122-s-1704762389-14400.patch
+! Checksum: dCMfeYzVCpGZlIF2y5/f2A
+! Diff-Path: ../patches/122/122-s-1704777225-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.2
-! TimeUpdated: 2024-01-09T01:02:11+00:00
+! Version: 2.1.19.3
+! TimeUpdated: 2024-01-09T05:03:47+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 5lOq+eU+KE2pMGiuKoRSHA
-! OriginalVersion: 202401090015
+! Checksum: D2mYGmimm83ZCJ2DYN/jwA
+! OriginalVersion: 202401090415
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-09 00:15 UTC
+! Last modified: 2024-01-09 04:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -37234,6 +37234,7 @@ torrentsafe.com###addthisimage
 9to5google.com,9to5mac.com,dronedj.com,electrek.co###after_disclaimer_placement
 physics.aps.org###aps-share-widget
 houstonpublicmedia.org###article-share
+theepochtimes.com###article-share-it-now
 scoop.co.nz###article-tools
 dailymail.co.uk###articleIconLinksContainer
 fnlondon.com###article_tools
@@ -37753,6 +37754,7 @@ newsbusters.org##.nb-twitter-block
 ncaa.com##.ncaa-share-hanger
 nerdist.com##.nerdist-social-share
 taiwebs.com##.networking
+thepostmillennial.com##.networks
 screenshot-media.com##.new-home-banner
 aimp.ru##.news_story > div
 nfl.com##.nfl-c-article__share-bar
@@ -37929,7 +37931,7 @@ iflscience.com##.social-share-elements
 nashvillescene.com,stltoday.com##.social-share-links
 thenationalnews.com##.social-share-rail__sticky
 rappler.com##.social-share__actions
-byjus.com,maxabout.com,news24.com,politico.eu##.social-sharing
+byjus.com,maxabout.com,news24.com,politico.eu,thepostmillennial.com##.social-sharing
 officialcharts.com##.social-sharing-bar
 trip101.com##.social-sharing-sidebar
 mintpressnews.com,online-tech-tips.com##.social-signup
@@ -38107,6 +38109,7 @@ thisismoney.co.uk##div[class^="socialContainer-"]
 cpr.org,technologyreview.com##div[class^="socialList_"]
 reuters.com##div[class^="social__container_"]
 psyche.co##div[class^="styled__SocialLinks-"]
+semafor.com##div[class^="styles_shareWrapper_"]
 cheddar.com##div[class^="video__share_"]
 abc.net.au##div[data-component="ShareUtility"]
 artforum.com##div[data-component="social-media"]
@@ -38482,6 +38485,7 @@ fiveirongolf.com###elementor-popup-modal-16781
 educa2.madrid.org###emCookieWrapper
 missouriquiltco.com###enjoySomeCookies
 petri.com###enlivy-kit-cookie-policy-container
+govnet.ro###enterSiteModal
 tor.com###entry-content__footer-popup
 live.com,microsoft.com,office.com,skype.com,visualstudio.com,windows.com,xbox.com###epb
 schindelhauerbikes.com###etrpop
@@ -40857,7 +40861,7 @@ cadcrowd.com,eledo.online###cookiesConsentDialog
 !! .inset-0.fixed
 aplikuj.pl,extract.pics,hopetv.org,londonciv.org.uk,schletter-group.com,stringfurniture.com##.inset-0.fixed
 !! #sp_message_container
-hitc.com##div[id^="sp_message_container_"]
+bloomberg.co.jp,hitc.com##div[id^="sp_message_container_"]
 !! .tw-bottom-0
 blickers.com,blindewandplanken.nl,businessoffashion.com,cloud.ionos.com,naiin.com##.tw-bottom-0
 !! .cookiesConsent
@@ -41040,7 +41044,7 @@ arbys.com,buffalowildwings.com,dashboard-deutschland.de,neoplants.com,oresundsta
 !! Cookies_
 consumer-legal.com,generatedata.com,matchbook.com,profim.eu,profim.fr,profim.pl,traffic.productions,vyos.io##div[class^="Cookies_"]
 !! CookieBanner
-abc.net.au,amie.so,app.daily.dev,bbfc.co.uk,billhop.com,cars.co.za,channel5.com,coinbase.com,deluxemusic.de,desiindian-brighton.co.uk,drbuho.com,fingerprint.com,foodcorner.dk,forum.effectivealtruism.org,hackney.gov.uk,harrys.com,itzipitzipizza.dk,javabusinesscompetition.id,klientboost.com,lendo.se,letsenhance.io,lindahall.org,luminpdf.com,make.com,monzo.com,mrpizzahastings.co.uk,oddschecker.com,onceupon.photo,qured.us,skyvegas.com,socratesdergi.com,start.ru,sweatco.in,theculturetrip.com,trelson.com,tri.global,unum.co.uk,westerracu.com##div[class*="CookieBanner"]
+abc.net.au,amie.so,app.daily.dev,bbfc.co.uk,billhop.com,cars.co.za,channel5.com,coinbase.com,consoles.radioplayer.cloud,deluxemusic.de,desiindian-brighton.co.uk,drbuho.com,fingerprint.com,foodcorner.dk,forum.effectivealtruism.org,hackney.gov.uk,harrys.com,itzipitzipizza.dk,javabusinesscompetition.id,klientboost.com,lendo.se,letsenhance.io,lindahall.org,luminpdf.com,make.com,monzo.com,mrpizzahastings.co.uk,oddschecker.com,onceupon.photo,qured.us,skyvegas.com,socratesdergi.com,start.ru,sweatco.in,theculturetrip.com,trelson.com,tri.global,unum.co.uk,westerracu.com##div[class*="CookieBanner"]
 !! CookieBanner_
 acffiorentina.com,breastcancer.org,gieffektivt.no,spline.design,svoi.ru,urbanarmorgear.com##div[class^="CookieBanner_"]
 !! CookieBannerstyle_
@@ -41148,7 +41152,7 @@ datakauppa.fi,larionews.com,misaij.fi,puglia.com,reproduccionasistida.org,salmon
 !! #exampleModalCenter
 roval.be,roval.eu,roval.nl,rovalaluminium.fr###exampleModalCenter
 !! .cc-overlay
-bellaffair.com,biomedcentral.com,colop.com,computerwelt.at,dtv.de,hardtwaldsiedlung-karlsruhe.de,herold.at,internorm.com,jacob.de,jhdversicherungen.de,laenderbahn.com,leuchtturm.ch,leuchtturm.com,leuchtturm.de,leuchtturm.es,leuchtturm.fr,leuchtturm1917.com,leuchtturm1917.de,libraries.merton.gov.uk,mylibrary.merton.gov.uk,rcodezero.at,semikolon.com,springernature.com,torquato.de,vinzenz-klinik.de##.cc-overlay
+bellaffair.com,biomedcentral.com,colop.com,computerwelt.at,der-metronom.de,dtv.de,hardtwaldsiedlung-karlsruhe.de,herold.at,internorm.com,jacob.de,jhdversicherungen.de,laenderbahn.com,leuchtturm.ch,leuchtturm.com,leuchtturm.de,leuchtturm.es,leuchtturm.fr,leuchtturm1917.com,leuchtturm1917.de,libraries.merton.gov.uk,mylibrary.merton.gov.uk,rcodezero.at,semikolon.com,springernature.com,torquato.de,vinzenz-klinik.de##.cc-overlay
 !! .avada-footer-scripts
 atalmedial.nl,avanhost.com,bioneer.dk,conferencetech.com,designengineerconstruct.com,dgob.de,domuslaundry.com,geniessertouren.org,institutomarketing.es,karwendelhaus.com,response.gr,santeria.milano.it,sindastra.de,specim.fi,tisak.hr,turkishbank.co.uk##.avada-footer-scripts
 !! .modal-cacsp-position
@@ -41631,6 +41635,8 @@ autohero.com#%#//scriptlet('ubo-set-cookie.js', 'consent', '1')
 bargaintown.ie#%#//scriptlet('ubo-set-cookie.js', 'cookie-bar', 'no')
 tui.nl#%#//scriptlet('ubo-set-cookie.js', 'CookiesAccepted', 'no')
 doppelmayr.com#%#//scriptlet('ubo-set-cookie.js', 'essential', 'true')
+case-score.com#%#//scriptlet('ubo-set-cookie.js', 'cookieConfirm', 'true')
+case-score.com#%#//scriptlet('ubo-set-cookie.js', 'trackingConfirm', 'false')
 finimize.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', 'false')
 rtu.lv#%#//scriptlet('ubo-set-cookie.js', 'uce-cookie', 'N')
 sysdream.com#%#//scriptlet('ubo-set-cookie.js', 'tarteaucitron', 'false')
@@ -45268,6 +45274,7 @@ nzgeo.com##.enews-container
 visitcalifornia.com##.enewsBanner
 texasmonthly.com##.eoa__newsletter-signup
 thescoop.us##.essb_mailform
+tennesseestar.com##.et_bloom_below_post
 diycarserviceparts.co.uk,online-tech-tips.com,onthegotours.com##.et_bloom_popup
 cocktailsaway.com##.et_pb_widget
 captainaltcoin.com##.exit-intent-acm
@@ -46142,6 +46149,7 @@ blog.vidizmo.com##.widget-type-blog_subscribe
 domainnamewire.com##.widget-wrap.widget_text
 vancouverisawesome.com##.widget-wysiwyg
 moroccoworldnews.com##.widget__form-subscribe
+tennesseestar.com##.widget_bloomwidget
 doctornerdlove.com##.widget_convertkit_form
 humansbefree.com,insidethemagic.net,momfabulous.com,mpost.io,pymnts.com,wersm.com##.widget_custom_html
 worldscreen.com##.widget_execphp.widget
@@ -46234,6 +46242,7 @@ blockworks.co##div > .p-10.gap-4
 bustle.com##div.lqj:last-child
 usnews.com##div.mb5 > react-trigger
 thepointsguy.com##div[class*="EmailSignUp_"]
+theatlantic.com##div[class^="BottomLeaflets_newsletter_"]
 wired.com##div[class^="ConsumerMarketingUnitThemedWrapper-"]
 patch.com##div[class^="ContentBlocks_CardDetail__SubscribeBlock"]
 usnews.com##div[class^="KioskFirstClass__Container-"]
@@ -48123,6 +48132,8 @@ autohero.com#%#//scriptlet('ubo-set-cookie.js', 'consent', '1')
 bargaintown.ie#%#//scriptlet('ubo-set-cookie.js', 'cookie-bar', 'no')
 tui.nl#%#//scriptlet('ubo-set-cookie.js', 'CookiesAccepted', 'no')
 doppelmayr.com#%#//scriptlet('ubo-set-cookie.js', 'essential', 'true')
+case-score.com#%#//scriptlet('ubo-set-cookie.js', 'cookieConfirm', 'true')
+case-score.com#%#//scriptlet('ubo-set-cookie.js', 'trackingConfirm', 'false')
 finimize.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', 'false')
 rtu.lv#%#//scriptlet('ubo-set-cookie.js', 'uce-cookie', 'N')
 sysdream.com#%#//scriptlet('ubo-set-cookie.js', 'tarteaucitron', 'false')
@@ -53123,6 +53134,7 @@ tickets.vibus.de###DatenschutzFooter
 schwarzenbacher-kundl.at###NotificationWrapper
 audi-technology-portal.de###PrivacyManager
 eco-logisch.be###SiteOverlayPanel
+kiel-canal.de###a-banner
 medicis.be###acc-bottom
 kodinerds.net###adConsent
 soellner-reisen.de,volbers.com,weingut-meintzinger.de,zehnthof-weickert.de###agever
