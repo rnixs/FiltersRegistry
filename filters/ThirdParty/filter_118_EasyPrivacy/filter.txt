@@ -1,7 +1,7 @@
 !
-! OriginalVersion: 202401091627
+! OriginalVersion: 202401092028
 ! Title: EasyPrivacy
-! Last modified: 09 Jan 2024 16:27 UTC
+! Last modified: 09 Jan 2024 20:28 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -43336,6 +43336,7 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 @@||netcoresmartech.com/smartechclient.js$domain=hdfcfund.com
 @@||new.abb.com/ruxitagentjs_$~third-party
 @@||newrelic.com/nr-*.min.js$domain=surveymonkey.co.uk|surveymonkey.com|surveymonkey.de
+@@||next.co.uk/static-content/gtm-sdk/gtm.js$~third-party
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
 @@||nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com

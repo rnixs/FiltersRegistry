@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: oW2MTl0fjFSz8rozCtU5Xg
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1704820049-14400.patch
+! Checksum: cZK/I2IXoXFRBG8yMACHRg
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1704834415-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.18.79
-! TimeUpdated: 2024-01-09T17:02:16+00:00
+! Version: 2.1.18.80
+! TimeUpdated: 2024-01-09T21:01:51+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -9200,6 +9200,7 @@ _800x80_
 ##a[href^="https://www.bang.com/?aff="]
 ##a[href^="https://www.bet365.com/"][href*="affiliate="]
 ##a[href^="https://www.brazzersnetwork.com/landing/"]
+##a[href^="https://www.dql2clk.com/"]
 ##a[href^="https://www.endorico.com/Smartlink/"]
 ##a[href^="https://www.financeads.net/tc.php?"]
 ##a[href^="https://www.geekbuying.com/dynamic-ads/"]
@@ -11890,6 +11891,7 @@ browsershots.org#@#.advert_area
 ||bnagilu.com^
 ||bncloudfl.com^
 ||bnfoeabisp.com^
+||bngdin.com^
 ||bngdyn.com^
 ||bngprl.com^
 ||bngprm.com^
@@ -13702,6 +13704,7 @@ browsershots.org#@#.advert_area
 ||dn9.biz^
 ||dnavexch.com^
 ||dnemkhkbsdbl.com^
+||dnfs24.com^
 ||dnrcwqbakix.com^
 ||dntaiiifdbwno.com^
 ||doaphaha.net^
@@ -17775,6 +17778,7 @@ browsershots.org#@#.advert_area
 ||madebabysittingimperturbable.com^
 ||mademadelavish.com^
 ||madeupadoption.com^
+||madmoney.eu^
 ||madnessindians.com^
 ||madratesforall.com^
 ||madriyelowd.com^
@@ -23324,6 +23328,7 @@ browsershots.org#@#.advert_area
 ||trackingtraffo.com^
 ||trackpshgoto.win^
 ||trackpush.com^
+||tracksfaster.com^
 ||trackspeeder.com^
 ||tracktilldeath.club^
 ||trackvol.com^
@@ -25948,6 +25953,7 @@ browsershots.org#@#.advert_area
 ||tidalwavetrx.com^$popup
 ||toprevenuegate.com^$popup
 ||totaladblock.com^$popup
+||tracksfaster.com^$popup
 ||tracktilldeath.club^$popup
 ||trackwilltrk.com^$popup
 ||trafficbass.com^$popup
@@ -26068,6 +26074,7 @@ browsershots.org#@#.advert_area
 ||w4vecl1cks.com^$third-party
 ||wct.click^$third-party
 ||xlovecam.com^$third-party
+||hkl4h1trk.com^$popup
 ||juicyads.com^$popup
 ||1002867133.rsc.cdn77.org^
 ||1035218900.rsc.cdn77.org^
