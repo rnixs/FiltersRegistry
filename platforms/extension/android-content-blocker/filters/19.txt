@@ -1,9 +1,9 @@
-! Checksum: a8qhjDcdzGAft+0LEw0+Ag
-! Diff-Path: ../patches/19/19-s-1704792967-3600.patch
+! Checksum: uu7SFGa0VFkWEAGIkwA4XA
+! Diff-Path: ../patches/19/19-s-1704796591-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.64
-! TimeUpdated: 2024-01-09T09:32:19+00:00
+! Version: 2.0.29.65
+! TimeUpdated: 2024-01-09T10:32:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9392,8 +9392,6 @@ com-magazin.de##w-div[role$="dialog"]
 !
 ! TODO: check the element after 2024 Jan 10 - https://github.com/AdguardTeam/AdguardFilters/issues/169645
 ||piano.io/xbuilder/experience/execute?aid=$domain=athleterecipe.com
-! TODO: replace when the 'abort-on-localStorage-read' scriptlet will be added to AdGuards
-! https://github.com/AdguardTeam/Scriptlets/issues/383
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156472#issue-1805785001
