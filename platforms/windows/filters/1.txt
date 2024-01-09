@@ -1,9 +1,9 @@
-! Checksum: Wm9MdYqc1801Y9oTn5A3ug
-! Diff-Path: ../patches/1/1-s-1704749787-3600.patch
+! Checksum: tvLVI39R3R4CR4xDiA1CAA
+! Diff-Path: ../patches/1/1-s-1704789415-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.87.63
-! TimeUpdated: 2024-01-08T21:32:16+00:00
+! Version: 2.0.87.64
+! TimeUpdated: 2024-01-09T08:32:21+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6068,7 +6068,7 @@ tragtorr.in#@#div[id^="yandex_rtb"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148093
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147394
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146771
-pikabu.ru$$script[wildcard="*let*=*Math.random*Ad*"][max-length="15000"]
+pikabu.ru$$script:contains(/let[\s\S]+=[\s\S]+Math\.random[\s\S]+Ad/)
 ! sports.ru
 sports.ru#%#//scriptlet('json-prune', 'direct rtbAuctionInfo')
 sports.ru#%#//scriptlet('set-constant', 'Ya.adfoxCode.create', 'noopFunc')

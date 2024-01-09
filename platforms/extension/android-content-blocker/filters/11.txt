@@ -1,9 +1,9 @@
-! Checksum: ZkR2BbPwRHfHEH9IuqdLZA
-! Diff-Path: ../patches/11/11-s-1704785759-3600.patch
+! Checksum: MEkKJzb0J8uDhvInMYt4yw
+! Diff-Path: ../patches/11/11-s-1704789361-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.6
-! TimeUpdated: 2024-01-09T07:31:55+00:00
+! Version: 2.0.48.7
+! TimeUpdated: 2024-01-09T08:31:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2265,7 +2265,8 @@ macaro-ni.jp##.articleShow__adTaboolaArticleThumbnail
 nlab.itmedia.co.jp##div[id^="_popin_recommend"]
 moneycontrol.com##.advSlotsGrayBox
 video.fc2.com###ad_middle1_wrap
-||bqgeu.com/js/h
+||bqgeu.com/js/h$script
+bqg.com/js/h$script
 faptor.com##iframe[src^="//ko.faptor.com/api/spots/"]
 faptor.com##.mobile-menu > a[target="_blank"]
 revolution-energetique.com##div[style="min-height: 300px;"]

@@ -1,0 +1,11 @@
+d1 2
+a2 2
+! Checksum: jQAeClVZXBpv6wmG+yPRvA
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1704789401-3600.patch
+d5 2
+a6 2
+! Version: 2.0.87.64
+! TimeUpdated: 2024-01-09T08:32:21+00:00
+d2333 1
+a2333 1
+pikabu.ru#%#//scriptlet('remove-node-text', 'script', '/new (this|document\.defaultView|window|top|XMLHttpRequest)(\[[\"\s\'\+a-zA-Z]+\])?[\s\S]+Ad/')
