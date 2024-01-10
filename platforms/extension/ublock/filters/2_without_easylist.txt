@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JrcCHFfxjqdlblyL7ADpkg
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704901038-3600.patch
+! Checksum: ACj0Yu9VHwb8rhsHuQUWJQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704904598-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.17.30
-! TimeUpdated: 2024-01-10T15:33:06+00:00
+! Version: 2.3.17.31
+! TimeUpdated: 2024-01-10T16:33:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -32590,6 +32590,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+porngameshub.com##.daemonclicks
 typing-speed.net#?#tr > td[style]:has(> div > div[id][class] > div[style^="min-height:"])
 hometheaterreview.com###section-38-64990
 hometheaterreview.com###div_block-337-102770
