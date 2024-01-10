@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0dUun5fgd5ridREHfIAk2g
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704843376-3600.patch
+! Checksum: +hoNM6CwB2A6afRc5ULPmw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704872170-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.17.24
-! TimeUpdated: 2024-01-09T23:33:00+00:00
+! Version: 2.3.17.25
+! TimeUpdated: 2024-01-10T07:32:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7193,6 +7193,9 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170295
+yad.com###moneyNoticeMessage
+yad.com##+js(no-setTimeout-if, moneyDetect)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170276
 hiraethtranslation.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170269
@@ -7360,8 +7363,9 @@ freewsad.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 deano.me##+js(abort-current-script, jQuery, adsbygoogle)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165059
 thestockmarketwatch.com##+js(noeval-if, adblock)
+! https://github.com/AdguardTeam/AdguardFilters/issues/170304
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164995
-live-streamfootball.*,superabbit77.*,rbtv77.*##+js(no-xhr-if, pagead2.googlesyndication.com)
+superabbit33.*,live-streamfootball.*,superabbit77.*,rbtv77.*##+js(no-xhr-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169209
 ||cdn.jsdelivr.net/gh/arufxuenzaku/apmody@1.4/js/main.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164844
@@ -33334,7 +33338,7 @@ winbuzzer.com##.mfp-figure::before
 kaboompics.com##.photo-advertisement
 boards.vinylcollective.com##.headerLogo > div.ipsPos_right
 simpcity.su##.p-navEl > a[target="_blank"]
-live-streamfootball.*,superabbit77.*,rbtv77.*##.player-wrapper > .d-l
+superabbit33.*,live-streamfootball.*,superabbit77.*,rbtv77.*##.player-wrapper > .d-l
 belfastmedia.com##.sidewide-top-banner
 belfastmedia.com##.right-rail > p > a > img
 vinepair.com##.pre-footer-ad-container
@@ -34668,7 +34672,7 @@ livemint.com##.pos-rel > div[data-vid] + div[class*="story"].rightBlock
 gameask.com##div[class^="ad"] > p
 gamemonetize.video###promo
 gamemonetize.video###displayAds
-cargames.com,puzzlegame.com,ubestgames.com,mixfreegames.com###game_bottom_ad
+yad.com,cargames.com,puzzlegame.com,ubestgames.com,mixfreegames.com###game_bottom_ad
 ubestgames.com,mixfreegames.com##.walk_video_leftad
 ubestgames.com,mixfreegames.com##.walk_video_rightad
 cargames.com,puzzlegame.com,ubestgames.com,mixfreegames.com##div[id$="AdDiv"]
