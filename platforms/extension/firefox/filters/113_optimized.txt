@@ -1,9 +1,9 @@
-! Checksum: ZbSh3QM5eSbhSdgtF3ELcw
-! Diff-Path: ../patches/113_optimized/113_optimized-s-1704848792-14400.patch
+! Checksum: Yr46qYaEM44vTH0kVsYmAQ
+! Diff-Path: ../patches/113_optimized/113_optimized-s-1704863188-14400.patch
 ! Title: Liste FR (Optimized)
 ! Description: Additional filter list for websites in French. Already included in AdGuard French filter.
-! Version: 2.1.41.78
-! TimeUpdated: 2024-01-10T01:02:04+00:00
+! Version: 2.1.41.79
+! TimeUpdated: 2024-01-10T05:02:07+00:00
 ! Expires: 5 days (update frequency)
 &ad_count=
 &ad_target_
@@ -59,9 +59,9 @@
 -ad-bar/
 -ad-cloud.
 -ad-content-
--ad-management.
 -ad-mobile.
 -ad-script-
+-ad-test-cdn.
 -admarket-
 -adnow/
 -ads-300x250.
@@ -117,7 +117,6 @@
 .adxcore.
 .aspx?adv=
 .be/adv/
-.campaignsFileLoaded|$script
 .cc/ad/
 .click/banner/
 .co/ads-
@@ -468,7 +467,6 @@
 /affiliates/promotools/*
 /afiliados/*
 /alipromo.replace.js
-/altad.
 /amazonaffiliate.
 /amp-ad-exit-
 /anuncios/banner_
@@ -572,6 +570,7 @@
 /CCcam-pub.
 /cdn.*/ads.$domain=~tubitv.com
 /cdn/banners/*
+/cdn77-fs.ads
 /cgi-bin/affiliates/*
 /cgi-bin/banner/*
 /cgi-bin/banners/*
@@ -743,7 +742,6 @@
 /partner_banners/*
 /partners-ad/*
 /partners-ads/*
-/partners/ads-
 /path/ads/*
 /pave_PUB_
 /pdv.js
@@ -1051,6 +1049,7 @@ _970-x-90_
 _970_90_
 _970x250.
 _990x557.
+_ad160x600.
 _ad_agency_
 _ad_campaign_
 _ad_images_
@@ -1067,6 +1066,7 @@ _ads/banner/
 _ads2-
 _ads_*?pubId=
 _ads_2018.
+_ads_728.
 _ads_banner&
 _ads_banner/
 _ads_banner_
@@ -1420,7 +1420,6 @@ _lx.ads/$popup
 ||epushclick.com^$third-party
 ||espace-plus.net^$third-party
 ||eurolive.com^$~image,third-party
-||exashare.com^$third-party
 ||extensionfactory.com^$third-party
 ||ezstatic.com^$third-party
 ||fancybar.net^$third-party
@@ -1788,7 +1787,6 @@ _lx.ads/$popup
 ||7d8b7d31f8.com^
 ||7e0efcab8b.com^
 ||7e77e49c84.com^
-||7jhsbdjfhsdf7.monster^
 ||80cbbd23e7.com^
 ||8139b82e6e.com^
 ||81794ea37a.com^
@@ -1804,7 +1802,6 @@ _lx.ads/$popup
 ||8d08a38552.com^
 ||8d23f484c1.com^
 ||8ff41d1efd.com^
-||8kabsjdasd88.monster^
 ||90a47357a5.com^
 ||911b02b03b.com^
 ||914c3a3b5c.com^
@@ -1961,13 +1958,13 @@ _lx.ads/$popup
 ||c6f23c189f.com^
 ||c796b67474.com^
 ||cac20acc0e.com^
-||carlaspecificstripe.com^
 ||cb15484c44.com^
 ||cbbvi.com^
 ||cd48885c17.com^
 ||cf9fa75179.com^
 ||cfeb0910c5.com^
 ||chidsimp.com^
+||chinesepiewife.com^
 ||chineseprovisionfeisty.com^
 ||ckrrmwqh.com^
 ||cleardexchange.com^
@@ -2045,6 +2042,7 @@ _lx.ads/$popup
 ||distinctday.com^
 ||distributiontomatoes.com^
 ||disturbedquiet.com^
+||diswontchose.com^
 ||divehope.com^
 ||divergentoffer.com^
 ||doathair.com^
@@ -2244,7 +2242,6 @@ _lx.ads/$popup
 ||jotpoolwarren.com^
 ||jscdndel.com^
 ||jsecoin.com^
-||jshdbfjsdf122.monster^
 ||jsyefc.com^
 ||kambalupflung.com^
 ||kelsaurt.com^
@@ -2361,7 +2358,6 @@ _lx.ads/$popup
 ||pampopholf.com^
 ||papoto.com^
 ||pegasidjeez.com^
-||peppersleepconsultant.com^
 ||pertholin.com^
 ||pesteroverwork.com^
 ||pheedroh.net^
@@ -2381,7 +2377,6 @@ _lx.ads/$popup
 ||producercoconutgroup.com^
 ||profsoma.space^
 ||propositionpower.com^
-||prosadjectiveuniversity.com^
 ||psylist.net^
 ||ptigjkkds.com^
 ||pub2srv.com^
@@ -2425,7 +2420,6 @@ _lx.ads/$popup
 ||sereendipit.com^
 ||sermonoccupied.com^
 ||sersh.com^
-||servicecouplemagpie.com^
 ||servw.bid^
 ||sh.st^
 ||shabby-constant.com^
@@ -2518,6 +2512,7 @@ _lx.ads/$popup
 ||usbmodmenu.com^
 ||usinesmycete.info^
 ||vesdsp.com^
+||videoadex.com^
 ||vidox.net^
 ||viiadr.com^
 ||vodunkand.com^
@@ -2529,7 +2524,6 @@ _lx.ads/$popup
 ||webpushdirect.biz^
 ||webxmr.com^
 ||wesmallproclaim.com^
-||whatsoeverdaring.com^
 ||whehilru.com^
 ||whiteclick.biz^
 ||whoansee.com^
@@ -2609,7 +2603,6 @@ _lx.ads/$popup
 ||brightonclick.com^$popup,third-party
 ||buysellads.com^$popup,third-party
 ||camsoda.com^$popup,third-party
-||chosenlove.com^$popup
 ||cleardexchange.com^$popup
 ||clickadilla.com^$popup
 ||clickaine.com^$popup,third-party
@@ -2789,6 +2782,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||hungryforhits.com/getimg.php
 ||i.alicdn.com/*/show-window/index.js
 ||i3j3u3u9.ssl.hwcdn.net^
+||ichwuerde.com/images/b/
 ||idcloudhost.com/wp-content/uploads/$third-party
 ||iframe-secured.com^$script
 ||igraal.com/parrainage/
@@ -2806,6 +2800,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||legagnant.com/legagnant$image
 ||lesplansduweb.com^$script,subdocument,third-party
 ||linkshrink.net/content/img/$third-party
+||logic-immo.be^*/widget/$third-party
 ||logo.gralon.net/plogo-gralon-$third-party
 ||mangatown.com^*/banners/
 ||maxannu.com/max468.
@@ -2816,6 +2811,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||meilleurduweb.com/images/pub/
 ||membersrule.com/getimg.php$third-party
 ||messageries-adp.com/editeurs/medias/*/bandeau/
+||mini-jeux.com/jeuday.js$third-party
 ||multisurf.fr/upload/bannieres/
 ||my.aliexpress.$third-party
 ||mynewblog.com/tracker.php?
@@ -2869,7 +2865,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||static.cfgr3.com/pop$third-party
 ||static.fileboom.me/images/i/$third-party
 ||static.k2s.cc/images/i/
-||static.keep2share.cc/images/i/
 ||static.wui.fr/widget-uptogo/$third-party
 ||streaming-hentai.org/images/$third-party
 ||super-plans.com^$script,subdocument,third-party
@@ -3042,6 +3037,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||multinews.me/produit/$popup
 ||pornhub.com^*?utm_$popup
 ||redtube.com^*?utm_source=paid$popup
+||scubastore.com^$popup,domain=sous-la-mer.com
 ||trustzonevpn.info/r.php?$popup
 ||watchmygf.net^$popup
 ||xcams.com/?dsclr=$popup
@@ -3049,7 +3045,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||youporn.com^*?utm_$popup
 ||0zz0.com/e/$image
 ||1001jeux.fr/bfb/
-||1337x.*/js/script
 ||1movies.*/site/$xmlhttprequest
 ||3dnatives.com/wp-content/uploads/$script
 ||abellalist.com^$media,script
@@ -3217,9 +3212,9 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||nextwarez.com/wp-content/uploads/*-300x250.
 ||niooz.fr^$subdocument
 ||niquons.com/baner
-||niquons.com/header/
 ||notube.net/*sw.js
 ||online-xxxmovies.com^$script
+||openspa.webhop.info/img/sponsors/
 ||openstreetmap.org/assets/banners/
 ||opensubtitles.org^$subdocument,~third-party
 ||opensubtitles.org^*/banners/
@@ -3409,7 +3404,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ###bsa-block-1920--1200
 ###bsa-block-300--250
 ###bsa-block-300--600
-###bsa-block-468--60
 ###bsa-block-728--90
 ###comment-ad
 ###commentad
@@ -3476,7 +3470,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ###pub-head
 ###pub-header
 ###pub-right
-###pub-text
 ###pub-top
 ###pub160
 ###pub300
@@ -3486,7 +3479,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ###pubVideo
 ###pub_1
 ###pub_300x250-2
-###pub_728x90
 ###pub_728x90-1
 ###pub_728x90-2
 ###pub_banniere_basse
@@ -3582,7 +3574,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.ad.placeholder
 ##.ad250heightreel
 ##.ad280height
-##.ad336x280_sidebar
 ##.ad970-wrapper
 ##.adBottom
 ##.adDisplay
@@ -3593,6 +3584,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.ad_location
 ##.ad_pave-1
 ##.ad_pave-2
+##.ad_txt_1
 ##.ad_vertical
 ##.ad_video
 ##.ad_watch_now
@@ -3729,7 +3721,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.header_pub
 ##.header_sponsors
 ##.hmads_300x250
-##.iframeads
 ##.iklan
 ##.iklan1
 ##.iklan2
@@ -3748,6 +3739,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.labelPub
 ##.layout__adHeader
 ##.layout__adPlaceHolder
+##.lbl-ad
 ##.leaderboard728
 ##.lien_sponsorise
 ##.liens-sponsorises__external
@@ -3960,6 +3952,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##a[href*=".digital2cloud.com/?"]
 ##a[href*=".djfiln.com/"]
 ##a[href*=".hop.clickbank.net"] > img
+##a[href*=".igraal.com/?parrain="] > img
 ##a[href*=".irtyd.com/"]
 ##a[href*=".irtyf.com"]
 ##a[href*=".jads.co/"]

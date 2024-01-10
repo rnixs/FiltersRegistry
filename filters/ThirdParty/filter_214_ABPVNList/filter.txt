@@ -1,8 +1,8 @@
 !#if (adguard_ext_android_cb)
 ! version for AdGuard Content Blocker only
-! OriginalVersion: 20240109173009
+! OriginalVersion: 20240110111352
 ! Title: ABPVN List
-! Last modified: 09 Jan 2024 17:30:09 UTC+7
+! Last modified: 10 Jan 2024 11:13:52 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -101,7 +101,7 @@
 ||cdn.thehinh.com^$image,domain=khoedep.vn
 ||cdn.thichxemphim1.net/wp-content/themes/halimmovies-child/jscm.min.js$domain=thichxemphim1.net
 ||cdn.webhoctienganh.com/asset/home/img/banner/$image,domain=webhoctienganh.com
-||cdn2-img.net^*.gif$image,domain=hhpanda.in|dongchill.tv|biphim.io|subnhanh.tw|subnhanhvl.co|bichill.one|dongphim3s.net
+||cdn2-img.net^*.gif$image,domain=hhpanda.in|dongchill.tv|biphim.io|subnhanh.tw|subnhanh.one|subnhanhvl.co|bichill.one|dongphim3s.net
 ||cf.shopee.vn^$image,domain=animevietsub.io
 ||chillhay.pro/ads/$image
 ||chillphimmoiz.org/assets/*.gif$image
@@ -244,6 +244,7 @@
 ||static.ybox.vn^*.gif$domain=ybox.vn
 ||stc02bc54661548.cloud.anycastapnic.com^*.gif$domain=gavang1.link
 ||storage.fshare.vn/images/$third-party,domain=~qthang.net
+||subnhanh.one/js/ads_xx.js
 ||subnhanh.tw/js/ads_xx.js
 ||subnhanhvl.co/js/ads_xx.js
 ||suckhoelamdep.vn^*.gif$image
@@ -879,9 +880,10 @@ soikeo365.net###desktopPopupBanner
 soikeo365.net##.ads-floatingads
 soikeo365.net##.banner-item
 soikeo365.net##.top-nha-cai
-soikeoz.co,tvhayh.org,protruyen.fun,phimmoinay.tv,phimtho.net,tutientruyen.xyz,chillhay-net.pro,protruyen2.fun,phimmoinay.org###popup_banner_beta
+soikeoz.co,tvhayh.org,protruyen.fun,phimmoinay.tv,phimtho.net,tutientruyen.xyz,chillhay-net.pro,protruyen2.fun,phimmoinay.tv###popup_banner_beta
 sport5.vn,afamily.vn##.afw-topbanner
 ssplay.net,zophim.net###_AM_POPUP_FRAME
+subnhanhvl.co,subnhanh.tw,subnhanh.one###xs-addd0
 tamlinh247.com.vn##.ads-gg-top
 tamlinh247.com.vn##.container + .col-xs-12.content_wrap
 tamlinh247.com.vn##.content>.content>.content
@@ -1006,7 +1008,7 @@ tvphapluat.vn##[href*="vietcombank.com.vn"]
 tvzinghd.com###preload-zing
 tvzinghd.com###uniad-head
 tvzinghd.com##.uniad-head
-tvzinghd.com,phimmoinay.tv,hhtq.team,phimmoinay.org##.sda-catfish
+tvzinghd.com,phimmoinay.tv,hhtq.team,phimmoinay.tv##.sda-catfish
 v4u.vn##.Flagrow-Ads-under-header
 vaoroi365.com##.ads-menu-item
 vaoroi365.com##.dcmm-button-player-item
@@ -1043,7 +1045,7 @@ vietq.vn##section.mar20:nth-of-type(4)
 viettelstore.vn###banner-dai-bottom
 viettelstore.vn###banner-dai-top
 vkoolsss.net##.box-rating
-vkoolsss.net,subnhanhvl.co,subnhanh.tw,tructiepdabong5.co,tutientruyen.xyz###overlay
+vkoolsss.net,subnhanhvl.co,subnhanh.tw,subnhanh.one,tructiepdabong5.co,tutientruyen.xyz###overlay
 vkoolsss.net,vuonhoalan.net,gunnylau360.net,mythethao.net,phimplay24h.com,kenhgamez.info,phimno4.xyz,gunnymienphi.net,dailyphimz.com,xemhay24h.com,listnhacai1.com,phim33.tv,247phim.cc,vkooll.net,vungtv.us##.float-ck
 vndoc.com,download.com.vn,quantrimang.com,download.vn,gamevui.vn,khoahoc.tv,meta.vn##.adbox
 vnews.gov.vn##.banner-bottom-menu
@@ -1380,9 +1382,9 @@ web26.sexphim1.com##.code-block-4
 !
 !#if (!adguard_ext_android_cb)
 ! version for all other AdGuard products
-! OriginalVersion: 20240109173009
+! OriginalVersion: 20240110111352
 ! Title: ABPVN List
-! Last modified: 09 Jan 2024 17:30:09 UTC+7
+! Last modified: 10 Jan 2024 11:13:52 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -1481,7 +1483,7 @@ web26.sexphim1.com##.code-block-4
 ||cdn.thehinh.com^$image,domain=khoedep.vn
 ||cdn.thichxemphim1.net/wp-content/themes/halimmovies-child/jscm.min.js$domain=thichxemphim1.net
 ||cdn.webhoctienganh.com/asset/home/img/banner/$image,domain=webhoctienganh.com
-||cdn2-img.net^*.gif$image,domain=hhpanda.in|dongchill.tv|biphim.io|subnhanh.tw|subnhanhvl.co|bichill.one|dongphim3s.net
+||cdn2-img.net^*.gif$image,domain=hhpanda.in|dongchill.tv|biphim.io|subnhanh.tw|subnhanh.one|subnhanhvl.co|bichill.one|dongphim3s.net
 ||cf.shopee.vn^$image,domain=animevietsub.io
 ||chillhay.pro/ads/$image
 ||chillphimmoiz.org/assets/*.gif$image
@@ -1622,6 +1624,7 @@ web26.sexphim1.com##.code-block-4
 ||static.ybox.vn^*.gif$domain=ybox.vn
 ||stc02bc54661548.cloud.anycastapnic.com^*.gif$domain=gavang1.link
 ||storage.fshare.vn/images/$third-party,domain=~qthang.net
+||subnhanh.one/js/ads_xx.js
 ||subnhanh.tw/js/ads_xx.js
 ||subnhanhvl.co/js/ads_xx.js
 ||suckhoelamdep.vn^*.gif$image
@@ -2257,9 +2260,10 @@ soikeo365.net###desktopPopupBanner
 soikeo365.net##.ads-floatingads
 soikeo365.net##.banner-item
 soikeo365.net##.top-nha-cai
-soikeoz.co,tvhayh.org,protruyen.fun,phimmoinay.tv,phimtho.net,tutientruyen.xyz,chillhay-net.pro,protruyen2.fun,phimmoinay.org###popup_banner_beta
+soikeoz.co,tvhayh.org,protruyen.fun,phimmoinay.tv,phimtho.net,tutientruyen.xyz,chillhay-net.pro,protruyen2.fun,phimmoinay.tv###popup_banner_beta
 sport5.vn,afamily.vn##.afw-topbanner
 ssplay.net,zophim.net###_AM_POPUP_FRAME
+subnhanhvl.co,subnhanh.tw,subnhanh.one###xs-addd0
 tamlinh247.com.vn##.ads-gg-top
 tamlinh247.com.vn##.container + .col-xs-12.content_wrap
 tamlinh247.com.vn##.content>.content>.content
@@ -2384,7 +2388,7 @@ tvphapluat.vn##[href*="vietcombank.com.vn"]
 tvzinghd.com###preload-zing
 tvzinghd.com###uniad-head
 tvzinghd.com##.uniad-head
-tvzinghd.com,phimmoinay.tv,hhtq.team,phimmoinay.org##.sda-catfish
+tvzinghd.com,phimmoinay.tv,hhtq.team,phimmoinay.tv##.sda-catfish
 v4u.vn##.Flagrow-Ads-under-header
 vaoroi365.com##.ads-menu-item
 vaoroi365.com##.dcmm-button-player-item
@@ -2421,7 +2425,7 @@ vietq.vn##section.mar20:nth-of-type(4)
 viettelstore.vn###banner-dai-bottom
 viettelstore.vn###banner-dai-top
 vkoolsss.net##.box-rating
-vkoolsss.net,subnhanhvl.co,subnhanh.tw,tructiepdabong5.co,tutientruyen.xyz###overlay
+vkoolsss.net,subnhanhvl.co,subnhanh.tw,subnhanh.one,tructiepdabong5.co,tutientruyen.xyz###overlay
 vkoolsss.net,vuonhoalan.net,gunnylau360.net,mythethao.net,phimplay24h.com,kenhgamez.info,phimno4.xyz,gunnymienphi.net,dailyphimz.com,xemhay24h.com,listnhacai1.com,phim33.tv,247phim.cc,vkooll.net,vungtv.us##.float-ck
 vndoc.com,download.com.vn,quantrimang.com,download.vn,gamevui.vn,khoahoc.tv,meta.vn##.adbox
 vnews.gov.vn##.banner-bottom-menu
@@ -2765,7 +2769,7 @@ holyphim.com#%#//scriptlet("abort-current-inline-script", "window.addEventListen
 ios.codevn.net#%#//scriptlet("abort-current-inline-script", "setInterval", "offsetHeight")
 javnong.cc#%#//scriptlet("abort-on-property-read", "Math.round")
 khoaiphim.com#%#//scriptlet("abort-current-inline-script", "addEvent", "popunder")
-khoaiphim.com,phimmoinay.org#%#//scriptlet("abort-current-inline-script", "jQuery", "click_time")
+khoaiphim.com,phimmoinay.tv#%#//scriptlet("abort-current-inline-script", "jQuery", "click_time")
 khohieu.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "chpadblock")
 khomuc5.live,90phutt.tv,cakhiazz.com,vebov.live,live2.thapcam2.net,blog.abit.vn,gavang1.link#$#body {overflow: visible!important;}
 khomuc5.live,vebov.live,live2.thapcam2.net,blog.abit.vn##.modal-backdrop.show

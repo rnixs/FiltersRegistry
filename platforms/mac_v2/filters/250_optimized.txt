@@ -1,5 +1,5 @@
-! Checksum: lus+gpivzyyNNWC88csQig
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1704820074-14400.patch
+! Checksum: XAyJq14K4+XLFhYW0ZUBKA
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704863219-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
 ! Version: 2.0.12.92
@@ -106,7 +106,6 @@ www.google.*##.g:has(a[href*=redirect][href*=".%D1%80%D1%84"])
 www.google.*##.g:has(a[href*="/go/"][href*=".%D1%80%D1%84"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gdn/"]):not([href*="cst.gdn"], [href*="pss.gdn"])
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".bid/"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"], [href*="shorter.cf"]))
 bing.com##.b_algo:has(a[href*=".gdn/"]):not([href*="cst.gdn"], [href*="pss.gdn"])
@@ -255,7 +254,6 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ||novemberassimilate.com^$all
 ||nursequestionmoss.com^$all
 ||reluctancefleck.com^$all
-||setupmonarchyconnections.com^$all
 ||trashdisguisedextension.com^$all
 173.233.137.*$network
 173.233.139.*$network
@@ -726,6 +724,7 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ||naggingirresponsible.com^$all
 ||profitabledisplaynetwork.com^$all
 ||proxyponyperiods.com^$all
+||ranchsatin.com^$all
 ||semblanceafford.com^$all
 ||significantoperativeclearance.com^$all
 ||temperrunnersdale.com^$all
@@ -799,9 +798,9 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ||passtechusa.com^$all
 ||profitabledisplaycontent.com^$all
 ||stretchedcreepy.com^$all
-||terminusbedsexchanged.com^$all
 ||venetrigni.com^$all
 ||videosprofitnetwork.com^$all
+||wizardunstablecommissioner.com^$all
 192.243.59.12$network
 192.243.59.13$network
 192.243.59.20$network
@@ -946,6 +945,7 @@ $csp=upgrade-insecure-requests,domain=apache.org|gnu.org|washington.edu|nyu.edu|
 *#?#script[src*=disquscdn] + #layout .post-content:has-text(Viagra)
 www.microsoft.com##.card[data-bi-cn*="bus sim" i]
 www.microsoft.com##a[data-pfns][data-pfns^="2"][data-pfns*="games."]
+www.microsoft.com##a[data-pfns][data-pfns^="9"][data-pfns*="games."]
 ||s.free.fr^$all
 212.27.60.108$network
 ||amazonaws.com^$all,badfilter
@@ -1330,7 +1330,6 @@ feedspot.com##.fixedBar
 dev.mysql.com##.login-callout
 investing.com###PromoteSignUpPopUp
 context.reverso.net###register-popup-bottom
-viaplay.*##.backdrop-bottom
 netflix.com#$#div[class^=watch-video--][class*="-container "] { background-image: none !important }
 *#$?#.playkit-bottom-bar { background: none !important }
 *#$?#.playkit-top-bar { background: none !important }
@@ -1875,7 +1874,6 @@ $removeparam=cvosrc
 $document,removeparam=/^cvo_/
 $removeparam=ads_params
 $removeparam=recurring_goal_id
-$removeparam=CJPIXEL
 $document,removeparam=/^affiliateID=/i
 $removeparam=affiliate_id
 $removeparam=affiliate_location_id
@@ -2027,7 +2025,6 @@ $removeparam=/^source=webgains$/
 $removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
 $removeparam=/^from=kelkoo/
 $removeparam=paid
-$removeparam=pacid
 $removeparam=adtype
 $removeparam=tmcampid
 $removeparam=s_afcid
@@ -2115,6 +2112,7 @@ $removeparam=ig_mid
 $removeparam=asclid
 $removeparam=au_advert_id
 $removeparam=au_car_id
+$removeparam=elqTrack
 $removeparam=/^from=rss$/
 $removeparam=/^source=rss$/
 $removeparam=/^ref=rss$/
@@ -2205,7 +2203,6 @@ $removeparam=_rand
 $removeparam=dsp_uid
 $removeparam=cs_xi
 $removeparam=pn_id
-$removeparam=adsafe_url
 $removeparam=mt_uuid
 $removeparam=_rlid
 $removeparam=ga_fc
@@ -2215,7 +2212,6 @@ $removeparam=b_id
 $removeparam=kltstamp
 $removeparam=tpmn_buid
 $removeparam=ta_partner_did
-$removeparam=adsafe_type
 $removeparam=CookieSyncId
 $removeparam=variationId
 $removeparam=ses_id
@@ -2231,9 +2227,9 @@ $removeparam=correlator
 $removeparam=ucf_user_id
 $removeparam=yandexuid
 $removeparam=google_nid
-$removeparam=adsafe_jsinfo
 $removeparam=__hs
 $removeparam=ex-src
+$removeparam=pmUserId
 $removeparam=mboxSession
 $document,removeparam=uid_bam
 $removeparam=pv_ts
@@ -3136,6 +3132,7 @@ $document,removeparam=bpli,domain=blogger.com
 ||cimri.com^$document,removeparam=hasFavorite
 *ref=blog.roboflow.com*$document,removeparam=/^ref=blog.roboflow.com$/
 ||gitlab.com^$document,removeparam=nav_source
+*ref=buffer.com*$document,removeparam=/^ref=buffer.com$/
 ||bybit.com^$document,removeparam=/^sa_utm_/i
 $document,removeparam=af_reengagement_window
 ||privatbank.ua^$removeparam=visit_id

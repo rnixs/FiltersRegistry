@@ -1,5 +1,5 @@
-! Checksum: z+hbV3TaLc0KfZuk6es2ww
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1704820018-14400.patch
+! Checksum: CBS8hGDx2o2+xBkNfh892Q
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704863177-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
 ! Version: 2.0.12.92
@@ -254,6 +254,7 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ://ww50.$document,domain=~practically-always-leads-to-a-domain-parking-service-known-for-malware.*
 www.microsoft.com##.card[data-bi-cn*="bus sim" i]
 www.microsoft.com##a[data-pfns][data-pfns^="2"][data-pfns*="games."]
+www.microsoft.com##a[data-pfns][data-pfns^="9"][data-pfns*="games."]
 ||amazonaws.com^$document,popup,badfilter
 ||amazonaws.com^$document,badfilter
 ||amazonaws.com^$badfilter
@@ -613,7 +614,6 @@ feedspot.com##.fixedBar
 dev.mysql.com##.login-callout
 investing.com###PromoteSignUpPopUp
 context.reverso.net###register-popup-bottom
-viaplay.*##.backdrop-bottom
 netflix.com#$#div[class^=watch-video--][class*="-container "] { background-image: none !important }
 ##.p_gradientLayer:not(html, body)
 www.youtube.com##div[class*="-gradient-bottom "]

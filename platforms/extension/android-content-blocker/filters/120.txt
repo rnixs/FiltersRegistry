@@ -1,15 +1,15 @@
-! Checksum: tELwY0KhqPpo7ISgVooQDw
-! Diff-Path: ../patches/120/120-s-1704834386-14400.patch
+! Checksum: Z3dcTns88JUPxK19UsDJ/Q
+! Diff-Path: ../patches/120/120-s-1704863175-14400.patch
 ! Title: AdBlockID
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.33
-! TimeUpdated: 2024-01-09T21:02:12+00:00
+! Version: 2.0.18.34
+! TimeUpdated: 2024-01-10T05:02:13+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 24.1.12
+! OriginalVersion: 24.1.13
 ! Title: AdBlockID
 ! Description: Filter list that specifically removes adverts on Indonesian language websites.
-! Last modified: 09 Jan 2024 19:29 UTC
+! Last modified: 10 Jan 2024 03:11 UTC
 ! Expires: 1 days
 ! Homepage: https://github.com/realodix/AdBlockID
 .id^*/ads_$domain=~cartalog.id
@@ -3402,7 +3402,7 @@ beedrive.link##.popUpBannerBox
 manganime.live##[id*="ads"]
 anichin.art,kazefuri.art##[id^="fload-"]
 doroni.me,doronime.id##a[target*="blank"] > picture
-cinemakeren6.id##aside img[style="max-width: 100%; height: auto;"]
+niihen.com##amp-iframe[width="728"][height="90"]
 akashinime.lol##div[id^="close-teaser-"]
 anixverse.com,lendrive.web.id,melongmovie.site,sokuja.co,sokuja.life##div[id^="teaser"]
 rahyunime.com###sidebar img[style="max-width: 100%; height: auto;"]
@@ -3449,9 +3449,9 @@ juragan.film##.popUpBannerBox
 192.99.246.145,51.222.170.221,51.79.226.152,bioskopkeren.social,cinemaindo.me,d21.bet,ditonton.bid,dunia21.pictures,filmapik.social,ganool.bet,gudangmovies21.info,movieon21.info,movies21.biz,nontonfilm.link,terbit21.ing###float-banner
 192.99.246.145,51.222.170.221,51.79.226.152,bioskopkeren.social,cinemaindo.me,d21.bet,ditonton.bid,dunia21.pictures,filmapik.social,ganool.bet,gudangmovies21.info,movieon21.info,movies21.biz,nontonfilm.link,terbit21.ing###float-bottom-banner
 192.99.246.145,51.222.170.221,51.79.226.152,bioskopkeren.social,cinemaindo.me,d21.bet,ditonton.bid,dunia21.pictures,filmapik.social,ganool.bet,gudangmovies21.info,movieon21.info,movies21.biz,nontonfilm.link,terbit21.ing###top-banner
-45.12.2.26,45.12.2.28,kuronime.vip###overplay
-45.12.2.26,45.12.2.28,kuronime.vip##.kln
-45.12.2.26,45.12.2.28,kuronime.vip##div[id^="teaser"]
+kuronime.vip###overplay
+kuronime.vip##.kln
+kuronime.vip##div[id^="teaser"]
 nontonanimeid.*###player_ikln
 nontonanimeid.*##.banner_player
 nontonanimeid.*##.floating_footer
