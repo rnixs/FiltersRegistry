@@ -1,0 +1,18 @@
+d1 2
+a2 2
+! Checksum: Bn2lCUOEv4RbJhm8EaDLVg
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1704883029-3600.patch
+a93 1
+$removeparam=itm_content
+a102 1
+$removeparam=utm_content
+a136 1
+$removeparam=dpg_content
+a154 1
+$removeparam=mtm_content
+a346 1
+||gitlab.$removeparam=glm_content
+a965 1
+||adj.st^$removeparam=utm_content
+a1376 1
+@@||redirects.tradedoubler.com^$removeparam=utm_content

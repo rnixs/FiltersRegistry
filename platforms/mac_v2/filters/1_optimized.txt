@@ -1,9 +1,9 @@
-! Checksum: r6Y5MxwypRUe25C3ABvG6g
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1704854180-3600.patch
+! Checksum: sy8NyHyyZsZjEpQT0zmWUw
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1704883044-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.87.67
-! TimeUpdated: 2024-01-09T17:32:30+00:00
+! Version: 2.0.87.68
+! TimeUpdated: 2024-01-10T10:33:29+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -5317,7 +5317,7 @@ newsyou.info##.tiserpc
 newsyou.info##.post > p > a[target="_blank"][rel="nofollow"]
 ||z.cdn.trafficbass.com/load?$popup
 brodude.ru##.single__banner
-onlinestreams.ru,gamemag.ru##a[href^="https://ads.adfox.ru/"]
+kinoafisha.info,onlinestreams.ru,gamemag.ru##a[href^="https://ads.adfox.ru/"]
 ||cdn.leon.ru/*/*banners/$image
 afanasy.biz##.partners-news__title
 bizlida.by##.bl-side-banner

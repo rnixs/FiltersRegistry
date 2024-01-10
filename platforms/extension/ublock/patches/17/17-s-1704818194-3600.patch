@@ -1,0 +1,20 @@
+d2 2
+a3 2
+! Checksum: QUQmRtANKHmKwQLfwvMX7A
+! Diff-Path: ../patches/17/17-s-1704883038-3600.patch
+a174 1
+$removeparam=itm_content
+a184 1
+$removeparam=utm_content
+a222 1
+$removeparam=dpg_content
+a246 1
+$removeparam=mtm_content
+a522 1
+||gitlab.$removeparam=glm_content
+a1097 1
+||zenaps.com^$removeparam=cookie
+a1419 1
+||adj.st^$removeparam=utm_content
+a1996 1
+@@||redirects.tradedoubler.com^$removeparam=utm_content
