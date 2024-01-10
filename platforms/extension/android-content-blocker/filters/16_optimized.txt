@@ -1,9 +1,9 @@
-! Checksum: eFDHMIYUflEnc4eyYqKAQg
-! Diff-Path: ../patches/16_optimized/16_optimized-s-1704854154-3600.patch
+! Checksum: s1uikNuu44PFeH6X8dMOng
+! Diff-Path: ../patches/16_optimized/16_optimized-s-1704900988-3600.patch
 ! Title: AdGuard French filter (Optimized)
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.42.78
-! TimeUpdated: 2024-01-08T10:32:05+00:00
+! Version: 2.0.42.79
+! TimeUpdated: 2024-01-10T15:32:14+00:00
 ! Expires: 5 days (update frequency)
 ||vookamoo.com^
 ||proxy.ads.canalplus-bo.net^
@@ -816,8 +816,6 @@ kanald.com.tr#@#div[data-ad]
 @@||yourupload.com/jwplayer/*/*.js$domain=yourupload.com
 forodecostarica.com#@##ad_global_below_navbar
 ||script.hentaicdn.com/cdn/*/core/js/arf-$badfilter
-@@||dpm.zebestof.com/*/tag.js$domain=sante.journaldesfemmes.fr
-@@||c.amazon-adsystem.com/aax2/apstag.js$domain=sante.journaldesfemmes.fr
 /redirect/cpa/*$popup,badfilter
 @@||leparisien.fr/*/resources/scripts/prebid*.js
 cambro.tv#@#.is-ad-visible

@@ -1,9 +1,9 @@
-! Checksum: vbuLx66h6Si7ao0eDr+sHQ
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1704890223-3600.patch
+! Checksum: DV5vA7EGrkVQWM4XW4uHRw
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1704901033-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.81
-! TimeUpdated: 2024-01-10T12:33:10+00:00
+! Version: 2.0.95.82
+! TimeUpdated: 2024-01-10T15:33:20+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -409,7 +409,7 @@ lun.ua##.BuildingGallery-share
 blog.skillfactory.ru##.block__history-share
 gartic.com.br###blocoFacebook
 read.engineerscodex.com##.like-button-container + a.post-ufi-comment-button + a[role="button"]
-blog.omnivore.app,read.engineerscodex.com##button[class*="frontend-components-NavbarShare"]
+materializedview.io,blog.omnivore.app,read.engineerscodex.com##button[class*="frontend-components-NavbarShare"]
 read.engineerscodex.com#?#.comment-rest > div.pencraft > span:has(> a > div > div.pencraft:contains(Share))
 thehansindia.com##.social-share-wrap
 block.fm##.bg-card-01.px-8
@@ -4075,7 +4075,6 @@ nationalgeographic.com##.Article__Wrapper .Share
 ryte.com##.sideboxsocials
 ndtv.com##.pst_icn-btn > a.ss-lk
 ndtv.com##.ss > a.ss-lk
-deccanherald.com,acm.org##.share-this-popover
 acm.org##.rlist > li[title="Share"]
 lifehacker.ru##.article-card-actions__share
 forklog.com##div[class$="share_blk"]
@@ -4328,7 +4327,7 @@ utorrent.com###social-feed
 adverts.ie###smi_social
 depo.ua##.openPost-social
 maquia.hpplus.jp,media.nenaprasno.ru##.article-block-share
-substack.com##a[href*="action=share"]
+materializedview.io,substack.com##a[href*="action=share"]
 gnom.land##.social-feedback-widgets
 ndtv.com,www-ndtv-com.cdn.ampproject.org##.story_ft-nav
 apix-drive.com,republicworld.com##.share-social-media
@@ -6642,6 +6641,8 @@ www.kinopoisk.ru##div[class*="-share-buttons"]
 www.kinopoisk.ru##.ya-share2
 auto.ru#?#.Review__footer-col:has(> div.ReviewShare)
 !+ NOT_OPTIMIZED
+1tv.od.ua##.b-socials-board
+!+ NOT_OPTIMIZED
 trinixy.ru##.mdl-card__shareicon
 !+ NOT_OPTIMIZED
 film.ru#?#body > div.block:has(> div.social-likes)
@@ -6770,6 +6771,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_social
 ##.o-noteContentHeader__share
 ##.p-article__articleWrapper ~ div.p-article__share
 ##.ytp-share-button
+##.share-this-popover
 ###video-share
 ##.ct-share-box
 ###abn-shares-buttons

@@ -1,9 +1,9 @@
-! Checksum: A/6+EonoeYQFHtor91CcjA
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1704890176-3600.patch
+! Checksum: IL8PGk98/xx4dTKgpd/0xQ
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1704900992-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.81
-! TimeUpdated: 2024-01-10T12:33:10+00:00
+! Version: 2.0.95.82
+! TimeUpdated: 2024-01-10T15:33:20+00:00
 ! Expires: 5 days (update frequency)
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
@@ -361,7 +361,7 @@ lun.ua##.BuildingGallery-share
 blog.skillfactory.ru##.block__history-share
 gartic.com.br###blocoFacebook
 read.engineerscodex.com##.like-button-container + a.post-ufi-comment-button + a[role="button"]
-blog.omnivore.app,read.engineerscodex.com##button[class*="frontend-components-NavbarShare"]
+materializedview.io,blog.omnivore.app,read.engineerscodex.com##button[class*="frontend-components-NavbarShare"]
 thehansindia.com##.social-share-wrap
 block.fm##.bg-card-01.px-8
 dailygeekshow.com##.twitter-follow-button
@@ -3961,7 +3961,6 @@ nationalgeographic.com##.Article__Wrapper .Share
 ryte.com##.sideboxsocials
 ndtv.com##.pst_icn-btn > a.ss-lk
 ndtv.com##.ss > a.ss-lk
-deccanherald.com,acm.org##.share-this-popover
 acm.org##.rlist > li[title="Share"]
 lifehacker.ru##.article-card-actions__share
 forklog.com##div[class$="share_blk"]
@@ -4214,7 +4213,7 @@ utorrent.com###social-feed
 adverts.ie###smi_social
 depo.ua##.openPost-social
 maquia.hpplus.jp,media.nenaprasno.ru##.article-block-share
-substack.com##a[href*="action=share"]
+materializedview.io,substack.com##a[href*="action=share"]
 gnom.land##.social-feedback-widgets
 ndtv.com,www-ndtv-com.cdn.ampproject.org##.story_ft-nav
 apix-drive.com,republicworld.com##.share-social-media
@@ -5986,6 +5985,8 @@ translate.yandex.*###shareContent + div[data-action="mailTo"]
 www.kinopoisk.ru##div[class*="-share-buttons"]
 www.kinopoisk.ru##.ya-share2
 !+ NOT_OPTIMIZED
+1tv.od.ua##.b-socials-board
+!+ NOT_OPTIMIZED
 trinixy.ru##.mdl-card__shareicon
 !+ NOT_OPTIMIZED
 m.timesofindia.com##.id_footer_social
@@ -6146,6 +6147,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_social
 ##.o-noteContentHeader__share
 ##.p-article__articleWrapper ~ div.p-article__share
 ##.ytp-share-button
+##.share-this-popover
 ###video-share
 ##.ct-share-box
 ###abn-shares-buttons

@@ -1,9 +1,9 @@
-! Checksum: Vh2e+7wbnrmwVXQT5zKdTw
-! Diff-Path: ../patches/7/7-s-1704893834-3600.patch
+! Checksum: P5hIponRyvTgRs4ZgBSKew
+! Diff-Path: ../patches/7/7-s-1704901062-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.44
-! TimeUpdated: 2024-01-10T13:33:41+00:00
+! Version: 2.0.47.45
+! TimeUpdated: 2024-01-10T15:33:37+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1490,6 +1490,8 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+://amzone.co.jp.$document
+/?*=+81(050)-$document
 ://access-mericairi.$document,domain=cn
 ://janlan-net.*.com/$document
 /?m=000&t=000&ip=$document
@@ -1504,7 +1506,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 .cfd/*?_t=$document
 &p=*&_mi|$document,domain=top
 .com/ibg/client/*.php|$document
-://smdc-*.fit/$document
+://smdc-$document,domain=cn|fit
 ://tokyodisney.*.com/*?lang=ja^$document
 .click/mac/^$document
 .click/win/^$document

@@ -1,5 +1,5 @@
-! Checksum: jkDoN6s+0Dh/Lh+/JBi8mQ
-! Diff-Path: ../patches/20/20-s-1704886571-3600.patch
+! Checksum: XCtV978V2LvIFaSwimH/Hw
+! Diff-Path: ../patches/20/20-s-1704900996-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
 ! Version: 2.0.11.76
@@ -2770,6 +2770,7 @@ m.tr.beinsports.com#$#.content_section[style="margin-top: 78px;"] { margin-top: 
 m.tr.beinsports.com#$#body > .android.shown { display: none!important; }
 m.tr.beinsports.com#$#form > header[style="top: 78px;"] { top: 0!important; }
 nepisirsem.com,onliner.by,m.ulmart.ru#$#.smartbanner { display: none!important; }
+m.ulmart.ru#$#.smartbanner_show .snap-content, .smartbanner_show .snap-drawers { top: 0!important; }
 m.vlive.tv#$#.pop_banner { display: none!important; }
 m.vlive.tv#$#.pop_banner+#wrap .vlive_top { top: 0!important; }
 m.vlive.tv#$#.pop_banner+#wrap { padding-top: 0!important; }

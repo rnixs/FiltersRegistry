@@ -1,9 +1,9 @@
-! Checksum: W7EtNJyRqLOcB7uoiGqJvQ
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1704893784-3600.patch
+! Checksum: rZMXRFRx9SN+QrNCoFRrtQ
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1704900998-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.50
-! TimeUpdated: 2024-01-10T13:33:18+00:00
+! Version: 2.0.65.51
+! TimeUpdated: 2024-01-10T15:33:14+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -85302,8 +85302,6 @@ demae-can.com#%#//scriptlet('remove-attr', 'data-trm-action|data-trm-category|da
 @@||googletagmanager.com/gtm.js$domain=pcmag.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=pcmag.com,important
 @@||cdn-magiclinks.trackonomics.net/client/static/v2/*_gamespot.js$domain=gamespot.com
-@@||astatic.ccmbg.com/fc/js/prebid?v=$domain=sante.journaldesfemmes.fr
-@@||dpm.zebestof.com/*/tag.js$domain=sante.journaldesfemmes.fr
 @@||googletagmanager.com/gtm.js$domain=journaldesfemmes.fr
 @@||googletagmanager.com/gtag/js$domain=ryanair.com
 @@||googletagmanager.com/gtm.js$domain=ccleaner.com
