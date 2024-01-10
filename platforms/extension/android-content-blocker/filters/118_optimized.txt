@@ -1,9 +1,9 @@
-! Checksum: rQONd94+Enw/sbrG68MprQ
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1704892101-14400.patch
+! Checksum: q78cNFLb9snEvohQbsppEg
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1704906406-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.19
-! TimeUpdated: 2024-01-10T13:03:52+00:00
+! Version: 2.1.20.20
+! TimeUpdated: 2024-01-10T17:02:13+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -8675,6 +8675,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||click.nudevista.com^
 ||client-metrics.chess.com^
 ||cm.nordvpn.com^
+||cmp.vg.no^*/metrics/
 ||cmpworker.dotesports.com^
 ||cmpworker.primagames.com^
 ||cnt.vivatube.com^

@@ -1,5 +1,5 @@
-! Checksum: 2nxuNraB2cMLm7xAPPw0lA
-! Diff-Path: ../patches/237_optimized/237_optimized-s-1704719606-14400.patch
+! Checksum: j8FIuyKw5aCY4/iJ3O0/dQ
+! Diff-Path: ../patches/237_optimized/237_optimized-s-1704906421-14400.patch
 ! Title: Polish Annoyances Filters (Optimized)
 ! Description: Filter list that hides and blocks pop-ups, widgets, newsletters, push notifications, arrows, tagged internal links that are off-topic, and other irritating elements. Polish GDPR-Cookies Filters is already in it.
 ! Version: 1.0.30.48
@@ -11146,6 +11146,7 @@ szybkanauka.pro#$#body { margin-top: 0 !important }
 telewizja-cyfrowa.com#$?##text-2 > .textwidget > p:first-of-type:has-text(/[\w\W]{337}/):has-text(/Dołącz do\s15000\+ osób otrzymujących nasz newsletter. Nie\sprzegapisz żadnej ważnej wiadomości\./) { font-size: 0 !important }
 wielkopolskaes.pl##.elementor-widget-wrap > .elementor-element ~ .acymailing_module:upward(.elementor-widget-wrap)
 winiary.pl##section > div[class*="grid"] div[class*="redirect"]:not([style]) > a[href*="freshmail.io"][class*="dark"]:upward(section > div)
+wrozka.com.pl#$#.contact_content.custom_html_right_content, .no_bottom_margin.custom_html_right_header { width: auto !important }
 polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafadguard
 bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl#%#//scriptlet('ubo-ra.js', 'href', '.external_link', 'stay')
 bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl#$#.external_link { background: none !important }
@@ -12440,6 +12441,7 @@ monitoring.prospect.pl###welcome-msg
 moto-firma.pl,sklep.krisauto.pl,wapex.pl###mAll, .modal-backdrop
 motofaktor.pl#$#.noScroll { overflow: visible !important }
 msn.com#$#.head { margin-top: 0 !important }
+msn.com#$#body.uhf .head, body.uhf #maincontent, body.uhf #foot { transform: unset !important }
 msn.com#$#body:not(.fullscreen) #precontent { margin-top: 11.8rem !important }
 multikino.pl##div.cookie-msg
 multikino.pl#$#html[style] > body[style] { position: static !important; overflow: visible !important }

@@ -1,9 +1,9 @@
-! Checksum: QF01eVCGcsELt6tf4IAgyw
-! Diff-Path: ../patches/214_optimized/214_optimized-s-1704892103-14400.patch
+! Checksum: r59owoKnT3VrVIYaIiy9Cg
+! Diff-Path: ../patches/214_optimized/214_optimized-s-1704906407-14400.patch
 ! Title: ABPVN List (Optimized)
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.26.4
-! TimeUpdated: 2024-01-10T13:04:14+00:00
+! Version: 2.0.26.5
+! TimeUpdated: 2024-01-10T17:02:35+00:00
 ! Expires: 5 days (update frequency)
 .com/cpc/$script
 .com/qc/
@@ -1237,6 +1237,7 @@ $third-party,script,domain=sexdiaryx.us
 ||phimsexsub.moe/wp-admin/admin-ajax.php?action=htmlcountry_get_data
 ||phimsexsub.moe^*.gif$image
 ||phym18.org/static/js/adlia.js
+||pk910324e.com^$domain=javtiful.com
 ||quatvn.vip/ads.js$script
 ||quoracdn.net^$image,domain=vlxx.xxx|vlxyz.tv|sieudamtv.me
 ||rphang.online^*.gif

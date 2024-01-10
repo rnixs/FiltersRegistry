@@ -1,5 +1,5 @@
-! Checksum: Z1eO4SR8SwTCdl8RzMbbaA
-! Diff-Path: ../patches/243_optimized/243_optimized-s-1704877619-14400.patch
+! Checksum: O7RrB7D6u8rSUXbXbMsSZg
+! Diff-Path: ../patches/243_optimized/243_optimized-s-1704906433-14400.patch
 ! Title: Frellwit's Swedish Filter (Optimized)
 ! Description: Filter that aims to remove regional Swedish ads, tracking, social media, annoyances, sponsored articles etc.
 ! Version: 2.0.17.35
@@ -505,6 +505,7 @@ fn.se###cookie
 fodertipset.se##.fodertipset-org-banner
 fof.se##.External-ad, #CybotCookiebotDialog, #CybotCookiebotDialogBodyUnderlay
 fof.se#$#.mediaconnect-protected-content .Carousel { opacity:unset!important; }
+fokus.se,fof.se,elinstallatoren.se,spraktidningen.se,modernpsykologi.se#$#.mediaconnect-protected-content, .mediaconnect-protected-content--show { max-height: unset !important; overflow: unset !important; }
 fokus.se,fof.se,elinstallatoren.se,spraktidningen.se,modernpsykologi.se#$#.mediaconnect-protected-content::after { background: unset !important; }
 folkhalsasverige.se#%#//scriptlet('ubo-acs.js', 'showConsentDlg')
 folkhalsasverige.se##.featurette,.vicky-post-whitebox,.vicky-fancybar-inner:has-text(/sponsrad/i)
@@ -805,6 +806,7 @@ ljudochbild.se##div[class^="col-md"][style*="border-radius"]:has(a[href*="/adver
 ljudochbild.se#$##MoreLink_content-container { height:unset!important; }
 ljudochbild.se###MoreLink_fade-out-div
 ljudochbild.se##.adremark, .coofad, .popup-overlay, .hidead, .phoneads, .pricecomp, .offerz, .type-articleadvertorial, .adblock, .lbplussinfo, .popup-overlayx, a[href*="/advertorial"], a[href*="/advertorial"] + .textbox, .prisjakt, #stickleft, #stickright
+ljudochbild.se#$#.thecontent, .entry-content { max-height: unset !important; overflow: initial !important; height: unset !important; }
 ljudochbild.se#$#.wp-caption { display:initial!important }
 ljungbysporten.se##section.widget_media_image, a[target="_blank"]:not([href*="ljungbysporten.se"])
 ljuskultur.se,bettips.se,spelo.se,skogsaktuellt.se,maskinbladet.se,entreprenadaktuellt.se,ja.se,husbilhusvagn.se,klassiker.nu,mopedgaraget.se,vibilagare.se,caroftheyear.se,automobil.se,endurobloggen.se,riksettan.net,fightermag.se,frillesasbandy.se,dh.se,djungeltrumman.se,skik.se,omni.se,campingsverige.se,eniro.se,svenskjakt.se,realtid.se,restaurangvarlden.se,naringslivetvgl.se,dalarnasaffarer.se,stockholmsaffarer.se,jamtlandsaffarer.se,nyheteridag.se,epochtimes.se##.banner
