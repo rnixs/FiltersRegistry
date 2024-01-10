@@ -1,9 +1,9 @@
-! Checksum: cgEV6ResesYYYKH27vXRxw
-! Diff-Path: ../patches/19/19-s-1704832548-3600.patch
+! Checksum: uGbpvdnjmlYTHhaem3+Prg
+! Diff-Path: ../patches/19/19-s-1704879367-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.73
-! TimeUpdated: 2024-01-09T20:32:11+00:00
+! Version: 2.0.29.74
+! TimeUpdated: 2024-01-10T09:32:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -377,6 +377,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ! reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.promotedlink
 !#safari_cb_affinity
 !
+||samplesamba.com^$third-party
 ||featherstage.com^$third-party
 ||soggyzoo.com^$third-party
 ||sneakwind.com^$third-party

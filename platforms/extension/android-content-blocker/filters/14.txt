@@ -1,9 +1,9 @@
-! Checksum: Rif2fngrbD/Npwd7FXzYWg
-! Diff-Path: ../patches/14/14-s-1704868560-3600.patch
+! Checksum: J2jts6H5sXJ/LBkmUgLpIw
+! Diff-Path: ../patches/14/14-s-1704879365-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.23
-! TimeUpdated: 2024-01-10T06:32:11+00:00
+! Version: 2.1.84.24
+! TimeUpdated: 2024-01-10T09:32:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13004,6 +13004,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170310
+@@||gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js$domain=chromeenterprise.google
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169574
 @@||auto1-cookie-gdpr.prod.mp.auto1.cloud/latest/cookieBanner.js$domain=auto1.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169966
@@ -16915,6 +16917,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ! reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.promotedlink
 !#safari_cb_affinity
 !
+||samplesamba.com^$third-party
 ||featherstage.com^$third-party
 ||soggyzoo.com^$third-party
 ||sneakwind.com^$third-party
@@ -36039,6 +36042,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! Limit it to mobile versions only
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 !
+cloudtempmail.com##.InstallAppAllStore
 m.hoyolab.com##.guide-download-drawer
 search.yahoo.co.jp##article[class^="W2ALink_"]
 baynews9.com##img[alt="Live News On The Go! Download the Spectrum News App"]

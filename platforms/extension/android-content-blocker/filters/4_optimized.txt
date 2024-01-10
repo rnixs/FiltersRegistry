@@ -1,9 +1,9 @@
-! Checksum: XRUSw68jYoBRPe7eBUx/pw
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1704854155-3600.patch
+! Checksum: jQdKuSF4t6w/DiM/MM1+eg
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1704879369-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.78
-! TimeUpdated: 2024-01-09T17:33:17+00:00
+! Version: 2.0.95.79
+! TimeUpdated: 2024-01-10T09:33:14+00:00
 ! Expires: 5 days (update frequency)
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
@@ -7303,6 +7303,7 @@ catalogmineralov.ru#$#body { overflow: visible!important; }
 thehungryjpeg.com#@#body .twitter-share-button
 thehungryjpeg.com#@#.fb-like
 designervn.net#@#.fb-share-button
+@@||redgifs.com/assets/share_icon_red-*.js$~third-party
 watchseries.cyou#@#.addthis_inline_share_toolbox
 tuasaude.com#@#.article-share
 tuasaude.com#@#a[href*="pinterest.com/pin/create/button"]
