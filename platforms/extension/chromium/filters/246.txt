@@ -1,15 +1,15 @@
-! Checksum: E/1soBsjMNwqgoPq/acX4w
-! Diff-Path: ../patches/246/246-s-1704877603-14400.patch
+! Checksum: LdQ9EM2WmQhafB8Lzywc9Q
+! Diff-Path: ../patches/246/246-s-1704892109-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.37.88
-! TimeUpdated: 2024-01-10T09:03:13+00:00
+! Version: 2.1.37.89
+! TimeUpdated: 2024-01-10T13:04:57+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: q5h5ZH57VgzBR11u6hD5yg
-! OriginalVersion: 202401100851
+! Checksum: Iyt4OobssRkQX0A0qzHTtQ
+! OriginalVersion: 202401101251
 ! Title: EasyList Polish
-! Last modified: 10 Jan 2024 08:51 UTC
+! Last modified: 10 Jan 2024 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -116,7 +116,7 @@ mandarinodesign.eu#@#.reklama
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block.txt ***
 -290x150.$domain=tygodnikpiski.pl
 -ad-$domain=tuhiszpania.pl
--baner-$domain=budownictwo.co|firmy.meblarstwo.eu|ipulawy.pl|meblarskapolska.pl|meblosfera.pl|obiektysakralne.pl|panoramakutna.pl|sadownictwo.com.pl|slupca.pl|sochaczewianin.pl|stolarkabudowlana.eu|tkaninyobiciowe.eu|tygodnikpiski.pl
+-baner-$domain=budownictwo.co|firmy.meblarstwo.eu|ipulawy.pl|meblarskapolska.pl|meblosfera.pl|obiektysakralne.pl|panoramakutna.pl|sadownictwo.com.pl|slupca.pl|sochaczewianin.pl|tkaninyobiciowe.eu|tygodnikpiski.pl
 -baner.$domain=blogprezesa.pl|crypto-trader.pl|ipulawy.pl|napoli24h.pl|przeclaw24.pl|wirtualnyzgierz.pl|wolanie.info
 -baner728.$domain=nieruchomosci-komercyjne.info|ogloszenia-nieruchomosci.info
 -baner_$domain=nolesnica.pl|polska-morska.pl
@@ -166,7 +166,6 @@ mandarinodesign.eu#@#.reklama
 ^banerkiIFRAME^$subdocument,domain=zulawy.com
 ^banerkiJPG^$domain=zulawy.com
 ^baners^$domain=konieimy.pl|nowaruda.info|podlasie24.pl|portalpszczelarski.pl
-^banery2018^$domain=wysokomazowiecki24.pl
 ^banery2019^$domain=wysokomazowiecki24.pl
 ^banery^$domain=24tp.pl|abc-dachy.pl|alexjones.pl|archeton.pl|asta24.pl|belchatow.bai.pl|bialogardzianin.pl|bielsko.biala.pl|brodnica.net|bukowinatatrzanska.pl|cieszyninfo.pl|co-slychac.pl|dachy.info.pl|deblin24.eu|doba.pl|domenergo.com|e-dobrydom.pl|e-konkursy.info|ebarlinek.pl|eglos.pl|elblag.net|emysliborz.pl|epszczyna.pl|fachowydekarz.pl|glowny-mechanik.pl|goryonline.com|haczyk.pl|haloursynow.pl|hotelinfo24.pl|igorzow.pl|igostyn.pl|ijarocin.pl|ikalisz.pl|ikamien.pl|ikrotoszyn.pl|iostrowwlkp.pl|ipleszew.pl|ipolska.info|ipyrzyce.pl|iswinoujscie.pl|jagiellonia.net|karpacz.net|kibice.net|kielkismaku.pl|kozienice24.pl|kuriergarwolinski.pl|kutno.net.pl|lipsko24.pl|lokalna24.pl|lubelszczyzna.info|maritime.com.pl|maslow.info.pl|mazury24.eu|mebleinfo.pl|miedzyrzec.info|moja-ostroleka.pl|mojaleczyca.pl|mragowo24.info|mymma.pl|nadmorze.pl|naszeopoczno.pl|nasztomaszow.pl|nowaruda.info|nowoczesnywarsztat.pl|opakowania.biz|ostrowmaz24.pl|paliwa.pl|piekarnie24.pl|pionki24.pl|pojezierze24.pl|polskicaravaning.pl|pomyslnadom.pl|portalwrc.pl|ppw.fishing|prudnicka.pl|przemyskie.info|pulskosmosu.pl|pultuszczak.pl|radomsport.pl|reszel.pl|romantycznyweekend.eu|rynekpapierniczy.pl|satkurier.pl|skionline.pl|sluzby-ur.pl|spawalnictwo.com.pl|sportgniezno.pl|staleo.pl|strzelecopolski.pl|swiatogloszen.net.pl|swiatopon.info|trentino.pl|twojeradio.fm|tworzymyhistorie.pl|tygodnikpodhalanski.pl|tygodnikprudnicki.pl|tygodniksiedlecki.com|typersi.pl|wcf.org.pl|wiadomoscihandlowe.pl|wloclawek.info.pl|wpr24.pl|zol.pl|zpazurem.pl|zrobotyzowany.pl|zwolen24.pl|zywiecsupernowa.pl
 ^banery_$domain=instalacjebudowlane.pl|iszczecinek.pl|kuchenny.com.pl|maritime.com.pl|ogrodinfo.pl|portalplock.pl|radom24.pl|sokolka.tv|tygodnik.pl|zegarkiipasja.pl|zyciesiedleckie.pl
@@ -242,7 +241,6 @@ _banner_$domain=chemiaibiznes.com.pl|cire.pl|cksport.pl|dzisiajwgliwicach.pl|e-p
 _reklama.$domain=radomsport.pl|staraoliwa.pl
 _reklama^$domain=tarnowiak.pl
 _reklamy2^$domain=epoznan.pl
-_reklamy^$domain=wiadomoscisasiedzkie.pl
 supernowosci24.pl##[id^="r-"]
 ||24opole.pl/dimg^
 ||3.fwcdn.pl^*^welcomeMain.$script,domain=filmweb.com
@@ -499,6 +497,8 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=nizanskie.info
+^reklama_$domain=tylkotorun.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2500,6 +2500,16 @@ bolec.info##small + a
 wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
+grudziadz365.pl##.new-toplayer
+jastrowie24.pl##.new-toplayer
+extrawalcz.pl##.new-toplayer
+gst24.pl##.new-toplayer
+abcjanikowo24.pl##.new-toplayer
+ekstrasierpc.pl##.new-toplayer
+mojakruszwica.pl##.new-toplayer
+isanok.pl##.new-toplayer
+wiadomoscisasiedzkie.pl##.BanerRg
+tylkotorun.pl##[class^="g g-"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2

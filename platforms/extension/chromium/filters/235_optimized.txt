@@ -1,5 +1,5 @@
-! Checksum: lK36ImC4naqW5AtO6sSakg
-! Diff-Path: ../patches/235_optimized/235_optimized-s-1704777042-14400.patch
+! Checksum: EBi9nxeYIAlSipoJqOoUiA
+! Diff-Path: ../patches/235_optimized/235_optimized-s-1704892108-14400.patch
 ! Title: Persian Blocker (Optimized)
 ! Description: Filter list for blocking ads and trackers on websites in Persian.
 ! Version: 2.0.4.5
@@ -1790,6 +1790,7 @@ coffeete.ir#%#//scriptlet('ubo-window-close-if.js', '/soft98')
 [$path=/utm_medium=banner-kaprila/i]faradars.org#$?#html { remove: true; }
 ||cxchief.com^$document,removeparam=utm_source
 ||cxchief.com^$document,removeparam=utm_campaign
+||cxchief.com^$document,removeparam=utm_content
 ||cxchief.com/fa/?utm_medium=adv^$document,csp=script-src
 [$path=/utm_medium=adv/i]cxchief.com#$?#html { remove: true; }
 ||smostafa.ir/?utm_source=footer^$document,csp=script-src

@@ -1,9 +1,9 @@
-! Checksum: UFdV3ckYpxLbRZzk4DhE0g
-! Diff-Path: ../patches/250/250-s-1704820043-14400.patch
+! Checksum: HYg+H9m5/EYvZ2i2fn3zXQ
+! Diff-Path: ../patches/250/250-s-1704892127-14400.patch
 ! Title: Dandelion Sprout's Annoyances List
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.92
-! TimeUpdated: 2024-01-09T17:03:55+00:00
+! Version: 2.0.12.93
+! TimeUpdated: 2024-01-10T13:05:08+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: ⚙️ Dandelion Sprout's Annoyances List
@@ -483,7 +483,7 @@ quora.com##.modal_bg
 linkedin.com#$?#html { overflow: auto !important; }
 linkedin.com#$?#body { overflow: auto !important; }
 ! Title: 💊 Dandelion Sprout's Anti-Malware List (for AdGuard)
-! OriginalVersion: 09January2023v1
+! OriginalVersion: 10January2023v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -17156,7 +17156,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||livejasmin.com/*&origin=$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161364
 ! (https://github.com/AdguardTeam/AdguardBrowserExtension/issues/2497)
-/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
+/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=github.*|~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
 ||github.sale^$all
 ! https://www.tv2.no/nyheter/innenriks/advarer-ikke-klikk-pa-lenken/16040614/
 ||0nedr1ved0cumentonline.com^$all
@@ -25585,6 +25585,7 @@ $removeparam=afid
 ! https://www.digitalimpuls.no/WebPages/Produkt/ProduktInfo.aspx?plid=75672&WebSiteMapNodeID=1000001 (15/11/2020)
 $removeparam=WebSiteMapNodeID
 ! https://clips.twitch.tv/HotGenerousBearHeyGirl?tt_content=player_title&tt_medium=clips_embed
+$removeparam=tt_content
 $removeparam=tt_medium
 ! https://www.elgiganten.dk/product/lyd-hi-fi/hovedtelefoner/WH1000XM3B/sony-tradlose-around-ear-hovedtelefoner-wh-1000xm3-sort?scid=Pricecomparison8084162610 (27/11/2020)
 $removeparam=scid,domain=~pnc.com
@@ -25753,6 +25754,7 @@ $removeparam=cmpid
 $removeparam=CMP
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-750434
 $document,removeparam=/^OCID=/i,domain=~youtube.com|~reiseauskunft.bahn.de|~msn.com
+@@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
 $removeparam=tduid,domain=~tradedoubler.com
 $removeparam=irclickid
 $removeparam=irclicid
@@ -26496,6 +26498,7 @@ $removeparam=/^piwik_/
 $removeparam=pk_campaign
 $removeparam=pk_medium
 $removeparam=pk_source
+$removeparam=pk_content
 $removeparam=pk_kwd
 $removeparam=pk_keyword
 ! https://www.instagram.com/alfaromeoracingorlen/?utm_source=ig_embed&ig_mid=B8140AA4-03F3-45BD-8B9E-4825D1ABE6C6
@@ -26559,6 +26562,7 @@ $removeparam=channable
 ! https://www.lastminute.com/tickets/london-theatre/musicals/showstopper-the-improvised-musical?int_campaign=theatre
 $removeparam=int_source
 $removeparam=int_medium
+$removeparam=int_content
 $removeparam=int_campaign
 ! https://github.com/DandelionSprout/adfilt/pull/483
 ! https://weibo.com/5146173015/Gckc5ax0y?sudaref=zh.wikipedia.org (03/02/2022)
@@ -27857,6 +27861,7 @@ $removeparam=TheTime,domain=cnet.*|gamespot.com
 ! https://github.com/DandelionSprout/adfilt/commit/2781552717e908b5b33c2fd497151e11cc67abcf
 $removeparam=ad,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.com|moosejaw.com|multitronic.fi|scandinavianphoto.fi|swamp.fi|ocado.com|ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
 $removeparam=ad_src,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.com|scandinavianphoto.fi|swamp.fi
+$removeparam=ad_content,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.com|scandinavianphoto.fi|swamp.fi
 $removeparam=ad_prodid,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.com|scandinavianphoto.fi|swamp.fi
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-810773
 ||rei.com^$removeparam=target_id
@@ -28084,6 +28089,7 @@ $removeparam=rss,domain=marketwatch.com|sn.dk|ted.com
 ||nerdrooted.com^$removeparam=sfw
 ! https://gitlab.com/anti-tracking/ClearURLs/rules/-/issues/58
 ! (Exception: discord.*; see #445)
+$removeparam=content,domain=1sol.io|bybit.com|coinpanel.com|docs.google.com|docsend.com|eonline.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|runnode.com|t.me|twitter.com|x.com|youtube.com
 ! https://gitlab.com/anti-tracking/ClearURLs/rules/-/issues/53
 ||tokopedia.com^$removeparam=whid
 ! https://www.flipkart.com/wildcraft-knight-mel-17-5-l-laptop-backpack/p/itmfejkcj45hnsdw?pid=BKPFEJKCFU49PCDE&lid=LSTBKPFEJKCFU49PCDEKYMJX4&marketplace=FLIPKART&store=reh%2F4d7%2Fak9&srno=b_1_1&otracker=hp_omu_Top%2BOffers%2BOn_3_13.dealCard.OMU_6NBH6T8TFQ5H_6&otracker1=hp_omu_WHITELISTED_neon%2Fmerchandising_Top%2BOffers%2BOn_NA_dealCard_cc_3_NA_view-all_6&fm=organic&iid=en_JRTu6S3VTYUNswfx2Vf%2BIxSVpVqAn%2BgBL%2F4egSHBpmeZwysjg95tdc%2B0VNBUu1uuBVLsn39nQeqsYzc7%2BsLNkQ%3D%3D&ppt=None&ppn=None&ssid=ooc70jk6kg0000001634312695177&cid=6NBH6T8TFQ5H
@@ -28799,6 +28805,7 @@ $removeparam=src_medium,document
 $removeparam=src_source,document
 $removeparam=src_campaign,document
 $removeparam=src_term,document
+$removeparam=src_content
 $removeparam=src_custom
 ||bbc.$removeparam=at_campaign_type
 ||bbc.$removeparam=at_type
@@ -28956,6 +28963,7 @@ $removeparam=embeds_referring_euri
 ! https://www.whitepages.com/checkout/phone-summary?phoneNumber=[redacted]&wp_medium=ObfuscatedName&wp_source=phone_unpub&funnelType=phone_onepages_1&skip=false&wp_content=Masked&wp_term=ObfuscatedName
 ||whitepages.com^$document,removeparam=wp_medium
 $document,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.com
+||whitepages.com^$document,removeparam=wp_content
 ||whitepages.com^$document,removeparam=wp_term
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-6063968
 ||as.com^$removeparam=ssm,document
@@ -29058,6 +29066,7 @@ $removeparam=dyn,domain=clink2.com|dlink2.com,document
 ||gitlab.$removeparam=referrer_action,document
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-6908266
 ||gitlab.$document,removeparam=glm_source
+||gitlab.$document,removeparam=glm_content
 ! https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt?ref_type=heads (05/09/2023)
 ||gitlab.$removeparam=ref_type
 ! Various Google Search bottom bar links (12/09/2023)
@@ -29104,6 +29113,7 @@ $document,removeparam=iId,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46
 ||simplermedia.com^$document,removeparam=smg_source
 ||simplermedia.com^$document,removeparam=smg_medium
 ||simplermedia.com^$document,removeparam=smg_campaign
+||simplermedia.com^$document,removeparam=smg_content
 ! (Example links removed to try to handle antivirus false positives)
 ||tkqlhce.com^$removeparam=sdate
 ||localmonero.co^$removeparam=rc

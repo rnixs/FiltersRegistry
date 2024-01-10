@@ -1,9 +1,9 @@
-! Checksum: 0t5fFaSDPGBeOtxMI19W7A
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1704863187-14400.patch
+! Checksum: zzfQAZPFN2k34DMeIYbm5A
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704892116-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.92
-! TimeUpdated: 2024-01-09T17:03:55+00:00
+! Version: 2.0.12.93
+! TimeUpdated: 2024-01-10T13:05:08+00:00
 ! Expires: 5 days (update frequency)
 ###smart-banner
 ###smartbanner
@@ -382,7 +382,7 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 ||jsmcrptjmp.com^$all
 ||prtord.com^$all
 ||wmptengate.com^$all
-/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
+/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=github.*|~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
 ||cprapid.com^$all
 ||49gw5gonj143k.click^$all
 ||hfjdfurhhd.xyz^$all
@@ -1231,6 +1231,7 @@ $removeparam=ref_src,document
 $removeparam=ref_url,domain=~randalls.com
 $removeparam=dclid
 $removeparam=afid
+$removeparam=tt_content
 $removeparam=tt_medium
 $removeparam=scid,domain=~pnc.com
 $removeparam=awc
@@ -1318,6 +1319,7 @@ $removeparam=istBid
 $removeparam=cmpid
 $removeparam=CMP
 $document,removeparam=/^OCID=/i,domain=~youtube.com|~reiseauskunft.bahn.de|~msn.com
+@@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
 $removeparam=tduid,domain=~tradedoubler.com
 $removeparam=irclickid
 $removeparam=intcmp
@@ -1667,6 +1669,7 @@ $removeparam=/^piwik_/
 $removeparam=pk_campaign
 $removeparam=pk_medium
 $removeparam=pk_source
+$removeparam=pk_content
 $removeparam=pk_kwd
 $removeparam=pk_keyword
 $removeparam=ig_mid
@@ -2634,6 +2637,7 @@ $removeparam=embeds_referring_euri
 ||etsy.com^$removeparam=gpla
 ||etsy.com^$removeparam=gao
 ||whitepages.com^$document,removeparam=wp_medium
+||whitepages.com^$document,removeparam=wp_content
 ||whitepages.com^$document,removeparam=wp_term
 ||thisismoney.co.uk^$removeparam=molReferrerUrl
 ||sciencedirect.com/*?via%3D$removeparam=/^via%3D/,document

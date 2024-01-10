@@ -1,9 +1,9 @@
-! Checksum: yW7XcRRcF+36I4FjKaHJyQ
-! Diff-Path: ../patches/214_optimized/214_optimized-s-1704877594-14400.patch
+! Checksum: QF01eVCGcsELt6tf4IAgyw
+! Diff-Path: ../patches/214_optimized/214_optimized-s-1704892103-14400.patch
 ! Title: ABPVN List (Optimized)
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.26.3
-! TimeUpdated: 2024-01-10T09:02:31+00:00
+! Version: 2.0.26.4
+! TimeUpdated: 2024-01-10T13:04:14+00:00
 ! Expires: 5 days (update frequency)
 .com/cpc/$script
 .com/qc/
@@ -1232,6 +1232,8 @@ $third-party,script,domain=sexdiaryx.us
 ||media.vailonxx.co^*.gif
 ||mneydirec.com^
 ||mysdy.mangaxyz.fr^*.gif$image,domain=damconuong.net
+||phevkl.biz^*.gif$image,domain=phevkl.co
+||phevkl.cc^*.gif$image,domain=phevkl.co
 ||phimsexsub.moe/wp-admin/admin-ajax.php?action=htmlcountry_get_data
 ||phimsexsub.moe^*.gif$image
 ||phym18.org/static/js/adlia.js
@@ -1335,6 +1337,8 @@ vlxx.xxx##.catfish-top
 vlxx.xxx##.ff-banner
 vlxx.xxx##div.banner-catfish-bottom
 vlxx.xxx,javtopxx.com##.ads
+vlxxhot.com###ab_ctl
+vlxxhot.com##.bannerads
 vlxyz.tv##.xx-ads
 vn.javbabe.net##.b-player
 vn.phym18.org##div#bnads

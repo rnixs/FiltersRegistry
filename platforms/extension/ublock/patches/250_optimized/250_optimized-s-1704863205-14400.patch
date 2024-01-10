@@ -1,0 +1,19 @@
+d2 2
+a3 2
+! Checksum: BFJqf8RmGtRZ0mgl+P49Kg
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704892137-14400.patch
+d6 2
+a7 2
+! Version: 2.0.12.93
+! TimeUpdated: 2024-01-10T13:05:08+00:00
+d315 1
+a315 1
+/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=github.*|~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
+a1259 1
+$removeparam=tt_content
+a1695 1
+$removeparam=pk_content
+a2236 1
+||mp.weixin.qq.com^$removeparam=abtest_cookie
+a2661 1
+||whitepages.com^$document,removeparam=wp_content

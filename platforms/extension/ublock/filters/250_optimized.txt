@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: KoC4vY+u47sXnAqAXIXvVQ
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1704863205-14400.patch
+! Checksum: BFJqf8RmGtRZ0mgl+P49Kg
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704892137-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.92
-! TimeUpdated: 2024-01-09T17:03:55+00:00
+! Version: 2.0.12.93
+! TimeUpdated: 2024-01-10T13:05:08+00:00
 ! Expires: 5 days (update frequency)
 ###smart-banner
 ###smartbanner
@@ -312,7 +312,7 @@ softonic.*,softonic-ar.com,softonic-th.com##a[href*="://ublock-chrome."]
 /&[a-z]{1,2}=[a-zA-Z0-9]{0,}%[a-zA-Z0-9%]{1000,}$/$document
 ||go.redirected*/click?^$document,popup,domain=~malware-redirection-trains.*
 ://trk.*.run/$document,domain=~very-likely-a-malware-redirection-train.*
-/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
+/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=github.*|~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
 ||betzykrisesenter.no^$document
 ||citra2010oslo.no^$document
 ||digiter.no^$document
@@ -1257,6 +1257,7 @@ $removeparam=ref_src,document
 $removeparam=ref_url,domain=~randalls.com
 $removeparam=dclid
 $removeparam=afid
+$removeparam=tt_content
 $removeparam=tt_medium
 $removeparam=scid,domain=~pnc.com
 $removeparam=awc
@@ -1693,6 +1694,7 @@ $removeparam=/^piwik_/
 $removeparam=pk_campaign
 $removeparam=pk_medium
 $removeparam=pk_source
+$removeparam=pk_content
 $removeparam=pk_kwd
 $removeparam=pk_keyword
 $removeparam=ig_mid
@@ -2234,6 +2236,7 @@ $removeparam=user_ip
 ||mp.weixin.qq.com^$removeparam=pass_ticket
 $removeparam=clicktime
 $removeparam=nettype
+||mp.weixin.qq.com^$removeparam=abtest_cookie
 ||mp.weixin.qq.com^$removeparam=chksm
 ||mp.weixin.qq.com^$removeparam=count
 ||mp.weixin.qq.com^$removeparam=enterid
@@ -2659,6 +2662,7 @@ $removeparam=embeds_referring_euri
 ||etsy.com^$removeparam=gpla
 ||etsy.com^$removeparam=gao
 ||whitepages.com^$document,removeparam=wp_medium
+||whitepages.com^$document,removeparam=wp_content
 ||whitepages.com^$document,removeparam=wp_term
 ||thisismoney.co.uk^$removeparam=molReferrerUrl
 ||sciencedirect.com/*?via%3D$removeparam=/^via%3D/,document

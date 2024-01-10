@@ -1,0 +1,19 @@
+d1 2
+a2 2
+! Checksum: zzfQAZPFN2k34DMeIYbm5A
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704892116-14400.patch
+d5 2
+a6 2
+! Version: 2.0.12.93
+! TimeUpdated: 2024-01-10T13:05:08+00:00
+d385 1
+a385 1
+/(//|\.|^)github\.[a-z]{2,20}(/|$)/$document,match-case,~third-party,domain=github.*|~com|~org|~net|~co|~blog|~community|~host|~io|~microsoft|~office|~uk|~us|~xn--fiqs8s|~dev|~archive.*
+a1233 1
+$removeparam=tt_content
+a1320 1
+@@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
+a1669 1
+$removeparam=pk_content
+a2636 1
+||whitepages.com^$document,removeparam=wp_content
