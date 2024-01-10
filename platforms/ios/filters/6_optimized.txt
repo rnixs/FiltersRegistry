@@ -1,9 +1,9 @@
-! Checksum: 0wP82m6gYH0/PgY4RZ+cjw
-! Diff-Path: ../patches/6_optimized/6_optimized-s-1704890238-3600.patch
+! Checksum: TUHB9aa7nYSSRcE3X6Hm0g
+! Diff-Path: ../patches/6_optimized/6_optimized-s-1704911809-3600.patch
 ! Title: AdGuard German filter (Optimized)
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.93
-! TimeUpdated: 2024-01-10T12:33:23+00:00
+! Version: 2.0.39.94
+! TimeUpdated: 2024-01-10T18:33:26+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -3931,6 +3931,7 @@ ladies.de###zeiten
 au-ja.de##.ADVBOX
 onvista.de##.ANZEIGE
 finanzfrage.net,gutefrage.net,praxistipps.focus.de##.Ad
+gutefrage.net##.AdSticky
 finanznachrichten.de##.Ad_FinativeHome
 finanznachrichten.de##.Ad_ImageTeaser
 finanznachrichten.de##.Ad_SmartAd
@@ -4125,6 +4126,7 @@ mannheimer-morgen.de##.core-commercial
 finanzen.net##.cpg_incontent1-container
 finanzen.net##.cpg_incontent2-container
 daswetter.com##.creatividad
+douglas.de##.criteo-product-carousel
 haus.de##.css-1mdt86f
 filmstreaming-de.life##.custom-ban-wrap
 boerse-express.com##.custom-bexad
@@ -4813,7 +4815,7 @@ diegrenzgaenger.lu##article[id^=post-]:has(.sponsored-indicator)
 az.com.na##aside:has(img[src*="/adverts/"])
 hornoxe.com##div.post.hentry.ivycat-post:has(a[href^="https://amzn.to/"])
 hornoxe.com##div.post.hentry.ivycat-post:has(a[href^="https://www.amazon.de/"])
-douglas.de##div.product-tile:has(span.product-tile__sponsored)
+douglas.de##div.product-grid-column:has(span.product-tile__sponsored)
 nydus.org##div.ui-tabs:has(#nydus_org_300x600_desktop_1)
 nydus.org##div:has(> #nydus_org_970x300_billboard_responsive)
 bauernzeitung.ch##div:has(> .advert)
