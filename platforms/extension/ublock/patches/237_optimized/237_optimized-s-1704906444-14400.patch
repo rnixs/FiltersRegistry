@@ -1,0 +1,13 @@
+d2 2
+a3 2
+! Checksum: RjlRiIiJuUT4sl89vg7AiQ
+! Diff-Path: ../patches/237_optimized/237_optimized-s-1704920826-14400.patch
+d6 2
+a7 2
+! Version: 1.0.30.49
+! TimeUpdated: 2024-01-10T21:03:09+00:00
+a11729 2
+/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=pl
+://*.*$domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,permissions=autoplay=()
+a11796 1
+://*.*$domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,permissions=autoplay=()
