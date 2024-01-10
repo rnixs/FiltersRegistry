@@ -406,8 +406,8 @@ youplay.se,expressen.se,di.se,nsk.se,skd.se,nvp.se,barometern.se,blt.se,bt.se,kr
 ||youtube.com/embed$frame,redirect=click2load.html,domain=ordfrontmagasin.se
 ! Unable to convert rule to AdGuard syntax: branschkoll.se,rocknytt.net,upphandling24.se,kimura.se,datormagazin.se,villalivet.se##^script[id^="advanced-ads"]
 branschkoll.se,rocknytt.net,upphandling24.se,kimura.se,datormagazin.se,villalivet.se##^script[id^="advanced-ads"]
-! Rule "branschkoll.se,rocknytt.net,upphandling24.se,kimura.se,datormagazin.se,villalivet.se,polistidningen.se##^script:has-text(advads)" converted to: "branschkoll.se,rocknytt.net,upphandling24.se,kimura.se,datormagazin.se,villalivet.se,polistidningen.se$$script[tag-content="advads"][max-length="262144"]"
-branschkoll.se,rocknytt.net,upphandling24.se,kimura.se,datormagazin.se,villalivet.se,polistidningen.se##^script:has-text(advads)
+! Rule "branschkoll.se,rocknytt.net,upphandling24.se,kimura.se,datormagazin.se,villalivet.se,polistidningen.se,densistavilan.se##^script:has-text(advads)" converted to: "branschkoll.se,rocknytt.net,upphandling24.se,kimura.se,datormagazin.se,villalivet.se,polistidningen.se,densistavilan.se$$script[tag-content="advads"][max-length="262144"]"
+branschkoll.se,rocknytt.net,upphandling24.se,kimura.se,datormagazin.se,villalivet.se,polistidningen.se,densistavilan.se##^script:has-text(advads)
 ! Rule "temadagar.se,lchfarkivet.se,wernamaten.se##^script:has-text(__ez)" converted to: "temadagar.se,lchfarkivet.se,wernamaten.se$$script[tag-content="__ez"][max-length="262144"]"
 temadagar.se,lchfarkivet.se,wernamaten.se##^script:has-text(__ez)
 ! Rule "nyafilmer.*##^script:has-text(_0xf)" converted to: "nyafilmer.*$$script[tag-content="_0xf"][max-length="262144"]"

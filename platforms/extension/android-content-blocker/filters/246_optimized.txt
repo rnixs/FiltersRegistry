@@ -1,9 +1,9 @@
-! Checksum: Q7v2fQVkVwPiq4WR5Z1SCg
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1704863177-14400.patch
+! Checksum: fhTVF4vKG4Dr9hDW/3EKpw
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1704877597-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.37.87
-! TimeUpdated: 2024-01-10T05:03:12+00:00
+! Version: 2.1.37.88
+! TimeUpdated: 2024-01-10T09:03:13+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -1208,7 +1208,6 @@ gol24.pl##.cs
 bielsko.biala.pl##.cukierek_container
 palegro.pl##.custom-commercial-banner-container
 24jgora.pl,bp24.pl,ciechanowinaczej.pl,debica24.eu,goral.info.pl,kartuzy.info,powiatowa.info,zambrow.org##.custom-html-box > .box__container > div
-bukmacherstwo.info,kliknijwzdrowie.pl,odkrywamyzakryte.com##.custom-html-widget
 probasket.pl##.custom-html-widget a > img
 tvswietokrzyska.pl##.custommarginbanner_topbottom
 przeclaw24.pl##.custompolecamy
@@ -1955,6 +1954,7 @@ etransport.pl##a[href*="kampanie.etransport.pl"]
 kuriergarwolinski.pl##a[href*="klikniecia"]
 naszraciborz.pl##a[href*="link_r"]
 prokapitalizm.pl##a[href*="multibook.pl"] > img
+badaniaprenatalne.pl##a[href*="ojcostwoprenatalne.pl"]
 badaniaprenatalne.pl##a[href*="poradagenetyka.pl"]
 badaniaprenatalne.pl##a[href*="testdna.pl"]
 bithub.pl##a[href*="utm_source=bithub&utm_medium="]

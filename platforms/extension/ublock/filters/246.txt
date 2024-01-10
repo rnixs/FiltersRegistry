@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: xRNK+9XLXqhoKUdrJGrF5Q
-! Diff-Path: ../patches/246/246-s-1704863205-14400.patch
+! Checksum: rnkSXF2GxBN5CIrury1l7w
+! Diff-Path: ../patches/246/246-s-1704877631-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.37.87
-! TimeUpdated: 2024-01-10T05:03:12+00:00
+! Version: 2.1.37.88
+! TimeUpdated: 2024-01-10T09:03:13+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: isNJwnj/gU8ozHoEDAkKCg
-! OriginalVersion: 202401100451
+! Checksum: q5h5ZH57VgzBR11u6hD5yg
+! OriginalVersion: 202401100851
 ! Title: EasyList Polish
-! Last modified: 10 Jan 2024 04:51 UTC
+! Last modified: 10 Jan 2024 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1245,7 +1245,6 @@ gol24.pl##.cs
 bielsko.biala.pl##.cukierek_container
 palegro.pl##.custom-commercial-banner-container
 24jgora.pl,bp24.pl,ciechanowinaczej.pl,debica24.eu,goral.info.pl,kartuzy.info,powiatowa.info,zambrow.org##.custom-html-box > .box__container > div
-bukmacherstwo.info,kliknijwzdrowie.pl,odkrywamyzakryte.com##.custom-html-widget
 probasket.pl##.custom-html-widget a > img
 tvswietokrzyska.pl##.custommarginbanner_topbottom
 przeclaw24.pl##.custompolecamy
@@ -1992,6 +1991,7 @@ etransport.pl##a[href*="kampanie.etransport.pl"]
 kuriergarwolinski.pl##a[href*="klikniecia"]
 naszraciborz.pl##a[href*="link_r"]
 prokapitalizm.pl##a[href*="multibook.pl"] > img
+badaniaprenatalne.pl##a[href*="ojcostwoprenatalne.pl"]
 badaniaprenatalne.pl##a[href*="poradagenetyka.pl"]
 badaniaprenatalne.pl##a[href*="testdna.pl"]
 bithub.pl##a[href*="utm_source=bithub&utm_medium="]

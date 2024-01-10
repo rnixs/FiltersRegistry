@@ -1,0 +1,18 @@
+d1 2
+a2 2
+! Checksum: kFuKzDpQsRS8bJ+O5ZGMDQ
+! Diff-Path: ../patches/244_optimized/244_optimized-s-1704877642-14400.patch
+d5 2
+a6 2
+! Version: 2.0.10.30
+! TimeUpdated: 2024-01-10T09:03:11+00:00
+a960 1
+||box2.betanews.net/banner.html^$domain=betanews.net|m.betanews.net
+a2578 1
+betanews.net##iframe[src*="//box2.betanews.net/banner.html"]
+a4464 2
+m.betanews.net##body>div.wrap>center>div[style="position:relative;width:320px;height:50px;margin:5px auto;"]
+m.betanews.net##iframe[src*="//box2.betanews.net/banner.html"]
+d4791 1
+a4791 1
+m.humoruniv.com##div#mobile>div[id]:not([id="read"])>div.bg0[id$="_div"]

@@ -1,9 +1,9 @@
-! Checksum: rTZbItyBEJup3AfQRafuwQ
-! Diff-Path: ../patches/232_optimized/232_optimized-s-1704834434-14400.patch
+! Checksum: kBCUJoA8Ng6iBlmb7RU9fQ
+! Diff-Path: ../patches/232_optimized/232_optimized-s-1704877646-14400.patch
 ! Title: KAD - Anti-Scam (Optimized)
 ! Description: Filter that protects against various types of scams in the Polish network, such as mass text messaging, fake online stores, etc.
-! Version: 2.0.51.41
-! TimeUpdated: 2024-01-09T21:02:57+00:00
+! Version: 2.0.51.42
+! TimeUpdated: 2024-01-10T09:02:56+00:00
 ! Expires: 12 hours (update frequency)
 !#safari_cb_affinity(security)
 ||1vulkanvegas.com^$all
@@ -5680,6 +5680,7 @@
 ||allegrolokalnie.e-zakupy24-7.pl^$all
 ||allegrolokalnie.eaukcja24h.pl^$all
 ||allegrolokalnie.ekupno24h-7.pl^$all
+||allegrolokalnie.eoferty24-7.pl^$all
 ||allegrolokalnie.epay-u24.pl^$all
 ||allegrolokalnie.eplatnosc24h.pl^$all
 ||allegrolokalnie.etransakcje-24.pl^$all
@@ -11975,6 +11976,7 @@
 ||cdznet.com^$all
 ||ce0effbbc1502e422a148e5784befd4f.janusznatan.pl^$all
 ||ce7168201c4.johncornell.com^$all
+||ce.neuru.top^$all
 ||ceapel.site^$all
 ||ceb.plale.pl^$all
 ||cecimin.net^$all
@@ -12579,6 +12581,7 @@
 ||ciopa.everadpro.click^$all
 ||cioyurm.one^$all
 ||cipijeofio.org^$all
+||cipostps.top^$all
 ||ciptakaryatechnology.com^$all
 ||circadianliving.com^$all
 ||circle.cci-fa.com^$all
@@ -14557,6 +14560,7 @@
 ||dao.pltradelife.top^$all
 ||dap.newprogram.top^$all
 ||daphnefowler.com^$all
+||daq.heavycloud.top^$all
 ||dar.pltradelife.top^$all
 ||dar.programtts.top^$all
 ||dar.worldtrades.top^$all
@@ -14968,6 +14972,7 @@
 ||delimedltd.com^$all
 ||deliquidaciones.com^$all
 ||delitouscsher.info^$all
+||deliv-up.com^$all
 ||deliv.bdsellprice.com^$all
 ||delivery2you.page.link^$all
 ||delivery24polska.cyou^$all
@@ -18019,6 +18024,7 @@
 ||ermes-mqtt-server.com^$all
 ||ermkqjsvbnag.com^$all
 ||ern.newlvlpro.top^$all
+||ern.polskitred.top^$all
 ||ernas.liopah.top^$all
 ||ernestyna.amadeuszanastazy.pl^$all
 ||erntirdoli.sbs^$all
@@ -20512,6 +20518,7 @@
 ||freekickyouthcup.com^$all
 ||freelolx.com^$all
 ||freemarketchicago.com^$all
+||freemexers.com^$all
 ||freeminecraft.cc^$all
 ||freeminecraftgiftcode.net^$all
 ||freenetflix.wex.pl^$all
@@ -21014,6 +21021,7 @@
 ||garzarapida.com^$all
 ||gas-ertrag.co^$all
 ||gas-news.info^$all
+||gas.heavycloud.top^$all
 ||gas.inf.br^$all
 ||gas.programmtrad.top^$all
 ||gasbag-xyz.preview-domain.com^$all
@@ -24841,6 +24849,7 @@
 ||inedepost.top^$all
 ||inegakel.space^$all
 ||inepost-pl.top^$all
+||ineposts.top^$all
 ||inereesd.online^$all
 ||inerpat.top^$all
 ||inerplu.top^$all
@@ -25133,6 +25142,7 @@
 ||ininpost.top^$all
 ||inipost-pl.top^$all
 ||inipostl.online^$all
+||iniqpost.top^$all
 ||inirposts.top^$all
 ||init-a.web.app^$all
 ||init-p.web.app^$all
@@ -25215,6 +25225,8 @@
 ||inpasta.xyz^$all
 ||inpastpl.inparx.top^$all
 ||inpcsit.cc^$all
+||inpcsit.top^$all
+||inpcsit.wiki^$all
 ||inpcst-pl.cc^$all
 ||inpcst-pl.top^$all
 ||inpcstpl.cc^$all
@@ -25242,6 +25254,9 @@
 ||inpoct.vip^$all
 ||inpoe.xyz^$all
 ||inpoes.top^$all
+||inpoet.ink^$all
+||inpoet.shop^$all
+||inpoet.wiki^$all
 ||inpois.cc^$all
 ||inpoist.top^$all
 ||inpoistpl.cc^$all
@@ -25266,6 +25281,7 @@
 ||inposit.cc^$all
 ||inposit.ink^$all
 ||inposit.shop^$all
+||inposit.top^$all
 ||inposit.wiki^$all
 ||inposit.work^$all
 ||inposl.top^$all
@@ -25389,6 +25405,7 @@
 ||inpost-pl.lajiao2.click^$all
 ||inpost-pl.landco.pw^$all
 ||inpost-pl.limaen.pw^$all
+||inpost-pl.live^$all
 ||inpost-pl.mnohot.site^$all
 ||inpost-pl.moekup.pw^$all
 ||inpost-pl.msoul.top^$all
@@ -25433,6 +25450,7 @@
 ||inpost-pol.life^$all
 ||inpost-pol.top^$all
 ||inpost-pol.xyz^$all
+||inpost-poland.top^$all
 ||inpost-polpost.top^$all
 ||inpost-polska-bem.neworder44799.info^$all
 ||inpost-polska-gn.neworder44799.info^$all
@@ -25510,6 +25528,7 @@
 ||inpost.pics^$all
 ||inpost.pl-*.$document,domain=~inpost.pl|~przekret-z-falszywym-kuriererm-dostawa.*
 ||inpost.pl-brow.icu^$all
+||inpost.pl-infoi.icu^$all
 ||inpost.pl-link.cyou^$all
 ||inpost.pl-links.cyou^$all
 ||inpost.pl-live.icu^$all
@@ -25554,6 +25573,11 @@
 ||inpostalela.online^$all
 ||inpostalela.shop^$all
 ||inpostalela.tech^$all
+||inpostalelr.fun^$all
+||inpostalelr.online^$all
+||inpostalelr.shop^$all
+||inpostalelr.tech^$all
+||inpostalelr.website^$all
 ||inpostb.top^$all
 ||inpostbfpls.top^$all
 ||inpostbl.one^$all
@@ -25717,12 +25741,15 @@
 ||inpostspol.life^$all
 ||inpostspols.life^$all
 ||inpostst-pl.top^$all
+||inpostt.icu^$all
+||inpostt.ink^$all
 ||inpostt.shop^$all
 ||inpostt.top^$all
 ||inpostt.xyz^$all
 ||inposttcl.top^$all
 ||inposttpl.cc^$all
 ||inpostts.shop^$all
+||inpostups.top^$all
 ||inpostus.fun^$all
 ||inpostusa.buzz^$all
 ||inpostusa.icu^$all
@@ -29976,6 +30003,7 @@
 ||lodp.kowt.site^$all
 ||lodprawa.com^$all
 ||lodyg.com^$all
+||loeupio.info^$all
 ||loftinessesjeder.life^$all
 ||lofu28.com^$all
 ||lofybousuo.live^$all
@@ -30379,6 +30407,7 @@
 ||lushsec.com^$all
 ||lustrify.live^$all
 ||lusupeiley.live^$all
+||lutew.sbs^$all
 ||luthercreek.com^$all
 ||lutralgugu.space^$all
 ||luuxew.com^$all
@@ -32313,6 +32342,7 @@
 ||mogadyu.web.app^$all
 ||mogezycztoba.click^$all
 ||mogrout.online^$all
+||mohito-desconto.shop^$all
 ||mohito-online.shop^$all
 ||mohito-pl.shop^$all
 ||mohito-pl.top^$all
@@ -32558,6 +32588,7 @@
 ||more.insp1re.online^$all
 ||more.klewmedia.com^$all
 ||more.radia55nt.xyz^$all
+||more.stellaarpulse.xyz^$all
 ||more.vi-2rant.live^$all
 ||morefrequent.pro^$all
 ||moreincredulous.pro^$all
@@ -35835,6 +35866,7 @@
 ||omardawid.pl^$all
 ||omarzahid.com^$all
 ||omaticalla.com^$all
+||omega-24.pl^$all
 ||omega.best^$all
 ||omegaland.online^$all
 ||omelingak-online.preview-domain.com^$all
@@ -37450,6 +37482,7 @@
 ||pgstartjoin.online^$all
 ||pgttopone.com^$all
 ||ph6m.n2-83m.cfd^$all
+||ph.expobarrio.com^$all
 ||ph.recrutinf.com^$all
 ||phalaenae.live^$all
 ||phallurdti.space^$all
@@ -39280,6 +39313,7 @@
 ||polinost.space^$all
 ||polinpost-pl.cyou^$all
 ||polinpostcey.club^$all
+||polinpostcey.top^$all
 ||polinposte.top^$all
 ||polinpste.top^$all
 ||polipropilenoperu.com^$all
@@ -39352,6 +39386,7 @@
 ||polpoastinpostlaw.top^$all
 ||polpoastinposts.top^$all
 ||polpoastinqostgroup.top^$all
+||polpostas.top^$all
 ||polpostd.top^$all
 ||polposter.top^$all
 ||polpostinot.top^$all
@@ -39763,6 +39798,7 @@
 ||post.kzbakkumz.site^$all
 ||post.tex-prog.top^$all
 ||post.usasptps.top^$all
+||post.wewerew.site^$all
 ||posta-dhl.top^$all
 ||posta-is.top^$all
 ||posta-pl.com^$all
@@ -40876,6 +40912,7 @@
 ||pub-74988521430f4221af6ace30451e7e71.r2.dev^$all
 ||pub-8724339788724ae6beaf3ea0b5d76d09.r2.dev^$all
 ||pub-543798437111472291108eb30bfe5948.r2.dev^$all
+||pub-a4cd4a0afde346f3b4504391b97fdc4c.r2.dev^$all
 ||pub-a7aa109e9db04b97ba2fc89747a05209.r2.dev^$all
 ||pub-a404c517cd64428c922b6d5f19cbacbd.r2.dev^$all
 ||pub-a23674b2df0345e98203bf693ab40e20.r2.dev^$all
@@ -43269,6 +43306,7 @@
 ||saynews.space^$all
 ||saynhartex.com^$all
 ||saysmani.com^$all
+||saz-c.heavycloud.top^$all
 ||sazhol.site^$all
 ||sb2.maxpeoplepl.top^$all
 ||sbcapitalmanagementinc.com^$all
@@ -43276,6 +43314,7 @@
 ||sbcpc17.com^$all
 ||sbdumc.org^$all
 ||sbdvnwkwisjdu.site^$all
+||sbem.tentaklsistem.click^$all
 ||sbfr5twn8za7k.com^$all
 ||sbfreqyvdhajx.com^$all
 ||sbjcbbrctbccx.com^$all
@@ -44445,6 +44484,7 @@
 ||skjaheso.space^$all
 ||sklad-opalu.info^$all
 ||skleinghe.website^$all
+||sklep-bartoszewski.pl^$all
 ||sklep-czarnecki.pl^$all
 ||sklep-domanski.pl^$all
 ||sklep-grabowski.pl^$all
@@ -47869,6 +47909,7 @@
 ||track.gosafeclck.com^$all
 ||trackdhlparcel-dk.com^$all
 ||tracker5000.com^$all
+||trackfast-eu.com^$all
 ||trackfast-up.com^$all
 ||tracking-christmas.ondemand-delivery.team^$all
 ||tracking-dhi.pl^$all
@@ -49356,6 +49397,7 @@
 ||utilizedeceiver.com^$all
 ||utofikinsok.com^$all
 ||utroutro.com^$all
+||utsavelectromech.net^$all
 ||uttcxf.s3.us-east-005.backblazeb2.com^$all
 ||uttec.gupshap.com^$all
 ||utterdoormat.com^$all
@@ -52307,6 +52349,7 @@
 ||yildizopelservisi.com^$all
 ||yinkahair.com^$all
 ||yinpingshan.net^$all
+||yinpost.life^$all
 ||yioej.gazeta-regionalna.com^$all
 ||yipsmyceli.pl^$all
 ||yisi.byseniscon.top^$all
@@ -52860,6 +52903,7 @@
 ||zibroaktornie.space^$all
 ||zielonamalta.com.pl^$all
 ||zielonamalta.pl^$all
+||zig.ng^$all
 ||zigzaglogistic.com^$all
 ||ziielonylas.site^$all
 ||zijaqay.info^$all
