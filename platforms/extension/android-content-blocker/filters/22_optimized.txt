@@ -1,9 +1,9 @@
-! Checksum: SsppsEGU0bQaFna73PK9KQ
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1704854155-3600.patch
+! Checksum: 37aEvatfa4t18nv72XGSaQ
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1704893777-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.2
-! TimeUpdated: 2024-01-09T18:32:38+00:00
+! Version: 2.0.7.3
+! TimeUpdated: 2024-01-10T13:32:46+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### Block useless widgets #######################
@@ -131,6 +131,7 @@ blog.livedoor.jp##.naka_rss
 blog.livedoor.jp##div[class^="footrss"]
 blog.livedoor.jp##div[class^="shitarss_"]
 blog.livedoor.jp##div[id^="shitarss_title_"]
+geinoujin-blog.net###toprssframe
 gamedaradara.doorblog.jp##div[id$="_rss"]
 burusoku-vip.com##.article-body-more > span[style="font-size: 18px;"]
 burusoku-vip.com##.article-body-more > span[style="font-size: 18px;"] + b
@@ -541,6 +542,7 @@ warotanikki.com##.code-block
 nofootynolife.net##.blogroll_content2
 ||tb.53kf.com/code/$script
 ||hayamimi-hobby.com/gen-rss/
+suresuta.jp,sikopedia.com,kisslog2.com###custom_html-6
 akankore.doorblog.jp,beelzeboulxxx.com,gossip1.net,kisslog2.com##.rss_wrapper
 newsoku.blog##.headrsssppc
 warotanien.net,newsoku.blog##.rss_scroll_sp

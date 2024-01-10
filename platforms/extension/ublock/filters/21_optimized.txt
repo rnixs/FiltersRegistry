@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ewGWOtsTQVQaMGtoAyIKRQ
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1704890228-3600.patch
+! Checksum: Qt6bcuPlzTNDVCKRvUpgog
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1704893812-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.49
-! TimeUpdated: 2024-01-10T12:32:25+00:00
+! Version: 2.0.18.50
+! TimeUpdated: 2024-01-10T13:32:38+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
@@ -1722,8 +1722,7 @@ amazon.*##article[data-automation-id="hero-quick-promo"]
 llbean.ca###pc5
 atida.fr###top-info
 weather.yahoo.co.jp###rbnr > p[style="margin:0px 0px 20px 0px;text-align:center;"]
-gp.tsukimi.club,misskey.neos.love,mk.yopo.work,nijimiss.moe##.xF6dY
-gp.tsukimi.club,misskey.neos.love,mk.yopo.work,nijimiss.moe##+js(json-prune, ads.[].imageUrl)
+novelskey.tarbin.net,gp.tsukimi.club,misskey.neos.love,mk.yopo.work,nijimiss.moe##.xF6dY
 bilibili.com##.video-page-special-card-small
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url*=".bili"]
 getpocket.com#?##__next > aside:has(> div[class][style^="max-width:"] > div[class] > a[href^="https://getpocket.com/premium?"])

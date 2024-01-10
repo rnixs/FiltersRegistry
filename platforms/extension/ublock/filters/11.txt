@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: VfzdPgkUkhIEdg+1YjUWFQ
-! Diff-Path: ../patches/11/11-s-1704832573-3600.patch
+! Checksum: 5Nlo2MXQzAPul+9WDZYZlA
+! Diff-Path: ../patches/11/11-s-1704893809-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.16
-! TimeUpdated: 2024-01-09T20:31:39+00:00
+! Version: 2.0.48.17
+! TimeUpdated: 2024-01-10T13:31:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1350,6 +1350,8 @@ sasisa.ru##+js(set-constant, Umobi, noopFunc)
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170337
+hometheaterreview.com#$##div_block-5-101336 { height: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169839
 video.fc2.com#$##body_contents #ad_head_wrap { padding-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169541
