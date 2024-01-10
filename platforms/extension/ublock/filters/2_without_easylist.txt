@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: T0TDBiqpTtfeylbI0Onwiw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704875780-3600.patch
+! Checksum: lkyw8qQUNkAb8kro96Vccg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704886602-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.17.26
-! TimeUpdated: 2024-01-10T08:33:06+00:00
+! Version: 2.3.17.27
+! TimeUpdated: 2024-01-10T11:33:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -33700,8 +33700,8 @@ movies123-online.me##.jw-logo-top-right
 movies123-online.me##.sadhjasdjkASDd
 ||xgroovy.com/static/js/initsite.min.js
 english.tupaki.com##body #ad_after_header
-turbobite.net##center > a[href][target^="_blan"] > img
-turbobite.net##div[style="text-align:center; padding-top:15px;"]
+turbobite.*##center > a[href][target^="_blan"] > img
+turbobite.*##div[style="text-align:center; padding-top:15px;"]
 theglobeandmail.com##div[class^="BaseAd__"]
 motor1.com,motor1.uol.com.br,rideapart.com,insideevs.*##.apb
 motor1.com,motor1.uol.com.br,rideapart.com,insideevs.*##.sapb
