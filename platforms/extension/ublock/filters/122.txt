@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: K8AXcT258ssl0BNztil//g
-! Diff-Path: ../patches/122/122-s-1704834417-14400.patch
+! Checksum: cxIvzGpqWh8X7KN4i/buzg
+! Diff-Path: ../patches/122/122-s-1704848806-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.6
-! TimeUpdated: 2024-01-09T21:02:23+00:00
+! Version: 2.1.19.7
+! TimeUpdated: 2024-01-10T01:02:20+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: ZUp6K38XZ/QMthmj0Wc5qA
-! OriginalVersion: 202401092015
+! Checksum: vxvClCROnZ1ODukzdJG3fg
+! OriginalVersion: 202401100015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-09 20:15 UTC
+! Last modified: 2024-01-10 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -20,6 +20,7 @@
 ! Forums: https://forums.lanik.us/
 !
 !--------------------------General blocking rules-----------------------------!
+! fanboy_annoyance_general_block.txt
 /1-popupally-pro-code.js
 /amp-apester-
 /arscode-ninja-popups/*$~stylesheet
@@ -170,6 +171,7 @@ _backToTop.
 /jquery.particleground.js
 /jquery.particleground.min.js
 /particles-sel.js
+! fanboy_notifications_general_block.txt
 -fb-notification/
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -301,6 +303,7 @@ _revotas_push.
 /js/jquery.smartbanner.min.js|
 /mobile-welcome-overlay/*$script
 /smart-app-banner.js
+! fanboy_social_general_block.txt
 -buttons-facebook.
 -buttons-twitter.
 -facebook-likeButton-
@@ -1016,6 +1019,7 @@ _twitter_follow.
 /jquery.bpopup.$script,domain=telechargerunevideo.com
 ! https://www.wpvideolock.com/
 /wp-content/plugins/videolock/*$script
+! easylist_cookie_general_block.txt
 -consent-banner-
 -consent-banner.
 -cookie-banner-$~image
@@ -2056,6 +2060,7 @@ _twitter_follow.
 /wysija-newsletters/css/validationEngine.jquery.css
 /xwpblocks-newsletter-subscription-style.css?
 !------------------------General element hiding rules-------------------------!
+! fanboy_annoyance_general_hide.txt
 ###FooterboardMobile
 ###ac-lre-player
 ###ac-lre-player-ph
@@ -2968,6 +2973,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###searchform > #gb > #gbw .gb_Mc[aria-label="promo"] > .gb_ea
 ! Google default homepage nag
 ###searchform > #gb > #gbw .gb_Vc[aria-label="promo"] > .gb_ga
+! fanboy_notifications_general_hide.txt
 ###FCMpush-slidedown-container
 ###NotificationsAskMsg
 ###SubscribePush
@@ -3231,6 +3237,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##[class*="NotificationsBell__notificationsWrapper-"]
 ! International
 ###uutiskirje-nosto
+! fanboy_social_general_hide.txt
 ###BottomSocialLinks
 ###FBslideout
 ###FaceBookStayInTouch
@@ -14853,6 +14860,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##KNO-SHARE-BUTTON
 ! Amazon sites
 ##.feature > #tell-a-friend
+! easylist_cookie_general_hide.txt
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
 ###AF_GDPR
@@ -34091,6 +34099,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ! cartoonnetwork.es/cartoonnetwork.fr
 ##.front-page > #sliding-popup
 !-------------------------Third-party blocking rules--------------------------!
+! fanboy_annoyance_thirdparty.txt
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
 ||37signals.com^$third-party
@@ -34538,6 +34547,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ! Embedded video Annoyances
 ||player.gliacloud.com^$third-party
 ||sendtonews.com/player/sidebar.php?$third-party
+! fanboy_notifications_thirdparty.txt
 ||api-push.com^$third-party
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
@@ -34726,6 +34736,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ! Mobile notifications
 ||app.adjust.net.in/smart_banner
 ||mobi24.net^$third-party
+! fanboy_social_thirdparty.txt
 ||addnow.com^$third-party
 ||addthis.com^$third-party
 ||addthiscdn.com^$domain=~addthis.com
@@ -34870,6 +34881,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
 ||zextit.com/partners/$third-party
+! easylist_cookie_thirdparty.txt
 ||acconsento.click^$third-party
 ||admiral.mgr.consensu.org^$third-party
 ||akamaihd.net/cpmt/
@@ -35107,6 +35119,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||wheelioapp.azureedge.net^
 ||yourmarketingemail.com^$third-party
 !--------------------------Specific blocking filters--------------------------!
+! fanboy_annoyance_specific_block.txt
 ||aeon.co/_next/static/chunks/SupportBannerHeader.
 ||api.qwant.com/*/homepage/trends?
 ||cm.usatoday.com^
@@ -35133,6 +35146,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||filmaffinity.com/images/arrow-up2.png
 ||jefftucker.org/travels/res/pagetop.svg
 ||myip.ms/css/red/images/nav_
+! fanboy_notifications_specific_block.txt
 /firebase-messaging.js$script,domain=tribunnews.com
 ||9to5terminal.com/push.js
 ||abendpoint.com/dist/js/push.js
@@ -35188,9 +35202,11 @@ dashboard.razorpay.com#@##credential_picker_container
 ||tutto.tv/wp-content/plugins/plugin-notifiche-
 ! Mobile Notifications
 !
+! fanboy_social_specific_block.txt
 ||ipaddress.com/shariff/
 ||naturalnews.com/getviews2.
 ||people.com.cn/img/2020fenxiang/
+! easylist_cookie_specific_block.txt
 /otSDKStub.js$script,domain=dhl.de
 /ppp/js/permission-client$domain=hilfe.gmx.net|mein.web.de|meinaccount.gmx.net
 /wp-content/blog-plugins/wordads-classes/js/notice.bundle.js$script
@@ -35381,6 +35397,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||listrakbi.com/scripts/$script,domain=ninjakitchen.com
 ||ping.contactpigeon.com^
 !------------------------Specific element hiding rules------------------------!
+! fanboy_annoyance_specific_hide.txt
 e-reader-info.com,foreignpolicy.com,seatguru.com###TB_overlay
 e-reader-info.com,foreignpolicy.com,seatguru.com###TB_window
 beautyhigh.com,thevivant.com###acquisition-bar-wrapper
@@ -36625,7 +36642,7 @@ rawstory.com##.go-top-btn
 jewishpress.com##.td-scroll-up
 docs.github.com##[aria-label="Scroll to top"]
 ! Include ubO specific
-! uBO-specific fixes
+! fanboy_annoyance_specific_uBO.txt
 ! audioholics
 audioholics.com##.modal
 audioholics.com##.modal-backdrop
@@ -36784,6 +36801,7 @@ wfaa.com,wkyc.com,9news.com,11alive.com##+js(remove-class, video__docker_state_d
 ! cbsnews.com (Floating video)
 cbsnews.com##+js(remove-class, floating, , stay)
 cbsnews.com##.floating
+! fanboy_notifications_specific_hide.txt
 tbsnews.net###___tbspushdiv
 redbull.com###bottom-notifications
 thehindu.com,thehindubusinessline.com###gsi_overlay
@@ -36839,7 +36857,7 @@ mundodeportivo.com###gg-alert
 toy-people.com###notification_alert_container
 hesport.com###notification_pp
 animefire.net###page-mask
-aerzteblatt.de###pushy
+!aerzteblatt.de###pushy
 formulatv.com###resetUI
 valoraanalitik.com###spopup
 animefire.net###sub_buttons
@@ -37221,6 +37239,7 @@ voicy.jp##v-sp-download
 reddit.com##xpromo-top-button
 ! Advanced element hiding rules for Adblock Plus
 analyticsindiamag.com#?#.elementor-section-content-middle[data-settings="{\"background_background\":\"classic\"}"]:-abp-has(a[href^="https://play.google.com/store/apps"])
+! fanboy_social_specific_hide.txt
 artistdirect.com###FollowBut
 iflscience.com###FollowOnGoogleNewsBtn
 c-sharpcorner.com###IconContainer
@@ -38084,6 +38103,8 @@ retbit.com##.zox-post-soc-stat
 footwearnews.com,indiewire.com##[class^="_socialMedia_"]
 motortrend.com##[data-c="social-share"]
 sundayworld.com##[data-testid="article-share"]
+dw.com##[data-tracking-name="footer-section-social-media"]
+dw.com##[data-tracking-name^="sharing-icons-"]
 eteknix.com##[href="https://bit.ly/39WhWFF"]
 eteknix.com##[href="https://bit.ly/3pozgtL"]
 eteknix.com##[href="https://bit.ly/3qLFns9"]
@@ -38218,7 +38239,7 @@ jewishpress.com##.twitter-follow-button
 charlieintel.com,dexerto.com##.w-full.border-gray-900.p-5
 bbc.com##div[class*="TagShareWrapper"]
 ! Include ubO specific
-! uBO-specific fixes
+! fanboy_social_specific_uBO.txt
 ! Counter generichide
 metro.co.uk###share-buttons-bottom
 metro.co.uk##.item-share-buttons
@@ -38238,6 +38259,7 @@ gulte.com#$#body { overflow: auto !important; }
 ! finance.yahoo.com
 finance.yahoo.com##.YDC-Overlay
 finance.yahoo.com#$#html { overflow: auto !important; position: initial !important; }
+! easylist_cookie_specific_hide.txt
 lyrath.com###ACClayerBackground
 adoc.pub###ADOCPUB_cookie_boxx
 jman.tv###ActionBar
@@ -41282,7 +41304,7 @@ tiktok.com##tiktok-cookie-banner
 ! Multi-national sites
 globalblue.com,globalblue.ru##.gbnew-cookie-bar
 ! Include ubO specific
-! uBO-specific fixes
+! easylist_cookie_specific_uBO.txt
 !
 ||clickio.mgr.consensu.org^$script,redirect-rule=noop.js,domain=mdn.lol
 ! :style fixes
@@ -47418,7 +47440,7 @@ viata.fr##.vi-newsletter-subscribe__content
 distrelec.fr##app-newsletter
 olimpstore.f##div[style*="position: fixed; width: 100%;"]
 !------------------------Specific ABP/uBO rules ------------------------!
-! uBO-specific fixes
+! fanboy_notifications_specific_uBO.txt
 downace.com##+js(abort-current-script, requestPermission)
 news18.com##+js(abort-current-script, serviceworker.register)
 ! International
@@ -47602,7 +47624,7 @@ mydramalist.com##+js(remove-class, smartbanner-active, body)
 smocca.jp##+js(set-constant, history.state, undefined)
 ! patreon.com (mobile)
 patreon.com##+js(addEventListener-defuser, touchmove, preventDefault)
-! uBO-specific fixes
+! fanboy_social_specific_uBO.txt
 ! Counter generichide
 metro.co.uk###share-buttons-bottom
 metro.co.uk##.item-share-buttons
@@ -47622,7 +47644,7 @@ gulte.com#$#body { overflow: auto !important; }
 ! finance.yahoo.com
 finance.yahoo.com##.YDC-Overlay
 finance.yahoo.com#$#html { overflow: auto !important; position: initial !important; }
-! uBO-specific fixes
+! fanboy_annoyance_specific_uBO.txt
 ! audioholics
 audioholics.com##.modal
 audioholics.com##.modal-backdrop
@@ -47781,7 +47803,7 @@ wfaa.com,wkyc.com,9news.com,11alive.com##+js(remove-class, video__docker_state_d
 ! cbsnews.com (Floating video)
 cbsnews.com##+js(remove-class, floating, , stay)
 cbsnews.com##.floating
-! uBO-specific fixes
+! easylist_cookie_specific_uBO.txt
 !
 ||clickio.mgr.consensu.org^$script,redirect-rule=noop.js,domain=mdn.lol
 ! :style fixes
@@ -51660,6 +51682,7 @@ temu.com###bg-simple-portal-container
 temu.com###bg_pc_benefit_download_modal_container_id
 temu.com#$#body { overflow: auto !important; position: initial !important; }
 !------------------------Rules for international sites------------------------!
+! fanboy_annoyance_international.txt
 !
 ! ---------- Non-english Annoyances ----------
 !
@@ -52273,6 +52296,7 @@ milliyet.com.tr##.sticky
 !
 ! ---------- Ukranian Site Specific Hiding Rules ----------
 !
+! fanboy_social_international.txt
 !
 !---------- Non-English Social Media Elements ----------
 !
@@ -53129,7 +53153,7 @@ bigpara.hurriyet.com.tr##.socialIcons
 trthaber.com##.son
 haberinadresi.com,minika.com.tr##.sosyal
 diyanet.tv##.sosyal-alt-ust
-!
+! easylist_cookie_international_specific_hide.txt
 ! ---------- German ----------
 !
 flvw.de###ConsentMsg
@@ -54134,6 +54158,7 @@ medlon.nl###globalmessage_holder
 calorielijst.nl,dietenlijst.nl,koolhydratentabel.nl,receptentabel.nl###loading
 sicomputers.nl###mm-cc-wrap
 effeweg.nl###mp-popupoverlay1
+trafficshare.nl###notification
 ardanta.nl###notification-bar
 energiewonen.nl###stOverlay
 energiewonen.nl###stOverlayB
@@ -55980,7 +56005,7 @@ ants.vn##.sg-popup-content
 ! ---------- Welsh ----------
 !
 360.cymru###negesCaniatad
-!
+! easylist_cookie_international_specific_hide.txt
 ! ---------- German ----------
 !
 ||9jdq2a.poco.de^
@@ -56272,6 +56297,7 @@ ants.vn##.sg-popup-content
 ! Portugese
 ||sibforms.com/serve/$domain=jm-madeira.pt
 !---------------------------------Allowlists----------------------------------!
+! fanboy_annoyance_allowlist_general_hide.txt
 portalvirtualreality.ru#@##go-to-top
 mercopress.com#@##goToTop
 lecyclo.com#@##goto-top
@@ -56288,6 +56314,7 @@ facebook.com#@#.connect_widget
 youtube.com#@#.feed-icon
 ixbt.com#@#.glyphicon-arrow-up
 stackcommerce.com,zalando.com#@#.grecaptcha-badge
+! fanboy_notifications_allowlist_general_hide.txt
 audionetwork.com,carlsenfritzoe.no#@##push-container:not(body):not(html)
 mega.nz#@#.notification-button
 joinhandshake.com,online.rsb.ru#@#.notifications-wrapper
@@ -56297,6 +56324,7 @@ rescuetime.com#@#.web-notification
 ! Mobile notifications
 mobi24.net#@#a[href^="http://www.mobi24.net/"]
 mobi24.net#@#a[href^="https://www.mobi24.net/"]
+! fanboy_social_allowlist_general_hide.txt
 gifyagusi.pl#@##fan-exit
 gifyagusi.pl#@##fanback
 facebook.com#@##fb_header
@@ -56400,6 +56428,7 @@ kuriertczewski.pl#@#.social_header
 ixbt.com#@#.social_links
 nothiefsallowed.com#@#.twitter-timeline
 petsmart.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
+! easylist_cookie_allowlist_general_hide.txt
 cera.coop#@##CookieBanner
 fdm-travel.dk,power.no,skousen.dk,skousen.no,whiteaway.com,whiteaway.no,whiteaway.se#@##CookieConsent
 smooth-on.com#@##CookieNotice
@@ -56764,6 +56793,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.be,sap.com,tmz.com,tripit.com#@##truste-consent-track
 concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.be,sap.com,tmz.com,tripit.com#@#.truste_box_overlay
 concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.be,sap.com,tmz.com,tripit.com#@#.truste_overlay:not(body):not(html)
+! fanboy_annoyance_allowlist.txt
 @@||bibblio.org^*/bib-related-content.min.js$script,domain=hindawi.com
 @@||cdn.jsdelivr.net^*/jquery.particleground.min.js$domain=maxurlz.com
 @@||cdn.wisepops.com/shared/wisepops/$script,domain=bluecinema.ch
@@ -56781,6 +56811,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||static.zdassets.com/ekr/snippet.js$domain=jeedoo.com|skroutz.gr|xjuggler.de
 @@||taboola.com/libtrc/*/loader.js$domain=cnet.com|dailymail.co.uk|foxsports.com
 @@||zdassets.com/ekr/snippet.js$domain=app.buidlbox.io|bitsacard.com|consumercellular.com|meundies.com|myurbanjungle.com|nvidia.eu|pionex.com|portal.afterpay.com|streamelements.com|superbet.pl|support.zonealarm.com
+! fanboy_notifications_allowlist.txt
 @@||bostonherald.com^*/webpush.js$script,~third-party
 @@||braze.com/api/$domain=deezer.com
 @@||forums.opera.com/assets/src/modules/notifications.js$~third-party
@@ -56797,6 +56828,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||assure.ameli.fr^*/smart-app-banner.js$~third-party
 @@||mafia.ua/js/jquery.smartbanner.js$script,~third-party
 @@||mirage.ru/js/jquery.smartbanner.js$script,~third-party
+! easylist_cookie_allowlist.txt
 @@/assets/cookiebanner.$domain=homify.ae|homify.ca|homify.cl|homify.co.id|homify.co.kr|homify.co.th|homify.co.uk|homify.co.za|homify.com|homify.com.ar|homify.com.br|homify.com.co|homify.com.eg|homify.com.mx|homify.com.my|homify.com.tr|homify.com.ve|homify.de|homify.es|homify.fr|homify.hk|homify.in|homify.it|homify.jp|homify.nl|homify.pe|homify.pk|homify.pl|homify.pt|homify.ru|homify.sa|homify.sg|homify.tw|homify.ua|homify.vn
 @@/complianz-gdpr-premium/cookiebanner/$script,~third-party
 @@/cookie_law/plugin.js$script,~third-party
@@ -57087,6 +57119,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||webtv.stofa.dk/public/js/cookie-banner.$script,~third-party
 @@||wikia.nocookie.net^$script,domain=fandom.com
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
+! fanboy_social_allowlist.txt
 @@/angular-facebook.js
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/share-this-image/*$~third-party

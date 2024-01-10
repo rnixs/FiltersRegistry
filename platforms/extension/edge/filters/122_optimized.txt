@@ -1,9 +1,9 @@
-! Checksum: 7PoUorccEPleVYciQpJ3Nw
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1704834396-14400.patch
+! Checksum: hrDaXiENFuSgJjjvVd58Jg
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1704848788-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.6
-! TimeUpdated: 2024-01-09T21:02:23+00:00
+! Version: 2.1.19.7
+! TimeUpdated: 2024-01-10T01:02:20+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -13113,6 +13113,8 @@ manhwatop.com##.wrap_social_account
 footwearnews.com,indiewire.com##[class^="_socialMedia_"]
 motortrend.com##[data-c="social-share"]
 sundayworld.com##[data-testid="article-share"]
+dw.com##[data-tracking-name="footer-section-social-media"]
+dw.com##[data-tracking-name^="sharing-icons-"]
 lonelyplanet.com##button[data-taggyid]
 fifa.com##div[class*="article-section_shareButton_"]
 theatlantic.com##div[class^="ArticleShare_"]
@@ -19548,6 +19550,7 @@ gastrokuchyn.cz##.electro-overlay
 kudyznudy.cz##.j-cinfo
 anwb.nl###TRCO-application
 denhaagfm.nl,gld.nl,omroepwest.nl,omroepzeeland.nl,omropfryslan.nl,rtvdrenthe.nl,rtvnoord.nl,rtvoost.nl,rtvutrecht.nl###consent-plugin
+trafficshare.nl###notification
 antwoordop.nl,schulinck.nl###udtDark
 studeersnel.nl##._cbad9bafd417
 medischcontact.nl##.cc-popup

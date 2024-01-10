@@ -1,9 +1,9 @@
-! Checksum: JpAiTvKPgaJbfYkoTB/f7w
-! Diff-Path: ../patches/123_optimized/123_optimized-s-1704834438-14400.patch
+! Checksum: eSbvkN20iYcr+9jA9B3lbQ
+! Diff-Path: ../patches/123_optimized/123_optimized-s-1704848824-14400.patch
 ! Title: Fanboy's Social Blocking List (Optimized)
 ! Description: Hides and blocks social content, social widgets, social scripts and social icons. Already included in Fanboy's Annoyances list.
-! Version: 2.1.17.46
-! TimeUpdated: 2024-01-09T21:02:25+00:00
+! Version: 2.1.17.47
+! TimeUpdated: 2024-01-10T01:02:23+00:00
 ! Expires: 12 hours (update frequency)
 -buttons-facebook.
 -facebook-share.
@@ -5284,6 +5284,8 @@ manhwatop.com##.wrap_social_account
 footwearnews.com,indiewire.com##[class^="_socialMedia_"]
 motortrend.com##[data-c="social-share"]
 sundayworld.com##[data-testid="article-share"]
+dw.com##[data-tracking-name="footer-section-social-media"]
+dw.com##[data-tracking-name^="sharing-icons-"]
 lonelyplanet.com##button[data-taggyid]
 fifa.com##div[class*="article-section_shareButton_"]
 theatlantic.com##div[class^="ArticleShare_"]
