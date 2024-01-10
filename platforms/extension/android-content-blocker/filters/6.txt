@@ -1,9 +1,9 @@
-! Checksum: PRW+8UyUESK1Qzyqi2aD5Q
-! Diff-Path: ../patches/6/6-s-1704832550-3600.patch
+! Checksum: XcQQnKRZvv+iwg8L29pJDw
+! Diff-Path: ../patches/6/6-s-1704890176-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.92
-! TimeUpdated: 2024-01-09T20:33:21+00:00
+! Version: 2.0.39.93
+! TimeUpdated: 2024-01-10T12:33:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1025,6 +1025,11 @@ urbia.de,essen-und-trinken.de#@#.playerAd
 @@||ads-api.twitter.com^$domain=schnittmuster-datenbank.de
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/21862
+restegourmet.de#@##AdHeader
+restegourmet.de#@##AD_Top
+restegourmet.de#@##homead
+restegourmet.de#@##ad-lead
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168137
 sportbild.bild.de#$#.tea-rectangle { position: absolute!important; left: -3000px!important; display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167763

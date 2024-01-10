@@ -1,9 +1,9 @@
-! Checksum: KZbK7Jo7dZbFtpIqLOrQZw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1704886624-3600.patch
+! Checksum: 37515ZJHIxpMY63k8zNQmw
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704890255-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.75
-! TimeUpdated: 2024-01-10T11:32:18+00:00
+! Version: 2.0.29.76
+! TimeUpdated: 2024-01-10T12:32:12+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -154,6 +154,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Hom
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InArticleAd
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
+||zephyrlabyrinth.com^$third-party
 ||samplesamba.com^$third-party
 ||featherstage.com^$third-party
 ||soggyzoo.com^$third-party
@@ -355,6 +356,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ||wp-r.github.io/*/assets/js/jquery.adsplacer.ab-testing.js
 ||wp-r.github.io/adsplacer_pro/$third-party
 !#safari_cb_affinity
+tekniknot.com#%#//scriptlet("set-constant", "alert", "undefined")
 bravedown.com#%#//scriptlet('prevent-fetch', 'adskeeper')
 ||search-module.*.amazonaws.com/pubs/trib/aa_adb_modal.js$domain=triblive.com
 radarbox.com###ad-blocking

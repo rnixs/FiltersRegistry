@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: VCq5MxmR9UHSVXtP65hoJQ
-! Diff-Path: ../patches/18/18-s-1704886599-3600.patch
+! Checksum: IcGviXeSubVIp/3LJWri7g
+! Diff-Path: ../patches/18/18-s-1704890226-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.30.98
-! TimeUpdated: 2024-01-10T11:32:15+00:00
+! Version: 2.0.30.99
+! TimeUpdated: 2024-01-10T12:32:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2300,8 +2300,8 @@ freundin.de,utopia.de,mein-schoener-garten.de,eveningnews24.co.uk,rollingstone.d
 smartworld.it,pianteweb.com,cioccolatonippon.it,movieplayer.it,hwupgrade.it,iphoneitalia.com,mediaset.it,arduino.cc,virginradio.it##body #iubenda-cs-banner
 ||cdn.iubenda.com^$domain=crazygames.com
 ! No action required (scrolling is blocked)
-siracusanews.it,tomshw.it,multiplayer.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it,virgilio.it#$##iubenda-cs-banner { display: none !important; }
-siracusanews.it,tomshw.it,multiplayer.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it,virgilio.it#$#html { overflow: auto !important; }
+siracusanews.it,tomshw.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it,virgilio.it#$##iubenda-cs-banner { display: none !important; }
+siracusanews.it,tomshw.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it,virgilio.it#$#html { overflow: auto !important; }
 ! Action is required (Save. Required cookies allowed by default, others - rejected)
 ! ilmattino.it: more attention required
 ! If scrolling is blocked after applying

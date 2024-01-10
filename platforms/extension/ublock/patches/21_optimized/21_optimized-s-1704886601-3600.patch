@@ -1,0 +1,11 @@
+d2 2
+a3 2
+! Checksum: ewGWOtsTQVQaMGtoAyIKRQ
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1704890228-3600.patch
+d6 2
+a7 2
+! Version: 2.0.18.49
+! TimeUpdated: 2024-01-10T12:32:25+00:00
+a1268 2
+taobao.com#?#div[class^="Content--contentInner"] > div:has(> a[class^="Card--doubleCardWrapper"] div[class^="SalesPoint--subIconWrapper"] > img[class^="SalesPoint--iconPic"][style])
+taobao.com#?#div.container > ul.item-list > li.item:has(> div.line1 > a[target="_blank"]:contains(广东))
