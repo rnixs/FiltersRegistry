@@ -1,9 +1,9 @@
-! Checksum: HpGp74DJwhNsW2aiw2zhAw
-! Diff-Path: ../patches/3/3-s-1704981185-3600.patch
+! Checksum: epZL5CjfNBP1HjMgDcTrsw
+! Diff-Path: ../patches/3/3-s-1704994541-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.55
-! TimeUpdated: 2024-01-11T13:50:03+00:00
+! Version: 2.0.65.56
+! TimeUpdated: 2024-01-11T17:32:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -81,6 +81,7 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170358
 ! 4players.de - remove onclick tracking
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169949
 ! Fixes video player
@@ -58224,6 +58225,7 @@ nethunt.com/api/v1/track/email/$image
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170358
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169629
 ! rnd.de - analytics
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169286

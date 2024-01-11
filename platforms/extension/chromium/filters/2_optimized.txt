@@ -1,9 +1,9 @@
-! Checksum: Wh5MSGATeYUZy/Y2Q1xuPg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704990974-3600.patch
+! Checksum: Pn7UNDNZCmR8F0gUQl03Sg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704994545-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.17.45
-! TimeUpdated: 2024-01-11T16:33:01+00:00
+! Version: 2.3.17.46
+! TimeUpdated: 2024-01-11T17:32:44+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -30613,6 +30613,7 @@ sports.yahoo.com###mrt-node-Lead-1-Ad
 sports.yahoo.com###mrt-node-Primary-0-Ad
 sports.yahoo.com###mrt-node-Secondary-0-Ad
 yahoo.com###sda-Horizon
+yahoo.com###sda-Horizon-viewer
 yahoo.com###sda-LDRB
 yahoo.com###sda-LDRB-iframe
 yahoo.com###sda-LDRB2
@@ -30625,6 +30626,7 @@ yahoo.com###sda-LREC3-iframe
 yahoo.com###sda-LREC4
 yahoo.com###sda-MAST
 yahoo.com###sda-MON
+yahoo.com###sda-wrapper-COMMENTSLDRB
 mail.yahoo.com###slot_LREC
 yahoo.com###viewer-LDRB
 yahoo.com###viewer-LREC2

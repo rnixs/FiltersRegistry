@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: V0U2uVluXBsExieqU3tFyg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704991007-3600.patch
+! Checksum: 8l1WpdzEJ2l01sK5UC69uw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704994569-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.17.45
-! TimeUpdated: 2024-01-11T16:33:01+00:00
+! Version: 2.3.17.46
+! TimeUpdated: 2024-01-11T17:32:44+00:00
 ! Expires: 5 days (update frequency)
 ||mintybug.com^
 ||firsthandtie.com^
@@ -30514,6 +30514,7 @@ sports.yahoo.com###mrt-node-Lead-1-Ad
 sports.yahoo.com###mrt-node-Primary-0-Ad
 sports.yahoo.com###mrt-node-Secondary-0-Ad
 yahoo.com###sda-Horizon
+yahoo.com###sda-Horizon-viewer
 yahoo.com###sda-LDRB
 yahoo.com###sda-LDRB-iframe
 yahoo.com###sda-LDRB2
@@ -30526,6 +30527,7 @@ yahoo.com###sda-LREC3-iframe
 yahoo.com###sda-LREC4
 yahoo.com###sda-MAST
 yahoo.com###sda-MON
+yahoo.com###sda-wrapper-COMMENTSLDRB
 mail.yahoo.com###slot_LREC
 yahoo.com###viewer-LDRB
 yahoo.com###viewer-LREC2
