@@ -1,0 +1,28 @@
+d2 2
+a3 2
+! Checksum: bldg3YF80zcGo517vSsPTQ
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1704949609-14400.patch
+a20 1
+##.mobileApp:not(html, body)
+d422 1
+d985 1
+d1358 1
+d1381 1
+d1651 1
+a1703 6
+$removeparam=ads_adid
+$removeparam=ads_cmpid
+$removeparam=ads_creative
+$removeparam=ads_matchtype
+$removeparam=ads_network
+$removeparam=ads_targetid
+a1724 1
+$removeparam=pm_campaign
+a1746 1
+$removeparam=app_clickref
+d1762 1
+a1892 1
+$removeparam=%2Aentries%2A,domain=amazon.*
+d2141 1
+d2272 1
+d2552 8

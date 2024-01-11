@@ -1,15 +1,15 @@
-! Checksum: 324HTpx4BlladHSaB4LyhQ
-! Diff-Path: ../patches/101/101-s-1704935226-14400.patch
+! Checksum: g5FKF3uCT8c9nVHxzmNYMg
+! Diff-Path: ../patches/101/101-s-1704949618-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.18.87
-! TimeUpdated: 2024-01-11T01:01:53+00:00
+! Version: 2.1.18.88
+! TimeUpdated: 2024-01-11T05:01:48+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: Cu9HKwQTtX4SwoVAk+L8xQ
-! OriginalVersion: 202401110051
+! Checksum: R9EqQ1EdgSIh+mh+e2WzkQ
+! OriginalVersion: 202401110451
 ! Title: EasyList
-! Last modified: 11 Jan 2024 00:51 UTC
+! Last modified: 11 Jan 2024 04:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -809,7 +809,6 @@
 /external_ads.
 /externalad.
 /externalads/*
-/fastclick.min.js|
 /fc_ads.
 /fel456.js$script
 /files/ad/*
@@ -66274,7 +66273,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|sportbible.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||aniview.com/api/$script,domain=gamingbible.co.uk|ladbible.com
-@@||antlionaudio.com/cdn/shop/*/assets/fastclick.min.js$~third-party
 @@||aone-soft.com/style/images/ad2.jpg
 @@||api.adinplay.com/libs/aiptag/$script
 @@||api.adnetmedia.lt/api/$~third-party
