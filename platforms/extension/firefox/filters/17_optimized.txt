@@ -1,9 +1,9 @@
-! Checksum: VkZbHmeAKScRTThYTid4rg
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1704818178-3600.patch
+! Checksum: Olgp6sSSyYV1/tKeNBoxsA
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1704981202-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.77
-! TimeUpdated: 2024-01-09T16:32:10+00:00
+! Version: 2.0.7.78
+! TimeUpdated: 2024-01-11T13:49:06+00:00
 ! Expires: 5 days (update frequency)
 $removeparam=sms_click
 $removeparam=sms_source
@@ -193,6 +193,7 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||allabout.co.jp^$removeparam=FM
 ||mora.jp^$removeparam=fmid
 ||dvdfab.org^$removeparam=soft
 ||dvdfab.org^$removeparam=ad
@@ -968,7 +969,6 @@ $removeparam=scid,domain=rakuten.co.jp|rakuten-wallet.co.jp
 ||adj.st^$removeparam=adj_adgroup
 ||adj.st^$removeparam=adj_creative
 ||adj.st^$removeparam=adj_adnomia_click_id
-||adj.st^$removeparam=utm_content
 ||adj.st^$removeparam=pfx
 ||adj.st^$removeparam=adj_deeplink
 ||adj.st^$removeparam=adj_install_callback

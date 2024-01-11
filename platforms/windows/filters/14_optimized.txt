@@ -1,9 +1,9 @@
-! Checksum: +rSIz/AG4208lOAZOLgjwQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1704976725-3600.patch
+! Checksum: Wk7BPoEfVl/Xn7+ndJNODw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1704981253-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.38
-! TimeUpdated: 2024-01-11T12:33:09+00:00
+! Version: 2.1.84.39
+! TimeUpdated: 2024-01-11T13:48:57+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1340,8 +1340,8 @@ edizioni.multiplayer.it,smartworld.it,pianteweb.com,cioccolatonippon.it,moviepla
 ||cdn.iubenda.com^$domain=crazygames.com
 dissapore.com,leganerd.com,siracusanews.it,tomshw.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it,virgilio.it#$##iubenda-cs-banner { display: none !important; }
 dissapore.com,leganerd.com,siracusanews.it,tomshw.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it,virgilio.it#$#html { overflow: auto !important; }
-sputnikglobe.com,wexphotovideo.com,m2o.it,deejay.it,capital.it,moto.it,automoto.it,atlantico.fr,movieplayer.it,mediaset.it,libero.it,ilmattino.it,leggo.it,3bmeteo.com#%#//scriptlet('trusted-click-element', '.iubenda-cs-customize-btn')
-sputnikglobe.com,my-personaltrainer.it,wexphotovideo.com,m2o.it,deejay.it,capital.it,moto.it,automoto.it,atlantico.fr,movieplayer.it,mediaset.it,libero.it,ilmattino.it,leggo.it,3bmeteo.com#%#//scriptlet('trusted-click-element', '#iubFooterBtn')
+multiplayer.it,sputnikglobe.com,wexphotovideo.com,m2o.it,deejay.it,capital.it,moto.it,automoto.it,atlantico.fr,movieplayer.it,mediaset.it,libero.it,ilmattino.it,leggo.it,3bmeteo.com#%#//scriptlet('trusted-click-element', '.iubenda-cs-customize-btn')
+multiplayer.it,sputnikglobe.com,my-personaltrainer.it,wexphotovideo.com,m2o.it,deejay.it,capital.it,moto.it,automoto.it,atlantico.fr,movieplayer.it,mediaset.it,libero.it,ilmattino.it,leggo.it,3bmeteo.com#%#//scriptlet('trusted-click-element', '#iubFooterBtn')
 moto.it#$#html { overflow: auto !important; }
 my-personaltrainer.it#%#//scriptlet('trusted-click-element', '.amecp_button-customize')
 leanplayer.com,player.899thewave.fm,player.cjcbradio.com,player.max983.ca,repubblica.it#%#//scriptlet('trusted-click-element', '.iubenda-cs-visible .iubenda-cs-accept-btn')
@@ -1357,7 +1357,6 @@ grupapracuj.pl###gp_cookie_agreements
 cmp.vg.no#%#//scriptlet('trusted-click-element', '.btns-container > button[title="Tilpass"]')
 cmp.vg.no#%#//scriptlet('trusted-click-element', '.message-row > button[title="Avvis alle"]', '', '2000')
 erecruiter.pl###cookieLawInfo
-multiplayer.it#%#//scriptlet('trusted-click-element', '.iubenda-cs-accept-btn', '', '1500')
 swedbank.se#$#body { overflow: auto !important; }
 swedbank.se#$#.cookie-banner { display: none !important; }
 krungsricard.com#$##cookieModal { display: none !important; }
@@ -9441,7 +9440,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 !#safari_cb_affinity
 tekniknot.com#%#//scriptlet("set-constant", "alert", "undefined")
 bravedown.com#%#//scriptlet('prevent-fetch', 'adskeeper')
-||search-module.*.amazonaws.com/pubs/trib/aa_adb_modal.js$domain=triblive.com
+||search-module.*.amazonaws.com/pubs/trib/aa_adb_modal*.js$domain=triblive.com
 radarbox.com###ad-blocking
 radarbox.com#%#//scriptlet('set-constant', 'ads_enabled', 'true')
 maxroll.gg#%#//scriptlet('set-constant', 'nitroAds.loaded', 'true')
@@ -21428,7 +21427,7 @@ yahoo.com##div[data-i13n-sec="app-bhpromo"]
 fz139.ttk.ru##.banner_zone
 primepress.by##.banner-top
 cifraclub.com.br###js-sponsor-toast
-lostfilmtv5.site,lostfilm.pro,lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.today,lostfilm.tv##body > a[href][style]
+lostfilm.download,lostfilmtv5.site,lostfilm.pro,lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.today,lostfilm.tv##body > a[href][style]
 topmusicarts.com###qab_container
 theweathernetwork.com##.promo_service
 autonews.com##.article-recommended
@@ -21607,6 +21606,7 @@ softpedia.com#$#iframe.swipebox-rightxd[id="relcontent"] { top: 60px!important; 
 !##############################
 !######### JS tweaks ##########
 !##############################
+panda.studyis.xyz#%#//scriptlet('adjust-setInterval', 'wpsafe-countdown2', '*', '0.002')
 stre4mplay.*,streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*#%#//scriptlet('adjust-setTimeout', 'letgo', '*', '0.001')
 bishalghale.com.np#%#//scriptlet('adjust-setInterval', 'timer', '*', '0.001')
 privatemoviez.*#%#//scriptlet('adjust-setInterval', 'count', '*', '0.001')
@@ -22012,7 +22012,7 @@ taregna.com#%#//scriptlet("adjust-setInterval", "wpsafe-", "2000", "0.02")
 taregna.com#%#//scriptlet('trusted-click-element', '#wpsafe-link > a[onclick*="window.open"][onclick*="safelink_redirect="][onclick*="_self"]')
 mcpedl.com#%#//scriptlet("adjust-setInterval", "countdown", "", "0.02")
 filese.me#%#//scriptlet("adjust-setInterval", "countdown", "", "0.02")
-lostfilmtv5.site,lostfilm.pro,lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.today,lostfilm.tv#%#//scriptlet('remove-attr', 'style|oncontextmenu', '.body[itemprop]')
+lostfilm.download,lostfilmtv5.site,lostfilm.pro,lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.today,lostfilm.tv#%#//scriptlet('remove-attr', 'style|oncontextmenu', '.body[itemprop]')
 majidzhacker.com#%#//scriptlet("adjust-setInterval", "gotolink", "", "0.02")
 majidzhacker.com#%#//scriptlet("adjust-setInterval", "btngetlink", "30", "0.02")
 universalfreecourse.com#%#//scriptlet("adjust-setTimeout", "countDown", "", "0.02")

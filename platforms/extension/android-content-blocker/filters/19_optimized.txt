@@ -1,9 +1,9 @@
-! Checksum: D6myYVq8RbrzG4HJsdc05Q
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1704976648-3600.patch
+! Checksum: 1wYvgwgWi33UqmQw4lXYxQ
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704981183-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.85
-! TimeUpdated: 2024-01-11T12:33:23+00:00
+! Version: 2.0.29.86
+! TimeUpdated: 2024-01-11T13:49:10+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -336,7 +336,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ||wp-r.github.io/*/assets/js/jquery.adsplacer.ab-testing.js
 ||wp-r.github.io/adsplacer_pro/$third-party
 !#safari_cb_affinity
-||search-module.*.amazonaws.com/pubs/trib/aa_adb_modal.js$domain=triblive.com
+||search-module.*.amazonaws.com/pubs/trib/aa_adb_modal*.js$domain=triblive.com
 radarbox.com###ad-blocking
 newsnow.com##.hero-wrapper
 newsnow.com,newsnow.co.uk##.ad__container + div
