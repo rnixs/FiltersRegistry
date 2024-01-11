@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6PF5jQV8R0f8CC/jGpKU0g
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1704983934-3600.patch
+! Checksum: w3en3GW+puHLSnG+v0gaAw
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1704987737-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.56
-! TimeUpdated: 2024-01-11T14:33:17+00:00
+! Version: 2.0.18.57
+! TimeUpdated: 2024-01-11T15:37:37+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
@@ -2380,6 +2380,7 @@ softpedia.com#$#iframe.swipebox-rightxd[id="relcontent"] { top: 60px!important; 
 !##############################
 !######### JS tweaks ##########
 !##############################
+exego.app##+js(set-constant, document.hasFocus, trueFunc)
 panda.studyis.xyz##+js(nano-setInterval-booster, wpsafe-countdown2, *, 0.002)
 stre4mplay.*,streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##+js(adjust-setTimeout, letgo, *, 0.001)
 bishalghale.com.np##+js(nano-setInterval-booster, timer, *, 0.001)

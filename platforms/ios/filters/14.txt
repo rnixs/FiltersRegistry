@@ -1,9 +1,9 @@
-! Checksum: Sv0Al8dDZ8CWQuks4NEdww
-! Diff-Path: ../patches/14/14-s-1704983938-3600.patch
+! Checksum: GrGtkdqNzQVzNH4893bH2g
+! Diff-Path: ../patches/14/14-s-1704987739-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.40
-! TimeUpdated: 2024-01-11T14:32:50+00:00
+! Version: 2.1.84.41
+! TimeUpdated: 2024-01-11T15:37:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2349,6 +2349,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+github.com###cookie-consent-banner
 tescoma.sk##div[data-testid="layout-popup"]
 tescoma.sk##.overlay-wrapper
 jp.ign.com###consent-wrapper
@@ -48068,6 +48069,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170389
+exego.app#%#//scriptlet('set-constant', 'document.hasFocus', 'trueFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170143
 panda.studyis.xyz#%#//scriptlet('adjust-setInterval', 'wpsafe-countdown2', '*', '0.002')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170094

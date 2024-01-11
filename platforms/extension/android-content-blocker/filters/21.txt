@@ -1,9 +1,9 @@
-! Checksum: 3qfbn/6zVuG0We9hYTH5pw
-! Diff-Path: ../patches/21/21-s-1704983904-3600.patch
+! Checksum: hJhnSoep3PC+5JLeriKOxw
+! Diff-Path: ../patches/21/21-s-1704987700-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.56
-! TimeUpdated: 2024-01-11T14:33:17+00:00
+! Version: 2.0.18.57
+! TimeUpdated: 2024-01-11T15:37:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6726,6 +6726,7 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170389
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170143
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170094
 ! Streamplay - speed up loading captcha

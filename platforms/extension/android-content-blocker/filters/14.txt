@@ -1,9 +1,9 @@
-! Checksum: /7dm+QqYj+r6v8fX3eUSnw
-! Diff-Path: ../patches/14/14-s-1704983901-3600.patch
+! Checksum: qSrCGy/KKnjhUHOJNRhqPA
+! Diff-Path: ../patches/14/14-s-1704987697-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.40
-! TimeUpdated: 2024-01-11T14:32:50+00:00
+! Version: 2.1.84.41
+! TimeUpdated: 2024-01-11T15:37:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2310,6 +2310,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+github.com###cookie-consent-banner
 tescoma.sk##div[data-testid="layout-popup"]
 tescoma.sk##.overlay-wrapper
 jp.ign.com###consent-wrapper
@@ -43157,6 +43158,7 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170389
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170143
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170094
 ! Streamplay - speed up loading captcha
