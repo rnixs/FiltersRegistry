@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wDQOF9jXkOOGN/0WXDN+vA
-! Diff-Path: ../patches/6/6-s-1705005350-3600.patch
+! Checksum: TmGpLkjEZfEvwijYnpx6ig
+! Diff-Path: ../patches/6/6-s-1705008947-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.95
-! TimeUpdated: 2024-01-11T20:33:02+00:00
+! Version: 2.0.39.96
+! TimeUpdated: 2024-01-11T21:32:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10253,6 +10253,7 @@ hammerporno.xxx##a[href^="//plx.hammerporno.xxx/pool_link/"]
 porno-himmel.net##a[href^="//wixnm.com/"]
 dkamera.de##a[href^="/adserver/goto/"]
 herthabsc.de##a[href^="/de/hertha/sponsoren/exklusiv-partner/uebersicht/page/"]
+nacktefoto.com##a[href^="/red/red.php?"]
 bastel-elfe.de##a[href^="banners.php?"]
 zensiert.net##a[href^="http://camgirly.net"]
 t-online.de,www-t--online-de.cdn.ampproject.org##a[href^="http://count.shopping.t-online.de/RE?ID="]
