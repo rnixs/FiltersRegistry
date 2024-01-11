@@ -1,9 +1,9 @@
-! Checksum: rvzt1TjOhWyogcB+2d9jQg
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1704964123-14400.patch
+! Checksum: 6FN9xIVbiTOxlqpo6GsLiA
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1704978556-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.15
-! TimeUpdated: 2024-01-11T09:02:31+00:00
+! Version: 2.1.19.16
+! TimeUpdated: 2024-01-11T13:04:14+00:00
 ! Expires: 12 hours (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -13652,7 +13652,7 @@ shazam.com##.policy-label
 moonactive.com##.policy-main-wrraper
 top-password.com,tribel.com##.policy_popup
 process.st##.pookie
-egglifefoods.com,organicawines.co.uk##.popup--cookies
+egglifefoods.com,goodtimesoakland.com,organicawines.co.uk##.popup--cookies
 andrewmarc.com,donnakaran.com,ghbass.com,iq.com,petalsearch.com,replicon.com##.popup-container
 vesselfinder.com##.pprem
 easyeda.com##.priv-tips
@@ -13846,6 +13846,7 @@ btc.com,criminalip.io,esportbet.io,glossika.com,podimo.com,rangewell.com,rogueco
 bitkubnft.com,bloomberglaw.com,dopper.com,engen.co.za,insailing.ru,kentik.com,news.bloombergtax.com,scite.ai##div[class^="CookieNoti"]
 alppimatkat.fi,als.royalholloway.ac.uk,bubblemaths.com,ecosto.fi,homenet.no,kialo.com,kindredgroup.com,kuntarekry.fi,lokinn.com,nelly.com,nlyman.com,quedo.es,schoolworkspace.co.uk,sozialleistungen.info,startnext.com,telecomtv.com###toast-container
 agritrader.eu,befunky.com,bidvestbank.co.za,bisu.com.tr,byutv.org,cmo.de,dlford.io,freesound.org,interflora.by,interflora.ee,itineraricamper.it,pasfoto-frederiksberg.dk,puzzlemaster.ca,szybkopraca.pl,tbs.com,tntdrama.com,usave.co.uk##.toast
+aminarubinacci.it,atlasstoked.com,avlonbg.com,butor-mirjan24.hu,castroniaviacatania.com,cheapoutdoor.nl,diamante.sk,fraggerzstuff.pt,franc-music-shop.com,gecoshop.com,gritija.lt,lafermeducbd.fr,meterspec.it,mirjan24.de,papirbolt.com,premiumtools.ro##.gdprModal
 cam4.com,ddctoolbox.com,pusher.com##div[class^="CookiesConsent"]
 bungie.net,certik.com,etonshirts.com,footshop.com,forzafootball.com,get-in-engineering.de,heavenhr.com,mec.ca,pictogrammers.com,prezly.com,print24.com,repvue.com,scmagazine.com,sierranevada.es,visitstockholm.com,zilliz.com##div[class*="CookieConsent"]
 twitch.tv##.consent-banner
@@ -18928,6 +18929,8 @@ dollartree.com##.modal-backdrop
 dollartree.com#$#body,html { overflow: auto !important; position: initial !important; }
 yvonnebennetti.com#%#//scriptlet('ubo-set-cookie.js', 'MCPopupClosed', 'yes')
 foliosociety.com#$#body { overflow: auto !important; position: initial !important; }
+drinkspy.co.nz##.modal-backdrop
+drinkspy.co.nz#$#body { overflow: auto !important; position: initial !important; }
 mightyape.co.nz#%#//scriptlet('ubo-rc.js', 'modal-open', 'body', 'stay')
 paulaschoice.com#%#//scriptlet('ubo-set-local-storage-item.js', 'signUpModalClosed_slot-paulaschoice_us-global-signUpModal-sfmcModal', '1')
 mountainwarehouse.com###sledgehammer

@@ -1,15 +1,15 @@
-! Checksum: 0V8gVoT3agqa0EUt5ctexQ
-! Diff-Path: ../patches/122/122-s-1704964091-14400.patch
+! Checksum: O8W7GC1C0AGbGO+i108lUA
+! Diff-Path: ../patches/122/122-s-1704978522-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.15
-! TimeUpdated: 2024-01-11T09:02:31+00:00
+! Version: 2.1.19.16
+! TimeUpdated: 2024-01-11T13:04:14+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: IMD1+/v8FqZUb9PklzXGmg
-! OriginalVersion: 202401110815
+! Checksum: rdBzWPz4j1BFxt32zYKA9w
+! OriginalVersion: 202401111240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-11 08:15 UTC
+! Last modified: 2024-01-11 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -40030,7 +40030,7 @@ thecrownestate.co.uk##.pop-up-banner
 arrowheadcu.org##.popbox
 maisonstandards.com##.popin_consent
 aboardtheworld.com##.popmake
-egglifefoods.com,organicawines.co.uk##.popup--cookies
+egglifefoods.com,goodtimesoakland.com,organicawines.co.uk##.popup--cookies
 thelocalchoice.co.za##.popup-access
 andrewmarc.com,donnakaran.com,ghbass.com,iq.com,petalsearch.com,replicon.com##.popup-container
 dadavidson.com##.popup-container-bottom
@@ -40836,7 +40836,7 @@ alppimatkat.fi,als.royalholloway.ac.uk,bubblemaths.com,ecosto.fi,homenet.no,kial
 !! .toast
 agritrader.eu,befunky.com,bidvestbank.co.za,bisu.com.tr,byutv.org,cmo.de,dlford.io,freesound.org,interflora.by,interflora.ee,itineraricamper.it,pasfoto-frederiksberg.dk,puzzlemaster.ca,szybkopraca.pl,tbs.com,tntdrama.com,usave.co.uk##.toast
 !! .gdprModal
-aminarubinacci.it,atlasstoked.com,avlonbg.com,butor-mirjan24.hu,castroniaviacatania.com,cheapoutdoor.nl,diamante.sk,fraggerzstuff.pt,franc-music-shop.com,gritija.lt,lafermeducbd.fr,meterspec.it,mirjan24.de,papirbolt.com,premiumtools.ro##.gdprModal
+aminarubinacci.it,atlasstoked.com,avlonbg.com,butor-mirjan24.hu,castroniaviacatania.com,cheapoutdoor.nl,diamante.sk,fraggerzstuff.pt,franc-music-shop.com,gecoshop.com,gritija.lt,lafermeducbd.fr,meterspec.it,mirjan24.de,papirbolt.com,premiumtools.ro##.gdprModal
 !! ^.CookiesConsent
 cam4.com,ddctoolbox.com,pusher.com##div[class^="CookiesConsent"]
 !! class*="CookieConsent"
@@ -51497,6 +51497,9 @@ yvonnebennetti.com#%#//scriptlet('ubo-set-cookie.js', 'MCPopupClosed', 'yes')
 foliosociety.com##.modals-overlay
 foliosociety.com##.popup-newsletter
 foliosociety.com#$#body { overflow: auto !important; position: initial !important; }
+! drinkspy.co.nz
+drinkspy.co.nz##.modal-backdrop
+drinkspy.co.nz#$#body { overflow: auto !important; position: initial !important; }
 ! mightyape.co.nz
 mightyape.co.nz##.newsletter-nag-modal
 mightyape.co.nz##.modal-backdrop
