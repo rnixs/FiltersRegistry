@@ -1,9 +1,9 @@
-! Checksum: xVnJoNmdq6rbkaiTEm8ESw
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1704940625-3600.patch
+! Checksum: wbKBdTWdPY+nK7ZXCzm0fA
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1704958580-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.4
-! TimeUpdated: 2024-01-10T19:32:19+00:00
+! Version: 2.0.31.5
+! TimeUpdated: 2024-01-11T07:32:26+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1271,7 +1271,7 @@ ekokoza.*#$##CookiesConfirmation { display: none !important; }
 ekokoza.*#$#body { overflow: auto !important; }
 newsflare.com##.nf-cookie-consent
 itvbd.com##.cookies-eu-banner
-||cmp.inmobi.com^$domain=24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it|icy-veins.com|typingtest.com
+||cmp.inmobi.com^$domain=24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it|icy-veins.com|typingtest.com|recetasviaje.com
 withhive.com##.gdpr_cookie
 visme.co##.vismecookie
 dozapteka.pl#$#.popup-cookies { display: none !important; }
