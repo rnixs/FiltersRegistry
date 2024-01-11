@@ -1,9 +1,9 @@
-! Checksum: vk+yNcaiIXhmvmsU2Lg/6Q
-! Diff-Path: ../patches/19/19-s-1704983902-3600.patch
+! Checksum: OZ8X6mMzkaBHJx61+1YEbw
+! Diff-Path: ../patches/19/19-s-1705012526-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.87
-! TimeUpdated: 2024-01-11T14:33:04+00:00
+! Version: 2.0.29.88
+! TimeUpdated: 2024-01-11T22:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -14639,7 +14639,7 @@ elpais.com##a[href^="https://usuarios.elpais.com/newsletters/"]
 elpais.com##a[href^="https://plus.elpais.com/newsletters/"]
 revolution-energetique.com,latest-ufo-sightings.net,silesion.pl,thetruedefender.com,sociology.utoronto.ca###text-3
 ebookee.com##form[action="//www.feedburner.com/fb/a/emailverify"]
-auburnpub.com,ravallirepublic.com,mtstandard.com###pu-email-form-daily-email-article
+statesville.com,auburnpub.com,ravallirepublic.com,mtstandard.com###pu-email-form-daily-email-article
 pharmaguideline.com##.email-join-box
 wowza.com##.blog-subscribe-emails
 millionacres.com###cont-milli_mid_article_pitch

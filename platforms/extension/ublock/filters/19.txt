@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: YywVhHCYlZzkA0YST43m9Q
-! Diff-Path: ../patches/19/19-s-1704983933-3600.patch
+! Checksum: OsLVMJpLKUPdjGVP2Ke3/Q
+! Diff-Path: ../patches/19/19-s-1705012549-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.87
-! TimeUpdated: 2024-01-11T14:33:04+00:00
+! Version: 2.0.29.88
+! TimeUpdated: 2024-01-11T22:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15974,7 +15974,7 @@ ebookee.com##form[action="//www.feedburner.com/fb/a/emailverify"]
 ebookee.com#?##secondNav > ul:has(> li > a[href="//feeds.feedburner.com/ebookee"])
 ebookee.com#?##secondNav > div.navbar:contains(/Email Subscribe|Feed & Bookmark/)
 techsupportalert.com#?##secondary > aside.widget:has(> div.textwidget form[action^="https://api.follow.it/subscription-form/"])
-auburnpub.com,ravallirepublic.com,mtstandard.com###pu-email-form-daily-email-article
+statesville.com,auburnpub.com,ravallirepublic.com,mtstandard.com###pu-email-form-daily-email-article
 pharmaguideline.com##.email-join-box
 pharmaguideline.com#?#.widget-content > h2:contains(Follow Pharmaguideline)
 wowza.com##.blog-subscribe-emails

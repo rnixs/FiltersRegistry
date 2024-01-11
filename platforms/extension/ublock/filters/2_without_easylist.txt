@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: g68ORgqdP0IVFink2z2eDA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705008946-3600.patch
+! Checksum: QBa1diq2O73oZbgikrlOrg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705012551-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.17.49
-! TimeUpdated: 2024-01-11T21:32:31+00:00
+! Version: 2.3.17.50
+! TimeUpdated: 2024-01-11T22:32:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7539,7 +7539,8 @@ bestx.stream##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167559
 99corporates.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167683
-wacotrib.com##+js(abort-on-property-read, TNCMS.Access)
+! https://github.com/AdguardTeam/AdguardFilters/issues/169924
+statesville.com,wacotrib.com##+js(abort-on-property-read, TNCMS.Access)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167727
 infidrive.net##+js(no-fetch-if, www3.doubleclick.net)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167531

@@ -1,9 +1,9 @@
-! Checksum: TvX8E+laxHS9XeMGuZpUHw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705008927-3600.patch
+! Checksum: oQx4rik+lbikc5JL0Pim0g
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705012528-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.17.49
-! TimeUpdated: 2024-01-11T21:32:31+00:00
+! Version: 2.3.17.50
+! TimeUpdated: 2024-01-11T22:32:27+00:00
 ! Expires: 5 days (update frequency)
 ||mintybug.com^
 ||firsthandtie.com^
@@ -1314,10 +1314,10 @@ onworks.net##.adbn-wrap
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=bestx.stream
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=99corporates.com
-wacotrib.com#@#.adSense
-wacotrib.com#@#.adContent
-wacotrib.com#@#.adBlock
-wacotrib.com#@#.ad-text
+statesville.com,wacotrib.com#@#.adSense
+statesville.com,wacotrib.com#@#.adContent
+statesville.com,wacotrib.com#@#.adBlock
+statesville.com,wacotrib.com#@#.ad-text
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lustesthd.lat|bonsaiprolink.shop
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
