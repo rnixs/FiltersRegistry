@@ -1,9 +1,9 @@
-! Checksum: WLlrHFR09ZK+NpgCmRCiHQ
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1704949627-14400.patch
+! Checksum: kJjpFMO1cQYWLqy5Ua8yLQ
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1704964126-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.37.93
-! TimeUpdated: 2024-01-11T05:03:10+00:00
+! Version: 2.1.37.94
+! TimeUpdated: 2024-01-11T09:03:26+00:00
 ! Expires: 12 hours (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -96,10 +96,10 @@ mandarinodesign.eu#@#.reklama
 -banner1.$domain=tu.swinoujscie.pl
 -banner_$domain=kaszuby24.pl
 -bannery-$domain=bogaty.men|zarobmy.se
--bener-$domain=meblosfera.pl|tapicerstwo.co|tkaninyobiciowe.eu
+-bener-$domain=tapicerstwo.co|tkaninyobiciowe.eu
 -fb-baner-$domain=starosadeckie.info
 -reklama-$domain=bithub.pl|chelmski.eu|firmy.meblarstwo.eu|golub-cgd.pl|kurekmazurski.pl|nasz-glos.com|ostrodanews.pl|przedsiebiorczepodlasie.pl|radomszczanska.pl|starosadeckie.info|tkaninyobiciowe.eu|tv-pelplin.pl
--reklama.$domain=flarrow.pl|gazeta-mosina.pl|gazetatrybunalska.pl|jeleniagora998.pl|mojewronki.pl|ostrodanews.pl|pionki24.pl|popradio.pl|przysucha.informator-lokalny.pl|sochaczewianin.pl|tu.swinoujscie.pl
+-reklama.$domain=flarrow.pl|gazeta-mosina.pl|gazetatrybunalska.pl|mojewronki.pl|ostrodanews.pl|pionki24.pl|popradio.pl|przysucha.informator-lokalny.pl|sochaczewianin.pl|tu.swinoujscie.pl
 -reklama_$domain=noworudzianin.pl
 -reklamy-$domain=tu.swinoujscie.pl
 -reklamy^$domain=kurekmazurski.pl
@@ -466,6 +466,13 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=expresskaszubski.pl
+||video.onnetwork.tv^$script,domain=chocianow.com.pl
+||video.onnetwork.tv^$script,domain=naszradziejow.pl
+||video.onnetwork.tv^$script,domain=wiescimiedzychodzkie.pl
+||video.onnetwork.tv^$script,domain=brodnica365.pl
+||video.onnetwork.tv^$script,domain=chelmza365.pl
+||video.onnetwork.tv^$script,domain=leszno24.pl
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ||appboxes.co/wp-content/uploads/nagam/$domain=nagieamatorki.net
 ||erot.pl^$script,domain=sexi.pl
@@ -645,7 +652,6 @@ pokerlistings.pl###js-cta-banner
 jarmark.com.pl###k3
 weranda.pl###kat_slot
 czary.pl###klikalne_tlo_calosci a[href^="https://sklepmagiczny.pl/pl/"]
-przeglad-sejnenski.pl###kolLeft .banerEl
 przeglad-sejnenski.pl###kolRight .banerEl
 scandi-city.pl###layer-banner
 proline.pl###layer_top
@@ -2107,7 +2113,6 @@ wawernews.pl##a[href^="http://www.kbprojekt.pl/"]
 glogow-info.pl##a[href^="http://www.koparka-darnet.pl/"]
 glostorunia.pl##a[href^="http://www.krakvet.pl/"]
 darmowe-torenty.pl,tinypic.pl##a[href^="http://www.likeplus.eu/"]
-epainfo.pl##a[href^="http://www.pcmnzoz.pl/"]
 kanonierzy.com##a[href^="http://www.sfd.pl/"]
 sychar.org##a[href^="http://www.tolle.pl/"]
 swoszowice.org.pl##a[href^="http://www.unison.pl/"]
@@ -2405,6 +2410,7 @@ koscianiak.pl##img[src="/pl/img/pasek_baner_siecportali_kicket.jpg"]
 beskid-niski.pl##img[src="http://d.nocowanie.pl/gfx/bannery/nocowanie.jpg"]
 3dwpraktyce.pl##img[src="https://3dwpraktyce.pl/wp-content/uploads/2019/10/drukarka_prev_01_007_LQ.jpg"]
 7dni.pila.pl##img[src="https://7dni.pila.pl/wp-content/uploads/2023/11/Zdrowych-i-Wesolych-Swiat-Bozego-Narodzenia-1.jpg"]
+badaniaprenatalne.pl##img[src="https://cdn-bndbi.nitrocdn.com/zjhfoRetQbYOVrnVGBGSKyDsLvsJlVvm/assets/images/optimized/rev-b176aea/badaniaprenatalne.pl/wp-content/uploads/2015/06/nowe_badania_prenatalne_bannery3x2.jpg"]
 skawina24.com##img[src="https://projektestart.cfolks.pl/skawina24/wp-content/uploads/2023/08/KBS-Skawina-250x250-1.jpeg"]
 tygodnik-krapkowicki.pl##img[src="https://sc.4media.com/data/aqwzxtvn/2023/05/25/amaks-net-ver2-646f2c47debbe.jpg"]
 gostynin24.pl##img[src="https://sc.4media.com/data/aqwzxtvn/2023/07/20/Garstka-64b929d421ce2.jpg"]
@@ -2463,6 +2469,9 @@ bolec.info##small + a
 wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
+plonskwsieci.pl##.new-toplayer
+wrzesnia.info.pl##.new-toplayer
+haloursynow.pl##.new-toplayer
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
 filmyporno.tv###playerOverlay
