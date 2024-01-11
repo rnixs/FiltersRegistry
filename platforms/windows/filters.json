@@ -357,8 +357,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/2.txt",
 			"trustLevel": "full",
-			"version": "2.3.17.37",
-			"timeUpdated": "2024-01-11T08:33:02+0000",
+			"version": "2.3.17.38",
+			"timeUpdated": "2024-01-11T09:36:22+0000",
 			"languages": [],
 			"tags": [
 				10,
@@ -397,8 +397,8 @@
 			"groupId": 3,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/4.txt",
 			"trustLevel": "full",
-			"version": "2.0.95.85",
-			"timeUpdated": "2024-01-11T08:33:15+0000",
+			"version": "2.0.95.86",
+			"timeUpdated": "2024-01-11T09:36:35+0000",
 			"languages": [],
 			"tags": [
 				3,
@@ -543,8 +543,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/11.txt",
 			"trustLevel": "full",
-			"version": "2.0.48.19",
-			"timeUpdated": "2024-01-10T16:31:48+0000",
+			"version": "2.0.48.20",
+			"timeUpdated": "2024-01-11T09:35:06+0000",
 			"languages": [],
 			"tags": [
 				1,
@@ -588,8 +588,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/14.txt",
 			"trustLevel": "full",
-			"version": "2.1.84.34",
-			"timeUpdated": "2024-01-11T08:32:05+0000",
+			"version": "2.1.84.35",
+			"timeUpdated": "2024-01-11T09:35:24+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -703,8 +703,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/19.txt",
 			"trustLevel": "full",
-			"version": "2.0.29.81",
-			"timeUpdated": "2024-01-11T08:32:18+0000",
+			"version": "2.0.29.82",
+			"timeUpdated": "2024-01-11T09:35:38+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -743,8 +743,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/21.txt",
 			"trustLevel": "full",
-			"version": "2.0.18.52",
-			"timeUpdated": "2024-01-10T17:32:29+0000",
+			"version": "2.0.18.53",
+			"timeUpdated": "2024-01-11T09:35:50+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -1506,8 +1506,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/windows/filters/224.txt",
 			"trustLevel": "full",
-			"version": "2.1.8.16",
-			"timeUpdated": "2024-01-11T08:32:38+0000",
+			"version": "2.1.8.17",
+			"timeUpdated": "2024-01-11T09:35:57+0000",
 			"languages": [
 				"zh"
 			],

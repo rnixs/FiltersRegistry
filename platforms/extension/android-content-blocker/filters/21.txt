@@ -1,9 +1,9 @@
-! Checksum: l/aFiVOABkeitFYQpqWDww
-! Diff-Path: ../patches/21/21-s-1704908158-3600.patch
+! Checksum: 9N86YVKehr1359ouUjSSBQ
+! Diff-Path: ../patches/21/21-s-1704965966-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.52
-! TimeUpdated: 2024-01-10T17:32:29+00:00
+! Version: 2.0.18.53
+! TimeUpdated: 2024-01-11T09:35:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4528,6 +4528,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+thunderstore.io###get-app-alert
 lingq.com##.lingq-banner
 ign.com###pit-below-all-content
 ||special.pikabu.ru/*/embed/

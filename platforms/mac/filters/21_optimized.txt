@@ -1,9 +1,9 @@
-! Checksum: gQ7E6asGdfWNsjWk73l2bg
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1704940648-3600.patch
+! Checksum: 1kq453JpPXiv+w4b+h5vrA
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1704966008-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.52
-! TimeUpdated: 2024-01-10T17:32:29+00:00
+! Version: 2.0.18.53
+! TimeUpdated: 2024-01-11T09:35:50+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1330,6 +1330,8 @@ alexfitness.ru#$#div.modal-backdrop { display: none!important; }
 alexfitness.ru#$#.modal-open { overflow: visible!important; }
 tf1.fr##div[aria-describedby^="max-banner-"]
 ||contributions.guardianapis.com^
+thunderstore.io###get-app-alert
+maxroll.gg#?#aside > div[class^="border-"]:has(> h2 > span:contains(Ad-Free))
 lingq.com##.lingq-banner
 taobao.com#?#div[class^="Content--contentInner"] > div:has(> a[class^="Card--doubleCardWrapper"] div[class^="SalesPoint--subIconWrapper"] > img[class^="SalesPoint--iconPic"][style])
 taobao.com#?#div.container > ul.item-list > li.item:has(> div.line1 > a[target="_blank"]:contains(广东))
