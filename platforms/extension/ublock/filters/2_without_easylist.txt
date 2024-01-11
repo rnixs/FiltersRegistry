@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: eG2CqHJJlfHbgC2OtS0cwQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704973121-3600.patch
+! Checksum: TyzhxXNu6A6z1YT1/275Ug
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704976698-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.17.40
-! TimeUpdated: 2024-01-11T11:34:41+00:00
+! Version: 2.3.17.41
+! TimeUpdated: 2024-01-11T12:34:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -32600,6 +32600,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+duckduckgo.com##li[class][data-layout="creditcards"] div[data-testid="creditcards-carousel-module"].bing
 ign.com##.userList-leaderboard-adunit
 incestgames.net##.post-9999999
 fap-nation.com##.gunk-future
