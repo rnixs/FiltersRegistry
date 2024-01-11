@@ -1,9 +1,9 @@
-! Checksum: R0ZELDcfZIRXjyDbaBbCnw
-! Diff-Path: ../patches/23/23-s-1704821779-3600.patch
+! Checksum: fQhmBxeIZKbrneKu8PB7BQ
+! Diff-Path: ../patches/23/23-s-1704990997-3600.patch
 ! Title: AdGuard Ukrainian filter
 ! Description: Filter that enables ad blocking on websites in Ukrainian language.
-! Version: 2.0.3.63
-! TimeUpdated: 2024-01-09T17:32:42+00:00
+! Version: 2.0.3.64
+! TimeUpdated: 2024-01-11T16:32:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6643,7 +6643,7 @@ tsn.ua##[data-ad]
 unn.com.ua##ul[style="width: 600px; max-width: 100%; height: 260px; margin: 0 auto;"]
 epravda.com.ua,pravda.com.ua,nv.ua##.nts-ad
 vsim.ua##.AdaptiveBanner
-fakty.ua##.advertising + div.tit_line
+fakty.ua##.tit_line
 xsport.ua##.bookmaker.rating
 inform.zp.ua###media_image-10
 inform.zp.ua###media_image-6
@@ -7281,9 +7281,7 @@ eurolab.ua##a[href^="http://gdeua.hit.gemius.pl/"]
 facenews.ua##.bind_ads
 facenews.ua##.bnblock
 facenews.ua##body > a[id][style]
-fakty.ua##div.informer
-fakty.ua##div[id^="admixer_"] ~ div > div.tit_line
-fakty.ua##div[id^="admixer_"] ~ div.tit_line
+fakty.ua##.informer
 fashionable.com.ua##.moduletable-popularnoe
 fatalgame.com,kinozz.net,vikka.ua,vinnitsa.info##div[class*="banner"]
 firtka.if.ua##.mid-agency

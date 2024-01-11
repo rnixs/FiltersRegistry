@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: UY7YJdq7apxDt6h9xf4dbg
-! Diff-Path: ../patches/23_optimized/23_optimized-s-1704821789-3600.patch
+! Checksum: ntG9CEetUMTa4Xvh099Mow
+! Diff-Path: ../patches/23_optimized/23_optimized-s-1704991006-3600.patch
 ! Title: AdGuard Ukrainian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Ukrainian language.
-! Version: 2.0.3.63
-! TimeUpdated: 2024-01-09T17:32:42+00:00
+! Version: 2.0.3.64
+! TimeUpdated: 2024-01-11T16:32:39+00:00
 ! Expires: 5 days (update frequency)
 /resources/js/sticker.js?$third-party
 .xml?v=3.0&external_subid=
@@ -6135,7 +6135,7 @@ tsn.ua##[data-ad]
 unn.com.ua##ul[style="width: 600px; max-width: 100%; height: 260px; margin: 0 auto;"]
 epravda.com.ua,pravda.com.ua,nv.ua##.nts-ad
 vsim.ua##.AdaptiveBanner
-fakty.ua##.advertising + div.tit_line
+fakty.ua##.tit_line
 xsport.ua##.bookmaker.rating
 inform.zp.ua###media_image-10
 inform.zp.ua###media_image-6
@@ -6773,9 +6773,7 @@ eurolab.ua##a[href^="http://gdeua.hit.gemius.pl/"]
 facenews.ua##.bind_ads
 facenews.ua##.bnblock
 facenews.ua##body > a[id][style]
-fakty.ua##div.informer
-fakty.ua##div[id^="admixer_"] ~ div > div.tit_line
-fakty.ua##div[id^="admixer_"] ~ div.tit_line
+fakty.ua##.informer
 fashionable.com.ua##.moduletable-popularnoe
 fatalgame.com,kinozz.net,vikka.ua,vinnitsa.info##div[class*="banner"]
 firtka.if.ua##.mid-agency

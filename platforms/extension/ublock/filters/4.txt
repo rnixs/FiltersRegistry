@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0hbpg370pZI2maOdxKWHBQ
-! Diff-Path: ../patches/4/4-s-1704981228-3600.patch
+! Checksum: eul0Vj8Qs/jyyIGcCimakg
+! Diff-Path: ../patches/4/4-s-1704991008-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.90
-! TimeUpdated: 2024-01-11T13:50:09+00:00
+! Version: 2.0.95.91
+! TimeUpdated: 2024-01-11T16:33:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9575,7 +9575,7 @@ morgenweb.de##.nfy-sticky-icon-more
 internethaber.com##.wrt > .si
 popculture.com,comicbook.com##.social_blk
 narcity.com##body > [class$="-sharer"][id$="-sharer"]
-sonxeber.az##.fbbigshare
+big.az,sonxeber.az##.fbbigshare
 tarzgo.com,warezturkey.me,oncunatural.com##.theblogwidgets
 oncunatural.com###fbox-background
 socialblade.com##.content-container > div[style^="width: 840px; padding: 10px"]

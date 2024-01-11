@@ -1,9 +1,9 @@
-! Checksum: 0YGoZV24a5+7H6YaMCESDA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1704987701-3600.patch
+! Checksum: Z9MEDIrj9qJkOHLdw4OwVg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1704990970-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.17.44
-! TimeUpdated: 2024-01-11T15:38:11+00:00
+! Version: 2.3.17.45
+! TimeUpdated: 2024-01-11T16:33:01+00:00
 ! Expires: 5 days (update frequency)
 ||mintybug.com^
 ||firsthandtie.com^
@@ -4894,6 +4894,9 @@ gerasanews.com##[class^="bestaAds_"]
 !+ NOT_PLATFORM(windows, mac, android)
 gerasanews.com##.iads_border
 ||auto.am/static/azd/
+big.az##.link8
+||unvan.az/banner/
+||buta.tv/yenipress
 marja.az##.ainsyndication
 marja.az###iazw_ticker
 lent.az##.rek_baner_desktop
@@ -23648,6 +23651,7 @@ browsershots.org#@#.advert_area
 ||abluentshinny.com^
 ||ablybeastssarcastic.com^
 ||aboardhotdog.com^
+||aboutpersonify.com^
 ||aboveredirect.top^
 ||abpicsrc.com^
 ||abpjs23.com^
@@ -24243,6 +24247,7 @@ browsershots.org#@#.advert_area
 ||assistedadultrib.com^
 ||assobredrouked.com^
 ||assoilrehboc.top^
+||assortplaintiffwailing.com^
 ||assurancelocusmat.com^
 ||ast2ya4ee8wtnax.com^
 ||astarboka.com^
@@ -24619,6 +24624,7 @@ browsershots.org#@#.advert_area
 ||boannre.com^
 ||boannred.com^
 ||boastemployer.com^
+||boatoamo.com^
 ||bobabillydirect.org^
 ||bobboro.com^
 ||bocoyoutage.com^
@@ -24849,6 +24855,7 @@ browsershots.org#@#.advert_area
 ||canzosswager.com^
 ||caoqebfaqnswc.com^
 ||caphaiks.com^
+||capletstyldia.com^
 ||capndr.com^
 ||captaintassie.com^
 ||caraganaarborescenspendula.com^
@@ -24933,6 +24940,7 @@ browsershots.org#@#.advert_area
 ||centalkochab.com^
 ||centredrag.com^
 ||cer43asett2iu5m.com^
+||certainlydisparagewholesome.com^
 ||cesiumsemboite.com^
 ||cessationrepulsivehumid.com^
 ||cestibegster.com^
@@ -25027,6 +25035,7 @@ browsershots.org#@#.advert_area
 ||cjvdfw.com^
 ||cjxomyilmv.com^
 ||ckfkigayvdb.com^
+||ckgsrzu.com^
 ||cl0udh0st1ng.com^
 ||claimcutejustly.com^
 ||claspedtwelve.com^
@@ -25507,6 +25516,7 @@ browsershots.org#@#.advert_area
 ||disploot.com^
 ||disposalangrily.com^
 ||disposalsirbloodless.com^
+||disshipbikinis.com^
 ||distancemedicalchristian.com^
 ||distant-session.pro^
 ||distilled.ie^
@@ -25860,6 +25870,7 @@ browsershots.org#@#.advert_area
 ||esorandhewa.com^
 ||espionagegardenerthicket.com^
 ||essential-trash.com^
+||essentialsicklyinane.com^
 ||esteemtalented.com^
 ||etccdvfodthhc.com^
 ||etheappyrincea.info^
@@ -25871,6 +25882,7 @@ browsershots.org#@#.advert_area
 ||euizhltcd6ih.com^
 ||eulogiafilial.com^
 ||evanpcf.uno^
+||evaporateahead.com^
 ||evaporatehorizontally.com^
 ||evasiondemandedlearning.com^
 ||evdebdvwnzlyyz.com^
@@ -26003,6 +26015,7 @@ browsershots.org#@#.advert_area
 ||feignoccasionedmound.com^
 ||feiriegershon.com^
 ||feistyhelicopter.com^
+||feistyswim.com^
 ||fejla.com^
 ||femsoahe.com^
 ||fenacheaverage.com^
@@ -26345,6 +26358,7 @@ browsershots.org#@#.advert_area
 ||gleagainedam.info^
 ||gleaminsist.com^
 ||gleetchisurvey.top^
+||glelroum.com^
 ||gleneditor.com^
 ||glersakr.com^
 ||glersooy.net^
@@ -26442,6 +26456,7 @@ browsershots.org#@#.advert_area
 ||gpsecureads.com^
 ||gqaecrxbj.com^
 ||gqtnjdflx.com^
+||graboverhead.com^
 ||gracedschelly.com^
 ||graceofnoon.com^
 ||gracesmallerland.com^
@@ -26501,6 +26516,7 @@ browsershots.org#@#.advert_area
 ||grygrothapi.pro^
 ||gscontxt.net^
 ||gsjln04hd.com^
+||gsurihy.com^
 ||gtbdhr.com^
 ||gtitcah.com^
 ||gtoonfd.com^
@@ -26928,6 +26944,7 @@ browsershots.org#@#.advert_area
 ||inspectorstrongerpill.com^
 ||inspxtrc.com^
 ||install-check.com^
+||instancesflushedslander.com^
 ||instaruptilt.com^
 ||instinctiveads.com^
 ||instrumenttactics.com^
@@ -26982,6 +26999,7 @@ browsershots.org#@#.advert_area
 ||isbnyzpunkx.com^
 ||isboost.co.jp^
 ||ishoawew.net^
+||islerobserpent.com^
 ||isvnwxpoqgsgyy.com^
 ||iswhatappyouneed.net^
 ||itchinglikely.com^
@@ -29315,6 +29333,7 @@ browsershots.org#@#.advert_area
 ||retiringspamformed.com^
 ||retryngs.com^
 ||retuckisobars.com^
+||returnautomaticallyrock.com^
 ||rev-stripe.com^
 ||revampcdn.com^
 ||revcontent.com^
@@ -29363,6 +29382,7 @@ browsershots.org#@#.advert_area
 ||rilelogicbuy.com^
 ||rimeseized.com^
 ||riotousgrit.com^
+||riponztulc.com^
 ||riscati.com^
 ||riverhit.com^
 ||riverhita.com^
@@ -30338,6 +30358,7 @@ browsershots.org#@#.advert_area
 ||trafogon.com^
 ||tragicleftago.com^
 ||traglencium.com^
+||trainedhomecoming.com^
 ||trakaff.net^
 ||trandlife.info^
 ||transactionsparasite.com^
@@ -30495,6 +30516,7 @@ browsershots.org#@#.advert_area
 ||ultracdn.top^
 ||umbretalen.com^
 ||umcsghecmszp.com^
+||umebella.com^
 ||umekana.ru^
 ||umentrandings.xyz^
 ||umexalim.com^
@@ -30627,6 +30649,7 @@ browsershots.org#@#.advert_area
 ||vasstycom.com^
 ||vasteeds.net^
 ||vastserved.com^
+||vastsneezevirtually.com^
 ||vaugroar.com^
 ||vbqbtfkon.com^
 ||vbtrax.com^
@@ -30709,6 +30732,7 @@ browsershots.org#@#.advert_area
 ||vipicmou.net^
 ||viral782.com^
 ||viralnewssystems.com^
+||virginityneutralsouls.com^
 ||visariomedia.com^
 ||visiblejoseph.com^
 ||visiblemeasures.com^
@@ -30758,6 +30782,7 @@ browsershots.org#@#.advert_area
 ||vqzbzuhhxhcf.com^
 ||vrfupfyu.com^
 ||vrhgfvztgmcl.com^
+||vrquqhnikhcnixn.com^
 ||vrtzads.com^
 ||vs3.com^
 ||vstserv.com^
@@ -31090,6 +31115,7 @@ browsershots.org#@#.advert_area
 ||xfbeobsutqtndp.com^
 ||xfguylptuqw.com^
 ||xfiebjkmpp.com^
+||xfvvygrv.com^
 ||xfwblpomxc.com^
 ||xfxssqakis.com^
 ||xgstemmj.com^
@@ -31805,6 +31831,7 @@ browsershots.org#@#.advert_area
 ||byzkrjamkqbal.top^$popup
 ||cddtsecure.com^$popup
 ||cdn4ads.com^$popup
+||certainlydisparagewholesome.com^$popup
 ||dakjddjerdrct.online^$popup
 ||dexpredict.com^$popup
 ||displayvertising.com^$popup
@@ -31815,6 +31842,7 @@ browsershots.org#@#.advert_area
 ||doubleclick.net^$popup
 ||drsmediaexchange.com^$popup
 ||eofst.com^$popup
+||evaporateahead.com^$popup
 ||exhauststreak.com^$popup
 ||expdirclk.com^$popup
 ||forooqso.tv^$popup
@@ -31832,6 +31860,7 @@ browsershots.org#@#.advert_area
 ||highcpmrevenuenetwork.com^$popup
 ||highperformancegate.com^$popup
 ||hxmanga.com^$popup
+||instancesflushedslander.com^$popup
 ||intorterraon.com^$popup
 ||jeekomih.com^$popup
 ||jocauzee.net^$popup
@@ -31974,6 +32003,8 @@ browsershots.org#@#.advert_area
 ||1035218900.rsc.cdn77.org^
 ||1044195567.rsc.cdn77.org^
 ||1052982219.rsc.cdn77.org^
+||1070165434.rsc.cdn77.org^
+||1082580998.rsc.cdn77.org^
 ||10945-5.s.cdn15.com^
 ||1143895874.rsc.cdn77.org^
 ||1193176784.rsc.cdn77.org^
