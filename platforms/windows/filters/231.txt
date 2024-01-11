@@ -1,15 +1,15 @@
-! Checksum: gilQkofVJuBQR40y4kBAKQ
-! Diff-Path: ../patches/231/231-s-1704978558-14400.patch
+! Checksum: Y73XR6utq9BM/qynEoyPEQ
+! Diff-Path: ../patches/231/231-s-1704992840-14400.patch
 ! Title: EasyList Spanish
 ! Description: Additional filter list for websites in Spanish.
-! Version: 2.1.41.89
-! TimeUpdated: 2024-01-11T13:04:46+00:00
+! Version: 2.1.41.90
+! TimeUpdated: 2024-01-11T17:02:45+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: 4u0OC7BSM0oEHQSWtquAow
-! OriginalVersion: 202401111251
+! Checksum: 8StULNDul1S44W+kEP6UCA
+! OriginalVersion: 202401111651
 ! Title: EasyList Spanish
-! Last modified: 11 Jan 2024 12:51 UTC
+! Last modified: 11 Jan 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -108,6 +108,7 @@ _pubted.
 ##.voc-sponsored
 ##a[href^="https://go.betobet.online/"]
 ##a[href^="https://startgaming.net/tienda/"][href*="?offer_id="]
+##a[href^="https://vario.tv/?offer_id="]
 !
 ###PubMiddle1
 ###PubMiddle2
@@ -1448,6 +1449,7 @@ elconfidencial.com##.articleAside__module.articleAside__module--isSticky
 elobservador.com.uy##.auspicios
 20minutos.es,lainformacion.com##.axds
 lainformacion.com##.axds-lane
+elpais.com##.b-bra-bbva
 lectuepubgratis.com##.bam-topbar
 lesportiudecatalunya.cat##.banerpromocio
 alicanteplaza.es,ambito.com,bienbonita.com,c5n.com,castellonplaza.com,cronista.com,diariolasamericas.com,donbalon.com,econojournal.com.ar,eleconomista.com.mx,eleconomista.net,elgrafico.com,elimparcial.com,elinformador.mx,ella.sv,elplural.com,guarda14.com,laverdadnoticias.com,lavoz.com.ar,letrap.com.ar,losandes.com.ar,motor.com.co,observador.cr,puntal.com.ar,rpp.pe,sputniknews.lat,tntsports.cl,tntsports.com.ar,tvynovelas.com,valenciaplaza.com,viapais.com.ar##.banner
@@ -1506,6 +1508,7 @@ futbolred.com##.btn_betplay
 plantadoce.com##.bwe_ext_partners
 miarevista.es,segre.com,serpadres.es##.c-add
 elpais.com##.c-bra
+elpais.com##.c-brr
 cadenaser.com##.c-p-ia
 cadenaser.com##.c-s > div
 elpais.com##.c.c-pfb.c--m
@@ -1563,6 +1566,7 @@ ejeprime.com##.featured_specials
 ahoraeg.com,arquimaster.com.ar,elperiodicodelaenergia.com,isanidad.com,jotdown.es,periodicolaperla.com,valencianews.es##.g
 la-razon.com##.genosha_ads_fixed_bottom
 winsports.co##.goles_acero_banner
+cuevana3.eu##.got-dvr
 eltiempo.com,portafolio.co##.gpt-slot-barra-flotante-inferior
 eltiempo.com,portafolio.co##.gpt-slot-satelite-container
 diariodemallorca.es##.grp--branded-style
