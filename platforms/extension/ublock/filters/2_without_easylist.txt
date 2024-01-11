@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: pQjgJB/yIQekckdtL8inWw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704958609-3600.patch
+! Checksum: 2Dwp2BHIP0y3ro/Q5x2irQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704962191-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.17.36
-! TimeUpdated: 2024-01-11T07:33:14+00:00
+! Version: 2.3.17.37
+! TimeUpdated: 2024-01-11T08:33:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7204,6 +7204,7 @@ yad.com##+js(no-setTimeout-if, moneyDetect)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170276
 hiraethtranslation.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170269
+pomofocus.io##+js(no-xhr-if, pagead2.googlesyndication.com, true)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication.com/adsbygoogle.js,domain=pomofocus.io
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170049
 nishankhatri.xyz##.adblock-wrapper
@@ -7376,6 +7377,7 @@ superabbit33.*,live-streamfootball.*,superabbit77.*,rbtv77.*##+js(no-xhr-if, pag
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164844
 fusevideo.io##+js(no-xhr-if, /prebid|ads\./)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164737
+!+ NOT_OPTIMIZED
 freshplaza.com#$?#input#block-ad-blockers { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164724
 ||buy.tinypass.com/checkout/template/cacheableShow?*&offerId=fakeOfferId*&url=*ibelieve.com
@@ -50766,6 +50768,8 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170065
+hollywoodreporter.com#@#[id^="jwplayer"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169942
 americanhunter.org#@#.video-ad-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169443
