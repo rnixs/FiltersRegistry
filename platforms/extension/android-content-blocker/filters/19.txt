@@ -1,9 +1,9 @@
-! Checksum: YxzpKG7HHgAk9ZFESVwzJg
-! Diff-Path: ../patches/19/19-s-1704969430-3600.patch
+! Checksum: VOc5jdJI27XwVG3mBu+RZg
+! Diff-Path: ../patches/19/19-s-1704973084-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.83
-! TimeUpdated: 2024-01-11T10:32:51+00:00
+! Version: 2.0.29.84
+! TimeUpdated: 2024-01-11T11:33:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5548,7 +5548,6 @@ don24.ru###__fstrk-social-widget
 pandahelp.vip##.float-mask
 pimpandhost.com##.ano_po
 yuwen360.com##div[id^="gzh_"]
-zai.diamond.jp##.sp-floating-banner
 funtre-blog.com##div[class*="pupup"]
 kanetaya.com###st_mb
 starpets.gg,eigeki.com##.gift
@@ -9899,6 +9898,8 @@ bomb01.com#$#.modal-open { overflow: visible!important; }
 ! Blocking it also causes that videos are not playing automatically
 ! twitter.com##div[data-testid="BottomBar"]
 !
+!+ NOT_OPTIMIZED
+zai.diamond.jp##.sp-floating-banner
 !+ NOT_OPTIMIZED
 lookmovie.*##.bottom-message-container
 !+ NOT_OPTIMIZED

@@ -1,9 +1,9 @@
-! Checksum: 8xRbiH+1rzE7/Hk2ctSdWQ
-! Diff-Path: ../patches/18/18-s-1704969430-3600.patch
+! Checksum: Wie74fTJGkmYWWxVYXYt6A
+! Diff-Path: ../patches/18/18-s-1704973083-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.7
-! TimeUpdated: 2024-01-11T10:32:47+00:00
+! Version: 2.0.31.8
+! TimeUpdated: 2024-01-11T11:33:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2310,6 +2310,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+jp.ign.com###consent-wrapper
 ostannipodii.com###message_cookies
 grupapracuj.pl###gp_cookie_agreements
 erecruiter.pl###cookieLawInfo
@@ -2433,8 +2434,8 @@ dozapteka.pl#$#body.no-scroll { overflow: auto !important; }
 movavi.com,movavi.ru##.v-privacy-policy-popup
 melawear.de##.ccklayer
 auo.com##.gdpr-mask
-hard-pc.pl###kqs-box-tlo
-hard-pc.pl###kqs-tlo
+berdsen.pl,hard-pc.pl###kqs-box-tlo
+berdsen.pl,hard-pc.pl###kqs-tlo
 jgl.eu###ng-cc
 samolet.ru##div[data-selector="cookie"]
 sinerji.gen.tr###CookieConcent

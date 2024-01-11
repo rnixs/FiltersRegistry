@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: jOmB7/UoK2mN8+zP6+rMUw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1704969502-3600.patch
+! Checksum: vLY4nrj8/ubEWqcnNfmTew
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704973119-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.83
-! TimeUpdated: 2024-01-11T10:32:51+00:00
+! Version: 2.0.29.84
+! TimeUpdated: 2024-01-11T11:33:52+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -1510,6 +1510,8 @@ aol.com#@#.adwrap
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+boylove1.mobi##+js(set-cookie, bulletin_new_31, 1)
+boylove1.mobi##+js(set-cookie, avPopupCookie, 1)
 drishtiias.com##body > div#formcontainer
 lingq.com##+js(set-cookie, DictPopShownToday, true)
 ||astatic.ccmbg.com/ccmcms_journaldunet/dist/app/*/registrationWall.
@@ -4416,6 +4418,8 @@ okino.ua#$#body { overflow: visible!important; }
 dooralei.ru#$#body { overflow: visible!important; }
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.aclb > div._4b-b
 catalogmineralov.ru#$#body { overflow: visible!important; }
+!+ NOT_OPTIMIZED
+zai.diamond.jp##.sp-floating-banner
 !+ NOT_OPTIMIZED
 lookmovie.*##.bottom-message-container
 !+ NOT_OPTIMIZED

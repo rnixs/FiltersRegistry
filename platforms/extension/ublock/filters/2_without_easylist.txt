@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: DpZDisJqty4dLGKZhLnsow
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704969507-3600.patch
+! Checksum: eG2CqHJJlfHbgC2OtS0cwQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1704973121-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.17.39
-! TimeUpdated: 2024-01-11T10:33:36+00:00
+! Version: 2.3.17.40
+! TimeUpdated: 2024-01-11T11:34:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -19250,6 +19250,8 @@ indiatimes.com##.last8brdiv > div.sponsor_block
 !
 ! NOTE: Indonesian
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170132
+kompas.com##.gate-kgplus
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169015
 ||samehadaku.homes/wp-content/uploads/*-Banner-
 samehadaku.guru###main > a[target="_blank"]
