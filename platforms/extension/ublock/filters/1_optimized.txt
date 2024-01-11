@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: t3dta8dr4tEi75QlC+JiQg
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1704940642-3600.patch
+! Checksum: HuyawbKBYSmzpYLhN+EWZA
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1704969502-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.87.70
-! TimeUpdated: 2024-01-10T18:32:25+00:00
+! Version: 2.0.87.71
+! TimeUpdated: 2024-01-11T10:33:02+00:00
 ! Expires: 5 days (update frequency)
 /resources/js/sticker.js?$third-party
 .xml?v=3.0&external_subid=
@@ -2592,8 +2592,7 @@ apad2.top,games-pc.top,rustorka.com,rustorka.top,rustorka.net,rustorkacom.lib,na
 /rustorka.\w+\/forum\/(?!login.php)/$removeheader=location
 /naylo.top\/forum\/(?!login.php)/$removeheader=location
 /games-pc.top\/forum\/(?!login.php)/$removeheader=location
-apad2.top,games-pc.top,rustorka.com,rustorka.top,rustorka.net,rustorkacom.lib,naylo.top,zannn.top,innal.top##+js(abort-current-script, checkCookie, var _0x)
-apad2.top,games-pc.top,rustorka.com,rustorka.top,rustorka.net,rustorkacom.lib,naylo.top,zannn.top,innal.top##+js(cookie-remover, /^opt_js\d{1}$/)
+apad2.top,games-pc.top,rustorka.com,rustorka.top,rustorka.net,rustorkacom.lib,naylo.top,zannn.top,innal.top##+js(no-setTimeout-if, chessday)
 tapochek.net##+js(set-constant, antiadblock, undefined)
 tapochek.net##+js(set-constant, window.b0, null)
 @@||r2-item.ru^$generichide
@@ -2630,6 +2629,7 @@ ya.ru,yandex.*###search-result-aside > div[class*="_right_yes"] > div[data-cid] 
 ya.ru,yandex.*##div[style^="max-width:"] > svg[width="100%"]
 ya.ru,yandex.*##.serp-list > div.incut
 ya.ru,yandex.*##.DirectInline
+yandex.*##:matches-path(/maps).media-gallery > div.media-gallery__frame-wrapper:has(> div.media-gallery__frame > div > div[data-chunk="promo"])
 yandex.*##.banner-placeholder-view
 yandex.*##._advert
 yandex.*##.search-advert-badge

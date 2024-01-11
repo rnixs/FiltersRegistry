@@ -1,9 +1,9 @@
-! Checksum: JzHGXIbmNCdaZZN2jLbXtQ
-! Diff-Path: ../patches/18/18-s-1704962159-3600.patch
+! Checksum: 8xRbiH+1rzE7/Hk2ctSdWQ
+! Diff-Path: ../patches/18/18-s-1704969430-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.6
-! TimeUpdated: 2024-01-11T08:32:15+00:00
+! Version: 2.0.31.7
+! TimeUpdated: 2024-01-11T10:32:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6857,8 +6857,7 @@ studierenplus.de##.chimpify-popup
 merxu.com##.mxu-cookie-consent
 cm.com##.s-cookie-popup
 tierarzt-onlineverzeichnis.de,vergleichen-und-sparen.de###vs-cookiehinweis
-sex.com#$#.modal-backdrop { display: none!important; }
-sex.com#$#body.overflow-hidden { overflow: auto!important; }
+sex.com#$#body { overflow: auto !important; }
 mizuhatuden.com##main[data-testid="static-page-main"] + div[class^="_"]:last-child
 flazio.com##.flazio-cookie
 hij.airport.jp,cede.de,minimed.at,justiz.nrw###cookieAgree
@@ -13016,6 +13015,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170395
+sex.com#@##cookie-modal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170065
 @@||geolocation.onetrust.com/cookieconsentpub/$domain=hollywoodreporter.com
 hollywoodreporter.com#@##onetrust-consent-sdk

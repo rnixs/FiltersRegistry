@@ -1,9 +1,9 @@
-! Checksum: AGIOlsAMv6lx02exUH8U7w
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1704966012-3600.patch
+! Checksum: WWy+HMmtI8xRVun7mZjkag
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1704969540-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.82
-! TimeUpdated: 2024-01-11T09:35:38+00:00
+! Version: 2.0.29.83
+! TimeUpdated: 2024-01-11T10:32:51+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1591,6 +1591,7 @@ aol.com#@#.adwrap
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+hoyolab.com#%#//scriptlet('trusted-set-local-storage-item', 'loginPop', '{"timestamp":1704967028294,"value":1704967028294}')
 drishtiias.com##body > div#formcontainer
 lingq.com#%#//scriptlet('set-cookie', 'DictPopShownToday', 'true')
 ||astatic.ccmbg.com/ccmcms_journaldunet/dist/app/*/registrationWall.

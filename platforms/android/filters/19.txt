@@ -1,9 +1,9 @@
-! Checksum: JXI1E4/mHO5AeiTDKBXblQ
-! Diff-Path: ../patches/19/19-s-1704965960-3600.patch
+! Checksum: 2rZmV6mmlgSjiHqe/fIZdA
+! Diff-Path: ../patches/19/19-s-1704969421-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.82
-! TimeUpdated: 2024-01-11T09:35:38+00:00
+! Version: 2.0.29.83
+! TimeUpdated: 2024-01-11T10:32:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4198,6 +4198,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+hoyolab.com#%#//scriptlet('trusted-set-local-storage-item', 'loginPop', '{"timestamp":1704967028294,"value":1704967028294}')
 drishtiias.com##body > div#formcontainer
 lingq.com#%#//scriptlet('set-cookie', 'DictPopShownToday', 'true')
 ||astatic.ccmbg.com/ccmcms_journaldunet/dist/app/*/registrationWall.
