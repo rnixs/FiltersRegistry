@@ -1,9 +1,9 @@
-! Checksum: kGli7In8todntkF8q0Fxtg
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1704981195-3600.patch
+! Checksum: TB1VA98Z0GD8cIHXdyordw
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1705080948-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.78
-! TimeUpdated: 2024-01-11T13:49:06+00:00
+! Version: 2.0.7.79
+! TimeUpdated: 2024-01-12T17:31:50+00:00
 ! Expires: 5 days (update frequency)
 $removeparam=sms_click
 $removeparam=sms_source
@@ -1367,6 +1367,7 @@ $removeparam=dclid
 ||v.youku.com^$removeparam=spm
 ||theregister.com^$removeparam=td
 ||deezer.com^$removeparam=origin
+||deezer.com^$removeparam=deferredFl
 ||gamesplanet.com^$removeparam=ref
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params

@@ -1,9 +1,9 @@
-! Checksum: 9iHiTRJVmIG7o+fKp6ZXKw
-! Diff-Path: ../patches/17/17-s-1704981202-3600.patch
+! Checksum: HCr3gfYwWQZQXdLO5uHnwA
+! Diff-Path: ../patches/17/17-s-1705080953-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.78
-! TimeUpdated: 2024-01-11T13:49:06+00:00
+! Version: 2.0.7.79
+! TimeUpdated: 2024-01-12T17:31:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1965,6 +1965,7 @@ $removeparam=dclid
 ! Deezer
 ! https://github.com/AdguardTeam/AdguardFilters/pull/119475
 ||deezer.com^$removeparam=origin
+||deezer.com^$removeparam=deferredFl
 ! GamesPlanet
 ||gamesplanet.com^$removeparam=ref
 !
