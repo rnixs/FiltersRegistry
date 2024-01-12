@@ -1,9 +1,9 @@
-! Checksum: BtyuaF7LWvSQhIsQBnW4NA
-! Diff-Path: ../patches/18/18-s-1705052130-3600.patch
+! Checksum: OxbxDI72aMmlm4VSHDv9vA
+! Diff-Path: ../patches/18/18-s-1705059394-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.15
-! TimeUpdated: 2024-01-12T09:31:46+00:00
+! Version: 2.0.31.16
+! TimeUpdated: 2024-01-12T11:32:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2310,6 +2310,8 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+lemon8-app.com##.wap-cookie-policy-banner
+oppo.com##.cookie-tips
 khanacademy.org##div[aria-label="Notification Banner"]
 github.com###cookie-consent-banner
 tescoma.sk##div[data-testid="layout-popup"]
@@ -8259,7 +8261,6 @@ expocentr.ru,prostudio.ru,sviaz-expo.ru##.cookie-attention
 ucretsizhivtesti.com##div[id^="tpapopup-"]
 download.gg###cookiecontainer
 debenhams.com##.t-footer__cookie-disclaimer
-tcl.com##.cookie-tips
 ccoo.es#$#.snigel-cmp-framework { display: none !important; }
 ccoo.es#$#body { overflow: auto !important; }
 tetsudo.com###footer-gdpr-box
