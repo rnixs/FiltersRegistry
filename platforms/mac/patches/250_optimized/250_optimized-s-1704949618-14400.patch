@@ -1,0 +1,44 @@
+d1 2
+a2 2
+! Checksum: u3KKnHeZg3o1LQsLEnpBKA
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1705093675-14400.patch
+d5 2
+a6 2
+! Version: 2.0.12.95
+! TimeUpdated: 2024-01-12T21:03:58+00:00
+d9 1
+d24 1
+a165 1
+||gamesgx.net^$document
+a256 1
+||propositionpower.com^$all
+a460 1
+||xiaobaixitong.com^$all
+d563 1
+d608 1
+d763 1
+d787 1
+d1159 1
+d1368 4
+a1432 1
+mafengwo.cn###footer
+d1768 2
+a1841 1
+$document,removeparam=/^dpg_/
+a1892 1
+$removeparam=affiliateCustomId
+a2013 1
+$removeparam=/^source=connexity$/
+a2128 1
+$removeparam=int_content
+a2263 1
+||amazon.$removeparam=ac_md
+a2399 1
+||instagram.com^$document,removeparam=igsh
+d2695 1
+d2730 3
+d2744 2
+a2776 1
+||tokopedia.com^$removeparam=whid
+d2930 1
+d3065 1
