@@ -1,9 +1,9 @@
-! Checksum: zqKF+CjpHyclXF5/2JSeuw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705016155-3600.patch
+! Checksum: Q3U2Pju/C6wxqowT2KIYuQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705023368-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.17.51
-! TimeUpdated: 2024-01-11T23:32:28+00:00
+! Version: 2.3.17.52
+! TimeUpdated: 2024-01-12T01:32:33+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -15979,6 +15979,7 @@ _widget_ad.
 /detroitchicago/tulsa.js
 /detroitchicago/tuscon.js
 /detroitchicago/vista.js
+/detroitchicago/wichita.js
 /ezoic/*$script,~third-party
 /parsonsmaize/abilene.js
 /parsonsmaize/chanute.js
@@ -22408,7 +22409,6 @@ browsershots.org#@#.advert_area
 ||ezexfzek.com^
 ||ezjhhapcoe.com^
 ||ezmob.com^
-||ezojs.com^
 ||ezoufdpeyqaain.com^
 ||ezsbhlpchu.com^
 ||f07neg4p.de^
