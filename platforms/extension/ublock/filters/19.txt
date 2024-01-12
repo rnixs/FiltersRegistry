@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: vNb15kZU+Un2KvN+VPNY/A
-! Diff-Path: ../patches/19/19-s-1705063032-3600.patch
+! Checksum: jEnQ5FCPQ74m1XA7p0WYxA
+! Diff-Path: ../patches/19/19-s-1705088201-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.92
-! TimeUpdated: 2024-01-12T12:32:43+00:00
+! Version: 2.0.29.93
+! TimeUpdated: 2024-01-12T19:32:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1798,7 +1798,6 @@ bbw-chan.nl##div[id^="justall"]
 regex101.com##.jyUE5
 ||radio-online.com.ua/scripts/ads.js
 suncalc.org##div[id^="ads"] > p
-iphoneitalia.com##.abavviso
 newscon.net###adblock-warning
 1001tracklists.com##+js(set-constant, showAds, true)
 /:\/\/shatter-box\.com\/wp-content\/uploads\/[A-Za-z0-9]+\/[A-Za-z0-9]+\.js/$domain=shatter-box.com
