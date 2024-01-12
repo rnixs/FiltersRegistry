@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: EjyppGf9DiuEKs7ETR/NNg
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705080969-3600.patch
+! Checksum: Ri8nNeNmgvmOHWEk/AhU2g
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705084602-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.17.63
-! TimeUpdated: 2024-01-12T17:32:39+00:00
+! Version: 2.3.17.64
+! TimeUpdated: 2024-01-12T18:33:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -20450,7 +20450,7 @@ blograffo.net###secondary a[href^="https://amzn.to/"] > img
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169805
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68438
 beverfood.com##+js(no-setInterval-if, adblock)
-beverfood.com#$#a[href^="/bnlink/?bnid="] { remove: true; }
+beverfood.com#$?#a[href^="/bnlink/?bnid="] { remove: true; }
 beverfood.com#$#body > div.sito { margin-top: 0 !important; }
 beverfood.com#$#body { background-image: none !important; background: #ddd !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70915

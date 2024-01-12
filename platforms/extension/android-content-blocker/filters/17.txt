@@ -1,9 +1,9 @@
-! Checksum: HMX7k/ZqB6pLDbY5U9/vYA
-! Diff-Path: ../patches/17/17-s-1705080939-3600.patch
+! Checksum: FbXzkrNn+QXLhAI0gLI1wQ
+! Diff-Path: ../patches/17/17-s-1705084573-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.79
-! TimeUpdated: 2024-01-12T17:31:50+00:00
+! Version: 2.0.7.80
+! TimeUpdated: 2024-01-12T18:32:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -151,7 +151,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111997
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164394
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-7337134
-! youtube.com - Copy video URL at its search result via mouse right click.
 ! damu.net homepage - Visit https://www.daum.net/ and click one of news feed.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/163568
 ! https://github.com/AdguardTeam/AdguardFilters/issues/163365
@@ -173,6 +172,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161229
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161441
 ! Youtube
+! https://github.com/AdguardTeam/AdguardFilters/issues/159953
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161013
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-6932203
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-6908261
@@ -180,7 +180,6 @@
 ! streamfab.jp
 ! etsy.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160495
-! https://github.com/AdguardTeam/AdguardFilters/issues/159953
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159733
 ! https://www.pixiv.net/novel/?novel13th_character_count_checker&from=pixiv_official_post
 ! https://querie.me/answer/t008mMA55hMnREySBJXZ?timestamp=1692022485

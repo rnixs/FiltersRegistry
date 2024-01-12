@@ -1,9 +1,9 @@
-! Checksum: BELJl/L0Ds+yF5RXaPNKCg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1705070199-3600.patch
+! Checksum: dNORTY/0JaADZY9PrKRmUw
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1705084573-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.19
-! TimeUpdated: 2024-01-12T14:32:44+00:00
+! Version: 2.0.31.20
+! TimeUpdated: 2024-01-12T18:32:23+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -3536,7 +3536,6 @@ domclick.ru##div[class^="cookie-root"]
 throwbacks.com,shared.com###gdprConsentPrompt
 voelkner.de#$#html.is_reveal_open { position: static !important; }
 travelcircus.de##.alert-bar-cookies
-movieplayer.it#$#html { overflow: visible !important; }
 convertlive.com###sid-container
 dzbank-derivate.de###screen-overlay
 aiscore.com##.privaryClass

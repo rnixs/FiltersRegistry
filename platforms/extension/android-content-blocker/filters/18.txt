@@ -1,9 +1,9 @@
-! Checksum: 8jP3BxycMmM8QF75BnF4kg
-! Diff-Path: ../patches/18/18-s-1705070199-3600.patch
+! Checksum: qchYR3qoURhHvIrM9sLkUA
+! Diff-Path: ../patches/18/18-s-1705084573-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.19
-! TimeUpdated: 2024-01-12T14:32:44+00:00
+! Version: 2.0.31.20
+! TimeUpdated: 2024-01-12T18:32:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6508,7 +6508,6 @@ voelkner.de#$#html.is_reveal_open { position: static !important; }
 futura.org.br###CC_LGPD
 travelcircus.de##.alert-bar-cookies
 sangfor.com##.sf-com-cookies
-movieplayer.it#$#html { overflow: visible !important; }
 convertlive.com###sid-container
 book.hacktricks.xyz,blissos.org###portals-root > div > div[data-rnw-media-class]
 dzbank-derivate.de###screen-overlay
