@@ -1,9 +1,9 @@
-! Checksum: eq483I0h/kognPSuXOiBlA
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1705048541-3600.patch
+! Checksum: KCRk05a7O0mwlrBmTEBtPg
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1705052127-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.81
-! TimeUpdated: 2024-01-12T08:32:02+00:00
+! Version: 2.0.11.82
+! TimeUpdated: 2024-01-12T09:32:01+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1527,6 +1527,7 @@ honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~xltrax.ee,~hitta.se,~mail.ru,~v7player.wostreaming.net,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
+||crai-supermercati.it/wp-content/themes/craitheme/js/vendor/smart-app-banner/
 cloudtempmail.com##.InstallAppAllStore
 m.hoyolab.com##.guide-download-drawer
 trello.com#%#//scriptlet('trusted-set-local-storage-item', 'mobilePromptClosed', '$now$')

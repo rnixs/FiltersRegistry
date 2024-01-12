@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: nnvWMK/TO2RQSerA6aR7Dg
-! Diff-Path: ../patches/20/20-s-1705048584-3600.patch
+! Checksum: ZNBhm0dkBuIZqo9u5int9A
+! Diff-Path: ../patches/20/20-s-1705052163-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.81
-! TimeUpdated: 2024-01-12T08:32:02+00:00
+! Version: 2.0.11.82
+! TimeUpdated: 2024-01-12T09:32:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3052,6 +3052,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! Limit it to mobile versions only
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 !
+||crai-supermercati.it/wp-content/themes/craitheme/js/vendor/smart-app-banner/
 cloudtempmail.com##.InstallAppAllStore
 m.hoyolab.com##.guide-download-drawer
 duolingo.com#?#footer[class^="_"] + div[class^="_"]:has(> div[class] > div[class^="_"] > a[href*="adj.st/?"])

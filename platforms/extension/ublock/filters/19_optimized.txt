@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: rYQvo9xF79Na1aL/IrJa9w
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1705048582-3600.patch
+! Checksum: dB4zeIcB7wqYdzjnqhkSjg
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1705052161-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.89
-! TimeUpdated: 2024-01-12T08:31:50+00:00
+! Version: 2.0.29.90
+! TimeUpdated: 2024-01-12T09:31:49+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -128,6 +128,8 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Hom
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InArticleAd
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
+||dependenttrip.com^$third-party
+||rememberdiscussion.com^$third-party
 ||zephyrlabyrinth.com^$third-party
 ||samplesamba.com^$third-party
 ||featherstage.com^$third-party
@@ -330,6 +332,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ||wp-r.github.io/*/assets/js/jquery.adsplacer.ab-testing.js
 ||wp-r.github.io/adsplacer_pro/$third-party
 !#safari_cb_affinity
+vrcmods.com###showfreemethod
 tekniknot.com##+js(set-constant, alert, undefined)
 bravedown.com##+js(no-fetch-if, adskeeper)
 ||search-module.*.amazonaws.com/pubs/trib/aa_adb_modal*.js$domain=triblive.com
@@ -8125,8 +8128,8 @@ mann-ivanov-ferber.ru##.nkk-presale-mini
 mann-ivanov-ferber.ru##.nkk-subscribe-form
 ideasoft.com.tr,eticaret.com,lifehack.org##.convertflow-cta
 burdastyle.ru##footer > .follow
-usatoday.com##aside[aria-label="Newsletter signup form"]
-usatoday.com##form[aria-label^="Sign up for newsletter"]
+lansingstatejournal.com,usatoday.com##aside[aria-label="Newsletter signup form"]
+lansingstatejournal.com,usatoday.com##form[aria-label^="Sign up for newsletter"]
 meat-expert.ru##.subscribe-side-form
 space.com###article-body > figure > a[target="_blank"] img
 journal.tinkoff.ru##div[data-tracking-level-label*="mailing"]
