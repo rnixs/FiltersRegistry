@@ -1,9 +1,9 @@
-! Checksum: OMUVvsjv44xpppJEYNQUbg
-! Diff-Path: ../patches/14/14-s-1705070194-3600.patch
+! Checksum: FZwKNQSz0ZyRkXiyN6aU+w
+! Diff-Path: ../patches/14/14-s-1705077344-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.52
-! TimeUpdated: 2024-01-12T14:32:32+00:00
+! Version: 2.1.84.53
+! TimeUpdated: 2024-01-12T16:31:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -41269,8 +41269,6 @@ youtube.com##ytd-statement-banner-renderer
 osehero.pl##.social-media-fabs-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98919
 qanda.ai##img + div[class^="Picture__Cover-"]
-! https://github.com/AdguardTeam/AdguardFilters/issues/138515
-reports.adguard.info,reports.adguard.app,reports.adguard.com##.flash-wrapper-wrap
 ! adguard.com and mirrors - social links in comment section
 adguard.info,adguard.app,adguard.com##.blog-comments__social
 ! adguard-dns.io, adguard-vpn.com, adguard.com - common rule for all annoyances on the site
