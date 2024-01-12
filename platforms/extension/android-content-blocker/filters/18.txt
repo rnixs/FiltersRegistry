@@ -1,9 +1,9 @@
-! Checksum: rZdWvApjAievfBqmziz3xg
-! Diff-Path: ../patches/18/18-s-1705063000-3600.patch
+! Checksum: CGIyYExVs0dJ6KdmHMVdBw
+! Diff-Path: ../patches/18/18-s-1705066568-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.17
-! TimeUpdated: 2024-01-12T12:32:40+00:00
+! Version: 2.0.31.18
+! TimeUpdated: 2024-01-12T13:32:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -16463,8 +16463,6 @@ rusta.com#@#.cookie-content
 @@||github.com/*/cookie_consent^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/16275
 @@||virginmedia.com/etc/designs/lgi-uk-mobile/*/cookie-disclaimer.min.$domain=virginmedia.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/15157
-jerusalemonline.com#@##cookie-popup
 ! wykop.pl - incorrect blocking on iOS
 !+ PLATFORM(ios, ext_android_cb)
 wykop.pl#@#div[class$="cookie"]

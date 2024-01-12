@@ -1,9 +1,9 @@
-! Checksum: k9DyNPyTn1x2j9TW+Wr4nw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1705062999-3600.patch
+! Checksum: eANUA07+KKHhKpaMfZxsyQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1705066568-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.50
-! TimeUpdated: 2024-01-12T12:32:28+00:00
+! Version: 2.1.84.51
+! TimeUpdated: 2024-01-12T13:31:56+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -7615,7 +7615,6 @@ rusta.com#@#.cookie-content
 @@||transip.*/services/cookie-consent/
 @@||consensu.org^$domain=ghacks.net|sourceforge.net|globalplayer.com
 @@||lightningmaps.org/min/index.php?f=css/$domain=lightningmaps.org
-jerusalemonline.com#@##cookie-popup
 !+ PLATFORM(ios, ext_android_cb)
 wykop.pl#@#div[class$="cookie"]
 @@||macitynet.it/wp-content/plugins/cookie-law-info^

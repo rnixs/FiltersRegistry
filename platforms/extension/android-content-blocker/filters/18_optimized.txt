@@ -1,9 +1,9 @@
-! Checksum: QfSnarGZSxheiMU4D6cS/Q
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1705063000-3600.patch
+! Checksum: nbS/R1BWZobx0Q1/GkMMfQ
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1705066568-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.17
-! TimeUpdated: 2024-01-12T12:32:40+00:00
+! Version: 2.0.31.18
+! TimeUpdated: 2024-01-12T13:32:07+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -7405,7 +7405,6 @@ rusta.com#@#.cookie-content
 @@||transip.*/services/cookie-consent/
 @@||consensu.org^$domain=ghacks.net|sourceforge.net|globalplayer.com
 @@||lightningmaps.org/min/index.php?f=css/$domain=lightningmaps.org
-jerusalemonline.com#@##cookie-popup
 !+ PLATFORM(ios, ext_android_cb)
 wykop.pl#@#div[class$="cookie"]
 @@||macitynet.it/wp-content/plugins/cookie-law-info^
