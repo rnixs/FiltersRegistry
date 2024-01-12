@@ -1,9 +1,9 @@
-! Checksum: CGIyYExVs0dJ6KdmHMVdBw
-! Diff-Path: ../patches/18/18-s-1705066568-3600.patch
+! Checksum: 8jP3BxycMmM8QF75BnF4kg
+! Diff-Path: ../patches/18/18-s-1705070199-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.18
-! TimeUpdated: 2024-01-12T13:32:07+00:00
+! Version: 2.0.31.19
+! TimeUpdated: 2024-01-12T14:32:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12965,6 +12965,8 @@ online.swedbank.se##fdp-widget-cookie-consent
 ! youtube - new cookie window
 ! https://github.com/AdguardTeam/Scriptlets/issues/212
 ! TODO: replace the rule with a scriptlet `set-cookie-reload` when it is improved
+! https://github.com/AdguardTeam/AdguardFilters/issues/170429
+! If there will be many complains about empty home page, then rule below can be used:
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169466
 ! https://gist.github.com/AdamWr/b32688adb0393d31525f445ee5ab4302#file-gistfile1-txt
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161693

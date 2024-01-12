@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 4BjrvZzNd5T7IVNZepHzeA
-! Diff-Path: ../patches/14/14-s-1705066596-3600.patch
+! Checksum: Cfv2GP4nyY4r/zl3Sfx4Nw
+! Diff-Path: ../patches/14/14-s-1705070231-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.51
-! TimeUpdated: 2024-01-12T13:31:56+00:00
+! Version: 2.1.84.52
+! TimeUpdated: 2024-01-12T14:32:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13999,6 +13999,8 @@ afjord-sparebank.no,andebu-sparebank.no,aurskog-sparebank.no,berg-sparebank.no,b
 ! youtube - new cookie window
 ! https://github.com/AdguardTeam/Scriptlets/issues/212
 ! TODO: replace the rule with a scriptlet `set-cookie-reload` when it is improved
+! https://github.com/AdguardTeam/AdguardFilters/issues/170429
+! If there will be many complains about empty home page, then rule below can be used:
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169466
 ! https://gist.github.com/AdamWr/b32688adb0393d31525f445ee5ab4302#file-gistfile1-txt
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161693
