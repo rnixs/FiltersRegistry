@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: 8uOUrh3adaQ2jtFWv9IZ7g
-! Diff-Path: ../patches/120/120-s-1705122414-14400.patch
+! Checksum: IFgyku5hISy46ldIT3+Yog
+! Diff-Path: ../patches/120/120-s-1705180031-14400.patch
 ! Title: AdBlockID
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.37
-! TimeUpdated: 2024-01-13T05:02:14+00:00
+! Version: 2.0.18.38
+! TimeUpdated: 2024-01-13T21:02:29+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 24.1.21
+! OriginalVersion: 24.1.22
 ! Title: AdBlockID
 ! Description: Filter list that specifically removes adverts on Indonesian language websites.
-! Last modified: 13 Jan 2024 04:33 UTC
+! Last modified: 13 Jan 2024 18:58 UTC
 ! Expires: 1 days
 ! Homepage: https://github.com/realodix/AdBlockID
 .id^*/ads_$domain=~cartalog.id
@@ -3325,6 +3325,7 @@ detik.com##.banner_reg
 detik.com##.billboard-top
 haibunda.com##.billboard__banner
 cnbcindonesia.com##.box-ads
+cnnindonesia.com##.detail_ads
 cnnindonesia.com,detik.com,insertlive.com##.footer_banner
 cnbcindonesia.com,detik.com##.megabillboard
 detik.com##.new_banner_reg_100
