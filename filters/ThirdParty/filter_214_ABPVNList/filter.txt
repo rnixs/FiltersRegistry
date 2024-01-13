@@ -1,9 +1,9 @@
 !#if (adguard_ext_android_cb)
 ! version for AdGuard Content Blocker only
-! OriginalVersion: 20240113115137
+! OriginalVersion: 20240113124050
 ! Title: ABPVN List
-! Last modified: 13 Jan 2024 11:51:37 UTC+7
-! Diff-Path: patches/20240113115137.patch#abpvn_content_blocker
+! Last modified: 13 Jan 2024 12:40:50 UTC+7
+! Diff-Path: patches/20240113124050.patch#abpvn_content_blocker
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -110,7 +110,7 @@
 ||chillphimmoiz.org/assets/*.gif$image
 ||chillphimmoiz.org/assets/js/popup.js
 ||chodansinh.net^*.gif
-||chotlo.me^*gif
+||chotlo247.net^*gif
 ||chouthep.net^$script,domain=truyengihotvay.net|truyengihotqua.net|truyengihotnay.com
 ||clbgamesvn.com/diendan/popup/popup.js$script,~third-party
 ||cmangaaz.com/assets/img/pr/
@@ -127,9 +127,9 @@
 ||fuhuzz.com/content/rest?t=ads_config$xmlhttprequest
 ||fun6668.com/Banner/$domain=mythethao.net
 ||gamedoithuong.org^*.gif$image
-||gamenoob.net/wp-content/plugins/convertplug/modules/modal/assets/js/modal.min.js
-||gamenoob.net/wp-content/plugins/simple-banner/simple-banner.js
-||gamenoob.net^*.gif
+||gamenoobz.net/wp-content/plugins/convertplug/modules/modal/assets/js/modal.min.js
+||gamenoobz.net/wp-content/plugins/simple-banner/simple-banner.js
+||gamenoobz.net^*.gif
 ||ghienphim11.net/client_assets/images/
 ||ghienphim11.net/client_assets/js/minijumb.js
 ||ght.kernh41.com^$script,third-party
@@ -500,8 +500,8 @@ chillphim2.com##.block-bookmaker.block.most-view
 chillphim2.com,zuiphim.com##.banner-preload
 chodansinh.net##.link-gold
 chodansinh.net##[id^="banner"]
-chotlo.me##div[id^="float"]
-chotlo.me##div[id^="hide_float"]
+chotlo247.net##div[id^="float"]
+chotlo247.net##div[id^="hide_float"]
 chouc.com###text-14
 chouc.com##.hocwp-ads
 clbgamesvn.com##.bannerBox
@@ -578,8 +578,8 @@ game8.vn##.box_baiviet_dexuat
 game8.vn##.box_quangcao_mobile_320x50
 game8.vn##.box_text_qc
 gameio.vn###tubia
-gamenoob.net##.cp-modal-popup-container
-gamenoob.net##.simple-banner
+gamenoobz.net##.cp-modal-popup-container
+gamenoobz.net##.simple-banner
 gametv.vn##.ads-right1
 gametv.vn##.adv-row
 gamevui.vn##.adx-zone
@@ -763,7 +763,7 @@ mitub.net##[href^="//dooloust.net/"]
 mn.mediastation.live##.btn-bottom-right-append-player
 motchilli.net,motphimtvi.com###mp-adbk
 motchilli.net,motphimtvi.com###mp-adx-b32
-motchilli.net,motphimtvi.com,vkooll.net,phimmoichillk.net,ophimhd.vip,phimmoizz.org##.mp-adz
+motchilli.net,motphimtvi.com,vkooll.net,phimmoichillm.net,ophimhd.vip,phimmoizz.org##.mp-adz
 motphim1.info##.widget_custom_html.widget.widget_text
 motphim1.info,hhchina.pro,animevip.tv,hhtqvietsub.top##.box_odds
 motphimhan.cc###ads-for-all
@@ -837,7 +837,7 @@ phimmoichill79.cc###headermbads
 phimmoichill79.cc###headerpcads
 phimmoichill79.cc###mobiads
 phimmoichill79.cc###pcads
-phimmoichillk.net###pm_quangcao
+phimmoichillm.net###pm_quangcao
 phimmoiv2.com,ophimhd.vip##.uniad-player + div[style]
 phimmoizz.org##[id^="catfish"]
 phimnhua.com###catfish-banner
@@ -1393,10 +1393,10 @@ xem.sexnhanh.co##.alldiv ~ div[class]
 !
 !#if (!adguard_ext_android_cb)
 ! version for all other AdGuard products
-! OriginalVersion: 20240113115137
+! OriginalVersion: 20240113124050
 ! Title: ABPVN List
-! Last modified: 13 Jan 2024 11:51:37 UTC+7
-! Diff-Path: patches/20240113115137.patch#abpvn_adguard
+! Last modified: 13 Jan 2024 12:40:50 UTC+7
+! Diff-Path: patches/20240113124050.patch#abpvn_adguard
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -1503,7 +1503,7 @@ xem.sexnhanh.co##.alldiv ~ div[class]
 ||chillphimmoiz.org/assets/*.gif$image
 ||chillphimmoiz.org/assets/js/popup.js
 ||chodansinh.net^*.gif
-||chotlo.me^*gif
+||chotlo247.net^*gif
 ||chouthep.net^$script,domain=truyengihotvay.net|truyengihotqua.net|truyengihotnay.com
 ||clbgamesvn.com/diendan/popup/popup.js$script,~third-party
 ||cmangaaz.com/assets/img/pr/
@@ -1520,9 +1520,9 @@ xem.sexnhanh.co##.alldiv ~ div[class]
 ||fuhuzz.com/content/rest?t=ads_config$xmlhttprequest
 ||fun6668.com/Banner/$domain=mythethao.net
 ||gamedoithuong.org^*.gif$image
-||gamenoob.net/wp-content/plugins/convertplug/modules/modal/assets/js/modal.min.js
-||gamenoob.net/wp-content/plugins/simple-banner/simple-banner.js
-||gamenoob.net^*.gif
+||gamenoobz.net/wp-content/plugins/convertplug/modules/modal/assets/js/modal.min.js
+||gamenoobz.net/wp-content/plugins/simple-banner/simple-banner.js
+||gamenoobz.net^*.gif
 ||ghienphim11.net/client_assets/images/
 ||ghienphim11.net/client_assets/js/minijumb.js
 ||ght.kernh41.com^$script,third-party
@@ -1891,8 +1891,8 @@ chillphim2.com##.block-bookmaker.block.most-view
 chillphim2.com,zuiphim.com##.banner-preload
 chodansinh.net##.link-gold
 chodansinh.net##[id^="banner"]
-chotlo.me##div[id^="float"]
-chotlo.me##div[id^="hide_float"]
+chotlo247.net##div[id^="float"]
+chotlo247.net##div[id^="hide_float"]
 chouc.com###text-14
 chouc.com##.hocwp-ads
 clbgamesvn.com##.bannerBox
@@ -1969,8 +1969,8 @@ game8.vn##.box_baiviet_dexuat
 game8.vn##.box_quangcao_mobile_320x50
 game8.vn##.box_text_qc
 gameio.vn###tubia
-gamenoob.net##.cp-modal-popup-container
-gamenoob.net##.simple-banner
+gamenoobz.net##.cp-modal-popup-container
+gamenoobz.net##.simple-banner
 gametv.vn##.ads-right1
 gametv.vn##.adv-row
 gamevui.vn##.adx-zone
@@ -2154,7 +2154,7 @@ mitub.net##[href^="//dooloust.net/"]
 mn.mediastation.live##.btn-bottom-right-append-player
 motchilli.net,motphimtvi.com###mp-adbk
 motchilli.net,motphimtvi.com###mp-adx-b32
-motchilli.net,motphimtvi.com,vkooll.net,phimmoichillk.net,ophimhd.vip,phimmoizz.org##.mp-adz
+motchilli.net,motphimtvi.com,vkooll.net,phimmoichillm.net,ophimhd.vip,phimmoizz.org##.mp-adz
 motphim1.info##.widget_custom_html.widget.widget_text
 motphim1.info,hhchina.pro,animevip.tv,hhtqvietsub.top##.box_odds
 motphimhan.cc###ads-for-all
@@ -2228,7 +2228,7 @@ phimmoichill79.cc###headermbads
 phimmoichill79.cc###headerpcads
 phimmoichill79.cc###mobiads
 phimmoichill79.cc###pcads
-phimmoichillk.net###pm_quangcao
+phimmoichillm.net###pm_quangcao
 phimmoiv2.com,ophimhd.vip##.uniad-player + div[style]
 phimmoizz.org##[id^="catfish"]
 phimnhua.com###catfish-banner
@@ -2777,7 +2777,7 @@ baomoi.com#%#//scriptlet("abort-on-property-write", "AdtimaBaomoi")
 boophim.net,chillphimmoiz.org#%#//scriptlet("remove-attr", "data-pop1|data-pop2", "body")
 cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn#%#//scriptlet("abort-current-inline-script", "Object.defineProperty", "ADMStorageFileCDN")
 cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn#%#//scriptlet("set-constant", "ADMStorageFileCDN", "noopFunc")
-chotlo.me#$##header {margin-top: 0!important}
+chotlo247.net#$##header {margin-top: 0!important}
 dood.pm#%#//scriptlet("abort-on-property-write", "DoodPop")
 downloadsachmienphi.com#%#//scriptlet("abort-current-inline-script", "JSON.parse", "break;case $.")
 dualeotruyenid.com,m.blogtruyenmoi.com#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "popunder")

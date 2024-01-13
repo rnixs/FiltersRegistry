@@ -1,9 +1,9 @@
-! Checksum: hSE31kRGi8b9peUuxfFpMw
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1705122402-14400.patch
+! Checksum: VgejkArUC4al17+DM5zG1A
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1705136815-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.37.99
-! TimeUpdated: 2024-01-13T05:03:16+00:00
+! Version: 2.1.38.0
+! TimeUpdated: 2024-01-13T09:03:18+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -703,7 +703,6 @@ infoilawa.pl###popup-wrapper
 mapa.szukacz.pl,szukacz.pl###popupContainer
 zwik.skawina.pl###popupDiv
 zmianywzyciu.pl###popup_facebook
-polskaizbabranzypogrzebowej.pl###post-2637
 nudziara.pl###post.format_post.nudziara.masonry-brick
 mazopolska.pl###posts-banner
 babiel.com.pl###prawa
@@ -1951,6 +1950,7 @@ badaniaprenatalne.pl##a[href*="badanienifty.pl"]
 businesstraveller.pl##a[href*="campaign=baner_"]
 cozadzien.pl##a[href*="czesciauto24.pl"]
 eko-mazurymariny.pl##a[href*="hoteltajty.pl"]
+badaniaprenatalne.pl##a[href*="http://prekoncepcja.pl/"]
 anime-odcinki.pl##a[href*="https://e-neko.pl"] > img
 radomsport.pl##a[href*="https://www.toyota.radom.pl"]
 cozadzien.pl,namasce.pl##a[href*="iparts.pl"]
