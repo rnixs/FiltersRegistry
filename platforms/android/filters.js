@@ -457,8 +457,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/android/filters/7_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.47.51",
-			"timeUpdated": "2024-01-12T10:33:09+0000",
+			"version": "2.0.47.52",
+			"timeUpdated": "2024-01-13T15:34:23+0000",
 			"languages": [
 				"ja"
 			],
