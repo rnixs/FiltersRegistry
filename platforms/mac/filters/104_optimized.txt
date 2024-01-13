@@ -1,9 +1,9 @@
-! Checksum: wffuDKd5ef53Z7n2obOngA
-! Diff-Path: ../patches/104_optimized/104_optimized-s-1705093670-14400.patch
+! Checksum: E9W8ORuRZzV80u+7xFT0Uw
+! Diff-Path: ../patches/104_optimized/104_optimized-s-1705108041-14400.patch
 ! Title: EasyList China (Optimized)
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.33.71
-! TimeUpdated: 2024-01-12T21:02:27+00:00
+! Version: 2.1.33.72
+! TimeUpdated: 2024-01-13T01:02:05+00:00
 ! Expires: 5 days (update frequency)
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
@@ -2184,6 +2184,10 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||cjpczyi.cn^
+||kjrspnbf.xyz^
+||yqlxwb.icu^
+||jcluhz.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##a[href*=".337771.xyz"]
