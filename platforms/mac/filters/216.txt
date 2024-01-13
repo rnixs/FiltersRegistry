@@ -1,9 +1,9 @@
-! Checksum: 0FBFikkyuODtgKqNhkDR8w
-! Diff-Path: ../patches/216/216-s-1705093673-14400.patch
+! Checksum: UUns7oeQgqE9zoglwogF6w
+! Diff-Path: ../patches/216/216-s-1705165635-14400.patch
 ! Title: Official Polish filters for AdBlock, uBlock Origin & AdGuard
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.0.15.20
-! TimeUpdated: 2024-01-12T21:03:08+00:00
+! Version: 2.0.15.21
+! TimeUpdated: 2024-01-13T17:02:45+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: Official Polish Filters for AdBlock, uBlock Origin & AdGuard
@@ -14,9 +14,9 @@
 ! Works best with EasyList - be sure to subscribe it as well!
 ! Działa najlepiej z EasyList - pamiętaj aby zasubskrybować!
 !   Patronite ==> https://patronite.pl/polskiefiltry
-! Last modified: 12 January 2024
+! Last modified: 13 January 2024
 ! Expires: 1 day
-! OriginalVersion: 2024011201
+! OriginalVersion: 2024011301
 ! Support:
 !   Email >> errorsfilters@certyficate.it
 !   Github >> https://github.com/MajkiIT/polish-ads-filter/issues
@@ -24,7 +24,7 @@
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright © 2023 Certyficate IT
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock
-! v.2024011201 aktualizacja: pt, 12 stycznia 2024, 16:20:00
+! v.2024011201 aktualizacja: sob, 13 stycznia 2024, 17:35:00
 !
 !
 !1#-----------------------General advert blocking filters-----------------------!
@@ -5139,6 +5139,8 @@ filmyfilmy.pl###play
 ||grodohom-invest.com^
 ||zapmeta.com.pl^
 ||luckypuppy.top^
+||allepharm.com^
+||trichomist.store^
 !
 !24#--------------------------Rules for ublock, but can be use with adblock------------!
 ||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=exs.pl,important
