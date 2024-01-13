@@ -1,9 +1,9 @@
-! Checksum: yFqUuHwXy2QFP6/dJwYhNA
-! Diff-Path: ../patches/214_optimized/214_optimized-s-1705093641-14400.patch
+! Checksum: Z4jaXzQvxM6/uykBIuqeug
+! Diff-Path: ../patches/214_optimized/214_optimized-s-1705122401-14400.patch
 ! Title: ABPVN List (Optimized)
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.26.9
-! TimeUpdated: 2024-01-12T21:03:05+00:00
+! Version: 2.0.26.10
+! TimeUpdated: 2024-01-13T05:02:34+00:00
 ! Expires: 5 days (update frequency)
 .com/cpc/$script
 .com/qc/
@@ -1224,7 +1224,7 @@ $third-party,script,domain=sexdiaryx.us
 ||greenupload.com^*.gif$image,domain=thiendia1.cc
 ||greenupload.com^*ad-$image,domain=thiendia1.cc
 ||greenupload.com^*banner$image
-||hentaivn.red/qx/$subdocument
+||hentaivn.lol/qx/$subdocument
 ||i.ibb.co^$image,domain=thiendia1.cc
 ||i.imgur.com^$image,domain=phym18.org|phim18hd.biz|phim18vn.biz|phim18hd.me|xamvn.dog
 ||i2.wp.com/hentaivnmoi.net/*banner
@@ -1280,7 +1280,7 @@ damconuong.net##a[rel="nofollow"]
 filemoon.sx##body>[style*="position: fixed;"]
 gaingon18.com###iklan-atas-wrapper
 gockhuat.net###ad_global_below_navbar
-hentaivn.red##.qx_135
+hentaivn.lol##.qx_135
 javhay.cam##.v4j-header>center
 javhd.shop,vlxx.studio,heovl.io##.hd-tube-desktop
 javhd.shop,vlxx.studio,heovl.io##.hd-tube-mobile
@@ -1339,7 +1339,7 @@ vailonxx.co###ab_ctl
 vailonxx.com##.happy-under-player
 vailonxx.com##.vailo-sticky
 vailonxx.com##.vailo-under-navbar-mobile
-viet69.id##.footer-fixed-br-container
+viet69.red##.footer-fixed-br-container
 vlxx.xxx###adx
 vlxx.xxx##.banner-preload
 vlxx.xxx##.catfish-bottom
@@ -1418,7 +1418,7 @@ truyenqqvn.com#%#//scriptlet("abort-current-inline-script", "document.addEventLi
 truyensieuhay.com,phimvietsub.pro,tvhayh.org,www2.vuaphimmoi1.net,quangcaoyenbai.com,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com,khophim88.net#%#//scriptlet("abort-on-property-read", "document.cookie")
 truyentuanopm.com#%#//scriptlet("abort-current-inline-script", "$", "btpop")
 vailonxx.com,phimlongtieng.com,phimlongtieng.net#%#//scriptlet("abort-current-inline-script", "jQuery", "window.open")
-viet69.id,ungtycomicsvip.com,vlxx.xxx,dualeotruyenid.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.biz,doctruyen3qup.com,hentaizz.vip,animehay.city,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.moe,hentai-vn.com,web27.sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv,cdnstream.sbs,javtiful.com,truyengihotvay.net,truyengihotqua.net,truyengihotnay.com,tuoi69.tv#%#//scriptlet("abort-current-inline-script", "WebAssembly", "instantiate")
+viet69.red,ungtycomicsvip.com,vlxx.xxx,dualeotruyenid.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.biz,doctruyen3qup.com,hentaizz.vip,animehay.city,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.moe,hentai-vn.com,web27.sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv,cdnstream.sbs,javtiful.com,truyengihotvay.net,truyengihotqua.net,truyengihotnay.com,tuoi69.tv#%#//scriptlet("abort-current-inline-script", "WebAssembly", "instantiate")
 viettoons.tv,mv.phimmoiaz.cc,m.blogtruyenvn.com,animet.net,anh.moe#%#//scriptlet("abort-on-property-read", "open")
 vinaurl.net#%#//scriptlet("abort-on-property-read", "oneClick")
 vndoc.com#%#//scriptlet("set-constant", "seconds", "0")
