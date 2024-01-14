@@ -1,9 +1,9 @@
-! Checksum: XTffCHFeuqXycKxBVG9uIA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705250182-3600.patch
+! Checksum: 8HzfA3IXKuQwpCmUJ+tWgw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705253783-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.17.77
-! TimeUpdated: 2024-01-14T16:33:12+00:00
+! Version: 2.3.17.78
+! TimeUpdated: 2024-01-14T17:33:17+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -21042,6 +21042,7 @@ browsershots.org#@#.advert_area
 ||can-get-some.in^
 ||canastagruff.com^
 ||candypeaches.com^
+||candyschoolmasterbullying.com^
 ||canoevaguely.com^
 ||cansdecyne.com^
 ||canstrm.com^
@@ -21412,6 +21413,7 @@ browsershots.org#@#.advert_area
 ||coxiesthubble.com^
 ||cpa-optimizer.online^
 ||cpcmart.com^
+||cpfwffke.com^
 ||cplayer.pw^
 ||cpm20.com^
 ||cpmgatenetwork.com^
@@ -22274,6 +22276,7 @@ browsershots.org#@#.advert_area
 ||flashnetic.com^
 ||flatepicbats.com^
 ||flaxierfilmset.com^
+||flcrcyj.com^
 ||fldkakjccxhgw.com^
 ||flelgwe.site^
 ||fleraprt.com^
@@ -22469,6 +22472,7 @@ browsershots.org#@#.advert_area
 ||gatetocontent.com^
 ||gatetodisplaycontent.com^
 ||gatetotrustednetwork.com^
+||gaujephi.xyz^
 ||gaumoata.com^
 ||gauvaiho.net^
 ||gazeesoter.com^
@@ -22861,6 +22865,7 @@ browsershots.org#@#.advert_area
 ||hhklc.com^
 ||hhkld.com^
 ||hibids10.com^
+||hicovjpufo.com^
 ||hiddenseet.com^
 ||hierarchymicrophonerandom.com^
 ||highconvertingformats.com^
@@ -22882,6 +22887,7 @@ browsershots.org#@#.advert_area
 ||hightech24h.com^
 ||highwaycpmrevenue.com^
 ||hilerant.site^
+||hillhousehomes.co^
 ||hilltopads.com^
 ||hilltopads.net^
 ||himediads.com^
@@ -23088,6 +23094,7 @@ browsershots.org#@#.advert_area
 ||implix.com^
 ||impolitefreakish.com^
 ||impostorconfused.com^
+||impressiveporchcooler.com^
 ||improvebin.com^
 ||impunekotoite.com^
 ||in-appadvertising.com^
@@ -24168,6 +24175,7 @@ browsershots.org#@#.advert_area
 ||mxzluxet.com^
 ||my1elitclub.com^
 ||myactualblog.com^
+||myadsserver.com^
 ||mybestdc.com^
 ||mybmrtrg.com^
 ||mycasinoaccounts.com^
@@ -24962,6 +24970,7 @@ browsershots.org#@#.advert_area
 ||pnsqsv.com^
 ||pnufzbzzomt.com^
 ||pnuhondppw.com^
+||pnxtsauba.com^
 ||pnyjzdtirvufft.com^
 ||poacawhe.net^
 ||poanouwy.net^
@@ -26148,6 +26157,7 @@ browsershots.org#@#.advert_area
 ||ssqyuvavse.com^
 ||st-rdirect.com^
 ||st1net.com^
+||stacckain.com^
 ||stackadapt.com^
 ||stagepopkek.com^
 ||staggeredravehospitality.com^
@@ -27447,6 +27457,7 @@ browsershots.org#@#.advert_area
 ||yiqetu.uno^
 ||yistkechauk.org^
 ||yjrchhgs.com^
+||yjvuthpuwrdmdt.xyz^
 ||yldbt.com^
 ||ylgewqoohskzmx.com^
 ||ylih6ftygq7.com^
@@ -27457,6 +27468,7 @@ browsershots.org#@#.advert_area
 ||ylzkfpzqffqon.com^
 ||ynaapihbulbky.com^
 ||yndmorvwdfuk.com^
+||yneaimn.com^
 ||ynkjwogined.com^
 ||ynrije.com^
 ||ynuyvhkxpqqnr.com^
@@ -28062,7 +28074,9 @@ browsershots.org#@#.advert_area
 ||green-resultsbid.com^$popup
 ||highcpmrevenuenetwork.com^$popup
 ||highperformancegate.com^$popup
+||hillhousehomes.co^$popup
 ||hxmanga.com^$popup
+||impressiveporchcooler.com^$popup
 ||instancesflushedslander.com^$popup
 ||intorterraon.com^$popup
 ||jeekomih.com^$popup
@@ -28077,6 +28091,7 @@ browsershots.org#@#.advert_area
 ||meenetiy.com^$popup
 ||messenger-notify.xyz^
 ||mgid.com^$popup
+||myadsserver.com^$popup
 ||naxadrug.com^$popup
 ||nossairt.net^$popup
 ||ntsiwoulukdli.org^$popup
@@ -28109,6 +28124,7 @@ browsershots.org#@#.advert_area
 ||someonein.org^$popup
 ||specialisthuge.com^$popup
 ||srvpcn.com^$popup
+||stacckain.com^$popup
 ||stoorgel.com^$popup
 ||strungcourthouse.com^$popup
 ||stvkr.com^$popup
@@ -28199,6 +28215,7 @@ browsershots.org#@#.advert_area
 ||1082580998.rsc.cdn77.org^
 ||10945-5.s.cdn15.com^
 ||1143895874.rsc.cdn77.org^
+||1145191861.rsc.cdn77.org^
 ||1193176784.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
 ||1603463731.rsc.cdn77.org^
