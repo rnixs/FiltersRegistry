@@ -1,9 +1,9 @@
-! Checksum: MPonsk2CWyKijtenX7hp5A
-! Diff-Path: ../patches/247/247-s-1704720270-14400.patch
+! Checksum: letI5jOVR2rCcVTMeWqedQ
+! Diff-Path: ../patches/247/247-s-1705194438-14400.patch
 ! Title: Polish Anti-Annoying Special Supplement
 ! Description: Filters that block and hide RSS elements and remnants of hidden newsletters combined with social elements on Polish websites.
-! Version: 2.0.3.63
-! TimeUpdated: 2024-01-08T13:03:09+00:00
+! Version: 2.0.3.64
+! TimeUpdated: 2024-01-14T01:03:21+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: 🇵🇱 Polski Antyirytujący Dodatek Specjalny
@@ -11,8 +11,8 @@
 ! Codename: PASS
 ! Description: Filtry blokujące i ukrywające elementy RSS oraz resztki po ukrytych newsletterach złączonych z elementami społecznościowymi na polskojęzycznych stronach.
 ! Używanie listy „Polski Antyirytujący Dodatek Specjalny" jest jednoznaczne ze świadomością, co do jej zawartości (co blokuje itp.) a twórcy nie ponoszą odpowiedzialności za niewiedzę użytkownika.
-! Last modified: Sun, 07 Jan 2024, 21:50 UTC+01:00
-! OriginalVersion: 2024.1.0
+! Last modified: Sat, 13 Jan 2024, 23:55 UTC+01:00
+! OriginalVersion: 2024.1.1
 ! Expires: 7 days
 ! Support:
 !   Github => https://github.com/FiltersHeroes/PolishAntiAnnoyingSpecialSupplement/issues
@@ -267,6 +267,7 @@ kordialne.pl##.footer_bar > .postbit_buttons.wrapper > a.float_right:nth-of-type
 korr.pl##a[href^="/?format=feed&type=rss"]
 korsokolbuszowskie.pl##a[href*="korsokolbuszowskie.pl/rss"]
 kosapopatelni.pl##div.footer-col3:nth-of-type(3)
+kosmonauta.net##.social-icons a[href*="rss"]
 kozienice24.pl,lipsko24.pl,zwolen24.pl##img[src="images/index_r.png"]
 koziolekweb.pl##.RSSLink
 krakow.pl##.spolczne > .spolecz > li:nth-of-type(5)
@@ -360,6 +361,7 @@ oculino.com##.site-social-icons-rss
 ogloszenioteka.pl##a[href*="ogloszenioteka.pl/feed.php"]
 oiot.pl,tabletowo.pl###top-bar-message
 oknonawagrowiec.pl##.theiaStickySidebar > div[id^="penci-social-counter-"]
+oko.press##.flex > a[href^="https://news.google.com/publications/"], li > a[href^="https://news.google.com/publications/"]
 omediach.info###custom_html-5 > .panel-header
 onet.pl#?#.followUs:-abp-has(> a[href*="news.google.com/publications/"]:only-of-type)
 onet.pl#?#.followUs:-abp-has(> div > a[href*="news.google.com/publications/"]:only-of-type)

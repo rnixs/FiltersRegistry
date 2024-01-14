@@ -1,9 +1,9 @@
-! Checksum: MCdeEIHZLP0I30qIaTw6GA
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1705180004-14400.patch
+! Checksum: xGzZHYsFMAAZ+2tTfvYlWA
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1705194397-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.24
-! TimeUpdated: 2024-01-13T21:02:40+00:00
+! Version: 2.1.19.25
+! TimeUpdated: 2024-01-14T01:02:30+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -13586,7 +13586,7 @@ compress-or-die.com##.module_global-cookie-consent
 motherless.com##.motherless-cookie-wrapper
 motorsport.com,motorsport.uol.com.br##.ms-footer-messages
 floridashistoriccoast.com##.msg--cookie-consent
-miraheze.org##.mw-cookiewarning-container
+linuxreviews.org,miraheze.org##.mw-cookiewarning-container
 mygovid.ie##.mygovid-overlay
 ft.com##.n-messaging-slot
 userbenchmark.com##.nb-parent
@@ -17459,7 +17459,7 @@ infojobs.it###cmpContainer
 annunci.net###cookies_policy_bottom_left
 donewifi.it###donewifi_cookie_advice
 solopornoitaliani.xxx###first-visit
-105.net,huffingtonpost.it,meteo.it,r101.it,radiomontecarlo.net,unitedmusic.com,virginradio.it###iubenda-cs-banner
+105.net,meteo.it,r101.it,radiomontecarlo.net,unitedmusic.com,virginradio.it###iubenda-cs-banner
 programmitv.it###mag
 sportrentino.it###popcookiesbg
 la7.it###puthere
@@ -17483,6 +17483,7 @@ olfa.co.jp###modal-content
 mainichi.jp###pi-pc-all-popupleft
 honeys-onlineshop.com###policy_modal
 bing.com###thp_notf_div
+narita-koi.com##.CookieConfirm
 knb.ne.jp##.atention_cookie
 nhk.or.jp##.bottom_optout_announce
 ebarafoods.com##.consent_c

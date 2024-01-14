@@ -1,9 +1,9 @@
-! Checksum: 1ZyV2jnpJ2u/G5FVRuhWqQ
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1705180043-14400.patch
+! Checksum: dulTuOct3RBZJjBn8X2YeQ
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1705194438-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.27.27
-! TimeUpdated: 2024-01-13T21:03:26+00:00
+! Version: 2.1.27.28
+! TimeUpdated: 2024-01-14T01:03:16+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -20230,7 +20230,7 @@ faapy.com##.msg
 floridashistoriccoast.com##.msg--cookie-consent
 firstsave.co.uk##.msgBox
 cablexpress.com##.mura-cta__container
-miraheze.org##.mw-cookiewarning-container
+linuxreviews.org,miraheze.org##.mw-cookiewarning-container
 h-farm.com##.mx-0.w-100.row
 riot.im##.mx_MatrixToolbar
 viladomat.com##.my-modal-overlay
@@ -21605,6 +21605,7 @@ bafin.de,materna.de,bamf.de#%#//scriptlet('ubo-set-cookie.js', 'cookiebanner', '
 kapoorwatch.com#%#//scriptlet('ubo-set-cookie.js', 'ck-cp', 'accepted')
 paf.se#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', '1')
 thw.de,bafa.de,bka.de,bmbf.de#%#//scriptlet('ubo-set-cookie.js', 'gsbbanner', '0')
+weather.com#%#//scriptlet('ubo-set-cookie.js', '__adblocker', 'false', '', 'reload', '1')
 evivanlanschot.nl#%#//scriptlet('ubo-set-cookie.js', 'acceptCookies', '0')
 prenatal.nl#%#//scriptlet('ubo-set-cookie.js', 'marketingCookies', 'false')
 wagner-tuning.com#%#//scriptlet('ubo-set-cookie.js', 'CookieLaw_statistik 0')
@@ -25227,7 +25228,7 @@ trovanumeri.com###hid
 gustosaricerca.it###holdon-overlay
 mariangelaguido.it###icegram_message_10971
 mondoprofessionisti.it###informativaPrivacy
-105.net,huffingtonpost.it,meteo.it,r101.it,radiomontecarlo.net,unitedmusic.com,virginradio.it###iubenda-cs-banner
+105.net,meteo.it,r101.it,radiomontecarlo.net,unitedmusic.com,virginradio.it###iubenda-cs-banner
 vmmotori.it###ll_banner
 vmmotori.it###ll_info
 programmitv.it###mag
@@ -25375,6 +25376,7 @@ mainichi.jp###pi-pc-all-popupleft
 honeys-onlineshop.com###policy_modal
 bing.com###thp_notf_div
 maruchiba.jp###tmp_wrap_info_box
+narita-koi.com##.CookieConfirm
 tokyotokyo.jp##.annotation-area
 knb.ne.jp##.atention_cookie
 nhk.or.jp##.bottom_optout_announce
