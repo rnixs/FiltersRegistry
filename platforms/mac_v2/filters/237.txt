@@ -1,9 +1,9 @@
-! Checksum: 4hoHr8MZuPiDmS6Knakfkw
-! Diff-Path: ../patches/237/237-s-1705093681-14400.patch
+! Checksum: 6WH+8bNcPw8cEurejN6Gwg
+! Diff-Path: ../patches/237/237-s-1705237658-14400.patch
 ! Title: Polish Annoyances Filters
 ! Description: Filter list that hides and blocks pop-ups, widgets, newsletters, push notifications, arrows, tagged internal links that are off-topic, and other irritating elements. Polish GDPR-Cookies Filters is already in it.
-! Version: 1.0.30.50
-! TimeUpdated: 2024-01-12T21:03:37+00:00
+! Version: 1.0.30.51
+! TimeUpdated: 2024-01-14T13:03:24+00:00
 ! Expires: 12 hours (update frequency)
 !
 ! Title: 🇵🇱 Polskie Filtry Elementów Irytujących
@@ -12,8 +12,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 11 Jan 2024, 19:09 UTC+01:00
-! OriginalVersion: 2024.1.11.0
+! Last modified: Sun, 14 Jan 2024, 13:31 UTC+01:00
+! OriginalVersion: 2024.1.14.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -22,7 +22,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 11 sty 2024, 19:09 UTC+01:00
+! Aktualizacja: nie, 14 sty 2024, 13:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3392,7 +3392,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 ||tvpolsat.info/infusions/ui_top_button_panel/js/jquery.ui.totop.js
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 2x45.info,agro-hurt.eu,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,satservice.co.uk,sciezkimojegoswiata.com###scrollUp
-3dom.pro,agrosam.eu,antbs.co.uk,domator24.com,harposoftware.com,laroxy.com,odszewca.pl,opakowania24.eu,swiatroslin.eu##.top_button
+3dom.pro,agrosam.eu,alget.pl,antbs.co.uk,domator24.com,harposoftware.com,laroxy.com,odszewca.pl,opakowania24.eu,swiatroslin.eu##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hurtowezakupy.com,hydrosan.eu,hykker.com,lambre.eu,limonkowy.com,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com,zyjzdrowo.info###to-top
 3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,bizserver.eu,domkorkowy.com,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com,znicze.net###toTop
 4funkids.pl###scroll_up
@@ -3542,7 +3542,7 @@ bekoczesci.pl###tbScrollToTop
 belmeb.pl##.header_scroll-to-top
 beltone-polska.eu,beltone-polska.pl##.cc-FloatingButtonBarContainer-button-scroll
 benchmark.pl##.jsScrollToTop.btn--to-top
-benler.pl,lento.pl,restaurantguru.com###scroller
+benler.pl,lenovogaming.pl,lento.pl,restaurantguru.com###scroller
 beskidy.news,intimissimi.com,nawa.gov.pl,powiatslubicki.pl##.js-scroll-top
 bettingexpert.com,florini.pl##.slideInUp
 bezbiku.info,dolnyslask.travel,niebieski.net,planetamarvel.net,silvermet.eu###wpfront-scroll-top-container
@@ -4128,6 +4128,7 @@ planetasportu.com,slodkiehobby.pl##.right > .return
 player.pl##.footer-panel-toggle
 plejada.pl###goback
 poczta.gazeta.pl##button[title="Wróć na początek strony"]
+pod24.info###ybscrollup
 podforak.rzeszow.pl##.nav-up
 polkurier.pl##.mouse
 polona.pl,skycash.com##.js-to-top
