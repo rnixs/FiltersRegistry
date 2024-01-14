@@ -1,9 +1,9 @@
-! Checksum: X0LDq7YOHcvmK6KeyGXSMQ
-! Diff-Path: ../patches/11_optimized/11_optimized-s-1705066605-3600.patch
+! Checksum: yJE0OoxcNcAEL057oMUg8g
+! Diff-Path: ../patches/11_optimized/11_optimized-s-1705235809-3600.patch
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.25
-! TimeUpdated: 2024-01-12T13:31:37+00:00
+! Version: 2.0.48.26
+! TimeUpdated: 2024-01-14T12:31:53+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -6095,6 +6095,8 @@ vfokuse.mail.ru#?#header > div[class]:has(> div[class*="rb-slot_plug"])
 livejournal.com##data-banner-place-id
 livejournal.com##div[id^="billboard_mobile_"]
 livejournal.com##.mdspost-aside__item--banner
+!+ NOT_OPTIMIZED
+forbes.com##.mobile-sticky-ed-placeholder
 !+ NOT_OPTIMIZED
 hoerzu.de##.ad-mobile
 !+ NOT_OPTIMIZED

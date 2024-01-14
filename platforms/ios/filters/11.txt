@@ -1,9 +1,9 @@
-! Checksum: ZzG+1nn4bgRhAmrcdhm/Zw
-! Diff-Path: ../patches/11/11-s-1705066600-3600.patch
+! Checksum: tQUNk7+eugkBI0xhAcsL4w
+! Diff-Path: ../patches/11/11-s-1705235804-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.25
-! TimeUpdated: 2024-01-12T13:31:37+00:00
+! Version: 2.0.48.26
+! TimeUpdated: 2024-01-14T12:31:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6852,6 +6852,8 @@ livejournal.com##.mdspost-aside__item--banner
 ! END: Livejournal.com
 !
 !
+!+ NOT_OPTIMIZED
+forbes.com##.mobile-sticky-ed-placeholder
 !+ NOT_OPTIMIZED
 hoerzu.de##.ad-mobile
 !+ NOT_OPTIMIZED

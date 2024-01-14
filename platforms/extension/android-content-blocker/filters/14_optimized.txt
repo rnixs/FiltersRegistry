@@ -1,9 +1,9 @@
-! Checksum: kHjGB5C2O3wos7ObBZGJyw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1705199776-3600.patch
+! Checksum: v20+apXD9lIXgjzOBZzESw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1705235770-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.56
-! TimeUpdated: 2024-01-12T19:32:12+00:00
+! Version: 2.1.84.57
+! TimeUpdated: 2024-01-14T12:32:11+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -19076,6 +19076,9 @@ blog.livedoor.jp##.naka_rss
 blog.livedoor.jp##div[class^="footrss"]
 blog.livedoor.jp##div[class^="shitarss_"]
 blog.livedoor.jp##div[id^="shitarss_title_"]
+nijimoemoe.com##.container-inner > aside.section-box > div.plugin-free_area
+nijimoemoe.com##.oss1
+nijimoemoe.com##.rsstuibi
 geinoujin-blog.net###toprssframe
 gamedaradara.doorblog.jp##div[id$="_rss"]
 burusoku-vip.com##.article-body-more > span[style="font-size: 18px;"]

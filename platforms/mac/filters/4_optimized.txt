@@ -1,9 +1,9 @@
-! Checksum: kRVqfy5m9vj+AZSVPjJygw
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1705199802-3600.patch
+! Checksum: uYQLN2ZHgPHNlnFi3jydSA
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1705235813-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.95
-! TimeUpdated: 2024-01-12T12:33:42+00:00
+! Version: 2.0.95.96
+! TimeUpdated: 2024-01-14T12:33:22+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -6779,6 +6779,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_social
 ##.o-noteContentHeader__share
 ##.p-article__articleWrapper ~ div.p-article__share
 ##.ytp-share-button
+~x.com##a[href^="https://twitter.com/share"]
 ##.app_share_mod
 ##.share-this-popover
 ###video-share

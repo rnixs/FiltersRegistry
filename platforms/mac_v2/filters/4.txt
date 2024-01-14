@@ -1,9 +1,9 @@
-! Checksum: I5gnQ/pz8Ee2byjXpqKMxA
-! Diff-Path: ../patches/4/4-s-1705063051-3600.patch
+! Checksum: aeQ8lQIkKTpUWUKlSqh0xQ
+! Diff-Path: ../patches/4/4-s-1705235818-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.95.95
-! TimeUpdated: 2024-01-12T12:33:42+00:00
+! Version: 2.0.95.96
+! TimeUpdated: 2024-01-14T12:33:22+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12226,6 +12226,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_social
 ! hide share button in youtube player
 ##.ytp-share-button
 !
+~x.com##a[href^="https://twitter.com/share"]
 ##.app_share_mod
 ##.share-this-popover
 ###video-share
