@@ -1,9 +1,9 @@
-! Checksum: eb0YKhdQQuIUjnaR05M14Q
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1705291019-3600.patch
+! Checksum: r6jxN8fQkTJK35HrAnOrlQ
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1705315034-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.93
-! TimeUpdated: 2024-01-12T19:32:26+00:00
+! Version: 2.0.29.94
+! TimeUpdated: 2024-01-15T10:32:45+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -3941,6 +3941,8 @@ dooralei.ru#$#body { overflow: visible!important; }
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.aclb > div._4b-b
 catalogmineralov.ru#$#body { overflow: visible!important; }
 !+ NOT_OPTIMIZED
+r.gnavi.co.jp##.js-appealPointToast
+!+ NOT_OPTIMIZED
 zai.diamond.jp##.sp-floating-banner
 !+ NOT_OPTIMIZED
 lookmovie.*##.bottom-message-container
@@ -7453,6 +7455,8 @@ flightradar24.com##[data-id="18f2aaf"][data-element_type="widget"]
 flightradar24.com##[data-id="a2aa32b"][data-element_type="widget"]
 flightradar24.com##[data-id="a5b8151"][data-element_type="widget"]
 flightradar24.com##[data-id="35ae40a"][data-element_type="widget"]
+!+ NOT_OPTIMIZED
+r.gnavi.co.jp##.topMailRegLink
 !+ NOT_OPTIMIZED
 1tv.od.ua##.telegram-link-block
 !+ NOT_OPTIMIZED

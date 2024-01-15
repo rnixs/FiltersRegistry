@@ -1,9 +1,9 @@
-! Checksum: 3qqEXeCRHVDIeXZUAlKAcw
-! Diff-Path: ../patches/21/21-s-1705311714-3600.patch
+! Checksum: gtGBNXj9RCsu9wjootz+Bg
+! Diff-Path: ../patches/21/21-s-1705315130-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.65
-! TimeUpdated: 2024-01-15T09:36:32+00:00
+! Version: 2.0.18.66
+! TimeUpdated: 2024-01-15T10:32:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -542,8 +542,8 @@ officelife.media#?#.header-mid__links > a[href="/tags/sber-tekhno/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137185
 propertynews.pl##.partners-bar
 propertynews.pl##.partners-scroller-bar
-! https://github.com/AdguardTeam/AdguardFilters/issues/136977
-belsat.eu#%#//scriptlet('hide-in-shadow-dom', 'app-socialbox')
+! https://github.com/AdguardTeam/AdguardFilters/issues/136977#issuecomment-1891644638
+belsat.eu##app-socialbox
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137187
 infodent24.pl##.topBelka > .right
 infodent24.pl##referal-btn[href="https://www.infodent24.pl/"]
@@ -4971,6 +4971,8 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+onlinetrade.ru##.fullWidth_bnr
+onlinetrade.ru##.indexBnrAndItems__bnr
 soulgen.net##.header-wrapper
 the-ans.jp##a[id^="c2_click_W-ANS_"]
 thunderstore.io###get-app-alert

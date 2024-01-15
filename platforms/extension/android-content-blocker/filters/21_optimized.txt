@@ -1,9 +1,9 @@
-! Checksum: YVK6QtuL0wksaws+4JEpEA
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1705311659-3600.patch
+! Checksum: pLOFRqKEToelkcnE8V/94Q
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1705315036-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.65
-! TimeUpdated: 2024-01-15T09:36:32+00:00
+! Version: 2.0.18.66
+! TimeUpdated: 2024-01-15T10:32:59+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com##._aagw:empty
@@ -130,6 +130,7 @@ news.yahoo.co.jp##img[class^="CommentBanner__Img-"]
 numerama.com###dailymotion-pip-large-viewport
 jeanmarcmorandini.com###dailymotion-pip-large-viewport
 propertynews.pl##.partners-scroller-bar
+belsat.eu##app-socialbox
 chosun.com#$#div[class^="paywall-"] { display: none !important; }
 chosun.com#$#.article.paywallFixed { overflow: auto !important; }
 chosun.com#$#body { position: static !important; }
@@ -1090,6 +1091,8 @@ alexfitness.ru#$#div.modal-backdrop { display: none!important; }
 alexfitness.ru#$#.modal-open { overflow: visible!important; }
 tf1.fr##div[aria-describedby^="max-banner-"]
 ||contributions.guardianapis.com^
+onlinetrade.ru##.fullWidth_bnr
+onlinetrade.ru##.indexBnrAndItems__bnr
 soulgen.net##.header-wrapper
 the-ans.jp##a[id^="c2_click_W-ANS_"]
 thunderstore.io###get-app-alert

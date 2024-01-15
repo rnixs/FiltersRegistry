@@ -1,9 +1,9 @@
-! Checksum: xuQb7rmldhAwhZkSJOmRwQ
-! Diff-Path: ../patches/224/224-s-1705300582-3600.patch
+! Checksum: Z9EL4e4lFY2/1S52CymOOg
+! Diff-Path: ../patches/224/224-s-1705315045-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.8.43
-! TimeUpdated: 2024-01-15T06:32:50+00:00
+! Version: 2.1.8.44
+! TimeUpdated: 2024-01-15T10:33:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -22088,8 +22088,6 @@ colamanga.com#@#.gg_950
 qq.com#@#.adsbox
 qq.com#@#.side_ad
 ##.txp_ad_center
-||*^sdtfrom=^$media,redirect=noopmp3-0.1s,domain=qq.com
-||lts*.qq.com^*.ts?index=$media,redirect=noopmp3-0.1s,domain=qq.com
 !#Rewrite filters
 !#Sejie.com
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > br
