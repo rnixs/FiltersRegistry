@@ -1,9 +1,9 @@
-! Checksum: WqgkSfcNDG/6O8tp1twz3Q
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705291020-3600.patch
+! Checksum: FF2HjJNyZNWNC5U2wz60uQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705304200-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.17.81
-! TimeUpdated: 2024-01-15T03:53:57+00:00
+! Version: 2.3.17.82
+! TimeUpdated: 2024-01-15T07:33:37+00:00
 ! Expires: 5 days (update frequency)
 ||ktnukmtsbfko.com^
 ||shaumpem.com^
@@ -6297,6 +6297,8 @@ bezprawnik.pl##div[class^="ad_slot_"]
 @@||tv.wp.pl^$generichide
 infor.pl##.adsContent
 kreskowkazone.pl#@#.myTestAd
+||r.wykop.pl/widget-api/*/widget$xmlhttprequest
+@@||wykop.pl/api/v3/tags/reklama/$xmlhttprequest,~third-party
 ||wykop.pl/api/v*/ads
 wykop.pl##body .pub-slot-wrapper
 gazeta.pl##.o-section__adform

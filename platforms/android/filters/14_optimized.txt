@@ -1,9 +1,9 @@
-! Checksum: 4PAgqQ+RcZCI3sg6hmEbZw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1705291014-3600.patch
+! Checksum: G+BXXA6UqxNALQFtKGBf9g
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1705304195-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.57
-! TimeUpdated: 2024-01-14T12:32:11+00:00
+! Version: 2.1.84.58
+! TimeUpdated: 2024-01-15T07:32:41+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -20858,6 +20858,7 @@ alexfitness.ru#$#.modal-open { overflow: visible!important; }
 banggood.com##.top_mt.datacube_banner
 tf1.fr##div[aria-describedby^="max-banner-"]
 ||contributions.guardianapis.com^
+4pda.to###navstrip ~ div.borderwrap:has(> div.ddb-ft-wrap a[title^="DevDB"])
 soulgen.net##.header-wrapper
 the-ans.jp##a[id^="c2_click_W-ANS_"]
 thunderstore.io###get-app-alert

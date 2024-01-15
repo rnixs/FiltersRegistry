@@ -1,9 +1,9 @@
-! Checksum: ME6+98/W9D9WHUzszzHeJg
-! Diff-Path: ../patches/14/14-s-1705235784-3600.patch
+! Checksum: NzrG0bHpsPFaDPqdvU7bhg
+! Diff-Path: ../patches/14/14-s-1705304209-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.57
-! TimeUpdated: 2024-01-14T12:32:11+00:00
+! Version: 2.1.84.58
+! TimeUpdated: 2024-01-15T07:32:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -45220,6 +45220,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+4pda.to###navstrip ~ div.borderwrap:has(> div.ddb-ft-wrap a[title^="DevDB"])
 soulgen.net##.header-wrapper
 the-ans.jp##a[id^="c2_click_W-ANS_"]
 thunderstore.io###get-app-alert
