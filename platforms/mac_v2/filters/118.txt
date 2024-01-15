@@ -1,14 +1,14 @@
-! Checksum: /WcD67BhMDvK+z8de1/QDw
-! Diff-Path: ../patches/118/118-s-1705338453-14400.patch
+! Checksum: 74HOSZ0v6wQf4UydhA4zaA
+! Diff-Path: ../patches/118/118-s-1705352864-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.39
-! TimeUpdated: 2024-01-15T17:02:17+00:00
+! Version: 2.1.20.40
+! TimeUpdated: 2024-01-15T21:02:34+00:00
 ! Expires: 12 hours (update frequency)
 !
-! OriginalVersion: 202401151616
+! OriginalVersion: 202401151731
 ! Title: EasyPrivacy
-! Last modified: 15 Jan 2024 16:16 UTC
+! Last modified: 15 Jan 2024 17:31 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -14619,8 +14619,8 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ! #else
 ! #endif
 ! #endif
-://coomer.su^$xmlhttprequest,method=POST
-://kemono.su^$xmlhttprequest,method=POST
+://coomer.su^$xmlhttprequest,method=post
+://kemono.su^$xmlhttprequest,method=post
 @@||coomer.su/.well-known/ddos-guard/mark/|
 @@||kemono.su/.well-known/ddos-guard/mark/|
 ! -----------------Individual cname tracking systems-----------------!

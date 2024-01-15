@@ -1,9 +1,9 @@
-! Checksum: qMzg9+kRbvguNEtA7XTasw
-! Diff-Path: ../patches/232_optimized/232_optimized-s-1705338450-14400.patch
+! Checksum: a3iCjIrhFjGosLJMn6e69Q
+! Diff-Path: ../patches/232_optimized/232_optimized-s-1705352861-14400.patch
 ! Title: KAD - Anti-Scam (Optimized)
 ! Description: Filter that protects against various types of scams in the Polish network, such as mass text messaging, fake online stores, etc.
-! Version: 2.0.51.61
-! TimeUpdated: 2024-01-15T17:03:10+00:00
+! Version: 2.0.51.62
+! TimeUpdated: 2024-01-15T21:03:21+00:00
 ! Expires: 5 days (update frequency)
 !#safari_cb_affinity(security)
 ||1vulkanvegas.com^$all
@@ -2467,6 +2467,7 @@
 /^https?:\/\/([\w]{1,4}\.)?sms\.[0-9]+\.(pw|sbs)/$document,domain=pw|sbs
 /^https?:\/\/([\w]{1,4}\.)?vinted-(pl|polska)-[a-z0-9]{2,6}\.[a-z0-9-]{3,25}\.[\w]{2,20}(\.\/|\/)/$document,match-case
 /^https?:\/\/([\w]{1,4}\.)?vjnted\.[0-9]+\.(xyz)/$document,domain=xyz
+/^https?:\/\/([\w]{1,60}\.)?allegrolokalnie\.[\w]{2,30}\.?\//$document,domain=~allegro.pl|~allegrolokalnie.pl|~bing.*|~duckduck.*|~ecosia.org|~google.*|~qwant.com|~startpage.com|~wp.pl|~yahoo.*
 /click.php?key=*&cost=$document
 /click?pid=*&sub1=$document
 /pl/bnp-paribas/login.php?pay&b=$document,subdocument,domain=~pl
@@ -5752,8 +5753,8 @@
 ||allegrolokalnie.24pay-u.pl^$all
 ||allegrolokalnie.24platnosc.pl^$all
 ||allegrolokalnie.398543.pw^$all
-||allegrolokalnie.$document,domain=~allegro.pl|~allegrolokalnie.pl|~bing.*|~duckduck.*|~ecosia.org|~google.*|~qwant.com|~startpage.com|~wp.pl|~yahoo.*
 ||allegrolokalnie.aukcja2541.pl^$all
+||allegrolokalnie.aukcja6098.pl^$all
 ||allegrolokalnie.aukcja-allegro.pl^$all
 ||allegrolokalnie.aukcja-id849214.pl^$all
 ||allegrolokalnie.aukcja-id7948261.pl^$all
@@ -6149,6 +6150,7 @@
 ||allen.krzysztofsikora.com.pl^$all
 ||allendgreen.com^$all
 ||allengbolahan.com^$all
+||allepharm.com^$all
 ||alleqrolokalne.pl^$all
 ||allesetlnmgn.top^$all
 ||allesettlemenb.top^$all
@@ -7792,6 +7794,8 @@
 ||aukcja2541.pl^$all
 ||aukcja2893.pl^$all
 ||aukcja4321.pl^$all
+||aukcja5932.pl^$all
+||aukcja6098.pl^$all
 ||aukcja-id7948261.pl^$all
 ||aukcja-olx.pl^$all
 ||aukobere.site^$all
@@ -7859,6 +7863,7 @@
 ||auta-piotrowski.pl^$all
 ||auta-podolski.pl^$all
 ||auta-potocki.pl^$all
+||auta-rakowski.pl^$all
 ||auta-sobieski.pl^$all
 ||auta-sochacki.pl^$all
 ||auta-wolski.pl^$all
@@ -12064,7 +12069,9 @@
 ||case-9b915.web.app^$all
 ||case-40f09.web.app^$all
 ||case-62b23.web.app^$all
+||case-03989474.fbpage-notifications.com^$all
 ||case-16223553.help-desk-information.com^$all
+||case-86336682.fbpage-notifications.com^$all
 ||casecat.instructure.com^$all
 ||casecuritysolutions.com^$all
 ||caserefueling.com^$all
@@ -14057,6 +14064,7 @@
 ||cp-home-pl-371275fb604.solidinterimmanagement.nl^$all
 ||cp-home-pl-1340205ea54.solidinterimmanagement.nl^$all
 ||cp-home-pl-7755530c246.installprofi.nl^$all
+||cp-home-pl-8764505c26c.solidinterimmanagement.nl^$all
 ||cp-home-pl-10957789feb.solidinterimmanagement.nl^$all
 ||cp-home-pl-546764847e9.solidinterimmanagement.nl^$all
 ||cp-home-pl-900126649f5.platamix.com^$all
@@ -14098,6 +14106,7 @@
 ||cp-home-pl-c2b3327446f.platamix.com^$all
 ||cp-home-pl-c3dc323aaa3.solidinterimmanagement.nl^$all
 ||cp-home-pl-c6cb4c3b163.solidinterimmanagement.nl^$all
+||cp-home-pl-c8ce2d37c9b.solidinterimmanagement.nl^$all
 ||cp-home-pl-c8e49a47478.solidinterimmanagement.nl^$all
 ||cp-home-pl-c12e14d75d8.platamix.com^$all
 ||cp-home-pl-c14aa71d9d1.solidinterimmanagement.nl^$all
@@ -17150,6 +17159,7 @@
 ||drmedyasemin.com^$all
 ||droaotirre.site^$all
 ||drocsakin.site^$all
+||drodze-w-paczka.com^$all
 ||droga-dalej.ml^$all
 ||droga-na-biezaco.eu5.net^$all
 ||drogamiastowa.click^$all
@@ -20187,6 +20197,7 @@
 ||fhglqpeiur.online^$all
 ||fhmzgvtbyjpk.com^$all
 ||fi-3vf.cfd^$all
+||fiberthread.info^$all
 ||fibosports.com^$all
 ||fibrian.pl^$all
 ||fibrotechinnov.com^$all
@@ -21644,6 +21655,7 @@
 ||gaming-songs2you.com^$all
 ||gamingandcasinofund.com^$all
 ||gamingpcforum.com^$all
+||gamingquestmasters.com^$all
 ||gamingvines.com^$all
 ||gammaun12.com^$all
 ||gammel.mer.dk^$all
@@ -26001,6 +26013,7 @@
 ||inovationpipe.store^$all
 ||inovium.net^$all
 ||inp0st.00282765.xyz^$all
+||inp0st.00282767.xyz^$all
 ||inp0st.2342235.xyz^$all
 ||inp0st.3423568.xyz^$all
 ||inp0st.32442732.xyz^$all
@@ -27134,6 +27147,7 @@
 ||ipost-nat.top^$all
 ||ipost.monster^$all
 ||ipostsp.top^$all
+||iposytc-df.top^$all
 ||iptvobs.com^$all
 ||ipvision-lab.com^$all
 ||iqcfgo1kyn.digital^$all
@@ -28773,6 +28787,7 @@
 ||kino-cda.pl^$all
 ||kino-filmy.pl^$all
 ||kino-kostenlos.net^$all
+||kinodom.pl^$all
 ||kinofelikfas.com^$all
 ||kinofilm-tv.pl^$all
 ||kinoman-tv.eu^$all
@@ -33955,6 +33970,7 @@
 ||mybestpur365.com^$all
 ||mybesttidings.online^$all
 ||mybitardo-space.preview-domain.com^$all
+||myblog-7cdf28dh2f.live-website.com^$all
 ||myblog-v9o0evapvc.live-website.com^$all
 ||mybootcorner.com^$all
 ||myboxtr.com^$all
@@ -41921,6 +41937,7 @@
 ||pub-57dd341a71c94593bf85de0756fc23a2.r2.dev^$all
 ||pub-63fc5865161a46ee9d26a8562040d59d.r2.dev^$all
 ||pub-64b6655e667e44b99068622fd5dabd15.r2.dev^$all
+||pub-65f447e7edb647c09b5caa2c88c6c2bc.r2.dev^$all
 ||pub-68bf73373d564ecbb67ea16241612f64.r2.dev^$all
 ||pub-68bfcf3e3c284bf792c1327161bea42f.r2.dev^$all
 ||pub-72a38268a64f49eaad173ac3cc9c40f0.r2.dev^$all
@@ -46632,6 +46649,7 @@
 ||steamcommunurity.ru^$all
 ||steamcommynityj.com.ru^$all
 ||steamcomnnunlty.com^$all
+||steamcomnrunity.com^$all
 ||steamcomnunitiy.com^$all
 ||steamcomnunnity.com^$all
 ||steamcomunutliy.com^$all
@@ -48162,6 +48180,7 @@
 ||text2compost.com^$all
 ||textilmar.rolandborys.pl^$all
 ||textilmayorista.com^$all
+||teynve.top^$all
 ||tf2mandem.pro^$all
 ||tfb-mobile-captcha.web.app^$all
 ||tffqqby.online^$all
@@ -49405,6 +49424,7 @@
 ||tricalmusic.com^$all
 ||tricepsnai.space^$all
 ||trichions.sbs^$all
+||trichomist.store^$all
 ||tricisem.com^$all
 ||tricitiesinjurylaw.com^$all
 ||tricrotella.com^$all
