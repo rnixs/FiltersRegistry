@@ -1,9 +1,9 @@
-! Checksum: 9o3y6JpTpsrsqN41j3BNFw
-! Diff-Path: ../patches/9_optimized/9_optimized-s-1704987721-3600.patch
+! Checksum: wN3A0dIbiziMcl/tAjERvw
+! Diff-Path: ../patches/9_optimized/9_optimized-s-1705311683-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.22.82
-! TimeUpdated: 2024-01-11T15:38:50+00:00
+! Version: 2.0.22.83
+! TimeUpdated: 2024-01-15T09:37:51+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -210,6 +210,8 @@
 ||zebestof.com^$third-party
 ||adclient-uol.lp.uol.com.br^
 ||adv.r7.com^
+tv0800.tv#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=tv0800.tv
 biobiochile.cl#@#[id^="google_ads_iframe"]
 biobiochile.cl#%#//scriptlet('prevent-setTimeout', 'window.getComputedStyle')
 ||biobiochile.cl/assets/js/block/bbcl-annoying-block.es.js

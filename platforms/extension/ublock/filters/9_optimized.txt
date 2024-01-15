@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: K2CciT1xgG/zGxxLRdoW/w
-! Diff-Path: ../patches/9_optimized/9_optimized-s-1704987739-3600.patch
+! Checksum: K1naBaI6s9yvok/P6xfrNw
+! Diff-Path: ../patches/9_optimized/9_optimized-s-1705311703-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.22.82
-! TimeUpdated: 2024-01-11T15:38:50+00:00
+! Version: 2.0.22.83
+! TimeUpdated: 2024-01-15T09:37:51+00:00
 ! Expires: 5 days (update frequency)
 ||nobeta.com.br^$third-party
 ||bcgame.top^$popup
@@ -200,6 +200,7 @@
 ||zebestof.com^$third-party
 ||adclient-uol.lp.uol.com.br^
 ||adv.r7.com^
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=tv0800.tv
 biobiochile.cl#@#[id^="google_ads_iframe"]
 biobiochile.cl##+js(no-setTimeout-if, window.getComputedStyle)
 ||biobiochile.cl/assets/js/block/bbcl-annoying-block.es.js

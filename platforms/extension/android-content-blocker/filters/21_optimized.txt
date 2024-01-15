@@ -1,9 +1,9 @@
-! Checksum: K5pydRT6FQHcu1bBKGXE4A
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1705304200-3600.patch
+! Checksum: YVK6QtuL0wksaws+4JEpEA
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1705311659-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.64
-! TimeUpdated: 2024-01-15T07:33:06+00:00
+! Version: 2.0.18.65
+! TimeUpdated: 2024-01-15T09:36:32+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com##._aagw:empty
@@ -677,6 +677,7 @@ rasp.yandex.*##.TravelHotelsBanner
 ya.ru,yandex.*##.AliceFabPromo
 tv.yandex.*##.recommended-ott
 www.kinopoisk.ru##div[class^="trailer-promo"]
+4pda.to###navstrip ~ br
 moneycontrol.com##.creScroe
 moneycontrol.com###sticky_middle_cb
 moneycontrol.com##.pink-bar[href*="/credit-score"]

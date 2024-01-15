@@ -1,9 +1,9 @@
-! Checksum: KhdBhinSlwPfOR/5xTsUHw
-! Diff-Path: ../patches/9/9-s-1704987702-3600.patch
+! Checksum: 04Ney5wBU+lFlzNrLy2D2g
+! Diff-Path: ../patches/9/9-s-1705311661-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.22.82
-! TimeUpdated: 2024-01-11T15:38:50+00:00
+! Version: 2.0.22.83
+! TimeUpdated: 2024-01-15T09:37:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -296,6 +296,9 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170650
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tv0800.tv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169886
 biobiochile.cl#@#[id^="google_ads_iframe"]
 ||biobiochile.cl/assets/js/block/bbcl-annoying-block.es.js

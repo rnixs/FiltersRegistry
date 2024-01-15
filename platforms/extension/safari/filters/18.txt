@@ -1,9 +1,9 @@
-! Checksum: webXNOPAgyY+Cr0+32bsgw
-! Diff-Path: ../patches/18/18-s-1705307819-3600.patch
+! Checksum: ckYQTUc/EhIeugWuArL72w
+! Diff-Path: ../patches/18/18-s-1705311692-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.22
-! TimeUpdated: 2024-01-15T08:32:23+00:00
+! Version: 2.0.31.23
+! TimeUpdated: 2024-01-15T09:36:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -14895,6 +14895,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170614
+@@||springfarma.com/static/version*/frontend
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170395
 sex.com#@##cookie-modal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170065
