@@ -1,9 +1,9 @@
-! Checksum: JQrnrVv0arsxi62QT/LczQ
-! Diff-Path: ../patches/9/9-s-1705311710-3600.patch
+! Checksum: PAKYdmI1agR45MjvCzSjEQ
+! Diff-Path: ../patches/9/9-s-1705325875-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.22.83
-! TimeUpdated: 2024-01-15T09:37:51+00:00
+! Version: 2.0.22.84
+! TimeUpdated: 2024-01-15T13:34:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2747,7 +2747,7 @@ cnnportugal.iol.pt##.pub-outer-wrapper
 ||cdn.iol.pt/js/utils/Modules/IOLComercial/dist/iol.comercial.js
 luxwoman.pt##.theiaStickySidebar
 luxwoman.pt##.feat-ad-wrap
-concursosnobrasil.com##div[class^="concur-prebid-lendo-"]
+concursosnobrasil.com.br,concursosnobrasil.com##div[class^="concur-prebid-lendo-"]
 exame.com##div[id^="aside_ad_"]
 exame.com##div[id^="native-home-"]:empty
 lance.com.br##div[class*="styles_ad"]
@@ -3461,7 +3461,7 @@ otempo.com.br##div.cf.slot-item.count-2.slot-count-20
 otempo.com.br##div[id^="ATF_"]
 ||elsiglodetorreon.com.mx/desplegados/banners/
 reforma.com##div[id^="zonapublicidad"]
-contigo.uol.com.br,tycsports.com,tvpop.com.br,midiamax.uol.com.br##div[id^="banner-"]
+jcconcursos.uol.com.br,contigo.uol.com.br,tycsports.com,tvpop.com.br,midiamax.uol.com.br##div[id^="banner-"]
 atresplayer.com##.adpause
 minha.exame.com##div[class^="AdContainer"]
 arquitecturaydiseno.es##.header-megabanner > *
