@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: pZunb8PnFBrFDtTPZN8Qnw
-! Diff-Path: ../patches/10_optimized/10_optimized-s-1705318791-3600.patch
+! Checksum: O0i8ofXu/MfCoulIABDIjg
+! Diff-Path: ../patches/10_optimized/10_optimized-s-1705347409-3600.patch
 ! Title: Filter unblocking search ads and self-promotion (Optimized)
 ! Description: Filter that unblocks search ads in Google, DuckDuckGo, Bing, or Yahoo and self-promotion on websites.
-! Version: 2.0.3.18
-! TimeUpdated: 2024-01-15T11:33:43+00:00
+! Version: 2.0.3.19
+! TimeUpdated: 2024-01-15T19:31:55+00:00
 ! Expires: 5 days (update frequency)
 !#safari_cb_affinity(general)
 bing.com#@#.b_adLastChild
@@ -132,6 +132,7 @@ amazon.*#@#section[class*="csm-placement-id"]
 amazon.*#@?#div[data-order-sm]:has(> div[data-csa-c-painter="ad-topper-desktop-card"]:first-child + div[data-csa-c-painter="enumclaw-slot-display-ad"]:last-child)
 amazon.*#@##dp-container > #px-profile_feature_div[data-csa-c-type="widget"]
 amazon.*#@#div[data-csa-c-painter="ad-topper-desktop-card"]
+amazon.*#@#.sbv-ad-content-container
 amazon.*#@?#div[data-display-at]:has(> div[data-csa-c-painter="ad-topper-desktop-card"]:first-child + div[style="display: none !important;"]:last-child)
 search.brave.com#@#div[data-advertiser-id]
 buscape.com.br#@#div[class^="Hits_SponsoredWrapper__"]
