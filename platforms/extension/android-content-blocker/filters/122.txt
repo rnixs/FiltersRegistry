@@ -1,15 +1,15 @@
-! Checksum: uf/ZRrkr2dDLR9Fwf23BHA
-! Diff-Path: ../patches/122/122-s-1705295209-14400.patch
+! Checksum: QOP+RdUXjw5HGyRVhZ3O5g
+! Diff-Path: ../patches/122/122-s-1705309649-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.31
-! TimeUpdated: 2024-01-15T05:02:30+00:00
+! Version: 2.1.19.32
+! TimeUpdated: 2024-01-15T09:03:09+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: zYqwPK5TXEnw/a7Y8hhqEQ
-! OriginalVersion: 202401150340
+! Checksum: 7vr+ES/NJUPJvq9PxGwY8g
+! OriginalVersion: 202401150840
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-15 03:40 UTC
+! Last modified: 2024-01-15 08:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -41705,8 +41705,8 @@ gera.de##.cookie-banner-container
 gera.de##.cookie-banner-overlay-blocker
 gera.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .if6_eprivacy
-ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##.if6_eprivacy
-ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }
+sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##.if6_eprivacy
+sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .dwa-cms-ui-cookie
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se##.dwa-cms-ui-cookie
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se#$#body,html { overflow: auto !important; position: initial !important; }
@@ -47122,8 +47122,8 @@ gera.de##.cookie-banner-container
 gera.de##.cookie-banner-overlay-blocker
 gera.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .if6_eprivacy
-ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##.if6_eprivacy
-ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }
+sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##.if6_eprivacy
+sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .dwa-cms-ui-cookie
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se##.dwa-cms-ui-cookie
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se#$#body,html { overflow: auto !important; position: initial !important; }
