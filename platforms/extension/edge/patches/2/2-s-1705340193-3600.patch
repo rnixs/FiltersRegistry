@@ -1,0 +1,54 @@
+d1 2
+a2 2
+! Checksum: I862DZF+rFyVo0zcG31KwA
+! Diff-Path: ../patches/2/2-s-1705343797-3600.patch
+d5 2
+a6 2
+! Version: 2.3.17.92
+! TimeUpdated: 2024-01-15T18:33:22+00:00
+d55061 1
+a55061 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/170788 [Stealth Mode - Referrer]
+d55063 1
+a55063 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/170781 [Stealth Mode - Referrer]
+a55067 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/169769
+a55068 1
+@@||cdn.apple-cloudkit.com^$domain=apple.com,stealth=referrer
+a77096 1
+||77bd7b02a8.com^
+a78805 1
+||aluationiamk.info^
+a85944 1
+||eoqctcsvskqlz.com^
+a86557 1
+||famulustaille.space^
+a89809 1
+||hvmsmoiejaqb.com^
+a90058 1
+||ikwzrix.com^
+a91618 1
+||ketgetoexukpr.info^
+a92070 1
+||laeiwbkt.com^
+a93031 1
+||lvojjayaaovry.top^
+a98795 1
+||qamwjzgwtvpm.com^
+a101787 1
+||smzcjoatnnhuhn.com^
+a102927 1
+||sxirpkuxm.com^
+a103166 1
+||tbppfktchj.com^
+a103816 1
+||tmjididaqbom.com^
+a104641 1
+||ucgxnstr.com^
+a105449 1
+||vbzsjkrnsqewy.com^
+a107068 1
+||wurqaz.com^
+a108058 1
+||ztfzizpkjrmhbc.com^
