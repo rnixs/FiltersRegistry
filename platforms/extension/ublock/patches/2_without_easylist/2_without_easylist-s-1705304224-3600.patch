@@ -1,0 +1,21 @@
+d2 2
+a3 2
+! Checksum: v1bCbYN2qbxtES6N64hSOg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705307826-3600.patch
+d6 2
+a7 2
+! Version: 2.3.17.83
+! TimeUpdated: 2024-01-15T08:33:16+00:00
+a7218 4
+! https://github.com/AdguardTeam/AdguardFilters/issues/170613
+mtvema.com,mtv.co.uk,mtv.de,mtv.it##+js(no-fetch-if, imasdk.googleapis.com)
+||imasdk.googleapis.com/pal/sdkloader/pal.js$script,redirect=noop.js,domain=mtvema.com|mtv.co.uk|mtv.de|mtv.it
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=mtvema.com|mtv.co.uk|mtv.de|mtv.it
+a21438 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/170745
+odmiana.net,dowcip.net,antonim.net,krzyzowka.net,synonim.net,zagadkidladzieci.net##img[src^="/adr/"][onclick]
+/adr/*/*.webp$~third-party,image,domain=odmiana.net|dowcip.net|antonim.net|krzyzowka.net|synonim.net|zagadkidladzieci.net
+a28343 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/170742
+a32644 1
+manga1000.top##.row > div.col-12:has(> center > a[href^="https://shope.ee/"])

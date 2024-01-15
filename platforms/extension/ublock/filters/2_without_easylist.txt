@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BSP4Py87R7qjOr9TcwVdfA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705304224-3600.patch
+! Checksum: v1bCbYN2qbxtES6N64hSOg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705307826-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.17.82
-! TimeUpdated: 2024-01-15T07:33:37+00:00
+! Version: 2.3.17.83
+! TimeUpdated: 2024-01-15T08:33:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7216,6 +7216,10 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170613
+mtvema.com,mtv.co.uk,mtv.de,mtv.it##+js(no-fetch-if, imasdk.googleapis.com)
+||imasdk.googleapis.com/pal/sdkloader/pal.js$script,redirect=noop.js,domain=mtvema.com|mtv.co.uk|mtv.de|mtv.it
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=mtvema.com|mtv.co.uk|mtv.de|mtv.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170545
 shineads.in##+js(abort-on-property-read, Datad1d6cd127)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170424
@@ -21436,6 +21440,9 @@ roweroweporady.pl#@#.ad_container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148299
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170745
+odmiana.net,dowcip.net,antonim.net,krzyzowka.net,synonim.net,zagadkidladzieci.net##img[src^="/adr/"][onclick]
+/adr/*/*.webp$~third-party,image,domain=odmiana.net|dowcip.net|antonim.net|krzyzowka.net|synonim.net|zagadkidladzieci.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170058
 codziennypoznan.pl#@#img[width="600"][height="90"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170059
@@ -28341,6 +28348,7 @@ tukipasti.com##+js(window.open-defuser)
 ier.ai##+js(window.open-defuser)
 ! popunder
 alrincon.com##+js(abort-current-script, onload, window.open)
+! https://github.com/AdguardTeam/AdguardFilters/issues/170742
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135040
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125900
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122322
@@ -32642,6 +32650,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+manga1000.top##.row > div.col-12:has(> center > a[href^="https://shope.ee/"])
 watchsomuch.to###VPN
 watchsomuch.to##.getVIPAds
 pcwarezbox.com##.entry-content > div[style]:has(> center a[href][rel="nofollow"])

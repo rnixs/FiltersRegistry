@@ -1,0 +1,24 @@
+d1 2
+a2 2
+! Checksum: ywXPnz7kSmP7yxq//MDr0g
+! Diff-Path: ../patches/2/2-s-1705307830-3600.patch
+d5 2
+a6 2
+! Version: 2.3.17.83
+! TimeUpdated: 2024-01-15T08:33:16+00:00
+a7388 4
+! https://github.com/AdguardTeam/AdguardFilters/issues/170613
+mtvema.com,mtv.co.uk,mtv.de,mtv.it#%#//scriptlet('prevent-fetch', 'imasdk.googleapis.com')
+@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=mtvema.com|mtv.co.uk|mtv.de|mtv.it
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mtvema.com|mtv.co.uk|mtv.de|mtv.it
+a23361 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/170745
+odmiana.net,dowcip.net,antonim.net,krzyzowka.net,synonim.net,zagadkidladzieci.net##img[src^="/adr/"][onclick]
+/adr/*/*.webp$~third-party,image,domain=odmiana.net|dowcip.net|antonim.net|krzyzowka.net|synonim.net|zagadkidladzieci.net
+a30639 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/170742
+d30641 1
+a30641 1
+wionews.com#%#(()=>{let e,t=!1;const n=function(){},o=function(t,n){if("function"==typeof n)try{window.KalturaPlayer?n([]):e=n}catch(e){console.error(e)}};let r;Object.defineProperty(window,"PWT",{value:{requestBids:o,generateConfForGPT:o,addKeyValuePairsToGPTSlots:n,generateDFPURL:n}}),Object.defineProperty(window,"KalturaPlayer",{get:function(){return r},set:function(n){r=n,t||(t=!0,e([]))}})})();
+a35250 1
+manga1000.top##.row > div.col-12:has(> center > a[href^="https://shope.ee/"])
