@@ -1,9 +1,9 @@
-! Checksum: Rchjb+E8TxeCXqeg+Hin3A
-! Diff-Path: ../patches/214_optimized/214_optimized-s-1705324062-14400.patch
+! Checksum: SsYJQEOSn+q+a7sJVZXMMw
+! Diff-Path: ../patches/214_optimized/214_optimized-s-1705338434-14400.patch
 ! Title: ABPVN List (Optimized)
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.26.18
-! TimeUpdated: 2024-01-15T13:03:07+00:00
+! Version: 2.0.26.19
+! TimeUpdated: 2024-01-15T17:02:44+00:00
 ! Expires: 5 days (update frequency)
 .com/cpc/$script
 .com/qc/
@@ -179,7 +179,7 @@
 ||ophimhd.vip/download
 ||ophimhd.vip/upload
 ||p.thoctv.com^*.gif$image
-||phetruyen.pro/storage/images/banner/$image
+||phetruyen.vip/storage/images/banner/$image
 ||phim.vkoolv.net/images/ads/
 ||phimcuon.com^*.gif$image
 ||phimhay.in^*.gif
@@ -762,7 +762,7 @@ ophimhdvn3.net##sobet-ads-right
 ophimhdvn3.net,kienthuc.net.vn,saostar.vn,huphimtv.com,bongda24h.vn,vieclam123.net,cungthi.online,appvn.com,linkerpt.com,tinnhac.com,antt.vn,film365.in,xemphimviet1.net,ghienphim11.net,nhadautu.vn,soikeo365.net,nghenhinvietnam.vn,doctailieu.com##.ads
 p.thoctv.com##.add-logo-ads
 phapluatplus.vn##div[style="text-align:center;margin-top:0px;margin-bottom:0px;"]
-phetruyen.pro,phimbo88vn.net##.ads_popup
+phetruyen.vip,phimbo88vn.net##.ads_popup
 phim.vkoolv.net##.box-rating
 phim.vkoolv.net,subnhanhvl.co,subnhanh.app,subnhanh.bio,tructiepdabong5.co,tutientruyen3.xyz,protruyen2.fun,biphim.io###overlay
 phim.vkoolv.net,vuonhoalan.net,gunnylau360.net,mythethao.net,phimplay24h.com,kenhgamelau.com,phimno4.xyz,gunnymienphi.net,dailyphimz.com,xemhay24h.com,listnhacai1.com,phim33.tv,247phim.cc,vkooll.net,vungtv.us##.float-ck
@@ -1197,6 +1197,7 @@ $third-party,script,domain=sexdiaryx.us
 ||ads.6789live.com^$image
 ||blogger.googleusercontent.com^*.gif$image,domain=gvnvh18.com
 ||buomtv.tv/palivn/ad/$image
+||cdn-01.w3img.com^*.gif$image,domain=javhd.tech|sexvietz.co
 ||cdn.adxcontent.com^
 ||cdn.javbabe.net^$subdocument
 ||cliphotvn.vip^*.gif$image
@@ -1231,7 +1232,7 @@ $third-party,script,domain=sexdiaryx.us
 ||rphang.online^*.gif
 ||sayhentai.fun/assets/js/ads.js
 ||sex1.lenlut.net/themes/js/main.js$script
-||sexsub.online^*.gif$image,domain=tuoi69.tv
+||sexsub.online^*.gif$image,domain=tuoi69.tv|javhay.cam
 ||sieukhung.site^*.gif$image
 ||top1sex.club/theme/custom.int.js
 ||truyen18.xyz/media/abc/$image
@@ -1265,6 +1266,7 @@ hentaivn.lol##.qx_135
 javhay.cam##.v4j-header>center
 javhd.shop,sex.vlxx.studio,sex.heovl.online##.hd-tube-desktop
 javhd.shop,sex.vlxx.studio,sex.heovl.online##.hd-tube-mobile
+javhd.tech###AgeModal
 javtiful.com###latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 javtiful.com##.v3sb-box
 javtopxx.com##.cat-fish.a-play
@@ -1294,6 +1296,7 @@ sex.phe.to###divExoLayerWrapper
 sex.phe.to##.sdzhead
 sexdacbiets.pro,phim.sexmup69.pro,sex.xemphimhay.pro##.quangcaomobile
 sexhay2024.com###tut4ktream_idAdLink
+sexvietz.co,javhd.tech###f186fb23a33995d91ce3c2212189178c8
 sieudamtv.me###pc-preload-modal
 sieudamtv.me###popup
 sieudamtv.me##.quang-cao
@@ -1398,7 +1401,7 @@ truyenqqvn.com#%#//scriptlet("abort-current-inline-script", "document.addEventLi
 truyensieuhay.com,phimvietsub.pro,tvhayh.org,vuaphimmoi2.net,quangcaoyenbai.com,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com,khophim88.net#%#//scriptlet("abort-on-property-read", "document.cookie")
 truyentuanopm.com#%#//scriptlet("abort-current-inline-script", "$", "btpop")
 vailonxx.com,phimlongtieng.com,phimlongtieng.net#%#//scriptlet("abort-current-inline-script", "jQuery", "window.open")
-viet69.red,ungtycomicsvip.com,vlxx.xxx,dualeotruyenid.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.vin,doctruyen3qup.com,hentaizz.vip,animehay.city,heo69.top,tuoi69.tv,top1sex.club,lenlut.net,phimsex.bet,hentai-vn.tv,web27.sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motphimz.cc,truyenvnhay.tv,cdnstream.sbs,javtiful.com,truyengihotvay.net,truyengihotqua.net,truyengihotqua.com,truyengihotnay.com,tuoi69.tv#%#//scriptlet("abort-current-inline-script", "WebAssembly", "instantiate")
+viet69.red,ungtycomicsvip.com,vlxx.xxx,dualeotruyenid.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.vin,doctruyen3qup.com,hentaizz.vip,animehay.city,heo69.top,top1sex.club,lenlut.net,phimsex.bet,hentai-vn.tv,web27.sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motphimz.cc,truyenvnhay.tv,cdnstream.sbs,javtiful.com,truyengihotvay.net,truyengihotqua.net,truyengihotqua.com,truyengihotnay.com,tuoi69.tv#%#//scriptlet("abort-current-inline-script", "WebAssembly", "instantiate")
 viettoons.tv,mv.phimmoiaz.cc,m.blogtruyenvn.com,animet.net,anh.moe#%#//scriptlet("abort-on-property-read", "open")
 vinaurl.net#%#//scriptlet("abort-on-property-read", "oneClick")
 vndoc.com#%#//scriptlet("set-constant", "seconds", "0")
