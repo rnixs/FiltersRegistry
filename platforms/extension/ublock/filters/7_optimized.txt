@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: U+t1buORPBp4WN8xerzoag
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1705333022-3600.patch
+! Checksum: /cszM+0KBYac8JWOcP3URw
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1705336623-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.60
-! TimeUpdated: 2024-01-15T15:33:47+00:00
+! Version: 2.0.47.61
+! TimeUpdated: 2024-01-15T16:33:49+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||js.mediams.mb.softbank.jp^
@@ -4852,7 +4852,7 @@ androidjiten.com###surfing_adsense_widget-4
 teratail.com##div[class^="googlePublisherTags_ads"]
 teratail.com##div[class*="_questionBottomAdArea_"]
 suki-kira.com##.text-xs-center[style="min-height: 90px;width:100%;"]
-city.shinjuku.lg.jp,kodansha.co.jp,digiday.jp,whatext.com,psmk2.net,10mtv.jp##.advertisement
+teniteo.jp,city.shinjuku.lg.jp,kodansha.co.jp,digiday.jp,whatext.com,psmk2.net,10mtv.jp##.advertisement
 10mtv.jp##div[style^="width:610px; height:260px"]
 corriente.top##div[style="width: 970px; margin: 0 auto 30px;"]
 e-earphone.jp##.header-area-bn

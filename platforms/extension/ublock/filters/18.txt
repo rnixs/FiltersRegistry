@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: oLYETteSw2vqxD1EhJKGPw
-! Diff-Path: ../patches/18/18-s-1705333017-3600.patch
+! Checksum: zpRrCsPz7r+t9CF7/Cdu5Q
+! Diff-Path: ../patches/18/18-s-1705336619-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.28
-! TimeUpdated: 2024-01-15T15:32:31+00:00
+! Version: 2.0.31.29
+! TimeUpdated: 2024-01-15T16:32:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2298,7 +2298,7 @@ freundin.de,utopia.de,mein-schoener-garten.de,eveningnews24.co.uk,rollingstone.d
 ! START: iubenda CMP
 ! No action required ##
 danielesubrizi.it,gelocal.it,today.it,radiomontecarlo.net,r101.it,villacavalierisrl.it,villabetaniaroma.it,villamafalda.com,ambulatoriovillachiara.it,ambulatoriovillachiara.it,tvtech.it,crai-supermercati.it,centromedicoarcidiacono.it,usi.it,laboratoriodiegoangeli.it,analisiroma.it,edizioni.multiplayer.it,smartworld.it,pianteweb.com,cioccolatonippon.it,hwupgrade.it,iphoneitalia.com,mediaset.it,arduino.cc,virginradio.it##body #iubenda-cs-banner
-||cdn.iubenda.com^$domain=crazygames.com|caseecase-roma.it|crazygames.com
+||cdn.iubenda.com^$domain=crazygames.com|caseecase-roma.it|smartworld.it
 ! No action required (scrolling is blocked) #$#
 urbanpost.it,synlab.it,dissapore.com,leganerd.com,siracusanews.it,tomshw.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it,virgilio.it#$##iubenda-cs-banner { display: none !important; }
 urbanpost.it,synlab.it,dissapore.com,leganerd.com,siracusanews.it,tomshw.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it,virgilio.it#$#html { overflow: auto !important; }
@@ -2496,7 +2496,7 @@ tunemymusic.com##div[class^="HeaderMenu_CookieAlert_"]
 gra.parkiet.com##.gpw-cookie-popup
 itnext.io##+js(set-local-storage-item, 201805-policy|accepted, 1)
 akket.com###anycomment-root .MuiSnackbarContent-root
-lexplain.it###cp-gdpr-choices
+kodami.it,lexplain.it###cp-gdpr-choices
 vandenhoeck-ruprecht-verlage.com##+js(set-cookie, mnd-cookie-accepted-wwwvandenhoeckruprechtverlagecom1, 1)
 goelds.de#$#div[aria-label="cookieconsent"] { display: none !important; }
 goelds.de#$?##gdpr-blocking-page-overlay { display: none !important; }

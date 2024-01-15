@@ -1,9 +1,9 @@
-! Checksum: MXg9PoGR553yjdx+3TAYCQ
-! Diff-Path: ../patches/20/20-s-1705063001-3600.patch
+! Checksum: xBneig2rXrxUrGcJsZM1wg
+! Diff-Path: ../patches/20/20-s-1705336590-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.84
-! TimeUpdated: 2024-01-12T12:32:55+00:00
+! Version: 2.0.11.85
+! TimeUpdated: 2024-01-15T16:32:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -111,6 +111,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! TODO: Delete the following rule when https://github.com/AdguardTeam/ExtendedCss/issues/172 is resolved.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 !
+dgabc.com.br##._baixeApps
 lemon8-app.com##.pc-reflow
 op.gg##.gnb-desktop-download
 r6.tracker.network,fortnitetracker.com##.trn-site-appbar__apps

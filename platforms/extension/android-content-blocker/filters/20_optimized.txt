@@ -1,9 +1,9 @@
-! Checksum: IXIotlCthIcHVIoSpSSx+g
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1705291020-3600.patch
+! Checksum: hDw6eV+9VRvFt5/D/KSSfg
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1705336590-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.84
-! TimeUpdated: 2024-01-12T12:32:55+00:00
+! Version: 2.0.11.85
+! TimeUpdated: 2024-01-15T16:32:43+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ##amp-app-banner
@@ -14,6 +14,7 @@
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 ###SmBnLink
 turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.global.ssl.fastly.net,meduza.io##body .smartbanner
+dgabc.com.br##._baixeApps
 lemon8-app.com##.pc-reflow
 op.gg##.gnb-desktop-download
 r6.tracker.network,fortnitetracker.com##.trn-site-appbar__apps
