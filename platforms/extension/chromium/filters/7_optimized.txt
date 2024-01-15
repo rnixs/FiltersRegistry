@@ -1,9 +1,9 @@
-! Checksum: YyKnD1dF3t2Gh7ySoh0mmA
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1705325848-3600.patch
+! Checksum: OE1YLBMgOR18zJy7kSIFHw
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1705332993-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.59
-! TimeUpdated: 2024-01-15T13:34:40+00:00
+! Version: 2.0.47.60
+! TimeUpdated: 2024-01-15T15:33:47+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4464,6 +4464,7 @@ excite.co.jp###ad300x250
 excite.co.jp###timesale
 excite.co.jp##.ec-ranking-article
 excite.co.jp##div[id^="exad"]
+newsoku.blog##.content_fixed_addsspot_300_600_pc
 newsoku.blog###simplicityclassictextwidget-35
 newsoku.blog###simplicityclassictextwidget-36
 newsoku.blog###simplicityclassictextwidget-37

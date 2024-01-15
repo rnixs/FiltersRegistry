@@ -1,9 +1,9 @@
-! Checksum: fkzDdcuE3rx8NKXPE+yK9w
-! Diff-Path: ../patches/19/19-s-1705329438-3600.patch
+! Checksum: 61JsPU7Ka5/9nhkhBNyDEw
+! Diff-Path: ../patches/19/19-s-1705333029-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.96
-! TimeUpdated: 2024-01-15T14:32:32+00:00
+! Version: 2.0.29.97
+! TimeUpdated: 2024-01-15T15:32:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12139,6 +12139,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+bigissue.com##.hubspotform
+bigissue.com##.wp-block-separator
 vivino.com##div[class^="offerSubscription"]
 warnerbrosgames.com#%#//scriptlet('set-cookie', 'SignupDismissed', '1')
 meest.shopping##.cl-dialog
@@ -15362,7 +15364,7 @@ radiokp.ru##.dummy-yandex-zen-channel-block
 axios.com###referrerModalCTA--modal_prorata
 bankstoday.net##.please-share
 first-class-and-more.de,bankstoday.net###subscribe_widget
-||js.hsforms.net/forms/$domain=oko.uk
+||hsforms.net/forms/$domain=oko.uk|bigissue.com
 nintendosoup.com,oko.uk##.wppopups-whole
 oko.uk##.hwp-bottomright
 israelinfo.co.il##.ramkasub
