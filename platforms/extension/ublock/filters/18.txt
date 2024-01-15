@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: PCov3eGBggSSRijfWzSljw
-! Diff-Path: ../patches/18/18-s-1705347411-3600.patch
+! Checksum: /Hg4+jj387hi167hxpairA
+! Diff-Path: ../patches/18/18-s-1705350997-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.32
-! TimeUpdated: 2024-01-15T19:32:29+00:00
+! Version: 2.0.31.33
+! TimeUpdated: 2024-01-15T20:32:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2319,6 +2319,8 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+educamaisbrasil.com.br##.aviso-cookie
+leismunicipais.com.br##.cb-container
 hyundaicanada.com##.province-selector
 hyundaicanada.com##.sticky-cookie-policy-container
 insource.co.jp##.m_cookieBanner
@@ -2756,8 +2758,8 @@ sfr.gov.ru##.user-data-processing-wrapper
 ||ostsee24.de/consent/
 careerswales.gov.wales##.cw-cookies-policy-banner
 allyouplay.com##.cookie-card_container
-predge.jp,eltrox.pl##.modal-gdpr
-eltrox.pl##.overlay-gdpr
+hurton.pl,predge.jp,eltrox.pl##.modal-gdpr
+hurton.pl,eltrox.pl##.overlay-gdpr
 weverse.io###wevConsentManagerLayer
 datamedicaroma.it##.rstboxes
 toshibatec.eu##.cookie-consent-background

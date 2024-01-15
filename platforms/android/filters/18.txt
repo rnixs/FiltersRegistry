@@ -1,9 +1,9 @@
-! Checksum: kha/xzE4AJf/2YPUgrpFwQ
-! Diff-Path: ../patches/18/18-s-1705347373-3600.patch
+! Checksum: sdF9Jhzyh0tmW2wwXGRi+g
+! Diff-Path: ../patches/18/18-s-1705350976-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.32
-! TimeUpdated: 2024-01-15T19:32:29+00:00
+! Version: 2.0.31.33
+! TimeUpdated: 2024-01-15T20:32:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2348,6 +2348,8 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+educamaisbrasil.com.br##.aviso-cookie
+leismunicipais.com.br##.cb-container
 hyundaicanada.com##.province-selector
 hyundaicanada.com##.sticky-cookie-policy-container
 insource.co.jp##.m_cookieBanner
@@ -2861,8 +2863,8 @@ careerswales.gov.wales##.cw-cookies-policy-banner
 allyouplay.com##.cookie-card_container
 transferxl.com#%#//scriptlet('trusted-set-cookie', 'txl_consent_status', 'functional-performance-targeting')
 spoutible.com#%#//scriptlet('set-cookie-reload', '__c_u_a__', '1')
-predge.jp,eltrox.pl##.modal-gdpr
-eltrox.pl##.overlay-gdpr
+hurton.pl,predge.jp,eltrox.pl##.modal-gdpr
+hurton.pl,eltrox.pl##.overlay-gdpr
 weverse.io###wevConsentManagerLayer
 datamedicaroma.it##.rstboxes
 toshibatec.eu##.cookie-consent-background
