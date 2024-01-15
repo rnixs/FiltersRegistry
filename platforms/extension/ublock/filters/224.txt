@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: IjIYDA8G+H/7VFpiUO1TNw
-! Diff-Path: ../patches/224/224-s-1705315104-3600.patch
+! Checksum: ifWqgbueZt/QtTV2NmAW4w
+! Diff-Path: ../patches/224/224-s-1705318794-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.8.44
-! TimeUpdated: 2024-01-15T10:33:06+00:00
+! Version: 2.1.8.45
+! TimeUpdated: 2024-01-15T11:34:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -972,7 +972,7 @@ nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.title, ''
 ! Temorary solution, remove when https://github.com/AdguardTeam/Scriptlets/issues/330 will be resolved
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147985
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146359
-nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
+nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141657
 axutongxue.net##+js(no-setTimeout-if, getCookie(")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135612
@@ -1279,6 +1279,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+nivod7.tv##.nav-ads
 boylove1.mobi##.div_sticky2
 boylove1.mobi##.fuafxnfq
 boylove1.mobi##.main-banner

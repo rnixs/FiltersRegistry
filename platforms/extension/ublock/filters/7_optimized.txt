@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: k6D6/OtY2IHrUE6QKz1rtA
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1705315114-3600.patch
+! Checksum: mau9U5SZs26LYQRBA9w/Jw
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1705318796-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.57
-! TimeUpdated: 2024-01-15T10:34:05+00:00
+! Version: 2.0.47.58
+! TimeUpdated: 2024-01-15T11:35:45+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||js.mediams.mb.softbank.jp^
@@ -1213,6 +1213,7 @@ city.tokai.aichi.jp,city.noda.chiba.jp,city.suginami.tokyo.jp,city.toyooka.lg.jp
 city.yao.osaka.jp,city.ikoma.lg.jp,city.higashiosaka.lg.jp,city.higashiomi.shiga.jp,city.ogaki.lg.jp,city.kawasaki.jp,city.tama.lg.jp,city.inzai.lg.jp,city.kyotanabe.lg.jp,city.himeji.lg.jp,city.hirakata.osaka.jp,city.osaka.lg.jp,city.kyoto.lg.jp,city.maizuru.kyoto.jp,city.nagoya.jp,city.iga.lg.jp##.bana
 city.fukuyama.hiroshima.jp,city.niiza.lg.jp,city.kure.lg.jp,city.hatsukaichi.hiroshima.jp,city.ebetsu.hokkaido.jp,city.shunan.lg.jp,city.tondabayashi.lg.jp,city.miki.lg.jp,city.ozu.ehime.jp,city.toda.saitama.jp,city.ageo.lg.jp,pref.fukushima.lg.jp,pref.okayama.jp,city.oyama.tochigi.jp,city.kimitsu.lg.jp,city.ishikari.hokkaido.jp,city.minamiawaji.hyogo.jp,city.yamaguchi.lg.jp###banner_footer1
 gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
+famitsu.com#?#div[class] > div.l-contents-block:has(> div.heading > a[href="/ranking/amazon/"])
 lovemangaraw.net,mangaraw.asia###jp-smart-banner
 lovemangaraw.net,mangaraw.asia##.text-center[style^=" height: 300px; overflow: hidden; max-width: 100%;"]
 urapic.com##.entry-body > div[style="margin:0;padding:5px;font-size:12px;word-break: break-all;"]
