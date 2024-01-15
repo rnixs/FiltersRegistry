@@ -1,10 +1,11 @@
-! Checksum: ABU7lWdiegsi1NjKsBAvlw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705322490-3600.patch
+! Checksum: Bn2ZfWP1toWThzznny4UYA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705329396-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.17.87
-! TimeUpdated: 2024-01-15T12:37:31+00:00
+! Version: 2.3.17.88
+! TimeUpdated: 2024-01-15T14:33:17+00:00
 ! Expires: 5 days (update frequency)
+||guvsxiex.xyz^
 ||ktnukmtsbfko.com^
 ||shaumpem.com^
 ||swollencompletely.com^
@@ -7538,6 +7539,8 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||livehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+||ultimate-guitar.com/static/public/build/prebid_
+||portableapps.com/ezais/dynamic?
 crx4chrome.com##div:is(.blogposts-wrapper, [style^="margin:"]) > .topic[style^="min-height:"]
 menshaircuts.com##div[class*="cut-off-ad"]
 rule34video.com##.spot-thumb
@@ -18237,6 +18240,7 @@ cari.com.my###cvidloader
 @@||ad.doubleclick.net/*/pfadx/$domain=m.youtube.com
 ||hdvmyo.com^
 ||adsy.mail.bg^
+||cdn.bg-gledai.*/fuck_
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=play.nova.bg
 !+ PLATFORM(ios, ext_android_cb)
 @@||jsc.adskeeper.com/*/filmisub.com.*.js$xmlhttprequest,domain=filmiseriali.com
@@ -23685,6 +23689,7 @@ browsershots.org#@#.advert_area
 ||aboveredirect.top^
 ||abpicsrc.com^
 ||abpjs23.com^
+||abrhydona.com^
 ||abruptcompliments.com^
 ||abruptlyretortedbat.com^
 ||abservinean.com^
@@ -24580,6 +24585,7 @@ browsershots.org#@#.advert_area
 ||biphic.com^
 ||bipidoan.com^
 ||biptolyla.com^
+||birdeyedigenea.com^
 ||birqmiowxfh.com^
 ||bisetsoliped.com^
 ||bisnagaunction.top^
@@ -25004,6 +25010,7 @@ browsershots.org#@#.advert_area
 ||checkm8.com^
 ||checkup02.biz^
 ||cheddaramusias.life^
+||cheepurs.xyz^
 ||cheerful-resolution.com^
 ||cheerfullybakery.com^
 ||cheeroredraw.com^
@@ -27086,6 +27093,7 @@ browsershots.org#@#.advert_area
 ||jarvispopsu.com^
 ||jashautchord.com^
 ||jassidpanne.com^
+||jatosfluted.com^
 ||jauchuwa.net^
 ||javascriptcdnlive.com^
 ||jazzlowness.com^
@@ -27259,6 +27267,7 @@ browsershots.org#@#.advert_area
 ||kelpmetorealiu.xyz^
 ||kendosliny.com^
 ||kepersaonwho.org^
+||kesseolluck.com^
 ||ketlpsmt.com^
 ||kettakihome.com^
 ||kettlewharves.com^
@@ -29229,6 +29238,7 @@ browsershots.org#@#.advert_area
 ||rapidhits.net^
 ||rapidshookdecide.com^
 ||rapolok.com^
+||raptorssplurge.com^
 ||rareghoa.net^
 ||raspedexsculp.com^
 ||raupothrepe.com^
@@ -29743,6 +29753,7 @@ browsershots.org#@#.advert_area
 ||sharieta.com^
 ||sharpofferlinks.com^
 ||shatterconceal.com^
+||shaumpem.com^
 ||shaumtol.com^
 ||shauxeel.com^
 ||she-want-fuck.com^
@@ -29905,6 +29916,7 @@ browsershots.org#@#.advert_area
 ||sourishpuler.com^
 ||sousefulhead.com^
 ||soysapslad.com^
+||sozzlypeavies.com^
 ||spacelala.com^
 ||spacetraff.com^
 ||spaciouslanentablelanentablepigs.com^
@@ -30263,6 +30275,7 @@ browsershots.org#@#.advert_area
 ||tihursoa.net^
 ||tiijdxto.com^
 ||tilesmuzarab.com^
+||timedvichy.com^
 ||timesroadmapwed.com^
 ||timsef.com^
 ||tipcupids.com^
@@ -31145,6 +31158,7 @@ browsershots.org#@#.advert_area
 ||xdmanage.com^
 ||xenar.xyz^
 ||xenosmussal.com^
+||xenylclio.com^
 ||xetlugupyug.com^
 ||xfbeobsutqtndp.com^
 ||xfguylptuqw.com^

@@ -1,9 +1,9 @@
-! Checksum: tBHLkaoEtK3VH12vGkOitQ
-! Diff-Path: ../patches/19/19-s-1705318771-3600.patch
+! Checksum: tI4mSGNJ2R0eiIRF9wtS/Q
+! Diff-Path: ../patches/19/19-s-1705329412-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.95
-! TimeUpdated: 2024-01-15T11:34:22+00:00
+! Version: 2.0.29.96
+! TimeUpdated: 2024-01-15T14:32:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10228,6 +10228,7 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 ! ya.ru - main page
 ya.ru##.alice-fab__promo
 ya.ru##.dist-stripe
+ya.ru#%#//scriptlet('trusted-set-local-storage-item', 'gaCounterShowTime', '$now$')
 !
 ! Yandex.Search
 yandex.*##.DistrSmartbanner
@@ -12149,6 +12150,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+vivino.com##div[class^="offerSubscription"]
 warnerbrosgames.com#%#//scriptlet('set-cookie', 'SignupDismissed', '1')
 meest.shopping##.cl-dialog
 devblogs.microsoft.com###subscribe_form
