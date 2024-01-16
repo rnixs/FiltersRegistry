@@ -1,0 +1,17 @@
+d1 2
+a2 2
+! Checksum: QDe+zATq5CUnEg1aJL+Z6w
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1705416084-3600.patch
+d5 2
+a6 2
+! Version: 2.0.96.13
+! TimeUpdated: 2024-01-16T14:38:23+00:00
+d228 1
+a228 1
+/btn_sns_$image,domain=~nikkan-gendai.com|~colopl.co.jp
+a331 2
+kadokawa.co.jp##.social-button-bar
+open.online##.social-buttons
+a6136 2
+##a[href^="https://x.com/share"]
+!+ NOT_OPTIMIZED

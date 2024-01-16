@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: A2HnwkF57PHcy/tEAyXp3g
-! Diff-Path: ../patches/6/6-s-1705250198-3600.patch
+! Checksum: AFvuN23be/U8YXEkwCVStQ
+! Diff-Path: ../patches/6/6-s-1705416119-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.39.97
-! TimeUpdated: 2024-01-14T16:33:38+00:00
+! Version: 2.0.39.98
+! TimeUpdated: 2024-01-16T14:38:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1191,6 +1191,8 @@ kicker.de,stern.de,desired.de,pcgames.de,t-online.de,vox.de,spieletipps.de,wette
 ! new version (both rules are working on their own)
 plus.rtl.de##+js(abort-on-stack-trace, Object.prototype.adReinsertion, createSdk)
 !
+! jpgames.de - left-over at top
+jpgames.de#$##takeover { padding-top: unset!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166369
 ddl-warez.cc##+js(window.open-defuser, af.php)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164427
@@ -1642,6 +1644,8 @@ formel1.de,krautundrueben.de,motorsport-total.com,traktorpool.de,fnweb.de,laborj
 !
 !
 !
+trophies.de###ipsLayout_mainArea center:has(> div[class] > div[id^="nerdic_"])
+trophies.de##div[data-role="sidebarAd"]
 restegourmet.de#?#ion-col:has(> app-content-ad-grid)
 winfuture.de##a[title*="gesponsert"]
 nordbayern.de##article:has(> a > .modul__teaser > .modul__teaser__anzeige)
