@@ -1,9 +1,9 @@
-! Checksum: 7xMJ/k+jEnhSPl5VBSH7GA
-! Diff-Path: ../patches/19/19-s-1705416110-3600.patch
+! Checksum: eOprUHkg7L8Obk+C/iJGVA
+! Diff-Path: ../patches/19/19-s-1705423003-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.5
-! TimeUpdated: 2024-01-16T14:37:23+00:00
+! Version: 2.0.30.6
+! TimeUpdated: 2024-01-16T16:32:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12693,7 +12693,6 @@ metro.co.uk#$#.metro-newsletter-overlay { display: none !important; }
 medianews4u.com##.theiaStickySidebar > #text-2
 medianews4u.com#?#.theiaStickySidebar > .jeg_wrapper > .wpb_text_column:has(> .wpb_wrapper > .mc4wp-form)
 consumerreports.org##.cda-gnav > div[class^="pre-prime-day-deals"]
-newsnow.co.uk##.email-signup
 noicompriamoauto.it##.signup-wrapper
 astv.ru###fullscreenmf
 diariodocomercio.com.br##.container-whats
@@ -18143,7 +18142,7 @@ atlasobscura.com##.email-ask-full-width
 newrepublic.com##.email-container
 ubr.ua##.email-form
 thoughtbot.com,komando.com##.email-sign-up
-joesnewbalanceoutlet.com,urbanmilwaukee.com,offspring.co.uk,beautifulhomes.com,trueachievements.com##.email-signup
+novaramedia.com,newsnow.co.uk,joesnewbalanceoutlet.com,urbanmilwaukee.com,offspring.co.uk,beautifulhomes.com,trueachievements.com##.email-signup
 thenation.com##.email-signup-module
 freedomoutpost.com##.email-signup.widget
 newyorklife.com,prosleduet.media,mirfactov.com,howtogeek.com##.email-subscribe

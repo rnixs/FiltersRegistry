@@ -1,0 +1,47 @@
+d1 2
+a2 2
+! Checksum: 3O8WNDFYAdYC7E3zkxY+2A
+! Diff-Path: ../patches/2/2-s-1705422968-3600.patch
+d5 2
+a6 2
+! Version: 2.3.18.10
+! TimeUpdated: 2024-01-16T16:33:01+00:00
+d7148 1
+a7148 1
+blurayufr.me,blurayufr.xyz##body > .bw_footer + div[id][class*=" "]
+d7337 2
+d7431 5
+a7435 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/170717
+||ytlarge.com/youtube/css/*.js
+a26941 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/170792
+!+ NOT_OPTIMIZED
+##.player-wrap > .spot-box
+a33027 2
+blurayufr.me###banner_iklan_top
+softwareok.com##div[style] > table[id^="banner_"][class^="GXG_"]:upward(1)
+d37778 1
+a88023 1
+||fortpavilioncamomile.com^
+a89531 1
+||h74v6kerf.com^
+a92609 1
+||kqrcijq.com^
+a92690 1
+||kvxxkbmby.com^
+a94028 1
+||mapakrogngi.com^
+a96608 1
+||oncdiranwrus.com^
+a102868 1
+||spongemilitarydesigner.com^
+a103352 1
+||sualgvoi.com^
+a113385 1
+||spongemilitarydesigner.com^$popup
+a115132 1
+||incrementxplay.com/api/adserver/
+d115272 1
+a123081 1
+paraphraser.io##div[style="height:128px;overflow: hidden !important;"]

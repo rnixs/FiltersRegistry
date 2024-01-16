@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 5jCZIixTQ6iKURhXmHo2JA
-! Diff-Path: ../patches/18/18-s-1705419425-3600.patch
+! Checksum: cqnkspCQSccowRbkL7kvYQ
+! Diff-Path: ../patches/18/18-s-1705423008-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.40
-! TimeUpdated: 2024-01-16T15:32:45+00:00
+! Version: 2.0.31.41
+! TimeUpdated: 2024-01-16T16:32:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2320,6 +2320,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+novaramedia.com###obligation-bar
 supabase.com##+js(set-local-storage-item, supabase-consent, false)
 educamaisbrasil.com.br##.aviso-cookie
 leismunicipais.com.br##.cb-container
@@ -14072,7 +14073,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166753
-@@||delivery.consentmanager.net^$domain=buerstaedter-zeitung.de|allgemeine-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
+@@||delivery.consentmanager.net^$domain=buerstaedter-zeitung.de|allgemeine-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de|ruhrnachrichten.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166753
 @@||delivery.consentmanager.net^$domain=kinoheld.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170817
