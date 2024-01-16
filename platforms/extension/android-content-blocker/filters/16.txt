@@ -1,9 +1,9 @@
-! Checksum: B+NGGR1aTeZws6/CFIMG1w
-! Diff-Path: ../patches/16/16-s-1705030531-3600.patch
+! Checksum: ZKHqTiFshEWdPXzI/uJRbw
+! Diff-Path: ../patches/16/16-s-1705430155-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.42.83
-! TimeUpdated: 2024-01-12T03:31:41+00:00
+! Version: 2.0.42.84
+! TimeUpdated: 2024-01-16T18:31:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -641,6 +641,7 @@ prod-player.tf1.fr,tf1.fr,tf1info.fr#@#.carbon-ads
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170646
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164927
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157906
 ! 20min.ch - fixes video player
@@ -799,6 +800,9 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+jeune-gay.fr##.happy-sidebar
+jeune-gay.fr##.yellow
+jeune-gay.fr##.happy-mob
 commentcamarche.net##.sticky-zone
 commentcamarche.com,commentcamarche.net,journaldunet.com##div[id^="ctn_"]
 jeux-gratuits.com##div[class^="placeholder_"]
