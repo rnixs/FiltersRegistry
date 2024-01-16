@@ -1,9 +1,9 @@
-! Checksum: t3dT0w4ShYjMRpsXt/63Yw
-! Diff-Path: ../patches/7/7-s-1705383404-3600.patch
+! Checksum: kF8znX6abIHAO17Tc3KjpA
+! Diff-Path: ../patches/7/7-s-1705394309-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.64
-! TimeUpdated: 2024-01-16T05:33:48+00:00
+! Version: 2.0.47.65
+! TimeUpdated: 2024-01-16T08:34:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -786,7 +786,7 @@ knshow.com#@#ins.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81505
 crefan.jp#%#//scriptlet('prevent-setTimeout', 'objDef.resolve')
 @@||googlesyndication.com/pagead/show_ads.js$domain=crefan.jp
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=crefan.jp
 ! nihongo-pro.com anti-adb
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=nihongo-pro.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67394

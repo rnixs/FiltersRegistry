@@ -1,9 +1,9 @@
-! Checksum: TheT5lQ4FeAAIaluZY9mmQ
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1705383380-3600.patch
+! Checksum: PSFfblb3iBAWFApX9M4CFQ
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1705394266-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.64
-! TimeUpdated: 2024-01-16T05:33:48+00:00
+! Version: 2.0.47.65
+! TimeUpdated: 2024-01-16T08:34:54+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||js.mediams.mb.softbank.jp^
@@ -523,7 +523,7 @@ knshow.com#$#.ads { display: block!important;height: 1px!important; }
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=knshow.com
 knshow.com#@#ins.adsbygoogle
 @@||googlesyndication.com/pagead/show_ads.js$domain=crefan.jp
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=crefan.jp
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=nihongo-pro.com
 @@/assets/scripts/fab.js$domain=life-n.jp|point-news.jp
 ||freemen.jp/wp-content/uploads/yIOefayFENNZ/$script
