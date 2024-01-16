@@ -1,9 +1,9 @@
-! Checksum: MdBFk1uouJQhODtFp5latA
-! Diff-Path: ../patches/18/18-s-1705394318-3600.patch
+! Checksum: G8t3b2ATiL28guZFQ/shxg
+! Diff-Path: ../patches/18/18-s-1705401628-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.35
-! TimeUpdated: 2024-01-16T08:33:33+00:00
+! Version: 2.0.31.36
+! TimeUpdated: 2024-01-16T10:33:20+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2364,6 +2364,7 @@ meest.shopping##.df__cookie-popup
 lemon8-app.com##.wap-cookie-policy-banner
 oppo.com##.cookie-tips
 khanacademy.org##div[aria-label="Notification Banner"]
+cadenaser.com#%#//scriptlet('trusted-click-element', '#redesignCmpWrapper > div > div > a[href^="https://cadenaser.com/"]')
 as.com#%#//scriptlet('trusted-click-element', '#redesignCmpWrapper > div > div > a[href^="https://as.com/"]', '', '500')
 github.com###cookie-consent-banner
 tescoma.sk##div[data-testid="layout-popup"]
@@ -13911,7 +13912,7 @@ citilink.ru#%#//scriptlet('set-cookie', 'infoCookieUses', 'true')
 jove.com#%#//scriptlet('set-local-storage-item', 'displayCookiesBanner', 'false')
 getir.com#%#AG_onLoad(function(){if(!document.cookie.includes('cookiePermissions')){var g=new MutationObserver(function(){var el = document.querySelector('button[data-testid="button"][aria-label^="Reject"]'); el&&el.click();});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 medal.tv#%#//scriptlet('set-cookie', 'medal-accept-cookie', 'false')
-oggi.it,video.gazzetta.it,corriere.it#%#//scriptlet('trusted-click-element', '.privacy-cp-wall #privacy-cp-wall-accept')
+iodonna.it,oggi.it,video.gazzetta.it,corriere.it#%#//scriptlet('trusted-click-element', '.privacy-cp-wall #privacy-cp-wall-accept')
 nightcafe.studio#%#//scriptlet('trusted-set-local-storage-item', 'acceptsNonCriticalCookies', 'denied')
 pracuj.pl#%#//scriptlet('set-cookie', 'gpc_v', '1')
 sneakerfreaker.com#%#//scriptlet('set-local-storage-item', 'cookieConsent', '1')
@@ -14941,6 +14942,10 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170817
+@@||rcsobjects.it/rcs_cpmt/$domain=iodonna.it
+! https://github.com/AdguardTeam/AdguardFilters/issues/170813
+@@||sdk.privacy-center.org^$domain=cadenaser.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170711
 @@||ecookie.nl/build/inject/bundle.*.js$domain=multivlaai.nl
 @@||ecookie.nl/build/cookiebar/script/*.js$domain=multivlaai.nl

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: hFcC1LdFix+W75l05u0bCQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705397841-3600.patch
+! Checksum: 0N59qrPQkkqtsdbBOMzDSA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705401613-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.18.3
-! TimeUpdated: 2024-01-16T09:33:30+00:00
+! Version: 2.3.18.4
+! TimeUpdated: 2024-01-16T10:36:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -17838,7 +17838,9 @@ e15.cz###topSite
 e15.cz###brandingCreativeWrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24191
 vtm.zive.cz##.box-cex
+! https://github.com/AdguardTeam/AdguardFilters/issues/170846
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78367
+novinky.cz##.g_f9
 novinky.cz,seznamzpravy.cz##+js(cookie-remover, qusnyQusny)
 novinky.cz,seznamzpravy.cz##div[data-e2e="mol-advert"]
 ||report.seznamzpravy.cz^
@@ -19963,6 +19965,9 @@ movie76.com##img[alt="ads"]
 !---------------------------------------------------------------------
 ! NOTE: Italian
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170817
+iodonna.it##body div[id^="rcsad_"]:not(#style_important)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noop.js,domain=iodonna.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170342
 dissapore.com##.article__adv--outbrain
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169541

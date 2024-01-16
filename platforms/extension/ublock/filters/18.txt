@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: phI/IYCOe3ige+3Yksy3jA
-! Diff-Path: ../patches/18/18-s-1705394298-3600.patch
+! Checksum: +r8qM9tMS2hs/kKmCvxH8w
+! Diff-Path: ../patches/18/18-s-1705401610-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.35
-! TimeUpdated: 2024-01-16T08:33:33+00:00
+! Version: 2.0.31.36
+! TimeUpdated: 2024-01-16T10:33:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -14069,6 +14069,10 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170817
+@@||rcsobjects.it/rcs_cpmt/$domain=iodonna.it
+! https://github.com/AdguardTeam/AdguardFilters/issues/170813
+@@||sdk.privacy-center.org^$domain=cadenaser.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170711
 @@||ecookie.nl/build/inject/bundle.*.js$domain=multivlaai.nl
 @@||ecookie.nl/build/cookiebar/script/*.js$domain=multivlaai.nl

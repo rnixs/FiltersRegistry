@@ -1,9 +1,9 @@
-! Checksum: gCfvOKUIFWq/W+731IFbZA
-! Diff-Path: ../patches/14/14-s-1705397812-3600.patch
+! Checksum: wweryZgjsZ1Q7Jrle8Ps2A
+! Diff-Path: ../patches/14/14-s-1705401581-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.74
-! TimeUpdated: 2024-01-16T09:32:31+00:00
+! Version: 2.1.84.75
+! TimeUpdated: 2024-01-16T10:33:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2364,6 +2364,7 @@ meest.shopping##.df__cookie-popup
 lemon8-app.com##.wap-cookie-policy-banner
 oppo.com##.cookie-tips
 khanacademy.org##div[aria-label="Notification Banner"]
+cadenaser.com#%#//scriptlet('trusted-click-element', '#redesignCmpWrapper > div > div > a[href^="https://cadenaser.com/"]')
 as.com#%#//scriptlet('trusted-click-element', '#redesignCmpWrapper > div > div > a[href^="https://as.com/"]', '', '500')
 github.com###cookie-consent-banner
 tescoma.sk##div[data-testid="layout-popup"]
@@ -13905,7 +13906,7 @@ citilink.ru#%#//scriptlet('set-cookie', 'infoCookieUses', 'true')
 jove.com#%#//scriptlet('set-local-storage-item', 'displayCookiesBanner', 'false')
 getir.com#%#AG_onLoad(function(){if(!document.cookie.includes('cookiePermissions')){var g=new MutationObserver(function(){var el = document.querySelector('button[data-testid="button"][aria-label^="Reject"]'); el&&el.click();});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 medal.tv#%#//scriptlet('set-cookie', 'medal-accept-cookie', 'false')
-oggi.it,video.gazzetta.it,corriere.it#%#//scriptlet('trusted-click-element', '.privacy-cp-wall #privacy-cp-wall-accept')
+iodonna.it,oggi.it,video.gazzetta.it,corriere.it#%#//scriptlet('trusted-click-element', '.privacy-cp-wall #privacy-cp-wall-accept')
 nightcafe.studio#%#//scriptlet('trusted-set-local-storage-item', 'acceptsNonCriticalCookies', 'denied')
 pracuj.pl#%#//scriptlet('set-cookie', 'gpc_v', '1')
 sneakerfreaker.com#%#//scriptlet('set-local-storage-item', 'cookieConsent', '1')
@@ -14906,6 +14907,10 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170817
+@@||rcsobjects.it/rcs_cpmt/$domain=iodonna.it
+! https://github.com/AdguardTeam/AdguardFilters/issues/170813
+@@||sdk.privacy-center.org^$domain=cadenaser.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170711
 @@||ecookie.nl/build/inject/bundle.*.js$domain=multivlaai.nl
 @@||ecookie.nl/build/cookiebar/script/*.js$domain=multivlaai.nl
@@ -30384,6 +30389,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+sputnik.by##.article__news-services-subscribe
 brookings.edu##.article-newsletter-bottom-toolbar
 savitahd.net##form[action="https://feedburner.google.com/fb/a/mailverify"]
 dgabc.com.br##._noticiaGrupoWhats
@@ -30492,7 +30498,6 @@ news18.com##.shareNlocation
 news18.com##.whatsapp_strip
 mistergadget.tech#?#body > #overlay:has(> #newsletter-popup)
 elespanol.com##.md-newsletter
-hani.co.kr##.newsLetter
 dot.asahi.com##.g-sidebar-magazine
 politico.com##.story-enhancement > #weekend-promo
 twitter.com#?#div[style^="transform"]:has(div[data-testid="inlinePrompt"] > div > a[href="/i/premium_sign_up?referring_page=timeline_prompt"])
@@ -36912,8 +36917,6 @@ moovitapp.com##mv-side-navigation div[itemtype="http://schema.org/MobileApplicat
 fressay.co.jp##.topic-text > p > a[href="https://www.fressay.co.jp/app_lp/"]
 m.richgo.ai##div[class^="AppDownloadBanner"]
 olx.in#?#main + div div[class^="_"]:has(> div > div > div > div > a[href^="https://apps.apple.com/in/app/olx-buy-sell-near-you/id913492792?"])
-m.hani.co.kr#%#//scriptlet('remove-class', 'no-scroll', 'body')
-m.hani.co.kr#$#.popup-wrap.is-active { display: none !important; }
 javdb.com##.app-desktop-banner
 bing.com###saic_ban
 bizhint.jp##div[id^="sg-footer-app-"]
@@ -43950,8 +43953,6 @@ tribunnews.com##.belanja-picks
 drivetraffic.jp##.contentsBnr1
 /stock_bnr_300-$domain=food-foto.jp|model-foto.jp|pro-foto.jp
 food-foto.jp,model-foto.jp,pro-foto.jp##.stock_bnr_block
-! https://github.com/AdguardTeam/AdguardFilters/issues/84343
-hani.co.kr###asideSupport
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84272
 ! making type-alike is not mandatory
 ren-ai.jp#?##main > .ttl07:contains(編集部オススメ記事)
@@ -49081,7 +49082,7 @@ bomtoon.com#%#//scriptlet('remove-attr', 'oncontextmenu|onselectstart|ondragstar
 bomtoon.com#%#//scriptlet('remove-attr', 'oncontextmenu|onselectstart|ondragstart', '#novel_area')
 bomtoon.com#%#//scriptlet('remove-attr', 'oncontextmenu|onselectstart|ondragstart', '.content')
 bomtoon.com#%#//scriptlet('remove-attr', 'oncontextmenu|onselectstart|ondragstart', '.document_img')
-khan.co.kr,hani.co.kr#%#//scriptlet("set-constant", "linkback.l", "true")
+khan.co.kr#%#//scriptlet("set-constant", "linkback.l", "true")
 postype.com#%#//scriptlet('remove-class', 'disable-selection', 'body')
 fmkorea.com#%#//scriptlet('set-constant', 'var7', '0')
 brunch.co.kr#%#//scriptlet('set-constant', 'window.B.Article.preventSelection', 'noopFunc')
@@ -51354,8 +51355,6 @@ theinternetpatrol.com##.adsbygoogle ~ table[width="350"]
 missouribotanicalgarden.org##iframe[src="https://www.missouribotanicalgarden.org/plantfinder-quicklinks-iframe.aspx"]
 thequint.com##.support-the-quint
 pusatporn18.com##.penasharingDonasi
-hani.co.kr##.bn-promotion-support
-m.hani.co.kr##.support-content
 bitcoin.org##.donation-container
 gellerreport.com#?#.widget-area > section.widget h2.donate-title:upward(section.widget)
 firstthings.com##.leaderboard

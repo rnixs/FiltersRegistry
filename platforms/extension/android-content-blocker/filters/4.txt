@@ -1,9 +1,9 @@
-! Checksum: SFR5BK6ROFjRb6ZLj5JRXg
-! Diff-Path: ../patches/4/4-s-1705397812-3600.patch
+! Checksum: kLS26rCHWggPanBYjhgSMQ
+! Diff-Path: ../patches/4/4-s-1705401580-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.96.9
-! TimeUpdated: 2024-01-16T09:33:43+00:00
+! Version: 2.0.96.10
+! TimeUpdated: 2024-01-16T10:36:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5311,8 +5311,6 @@ minhaoperadora.com.br##[class*="sidebar"] > #custom_html-44
 tv3play.skaties.lv##.c-share-product
 businesstoday.in,indiatoday.in##.rhs-fixwhtsapp
 oursounds.net###sns_wrapper
-hani.co.kr##.article-tools > ul.tools > li[onclick*="popupHaniWindow"][onclick*="share"]
-hani.co.kr##.article-tools > ul.tools > li[data-share-url]
 fl.ru##.b-free-share
 hoster.by##.socCapBLock > div.cfix
 eatthis.com##.above-content-sharebar

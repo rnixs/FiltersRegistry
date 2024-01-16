@@ -1,9 +1,9 @@
-! Checksum: YbHhVcScD4YeD1m4hoNtHw
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1705372589-3600.patch
+! Checksum: 2c1BmbIAX7AoXinxGtRdYg
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1705401590-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.8
-! TimeUpdated: 2024-01-15T18:32:57+00:00
+! Version: 2.0.7.9
+! TimeUpdated: 2024-01-16T10:35:45+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1130,7 +1130,6 @@ paperpaper.*##.bottom-block > div.post-info-block
 mediazona.online,fourth-sphere-302420.appspot.com,zona.media##.tools__support_container
 ||static.theprint.in/wp-content/uploads/*/subscribe_*.png
 theinternetpatrol.com##.adsbygoogle ~ table[Width="350"]
-hani.co.kr##.bn-promotion-support
 bitcoin.org##.donation-container
 gellerreport.com#?#.widget-area > section.widget h2.donate-title:upward(section.widget)
 firstthings.com##.leaderboard

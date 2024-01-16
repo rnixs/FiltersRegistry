@@ -1,9 +1,9 @@
-! Checksum: 3Y/UuklxXOdEV1g+2OiOFA
-! Diff-Path: ../patches/22/22-s-1705343837-3600.patch
+! Checksum: MKTTBwNwKVuJD6cEw7HHtg
+! Diff-Path: ../patches/22/22-s-1705401630-3600.patch
 ! Title: AdGuard Widgets filter
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.8
-! TimeUpdated: 2024-01-15T18:32:57+00:00
+! Version: 2.0.7.9
+! TimeUpdated: 2024-01-16T10:35:45+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2203,8 +2203,6 @@ theinternetpatrol.com##.adsbygoogle ~ table[width="350"]
 missouribotanicalgarden.org##iframe[src="https://www.missouribotanicalgarden.org/plantfinder-quicklinks-iframe.aspx"]
 thequint.com##.support-the-quint
 pusatporn18.com##.penasharingDonasi
-hani.co.kr##.bn-promotion-support
-m.hani.co.kr##.support-content
 bitcoin.org##.donation-container
 gellerreport.com#?#.widget-area > section.widget h2.donate-title:upward(section.widget)
 firstthings.com##.leaderboard

@@ -1,9 +1,9 @@
-! Checksum: AJd8i4+8yGnbrV8WfLR22w
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1705372584-3600.patch
+! Checksum: XfDHFxUaC6JEkIRvJV2Atg
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1705401579-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.8
-! TimeUpdated: 2024-01-15T18:32:57+00:00
+! Version: 2.0.7.9
+! TimeUpdated: 2024-01-16T10:35:45+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### Block useless widgets #######################
@@ -1043,7 +1043,6 @@ texty.org.ua###the-only-donate-banner
 paperpaper.*##.bottom-block > div.post-info-block
 mediazona.online,fourth-sphere-302420.appspot.com,zona.media##.tools__support_container
 ||static.theprint.in/wp-content/uploads/*/subscribe_*.png
-hani.co.kr##.bn-promotion-support
 bitcoin.org##.donation-container
 firstthings.com##.leaderboard
 cpuid.com###downloading > div.advert
