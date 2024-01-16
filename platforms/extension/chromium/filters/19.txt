@@ -1,9 +1,9 @@
-! Checksum: XFDUX7zVMpM0yVGHV6o5xA
-! Diff-Path: ../patches/19/19-s-1705401582-3600.patch
+! Checksum: fU0deLVvo/rffLAS34ot1w
+! Diff-Path: ../patches/19/19-s-1705404989-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.1
-! TimeUpdated: 2024-01-16T10:33:24+00:00
+! Version: 2.0.30.2
+! TimeUpdated: 2024-01-16T11:32:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12129,6 +12129,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+nautil.us##.article-bottom-newsletter_box
 sputnik.by##.article__news-services-subscribe
 brookings.edu##.article-newsletter-bottom-toolbar
 savitahd.net##form[action="https://feedburner.google.com/fb/a/mailverify"]
@@ -18511,7 +18512,7 @@ infox.ru,glavcom.ua,m.glavcom.ua##.google_news
 !+ NOT_OPTIMIZED
 profile.ru##.cell__promo__body
 !+ NOT_OPTIMIZED
-amp.scmp.com###newsletter-register-widget
+amp-scmp-com.cdn.ampproject.org,amp.scmp.com###newsletter-register-widget
 !+ NOT_OPTIMIZED
 mail.ru###subscriptionFormWeekMainBlockId
 !+ NOT_OPTIMIZED

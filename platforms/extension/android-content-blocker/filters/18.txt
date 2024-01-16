@@ -1,9 +1,9 @@
-! Checksum: gXFoXfE3NKUiwfu3nn8oaw
-! Diff-Path: ../patches/18/18-s-1705401577-3600.patch
+! Checksum: jnWtwaKhEvVudScV6e5bKQ
+! Diff-Path: ../patches/18/18-s-1705404983-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.36
-! TimeUpdated: 2024-01-16T10:33:20+00:00
+! Version: 2.0.31.37
+! TimeUpdated: 2024-01-16T11:32:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4488,8 +4488,8 @@ minitab.com###cookieToaster
 ||staging.webtru.io/js/opnWidget.js
 astro.qc.ca###cookie-law-info-bar
 junodownload.com,juno.co.uk###juno-cookie-consent
-mediaset.it#$#.i-amphtml-consent-ui-mask { display: none !important; }
-mediaset.it#$#html.i-amphtml-scroll-disabled { overflow: auto !important; margin-right: 0 !important; }
+amp-scmp-com.cdn.ampproject.org,mediaset.it#$#.i-amphtml-consent-ui-mask { display: none !important; }
+amp-scmp-com.cdn.ampproject.org,mediaset.it#$#html.i-amphtml-scroll-disabled { overflow: auto !important; margin-right: 0 !important; }
 record.com.mx###block-cookiesactive-cookiesactive-blockcode
 tameteo.nl,meteored.com.ar#$##gpdr { display: none!important; }
 tameteo.nl,meteored.com.ar#$#body { position: static!important; }

@@ -1,9 +1,9 @@
-! Checksum: rz0FuZploA2u5gJTdWcwKw
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1705401596-3600.patch
+! Checksum: 4YPo5SkYReQw61HHrzeJkw
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1705405005-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.9
-! TimeUpdated: 2024-01-16T10:35:45+00:00
+! Version: 2.0.7.10
+! TimeUpdated: 2024-01-16T11:32:56+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1089,6 +1089,7 @@ ukr.net###sinoptik_container
 ##.gsInformer
 /gs_informerClient.min.$third-party
 ||gismeteo.*/getInformer/$third-party
+polandballru.miraheze.org###siteNotice
 winstall.app##div[class^="donateCard_container__"]
 openstreetmap.org###banner
 wbur.org##.section--takeover

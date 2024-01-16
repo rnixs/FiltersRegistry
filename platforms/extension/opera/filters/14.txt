@@ -1,9 +1,9 @@
-! Checksum: BK10/Nt2X/JmOQR1d1I0mQ
-! Diff-Path: ../patches/14/14-s-1705401598-3600.patch
+! Checksum: OyBrQ01bsajpQnbNpj9I5Q
+! Diff-Path: ../patches/14/14-s-1705405008-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.75
-! TimeUpdated: 2024-01-16T10:33:09+00:00
+! Version: 2.1.84.76
+! TimeUpdated: 2024-01-16T11:32:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4870,8 +4870,8 @@ minitab.com###cookieToaster
 astro.qc.ca###cookie-law-info-bar
 phemex.com#?#body > div.wrap > div.wrap:has(> .main > div > div > a[href$="/phemex-privacy-policy"])
 junodownload.com,juno.co.uk###juno-cookie-consent
-mediaset.it#$#.i-amphtml-consent-ui-mask { display: none !important; }
-mediaset.it#$#html.i-amphtml-scroll-disabled { overflow: auto !important; margin-right: 0 !important; }
+amp-scmp-com.cdn.ampproject.org,mediaset.it#$#.i-amphtml-consent-ui-mask { display: none !important; }
+amp-scmp-com.cdn.ampproject.org,mediaset.it#$#html.i-amphtml-scroll-disabled { overflow: auto !important; margin-right: 0 !important; }
 record.com.mx###block-cookiesactive-cookiesactive-blockcode
 tameteo.nl,meteored.com.ar#$##gpdr { display: none!important; }
 tameteo.nl,meteored.com.ar#$#body { position: static!important; }
@@ -30411,6 +30411,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+nautil.us##.article-bottom-newsletter_box
 sputnik.by##.article__news-services-subscribe
 brookings.edu##.article-newsletter-bottom-toolbar
 savitahd.net##form[action="https://feedburner.google.com/fb/a/mailverify"]
@@ -36793,7 +36794,7 @@ infox.ru,glavcom.ua,m.glavcom.ua##.google_news
 !+ NOT_OPTIMIZED
 profile.ru##.cell__promo__body
 !+ NOT_OPTIMIZED
-amp.scmp.com###newsletter-register-widget
+amp-scmp-com.cdn.ampproject.org,amp.scmp.com###newsletter-register-widget
 !+ NOT_OPTIMIZED
 mail.ru###subscriptionFormWeekMainBlockId
 !+ NOT_OPTIMIZED
@@ -44774,6 +44775,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+deepl.com##div[data-testid="app-ad-callout-callout"]
 trampos.co##.breadwin-box
 dengekionline.com##.gNews_banner
 onlinetrade.ru##.fullWidth_bnr
@@ -51275,6 +51277,7 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !
 !   NOTE: Donation widgets (which are really annoying only)
 !
+polandballru.miraheze.org###siteNotice
 winstall.app##div[class^="donateCard_container__"]
 openstreetmap.org###banner
 wbur.org##.section--takeover

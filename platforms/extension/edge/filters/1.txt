@@ -1,9 +1,9 @@
-! Checksum: hbZa28Odh6NLYM8QbH1qzg
-! Diff-Path: ../patches/1/1-s-1705390612-3600.patch
+! Checksum: zWKMLdpNguqBjnSbEZgPzg
+! Diff-Path: ../patches/1/1-s-1705404994-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.87.85
-! TimeUpdated: 2024-01-16T07:33:11+00:00
+! Version: 2.0.87.86
+! TimeUpdated: 2024-01-16T11:32:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9501,6 +9501,7 @@ bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru,innov.ru,k1news.ru,ktost
 !
 !
 !
+kinoafisha.info##.okko2023Btn
 hibiny.ru##div[class^="pek"]:not([id^="item"])
 hibiny.ru##aside > a[href="/pek/"]
 comandir.com#?##dle-content > noindex:has(> div.hblock > div[id*="ScriptRoot"])
