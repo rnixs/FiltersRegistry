@@ -1,9 +1,9 @@
-! Checksum: lSaTTZ31E6ux9TwoB+aNQA
-! Diff-Path: ../patches/19/19-s-1705408807-3600.patch
+! Checksum: ospjCvoK5lAkC+7YErsA2A
+! Diff-Path: ../patches/19/19-s-1705412243-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.3
-! TimeUpdated: 2024-01-16T12:34:16+00:00
+! Version: 2.0.30.4
+! TimeUpdated: 2024-01-16T13:32:38+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1567,7 +1567,7 @@ vrcmods.com###showfreemethod
 vrcmods.com#%#//scriptlet('prevent-element-src-loading', 'script', 'cdn.ad.plus')
 tekniknot.com#%#//scriptlet("set-constant", "alert", "undefined")
 bravedown.com#%#//scriptlet('prevent-fetch', 'adskeeper')
-||search-module.*.amazonaws.com/pubs/trib/aa_adb_modal*.js$domain=triblive.com
+/aa_adb_modal$domain=triblive.com
 radarbox.com###ad-blocking
 radarbox.com#%#//scriptlet('set-constant', 'ads_enabled', 'true')
 maxroll.gg#%#//scriptlet('set-constant', 'nitroAds.loaded', 'true')
@@ -12138,6 +12138,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+tomshardware.fr##.widget.widget-toms-widget-google-news
+tomshardware.fr##.widget__google_news
 letsencrypt.org##.footer-newsletter-col
 thesaurus.com##.otd-sidebar
 thesaurus.com##.crb-sailthru-subscribe_wrapper
@@ -17765,7 +17767,7 @@ it-times.de###follow-service
 xelent.ru###footer-feedback
 news-journalonline.com###footer-main-newsletter
 nssgclub.com,nssmag.com,stiefelparadies.de###footer-newsletter
-soft98.ir###footer-subscribe
+comic.browserling.com,soft98.ir###footer-subscribe
 actu-environnement.com,caseking.de###footer_newsletter
 igniel.com###ignielNewsletter > .email__
 patch.com###in-article-sub-button
