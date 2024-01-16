@@ -1,9 +1,9 @@
-! Checksum: uC6G4Fksanujimul2kBBZQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705405044-3600.patch
+! Checksum: HSrTL6bY1ZjJmPVqq6eU0g
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705408799-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.5
-! TimeUpdated: 2024-01-16T11:33:20+00:00
+! Version: 2.3.18.6
+! TimeUpdated: 2024-01-16T12:35:00+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -9107,6 +9107,8 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||olalivehdplay.ru/blast.js
 ||livehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
+esports.net##[id^="esports-ad-central-"]
+esports.net##div[class^="esports-ad-holder"]
 ||paste.ee/img/buyvm.png
 paste.ee##img[src="https://paste.ee/img/buyvm.png"]
 cryptopolitan.com##div[data-widget_type="template.default"]:has(> div.elementor-widget-container > div.elementor-template > div[data-elementor-type] > div > div > div.elementor-widget-container > div.elementor-shortcode > div.code-block)
@@ -10583,6 +10585,7 @@ strdef.world##div[style^="z-index: 999999; background-image: url(\"data:image/gi
 bibme.org,easybib.com,citationmachine.net##.adds-wrapper
 independent.co.uk##.amp-live-list-item[id^="ad-"]
 ||ytmp3.cc/js/ad$script,~third-party
+ilikecomix.com##div.ai-viewports[data-insertion-position]
 ||d2klx87bgzngce.cloudfront.net^$script,redirect=noopjs
 wjla.com,wpde.com##div[class^="index-module_taboola_"]
 wjla.com,wpde.com##div[class^="index-module_adBeforeContent_"]
@@ -14488,6 +14491,7 @@ implbits.com#@#.banner_container
 @@||id.tmtm.ru/login/
 @@||privat24.privatbank.ua^
 @@||login.uid.me^$domain=ucoz.ru
+@@||flightradar24.com^$stealth=dpi
 @@||inven.co.kr^$stealth=dpi
 @@||datacomp.sk^$stealth=dpi
 @@||dnipro-m.ua^$stealth=dpi

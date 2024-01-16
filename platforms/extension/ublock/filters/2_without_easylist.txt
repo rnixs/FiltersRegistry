@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Xl4F9sE6W8I2iVMyLEGHnA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705405025-3600.patch
+! Checksum: On8f5lV1miU3p9fXyjB8vw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705408774-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.18.5
-! TimeUpdated: 2024-01-16T11:33:20+00:00
+! Version: 2.3.18.6
+! TimeUpdated: 2024-01-16T12:35:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -32669,6 +32669,8 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+esports.net##[id^="esports-ad-central-"]
+esports.net##div[class^="esports-ad-holder"]
 ||paste.ee/img/buyvm.png
 paste.ee##img[src="https://paste.ee/img/buyvm.png"]
 cryptopolitan.com##div[data-widget_type="template.default"]:has(> div.elementor-widget-container > div.elementor-template > div[data-elementor-type] > div > div > div.elementor-widget-container > div.elementor-shortcode > div.code-block)
@@ -37325,6 +37327,7 @@ celebjared.net##a[href^="https://minepi.com/"]
 ||blog.media.io/images/images2021/pixcut-entry.png
 ||ytmp3.cc/js/ad$script,~third-party
 flightstats.com##.fs-header-ad-container
+ilikecomix.com##div.ai-viewports[data-insertion-position]
 keralatelecom.info##div.ai-viewports[data-insertion]
 downloadhub.cfd##a[href="https://bestbuyrdp.com/"]
 analyticssteps.com##.largeads
