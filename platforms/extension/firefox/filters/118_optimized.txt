@@ -1,9 +1,9 @@
-! Checksum: v/F/PIiZLT6Yf5KHEeENrA
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1705396073-14400.patch
+! Checksum: FcJ5TPVFc4vC2qZFcgxrYg
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1705410636-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.43
-! TimeUpdated: 2024-01-16T09:03:13+00:00
+! Version: 2.1.20.44
+! TimeUpdated: 2024-01-16T13:05:21+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -9356,6 +9356,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wattpad.com/js/tracker/app.
 ||wc.yahoodns.net^$image
 ||wccftech.com/cnt7vfDVvWa3.js
+||webd-assets.cdn4dd.com/s.js$domain=doordash.com
 ||wellsfargo.com/as/jsLog
 ||wellsfargo.com/dti_apg/
 ||wellsfargo.com/jenny/
@@ -20472,6 +20473,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||goya.rutube.ru^
 ||hh.ru/analytics^
 ||hh.ru/stat?
+||interfax.ru/cnt/
 ||kommersant.uk/banner_stats
 ||livelib.ru/service/pinger
 ||livelib.ru/service/spv

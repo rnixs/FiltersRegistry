@@ -1,15 +1,15 @@
-! Checksum: yIrroLpFsqXpTeLQ84F+sA
-! Diff-Path: ../patches/122/122-s-1705396073-14400.patch
+! Checksum: L63iGNGQk5YtOOWGo59rnA
+! Diff-Path: ../patches/122/122-s-1705410636-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.38
-! TimeUpdated: 2024-01-16T09:03:26+00:00
+! Version: 2.1.19.39
+! TimeUpdated: 2024-01-16T13:05:35+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: jiMhyyMPVXBHX/Ef+i5e3A
-! OriginalVersion: 202401160740
+! Checksum: vvrnCV4shZEQLgUOxosJJw
+! OriginalVersion: 202401161240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-16 07:40 UTC
+! Last modified: 2024-01-16 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34967,7 +34967,9 @@ dashboard.razorpay.com#@##credential_picker_container
 ||cookietractor.com^$third-party
 ||cookiewidget.eu^$third-party
 ||crta.and.co.uk^
+||cscript-cdn-irl.cassiecloud.com/loader.js
 ||cscript-cdn-use.cassiecloud.com/loader.js
+||cscript-cdn-use.concordia.ca/loader.js
 ||d2eucw4fxv7nil.cloudfront.net^
 ||d3macwxrvlvlf8.cloudfront.net/cookie-service/
 ||dmgmediaprivacy.co.uk^$third-party
@@ -43416,9 +43418,6 @@ abm-accountants.com,abdijsiteherkenrode.be,avlwoningbouw.be,vivantia.be,o-f-s.eu
 !! #didomi-host
 as.com,strefabiznesu.pl,parismatch.com,mein-mmo.de,vecernji.hr,jofogas.hu,gamepro.de,allocine.fr,talent-soft.com,leboncoin.fr,melty.fr,franceinter.fr,francetvinfo.fr,fip.fr,franceculture.fr,20minutes.fr,ouest-france.fr###didomi-host
 as.com,strefabiznesu.pl,parismatch.com,mein-mmo.de,vecernji.hr,jofogas.hu,gamepro.de,allocine.fr,talent-soft.com,leboncoin.fr,melty.fr,franceinter.fr,francetvinfo.fr,fip.fr,franceculture.fr,20minutes.fr,ouest-france.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
-!! .syrenis-cookie-widget
-itv.com,durham.gov.uk,doordash.com,open.ac.uk##.syrenis-cookie-widget
-itv.com,durham.gov.uk,doordash.com,open.ac.uk#$#body,html { overflow: auto !important; position: initial !important; }
 ! mkb.hu
 mkb.hu###gdpr-consent-modal
 mkb.hu#$#body,html { overflow: auto !important; position: initial !important; }
@@ -45369,6 +45368,7 @@ grid.news##.footer-daily-drop
 howtogeek.com##.footer-email
 paloaltonetworks.com,techxplore.com##.footer-form
 minitool.com##.footer-join-wrapper
+letsencrypt.org##.footer-newsletter-col
 moonpalacecancun.com##.footer-newsletter__form
 stereogum.com##.footer-right__box
 citusdata.com##.footer-sub
@@ -49936,9 +49936,6 @@ abm-accountants.com,abdijsiteherkenrode.be,avlwoningbouw.be,vivantia.be,o-f-s.eu
 !! #didomi-host
 as.com,strefabiznesu.pl,parismatch.com,mein-mmo.de,vecernji.hr,jofogas.hu,gamepro.de,allocine.fr,talent-soft.com,leboncoin.fr,melty.fr,franceinter.fr,francetvinfo.fr,fip.fr,franceculture.fr,20minutes.fr,ouest-france.fr###didomi-host
 as.com,strefabiznesu.pl,parismatch.com,mein-mmo.de,vecernji.hr,jofogas.hu,gamepro.de,allocine.fr,talent-soft.com,leboncoin.fr,melty.fr,franceinter.fr,francetvinfo.fr,fip.fr,franceculture.fr,20minutes.fr,ouest-france.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
-!! .syrenis-cookie-widget
-itv.com,durham.gov.uk,doordash.com,open.ac.uk##.syrenis-cookie-widget
-itv.com,durham.gov.uk,doordash.com,open.ac.uk#$#body,html { overflow: auto !important; position: initial !important; }
 ! mkb.hu
 mkb.hu###gdpr-consent-modal
 mkb.hu#$#body,html { overflow: auto !important; position: initial !important; }
@@ -53825,6 +53822,7 @@ documentation.insp.gouv.fr##.cookies-management
 yproject.fr##.css-2od2onqEMX
 tv5unis.ca##.css-cgxmy8
 vavabid.be##.css-uuqc7b
+autopolis.lu##.dialog
 infogreffe.fr##.dijitDialogUnderlayWrapper
 tdl.fr##.dimmer
 vanguardinvestments.fr##.disclaimer_box
@@ -54335,10 +54333,11 @@ eredivisie.eu,eredivisie.nl##.tdecc-content
 camperclubskeller.nl##.total-plus-privacy-policy
 nrc.nl##.user-confirmation-screen
 folders.nl##.v-bottom-sheet
-effeweg.nl##.via-modal--consent
+bolderman.nl,effeweg.nl##.via-modal--consent
 bongerscoaching.nl##.w3-animate-opacity > .w3-container
 bresculinair.nl,energiedirect.nl##.wall
 tuinartikelen.nu##.wsa-cookielaw
+gezondheidswinkel.nl##.z-50.bottom-2\.5
 ov-chipkaart.nl##[aria-describedby="cookie-banner-message"]
 zoover.nl##[data-cy="consent-wrapper"]
 npo.nl##ccm-notification

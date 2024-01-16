@@ -1,14 +1,14 @@
-! Checksum: zGfLlMiIj5OxvkgYoROtLQ
-! Diff-Path: ../patches/118/118-s-1705396058-14400.patch
+! Checksum: sXv+jTsajhYcc6TTgifg8w
+! Diff-Path: ../patches/118/118-s-1705410618-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.43
-! TimeUpdated: 2024-01-16T09:03:13+00:00
+! Version: 2.1.20.44
+! TimeUpdated: 2024-01-16T13:05:21+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202401160507
+! OriginalVersion: 202401161257
 ! Title: EasyPrivacy
-! Last modified: 16 Jan 2024 05:07 UTC
+! Last modified: 16 Jan 2024 12:57 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -14258,6 +14258,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wc.yahoodns.net^$image
 ||wccftech.com/cnt7vfDVvWa3.js
 ||web.whatsapp.com/wam
+||webd-assets.cdn4dd.com/s.js$domain=doordash.com
 ||weblog.flyasiana.com^
 ||webmd.com/static/v/c?
 ||weedmaps.com/pixel?
@@ -42994,6 +42995,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||goya.rutube.ru^
 ||hh.ru/analytics^
 ||hh.ru/stat?
+||interfax.ru/cnt/
 ||irecommend.ru/collect/
 ||jetvis.ru/stat/
 ||kommersant.ru/a.asp?p=
