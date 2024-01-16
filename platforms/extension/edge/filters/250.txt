@@ -1,9 +1,9 @@
-! Checksum: yRihP8z5X3uaSmF9cTmGBg
-! Diff-Path: ../patches/250/250-s-1705381637-14400.patch
+! Checksum: /SjTfs1AHQo/f+nK+LY6BA
+! Diff-Path: ../patches/250/250-s-1705396071-14400.patch
 ! Title: Dandelion Sprout's Annoyances List
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.98
-! TimeUpdated: 2024-01-16T05:03:57+00:00
+! Version: 2.0.12.99
+! TimeUpdated: 2024-01-16T09:04:30+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: ⚙️ Dandelion Sprout's Annoyances List
@@ -233,7 +233,7 @@ instagram.com##a[href="/accounts/login/?next=%2F&source=mobile_nav"] + button
 instagram.com##a[href^="https://itunes.apple.com/app/instagram/id389801252?"][role=alert]
 instagram.com##body > span > section > nav > div > div > section.xZ2Xk
 instagram.com##main > div[class$="     "]:first-of-type + section:last-of-type
-instagram.com#?#nav > div > div > section > div:has(div > div > button > div)
+instagram.com##nav > div > div > section > div:has(div > div > button > div)
 intellicast.com###promoAd
 intellicast.com###stormLink
 ipaddressguide.com##img[alt="iptools android app"]
@@ -272,7 +272,7 @@ m.ndtv.com###header_ap_id
 m.ntv.ru###androidbanner
 m.pikabu.ru##.fb-widget-below-comments-mw.promo
 m.qidian.com##.read_app_download
-m.qyer.com#?#.side-dock:has(img[alt^="穷游App"])
+m.qyer.com##.side-dock:has(img[alt^="穷游App"])
 m.soundcloud.com##.footer_appButtonContainer
 m.soundcloud.com##upsellBanner
 m.tapas.io###bottom-app-banner
@@ -346,7 +346,7 @@ rt.com#$?#.layout__header_top-interval_js { height: 50px !important }
 rtcg.me##.footerBgrdImg
 rtcg.me##.footerStoreLinks
 rts.rs##.footer-download
-rts.rs#?#.boxRight:has(img[src*=ndroid-aplikacija])
+rts.rs##.boxRight:has(img[src*=ndroid-aplikacija])
 schlaukopf.de#$?#html { margin-top: 0 !important }
 schnaeppchenfuchs.com##.mobile-promo-apps__vertical-spacer
 shiftdelete.net##.e_magazine_mobile
@@ -373,11 +373,11 @@ tabs.ultimate-guitar.com##.spl-content-side-overflow::after
 tabs.ultimate-guitar.com##.spl-content-side-overflow::before
 tabs.ultimate-guitar.com#$?#.spl-content-side-overflow { max-width: none !important }
 tabs.ultimate-guitar.com#$?#.ugm-chord-panel--scroller { white-space: normal !important }
-tabs.ultimate-guitar.com#?#.undefined:has(button[icon=android])
+tabs.ultimate-guitar.com##.undefined:has(button[icon=android])
 tellows.de###hint_box
 tokopedia.com##div[id*=header] div[class^=css-]> a[href="/mobile-apps/"]
-tokopedia.com#?#div[id*=header] i:has(+ a[href="/mobile-apps/"])
-touch.qunar.com#?#.col4:has(.guide-box[href*="/download?immediate="])
+tokopedia.com##div[id*=header] i:has(+ a[href="/mobile-apps/"])
+touch.qunar.com##.col4:has(.guide-box[href*="/download?immediate="])
 tripadvisor.*###partialScreenInterrupter
 tripadvisor.*#$?##PAGE_CONTAINER.smartbanner_shown_on_top { top: 0 !important }
 tripadvisor.*#?#.ppr_priv_mobile_full_page_interstitial
@@ -387,11 +387,11 @@ tumblr.com##.mobile-banner-inner
 ultimate-guitar.com##.ug-floated-splash.js-splash-container
 userstyles.org##.android_button_banner
 userstyles.org##.overlay_background
-userstyles.org#?#div.us-stylecard--short:has(img[src="/ui/images/280x294.png"])
+userstyles.org##div.us-stylecard--short:has(img[src="/ui/images/280x294.png"])
 valyuta.com###bannerParent
 video.az##.sidebar-right > .text-center > a[href*="/app"] > img
 viu.com##.v-foot-wrap > div#app
-vsco.co#?#div[class^=css-]:has(.mb0)
+vsco.co##div[class^=css-]:has(.mb0)
 wap.ithome.com###a_ad
 wattpad.com###announcements-container
 wattpad.com###bottom-banner-container
@@ -418,7 +418,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##span.
 bfmtv.com###android_banner
 bfmtv.com#$?#.fixed_title { top: 0 !important }
 doctolib.fr#?#.MuiModal-root:has-text(application)
-doctolib.fr#?#.MuiModal-root:has([href*="play.google"])
+doctolib.fr##.MuiModal-root:has([href*="play.google"])
 valdemarsro.dk##.promobar-container
 /jquery.smartbanner/*
 .smartbanner.js
@@ -23688,7 +23688,7 @@ gamespot.com##.share--column
 forbes.com##.article-sharing
 ! All embed feeds I've seen of it, have been broken since July 2023 anyway
 ||syndication.twitter.com/srv/timeline-profile^$third-party
-*#?#iframe[src*="//syndication.twitter.com/"]:has(div[data-testid=empty_state_header_text])
+*##iframe[src*="//syndication.twitter.com/"]:has(div[data-testid=empty_state_header_text])
 ! Title: 🔮 I Don't Want to Download Your Browser
 ! OriginalVersion: 14January2024v1-Beta
 ! Expires: 5 days
@@ -24440,7 +24440,7 @@ tvmnews.mt##div[data-widget_type="shortcode.default"]
 ! Alexa: Worse than 1,000,000th
 vientianetimeslao.la##div[id^=media_image]
 ! ——— Slot machine spam ———
-deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=slotonline i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=slotonline i])
 deviantart.com##a[data-hook][href*="/art/"][href*=slotonline i]
 ! ——— Occurs too rarely for anyone else to reproduce them ———
 fandom.com##.ad-slot-placeholder
@@ -25167,8 +25167,8 @@ yjc.ir,tabnak.ir##a[href$="/fa/prayer"]
 adnocdistribution.ae##.footer-info-time
 albayan.ae##.prayername
 albayan.ae##.prayertimer
-almanar.com.lb#?#.box-wrapper:has(.prayer-times)
-alrai.com#?#.padd10px:has(> .salat-time)
+almanar.com.lb##.box-wrapper:has(.prayer-times)
+alrai.com##.padd10px:has(> .salat-time)
 arabiaweather.com##.ramadan-section-container
 dhivehi.mv###ptimes
 dhivehi.mv##a[href="/prayer-times/"]
@@ -25178,24 +25178,24 @@ edarabia.com#?#.box:has-text(Prayer Times)
 elwatannews.com##li > [href$="/pray"]
 emaratalyoum.com##div[class^=imsakiya-]
 haberler.com#?#.haberler-item:has-text(Namaz Vakitleri)
-hamariweb.com#?#div.col-md-4:has(td[width="25%"])
+hamariweb.com##div.col-md-4:has(td[Width="25%"])
 info-algerie.com##a[href*=ajouter-heure-priere]
-info-algerie.com#?#.blog-single-sidebar:has(a[href*=ajouter-heure-priere])
+info-algerie.com##.blog-single-sidebar:has(a[href*=ajouter-heure-priere])
 menara.ma##.main-horaires
-portal.moi.gov.qa#?#li:has(> a[href*="/prayertimings/"])
+portal.moi.gov.qa##li:has(> a[href*="/prayertimings/"])
 raajje.mv##.prayer-bar > div[style*="235"]
-radiogafsa.tn#?#.widget:has(ahmedii)
+radiogafsa.tn##.widget:has(ahmedii)
 shobiddak.com#?#h4:has-text(/^أوقات الصلاة$/)
-shobiddak.com#?#li:has(a[href="/prayers/cities"])
-thenational.ae#?#.dropdown:has(.prayer)
+shobiddak.com##li:has(a[href="/prayers/cities"])
+thenational.ae##.dropdown:has(.prayer)
 thenews.com.pk##a[href$="/prayer-time"]
-tunisienumerique.com#?#.bande-header-container > ul > li:has(.priere)
-tunisienumerique.com#?#li:has(> a[href*="/%d8%a3%d9%88%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a7%d8%a9-%d9%81%d9%8a-%d8%aa%d9%88%d9%86%d8%b3/"])
-visitabudhabi.ae#?#li:has(> a[href*="/prayer.times.aspx"])
+tunisienumerique.com##.bande-header-container > ul > li:has(.priere)
+tunisienumerique.com##li:has(> a[href*="/%d8%a3%d9%88%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a7%d8%a9-%d9%81%d9%8a-%d8%aa%d9%88%d9%86%d8%b3/"])
+visitabudhabi.ae##li:has(> a[href*="/prayer.times.aspx"])
 www.aviny.com##a[href*="prayer.aviny.com"]
 yabiladi.*##a[href="/prieres/"]
-yabiladi.*#?#.frame:has(.prayer)
-yenisafak.com#?#.item:has(a[href$=-prayer-times])
+yabiladi.*##.frame:has(.prayer)
+yenisafak.com##.item:has(a[href$=-prayer-times])
 gulf-times.com###headingTwo
 alarab.qa##.timetables
 alrai.com##.salat-item
@@ -25209,10 +25209,10 @@ agridogruhaber.com##.BlokNamazRenk
 agridogruhaber.com##.namazbg
 cagdasburdur.com#?#div[id^=custom_html-]:has-text(NAMAZ VAKİTLERİ)
 dogruhaber.com.tr##.col-md-4 > .panel-success
-haberantalya.com#?#.col-md-12:has(> .BlokNamazRenk)
+haberantalya.com##.col-md-12:has(> .BlokNamazRenk)
 kuzeyanadolugazetesi.com#?#.blok-baslik:has-text(BURÇ)
-kuzeyanadolugazetesi.com#?#.cerceve-anket:has(> #burc)
-yenisalpazari.com#?##sidebar .kanews-section:has(.table-prayer)
+kuzeyanadolugazetesi.com##.cerceve-anket:has(> #burc)
+yenisalpazari.com###sidebar .kanews-section:has(.table-prayer)
 malatyamegahaber.com#?#section.haberler:has(strong:has-text(NAMAZ VAKİTLERİ))
 alwatan.kuwait.tt##.time > div[style^="float:left;"]
 guncelgazete.com##.praying-content
@@ -25221,7 +25221,7 @@ bursahakimiyet.com.tr##.prayertimes
 todaytime.ir##.pray_times
 bingolonline.com##.namazVakitleriBlok
 ahaber.com.tr##.menu-timer
-yesilirmakgazetesi.com.tr#?#.anket:has(+ style + .namazbg)
+yesilirmakgazetesi.com.tr##.anket:has(+ style + .namazbg)
 inegolunsesi.com##.haberler:has(> .namaz-widget)
 takvim.com.tr##.weather > .timer
 milligazete.com.tr##.center-xs .center-xs

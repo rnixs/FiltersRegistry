@@ -1,15 +1,15 @@
-! Checksum: n1/1IKfBEYPtu6OIDJOJcw
-! Diff-Path: ../patches/214/214-s-1705381630-14400.patch
+! Checksum: jiGv3DKsYYO/wceV+0xOFQ
+! Diff-Path: ../patches/214/214-s-1705396064-14400.patch
 ! Title: ABPVN List
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.26.20
-! TimeUpdated: 2024-01-16T05:03:05+00:00
+! Version: 2.0.26.21
+! TimeUpdated: 2024-01-16T09:03:35+00:00
 ! Expires: 5 days (update frequency)
 !
 ! version for all other AdGuard products
-! OriginalVersion: 20240116101932
+! OriginalVersion: 20240116153550
 ! Title: ABPVN List
-! Last modified: 16 Jan 2024 10:19:32 UTC+7
+! Last modified: 16 Jan 2024 15:35:50 UTC+7
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -309,9 +309,7 @@
 ||www.thuocbietduoc.com.vn/aqc/$image
 ||xahoingaynay.com.vn/upload/$image
 ||xc.1357668.com^*.gif$domain=7mvn2.com
-||xevathethao.vn/wp-content/uploads/banner
-||xmedia.antt.vn/upload/*.gif$image
-||xonxao.com/images/banners/
+||xmedia.antt.vn/upload/*.gif$image,domain=antt.vn
 ||xoso.com.vn^*.gif
 ||xoso.com/images/banners/
 ||xoso888.win^*.gif
@@ -688,9 +686,9 @@ live.7mvn2.com###bottomFixedDiv
 live.7mvn2.com###js_pup_navigation
 live.7mvn2.com###wAdList
 live.7mvn2.com##tr[id^="word_"]
-live.vebo4.net##.box-host
 live.vebo4.net##.btn-bet-top
 live.vebo4.net##.item-betnow
+live.vebo4.net,live3.xoilac14.org##.box-host
 live2.90phut10.live###app-web + .container[style="margin-bottom: 30px"]
 live2.90phut10.live##.item.item-betnow
 live2.90phut10.live##.sv-link.btn-bet-top
@@ -1099,11 +1097,13 @@ xem1.gavang1.net##.vjs-banner-btn
 xem8z.com###ouibounce-modal
 xemhay24h.com##div.container:nth-of-type(5)
 xemphimchill.xyz,hhninja1.tv,phimbocn.com,phimhoathinh3d.com,phimmoiv2.com,hoathinhtq.tv,hhtq.vip,hhtqvietsub.top,motchilltivi.net,hhchina.pro,hhtrungquoc.com,hhtqnet.tv,animeweb.vip,hh3d.tv###catfish
+xemphimviet1.net##li.special.parent
 xemphimviet1.net,ghienphim11.net##.ad-floater
 xemphimviet1.net,ghienphim11.net##.popunder-link
 xemphimviet1.net,ghienphim11.net##.promotion-popup
 xemphimviet1.net,ghienphim11.net##.video-ad-layer
 xemtivi4k.com###adstop2
+xemtivi4k.com##.ads-item
 xemtivi4k.com##.col-lg-4.hidden-xs.d-flex.flex-column.address-wrap
 xemtivi4k.com##.float-right
 xemtivingon.org,keonhacai5.vip##[id^="Balloon_"]

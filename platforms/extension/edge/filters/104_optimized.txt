@@ -1,9 +1,9 @@
-! Checksum: OReEqgHjXNCqAws2AWY5BA
-! Diff-Path: ../patches/104_optimized/104_optimized-s-1705381633-14400.patch
+! Checksum: HK09iKwsV3TzCawsecQ53Q
+! Diff-Path: ../patches/104_optimized/104_optimized-s-1705396067-14400.patch
 ! Title: EasyList China (Optimized)
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.33.85
-! TimeUpdated: 2024-01-16T05:02:29+00:00
+! Version: 2.1.33.86
+! TimeUpdated: 2024-01-16T09:02:59+00:00
 ! Expires: 5 days (update frequency)
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
@@ -786,6 +786,7 @@ newduba.cn###jq_youxi
 ##img[src*=".qpic.cn"][Width="980"][height="80"]
 ##script + #coupletBox
 ##script + #rbbox
+##.nav-ads
 ##span[title="neteasefooter"]
 ##style + .a-loading
 ##style + .need_grid_img
@@ -2230,6 +2231,7 @@ newduba.cn###jq_youxi
 ||gkswas.xyz^
 ||mvbvvch.xyz^
 ||stq89.icu^
+||ipuswrg.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ##a[href*=".337771.xyz"]
@@ -7913,7 +7915,6 @@ ifooday.cn##.myzs
 2345.com##.mzdh_bottom
 hepuwang.com##.n5_dbhfad > .wapper
 dan-teng.top##.nav
-nivod4.tv,nivod5.tv##.nav-ads
 jiemian.com##.nav-next-ad-views
 baidu.com##.nav_ads
 cctime.com##.nav_banner

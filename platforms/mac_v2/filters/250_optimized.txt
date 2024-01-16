@@ -1,9 +1,9 @@
-! Checksum: Gj08wpgQHNyPC8TX4h0bpw
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1705381670-14400.patch
+! Checksum: QKi0Eyee1NMja9M7UWaJGA
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1705396108-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.98
-! TimeUpdated: 2024-01-16T05:03:57+00:00
+! Version: 2.0.12.99
+! TimeUpdated: 2024-01-16T09:04:30+00:00
 ! Expires: 12 hours (update frequency)
 ###smart-banner
 ##.app-banner:not(html, body)
@@ -35,7 +35,9 @@ dagbladet.no##.slide-in-banner
 google.*##mobile-promo
 ifeng.com##.openApp[onclick^="loadOpen.init(download"]
 imageban.ru##img[alt="Get it on Google Play"]
+instagram.com##nav > div > div > section > div:has(div > div > button > div)
 kurashiru.com##.footer-image-wrapper
+m.qyer.com##.side-dock:has(img[alt^="穷游App"])
 m.yelp.*##a[href*="app.adjust.com"]
 mail.yandex.*##.popup-overlay
 metservice.com##.Footer-section--promo
@@ -48,10 +50,15 @@ radarbox.com##.apps
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[class]:last-of-type:not([class*=" "]) > div[class]:only-of-type:not([class*=" "]):has(img[src*=redditstatic][src*="/img/nsfw-blocking-"])
 roblox.com###app-bumper-main
 rt.com###offers
+rts.rs##.boxRight:has(img[src*=ndroid-aplikacija])
 soundcloud.com##article.mobileApps
+tabs.ultimate-guitar.com##.undefined:has(button[icon=android])
 tokopedia.com##div[id*=header] div[class^=css-]> a[href="/mobile-apps/"]
-tokopedia.com#?#div[id*=header] i:has(+ a[href="/mobile-apps/"])
+tokopedia.com##div[id*=header] i:has(+ a[href="/mobile-apps/"])
+touch.qunar.com##.col4:has(.guide-box[href*="/download?immediate="])
+userstyles.org##div.us-stylecard--short:has(img[src="/ui/images/280x294.png"])
 video.az##.sidebar-right > .text-center > a[href*="/app"] > img
+vsco.co##div[class^=css-]:has(.mb0)
 wattpad.com###announcements-container
 wattpad.com###bottom-banner-container
 waze.com##.wz-downloadbar
@@ -59,6 +66,7 @@ zargan.com###app-menu
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##span.hidden[class$="m:block"]
 bfmtv.com###android_banner
 bfmtv.com#$?#.fixed_title { top: 0 !important }
+doctolib.fr##.MuiModal-root:has([href*="play.google"])
 /jquery.smartbanner/*
 .smartbanner.js
 /js/smartbanner.
@@ -1173,7 +1181,7 @@ knowyourmeme.com##.cbox-smedia
 gamespot.com##.share--column
 forbes.com##.article-sharing
 ||syndication.twitter.com/srv/timeline-profile^$third-party
-*#?#iframe[src*="//syndication.twitter.com/"]:has(div[data-testid=empty_state_header_text])
+*##iframe[src*="//syndication.twitter.com/"]:has(div[data-testid=empty_state_header_text])
 chrome.google.com##.Yb
 ##.chrome-footer:not(html, body)
 ##.epb-container.f-information.c-uhfh-alert
@@ -1328,6 +1336,7 @@ mewe.com##.emoji-picker-promotion
 islandecho.co.uk##.herald-module:has(.category-news-in-brief)
 kostanaytany.kz##.elementor-widget-image:has(a[href*=uploads])
 old.kostanaytany.kz##.widget > p:has(a[href*=uploads])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=slotonline i])
 fandom.com##.ad-slot-placeholder
 amap.com##.dir_qr
 csair.com##.qrcode
@@ -1527,8 +1536,25 @@ yenisafak.com,yeniakit.com.tr,haber7.com##.prayer
 yjc.ir,tabnak.ir##a[href$="/fa/prayer"]
 albayan.ae##.prayername
 albayan.ae##.prayertimer
+almanar.com.lb##.box-wrapper:has(.prayer-times)
+alrai.com##.padd10px:has(> .salat-time)
+hamariweb.com##div.col-md-4:has(td[width="25%"])
+info-algerie.com##.blog-single-sidebar:has(a[href*=ajouter-heure-priere])
+portal.moi.gov.qa##li:has(> a[href*="/prayertimings/"])
+radiogafsa.tn##.widget:has(ahmedii)
+shobiddak.com##li:has(a[href="/prayers/cities"])
+thenational.ae##.dropdown:has(.prayer)
+tunisienumerique.com##.bande-header-container > ul > li:has(.priere)
+tunisienumerique.com##li:has(> a[href*="/%d8%a3%d9%88%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a7%d8%a9-%d9%81%d9%8a-%d8%aa%d9%88%d9%86%d8%b3/"])
+visitabudhabi.ae##li:has(> a[href*="/prayer.times.aspx"])
+yabiladi.*##.frame:has(.prayer)
+yenisafak.com##.item:has(a[href$=-prayer-times])
 yeniakit.com.tr##.info-bar > li:not([class], [title])
 star.com.tr##.pray
+haberantalya.com##.col-md-12:has(> .BlokNamazRenk)
+kuzeyanadolugazetesi.com##.cerceve-anket:has(> #burc)
+yenisalpazari.com###sidebar .kanews-section:has(.table-prayer)
+yesilirmakgazetesi.com.tr##.anket:has(+ style + .namazbg)
 ||albayan.ae/res/img/prayertmbg.png^$~third-party
 bloombergquint.com#%#//scriptlet('ubo-acis.js', 'document.oncopy')
 bloombergquint.com#%#//scriptlet('ubo-aopr.js', 'getSelection')
