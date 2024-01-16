@@ -1,9 +1,9 @@
-! Checksum: j4YbLBq3YbsrIm0O/08a0Q
-! Diff-Path: ../patches/4/4-s-1705365400-3600.patch
+! Checksum: ck4PwHQpN5m7wpDgYdI4mA
+! Diff-Path: ../patches/4/4-s-1705390626-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.96.6
-! TimeUpdated: 2024-01-16T00:33:28+00:00
+! Version: 2.0.96.7
+! TimeUpdated: 2024-01-16T07:33:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13918,8 +13918,9 @@ bomb01.com#$#.modal-open { overflow: visible!important; }
 ! #Social locker#
 ! #End Social locker
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170810
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170309
-@@||redgifs.com/assets/share_icon_red-*.js$~third-party
+@@||redgifs.com/*/share_icon_red-$~third-party,script,stylesheet
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169529
 watchseries.cyou#@#.addthis_inline_share_toolbox
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169782

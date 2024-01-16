@@ -1,9 +1,9 @@
-! Checksum: ZlkccVUEhXixyr+dGIlSRg
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1705372593-3600.patch
+! Checksum: x9s0yLCqStaU03WXEgFV7g
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1705390621-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.96.6
-! TimeUpdated: 2024-01-16T00:33:28+00:00
+! Version: 2.0.96.7
+! TimeUpdated: 2024-01-16T07:33:56+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -7973,7 +7973,7 @@ okino.ua#$#body { overflow: visible!important; }
 dooralei.ru#$#body { overflow: visible!important; }
 catalogmineralov.ru#$#body { overflow: visible!important; }
 1track.ru#$#body { overflow: visible!important; }
-@@||redgifs.com/assets/share_icon_red-*.js$~third-party
+@@||redgifs.com/*/share_icon_red-$~third-party,script,stylesheet
 watchseries.cyou#@#.addthis_inline_share_toolbox
 tuasaude.com#@#.article-share
 tuasaude.com#@#a[href*="pinterest.com/pin/create/button"]

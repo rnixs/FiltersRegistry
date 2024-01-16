@@ -1,9 +1,9 @@
-! Checksum: ZA6mBMb5d4VgZU0DJAnrFA
-! Diff-Path: ../patches/4/4-s-1705365404-3600.patch
+! Checksum: K1t0fLcOc8OYsYEXygU60A
+! Diff-Path: ../patches/4/4-s-1705390631-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.96.6
-! TimeUpdated: 2024-01-16T00:33:28+00:00
+! Version: 2.0.96.7
+! TimeUpdated: 2024-01-16T07:33:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13913,8 +13913,9 @@ thehungryjpeg.com#@#.fb-like
 designervn.net#@#.fb-share-button
 ! #End Social locker
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170810
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170309
-@@||redgifs.com/assets/share_icon_red-*.js$~third-party
+@@||redgifs.com/*/share_icon_red-$~third-party,script,stylesheet
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169529
 watchseries.cyou#@#.addthis_inline_share_toolbox
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169782
