@@ -1,9 +1,9 @@
-! Checksum: 3Qa/1UjeKzOrcRNZGRucsw
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1705352828-14400.patch
+! Checksum: x5nRjtSKHm3r+PxUWivbBg
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1705367214-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.40
-! TimeUpdated: 2024-01-15T21:02:34+00:00
+! Version: 2.1.20.41
+! TimeUpdated: 2024-01-16T01:02:26+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -1160,6 +1160,7 @@
 /track/identity?
 /track/impression/*
 /track/impression?
+/track/pageviews/*
 /track/pixel.php
 /track/pixel/*
 /track/statistic/*
@@ -6867,6 +6868,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||monitoring.iraiser.eu^
 ||monorail-edge.shopifysvc.com^
 ||mormont.gamer-network.net^
+||mowplayer.com/media/statistics/
 ||mrf.io/statics/marfeel-sdk.js
 ||ms-trackingapi.phenompeople.com^
 ||msadsscale.azureedge.net^
@@ -6875,6 +6877,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||msecnd.net/scripts/a/ai.
 ||msecnd.net/scripts/b/ai.
 ||msecnd.net/scripts/jsll-
+||mssdk.tiktokw.us/web/report?
 ||mtvnservices.com/aria/uuid.html
 ||mtvnservices.com/measurements/
 ||munchkin.marketo.net^
@@ -7960,6 +7963,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.myli.io^
 ||tracking.ecookie.fr^
 ||tracking.lqm.io^
+||tracking.voxeus.com^
 ||trk.a-dsp.com^
 ||trk.adbutter.net^
 ||visitping.rossel.be^
@@ -8412,6 +8416,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analitica.webrpp.com^
 ||analytics.lasegunda.ecn.cl^
 ||analytics.neoogilvy.uy^
+||bpt.webedia-group.com^
 ||citiservi.es/adstrack?
 ||collector-videoplayer.5centscdn.net^
 ||contadores.miarroba.com^
@@ -19948,6 +19953,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pixel.ionos.de^
 ||plausible.motorpresse.de^
 ||pxc.otto.de^
+||redaktionstest.net/cdn/$ping
 ||rem-track.bild.de^
 ||ricardo.ch/api/browser-statistics/
 ||shoop.de/mgtrx/
@@ -20004,6 +20010,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||jscrambler.com^$script,domain=airfrance.fr
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-sentry/lc-sentry.js
+||laposte.fr/cdp/events?
 ||ldlc.com/V4px/js/ldlcmachine.js
 ||leboncoin.fr/rav-monitoring/
 ||lepoint.fr/img-l/$image
@@ -20475,6 +20482,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||rbc.ru/redir/stat/
 ||rbc.ru/rightarror.gif
 ||ria.ru/ping?
+||servernews.ru/track?
 ||ssp.rambler.ru^
 ||start.ru/logger/
 ||stat.5-tv.ru^

@@ -1,14 +1,14 @@
-! Checksum: SSBhq95MulOnV9qW9W52Mw
-! Diff-Path: ../patches/118/118-s-1705352833-14400.patch
+! Checksum: /emba8a6/9omd2b5TLzoKw
+! Diff-Path: ../patches/118/118-s-1705367218-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.40
-! TimeUpdated: 2024-01-15T21:02:34+00:00
+! Version: 2.1.20.41
+! TimeUpdated: 2024-01-16T01:02:26+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202401151731
+! OriginalVersion: 202401160050
 ! Title: EasyPrivacy
-! Last modified: 15 Jan 2024 17:31 UTC
+! Last modified: 16 Jan 2024 00:50 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -2269,6 +2269,7 @@
 /track/impression/*
 /track/impression?
 /track/pageview?
+/track/pageviews/*
 /track/pixel.php
 /track/pixel/*
 /track/site/*
@@ -10518,6 +10519,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||monorail-edge.shopifysvc.com^
 ||mormont.gamer-network.net^
 ||movementventures.com/_uid.gif
+||mowplayer.com/media/statistics/
 ||mozilla.org/page/*/open.gif$third-party
 ||mql5.com/st?
 ||mql5.com/tr?
@@ -10532,6 +10534,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||msecnd.net/scripts/b/ai.
 ||msecnd.net/scripts/jsll-
 ||mshcdn.com/assets/metrics-
+||mssdk.tiktokw.us/web/report?
 ||msvdn.net/api/v2/heartbeat/
 ||mts.mansion.com^$third-party
 ||mtvnservices.com/aria/projectX/
@@ -12119,6 +12122,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.kdata.fr^
 ||tracking.lqm.io^
 ||tracking.netvigie.com^
+||tracking.voxeus.com^
 ||trjs.mediafin.be/loader/trmfn-loader.js
 ||trk.a-dsp.com^
 ||trk.adbutter.net^
@@ -12805,6 +12809,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analitica.webrpp.com^
 ||analytics.lasegunda.ecn.cl^
 ||analytics.neoogilvy.uy^
+||bpt.webedia-group.com^
 ||citiservi.es/adstrack?
 ||collector-videoplayer.5centscdn.net^
 ||contadores.miarroba.com^
@@ -42030,6 +42035,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pstt.mtb-news.de^
 ||px.derstandard.at^
 ||pxc.otto.de^
+||redaktionstest.net/cdn/$ping
 ||rem-track.bild.de^
 ||responder.wt.heise.de^
 ||ricardo.ch/api/browser-statistics/
@@ -42176,6 +42182,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||kwgs.letudiant.fr^
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-sentry/lc-sentry.js
+||laposte.fr/cdp/events?
 ||ldlc.com/V4px/js/ldlcmachine.js
 ||leboncoin.fr/rav-monitoring/
 ||lecho.be/fb2?
@@ -43029,6 +43036,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
 ||seedr.ru^*/stats/
+||servernews.ru/track?
 ||sibnet.ru/counter.php?
 ||ssp.rambler.ru^
 ||start.ru/logger/
