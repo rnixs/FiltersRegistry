@@ -1,15 +1,15 @@
-! Checksum: 5bjD2jFIAZWIRtnn1PastA
-! Diff-Path: ../patches/101/101-s-1705424849-14400.patch
+! Checksum: bjJBZk2JGVmfXEJmmr49Zg
+! Diff-Path: ../patches/101/101-s-1705439209-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.19.14
-! TimeUpdated: 2024-01-16T17:01:56+00:00
+! Version: 2.1.19.15
+! TimeUpdated: 2024-01-16T21:01:31+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: oTzPBINI9SaSbt/sgLBZlg
-! OriginalVersion: 202401161650
+! Checksum: jbSe29CVZmOmRx1nWSpgoA
+! OriginalVersion: 202401162050
 ! Title: EasyList
-! Last modified: 16 Jan 2024 16:50 UTC
+! Last modified: 16 Jan 2024 20:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -24513,6 +24513,7 @@ browsershots.org#@#.advert_area
 ||cgbmjsasm.xyz^
 ||cgeckmydirect.biz^
 ||cgupialoensa.com^
+||cgyqybeqthaeb.com^
 ||chachophigy.pro^
 ||chachors.net^
 ||chadseer.xyz^
@@ -30512,6 +30513,7 @@ browsershots.org#@#.advert_area
 ||glersakr.com^
 ||glersooy.net^
 ||glerteeb.com^
+||glestoab.com^
 ||glevoloo.com^
 ||gleydegulled.com^
 ||glibsols.net^
@@ -41528,6 +41530,7 @@ browsershots.org#@#.advert_area
 ||ramtakeout.com^
 ||ramusiauk.digital^
 ||ramusiproxied.com^
+||ranchsatin.com^
 ||rancidstrait.com^
 ||rancorousnoncommittalsomewhat.com^
 ||randallbesin.com^
@@ -44146,6 +44149,7 @@ browsershots.org#@#.advert_area
 ||smugismanaxon.com^
 ||smugmuseumframe.com^
 ||smugturner.com^
+||smuxmalamw.com^
 ||smyfbkk.com^
 ||smzcjoatnnhuhn.com^
 ||snagbaudhulas.com^
@@ -49559,12 +49563,14 @@ browsershots.org#@#.advert_area
 ||xcwxfcav.com^
 ||xdcngimejo.com^
 ||xder1.fun^
+||xder1.online^
 ||xdezxlbnpo.com^
 ||xdhqtgpkywjl.com^
 ||xdirectx.com^
 ||xdiwbc.com^
 ||xdkvvtucvbqhv.xyz^
 ||xdmanage.com^
+||xdmicjkveqlgllp.com^
 ||xdserv.com^
 ||xduvqslud.com^
 ||xdvsijtlhr.com^
@@ -64536,7 +64542,6 @@ forkast.news##a[href^="https://h5.whalefin.com/landing2/"]
 douploads.net##a[href^="https://href.li/?"]
 embed.listcorp.com##a[href^="https://j.moomoo.com/"]
 disasterscans.com##a[href^="https://martialscanssoulland.onelink.me/"]
-metager.org##a[href^="https://metager.org"][href*="/partner/r?"]
 dailyuploads.net##a[href^="https://ninjapcsoft.com/"]
 emalm.com##a[href^="https://offer.alibaba.com/"]
 101thefox.net,957thevibe.com##a[href^="https://parisicoffee.com/"]
@@ -65037,7 +65042,6 @@ meijer.com##.product-grid__product:has(.product-tile__sponsored)
 sainsburys.co.uk##.pt-grid-item:has([data-test-id="citrus-label"])
 ksl.com##.queue:has(.sponsored)
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
-metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
 metager.org##.result:has(a[href^="https://r.search.yahoo.com/"])
 qwant.com##.result__ext:has([data-testid="adResult"])
 playpilot.com##.search-preview .side:has(> .provider)
