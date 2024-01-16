@@ -1,9 +1,9 @@
-! Checksum: oCsyg7dDJWjvT1Dgo61Puw
-! Diff-Path: ../patches/244/244-s-1705410645-14400.patch
+! Checksum: MNn4IlHKMni/4AuX8XLfvw
+! Diff-Path: ../patches/244/244-s-1705424831-14400.patch
 ! Title: YousList
 ! Description: Filter that blocks ads on Korean sites.
-! Version: 2.0.10.32
-! TimeUpdated: 2024-01-16T13:06:31+00:00
+! Version: 2.0.10.33
+! TimeUpdated: 2024-01-16T17:03:27+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Homepage: https://github.com/yous/YousList
@@ -1430,6 +1430,7 @@
 ||ilikeview.com/aclk^
 ||imaeil.com/image/banner/ad*.swf^
 ||imaeil.com/wec/
+||image.ajunews.com/content/ads/$domain=ajunews.com|m.ajunews.com
 ||image.cauly.co.kr/websdk/common/lasted/ads.js^
 ||image.cauly.co.kr/websdk/multi_mini_ads/ads.js^
 ||image.cauly.co.kr:15151/richad/partnerApp/
@@ -2382,16 +2383,10 @@ afbbs.afreecatv.com##div#div_video_ad_banner
 afreecatv.com##button.promotion_area_left
 afreecatv.com##button.promotion_area_right
 afreecatv.com##div.promotion_area
-ajunews.com##div#articleBody div[style="width:250px;height:250px;margin:0 0 10px 10px;float:right;"]
-ajunews.com##div.asd_ad300250
+ajunews.com##article.art_ad
+ajunews.com##article.art_ad_banner
 ajunews.com##div.asd_banner
-ajunews.com##div.atc_tag>div[style="text-align:center; margin-bottom:30px;"]
-ajunews.com##div.atc_todayhot>li[style="float:left;list-style:none;text-align:center;width:50%;"]
-ajunews.com##div.column01_banner
-ajunews.com##div.content>div[style="text-align:center;margin-top:20px;"]
-ajunews.com##div.stickyCont>div[style="margin:20px 0 25px 0;width:100%;height:240px;"]
-ajunews.com##div.stickyCont>div[style="width:690px;height:250px;margin-top: 10px;"]
-ajunews.com##div.view_banner
+ajunews.com##div.banner_con
 akomnews.com##div.ad_pos
 akomnews.com##div.banner_wrap
 akomnews.com##div.com_ban
@@ -4218,6 +4213,9 @@ kiplinger.com##div.kip-advertisement
 kiplinger.com##div.kip-advertisement-fixed
 kiplinger.com##div.kip-banner
 kiplinger.com##section.kip-advertisement
+knn.pe.kr##div#ad_link_read
+knn.pe.kr##div.banner_bottom
+knn.pe.kr##div.banner_top
 knowledgepower.co.kr##div#crpifpop
 knowyourmeme.com##div.content-unit-wrapper
 knowyourmeme.com##div.header-unit-wrapper
@@ -4457,6 +4455,7 @@ m-mediatoday-co-kr.cdn.ampproject.org##section.amp_ad_box
 m-mk-co-kr.cdn.ampproject.org##div.new_ad
 m-nocutnews-co-kr.cdn.ampproject.org##div.v_ad
 m-wikihow-com.cdn.ampproject.org##div.wh_ad
+m.ajunews.com##div.banner_wrap
 m.anewsa.com##div#addin-ad
 m.anewsa.com##div#wide>div[style="text-align:center;"]
 m.anewsa.com##div.ad_wide_box_naon
@@ -4922,6 +4921,7 @@ m.kmib.co.kr##div.css_remon_wiki1
 m.kmib.co.kr##div.ftbnr_margin
 m.kmib.co.kr##div.m_ad
 m.kmib.co.kr##div.ms_bnr
+m.knn.pe.kr##div.bn
 m.kormedi.com##div#ad_Banner
 m.kormedi.com##div#ad_newsVeiw_Bottom
 m.kormedi.com##div#article_Contet>div[style="height:18px;position:relative;left:0px;top:0px;overflow-y:hidden;"]
