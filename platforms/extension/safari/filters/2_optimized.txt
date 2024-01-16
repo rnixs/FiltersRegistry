@@ -1,9 +1,9 @@
-! Checksum: pZIWeV1ak7fbsrBNrUuI5w
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705379801-3600.patch
+! Checksum: wDu054w/Ums0MOt9r7jp/g
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705383396-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.17.99
-! TimeUpdated: 2024-01-16T04:33:16+00:00
+! Version: 2.3.18.0
+! TimeUpdated: 2024-01-16T05:33:20+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -33665,6 +33665,7 @@ browsershots.org#@#.advert_area
 ||spdate.com^
 ||special-offers.online^
 ||special-promotions.online^
+||specialcraftbox.com^
 ||specialisthuge.com^
 ||specificclick.net^
 ||specificmedia.com^
