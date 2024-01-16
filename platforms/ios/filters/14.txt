@@ -1,9 +1,9 @@
-! Checksum: YyXp7bEWA1K//Wp+0Sg6Nw
-! Diff-Path: ../patches/14/14-s-1705394304-3600.patch
+! Checksum: PWv2pIZhsKboxXGdGrUdDA
+! Diff-Path: ../patches/14/14-s-1705397843-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.84.73
-! TimeUpdated: 2024-01-16T08:33:23+00:00
+! Version: 2.1.84.74
+! TimeUpdated: 2024-01-16T09:32:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -22925,8 +22925,6 @@ cnet.com#%#//scriptlet('remove-class', 'c-avLazyStickyVideo-sticky', '.c-avLazyS
 m.inven.co.kr###mobileHeadline ~ .party-banner
 kartable.fr#$#.modal--push-more-content { display: none !important; }
 kartable.fr#$#body { overflow: auto !important; }
-huya.com#$##UDBSdkLgn { display: none !important; }
-huya.com#$#body { overflow: auto !important; }
 fotostrana.ru#$#.comeback-paying-user { display: none !important; }
 fotostrana.ru#$#.the-best-modal { display: none !important; }
 fotostrana.ru#$##container-wrap.fixed { position: unset !important; }
@@ -30863,6 +30861,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+brookings.edu##.article-newsletter-bottom-toolbar
 savitahd.net##form[action="https://feedburner.google.com/fb/a/mailverify"]
 dgabc.com.br##._noticiaGrupoWhats
 bigissue.com##.hubspotform

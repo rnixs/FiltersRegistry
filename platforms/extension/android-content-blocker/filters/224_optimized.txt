@@ -1,9 +1,9 @@
-! Checksum: gYZy3m/FlYrNYWjFlYqzrw
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1705390606-3600.patch
+! Checksum: 2U2VPz+8fsd/FVbU25dv2Q
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1705397811-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.8.50
-! TimeUpdated: 2024-01-16T07:33:20+00:00
+! Version: 2.1.8.51
+! TimeUpdated: 2024-01-16T09:33:05+00:00
 ! Expires: 5 days (update frequency)
 ||98765.pw^
 ||cdn.holmesmind.com^$third-party
@@ -3962,6 +3962,7 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.nav-ads
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
@@ -16872,7 +16873,6 @@ hepuwang.com##.n5_dbhfad > .wapper
 ccoo.cn##.n_adbox
 msn.cn##.nativeadserversidecontentmodule
 dan-teng.top##.nav
-nivod4.tv,nivod5.tv##.nav-ads
 jiemian.com##.nav-next-ad-views
 lenovo.com.cn##.nav_ad1
 lenovo.com.cn##.nav_ad2
