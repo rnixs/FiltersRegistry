@@ -1,9 +1,9 @@
-! Checksum: OdeWzAOZfkkDwau3FBRcNQ
-! Diff-Path: ../patches/250/250-s-1705338462-14400.patch
+! Checksum: eP6V2BoJDE94NrvbsbQ9nw
+! Diff-Path: ../patches/250/250-s-1705381675-14400.patch
 ! Title: Dandelion Sprout's Annoyances List
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.12.97
-! TimeUpdated: 2024-01-15T17:03:39+00:00
+! Version: 2.0.12.98
+! TimeUpdated: 2024-01-16T05:03:57+00:00
 ! Expires: 12 hours (update frequency)
 !
 ! Title: ⚙️ Dandelion Sprout's Annoyances List
@@ -24191,7 +24191,7 @@ yadvashem.org#?#p:has-text(start your Acrobat Reader)
 gigabyte.com#?#div.target-container.desc:has-text(PDF files with Acrobat )
 /get_adobe_reader.$image
 ! https://www.supermicro.com/about/sitemap/
-supermicro.com#?#.boxHome.textA:has([href*="products/acrobat/"])
+supermicro.com##.boxHome.textA:has([href*="products/acrobat/"])
 @@||supermicro.com$elemhide,badfilter
 ! https://signform.no/dss/statlige-blanketter?view=forms&id=12
 signform.no#?##signformheader + div > p:has-text(Adobe Reader)
@@ -24200,10 +24200,10 @@ cia.gov,ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion#?#.info-p
 ! No active example pages
 /images/acrobat.gif|
 ! ——— Desktop app versions of websites ———
-deezer.com#?#.page-alerts:has(a[href$="/download"])
+deezer.com##.page-alerts:has(a[href$="/download"])
 ! ——— Self-promoting but somewhat annoying links ———
 fileinfo.com##.fv
-fileinfo.com#?#.top:has(a[href*="/windows_file_viewer"])
+fileinfo.com##.top:has(a[href*="/windows_file_viewer"])
 ! ——— Prompts about outdated browsers... within reasonable limits ———
 ! nettavisen.no (24/05/2023)
 ! Title: 🚪 Browse websites without logging in
@@ -24365,7 +24365,7 @@ context.reverso.net###blocked-results-banner
 ! Autosport 📠
 ||blueconic.net^$third-party
 ! https://linustechtips.com/main/topic/1133668-how-to-get-rid-of-green-fps-counter-with-beeping-sound/
-linustechtips.com,forum.malwarebytes.com,community.ccleaner.com#?#.cTopicPostArea:has(.cGuestTeaser):not(:has(.ipsComposeArea_editor))
+linustechtips.com,forum.malwarebytes.com,community.ccleaner.com##.cTopicPostArea:has(.cGuestTeaser):not(:has(.ipsComposeArea_editor))
 ! theepochtimes.com
 ||subs.youmaker.com^$third-party
 ! fwi.co.uk
@@ -24408,12 +24408,12 @@ zapytaj.onet.pl##.know-better-answer
 !!!instagram.com###fb-root + div[role=presentation]
 ! https://www.instagram.com/explore/tags/melowy/?hl=en (2022-08-05)
 !! "Log in to continue"
-instagram.com#?#div[style*=spectrum-cherry]:has(form[id^=loginForm i])
+instagram.com##div[style*=spectrum-cherry]:has(form[id^=loginForm i])
 instagram.com#?#div[class^=" _"][style^="width: "]:only-of-type:has(a[href^="/accounts/emailsignup/"])
 ! SpanishDict
 ! https://github.com/DandelionSprout/adfilt/issues/7#issuecomment-559903607
 ! Removes a one-time account creation prompt
-spanishdict.com#?#.ReactModal__Overlay:has(video[src$="/bloom2.mp4"])
+spanishdict.com##.ReactModal__Overlay:has(video[src$="/bloom2.mp4"])
 ! Die Zeit 📛
 ! Makes the official article previews fully visible
 ! https://www.zeit.de/2020/06/alfred-bauer-filmbuerokratie-nationalsozialismus-berlinale
@@ -24467,7 +24467,7 @@ tekinvestor.no###full-page-signup-cta
 ||sinaimg.cn/m/weibo-lite/*/smsLogin^
 !! Aims to remove a QR login prompt that shows up every time when pausing/unpausing and going in and out of fullscreen on a video (Logging in appears to still work from https://weibo.com/login.php)
 !!! https://weibo.com/7292751406/Mnt2psINg
-weibo.com#?#.mini-player + .woo-box-flex:has(div[class^=LoginPop_])
+weibo.com##.mini-player + .woo-box-flex:has(div[class^=LoginPop_])
 ! Tumblr
 !! Removes a floaty prompt on bottom
 tumblr.com##div[class][style^="background: rgb(124, 92, 255); "]:only-of-type
@@ -24579,7 +24579,7 @@ deezer.com###modal_login:upward(2)
 ! Instagram
 ! https://github.com/DandelionSprout/adfilt/issues/25
 !! Removes the bottom login banner
-instagram.com#?#.ZUqME:has(a[href^="/accounts/emailsignup/"])
+instagram.com##.ZUqME:has(a[href^="/accounts/emailsignup/"])
 ! (Note to self: If this entry ceases to work, replace it with "instagram.com#?#div[class*=" "]:has(> div > div > div > a[class][href^="/accounts/emailsignup/"])", as per https://github.com/DandelionSprout/adfilt/issues/25#issuecomment-458347604.)
 ! Ooopic
 !! Removes uncloseable login prompt
@@ -24812,7 +24812,7 @@ nyerabattkoder.no#?#.item-holder:has-text(Klikk for å løse inn)
 rabattkalas.se#?#.voucher:has-text(Använd erbjudandet nu)
 rabattkod.nyheter24.se,rabattkod.gp.se#?#.card:has-text(Till rabatt)
 rabattkode.gulesider.no##.deal
-rabble.*#?#.offer-card:has(i.icon-link-ext)
+rabble.*##.offer-card:has(i.icon-link-ext)
 tradera.com#?#.traderase-voucher:has-text(Visa rabatten)
 varejakten.no#?#.no-gutters.row:has-text(Vis tilbud)
 vg.no#?#.offer-details:has-text(Vis tilbud)
@@ -24825,8 +24825,8 @@ vg.no#?#.offer-details:has-text(Vis tilbud)
 ! If a banner is in this category, it means that those who still do want to buy into their Premium services, can do so through the user settings without having to see the obtrusive banners.
 pixiv.net##._premium-lead-popular-d-body
 pixiv.net##._premium-lead-tag-search-bar > a[href^="/premium.php"]
-pixiv.net#?#div:has(> aside + a[href^="/premium/lead/"])
-pixiv.net#?#div > div + section:has(a[href^="/premium/lead/"])
+pixiv.net##div:has(> aside + a[href^="/premium/lead/"])
+pixiv.net##div > div + section:has(a[href^="/premium/lead/"])
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-691479377
 ###dakapoinfeed
 ###dakapotopbar
@@ -24855,7 +24855,7 @@ artstation.com#?#projects-list-item:has-text(Artforgame Gamedesign)
 ||images.opencollective.com^$domain=socket.io
 ||socket.io/images/sponsors^$image
 socket.io###sponsors
-islandecho.co.uk#?#.herald-module:has(.category-news-in-brief)
+islandecho.co.uk##.herald-module:has(.category-news-in-brief)
 ! ——— Placeholders that are seemingly too small for EasyList ———
 mightytext.net###ad-block-holder
 ! ——— Denied (or implied denied) in EasyList for not being in English, denied (or implied denied) in AdGuard Base for not being a popular site, no known language lists for it. May be submitted to uAssets at some point ———
@@ -24863,9 +24863,9 @@ mightytext.net###ad-block-holder
 ! —— 🇰🇿 Kazakh (Қазақша) ——
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146131
 kostanaytany.kz#?#.elementor-widget-image:not(:has([href*=kostanaytany]))
-kostanaytany.kz#?#.elementor-widget-image:has(a[href*=uploads])
+kostanaytany.kz##.elementor-widget-image:has(a[href*=uploads])
 old.kostanaytany.kz#?#.widget > p:not(:has(a[href*=kostanaytany]))
-old.kostanaytany.kz#?#.widget > p:has(a[href*=uploads])
+old.kostanaytany.kz##.widget > p:has(a[href*=uploads])
 ! —— 🇲🇹 Maltese (Malti) ——
 ! Alexa: 239,224th
 tvmnews.mt##div[data-widget_type="shortcode.default"]
@@ -25079,11 +25079,11 @@ taifaleo.nation.co.ke##.text-center
 globalpublishers.co.tz##.adcontainer
 globalpublishers.co.tz##.widget_custom_html a[href="#"]
 globalpublishers.co.tz###custom_html-40
-globalpublishers.co.tz#?#.listing-item:has(> div.item-inner a[href*="-sloti-"])
-globalpublishers.co.tz#?#.listing > article:has(> div.item-inner a[href*="-kasino"])
-globalpublishers.co.tz#?#.listing > article:has(> div.item-inner a[href*="-chapride-"])
+globalpublishers.co.tz##.listing-item:has(> div.item-inner a[href*="-sloti-"])
+globalpublishers.co.tz##.listing > article:has(> div.item-inner a[href*="-kasino"])
+globalpublishers.co.tz##.listing > article:has(> div.item-inner a[href*="-chapride-"])
 mwanahalisionline.com##a[href*=meridianbet]
-mwanahalisionline.com#?#.jl_cgrid_layout:has(a[href*=meridianbet])
+mwanahalisionline.com##.jl_cgrid_layout:has(a[href*=meridianbet])
 mwanahalisionline.com##.elementor-widget-image
 jamhurimedia.co.tz##body > div[style^="text-align: center;"]
 ! ——— 🇿🇦 Zulu ———
@@ -25092,10 +25092,10 @@ ilanganews.co.za##.widget_media_image
 isolezwe.co.za##.advert-leaderboard-bot
 ! ——— 🇪🇹 Amharic (አማርኛ) ———
 ethiopianreporter.com##.vc_widget_sidebar
-ethiopianreporter.com#?#style + .td-stretch-content:has(.td-a-rec)
+ethiopianreporter.com##style + .td-stretch-content:has(.td-a-rec)
 addisadmassnews.com###top-a
-addisadmassnews.com#?#.grid-v:has(a[href*="bit.ly"])
-ethiopiainsider.com#?#.td-pb-span4:has(#vid)
+addisadmassnews.com##.grid-v:has(a[href*="bit.ly"])
+ethiopiainsider.com##.td-pb-span4:has(#vid)
 ! ——— 🇳🇬 🇧🇯 Yoruba ———
 alaroye.org##.widget_media_image
 alaroye.org#@#.navbar-ad-section
@@ -25151,7 +25151,7 @@ knowyourmeme.com##.cbox-smedia
 ! Description: Have you ever been watching «Pinkie Cooper and the Jet Set Pets» on DailyMotion, but you keep getting distracted by all the trend-based recommendations below the video player? This list will help focus your attention on the video instead.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 ! Removes the "Featured channels" feed below the video player
-dailymotion.com#?#div[class^=DiscoveryQueueDisplay__sectionContainer]:has(a[class*=channelCard])
+dailymotion.com##div[class^=DiscoveryQueueDisplay__sectionContainer]:has(a[class*=channelCard])
 ! Removes the "Trending" feed that shows up below the video player if the location is set to the United States
 dailymotion.com#?#div[class^=DiscoveryQueueDisplay__sectionContainer]:has(span:has-text(Trend))
 dailymotion.com#?#div[class^=DiscoveryQueueDisplay__sectionContainer]:has(div[class^=GenericCard]:has-text(Trend))
@@ -25864,11 +25864,11 @@ pixiv.net#?#div[class*=" "]:empty:has(+ aside + aside)
 ~imdb.com##div[data-test-id=decorator__imdb i]
 ! International (All adblockers)
 bing.com#?#.b_algo:has(cite:has-text(imdb.com)) .b_sritem
-newonnetflix.info#?#p:has(a[target=_imdb])
+newonnetflix.info##p:has(a[target=_imdb])
 rakuten.tv##.score
 rakuten.tv##a[href*=".imdb.com/title/"]
 rakuten.tv##div[type=scores]
-sfanytime.com#?#div:has(> img[alt^=IMDB])
+sfanytime.com##div:has(> img[alt^=IMDB])
 sfanytime.com#?#li:has-text(/^imdb$/)
 playpilot.com##.ratings
 whatsondisneyplus.com#?#li:has-text(Imdb)
@@ -25885,9 +25885,9 @@ www.google.*##div[data-async-context^="query:"] > .g:has(a[href*=".imdb.com/"]) 
 www.google.*##.g:has(a[href*="imdb.com"]) g-review-stars:upward(1)
 www.google.*##script ~ div[jsdata] > [jsname] a[href*="://m.imdb.com/title/"] ~ div > div[class]:not([class*=" "])
 www.google.*#?#.g:has-text(imdb.com › title) div[data-snf]:has(g-bubble)
-www.google.*#?#div.g:has(a[href*="imdb.com"]) [style^=grid]:last-of-type
+www.google.*##div.g:has(a[href*="imdb.com"]) [style^=grid]:last-of-type
 ! (https://github.com/AdguardTeam/AdguardFilters/issues/148512)
-www.google.*#?#.g div[jscontroller]:has(a[href*=imdb]) div + div + div[class*=" "]:has(span[role=img])
+www.google.*##.g div[jscontroller]:has(a[href*=imdb]) div + div + div[class*=" "]:has(span[role=img])
 viaplay.*##.Imdb-link-slSbv
 viaplay.*##.ImdbExtended-container-_sA0e
 viaplay.*##div.CarouselHeader-carousel-1rPGh:has-text(IMDB)
@@ -25895,10 +25895,10 @@ viaplay.*##div[id*=imdb][data-testhook=carousel-header]
 viaplay.*##div[id*=imdb][data-testhook=carousel-header] + section
 yandex.*##li.serp-item:has(a[href*="imdb.com"]) .rating
 ! Norway
-filmweb.no#?#.Ratings:has(img[alt=IMDb])
+filmweb.no##.Ratings:has(img[alt=IMDb])
 tvguide.vg.no##._3_ZF3
 tvguide.vg.no#?#span:has(span:has-text(IMDb)):has-text(/, $/)
-twe.no#?#div.content-list:has(a[href*=imdb])
+twe.no##div.content-list:has(a[href*=imdb])
 twe.no##div[data-test-id=home-section-item__decorators] > div[style^=text-align]
 twe.no##div[data-test-id=tile__decorators] > div:nth-of-type(2)
 serienytt.no#?#strong:has-text(/^IMDb:$/)
@@ -25909,7 +25909,7 @@ play.tv2.no##a[title$=" stemmer"]
 tv.nu##a[href*="imdb.com"]
 tv.nu##._1bnN4
 tv.nu#?#a[title] span:has-text(IMDb)
-tv.nu#?#a[title] span:has(path[d^="M9.465 "])
+tv.nu##a[title] span:has(path[d^="M9.465 "])
 ! Denmark
 tvguide.dk##.zk-poster-badges
 cmore.dk##div[class^=AssetPortraitsstyles__Rating]
@@ -25922,7 +25922,7 @@ netzkino.de#?#.list-inline > li:has-text(Bewertung)
 kissanime.*##.rating
 kissanime.*##a[href*="kissanime."][href$="/imdb/"]
 ! Australia
-binge.com.au#?#h3 + p + ul > li:has(svg[class$=Imdb])
+binge.com.au##h3 + p + ul > li:has(svg[class$=Imdb])
 ! Iran
 gapfilm.ir##a[href^="/movie/"] + div:not([class*=" "]):last-of-type > a[href^="/movie/"] ~ div:not([class*=" "]):last-of-type
 gapfilm.ir##a[href^="/serial/"] + div:not([class*=" "]):last-of-type > a[href^="/serial/"] ~ div:not([class*=" "]):last-of-type
@@ -25932,9 +25932,9 @@ gapfilm.ir##.progress-drs
 ! Uzbekistan
 cinerama.uz##div[class^=MovieDescription_rating__]:nth-of-type(1)
 ! Various movie sites
-ddl-warez.to#?#td:has(.btn[data-original-title^=IMDb])
+ddl-warez.to##td:has(.btn[data-original-title^=IMDb])
 myfriendspizza.com#?#a:has-text(IMDb)
-yts.am#?#div.rating-row:has(a[title="IMDb Rating"])
+yts.am##div.rating-row:has(a[title="IMDb Rating"])
 yuptorrents.com#?#div.row:has-text(IMDB Rating)
 movies2k.pro,mmsubtitles.co#?#.custom_fields:has-text(IMDb)
 moviewatcher.is#?#img[alt="Movie rating"]:upward(2)
@@ -29874,14 +29874,14 @@ github.com#$?#.repository-content:has(a[data-pjax=true][href="/DandelionSprout/a
 ! ————— Entries that are currently specific to this compilation —————
 ! Removes listings in certain lists, that are simply unwanted and unwarranted space wasters
 !+ NOT_OPTIMIZED
-freelancer.com#?#.PageProjectViewLogout-freelancerInfo:has(.small-flag.bangladesh)
+freelancer.com##.PageProjectViewLogout-freelancerInfo:has(.small-flag.bangladesh)
 !+ NOT_OPTIMIZED
-whynohttps.com#?#tbody > tr:has([src="/flags/4x3/cn.svg"])
+whynohttps.com##tbody > tr:has([src="/flags/4x3/cn.svg"])
 2fa.directory##.table-danger
 manage.ntppool.org#?#span[id^=server_]:has(.deletion):has-text(/-[3-9]\d|-100/)
 ! https://github.com/DandelionSprout/adfilt/issues/609
-quora.com#?##mainContent > div > .q-box:has(.q-inline.qu-mr--small)
-quora.com#?##mainContent > div > .qu-borderRadius--small:has(> [class=q-box])
+quora.com###mainContent > div > .q-box:has(.q-inline.qu-mr--small)
+quora.com###mainContent > div > .qu-borderRadius--small:has(> [class=q-box])
 ! Removes those creepy square bubbles on Google Documents about how many people that are watching every move you make there
 docs.google.com###docs-presence
 ! Fake insects crawling all over the screen
@@ -29957,7 +29957,7 @@ foodora.*#$#.user-wrapper + .order-components { top: 64px !important }
 ! https://www.techtimes.com/articles/252624/20200917/youtubes-horrible-recommendations-could-affect-younger-users-and-you-could-help-fix-it.htm
 ! https://new.reddit.com/r/insanepeoplefacebook/comments/17ys1zw/comment/k9v92xs/
 !!!youtube.com##ytd-watch-next-secondary-results-renderer
-www.youtube.com#?#.ytd-watch-flexy #dismissible:has(.badge-style-type-simple)
+www.youtube.com##.ytd-watch-flexy #dismissible:has(.badge-style-type-simple)
 ! Links to party compatibility testers in article pages
 ! Requested by https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-903333579
 tv2.no##.banner

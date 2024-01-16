@@ -1,9 +1,9 @@
 !#if (adguard_ext_android_cb)
 ! version for AdGuard Content Blocker only
-! OriginalVersion: 20240115205511
+! OriginalVersion: 20240116101932
 ! Title: ABPVN List
-! Last modified: 15 Jan 2024 20:55:11 UTC+7
-! Diff-Path: patches/20240115205511.patch#abpvn_content_blocker
+! Last modified: 16 Jan 2024 10:19:32 UTC+7
+! Diff-Path: patches/20240116101932.patch#abpvn_content_blocker
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -187,6 +187,7 @@
 ||mephimtv.info/wp-banner$image
 ||mocfun.net/uploads/banners/
 ||motchilltivi.net/banner$image
+||nettruyenviet.com/assets/js/popShope.js$script
 ||nettruyenviet.com/public/assets/js/pop
 ||nettruyenx.com/assets/videos/don_lg.mp4
 ||ngaytho.me^*.gif
@@ -324,6 +325,7 @@
 ||adtima-static.zascdn.me^
 ||adtima.vn^$third-party
 ||adtimaserver.vn^
+||aff.cdnntx.com^
 ||affordedseasick.com^
 ||aj1047.online^
 ||aj1559.online^
@@ -368,6 +370,7 @@
 ||meta.vn^$third-party
 ||moldingruching.com^
 ||pi.beaufintorque.com^
+||pk910324e.com^
 ||player.gliacloud.com^
 ||pub.lavamedia.vn^
 ||pub.lavanetwork.net^$third-party
@@ -1243,11 +1246,11 @@ $third-party,script,domain=sexdiaryx.us
 ||cliphotvn.vip^*.gif$image
 ||cloufdlare.com/ads/vn1.html$subdocument,domain=sex.phe.to
 ||discordapp.$image,domain=phym18.net|phim18vipb.com
-||greenupload.com^*.gif$image,domain=thiendia1.cc
-||greenupload.com^*ad-$image,domain=thiendia1.cc
+||greenupload.com^*.gif$image,domain=thiendia2.net
+||greenupload.com^*ad-$image,domain=thiendia2.net
 ||greenupload.com^*banner$image
 ||hentaivn.lol/qx/$subdocument
-||i.ibb.co^$image,domain=thiendia1.cc
+||i.ibb.co^$image,domain=thiendia2.net
 ||i.imgur.com^$image,domain=phym18.net|phim18hd.top|phim18vn.biz|phim18hd.me|xamvn.dog
 ||i2.wp.com/hentaivnmoi.net/*banner
 ||i9zk5f8szj4x8saj5wcks8acja5sk1dz8stjs2g8isdcn6ejxn8zsr5xjs5h.com^
@@ -1348,12 +1351,12 @@ sieukhung.site##.adspopupgiua
 sieukhung.site##.adspopupleft
 sieukhung.site##.adspopupright
 sieukhung.site##.float-ckgiua
-thiendia1.cc##.firstmessfloadright.samItem
-thiendia1.cc##.my_nonresponsive_ads
-thiendia1.cc##.my_responsive_ads
-thiendia1.cc##.samBannerUnit
-thiendia1.cc##.samTextUnit
-thiendia1.cc,rphang.co,phim18vipb.com,checkgaigoi.site,sieudamtv.me,web27.sexphim1.com##.float-ck
+thiendia2.net##.firstmessfloadright.samItem
+thiendia2.net##.my_nonresponsive_ads
+thiendia2.net##.my_responsive_ads
+thiendia2.net##.samBannerUnit
+thiendia2.net##.samTextUnit
+thiendia2.net,rphang.co,phim18vipb.com,checkgaigoi.site,sieudamtv.me,web27.sexphim1.com##.float-ck
 truyen18.xyz##.a-header
 truyen18.xyz##.apu
 truyen18.xyz##.header
@@ -1391,10 +1394,10 @@ xem.sexnhanh.co##.alldiv ~ div[class]
 !
 !#if (!adguard_ext_android_cb)
 ! version for all other AdGuard products
-! OriginalVersion: 20240115205511
+! OriginalVersion: 20240116101932
 ! Title: ABPVN List
-! Last modified: 15 Jan 2024 20:55:11 UTC+7
-! Diff-Path: patches/20240115205511.patch#abpvn_adguard
+! Last modified: 16 Jan 2024 10:19:32 UTC+7
+! Diff-Path: patches/20240116101932.patch#abpvn_adguard
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -1578,6 +1581,7 @@ xem.sexnhanh.co##.alldiv ~ div[class]
 ||mephimtv.info/wp-banner$image
 ||mocfun.net/uploads/banners/
 ||motchilltivi.net/banner$image
+||nettruyenviet.com/assets/js/popShope.js$script
 ||nettruyenviet.com/public/assets/js/pop
 ||nettruyenx.com/assets/videos/don_lg.mp4
 ||ngaytho.me^*.gif
@@ -1713,6 +1717,7 @@ xem.sexnhanh.co##.alldiv ~ div[class]
 ||adtima-static.zascdn.me^
 ||adtima.vn^$third-party
 ||adtimaserver.vn^
+||aff.cdnntx.com^
 ||affordedseasick.com^
 ||aj1047.online^
 ||aj1559.online^
@@ -1757,6 +1762,7 @@ xem.sexnhanh.co##.alldiv ~ div[class]
 ||meta.vn^$third-party
 ||moldingruching.com^
 ||pi.beaufintorque.com^
+||pk910324e.com^
 ||player.gliacloud.com^
 ||pub.lavamedia.vn^
 ||pub.lavanetwork.net^$third-party
@@ -2623,11 +2629,11 @@ $third-party,script,domain=sexdiaryx.us
 ||cliphotvn.vip^*.gif$image
 ||cloufdlare.com/ads/vn1.html$subdocument,domain=sex.phe.to
 ||discordapp.$image,domain=phym18.net|phim18vipb.com
-||greenupload.com^*.gif$image,domain=thiendia1.cc
-||greenupload.com^*ad-$image,domain=thiendia1.cc
+||greenupload.com^*.gif$image,domain=thiendia2.net
+||greenupload.com^*ad-$image,domain=thiendia2.net
 ||greenupload.com^*banner$image
 ||hentaivn.lol/qx/$subdocument
-||i.ibb.co^$image,domain=thiendia1.cc
+||i.ibb.co^$image,domain=thiendia2.net
 ||i.imgur.com^$image,domain=phym18.net|phim18hd.top|phim18vn.biz|phim18hd.me|xamvn.dog
 ||i2.wp.com/hentaivnmoi.net/*banner
 ||i9zk5f8szj4x8saj5wcks8acja5sk1dz8stjs2g8isdcn6ejxn8zsr5xjs5h.com^
@@ -2727,12 +2733,12 @@ sieukhung.site##.adspopupgiua
 sieukhung.site##.adspopupleft
 sieukhung.site##.adspopupright
 sieukhung.site##.float-ckgiua
-thiendia1.cc##.firstmessfloadright.samItem
-thiendia1.cc##.my_nonresponsive_ads
-thiendia1.cc##.my_responsive_ads
-thiendia1.cc##.samBannerUnit
-thiendia1.cc##.samTextUnit
-thiendia1.cc,rphang.co,phim18vipb.com,checkgaigoi.site,sieudamtv.me,web27.sexphim1.com##.float-ck
+thiendia2.net##.firstmessfloadright.samItem
+thiendia2.net##.my_nonresponsive_ads
+thiendia2.net##.my_responsive_ads
+thiendia2.net##.samBannerUnit
+thiendia2.net##.samTextUnit
+thiendia2.net,rphang.co,phim18vipb.com,checkgaigoi.site,sieudamtv.me,web27.sexphim1.com##.float-ck
 truyen18.xyz##.a-header
 truyen18.xyz##.apu
 truyen18.xyz##.header
