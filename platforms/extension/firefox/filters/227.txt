@@ -1,14 +1,14 @@
-! Checksum: o37Dcx4yNoOflutLJGTYZQ
-! Diff-Path: ../patches/227/227-s-1705410638-14400.patch
+! Checksum: 4A0M88faTCwc8xVR68eoew
+! Diff-Path: ../patches/227/227-s-1705496812-14400.patch
 ! Title: List-KR
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.36
-! TimeUpdated: 2024-01-16T13:05:59+00:00
+! Version: 2.0.17.37
+! TimeUpdated: 2024-01-17T13:02:24+00:00
 ! Expires: 1 day (update frequency)
 !
 ! Title: List-KR for AdGuard
 ! Description: List-KR for AdGuard. Maintained by the adblock community and AdGuard.
-! OriginalVersion: 2024.0116.5
+! OriginalVersion: 2024.0117.3
 ! Expires: 1 day
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://github.com/List-KR/List-KR/issues/223
@@ -1253,6 +1253,8 @@
 !
 ! DOMAIN-REFRESHER: START
 !
+/^https:\/\/linkssakda\.com\/upload\/images\/[0-9]+\./$domain=linkssakda.com
+||i.imgur.com^$domain=avguri.com
 ||moeni.net/img/sp/
 ||cdnbuzz.buzz//banner/
 /^https:\/\/avjoa[0-9]+\.com\/wp-content\/uploads\/[0-9]+\/[0-9]+\/.+\.gif$/
@@ -1484,6 +1486,7 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 !
+chimhaha.net###adsense
 hani.co.kr###content div[class^="ArticleDetail_section_"] > div[class^="MainNativeLab_wrap"]
 humorpick.com##.list-body > .list-item-ad
 betanews.net##iframe[src*="/banner.html"]

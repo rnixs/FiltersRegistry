@@ -1,9 +1,9 @@
-! Checksum: sJzUzpAmNmkSz1Q0HlUe6g
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1705482383-14400.patch
+! Checksum: 1jygDdSpHwv1pSIpb1GM/w
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1705496803-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.44
-! TimeUpdated: 2024-01-17T09:02:02+00:00
+! Version: 2.1.19.45
+! TimeUpdated: 2024-01-17T13:02:02+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -11777,7 +11777,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ||grvmedia.com^$third-party
 ||gstatic.com/glue/cookienotificationbar/
 ||hs-banner.com^$third-party
-||iheart.com/api/v3/privacy/accounts/
 ||inmobi.com^$third-party
 ||iubenda.com^$third-party
 ||jimstatic.com/ckies.js
@@ -13702,6 +13701,7 @@ book.hacktricks.xyz,docs.safe.global##.r-l13dpy
 sportsnet.ca##.rdm-daac-notice-template
 atlas.nomic.ai,digitalbook.io##.react-cookienotice-root
 beerwulf.com,islamicfinder.org##.reveal-overlay
+merlin.foyer.work,solanamobile.com##.rhc-banner
 hangseng.com##.rwd-header-cookie-section
 smiteproleague.com##.sc-EHOje
 snapchat.com##.sds-modal-overlay
