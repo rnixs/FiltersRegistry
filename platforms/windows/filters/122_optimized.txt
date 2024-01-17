@@ -1,9 +1,9 @@
-! Checksum: rmcAdEWYpbfwzZVi9S4RWA
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1705468008-14400.patch
+! Checksum: Rb4Jb0MUCdiLbL9Z0jYMbA
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1705482424-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.43
-! TimeUpdated: 2024-01-17T05:02:02+00:00
+! Version: 2.1.19.44
+! TimeUpdated: 2024-01-17T09:02:02+00:00
 ! Expires: 12 hours (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -12,7 +12,7 @@
 /onlineopinionV5/oo_style.js
 /pageAutoRefresh.
 /plugins/advanced-browser-check/js/script.js
-/plugins/popup-maker/*$script,domain=~tracktion.com
+/plugins/popup-maker/*$script,domain=~tracktion.com|~upride.cc
 /plugins/wordpress-popup/*$~stylesheet
 /q2w3-fixed-widget.min.js
 /rating-widget/resources/css/site-rating.css

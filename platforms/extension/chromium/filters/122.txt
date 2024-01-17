@@ -1,15 +1,15 @@
-! Checksum: OiQziaaOvqqm1vNp4P6hhw
-! Diff-Path: ../patches/122/122-s-1705467965-14400.patch
+! Checksum: ibRw0/4l47/4yCSOJJ5rgw
+! Diff-Path: ../patches/122/122-s-1705482377-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.43
-! TimeUpdated: 2024-01-17T05:02:02+00:00
+! Version: 2.1.19.44
+! TimeUpdated: 2024-01-17T09:02:02+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: GZVpoW4kWiZr3SJYtWj6/g
-! OriginalVersion: 202401170340
+! Checksum: FlcT32fa4kqI04nW6Mzp/Q
+! OriginalVersion: 202401170740
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-17 03:40 UTC
+! Last modified: 2024-01-17 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -37,7 +37,7 @@
 /opinionlab/oo_style.css
 /pageAutoRefresh.
 /plugins/advanced-browser-check/js/script.js
-/plugins/popup-maker/*$script,domain=~tracktion.com
+/plugins/popup-maker/*$script,domain=~tracktion.com|~upride.cc
 /plugins/scroll-triggered-boxes/assets/js/script.min.js
 /plugins/wordpress-popup/*$~stylesheet
 /plugins/wp-emailfeedburnerpop/*
