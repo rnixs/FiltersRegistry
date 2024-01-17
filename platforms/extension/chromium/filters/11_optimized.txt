@@ -1,9 +1,9 @@
-! Checksum: nSvYHG2qobCADdIdfzDtRA
-! Diff-Path: ../patches/11_optimized/11_optimized-s-1705509349-3600.patch
+! Checksum: fmf1Tx/93qMEvGctoA9B9g
+! Diff-Path: ../patches/11_optimized/11_optimized-s-1705516562-3600.patch
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.32
-! TimeUpdated: 2024-01-17T16:31:27+00:00
+! Version: 2.0.48.33
+! TimeUpdated: 2024-01-17T18:31:28+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -3867,7 +3867,6 @@ ameblo.jp##div:not([class]) > div[class^="_"]:first-child > aside[class^="_"]:on
 tvspielfilm.de##.livetv-ad-bottom
 nordot.app##.main__adWrapper
 nordot.app##.page__ad:not(.page__ad--discoverMore)
-m.youtube.com##.ytp-ad-action-interstitial
 n-tv.de##.topbanner-mobile
 m.bloomberght.com##.zone-area
 3dnews.ru###aio_rollup_container_id

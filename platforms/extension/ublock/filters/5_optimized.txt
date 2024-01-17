@@ -1,15 +1,15 @@
 ![Adblock Plus 2.0]
-! Checksum: Pe0hP6afGrrTEHbEFDZJ0A
-! Diff-Path: ../patches/5_optimized/5_optimized-s-1704911803-3600.patch
+! Checksum: 29Rr2fzhEf1CgrWGw4NLMA
+! Diff-Path: ../patches/5_optimized/5_optimized-s-1705516594-3600.patch
 ! Title: AdGuard Experimental filter (Optimized)
 ! Description: Filter designed to test certain hazardous filtering rules before they are added to the basic filters.
-! Version: 2.0.1.28
-! TimeUpdated: 2024-01-10T18:33:21+00:00
+! Version: 2.0.1.29
+! TimeUpdated: 2024-01-17T18:33:07+00:00
 ! Expires: 5 days (update frequency)
 /[a-z]{8,}\.(com|info|xyz)/$domain=nolive.me,third-party
-www.youtube.com#$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) > #contents:first-child { max-width: unset !important; }
-www.youtube.com#$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) ytd-rich-grid-media { max-width: unset !important; }
-www.youtube.com#$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) { --ytd-rich-grid-items-per-row: 1 !important; }
+www.youtube.com#$##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) > #contents:first-child { max-width: unset !important; }
+www.youtube.com#$##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) ytd-rich-grid-media { max-width: unset !important; }
+www.youtube.com#$##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) { --ytd-rich-grid-items-per-row: 1 !important; }
 developer.android.com,adssettings.google.com##sc-survey-survey-manager
 mail.yandex.ru#?#.modal:has(> div[data-lego] div[class^="mail-SubscriptionsPopup"])
 /videojs8/nuevo.min.js

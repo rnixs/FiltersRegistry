@@ -1,9 +1,9 @@
-! Checksum: vn+IrqjLQ2AzZJVoay6PMA
-! Diff-Path: ../patches/11/11-s-1705509379-3600.patch
+! Checksum: VwkK6F8YfKC/uljE0Dx+OQ
+! Diff-Path: ../patches/11/11-s-1705516594-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.32
-! TimeUpdated: 2024-01-17T16:31:27+00:00
+! Version: 2.0.48.33
+! TimeUpdated: 2024-01-17T18:31:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4724,7 +4724,6 @@ ameblo.jp##div:not([class]) > div[class^="_"]:first-child > aside[class^="_"]:on
 tvspielfilm.de##.livetv-ad-bottom
 nordot.app##.main__adWrapper
 nordot.app##.page__ad:not(.page__ad--discoverMore)
-m.youtube.com##.ytp-ad-action-interstitial
 n-tv.de##.topbanner-mobile
 m.bloomberght.com##.zone-area
 3dnews.ru###aio_rollup_container_id
