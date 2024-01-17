@@ -1,9 +1,9 @@
-! Checksum: YmNN45LshaFL1rp4abfWTg
-! Diff-Path: ../patches/6_optimized/6_optimized-s-1705484163-3600.patch
+! Checksum: J3Beo+Eu/+A3x8Ljg3MLvw
+! Diff-Path: ../patches/6_optimized/6_optimized-s-1705505981-3600.patch
 ! Title: AdGuard German filter (Optimized)
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.0
-! TimeUpdated: 2024-01-17T09:33:08+00:00
+! Version: 2.0.40.1
+! TimeUpdated: 2024-01-17T15:36:11+00:00
 ! Expires: 5 days (update frequency)
 ||lehrer-finden.de^
 ||lokalwerben.t-online.de^
@@ -3806,6 +3806,7 @@ wetter.de##.guj-ad-slot
 my-homo.net##.gxt_banner
 my-homo.net##.gxt_feed
 qiez.de##.h5v
+helpster.de##.h5v-ad
 pornotim.com,xhammer.net##.happy-inside-player
 pornohut.info##.happy-player-beside
 ak-kurier.de##.hd-banner
