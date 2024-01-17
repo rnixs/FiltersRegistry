@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Djg6yCHvS0nIEkG4F6kpzw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705487807-3600.patch
+! Checksum: oUi1R9eeoomNy7rqq3oqSw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705491401-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.18.21
-! TimeUpdated: 2024-01-17T10:32:51+00:00
+! Version: 2.3.18.22
+! TimeUpdated: 2024-01-17T11:32:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -30729,7 +30729,6 @@ spectrum.ieee.org##+js(set-constant, splashpage, undefined)
 edition.cnn.com#$#.header__wrapper-outer:not([style]) { height: 40px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170087
 icy-veins.com#$?##video-guide:empty:matches-css(before, content: Advertisement) { visibility: hidden !important; width: 0 !important; }
-! UKRadioLive
 ! fixed scrolling
 chan.sankakucomplex.com#$#body.no-scroll { overflow: auto !important; position: static !important; width: unset !important; }
 ! pervertgirlsvideos.com ad leftover
@@ -49707,6 +49706,7 @@ duplichecker.com##.logo-ads
 duplichecker.com##.adp_interactive_ad
 duplichecker.com##div[style*="center"]
 ! sidebar
+duplichecker.com#?#.container div[class] div[class]:has(> span > div:empty)
 duplichecker.com#?#.main-content ~ div[class] > *:has(> div > * a[target][rel] > img)
 ! main
 duplichecker.com#?#div[style]:has(> [style^="display: inline-block"] > a[target="blank"])

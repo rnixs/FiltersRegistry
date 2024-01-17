@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZPRNHXkytomkahE/GqJ7UQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705487807-3600.patch
+! Checksum: ejjZOf3XJ5oHCriRAEHQgw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705491401-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.21
-! TimeUpdated: 2024-01-17T10:32:51+00:00
+! Version: 2.3.18.22
+! TimeUpdated: 2024-01-17T11:32:39+00:00
 ! Expires: 5 days (update frequency)
 ||guvsxiex.xyz^
 ||adxfire.net^
@@ -12180,6 +12180,7 @@ smallseotools.com##body .sticki_ssb
 duplichecker.com##[style^="display: inline-block"] > a[target="blank"]
 duplichecker.com##.adp_interactive_ad
 duplichecker.com##div[style*="center"]
+duplichecker.com#?#.container div[class] div[class]:has(> span > div:empty)
 duplichecker.com#?#div[style]:has(> [style^="display: inline-block"] > a[target="blank"])
 flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.adsenvelope
 flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com###detail > .detailLeaderboard
