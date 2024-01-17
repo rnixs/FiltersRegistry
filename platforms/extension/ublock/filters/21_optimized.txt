@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /w4gew0VFWhx4ERRQNeXmQ
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1705487806-3600.patch
+! Checksum: R6O9/kg2Yn5Wkiz+nnvG5g
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1705502198-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.73
-! TimeUpdated: 2024-01-17T10:32:19+00:00
+! Version: 2.0.18.74
+! TimeUpdated: 2024-01-17T14:32:15+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
@@ -2370,8 +2370,8 @@ panda.studyis.xyz##+js(nano-setInterval-booster, wpsafe-countdown2, *, 0.002)
 stre4mplay.*,streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##+js(adjust-setTimeout, letgo, *, 0.001)
 bishalghale.com.np##+js(nano-setInterval-booster, timer, *, 0.001)
 privatemoviez.*##+js(nano-setInterval-booster, count, *, 0.001)
-apkmodvn.com##+js(set-constant, waktu, -1)
-file.apkmoddone.com##+js(nano-setInterval-booster, =--, *, 0.001)
+modapkvn.com,apkmodvn.com##+js(set-constant, waktu, -1)
+apkmoddone.phongroblox.com,file.apkmoddone.com##+js(nano-setInterval-booster, =--, *, 0.001)
 anonymfile.com##+js(set-constant, countDown, 1)
 datasciencelearner.com##+js(addEventListener-defuser, contextmenu, preventDefault)
 infidrive.net##+js(adjust-setTimeout, -1, *, 0.001)

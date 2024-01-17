@@ -1,9 +1,9 @@
-! Checksum: axxoJSpOb7x1+BU/u76BGQ
-! Diff-Path: ../patches/11_optimized/11_optimized-s-1705484180-3600.patch
+! Checksum: NmPrD2o5BFHOR9wJ31IuLQ
+! Diff-Path: ../patches/11_optimized/11_optimized-s-1705502177-3600.patch
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.30
-! TimeUpdated: 2024-01-17T09:31:25+00:00
+! Version: 2.0.48.31
+! TimeUpdated: 2024-01-17T14:31:30+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4006,7 +4006,7 @@ collectionofbestporn.com##.banner-mobile-header
 javsubtitle.co###mimpanel
 javsubtitle.co##.mid-ads
 javsubtitle.co##.bottom-ads
-javsubtitle##.header-ads
+merlininkazani.com,javsubtitle##.header-ads
 ndtv.com##amp-iframe[src^="https://drop.ndtv.com/"]
 online.anidub.com###dle-content > div[style*="width: 300px;"][style*="height: 300px;"]
 india.com,india.com,bollywoodlife.com,bgr.in##.add-box
