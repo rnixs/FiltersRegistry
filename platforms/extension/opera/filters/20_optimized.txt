@@ -1,9 +1,9 @@
-! Checksum: /ZCt9Ei5zezWwnMgmQSpaA
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1705458984-3600.patch
+! Checksum: Dt2nKByXfoyoulmSqtf5+Q
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1705484191-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.87
-! TimeUpdated: 2024-01-16T14:37:35+00:00
+! Version: 2.0.11.88
+! TimeUpdated: 2024-01-17T09:32:08+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};

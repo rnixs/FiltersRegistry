@@ -1,9 +1,9 @@
-! Checksum: SWQ3nrUEN/vjtMCJOtsDTQ
-! Diff-Path: ../patches/19/19-s-1705480595-3600.patch
+! Checksum: tjOeT3Mgzwp5rGH8EOKMaQ
+! Diff-Path: ../patches/19/19-s-1705484217-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.10
-! TimeUpdated: 2024-01-17T08:31:52+00:00
+! Version: 2.0.30.11
+! TimeUpdated: 2024-01-17T09:31:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4061,7 +4061,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 ! At the bottom of this file, you can find the allowlist that fixes issues caused by the rules from this file.
 !
 ! Good: any type of the rules will be good
-! Bad:  example.org#@##credential_picker_container (should be in AdGuard Base - popups_allowlist.txt)
+! Bad:  example.org#@##credential_picker_container (should be in popups_allowlist.txt)
 !
 !
 ! SECTION: Popups - generic rules
@@ -4186,7 +4186,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 ! At the bottom of this file, you can find the allowlist that fixes issues caused by the rules from this file.
 !
 ! Good: any type of the rules will be good
-! Bad:  @@||example.org^ (should be in AdGuard Base - popups_allowlist.txt)
+! Bad:  @@||example.org^ (should be in popups_allowlist.txt)
 !
 ! SECTION: Popups - Regular rules
 !
