@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: NDwNT3q9Ag4avfT/7Um+EA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705484205-3600.patch
+! Checksum: Djg6yCHvS0nIEkG4F6kpzw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705487807-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.18.20
-! TimeUpdated: 2024-01-17T09:32:42+00:00
+! Version: 2.3.18.21
+! TimeUpdated: 2024-01-17T10:32:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7219,6 +7219,10 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170886
+investguiding-com.ngontinh24.com##+js(no-fetch-if, pagead2.googlesyndication.com)
+! https://github.com/AdguardTeam/AdguardFilters/issues/170717
+@@||ytlarge.com/youtube/ad/cmbdv2.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170718
 ultimate-guitar.com##+js(set-constant, UGAPP.bidding.prebidLoadError, false)
 ultimate-guitar.com##+js(set-constant, Object.prototype.setNeedShowAdblockWarning, noopFunc)
@@ -16227,6 +16231,7 @@ egbest1.xyz##+js(abort-current-script, document.createElement, adsbygoogle.js)
 ||player.octivid.com/*/video?*&custom_ads=$removeparam=custom_ads,domain=kooora.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99417
 cimanow.cc##+js(no-fetch-if, pagead2.googlesyndication.com)
+cimanow.cc##+js(set-constant, navigator.brave, undefined)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=noop.txt,domain=cimanow.cc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99034
 alwafd.news##center > a[href="#"]
