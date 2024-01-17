@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: w3EkEOJkhdGUNWnnrvzkQg
-! Diff-Path: ../patches/4/4-s-1705433779-3600.patch
+! Checksum: JBSmOIJAw8nb9bXnoISMpQ
+! Diff-Path: ../patches/4/4-s-1705480587-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.96.15
-! TimeUpdated: 2024-01-16T19:33:06+00:00
+! Version: 2.0.96.16
+! TimeUpdated: 2024-01-17T08:32:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6830,7 +6830,7 @@ filing.pl##div[class="like hidemobile"]
 polityka.pl##.cg_article_toolbox_share
 dicionariocriativo.com.br,pciconcursos.com.br,oantagonista.uol.com.br,otempo.com.br##.compartilhar
 muzofond.fm,zvooq.pro##.shared_buttons
-kioskla.co##button[data-sharer]
+canarymedia.com,kioskla.co##button[data-sharer]
 magesypro.com,pulsemens.com,mypussydischarge.com,mersindergisi.com##div[data-wpusb-component="buttons-section"]
 steemit.com##.shareMenu
 kinomania.ru##.pagelist-social
