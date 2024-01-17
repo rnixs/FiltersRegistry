@@ -1,9 +1,9 @@
-! Checksum: 6U1c9t8kef0j1Lv60e7ZSQ
-! Diff-Path: ../patches/21/21-s-1705505999-3600.patch
+! Checksum: tr9HTNr4PvqQt691TceKlA
+! Diff-Path: ../patches/21/21-s-1705520152-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.75
-! TimeUpdated: 2024-01-17T15:34:59+00:00
+! Version: 2.0.18.76
+! TimeUpdated: 2024-01-17T19:32:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7390,6 +7390,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170596
+shareus.io#%#//scriptlet('trusted-click-element', '.adunit-container >.card img', '','500')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170389
 exactpay.online,btcbitco.in,btcsatoshi.net,cempakajaya.com,crypto4yu.com,readbitcoin.org,wiour.com,mdn.lol,mcafee-com.com,exego.app,blog.carstopia.net,blog.carstopia.net,blog.coinsvalue.net,blog.cookinguide.net,blog.freeoseocheck.com,blog.makeupguide.net#%#//scriptlet('set-constant', 'document.hasFocus', 'trueFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170143

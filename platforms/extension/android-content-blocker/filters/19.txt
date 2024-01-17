@@ -1,9 +1,9 @@
-! Checksum: j4xxZxqRd3E7WrvIRrGPfg
-! Diff-Path: ../patches/19/19-s-1705509346-3600.patch
+! Checksum: nad2ep5I+vD7IIME++VJIA
+! Diff-Path: ../patches/19/19-s-1705520136-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.15
-! TimeUpdated: 2024-01-17T16:31:59+00:00
+! Version: 2.0.30.16
+! TimeUpdated: 2024-01-17T19:31:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10544,6 +10544,9 @@ epaper.thehindu.com,h5.g123.jp,accounts.binance.com,zlavomat.sk,id.rambler.ru,pi
 !
 ! SECTION: Push notifications - Regular rules
 !
+! push
+outlook.live.com#$##BottomSheetAnimatedOVERLAY_BANNER { display: none !important; }
+outlook.live.com#$#body { overflow:auto !important; }
 hnonline.sk##.piano-pushnotify--hnonline
 metropoles.com###m-modal-permitir-notificacao
 gizbot.com##.instant-updates-bottom
