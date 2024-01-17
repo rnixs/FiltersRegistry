@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Vn6HzHo8VgXIWKD/qNNbfA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705509378-3600.patch
+! Checksum: fY303HSQ9OmBuGLci4bJEg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705512978-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.18.26
-! TimeUpdated: 2024-01-17T16:32:43+00:00
+! Version: 2.3.18.27
+! TimeUpdated: 2024-01-17T17:32:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -32679,6 +32679,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+incestgames.net##body #bitcoin-banner
 e-chords.com##.adsGoogleDef
 canarymedia.com##aside.col-span-12 > .h-full > div[class*="bg-gray-"]:has(> figure > div[id^="div-gpt-"])
 fusevideo.io##html > body > a:not(#style_important)
@@ -32730,6 +32731,7 @@ fap-nation.com##.gunk-future
 18adultgames.com###block-86
 18adultgames.com###block-105
 18adultgames.com###block-89
+18adultgames.com###block-70
 tempmail.email##.open-mail__text > strong > a[target="_blank"]
 porngameshub.com##.daemonclicks
 typing-speed.net#?#tr > td[style]:has(> div > div[id][class] > div[style^="min-height:"])
