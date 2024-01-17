@@ -1,0 +1,13 @@
+d1 2
+a2 2
+! Checksum: uZvlJlJG+6NwneG6DbelyA
+! Diff-Path: ../patches/227_optimized/227_optimized-s-1705511200-14400.patch
+d5 2
+a6 2
+! Version: 2.0.17.38
+! TimeUpdated: 2024-01-17T17:02:34+00:00
+a485 1
+/^https:\/\/nng-phinf\.pstatic\.net\/.+\/.+_naverads\./$domain=game.naver.com
+d502 1
+a1426 1
+game.naver.com##img[src^="https://nng-phinf.pstatic.net/"][src*="_naverads."]

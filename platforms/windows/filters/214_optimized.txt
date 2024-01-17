@@ -1,9 +1,9 @@
-! Checksum: SM4wfPKdVYV6AuvTdTTX1Q
-! Diff-Path: ../patches/214_optimized/214_optimized-s-1705482425-14400.patch
+! Checksum: /4i1gC8aFGogmEvW9JywSA
+! Diff-Path: ../patches/214_optimized/214_optimized-s-1705511237-14400.patch
 ! Title: ABPVN List (Optimized)
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.26.25
-! TimeUpdated: 2024-01-17T09:02:12+00:00
+! Version: 2.0.26.26
+! TimeUpdated: 2024-01-17T17:02:22+00:00
 ! Expires: 12 hours (update frequency)
 .com/cpc/$script
 .com/qc/
@@ -1397,6 +1397,7 @@ phimgichill.net,mephimnhe1.net#%#//scriptlet("abort-current-inline-script", "jQu
 phimmoi4s.com#%#//scriptlet("json-prune", "ads")
 phimmoi4s.com,phimdinhcao.net,phimlongtieng.net,phimdinhcao.com,ophimhd.vip#%#//scriptlet("abort-on-property-read", "localStorage")
 phimmoinay.tv#%#//scriptlet("abort-current-inline-script", "jQuery", "click_time")
+phimtho.net#%#//scriptlet("abort-current-inline-script", "$", "p0pUpRandom")
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#%#//scriptlet("set-constant", "maxAds", "0")
 phimvuihd.org#%#//scriptlet("set-constant", "urlAds", "")
 plvb.xyz#%#//scriptlet("abort-on-property-read", "ads")
