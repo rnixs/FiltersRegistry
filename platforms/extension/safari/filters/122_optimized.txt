@@ -1,9 +1,9 @@
-! Checksum: BpN7fcOEdB/ZGHeZldGUdw
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1705439195-14400.patch
+! Checksum: /YQLNtMuNCe+kEmtvp2HRw
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1705453587-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.41
-! TimeUpdated: 2024-01-16T21:02:03+00:00
+! Version: 2.1.19.42
+! TimeUpdated: 2024-01-17T01:01:57+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -8767,6 +8767,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.content-cookies
 ##.contentCookie
 ##.contentRender_name_plugins_common_cookie_banner
+##.contentRender_name_plugins_common_gdpr_banner
 ##.coockie
 ##.coockie_banner
 ##.coockies
@@ -12247,6 +12248,8 @@ scientificamerican.com##.spw__banner
 newsweek.com##.subscribe-block-wrapper
 spectator.co.uk##.subscription-banner
 golem.de##.supplementary
+novaramedia.com##.support-bar
+novaramedia.com##.support-section
 road.cc##.support-subscribe
 banggood.com##.suspended-banner-wrap
 dieselworldmag.com##.text-22
@@ -13257,7 +13260,9 @@ pkgs.org###consent_notice
 dovizborsa.com###container > #tools._h4
 mathsisfun.com###cookOK
 peterchristian.co.uk,peterchristianoutfitters.com###cookie-acceptancce
+store.azeron.eu###cookie-consent-background
 github.com###cookie-consent-banner
+store.azeron.eu###cookie-consent-foreground
 laspalmerasapartments.com###cookie-consent-notification
 ecigarettedirect.co.uk###cookie-message-slide-in
 dirsyncpro.org###cookie-notice-modal
@@ -13321,6 +13326,7 @@ checkpoint.com,csl-computer.com,pomvom.com,proscia.com,yesgolive.com###notificat
 pacesuite.com###notification-cont
 steamgriddb.com###noty_layout__bottomRight
 nvu.io###nvu-consent
+novaramedia.com###obligation-bar
 postgraduatesearch.com###ol
 pollylingu.al###opt-form
 baltimoresun.com,chicagotribune.com,nydailynews.com###osanoCustomDialogDiv
@@ -13381,6 +13387,7 @@ nhl.com##.-left.nhl-c-toast
 giphy.com##.Banner-sc-iopojr
 quora.com##.Banner___StyledFlex-sf9g3d-0
 guilded.gg##.BottomFixedBanner-container
+movadex.com##.CookiesPopup_root__h_m4j
 accounts.ucas.com,nngroup.com##.CybotEdge
 basspro.com,cabelas.com##.DisclosurePopupContainer
 picoxr.com##.EjUUOLYo3tCrc6j7Mapv
@@ -14576,6 +14583,7 @@ novayagazeta.eu#%#//scriptlet('ubo-set-cookie.js', 'cookies-informer-close', 'tr
 kinopoisk.ru,yandex.ru#%#//scriptlet('ubo-set-cookie.js', 'gdpr', '0')
 stmas.bayern.de#%#//scriptlet('ubo-set-cookie.js', 'required', '1')
 go.netia.pl,polsatboxgo.pl#%#//scriptlet('ubo-set-cookie.js', 'rodo-reminder-displayed', '1')
+wst.tv#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent_given', 'true')
 go.netia.pl,polsatboxgo.pl#%#//scriptlet('ubo-set-cookie.js', 'rodo-modal-displayed', '1')
 ing.it#%#//scriptlet('ubo-set-cookie.js', 'ING_GPT', '0')
 ing.it#%#//scriptlet('ubo-set-cookie.js', 'ING_GPP', '0')
@@ -14781,6 +14789,7 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 wunderground.com#%#//scriptlet('ubo-set-local-storage-item.js', 'wu.ccpa-toast-viewed', 'true')
 makerz.me#%#//scriptlet('ubo-set-local-storage-item.js', 'makerz_allow_consentmgr', '0')
+atlas.workland.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie-consent', 'true')
 alfa.com.ec,rts.com.ec,tropicalida.com.ec#%#//scriptlet('ubo-set-local-storage-item.js', 'CookiesConsent', '1')
 beermerchants.com#%#//scriptlet('ubo-set-local-storage-item.js', 'amCookieBarFirstShow', '1')
 saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptedCookies', 'false')
@@ -15147,6 +15156,11 @@ multioferta.es#$#body,html { overflow: auto !important; position: initial !impor
 kosmas.cz###qtip-blanket
 kosmas.cz###modalDialog
 kosmas.cz#$#body,html { overflow: auto !important; position: initial !important; }
+craft-conf.com###headlessui-dialog-overlay-19
+craft-conf.com###headlessui-dialog-17
+craft-conf.com#$#body,html { height: auto !important; overflow: auto !important }
+116117.fi##.cookie-consent-blanket
+116117.fi#$#body,html { overflow: auto !important; position: initial !important; }
 testwise.com#$#html,body { overflow: auto !important; position: initial !important; }
 paysend.com##div[class^="styles__Overlay-"]
 paysend.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -15261,7 +15275,7 @@ turvakauppa.com#$#body { overflow: auto !important; position: initial !important
 teufel.de#$#body,html { overflow: auto !important; position: initial !important; }
 coolmath.com,coolmath4kids.com#$#body,html { overflow: auto !important; position: initial !important; }
 vadhander.hogakusten.com,vadhander.kramfors.se#%#//scriptlet('ubo-set.js', 'settings.consent', 'true')
-lavanguardia.com#%#//scriptlet('ubo-set.js', 'Didomi', 'noopFunc')
+euromaster.de,lavanguardia.com#%#//scriptlet('ubo-set.js', 'Didomi', 'noopFunc')
 stewes.de#%#//scriptlet('ubo-set.js', 'HB.CookieSettings.init', 'noopFunc')
 gadgethacks.com#%#//scriptlet('ubo-set.js', 'WHT.ShowConsentForm', 'trueFunc')
 qastack.fr#%#//scriptlet('ubo-set.js', 'useGDPR', 'false')
@@ -16019,7 +16033,7 @@ analyticsindiamag.com,houseandleisure.co.za,lalaskinessentials.com,parametric-ar
 washingtontimes.com##.email-alerts
 thegatewaypundit.com##.email-list-subscribe
 americastestkitchen.com##.email-newsletter-form
-alexcityoutlook.com,crooksandliars.com,drewberquist.com,heartlandalliance.org,kentuckytoday.com,kulr8.com,lifezette.com,msmagazine.com,newsmirror.net,redvoicemedia.com,refinery29.com,trueachievements.com##.email-signup
+alexcityoutlook.com,crooksandliars.com,drewberquist.com,heartlandalliance.org,kentuckytoday.com,kulr8.com,lifezette.com,msmagazine.com,newsmirror.net,novaramedia.com,redvoicemedia.com,refinery29.com,trueachievements.com##.email-signup
 thenation.com##.email-signup-module
 rei.com##.email-signup__container
 staradvertiser.com##.emailbox
@@ -16654,6 +16668,8 @@ id.nl##div[class*="newsletter_content-side_"]
 iltalehti.fi##.newsletter-popup-elements
 metsalehti.fi##.subscribe-newsletter_wrapper
 moottori.fi#?#.item.sidebar.reader-comp.main-gray-bg:-abp-has(a[href="/tilaa-moottorin-uutiskirje/"])
+oneesports.id##.oes-hbs-dedicated-article
+oneesports.id##.oes-hbs-sticky-bar
 leggioggi.it,rollingstone.it###exitpopup-modal
 mentelocale.it##.RegNewsletterBox
 editorialedomani.it##.article-footer
@@ -17596,6 +17612,7 @@ novayagazeta.eu#%#//scriptlet('ubo-set-cookie.js', 'cookies-informer-close', 'tr
 kinopoisk.ru,yandex.ru#%#//scriptlet('ubo-set-cookie.js', 'gdpr', '0')
 stmas.bayern.de#%#//scriptlet('ubo-set-cookie.js', 'required', '1')
 go.netia.pl,polsatboxgo.pl#%#//scriptlet('ubo-set-cookie.js', 'rodo-reminder-displayed', '1')
+wst.tv#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent_given', 'true')
 go.netia.pl,polsatboxgo.pl#%#//scriptlet('ubo-set-cookie.js', 'rodo-modal-displayed', '1')
 ing.it#%#//scriptlet('ubo-set-cookie.js', 'ING_GPT', '0')
 ing.it#%#//scriptlet('ubo-set-cookie.js', 'ING_GPP', '0')
@@ -17801,6 +17818,7 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 wunderground.com#%#//scriptlet('ubo-set-local-storage-item.js', 'wu.ccpa-toast-viewed', 'true')
 makerz.me#%#//scriptlet('ubo-set-local-storage-item.js', 'makerz_allow_consentmgr', '0')
+atlas.workland.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie-consent', 'true')
 alfa.com.ec,rts.com.ec,tropicalida.com.ec#%#//scriptlet('ubo-set-local-storage-item.js', 'CookiesConsent', '1')
 beermerchants.com#%#//scriptlet('ubo-set-local-storage-item.js', 'amCookieBarFirstShow', '1')
 saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptedCookies', 'false')
@@ -18167,6 +18185,11 @@ multioferta.es#$#body,html { overflow: auto !important; position: initial !impor
 kosmas.cz###qtip-blanket
 kosmas.cz###modalDialog
 kosmas.cz#$#body,html { overflow: auto !important; position: initial !important; }
+craft-conf.com###headlessui-dialog-overlay-19
+craft-conf.com###headlessui-dialog-17
+craft-conf.com#$#body,html { height: auto !important; overflow: auto !important }
+116117.fi##.cookie-consent-blanket
+116117.fi#$#body,html { overflow: auto !important; position: initial !important; }
 testwise.com#$#html,body { overflow: auto !important; position: initial !important; }
 paysend.com##div[class^="styles__Overlay-"]
 paysend.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -18281,7 +18304,7 @@ turvakauppa.com#$#body { overflow: auto !important; position: initial !important
 teufel.de#$#body,html { overflow: auto !important; position: initial !important; }
 coolmath.com,coolmath4kids.com#$#body,html { overflow: auto !important; position: initial !important; }
 vadhander.hogakusten.com,vadhander.kramfors.se#%#//scriptlet('ubo-set.js', 'settings.consent', 'true')
-lavanguardia.com#%#//scriptlet('ubo-set.js', 'Didomi', 'noopFunc')
+euromaster.de,lavanguardia.com#%#//scriptlet('ubo-set.js', 'Didomi', 'noopFunc')
 stewes.de#%#//scriptlet('ubo-set.js', 'HB.CookieSettings.init', 'noopFunc')
 gadgethacks.com#%#//scriptlet('ubo-set.js', 'WHT.ShowConsentForm', 'trueFunc')
 qastack.fr#%#//scriptlet('ubo-set.js', 'useGDPR', 'false')
@@ -19673,6 +19696,7 @@ solopornoitaliani.xxx###first-visit
 105.net,meteo.it,r101.it,radiomontecarlo.net,unitedmusic.com,virginradio.it###iubenda-cs-banner
 programmitv.it###mag
 sportrentino.it###popcookiesbg
+faxiflora.it###privacydiv
 la7.it###puthere
 trova-aperto.it###sliding-popup
 tuttoandroid.net###ta-cc-modal
@@ -19889,8 +19913,10 @@ instal.si##body > .urejanjecenter
 instal.si##tr > .napisnanogi
 instal.si##tr > .urejanjecenter
 northgate.es###WindowLoad
+us.as.com###acceptationCMPWall
 arsys.es###arsysCookieAcceptance
 galeriametro.com###barra_mensaje_cookies
+contasimple.com###consentModeDialogContainer
 compra.fredolsen.es###cookie-policy-page
 spargrancanaria.es###cookie_blocker
 laboyanos.com###cookies-iki
@@ -20533,6 +20559,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||data.gov.hk/assets/shared/js/scripts/cookieAlert.js$~third-party
 @@||dayforcehcm.com/CandidatePortal/StaticViews/CandidatePortal/Cookie/$~third-party
 @@||ecookie.nl/build/$domain=playseatstore.com
+@@||euromaster.de/v/$script,~third-party
 @@||files.bbci.co.uk^*/cookie-banner/$script,domain=bbc.co.uk
 @@||fourseasons.com/alt/apps/fshr/shared/gdpr-banner.$~third-party
 @@||fourseasons.com/alt/fshr/shared/$~third-party

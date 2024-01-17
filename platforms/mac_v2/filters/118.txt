@@ -1,14 +1,14 @@
-! Checksum: hSw0teIaWiq9eopNRqNaxw
-! Diff-Path: ../patches/118/118-s-1705439215-14400.patch
+! Checksum: 9wGX+QBRE4h7s3ODslZpPw
+! Diff-Path: ../patches/118/118-s-1705453606-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.46
-! TimeUpdated: 2024-01-16T21:01:50+00:00
+! Version: 2.1.20.47
+! TimeUpdated: 2024-01-17T01:01:44+00:00
 ! Expires: 12 hours (update frequency)
 !
-! OriginalVersion: 202401162011
+! OriginalVersion: 202401170020
 ! Title: EasyPrivacy
-! Last modified: 16 Jan 2024 20:11 UTC
+! Last modified: 17 Jan 2024 00:20 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -2680,6 +2680,7 @@
 ://beacon.*/track
 ://blue.*/script.js
 ://client.rum.
+://cmpworker.
 ://collect.*/pageview
 ://collector.*/event
 ://elqtrk.
@@ -13143,8 +13144,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cm-mms.coachmag.co.uk^
 ||cm.nordvpn.com^
 ||cmp.vg.no^*/metrics/
-||cmpworker.dotesports.com^
-||cmpworker.primagames.com^
 ||cnt.hd21.com^
 ||cnt.iceporn.com^
 ||cnt.viptube.com^
