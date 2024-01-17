@@ -1,9 +1,9 @@
-! Checksum: FOgqculvGP4jVrNLPEsTSA
-! Diff-Path: ../patches/19/19-s-1705491359-3600.patch
+! Checksum: QskHUgn7kYxOS7Y/Yrw8Tw
+! Diff-Path: ../patches/19/19-s-1705494942-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.12
-! TimeUpdated: 2024-01-17T11:31:54+00:00
+! Version: 2.0.30.13
+! TimeUpdated: 2024-01-17T12:31:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3898,6 +3898,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+||ncars.com.ua/image/data/video/widget^$media
+ncars.com.ua##.lkdm_vw__container
 polandballwiki.com###siteNotice
 lethal.miraheze.org##.vector-sitenotice-container
 drishtiias.com##body > div#formcontainer
@@ -11311,6 +11313,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+huffingtonpost.es##.c-newsletter
 termoaktywnie.pl##.newsletter3__wrapper
 innotechtoday.com###elementor-popup-modal-150125
 scientificamerican.com##div[class^="newsletterSignup"]
