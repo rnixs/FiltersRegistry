@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: lU72voGqu71Coo2hXeVfRg
-! Diff-Path: ../patches/11/11-s-1705502194-3600.patch
+! Checksum: TIPmi6R7XrFztB9/Ur0Vug
+! Diff-Path: ../patches/11/11-s-1705509374-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.31
-! TimeUpdated: 2024-01-17T14:31:30+00:00
+! Version: 2.0.48.32
+! TimeUpdated: 2024-01-17T16:31:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2305,6 +2305,8 @@ chip.de,gamesworld.de,fnn.jp##.Ad
 !
 ! SECTION: Regular rules
 !
+minkou.jp##.mod-listReview-list__ad
+minkou.jp##.js-display-ad
 bellesa.co##div[class^="Column-sc"] > div[class^="MediaQuery__Query-sc"]:has(> div[class^="Structure-sc"] > div[class^="Display__RatioOuter"] > div[class^="Display__RatioInner-sc"]:empty)
 bellesa.co##div[class^="Structure-sc"] > div[class^="MediaQuery__Query-sc"]:has(div[class^="Display__RatioOuter-sc"] > div[class^="Display__RatioInner-sc"]:empty)
 oggi.it##.post > div[class^="wrapper-frame"]:has(> div[id^="rcsad_"])
