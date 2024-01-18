@@ -1,9 +1,9 @@
-! Checksum: 3rcDDVk9Uj3PBS7hLFEwFQ
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1705563343-3600.patch
+! Checksum: knEQgSAHEv14Q91K2OYdQg
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1705581409-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.87.94
-! TimeUpdated: 2024-01-18T07:32:07+00:00
+! Version: 2.0.87.95
+! TimeUpdated: 2024-01-18T12:32:55+00:00
 ! Expires: 5 days (update frequency)
 /resources/js/sticker.js?$third-party
 .xml?v=3.0&external_subid=
@@ -2297,6 +2297,8 @@ sinoptik.ua#$#head > style[id]:empty { background-image: none !important; }
 modsforwot.ru,rubitcoin24.ru,vargr.ru,electric-house.ru,trialkeys.ru#@#.AdSense
 modsforwot.ru,rubitcoin24.ru,vargr.ru,electric-house.ru,trialkeys.ru#@#iframe[width="728"][height="90"]
 modsforwot.ru,rubitcoin24.ru,vargr.ru,electric-house.ru,trialkeys.ru#@#img[width="728"][height="90"]
+@@||textovod.com/images/728x90.png
+@@||textovod.com/images/ads.png
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 torlook.in#@#div[id^="yandex_rtb"]
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -2390,7 +2392,6 @@ letyshops.com#@#.ad-button
 vascak.cz##img[style="position:fixed; left:0px; top:300px; width:100vw; height:90vh"]
 !+ PLATFORM(ios, ext_android_cb)
 @@||motorpage.ru/br/$domain=motorpage.ru
-@@||textovod.com/images/ads.png
 @@||online-fix.me/templates/FixLand/$script,image
 @@||videoroll.net/js/vid_vpaut_script.js$domain=online-fix.me
 @@||googleads.g.doubleclick.net^$xmlhttprequest,other,domain=channels247.net|iptv.team
