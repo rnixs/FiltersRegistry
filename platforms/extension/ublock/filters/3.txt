@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 1LJfiV9QxA4PgyZARoqR2Q
-! Diff-Path: ../patches/3/3-s-1705516593-3600.patch
+! Checksum: ia96N+YcXLxJC7DkJDBtLg
+! Diff-Path: ../patches/3/3-s-1705563382-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.65.82
-! TimeUpdated: 2024-01-17T18:32:54+00:00
+! Version: 2.0.65.83
+! TimeUpdated: 2024-01-18T07:32:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -194,8 +194,8 @@ itmedia.co.jp##+js(set-cookie, cX_G, 1)
 itmedia.co.jp#$##ulCommentWidget[style*="display"] { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142311
 ! Fixes comment section loading
-apkpure.com##+js(set-constant, $.analytics, {})
-apkpure.com##+js(set-constant, $.analytics.send, noopFunc)
+apkpure.*##+js(set-constant, $.analytics, {})
+apkpure.*##+js(set-constant, $.analytics.send, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141714
 member.neofinancial.com##+js(set-constant, __fpjs_p_l_b, {})
 member.neofinancial.com##+js(set-constant, __fpjs_p_l_b.load, noopFunc)
