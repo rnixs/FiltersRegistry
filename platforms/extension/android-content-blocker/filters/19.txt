@@ -1,9 +1,9 @@
-! Checksum: 1skHMd7y60PF+jQlCqBzpA
-! Diff-Path: ../patches/19/19-s-1705588549-3600.patch
+! Checksum: Pti2U3PMaQAfVdgJkHxW8g
+! Diff-Path: ../patches/19/19-s-1705595770-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.22
-! TimeUpdated: 2024-01-18T14:32:05+00:00
+! Version: 2.0.30.23
+! TimeUpdated: 2024-01-18T16:32:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11306,6 +11306,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+pearljam.com##div[class^="sms-signup-modal"]
+voennoedelo.com##.subscribeBtnsContainer
 coldplay.com##.sign-up-pop
 rb.ru##.article__content-block > div.info_after_article_block
 wlos.com##a[class*="socialWidget-module_newsLetter"]
