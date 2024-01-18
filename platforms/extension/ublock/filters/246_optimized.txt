@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: vzAaYOf5a63BgoNkwn4pIQ
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1705554386-14400.patch
+! Checksum: 3nQUfVycxQ1RTlojQknZmA
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1705568795-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.38.28
-! TimeUpdated: 2024-01-18T05:02:48+00:00
+! Version: 2.1.38.29
+! TimeUpdated: 2024-01-18T09:02:45+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -174,6 +174,7 @@ mandarinodesign.eu#@#.reklama
 ^partner^$domain=podajdalej.info.pl
 ^partnerzy^$domain=szkolasen.com|widzewtomy.net
 ^pasek_reklam^$domain=proszkow.eu
+^placeholder_wp^$domain=benchmark.pl
 ^polecamy^$domain=almanak.pl
 ^promo^$domain=minecraft-list.pl
 ^promocja-$domain=edebno.pl|motocykle125.pl|olawa24.pl
@@ -1603,7 +1604,6 @@ stoczniowcy.pl##.right
 gazetagazeta.com##.right > a > img
 kinomoc.com##.rkads
 radiopik.pl##.rma
-radiopik.pl##.rma a[href^="https://www.autodoc.pl"]
 realmadryt.pl##.rmpl-adsense-desktop
 tromil.pl##.rotator-ceneo
 bytomski.pl##.rotatorTop

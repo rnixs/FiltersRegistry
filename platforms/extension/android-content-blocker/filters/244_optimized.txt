@@ -1,9 +1,9 @@
-! Checksum: USTQoG0XwTpv9q2tmhrDtA
-! Diff-Path: ../patches/244_optimized/244_optimized-s-1705496794-14400.patch
+! Checksum: S8jOrgRnF2Pdgqu5Cs6m8g
+! Diff-Path: ../patches/244_optimized/244_optimized-s-1705568762-14400.patch
 ! Title: YousList (Optimized)
 ! Description: Filter that blocks ads on Korean sites.
-! Version: 2.0.10.34
-! TimeUpdated: 2024-01-17T13:02:53+00:00
+! Version: 2.0.10.35
+! TimeUpdated: 2024-01-18T09:02:44+00:00
 ! Expires: 5 days (update frequency)
 ##amp-ad
 ##amp-embed.ad_cnt
@@ -6414,10 +6414,10 @@ searchdatacenter.techtarget.com##div.ad-embedded
 searchdatacenter.techtarget.com##div.ad-wrapper
 searchdatacenter.techtarget.com##section.ads-by-google
 seasonvar.ru##div.pgs-player>div[align="center"]>div[style="height:275px"]
-sedaily.com##div#container>div[style="width: 1196px; height: 250px;\a                                             clear:both;\a                                             margin: 0 auto;\a                                             display: block;\a                                             margin-top: 40px;\a                                             margin-bottom: -70px;\a                                             border: 1px solid #ced2d7;"]
 sedaily.com##div.ad_main_banner
 sedaily.com##div.ad_wrap
 sedaily.com##div.main_wing_banner
+sedaily.com##div[class^="right_banner"]
 sedaily.com##div[class^="sub_ad_banner"]
 sedaily.com##span.sub_ad_banner4
 segye.com##div#sideBanner

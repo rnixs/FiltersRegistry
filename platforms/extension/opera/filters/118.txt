@@ -1,14 +1,14 @@
-! Checksum: d/s8yVGV3yXAOedu6Mt7pA
-! Diff-Path: ../patches/118/118-s-1705554374-14400.patch
+! Checksum: WBm9uPbQa4vNtCN18tZSXA
+! Diff-Path: ../patches/118/118-s-1705568781-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.54
-! TimeUpdated: 2024-01-18T05:01:45+00:00
+! Version: 2.1.20.55
+! TimeUpdated: 2024-01-18T09:01:42+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202401180444
+! OriginalVersion: 202401180845
 ! Title: EasyPrivacy
-! Last modified: 18 Jan 2024 04:44 UTC
+! Last modified: 18 Jan 2024 08:45 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -43359,6 +43359,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
+@@||letmegpt.com/js/gpt.js$~third-party
 @@||level.travel/tracker/tracker.js$script,~third-party
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
 @@||lightning.bleacherreport.com^*/launch-$~third-party

@@ -1,8 +1,8 @@
 !
-! Checksum: zjwaQAU6pgXf5f3YsOykxw
-! OriginalVersion: 202401180451
+! Checksum: x7hT5hXi7rX8PZXidHR1gw
+! OriginalVersion: 202401180850
 ! Title: EasyList Polish
-! Last modified: 18 Jan 2024 04:51 UTC
+! Last modified: 18 Jan 2024 08:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -197,6 +197,7 @@ mandarinodesign.eu#@#.reklama
 ^partner^$domain=podajdalej.info.pl
 ^partnerzy^$domain=szkolasen.com|widzewtomy.net
 ^pasek_reklam^$domain=proszkow.eu
+^placeholder_wp^$domain=benchmark.pl
 ^polecamy^$domain=almanak.pl
 ^promo^$domain=minecraft-list.pl
 ^promocja-$domain=edebno.pl|motocykle125.pl|olawa24.pl
@@ -1631,7 +1632,6 @@ stoczniowcy.pl##.right
 gazetagazeta.com##.right > a > img
 kinomoc.com##.rkads
 radiopik.pl##.rma
-radiopik.pl##.rma a[href^="https://www.autodoc.pl"]
 realmadryt.pl##.rmpl-adsense-desktop
 tromil.pl##.rotator-ceneo
 bytomski.pl##.rotatorTop

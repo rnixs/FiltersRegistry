@@ -1,15 +1,15 @@
-! Checksum: z+xgapPXSsENFZ52+A4RkA
-! Diff-Path: ../patches/246/246-s-1705554358-14400.patch
+! Checksum: 7+W7Il2+A1U+cgvSn/32mA
+! Diff-Path: ../patches/246/246-s-1705568762-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.38.28
-! TimeUpdated: 2024-01-18T05:02:48+00:00
+! Version: 2.1.38.29
+! TimeUpdated: 2024-01-18T09:02:45+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: zjwaQAU6pgXf5f3YsOykxw
-! OriginalVersion: 202401180451
+! Checksum: x7hT5hXi7rX8PZXidHR1gw
+! OriginalVersion: 202401180850
 ! Title: EasyList Polish
-! Last modified: 18 Jan 2024 04:51 UTC
+! Last modified: 18 Jan 2024 08:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -204,6 +204,7 @@ mandarinodesign.eu#@#.reklama
 ^partner^$domain=podajdalej.info.pl
 ^partnerzy^$domain=szkolasen.com|widzewtomy.net
 ^pasek_reklam^$domain=proszkow.eu
+^placeholder_wp^$domain=benchmark.pl
 ^polecamy^$domain=almanak.pl
 ^promo^$domain=minecraft-list.pl
 ^promocja-$domain=edebno.pl|motocykle125.pl|olawa24.pl
@@ -1638,7 +1639,6 @@ stoczniowcy.pl##.right
 gazetagazeta.com##.right > a > img
 kinomoc.com##.rkads
 radiopik.pl##.rma
-radiopik.pl##.rma a[href^="https://www.autodoc.pl"]
 realmadryt.pl##.rmpl-adsense-desktop
 tromil.pl##.rotator-ceneo
 bytomski.pl##.rotatorTop

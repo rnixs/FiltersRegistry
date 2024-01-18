@@ -1,9 +1,9 @@
-! Checksum: NmBUlLfISVWtBVG0O6MViA
-! Diff-Path: ../patches/214_optimized/214_optimized-s-1705554390-14400.patch
+! Checksum: N9qXg+KgkgA9n7D8/gbY1A
+! Diff-Path: ../patches/214_optimized/214_optimized-s-1705568799-14400.patch
 ! Title: ABPVN List (Optimized)
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.26.27
-! TimeUpdated: 2024-01-18T05:02:06+00:00
+! Version: 2.0.26.28
+! TimeUpdated: 2024-01-18T09:02:04+00:00
 ! Expires: 5 days (update frequency)
 .com/cpc/$script
 .com/qc/
@@ -29,7 +29,7 @@
 /disable-devtool.min.js$script
 /giadinhonline.vn/files/qc/
 /i.imgur.com/$domain=xemphimchill.xyz
-/i.imgur.com/*.gif$domain=keonhacai5.vip|phimlongtieng.net|phimdinhcao.com|phimdinhcao.net|tvzinghd.com|xoilac97.net|bongdainfoz.net|90phutt.tv|veboz.net|gocarrots.org|91p.plvb.xyz|motchillz.org|listnhacai1.com|xoilaczza.tv|xemtivingon.org|phimlongtieng.com
+/i.imgur.com/*.gif$domain=keonhacai5.vip|phimlongtieng.net|phimdinhcao.com|phimdinhcao.net|tvzinghd.com|xoilac98.tv|bongdainfoz.net|90phutt.tv|veboz.net|gocarrots.org|91p.plvb.xyz|motchillz.org|listnhacai1.com|xoilaczza.tv|xemtivingon.org|phimlongtieng.com
 /media.discordapp/$domain=phimno4.xyz|bongda21h.me
 /mmo/*$xmlhttprequest,image,domain=phimmoi2.com|vuighe2.com|mehoathinh3.com
 /newchill/*gif$image
@@ -131,8 +131,8 @@
 ||i.imgur.com/81uid6d.jpg
 ||i.imgur.com/FbUH5AQ.png
 ||i.imgur.com/Q0a2mv2.png
-||i.imgur.com^$image,domain=nhacdj.vn|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|animeweb.vip|hoathinhtq.tv|chillhaynet.click|hh3d.tv|xem.tructiepnba.com|vungtv.us
-||i.imgur.com^*.gif$image,domain=ghienphim11.net|247phim.cc|dailyphimz.com|mv.phimmoiaz.cc|phimgichill.net|ophimhdvn3.net|mythethao.net|xemtivi4k.com|animevietsub.io|tructiep.caheo18.tv|vtipster.net|huphimtv.com|xoilac14.org|film365.in|live2.90phut10.live|xemphimviet1.net|90phutt.tv|watch.ezyproxy.com|live2.thapcam2.net|phimmoiyyy.net|live.vebo4.net|xemtv.tvhayhd.com|phimbocn.com|motphimhan.cc|motphimz.cc|hoathinh4k.net
+||i.imgur.com^$image,domain=nhacdj.vn|diendanit.net|banbuondalat.com|khoedep.vn|animeweb.vip|hoathinhtq.tv|chillhaynet.click|hh3d.tv|xem.tructiepnba.com|vungtv.us
+||i.imgur.com^*.gif$image,domain=ghienphim11.net|dailyphimz.com|mv.phimmoiaz.cc|phimgichill.net|ophimhdvn3.net|mythethao.net|xemtivi4k.com|animevietsub.io|tructiep.caheo18.tv|vtipster.net|huphimtv.com|xoilac14.org|film365.in|live2.90phut10.live|xemphimviet1.net|watch.ezyproxy.com|live2.thapcam2.net|phimmoiyyy.net|live.vebo4.net|xemtv.tvhayhd.com|phimbocn.com|motphimhan.cc|motphimz.cc|hoathinh4k.net
 ||i.postimg.cc^*.gif$domain=motphimz.cc
 ||i.servimg.com/u/f22/$domain=4rkinggame.com
 ||i.upanh.org^*.gif$domain=xemhay24h.com
@@ -398,8 +398,8 @@
 90phutt.tv##.matches__item--footer
 90phutt.tv##.mt-1.d-lg-flex.d-none.sub-menu
 90phutt.tv##a.d-lg-none.d-block:nth-of-type(2)
-90phutt.tv,gocarrots.org,xoilac97.net,veboz.net###quangcaopc
-90phutt.tv,gocarrots.org,xoilac97.net,veboz.net,bongdainfoz.net,xoilaczza.tv,tvhayhd.com###wap_bottombanner
+90phutt.tv,gocarrots.org,xoilac98.tv,veboz.net###quangcaopc
+90phutt.tv,gocarrots.org,xoilac98.tv,veboz.net,bongdainfoz.net,xoilaczza.tv,tvhayhd.com###wap_bottombanner
 ahaphimz.com,phim.vkoolv.net,vphims.net##.catfish-ck
 anime47.com###qc_clgt
 animehay.city##div[style^="position: fixed; bottom: 0px;"]
@@ -566,8 +566,8 @@ gocarrots.org##.menu-item-object-custom
 gocarrots.org##a.rlw-extra-i.py-3.flex-grow-1
 gocarrots.org,live2.90phut10.live##.modal-backdrop.show
 gocarrots.org,veboz.net##.align-items-center.justify-content-between.d-flex.col-12>.d-lg-none.d-block
-gocarrots.org,xoilac97.net##.sub-menu.d-none.d-lg-flex
-gocarrots.org,xoilac97.net,90phutt.tv,veboz.net##.marquee-container
+gocarrots.org,xoilac98.tv##.sub-menu.d-none.d-lg-flex
+gocarrots.org,xoilac98.tv,90phutt.tv,veboz.net##.marquee-container
 gocphimc.net##.other-ads-container
 gocphimc.net##.show-load-ad
 gocphimvn.vip###mobileCatfishz
@@ -1077,27 +1077,27 @@ xoilac14.org##div.vebo-sp.container:nth-of-type(7)
 xoilac14.org,live.vebo4.net,live2.90phut10.live##.ibs-bet
 xoilac14.org,live2.90phut10.live,live.vebo4.net##div[class*="size-"]
 xoilac14.org,live2.90phut10.live,live2.thapcam2.net,live.vebo4.net###m-bet
-xoilac97.net##.banner-link
-xoilac97.net##.block-catfish.text-center.d-lg-none.d-block
-xoilac97.net##.container.mt-1
-xoilac97.net##.container>ul
-xoilac97.net##.logo-cnt>.d-lg-none.d-block
-xoilac97.net##.menu-cuoc-one88
-xoilac97.net##.mt-5.d-lg-none.d-block.pb-2.text-center
-xoilac97.net##.offer
-xoilac97.net##.pl-lg-0.col-xl-4
-xoilac97.net##.row.d-none
-xoilac97.net##.sk_balloon
-xoilac97.net##.widget-offers__list
-xoilac97.net##a.btn-odds[rel="nofollow"]
-xoilac97.net##div.d-lg-none.d-block:nth-of-type(3)
-xoilac97.net,90phutt.tv###match-child-1
-xoilac97.net,90phutt.tv,xoilaczza.tv##.match-detail__offer
-xoilac97.net,tructiepdabong5.co##.offer__btn
-xoilac97.net,veboz.net,gocarrots.org##div[id^="dnn_"]
-xoilac97.net,veboz.net,gocarrots.org,90phutt.tv##.company
-xoilac97.net,xoilaczza.tv##.menu-top-nha-cai
-xoilac97.net,xoilaczza.tv,90phutt.tv##.menu-cuoc-8xbet
+xoilac98.tv##.banner-link
+xoilac98.tv##.block-catfish.text-center.d-lg-none.d-block
+xoilac98.tv##.container.mt-1
+xoilac98.tv##.container>ul
+xoilac98.tv##.logo-cnt>.d-lg-none.d-block
+xoilac98.tv##.menu-cuoc-one88
+xoilac98.tv##.mt-5.d-lg-none.d-block.pb-2.text-center
+xoilac98.tv##.offer
+xoilac98.tv##.pl-lg-0.col-xl-4
+xoilac98.tv##.row.d-none
+xoilac98.tv##.sk_balloon
+xoilac98.tv##.widget-offers__list
+xoilac98.tv##a.btn-odds[rel="nofollow"]
+xoilac98.tv##div.d-lg-none.d-block:nth-of-type(3)
+xoilac98.tv,90phutt.tv###match-child-1
+xoilac98.tv,90phutt.tv,xoilaczza.tv##.match-detail__offer
+xoilac98.tv,tructiepdabong5.co##.offer__btn
+xoilac98.tv,veboz.net,gocarrots.org##div[id^="dnn_"]
+xoilac98.tv,veboz.net,gocarrots.org,90phutt.tv##.company
+xoilac98.tv,xoilaczza.tv##.menu-top-nha-cai
+xoilac98.tv,xoilaczza.tv,90phutt.tv##.menu-cuoc-8xbet
 xoilaczza.tv##.d-lg-flex.d-none.p-0.company.flex-1.table
 xoilaczza.tv##.grid-match__footer
 xoilaczza.tv##a.d-lg-none.d-block:nth-of-type(1)
@@ -1134,7 +1134,7 @@ znews.vn##.znews-banner
 @@||googletagservices.com/tag/js/gpt.js$domain=game24h.vn
 @@||i.imgur.com/MsrDtuT.png$domain=autoitvn.com
 @@||imasdk.googleapis.com^$script,xmlhttprequest,domain=vieon.vn|fptplay.vn|24h.com.vn|gamgame24h|sctvonline.vn|danet.vn
-@@||linkads.xyz^$domain=vungtv.us
+@@||linkads.xyz/aphim.org/ads2video/embed.html$subdocument,domain=vungtv.us|247phim.cc
 @@||luyenthithukhoa.vn/vietmxDetect/$~third-party
 @@||media.nghean24h.vn/thumb$image
 @@||media1.admicro.vn/cms/$script,domain=tuoitre.vn
@@ -1294,7 +1294,7 @@ rphang.co##.samVideoOverlay
 sex.phe.to###divExoLayerWrapper
 sex.phe.to##.sdzhead
 sexdacbiets.pro,phim.sexmup69.pro,sex.xemphimhay.pro##.quangcaomobile
-sexhay2024.com###tut4ktream_idAdLink
+sexhay2024.tv###tut4ktream_idAdLink
 sexsub.online##.v4j-watch-1.v4j-content
 sexsub.online##body>div[class]
 sexvietz.co,javhd.tech###f186fb23a33995d91ce3c2212189178c8
@@ -1367,7 +1367,7 @@ holyphim.com#%#//scriptlet("abort-current-inline-script", "window.addEventListen
 ios.codevn.net#%#//scriptlet("abort-current-inline-script", "setInterval", "offsetHeight")
 javnong.cc#%#//scriptlet("abort-on-property-read", "Math.round")
 khohieu.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "chpadblock")
-khomuc5.live,90phutt.tv,gocarrots.org,veboz.net,live2.thapcam2.net,blog.abit.vn,gavang1.link,xem1.gavang1.net#$#body {overflow: visible!important;}
+khomuc5.live,gocarrots.org,veboz.net,live2.thapcam2.net,blog.abit.vn,gavang1.link,xem1.gavang1.net#$#body {overflow: visible!important;}
 khomuc5.live,veboz.net,live2.thapcam2.net,blog.abit.vn##.modal-backdrop.show
 khomuc5.live,veboz.net,live2.thapcam2.net,blog.abit.vn##.show.fade
 linkneverdie.net#%#//scriptlet("abort-current-inline-script", "document.createElement", "optad")
@@ -1417,7 +1417,7 @@ xem1.gavang1.net##.css-d3rbv3
 xemphimhdc.cc#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "linksToOpen")
 xnxx-sex-videos.com#%#//scriptlet("abort-current-inline-script", "setTimeout", "window.location")
 xnxx-sex-videos.com#%#//scriptlet("remove-attr", "target|onclick", "a[href^='/video/']")
-xoilac97.net#%#//scriptlet("abort-on-property-read", "adsRedirectPopups")
+xoilac98.tv#%#//scriptlet("abort-on-property-read", "adsRedirectPopups")
 xoivo2.online#%#//scriptlet("set-constant", "adsPlayer", "")
 xoivo2.online#%#//scriptlet("set-constant", "adsTvcs", "")
 ytstv.me,yts.do,yts.mx,yts.rs#%#//scriptlet("abort-on-property-read", "atob")
