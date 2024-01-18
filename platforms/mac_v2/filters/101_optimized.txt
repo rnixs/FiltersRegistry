@@ -1,9 +1,9 @@
-! Checksum: CAjj26lZ76Q4+y+Wa5d5dw
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1705525609-14400.patch
+! Checksum: QToPBawoHYk29hqwwy10xw
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1705540001-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.19.21
-! TimeUpdated: 2024-01-17T21:01:24+00:00
+! Version: 2.1.19.22
+! TimeUpdated: 2024-01-18T01:01:26+00:00
 ! Expires: 12 hours (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -18379,6 +18379,7 @@ browsershots.org#@#.advert_area
 ||moviesprofit.com^
 ||mowdzgbusbqug.com^
 ||mowhamsterradiator.com^
+||moxuthoo.net^
 ||moynba.com^
 ||mozoo.com^
 ||mp3bars.com^
@@ -27937,6 +27938,7 @@ etherealgames.com###widgets-wrap-before-content
 rediff.com###world_right1
 rediff.com###world_top
 forward.com###wp_piano_top_wrapper
+todayheadline.co###wpgtr_stickyads_textcss_container
 yardbarker.com###yb_recirc
 croxyproxy.rocks###zapperSquare
 marketscreener.com###zppFooter
@@ -29114,6 +29116,7 @@ holiday-weather.com##.resp-leaderboard
 box-core.net,mma-core.com##.resp_ban
 jetphotos.com##.result--adv
 myminifactory.com##.result-adv
+metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
 inchcalculator.com##.results-ad-container-outer
 infobel.com##.results-bottom-banner-container
 curseforge.com##.rev-container
@@ -29640,6 +29643,7 @@ sythe.org##a[href^="https://discord.gg/dmwatch"]
 pluggedingolf.com##a[href^="https://edisonwedges.com/"]
 etherscan.io##a[href^="https://goto.etherscan.com/"] > img
 douploads.net##a[href^="https://href.li/?"]
+metager.org##a[href^="https://metager.org"][href*="/partner/r?"]
 metager.org##a[href^="https://r.search.yahoo.com/"]
 scrolller.com##a[href^="https://trk.scrolller.com/"]
 ancient-origins.net,anisearch.com,catholicculture.org,deadspin.com,electrek.co,jalopnik.com,jezebel.com,kotaku.com,lewrockwell.com,lifehacker.com,ssbcrack.com,thetakeout.com##a[href^="https://www.amazon."][href*="tag="]
@@ -29815,6 +29819,7 @@ dailydot.com,grammar-monster.com##footer
 law.com,topcultured.com##h3
 drive.com.au##hr
 coincodex.com,yourbittorrent.com##iframe[src]
+theflixertv.to##iframe[style*="width: 100%"]
 bollyflix.loan,downloadlagu321.site,dramacool.sr,uwatchfre.cam##iframe[style*="z-index: 2147483646"]
 123movies.net,4anime.gg,actvid.com,apkmody.io,batotoo.com,beetoon.net,bollyflix.loan,bravoporn.com,cineb.net,coloredmanga.com,downloadlagu321.site,dragontranslation.com,dramacool.sr,gogoanime.co.in,gogoanime.run,harimanga.com,hds-streaming-hd.com,himovies.to,hurawatch.cc,iflixmovies.lol,instamod.co,jujutsukaisenonline.net,leercapitulo.com,linksly.co,mangadna.com,mangageko.com,mangahere.today,manganatos.com,mangatigre.net,manhuafast.com,manhwadesu.ink,manhwalist.xyz,membed.net,messitv.net,miraculous.to,movies-watch.com.pk,moviesmod.pro,nkiri.com,prmovies.beauty,putlocker.vc,putlockers.fm,putlockers.li,sflix.se,sockshare.ac,ssoap2day.to,sukidesuost.info,tamilyogi.bike,uwatchfre.cam,waploaded.com,watchomovies.net,y-2mate.com,yomovies.team,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
 pixiv.net##iframe[width="300"][height="250"]

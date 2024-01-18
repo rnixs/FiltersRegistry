@@ -1,15 +1,15 @@
-! Checksum: XCD/3Iq32axcJcpNn84B4g
-! Diff-Path: ../patches/101/101-s-1705525603-14400.patch
+! Checksum: 5PxFadJ8W5vLfd8BhL6cVA
+! Diff-Path: ../patches/101/101-s-1705539996-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.19.21
-! TimeUpdated: 2024-01-17T21:01:24+00:00
+! Version: 2.1.19.22
+! TimeUpdated: 2024-01-18T01:01:26+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: O7YDi4oDbU35gQZ1LewiZQ
-! OriginalVersion: 202401172051
+! Checksum: pRWjjNGrhlu60VzadGxT+w
+! OriginalVersion: 202401180051
 ! Title: EasyList
-! Last modified: 17 Jan 2024 20:51 UTC
+! Last modified: 18 Jan 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -36657,6 +36657,7 @@ browsershots.org#@#.advert_area
 ||moviesring.com^
 ||mowdzgbusbqug.com^
 ||mowhamsterradiator.com^
+||moxuthoo.net^
 ||moycheiistill.com^
 ||moynba.com^
 ||mozamy.com^
@@ -60890,6 +60891,7 @@ rediff.com###world_right1
 rediff.com###world_top
 worldrecipes.eu###worldrecipeseu_970x90_desktop_sticky_no_closeplaceholder
 forward.com###wp_piano_top_wrapper
+todayheadline.co###wpgtr_stickyads_textcss_container
 eteknix.com###wrapper > header
 cranestodaymagazine.com,hoistmagazine.com,ttjonline.com,tunnelsonline.info###wrapper_banners
 xda-developers.com###xda_alert_bar
@@ -63360,6 +63362,7 @@ guru99.com##.responsive-guru99-mobile1
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result--ad > .result__body
 jetphotos.com##.result--adv
 myminifactory.com##.result-adv
+metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
 classifiedads.com##.resultmarg
 inchcalculator.com##.results-ad-container-outer
 infobel.com##.results-bottom-banner-container
@@ -64591,6 +64594,7 @@ forkast.news##a[href^="https://h5.whalefin.com/landing2/"]
 douploads.net##a[href^="https://href.li/?"]
 embed.listcorp.com##a[href^="https://j.moomoo.com/"]
 disasterscans.com##a[href^="https://martialscanssoulland.onelink.me/"]
+metager.org##a[href^="https://metager.org"][href*="/partner/r?"]
 dailyuploads.net##a[href^="https://ninjapcsoft.com/"]
 emalm.com##a[href^="https://offer.alibaba.com/"]
 101thefox.net,957thevibe.com##a[href^="https://parisicoffee.com/"]
@@ -64958,6 +64962,7 @@ avanigo.com##iframe.lazyloaded
 coincodex.com,yourbittorrent.com##iframe[src]
 realgearonline.com##iframe[src^="http://www.adpeepshosted.com/"]
 beyondtheflag.com,buffalowdown.com##iframe[src^="https://tallysight.com/widget/offers/"]
+theflixertv.to##iframe[style*="width: 100%"]
 bollyflix.loan,downloadlagu321.site,dramacool.sr,uwatchfre.cam##iframe[style*="z-index: 2147483646"]
 123movies.net,4anime.gg,actvid.com,apkmody.io,batotoo.com,beetoon.net,bollyflix.loan,bravoporn.com,cineb.net,coloredmanga.com,downloadlagu321.site,dragontranslation.com,dramacool.sr,gogoanime.co.in,gogoanime.run,harimanga.com,hds-streaming-hd.com,himovies.to,hurawatch.cc,iflixmovies.lol,instamod.co,jujutsukaisenonline.net,leercapitulo.com,linksly.co,mangadna.com,mangageko.com,mangahere.today,manganatos.com,mangatigre.net,manhuafast.com,manhwadesu.ink,manhwalist.xyz,membed.net,messitv.net,miraculous.to,movies-watch.com.pk,moviesmod.pro,nkiri.com,prmovies.beauty,putlocker.vc,putlockers.fm,putlockers.li,sflix.se,sockshare.ac,ssoap2day.to,sukidesuost.info,tamilyogi.bike,uwatchfre.cam,waploaded.com,watchomovies.net,y-2mate.com,yomovies.team,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
 dexdotexe.com##iframe[title="Top Games"]
