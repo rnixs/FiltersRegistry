@@ -1,0 +1,11 @@
+d2 2
+a3 2
+! Checksum: Pj7aBFUKIMMZRwEudJKoaw
+! Diff-Path: ../patches/11/11-s-1705566962-3600.patch
+d6 2
+a7 2
+! Version: 2.0.48.36
+! TimeUpdated: 2024-01-18T08:31:23+00:00
+a2307 2
+wlos.com##.displayAd
+wlos.com#$?#div[class^="GalleryHero-module_slideContainer"] > div[class^="GalleryHero-module_slide"]:has(div[class^="TeaserAd"]) { remove: true; }

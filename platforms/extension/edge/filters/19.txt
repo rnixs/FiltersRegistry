@@ -1,9 +1,9 @@
-! Checksum: 47tt1swgQLlZm555ejqvfg
-! Diff-Path: ../patches/19/19-s-1705563354-3600.patch
+! Checksum: 0o+aHPEwfK3vwxtgwzq+Lw
+! Diff-Path: ../patches/19/19-s-1705566944-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.17
-! TimeUpdated: 2024-01-18T07:31:56+00:00
+! Version: 2.0.30.18
+! TimeUpdated: 2024-01-18T08:31:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12142,6 +12142,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+wlos.com##a[class*="socialWidget-module_newsLetter"]
 ytechb.com##.wplogout-social-wrapper + div.gb-container
 humanwhocodes.com###content > div.grid-columns:has(> div.gutters > form[action="https://mailinglist.humanwhocodes.com/api/subscribe"])
 huffingtonpost.es##.c-newsletter
