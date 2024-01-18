@@ -1,7 +1,7 @@
 !
-! OriginalVersion: 202401181247
+! OriginalVersion: 202401181612
 ! Title: EasyPrivacy
-! Last modified: 18 Jan 2024 12:47 UTC
+! Last modified: 18 Jan 2024 16:12 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -42992,6 +42992,7 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ||avito.ru/stat/
 ||babyblog.ru/pixel?
 ||c.sibnet.ru^
+||clck.dzen.ru^
 ||consultant.ru/js/counter.js
 ||cosmo.ru/*/.js?i=*&r=
 ||counter.drom.ru^
@@ -43002,6 +43003,9 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ||cvt1.sibnet.ru^
 ||data.glamour.ru^
 ||drom.ru/dummy.
+||dzen.ru/api/*/stats/
+||dzen.ru/pingx
+||dzeninfra.ru/ping?
 ||fb.ru/stat/
 ||fontanka.ru/api/metrics/
 ||fotostrana.ru/start/
@@ -43020,11 +43024,13 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ||livelib.ru/service/traffic
 ||livelib.ru/service/visitlist/
 ||lmcdn.ru^*/statistics.js
+||log.dzen.ru^
 ||log.ren.tv^
 ||log.rutube.ru^
 ||mail.ru/count/
 ||metrika.kontur.ru^
 ||mirtesen.ru/js/ms.js
+||ms.dzen.ru^
 ||mts.ru/fe-api/logger
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/

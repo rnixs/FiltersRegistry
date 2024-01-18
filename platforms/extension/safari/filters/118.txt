@@ -1,14 +1,14 @@
-! Checksum: 7i396CRykMoJ0JfrxZMCNA
-! Diff-Path: ../patches/118/118-s-1705583265-14400.patch
+! Checksum: 5uVLY84zEE4IHtZwhqt71w
+! Diff-Path: ../patches/118/118-s-1705597611-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.56
-! TimeUpdated: 2024-01-18T13:02:03+00:00
+! Version: 2.1.20.57
+! TimeUpdated: 2024-01-18T17:01:59+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202401181247
+! OriginalVersion: 202401181612
 ! Title: EasyPrivacy
-! Last modified: 18 Jan 2024 12:47 UTC
+! Last modified: 18 Jan 2024 16:12 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -42995,6 +42995,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||avito.ru/stat/
 ||babyblog.ru/pixel?
 ||c.sibnet.ru^
+||clck.dzen.ru^
 ||consultant.ru/js/counter.js
 ||cosmo.ru/*/.js?i=*&r=
 ||counter.drom.ru^
@@ -43005,6 +43006,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cvt1.sibnet.ru^
 ||data.glamour.ru^
 ||drom.ru/dummy.
+||dzen.ru/api/*/stats/
+||dzen.ru/pingx
+||dzeninfra.ru/ping?
 ||fb.ru/stat/
 ||fontanka.ru/api/metrics/
 ||fotostrana.ru/start/
@@ -43023,11 +43027,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||livelib.ru/service/traffic
 ||livelib.ru/service/visitlist/
 ||lmcdn.ru^*/statistics.js
+||log.dzen.ru^
 ||log.ren.tv^
 ||log.rutube.ru^
 ||mail.ru/count/
 ||metrika.kontur.ru^
 ||mirtesen.ru/js/ms.js
+||ms.dzen.ru^
 ||mts.ru/fe-api/logger
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/

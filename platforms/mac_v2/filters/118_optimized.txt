@@ -1,9 +1,9 @@
-! Checksum: mpT4NGdOHDPIYN9hshsLSQ
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1705583299-14400.patch
+! Checksum: xOyDEof+kTC+ecGK98bvhA
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1705597633-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.56
-! TimeUpdated: 2024-01-18T13:02:03+00:00
+! Version: 2.1.20.57
+! TimeUpdated: 2024-01-18T17:01:59+00:00
 ! Expires: 12 hours (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -20503,6 +20503,7 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ||auto.ru/-/ajax/$~xmlhttprequest
 ||avito.ru/stat/
 ||c.sibnet.ru^
+||clck.dzen.ru^
 ||consultant.ru/js/counter.js
 ||counter.drom.ru^
 ||counter.sibnet.ru^
@@ -20511,6 +20512,9 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ||cs42.pikabu.ru^
 ||cvt1.sibnet.ru^
 ||drom.ru/dummy.
+||dzen.ru/api/*/stats/
+||dzen.ru/pingx
+||dzeninfra.ru/ping?
 ||fontanka.ru/api/metrics/
 ||goya.rutube.ru^
 ||hh.ru/analytics^
@@ -20521,9 +20525,11 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ||livelib.ru/service/spv
 ||livelib.ru/service/traffic
 ||livelib.ru/service/visitlist/
+||log.dzen.ru^
 ||log.rutube.ru^
 ||mail.ru/count/
 ||metrika.kontur.ru^
+||ms.dzen.ru^
 ||mts.ru/fe-api/logger
 ||odnoklassniki.ru/dk?cmd=videoStatNew
 ||ok.ru/dk?cmd=videoStatNew
