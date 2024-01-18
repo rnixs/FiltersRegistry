@@ -1,7 +1,7 @@
 !
-! OriginalVersion: 202401180845
+! OriginalVersion: 202401181247
 ! Title: EasyPrivacy
-! Last modified: 18 Jan 2024 08:45 UTC
+! Last modified: 18 Jan 2024 12:47 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -910,6 +910,7 @@
 /fp/top_fp.
 /fp2.compressed.js
 /fp2.min.js$domain=~spweb.auction.co.kr|~spweb.gmarket.co.kr
+/fp3.min.js
 /fp_204?
 /fpc/cookie_js.php
 /fpcookie?
@@ -9874,6 +9875,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dynamicyield.com/var?
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-merchant.com/^*/edr.js$third-party
+||e.channelexco.com^
 ||e.ebidtech.com/cv/
 ||e.htplayground.com^
 ||e.metarouter.io^
@@ -10850,7 +10852,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reverbnation.com/widgets/trk/
 ||rfksrv.com/rfk/$third-party
 ||rfksrv.com/rfkj/$image
-||ria.ru/counter?
 ||richrelevance.com/rrserver/tracking?
 ||rltd.io/tags/
 ||roadster.com/roadster_dealer_analytics
@@ -42979,6 +42980,7 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ||4pda.ru/stat/
 ||a.mts.ru^
 ||a.pikabu.ru^
+||a.ria.ru^
 ||ad.mail.ru/static/sync-loader.js
 ||ad7.bigmir.net^
 ||adme.media/metric-collector
@@ -43042,7 +43044,6 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ||rbc.ru/count/
 ||rbc.ru/redir/stat/
 ||rbc.ru/rightarror.gif
-||ria.ru/ping?
 ||rt.ru/proxy?
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
