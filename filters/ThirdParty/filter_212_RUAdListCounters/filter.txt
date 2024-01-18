@@ -1,8 +1,8 @@
 !
-! Checksum: aKf8nvwuKKsTpsXxBTmOfQ
-! OriginalVersion: 202401181651
+! Checksum: mhyhQZE36Y/e9RCdC0qLDg
+! OriginalVersion: 202401182051
 ! Title: RU AdList: Counters
-! Last modified: 18 Jan 2024 16:51 UTC
+! Last modified: 18 Jan 2024 20:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1357,6 +1357,8 @@ $removeparam=_openstat
 $removeparam=admitad_uid
 $removeparam=advert,domain=ozon.ru
 $removeparam=afclid
+$removeparam=amp;utm_medium
+$removeparam=amp;utm_source
 $removeparam=asb,domain=ozon.ru
 $removeparam=asb2,domain=ozon.ru
 $removeparam=at_campaign,domain=bbc.com
