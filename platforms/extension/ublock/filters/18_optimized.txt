@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: gST653mNr59qEEyr9tFiZg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1705592181-3600.patch
+! Checksum: CQS5mT+cnUIc9NEQkFl25g
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1705602986-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.60
-! TimeUpdated: 2024-01-18T15:31:56+00:00
+! Version: 2.0.31.61
+! TimeUpdated: 2024-01-18T18:31:58+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -5526,7 +5526,7 @@ my.avira.com##.bottom-page-notification[ng-show="cookiePolicyCtrl.isNotification
 old-games.ru##.bottomFixer > div.Notices
 ria.com##.c-notifier-container
 samsung.com##.cm-cookie-geo > .cm-cookie-geo__msg
-cuic.eu,dateks.lv,gezondheidsplein.nl,cetin.cz,dagsavisen.no,softorino.com,aatreeshop.de,speicherguide.de,fotav.hu,dayz.xam.nu,figyelo.hu,ibs-b.hu##.consent
+mathmammoth.com,cuic.eu,dateks.lv,gezondheidsplein.nl,cetin.cz,dagsavisen.no,softorino.com,aatreeshop.de,speicherguide.de,fotav.hu,dayz.xam.nu,figyelo.hu,ibs-b.hu##.consent
 bijuteri.net,kriterdergi.com,natro.com###readed_contract_row
 rijksmuseum.nl##.cookie-bar-mask
 troisdorf.de,pirmasens.de,speyer.de,skoda.com.tr##.cookie-consent-dialogue
