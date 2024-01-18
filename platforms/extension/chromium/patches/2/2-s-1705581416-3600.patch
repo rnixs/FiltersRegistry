@@ -1,0 +1,17 @@
+d1 2
+a2 2
+! Checksum: 765spk8vjqKwbvgeMV620g
+! Diff-Path: ../patches/2/2-s-1705584946-3600.patch
+d5 2
+a6 2
+! Version: 2.3.18.44
+! TimeUpdated: 2024-01-18T13:32:43+00:00
+a9871 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/170482
+d9874 2
+a9875 1
+luscious.net#%#//scriptlet('set-constant', 'Object.prototype.adblock_detected', 'false')
+d32789 1
+d121021 1
+a122755 1
+metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])

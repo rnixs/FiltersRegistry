@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Ng6M+koryA/VNAqfVDWz1w
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705581448-3600.patch
+! Checksum: HWsOaMmn7nOhBKWvy63+5Q
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705584973-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.18.43
-! TimeUpdated: 2024-01-18T12:33:29+00:00
+! Version: 2.3.18.44
+! TimeUpdated: 2024-01-18T13:32:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9751,10 +9751,10 @@ onejailbreak.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 @@||sarapbabe.com/nativeads-v2.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122207
 streamadblockplus.xyz#@#.skyscraper.ad
+! https://github.com/AdguardTeam/AdguardFilters/issues/170482
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125892
 ! https://github.com/uBlockOrigin/uAssets/issues/13760
-@@||luscious.net/sailthru.js
-@@||wpadmngr.com/static/adManager.js$xmlhttprequest,domain=luscious.net
+luscious.net##+js(set-constant, Object.prototype.adblock_detected, false)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122087
 photopea.com##+js(no-fetch-if, /pagead2\.googlesyndication\.com|cmp\.uniconsent\.com/)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122044
@@ -32696,7 +32696,6 @@ wlos.com##div[class^="NewAd"]
 ||999hentai.net/aaifrm
 999hentai.net##.ads-wraper
 groovypost.com##div[class^="raptive-content"]
-anysex.com##.headA
 ||res.cloudinary.com/*/Ads*/preroll_candy$media,redirect=noop-0.1s.mp3
 incestgames.net##body #bitcoin-banner
 e-chords.com##.adsGoogleDef

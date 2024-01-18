@@ -1,9 +1,9 @@
-! Checksum: FVUX9iU9MCMtshH+YzZD0A
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705581412-3600.patch
+! Checksum: zPqiJ+gggwkRtRCvtGBElw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705584943-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.43
-! TimeUpdated: 2024-01-18T12:33:29+00:00
+! Version: 2.3.18.44
+! TimeUpdated: 2024-01-18T13:32:43+00:00
 ! Expires: 5 days (update frequency)
 ||xhfvljklvq.com^
 ||moxuthoo.net^
@@ -2277,8 +2277,6 @@ jav68.net#@#.ads-header
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onejailbreak.com
 streamadblockplus.xyz#@#.skyscraper.ad
-@@||luscious.net/sailthru.js
-@@||wpadmngr.com/static/adManager.js$xmlhttprequest,domain=luscious.net
 !+ PLATFORM(ios, ext_android_cb)
 luscious.net###modal-root
 minorpatch.com#@#.AdBox
@@ -7513,7 +7511,6 @@ wlos.com##div[class^="NewAd"]
 ||999hentai.net/aaifrm
 999hentai.net##.ads-wraper
 groovypost.com##div[class^="raptive-content"]
-anysex.com##.headA
 incestgames.net##body #bitcoin-banner
 e-chords.com##.adsGoogleDef
 fusevideo.io##html > body > a:not(#style_important)
