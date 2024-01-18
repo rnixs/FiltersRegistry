@@ -1,14 +1,14 @@
-! Checksum: xEywjU6hDrcW+OSngE5d0A
-! Diff-Path: ../patches/118/118-s-1705539978-14400.patch
+! Checksum: d/s8yVGV3yXAOedu6Mt7pA
+! Diff-Path: ../patches/118/118-s-1705554374-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.53
-! TimeUpdated: 2024-01-18T01:01:46+00:00
+! Version: 2.1.20.54
+! TimeUpdated: 2024-01-18T05:01:45+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202401180030
+! OriginalVersion: 202401180444
 ! Title: EasyPrivacy
-! Last modified: 18 Jan 2024 00:30 UTC
+! Last modified: 18 Jan 2024 04:44 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -1501,6 +1501,7 @@
 /njs.gif?
 /nlogger.js
 /nLoggerJB_
+/nlRUM.js
 /nm/itracking?
 /NNAnalyticsWPSites.js
 /no-impression.gif?
@@ -14218,6 +14219,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||upi.com/story/stat/
 ||uprinting.com/muffins/UPTracker-
 ||ups.com/img/icp.gif
+||upwork.com/upi/jslogger
 ||urs.metacritic.com^
 ||user-metrics.onthemarket.com^
 ||usmetric.rediff.com^
