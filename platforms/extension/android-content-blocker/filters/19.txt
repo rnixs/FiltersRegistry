@@ -1,9 +1,9 @@
-! Checksum: HQgdpfpDrr0iRbIuvD3Z7A
-! Diff-Path: ../patches/19/19-s-1705584941-3600.patch
+! Checksum: 1skHMd7y60PF+jQlCqBzpA
+! Diff-Path: ../patches/19/19-s-1705588549-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.21
-! TimeUpdated: 2024-01-18T13:31:58+00:00
+! Version: 2.0.30.22
+! TimeUpdated: 2024-01-18T14:32:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2848,7 +2848,6 @@ wvgazettemail.com,ceogelisim.com#@#.adSense
 @@||coop-land.ru/templates/*/js/adfox/admixer.js
 @@||cowcotland.com/themes/v2/style/blogads.css
 @@||creatur.io/Content/js/ads/ad_status.js
-@@||ctrlv.cz/js/seo-ads.js
 @@||cts.snmmd.nl/lib/js/advertising.js
 @@||cx30-forum.de/js/CW/adsbygoogle.js
 @@||cx30-forum.de^$generichide
@@ -3898,6 +3897,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+famille-kazokusou.com##div[class^="bnr_ft_"]
 upgradedhome.com#$#.lbHtmlFix body { overflow: auto !important; }
 upgradedhome.com#$##cms-popup { display: none !important; }
 ||ncars.com.ua/image/data/video/widget^$media
