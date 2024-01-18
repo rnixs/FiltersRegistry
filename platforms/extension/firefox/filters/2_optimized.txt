@@ -1,9 +1,9 @@
-! Checksum: kVDGz4YYbzWjsDYOZkRceA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705545358-3600.patch
+! Checksum: HaN8Y6a9rIzz5hBDHS0+Gg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705552543-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.35
-! TimeUpdated: 2024-01-18T02:32:33+00:00
+! Version: 2.3.18.36
+! TimeUpdated: 2024-01-18T04:32:34+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -22424,6 +22424,7 @@ browsershots.org#@#.advert_area
 ||checkfilter.biz^
 ||checkm8.com^
 ||checkup02.biz^
+||checkupforecast.com^
 ||cheddaramusias.life^
 ||cheepurs.xyz^
 ||cheerful-resolution.com^
@@ -29312,6 +29313,7 @@ browsershots.org#@#.advert_area
 ||linkonclick.com^$popup
 ||llvlzvrwkoaqm.top^$popup
 ||lvaazvwmmvwev.top^$popup
+||ma3ion.com^$popup
 ||mcurrentlysea.info^$popup
 ||media-412.com^$popup
 ||meenetiy.com^$popup
@@ -32317,6 +32319,7 @@ sxyprn.com##.cbd
 porntry.com##.center-spot
 fakings.com##.centrado
 thefappeningblog.com##.cl-exl
+teenanal.co##.clickable-overlay
 sunporno.com##.close-invid
 fap-nation.com,fyptt.to,gamegill.com,japaneseasmr.com##.code-block
 tube8.com,tube8.es,tube8.fr##.col-3-lg.col-4-md.col-4
