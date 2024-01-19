@@ -1,9 +1,9 @@
-! Checksum: 4Aa9u5h3Z63PQfufjNP+BA
-! Diff-Path: ../patches/19/19-s-1705657009-3600.patch
+! Checksum: /Rf2/aU/CZlgPR6ARmm8fg
+! Diff-Path: ../patches/19/19-s-1705660591-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.26
-! TimeUpdated: 2024-01-19T09:32:10+00:00
+! Version: 2.0.30.27
+! TimeUpdated: 2024-01-19T10:31:54+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12131,6 +12131,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+mychemicalromance.com###block-turnkeytoasterhtmlstructure
 motor.elpais.com##.bloque-newsletter
 fallinginreverse.com#%#//scriptlet('trusted-set-cookie', 'newsletter-newsletter-popup', 'opened')
 estadao.com.br#?#.content-wrapper > div[title]:has(> div.box > div.form > div.title-newsletter)
