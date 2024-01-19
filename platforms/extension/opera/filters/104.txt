@@ -1,9 +1,9 @@
-! Checksum: /7xttojhovz5UCNz+PMFjw
-! Diff-Path: ../patches/104/104-s-1705626394-14400.patch
+! Checksum: jKHXiBbEEJWF2Od4ntjz3Q
+! Diff-Path: ../patches/104/104-s-1705640778-14400.patch
 ! Title: EasyList China
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.33.97
-! TimeUpdated: 2024-01-19T01:01:32+00:00
+! Version: 2.1.33.98
+! TimeUpdated: 2024-01-19T05:01:33+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: EasyList China
@@ -3152,6 +3152,8 @@ newduba.cn###jq_youxi
 ||1821z.website^
 ||sukneyu.com^
 ||l7ghj.xyz^
+||xwlnhw.com^
+||stbwhln.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -19108,6 +19110,7 @@ wnacg.com##script + div > a > img
 ||hdsrc-a.akamaihd.net^
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
 eastday.com#@##leftShare
+weibo.com#@#.retweet
 189.cn#@##linkShare
 gfan.com,gfan.net.cn#@##shareBox
 189.cn,zdzdm.com#@##share_list

@@ -1,9 +1,9 @@
-! Checksum: y/5eHUe988H97lhFPcwhBQ
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1705611967-14400.patch
+! Checksum: 0iDDYEK68K1UT42v8sqHkA
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1705640760-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.47
-! TimeUpdated: 2024-01-18T21:01:51+00:00
+! Version: 2.0.18.48
+! TimeUpdated: 2024-01-19T05:01:48+00:00
 ! Expires: 5 days (update frequency)
 .id^*/ads_$domain=~cartalog.id
 .id^*/adv-$domain=~adv.kompas.id
@@ -3161,8 +3161,8 @@ jawapos.com##img[width="1200"][height="149"]
 wowbabel.com#$#script + .container { padding-top: 160px!important; }
 @@||iklanjitu.jawapos.com/app/media/$image,domain=iklanjitu.jawapos.com
 @@||iklanjitu.jawapos.com/media/$image,domain=iklanjitu.jawapos.com
-bolasiar.info,bolasiar.ink###floatcenter
-bolasiar.info,bolasiar.ink###floating_banner_top
+bolasiar.info,bolasiar.ink,bolasiar.wiki###floatcenter
+bolasiar.info,bolasiar.ink,bolasiar.wiki###floating_banner_top
 okestream.cfd##.bottom-player-banner
 okestream.cfd##.header-banner
 okestream.cfd##.player-button-ad
