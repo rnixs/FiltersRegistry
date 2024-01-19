@@ -1,9 +1,9 @@
-! Checksum: U0U6Eb9aJCkdRA/2xH/mVQ
-! Diff-Path: ../patches/20/20-s-1705588583-3600.patch
+! Checksum: bH7otEbHgDxnFM2HThuJYQ
+! Diff-Path: ../patches/20/20-s-1705667809-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.91
-! TimeUpdated: 2024-01-18T14:32:17+00:00
+! Version: 2.0.11.92
+! TimeUpdated: 2024-01-19T12:32:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3101,6 +3101,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! Limit it to mobile versions only
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 !
+xfollow.com##div[class^="index-module__iosPrompt"]
 soulgen.net##.fixed.bottom-0
 mobalytics.gg##main > div > div:has(> a[href^="https://mobalytics.gg/lol/glp/download-welcome"])
 halotracker.com##.app-promo-section

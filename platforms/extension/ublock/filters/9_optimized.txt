@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: yKRunqM+5hY2EbmEuZlrtg
-! Diff-Path: ../patches/9_optimized/9_optimized-s-1705656996-3600.patch
+! Checksum: VhmwTJ05SBHTchXT0hphcw
+! Diff-Path: ../patches/9_optimized/9_optimized-s-1705667805-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.22.92
-! TimeUpdated: 2024-01-19T09:33:34+00:00
+! Version: 2.0.22.93
+! TimeUpdated: 2024-01-19T12:33:38+00:00
 ! Expires: 5 days (update frequency)
 ||nobeta.com.br^$third-party
 ||bcgame.top^$popup
@@ -333,8 +333,9 @@ netmentor.es#$#.modal-open .modal { display: none !important; }
 netmentor.es#$#.op-body { overflow: auto !important; }
 futbolfantasy.com#@#.adsBanner
 nptmedia.tv##+js(no-fetch-if, /pagead2\.googlesyndication\.com|ads-api\.twitter\.com/)
-netcine3.la##+js(abort-on-stack-trace, alert, eval)
-netcine3.la##+js(abort-on-stack-trace, history.go, eval)
+netcine.*,netcine3.la##+js(abort-on-stack-trace, alert, eval)
+netcine.*,netcine3.la##+js(abort-on-stack-trace, history.go, eval)
+@@$third-party,xmlhttprequest,domain=netcine.*|netcine3.la
 antoniomote.com#$#[id].adsbox.doubleclick.ad-placement { display: block !important; }
 oliberal.com##+js(abort-current-script, $, blockWall)
 aiyumangascanlation.com#@#.ad-placement
