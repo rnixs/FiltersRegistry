@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Gvhj8pwNS9qP/TXMkiOF6w
-! Diff-Path: ../patches/18/18-s-1705653365-3600.patch
+! Checksum: 6rIy/e8bI7gKR0w67Vm4HQ
+! Diff-Path: ../patches/18/18-s-1705656991-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.67
-! TimeUpdated: 2024-01-19T08:31:51+00:00
+! Version: 2.0.31.68
+! TimeUpdated: 2024-01-19T09:32:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2324,6 +2324,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+||cp.motor.elpais.com/chunks/chunk-renderFunnel.*.js
 my.club#?##app > div:has(> svg.icon-cookie)
 windy.com###plugin-consent
 ||blu-ray-rezensionen.net/wp-content/78ee7dd5514ca0d426c01d72b86fe214.js
@@ -14073,6 +14074,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171063
+@@||bryanadams.com/wp-content/plugins/wp-gdpr-compliance/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170983
 ssk.de#@##cookiebanner
 ssk.de#@#.cookiebanner:not(body)

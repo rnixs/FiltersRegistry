@@ -1,9 +1,9 @@
-! Checksum: kthErhLf+5sOlQJ6w04yrg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705653341-3600.patch
+! Checksum: OYbFDV3mXHNhQCjd9H49gA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705656961-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.54
-! TimeUpdated: 2024-01-19T08:32:38+00:00
+! Version: 2.3.18.55
+! TimeUpdated: 2024-01-19T09:32:55+00:00
 ! Expires: 5 days (update frequency)
 ||snipersex.com^
 ||auhpaewvbgwjr.com^
@@ -1151,7 +1151,7 @@ delicious-audio.com#$#body { overflow: auto !important; }
 @@||static.adsafeprotected.com/skeleton.gif?*adunitid=
 @@||static.adsafeprotected.com/skeleton.gif?*bannnerid=
 ||bbpic.ru/js/plears.js
-@@||ytlarge.com/youtube/ad/cmbdv2.js
+@@||ytlarge.com/youtube/$domain=ytlarge.com
 ||osuskinner.com/check|$xmlhttprequest
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=sportea.online
@@ -1204,9 +1204,6 @@ autoscout24.*##s24-ad-slot
 @@||succeedscene.com/pagead/pubads_impl.js$domain=themarysue.com
 datasciencelearner.com#$#html { overflow: auto !important; padding-right: 0 !important; }
 datasciencelearner.com#$#.site-access-popup { display: none !important; }
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||s.nitropay.com/2.gif?$domain=alltechnerd.com
-||ytlarge.com/youtube/css/*.js
 @@||ams.cdn.arkadiumhosted.com/advertisement/video/stable/video-ads.js$domain=play.dictionary.com
 play.dictionary.com#@#display-ad-component
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -5439,6 +5436,7 @@ liputan6.com##div[data-info="ad"]
 talenta.co#$#html { overflow: auto !important; }
 suara.com##div[id^="div-ad-"]
 kusonime.com##.iklanads
+laksa19.github.io##iframe[src="googleads"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=laksa19.github.io
 @@||static.doubleclick.net/instream/ad_status.js$domain=laksa19.github.io
 bioskopkeren.*#$##film { display: block !important; }
@@ -7518,6 +7516,9 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||olalivehdplay.ru/blast.js
 ||livehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
+tipranks.com##div[id^="IC_"].hideOnpremium
+tipranks.com##.mobile_displaynone > div[style="height:120px"]:empty
+tipranks.com##div[class*="display"] > div[style="height:250px"]:empty
 porngameshub.com##body #under_game
 porngameshub.com##body .advert
 porngameshub.com##body .native-banner
@@ -7564,6 +7565,7 @@ duckduckgo.com##li[class][data-layout="creditcards"] div[data-testid="creditcard
 ign.com##.userList-leaderboard-adunit
 incestgames.net##.post-9999999
 fap-nation.com##.gunk-future
+18adultgames.com##body div[class^="code-block code-block-"][style^="margin: 8px auto"]
 18adultgames.com###block-107
 18adultgames.com###block-110
 18adultgames.com###block-113

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: MoIdZVhhVMcyEjwp8QXZXg
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705653367-3600.patch
+! Checksum: HaHo/0gqIf5uDCdw+8tY8g
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705656994-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.18.54
-! TimeUpdated: 2024-01-19T08:32:38+00:00
+! Version: 2.3.18.55
+! TimeUpdated: 2024-01-19T09:32:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7264,7 +7264,7 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170946
 ||bbpic.ru/js/plears.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170717
-@@||ytlarge.com/youtube/ad/cmbdv2.js
+@@||ytlarge.com/youtube/$domain=ytlarge.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170718
 ultimate-guitar.com##+js(set-constant, UGAPP.bidding.prebidLoadError, false)
 ultimate-guitar.com##+js(set-constant, Object.prototype.setNeedShowAdblockWarning, noopFunc)
@@ -7361,9 +7361,6 @@ datasciencelearner.com#$#.site-access-popup { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168907
 alltechnerd.com##+js(set-constant, nitroAds.abp, true)
 ||s.nitropay.com/2.gif?$image,redirect-rule=1x1.gif,domain=alltechnerd.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/170717
-||ytlarge.com/youtube/css/*.js
-! zona11.com - adblock
 ||zona11.com/public/js/dublocker.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168735
 thesportster.com##+js(remove-node-text, script, numberlessring.com)
@@ -19572,8 +19569,10 @@ id.ytmp3.plus###ba
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75487
 ||bitball.b-cdn.net/video/*.mp4$media,redirect=noop-1s.mp4,domain=185.145.131.204
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77871
-laksa19.github.io##+js(no-setInterval-if, chkAds)
-laksa19.github.io##+js(no-setTimeout-if, chkAds)
+laksa19.github.io##+js(no-setInterval-if, /chkAds|ads\.|!document\.querySelector/)
+laksa19.github.io##+js(no-setTimeout-if, /chkAds|ads\.|!document\.querySelector/)
+laksa19.github.io##+js(no-xhr-if, doubleclick.net)
+laksa19.github.io##iframe[src="googleads"]
 laksa19.github.io#$#.adsbygoogle { height: 1px !important; }
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=laksa19.github.io
 @@||static.doubleclick.net/instream/ad_status.js$domain=laksa19.github.io
@@ -32697,6 +32696,9 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+tipranks.com##div[id^="IC_"].hideOnpremium
+tipranks.com##.mobile_displaynone > div[style="height:120px"]:empty
+tipranks.com##div[class*="display"] > div[style="height:250px"]:empty
 porngameshub.com##body #under_game
 porngameshub.com##body .advert
 porngameshub.com##body .native-banner
@@ -32759,6 +32761,7 @@ duckduckgo.com##li[class][data-layout="creditcards"] div[data-testid="creditcard
 ign.com##.userList-leaderboard-adunit
 incestgames.net##.post-9999999
 fap-nation.com##.gunk-future
+18adultgames.com##body div[class^="code-block code-block-"][style^="margin: 8px auto"]
 18adultgames.com###block-107
 18adultgames.com###block-110
 18adultgames.com###block-113
