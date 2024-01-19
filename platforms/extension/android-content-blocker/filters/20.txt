@@ -1,9 +1,9 @@
-! Checksum: q59jinuRbjjsWrFmbScqag
-! Diff-Path: ../patches/20/20-s-1705667771-3600.patch
+! Checksum: Ku4kt6xhNnxWiQ0o4CNeWQ
+! Diff-Path: ../patches/20/20-s-1705671432-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.11.92
-! TimeUpdated: 2024-01-19T12:32:26+00:00
+! Version: 2.0.11.93
+! TimeUpdated: 2024-01-19T13:33:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -111,6 +111,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! TODO: Delete the following rule when https://github.com/AdguardTeam/ExtendedCss/issues/172 is resolved.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 !
+halotracker.com##.app-promo-section
 tracker.gg##.profile-hint
 huffingtonpost.es##.banner-app__container
 rutube.ru##.app-download-default-banner-module__appDownloadPopupButtonWrap
@@ -1937,7 +1938,7 @@ m.jx.la##dd[style][class]
 m.sportmaster.ru##div[esm-banners="promoplate"]
 m.sportmaster.ru#$#div[esm-banners="mobile_fullpage"] { display: none!important; }
 leonardohobby.ru##.appdownload-panel
-ozon.by,ozon.ru##a[data-widget="webToAppBanner"]
+ozon.by,ozon.ru##[data-widget="webToAppBanner"]
 isbank.com.tr##div[id^="App_Market_"]
 gamer.com.tw##.goAPP
 firstcry.com##section[appdownload]

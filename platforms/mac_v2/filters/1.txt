@@ -1,9 +1,9 @@
-! Checksum: L5hqn5n9c3DUA8R79ApnUw
-! Diff-Path: ../patches/1/1-s-1705617369-3600.patch
+! Checksum: ePyxVjW+HOHyvy5BETOUMw
+! Diff-Path: ../patches/1/1-s-1705671476-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.87.98
-! TimeUpdated: 2024-01-18T22:32:05+00:00
+! Version: 2.0.87.99
+! TimeUpdated: 2024-01-19T13:33:22+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9633,6 +9633,9 @@ gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru,innov.ru,k1new
 !
 !
 !
+root-nation.com#?#.wpb_wrapper > div.vc_row_inner:has(> div.vc_column_inner > div.vc_column-inner > div.wpb_wrapper > div.td-a-rec > center > div[id^="rn-"])
+root-nation.com#?#.tdc_zone > div[id^="tdi_"]:has(> div.vc_row > div.vc_column > div.wpb_wrapper > div.td-a-rec > center > div[id^="rn-"])
+root-nation.com###tdi_54
 auto.ru##div[class^="AdWithFixedHeight"]
 voennoedelo.com##div[style="margin: 20px auto; height: 300px; width: 910px;"]
 voennoedelo.com##.mainVideoWrapper
