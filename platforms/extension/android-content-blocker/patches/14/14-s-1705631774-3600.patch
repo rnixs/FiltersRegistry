@@ -1,0 +1,18 @@
+d1 2
+a2 2
+! Checksum: t9UFrNw6HOlZvI0OMm45gA
+! Diff-Path: ../patches/14/14-s-1705649736-3600.patch
+d5 2
+a6 2
+! Version: 2.1.85.12
+! TimeUpdated: 2024-01-19T07:31:41+00:00
+a15722 1
+@@||consent-api.service.consent.usercentrics.eu/consent/uw/$domain=wetter.com
+d19642 1
+d19657 1
+a19969 5
+! https://github.com/AdguardTeam/AdguardFilters/issues/170367
+!#safari_cb_affinity(general,privacy)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=photopea.com
+@@||cmp.uniconsent.com^$domain=photopea.com
+!#safari_cb_affinity
