@@ -1,9 +1,9 @@
-! Checksum: SdHr2b++4A7LcFs3pDjseQ
-! Diff-Path: ../patches/6/6-s-1705689587-3600.patch
+! Checksum: X1N4QndWHBGQmXhFYuUT5g
+! Diff-Path: ../patches/6/6-s-1705700152-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.5
-! TimeUpdated: 2024-01-19T18:36:40+00:00
+! Version: 2.0.40.6
+! TimeUpdated: 2024-01-19T21:33:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10567,6 +10567,7 @@ giga.de##div[data-sdg-ad]
 t-online.de##div[data-testid="TaboolaFeeds.Feed"]
 berliner-kurier.de,evangelische-zeitung.de##div[data-testid="article-billboard-advertisement"]
 sport1.de##div[data-testid="better-collective"]
+sat1.de##div[data-testid="display-ad"]
 suchen.mobile.de##div[data-testid^="SRP_SBANNER_"]
 suchen.mobile.de##div[data-testid^="SRP_TABLECELL_"]
 sportbild.bild.de##div[data-tr-doc-type="dt=InlineAd|st=BTOAdTag"]

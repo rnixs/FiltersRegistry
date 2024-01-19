@@ -434,8 +434,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/firefox/filters/6.txt",
 			"trustLevel": "full",
-			"version": "2.0.40.5",
-			"timeUpdated": "2024-01-19T18:36:40+0000",
+			"version": "2.0.40.6",
+			"timeUpdated": "2024-01-19T21:33:10+0000",
 			"languages": [
 				"de"
 			],
