@@ -1,9 +1,9 @@
-! Checksum: Ev/Ty+lm5OL3T8E0g3V23g
-! Diff-Path: ../patches/19/19-s-1705685790-3600.patch
+! Checksum: IKehzY6DThbeXD2tTgG7pg
+! Diff-Path: ../patches/19/19-s-1705696565-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.31
-! TimeUpdated: 2024-01-19T17:32:00+00:00
+! Version: 2.0.30.32
+! TimeUpdated: 2024-01-19T20:31:57+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4188,6 +4188,8 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+ulefone.com###middle_banner
+ulefone.com###div_mask
 hd.kinopoisk.ru#$?#body > div.ReactModalPortal:has(> div.ReactModal__Overlay > div.ReactModal__Content > div[data-tid="FullscreenNotification"] > div > div[class^="styles_buttonContainer"] > button:contains(Не сейчас)) { display: none !important; }
 hd.kinopoisk.ru#$#body { overflow: auto !important; }
 famille-kazokusou.com##div[class^="bnr_ft_"]

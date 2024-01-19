@@ -1,9 +1,9 @@
-! Checksum: qlZcMsjB9oVcBsu7CvHebA
-! Diff-Path: ../patches/18/18-s-1705689565-3600.patch
+! Checksum: NTGVK1Ao/fwYE2f7OLNaOA
+! Diff-Path: ../patches/18/18-s-1705696537-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.76
-! TimeUpdated: 2024-01-19T18:35:26+00:00
+! Version: 2.0.31.77
+! TimeUpdated: 2024-01-19T20:31:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2319,6 +2319,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+ulefone.com##.footermsg
 heromic.se###CookieAcceptForm
 ||assets.yoursurprise.com/build/AnalyticsService.
 foodingredientsfirst.com###CookiePolicy_div
