@@ -1,9 +1,9 @@
-! Checksum: 5SC4hQu85/rjSBEf1XyxUA
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1705655172-14400.patch
+! Checksum: VHJnQQXtA2eLDFphSsDzJA
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1705669594-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.19.30
-! TimeUpdated: 2024-01-19T09:01:28+00:00
+! Version: 2.1.19.31
+! TimeUpdated: 2024-01-19T13:01:32+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -25825,6 +25825,7 @@ browsershots.org#@#.advert_area
 ||godpvqnszo.com^$popup
 ||goosebomb.com^$popup
 ||gotrackier.com^$popup
+||grapseex.com^$popup
 ||grauglak.com^$popup
 ||greatbonushere.top^$popup
 ||greatdexchange.com^$popup
@@ -27466,6 +27467,7 @@ sciencealert.com###Purch_D_R_0_1
 edn.com###SideBarWrap
 daringfireball.net###SidebarMartini
 imcdb.org###SiteLifeSupport
+puzzle-aquarium.com,puzzle-minesweeper.com,puzzle-nonograms.com,puzzle-skyscrapers.com###Skyscraper
 roblox.com###Skyscraper-Abp-Right
 road.cc###Top-Billboard
 turbobit.net###__bgd_link
@@ -27576,6 +27578,7 @@ comicbookrealm.com###brad
 dailydot.com###browsi-topunit
 techpp.com###brxe-wtwlmm
 icon-icons.com###bsa-placeholder-search
+puzzle-aquarium.com,puzzle-minesweeper.com,puzzle-nonograms.com,puzzle-skyscrapers.com###btIn
 w3newspapers.com###btmadd
 battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca###bumper-cars
 channel4.com###c4ad-Top
@@ -27925,6 +27928,7 @@ hellomagazine.com##.-variation-megabanner
 yelp.com##.ABP
 buzzfeed.com,imgur.io,sevendaysvt.com,tasty.co,tucsonweekly.com##.Ad
 deseret.com##.Ad-space
+topgear.com##.AdContainer-sc-cy9ye3-4
 petfinder.com##.AdUnitParagraph-module--adunitContainer--2b7a6
 therealdeal.com##.AdUnit_adUnitCenter__FKOWE
 complex.com##.AdWrapper__AdPlaceholderContainer-sc-15idjh1-0
@@ -27982,6 +27986,7 @@ streetsblog.org##.Sponsorship_articleBannerWrapper__wV_1S
 coin360.com##.Sticky_Promo
 slant.co##.SummaryPage-LustreEmbed
 imgur.com##.Top300x600
+topgear.com##.TopContainer-sc-cy9ye3-1
 tumblr.com##.XJ7bf
 tumblr.com##.Yc2Sp
 desmoinesregister.com##.ZJBvMP__ZJBvMP
