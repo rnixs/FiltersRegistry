@@ -1,11 +1,25 @@
 ![Adblock Plus 2.0]
-! Checksum: HxnNEs2Q8Jdm6v1lP8BWoA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705617360-3600.patch
+! Checksum: BTWiboMhlMKi4ZThAt4xyQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705628167-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.50
-! TimeUpdated: 2024-01-18T22:32:39+00:00
+! Version: 2.3.18.51
+! TimeUpdated: 2024-01-19T01:32:45+00:00
 ! Expires: 5 days (update frequency)
+||auhpaewvbgwjr.com^
+||wokaptoa.com^
+||lambedbarbal.website^
+||jghjhtz.com^
+||ctrtrk.com^
+||mztqgmr.com^
+||ntlysearchingf.info^
+||etingplansfor.org^
+||uqpvrqplyqm.com^
+||wnwkzzzheca.com^
+||aysdsvtd.com^
+||sjmbwxnqz.com^
+||kxkqqycs.xyz^
+||psumainy.xyz^
 ||xhfvljklvq.com^
 ||moxuthoo.net^
 ||detergentkindlyrandom.com^
@@ -451,6 +465,7 @@
 !+ NOT_PLATFORM(windows, mac, android)
 ||amgload.net^$third-party,badfilter
 ||adconsent.samsungrs.com^
+||dic9vgwbkxd8r.cloudfront.net^
 ||fentent.stre4mplay.one^
 ||d2s31asn9gp5vl.cloudfront.net^
 ||sponsor.imacdn.com^
