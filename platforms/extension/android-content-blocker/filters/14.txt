@@ -1,9 +1,9 @@
-! Checksum: LsDx5XZawlEdY4I+HuC5rA
-! Diff-Path: ../patches/14/14-s-1705674957-3600.patch
+! Checksum: bOFfskEqLGUC7XH+glCo4w
+! Diff-Path: ../patches/14/14-s-1705678576-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.85.18
-! TimeUpdated: 2024-01-19T14:31:49+00:00
+! Version: 2.1.85.19
+! TimeUpdated: 2024-01-19T15:32:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2319,6 +2319,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+||assets.yoursurprise.com/build/AnalyticsService.
 foodingredientsfirst.com###CookiePolicy_div
 nytimes.com###fides-overlay
 ||cp.motor.elpais.com/chunks/chunk-renderFunnel.*.js
@@ -33508,7 +33509,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! TODO: Delete the following rule when https://github.com/AdguardTeam/ExtendedCss/issues/172 is resolved.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 !
-halotracker.com##.app-promo-section
+cod.tracker.gg,halotracker.com##.app-promo-section
 tracker.gg##.profile-hint
 huffingtonpost.es##.banner-app__container
 rutube.ru##.app-download-default-banner-module__appDownloadPopupButtonWrap
