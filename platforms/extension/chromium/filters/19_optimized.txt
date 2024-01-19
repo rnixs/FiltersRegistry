@@ -1,9 +1,9 @@
-! Checksum: BLJlgLmj8CZR48S6P0mWPg
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1705682166-3600.patch
+! Checksum: BikL5z7PALxJvu5My0koQg
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1705685754-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.30
-! TimeUpdated: 2024-01-19T16:32:00+00:00
+! Version: 2.0.30.31
+! TimeUpdated: 2024-01-19T17:32:00+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1557,6 +1557,8 @@ aol.com#@#.adwrap
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+hd.kinopoisk.ru#$?#body > div.ReactModalPortal:has(> div.ReactModal__Overlay > div.ReactModal__Content > div[data-tid="FullscreenNotification"] > div > div[class^="styles_buttonContainer"] > button:contains(Не сейчас)) { display: none !important; }
+hd.kinopoisk.ru#$#body { overflow: auto !important; }
 famille-kazokusou.com##div[class^="bnr_ft_"]
 briefmenow.org#%#//scriptlet('set-cookie-reload', 'disallowPrepawayBanner', '1')
 briefmenow.org#%#//scriptlet('set-cookie-reload', 'isPopupClosed', '1')

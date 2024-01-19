@@ -1,9 +1,9 @@
-! Checksum: lIyKZj2iDMEN1qJaesXbGQ
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1705682162-3600.patch
+! Checksum: 6aIk4ypn9NJQOFWtsFTYtw
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1705685750-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.30
-! TimeUpdated: 2024-01-19T16:32:00+00:00
+! Version: 2.0.30.31
+! TimeUpdated: 2024-01-19T17:32:00+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -1380,6 +1380,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+hd.kinopoisk.ru#$#body { overflow: auto !important; }
 famille-kazokusou.com##div[class^="bnr_ft_"]
 upgradedhome.com#$#.lbHtmlFix body { overflow: auto !important; }
 upgradedhome.com#$##cms-popup { display: none !important; }

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: dtQydtCu51NtJZaFhndhmQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1705682191-3600.patch
+! Checksum: 7bpRyYsCwq9LlDYBfQ0Ing
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1705685775-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.85.20
-! TimeUpdated: 2024-01-19T16:31:46+00:00
+! Version: 2.1.85.21
+! TimeUpdated: 2024-01-19T17:31:47+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -9716,6 +9716,8 @@ aol.com#@#.adwrap
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+hd.kinopoisk.ru#$?#body > div.ReactModalPortal:has(> div.ReactModal__Overlay > div.ReactModal__Content > div[data-tid="FullscreenNotification"] > div > div[class^="styles_buttonContainer"] > button:contains(Не сейчас)) { display: none !important; }
+hd.kinopoisk.ru#$#body { overflow: auto !important; }
 famille-kazokusou.com##div[class^="bnr_ft_"]
 patch.com##+js(set-cookie, patch_top_tooltip_next_door_dismissed, true)
 patch.com##+js(set-cookie, patch_email_mobile_modal_dismissed, true)
