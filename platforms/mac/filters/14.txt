@@ -1,9 +1,9 @@
-! Checksum: kvs44pxbjD9tsPCnoLf7Pg
-! Diff-Path: ../patches/14/14-s-1705678621-3600.patch
+! Checksum: 56B+R1gzRj9lFLqphxchhw
+! Diff-Path: ../patches/14/14-s-1705682202-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.85.19
-! TimeUpdated: 2024-01-19T15:32:00+00:00
+! Version: 2.1.85.20
+! TimeUpdated: 2024-01-19T16:31:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2344,7 +2344,7 @@ ilsecoloxix.it,huffingtonpost.it,lastampa.it,leanplayer.com,player.899thewave.fm
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 ! #%#//scriptlet('trusted-click-element', 'button.sp_choice_type_11')
-consent-manager.ft.com,cmp.chip.de,cmpv2.pcworld.com,baseendpoint.brigitte.de,thepopverse.com,cmpv2.netdoktor.ch,cmp.videogameschronicle.com,cmp.svd.se,cmpsp.gamesindustry.biz,cmp.omni.se,lbc.co.uk,eurogamer.pl,cmpsp.computerhoy.com,cmp.dpgmedia.be,consent.yorkshirepost.co.uk,stuttgarter-nachrichten.de,consent.formula1.com,sp-spiegel-de.spiegel.de,sourcepoint.kotaku.com,sourcepoint.tvnow.de,privacy.menshealth.de,baseendpoint.urbia.de,cmp.utopia.de,baseendpoint.vip.de,cdn.privacy-mgmt.com,cmp-sp.lvz.de,cmp2.macwelt.de,cmp2.pcwelt.de,cmp.travelbook.de,cmp.petbook.de,consent.gamingbible.com#%#//scriptlet('trusted-click-element', 'button.sp_choice_type_11')
+gentside.com,consent-manager.ft.com,cmp.chip.de,cmpv2.pcworld.com,baseendpoint.brigitte.de,thepopverse.com,cmpv2.netdoktor.ch,cmp.videogameschronicle.com,cmp.svd.se,cmpsp.gamesindustry.biz,cmp.omni.se,lbc.co.uk,eurogamer.pl,cmpsp.computerhoy.com,cmp.dpgmedia.be,consent.yorkshirepost.co.uk,stuttgarter-nachrichten.de,consent.formula1.com,sp-spiegel-de.spiegel.de,sourcepoint.kotaku.com,sourcepoint.tvnow.de,privacy.menshealth.de,baseendpoint.urbia.de,cmp.utopia.de,baseendpoint.vip.de,cdn.privacy-mgmt.com,cmp-sp.lvz.de,cmp2.macwelt.de,cmp2.pcwelt.de,cmp.travelbook.de,cmp.petbook.de,consent.gamingbible.com#%#//scriptlet('trusted-click-element', 'button.sp_choice_type_11')
 ! #%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-focusable-el)') (netID)
 cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-focusable-el)')
 !
@@ -14193,7 +14193,6 @@ schullv.de#%#//scriptlet('set-local-storage-item', 'cookiesAccepted', 'true')
 rupprecht.de#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("prudsysSession")){var a=new MutationObserver(function(){var b=document.querySelector(".consent-banner-confirmation-buttons button.btn-default");b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 stooq.pl,stooq.com#%#AG_onLoad(function(){try{if(!document.cookie.includes("AAAA")){var b=new MutationObserver(function(){var a=document.querySelector(".fc-consent-root button.fc-cta-consent");a&&(b.disconnect(),a.click())});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},1E4)}}catch(a){}});
 frisco.pl#%#(function(){document.cookie.includes("cookies-consents")||(document.cookie='cookies-consents={"ad_storage":false,"analytics_storage":false}')})();
-gentside.com#%#AG_onLoad(function(){if(window.self!==window.top&&document.referrer.startsWith("https://www.gentside.com/")){var a=new MutationObserver(function(){var b=document.querySelector('button[title="Accepter"]');b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 withings.com#%#//scriptlet('set-cookie', 'withings_cookieconsent_dismissed', '1')
 withings.com#%#//scriptlet('set-cookie', 'cookieconsent_statistics', 'false')
 withings.com#%#//scriptlet('set-cookie', 'cookieconsent_advertising', 'false')
@@ -14947,6 +14946,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170996
+@@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=maxisciences.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171063
 @@||bryanadams.com/wp-content/plugins/wp-gdpr-compliance/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170983
@@ -30451,6 +30452,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+liga.net##strong:has(a[href^="https://bit.ly/"])
 trafalgar.com##.astra-advanced-hook-859139
 foodingredientsfirst.com###leftnewslettersubsblock
 foodingredientsfirst.com##.subscribe-txt
@@ -30738,7 +30740,6 @@ electrek.co##.article__youtube-video
 thelensnola.org,thecity.nyc,asiatimes.com##.newspack-popup__content-wrapper
 interestingengineering.com##div[class*="_googleNews"]
 lbcgroup.tv#?#.allow-fixed > div.row > div.floatL:has( .MainControlDiv > div.row > div.d-flex > div.btn-normal > a[href^="/subscribe/"])
-liga.net##.tg-block
 travelvoice.jp##.mailmagazine-button
 aljazeera.com##.sib-newsletter-form
 elle.com##.seo-tags-container
@@ -32826,7 +32827,6 @@ thepage.ua##div.bg-grey-darkest.py-3
 thepage.ua##.newsletter-full-width
 4sysops.com###footer-sidebar-2
 ||jmd.co.jp/libs/php/bv.php?no=211|
-liga.net###s-banner
 ||ryobitools.eu^*/NewsletterPopup-$script
 la-croix.com##div[id^="showAutoPromo"]
 rubryka.com##div[style="padding: 0 0 30px"]
@@ -35689,7 +35689,6 @@ formulatv.com##.share_email
 erco.com###newsletter-bottom-bar
 autocarindia.com,laleggepertutti.it##.news-letter
 singaporemotherhood.com##.sgm_subscription_wrapper
-liga.net###subscribe-right
 vitiana.com##.bizjournal
 suhorukov.com###block-simplenews-0
 suhorukov.com##a[title="Подписаться на рассылку"]

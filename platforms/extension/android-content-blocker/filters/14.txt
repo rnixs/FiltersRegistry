@@ -1,9 +1,9 @@
-! Checksum: bOFfskEqLGUC7XH+glCo4w
-! Diff-Path: ../patches/14/14-s-1705678576-3600.patch
+! Checksum: 9mDYxL/4YVJL9AUAcbuWUw
+! Diff-Path: ../patches/14/14-s-1705682160-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.85.19
-! TimeUpdated: 2024-01-19T15:32:00+00:00
+! Version: 2.1.85.20
+! TimeUpdated: 2024-01-19T16:31:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13046,6 +13046,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170996
+@@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=maxisciences.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171063
 @@||bryanadams.com/wp-content/plugins/wp-gdpr-compliance/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170983
@@ -28147,7 +28149,6 @@ news.un.org##.block-content-footer > div.block__content
 electrek.co##.article__youtube-video
 thelensnola.org,thecity.nyc,asiatimes.com##.newspack-popup__content-wrapper
 interestingengineering.com##div[class*="_googleNews"]
-liga.net##.tg-block
 travelvoice.jp##.mailmagazine-button
 aljazeera.com##.sib-newsletter-form
 elle.com##.seo-tags-container
@@ -29862,7 +29863,6 @@ thepage.ua##div.bg-grey-darkest.py-3
 thepage.ua##.newsletter-full-width
 4sysops.com###footer-sidebar-2
 ||jmd.co.jp/libs/php/bv.php?no=211|
-liga.net###s-banner
 ||ryobitools.eu^*/NewsletterPopup-$script
 la-croix.com##div[id^="showAutoPromo"]
 rubryka.com##div[style="padding: 0 0 30px"]
@@ -32324,7 +32324,6 @@ formulatv.com##.share_email
 erco.com###newsletter-bottom-bar
 autocarindia.com,laleggepertutti.it##.news-letter
 singaporemotherhood.com##.sgm_subscription_wrapper
-liga.net###subscribe-right
 vitiana.com##.bizjournal
 suhorukov.com###block-simplenews-0
 suhorukov.com##a[title="Подписаться на рассылку"]

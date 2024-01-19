@@ -1,9 +1,9 @@
-! Checksum: uUcgN0o8VtxyXGm4si6yFg
-! Diff-Path: ../patches/16/16-s-1705678577-3600.patch
+! Checksum: Kq4HLCPSrNhqY1pV7KxsIA
+! Diff-Path: ../patches/16/16-s-1705682161-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.42.90
-! TimeUpdated: 2024-01-19T15:32:08+00:00
+! Version: 2.0.42.91
+! TimeUpdated: 2024-01-19T16:31:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -655,6 +655,7 @@ prod-player.tf1.fr,tf1.fr,tf1info.fr#@#.carbon-ads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135942
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135943
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125733
+! https://github.com/AdguardTeam/AdguardFilters/issues/170996
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159695
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119411
 ! allocine.fr - fixing delay in the video player
