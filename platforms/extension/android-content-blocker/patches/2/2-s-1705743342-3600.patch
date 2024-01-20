@@ -1,0 +1,16 @@
+d1 2
+a2 2
+! Checksum: ne8Uh6mJJC27tOHn1jX2iA
+! Diff-Path: ../patches/2/2-s-1705750565-3600.patch
+d5 2
+a6 2
+! Version: 2.3.18.70
+! TimeUpdated: 2024-01-20T11:33:09+00:00
+a6922 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/171120
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=forja.me
+a11578 1
+@@/gettoken.php?$xmlhttprequest,domain=dropgalaxy.com
+a11595 1
+dropgalaxy.com#@#div[id^="div-gpt-ad"]
