@@ -1,9 +1,9 @@
-! Checksum: BhNQTdqXF6NIenGw8mB46w
-! Diff-Path: ../patches/104/104-s-1705684105-14400.patch
+! Checksum: nmlkffyx+nLGue5L60A3ZQ
+! Diff-Path: ../patches/104/104-s-1705712811-14400.patch
 ! Title: EasyList China
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.34.1
-! TimeUpdated: 2024-01-19T17:01:39+00:00
+! Version: 2.1.34.2
+! TimeUpdated: 2024-01-20T01:01:38+00:00
 ! Expires: 12 hours (update frequency)
 !
 ! Title: EasyList China
@@ -1625,6 +1625,9 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.alert_windows > .q-card__actions > a
+###alert_windows > .q-dialog__backdrop
+##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
@@ -3159,6 +3162,14 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||pupsjr.xyz^
+||ktauoy.xyz^
+||82zcb.icu^
+||awcdst.icu^
+||foysswr.cn^
+||npnpxoz.xyz^
+||yohnoirs.com^
+||so1nv.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 !
