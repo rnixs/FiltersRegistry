@@ -1,9 +1,9 @@
-! Checksum: htFhvfwaa9gbqeahZATz9A
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705754141-3600.patch
+! Checksum: imCUERxD1UtixEeu6E4C5Q
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705757733-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.71
-! TimeUpdated: 2024-01-20T12:32:43+00:00
+! Version: 2.3.18.72
+! TimeUpdated: 2024-01-20T13:32:38+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -32072,7 +32072,7 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||yimg.jp/images/news-web/all/images/jsonld_image_300x250.png$domain=news.yahoo.co.jp
 @@||accounts.google.com^$popup
 @@||ad.doubleclick.net/clk*&destinationURL=$popup
-@@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be
+@@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|creditcard.com.au|finder.com|finder.com.au|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/clk/*http$popup
 @@||ad.doubleclick.net/ddm/trackclk/*http$popup
 @@||ads.elevateplatform.co.uk^$popup

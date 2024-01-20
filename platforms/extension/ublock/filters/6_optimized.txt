@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: M4OL2W1H5FNswFSPO9+dsg
-! Diff-Path: ../patches/6_optimized/6_optimized-s-1705718172-3600.patch
+! Checksum: k44wgsxCY7TRFadlOi2ZQQ
+! Diff-Path: ../patches/6_optimized/6_optimized-s-1705757758-3600.patch
 ! Title: AdGuard German filter (Optimized)
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.6
-! TimeUpdated: 2024-01-19T21:33:10+00:00
+! Version: 2.0.40.7
+! TimeUpdated: 2024-01-20T13:33:02+00:00
 ! Expires: 5 days (update frequency)
 ||lehrer-finden.de^
 ||lokalwerben.t-online.de^
@@ -3372,6 +3372,8 @@ forum.worldofplayers.de##.amazon-search
 fairytail-tube.org,naruto-tube.org,onepiece-tube.com##.amz
 bauernzeitung.ch##.anriss-item-advert
 musiker-board.de,recording.de##.anz
+quoka.de##.anz-grey-content
+quoka.de##.anz-grey-title
 musiker-board.de##.anzC
 112-magazin.de,drwindows.de,filmpost.de,gesetzlichekrankenkassen.de,helles-koepfchen.de,lehrerfreund.de,medizin-netz.de,ntg24.de,oekotest.de,oktoberfestportal.de,pharmazeutische-zeitung.de,radsport-news.com,sportal.de,stuttgarter-zeitung.de,touristik-aktuell.de,tweakpc.de,vhs-ol.de##.anzeige
 ntg24.de##.anzeige + .slider
