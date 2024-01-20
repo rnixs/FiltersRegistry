@@ -1,9 +1,9 @@
-! Checksum: wTfm+VGcwi6U/vQztVSktw
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1705712790-14400.patch
+! Checksum: pROLYsv+R+/5kuZbfa/EdQ
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1705727236-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.27.63
-! TimeUpdated: 2024-01-20T01:02:52+00:00
+! Version: 2.1.27.64
+! TimeUpdated: 2024-01-20T05:03:34+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -20299,6 +20299,7 @@ insurancebusinessmag.com##.notification_strip
 amateur.tv##.notificationbar
 epaderm.com,molnlycke.ca##.notifications
 myscript.com##.notifications-outer
+mindbodyonline.com##.notifications-wrapper
 bimbim.com##.notifier-message
 livesirina.com##.notifier-wrapper
 filmstreaming-de.life##.notifier_dmca_js
@@ -21622,6 +21623,7 @@ physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehir
 m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice', 'true')
 eboo.lu#%#//scriptlet('ubo-set-cookie.js', 'PostAnalytics', '0')
 kzvb.de#%#//scriptlet('ubo-set-cookie.js', 'cookie-optin', 'true')
+drinksking.sk#%#//scriptlet('ubo-set-cookie.js', 'coookieaccept', 'ok')
 neuhauschocolates.com#%#//scriptlet('ubo-set-cookie.js', 'consentTrackingVerified', 'true')
 commandsuite.it#%#//scriptlet('ubo-set-cookie.js', 'consent', '0')
 oktea.tw#%#//scriptlet('ubo-set-cookie.js', 'allowGetPrivacyInfo', 'true')
