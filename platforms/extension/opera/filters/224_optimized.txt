@@ -1,9 +1,9 @@
-! Checksum: h4nD+GP07JqUbuNx9JAEyA
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1705710957-3600.patch
+! Checksum: 8gBZjbEqweC0/7l0klPqoQ
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1705714550-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.8.76
-! TimeUpdated: 2024-01-20T00:32:18+00:00
+! Version: 2.1.8.77
+! TimeUpdated: 2024-01-20T01:32:20+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4224,6 +4224,9 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.alert_windows > .q-card__actions > a
+###alert_windows > .q-dialog__backdrop
+##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
@@ -5762,6 +5765,9 @@ newduba.cn###jq_youxi
 ||awcdst.icu^
 ||foysswr.cn^
 ||npnpxoz.xyz^
+||yohnoirs.com^
+||so1nv.xyz^
+||jingalbundles.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
