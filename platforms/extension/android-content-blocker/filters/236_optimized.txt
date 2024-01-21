@@ -1,9 +1,9 @@
-! Checksum: wPnjiBIiYeE1H2dsE3nziQ
-! Diff-Path: ../patches/236_optimized/236_optimized-s-1705827976-14400.patch
+! Checksum: qGs9VOQdlhzaF+L2tvycQw
+! Diff-Path: ../patches/236_optimized/236_optimized-s-1705842374-14400.patch
 ! Title: road-block light (Optimized)
 ! Description: Romanian ad blocking filter subscription.
-! Version: 2.0.2.43
-! TimeUpdated: 2024-01-21T09:02:43+00:00
+! Version: 2.0.2.44
+! TimeUpdated: 2024-01-21T13:02:45+00:00
 ! Expires: 5 days (update frequency)
 /plugins/footer-pop-up-banner/*
 /Reclama/*
@@ -803,6 +803,7 @@ viatasisanatate.com##.ai_widget.widget
 ||clujust.ro/*.gif$image
 clujust.ro##[href*="utm_medium=banner"]
 clujust.ro##[id^="ad"]
+forum-auto.ro##[href="https://e-husa.ro/"]
 ||horticultorul.ro/rcl/*.html$subdocument
 napocanews.ro##[href="http://www.coralimpex.ro/"]
 napocanews.ro##[href="http://www.rosal.ro/"]

@@ -230,6 +230,14 @@ m.twitch.tv##+js(set-cookie, tachyon-accepted-cookie-notice, true)
 eboo.lu##+js(set-cookie, PostAnalytics, 0)
 ! Rule "kzvb.de##+js(set-cookie, cookie-optin, true)" converted to: "kzvb.de#%#//scriptlet('ubo-set-cookie.js', 'cookie-optin', 'true')"
 kzvb.de##+js(set-cookie, cookie-optin, true)
+! Rule "sartor-stoffe.de##+js(set-cookie, cookie-bar, 0)" converted to: "sartor-stoffe.de#%#//scriptlet('ubo-set-cookie.js', 'cookie-bar', '0')"
+sartor-stoffe.de##+js(set-cookie, cookie-bar, 0)
+! Rule "tridge.com##+js(set-cookie, cookieBannerHidden, true)" converted to: "tridge.com#%#//scriptlet('ubo-set-cookie.js', 'cookieBannerHidden', 'true')"
+tridge.com##+js(set-cookie, cookieBannerHidden, true)
+! Rule "asus.com##+js(set-cookie, isReadCookiePolicyDNT, No)" converted to: "asus.com#%#//scriptlet('ubo-set-cookie.js', 'isReadCookiePolicyDNT', 'No')"
+asus.com##+js(set-cookie, isReadCookiePolicyDNT, No)
+! Rule "asus.com##+js(set-cookie, isReadCookiePolicyDNTAa, false)" converted to: "asus.com#%#//scriptlet('ubo-set-cookie.js', 'isReadCookiePolicyDNTAa', 'false')"
+asus.com##+js(set-cookie, isReadCookiePolicyDNTAa, false)
 ! Rule "drinksking.sk##+js(set-cookie, coookieaccept, ok)" converted to: "drinksking.sk#%#//scriptlet('ubo-set-cookie.js', 'coookieaccept', 'ok')"
 drinksking.sk##+js(set-cookie, coookieaccept, ok)
 ! Rule "neuhauschocolates.com##+js(set-cookie, consentTrackingVerified, true)" converted to: "neuhauschocolates.com#%#//scriptlet('ubo-set-cookie.js', 'consentTrackingVerified', 'true')"
@@ -2368,6 +2376,10 @@ oponeo.it,oponeo.cz,oponeo.de,oponeo.es,oponeo.at,oponeo.nl,oponeo.hu,oponeo.fr,
 buienradar.be,buienradar.nl##body,html:style(height: auto !important; overflow: auto !important)
 ! Rule "plusportal.hr##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "plusportal.hr#$#body,html { overflow: auto !important; position: initial !important; }"
 plusportal.hr##body,html:style(overflow: auto !important; position: initial !important;)
+! Rule "masante.belgique.be##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "masante.belgique.be#$#body,html { overflow: auto !important; position: initial !important; }"
+masante.belgique.be##body,html:style(overflow: auto !important; position: initial !important;)
+! Rule "linsenplatz.de##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "linsenplatz.de#$#body,html { overflow: auto !important; position: initial !important; }"
+linsenplatz.de##body,html:style(overflow: auto !important; position: initial !important;)
 ! Rule "elkjop.no##body:style(overflow: auto !important; position: initial !important;)" converted to: "elkjop.no#$#body { overflow: auto !important; position: initial !important; }"
 elkjop.no##body:style(overflow: auto !important; position: initial !important;)
 ! Rule "searchforsites.co.uk##body,html:style(overflow: auto !important; position: initial !important;)" converted to: "searchforsites.co.uk#$#body,html { overflow: auto !important; position: initial !important; }"
