@@ -1,9 +1,9 @@
-! Checksum: kayBjTjPEyHwLk+eqG5qsg
-! Diff-Path: ../patches/6_optimized/6_optimized-s-1705858553-3600.patch
+! Checksum: iCvcxrT9adqvAakPYRlMVQ
+! Diff-Path: ../patches/6_optimized/6_optimized-s-1705862158-3600.patch
 ! Title: AdGuard German filter (Optimized)
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.8
-! TimeUpdated: 2024-01-21T17:33:08+00:00
+! Version: 2.0.40.9
+! TimeUpdated: 2024-01-21T18:33:08+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4099,6 +4099,7 @@ tourispo.de##.content-teaser-small
 buffed.de,gamezone.de,pcgames.de,pcgameshardware.de##.contentFrameEddie
 koeln.de##.contentRect
 tourispo.de##.contentRefsAside
+windowspro.de##.content_before_3rd_para
 avguide.ch##.contest-frame
 mannheimer-morgen.de##.core-commercial
 finanzen.net##.cpg_incontent1-container

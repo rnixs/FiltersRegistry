@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ROv4498qSFvYFc8UU6LAxA
-! Diff-Path: ../patches/6_optimized/6_optimized-s-1705858563-3600.patch
+! Checksum: jIBMoRU1YmTVijaqgXfetQ
+! Diff-Path: ../patches/6_optimized/6_optimized-s-1705862166-3600.patch
 ! Title: AdGuard German filter (Optimized)
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.8
-! TimeUpdated: 2024-01-21T17:33:08+00:00
+! Version: 2.0.40.9
+! TimeUpdated: 2024-01-21T18:33:08+00:00
 ! Expires: 5 days (update frequency)
 ||lehrer-finden.de^
 ||lokalwerben.t-online.de^
@@ -3486,6 +3486,7 @@ tourispo.de##.content-teaser-small
 buffed.de,gamezone.de,pcgames.de,pcgameshardware.de##.contentFrameEddie
 koeln.de##.contentRect
 tourispo.de##.contentRefsAside
+windowspro.de##.content_before_3rd_para
 avguide.ch##.contest-frame
 mannheimer-morgen.de##.core-commercial
 finanzen.net##.cpg_incontent1-container
