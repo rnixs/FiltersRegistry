@@ -1,9 +1,9 @@
-! Checksum: JvGNi8OV06JLwS68xA1oaA
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1705797351-3600.patch
+! Checksum: ak2Z0zEz7YBmhbZykLauGA
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1705800987-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.8.86
-! TimeUpdated: 2024-01-21T00:32:14+00:00
+! Version: 2.1.8.87
+! TimeUpdated: 2024-01-21T01:32:58+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -5786,6 +5786,10 @@ newduba.cn###jq_youxi
 ||xerqfh.xyz^
 ||yhbheroq.xyz^
 ||wsyfsg.xyz^
+||hdaidj.cn^
+||ged46.xyz^
+||z3p9f.xyz^
+||zdf3q.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -13865,6 +13869,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ad.youku.com/vp?
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
