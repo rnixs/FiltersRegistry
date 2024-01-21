@@ -1,9 +1,9 @@
-! Checksum: 9aI65c4phkuR0+YXh495aw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705872948-3600.patch
+! Checksum: Aq0FzQrwHFP7uUzAQg9VJQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705876551-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.83
-! TimeUpdated: 2024-01-21T21:32:41+00:00
+! Version: 2.3.18.84
+! TimeUpdated: 2024-01-21T22:32:45+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -20883,6 +20883,7 @@ browsershots.org#@#.advert_area
 ||blacknesskangaroo.com^
 ||blamersservian.digital^
 ||bland-husband.com^
+||blareclockwisebead.com^
 ||blastadoptedlink.com^
 ||blastcahs.com^
 ||bldvxzxdpsrjla.com^
@@ -21066,6 +21067,7 @@ browsershots.org#@#.advert_area
 ||bsfofnphcuj.com^
 ||bshrdr.com^
 ||bsjusnip.com^
+||bsudzbtp.com^
 ||btdnav.com^
 ||bttrack.com^
 ||btxxxnav.com^
@@ -21346,6 +21348,7 @@ browsershots.org#@#.advert_area
 ||cjt3w2kxrv.com^
 ||cjvdfw.com^
 ||cjxomyilmv.com^
+||ckbynmeskffnn.com^
 ||ckfkigayvdb.com^
 ||ckgsrzu.com^
 ||cl0udh0st1ng.com^
@@ -22738,6 +22741,7 @@ browsershots.org#@#.advert_area
 ||goshbiopsy.com^
 ||gositego.live^
 ||gossipsize.com^
+||gostoamt.com^
 ||goteat.xyz^
 ||gotrackier.com^
 ||goufldsbktds.com^
@@ -26384,6 +26388,7 @@ browsershots.org#@#.advert_area
 ||synchronizerobot.com^
 ||synsads.com^
 ||synthesissocietysplitting.com^
+||syringewhile.com^
 ||syrsple2se8nyu09.com^
 ||sysoutvariola.com^
 ||system-notify.app^
@@ -27547,6 +27552,7 @@ browsershots.org#@#.advert_area
 ||ylx-2.com^
 ||ylx-4.com^
 ||ylzkfpzqffqon.com^
+||ymwdeaiut.com^
 ||ynaapihbulbky.com^
 ||yndmorvwdfuk.com^
 ||yneaimn.com^
@@ -28220,6 +28226,7 @@ browsershots.org#@#.advert_area
 ||summitmanner.com^$popup
 ||sympatheticfling.com^$popup
 ||taghaugh.com^$popup
+||tauphaub.net^$popup
 ||thaudray.com^$popup
 ||theythourbonusgain.life^$popup
 ||thirtyeducate.com^$popup
@@ -28312,6 +28319,7 @@ browsershots.org#@#.advert_area
 ||1143895874.rsc.cdn77.org^
 ||1145191861.rsc.cdn77.org^
 ||1193176784.rsc.cdn77.org^
+||1205020224.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
 ||1460689281.rsc.cdn77.org^
 ||1603463731.rsc.cdn77.org^
@@ -28320,6 +28328,7 @@ browsershots.org#@#.advert_area
 ||1692923857.rsc.cdn77.org^
 ||1805629149.rsc.cdn77.org^
 ||1885212191.rsc.cdn77.org^
+||1915832424.rsc.cdn77.org^
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
 ||a-delivery.rmbl.ws^
