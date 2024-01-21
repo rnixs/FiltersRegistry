@@ -1,9 +1,9 @@
-! Checksum: FySIDvb4/GM+lyGXQwVa6Q
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1705784788-14400.patch
+! Checksum: JEVs4fBvdnevoL8sCqujwg
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1705799170-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.65
-! TimeUpdated: 2024-01-20T21:02:22+00:00
+! Version: 2.1.19.66
+! TimeUpdated: 2024-01-21T01:02:07+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -12049,6 +12049,7 @@ proprofs.com###over-overlay
 amazon.com###percolate-ui-ilm_div
 asia.nikkei.com###pianoj_ribbon
 dailymaverick.co.za###post-article-footer
+northcountrypublicradio.org###promo_insert_container
 dailymaverick.co.za###ribbon-container
 fflogs.com,warcraftlogs.com###right-ad-box
 fflogs.com###right-vertical-banner
@@ -14323,8 +14324,8 @@ kaartje2go.de#$#body,html { overflow: auto !important; position: initial !import
 coastfashion.com,oasisfashion.com,warehousefashion.com,misspap.com,karenmillen.com,boohooman.com#$#body { overflow: auto !important; position: initial !important; }
 bhw.de,dslbank.de#$#body,html { overflow: auto !important; position: initial !important; }
 abm-accountants.com,abdijsiteherkenrode.be,avlwoningbouw.be,vivantia.be,o-f-s.eu,a2o-architecten.be,thebelgianbed.com,adlon.be,rsc-slaapcomfort.com,antiek-albarello.com,enib.be,a2o-omgeving.be,design-home.be,eremex.be,dasbelgischebett.de,jagsonly.be,decoform.be,aptigu.be,kickbike.be,morphologicum.org,kwvanbladel.be,vaatkliniek.be,barbecues.be,sanik.be,browsbox.com,tuincenterlissens.be,royalcrown.be,dr-geeraerts-dermatologie.be,dewiekslag.be,omerus.be,microscope-shop.be,marlou.be,depaterstafel.eu,tri-active.be,durocub.be,delbruyere.be,hanssens.net,scherpesteen.be,aratina.com,gripsholm.be,noorwegenhitravissers.be,incadans.be,medibe.be,atirio.be,sani-lux.net,a2o.be,vado.be,jbavicon.com,hetbelgischbed.be,kindermolen.be,baeyens-l.be,p-laser.com,allimex.eu,granhold.com,bbcbb.be,adtemptare.be,a-spect.be,visitatiebottelare.be,groepmsi.be,deregenboog.be,vrijdagmarkt.net,nsi-be.com,liswood-tache.com,bartyde.be#$#body,html { overflow: auto !important; position: initial !important; }
-as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr###didomi-host
-as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
+as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr###didomi-host
+as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
 mkb.hu#$#body,html { overflow: auto !important; position: initial !important; }
 daelgrau.com,tisseront.com,felopateerpalace.com,bassereau.com,landreau.fr,roure-tours.com,etejoaillier.com,zegg-cerlati.com,bijouterieponsolle.com,frayssinet-joaillier.fr,dorise-joaillier.com,cre-or.fr,larroutis.fr,gourret.com,bijouterie-julian.com,or-azur.com,descours1893.fr,bg-bruno.com,longinus.fr,lombard-joaillier.com,bijouteriefrancor.com,bijouterie-leat.com,bijouterie-dutoyat.fr,bijouteriegeorges.fr,bijouterie-neuville.fr,vaneste.fr,haubois.com,bijouterie-nora.fr,bijouterie-fournier.com,gueguin-picaud.com,rb1890.fr,montres-shop.com,au-beffroi.com,joaillerie-hardy.com,beaumont-finet.com,bijouterie-doreille.com,ferret.fr#$#body,html { overflow: auto !important; position: initial !important; }
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com###modal-host
@@ -16253,8 +16254,8 @@ kaartje2go.de#$#body,html { overflow: auto !important; position: initial !import
 coastfashion.com,oasisfashion.com,warehousefashion.com,misspap.com,karenmillen.com,boohooman.com#$#body { overflow: auto !important; position: initial !important; }
 bhw.de,dslbank.de#$#body,html { overflow: auto !important; position: initial !important; }
 abm-accountants.com,abdijsiteherkenrode.be,avlwoningbouw.be,vivantia.be,o-f-s.eu,a2o-architecten.be,thebelgianbed.com,adlon.be,rsc-slaapcomfort.com,antiek-albarello.com,enib.be,a2o-omgeving.be,design-home.be,eremex.be,dasbelgischebett.de,jagsonly.be,decoform.be,aptigu.be,kickbike.be,morphologicum.org,kwvanbladel.be,vaatkliniek.be,barbecues.be,sanik.be,browsbox.com,tuincenterlissens.be,royalcrown.be,dr-geeraerts-dermatologie.be,dewiekslag.be,omerus.be,microscope-shop.be,marlou.be,depaterstafel.eu,tri-active.be,durocub.be,delbruyere.be,hanssens.net,scherpesteen.be,aratina.com,gripsholm.be,noorwegenhitravissers.be,incadans.be,medibe.be,atirio.be,sani-lux.net,a2o.be,vado.be,jbavicon.com,hetbelgischbed.be,kindermolen.be,baeyens-l.be,p-laser.com,allimex.eu,granhold.com,bbcbb.be,adtemptare.be,a-spect.be,visitatiebottelare.be,groepmsi.be,deregenboog.be,vrijdagmarkt.net,nsi-be.com,liswood-tache.com,bartyde.be#$#body,html { overflow: auto !important; position: initial !important; }
-as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr###didomi-host
-as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
+as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr###didomi-host
+as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
 mkb.hu#$#body,html { overflow: auto !important; position: initial !important; }
 daelgrau.com,tisseront.com,felopateerpalace.com,bassereau.com,landreau.fr,roure-tours.com,etejoaillier.com,zegg-cerlati.com,bijouterieponsolle.com,frayssinet-joaillier.fr,dorise-joaillier.com,cre-or.fr,larroutis.fr,gourret.com,bijouterie-julian.com,or-azur.com,descours1893.fr,bg-bruno.com,longinus.fr,lombard-joaillier.com,bijouteriefrancor.com,bijouterie-leat.com,bijouterie-dutoyat.fr,bijouteriegeorges.fr,bijouterie-neuville.fr,vaneste.fr,haubois.com,bijouterie-nora.fr,bijouterie-fournier.com,gueguin-picaud.com,rb1890.fr,montres-shop.com,au-beffroi.com,joaillerie-hardy.com,beaumont-finet.com,bijouterie-doreille.com,ferret.fr#$#body,html { overflow: auto !important; position: initial !important; }
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com###modal-host
@@ -17423,6 +17424,7 @@ kudyznudy.cz##.j-cinfo
 spravazeleznic.cz##.szdc--modal
 seznamzpravy.cz##.szn-cmp-dialog-container
 fler.cz##.ui_widgets_unit-cookies_pref2022_footer
+cernilov.cz##.userSettings
 anwb.nl###TRCO-application
 denhaagfm.nl,gld.nl,omroepwest.nl,omroepzeeland.nl,omropfryslan.nl,rtvdrenthe.nl,rtvnoord.nl,rtvoost.nl,rtvutrecht.nl###consent-plugin
 doof.nl###cookiechoices
@@ -17483,6 +17485,7 @@ almaviva.it##.background-popup
 balarm.it##.cyn-banner
 itpornit.com##.first-visit
 accademiadellacrusca.it##.info-privacy
+1950americandiner.it##.np-cookies__screen
 juzaphoto.com##.s_bluebox
 tahititourisme.it##.site-footer__cookies
 telcel.com##.telcel-banner-aviso-cookies
@@ -17686,7 +17689,7 @@ instal.si##body > .urejanjecenter
 instal.si##tr > .napisnanogi
 instal.si##tr > .urejanjecenter
 northgate.es###WindowLoad
-us.as.com###acceptationCMPWall
+as.com###acceptationCMPWall
 arsys.es###arsysCookieAcceptance
 galeriametro.com###barra_mensaje_cookies
 contasimple.com###consentModeDialogContainer
