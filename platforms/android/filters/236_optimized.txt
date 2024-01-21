@@ -1,9 +1,9 @@
-! Checksum: SlLSmwWnhRcHgZ01LSF+cA
-! Diff-Path: ../patches/236_optimized/236_optimized-s-1705093618-14400.patch
+! Checksum: M1esIj4WkYWYvDC3XbUl5A
+! Diff-Path: ../patches/236_optimized/236_optimized-s-1705827971-14400.patch
 ! Title: road-block light (Optimized)
 ! Description: Romanian ad blocking filter subscription.
-! Version: 2.0.2.42
-! TimeUpdated: 2024-01-12T21:03:33+00:00
+! Version: 2.0.2.43
+! TimeUpdated: 2024-01-21T09:02:43+00:00
 ! Expires: 5 days (update frequency)
 /plugins/footer-pop-up-banner/*
 /Reclama/*
@@ -1278,6 +1278,9 @@ bucataras.ro##.grv-product-box
 bucataras.ro##.recomandations
 1tap.ro##[href^="https://freakhosting.com/"]
 diacritice.ro##.space
+loganclub.ro##.axd
+clubmercedes.ro##.axd
+||clubmercedes.ro/*.gif$image
 turdanews.net#%#//scriptlet('ubo-nostif.js', 'ai_')
 nosteam.ro,nosteamgames.ro#%#//scriptlet('ubo-nowoif.js')
 competentedigitale.ro#%#//scriptlet('ubo-acis.js', 'Math.floor', 'offsetHeight')
