@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: vhtMxOO8W35L+Z4OzycStg
-! Diff-Path: ../patches/214_optimized/214_optimized-s-1705799201-14400.patch
+! Checksum: +LQucbAaf1uY6xEzJfmGug
+! Diff-Path: ../patches/214_optimized/214_optimized-s-1705813591-14400.patch
 ! Title: ABPVN List (Optimized)
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.26.37
-! TimeUpdated: 2024-01-21T01:02:16+00:00
+! Version: 2.0.26.38
+! TimeUpdated: 2024-01-21T05:02:10+00:00
 ! Expires: 5 days (update frequency)
 .com/cpc/$script
 .com/qc/
@@ -274,6 +274,7 @@
 ||upload.bongda365.news//banner/$domain=bongda365.news
 ||vesotantai.com/upload/photo/$image
 ||vidian.wiki/images/*.gif
+||vietjack.com/FrontEndWeb/js/sp.js$script
 ||vnmu.edu.vn^*.gif
 ||vod02bc25882576.cloud.anycastapnic.com/8xBET_480p.mp4$domain=gavang1.link
 ||vod02bc25882576.cloud.anycastapnic.com/8xBET_480p.mp4$domain=xem1.gavang1.net
@@ -1409,6 +1410,7 @@ plvb.xyz##+js(abort-on-property-read, keyPlayer)
 rphang.co,misskon.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 saostar.vn#$#div.layout.pt-mobi-top {padding-top: 0 !important}
 saostar.vn#$#header.bg-white {margin-top: 0px !important}
+tailieumoi.vn##+js(set-constant, linkAff, null)
 tctruyen.net,tctruyen.com,abtruyen.com##+js(abort-current-script, $, popup)
 tinsoikeo.vip##+js(abort-current-script, $, window.open)
 tinsoikeo.vip##+js(abort-on-property-read, sessionStorage)

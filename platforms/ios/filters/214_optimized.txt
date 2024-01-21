@@ -1,9 +1,9 @@
-! Checksum: J4Vn0ScZumFwE3T/RkBE5Q
-! Diff-Path: ../patches/214_optimized/214_optimized-s-1705799207-14400.patch
+! Checksum: SdQtWLoTr+XRZNJNHg6feg
+! Diff-Path: ../patches/214_optimized/214_optimized-s-1705813596-14400.patch
 ! Title: ABPVN List (Optimized)
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.26.37
-! TimeUpdated: 2024-01-21T01:02:16+00:00
+! Version: 2.0.26.38
+! TimeUpdated: 2024-01-21T05:02:10+00:00
 ! Expires: 5 days (update frequency)
 .com/cpc/$script
 .com/qc/
@@ -265,6 +265,7 @@
 ||upload.bongda365.news//banner/$domain=bongda365.news
 ||vesotantai.com/upload/photo/$image
 ||vidian.wiki/images/*.gif
+||vietjack.com/FrontEndWeb/js/sp.js$script
 ||vnmu.edu.vn^*.gif
 ||vod02bc25882576.cloud.anycastapnic.com/8xBET_480p.mp4$domain=gavang1.link
 ||vod02bc25882576.cloud.anycastapnic.com/8xBET_480p.mp4$domain=xem1.gavang1.net
@@ -1396,6 +1397,7 @@ plvb.xyz#%#//scriptlet("abort-on-property-read", "keyPlayer")
 rphang.co,misskon.com#%#//scriptlet("abort-current-inline-script", "document.querySelectorAll", "popMagic")
 saostar.vn#$#div.layout.pt-mobi-top {padding-top: 0 !important}
 saostar.vn#$#header.bg-white {margin-top: 0px !important}
+tailieumoi.vn#%#//scriptlet("set-constant", "linkAff", "null")
 tctruyen.net,tctruyen.com,abtruyen.com#%#//scriptlet("abort-current-inline-script", "$", "popup")
 tinsoikeo.vip#%#//scriptlet("abort-current-inline-script", "$", "window.open")
 tinsoikeo.vip#%#//scriptlet("abort-on-property-read", "sessionStorage")
