@@ -1,9 +1,9 @@
-! Checksum: V3+klXo5PdRZlzSPA30ntQ
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1705871191-14400.patch
+! Checksum: x/Z/A2zYbfvKTuihjYqglg
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1705885581-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.19.45
-! TimeUpdated: 2024-01-21T21:01:36+00:00
+! Version: 2.1.19.46
+! TimeUpdated: 2024-01-22T01:01:29+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -11855,6 +11855,7 @@ browsershots.org#@#.advert_area
 ||blamersservian.digital^
 ||bland-husband.com^
 ||blanddish.pro^
+||blareclockwisebead.com^
 ||blastadoptedlink.com^
 ||blastcahs.com^
 ||bldvxzxdpsrjla.com^
@@ -12164,6 +12165,7 @@ browsershots.org#@#.advert_area
 ||bsfofnphcuj.com^
 ||bshrdr.com^
 ||bsjusnip.com^
+||bsudzbtp.com^
 ||btdnav.com^
 ||btodsjr.com^
 ||bttrack.com^
@@ -12650,6 +12652,7 @@ browsershots.org#@#.advert_area
 ||cjvdfw.com^
 ||cjxomyilmv.com^
 ||cjyopjydlwkyu.com^
+||ckbynmeskffnn.com^
 ||ckfkigayvdb.com^
 ||ckgsrzu.com^
 ||cl0udh0st1ng.com^
@@ -15579,6 +15582,7 @@ browsershots.org#@#.advert_area
 ||gossipcase.com^
 ||gossipprotectioncredentials.com^
 ||gossipsize.com^
+||gostoamt.com^
 ||got-to-be.com^
 ||goteat.xyz^
 ||gotherresethat.com^
@@ -22898,6 +22902,7 @@ browsershots.org#@#.advert_area
 ||synthesissocietysplitting.com^
 ||synthesisvariables.com^
 ||syringeitch.com^
+||syringewhile.com^
 ||syrsple2se8nyu09.com^
 ||syruphamster.com^
 ||sysdmt.com^
@@ -25127,6 +25132,7 @@ browsershots.org#@#.advert_area
 ||ylx-4.com^
 ||ylzkfpzqffqon.com^
 ||ymuitydkdoy.com^
+||ymwdeaiut.com^
 ||ynaapihbulbky.com^
 ||yndmorvwdfuk.com^
 ||yneaimn.com^
@@ -26116,6 +26122,7 @@ browsershots.org#@#.advert_area
 ||taghaugh.com^$popup
 ||tapdb.net^$popup
 ||taroads.com^$popup
+||tauphaub.net^$popup
 ||temperrunnersdale.com^$popup
 ||thaudray.com^$popup
 ||theepsie.com^$popup
@@ -26263,6 +26270,7 @@ browsershots.org#@#.advert_area
 ||1145191861.rsc.cdn77.org^
 ||1187531871.rsc.cdn77.org^
 ||1193176784.rsc.cdn77.org^
+||1205020224.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
 ||1460689281.rsc.cdn77.org^
 ||1603463731.rsc.cdn77.org^
@@ -26271,6 +26279,7 @@ browsershots.org#@#.advert_area
 ||1692923857.rsc.cdn77.org^
 ||1805629149.rsc.cdn77.org^
 ||1885212191.rsc.cdn77.org^
+||1915832424.rsc.cdn77.org^
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
 ||a-delivery.rmbl.ws^
@@ -27360,7 +27369,6 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=piratepro
 $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fastpic.ru|fileone.tv|filmlinks4u.is|imagefap.com|keepvid.com|megaup.net|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|powvideo.net|roadracerunner.com|shorte.st|tribune.com.pk|tune.pk|vcpost.com|vidmax.com|vidoza.net|vidtodo.com
 $csp=script-src 'self' '*' 'unsafe-inline',domain=pirateproxy.live|thehiddenbay.com|downloadpirate.com|thepiratebay10.org|ukpass.co|linksmore.site
 $csp=worker-src 'none',domain=torlock.com|alltube.pl|alltube.tv|centrum-dramy.pl|coinfaucet.eu|crictime.com|crictime.is|doodcdn.com|estream.to|gomo.to|hdvid.fun|hdvid.tv|hitomi.la|kinox.to|lewd.ninja|assia1.tv|nflbite.com|pirateproxy.live|plytv.me|potomy.ru|powvideo.cc|powvideo.net|putlocker.to|reactor.cc|rojadirecta.direct|sickrage.ca|streamtape.com|thehiddenbay.com|thepiratebay.org|thepiratebay10.org|tpb.party|uptomega.me|ustream.to|vidoza.co|vidoza.net|wallpoper.com|wearesaudis.net|yazilir.com
-||1337x.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: challenges.cloudflare.com
 ||gelbooru.com^$csp=script-src 'self' '*' 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com *.bootstrapcdn.com
 $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.google.com *.addthis.com *.addthisedge.com *.facebook.net *.twitter.com *.jquery.com,domain=kinox.lat|kinos.to|kinox.am|kinox.bz|kinox.click|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fun|kinox.fyi|kinox.gratis|kinox.io|kinox.lol|kinox.me|kinox.mobi|kinox.pub|kinox.sh|kinox.sx|kinox.to|kinox.tube|kinox.tv|kinox.wtf|kinoz.to,~third-party
 @@||g.doubleclick.net/gampad/ads?*superbanner_3$xmlhttprequest,domain=spiegel.de
@@ -28197,7 +28205,7 @@ gamesystemrequirements.com##.act_eng
 independent.ie##.ad--articlerectangle
 archdaily.com##.ad-300-250
 buzzfeed.com##.ad-awareness
-britannica.com,courthousenews.com,diabetesjournals.org,imgmak.com,infobel.com,linkedin.com,pilot007.org,radiotimes.com,soundguys.com##.ad-banner
+britannica.com,courthousenews.com,diabetesjournals.org,imgmak.com,infobel.com,kuioo.com,linkedin.com,pilot007.org,radiotimes.com,soundguys.com##.ad-banner
 home-designing.com,inc.com,trustpilot.com##.ad-block
 fangoria.com##.ad-block--300x250
 fangoria.com##.ad-block__container
