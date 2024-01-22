@@ -1,9 +1,9 @@
-! Checksum: hGS7+egNeNxUEg6Tt5YTJQ
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1705916149-3600.patch
+! Checksum: rxzwWW/lFCM8veBQ/MrtFg
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1705919798-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.75
-! TimeUpdated: 2024-01-22T09:33:15+00:00
+! Version: 2.0.47.76
+! TimeUpdated: 2024-01-22T10:33:29+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||flux-cdn.com^$third-party
@@ -362,6 +362,8 @@
 ||ad-hatena.com^
 ||advert.punyu.com^
 ||gum.dlbooks.to^
+jprime.jp#$#.image-area { opacity: 1 !important; pointer-events: auto !imortant; filter: none !important; }
+jprime.jp#$#.js-article-wrap .article-body { opacity: 1 !important; pointer-events: auto !imortant; filter: none !important; }
 blog.2nt.com#@#.AdSense
 !+ PLATFORM(ios, ext_android_cb)
 iwb.jp#@#ins.adsbygoogle

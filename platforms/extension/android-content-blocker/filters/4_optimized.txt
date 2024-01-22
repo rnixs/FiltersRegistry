@@ -1,9 +1,9 @@
-! Checksum: +uDm3f3lBvGXXQ2lY0jgMw
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1705912624-3600.patch
+! Checksum: H3ZW1CDj6A8NPT+zNygIrA
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1705919798-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.96.37
-! TimeUpdated: 2024-01-22T08:33:56+00:00
+! Version: 2.0.96.38
+! TimeUpdated: 2024-01-22T10:33:10+00:00
 ! Expires: 5 days (update frequency)
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
@@ -4983,7 +4983,8 @@ aorus.com##ul.social
 jazzradio.com,zenradio.com,classicalradio.com,di.fm##.social-region
 rosewe.com##.shareToShow
 nv.ua##.article__footer_share
-instalki.pl,live-new.com##.dpsp-share-text
+travelfoodatlas.com##.dpsp-content-wrapper
+travelfoodatlas.com,instalki.pl,live-new.com##.dpsp-share-text
 unian.net,1plus1.video##.o-share-table-cell-right
 thehindu.com##li[data-category="social-shares"]
 klinikarassvet.ru,unian.net##.shares-block
