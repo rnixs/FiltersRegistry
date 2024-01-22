@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: b4b36O2dqe9p1M3XJoWRbg
-! Diff-Path: ../patches/19/19-s-1705811757-3600.patch
+! Checksum: Q7xZysvhyOPuxryfBI83lg
+! Diff-Path: ../patches/19/19-s-1705912655-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.33
-! TimeUpdated: 2024-01-21T04:31:56+00:00
+! Version: 2.0.30.34
+! TimeUpdated: 2024-01-22T08:32:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1524,6 +1524,9 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+twitchmetrics.net##+js(set-constant, nitroAds.abp, true)
+twitchmetrics.net##+js(addEventListener-defuser, np.detect, detail.blocking)
+twitchmetrics.net##body > div[style^="background:"][style*="position: fixed; display: flex; align-items: center; justify-content: center; inset: 0px; z-index:"]
 photopea.com#?#.window:has(> div.body > div > div:contains(ad blocker))
 vrcmods.com###showfreemethod
 tekniknot.com##+js(set-constant, alert, undefined)

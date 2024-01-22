@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /ll3rT7rHGaleaH6fdW1Dw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1705890982-3600.patch
+! Checksum: VJq2kgVMSJN612IcO0WVww
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1705912655-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.33
-! TimeUpdated: 2024-01-21T04:31:56+00:00
+! Version: 2.0.30.34
+! TimeUpdated: 2024-01-22T08:32:55+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -316,6 +316,9 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ||wp-r.github.io/*/assets/js/jquery.adsplacer.ab-testing.js
 ||wp-r.github.io/adsplacer_pro/$third-party
 !#safari_cb_affinity
+twitchmetrics.net##+js(set-constant, nitroAds.abp, true)
+twitchmetrics.net##+js(addEventListener-defuser, np.detect, detail.blocking)
+twitchmetrics.net##body > div[style^="background:"][style*="position: fixed; display: flex; align-items: center; justify-content: center; inset: 0px; z-index:"]
 photopea.com#?#.window:has(> div.body > div > div:contains(ad blocker))
 vrcmods.com###showfreemethod
 tekniknot.com##+js(set-constant, alert, undefined)
