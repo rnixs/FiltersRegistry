@@ -1,9 +1,9 @@
-! Checksum: 7DKGuuyvYPRVb2HriTx6rw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1705919793-3600.patch
+! Checksum: qiCL6tOLgcEf+mic6iOuhg
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1705923383-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.35
-! TimeUpdated: 2024-01-22T10:32:11+00:00
+! Version: 2.0.30.36
+! TimeUpdated: 2024-01-22T11:32:39+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -4652,7 +4652,7 @@ slobodenpecat.mk##div[class^="newsletter-"]
 theanalyst.com##.widget_the_analyst_subscribe_widget
 audiostereo.pl##li[data-blocktitle="Newsletter Signup"]
 buffalonews.com###lee-holiday-banner
-comicbookmovie.com##div[id^="grow-me-inline-subscribe-cta-"]
+nomadsunveiled.com,comicbookmovie.com##div[id^="grow-me-inline-subscribe-cta-"]
 ||cbsnews.com/embed/newsletters/widget/
 cbsnews.com##.embed--type-newsletter-widget
 lanazione.it##div[class^="WhatsApp_wa_box__"]
