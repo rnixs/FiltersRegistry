@@ -1,9 +1,9 @@
-! Checksum: BLJZwv/Z+zFWlrc/0Jk7yg
-! Diff-Path: ../patches/243_optimized/243_optimized-s-1705755974-14400.patch
+! Checksum: VsnCaW44O2XifWePMvmBmw
+! Diff-Path: ../patches/243_optimized/243_optimized-s-1705914395-14400.patch
 ! Title: Frellwit's Swedish Filter (Optimized)
 ! Description: Filter that aims to remove regional Swedish ads, tracking, social media, annoyances, sponsored articles etc.
-! Version: 2.0.17.43
-! TimeUpdated: 2024-01-20T13:02:55+00:00
+! Version: 2.0.17.44
+! TimeUpdated: 2024-01-22T09:03:04+00:00
 ! Expires: 5 days (update frequency)
 .ads-gdprlock
 .ax/ad/
@@ -237,6 +237,7 @@ dagensinfrastruktur.se,nyaprojekt.se,nordiskaprojekt.se,svenskbyggtidning.se,gro
 dagensjuridik.se##.outher-sidebar, a[href*="/annons/"], .dj-inline-ad
 dagenslogistik.se##div.g, .top-banner
 dagensps.se##a[href*="/ps-partner/"], .ad-links-module, .dagensps_ad, a[href*="ut.dagensps.se"][target], .bottom_banner, .leftsidebanner
+dagenstv.com,kolla.tv##.grid-add-container
 dagensvimmerby.se,dagensvastervik.se,dagenskalmar.nu,dagenshultsfred.se#$#body { margin-top: 0 !important; }
 dagensvimmerby.se,dagensvastervik.se,dagenskalmar.nu,dagenshultsfred.se##.panoramaAnnons, .JobAdDiv, .annonsKolumn, .insideAd, .ingressAd, .familyAds, .annonsWrapper
 dagen.se##.video-annons, .native-box, .arcad-block-container, #consent-container

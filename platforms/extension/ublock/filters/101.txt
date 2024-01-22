@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: CVI1YP4xrtxAJJ8N6j6WOg
-! Diff-Path: ../patches/101/101-s-1705899985-14400.patch
+! Checksum: NSB4f9scxE5W1hSgg/9RbQ
+! Diff-Path: ../patches/101/101-s-1705914427-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.19.47
-! TimeUpdated: 2024-01-22T05:01:27+00:00
+! Version: 2.1.19.48
+! TimeUpdated: 2024-01-22T09:01:41+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: tTlOGV+D5Vw6ttIb95AFkw
-! OriginalVersion: 202401220451
+! Checksum: Jr5BYpbEcuVKufzYip+mXA
+! OriginalVersion: 202401220851
 ! Title: EasyList
-! Last modified: 22 Jan 2024 04:51 UTC
+! Last modified: 22 Jan 2024 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -67183,15 +67183,18 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||fastmail.com^$generichide
 @@||figma.com^$generichide
 @@||github.com^$generichide
+@@||github.io^$generichide
 @@||gitlab.com^$generichide
 @@||hbomax.com^$generichide
 @@||icloud.com^$generichide
+@@||instagram.com^$generichide
 @@||instapundit.com^$generichide
 @@||jsfiddle.net^$generichide
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
 @@||material.angular.io^$generichide
 @@||material.io^$generichide
+@@||max.com^$generichide
 @@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
@@ -67203,7 +67206,6 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||paramountplus.com^$generichide
 @@||peacocktv.com^$generichide
 @@||photos.google.com^$generichide
-@@||play.max.com^$generichide
 @@||publicwww.com^$generichide
 @@||reddit.com^$generichide
 @@||slack.com^$generichide
@@ -67211,7 +67213,9 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||stackblitz.com^$generichide
 @@||teams.microsoft.com^$generichide
 @@||tidal.com^$generichide
+@@||tiktok.com^$generichide
 @@||tv.youtube.com^$generichide
+@@||twitch.tv^$generichide
 @@||twitter.com^$generichide
 @@||web.archive.org^$generichide
 @@||www.youtube.com^$generichide

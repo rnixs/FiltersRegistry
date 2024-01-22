@@ -1,9 +1,9 @@
-! Checksum: qoL4x+Kr7SqE3Jvgat2FKQ
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1705899976-14400.patch
+! Checksum: nNeQqGl69fFsRZdp27nU+g
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1705914415-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.19.47
-! TimeUpdated: 2024-01-22T05:01:27+00:00
+! Version: 2.1.19.48
+! TimeUpdated: 2024-01-22T09:01:41+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -31049,14 +31049,17 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||fastmail.com^$generichide
 @@||figma.com^$generichide
 @@||github.com^$generichide
+@@||github.io^$generichide
 @@||gitlab.com^$generichide
 @@||hbomax.com^$generichide
 @@||icloud.com^$generichide
+@@||instagram.com^$generichide
 @@||instapundit.com^$generichide
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
 @@||material.angular.io^$generichide
 @@||material.io^$generichide
+@@||max.com^$generichide
 @@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
@@ -31068,7 +31071,6 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||paramountplus.com^$generichide
 @@||peacocktv.com^$generichide
 @@||photos.google.com^$generichide
-@@||play.max.com^$generichide
 @@||publicwww.com^$generichide
 @@||reddit.com^$generichide
 @@||slack.com^$generichide
@@ -31076,7 +31078,9 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||stackblitz.com^$generichide
 @@||teams.microsoft.com^$generichide
 @@||tidal.com^$generichide
+@@||tiktok.com^$generichide
 @@||tv.youtube.com^$generichide
+@@||twitch.tv^$generichide
 @@||twitter.com^$generichide
 @@||web.archive.org^$generichide
 @@||www.youtube.com^$generichide
