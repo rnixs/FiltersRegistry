@@ -2357,6 +2357,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+slovenia.info##.privacySettings
 sogeti.com#%#//scriptlet('trusted-set-cookie-reload', 'ConsentCookie', 'required:1,functional:1,analytic:0')
 zdf.de,3sat.de#%#//scriptlet('trusted-click-element', 'button#zdf-cmp-deny-btn')
 ||tabletka.pl/ajax/getCookieConsent.php
@@ -31290,6 +31291,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+slovenia.info#?##content > div.rowWrapper:has(> div.container-fluid div.row > div.newsletterForm)
 exame.com##aside > section[class^="sc-"]:has(> div[class^="sc"] > form > #email-container)
 exame.com##div[class^="sc-"] > div[class^="sc-"]:has(> div[class^="sc"] > form > #email-container)
 liga.net##strong:has(a[href^="https://bit.ly/"])
@@ -39845,7 +39847,7 @@ netkeiba.com,zhihu.com,wayfair.de,shopping.yahoo.co.jp,103.by##.AppBanner
 search.yahoo.co.jp###contentsInner > article[class^="W2ALink_W2ALink__"]
 sports.yahoo.co.jp###prm_text
 baseball.yahoo.co.jp,sports.yahoo.co.jp###prm_sapp
-baseball.yahoo.co.jp,soccer.yahoo.co.jp##.sn-modBanner
+sports.yahoo.co.jp,baseball.yahoo.co.jp,soccer.yahoo.co.jp##.sn-modBanner
 shopping.yahoo.co.jp###h_app
 store.shopping.yahoo.co.jp##.elItemEntryLink[data-ylk^="slk:applnk"]
 thehindu.com###artmeterwrap

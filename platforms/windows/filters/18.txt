@@ -1,9 +1,9 @@
-! Checksum: i6iScK1aD84kVjuR0ZXpog
-! Diff-Path: ../patches/18/18-s-1705927291-3600.patch
+! Checksum: q/7B3kEF6MxVKOlefibmlA
+! Diff-Path: ../patches/18/18-s-1705930610-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.85
-! TimeUpdated: 2024-01-22T12:35:32+00:00
+! Version: 2.0.31.86
+! TimeUpdated: 2024-01-22T13:32:09+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2357,6 +2357,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+slovenia.info##.privacySettings
 sogeti.com#%#//scriptlet('trusted-set-cookie-reload', 'ConsentCookie', 'required:1,functional:1,analytic:0')
 zdf.de,3sat.de#%#//scriptlet('trusted-click-element', 'button#zdf-cmp-deny-btn')
 ||tabletka.pl/ajax/getCookieConsent.php

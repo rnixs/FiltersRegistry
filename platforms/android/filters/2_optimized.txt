@@ -1,9 +1,9 @@
-! Checksum: Sz99Aw9GEa2G4HQeiG6UKQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705927204-3600.patch
+! Checksum: YfrhQF0lgE2bVk/cMc4LoQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705930555-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.95
-! TimeUpdated: 2024-01-22T12:36:25+00:00
+! Version: 2.3.18.96
+! TimeUpdated: 2024-01-22T13:32:56+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -5719,6 +5719,7 @@ anime-odcinki.pl$$script[tag-content="zfgloadedpushopt"][min-length="30000"][max
 bezprawnik.pl##div[class^="ad_slot_"]
 !+ NOT_OPTIMIZED
 tv.wp.pl#?##app div[class*=" "]:matches-property("/__reactInternalInstance/.child.memoizedProps.slotNumber"="/\d+/")
+money.pl#?#div[data-breakpoint] > div[class^="sc-"] > div[class^="sc-"] > div[class*="sc-"]:not([class^="sc-"]) > div[class^="sc-"]:matches-css(before, content: REKLAMA)
 !+ NOT_OPTIMIZED
 pudelek.pl#?#div[data-testid] div[class*=" "]:matches-property("/__reactInternalInstance/.return.memoizedProps.slotNumber"="/\d+/")
 money.pl#?#img[src="/static/mny-placeholder.png"]:upward(1)
@@ -20186,6 +20187,7 @@ browsershots.org#@#.advert_area
 ||69i.club^
 ||69v.club^
 ||6bgaput9ullc.com^
+||6de72955d8.com^
 ||6ef2279e3d.com^
 ||6snjvxkawrtolv2x.pro^
 ||6ujk8x9soxhm.com^
@@ -20847,6 +20849,7 @@ browsershots.org#@#.advert_area
 ||askprivate.com^
 ||asleavannychan.com^
 ||aslnk.link^
+||aslofrnbrphlp.com^
 ||asmetotreatwab.com^
 ||asmodeusfields.com^
 ||asnincadar.com^
@@ -23366,6 +23369,7 @@ browsershots.org#@#.advert_area
 ||hrhufhhay.com^
 ||hrnhmral.com^
 ||hrrlyfdnxlzxe.com^
+||hrtvluy.com^
 ||htdvt.com^
 ||htintpa.tech^
 ||htjuxdkjppm.com^
@@ -23748,6 +23752,7 @@ browsershots.org#@#.advert_area
 ||jqlqmeveax.com^
 ||jqmebwvmbzrz.top^
 ||jqueryoi.com^
+||jrbbavbmwqwjl.top^
 ||jrlxrrwgcszo.com^
 ||jrpkizae.com^
 ||js7k.com^
@@ -23794,6 +23799,7 @@ browsershots.org#@#.advert_area
 ||jzbvwqezlwyaz.top^
 ||jzleekzkrwjll.top^
 ||jzokkejmqrbyj.top^
+||jzpdjbpusgcbr.com^
 ||jzqbyykbrrzvq.top^
 ||jzsqwkjvnz.com^
 ||k55p9ka2.de^
@@ -23858,6 +23864,7 @@ browsershots.org#@#.advert_area
 ||kizklqqj.com^
 ||kjfhenoqfyfljo.com^
 ||kjklisbcab.com^
+||kkixbfuihbhhrj.com^
 ||kkmacsqsbf.info^
 ||kktxgytr.com^
 ||kliksaya.com^
@@ -24145,6 +24152,7 @@ browsershots.org#@#.advert_area
 ||lsqzxexvphk.com^
 ||lsrztlmbhgzctp.com^
 ||ltckrqiy.com^
+||ltmtuseetgmt.com^
 ||ltnyzlrqggx.com^
 ||ltzuqmgfdbciv.com^
 ||lubbardstrouds.com^
@@ -24186,8 +24194,10 @@ browsershots.org#@#.advert_area
 ||lybgzqbuopv.com^
 ||lycheenews.com^
 ||lycopuscris.com^
+||lydebbqcuam.com^
 ||lygbbkgykzcr.com^
 ||lygvtmeaekuv.com^
+||lylydevelope.com^
 ||lynotquitesou.info^
 ||lyricslocusvaried.com^
 ||lzxdx24yib.com^
@@ -24256,6 +24266,7 @@ browsershots.org#@#.advert_area
 ||mandatorycaptaincountless.com^
 ||manduzo.xyz^
 ||mangoalmahs.com^
+||mangzoi.xyz^
 ||manoirshrine.com^
 ||manslaughterhallucinateenjoyment.com^
 ||manuretravelingaroma.com^
@@ -24954,6 +24965,7 @@ browsershots.org#@#.advert_area
 ||omnatuor.com^
 ||omnitagjs.com^
 ||omoonsih.net^
+||ompanythat.org^
 ||omzylhvhwp.com^
 ||onatsoas.net^
 ||onautcatholi.xyz^
@@ -25102,6 +25114,7 @@ browsershots.org#@#.advert_area
 ||oyoperseduca.com^
 ||oysterexhalereview.com^
 ||ozectynptd.com^
+||ozlofsviborc.com^
 ||oznhkuilvrsdf.com^
 ||ozobsaib.com^
 ||p-analytics.life^
@@ -25934,6 +25947,7 @@ browsershots.org#@#.advert_area
 ||rgvqcsxqge.com^
 ||rhesusvitrite.com^
 ||rhombicsomeday.com^
+||rhpjzjqhgz.com^
 ||rhythmxchange.com^
 ||ricewaterhou.xyz^
 ||richinfo.co^
@@ -25957,6 +25971,7 @@ browsershots.org#@#.advert_area
 ||rlcdn.com^
 ||rldfgcehgh.com^
 ||rldwideorganizat.org^
+||rliksgcixgf.com^
 ||rlittleboywhowas.com^
 ||rlsspiuyx.com^
 ||rmgfulosqmlcly.com^
@@ -26735,6 +26750,7 @@ browsershots.org#@#.advert_area
 ||tfla.xyz^
 ||tfmgqdj.com^
 ||tfosrv.com^
+||tfqrqdpgarskxv.com^
 ||thairoob.com^
 ||thaiwhou.com^
 ||thaninncoos.com^
@@ -26774,6 +26790,7 @@ browsershots.org#@#.advert_area
 ||thoorest.com^
 ||thorpeseriouslybabysitting.com^
 ||thoupsuk.net^
+||thousicefall.top^
 ||threatdetect.org^
 ||thrtle.com^
 ||thterras.com^
@@ -27225,6 +27242,7 @@ browsershots.org#@#.advert_area
 ||vectorsfangs.com^
 ||veepteero.com^
 ||vefxjjkrhf.com^
+||vehosw.com^
 ||velocecdn.com^
 ||velocitycdn.com^
 ||velopedsever.com^
@@ -30308,6 +30326,7 @@ knowyourmeme.com##.incontent-leaderboard-unit-wrapper
 inews.co.uk##.inews__advert
 inews.co.uk##.inews__mpu
 motorcycle.com##.infeed-ads
+sevenforums.com##.infeed1
 bab.la##.info-panel
 careerindia.com,oneindia.com##.inhouse-content
 asheville.com##.injected-ads
@@ -32000,7 +32019,6 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=battlecats-db.com|games.wkb.jp
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=game.anymanager.io|game.goo.ne.jp
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
-@@||ad-img.gmarket.com/ads/$image,domain=gmarket.co.kr
 @@||ad.atown.jp/adserver/$domain=ad.atown.jp
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ads-twitter.com/oct.js$domain=ncsoft.jp
