@@ -1,9 +1,9 @@
-! Checksum: 3WpgHCft8q1mgWhwTEF7pw
-! Diff-Path: ../patches/9/9-s-1705667793-3600.patch
+! Checksum: M+4ofv0AYW/vt5q5iOBhjA
+! Diff-Path: ../patches/9/9-s-1705908971-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.22.93
-! TimeUpdated: 2024-01-19T12:33:38+00:00
+! Version: 2.0.22.94
+! TimeUpdated: 2024-01-22T07:33:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2418,8 +2418,8 @@ metropoles.com###taboola-mid-article-reco-reel
 clickpb.com.br#?#body > div[style]:has(> a[href^="https://record.nsxafiliados.com/"])
 clickpb.com.br##.adsHorizontal
 depor.com##div[class^="showTds"]
-visortmo.com#?##pills-populars > div.row > div.element:has(> a[target*="_blank"][rel*="nofollow"])
-visortmo.com##a[target*="_blank"][rel*="nofollow"] > img
+visortmo.com###pills-populars > div.row > div.element:has(> a[target*="_blank"])
+visortmo.com##a[target*="_blank"] > img
 yugenmangas.net.br##.ads-flot
 gartic.com.br###shopIntUm
 vrum.com.br##.ad-banner

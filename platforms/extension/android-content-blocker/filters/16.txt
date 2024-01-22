@@ -1,9 +1,9 @@
-! Checksum: Kq4HLCPSrNhqY1pV7KxsIA
-! Diff-Path: ../patches/16/16-s-1705682161-3600.patch
+! Checksum: r82d1rm0JfNlir29P7gScQ
+! Diff-Path: ../patches/16/16-s-1705908943-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.42.91
-! TimeUpdated: 2024-01-19T16:31:54+00:00
+! Version: 2.0.42.92
+! TimeUpdated: 2024-01-22T07:31:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -801,6 +801,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+journaldequebec.com###banner
 jeune-gay.fr##.studio
 jeune-gay.fr##.beau
 jeune-gay.fr##.thumb-block[style="background: #229aed;"]
