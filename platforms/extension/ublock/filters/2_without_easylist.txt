@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6OWRK/tQyqFjZS6oXk7CqQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705941385-3600.patch
+! Checksum: N/1C0N7qCwICyBFPoptQ0w
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1705944987-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.18.99
-! TimeUpdated: 2024-01-22T16:32:47+00:00
+! Version: 2.3.19.0
+! TimeUpdated: 2024-01-22T17:32:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7226,6 +7226,8 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171290
+textstudio.com##+js(abort-on-property-write, ADBLOCK)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171168
 xmorex.com#@#.ad-content
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171120
