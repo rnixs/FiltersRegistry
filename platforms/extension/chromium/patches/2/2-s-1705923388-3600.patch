@@ -1,0 +1,18 @@
+d1 2
+a2 2
+! Checksum: bwauGsJRnlwbXcx0z7Jp6g
+! Diff-Path: ../patches/2/2-s-1705927218-3600.patch
+d5 2
+a6 2
+! Version: 2.3.18.95
+! TimeUpdated: 2024-01-22T12:36:25+00:00
+a32773 2
+forbes.com##.fbs-ad-wrapper
+forbes.com##.profile-sidebar__sticky-container
+d33286 1
+d34342 1
+a39402 1
+redgifs.com##div[class^="_advertLiveButton_"]
+a55100 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/171262 [Stealth Mode - Referrer]
+@@||tortuga.wtf^$stealth=referrer
