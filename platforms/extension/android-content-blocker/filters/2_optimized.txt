@@ -1,9 +1,9 @@
-! Checksum: NL+Xd7DsBoFg82UcA2Mywg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705912624-3600.patch
+! Checksum: PVXUpCGpt9og7fg+E7nDBQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705916149-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.91
-! TimeUpdated: 2024-01-22T08:33:42+00:00
+! Version: 2.3.18.92
+! TimeUpdated: 2024-01-22T09:32:44+00:00
 ! Expires: 5 days (update frequency)
 ||jyqekzewvyojy.top^
 ||auhpaewvbgwjr.com^
@@ -7481,6 +7481,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||livehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+elevenforum.com##.p-body-sidebar > div[style^="width:"][style*="text-align:center;height:"][style*="margin-bottom:"]
 expressnews.com##article > div.pt16
 expressnews.com##.package.y100
 rocketleague.tracker.network##.ad.section-container

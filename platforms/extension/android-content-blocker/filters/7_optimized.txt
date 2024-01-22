@@ -1,9 +1,9 @@
-! Checksum: gIafdYwqH8H+F2gfmYYd2A
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1705811739-3600.patch
+! Checksum: hGS7+egNeNxUEg6Tt5YTJQ
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1705916149-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.47.74
-! TimeUpdated: 2024-01-21T04:33:09+00:00
+! Version: 2.0.47.75
+! TimeUpdated: 2024-01-22T09:33:15+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||flux-cdn.com^$third-party
@@ -955,6 +955,8 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /openstrap/js/meerkat_side_double_ad.js
 /wp-content/plugins/amazonjs/*
 /wp-content/themes/CashLINESystem/js/modal.$script
+/?start=(0101)-$document
+://pub-*.r2.dev/$document
 ://amzone.co.jp.$document
 /?*=+81(050)-$document
 ://access-mericairi.$document,domain=cn
