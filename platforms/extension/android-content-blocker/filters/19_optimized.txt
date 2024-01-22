@@ -1,9 +1,9 @@
-! Checksum: ltK2gDf4Y0zAcJE2hlh6Zg
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1705952303-3600.patch
+! Checksum: IBCdDPKZvuIf92+F9VGJcQ
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1705959351-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.43
-! TimeUpdated: 2024-01-22T19:34:41+00:00
+! Version: 2.0.30.44
+! TimeUpdated: 2024-01-22T21:32:10+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -5842,7 +5842,7 @@ billingsmix.com,mooseradio.com,newstalkkgvo.com,missoulacurrent.com,emergencemag
 aeon.co,psyche.co##.NLFormInsertFromCMS
 thewalrus.ca##.spu-container
 argumenti.ru###invite_bottom-news
-barcablaugranes.com,bavarianfootballworks.com,eater.com###toaster
+bloggingtheboys.com,barcablaugranes.com,bavarianfootballworks.com,eater.com###toaster
 jacobin.com###mailing-list-popup
 e-flux.com##.landing-subscribe
 ||thenewatlantis.com/wp-content/themes/thenewatlantis/js/donate.js

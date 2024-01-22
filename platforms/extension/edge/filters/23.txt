@@ -1,9 +1,9 @@
-! Checksum: IScRuHsIsoueOXM6AMRn4g
-! Diff-Path: ../patches/23/23-s-1705927227-3600.patch
+! Checksum: nodoElqVcUALfbD5Mwvtrg
+! Diff-Path: ../patches/23/23-s-1705959362-3600.patch
 ! Title: AdGuard Ukrainian filter
 ! Description: Filter that enables ad blocking on websites in Ukrainian language.
-! Version: 2.0.3.71
-! TimeUpdated: 2024-01-22T12:36:00+00:00
+! Version: 2.0.3.72
+! TimeUpdated: 2024-01-22T21:32:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6221,6 +6221,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 !
 !
+telegraf.com.ua##div[data-text="Новини партнерів"]
 obozrevatel.com##.asideBanner
 narutoplanet.ru##.art-layout-cell > div[style^="max-width:"]
 altapress.ru##div[style*="height: 300px;"][style*="width: 100%;"]
