@@ -1,9 +1,9 @@
-! Checksum: qX6v8AfUBh4+RTgrgyhCEw
-! Diff-Path: ../patches/232_optimized/232_optimized-s-1705943220-14400.patch
+! Checksum: jmHbnmSVNtgtEw3rk4S52A
+! Diff-Path: ../patches/232_optimized/232_optimized-s-1705957622-14400.patch
 ! Title: KAD - Anti-Scam (Optimized)
 ! Description: Filter that protects against various types of scams in the Polish network, such as mass text messaging, fake online stores, etc.
-! Version: 2.0.51.89
-! TimeUpdated: 2024-01-22T17:02:38+00:00
+! Version: 2.0.51.90
+! TimeUpdated: 2024-01-22T21:02:49+00:00
 ! Expires: 5 days (update frequency)
 !#safari_cb_affinity(security)
 ||1vulkanvegas.com^$all
@@ -91,6 +91,7 @@
 ||ambitnie24.pl^$all
 ||amgdoor.com^$all
 ||amolis24.com^$all
+||amzsalees.com^$all
 ||and1buty.com^$all
 ||androidgameshacks.com^$all
 ||anfetisk.com^$all
@@ -114,6 +115,7 @@
 ||aquafit24.pl^$all
 ||aquafit.sklep.pl^$all
 ||arabuty.com^$all
+||arasbuty.com^$all
 ||archeageonline.pl^$all
 ||archfitpl.com^$all
 ||arcticgamers.com^$all
@@ -569,6 +571,7 @@
 ||filmhd.ek1.pl^$all
 ||filmoteka.tv^$all
 ||filo-shop.pl^$all
+||finiclone.com^$all
 ||finkma-grupa.com^$all
 ||finrri.pl^$all
 ||firead.org^$all
@@ -592,6 +595,7 @@
 ||flame-fashion.org^$all
 ||flamefolder.com^$all
 ||flapi.pl^$all
+||flashflashsales.com^$all
 ||flegmire.com^$all
 ||flufanceineo.com^$all
 ||fonpa.shop^$all
@@ -839,6 +843,7 @@
 ||jutta.shop^$all
 ||kadatars.com^$all
 ||kaie.pl^$all
+||kajoabrig.com^$all
 ||kalaaps.pl^$all
 ||kalinia.pl^$all
 ||kalosze-hunter-damskie.com^$all
@@ -1073,6 +1078,7 @@
 ||milioner2023.pl^$all
 ||millermfinansow.com^$all
 ||milosc.co^$all
+||mint-star.pl^$all
 ||mioveni.pl^$all
 ||miss-devil.com^$all
 ||missomall.com^$all
@@ -1694,6 +1700,7 @@
 ||superswieto.pl^$all
 ||supertravelplanet.com^$all
 ||superzebra.pl^$all
+||susanoba.com^$all
 ||susipey.com^$all
 ||swagshoponline.pl^$all
 ||swagster.pl^$all
@@ -1735,6 +1742,7 @@
 ||terokee.online^$all
 ||terrex.pl^$all
 ||testony.com^$all
+||teugence.com^$all
 ||tevapolska.pl^$all
 ||tevasandaly.pl^$all
 ||tevasklep.com^$all
@@ -1979,6 +1987,7 @@
 ||wifiprotector.com^$all
 ||wilkiewicz.pl^$all
 ||willapasym.pl^$all
+||winbayer.com^$all
 ||windgrojec.pl^$all
 ||winfactory.pl^$all
 ||winoandfriends.pl^$all
@@ -2266,6 +2275,7 @@
 ||pliki.pw^$all
 ||plushdogry.pl^$all
 ||pobieralnia.com.pl^$all
+||polandupcod.com^$all
 ||polowapazdziernika.wixsite.com^$all
 ||polski-blog-medyczny.pl^$all
 ||poprof.com^$all
@@ -3558,6 +3568,7 @@
 ||82e7946e1f7.johncornell.com^$all
 ||82jd-od.cfd^$all
 ||83-fid.cfd^$all
+||83-sfie.cfd^$all
 ||83hf.skin^$all
 ||83js0-5.cfd^$all
 ||83udg-47.cfd^$all
@@ -5930,6 +5941,7 @@
 ||allegrolokalnie.oferta-8a9na4h142fa6.pl^$all
 ||allegrolokalnie.oferta-96d57c91j8b124c6a13.pl^$all
 ||allegrolokalnie.oferta-6534.pl^$all
+||allegrolokalnie.oferta-prywatna1527.pl^$all
 ||allegrolokalnie.oferta-sprzedazy2137.pl^$all
 ||allegrolokalnie.oferta-sprzedazy2140.pl^$all
 ||allegrolokalnie.oferta-sprzedazy2141.pl^$all
@@ -17554,6 +17566,7 @@
 ||drogowe-zdarzenia24.eu5.net^$all
 ||drogowekolizje.click^$all
 ||drogowepotyczki.click^$all
+||drogoweraportowanie.click^$all
 ||drogoweszalenstwo.click^$all
 ||drogowewiadomosci.click^$all
 ||drogowewiesci.click^$all
@@ -18784,6 +18797,7 @@
 ||enchantiingmelodies.site^$all
 ||enchantresss.online^$all
 ||enclisis.sbs^$all
+||encon-co.in^$all
 ||encoretrade.ltd^$all
 ||encounter.ebutudan.com^$all
 ||encouragement-repeort-service.surge.sh^$all
@@ -22019,6 +22033,7 @@
 ||g.wfonline.heatherthedev.com^$all
 ||gaa.programtts.top^$all
 ||gaadikarma.com^$all
+||gabarytowomaly.hair^$all
 ||gable.life^$all
 ||gabloggoproff.site^$all
 ||gabriellecarson.com^$all
@@ -23044,14 +23059,18 @@
 ||gmddreams.com^$all
 ||gmdealertrade.com^$all
 ||gmedimart.com^$all
+||gminainfo24h.click^$all
 ||gminainfo.click^$all
 ||gminamieszkancow.click^$all
 ||gminnanotka.click^$all
 ||gminnawiadomosc.click^$all
+||gminnepotracenia.click^$all
 ||gminnewiadomosci.click^$all
 ||gminnewypadki.click^$all
+||gminnyinformator.click^$all
 ||gminnykurier.click^$all
 ||gminnyportal.click^$all
+||gminnyradca.click^$all
 ||gmrfo.hechizosyamarres2020.com^$all
 ||gmsedapkali.com^$all
 ||gmxproblogger.web.app^$all
@@ -23748,6 +23767,7 @@
 ||grupalet.com^$all
 ||grupaonline.xyz^$all
 ||grupaprog.cloud^$all
+||grupawsparcia.click^$all
 ||grupeha.com^$all
 ||grupoasci.com^$all
 ||grupocampici.com^$all
@@ -26491,6 +26511,7 @@
 ||innovaris.xyz^$all
 ||innovasystemconnectivityy.space^$all
 ||innovat1on.online^$all
+||innovatelabs.store^$all
 ||innovating-health.org^$all
 ||innovationbnnc.online^$all
 ||innovationbnnc.space^$all
@@ -27358,6 +27379,7 @@
 ||internationaltransplantinstitute.com^$all
 ||internationaltravelblogs.org^$all
 ||internetdrogist.com^$all
+||internetoweecho.click^$all
 ||internetoweinfo24h.click^$all
 ||internetoweogloszenia24.cba.pl^$all
 ||internetshoppy.com^$all
@@ -29291,6 +29313,7 @@
 ||khpl12invest.web.app^$all
 ||khryq.takumasminkey.com^$all
 ||khs-onz.com^$all
+||khulnaqbuge.life^$all
 ||khurmahmed.com^$all
 ||khw3-gt.cfd^$all
 ||ki1lll.web.app^$all
@@ -30535,6 +30558,7 @@
 ||lecomptoirfermier.com^$all
 ||lecordonniers.com^$all
 ||leczeniezeza.com^$all
+||leczumiaroraz.click^$all
 ||leczzdrowiepewno.skin^$all
 ||lededata.com^$all
 ||ledger-secure.catalog.yampi.io^$all
@@ -32651,6 +32675,7 @@
 ||martiong.link^$all
 ||martulasz.letycjamia.pl^$all
 ||martunia.pl^$all
+||martwypunkt.click^$all
 ||martynservice.com^$all
 ||marvelgoodies.com^$all
 ||marvelousmonkeyjanes.com^$all
@@ -33503,6 +33528,7 @@
 ||mieko-shy.com^$all
 ||mieszkancewiedza.click^$all
 ||mieszkancyosiedla.click^$all
+||mieszkancyprzekazuja.click^$all
 ||mifaciledelta.com^$all
 ||mifacu.com^$all
 ||mifedoegiy.live^$all
@@ -34934,6 +34960,7 @@
 ||nagelmackers-online.com^$all
 ||nagendraghimire.com^$all
 ||nagolasa.0e0.eu^$all
+||nagradzamysie.click^$all
 ||nagrania24h.click^$all
 ||nagranie24.ehost.pl^$all
 ||nagraniezrodlowe.click^$all
@@ -36197,6 +36224,7 @@
 ||niebezpiecznajazda.click^$all
 ||niebezpiecznepasy.click^$all
 ||niebezpiecznestwo24.click^$all
+||niebezpiecznywypadek.click^$all
 ||niechgourmetpod.yachts^$all
 ||niejestoszustem.site^$all
 ||niejiawei.com^$all
@@ -36815,6 +36843,7 @@
 ||obifoltdol.site^$all
 ||obituariesforfree.com^$all
 ||objasniamyzdarzenia.click^$all
+||objasnienialudzi.click^$all
 ||objecapeckwe.site^$all
 ||object-glass.sbs^$all
 ||objectionsmanagershelpcentres.ml^$all
@@ -36859,6 +36888,7 @@
 ||obywatel.cloud^$all
 ||obywateleszukaja.click^$all
 ||obywatelskiedoniesienia.click^$all
+||obywatelskiesprawy.click^$all
 ||obywatelwie.click^$all
 ||ocageo.com^$all
 ||ocanadasoapwork.com^$all
@@ -37003,6 +37033,10 @@
 ||oferta-prywatna1524.pl^$all
 ||oferta-prywatna1525.pl^$all
 ||oferta-prywatna1526.pl^$all
+||oferta-prywatna1527.pl^$all
+||oferta-prywatna1528.pl^$all
+||oferta-prywatna1529.pl^$all
+||oferta-prywatna1530.pl^$all
 ||oferta-sprzedazy2137.pl^$all
 ||oferta-sprzedazy2138.pl^$all
 ||oferta-sprzedazy2139.pl^$all
@@ -37043,6 +37077,7 @@
 ||offertapropg.site^$all
 ||offewlishilloove.site^$all
 ||offialpower.online^$all
+||office.invs01.com^$all
 ||officeadmin365.weebly.com^$all
 ||officeadmin.radian1.webd.pro^$all
 ||officebg90hy714pyq23h77ipw2pwf.ey.r.appspot.com^$all
@@ -40963,6 +40998,7 @@
 ||poczttow.top^$all
 ||pocztuniwersytepl.weebly.com^$all
 ||pod.kowt.site^$all
+||podajdalej.click^$all
 ||podarey.com^$all
 ||podatki-govpl.online^$all
 ||podatki-govpl.org^$all
@@ -41033,6 +41069,7 @@
 ||poiuyyujhjhghbbvb.site^$all
 ||pojadetam.pl^$all
 ||pojazdkolizja.click^$all
+||pojazdsmierci.click^$all
 ||pojazdygrozy.click^$all
 ||pojiveonoy.info^$all
 ||poke-techy2.com^$all
@@ -41174,6 +41211,7 @@
 ||polesbenefits.org^$all
 ||polessaver.org^$all
 ||polessavingsday.org^$all
+||polestraderai.org^$all
 ||polforum.space^$all
 ||polfpgnolska.site^$all
 ||polgueem.com^$all
@@ -41631,6 +41669,7 @@
 ||portalmovilidad.net^$all
 ||portalnuevosnegocios.com^$all
 ||portalwiedzy.click^$all
+||portalzdarzen.click^$all
 ||porter.darekfurtak.pl^$all
 ||porter.koothoomi-directory.com^$all
 ||porterfun.site^$all
@@ -42412,6 +42451,7 @@
 ||progectinfo.life^$all
 ||progectplcoin.site^$all
 ||proggram1.cloud^$all
+||progizwalniajace.click^$all
 ||prognozir.site^$all
 ||progorlnat.site^$all
 ||program-info.info^$all
@@ -42684,6 +42724,8 @@
 ||przegladzbrodni.click^$all
 ||przekazdnia.click^$all
 ||przekazmedia.click^$all
+||przekazujemynewsy.click^$all
+||przekazujemywiesci.click^$all
 ||przekcry2.blogspot.com^$all
 ||przekoczpas.space^$all
 ||przekonaniie.site^$all
@@ -42933,6 +42975,7 @@
 ||publichistorynotes.com^$all
 ||publicrecordsdirectory.com^$all
 ||publiczneinfo.click^$all
+||publicznezdarzenie.click^$all
 ||publio-pl.sitey.me^$all
 ||puckcoil.site^$all
 ||pudelek-polska.eu^$all
@@ -43828,6 +43871,7 @@
 ||realing.website^$all
 ||realiseswitchcorp.bandzoogle.com^$all
 ||realityconvertguitares.pro^$all
+||realitydreamis.space^$all
 ||realityfeaturethunderis.pro^$all
 ||realityos.org^$all
 ||realizationbis.club^$all
@@ -44100,6 +44144,7 @@
 ||releasemovie.uno^$all
 ||relevancenews.netlify.app^$all
 ||relief-base-appeal.surge.sh^$all
+||relistvoice.xyz^$all
 ||rellahattubb.site^$all
 ||rellinesangla.tk^$all
 ||reloicates.com^$all
@@ -45178,6 +45223,7 @@
 ||samev.cfd^$all
 ||samho5571.com^$all
 ||samna24.com^$all
+||samochody-glinek.pl^$all
 ||samochody-modrzec.pl^$all
 ||samochodziarze24.pl^$all
 ||samoilproff.site^$all
@@ -45569,6 +45615,7 @@
 ||secureflix.direct-compliance.com^$all
 ||secureinvestments.info^$all
 ||secureinvestments.life^$all
+||securekta.pro^$all
 ||secureleadsforever.com^$all
 ||securepage-facebook.weebly.com^$all
 ||secureplainplatform.000webhostapp.com^$all
@@ -48450,6 +48497,7 @@
 ||szmul.powiadomienia.org.pl^$all
 ||szmwk.steviemacnewyork.com^$all
 ||szoi.nfz-centrala.com^$all
+||szokujacezdarzenia.click^$all
 ||szosamiejska.click^$all
 ||szozpinczow.szostakpalo.pl^$all
 ||szprudka.stelladoman.pl^$all
@@ -50459,6 +50507,7 @@
 ||trichomist.store^$all
 ||tricisem.com^$all
 ||tricitiesinjurylaw.com^$all
+||tricnisrst.pro^$all
 ||tricopens.com^$all
 ||tricrotella.com^$all
 ||tride.newlvlpro.top^$all
@@ -50788,6 +50837,7 @@
 ||tumikas.com^$all
 ||tumikena.site^$all
 ||tumytezy.online^$all
+||tundestomyphoy.pro^$all
 ||tundrarins.com^$all
 ||tuneasta.site^$all
 ||tunehub247shop.com^$all
@@ -50876,6 +50926,7 @@
 ||tweedhkcu.space^$all
 ||tweedlersnsber.com^$all
 ||twehret.site^$all
+||twenig.sbs^$all
 ||twenty-wishes.000webhostapp.com^$all
 ||twer.utulo.site^$all
 ||twes.maxtradefx.info^$all
@@ -51169,6 +51220,7 @@
 ||uhinload-com.preview-domain.com^$all
 ||uhmade.com^$all
 ||uhnjkj.s3.us-east-005.backblazeb2.com^$all
+||uhonorowanie.click^$all
 ||uhpc-offers.com^$all
 ||uhtgbw.s3.us-east-005.backblazeb2.com^$all
 ||ui3o.skin^$all
@@ -53938,13 +53990,16 @@
 ||wojewodaalarmuje.click^$all
 ||wojewodadonosi.click^$all
 ||wojewodaoglasza.click^$all
+||wojewodzkialarm.click^$all
 ||wojewodzkidonos.click^$all
 ||wojewodzkidziennik.click^$all
+||wojewodzkieifno.click^$all
 ||wojoqofo.online^$all
 ||wojs.top^$all
 ||wojspl.top^$all
 ||wok79rsmusfefptr2iftqnrk.quickmarketnow.me^$all
 ||wolaklosza.is-best.net^$all
+||wolanin-samochody.pl^$all
 ||wolekyareu.com^$all
 ||wolf.balton.sklep.pl^$all
 ||wolfsagency.com^$all
@@ -54770,6 +54825,7 @@
 ||yipsmyceli.pl^$all
 ||yisi.byseniscon.top^$all
 ||yisjhewsqc.cfolks.pl^$all
+||yiv17-4.cfd^$all
 ||yizem.stmaryjoseph.com^$all
 ||yj17app.com^$all
 ||yjilokaspol.com^$all
@@ -55106,6 +55162,7 @@
 ||zakladcob.klaudiuszmadej.pl^$all
 ||zakliczyninfo24.online^$all
 ||zakomunikowac24.click^$all
+||zakomunikowac24h.click^$all
 ||zakovat-game.site^$all
 ||zakovat-games.site^$all
 ||zakovat-viktorinos.site^$all
@@ -55271,6 +55328,7 @@
 ||zeendor-xyz.preview-domain.com^$all
 ||zefafy.com^$all
 ||zegnajbiednezycie1.site^$all
+||zegnamydziewczynke.click^$all
 ||zehsasko.com^$all
 ||zeitung-23-de.cleverapps.io^$all
 ||zeitung-43-de.cleverapps.io^$all
