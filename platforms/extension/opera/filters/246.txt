@@ -1,15 +1,15 @@
-! Checksum: 2/YP20LwKCT8Bnk0ZGxK1g
-! Diff-Path: ../patches/246/246-s-1705914420-14400.patch
+! Checksum: p4Zc5T5FyWiNZFhoJxMowg
+! Diff-Path: ../patches/246/246-s-1705928841-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.38.53
-! TimeUpdated: 2024-01-22T09:03:07+00:00
+! Version: 2.1.38.54
+! TimeUpdated: 2024-01-22T13:03:29+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: LPrkRos3QLWT1w+YE/zZHA
-! OriginalVersion: 202401220851
+! Checksum: 2TILDnmLih1PXDfJjFHKSQ
+! OriginalVersion: 202401221251
 ! Title: EasyList Polish
-! Last modified: 22 Jan 2024 08:51 UTC
+! Last modified: 22 Jan 2024 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -307,7 +307,6 @@ supernowosci24.pl##[id^="r-"]
 ||esensja.pl^*^madbooks_
 ||esensja.pl^*^skapiec-
 ||estrzelce.pl^*^*maral.
-||eswinoujscie.pl^*-noclegi-baza-
 ||eswinoujscie.pl^*^layered-popups^
 ||eswinoujscie.pl^*^radiotaxiswinoujscie.
 ||eswinoujscie.pl^*^zdjecia-slubne-
@@ -396,7 +395,6 @@ supernowosci24.pl##[id^="r-"]
 ||pfcc.eu^*^automaty.
 ||pfcc.eu^*^choryzont.
 ||pfcc.eu^*^goldrop.
-||pfcc.eu^*^mie11.
 ||plonsk24.pl^*^img_67^
 ||plonsk24.pl^*^img_72^
 ||poczta-online.com^*^globkurier.
@@ -2495,6 +2493,14 @@ wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
+e-chelmno.pl##.new-toplayer
+portalsremski.pl##.new-toplayer
+nrypin.pl##.new-toplayer
+terazstrzelno.pl##.new-toplayer
+legio24.pl##.new-toplayer
+czasbrodnicy.pl##.new-toplayer
+hej.rzeszow.pl##.new-toplayer
+wrzesnia.info.pl##[class*="banner--"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2

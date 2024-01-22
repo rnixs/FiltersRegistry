@@ -1,9 +1,9 @@
-! Checksum: mupTcMj+DQwkAwrrG0+TYg
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1705914391-14400.patch
+! Checksum: 2ZenkmdKVfAmsbqGOE1V1w
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1705928814-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.38.53
-! TimeUpdated: 2024-01-22T09:03:07+00:00
+! Version: 2.1.38.54
+! TimeUpdated: 2024-01-22T13:03:29+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -276,7 +276,6 @@ supernowosci24.pl##[id^="r-"]
 ||esensja.pl^*^madbooks_
 ||esensja.pl^*^skapiec-
 ||estrzelce.pl^*^*maral.
-||eswinoujscie.pl^*-noclegi-baza-
 ||eswinoujscie.pl^*^layered-popups^
 ||eswinoujscie.pl^*^radiotaxiswinoujscie.
 ||eswinoujscie.pl^*^zdjecia-slubne-
@@ -365,7 +364,6 @@ supernowosci24.pl##[id^="r-"]
 ||pfcc.eu^*^automaty.
 ||pfcc.eu^*^choryzont.
 ||pfcc.eu^*^goldrop.
-||pfcc.eu^*^mie11.
 ||plonsk24.pl^*^img_67^
 ||plonsk24.pl^*^img_72^
 ||poczta-online.com^*^globkurier.
@@ -2459,6 +2457,14 @@ wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
+e-chelmno.pl##.new-toplayer
+portalsremski.pl##.new-toplayer
+nrypin.pl##.new-toplayer
+terazstrzelno.pl##.new-toplayer
+legio24.pl##.new-toplayer
+czasbrodnicy.pl##.new-toplayer
+hej.rzeszow.pl##.new-toplayer
+wrzesnia.info.pl##[class*="banner--"]
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
 filmyporno.tv###playerOverlay

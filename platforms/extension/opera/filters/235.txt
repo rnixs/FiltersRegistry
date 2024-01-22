@@ -1,9 +1,9 @@
-! Checksum: jNpxQicg/nu+ulxCjj//yQ
-! Diff-Path: ../patches/235/235-s-1705338429-14400.patch
+! Checksum: OR4c50Y/EcYw4ePJ/BYLyw
+! Diff-Path: ../patches/235/235-s-1705928840-14400.patch
 ! Title: Persian Blocker
 ! Description: Filter list for blocking ads and trackers on websites in Persian.
-! Version: 2.0.4.8
-! TimeUpdated: 2024-01-15T17:03:12+00:00
+! Version: 2.0.4.9
+! TimeUpdated: 2024-01-22T13:03:15+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: PersianBlocker
@@ -2777,6 +2777,7 @@ zoomtech.org##div.zoomtech-banner
 ||eh-ra-z-se-na.org^$all
 ||ebl-hot.com^$all
 ||iranuschsahm.sbs^$all
+||seownae.space^$all
 !-------------------^ Malware/Phishing Sites ^-----------------!
 !-------------------------v Warning for video censorship sites v-----------------------!
 ! https://github.com/MasterKia/PersianBlocker/issues/119
