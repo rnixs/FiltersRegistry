@@ -1,9 +1,9 @@
-! Checksum: 59rYMz8j6eTSsA7AjGje+Q
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705962971-3600.patch
+! Checksum: syL3lJyOnF72Da4cqfq75g
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705966568-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.19.3
-! TimeUpdated: 2024-01-22T22:32:41+00:00
+! Version: 2.3.19.4
+! TimeUpdated: 2024-01-22T23:32:39+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -20133,6 +20133,7 @@ browsershots.org#@#.advert_area
 ||3e950d4353.com^
 ||3edcc83467.com^
 ||3lift.com^
+||3mhg.online^
 ||3mhg.site^
 ||3myad.com^
 ||3xbrh4rxsvbl.top^
@@ -20913,6 +20914,7 @@ browsershots.org#@#.advert_area
 ||avhxnasqeo.com^
 ||aviddoated.com^
 ||avnmjtqu.com^
+||avthelkp.net^
 ||avygpim.com^
 ||awarecatching.com^
 ||awashemeers.com^
@@ -22056,6 +22058,7 @@ browsershots.org#@#.advert_area
 ||dfearinglestp.info^
 ||dfearinglestpeople.com^
 ||dgpcdn.org^
+||dhobybailli.com^
 ||dhyanaquintes.digital^
 ||di7stero.com^
 ||dialling-abutory.com^
@@ -28419,6 +28422,7 @@ browsershots.org#@#.advert_area
 ||affinity.net^$popup
 ||aitsatho.com^$popup
 ||ammannests.com^$popup
+||avthelkp.net^$popup
 ||beforeignunlig.com^$popup
 ||betteradsystem.com^$popup
 ||bewathis.com^$popup
