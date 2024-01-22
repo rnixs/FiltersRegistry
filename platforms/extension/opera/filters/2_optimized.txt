@@ -1,9 +1,9 @@
-! Checksum: WBjOmHQ8Le59EOeARe9BQQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705944975-3600.patch
+! Checksum: 3HbjxdwwLNJNw26CRHMepg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705955762-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.19.0
-! TimeUpdated: 2024-01-22T17:32:46+00:00
+! Version: 2.3.19.1
+! TimeUpdated: 2024-01-22T20:32:52+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -22822,6 +22822,7 @@ browsershots.org#@#.advert_area
 ||drabimprovement.com^
 ||dramaticdirection.com^
 ||dratingmaject.com^
+||drawerenter.com^
 ||drawingwheels.com^
 ||drawnperink.com^
 ||dreamsofcryingf.com^
@@ -22936,6 +22937,7 @@ browsershots.org#@#.advert_area
 ||edassiumw.xyz^
 ||edingrigoguter.com^
 ||edioca.com^
+||editionoverlookadvocate.com^
 ||edkgdruoreys.com^
 ||ednewsbd.com^
 ||edodtfnyfpf.com^
@@ -25899,6 +25901,7 @@ browsershots.org#@#.advert_area
 ||pigsflintconfidentiality.com^
 ||pigtre.com^
 ||pikedhelloed.com^
+||pikrumsi.net^
 ||piloteegazy.com^
 ||pilsarde.net^
 ||pimpoopo.com^
@@ -25943,6 +25946,7 @@ browsershots.org#@#.advert_area
 ||playstream.media^
 ||playvideoclub.com^
 ||playvideodirect.com^
+||pleasedexample.com^
 ||plentifulwilling.com^
 ||plexureturp.com^
 ||plinksplanet.com^
@@ -28183,6 +28187,7 @@ browsershots.org#@#.advert_area
 ||withholdrise.com^
 ||witnessremovalsoccer.com^
 ||wizardunstablecommissioner.com^
+||wjxtbwffpykdmo.com^
 ||wkmorvzqjmwav.top^
 ||wkoeoaavammkr.top^
 ||wkpfgjbmd.com^
@@ -29038,6 +29043,7 @@ browsershots.org#@#.advert_area
 ||dooloust.net^$popup
 ||doruffleton.com^$popup
 ||doubleclick.net^$popup
+||drawerenter.com^$popup
 ||dressingdedicatedmeeting.com^$popup
 ||evaporateahead.com^$popup
 ||expdirclk.com^$popup
