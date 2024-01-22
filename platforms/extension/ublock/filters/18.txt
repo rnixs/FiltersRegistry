@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: niDGy+dSj52cg4WKWX1tnA
-! Diff-Path: ../patches/18/18-s-1705934207-3600.patch
+! Checksum: YMXJbjbq5cjY8yEFuG5ruw
+! Diff-Path: ../patches/18/18-s-1705941382-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.87
-! TimeUpdated: 2024-01-22T14:31:54+00:00
+! Version: 2.0.31.88
+! TimeUpdated: 2024-01-22T16:32:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2328,6 +2328,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+wwf.it##.bluelabs-gdpr__bar
 swiatoze.pl##+js(set-local-storage-item, cookieconsent, true)
 slovenia.info##.privacySettings
 ||tabletka.pl/ajax/getCookieConsent.php
