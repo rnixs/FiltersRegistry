@@ -1,9 +1,9 @@
-! Checksum: B2HKNYSUlA96GPBU7dRpRw
-! Diff-Path: ../patches/204/204-s-1705914394-14400.patch
+! Checksum: 4d0+zM9rfjSxqYYsJ+g4fw
+! Diff-Path: ../patches/204/204-s-1705943174-14400.patch
 ! Title: Peter Lowe's Blocklist
 ! Description: Filter that blocks ads, trackers, and other nasty things.
-! Version: 2.0.13.68
-! TimeUpdated: 2024-01-22T09:02:20+00:00
+! Version: 2.0.13.69
+! TimeUpdated: 2024-01-22T17:02:09+00:00
 ! Expires: 5 days (update frequency)
 !
 !Blocklist for use with Adblock Plus. Use the following URL to add
@@ -13,12 +13,12 @@
 !
 !For more information about this list, see: https://pgl.yoyo.org/adservers/
 !----
-!Last modified: Thu, 18 Jan 2024 07:28:57 GMT
+!Last modified: Mon, 22 Jan 2024 16:36:33 GMT
 !Homepage:      https://pgl.yoyo.org/adservers/
 !Format:        adblockplus
-!Entries:       3781
+!Entries:       3782
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
-!This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext&title=list
+!This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
 !Other formats: https://pgl.yoyo.org/adservers/formats.php
 !
@@ -2530,6 +2530,7 @@
 ||ng3.ads.warnerbros.com^
 ||nhpfvdlbjg.com^
 ||nitroclicks.com^
+||nocturnalloom.com^
 ||noiselessplough.com^
 ||nondescriptcrowd.com^
 ||nondescriptnote.com^

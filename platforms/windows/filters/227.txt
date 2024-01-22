@@ -1,14 +1,14 @@
-! Checksum: RgAFsHcLY/xZduhuzIbE2w
-! Diff-Path: ../patches/227/227-s-1705928872-14400.patch
+! Checksum: 2WFPxEIDOlX9WIuMVlS53g
+! Diff-Path: ../patches/227/227-s-1705943230-14400.patch
 ! Title: List-KR
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.42
-! TimeUpdated: 2024-01-22T13:02:57+00:00
+! Version: 2.0.17.43
+! TimeUpdated: 2024-01-22T17:02:25+00:00
 ! Expires: 12 hours (update frequency)
 !
 ! Title: List-KR for AdGuard
 ! Description: List-KR for AdGuard. Maintained by the adblock community and AdGuard.
-! OriginalVersion: 2024.0122.3
+! OriginalVersion: 2024.0122.4
 ! Expires: 1 day
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://github.com/List-KR/List-KR/issues/223
@@ -3278,6 +3278,7 @@ bera.world,sellas.ink,1412.live#%#//scriptlet('prevent-element-src-loading', 'sc
 @@||cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js$script,domain=typing.works
 !#safari_cb_affinity
 m.search.naver.com#%#//scriptlet('prevent-element-src-loading', 'script', 'ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js')
+@@||pagead2.googlesyndication.com/getconfig/$xmlhttprequest,domain=t.hi098123.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=t.hi098123.com
 @@||pagead2.googlesyndication.com/pagead/managed/$script,domain=t.hi098123.com
 ||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noopframe,domain=t.hi098123.com
