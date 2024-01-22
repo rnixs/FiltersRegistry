@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: xG0ZT4WBYJucDphXtEJi5Q
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705898193-3600.patch
+! Checksum: GpI1F7xvVkq5qEzwbpoxlQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705905377-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.88
-! TimeUpdated: 2024-01-22T04:33:14+00:00
+! Version: 2.3.18.89
+! TimeUpdated: 2024-01-22T06:32:53+00:00
 ! Expires: 5 days (update frequency)
 ||jyqekzewvyojy.top^
 ||auhpaewvbgwjr.com^
@@ -31272,14 +31272,17 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||fastmail.com^$generichide
 @@||figma.com^$generichide
 @@||github.com^$generichide
+@@||github.io^$generichide
 @@||gitlab.com^$generichide
 @@||hbomax.com^$generichide
 @@||icloud.com^$generichide
+@@||instagram.com^$generichide
 @@||instapundit.com^$generichide
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
 @@||material.angular.io^$generichide
 @@||material.io^$generichide
+@@||max.com^$generichide
 @@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
@@ -31291,7 +31294,6 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||paramountplus.com^$generichide
 @@||peacocktv.com^$generichide
 @@||photos.google.com^$generichide
-@@||play.max.com^$generichide
 @@||publicwww.com^$generichide
 @@||reddit.com^$generichide
 @@||slack.com^$generichide
@@ -31299,7 +31301,9 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||stackblitz.com^$generichide
 @@||teams.microsoft.com^$generichide
 @@||tidal.com^$generichide
+@@||tiktok.com^$generichide
 @@||tv.youtube.com^$generichide
+@@||twitch.tv^$generichide
 @@||twitter.com^$generichide
 @@||web.archive.org^$generichide
 @@||www.youtube.com^$generichide
