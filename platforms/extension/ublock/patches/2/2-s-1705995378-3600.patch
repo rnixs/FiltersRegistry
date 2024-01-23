@@ -1,0 +1,60 @@
+d2 2
+a3 2
+! Checksum: JJFVZne4BjEoxI7XTtxCyg
+! Diff-Path: ../patches/2/2-s-1706006222-3600.patch
+d6 2
+a7 2
+! Version: 2.3.19.8
+! TimeUpdated: 2024-01-23T10:33:09+00:00
+a27537 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/171300
+pluto.tv##+js(json-prune, adBreaks.*)
+pluto.tv#@#+js(xml-prune, xpath(//*[name()="Period"][.//*[name()="BaseURL" and contains(text()\,"_ad")]] | //*[name()="Period"]/@start | //*[name()="Period"]/@duration, , .mpd)
+a32689 1
+palworld.th.gl##.fixed > div.w-full > div[class]:has(> a[href="https://www.th.gl/support-me"])
+d57598 2
+d57601 2
+d57608 1
+d57614 5
+d57620 2
+a57621 1
+/microad.js
+d57643 1
+a77392 1
+||allnesskepped.com^
+a78430 1
+||avglfookdjuj.com^
+a80765 1
+||chdkxgjtwflba.com^
+a86698 1
+||gonzalodaemon.top^
+a86845 1
+||grapseex.com^
+a90389 1
+||lbbzxarfoukaf.com^
+a91136 1
+||lurgimte.com^
+a92239 1
+||monhax.com^
+a92413 1
+||mqldskirbp.com^
+a92426 1
+||mrpihtwtoprvw.com^
+a95496 1
+||pkhntvfvkho.com^
+a97376 1
+||recognisetorchfreeway.com^
+a98254 1
+||rsyawvcbmthnfr.com^
+a100871 1
+||tagmai.xyz^
+a100997 1
+||tbppfktchj.com^
+a102528 1
+||ulaiwhiw.xyz^
+a104479 1
+||wjzrzwyrrbwyz.top^
+a105534 1
+||zbdcrnfheyfu.com^
+a105786 1
+||zvbldrth.com^
