@@ -1,9 +1,9 @@
-! Checksum: dDpU3jYV8yELwyHQqqCzqQ
-! Diff-Path: ../patches/16/16-s-1706002561-3600.patch
+! Checksum: kXTiVpqql/2UG6NZkT7Qsg
+! Diff-Path: ../patches/16/16-s-1706009779-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.42.96
-! TimeUpdated: 2024-01-23T09:32:01+00:00
+! Version: 2.0.42.97
+! TimeUpdated: 2024-01-23T11:32:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -801,6 +801,8 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+futura-sciences.com##div[class^="box__Box-"][style^="min-height:"]
+trustmyscience.com##div[class*="code-block-"]:not(.code-block-default).code-block
 topsante.com##.pepsia
 clubic.com###megaban-container
 trustmyscience.com##div[id^="vsly-top-of-page-"]
