@@ -1,0 +1,12 @@
+d2 2
+a3 2
+! Checksum: oYmSaAM9Ks0+IxZDj0uc5g
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1706034999-3600.patch
+d6 2
+a7 2
+! Version: 2.0.31.96
+! TimeUpdated: 2024-01-23T18:31:59+00:00
+a1183 3
+aparts.pl#$#body { overflow: auto !important; padding-right: 0 !important; }
+aparts.pl#$#div[data-control-type="CookieInfo"] { display: none !important; }
+aparts.pl#$#div[data-control-type="CookieInfo"] ~ div.modal-backdrop { display: none !important; }
