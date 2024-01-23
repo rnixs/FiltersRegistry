@@ -1,9 +1,9 @@
-! Checksum: SveHIZ0oYO+T4VeYXpxrFw
-! Diff-Path: ../patches/214_optimized/214_optimized-s-1705928844-14400.patch
+! Checksum: iOZUMYGa6nOHtMgWZT0FHg
+! Diff-Path: ../patches/214_optimized/214_optimized-s-1705986408-14400.patch
 ! Title: ABPVN List (Optimized)
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.26.44
-! TimeUpdated: 2024-01-22T13:02:45+00:00
+! Version: 2.0.26.45
+! TimeUpdated: 2024-01-23T05:02:24+00:00
 ! Expires: 5 days (update frequency)
 .com/cpc/$script
 .com/qc/
@@ -88,7 +88,6 @@
 ||chotlo247.net^*gif
 ||chouthep.net^$script,domain=truyengihotvay.net|truyengihotqua.net|truyengihotqua.com|truyengihotnay.com
 ||clbgamesvn.com/diendan/popup/popup.js$script,~third-party
-||cmangavn.com/assets/img/pr/
 ||code.gunnymienphi.net^*.gif
 ||danketoan.com/banner/
 ||datcang.vn/images/khicon.jpg
@@ -1120,9 +1119,8 @@ znews.vn##.znews-banner
 @@||apicdn.sctvonline.vn/tenants/sctv/$xmlhttprequest,domain=sctvonline.vn
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/6.0.0/videojs-contrib-ads.js$script,domain=sctvonline.vn
 @@||cdnwebonplay.gviet.vn/public/js/player/ads/ima3.js$script,domain=vtvcab.vn
-@@||cmangavn.com/assets/img/pr/cmanga.png
 @@||contextual.media.net/dmedianet.js$domain=azrom.net
-@@||fundingchoicesmessages.google.com/img/px.gif$domain=molympiad.net|tailieungon.com|tailieuvang.com|dantri.com.vn
+@@||fundingchoicesmessages.google.com/img/px.gif$domain=molympiad.net|tailieungon.com|tailieuvang.com
 @@||googleads.g.doubleclick.net/pagead/$domain=cungthi.online|romgoc.net
 @@||googletagservices.com/tag/js/gpt.js$domain=game24h.vn
 @@||i.imgur.com/MsrDtuT.png$domain=autoitvn.com
