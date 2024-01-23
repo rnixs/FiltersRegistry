@@ -1,9 +1,9 @@
-! Checksum: zPRhC61Vs3xyGFrSgQN7vg
-! Diff-Path: ../patches/21/21-s-1705991740-3600.patch
+! Checksum: WDPST7GRTmbMd4IKLwzLTQ
+! Diff-Path: ../patches/21/21-s-1705995357-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.88
-! TimeUpdated: 2024-01-23T06:32:04+00:00
+! Version: 2.0.18.89
+! TimeUpdated: 2024-01-23T07:32:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2867,6 +2867,7 @@ yasir252.com#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySe
 !
 !
 !
+zelvia.co.jp##.p-sticky > div.container > div.p-side_sticky
 sport5.by###news > div[style="margin-bottom: 50px; margin-top: -40px;"]
 istories.media##div[class^="SocialMediaBanner"]
 abc-mart.net###___ratingbadge_0

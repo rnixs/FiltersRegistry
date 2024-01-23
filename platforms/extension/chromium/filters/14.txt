@@ -1,9 +1,9 @@
-! Checksum: WLhb6tSx+xrxsMgkP3JK8Q
-! Diff-Path: ../patches/14/14-s-1705991736-3600.patch
+! Checksum: zS8m0XMp8zAZrTRW/Z8x0A
+! Diff-Path: ../patches/14/14-s-1705995354-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.85.42
-! TimeUpdated: 2024-01-23T06:31:39+00:00
+! Version: 2.1.85.43
+! TimeUpdated: 2024-01-23T07:31:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -42742,6 +42742,7 @@ yasir252.com#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySe
 !
 !
 !
+zelvia.co.jp##.p-sticky > div.container > div.p-side_sticky
 sport5.by###news > div[style="margin-bottom: 50px; margin-top: -40px;"]
 istories.media##div[class^="SocialMediaBanner"]
 abc-mart.net###___ratingbadge_0
