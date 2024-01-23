@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: jXNYvK7j9+pCeL72Fv0wmg
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1705957610-14400.patch
+! Checksum: DYRjT6+nTOM2tFjW6Fdzrw
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1705971999-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.77
-! TimeUpdated: 2024-01-22T21:02:15+00:00
+! Version: 2.1.19.78
+! TimeUpdated: 2024-01-23T01:02:06+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -11903,6 +11903,7 @@ metro.co.uk###we-need-monies
 pornhub.com###welcome
 informer.com###wi-plugin-corner
 imcdb.org##.JustWatch
+pexels.com##.NameChangeBanner_container__GyQTG
 atlasobscura.com##.ProgrammaticMembershipCallout--taboola-member-article-container
 arstechnica.com##.ad_xrail
 worldhistory.org##.ahe-ad
@@ -11926,6 +11927,7 @@ meet.jit.si##.chrome-extension-banner
 techcrunch.com##.close-button
 phoenixnap.com##.code-block
 freemake.com,next-gen.biz##.community
+pixabay.com##.container--GV-ux
 themoscowtimes.com##.contribute-teaser-mobile
 xhamster.com,xhamster.desi##.creator-promo-bg
 timesofisrael.com##.crm-post-module
