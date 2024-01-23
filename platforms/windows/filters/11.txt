@@ -1,9 +1,9 @@
-! Checksum: 58GgnwyUCtWY2ZQU9VcmaQ
-! Diff-Path: ../patches/11/11-s-1706009832-3600.patch
+! Checksum: CvCMcqNENmc80YnyC5ZuXg
+! Diff-Path: ../patches/11/11-s-1706013410-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.52
-! TimeUpdated: 2024-01-23T11:31:29+00:00
+! Version: 2.0.48.53
+! TimeUpdated: 2024-01-23T12:31:29+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2517,6 +2517,9 @@ chip.de,gamesworld.de,fnn.jp##.Ad
 !
 ! SECTION: Regular rules
 !
+ghacks.net##.home-intro-hold-posts > a[href][data-wpel-link][class="home-posts ftd-item"]
+hentai2read.com##iframe[src*="?zoneid="]
+kotaku.com##p ~ div[class^="sc-"][class*=" "]:not(:has(> *)):has(+ .fnnahv)
 newshub.co.nz##.Billboard
 newshub.co.nz##.c-FeatureBox-tertiary
 gaytxxx.com#?#.video-content > div > div:has(> div > a[href]:contains(Advertising))

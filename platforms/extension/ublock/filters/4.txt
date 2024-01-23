@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: OqnzBpHJQTIUSncU4oGHUw
-! Diff-Path: ../patches/4/4-s-1706009815-3600.patch
+! Checksum: X5PICYEPHchl31LO7dv2TA
+! Diff-Path: ../patches/4/4-s-1706013392-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.96.51
-! TimeUpdated: 2024-01-23T11:33:25+00:00
+! Version: 2.0.96.52
+! TimeUpdated: 2024-01-23T12:33:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13832,7 +13832,6 @@ lvnews.org.ua,tenews.org.ua#$#body { overflow: visible!important; }
 !
 autonaminuty.org#$#html { overflow: visible!important; }
 autonaminuty.org#$#.mfp-bg { display: none!important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/27246
 !
 dynamo.kiev.ua#$#body { overflow: visible!important; }
 dynamo.kiev.ua#$#.fader-social { display: none!important; }
