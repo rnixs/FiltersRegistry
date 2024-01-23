@@ -1,9 +1,9 @@
-! Checksum: qVu81GFgQei/ZqtjLHpq6g
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1706000807-14400.patch
+! Checksum: Koug5ERdjMoWQyB6OBlICw
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1706015193-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.27.83
-! TimeUpdated: 2024-01-23T09:03:10+00:00
+! Version: 2.1.27.84
+! TimeUpdated: 2024-01-23T13:02:56+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -20736,6 +20736,7 @@ ada.com##.wbl72e-0-footer
 capterra.com##.welcome-banner
 inflight.pacwisp.net##.wisp-modal
 wizards.com##.wizardCookieBanner
+uvdesk.com##.wk-cookie-wrapper
 webopedia.com##.wo-consent
 wonderplugin.com##.wonderplugin-box
 payhawk.com##.wookiee-wrapper
@@ -20943,6 +20944,7 @@ wayfair.co.uk,wayfair.de,wayfair.ie##.FooterPopups
 roninwear.com,roninwear.de,roninwear.fi,roninwear.fr,roninwear.hu,roninwear.it,roninwear.pt,roninwear.us###wrapper-dx-coki
 4templates.com,epal.gg,thegoodocs.com,thewallsthotel.com##div[class^="cookie__"]
 aperitif.no,byggmesteren.as,cosmosmagazine.com,estatenyheter.no,forskning.no,forsvaretsforum.no,journalisten.no,khrono.no,m24.no,sciencenordic.com,sciencenorway.no##.adn-message
+comparethemarket.com###__tealiumGDPRcpPrefs
 1med.tv,mediasphera.ru,waldorf-expertenservice.de###cknt
 cv.ee,cv.lv,cvonline.lt##.cookie-consent-container
 brothers-graphics.com,dryrobe.com,dxracer-germany.de,lockcard.de##.cc-window-wrapper
@@ -21615,6 +21617,7 @@ inyova.at,inyova.ch,inyova.de,ccalbacenter.com,wamu.org#%#//scriptlet('ubo-rc.js
 momentive.com#%#//scriptlet('ubo-rc.js', 'cookie-enabled', '', 'stay')
 kennedyslaw.com#%#//scriptlet('ubo-rc.js', 'cookie-overlay--open', '', 'stay')
 elekta.com#%#//scriptlet('ubo-rc.js', 'cookie-banner-open', '', 'stay')
+ige.ch#%#//scriptlet('ubo-remove-class.js', 'cookie-banner-active', 'body', 'stay')
 stratasysdirect.com,stratasys.com#%#//scriptlet('ubo-rc.js', 'overlay-content', 'body', 'stay')
 werkenbijkruidvat.nl#%#//scriptlet('ubo-rc.js', 'is-active-cookiebar', 'body', 'stay')
 ghacks.net#%#//scriptlet('ubo-rc.js', 'didomi-popup-open', 'body')
@@ -21625,6 +21628,7 @@ greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 
 greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 'taunton_user_consent_analytics', 'false')
 physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'allow')
 m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice', 'true')
+omega-nuernberg.servicebund.com#%#//scriptlet('ubo-set-cookie.js', 'cookieChoice', '0')
 eboo.lu#%#//scriptlet('ubo-set-cookie.js', 'PostAnalytics', '0')
 kzvb.de#%#//scriptlet('ubo-set-cookie.js', 'cookie-optin', 'true')
 rte.ie#%#//scriptlet('ubo-set-cookie.js', 'OptanonAlertBoxClosed', 'ok')
@@ -22569,8 +22573,8 @@ technomarket.bg,digit-concept.group,u-bordeaux.fr,skaarup-fjernvarme.dk,ppk.pzu.
 1a-garten-krauss.de,floragard.de,kunzbaumschulen.ch,mauk-gartenwelt.de,rammes-gruenland.com,gartenbaumschule-becker.de,gartenwelt-dauchenbeck.de,garten-kremer.de,pflanzenkatalog.ley-baumschule.de,olerum.de,gartencenter-streb.de,1a-garten-hopp.de,1a-garten-weggler.de,1a-garten.de,app-baumschulen.de,aquatop-aachen.de,bauer-baumschulen.ch,baumschule-haid.de,baumschule-mueller.de,baumschule-plattner.de,baumschule-rosskamp.de,baumschule-stielau.de,baumschulen-suedost.at,bazle.de,beichel.com,bellandris-lueske.de,bellandris-woerlein.de,berghausener-blumentopf.de,blumen-dorn.de,blumen-eber.de,blumen-frondorf.de,blumen-osswald.com,blumen-radloff.de,blumen-tinneberg.de,blumen-wilking.de,blumenhof-pfeil.de,blumenland-halmer.de,blumenparadies-radtke.de,certech.de,dabluehichauf.de,deltaflor.de,donaumarkt-gartencenter.de,doschblumen.de,edelkamp.de,fahr-pflanzen.de,fenis-blumen.de,fgh.de,fischer-pflanzen.de,florado.de,florapark.de,florawelt.de,gaertnerei-dunst.de,gaertnerei-huebsch.de,gaertnerei-jandl.at,gaertnerei-jenkel.de,gaertnerei-otten.de,gaertnerei-petersen.de,gaertnerei-steinhilber.de,gaertnerei-sylvester.de,ganslmaier.de,garten-baumschule-woehrle.de,garten-center-spiegel.de,garten-reiter.de,garten-sauer.de,garten-vielfalt.de,gartencenter-bachmann.de,gartencenter-bergerhoff.de,gartencenter-braun.de,gartencenter-decker.de,gartencenter-erfurt.de,gartencenter-kruse.de,gartencenter-meckelburg.de,gartencenter-nickl.de,gartencenter-nordharz.de,gartencenter-schrieverhoff.de,gartencenter-stassen.de,gartengraaf.de,gartenundambiente.com,gartenvergnuegen-lochte.de,goeppert-gartencenter.de,hegemann-kwh.de,hollandpark.de,inflora.de,jensgerdes.de,kircher-collection.de,landgaertnerei-beier.de,magnus-gartenpark.de,mauch-garten.de,meineoldenburger.de,meyers-muehle.de,myrhodo.de,neiske.com,ottos-gartenparadies.de,pflanzen-breuer.de,pflanzen-fuer-unsere-gaerten.ch,pflanzenhof-plum.de,pflanzenhof-schuerg.de,pflanzenhof-vaihingen.de,pflanzenkonzepte.net,pflanzenmarkt-schlereth.de,pflanzenrichter.de,piardino.cz,piardino.eu,piardino.info,piardino.it,planterspunch.de,projektsicherheit.de,ritter-blumen.de,schley-gartencenter.de,schupp-gartencenter.de,seebauer.de,seeberger-pflanzenhof.de,selders-toni.de,shop.gaertnerei-heckel.com,sporleder-gaertnerei.de,stauden-siebler.de,stoecker-stauden.de,striebel-haus-des-gartens.de,uhlsalarymaxing.nhs.uk,urgibl.de,villaflora.de,voigt-pflanzenhof.de,weber-baumschule.de,wilsaflor.de,wingendorfer-gaertnerei.de,zanker.net,zirener-pflanzen.de#$#body,html { overflow: auto !important; position: initial !important; }
 fmk-steuer.de###wdkCookie
 fmk-steuer.de#$#body,html { overflow: auto !important; position: initial !important; }
-scholpp.es,scholpp.pl,scholpp.it,ptc.eu,scholpp.com,abo24.de,overdrive.com,wetu.com##.featherlight
-scholpp.es,scholpp.pl,scholpp.it,ptc.eu,scholpp.com,abo24.de,overdrive.com,wetu.com#%#//scriptlet('ubo-rc.js', 'with-featherlight', '', 'stay')
+scholpp.de,scholpp.es,scholpp.pl,scholpp.it,ptc.eu,scholpp.com,abo24.de,overdrive.com,wetu.com##.featherlight
+scholpp.de,scholpp.es,scholpp.pl,scholpp.it,ptc.eu,scholpp.com,abo24.de,overdrive.com,wetu.com#%#//scriptlet('ubo-rc.js', 'with-featherlight', '', 'stay')
 tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com##.popup__backdrop
 tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com##.popup
 tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -22956,6 +22960,9 @@ woolworth.de,woolworth.pl,cajamar.es,refinery29.com,th-deg.de,netkom.de,dasinves
 woolworth.de,woolworth.pl,cajamar.es,refinery29.com,th-deg.de,netkom.de,dasinvestment.com###CybotCookiebotDialogBodyUnderlay
 refinery29.com,netkom.de#$#body { overflow: auto !important; position: initial !important; }
 woolworth.de,woolworth.pl,cajamar.es,th-deg.de,dasinvestment.com#$#body,html { overflow: auto !important; position: initial !important; }
+aparts.pl###cookie-transparency-modal-main
+aparts.pl##.modal-backdrop
+aparts.pl#$#body,html { overflow: auto !important; position: initial !important; }
 petitionenligne.com,petitionenligne.be,petitionenligne.fr,petitionenligne.re,petitionenligne.ch,skrivunder.net,petitiononline.uk,petitions.nz,petizioni.com,peticao.online,skrivunder.com,peticiones.ar,petities.com,petitionen.com,petice.com,opprop.net,peticiok.com,peticiones.net,peticion.es,peticiones.pe,peticiones.mx,peticiones.cl,peticije.online,peticiones.co###cookie_consent_modal
 petitionenligne.com,petitionenligne.be,petitionenligne.fr,petitionenligne.re,petitionenligne.ch,skrivunder.net,petitiononline.uk,petitions.nz,petizioni.com,peticao.online,skrivunder.com,peticiones.ar,petities.com,petitionen.com,petice.com,opprop.net,peticiok.com,peticiones.net,peticion.es,peticiones.pe,peticiones.mx,peticiones.cl,peticije.online,peticiones.co##.modal-backdrop
 petitionenligne.com,petitionenligne.be,petitionenligne.fr,petitionenligne.re,petitionenligne.ch,skrivunder.net,petitiononline.uk,petitions.nz,petizioni.com,peticao.online,skrivunder.com,peticiones.ar,petities.com,petitionen.com,petice.com,opprop.net,peticiok.com,peticiones.net,peticion.es,peticiones.pe,peticiones.mx,peticiones.cl,peticije.online,peticiones.co#$#body,html { overflow: auto !important; position: initial !important; }
@@ -22968,10 +22975,10 @@ alphatronmarine.com,amrecycling.nl,bassant.nl,bploodsen.nl,cilgro.nl,compair-air
 mediathek.lfv-bayern.de##.cmms_cookie_consent_manager
 mediathek.lfv-bayern.de#$#body,html { height: auto !important; overflow: auto !important }
 mediathek.lfv-bayern.de#%#//scriptlet('ubo-set-cookie.js', 'privacy_hint', '1')
-lepermislibre.fr,brico.be,praxis.nl##.chakra-slide
-lepermislibre.fr,brico.be,praxis.nl##.chakra-modal__content-container
-lepermislibre.fr,brico.be,praxis.nl##.chakra-modal__overlay
-lepermislibre.fr,brico.be,praxis.nl#$#body,html { overflow: auto !important; position: initial !important; }
+lepermislibre.fr##.chakra-slide
+lepermislibre.fr##.chakra-modal__content-container
+lepermislibre.fr##.chakra-modal__overlay
+lepermislibre.fr#$#body,html { overflow: auto !important; position: initial !important; }
 owners.kia.com##.privacy-banner-contain
 owners.kia.com#$#body,html { overflow: auto !important; position: initial !important; }
 bing.com##.bnp_cookie_banner
@@ -27419,7 +27426,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||salonkee.cloud/data/other/js/cookie-consent-
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||schibsted.io^*/gdpr-bundle.js
-@@||sdk.privacy-center.org^$script,domain=20minutos.es|abc.es|allocine.fr|as.com|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|elcomercio.es|elconfidencial.com|europe1.fr|filmweb.pl|fip.fr|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|goplay.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nieuwsblad.be|numerama.com|onmeda.de|podcasts.leparisien.fr|publicsenat.fr|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rtl.be|rtl.fr|seguro.elespanol.com|sensacine.com|serially.it|sncf-connect.com|softonic.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|xataka.com
+@@||sdk.privacy-center.org^$script,domain=20minutos.es|abc.es|allocine.fr|as.com|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|edreams.net|elcomercio.es|elconfidencial.com|europe1.fr|filmweb.pl|fip.fr|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|goplay.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nieuwsblad.be|numerama.com|onmeda.de|podcasts.leparisien.fr|publicsenat.fr|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rtl.be|rtl.fr|seguro.elespanol.com|sensacine.com|serially.it|sncf-connect.com|softonic.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|xataka.com
 @@||sdrplay.com^*/pum-site-scripts.js$~third-party
 @@||se.com/myschneider/assets/onetrust.$~third-party
 @@||shop.bora-sauna.de/components/cookieconsent2/build/cookieconsent.min.js

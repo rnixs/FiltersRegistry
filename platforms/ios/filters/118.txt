@@ -1,14 +1,14 @@
-! Checksum: ehdZXvIHo3k/50bqpfDIsA
-! Diff-Path: ../patches/118/118-s-1706000835-14400.patch
+! Checksum: G1vWHPxOjKPt4Osejiwelw
+! Diff-Path: ../patches/118/118-s-1706015218-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.20.84
-! TimeUpdated: 2024-01-23T09:02:13+00:00
+! Version: 2.1.20.85
+! TimeUpdated: 2024-01-23T13:01:54+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202401230522
+! OriginalVersion: 202401231247
 ! Title: EasyPrivacy
-! Last modified: 23 Jan 2024 05:22 UTC
+! Last modified: 23 Jan 2024 12:47 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -42871,6 +42871,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cue.search.naver.com/api/*/log/
 ||data-logdelivery.wconcept.co.kr^
 ||daumcdn.net^*/awsa.js
+||dpg.danawa.com/*/rest/*getStampEvent
 ||gmarket.co.kr/js/common/uuid.js
 ||hits.zdnet.co.kr^
 ||jdsports.co.kr/collect.php

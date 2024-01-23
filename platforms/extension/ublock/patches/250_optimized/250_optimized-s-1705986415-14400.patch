@@ -1,0 +1,12 @@
+d2 2
+a3 2
+! Checksum: O8qFY0Fozk/d/cin9R4JZw
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1706015217-14400.patch
+d6 2
+a7 2
+! Version: 2.0.13.11
+! TimeUpdated: 2024-01-23T13:03:12+00:00
+a2787 3
+||login.yahoo.com^$document,removeparam=.src
+||login.yahoo.com^$document,removeparam=pspid
+||login.yahoo.com^$document,removeparam=activity

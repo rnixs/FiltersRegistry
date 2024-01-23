@@ -1,0 +1,16 @@
+d1 2
+a2 2
+! Checksum: I9Mzb5nOQJD7GNYffkEdXg
+! Diff-Path: ../patches/251/251-s-1706015205-14400.patch
+d5 2
+a6 2
+! Version: 2.0.7.30
+! TimeUpdated: 2024-01-23T13:03:13+00:00
+d10 1
+a10 1
+! OriginalVersion: 23January2024v1
+a3753 4
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-8219387
+||login.yahoo.com^$document,removeparam=.src
+||login.yahoo.com^$document,removeparam=pspid
+||login.yahoo.com^$document,removeparam=activity

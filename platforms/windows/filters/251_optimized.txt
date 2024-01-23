@@ -1,9 +1,9 @@
-! Checksum: zYKIMqhX/zD9uhHzR5iG0A
-! Diff-Path: ../patches/251_optimized/251_optimized-s-1705727268-14400.patch
+! Checksum: H64GRxZdHw1wl2KfYzIdhw
+! Diff-Path: ../patches/251_optimized/251_optimized-s-1706015240-14400.patch
 ! Title: Legitimate URL Shortener (Optimized)
 ! Description: Automatically removes unnecessary '$' and '&' values from URLs, making them easier to copy from the URL bar and pasting elsewhere as links.
-! Version: 2.0.7.29
-! TimeUpdated: 2024-01-20T05:03:51+00:00
+! Version: 2.0.7.30
+! TimeUpdated: 2024-01-23T13:03:13+00:00
 ! Expires: 12 hours (update frequency)
 $removeparam=yclid
 $removeparam=gclid
@@ -2524,6 +2524,9 @@ $document,removeparam=ttclid
 ||datareportal.com^$document,removeparam=rq
 ||monsterhunternow.com^$document,removeparam=source_caller
 $document,removeparam=af_xp
+||login.yahoo.com^$document,removeparam=.src
+||login.yahoo.com^$document,removeparam=pspid
+||login.yahoo.com^$document,removeparam=activity
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
