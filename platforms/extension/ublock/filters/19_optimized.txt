@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 85H1uPYQ8qey+4pePEdlow
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1706024205-3600.patch
+! Checksum: wbsGK5ssrNwhcBuLCQAS7w
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706031374-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.49
-! TimeUpdated: 2024-01-23T15:32:12+00:00
+! Version: 2.0.30.50
+! TimeUpdated: 2024-01-23T17:32:01+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -4960,6 +4960,7 @@ ndtv.com##.overlay__side-nav
 mk.ru##.bubble-push
 gadgets.ndtv.com,gadgets360.com###__notify
 vesti.ru###push-notification-pop-up
+ify.ac,milliyet.com.tr###push
 turkuvazradyolar.com,anews.com.tr,yeniasir.com.tr,aspor.com.tr,fikriyat.com,ahaber.com.tr,sabah.com.tr##.notBar
 chitai-gorod.ru,firstwefeast.com,complex.com,ifunny.co,teatroporno.com,antena3.ro,webtekno.com##.push-notification
 inside-digital.de,sanalbasin.com##.push-wrapper

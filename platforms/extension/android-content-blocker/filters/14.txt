@@ -1,9 +1,9 @@
-! Checksum: Zj3bPjWM3QTio1aPoTttkg
-! Diff-Path: ../patches/14/14-s-1706027913-3600.patch
+! Checksum: B7Zs6eykbDc6fzzwsIXz/A
+! Diff-Path: ../patches/14/14-s-1706031347-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.85.50
-! TimeUpdated: 2024-01-23T16:32:40+00:00
+! Version: 2.1.85.51
+! TimeUpdated: 2024-01-23T17:31:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -27699,7 +27699,7 @@ bigpicture.ru###bigpicture-webpush-widget
 fishki.net###fishki-prompt-widget
 superzarabotki.com###jeapie-prompt-widget
 indiatimes.com###my_web_push_app_box_confirm
-milliyet.com.tr###push
+ify.ac,milliyet.com.tr###push
 atv.com.tr###push-notification
 indiatimes.com###pushSec
 24tv.ua###pushSubscribeModal
