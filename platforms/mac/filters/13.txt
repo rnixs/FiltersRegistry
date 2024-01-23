@@ -1,9 +1,9 @@
-! Checksum: xygBJnmKUnu54Bc9+a0Syg
-! Diff-Path: ../patches/13/13-s-1706038580-3600.patch
+! Checksum: eOk0hMMHaK+7BPxEfuWrqQ
+! Diff-Path: ../patches/13/13-s-1706042189-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.49.64
-! TimeUpdated: 2024-01-23T19:31:30+00:00
+! Version: 2.0.49.65
+! TimeUpdated: 2024-01-23T20:31:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1865,6 +1865,7 @@ turkcealtyazi.org#$#body { background-image: none !important; }
 ! Bad: .org/ads/$domain=example.org (for instance, should be in speficic.txt)
 !
 !
+/reklam-$image,script
 /reklamresimleri/*
 /728x90reklam.
 .cfd/banner/

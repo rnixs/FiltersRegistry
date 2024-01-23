@@ -1,9 +1,9 @@
-! Checksum: zwZmEwqhSO+yX8NpFPRssg
-! Diff-Path: ../patches/13_optimized/13_optimized-s-1706038544-3600.patch
+! Checksum: YOWbFNcp35k/9i3XZ90TMA
+! Diff-Path: ../patches/13_optimized/13_optimized-s-1706042151-3600.patch
 ! Title: AdGuard Turkish filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.49.64
-! TimeUpdated: 2024-01-23T19:31:30+00:00
+! Version: 2.0.49.65
+! TimeUpdated: 2024-01-23T20:31:35+00:00
 ! Expires: 5 days (update frequency)
 ||srvd2204.com^
 ||cryptosmoke.care^$third-party
@@ -1090,6 +1090,7 @@ jetfilmizle.*#$#body { background-image: none !important; }
 dizilab9.*,dizilab8.*#$#body { background-image: none !important; }
 filmizletv.*#$#body { background-image: none !important; }
 turkcealtyazi.org#$#body { background-image: none !important; }
+/reklam-$image,script
 /reklamresimleri/*
 /728x90reklam.
 .cfd/banner/

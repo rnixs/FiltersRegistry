@@ -1,9 +1,9 @@
-! Checksum: ZFF2XRbPLrnU9gFFxNz/qA
-! Diff-Path: ../patches/18/18-s-1706034965-3600.patch
+! Checksum: cWVIj8Qa7D0MNiSUGtS9zw
+! Diff-Path: ../patches/18/18-s-1706042152-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.96
-! TimeUpdated: 2024-01-23T18:31:59+00:00
+! Version: 2.0.31.97
+! TimeUpdated: 2024-01-23T20:32:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2320,6 +2320,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+korusconsulting.ru##.cookieConfirm
 aparts.pl#$#body { overflow: auto !important; padding-right: 0 !important; }
 aparts.pl#$#div[data-control-type="CookieInfo"] { display: none !important; }
 aparts.pl#$#div[data-control-type="CookieInfo"] ~ div.modal-backdrop { display: none !important; }
@@ -9654,7 +9655,7 @@ huawei.com##.banner_box
 jandenul.com###calibr8-cookie-compliance
 tickets.com.tr,tickets.ua,tickets.ee##.app-cookies
 biosis.com.tr,incehesap.com##.cerez-politikasi-container
-blockchain.com##div[class^="GdprBanner_"]
+app.autoenhance.ai,blockchain.com##div[class^="GdprBanner_"]
 change.org###app > header.table-row > div[role="alert"][class^="sc-"]
 tweaktown.com##.cookie-prompt
 projekt-gesund-leben.de##[class^="pixelmate-"]

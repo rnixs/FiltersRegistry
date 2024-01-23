@@ -1,9 +1,9 @@
-! Checksum: kc76G8m5r5uETiKDOxDOAQ
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1706035021-3600.patch
+! Checksum: JIRjZVShvr1kF5BLPKGGlA
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1706042198-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.96.55
-! TimeUpdated: 2024-01-23T18:33:01+00:00
+! Version: 2.0.96.56
+! TimeUpdated: 2024-01-23T20:33:01+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -65,7 +65,7 @@
 ||facebook.com/*/plugins/$domain=~facebook.com
 ||facebook.com/connect/connect.php$third-party
 ||facebook.com/method/links.getStats$third-party
-||facebook.com/plugins/$domain=~facebook.com|~freepresets.com
+||facebook.com/plugins/$domain=~facebook.com
 ||facebook.com/sharer.php$third-party,domain=~speedtest.net
 ||facebook.com/sharer/sharer.php$third-party
 ||facebook.com/tr/?
