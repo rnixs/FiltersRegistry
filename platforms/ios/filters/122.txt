@@ -1,15 +1,15 @@
-! Checksum: xhoSF+2d6ws2+8IWliqwBw
-! Diff-Path: ../patches/122/122-s-1705986418-14400.patch
+! Checksum: wBi7xPrCn8NcDKs383tdOQ
+! Diff-Path: ../patches/122/122-s-1706000836-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.79
-! TimeUpdated: 2024-01-23T05:02:15+00:00
+! Version: 2.1.19.80
+! TimeUpdated: 2024-01-23T09:02:25+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: cMZoFUyyvK+9V1iV/ImN5A
-! OriginalVersion: 202401230440
+! Checksum: A5oFaLQ067G/rgfgySsKPA
+! OriginalVersion: 202401230840
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-23 04:40 UTC
+! Last modified: 2024-01-23 08:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -38437,6 +38437,7 @@ yousign.com###cookie-consent-app
 store.azeron.eu###cookie-consent-background
 github.com###cookie-consent-banner
 store.azeron.eu###cookie-consent-foreground
+givingwhatwecan.org###cookie-consent-modal
 laspalmerasapartments.com###cookie-consent-notification
 ecigarettedirect.co.uk###cookie-message-slide-in
 renewcanceltv.com###cookie-notice
@@ -41113,7 +41114,7 @@ icko-apiculture.com##.amgdprcookie-modal-template
 !! .bottom-0.position-fixed
 carsharingi.ru,clipartsfree.net,nmsu.edu,tech-america.com,waracle.com##.bottom-0.position-fixed
 !! .bottom-0.right-0
-educationendowmentfoundation.org.uk,givingwhatwecan.org,rshb.ru##.bottom-0.right-0
+educationendowmentfoundation.org.uk,rshb.ru##.bottom-0.right-0
 !! .bottom-0.relative
 onassis.org##.bottom-0.relative
 !! .bottom-0.fixed
@@ -42041,7 +42042,7 @@ pumatools.hu#%#//scriptlet('ubo-set-cookie.js', 'cookie_level', '2')
 ici.tou.tv#%#//scriptlet('ubo-set-cookie.js', 'toutv_cookies_usage_production', '1')
 crunchyroll.com#%#//scriptlet('ubo-set-cookie.js', '_evidon_suppress_notification_cookie', '1')
 emr.ch#%#//scriptlet('ubo-set-cookie.js', 'EMR-CookieConsent-Advertising', '0')
-clipchamp.com#%#//scriptlet('ubo-set-cookie.js', 'acceptCookies', 'true')
+mayflex.com,clipchamp.com#%#//scriptlet('ubo-set-cookie.js', 'acceptCookies', 'true')
 ebikelohr.de#%#//scriptlet('ubo-set-cookie.js', 'COOKIES_NEWACCEPTED', '1')
 eurosender.com#%#//scriptlet('ubo-set-cookie.js', 'es_cookie_settings_closed', '1')
 melectronics.ch#%#//scriptlet('ubo-set-cookie.js', 'cookie-banner-acceptance-state', 'true')
@@ -48624,7 +48625,7 @@ pumatools.hu#%#//scriptlet('ubo-set-cookie.js', 'cookie_level', '2')
 ici.tou.tv#%#//scriptlet('ubo-set-cookie.js', 'toutv_cookies_usage_production', '1')
 crunchyroll.com#%#//scriptlet('ubo-set-cookie.js', '_evidon_suppress_notification_cookie', '1')
 emr.ch#%#//scriptlet('ubo-set-cookie.js', 'EMR-CookieConsent-Advertising', '0')
-clipchamp.com#%#//scriptlet('ubo-set-cookie.js', 'acceptCookies', 'true')
+mayflex.com,clipchamp.com#%#//scriptlet('ubo-set-cookie.js', 'acceptCookies', 'true')
 ebikelohr.de#%#//scriptlet('ubo-set-cookie.js', 'COOKIES_NEWACCEPTED', '1')
 eurosender.com#%#//scriptlet('ubo-set-cookie.js', 'es_cookie_settings_closed', '1')
 melectronics.ch#%#//scriptlet('ubo-set-cookie.js', 'cookie-banner-acceptance-state', 'true')
