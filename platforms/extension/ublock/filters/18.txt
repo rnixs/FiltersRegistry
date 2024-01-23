@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ETlMY7uUX9GKVJdgEFuQTg
-! Diff-Path: ../patches/18/18-s-1706020598-3600.patch
+! Checksum: vgprWbzwDV80AolEHme+KQ
+! Diff-Path: ../patches/18/18-s-1706027946-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.31.94
-! TimeUpdated: 2024-01-23T14:31:57+00:00
+! Version: 2.0.31.95
+! TimeUpdated: 2024-01-23T16:32:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2328,6 +2328,9 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+amanvpn.com##.acc
+bonduelle.ru#$##teleported { display: none !important; }
+bonduelle.ru#$#body { overflow: auto !important; padding-right: 0 !important; }
 ancor.ru##.b-cookieDialog
 makc.ru###bottom-notification
 kerrynotes.com##.sgcc-cookies
@@ -11510,7 +11513,7 @@ schellgames.com##.privacy__popup
 svd.se##.psi-parent[role="alertdialog"][aria-label="Vi respekterar din integritet"]
 sowafinansowa.pl##.r-cookie-bar
 ubezpieczenia.fly4free.pl,rankomat.pl##.rank-cookie-bar
-wowplus.net,klaas.com,jolla.com,sailfishos.org##.rcc-panel.group
+alliptvlinks.com,wowplus.net,klaas.com,jolla.com,sailfishos.org##.rcc-panel.group
 99rent.pl##.region-rodo-info
 net-s.pl##.regulations
 zoomalia.de,mister-auto.*,iliad.it##.rgpd-banner
@@ -14090,6 +14093,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171356
+@@||cookiebot.com^$domain=cinemas.nos.pt
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171099
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171273
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171259
