@@ -1,9 +1,9 @@
-! Checksum: mS8BYhJR6t4NEo57TrgpvA
-! Diff-Path: ../patches/231_optimized/231_optimized-s-1706101575-14400.patch
+! Checksum: fTqVvmTsGZmFI5/SwsuJww
+! Diff-Path: ../patches/231_optimized/231_optimized-s-1706116185-14400.patch
 ! Title: EasyList Spanish (Optimized)
 ! Description: Additional filter list for websites in Spanish.
-! Version: 2.1.42.60
-! TimeUpdated: 2024-01-24T13:02:38+00:00
+! Version: 2.1.42.61
+! TimeUpdated: 2024-01-24T17:06:01+00:00
 ! Expires: 5 days (update frequency)
 /banner-publicidad-
 /234x60.php
@@ -1219,7 +1219,7 @@ $script,third-party,domain=xtremostereo.net
 ||superligatv.com/js/jquery.blockBlock.js
 ||todopolicia.com/wp-content/uploads/$script
 ||truepush.com^$third-party,domain=animeyt.es
-$popup,third-party,domain=cinecalidad.com.mx|cinetux.nu|cliver.pro|cuevana.pro
+$popup,third-party,domain=cinecalidad.com.mx|cinetux.nu|cliver.pro|cuevana.pro|seriesgod.com
 ||minube.click^$popup
 $popup,third-party,domain=embedsito.com|fembad.net|fembed.com|feurl.com|hqq.to|hqq.tv|powvibeo.me|seriesyonkis.io|streampiay.me|streamta.pe|streamtape.cc|streamtape.net|streamtape.site|streamz.vg|strtape.cloud|supergoku.com|tarjetarojatvhd.me|upvid.net|uqload.com|yourupload.com|zenkimex.com.mx
 .bid/p.php?$popup,domain=pctfenix.com
@@ -1488,6 +1488,7 @@ debate.com.mx,elimparcial.com##.coverless
 meteored.cl,meteored.com.ar,meteored.mx,tiempo.com##.creatividad
 cronica.com.ar##.css-svo7lo
 ellatinodehoy.com##.custom-html-widget
+derechouned.com##.customAdvertise_Campaign
 flashscore.co,flashscore.es##.detailLeaderboard
 libertaddigital.com,libremercado.com##.dfp
 lateja.cr,nacion.com##.dfp-container
