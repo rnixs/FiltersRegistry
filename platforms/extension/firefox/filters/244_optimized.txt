@@ -1,9 +1,9 @@
-! Checksum: Q5JtBk3Wur/olvnpI5WkYQ
-! Diff-Path: ../patches/244_optimized/244_optimized-s-1705856827-14400.patch
+! Checksum: wOMGnDyjGwzprzhTxFoQ0Q
+! Diff-Path: ../patches/244_optimized/244_optimized-s-1706087186-14400.patch
 ! Title: YousList (Optimized)
 ! Description: Filter that blocks ads on Korean sites.
-! Version: 2.0.10.36
-! TimeUpdated: 2024-01-21T17:03:34+00:00
+! Version: 2.0.10.37
+! TimeUpdated: 2024-01-24T09:02:52+00:00
 ! Expires: 5 days (update frequency)
 ##amp-ad
 ##amp-embed.ad_cnt
@@ -1419,8 +1419,7 @@
 ||ilbe.com/m.layouts/default_modify/mobileTopAd.js^$domain=ilbe.com
 ||ilbe.com/myads/openX_passback*.html^$domain=ilbe.com
 ||ilikeview.com/aclk^
-||imaeil.com/image/banner/ad*.swf^
-||imaeil.com/wec/
+||imaeil.com/upload/ads/$domain=imaeil.com
 ||image.ajunews.com/content/ads/$domain=ajunews.com|m.ajunews.com
 ||image.cauly.co.kr/websdk/common/lasted/ads.js^
 ||image.cauly.co.kr/websdk/multi_mini_ads/ads.js^
@@ -3940,6 +3939,9 @@ ilyo.co.kr##div.ad_topArea
 ilyo.co.kr##div.eventBnr
 ilyo.co.kr##div[class^="ad_skyscraper_"]
 ilyo.co.kr##div[data-widget_id="57wBw1o8"]
+imaeil.com##div.inner>div[style="height:250px; text-align: center;"]
+imaeil.com##div.wb_left
+imaeil.com##div.wcms_banner
 imdb.com##div#promoted-partner-bar
 imdb.com##div.cornerstone_slot
 imgur.com##div.ad-slot
@@ -4850,6 +4852,7 @@ m.ilyo.co.kr##div.news_content>div[style="margin:10px auto;text-align:center;hei
 m.ilyo.co.kr##div[data-widget_id="1XDQwgoe"]
 m.ilyo.co.kr##div[data-widget_id="goPxmYoQ"]
 m.ilyosisa.co.kr##section.advertisment
+m.imaeil.com##div.art_mid_ad
 m.imnews.busan.com,m.implay.busan.com##body>div[style="text-align:center;padding:10px; 0px 10px 0px;border-top: 8px solid #d9d9d9;"]
 m.imnews.busan.com,m.implay.busan.com##body>div[style="text-align:center;width:100%;position:fixed;bottom:0;background:transparent;z-index:2"]
 m.imnews.busan.com,m.implay.busan.com##div.desc>div[style="text-align:center;padding:10px 0px 10px 0px;"]
@@ -5570,9 +5573,6 @@ mlbpark.donga.com##div.view_adtop
 mlbpark.donga.com##ins#sellermill
 mlbpark.donga.com##ul.sub_lists_today>li.items:nth-child(6)::before
 mmboxru.net##div.banner
-mnews.imaeil.com##div#bottom-sticky
-mnews.imaeil.com##div.art_mid_ad
-mnews.imaeil.com##ins.adsbyaiinad
 mnews.jtbc.co.kr##div#player_bottom_ad
 mnews.jtbc.co.kr##div.ad_highlight_270
 mnews.jtbc.co.kr##div.ad_text_2line
