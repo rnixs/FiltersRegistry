@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Hu2jkaCBai8piQKhWgPMGA
-! Diff-Path: ../patches/16/16-s-1706045761-3600.patch
+! Checksum: 4F/Q3RfoE7Y0i2cCM+fPrw
+! Diff-Path: ../patches/16/16-s-1706085384-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.42.98
-! TimeUpdated: 2024-01-23T21:31:51+00:00
+! Version: 2.0.42.99
+! TimeUpdated: 2024-01-24T08:31:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -860,7 +860,7 @@ jeune-gay.fr##.under-video-block > div:has( > div[class] > a[href][target="_blan
 jeune-gay.fr##.yellow
 jeune-gay.fr##.happy-mob
 commentcamarche.net##.sticky-zone
-commentcamarche.com,commentcamarche.net,journaldunet.com##div[id^="ctn_"]
+commentcamarche.com,commentcamarche.net,journaldunet.com##div[id^="ctn_"]:not(:has(#content_ctn))
 jeux-gratuits.com##div[class^="placeholder_"]
 la-croix.com##.banner-offer__wrapper
 science-et-vie.com###top_intro_article > .viously-player

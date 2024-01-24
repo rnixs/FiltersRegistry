@@ -1,9 +1,9 @@
-! Checksum: jVTl/+55+K7+qDX5W2ewbg
-! Diff-Path: ../patches/16/16-s-1706045739-3600.patch
+! Checksum: /P7WCk50janpPYSvv/967g
+! Diff-Path: ../patches/16/16-s-1706085355-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.42.98
-! TimeUpdated: 2024-01-23T21:31:51+00:00
+! Version: 2.0.42.99
+! TimeUpdated: 2024-01-24T08:31:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -696,7 +696,7 @@ prod-player.tf1.fr,tf1.fr,tf1info.fr#@#.carbon-ads
 !--------------------------------------!
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170093
-linternaute.com,journaldunet.com#$#@media (min-width: 1024px) { .layout--offcanvas { top: 100px !important; } }
+linternaute.com,journaldunet.com#$#@media (min-width: 1024px) { html > body .layout--offcanvas:not(#style_important) { top: 100px !important; } }
 ! systemed.fr - blank space at the top
 systemed.fr#$#html >body.hasHabillage { padding-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166761
@@ -816,7 +816,6 @@ jeune-gay.fr##.happy-sidebar
 jeune-gay.fr##.yellow
 jeune-gay.fr##.happy-mob
 commentcamarche.net##.sticky-zone
-commentcamarche.com,commentcamarche.net,journaldunet.com##div[id^="ctn_"]
 jeux-gratuits.com##div[class^="placeholder_"]
 la-croix.com##.banner-offer__wrapper
 science-et-vie.com###top_intro_article > .viously-player
