@@ -1,9 +1,9 @@
-! Checksum: S9LB9nSu8z46/98USyU7jg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1706103350-3600.patch
+! Checksum: hB7WmrPDigilIQJWiswazw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1706106958-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.19.29
-! TimeUpdated: 2024-01-24T13:32:46+00:00
+! Version: 2.3.19.30
+! TimeUpdated: 2024-01-24T14:32:41+00:00
 ! Expires: 5 days (update frequency)
 ||publisher1st.com^$third-party
 ||avglfookdjuj.com^
@@ -15450,8 +15450,6 @@ king-shoot.tv#@##ads_top
 @@||webassistance.eu^$generichide
 !+ NOT_OPTIMIZED
 @@||wehellas.gr^$generichide
-!+ NOT_OPTIMIZED
-@@||xbox360torrent.com^$generichide
 !+ NOT_OPTIMIZED
 @@||yoututosjeff.es^$generichide
 !+ NOT_OPTIMIZED
