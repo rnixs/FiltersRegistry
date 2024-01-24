@@ -1,10 +1,11 @@
-! Checksum: 4LA6WY7jqI+AQ/NNPv5N9Q
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1706096222-3600.patch
+! Checksum: RZ6/0n1R8u8Kp4OcllVv2w
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1706099812-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.6
-! TimeUpdated: 2024-01-24T11:33:15+00:00
+! Version: 2.0.88.7
+! TimeUpdated: 2024-01-24T12:32:41+00:00
 ! Expires: 5 days (update frequency)
+.com/services/?id=$script,third-party
 /resources/js/sticker.js?$third-party
 .xml?v=3.0&external_subid=
 /esh-kichum.js
@@ -585,6 +586,9 @@ ucoz.ru/informer/
 ##div[id^="smi2adblock"]
 ##div[id^="smi_teaser_"]
 ##noindex > div[onmouseout]
+||ippscriptbear.com^
+||roomrentpast.com^
+||builthuosefor.com^
 ||hciaicdbiahibedhae.world^$third-party
 ||gomtdata.com^$third-party
 ||ad2the.net^
