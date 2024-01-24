@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 4F/Q3RfoE7Y0i2cCM+fPrw
-! Diff-Path: ../patches/16/16-s-1706085384-3600.patch
+! Checksum: cLZUGNWW4zTyKNM0toqs9A
+! Diff-Path: ../patches/16/16-s-1706088970-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.42.99
-! TimeUpdated: 2024-01-24T08:31:58+00:00
+! Version: 2.0.43.0
+! TimeUpdated: 2024-01-24T09:31:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -842,6 +842,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+lessentiel.lu##div[class^="ContentPage_insideFullTopPlaceholder_"]
 topito.com##.cow-leaderboard-wrapper
 topito.com##.cow
 futura-sciences.com##div[class^="box__Box-"][style^="min-height:"]

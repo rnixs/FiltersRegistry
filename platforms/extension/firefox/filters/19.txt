@@ -1,9 +1,9 @@
-! Checksum: H0mc8jBwC6OLBAGBjIpTNw
-! Diff-Path: ../patches/19/19-s-1706085370-3600.patch
+! Checksum: z4OMAWK+/NdLXL4fp4wvDw
+! Diff-Path: ../patches/19/19-s-1706088956-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.52
-! TimeUpdated: 2024-01-24T08:32:04+00:00
+! Version: 2.0.30.53
+! TimeUpdated: 2024-01-24T09:31:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12135,6 +12135,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+rprealtyplus.com##.theiaStickySidebar > div.row:has(h4.category-heading + div[class] #semail_err)
+rprealtyplus.com##.theiaStickySidebar > div.row:has(h4.category-heading + div[class] #semail_err) + hr
 olivemagazine.com##div[data-elementor-type="wp-page"] > section:has(> div.elementor-container > div[data-element_type] > div.elementor-widget-wrap > div[data-widget_type="wp-widget-newsletter-sign-up.default"])
 mobills.com.br#?#aside:has(> div.headline > h2:contains(Newsletter))
 mobills.com.br##.bloco-news
