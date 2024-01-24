@@ -1,9 +1,9 @@
-! Checksum: 0ge+NNTaqeA5x3+BACP1Uw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1706124959-3600.patch
+! Checksum: XV1OL43aFw8t1aOlNha3qw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1706135759-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.19.34
-! TimeUpdated: 2024-01-24T19:32:41+00:00
+! Version: 2.3.19.35
+! TimeUpdated: 2024-01-24T22:32:40+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -28049,6 +28049,7 @@ browsershots.org#@#.advert_area
 ||anjosmryofa.com^
 ||ankkdgursk.com^
 ||anlytics.co^
+||anmgaxrujfru.com^
 ||anncmq.com^
 ||anncquyaxns.com^
 ||announceproposition.com^
@@ -30204,6 +30205,7 @@ browsershots.org#@#.advert_area
 ||ekwpqoql.xyz^
 ||elaifmeauswvlki.xyz^
 ||elasticad.net^
+||elcfdhbxyb.com^
 ||eleavers.com^
 ||electranowel.com^
 ||elgotakpgo.xyz^
@@ -30610,6 +30612,7 @@ browsershots.org#@#.advert_area
 ||fksnk.com^
 ||fktbwntpfoh.com^
 ||fkugzbngtla.com^
+||fkwkzlb.com^
 ||fkyhqtfiopfit.com^
 ||flagmantensity.com^
 ||flairadscpc.com^
@@ -31184,7 +31187,6 @@ browsershots.org#@#.advert_area
 ||greeter.me^
 ||greewepi.net^
 ||grefutiwhe.com^
-||gregarpor-roundens-i-276.site^
 ||gregauunaided.com^
 ||grehtrsan.com^
 ||grelrairg.com^
@@ -31606,6 +31608,7 @@ browsershots.org#@#.advert_area
 ||hrotonafk.xyz^
 ||hrrlyfdnxlzxe.com^
 ||hrtvluy.com^
+||hsdaknd.com^
 ||hsmrabnj.com^
 ||hssitplsoq.com^
 ||htdvt.com^
@@ -37864,6 +37867,7 @@ browsershots.org#@#.advert_area
 ||tropbikewall.art^$popup
 ||tsyndicate.com^$popup
 ||twinklecourseinvade.com^$popup
+||ugeewhee.xyz^$popup
 ||unskilfulwalkerpolitician.com^$popup
 ||vsucocesisful.com^$popup
 ||vyebzzbovvzvl.top^$popup
@@ -37944,6 +37948,7 @@ browsershots.org#@#.advert_area
 ||1661795914.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
 ||1692923857.rsc.cdn77.org^
+||1818027024.rsc.cdn77.org^
 ||1915832424.rsc.cdn77.org^
 ||1987292064.rsc.cdn77.org^
 ||360playvid.com^$third-party
