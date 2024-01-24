@@ -1,9 +1,9 @@
-! Checksum: 20K+TA31FGIg23djZGhvlA
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1706101583-14400.patch
+! Checksum: BWr1813ZgdJTPhZmb850Ag
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1706130385-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.56
-! TimeUpdated: 2024-01-24T13:01:58+00:00
+! Version: 2.0.18.57
+! TimeUpdated: 2024-01-24T21:02:03+00:00
 ! Expires: 5 days (update frequency)
 .id^*/ads_$domain=~cartalog.id
 .id^*/adv-$domain=~adv.kompas.id
@@ -1303,13 +1303,13 @@ _TimAds_$image
 /^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$document,subdocument,popup
 /\/assets\/jquery\/jquery-\d\.\d\.(?:\d\.)?min\.js\?(?:v=2)?&?type=(?:adult|mainstream)$/$~third-party,script
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$third-party,match-case,script,xmlhttprequest
-/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$third-party,script,xmlhttprequest,redirect=noopjs
+/\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{4,9}\.js$/$script
+/^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$third-party,script
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}(?:\?[_v]=\d+)?$/$third-party,match-case,script,redirect=noopjs
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$third-party,subdocument,match-case,popup,xmlhttprequest
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$third-party,subdocument,match-case,popup,xmlhttprequest
-/\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{4,9}\.js$/$script
-/^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6}$/$third-party,script,xmlhttprequest
-/^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$third-party,script
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$third-party,script,xmlhttprequest,redirect=noopjs
+/^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6,7}$/$third-party,script,xmlhttprequest
 /^https?:\/\/[0-9a-f]{50,}\.s3\.amazonaws\.com\/[0-9a-f]{10}$/$third-party,xmlhttprequest
 /^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{50,}\/[0-9a-f]{10}$/$third-party,xmlhttprequest
 .top/event|$third-party,xmlhttprequest
@@ -1998,6 +1998,7 @@ _promohariini.$image,domain=ruparupa.com
 ||thejakartapost.com^*/banner-$image
 ||timur-online.com^*/iklan-$image
 ||tintahijau.com/images/banners/$image
+||tintahijau.com^*/banner-$image
 ||tiradar.id^*/banner-$image
 ||titiknol.co.id^*/banner/$image
 ||tmcblog.com^*/ad-$image
@@ -4167,7 +4168,7 @@ indojavstream.com##.box_item_ads_popup
 gocrot.org##.gocrot_i_b_2
 omahbokep.co##.happy-header
 seks69.com##.idblog-floatbanner
-nontonhentai.top,pascol.fun,skandalpedia.mom##.kln
+nontonhentai.top,pascol.fun,skandalpedia.mom,starjepang.com##.kln
 nekopoi.care##.leftarea
 nekopoi.care##.mobileadsbottom
 nekopoi.care##.smartbanner

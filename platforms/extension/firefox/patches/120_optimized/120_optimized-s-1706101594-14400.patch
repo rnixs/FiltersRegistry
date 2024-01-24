@@ -1,0 +1,21 @@
+d1 2
+a2 2
+! Checksum: eIF8F2sssoTMa6wLYdiHvA
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1706130395-14400.patch
+d5 2
+a6 2
+! Version: 2.0.18.57
+! TimeUpdated: 2024-01-24T21:02:03+00:00
+d1306 1
+a1306 2
+/\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{4,9}\.js$/$script
+/^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$third-party,script
+d1310 3
+a1312 2
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$third-party,script,xmlhttprequest,redirect=noopjs
+/^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6,7}$/$third-party,script,xmlhttprequest
+a2000 1
+||tintahijau.com^*/banner-$image
+d4170 1
+a4170 1
+nontonhentai.top,pascol.fun,skandalpedia.mom,starjepang.com##.kln

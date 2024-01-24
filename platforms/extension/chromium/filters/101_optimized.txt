@@ -1,9 +1,9 @@
-! Checksum: GCLtzbh+xRlXNnF1xtlWcg
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1706116192-14400.patch
+! Checksum: Z+xUylsHOwtiSfrjwbXzFg
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1706130384-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.19.62
-! TimeUpdated: 2024-01-24T17:04:53+00:00
+! Version: 2.1.19.63
+! TimeUpdated: 2024-01-24T21:01:41+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -27534,6 +27534,7 @@ browsershots.org#@#.advert_area
 ||kargo.com^$third-party
 ||kiosked.com^$third-party
 ||kurzycz.care^$third-party
+||lhkmedia.in^$third-party
 ||lijit.com^$third-party
 ||linkslot.ru^$third-party
 ||liqwid.net^$third-party
