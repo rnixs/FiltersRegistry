@@ -1,9 +1,9 @@
-! Checksum: cIN3BbtR7aDMsRpP0iZtmA
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1706063766-3600.patch
+! Checksum: u1rY5KvhHLUmNqPB2RRLKg
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1706067348-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.16
-! TimeUpdated: 2024-01-22T10:32:31+00:00
+! Version: 2.0.7.17
+! TimeUpdated: 2024-01-24T03:32:15+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -903,6 +903,7 @@ lisani.jp##.widget__uzou
 live.kufu.co.jp###similar_articles
 newsee-media.com,saitama-np.co.jp,htb.co.jp,oricon.co.jp,maidonanews.jp##.uz-ny
 ||gacraft.jp^$third-party
+houyhnhnm.jp##.section-similer-post
 mbs.jp##.common-wrap--recommend
 front-row.jp##._popIn_recommend
 lmaga.jp##.feed

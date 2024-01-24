@@ -1,9 +1,9 @@
-! Checksum: RdDOBKWEZ2NiDlY71kHChA
-! Diff-Path: ../patches/22/22-s-1705919882-3600.patch
+! Checksum: Y4Z0UxTvpKn56iVS2Bi67w
+! Diff-Path: ../patches/22/22-s-1706067358-3600.patch
 ! Title: AdGuard Widgets filter
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.16
-! TimeUpdated: 2024-01-22T10:32:31+00:00
+! Version: 2.0.7.17
+! TimeUpdated: 2024-01-24T03:32:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1602,6 +1602,7 @@ newsee-media.com##.uz-ar
 newsee-media.com,saitama-np.co.jp,htb.co.jp,oricon.co.jp,maidonanews.jp##.uz-ny
 ! gacraft recommendations
 ||gacraft.jp^$third-party
+houyhnhnm.jp##.section-similer-post
 ! popIn recommendations
 mbs.jp##.common-wrap--recommend
 front-row.jp##._popIn_recommend
