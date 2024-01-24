@@ -1,9 +1,9 @@
-! Checksum: xoMNxXiqe/ydl+1SC0gpAA
-! Diff-Path: ../patches/21/21-s-1706103349-3600.patch
+! Checksum: SgwYt7CBsMp8n70QHwc8vw
+! Diff-Path: ../patches/21/21-s-1706110599-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.99
-! TimeUpdated: 2024-01-24T13:32:14+00:00
+! Version: 2.0.19.0
+! TimeUpdated: 2024-01-24T15:32:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -93,6 +93,8 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171131
+||geo.dailymotion.com/player/x2ww.js$domain=letribunaldunet.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171314
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171323
 zelvia.co.jp##.p-sticky
