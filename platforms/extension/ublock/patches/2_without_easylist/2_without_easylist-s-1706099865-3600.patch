@@ -1,0 +1,11 @@
+d2 2
+a3 2
+! Checksum: cn30/L8HheS4v1l2LFeDUA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706103380-3600.patch
+d6 2
+a7 2
+! Version: 2.3.19.29
+! TimeUpdated: 2024-01-24T13:32:46+00:00
+a30699 2
+! https://github.com/uBlockOrigin/uAssets/issues/22175
+qwant.com#$#.result__ext:has([data-testid="adResult"]) { max-height: 1px !important; opacity: 0 !important; pointer-events: none !important; }
