@@ -1,14 +1,14 @@
-! Checksum: 9CngMII/KzZr+3s2MtQpbQ
-! Diff-Path: ../patches/227/227-s-1706015181-14400.patch
+! Checksum: 7OJaqHzvz/cKnMmeWbBO0Q
+! Diff-Path: ../patches/227/227-s-1706101580-14400.patch
 ! Title: List-KR
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.44
-! TimeUpdated: 2024-01-23T13:02:30+00:00
+! Version: 2.0.17.45
+! TimeUpdated: 2024-01-24T13:02:31+00:00
 ! Expires: 1 day (update frequency)
 !
 ! Title: List-KR for AdGuard
 ! Description: List-KR for AdGuard. Maintained by the adblock community and AdGuard.
-! OriginalVersion: 2024.0123.5
+! OriginalVersion: 2024.0124.0
 ! Expires: 1 day
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://github.com/List-KR/List-KR/issues/223
@@ -510,6 +510,7 @@
 /data/banner.json?$domain=~nintendo.*
 /ad-manager.min.js
 !
+||humorpick.com/data/banner/
 ||sportsw.kr/support/_updata/banner
 ||dpg.danawa.com/news/ad/rest/
 ||dpg.danawa.com/mobile/rest/ad/
@@ -524,7 +525,6 @@
 /^https:\/\/nng-phinf\.pstatic\.net\/[A-z]+\/[A-z0-9._-]+\/Banner_[A-z0-9_-]+\.[A-z]+$/$domain=chzzk.naver.com
 ||tvdaily.co.kr/banner/
 ||tvdaily.co.kr/ad/
-/^https:\/\/humorpick\.com\/data\/editor\/[0-9]{4}\/(?!thumb-)/$domain=humorpick.com
 ||dentalnews.or.kr/data/banner/
 ||m2.nateimg.co.kr/cms/*.gif|$image
 /^https?:\/\/www\.tinnews\.co\.kr\/data\/tinnews_co_kr\/banner\/(?!(favicon\.ico|2020040642392902))/$domain=tinnews.co.kr

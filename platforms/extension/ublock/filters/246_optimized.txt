@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qOLZsv0itSs1FvoK3wXXdw
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1706087202-14400.patch
+! Checksum: 1wkZSXUlBkmRrt6raDUrWg
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1706101615-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.38.65
-! TimeUpdated: 2024-01-24T09:02:53+00:00
+! Version: 2.1.38.66
+! TimeUpdated: 2024-01-24T13:03:01+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -88,7 +88,7 @@ mandarinodesign.eu#@#.reklama
 -ad-$domain=tuhiszpania.pl
 -baner-$domain=budownictwo.co|firmy.meblarstwo.eu|ipulawy.pl|meblarskapolska.pl|meblosfera.pl|obiektysakralne.pl|panoramakutna.pl|sadownictwo.com.pl|slupca.pl|sochaczewianin.pl|tkaninyobiciowe.eu|tygodnikpiski.pl
 -baner.$domain=blogprezesa.pl|crypto-trader.pl|ipulawy.pl|napoli24h.pl|przeclaw24.pl|wirtualnyzgierz.pl|wolanie.info
--baner728.$domain=nieruchomosci-komercyjne.info|ogloszenia-nieruchomosci.info
+-baner728.$domain=nieruchomosci-komercyjne.info
 -baner_$domain=nolesnica.pl|polska-morska.pl
 -banery-$domain=automotivesuppliers.pl
 -banery^$domain=przeclaw24.pl
@@ -97,7 +97,6 @@ mandarinodesign.eu#@#.reklama
 -banner1.$domain=tu.swinoujscie.pl
 -banner_$domain=kaszuby24.pl
 -bannery-$domain=bogaty.men|zarobmy.se
--bener-$domain=tapicerstwo.co|tkaninyobiciowe.eu
 -fb-baner-$domain=starosadeckie.info
 -reklama-$domain=bithub.pl|chelmski.eu|firmy.meblarstwo.eu|golub-cgd.pl|kurekmazurski.pl|nasz-glos.com|ostrodanews.pl|przedsiebiorczepodlasie.pl|radomszczanska.pl|starosadeckie.info|tkaninyobiciowe.eu|tv-pelplin.pl
 -reklama.$domain=flarrow.pl|gazeta-mosina.pl|gazetatrybunalska.pl|mojewronki.pl|ostrodanews.pl|pionki24.pl|popradio.pl|przysucha.informator-lokalny.pl|sochaczewianin.pl|tu.swinoujscie.pl
@@ -465,6 +464,7 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^banners^$domain=po-bandzie.com.pl
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ||appboxes.co/wp-content/uploads/nagam/$domain=nagieamatorki.net
 ||erot.pl^$script,domain=sexi.pl
@@ -2457,6 +2457,10 @@ wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
+tyna.info.pl##.new-toplayer
+rydzyna24.pl##.new-toplayer
+magazynzuzel.pl##.new-toplayer
+koscianiak.pl##.new-toplayer
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
 filmyporno.tv###playerOverlay

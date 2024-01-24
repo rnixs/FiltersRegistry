@@ -1,15 +1,15 @@
-! Checksum: GtdpRELzpXd0x9TDHQLWMw
-! Diff-Path: ../patches/246/246-s-1706087219-14400.patch
+! Checksum: GsRPF218S0XdpGzgalBqXQ
+! Diff-Path: ../patches/246/246-s-1706101631-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.38.65
-! TimeUpdated: 2024-01-24T09:02:53+00:00
+! Version: 2.1.38.66
+! TimeUpdated: 2024-01-24T13:03:01+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: Q55IskRBHy+F+5tylDmR+g
-! OriginalVersion: 202401240851
+! Checksum: TNNO+TZDVMZhIRFtfS+C2w
+! OriginalVersion: 202401241221
 ! Title: EasyList Polish
-! Last modified: 24 Jan 2024 08:51 UTC
+! Last modified: 24 Jan 2024 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -118,7 +118,7 @@ mandarinodesign.eu#@#.reklama
 -ad-$domain=tuhiszpania.pl
 -baner-$domain=budownictwo.co|firmy.meblarstwo.eu|ipulawy.pl|meblarskapolska.pl|meblosfera.pl|obiektysakralne.pl|panoramakutna.pl|sadownictwo.com.pl|slupca.pl|sochaczewianin.pl|tkaninyobiciowe.eu|tygodnikpiski.pl
 -baner.$domain=blogprezesa.pl|crypto-trader.pl|ipulawy.pl|napoli24h.pl|przeclaw24.pl|wirtualnyzgierz.pl|wolanie.info
--baner728.$domain=nieruchomosci-komercyjne.info|ogloszenia-nieruchomosci.info
+-baner728.$domain=nieruchomosci-komercyjne.info
 -baner_$domain=nolesnica.pl|polska-morska.pl
 -banery-$domain=automotivesuppliers.pl
 -banery^$domain=przeclaw24.pl
@@ -127,7 +127,6 @@ mandarinodesign.eu#@#.reklama
 -banner1.$domain=tu.swinoujscie.pl
 -banner_$domain=kaszuby24.pl
 -bannery-$domain=bogaty.men|zarobmy.se
--bener-$domain=tapicerstwo.co|tkaninyobiciowe.eu
 -fb-baner-$domain=starosadeckie.info
 -reklama-$domain=bithub.pl|chelmski.eu|firmy.meblarstwo.eu|golub-cgd.pl|kurekmazurski.pl|nasz-glos.com|ostrodanews.pl|przedsiebiorczepodlasie.pl|radomszczanska.pl|starosadeckie.info|tkaninyobiciowe.eu|tv-pelplin.pl
 -reklama.$domain=flarrow.pl|gazeta-mosina.pl|gazetatrybunalska.pl|mojewronki.pl|ostrodanews.pl|pionki24.pl|popradio.pl|przysucha.informator-lokalny.pl|sochaczewianin.pl|tu.swinoujscie.pl
@@ -495,6 +494,7 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^banners^$domain=po-bandzie.com.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2492,6 +2492,10 @@ wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
+tyna.info.pl##.new-toplayer
+rydzyna24.pl##.new-toplayer
+magazynzuzel.pl##.new-toplayer
+koscianiak.pl##.new-toplayer
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2

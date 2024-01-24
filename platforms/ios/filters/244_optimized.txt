@@ -1,9 +1,9 @@
-! Checksum: +fkFWOBmCi3+nCtqfgL+Sg
-! Diff-Path: ../patches/244_optimized/244_optimized-s-1706087208-14400.patch
+! Checksum: bZdqSYHIUOwVFP5DpfVDYw
+! Diff-Path: ../patches/244_optimized/244_optimized-s-1706101620-14400.patch
 ! Title: YousList (Optimized)
 ! Description: Filter that blocks ads on Korean sites.
-! Version: 2.0.10.37
-! TimeUpdated: 2024-01-24T09:02:52+00:00
+! Version: 2.0.10.38
+! TimeUpdated: 2024-01-24T13:02:59+00:00
 ! Expires: 5 days (update frequency)
 ##amp-ad
 ##amp-embed.ad_cnt
@@ -667,6 +667,7 @@
 ||ad.bidrich.com/ron/rv/
 ||ad.cauly.co.kr/caulyImpress^
 ||ad.crwdcntrl.net^
+||ad.cyycoy.com^
 ||ad.daum.net^
 ||ad.doubleclick.net^$domain=~ppss.kr|~thehackernews.com,third-party
 ||ad.doyouad.com/ad/script.js^
@@ -1299,6 +1300,7 @@
 ||feed.4wnet.com/resources/scripts/jsAds-*.min.js^
 ||feeltong.hani.co.kr/common/banner.html^
 ||fenglin.to/8drama_yahoo/$domain=fenglin.to
+||file.mk.co.kr/sports/AD/$domain=mksports.co.kr
 ||file.osen.co.kr/web2/html/realclick_ad.html^
 ||file.thisisgame.com/inc/PBPage*.js^
 ||filetender.com/mobon*.html^$domain=filetender.com
@@ -2090,6 +2092,7 @@
 ||sports.news.nate.com/Etc/ViewADThumb^$domain=sports.news.nate.com
 ||sports.news.nate.com/etc/adSpace^$domain=sports.news.nate.com
 ||sportsseoul.com/js/jquery.topline.banner.js^$domain=sportsseoul.com
+||sportsw.kr/support/_updata/banner2/$domain=m.sportsw.kr|sportsw.kr
 ||srv.bebi.com/public/js/bebi_v1.js^
 ||ss.dawin.tv/req^
 ||ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js^$domain=~m.clien.net|~m.danawa.com|~search.danawa.com
@@ -5241,6 +5244,12 @@ m.sportsseoul.com##div.ad-center
 m.sportsseoul.com##div.ad-float-right
 m.sportsseoul.com##div.article-ad-center
 m.sportsseoul.com##div.top-ad
+m.sportsw.kr##div#articleBody1
+m.sportsw.kr##div#articleBody2
+m.sportsw.kr##div.adlink
+m.sportsw.kr##div.media_s_right>div[id^="banner"]
+m.sportsw.kr##ul.ADulli>li>a.adt
+m.sportsw.kr##ul.ADulli>li>span.ad
 m.spotvnews.co.kr##div.adcontrol42_box
 m.spotvnews.co.kr##div.banner_article_inner_box
 m.star.mt.co.kr##body>div[style="height:80px; background:#424242"]
@@ -5562,6 +5571,7 @@ mk.co.kr##div.read_txt>div[style="padding:15px 15px 15px 0; text-align:left; flo
 mk.co.kr##div.read_txt>div[style="text-align:center; border:0; width:100%; margin:0 auto"]
 mk.co.kr##div.view_txt>div[style="padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;"]
 mk.co.kr##div.view_txt>div[style="text-align:center; border:0; width:100%; margin:0 auto"]
+mksports.co.kr##div[id^="slot"]
 mlbpark.donga.com##div#advertise_naver
 mlbpark.donga.com##div.ad_con01
 mlbpark.donga.com##div.big_banner
@@ -6636,6 +6646,10 @@ sportsseoul.com##div.article-ad__content-bottom
 sportsseoul.com##div.country-ad-left
 sportsseoul.com##div.country-ad-right
 sportsseoul.com##div.sub-ad-left
+sportsw.kr##div#subCtsRight>div[id^="banner"]
+sportsw.kr##div.adlink
+sportsw.kr##ul.ADulli>li>a[target="_blank"]
+sportsw.kr##ul.ADulli>li>span.ad
 spotvnews.co.kr##div.ad-template
 spotvnews.co.kr##p.adcontrol41_box
 ssundays7.tistory.com##div.article>div[style="TEXT-ALIGN: center"]
