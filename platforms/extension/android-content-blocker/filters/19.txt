@@ -1,9 +1,9 @@
-! Checksum: PFmvmS1bDNERE7JL9CsGSg
-! Diff-Path: ../patches/19/19-s-1706110597-3600.patch
+! Checksum: JfB2oKqVzwv/4Pdbpvyv3g
+! Diff-Path: ../patches/19/19-s-1706114293-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.56
-! TimeUpdated: 2024-01-24T15:32:16+00:00
+! Version: 2.0.30.57
+! TimeUpdated: 2024-01-24T16:34:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1526,6 +1526,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+agenda-loto.net##.antiaddblock
 ||bringmethenews.com/htdocs/js/admiral/init.js
 twitchmetrics.net##body > div[style^="background:"][style*="position: fixed; display: flex; align-items: center; justify-content: center; inset: 0px; z-index:"]
 vrcmods.com###showfreemethod

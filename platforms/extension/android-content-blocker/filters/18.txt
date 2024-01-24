@@ -1,9 +1,9 @@
-! Checksum: oJ9OpE1v5wQSsLY40Va+IQ
-! Diff-Path: ../patches/18/18-s-1706110596-3600.patch
+! Checksum: xWv2HtTR+08z52jR3JYfZA
+! Diff-Path: ../patches/18/18-s-1706114292-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.4
-! TimeUpdated: 2024-01-24T15:32:13+00:00
+! Version: 2.0.32.5
+! TimeUpdated: 2024-01-24T16:34:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3789,7 +3789,7 @@ turcolegal.com#$##cookie-law-info-bar { display: none !important; }
 turcolegal.com#$#body { overflow: auto !important; }
 shopify.engineering,shopify.com##section[data-section-name="cookie-active-consent-notice"]
 poehalisnami.ua##.jsAgreeWithCookie
-civey.com,youtrack.jetbrains.com##div[aria-live="polite"]
+civey.com##div[aria-live="polite"]
 silbonshop.com#$##consent-tracking { display: none !important; }
 silbonshop.com#$#.modal-backdrop { display: none !important; }
 silbonshop.com#$#body.modal-open { overflow: auto !important; }
