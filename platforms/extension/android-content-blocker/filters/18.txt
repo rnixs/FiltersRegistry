@@ -1,9 +1,9 @@
-! Checksum: xWv2HtTR+08z52jR3JYfZA
-! Diff-Path: ../patches/18/18-s-1706114292-3600.patch
+! Checksum: SPaFV/qGTrtFb9fQEoqB0A
+! Diff-Path: ../patches/18/18-s-1706121351-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.5
-! TimeUpdated: 2024-01-24T16:34:07+00:00
+! Version: 2.0.32.6
+! TimeUpdated: 2024-01-24T18:31:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2320,6 +2320,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+ndl.go.jp##.privacy-confirmation
 help.instagram.com###cookie-policy-banner
 korusconsulting.ru##.cookieConfirm
 aparts.pl#$#body { overflow: auto !important; padding-right: 0 !important; }
