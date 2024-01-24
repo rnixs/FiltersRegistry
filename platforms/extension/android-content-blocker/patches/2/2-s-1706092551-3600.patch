@@ -1,0 +1,16 @@
+d1 2
+a2 2
+! Checksum: wu3sQHUFiTjcFfhin5X3Pw
+! Diff-Path: ../patches/2/2-s-1706096223-3600.patch
+d5 2
+a6 2
+! Version: 2.3.19.27
+! TimeUpdated: 2024-01-24T11:33:50+00:00
+a26328 1
+!
+a27986 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/171385
+gumtree.com#$#div[data-q="tBanner-container"] ~ div[data-q="section-top-and-left-and-middle"] { margin-top: -256px !important; }
+a45079 2
+legit.ng##.c-adv--video-placeholder
+!+ NOT_OPTIMIZED
