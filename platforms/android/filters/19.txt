@@ -1,9 +1,9 @@
-! Checksum: USXtWzHyw3K3vFNHCeaYjQ
-! Diff-Path: ../patches/19/19-s-1706168136-3600.patch
+! Checksum: wIyhs4I1T7q8g4EXSEFs2w
+! Diff-Path: ../patches/19/19-s-1706182561-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.59
-! TimeUpdated: 2024-01-25T07:31:57+00:00
+! Version: 2.0.30.60
+! TimeUpdated: 2024-01-25T11:32:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1567,6 +1567,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+beautifulfonts.net###blockab
 agenda-loto.net##.antiaddblock
 ||bringmethenews.com/htdocs/js/admiral/init.js
 twitchmetrics.net#%#//scriptlet('set-constant', 'nitroAds.abp', 'true')
@@ -12178,6 +12179,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+chasingthedonkey.com##.newsletter-signup-section
 dbs.g-search.or.jp###mfaLoginBox > div.banner
 falter.at##.subscription-note-wide
 letribunaldunet.fr###googleNewsFollowBtn
