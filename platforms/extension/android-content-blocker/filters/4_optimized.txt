@@ -1,9 +1,9 @@
-! Checksum: Ujgxw4Dr6XG4WpTVsB4usQ
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1706182570-3600.patch
+! Checksum: +clBx1thCWxVIViAGY7LeQ
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1706189772-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.96.70
-! TimeUpdated: 2024-01-25T11:33:12+00:00
+! Version: 2.0.96.71
+! TimeUpdated: 2024-01-25T13:33:18+00:00
 ! Expires: 5 days (update frequency)
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
@@ -3875,7 +3875,7 @@ srdrylmz.com##.post_share_container
 volyn.com.ua##.bg-banner
 leg.br##.js-acao-compartilhamento
 vladtime.ru##.ya_subscribe + h4
-ultra.shueisha.co.jp,wowow.co.jp##.btn__share
+food.segodnya.ua,ultra.shueisha.co.jp,wowow.co.jp##.btn__share
 kurumaerabi.com##.social_area_line
 allwish.me,psdly.com##.wp-block-wptelegram-widget-join-channel
 globaltimes.cn##.article_footer

@@ -1,9 +1,9 @@
-! Checksum: pzH4Ly3vdAydT/ohQvaxXQ
-! Diff-Path: ../patches/22/22-s-1706186183-3600.patch
+! Checksum: dw2GJXr6bXXHEqwcM9k4FA
+! Diff-Path: ../patches/22/22-s-1706189770-3600.patch
 ! Title: AdGuard Widgets filter
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.21
-! TimeUpdated: 2024-01-25T12:32:33+00:00
+! Version: 2.0.7.22
+! TimeUpdated: 2024-01-25T13:32:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1972,7 +1972,7 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !
 novaramedia.com##.background-support-texture
 novaramedia.com##.support-section
-miraheze.org###siteNotice
+nonciclopedia.org,miraheze.org###siteNotice
 winstall.app##div[class^="donateCard_container__"]
 openstreetmap.org###banner
 wbur.org##.section--takeover

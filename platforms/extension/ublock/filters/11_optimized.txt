@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 1gmhaHJYKoZB4N5ZGgStZQ
-! Diff-Path: ../patches/11_optimized/11_optimized-s-1706186216-3600.patch
+! Checksum: uFjqxMg2BCHHcdvlq+P3KA
+! Diff-Path: ../patches/11_optimized/11_optimized-s-1706189803-3600.patch
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.62
-! TimeUpdated: 2024-01-25T12:31:40+00:00
+! Version: 2.0.48.63
+! TimeUpdated: 2024-01-25T13:31:45+00:00
 ! Expires: 5 days (update frequency)
 ||dad-api.dcard.tw^
 ||ad-splash-tracking.hktvmall.com^
@@ -1520,7 +1520,6 @@ kingautos.net,ranky-ranking.net,memo.onl.jp,daily-sun.com,home.kingsoft.jp,berke
 www-cbc-ca.cdn.ampproject.org,m.geboren.am,dictionary.com,transfermarkt.de,iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,rakuraku-info.jp,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 chip.de,gamesworld.de,fnn.jp##.Ad
 geo.fr##.ads-introText
-m.winfuture.de##div[id^="taboola-mid-home-thumbnails-mobile"]
 wtmnews.net##.entry-content > p:has(> a[target="_blank"][rel="nofollow sponsored "] > img)
 wtmnews.net##.aflImage
 wtmnews.net##.aflLinkFlex
