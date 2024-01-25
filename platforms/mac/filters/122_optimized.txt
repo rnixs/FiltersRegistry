@@ -1,9 +1,9 @@
-! Checksum: cPqIKcuWmzdeHkbhfvnJQw
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1706188037-14400.patch
+! Checksum: rbTj+PE/2kc0XEvs23gijQ
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1706202424-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.93
-! TimeUpdated: 2024-01-25T13:02:14+00:00
+! Version: 2.1.19.94
+! TimeUpdated: 2024-01-25T17:02:05+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -17596,8 +17596,9 @@ textshuttle.com#%#//scriptlet('ubo-set-cookie.js', 'textshuttle_cookie', 'true')
 zeitzurtrauer.de#%#//scriptlet('ubo-set-cookie.js', 'consentInteract', 'true')
 sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-functional', 'yes')
 hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-necessary', 'yes')
-hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de#%#//scriptlet('ubo-set-cookie.js', 'viewed_cookie_policy', 'yes')
-hemglass.se,gogolf.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-advertisement', 'no')
+ipouritinc.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de#%#//scriptlet('ubo-set-cookie.js', 'viewed_cookie_policy', 'yes')
+ipouritinc.com,hemglass.se,gogolf.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-advertisement', 'no')
+ipouritinc.com#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-non-necessary', 'no')
 hemglass.se#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-performance', 'no')
 hemglass.se#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-analytics', 'no')
 skaling.de#%#//scriptlet('ubo-set-cookie.js', 'cookie-byte-consent-essentials', 'true')

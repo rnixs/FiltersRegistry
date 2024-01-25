@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: T6gycdmqPKQDPv6CMaEzcQ
-! Diff-Path: ../patches/231/231-s-1706188027-14400.patch
+! Checksum: nzs+wlvUzJ0RNo+NuLOa/g
+! Diff-Path: ../patches/231/231-s-1706202413-14400.patch
 ! Title: EasyList Spanish
 ! Description: Additional filter list for websites in Spanish.
-! Version: 2.1.42.66
-! TimeUpdated: 2024-01-25T13:02:44+00:00
+! Version: 2.1.42.67
+! TimeUpdated: 2024-01-25T17:02:34+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 5xsnbPME7Q/TpXQWT2e9NQ
-! OriginalVersion: 202401251251
+! Checksum: NeHn6ZHR7qh3zgZN0BgdZw
+! OriginalVersion: 202401251651
 ! Title: EasyList Spanish
-! Last modified: 25 Jan 2024 12:51 UTC
+! Last modified: 25 Jan 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1304,6 +1304,7 @@ $popup,third-party,domain=embedsito.com|fembad.net|fembed.com|feurl.com|hqq.to|h
 ||mundosexanuncio.com/img_es/banners/
 ||pasionmujeres.com/ai/
 ||pepeporn.com/tools/get_banner.php
+||petardashd.com/archivos/static/hd/img/sponsor/
 ||plx.pornes.xxx^
 ||poringa.net/ra/
 ||pornogratisdiario.com/imagenes_publicidad/
@@ -2873,13 +2874,16 @@ mangacrab.com###fixedban2
 felizporno.com###main_video_fluid_html_on_pause
 hentaienesp.com###new_ads
 petardashd.com###publi1
+petardashd.com###publia
 escort46.es###top_image_div
 xnalgas.com###ventana-flotante
 bingoporno.com##.Scl-r
 muyzorras.com##.a-ty
+serviporno.com##.abbcn-footer
+petardashd.com##.abotonsponsor
 porneados.com##.adv-square
 cerdas.com##.advBottomPagin
-pajilleros.com##.banner
+pajilleros.com,srpacks.com##.banner
 pajilleros.com##.banner-bg
 freeones.es##.banner-placeholder
 pornogratisdiario.com##.bnfo
@@ -2896,6 +2900,7 @@ muchoporno.xxx,serviporno.com##.ntv-disclaimer
 xnalgas.com##.overlay_popup
 zonavideosx.com##.popvidcnt
 canalporno.com##.publ11s-b0ttom
+canalporno.com##.r11ght-pl4yer-169
 pampaporno.com##.resumecard
 verpeliculasporno.gratis##.tpd
 videos.mrvideospornogratis.xxx##.vjs-producer
@@ -2905,7 +2910,10 @@ muyzorras.com##a[href^="https://landings.videochatprovider.com/"]
 pajilleros.com##a[href^="https://www.amateur.tv/"]
 muyzorras.com##a[href^="https://www.fuegocams.com/"]
 muycerditas.com##a[href^="https://www.platanomelon.com/?rfsn="]
+cerdas.com##a[href^="https://www.pornogratis.online/"]
+pornogratisdiario.com##a[href^="https://www.webcampornoxxx.net/"]
 videospornogratisx.net##img[width="300"]
+videospornogratisx.net##img[width="728"]
 ! Advanced element hiding rules for Adblock Plus
 muyzorras.com#?#.c.d1:-abp-has(div:-abp-contains(Más cosas interesantes))
 videospornogratisx.net#?#.block:-abp-has(>h3:-abp-contains(WEBCAM PORNO XXX))
