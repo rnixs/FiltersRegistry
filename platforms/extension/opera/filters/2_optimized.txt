@@ -1,9 +1,9 @@
-! Checksum: X5FfnDeVAY73IZ0WpOpLnA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1706211358-3600.patch
+! Checksum: aBlEFVwHhRhGGM+uHOlILQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1706218552-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.19.48
-! TimeUpdated: 2024-01-25T19:32:44+00:00
+! Version: 2.3.19.49
+! TimeUpdated: 2024-01-25T21:32:41+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -20119,6 +20119,7 @@ _800x80_
 ##a[href^="http://cam4com.go2cloud.org/aff_c?"]
 ##a[href^="http://click.payserve.com/"]
 ##a[href^="http://com-1.pro/"]
+##a[href^="http://dragfault.com/"]
 ##a[href^="http://guestblackmail.com/"]
 ##a[href^="http://m.hue2m.com/"]
 ##a[href^="http://premonitioninventdisagree.com/"]
@@ -21933,6 +21934,7 @@ browsershots.org#@#.advert_area
 ||bf-ad.net^
 ||bfast.com^
 ||bfddexwchocnwx.com^
+||bfeflwuhyhxgw.com^
 ||bfogxatnxkkmlc.com^
 ||bfrghskgq.com^
 ||bfsnxjwfju.xyz^
@@ -23385,6 +23387,7 @@ browsershots.org#@#.advert_area
 ||dr6.biz^
 ||dr7.biz^
 ||drabimprovement.com^
+||dragfault.com^
 ||draggedlockdown.com^
 ||dramaticdirection.com^
 ||dramipmsxyutc.xyz^
@@ -23825,6 +23828,7 @@ browsershots.org#@#.advert_area
 ||everlastinghighlight.com^
 ||everypilaus.com^
 ||everywheresavourblouse.com^
+||evidenceguidance.com^
 ||evidhjksdtgyxrh.xyz^
 ||evifokcrmhdmai.com^
 ||evivuwhoa.com^
@@ -29600,6 +29604,7 @@ browsershots.org#@#.advert_area
 ||tattepush.com^
 ||tauthaujici.com^
 ||tauvoojo.net^
+||taxaixkpruxj.com^
 ||taxissunroom.com^
 ||tbgmckdemnv.com^
 ||tbm09.com^
@@ -30248,10 +30253,12 @@ browsershots.org#@#.advert_area
 ||vengeful-egg.com^
 ||venisonreservationbarefooted.com^
 ||venmanisatio.work^
+||venuewasadi.org^
 ||veoxphl.com^
 ||veresultedinncre.org^
 ||vergu.xyz^
 ||veritiesgarlejobade.com^
+||vernementsec.info^
 ||verneukorgia.com^
 ||verninchange.com^
 ||veronalhaf.com^
@@ -31599,6 +31606,7 @@ browsershots.org#@#.advert_area
 ||dooloust.net^$popup
 ||doruffleton.com^$popup
 ||doubleclick.net^$popup
+||dragfault.com^$popup
 ||drawerenter.com^$popup
 ||dressingdedicatedmeeting.com^$popup
 ||evaporateahead.com^$popup
@@ -31712,6 +31720,7 @@ browsershots.org#@#.advert_area
 ||tzaqkp.com^$popup
 ||ugeewhee.xyz^$popup
 ||unskilfulwalkerpolitician.com^$popup
+||venuewasadi.org^$popup
 ||vsucocesisful.com^$popup
 ||vyebzzbovvzvl.top^$popup
 ||waisheph.com^$popup
@@ -31796,6 +31805,7 @@ browsershots.org#@#.advert_area
 ||1692923857.rsc.cdn77.org^
 ||1818027024.rsc.cdn77.org^
 ||1915832424.rsc.cdn77.org^
+||1973440310.rsc.cdn77.org^
 ||1987292064.rsc.cdn77.org^
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
