@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: IuuEyEwxHRmd8vjXBLvrgg
-! Diff-Path: ../patches/112_optimized/112_optimized-s-1706159244-14400.patch
+! Checksum: 1E2GsW8m4BfDFJ7QDCVd/g
+! Diff-Path: ../patches/112_optimized/112_optimized-s-1706173594-14400.patch
 ! Title: Liste AR (Optimized)
 ! Description: Additional filter list for websites in Arabic.
-! Version: 2.1.42.63
-! TimeUpdated: 2024-01-25T05:02:23+00:00
+! Version: 2.1.42.64
+! TimeUpdated: 2024-01-25T09:01:41+00:00
 ! Expires: 5 days (update frequency)
 %20728x90%20
 &ad_size=
@@ -187,6 +187,8 @@ _New_Ads.
 ###alaa-ads-content
 ###b_ad
 ###b_ad2
+###block-ads1
+###block-ads2
 ###deskads
 ###desktopAds
 ###headads
@@ -1793,7 +1795,7 @@ shof.co.il##div[class*="banner"]
 shof.co.il##div[class*="bnr"]
 shof.co.il##div[class*="cube"]
 sunnewsnow.com##div[class][data-index][style]
-almasryalyoum.com,sarayanews.com##div[class^="ads"]
+almasryalyoum.com,kotobati.com,sarayanews.com##div[class^="ads"]
 mexat.com##div[class^="banner"]
 sarayanews.com##div[id^="ads"]
 alqabas.com.kw##div[id^="azk"]
