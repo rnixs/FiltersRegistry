@@ -1,9 +1,9 @@
-! Checksum: vSmNPwD5s7KV8CwPatKw6Q
-! Diff-Path: ../patches/250/250-s-1706015205-14400.patch
+! Checksum: kMxpme70urRGFY9j8zWyOw
+! Diff-Path: ../patches/250/250-s-1706216795-14400.patch
 ! Title: Dandelion Sprout's Annoyances List
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.13.11
-! TimeUpdated: 2024-01-23T13:03:12+00:00
+! Version: 2.0.13.12
+! TimeUpdated: 2024-01-25T21:03:06+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: ⚙️ Dandelion Sprout's Annoyances List
@@ -23173,7 +23173,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! Very experimental entry; see https://github.com/DandelionSprout/adfilt/issues/950 and https://www.techspot.com/news/77949-ccleaner-could-install-avast-anti-virus-without-permission.html
 ! Placeholder line for alternate list versions
 ! Title: 🐐 Dandelion Sprout's Lightweight Anti-'Social share' List
-! OriginalVersion: 29December2023v1-Alpha
+! OriginalVersion: 25January2024v1-Alpha
 ! Expires: 3 days
 ! Description: This list aims to achieve pretty broad (if not overly broad) coverage of social sharing buttons, with perhaps 1/50th~1/100th as many entries as what the biggest anti-'social button' lists out there have.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -23387,7 +23387,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##button[data-a-target^=share]
 ##button[data-arctrac*=socialShare i]
 ##button[data-fatal-attraction*=":share"]
-##button[data-share-url]
+~chess.com##button[data-share-url]
 ##button[ng-click^=shareOn]
 ##button[onclick^=socialsharing_]
 ##button[title^="Del på "]

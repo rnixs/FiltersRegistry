@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: nzs+wlvUzJ0RNo+NuLOa/g
-! Diff-Path: ../patches/231/231-s-1706202413-14400.patch
+! Checksum: 8Jz1n6IcokVh5/dDJYEtkA
+! Diff-Path: ../patches/231/231-s-1706216805-14400.patch
 ! Title: EasyList Spanish
 ! Description: Additional filter list for websites in Spanish.
-! Version: 2.1.42.67
-! TimeUpdated: 2024-01-25T17:02:34+00:00
+! Version: 2.1.42.68
+! TimeUpdated: 2024-01-25T21:02:32+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: NeHn6ZHR7qh3zgZN0BgdZw
-! OriginalVersion: 202401251651
+! Checksum: oC1umonccV6E3j7jEU+VVw
+! OriginalVersion: 202401252051
 ! Title: EasyList Spanish
-! Last modified: 25 Jan 2024 16:51 UTC
+! Last modified: 25 Jan 2024 20:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -762,6 +762,7 @@ hitfm.es#@#.publi
 ||imgur.com^$domain=verpeliculasporno.gratis
 ||pornogratis.online/promo/
 ||pornoplay.online/api/spots/
+||rubias19.tv/freecam/$third-party
 ||webcampornoxxx.net/promo/
 ! *** easylistspanish:easylistspanish_adult/adult_thirdparty_popup.txt ***
 !----------------------Specific advert blocking filters-----------------------!
@@ -1299,6 +1300,7 @@ $popup,third-party,domain=embedsito.com|fembad.net|fembed.com|feurl.com|hqq.to|h
 /^https?:\/\/.*\.(jpg|gif|png|svg|ico|js|txt)/$popup,domain=pirlotvonlinehd.net
 ! *** easylistspanish:easylistspanish_adult/adult_specific_block.txt ***
 ||amaduras.com/img-publicidad/
+||fucklouder.com/images/thumbs/banners/
 ||hispasexy.org/buttons/banner728.gif
 ||madlifes.com/tools/get_banner.php
 ||mundosexanuncio.com/img_es/banners/
@@ -2866,9 +2868,11 @@ opanoticias.com##iframe[src^="https://www.youtube.com/embed/CiedpC-wP7E?"]
 educaplay.com##img[alt="ADR Formación"]
 mediotiempo.com##img[alt^="caliente.mx"]
 ! *** easylistspanish:easylistspanish_adult/adult_specific_hide.txt ***
+pulpo69.com###affiliate-livecam-widget-435
 hentaienesp.com###banner_float
 madlifes.com,pepeporn.com###banners_footer
 pajilleros.com###camsFooter
+fucklouder.com###espacio-multi
 mangacrab.com###fixedban
 mangacrab.com###fixedban2
 felizporno.com###main_video_fluid_html_on_pause
@@ -2895,8 +2899,10 @@ pampaporno.com##.hidden-under-920
 poringa.net##.home-native-patrocinado
 muyzorras.com##.i_sba
 eurogirlsescort.es##.js-stt-click > picture
+conejox.com##.link_cams
 tupornogratis.xxx##.lst_ft_bn
 muchoporno.xxx,serviporno.com##.ntv-disclaimer
+cheemsporn.com##.oletf-img
 xnalgas.com##.overlay_popup
 zonavideosx.com##.popvidcnt
 canalporno.com##.publ11s-b0ttom
@@ -2905,6 +2911,7 @@ pampaporno.com##.resumecard
 verpeliculasporno.gratis##.tpd
 videos.mrvideospornogratis.xxx##.vjs-producer
 qporno.xxx##[href^="https://qp.erotilink.es"]
+fucklouder.com##a[href^="http://bit.ly/"]
 pajarracos.es##a[href^="http://www.fuegodevida.com/"]
 muyzorras.com##a[href^="https://landings.videochatprovider.com/"]
 pajilleros.com##a[href^="https://www.amateur.tv/"]
