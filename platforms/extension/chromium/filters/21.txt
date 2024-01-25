@@ -1,9 +1,9 @@
-! Checksum: Sxzi2VwOZhwKl0gJqFVcMw
-! Diff-Path: ../patches/21/21-s-1706182574-3600.patch
+! Checksum: TFwpn2pGa6+2xIV6KjQOtQ
+! Diff-Path: ../patches/21/21-s-1706193375-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.3
-! TimeUpdated: 2024-01-25T11:32:27+00:00
+! Version: 2.0.19.4
+! TimeUpdated: 2024-01-25T14:32:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4232,7 +4232,10 @@ felia.373news.com###ticker-area
 ||rakuten-static.com/1/grp/banner/js/create.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81918
 jiosaavn.com##.c-player > .c-banner
+! https://github.com/AdguardTeam/AdguardFilters/issues/171351
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81283
+avito.ru##div[class^="create-promocode-banner"]
+avito.ru##div[class^="personal-discount-adaptive-banner-"]
 avito.ru##div[class^="main-banner-root-"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80927
 lugatim.com###header-banner-container
@@ -4985,7 +4988,6 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
-avito.ru##div[class^="create-promocode-banner"]
 kupujemprodajem.com##div[class^="Banner"]
 bookvoed.ru##div[class] > a[href^="/redirect/karusel/stat?"]:has(> img[alt="Новичкам везёт!"])
 eksmo.ru##.cheader__personal-offer
