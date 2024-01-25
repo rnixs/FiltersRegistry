@@ -1,0 +1,55 @@
+d2 2
+a3 2
+! Checksum: rgPrzbFT03dmkz6HlsznoQ
+! Diff-Path: ../patches/2/2-s-1706200585-3600.patch
+d6 2
+a7 2
+! Version: 2.3.19.45
+! TimeUpdated: 2024-01-25T16:32:44+00:00
+a17189 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/171502
+spite.cz##div[data-sda-slot]
+spite.cz##.sda-desktop
+d17341 2
+a17342 2
+spite.cz,pctuning.cz###sda-adb-checker
+spite.cz,pctuning.cz##+js(addEventListener-defuser, DOMContentLoaded, checkerEnabled)
+a21441 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/171503
+nauka.rocks###sticky-anchor
+a74211 1
+##a[href^="http://admediatex.net/"]
+a76582 1
+||admediatex.net^
+a79502 1
+||bidbeneficial.com^
+a80028 1
+||bouncy-collar.com^
+a83012 1
+||defensive-bad.com^
+a88729 1
+||hibssqnitlsgcm.com^
+a89166 1
+||hsumeaevly.com^
+a91187 1
+||jyqakuufosr.com^
+a91204 1
+||jztucbb.com^
+a96646 1
+||overcooked-construction.com^
+a97432 1
+||phauckoo.xyz^
+a100949 1
+||sanseislydite.com^
+a103611 1
+||tetfer.com^
+a105036 1
+||uklvnfxvjgc.com^
+a107090 1
+||witwormfurzes.com^
+a107381 1
+||wsokomw.com^
+a107546 1
+||xefefetgxnh.com^
+a110191 1
+||admediatex.net^$popup

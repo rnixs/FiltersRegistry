@@ -1,9 +1,9 @@
-! Checksum: QUaO2ZpOZ2C6q+v8jt36nw
-! Diff-Path: ../patches/14/14-s-1706196959-3600.patch
+! Checksum: xMtr1K+0AearFnEv+XXpxw
+! Diff-Path: ../patches/14/14-s-1706200550-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.85.77
-! TimeUpdated: 2024-01-25T15:31:50+00:00
+! Version: 2.1.85.78
+! TimeUpdated: 2024-01-25T16:31:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4154,7 +4154,7 @@ gigasport.at,gigasport.de,gigasport.ch#$#body { overflow: scroll !important; ove
 gigasport.at,gigasport.de,gigasport.ch#$#.tao_cookie_popup_advanced { display: none !important; }
 studentenwerk-dresden.de#$##cookieconsent { display: none !important; }
 studentenwerk-dresden.de#$#body { margin-right: 0 !important; overflow: auto !important; }
-||wp.pl^$script,domain=dobregry.pl
+||wp.pl^$script,domain=dobregry.pl|nauka.rocks
 image-line.com#$#.cookie-banner-wrapper { display: none !important; }
 image-line.com#$#body.cookie-consent-shown { overflow: auto !important; }
 raport.pse.pl##footer ~ div[class="print:hidden"] > .fixed.bottom-0

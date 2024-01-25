@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: hAo9wiCCt7ukOPeJpI3mlw
-! Diff-Path: ../patches/11/11-s-1706196989-3600.patch
+! Checksum: 7OgoHb7+EDVn5Jx1SrAgBw
+! Diff-Path: ../patches/11/11-s-1706200583-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.64
-! TimeUpdated: 2024-01-25T15:31:32+00:00
+! Version: 2.0.48.65
+! TimeUpdated: 2024-01-25T16:31:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2311,6 +2311,7 @@ chip.de,gamesworld.de,fnn.jp##.Ad
 !
 ! SECTION: Regular rules
 !
+spite.cz##.sda-space--mobile
 geo.fr##.ads-introText
 wtmnews.net##.entry-content > p:has(> a[target="_blank"][rel="nofollow sponsored "] > img)
 wtmnews.net##.aflImage
