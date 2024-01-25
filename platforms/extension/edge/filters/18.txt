@@ -1,9 +1,9 @@
-! Checksum: bFprT1jZpUH6JzmPoilvFQ
-! Diff-Path: ../patches/18/18-s-1706178979-3600.patch
+! Checksum: VmgYmU2BPJT5w4xVJcoyTQ
+! Diff-Path: ../patches/18/18-s-1706186194-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.11
-! TimeUpdated: 2024-01-25T10:32:15+00:00
+! Version: 2.0.32.12
+! TimeUpdated: 2024-01-25T12:32:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -8874,8 +8874,8 @@ virustotal.com##.disclaimers-container
 livexlive.com##.tos-footer
 wasd.tv##wasd-cookies-app
 netcraft.com###consent-form
-ktomalek.pl##.ui-widget-overlay.ui-front
-ktomalek.pl##.ui-dialog[aria-describedby="cookies"]
+lekarzebezkolejki.pl,ktomalek.pl##.ui-widget-overlay.ui-front
+lekarzebezkolejki.pl,ktomalek.pl##.ui-dialog[aria-describedby="cookies"]
 changelly.com##div[class^="cookie-banner-wrapper"]
 flinkster.de,baustoffindustrie.de,hackerrank.com,perseus.de,devk.de,jetzt-mobil.de,callabike.de##.cookie-banner-wrapper
 fctables.com###privacy-optin
