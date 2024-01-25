@@ -1,15 +1,15 @@
-! Checksum: NvM5CRRT9MuI5+zXaucn+A
-! Diff-Path: ../patches/120/120-s-1706130381-14400.patch
+! Checksum: SpUvGzkq/KufMIQV4aLuKQ
+! Diff-Path: ../patches/120/120-s-1706144764-14400.patch
 ! Title: AdBlockID
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.57
-! TimeUpdated: 2024-01-24T21:02:03+00:00
+! Version: 2.0.18.58
+! TimeUpdated: 2024-01-25T01:01:50+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 24.1.64
+! OriginalVersion: 24.1.65
 ! Title: AdBlockID
 ! Description: Filter list that specifically removes adverts on Indonesian language websites.
-! Last modified: 24 Jan 2024 20:11 UTC
+! Last modified: 24 Jan 2024 20:43 UTC
 ! Expires: 1 days
 ! Homepage: https://github.com/realodix/AdBlockID
 .id^*/ads_$domain=~cartalog.id
@@ -1600,6 +1600,7 @@ _promohariini.$image,domain=ruparupa.com
 ||indeksnews.com^*-banner-$image
 ||indeksnews.com^*/banner-$image
 ||independennews.com^*/banner-$image
+||indonesiadaily.net^*-banner-$image
 ||indonesiaexpat.id^*-ads-$image
 ||indonesiaexpat.id^*-banner-$image
 ||indonesiasatu.co/userfiles/advert/$image
@@ -2514,7 +2515,7 @@ axialnews.id##.content-area .code-block > a > img
 warta-pendidikan.com##.content-area .code-block > img
 karimuntoday.com##.entry > p > img
 beritalima.com,sergaplampung.com,sumateranews.co.id,warta-1.net,warta-pendidikan.com##.entry-content .code-block > img
-beritabalap.com##.entry-content > .code-block
+atlanticride.com,beritabalap.com##.entry-content > .code-block
 iglobalnews.co.id##.entry-content img[width="720"][height="380"]
 iglobalnews.co.id##.entry-content img[width="720"][height="400"]
 kepribetter.com##.entry-summary > .code-block > a > img
@@ -2557,7 +2558,6 @@ malukuterkini.com##article .funds
 memorandum.co.id,papuatimes.co.id##article .newkarma-core-before-dontmiss
 kabarnusantaranews.com##article figure > img
 kliksumatera.com##li[style*="position: absolute;"] .prettyphoto
-jatimpos.co##p > a > img
 indoposco.id##div[style="max-width:940px; min-height:105px;"]
 koranmonitor.com##img[style="max-width: 100%; height: auto;"]
 tmcblog.com##img[style^="width:660px;height:110px;"]
@@ -2805,12 +2805,11 @@ narasi.tv##.sticky-bottom-placement
 productnation.co##.sticky-close
 ggwp.id##.sticky-footer
 kontenjatim.com,law-justice.co,nusadaily.com,zigi.id##.sticky_bottom
-daftarhargahp.co.id,klubpria.com##.stickyunit
+klubpria.com,materiipa.com##.stickyunit
 ceklissatu.com##[class^="bn-"]
 rakcer.id##[class^="site-gpt-"]
 momsmoney.id##[id^="div-Middle-Momsmoney"]
 momsmoney.id##[id^="div-insidearticletop-Momsmoney"]
-sehatq.com##[id^="gpt-ad-"]
 acehekspres.com,acehportal.com,acehstandar.com,acehtrend.com,akuratnews.com,kabartamiang.com,kabartimurnews.com,malukuterkini.com,mimbaraceh.com,modusaceh.co##article #slpremium
 ceklist.id##article .affcoups
 bulat.co.id##article .melayang
