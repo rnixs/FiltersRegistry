@@ -1,0 +1,14 @@
+d1 2
+a2 2
+! Checksum: e7lA/0xKJ//7GXx/o1r6bA
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1706168141-3600.patch
+d5 2
+a6 2
+! Version: 2.0.32.9
+! TimeUpdated: 2024-01-25T07:31:54+00:00
+a1180 3
+keb-automation.com#$#body #privacy-consent { display: none !important; }
+keb-automation.com#$##privacy-consent ~ .modal-backdrop { display: none !important; }
+keb-automation.com#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
+a5912 1
+keb-automation.com#@##privacy-consent

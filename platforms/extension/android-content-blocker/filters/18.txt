@@ -1,9 +1,9 @@
-! Checksum: USr7DX6rkq9p7pGzavuJzg
-! Diff-Path: ../patches/18/18-s-1706150156-3600.patch
+! Checksum: Z0jU49bqXtfPJXiEu/YTmw
+! Diff-Path: ../patches/18/18-s-1706168141-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.8
-! TimeUpdated: 2024-01-25T02:32:06+00:00
+! Version: 2.0.32.9
+! TimeUpdated: 2024-01-25T07:31:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2320,6 +2320,9 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+keb-automation.com#$#body #privacy-consent { display: none !important; }
+keb-automation.com#$##privacy-consent ~ .modal-backdrop { display: none !important; }
+keb-automation.com#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
 markformelle.by##.app-cookies__popup
 ndl.go.jp##.privacy-confirmation
 help.instagram.com###cookie-policy-banner
@@ -13064,6 +13067,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171458
+keb-automation.com#@##privacy-consent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171356
 @@||cookiebot.com^$domain=cinemas.nos.pt
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171099

@@ -1,0 +1,15 @@
+d2 2
+a3 2
+! Checksum: BBYCZ7znWAJeDqc+usGxDw
+! Diff-Path: ../patches/18/18-s-1706168169-3600.patch
+d6 2
+a7 2
+! Version: 2.0.32.9
+! TimeUpdated: 2024-01-25T07:31:54+00:00
+a2330 3
+keb-automation.com#$#body #privacy-consent { display: none !important; }
+keb-automation.com#$##privacy-consent ~ .modal-backdrop { display: none !important; }
+keb-automation.com#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
+a14104 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/171458
+keb-automation.com#@##privacy-consent
