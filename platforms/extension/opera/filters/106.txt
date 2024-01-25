@@ -1,15 +1,15 @@
-! Checksum: rU7q1enx5KyZHonqUBTIBQ
-! Diff-Path: ../patches/106/106-s-1706173583-14400.patch
+! Checksum: Ce7RRm8EK8UlBaFKHDYE9w
+! Diff-Path: ../patches/106/106-s-1706188012-14400.patch
 ! Title: EasyList Dutch
 ! Description: Additional filter list for websites in Dutch. Already included in AdGuard Dutch filter.
-! Version: 2.1.42.63
-! TimeUpdated: 2024-01-25T09:01:35+00:00
+! Version: 2.1.42.64
+! TimeUpdated: 2024-01-25T13:01:48+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: Vej4VPpjeUnWC1DkVdROBQ
-! OriginalVersion: 202401250851
+! Checksum: /b5YF6i9NFJnwbfMlSWvKw
+! OriginalVersion: 202401251251
 ! Title: EasyList Dutch
-! Last modified: 25 Jan 2024 08:51 UTC
+! Last modified: 25 Jan 2024 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1273,7 +1273,7 @@ webstick.nl##img[width="680"]
 wildfm.nl##img[width="699"][height="90"]
 pokeren.nl,ucl-voetbal.nl##img[width="728"][height="90"]
 basketballbelgium.be##img[width="970"][height="250"]
-bol.com##li.js_sponsored_product
+bol.com##li.js_item_root:has(.dsa__list-padding)
 bol.com##section.js_slot-sponsored-products
 landenweb.nl##table[style="margin-left: auto; margin-right: auto; border: 1px solid; width: 100%; margin-bottom: 10px;"]
 radiocaramba.nl##table[width="120"][height="600"]
