@@ -1,9 +1,9 @@
-! Checksum: S+E/RMuuBjVV92DUrxQwRA
-! Diff-Path: ../patches/21/21-s-1706171742-3600.patch
+! Checksum: 8X5opoJlTG/U/H8USCFLow
+! Diff-Path: ../patches/21/21-s-1706178966-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.1
-! TimeUpdated: 2024-01-25T08:32:10+00:00
+! Version: 2.0.19.2
+! TimeUpdated: 2024-01-25T10:32:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5008,6 +5008,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+avito.ru##div[class^="create-promocode-banner"]
 kupujemprodajem.com##div[class^="Banner"]
 bookvoed.ru##div[class] > a[href^="/redirect/karusel/stat?"]:has(> img[alt="Новичкам везёт!"])
 eksmo.ru##.cheader__personal-offer
