@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZbJNFPXzvBqGn2bXuWiJUw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1706200584-3600.patch
+! Checksum: eMnGhgGZr1Gevay30gGunA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1706207789-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.85.78
-! TimeUpdated: 2024-01-25T16:31:46+00:00
+! Version: 2.1.85.79
+! TimeUpdated: 2024-01-25T18:31:47+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -9706,6 +9706,8 @@ aol.com#@#.adwrap
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+zeit.de#$?#.tp-modal-open { overflow: auto !important; }
+zeit.de#$?#body.body-fixed { overflow: auto !important; }
 ||dc1fpv8kkq7dm.cloudfront.net/*/whatsapp.gif$domain=adotrip.com
 adotrip.com##.whatsapp-icon
 vw-passat.pl##+js(set-cookie, fblb, 1)
