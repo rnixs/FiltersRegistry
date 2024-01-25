@@ -1,9 +1,9 @@
-! Checksum: QscNW652+D6mUZ3uhgbACQ
-! Diff-Path: ../patches/18/18-s-1706189811-3600.patch
+! Checksum: wKXHHCqm3ZKthK2tjCbkxw
+! Diff-Path: ../patches/18/18-s-1706196996-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.13
-! TimeUpdated: 2024-01-25T13:32:17+00:00
+! Version: 2.0.32.14
+! TimeUpdated: 2024-01-25T15:32:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2359,6 +2359,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+waves.com###gdpr-widget
 smart.com#$?##cookie-pro-dialog { remove: true; }
 keb-automation.com#$#body #privacy-consent { display: none !important; }
 keb-automation.com#$##privacy-consent ~ .modal-backdrop { display: none !important; }

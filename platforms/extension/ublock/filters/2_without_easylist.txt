@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: uXjDqi74Z2ktJ0rjd7YQ5Q
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706193398-3600.patch
+! Checksum: EFCY3mIOnx3RT77wscOriQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706196993-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.19.43
-! TimeUpdated: 2024-01-25T14:33:05+00:00
+! Version: 2.3.19.44
+! TimeUpdated: 2024-01-25T15:32:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1490,6 +1490,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||edge.ads.twitch.tv^
 ||dic9vgwbkxd8r.cloudfront.net^
 ||fentent.stre4mplay.one^
 ||sponsor.imacdn.com^
@@ -21438,6 +21439,8 @@ roweroweporady.pl#@#.ad_container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148299
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171504
+lowicz24.eu,skarzyski.eu,zambrow.org##.sticky_anchor
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171353
 rp.pl##.headerTopBarAdvert
 rp.pl##+js(remove-class, -top-bar-advert|-top-bar-advert-mobile|-top-bar-advert-desktop)
