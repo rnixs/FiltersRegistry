@@ -1,9 +1,9 @@
-! Checksum: bI9lpuCCDy7ar4MAh0BaaA
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1706150177-3600.patch
+! Checksum: lJ+YO7mSiuZ7WbJu2agGkA
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1706171759-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.0
-! TimeUpdated: 2024-01-24T15:32:32+00:00
+! Version: 2.0.19.1
+! TimeUpdated: 2024-01-25T08:32:10+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -845,6 +845,7 @@ rasp.yandex.*##.TravelHotelsBanner
 ya.ru,yandex.*##.AliceFabPromo
 tv.yandex.*##.recommended-ott
 www.kinopoisk.ru##div[class^="trailer-promo"]
+corrector.co##body .code-block
 4pda.to###navstrip ~ br
 4pda.to###navstrip ~ div.borderwrap:has(> div.ddb-ft-wrap a[title^="DevDB"])
 moneycontrol.com##.creScroe
