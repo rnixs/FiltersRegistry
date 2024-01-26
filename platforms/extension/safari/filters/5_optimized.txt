@@ -1,9 +1,9 @@
-! Checksum: vDFtjBo1ZZuMxi4DE72Q8g
-! Diff-Path: ../patches/5_optimized/5_optimized-s-1705516588-3600.patch
+! Checksum: ez1Juuk33IY+0LPIdz3/Hg
+! Diff-Path: ../patches/5_optimized/5_optimized-s-1706269013-3600.patch
 ! Title: AdGuard Experimental filter (Optimized)
 ! Description: Filter designed to test certain hazardous filtering rules before they are added to the basic filters.
-! Version: 2.0.1.29
-! TimeUpdated: 2024-01-17T18:33:07+00:00
+! Version: 2.0.1.30
+! TimeUpdated: 2024-01-26T11:33:26+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -34,3 +34,4 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_experimental
 !################## For advertisement ##################
 !################## For tracking ##################
 ||uim.tifbs.net/js/2048.js
+linkedin.com##section > div[class^="_wrapper"]:has(> div > div[class^="_messageWrapper_"] > div[class^="_message_"] > p > a[href="https://www.linkedin.com/settings/member-cookies"])

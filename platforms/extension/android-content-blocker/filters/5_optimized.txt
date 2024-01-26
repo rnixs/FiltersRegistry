@@ -1,9 +1,9 @@
-! Checksum: yiDkDeU0Teaa6kZQeNkSrw
-! Diff-Path: ../patches/5_optimized/5_optimized-s-1705516561-3600.patch
+! Checksum: KA3z8zQXQnj9yVhHvafusg
+! Diff-Path: ../patches/5_optimized/5_optimized-s-1706268982-3600.patch
 ! Title: AdGuard Experimental filter (Optimized)
 ! Description: Filter designed to test certain hazardous filtering rules before they are added to the basic filters.
-! Version: 2.0.1.29
-! TimeUpdated: 2024-01-17T18:33:07+00:00
+! Version: 2.0.1.30
+! TimeUpdated: 2024-01-26T11:33:26+00:00
 ! Expires: 5 days (update frequency)
 /[a-z]{8,}\.(com|info|xyz)/$domain=nolive.me,third-party
 developer.android.com,adssettings.google.com##sc-survey-survey-manager
