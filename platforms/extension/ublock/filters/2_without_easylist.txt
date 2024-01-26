@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /L2lirC8/d1zHY2SoyNckw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706269018-3600.patch
+! Checksum: GuMsnzDrc8AquLcg9bTFEw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706272738-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.19.53
-! TimeUpdated: 2024-01-26T11:33:05+00:00
+! Version: 2.3.19.54
+! TimeUpdated: 2024-01-26T12:34:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -32692,6 +32692,8 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+dwell.com#?#figure + div[class]:has(> div[class] > div[id^="div-gpt-ad-"])
+terabox.com##.pause-patch-ad
 investing.com###comments_new > .border-t > .items-center:has(> div[data-test="ad-slot-visible"])
 technologynetworks.com#?#.preText:contains(Continue reading below...)
 israel21c.org##.banner-container
@@ -49562,6 +49564,16 @@ outlook.live.com#?#.customScrollBar[data-is-scrollable] > div[class] > div[class
 ! breaks page layout
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169476
 ! outlook.live.com##.customScrollBar > div[class] > div[class]:empty
+!
+! charismanews.com
+||minio.charismamedia.com/*/ads.css$domain=charismanews.com
+||minio.charismamedia.com/*/background.jpg$domain=charismanews.com
+charismanews.com###FrontpageFeatureRightColumn
+charismanews.com##.RightBnrWrap
+charismanews.com##div[style="min-width: 300px; min-height: 250px;"]
+charismanews.com###articles > article.article:has(> div.contentBoxWrap a[href^="https://servedby.aqua-adserver.com/"])
+!+ NOT_PLATFORM(android, ios)
+charismanews.com#$##headerAreaWrap { height: 180px !important; }
 !
 ! check-host.net
 check-host.net##.mt-3\.5 > div > div[id*="t"][id*="a"][class] img.gofull

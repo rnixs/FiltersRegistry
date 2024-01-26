@@ -1,9 +1,9 @@
-! Checksum: 3/RcQ4n0WYMfjP4tC2pAQw
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1706265408-3600.patch
+! Checksum: UbDB3hB0r0KX4zZZLJnbSw
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1706272768-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.66.2
-! TimeUpdated: 2024-01-26T10:32:49+00:00
+! Version: 2.0.66.3
+! TimeUpdated: 2024-01-26T12:34:42+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -86152,6 +86152,7 @@ inapps.appsflyersdk.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||events.character.ai^
 ||sb.scorecard.research.com^
 ||zml-apm-prd.dbv4.noncd.db.de^
 ||api.bytebrew.io^

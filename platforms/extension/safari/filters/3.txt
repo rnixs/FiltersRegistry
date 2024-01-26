@@ -1,9 +1,9 @@
-! Checksum: A5v6qrjoL7C6vo5F/RIPyA
-! Diff-Path: ../patches/3/3-s-1706265377-3600.patch
+! Checksum: C8A8Kk1hZgqVw6ekyl430Q
+! Diff-Path: ../patches/3/3-s-1706272731-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.66.2
-! TimeUpdated: 2024-01-26T10:32:49+00:00
+! Version: 2.0.66.3
+! TimeUpdated: 2024-01-26T12:34:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -39385,6 +39385,7 @@ inapps.appsflyersdk.com^
 !
 ! NOTE: Regular rules
 !
+||events.character.ai^
 ||sb.scorecard.research.com^
 ||zml-apm-prd.dbv4.noncd.db.de^
 ||api.bytebrew.io^
