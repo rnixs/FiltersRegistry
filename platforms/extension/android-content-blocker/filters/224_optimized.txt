@@ -1,9 +1,9 @@
-! Checksum: aoG6cKVOMvZTc4jGNhyKdQ
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1706182569-3600.patch
+! Checksum: 7bwgOHpb695McTBbF7GILg
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1706229344-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.9.16
-! TimeUpdated: 2024-01-25T11:32:34+00:00
+! Version: 2.1.9.17
+! TimeUpdated: 2024-01-26T00:32:19+00:00
 ! Expires: 5 days (update frequency)
 ||98765.pw^
 ||cdn.holmesmind.com^$third-party
@@ -5582,6 +5582,18 @@ newduba.cn###jq_youxi
 ||fopksr.icu^
 ||ogmjhve.cn^
 ||xhnvgdkw.xyz^
+||rlhtnnm.xyz^
+||wsadad.cn^
+||opwofty.cn^
+||trf6b.top^
+||x1fyw.icu^
+||ypkxahje.xyz^
+||vcbppb.xyz^
+||1ng2l.space^
+||mnorkc.xyz^
+||sdjbvjsbvjz.com^
+||vfvad.top^
+||brookssa.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -14464,7 +14476,7 @@ dmzj.com###khdDown
 0597kk.com###kk_head_ad
 0597kk.com###kk_oTransContainer2
 1m3d.com###klp_adtop
-zhenniu.vip###klp_hdp
+zn508.com###klp_hdp
 baidu.com###knowledge-answer
 csdn.net###kp_box_476
 csdn.net###kp_box_58
@@ -15107,7 +15119,7 @@ yahoo.com##.GeminiPortalStreamAd_handleViewport
 3dmgame.com##.Gmaeinfobtn_tab > span
 zhihu.com##.GoodsRecommendCard
 downg.com##.Gs_d[href$=".exe"]
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zhenniu.vip##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn508.com##.GzList
 le.com##.H-tg
 chinaz.com##.HeaderAdvert
 diyifanwen.com##.Hzh1
