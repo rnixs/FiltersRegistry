@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8FEZspkSpyKajEV3sWJMJg
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706301395-3600.patch
+! Checksum: YQ79K9Is/1MvH3CHcFu+aw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706304986-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.19.59
-! TimeUpdated: 2024-01-26T20:33:04+00:00
+! Version: 2.3.19.60
+! TimeUpdated: 2024-01-26T21:33:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -26937,6 +26937,10 @@ truyenqqhot.com##div[id^="ads_"]
 ##.adverts_header_advert
 !+ NOT_OPTIMIZED
 ##.adverts_side_advert
+!+ NOT_OPTIMIZED
+##.adverts_footer_advert
+!+ NOT_OPTIMIZED
+##.adverts_footer_scrolling_advert
 !+ NOT_OPTIMIZED
 ##.bordered-ad
 !+ NOT_OPTIMIZED
