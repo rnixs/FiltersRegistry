@@ -1,9 +1,9 @@
-! Checksum: AYZ8VtyG2sRSS5OBDA/9jQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1706286952-3600.patch
+! Checksum: BfNaqC8lQyo8tvrN4LRyfw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1706294149-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.85.88
-! TimeUpdated: 2024-01-26T16:31:51+00:00
+! Version: 2.1.85.89
+! TimeUpdated: 2024-01-26T18:31:50+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -17148,11 +17148,6 @@ m.sobaka.ru##.b-head-banner
 m.sobaka.ru##.b-main-menu__banner
 ||cdn.viqeo.tv/js/vq_starter.js$domain=teleprogramma.pro|coop-land.ru|om1.ru|pravda.ru
 ownedcore.com###site-header > div > div[style="text-align:center;"] > a[rel="nofollow"][target="_blank"]
-||search.namu.wiki/api/ranking$domain=arca.live
-||arca.live/api/bywiki.json$domain=arca.live
-board.namu.wiki,arca.live###newsRank
-arca.live###namuRank
-arca.live##body > .root-container > .topbar-area.d-lg-none
 reedsy.com##.duplicate-content
 ||cdn.tinypass.com/api/tinypass.min.js$domain=seekingalpha.com
 bfmtv.com#$#.video-js.vjs-pip-active { position: static!important; }
@@ -20173,6 +20168,7 @@ ukr.net###sinoptik_container
 /gs_informerClient.min.$third-party
 ||gismeteo.*/getInformer/$third-party
 ||meteoprog.ua/*/weather/informer/$third-party
+charter97.org###donate-article
 novaramedia.com##.background-support-texture
 novaramedia.com##.support-section
 nonciclopedia.org,miraheze.org###siteNotice
