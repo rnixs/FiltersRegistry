@@ -1,0 +1,11 @@
+d1 2
+a2 2
+! Checksum: tLjUn4UG2qQfhiLWZNLaJA
+! Diff-Path: ../patches/21/21-s-1706258171-3600.patch
+d5 2
+a6 2
+! Version: 2.0.19.6
+! TimeUpdated: 2024-01-26T08:32:11+00:00
+a7427 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/171550
+sanemoku.com#%#//scriptlet('adjust-setInterval', 'countdown', '*', '0.001')

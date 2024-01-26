@@ -1,9 +1,9 @@
-! Checksum: DkmbHeD29f6F5WYz7rM/zQ
-! Diff-Path: ../patches/19/19-s-1706207796-3600.patch
+! Checksum: 90RmhwynUOkqtTmlO4Cebg
+! Diff-Path: ../patches/19/19-s-1706258185-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.63
-! TimeUpdated: 2024-01-25T18:32:01+00:00
+! Version: 2.0.30.64
+! TimeUpdated: 2024-01-26T08:31:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4383,6 +4383,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+deviantart.com##header[role="banner"] ~ div[class*=" "]:has(> span.surface > a[href="https://www.deviantart.com/users/login"])
 zeit.de#$?#.tp-modal-open { overflow: auto !important; }
 zeit.de#$?#body.body-fixed { overflow: auto !important; }
 ||dc1fpv8kkq7dm.cloudfront.net/*/whatsapp.gif$domain=adotrip.com
