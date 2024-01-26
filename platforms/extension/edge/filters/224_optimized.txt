@@ -1,9 +1,9 @@
-! Checksum: aXbojMzvDBGlytgV616RiA
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1706229350-3600.patch
+! Checksum: ipjspnfy7WT6LzpRsWLKpg
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1706233074-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.9.17
-! TimeUpdated: 2024-01-26T00:32:19+00:00
+! Version: 2.1.9.18
+! TimeUpdated: 2024-01-26T01:34:16+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4215,6 +4215,7 @@ newduba.cn###jq_youxi
 ##script + #rbbox
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
+##.ad_pc
 ##script + div[id^="a-loading-"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
@@ -5836,6 +5837,7 @@ newduba.cn###jq_youxi
 ||sdjbvjsbvjz.com^
 ||vfvad.top^
 ||brookssa.com^
+||gaipuzui.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -13915,6 +13917,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+tmioe.com##.ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
