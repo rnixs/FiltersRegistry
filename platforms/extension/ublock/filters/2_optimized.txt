@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: YIXR5xZGuHnOm33D36gnLA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1706258181-3600.patch
+! Checksum: G2/RcUaBw8y/43O+QHN60Q
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1706265382-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.19.51
-! TimeUpdated: 2024-01-26T08:32:43+00:00
+! Version: 2.3.19.52
+! TimeUpdated: 2024-01-26T10:32:41+00:00
 ! Expires: 5 days (update frequency)
 ||riweeboo.com^
 ||8trd.online^
@@ -8969,6 +8969,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||livehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+israel21c.org##.banner-container
 exoticca.com##div[id^="add-banner"]
 cybernews.com##.a-label__wrapper
 hclips.com##.wrapper__block > div.pagination + section[style]

@@ -1,9 +1,9 @@
-! Checksum: 2hV2RRMePV7QmqgtDTcJ+g
-! Diff-Path: ../patches/19/19-s-1706261766-3600.patch
+! Checksum: 76NGzDlv8z/d07MwRnlYeA
+! Diff-Path: ../patches/19/19-s-1706265339-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.65
-! TimeUpdated: 2024-01-26T09:32:21+00:00
+! Version: 2.0.30.66
+! TimeUpdated: 2024-01-26T10:31:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12179,6 +12179,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+israel21c.org##.in-article-newsletter-wrapper
 setforset.com##.sidebar_content > div.sidebar-block:has(> div.newsletter)
 inphic.com##.operation_newsletter_popup2
 chasingthedonkey.com##.newsletter-signup-section
