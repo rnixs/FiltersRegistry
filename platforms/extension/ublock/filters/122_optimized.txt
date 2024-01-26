@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Jm6hsMDUwLQ9upqxlWNong
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1706245582-14400.patch
+! Checksum: BIG0x80aN8Z6PLdLrmA3VA
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1706260017-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.97
-! TimeUpdated: 2024-01-26T05:02:01+00:00
+! Version: 2.1.19.98
+! TimeUpdated: 2024-01-26T09:02:14+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -14753,7 +14753,7 @@ zipjob.com##+js(set-cookie, cookie_consent, 1)
 pricehubble.com##+js(set-cookie, cookieBannerAccepted, 1, , reload, 1)
 ilmotorsport.de##+js(set-cookie, cookieMsg, true, , reload, 1)
 monese.com##+js(set-cookie, accept-cookies, true)
-psbank.ru,myriad.social,exeedme.com,followalice.com##+js(set-cookie, cookie-consent, true)
+karate.com,psbank.ru,myriad.social,exeedme.com,followalice.com##+js(set-cookie, cookie-consent, true)
 aqua-store.fr##+js(set-cookie, abz_seo_choosen, 1)
 voila.ca##+js(set-cookie, privacyAccepted, true)
 anastore.com##+js(set-cookie, cok, 1, , reload, 1)

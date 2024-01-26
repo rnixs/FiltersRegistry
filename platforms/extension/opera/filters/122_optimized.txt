@@ -1,9 +1,9 @@
-! Checksum: 4oSNN6LgwWSI2v2T2OhegQ
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1706245574-14400.patch
+! Checksum: LN/+DV/rWE00Ux29+YcoYA
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1706260006-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.97
-! TimeUpdated: 2024-01-26T05:02:01+00:00
+! Version: 2.1.19.98
+! TimeUpdated: 2024-01-26T09:02:14+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -14752,7 +14752,7 @@ zipjob.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1')
 pricehubble.com#%#//scriptlet('ubo-set-cookie.js', 'cookieBannerAccepted', '1', '', 'reload', '1')
 ilmotorsport.de#%#//scriptlet('ubo-set-cookie.js', 'cookieMsg', 'true', '', 'reload', '1')
 monese.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'true')
-psbank.ru,myriad.social,exeedme.com,followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'true')
+karate.com,psbank.ru,myriad.social,exeedme.com,followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'true')
 aqua-store.fr#%#//scriptlet('ubo-set-cookie.js', 'abz_seo_choosen', '1')
 voila.ca#%#//scriptlet('ubo-set-cookie.js', 'privacyAccepted', 'true')
 anastore.com#%#//scriptlet('ubo-set-cookie.js', 'cok', '1', '', 'reload', '1')

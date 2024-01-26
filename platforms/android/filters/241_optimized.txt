@@ -1,9 +1,9 @@
-! Checksum: v1AC/HzWkqR6JJHJYFXm3Q
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1706245554-14400.patch
+! Checksum: LIyV611jIW6KdIkVKEPMfA
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1706259980-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.0
-! TimeUpdated: 2024-01-26T05:02:46+00:00
+! Version: 2.1.28.1
+! TimeUpdated: 2024-01-26T09:03:00+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -22217,7 +22217,7 @@ zipjob.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1')
 pricehubble.com#%#//scriptlet('ubo-set-cookie.js', 'cookieBannerAccepted', '1', '', 'reload', '1')
 ilmotorsport.de#%#//scriptlet('ubo-set-cookie.js', 'cookieMsg', 'true', '', 'reload', '1')
 monese.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'true')
-psbank.ru,myriad.social,exeedme.com,followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'true')
+karate.com,psbank.ru,myriad.social,exeedme.com,followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'true')
 aqua-store.fr#%#//scriptlet('ubo-set-cookie.js', 'abz_seo_choosen', '1')
 voila.ca#%#//scriptlet('ubo-set-cookie.js', 'privacyAccepted', 'true')
 anastore.com#%#//scriptlet('ubo-set-cookie.js', 'cok', '1', '', 'reload', '1')

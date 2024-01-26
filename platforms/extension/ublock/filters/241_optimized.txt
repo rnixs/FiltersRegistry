@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: UaJub/mWnGbF241rpAkQIA
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1706245584-14400.patch
+! Checksum: PMZn367mlrKe1Z61zt+8jQ
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1706260020-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.0
-! TimeUpdated: 2024-01-26T05:02:46+00:00
+! Version: 2.1.28.1
+! TimeUpdated: 2024-01-26T09:03:00+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -22218,7 +22218,7 @@ zipjob.com##+js(set-cookie, cookie_consent, 1)
 pricehubble.com##+js(set-cookie, cookieBannerAccepted, 1, , reload, 1)
 ilmotorsport.de##+js(set-cookie, cookieMsg, true, , reload, 1)
 monese.com##+js(set-cookie, accept-cookies, true)
-psbank.ru,myriad.social,exeedme.com,followalice.com##+js(set-cookie, cookie-consent, true)
+karate.com,psbank.ru,myriad.social,exeedme.com,followalice.com##+js(set-cookie, cookie-consent, true)
 aqua-store.fr##+js(set-cookie, abz_seo_choosen, 1)
 voila.ca##+js(set-cookie, privacyAccepted, true)
 anastore.com##+js(set-cookie, cok, 1, , reload, 1)
