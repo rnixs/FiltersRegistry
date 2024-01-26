@@ -1,9 +1,9 @@
-! Checksum: 02xY8Vsak5XCEiBOud6SSg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1706297767-3600.patch
+! Checksum: hTZvowCZu3gOibuI5Ak9mQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1706301388-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.19.58
-! TimeUpdated: 2024-01-26T19:32:47+00:00
+! Version: 2.3.19.59
+! TimeUpdated: 2024-01-26T20:33:04+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -20159,6 +20159,7 @@ _800x80_
 ##a[href^="https://adultfriendfinder.com/go/"]
 ##a[href^="https://affcpatrk.com/"]
 ##a[href^="https://affpa.top/"]
+##a[href^="https://athletedurable.com/"]
 ##a[href^="https://bc.game/"]
 ##a[href^="https://bngprm.com/"]
 ##a[href^="https://bngpt.com/"]
@@ -21637,6 +21638,7 @@ browsershots.org#@#.advert_area
 ||atgthkqt.com^
 ||athitmontopon.com^
 ||athivopou.com^
+||athletedurable.com^
 ||athostouco.com^
 ||aticatea.com^
 ||ationpecialukizeiaon.info^
@@ -23418,6 +23420,7 @@ browsershots.org#@#.advert_area
 ||drcjvghsdaumpi.com^
 ||dreamsofcryingf.com^
 ||drearlyknifes.com^
+||drearypassport.com^
 ||dresserderange.com^
 ||dressingdedicatedmeeting.com^
 ||dribbleads.com^
@@ -23745,6 +23748,7 @@ browsershots.org#@#.advert_area
 ||entterto.com^
 ||entuvmcdcedli.com^
 ||enuresdairi.com^
+||envious-low.com^
 ||enviousshape.com^
 ||enzav.xyz^
 ||eoasxirquewfyn.com^
@@ -25740,6 +25744,7 @@ browsershots.org#@#.advert_area
 ||joinsportsnow.com^
 ||joint-bad.com^
 ||jokcnycabhdvbwg.com^
+||jokingzealotgossipy.com^
 ||jomtingi.net^
 ||jonaharsu.com^
 ||joodoush.com^
@@ -27819,6 +27824,7 @@ browsershots.org#@#.advert_area
 ||passwordslayoutvest.com^
 ||passwordssaturatepebble.com^
 ||patalogs.com^
+||patefysouari.com^
 ||patencydaimiel.com^
 ||patgsrv.com^
 ||pattyheadlong.com^
@@ -28837,6 +28843,7 @@ browsershots.org#@#.advert_area
 ||rosymap.pro^
 ||rotarb.bid^
 ||rotate4all.com^
+||rotondelibya.com^
 ||rotumal.com^
 ||roudoduor.com^
 ||rouduranter.com^
@@ -30919,6 +30926,7 @@ browsershots.org#@#.advert_area
 ||ydonkuan.com^
 ||ydqkorympskhbc.com^
 ||ydyympasqrx.com^
+||yeadsdaymq.com^
 ||yeioreo.net^
 ||yellow-resultsbidder.com^
 ||yellowblue.io^
@@ -31584,6 +31592,7 @@ browsershots.org#@#.advert_area
 ||affinity.net^$popup
 ||aitsatho.com^$popup
 ||ammannests.com^$popup
+||athletedurable.com^$popup
 ||audiblereflectionsenterprising.com^$popup
 ||avthelkp.net^$popup
 ||beforeignunlig.com^$popup
@@ -31604,6 +31613,7 @@ browsershots.org#@#.advert_area
 ||doubleclick.net^$popup
 ||dragfault.com^$popup
 ||drawerenter.com^$popup
+||drearypassport.com^$popup
 ||dressingdedicatedmeeting.com^$popup
 ||evaporateahead.com^$popup
 ||expdirclk.com^$popup
@@ -31612,6 +31622,7 @@ browsershots.org#@#.advert_area
 ||foxqck.com^$popup
 ||fstsrv6.com^$popup
 ||g2afse.com^$popup
+||gadlt.nl^$popup
 ||glugherg.net^$popup
 ||gmxvmvptfm.com^$popup
 ||grapseex.com^$popup
@@ -31634,6 +31645,7 @@ browsershots.org#@#.advert_area
 ||intorterraon.com^$popup
 ||jeekomih.com^$popup
 ||jocauzee.net^$popup
+||jokingzealotgossipy.com^$popup
 ||juicyads.com^$popup
 ||jybaekajjmroq.top^$popup
 ||keefeezo.net^$popup
