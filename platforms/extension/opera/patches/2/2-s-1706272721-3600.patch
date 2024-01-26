@@ -1,0 +1,23 @@
+d1 2
+a2 2
+! Checksum: 9GeUASUdmYoJ+Je8oE7Wzg
+! Diff-Path: ../patches/2/2-s-1706276183-3600.patch
+d5 2
+a6 2
+! Version: 2.3.19.55
+! TimeUpdated: 2024-01-26T13:32:56+00:00
+a7451 1
+autoscout24.*#%#//scriptlet('abort-on-property-read', 'Object.prototype.autoRecov')
+a28173 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/171582
+123moviesclub.to#%#//scriptlet('remove-node-text', 'script', 'xepo_ad')
+a78487 1
+||abelestheca.com^
+a88869 1
+||formsmir.com^
+a89431 1
+||gaushaih.xyz^
+a102691 1
+||riweeboo.com^
+a105047 1
+||steppedlashkar.com^
