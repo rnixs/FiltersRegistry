@@ -1,15 +1,15 @@
-! Checksum: 5LJeKKNzJPWgtTvL5Mo5pQ
-! Diff-Path: ../patches/122/122-s-1706259977-14400.patch
+! Checksum: 2dC4CWFcg/1mL6q6I/rQsw
+! Diff-Path: ../patches/122/122-s-1706274387-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.19.98
-! TimeUpdated: 2024-01-26T09:02:14+00:00
+! Version: 2.1.19.99
+! TimeUpdated: 2024-01-26T13:02:19+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 2Kh0eRsksVmPjhQxMy5JkQ
-! OriginalVersion: 202401260740
+! Checksum: N6kImOPeOZBSbZwvRYf9UA
+! OriginalVersion: 202401261240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-26 07:40 UTC
+! Last modified: 2024-01-26 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34300,7 +34300,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||plugin.me2day.net^$third-party
 ||postquare.com^$third-party
 ||powerjobs.com^$third-party
-||poxo.com^$third-party
+||poxo.com^$third-party,domain=~colorscale.shop
 ||pressly.com^$third-party
 ||primetag.net^$third-party
 ||printfriendly.com^$~subdocument,third-party
@@ -41640,6 +41640,7 @@ physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehir
 m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice', 'true')
 omega-nuernberg.servicebund.com#%#//scriptlet('ubo-set-cookie.js', 'cookieChoice', '0')
 eboo.lu#%#//scriptlet('ubo-set-cookie.js', 'PostAnalytics', '0')
+tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com,drainagebuizen.nl#%#//scriptlet('ubo-set-cookie.js', 'cookiebar', '1')
 likewise.com#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'true')
 longines.com#%#//scriptlet('ubo-set-cookie.js', 'longines-cookiesstatus-analytics', 'false')
 longines.com#%#//scriptlet('ubo-set-cookie.js', 'longines-cookiesstatus-functional', 'false')
@@ -41647,6 +41648,8 @@ longines.com#%#//scriptlet('ubo-set-cookie.js', 'longines-cookiesstatus-necessar
 longines.com#%#//scriptlet('ubo-set-cookie.js', 'longines-cookiesstatus-social', 'false')
 vater-it.de#%#//scriptlet('ubo-set-cookie.js', 'pz_cookie_consent', 'true')
 biano.hu#%#//scriptlet('ubo-set-cookie.js', '_cb', '1', '', 'reload', '1')
+quebueno.es#%#//scriptlet('ubo-set-cookie.js', 'gatsby-gdpr-google-tagmanager', 'false')
+nadia.gov.gr#%#//scriptlet('ubo-set-cookie.js', 'consent-status', '1')
 hana-book.fr#%#//scriptlet('ubo-set-cookie.js', 'HANA-RGPD', 'accepted')
 kzvb.de#%#//scriptlet('ubo-set-cookie.js', 'cookie-optin', 'true')
 correosexpress.com,cexpr.es#%#//scriptlet('ubo-set-cookie.js', 'msg_cookie_CEX', 'true')
@@ -42338,6 +42341,8 @@ eversports.de#%#//scriptlet('ubo-set-local-storage-item.js', 'dnt_a', '1')
 makerz.me#%#//scriptlet('ubo-set-local-storage-item.js', 'makerz_allow_consentmgr', '0')
 reebok.eu#%#//scriptlet('ubo-set-local-storage-item.js', 'SHOW_COOKIE_BANNER', 'no')
 alfa.com.ec,rts.com.ec,tropicalida.com.ec#%#//scriptlet('ubo-set-local-storage-item.js', 'CookiesConsent', '1')
+owgr.com#%#//scriptlet('ubo-set-local-storage-item.js', 'hasAnalyticalCookies', 'false')
+owgr.com#%#//scriptlet('ubo-set-local-storage-item.js', 'hasStrictlyNecessaryCookies', 'true')
 beermerchants.com#%#//scriptlet('ubo-set-local-storage-item.js', 'amCookieBarFirstShow', '1')
 saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptedCookies', 'false')
 saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'viewedCookieBanner', 'true')
@@ -42664,10 +42669,6 @@ fmk-steuer.de#$#body,html { overflow: auto !important; position: initial !import
 !! .featherlight
 scholpp.de,scholpp.es,scholpp.pl,scholpp.it,ptc.eu,scholpp.com,abo24.de,overdrive.com,wetu.com##.featherlight
 scholpp.de,scholpp.es,scholpp.pl,scholpp.it,ptc.eu,scholpp.com,abo24.de,overdrive.com,wetu.com#%#//scriptlet('ubo-rc.js', 'with-featherlight', '', 'stay')
-!! .popup__backdrop
-tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com##.popup__backdrop
-tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com##.popup
-tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com#$#body,html { overflow: auto !important; position: initial !important; }
 !! .acris-cookie-consent
 jawoll.de,moebel-as.de,buss-wohnen.de,mline.com,bikebox-shop.de,electropapa.com,baer-shoes.com,baer-schuhe.de,baer-shoes.co.uk,baer-schuhe.ch,baer-schuhe.at,moses-verlag.de,roesle.com,arctic.de,graf-dichtungen.de,hegemeister-kiepenkerl.de,sperli.de,maksyna.com,klwshop.de,vosker.shop,amiga-life.com,catolet-world.com,catoletworld.com,keimling.de,keimling.ch,pro-biomarkt.de,cafe-royal.com,studio-ausruestung.de,blumixx.de,auro-per-klick.de,pro-aqua.com,licefa.de,jerry-s.com,moebel-buss.de,amicanda.com,duw-shop.de,naturbaustoffcentrum.de,licefa-eyewear.com,kineco-shop.de##.acris-cookie-consent
 jawoll.de,moebel-as.de,buss-wohnen.de,mline.com,bikebox-shop.de,electropapa.com,baer-shoes.com,baer-schuhe.de,baer-shoes.co.uk,baer-schuhe.ch,baer-schuhe.at,moses-verlag.de,roesle.com,arctic.de,graf-dichtungen.de,hegemeister-kiepenkerl.de,sperli.de,maksyna.com,klwshop.de,vosker.shop,amiga-life.com,catolet-world.com,catoletworld.com,keimling.de,keimling.ch,pro-biomarkt.de,cafe-royal.com,studio-ausruestung.de,blumixx.de,auro-per-klick.de,pro-aqua.com,licefa.de,jerry-s.com,moebel-buss.de,amicanda.com,duw-shop.de,naturbaustoffcentrum.de,licefa-eyewear.com,kineco-shop.de##.modal-backdrop
@@ -42707,9 +42708,6 @@ cogalhome.com#$#body,html { overflow: auto !important; position: initial !import
 !! .cookie-sheet-small
 idesigni.co.uk##.cookie-sheet-small
 idesigni.co.uk#$#body,html { height: auto !important; overflow: auto !important }
-!! .ccm-modal
-apfelpage.de,click-learn.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de##.ccm-modal
-apfelpage.de,click-learn.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .wz-rgpd
 zone-artisanale.com,hole19.fr,akouashop.com,destock-stickers.fr,merecerise.com,acheter-lunettes.com,tortoraaugusto.com,lapiglove.com,dunemer.com,galets-decodesign.com,leprintempsdemarnie.fr,jetecroque.com,amisprix.fr,topvapote.com,lapetitechenille.be,e-discount-europe.com,holster-etfr.com,destravauxchezmoi.com,innovtools.com,fluidmotion.fr,motifpersonnel.com,agrafeuse-cloueuse.com,lesmotssontdescadeaux.com,les-trottinettes.com,makemyvan.fr,lasavonneriedenyons.com,escalier-colimacon.com,slowcontrol.com,pepiniere-botanique.com,parapluieparis.com,siemtech.fr,la-carte-aux-epices.fr,boutique.hifivideogambetta.com,jetrouvemespieces.com,bahya-culinaire.com,designfromparis.com,cameleon-shop.com,bio-tele.com,auto-media.fr,lemecblinde.com,mysweetconcept.com,bioviela.com,precieusesante.com,valve-up.com,e-metropolight.com,equipements-collectivites.fr,boutique-lost-funeraire.com,letruckdecharlotte.com,gii.fr,philatema.com,planete-muslim.com,aphrodisiaque-store.com,tigeraudio.eu,collectivites-equipements.fr,cristallehrer.com,linfusion.fr,agrafeuse-cloueuse.com##.wz-rgpd
 zone-artisanale.com,hole19.fr,akouashop.com,destock-stickers.fr,merecerise.com,acheter-lunettes.com,tortoraaugusto.com,lapiglove.com,dunemer.com,galets-decodesign.com,leprintempsdemarnie.fr,jetecroque.com,amisprix.fr,topvapote.com,lapetitechenille.be,e-discount-europe.com,holster-etfr.com,destravauxchezmoi.com,innovtools.com,fluidmotion.fr,motifpersonnel.com,agrafeuse-cloueuse.com,lesmotssontdescadeaux.com,les-trottinettes.com,makemyvan.fr,lasavonneriedenyons.com,escalier-colimacon.com,slowcontrol.com,pepiniere-botanique.com,parapluieparis.com,siemtech.fr,la-carte-aux-epices.fr,boutique.hifivideogambetta.com,jetrouvemespieces.com,bahya-culinaire.com,designfromparis.com,cameleon-shop.com,bio-tele.com,auto-media.fr,lemecblinde.com,mysweetconcept.com,bioviela.com,precieusesante.com,valve-up.com,e-metropolight.com,equipements-collectivites.fr,boutique-lost-funeraire.com,letruckdecharlotte.com,gii.fr,philatema.com,planete-muslim.com,aphrodisiaque-store.com,tigeraudio.eu,collectivites-equipements.fr,cristallehrer.com,linfusion.fr,agrafeuse-cloueuse.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -42916,11 +42914,6 @@ feierstoff.de,ani-one.com,brilliant-ag.eu,hdt.de,motor-oel-guenstig.de#$#body,ht
 !! .MuiSnackbar-root
 banknorwegian.de,fashionunited.info,fashionunited.com,fashionunited.fr,fashionunited.uk,fashionunited.de,fashionunited.nl,fashionunited.be##.MuiDialog-root.MuiModal-root
 banknorwegian.de,fashionunited.info,fashionunited.com,fashionunited.fr,fashionunited.uk,fashionunited.de,fashionunited.nl,fashionunited.be#$#html { overflow: auto !important; position: initial !important; }
-!! .MuiDialog-container
-owgr.com##.MuiDrawer-modal
-owgr.com,quebueno.es,nadia.gov.gr##.MuiDialog-container
-owgr.com,quebueno.es,nadia.gov.gr##.MuiBackdrop-root
-owgr.com,quebueno.es,nadia.gov.gr#$#body { overflow: auto !important; position: initial !important; }
 !! .js-cookie-wall
 unileverfoodsolutionslatam.com##.js-cookie-wall
 unileverfoodsolutionslatam.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -48239,6 +48232,7 @@ physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehir
 m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice', 'true')
 omega-nuernberg.servicebund.com#%#//scriptlet('ubo-set-cookie.js', 'cookieChoice', '0')
 eboo.lu#%#//scriptlet('ubo-set-cookie.js', 'PostAnalytics', '0')
+tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com,drainagebuizen.nl#%#//scriptlet('ubo-set-cookie.js', 'cookiebar', '1')
 likewise.com#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'true')
 longines.com#%#//scriptlet('ubo-set-cookie.js', 'longines-cookiesstatus-analytics', 'false')
 longines.com#%#//scriptlet('ubo-set-cookie.js', 'longines-cookiesstatus-functional', 'false')
@@ -48246,6 +48240,8 @@ longines.com#%#//scriptlet('ubo-set-cookie.js', 'longines-cookiesstatus-necessar
 longines.com#%#//scriptlet('ubo-set-cookie.js', 'longines-cookiesstatus-social', 'false')
 vater-it.de#%#//scriptlet('ubo-set-cookie.js', 'pz_cookie_consent', 'true')
 biano.hu#%#//scriptlet('ubo-set-cookie.js', '_cb', '1', '', 'reload', '1')
+quebueno.es#%#//scriptlet('ubo-set-cookie.js', 'gatsby-gdpr-google-tagmanager', 'false')
+nadia.gov.gr#%#//scriptlet('ubo-set-cookie.js', 'consent-status', '1')
 hana-book.fr#%#//scriptlet('ubo-set-cookie.js', 'HANA-RGPD', 'accepted')
 kzvb.de#%#//scriptlet('ubo-set-cookie.js', 'cookie-optin', 'true')
 correosexpress.com,cexpr.es#%#//scriptlet('ubo-set-cookie.js', 'msg_cookie_CEX', 'true')
@@ -48823,7 +48819,7 @@ zipjob.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1')
 pricehubble.com#%#//scriptlet('ubo-set-cookie.js', 'cookieBannerAccepted', '1', '', 'reload', '1')
 ilmotorsport.de#%#//scriptlet('ubo-set-cookie.js', 'cookieMsg', 'true', '', 'reload', '1')
 monese.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'true')
-psbank.ru,myriad.social,exeedme.com,followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'true')
+karate.com,psbank.ru,myriad.social,exeedme.com,followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'true')
 aqua-store.fr#%#//scriptlet('ubo-set-cookie.js', 'abz_seo_choosen', '1')
 voila.ca#%#//scriptlet('ubo-set-cookie.js', 'privacyAccepted', 'true')
 anastore.com#%#//scriptlet('ubo-set-cookie.js', 'cok', '1', '', 'reload', '1')
@@ -48937,6 +48933,8 @@ eversports.de#%#//scriptlet('ubo-set-local-storage-item.js', 'dnt_a', '1')
 makerz.me#%#//scriptlet('ubo-set-local-storage-item.js', 'makerz_allow_consentmgr', '0')
 reebok.eu#%#//scriptlet('ubo-set-local-storage-item.js', 'SHOW_COOKIE_BANNER', 'no')
 alfa.com.ec,rts.com.ec,tropicalida.com.ec#%#//scriptlet('ubo-set-local-storage-item.js', 'CookiesConsent', '1')
+owgr.com#%#//scriptlet('ubo-set-local-storage-item.js', 'hasAnalyticalCookies', 'false')
+owgr.com#%#//scriptlet('ubo-set-local-storage-item.js', 'hasStrictlyNecessaryCookies', 'true')
 beermerchants.com#%#//scriptlet('ubo-set-local-storage-item.js', 'amCookieBarFirstShow', '1')
 saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'acceptedCookies', 'false')
 saamexe.com#%#//scriptlet('ubo-set-local-storage-item.js', 'viewedCookieBanner', 'true')
@@ -49263,10 +49261,6 @@ fmk-steuer.de#$#body,html { overflow: auto !important; position: initial !import
 !! .featherlight
 scholpp.de,scholpp.es,scholpp.pl,scholpp.it,ptc.eu,scholpp.com,abo24.de,overdrive.com,wetu.com##.featherlight
 scholpp.de,scholpp.es,scholpp.pl,scholpp.it,ptc.eu,scholpp.com,abo24.de,overdrive.com,wetu.com#%#//scriptlet('ubo-rc.js', 'with-featherlight', '', 'stay')
-!! .popup__backdrop
-tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com##.popup__backdrop
-tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com##.popup
-tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com#$#body,html { overflow: auto !important; position: initial !important; }
 !! .acris-cookie-consent
 jawoll.de,moebel-as.de,buss-wohnen.de,mline.com,bikebox-shop.de,electropapa.com,baer-shoes.com,baer-schuhe.de,baer-shoes.co.uk,baer-schuhe.ch,baer-schuhe.at,moses-verlag.de,roesle.com,arctic.de,graf-dichtungen.de,hegemeister-kiepenkerl.de,sperli.de,maksyna.com,klwshop.de,vosker.shop,amiga-life.com,catolet-world.com,catoletworld.com,keimling.de,keimling.ch,pro-biomarkt.de,cafe-royal.com,studio-ausruestung.de,blumixx.de,auro-per-klick.de,pro-aqua.com,licefa.de,jerry-s.com,moebel-buss.de,amicanda.com,duw-shop.de,naturbaustoffcentrum.de,licefa-eyewear.com,kineco-shop.de##.acris-cookie-consent
 jawoll.de,moebel-as.de,buss-wohnen.de,mline.com,bikebox-shop.de,electropapa.com,baer-shoes.com,baer-schuhe.de,baer-shoes.co.uk,baer-schuhe.ch,baer-schuhe.at,moses-verlag.de,roesle.com,arctic.de,graf-dichtungen.de,hegemeister-kiepenkerl.de,sperli.de,maksyna.com,klwshop.de,vosker.shop,amiga-life.com,catolet-world.com,catoletworld.com,keimling.de,keimling.ch,pro-biomarkt.de,cafe-royal.com,studio-ausruestung.de,blumixx.de,auro-per-klick.de,pro-aqua.com,licefa.de,jerry-s.com,moebel-buss.de,amicanda.com,duw-shop.de,naturbaustoffcentrum.de,licefa-eyewear.com,kineco-shop.de##.modal-backdrop
@@ -49306,9 +49300,6 @@ cogalhome.com#$#body,html { overflow: auto !important; position: initial !import
 !! .cookie-sheet-small
 idesigni.co.uk##.cookie-sheet-small
 idesigni.co.uk#$#body,html { height: auto !important; overflow: auto !important }
-!! .ccm-modal
-apfelpage.de,click-learn.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de##.ccm-modal
-apfelpage.de,click-learn.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .wz-rgpd
 zone-artisanale.com,hole19.fr,akouashop.com,destock-stickers.fr,merecerise.com,acheter-lunettes.com,tortoraaugusto.com,lapiglove.com,dunemer.com,galets-decodesign.com,leprintempsdemarnie.fr,jetecroque.com,amisprix.fr,topvapote.com,lapetitechenille.be,e-discount-europe.com,holster-etfr.com,destravauxchezmoi.com,innovtools.com,fluidmotion.fr,motifpersonnel.com,agrafeuse-cloueuse.com,lesmotssontdescadeaux.com,les-trottinettes.com,makemyvan.fr,lasavonneriedenyons.com,escalier-colimacon.com,slowcontrol.com,pepiniere-botanique.com,parapluieparis.com,siemtech.fr,la-carte-aux-epices.fr,boutique.hifivideogambetta.com,jetrouvemespieces.com,bahya-culinaire.com,designfromparis.com,cameleon-shop.com,bio-tele.com,auto-media.fr,lemecblinde.com,mysweetconcept.com,bioviela.com,precieusesante.com,valve-up.com,e-metropolight.com,equipements-collectivites.fr,boutique-lost-funeraire.com,letruckdecharlotte.com,gii.fr,philatema.com,planete-muslim.com,aphrodisiaque-store.com,tigeraudio.eu,collectivites-equipements.fr,cristallehrer.com,linfusion.fr,agrafeuse-cloueuse.com##.wz-rgpd
 zone-artisanale.com,hole19.fr,akouashop.com,destock-stickers.fr,merecerise.com,acheter-lunettes.com,tortoraaugusto.com,lapiglove.com,dunemer.com,galets-decodesign.com,leprintempsdemarnie.fr,jetecroque.com,amisprix.fr,topvapote.com,lapetitechenille.be,e-discount-europe.com,holster-etfr.com,destravauxchezmoi.com,innovtools.com,fluidmotion.fr,motifpersonnel.com,agrafeuse-cloueuse.com,lesmotssontdescadeaux.com,les-trottinettes.com,makemyvan.fr,lasavonneriedenyons.com,escalier-colimacon.com,slowcontrol.com,pepiniere-botanique.com,parapluieparis.com,siemtech.fr,la-carte-aux-epices.fr,boutique.hifivideogambetta.com,jetrouvemespieces.com,bahya-culinaire.com,designfromparis.com,cameleon-shop.com,bio-tele.com,auto-media.fr,lemecblinde.com,mysweetconcept.com,bioviela.com,precieusesante.com,valve-up.com,e-metropolight.com,equipements-collectivites.fr,boutique-lost-funeraire.com,letruckdecharlotte.com,gii.fr,philatema.com,planete-muslim.com,aphrodisiaque-store.com,tigeraudio.eu,collectivites-equipements.fr,cristallehrer.com,linfusion.fr,agrafeuse-cloueuse.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -49515,11 +49506,6 @@ feierstoff.de,ani-one.com,brilliant-ag.eu,hdt.de,motor-oel-guenstig.de#$#body,ht
 !! .MuiSnackbar-root
 banknorwegian.de,fashionunited.info,fashionunited.com,fashionunited.fr,fashionunited.uk,fashionunited.de,fashionunited.nl,fashionunited.be##.MuiDialog-root.MuiModal-root
 banknorwegian.de,fashionunited.info,fashionunited.com,fashionunited.fr,fashionunited.uk,fashionunited.de,fashionunited.nl,fashionunited.be#$#html { overflow: auto !important; position: initial !important; }
-!! .MuiDialog-container
-owgr.com##.MuiDrawer-modal
-owgr.com,quebueno.es,nadia.gov.gr##.MuiDialog-container
-owgr.com,quebueno.es,nadia.gov.gr##.MuiBackdrop-root
-owgr.com,quebueno.es,nadia.gov.gr#$#body { overflow: auto !important; position: initial !important; }
 !! .js-cookie-wall
 unileverfoodsolutionslatam.com##.js-cookie-wall
 unileverfoodsolutionslatam.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -56317,6 +56303,7 @@ ants.vn##.sg-popup-content
 ||consent2.rheinische-anzeigenblaetter.de^
 ||consenttool.haendlerbund.de^
 ||cookies.ptj.de^
+||cookies.tanke-guenstig.de^
 ||electriclove.at/*/api/cookie-settings
 ||emondo.de/wp-content/plugins/borlabs-cookie/
 ||epccm19.com/app.js
@@ -56341,6 +56328,7 @@ ants.vn##.sg-popup-content
 ||tauschticket.de/js/cnst.js
 ||up-cookiemon.wavecdn.net^
 ||vag.de/typo3conf/ext/cookieman/
+||versicherungsjournal.de/public/app.js
 ||weddstyle.de/bilder/banner/$image
 !
 ! ---------- French ----------
