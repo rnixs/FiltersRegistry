@@ -1,9 +1,9 @@
-! Checksum: dA+Du7RezE/FSZ4fGuc8MQ
-! Diff-Path: ../patches/19/19-s-1706258151-3600.patch
+! Checksum: 5rnQPPVRvQPZlVj3LSjIRA
+! Diff-Path: ../patches/19/19-s-1706261770-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.64
-! TimeUpdated: 2024-01-26T08:31:58+00:00
+! Version: 2.0.30.65
+! TimeUpdated: 2024-01-26T09:32:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12111,8 +12111,8 @@ dn.pt##.newslettercapping
 stanley-pmi.com.br##.box-news
 etmoney.com##.subscribed-box
 etmoney.com##.horizontal-subscribed-box
-englishlessonsbrighton.co.uk##.et_bloom > div.et_bloom_popup.et_bloom_visible
-englishlessonsbrighton.co.uk##.et_pb_newsletter
+agrimag.it,englishlessonsbrighton.co.uk##.et_bloom > div.et_bloom_popup.et_bloom_visible
+agrimag.it,englishlessonsbrighton.co.uk##.et_pb_newsletter
 gripgrab.com,bluestoneperennials.com##body > div > div.needsclick
 diamondlobby.com##.form-embed
 outofbit.it##.boxzilla-bottom-right-container
