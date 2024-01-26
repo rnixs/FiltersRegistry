@@ -1,9 +1,9 @@
-! Checksum: oyU+0BVUreyyjnXE5CQY5A
-! Diff-Path: ../patches/19/19-s-1706272765-3600.patch
+! Checksum: ATWJM8FhIJUsyO2Or2Pa5A
+! Diff-Path: ../patches/19/19-s-1706279797-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.68
-! TimeUpdated: 2024-01-26T12:33:46+00:00
+! Version: 2.0.30.69
+! TimeUpdated: 2024-01-26T14:31:59+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10095,8 +10095,8 @@ gurubanks.com##.lwp-modal_wrap
 techblogng.com##.mailmunch-scrollbox
 currenttime.tv##.media-block-wrapper.slide-in-widget
 m.gd.ru##.megaShadow
-glassdoor.com,lazarangelov.academy##.mfp-bg
-lazarangelov.academy##.mfp-wrap
+storeinua.com,glassdoor.com,lazarangelov.academy##.mfp-bg
+storeinua.com,lazarangelov.academy##.mfp-wrap
 wyborcza.pl##.mod.mod_ddbox.is-visible
 linux.com##.modal-default
 hyser.com.ua##.modal-facebook-like
