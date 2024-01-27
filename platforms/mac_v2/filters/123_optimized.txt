@@ -1,9 +1,9 @@
-! Checksum: eLvjTYheSC9mSQxcDYxBVQ
-! Diff-Path: ../patches/123_optimized/123_optimized-s-1706346439-14400.patch
+! Checksum: xvFhcxvK+4o9Mi+Yy9U52w
+! Diff-Path: ../patches/123_optimized/123_optimized-s-1706360831-14400.patch
 ! Title: Fanboy's Social Blocking List (Optimized)
 ! Description: Hides and blocks social content, social widgets, social scripts and social icons. Already included in Fanboy's Annoyances list.
-! Version: 2.1.18.40
-! TimeUpdated: 2024-01-27T09:02:14+00:00
+! Version: 2.1.18.41
+! TimeUpdated: 2024-01-27T13:02:14+00:00
 ! Expires: 12 hours (update frequency)
 -buttons-facebook.
 -facebook-share.
@@ -5026,11 +5026,14 @@ tastesbetterfromscratch.com##.block-follow-me
 breitbart.com##.bnn-social-share
 bangkokpost.com##.boxnav--social
 insidethegames.biz##.btn-block.btn
-agrimag.co.za,automart.co.za##.btn-facebook
+agrimag.co.za,androidpolice.com,automart.co.za##.btn-facebook
+androidpolice.com##.btn-linkedIn
 androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com##.btn-mail
+androidpolice.com##.btn-reddit
 junkmail.co.za##.btn-sm
-agrimag.co.za,androidpolice.com,automart.co.za,maketecheasier.com##.btn-twitter
+agrimag.co.za,automart.co.za,maketecheasier.com##.btn-twitter
 agrimag.co.za,androidpolice.com,automart.co.za##.btn-whatsapp
+androidpolice.com##.btn-x
 healthline.com##.button-wrapper
 livescience.com##.buttons-social
 newshub.co.nz##.c-ArticleHeading-actions
