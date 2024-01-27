@@ -1,9 +1,9 @@
-! Checksum: pELIyLQxPDBWDsYNg+Vydw
-! Diff-Path: ../patches/227_optimized/227_optimized-s-1706303177-14400.patch
+! Checksum: dZR3dNA/5U38jXT/M/PzaQ
+! Diff-Path: ../patches/227_optimized/227_optimized-s-1706346395-14400.patch
 ! Title: List-KR (Optimized)
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.48
-! TimeUpdated: 2024-01-26T21:02:28+00:00
+! Version: 2.0.17.49
+! TimeUpdated: 2024-01-27T09:02:32+00:00
 ! Expires: 1 day (update frequency)
 ||d1cykymlllue3h.cloudfront.net^
 ||ad1.missyusa.com^
@@ -1427,6 +1427,7 @@ lol.ps##div[class*="ad-"]
 jobkorea.co.kr##div[id^="Banner"]
 eegosa.com##section[id*="_ads_"]
 sports.donga.com##div[id*="_AD"]
+namu.wiki##article div[class*=" "]:has(> span + ul > li) ~ div div + div[class*=" "]:has(iframe[id^="google_ads_"])
 namu.wiki##aside > div[class*=" "]:has(iframe[id^="google_ads_"])
 namu.wiki##article > div[class]:not([class*=" "]) ~ div[class*=" "]:has(iframe[id^="google_ads_"])
 humorpick.com##.view-mobile div[class*="margin-"]:has(#main_bn)
