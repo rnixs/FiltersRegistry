@@ -1,9 +1,9 @@
-! Checksum: LtnrUivUIgM3OTqBaLWX9A
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1706360779-14400.patch
+! Checksum: bGntoarTtOTpRivmmhF/UA
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1706389602-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.62
-! TimeUpdated: 2024-01-27T13:02:02+00:00
+! Version: 2.0.18.63
+! TimeUpdated: 2024-01-27T21:02:31+00:00
 ! Expires: 5 days (update frequency)
 .id^*/ads_$domain=~cartalog.id
 .id^*/adv-$domain=~adv.kompas.id
@@ -3433,19 +3433,22 @@ _usafelink.$third-party,script
 ||lk21static.xyz/iframe/content2.php$subdocument
 filmbioskop21.info##.inner-wrap > .ban_empat ~ hr + .table-hover
 130.51.20.150,loneguardian.xyz,nessandbeauty.xyz,tindershots.xyz,totalzen.xyz###adf_tera
+samehadaku.red###bannerhomefooter
 sokuja.live###close-teaser
 kuramanime.pro###close-teaser-footer
 manganime.live###closeButton
 inonton.com###fadeinbox
+samehadaku.red###fload-bottom
+samehadaku.red###fload-mids
 45.8.146.115,5.253.86.213###floatbanner-bottom
-samehadaku.guru###floatbottom
+samehadaku.guru,samehadaku.ink###floatbottom
 akashinime.lol,anixverse.com,hepinime.id,isekaisubs.web.id,sokuja.co,sokuja.live###floatcenter
 drakorid.cyou###floating-banner
 bioskopjadul.xyz,sinemaxxi.xyz###floating_banner_bottom1
 inonton.com###floating_banner_top
 doroni.me,doronime.id##.Content__banner
 doroni.me,doronime.id##.Fixed
-samehadaku.guru##.ads
+samehadaku.guru,samehadaku.ink##.ads
 manganime.live##.asd
 nontonfilms24.com##.banner-float
 cinemagaul.com,indosat.xyz,indoxxone.com,popcorn21.xyz##.banner-float-bottom
@@ -3498,7 +3501,7 @@ nontondrama.click##.warning-modal
 /wp-content/plugins/wp-popup-banners/*$domain=0.0.realodix
 0.0.realodix###wpb_overlay
 /wp-content/plugins/itro-popup/*$domain=0.0.realodix
-anichin.top,mikanime.com,wibudesu.co#$#* { user-select:text!important; }
+anichin.top,mikanime.com,samehadaku.guru,samehadaku.ink,wibudesu.co#$#* { user-select:text!important; }
 ##[href*="r=kawanfilm45"]
 ##[href*="ref=aigodrama"]
 ##[href*="ref=bossinema21"]
@@ -3691,6 +3694,7 @@ bokepbaru.bond,bokephub.mom,bokepid.autos,bokepind.mom,bokepkeren.autos,bokepmam
 -rajakasino.$image
 -rgocasino-$image
 -rgocasino.$image
+-slotgacor-$image
 -tototix.gif
 -winning228.$image
 /12naga.gif|
@@ -4794,7 +4798,9 @@ _topbandar_$image
 ##[href="https://tinyurl.com/ratu89"]
 ##[href="https://tinyurl.com/rusia777"]
 ##[href="https://tinyurl.com/samehadaku36"]
+##[href="https://tinyurl.com/samehadaku361"]
 ##[href="https://tinyurl.com/samehadakuklik"]
+##[href="https://tinyurl.com/samehadakuklik1"]
 ##[href="https://tinyurl.com/sinemaxxi2klik"]
 ##[href="https://tinyurl.com/sinemaxxibd36"]
 ##[href="https://tinyurl.com/sinemaxxiklik"]
@@ -4871,7 +4877,14 @@ _topbandar_$image
 ##img[alt*="judi slot online" i]
 ##img[alt*="slot demo gratis" i]
 ##img[alt*="slot online terpercaya" i]
+##img[alt="388baik"]
+##img[alt="388hero"]
+##img[alt="baik777"]
 ##img[alt="bandar855" i]
+##img[alt="bandarxl"]
+##img[alt="bisnis4d"]
+##img[alt="enakslot"]
+##img[alt="eqn388"]
 ##img[alt="jokerbet888" i]
 ##img[alt="pokerboya" i]
 ##img[alt="ratucapsa" i]
