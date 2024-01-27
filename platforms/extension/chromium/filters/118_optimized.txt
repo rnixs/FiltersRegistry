@@ -1,9 +1,9 @@
-! Checksum: BkNFSBX1loCb8CUcHe6fvA
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1706303175-14400.patch
+! Checksum: 65KYuNHwefawq+U5FjuNhw
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1706317565-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.21.3
-! TimeUpdated: 2024-01-26T21:01:55+00:00
+! Version: 2.1.21.4
+! TimeUpdated: 2024-01-27T01:01:48+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -6025,6 +6025,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ampproject.org/preconnect.gif
 ||ams-pageview-public.s3.amazonaws.com^
 ||analyse.bcovery.com^
+||analyse.lnearn.com^
 ||analytic.rollout.io^
 ||analyticcdn.globalmailer.com^
 ||analytics-1.cavai.com^
@@ -7074,7 +7075,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||recurly.com/js/v1/events
 ||redditstatic.com/ads/pixel.js
 ||redfast.com/ping/
-||refer.ccbill.com^
 ||refer.wordpress.com^
 ||referrer.disqus.com^
 ||rejoiner.com/tracker/
@@ -7398,6 +7398,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.venatusmedia.com^
 ||track.vscash.com^
 ||track.yfret.com^
+||trackdesk.com/tracking.js
 ||tracker-dot-optimeeze.appspot.com^
 ||tracker.affirm.com^
 ||tracker.arc.io^
@@ -7544,6 +7545,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vee24.com/c/PageBehaviour?
 ||ventunotech.com/beacon/
 ||vercel-vitals.axiom.co^
+||verify.lnearn.com^
 ||vidazoo.com/aggregate?
 ||vidazoo.com/event/
 ||video-ad-stats.googlesyndication.com^
@@ -8471,6 +8473,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking3.vnncdn.net^
 ||za.zalo.me^
 ||za.zdn.vn^
+||1024tera.com/api/analytics?
 ||123rf.com/apicore-index/traffic_log
 ||342251b-beta.perplexity.ai/api/$xmlhttprequest
 ||4shared.com/js/d1VisitsCounter.4min.js
@@ -9195,6 +9198,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.wordpress.com^
 ||stats.wwitv.com^
 ||stats2.mytuner.mobi^
+||streamadblocker.cc/stat/
 ||streamlabs.com/web/data/ping
 ||streamstats.prd.dlive.tv^
 ||streamtape.com/stat/
@@ -20583,6 +20587,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tracker.azet.sk^
 ||analytics.redlink.com.ar^
 ||audiencies.ccma.cat^
+||caixabank.es/util/pixel.png?
 ||emol.com/bt/ping
 ||esmas.com/scripts/esmas_stats.js
 ||estadisticas.lanacion.com.ar^
