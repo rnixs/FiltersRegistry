@@ -1,14 +1,14 @@
-! Checksum: 5IzUzAW89h4reLsbCxSs1A
-! Diff-Path: ../patches/118/118-s-1706317586-14400.patch
+! Checksum: 1avTaWp3KsiwqI7zfKjk2A
+! Diff-Path: ../patches/118/118-s-1706331984-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.21.4
-! TimeUpdated: 2024-01-27T01:01:48+00:00
+! Version: 2.1.21.5
+! TimeUpdated: 2024-01-27T05:01:53+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202401270015
+! OriginalVersion: 202401270334
 ! Title: EasyPrivacy
-! Last modified: 27 Jan 2024 00:15 UTC
+! Last modified: 27 Jan 2024 03:34 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -1133,6 +1133,7 @@
 /host-analyticsjs-local/cache/local-ga.js
 /hs_track.js
 /hsc/trk/*
+/htdocs/js/admiral/init.js
 /hubspot-ga-tracking.js
 /i.gif?
 /i.php?i=
