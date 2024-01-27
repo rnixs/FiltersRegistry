@@ -1506,8 +1506,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/224.txt",
 			"trustLevel": "full",
-			"version": "2.1.9.26",
-			"timeUpdated": "2024-01-27T10:32:23+0000",
+			"version": "2.1.9.27",
+			"timeUpdated": "2024-01-27T11:32:13+0000",
 			"languages": [
 				"zh"
 			],
