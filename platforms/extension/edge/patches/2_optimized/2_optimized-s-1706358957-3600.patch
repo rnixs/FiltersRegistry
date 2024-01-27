@@ -1,0 +1,13 @@
+d1 2
+a2 2
+! Checksum: kfWWYSSjinhOseC9CDYWBQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1706362561-3600.patch
+d5 2
+a6 2
+! Version: 2.3.19.66
+! TimeUpdated: 2024-01-27T13:32:49+00:00
+d33685 1
+a33685 1
+wayfair.com,wayfair.co.uk#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
+a33686 1
+wayfair.*#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
