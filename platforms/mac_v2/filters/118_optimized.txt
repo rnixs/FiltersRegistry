@@ -1,9 +1,9 @@
-! Checksum: RF+yg2VrH2Qr66IJXvt7dw
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1706432826-14400.patch
+! Checksum: VZv8RYyHbBZ4vZ2bhal9vw
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1706447215-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.21.12
-! TimeUpdated: 2024-01-28T09:01:51+00:00
+! Version: 2.1.21.13
+! TimeUpdated: 2024-01-28T13:01:48+00:00
 ! Expires: 12 hours (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -1605,7 +1605,6 @@ img.promio-connect.com$image
 ||bx-cloud.com^
 ||bydst.com^
 ||cadsuta.net^
-||captcha-display.com^
 ||catsunrunjam.com^
 ||cbdatatracker.com^
 ||cdnhst.xyz^
@@ -20673,7 +20672,6 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 @@||identity.mparticle.com^$xmlhttprequest
 @@||ikea.com^*/analyticsEvent.$script,~third-party
 @@||imgur.com/min/px.js$~third-party
-@@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au

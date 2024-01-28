@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: zoqfvAImnpA1x5F5zUYFyA
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1706432812-14400.patch
+! Checksum: wSH+sDcM11CUU72cCxvcLQ
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1706447201-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.12
-! TimeUpdated: 2024-01-28T09:02:56+00:00
+! Version: 2.1.28.13
+! TimeUpdated: 2024-01-28T13:02:47+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -22147,6 +22147,7 @@ hot.si##+js(set-cookie, permission_marketing_cookies, 0)
 hot.si##+js(set-cookie, permission_statistic_cookies, 0)
 hot.si##+js(set-cookie, permission_funktional_cookies, 1)
 hot.si##+js(set-cookie, cookieconsent, 1)
+crenolibre.fr##+js(set-cookie, cookieconsent, false)
 dopt.com##+js(set-cookie, dopt_consent, false)
 oxfordonlineenglish.com##+js(set-cookie, ooe_cookie_policy_accepted, no)
 pccomponentes.fr,pccomponentes.com,pccomponentes.pt##+js(set-cookie, accept_cookie, 1)

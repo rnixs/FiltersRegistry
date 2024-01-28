@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: yrSCctiIMw728Xrz1L83og
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1706432810-14400.patch
+! Checksum: ywE32NX31pNBDoHW3jK4qQ
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1706447199-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.10
-! TimeUpdated: 2024-01-28T09:02:04+00:00
+! Version: 2.1.20.11
+! TimeUpdated: 2024-01-28T13:02:00+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -12965,6 +12965,8 @@ tilifony.com##.header_twitter_button
 firstpost.com##.home
 manutd.com##.home-content-panel__details-social__main-holder
 apa.org##.horizontal-icon-bar
+noisypixel.net##.hw-el-share
+noisypixel.net##.hw-toolbar-navplus
 dictionary.cambridge.org##.i-facebook
 dictionary.cambridge.org##.i-twitter
 cookieandkate.com##.icon-font
@@ -14693,6 +14695,7 @@ hot.si##+js(set-cookie, permission_marketing_cookies, 0)
 hot.si##+js(set-cookie, permission_statistic_cookies, 0)
 hot.si##+js(set-cookie, permission_funktional_cookies, 1)
 hot.si##+js(set-cookie, cookieconsent, 1)
+crenolibre.fr##+js(set-cookie, cookieconsent, false)
 dopt.com##+js(set-cookie, dopt_consent, false)
 oxfordonlineenglish.com##+js(set-cookie, ooe_cookie_policy_accepted, no)
 pccomponentes.fr,pccomponentes.com,pccomponentes.pt##+js(set-cookie, accept_cookie, 1)
@@ -17749,6 +17752,7 @@ hot.si##+js(set-cookie, permission_marketing_cookies, 0)
 hot.si##+js(set-cookie, permission_statistic_cookies, 0)
 hot.si##+js(set-cookie, permission_funktional_cookies, 1)
 hot.si##+js(set-cookie, cookieconsent, 1)
+crenolibre.fr##+js(set-cookie, cookieconsent, false)
 dopt.com##+js(set-cookie, dopt_consent, false)
 oxfordonlineenglish.com##+js(set-cookie, ooe_cookie_policy_accepted, no)
 pccomponentes.fr,pccomponentes.com,pccomponentes.pt##+js(set-cookie, accept_cookie, 1)
