@@ -1,15 +1,15 @@
-! Checksum: LiN1da5++nyGwUqbmYdc3g
-! Diff-Path: ../patches/246/246-s-1706447163-14400.patch
+! Checksum: kwp+KePLCYsSiNKLytN9SA
+! Diff-Path: ../patches/246/246-s-1706461572-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.38.90
-! TimeUpdated: 2024-01-28T13:02:51+00:00
+! Version: 2.1.38.91
+! TimeUpdated: 2024-01-28T17:02:59+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 5vHjkulaTt8ZbsE+RiaFrg
-! OriginalVersion: 202401281251
+! Checksum: STthaVsUehaVCWoC7HxLGw
+! OriginalVersion: 202401281651
 ! Title: EasyList Polish
-! Last modified: 28 Jan 2024 12:51 UTC
+! Last modified: 28 Jan 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -314,7 +314,6 @@ supernowosci24.pl##[id^="r-"]
 ||forum.haszysz.com/solarr^$image
 ||fwcdn.pl^*^ready^$subdocument,domain=filmweb.pl
 ||g.cda.pl/mediafile/acyHQyrkZus.mp4
-||g.cda.pl/player.php?ads
 ||gazetasenior.pl^*_300x300_
 ||getsitecontrol.com^$script,domain=swiatmotocykli.pl
 ||getyourguide.com$domain=tuhiszpania.pl

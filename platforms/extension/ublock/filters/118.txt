@@ -1,15 +1,15 @@
 ![Adblock Plus 2.0]
-! Checksum: SQ9/cqpFHfauLSfbOsfWDA
-! Diff-Path: ../patches/118/118-s-1706447198-14400.patch
+! Checksum: uPrc28fJ7dhSTkavvexYVQ
+! Diff-Path: ../patches/118/118-s-1706461606-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.21.13
-! TimeUpdated: 2024-01-28T13:01:48+00:00
+! Version: 2.1.21.14
+! TimeUpdated: 2024-01-28T17:01:56+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202401281123
+! OriginalVersion: 202401281538
 ! Title: EasyPrivacy
-! Last modified: 28 Jan 2024 11:23 UTC
+! Last modified: 28 Jan 2024 15:38 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -33645,7 +33645,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||email.info.exclusive-networks.com^
 ||email.mymandg.co.uk^
 ||emailhoteldevelopment.ihg.com^
-||emam^
 ||emea-go.experian.com^
 ||emeadm.rockwellautomation.com^
 ||emeanews.secureforms.partnermcafee.com^
@@ -36334,7 +36333,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||webtracking.medical.rossu.edu^
 ||webtracking.moneylaundering.com^
 ||webtracking.oncourselearning.com^
-||welcome..org^
 ||welcome.ciscopowerofpartnership.com^
 ||welcome.coniferhealth.com^
 ||welcome.e.chiefs.com^
