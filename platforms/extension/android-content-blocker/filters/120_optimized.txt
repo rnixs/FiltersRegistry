@@ -1,9 +1,9 @@
-! Checksum: bGntoarTtOTpRivmmhF/UA
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1706389602-14400.patch
+! Checksum: uwXWvAQKFqOkyb1O65TjjQ
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1706403958-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.63
-! TimeUpdated: 2024-01-27T21:02:31+00:00
+! Version: 2.0.18.64
+! TimeUpdated: 2024-01-28T01:01:50+00:00
 ! Expires: 5 days (update frequency)
 .id^*/ads_$domain=~cartalog.id
 .id^*/adv-$domain=~adv.kompas.id
@@ -3223,12 +3223,13 @@ anaktekno.com,aquatoyou.com,azislamayuda.com,belajaroffice.com,berkeluarga.id,bo
 /wp-content/plugins/master-popups/*$domain=mediamerdeka.co
 /wp-content/plugins/popup-builder/*$domain=klikjatim.com|papuatimes.co.id|papuatoday.com|sindomanado.com|suluttimes.com
 /wp-content/plugins/popups/public/*$domain=indonesiaexpat.id|jurnalweb.com
+bankiir.id,biayatarif.com,carabelanja.id,gadgetized.net,myjourney.id,oolean.id,pakaiatm.com,pakaibanking.com,paylaterin.com,pesantrenterbaik.com,pilihprofesi.com,prosesbayar.com,rkonline.id,sekolahpesantren.id,teknisitv.com###myCont
+bankiir.id,biayatarif.com,carabelanja.id,gadgetized.net,myjourney.id,oolean.id,pakaiatm.com,pakaibanking.com,paylaterin.com,pesantrenterbaik.com,pilihprofesi.com,prosesbayar.com,rkonline.id,sekolahpesantren.id,teknisitv.com#$#body { overflow: auto!important; }
 hellosehat.com###hhg-comp-popup-wrapper
 ladiestory.id###modalBanner
-paylaterin.com,pesantrenterbaik.com###myCont
 maenhp.com,versusbeda.com##.jquery-modal
 ladiestory.id##.modal-backdrop
-hellosehat.com,ladiestory.id,maenhp.com,paylaterin.com,pesantrenterbaik.com,versusbeda.com#$#body { overflow: auto!important; }
+hellosehat.com,ladiestory.id,maenhp.com,versusbeda.com#$#body { overflow: auto!important; }
 tirto.id###bkgOverlay
 kuncitts.com,kuotamedia.net,paketinternet.net,ponselsoak.com###bukafpop
 tirto.id###delayedPopup

@@ -1,9 +1,9 @@
-! Checksum: Ap42Yi0qv6q3piVgfE6YEw
-! Diff-Path: ../patches/232_optimized/232_optimized-s-1706389608-14400.patch
+! Checksum: K/2+4LrFPIcpxc8VPAkgKg
+! Diff-Path: ../patches/232_optimized/232_optimized-s-1706403965-14400.patch
 ! Title: KAD - Anti-Scam (Optimized)
 ! Description: Filter that protects against various types of scams in the Polish network, such as mass text messaging, fake online stores, etc.
-! Version: 2.0.52.11
-! TimeUpdated: 2024-01-27T21:03:15+00:00
+! Version: 2.0.52.12
+! TimeUpdated: 2024-01-28T01:02:35+00:00
 ! Expires: 5 days (update frequency)
 !#safari_cb_affinity(security)
 ||1vulkanvegas.com^$all
@@ -6059,6 +6059,7 @@
 ||allegrolokalnie.oferty-zakup24.pl^$all
 ||allegrolokalnie.oferty-zakupy24.pl^$all
 ||allegrolokalnie.ogloszenia24h-7.pl^$all
+||allegrolokalnie.ogloszenie-24h.pl^$all
 ||allegrolokalnie.pay247.pl^$all
 ||allegrolokalnie.payu-zakup-24.pl^$all
 ||allegrolokalnie.pl24452oferta.pl^$all
@@ -35021,6 +35022,7 @@
 ||motorlegalprotection.com^$all
 ||motorynek-polska24.pl^$all
 ||motoryzacja-marketplce.pl^$all
+||motoryzacja-oglaszajmy.pl^$all
 ||motoryzacja-online24.pl^$all
 ||motoryzacjanr1.pl^$all
 ||motoskuter.com^$all
@@ -40761,6 +40763,8 @@
 ||pl-oferta-prywatna2140.pl^$all
 ||pl-oferta-prywatna2141.pl^$all
 ||pl-oferta-prywatna2142.pl^$all
+||pl-oferta-prywatna3112.pl^$all
+||pl-oferta-prywatna3141.pl^$all
 ||pl-oferta-prywatna3211.pl^$all
 ||pl-oferta-prywatna3212.pl^$all
 ||pl-oferta-prywatna3213.pl^$all
@@ -42083,6 +42087,7 @@
 ||poli-q.web.app^$all
 ||poli-s.web.app^$all
 ||poli-w.web.app^$all
+||poliarkies.com^$all
 ||policeglossary.com^$all
 ||policjagdansk.online^$all
 ||policjagdansk.pl^$all
@@ -44795,6 +44800,7 @@
 ||realiseswitchcorp.bandzoogle.com^$all
 ||realityconvertguitares.pro^$all
 ||realitydreamis.space^$all
+||realitydrumdailyflightar.pro^$all
 ||realityfeaturethunderis.pro^$all
 ||realityos.org^$all
 ||realizationbis.club^$all

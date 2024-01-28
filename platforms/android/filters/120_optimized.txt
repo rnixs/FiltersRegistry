@@ -1,9 +1,9 @@
-! Checksum: fqv3ZMhn6zVKwLp/ENQoSg
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1706389597-14400.patch
+! Checksum: QtzjaXJU63unShXUGENHjg
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1706403953-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.63
-! TimeUpdated: 2024-01-27T21:02:31+00:00
+! Version: 2.0.18.64
+! TimeUpdated: 2024-01-28T01:01:50+00:00
 ! Expires: 5 days (update frequency)
 .id^*/ads_$domain=~cartalog.id
 .id^*/adv-$domain=~adv.kompas.id
@@ -3556,7 +3556,6 @@ anaktekno.com,aquatoyou.com,azislamayuda.com,belajaroffice.com,berkeluarga.id,bo
 /sweetalert2.$script,domain=pusatiklan.my.id
 ?key=*&submetric=$third-party,popup
 bacaterus.com,carisinyal.com#%#//scriptlet('ubo-aopr.js', '$', 'showModal')
-cilegonnews.com#%#//scriptlet('ubo-aopr.js', 'eplm_cooki_name')
 suki48.web.id#%#//scriptlet('ubo-aopw.js', '_pop')
 zuperdrive.my.id#%#//scriptlet('ubo-nowoif.js', '!zuperdrive')
 kotakgame.com#%#//scriptlet('ubo-set.js', '$.magnificPopup.open', 'noopFunc')
@@ -3571,14 +3570,14 @@ jagatpapua.com,prokaltim.com,suarakumandang.com,topwisata.info#%#//scriptlet('ub
 papuakita.com#%#//scriptlet('ubo-aopr.js', 'window.pum_popups')
 /wp-content/plugins/popups/public/*$domain=indonesiaexpat.id|jurnalweb.com
 jurnalweb.com#%#//scriptlet('ubo-aopr.js', '$', 'SPU_master')
-bankir.id,biayatarif.com,carabelanja.id,gadgetized.net,myjourney.id,oolean.id,pakaiatm.com,pakaibanking.com,pilihprofesi.com,prosesbayar.com,rkonline.id,sekolahpesantren.id,teknisitv.com#%#//scriptlet('ubo-aopr.js', 'generateStickyDebounce')
 jeniusplay.com#%#//scriptlet('ubo-window.open-defuser.js')
+bankiir.id,biayatarif.com,carabelanja.id,gadgetized.net,myjourney.id,oolean.id,pakaiatm.com,pakaibanking.com,paylaterin.com,pesantrenterbaik.com,pilihprofesi.com,prosesbayar.com,rkonline.id,sekolahpesantren.id,teknisitv.com###myCont
+bankiir.id,biayatarif.com,carabelanja.id,gadgetized.net,myjourney.id,oolean.id,pakaiatm.com,pakaibanking.com,paylaterin.com,pesantrenterbaik.com,pilihprofesi.com,prosesbayar.com,rkonline.id,sekolahpesantren.id,teknisitv.com#$#body { overflow: auto!important; }
 hellosehat.com###hhg-comp-popup-wrapper
 ladiestory.id###modalBanner
-paylaterin.com,pesantrenterbaik.com###myCont
 maenhp.com,versusbeda.com##.jquery-modal
 ladiestory.id##.modal-backdrop
-hellosehat.com,ladiestory.id,maenhp.com,paylaterin.com,pesantrenterbaik.com,versusbeda.com#$#body { overflow: auto!important; }
+hellosehat.com,ladiestory.id,maenhp.com,versusbeda.com#$#body { overflow: auto!important; }
 tirto.id###bkgOverlay
 kuncitts.com,kuotamedia.net,paketinternet.net,ponselsoak.com###bukafpop
 tirto.id###delayedPopup
