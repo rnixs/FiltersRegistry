@@ -1,9 +1,9 @@
-! Checksum: 0thSbDhNghXn0JlrOfX9gg
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1706495735-3600.patch
+! Checksum: d4DcZ02qZlQbNdhxO86hdA
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706524562-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.71
-! TimeUpdated: 2024-01-28T13:31:56+00:00
+! Version: 2.0.30.72
+! TimeUpdated: 2024-01-29T10:32:06+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
