@@ -1,9 +1,9 @@
-! Checksum: LWMD/5v9yQoV7VsXVsMlVA
-! Diff-Path: ../patches/123_optimized/123_optimized-s-1706504800-14400.patch
+! Checksum: YxqngMGlHIUoZtrgn8J5eA
+! Diff-Path: ../patches/123_optimized/123_optimized-s-1706533599-14400.patch
 ! Title: Fanboy's Social Blocking List (Optimized)
 ! Description: Hides and blocks social content, social widgets, social scripts and social icons. Already included in Fanboy's Annoyances list.
-! Version: 2.1.18.51
-! TimeUpdated: 2024-01-29T05:02:20+00:00
+! Version: 2.1.18.52
+! TimeUpdated: 2024-01-29T13:02:07+00:00
 ! Expires: 5 days (update frequency)
 -buttons-facebook.
 -facebook-share.
@@ -5292,6 +5292,7 @@ apa.org##.vertical-icon-bar
 motorsport.tv##.vjs-icons-bar
 dailymail.co.uk##.vjs-social-controls
 euractiv.com##.vsac-social-email
+business-standard.com##.whtsppchannle
 madinamerica.com##.widget_a2a_share_save_widget
 chipsandcheese.com##.widget_block
 mediapost.com##.widget_group
@@ -5406,6 +5407,7 @@ nl7za.com###tele
 radiofrance.fr##.ShareManager
 francebleu.fr##.ShareNetwork
 radiofrance.fr##.StationFooter-social
+allocine.fr##.button-sign-social
 rfm.fr##.communities
 lefigaro.fr##.fig-share-mobile-layer
 lefigaro.fr##.fig-sharebar
