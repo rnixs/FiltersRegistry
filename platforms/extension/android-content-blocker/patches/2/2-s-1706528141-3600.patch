@@ -1,0 +1,21 @@
+d1 2
+a2 2
+! Checksum: jwh0SgbT96EXt1m0aYfodA
+! Diff-Path: ../patches/2/2-s-1706531748-3600.patch
+d5 2
+a6 2
+! Version: 2.3.19.83
+! TimeUpdated: 2024-01-29T12:32:43+00:00
+a6906 5
+! https://github.com/AdguardTeam/AdguardFilters/issues/171758
+yoykp.com#@#ins.adsbygoogle
+yoykp.com#$#body ins.adsbygoogle { display: block !important; }
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=yoykp.com
+d10973 4
+a105273 1
+||swindlelaceratetorch.com^
+a124604 1
+gametracker.com##[style^="width:980px; height:48px"]
+a126764 1
+@@||moatads.com^$script,domain=imsa.com

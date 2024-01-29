@@ -1,9 +1,9 @@
-! Checksum: DIAPrYo9GCEI9a5a7i0Qdw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1706528140-3600.patch
+! Checksum: DPs/tPE8U+x6b2TPd5hw9Q
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706531748-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.73
-! TimeUpdated: 2024-01-29T11:31:56+00:00
+! Version: 2.0.30.74
+! TimeUpdated: 2024-01-29T12:32:00+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -1375,6 +1375,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+airbnb.de#$#body { overflow: auto !important; position: unset !important; }
 restoreprivacy.com#$#.brianhead-campaign { display: none !important; }
 restoreprivacy.com#$#html.om-position-popup body { overflow: auto !important; }
 ||dc1fpv8kkq7dm.cloudfront.net/*/whatsapp.gif$domain=adotrip.com
@@ -4957,7 +4958,7 @@ eleconomista.com.ar##.notanewsletter
 rdphostings.com##.entry-newsletter
 inews.id##.box-gnews
 itmedia.co.jp##.cmsBodyItmidSeriesButtonRegist
-open.nytimes.com,labs.guard.io,thebolditalic.com,infosecwriteups.com,medium.datadriveninvestor.com,betterprogramming.pub,medium.com##div[role="dialog"] ~ div > div[style="bottom: 0px;"]
+blog.bitsrc.io,open.nytimes.com,labs.guard.io,thebolditalic.com,infosecwriteups.com,medium.datadriveninvestor.com,betterprogramming.pub,medium.com##div[role="dialog"] ~ div > div[style="bottom: 0px;"]
 eltiempo.com##.container__boton-whatsapp
 eltiempo.com##.canales-whatsapp
 beincrypto.com##a[href^="https://t.me/BeInCryptoCommunity?utm_campaign"]
