@@ -1,9 +1,9 @@
-! Checksum: UCnQ16dXVOoAEVGzwvgIQQ
-! Diff-Path: ../patches/19/19-s-1706531748-3600.patch
+! Checksum: IimDhpu7n/X4T3y9Jqm8lQ
+! Diff-Path: ../patches/19/19-s-1706535355-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.74
-! TimeUpdated: 2024-01-29T12:32:00+00:00
+! Version: 2.0.30.75
+! TimeUpdated: 2024-01-29T13:32:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15415,7 +15415,7 @@ kbzk.com,thedenverchannel.com,wcpo.com##.newsletter-opt
 tlz.de##.piano-newsletter-inline
 pga.com##div[data-cy="gdpr-banner"]
 elespanol.com##.md-suscription
-ccm.net,journaldesfemmes.fr,commentcamarche.net##.nl-box
+immobilier.lefigaro.fr,ccm.net,journaldesfemmes.fr,commentcamarche.net##.nl-box
 ||cdn.convertbox.com^$third-party
 ||app.conversiobot.com^$third-party
 correiobraziliense.com.br##.revue-embed

@@ -1,9 +1,9 @@
-! Checksum: GbdpoUoRKOPJQT3Q35/QEw
-! Diff-Path: ../patches/1/1-s-1706524663-3600.patch
+! Checksum: Ol6ILcpvaE4gg1Z7J8mt2Q
+! Diff-Path: ../patches/1/1-s-1706535420-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.13
-! TimeUpdated: 2024-01-29T10:32:17+00:00
+! Version: 2.0.88.14
+! TimeUpdated: 2024-01-29T13:32:17+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7753,7 +7753,7 @@ flibusta.appspot.com#%#//scriptlet("set-constant", "String.prototype.charCodeAt"
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59782
 trashbox.mobi#%#//scriptlet("set-constant", "landing_safe_showed", "1")
 ! flashvars - clickunder or popunder
-videocelebs.net,xcadr.online,porno-chiks.org#%#//scriptlet('set-constant', 'flashvars.adv_pre_src', 'undefined')
+videocelebs.net,porno-chiks.org#%#//scriptlet('set-constant', 'flashvars.adv_pre_src', 'undefined')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58845
 mag.relax.by#%#//scriptlet('remove-class', 'b-global-branding', 'html')
 ! https://forum.adguard.com/index.php?threads/44134/

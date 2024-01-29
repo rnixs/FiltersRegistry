@@ -1,9 +1,9 @@
-! Checksum: PrqMC9ibEF53JnGDLVNb6A
-! Diff-Path: ../patches/21/21-s-1706531749-3600.patch
+! Checksum: zKWJhC5YeNY6OqnK0yXsgA
+! Diff-Path: ../patches/21/21-s-1706535357-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.11
-! TimeUpdated: 2024-01-29T12:32:12+00:00
+! Version: 2.0.19.12
+! TimeUpdated: 2024-01-29T13:32:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -93,6 +93,7 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171690
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171131
 ||geo.dailymotion.com/player/x2ww.js$domain=letribunaldunet.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171314
