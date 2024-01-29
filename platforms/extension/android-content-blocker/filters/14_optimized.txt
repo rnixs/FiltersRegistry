@@ -1,9 +1,9 @@
-! Checksum: VZi3uuMWIfwqieD0PUFKrQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1706542559-3600.patch
+! Checksum: TZWpa9nx64E2/S/U3YKnAA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1706546145-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.86.1
-! TimeUpdated: 2024-01-29T15:31:52+00:00
+! Version: 2.1.86.2
+! TimeUpdated: 2024-01-29T16:31:43+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -16230,6 +16230,8 @@ check24.de#$#html > body[class] { overflow: auto !important; }
 check24.de#$#.c24m-asb { display: none !important; }
 !+ NOT_OPTIMIZED
 check24.de#$#.c24m-asb-visible { position: absolute !important; }
+!+ NOT_OPTIMIZED
+ostrovok.ru##.mobileappbanner
 !+ NOT_OPTIMIZED
 starwalk.space###get-app-button-block
 !+ NOT_OPTIMIZED

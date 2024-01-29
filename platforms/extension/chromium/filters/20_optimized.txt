@@ -1,9 +1,9 @@
-! Checksum: O4hbmSrM11xmuxvO72NajA
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1706538956-3600.patch
+! Checksum: hr23nGSi1DJQ4kzI/MKOfg
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1706546153-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.7
-! TimeUpdated: 2024-01-29T14:32:16+00:00
+! Version: 2.0.12.8
+! TimeUpdated: 2024-01-29T16:32:08+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1339,6 +1339,8 @@ check24.de#%#//scriptlet('set-cookie', 'dslsplash', '1')
 check24.de#$#.c24m-asb { display: none !important; }
 !+ NOT_OPTIMIZED
 check24.de#$#.c24m-asb-visible { position: absolute !important; }
+!+ NOT_OPTIMIZED
+ostrovok.ru##.mobileappbanner
 !+ NOT_OPTIMIZED
 starwalk.space###get-app-button-block
 !+ NOT_OPTIMIZED

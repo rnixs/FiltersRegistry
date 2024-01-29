@@ -1,9 +1,9 @@
-! Checksum: Gg3Vrfi45yLrq7twO7WVqg
-! Diff-Path: ../patches/14/14-s-1706542584-3600.patch
+! Checksum: fgGurVpaV0Tk78dBjEHRfA
+! Diff-Path: ../patches/14/14-s-1706546169-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.86.1
-! TimeUpdated: 2024-01-29T15:31:52+00:00
+! Version: 2.1.86.2
+! TimeUpdated: 2024-01-29T16:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -30470,6 +30470,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+faz.net#?#div.Artikel > div.js-o-ModuleWrapper:has([data-fsw="newsletterpromote"])
 civitai.com#?#body div:has(> div[dir="ltr"] form[style] > div[class^="mantine-"] > button[type="submit"])
 pik.bg##.news-detail > p:has(> em > strong > a[href="https://t.me/pikurgent"])
 cruxnow.com##.post-banners > section.py-cta-content:has(.subscribe-form)
@@ -37925,7 +37926,6 @@ weathernews.jp,dbook.docomo.ne.jp###app_dl
 go.chatwork.com##.floating-banner
 ostrovok.ru##div[class^="MobileAppWidget-module__button-wrapper"]
 ostrovok.ru##.zenorders-mobile
-ostrovok.ru##.mobileappbanner
 ostrovok.ru##.homepage-mobile-wrapper
 ostrovok.ru#%#//scriptlet('set-cookie', 'otaMobileFullScreenAppBannerHidden', '1')
 atptour.com###articleSection a[href^="https://www.atptour.com/en/apps?"]
@@ -39799,6 +39799,8 @@ check24.de#$#.c24m-asb-visible { position: absolute !important; }
 !
 ! Misc rules, removed during optimization. If some rules are in groups, no need to move them here
 !
+!+ NOT_OPTIMIZED
+ostrovok.ru##.mobileappbanner
 !+ NOT_OPTIMIZED
 starwalk.space###get-app-button-block
 !+ NOT_OPTIMIZED

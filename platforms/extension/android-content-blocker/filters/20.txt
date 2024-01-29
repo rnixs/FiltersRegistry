@@ -1,9 +1,9 @@
-! Checksum: o0MaAakhqH9EhEDvOymBVA
-! Diff-Path: ../patches/20/20-s-1706538951-3600.patch
+! Checksum: QA9+hxFjF8L/upZlTKqrhw
+! Diff-Path: ../patches/20/20-s-1706546147-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.7
-! TimeUpdated: 2024-01-29T14:32:16+00:00
+! Version: 2.0.12.8
+! TimeUpdated: 2024-01-29T16:32:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -858,7 +858,6 @@ weathernews.jp,dbook.docomo.ne.jp###app_dl
 go.chatwork.com##.floating-banner
 ostrovok.ru##div[class^="MobileAppWidget-module__button-wrapper"]
 ostrovok.ru##.zenorders-mobile
-ostrovok.ru##.mobileappbanner
 ostrovok.ru##.homepage-mobile-wrapper
 atptour.com###articleSection a[href^="https://www.atptour.com/en/apps?"]
 betteranime.net#$##appModal { display: none!important; }
@@ -2577,6 +2576,8 @@ check24.de#$#.c24m-asb-visible { position: absolute !important; }
 !
 ! Misc rules, removed during optimization. If some rules are in groups, no need to move them here
 !
+!+ NOT_OPTIMIZED
+ostrovok.ru##.mobileappbanner
 !+ NOT_OPTIMIZED
 starwalk.space###get-app-button-block
 !+ NOT_OPTIMIZED
