@@ -1,9 +1,9 @@
-! Checksum: wOCBm3+sPguN4vHEWVJA6A
-! Diff-Path: ../patches/18/18-s-1706538949-3600.patch
+! Checksum: r5j9uxI9Vlq3pXLNDAbajg
+! Diff-Path: ../patches/18/18-s-1706549746-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.30
-! TimeUpdated: 2024-01-29T14:32:02+00:00
+! Version: 2.0.32.31
+! TimeUpdated: 2024-01-29T17:31:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2320,6 +2320,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+lactoflorene.eu##.pup-container-cookie
 ||consent.cookiebot.com/*/cc.js$important,domain=continente.pt
 mapa.targeo.pl###cookiescript_injected_wrapper
 ask4.com##.cookie-notice__background
@@ -7295,7 +7296,7 @@ fedex.com##div[class*="fxg-alert__fdx_cookie_notice"]
 oficinadanet.com.br##.pop-user-data
 jobs.ch##.disclaimer-message
 easeus.com,apeaksoft.com,tipard.com,vidmore.com,aiseesoft.*,easeus.*,anymp4.com,macxdvd.com,videoproc.com,fonelab.com##.usernotice_pop
-farsh.in.ua,hoster.by##.cookies-informer
+1k.by,farsh.in.ua,hoster.by##.cookies-informer
 microfocus.com,techbeacon.com###mf-generic-cookie-popup
 community.nexthink.com##c-community-cookie-consent-banner
 ||kabelscheune.de/out/kabelscheune/src/js/mws-cookie-solution.min.js

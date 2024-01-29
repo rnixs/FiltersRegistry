@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: vux3QQh+GjaDDqat1VkPNA
-! Diff-Path: ../patches/14/14-s-1706546180-3600.patch
+! Checksum: nQqDL97czKG5suwV7m+1CA
+! Diff-Path: ../patches/14/14-s-1706549768-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.86.2
-! TimeUpdated: 2024-01-29T16:31:43+00:00
+! Version: 2.1.86.3
+! TimeUpdated: 2024-01-29T17:31:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2328,6 +2328,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+lactoflorene.eu##.pup-container-cookie
 unsplash.com##body > dialog:has(> a[href="/cookies#manage-consent"])
 ||consent.cookiebot.com/*/cc.js$important,domain=continente.pt
 mapa.targeo.pl###cookiescript_injected_wrapper
@@ -7642,7 +7643,7 @@ fedex.com##div[class*="fxg-alert__fdx_cookie_notice"]
 oficinadanet.com.br##.pop-user-data
 jobs.ch##.disclaimer-message
 easeus.com,apeaksoft.com,tipard.com,vidmore.com,aiseesoft.*,easeus.*,anymp4.com,macxdvd.com,videoproc.com,fonelab.com##.usernotice_pop
-farsh.in.ua,hoster.by##.cookies-informer
+1k.by,farsh.in.ua,hoster.by##.cookies-informer
 microfocus.com,techbeacon.com###mf-generic-cookie-popup
 community.nexthink.com##c-community-cookie-consent-banner
 ||kabelscheune.de/out/kabelscheune/src/js/mws-cookie-solution.min.js
@@ -13931,6 +13932,7 @@ fiveguys.co.uk##+js(set-cookie, 5g_cookies, 1)
 ravenol-shop.de##+js(set-cookie, mnd-cookie-accepted-wwwravenolshopde1, 1)
 emuia1.gugik.gov.pl##+js(set-cookie, cookieMessageHide, true)
 gisgminny.pl##+js(set-cookie, cookiesDirective, 1)
+atlasbiomed.com,atlas.ru##+js(set-local-storage-item, privacyBannerShow, false)
 daenischesbettenlager.de##+js(remove-class, noScroll, html)
 mail.com##+js(set-cookie, euconsent-bypass, 1)
 selgros.pl##+js(set-cookie, cookie_new_msg, 1)
@@ -36072,6 +36074,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 temu.com#?#div[role="main"] div[style] > div[style]:has(> div[style] div[js-selector="mobile-download-ui"])
 !
+imgur.com##.SmartAppBanner-wrapper
 travel.navitime.com###travel-app-appeal-float-banner
 travel.navitime.com##.app-banner-header-none
 wtmnews.net##.ajax-app-button
