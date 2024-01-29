@@ -1,0 +1,13 @@
+d2 2
+a3 2
+! Checksum: wrbeRhmExGApCC72FfdV7Q
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706510168-3600.patch
+d6 2
+a7 2
+! Version: 2.3.19.77
+! TimeUpdated: 2024-01-29T06:32:38+00:00
+a30510 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/171677
+d30512 1
+a30512 1
+pictoa.com##+js(abort-on-property-write, tiPopAction)
