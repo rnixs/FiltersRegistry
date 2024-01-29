@@ -1,9 +1,9 @@
-! Checksum: d4DcZ02qZlQbNdhxO86hdA
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1706524562-3600.patch
+! Checksum: DIAPrYo9GCEI9a5a7i0Qdw
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706528140-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.72
-! TimeUpdated: 2024-01-29T10:32:06+00:00
+! Version: 2.0.30.73
+! TimeUpdated: 2024-01-29T11:31:56+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -2005,7 +2005,6 @@ t.ly#$##before-you-go { display: none !important; }
 t.ly#$#.modal-backdrop { display: none !important; }
 t.ly#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
 gazeta.ru###_id_flowup_tongue
-natfrp.com###rtfm
 o2.pl##div[id^="video-player-"] > div.floating
 mvtk.jp##.modal-cover
 bilibili.com##.login-panel-popover
