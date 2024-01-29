@@ -1,9 +1,9 @@
-! Checksum: h2X0xsRqM/9OKOcfuZdgng
-! Diff-Path: ../patches/11/11-s-1706286999-3600.patch
+! Checksum: 9kks7FrihZ/lNtAKhl3X6g
+! Diff-Path: ../patches/11/11-s-1706517377-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.70
-! TimeUpdated: 2024-01-26T16:31:33+00:00
+! Version: 2.0.48.71
+! TimeUpdated: 2024-01-29T08:31:23+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1394,6 +1394,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171743
+rollingstone.de#$#@media (max-width: 768px) { #page.asmb-page-width-container { margin-top: 40px !important; } }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170337
 hometheaterreview.com#$##div_block-5-101336 { height: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169839
@@ -2524,6 +2526,7 @@ chip.de,gamesworld.de,fnn.jp##.Ad
 !
 ! SECTION: Regular rules
 !
+rollingstone.de###bannerWrapper
 cruxnow.com##.grid > div.w-full > div[class^="flex"]:has(> div[class] > div[id^="div-gpt-ad"])
 ||d-load.org^$script,domain=2ch-c.net
 ||2ch-c.net/mgs/
