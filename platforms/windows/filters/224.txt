@@ -1,9 +1,9 @@
-! Checksum: 1uc9aYVuVwvUL1sTK80riw
-! Diff-Path: ../patches/224/224-s-1706488578-3600.patch
+! Checksum: j+aDvZrBnXZeXGwFgNuXZQ
+! Diff-Path: ../patches/224/224-s-1706492165-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.9.35
-! TimeUpdated: 2024-01-29T00:32:21+00:00
+! Version: 2.1.9.36
+! TimeUpdated: 2024-01-29T01:32:24+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6480,6 +6480,7 @@ newduba.cn###jq_youxi
 ||nykvdwi.cn^
 ||lthmfx.xyz^
 ||bgeg1.fun^
+||gfpvvwf.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -20357,6 +20358,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
 @@||ads.reddit.com^$domain=myqqjd.com
 @@||ads.tiktok.com^$generichide
+@@||toy-people.com^$generichide
 @@||ads.tiktok.com^$~third-party
 @@||adsense.woso.cn^$~third-party
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
