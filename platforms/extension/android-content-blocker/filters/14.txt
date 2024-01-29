@@ -1,9 +1,9 @@
-! Checksum: nmI46ni6zy0k5/wGkB5AIg
-! Diff-Path: ../patches/14/14-s-1706549745-3600.patch
+! Checksum: Mlpqv46UUvbJ9et/rX/Wdw
+! Diff-Path: ../patches/14/14-s-1706553345-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.86.3
-! TimeUpdated: 2024-01-29T17:31:47+00:00
+! Version: 2.1.86.4
+! TimeUpdated: 2024-01-29T18:31:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -20571,6 +20571,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+cnbcindonesia.com##.redirect__stick
 airbnb.de#$#body { overflow: auto !important; position: unset !important; }
 restoreprivacy.com#$#.brianhead-campaign { display: none !important; }
 restoreprivacy.com#$#html.om-position-popup body { overflow: auto !important; }

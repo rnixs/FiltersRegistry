@@ -1,9 +1,9 @@
-! Checksum: xD5axIuJJRrpCrJ3ln4ZNQ
-! Diff-Path: ../patches/19/19-s-1706546176-3600.patch
+! Checksum: ZiJafxVV/vAD0leC49bVrw
+! Diff-Path: ../patches/19/19-s-1706553377-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.77
-! TimeUpdated: 2024-01-29T16:31:57+00:00
+! Version: 2.0.30.78
+! TimeUpdated: 2024-01-29T18:31:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4365,6 +4365,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+cnbcindonesia.com##.redirect__stick
 airbnb.de##div[data-application="true"] ~ div:not([class],[id],[dir]):has( > div[dir="ltr"] > section div[aria-labelledby="announcement-curtain"])
 airbnb.de#$#body { overflow: auto !important; position: unset !important; }
 restoreprivacy.com#$#.brianhead-campaign { display: none !important; }

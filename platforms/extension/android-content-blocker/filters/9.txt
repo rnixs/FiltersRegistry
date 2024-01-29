@@ -1,9 +1,9 @@
-! Checksum: D9bGEXjy4Vk8290BDvL/YA
-! Diff-Path: ../patches/9/9-s-1706513738-3600.patch
+! Checksum: XY5xovr2gvBVPuYbEOtfTA
+! Diff-Path: ../patches/9/9-s-1706553349-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.4
-! TimeUpdated: 2024-01-29T07:33:14+00:00
+! Version: 2.0.23.5
+! TimeUpdated: 2024-01-29T18:33:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2120,9 +2120,6 @@ _publicidade.
 _publicidade_
 _publicitario.
 http://adw.
-!
-! perimeterx.com
-/lJuB4eTB/init.js
 !---------------------------------------------------------------------------!
 !------------------ Content replacement rules ------------------------------!
 !---------------------------------------------------------------------------!
