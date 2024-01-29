@@ -1,9 +1,9 @@
-! Checksum: 53Z40yFwxTHqV8UZkUz6ng
-! Diff-Path: ../patches/9_optimized/9_optimized-s-1706189772-3600.patch
+! Checksum: Xc1zhHn+/+8f2EOGBaLQ+g
+! Diff-Path: ../patches/9_optimized/9_optimized-s-1706513738-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.3
-! TimeUpdated: 2024-01-25T13:33:41+00:00
+! Version: 2.0.23.4
+! TimeUpdated: 2024-01-29T07:33:14+00:00
 ! Expires: 5 days (update frequency)
 ||nobeta.com.br^$third-party
 ||bcgame.top^$popup
@@ -1313,6 +1313,8 @@ clickpb.com.br##.adsHorizontal
 depor.com##div[class^="showTds"]
 ||visortmo.com/images/series.gif
 visortmo.com##a[href^="https://visortmo.com/library/"][style^="margin:"] > img[src^="/images/"]
+visortmo.com##a[href^="https://visortmo.com/library/"][target*="_blank"] > img[src^="/images/"]
+visortmo.com##a[href="https://series.ly"] > img[src*=".gif"]
 yugenmangas.net.br##.ads-flot
 gartic.com.br###shopIntUm
 vrum.com.br##.ad-banner
