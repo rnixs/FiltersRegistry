@@ -1,9 +1,9 @@
-! Checksum: pi2HFw26oUP0wfJiC9Q90w
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1706535355-3600.patch
+! Checksum: kWX/PAXGst76EjMvKhycbA
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706538950-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.75
-! TimeUpdated: 2024-01-29T13:32:06+00:00
+! Version: 2.0.30.76
+! TimeUpdated: 2024-01-29T14:32:05+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -6840,7 +6840,7 @@ felomena.com##.subscribe-conteiner
 debate.com.mx,geekmi.news##.suscribe
 ||sibforms.com^$domain=~sibforms.com,~stylesheet
 ghacks.net##.ghacks-sidebar > div.ghacks_share_widget + div.widget
-natgeotv.com###Newsletter
+ruinedking.com,natgeotv.com###Newsletter
 newsmaker.md,gkseries.com###media_image-3
 penguinrandomhouse.com###newsletter-wrap-desktop
 odia.ig.com.br##.container_newsletter

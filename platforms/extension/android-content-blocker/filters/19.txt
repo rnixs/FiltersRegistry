@@ -1,9 +1,9 @@
-! Checksum: IimDhpu7n/X4T3y9Jqm8lQ
-! Diff-Path: ../patches/19/19-s-1706535355-3600.patch
+! Checksum: 6pZ0pX3s1DJonv78MLTKzQ
+! Diff-Path: ../patches/19/19-s-1706538949-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.75
-! TimeUpdated: 2024-01-29T13:32:06+00:00
+! Version: 2.0.30.76
+! TimeUpdated: 2024-01-29T14:32:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15074,7 +15074,7 @@ kanobu.ru##aside[class^="IgromaniaChannel_mania"]
 mail.ru##.block_subscription-terms
 ghacks.net##.ghacks-sidebar > div.ghacks_share_widget + div.widget
 natgeotv.com##.NewsletterBanner
-natgeotv.com###Newsletter
+ruinedking.com,natgeotv.com###Newsletter
 ||gkseries.com/image/ca-2021-latest-1.png
 newsmaker.md,gkseries.com###media_image-3
 penguinrandomhouse.com###newsletter-wrap-desktop
