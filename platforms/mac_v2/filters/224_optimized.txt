@@ -1,9 +1,9 @@
-! Checksum: MCVVsDUoOzvOsKylSvRrCg
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1706575006-3600.patch
+! Checksum: Ugb/1Vx1/8+ThqxJ8r3pYA
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1706578564-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.9.44
-! TimeUpdated: 2024-01-30T00:32:16+00:00
+! Version: 2.1.9.45
+! TimeUpdated: 2024-01-30T01:32:22+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -5900,6 +5900,9 @@ newduba.cn###jq_youxi
 ||sxtnpzd.xyz^
 ||iwwmaq.xyz^
 ||zghsep.icu^
+||x08jd.top^
+||9s64g.icu^
+||1cecn.icu^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
