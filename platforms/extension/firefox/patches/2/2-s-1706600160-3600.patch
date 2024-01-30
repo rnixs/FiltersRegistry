@@ -1,0 +1,23 @@
+d1 2
+a2 2
+! Checksum: R+ezP9ySJxtBb8QD+IWE3g
+! Diff-Path: ../patches/2/2-s-1706603758-3600.patch
+d5 2
+a6 2
+! Version: 2.3.19.96
+! TimeUpdated: 2024-01-30T08:32:40+00:00
+a7383 2
+free-mp3-download.net#%#//scriptlet('set-constant', 'adsbygoogle', 'emptyObj')
+free-mp3-download.net#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
+a7384 1
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=noopjs,domain=free-mp3-download.net
+d18326 1
+a18326 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/171799
+d18328 1
+a18328 1
+novinky.cz##div[class*="_"]:has(> div.ogm-advert-static:first-child)
+a33881 3
+||startpage.com/*/adsense/search/async-ads.js
+||startpage.com/*/afs/ads?adsafe=
+traderie.com##.ae-fixed

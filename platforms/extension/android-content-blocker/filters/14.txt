@@ -1,9 +1,9 @@
-! Checksum: JEjTlJsgwu9IRwS6RH4BKA
-! Diff-Path: ../patches/14/14-s-1706600141-3600.patch
+! Checksum: UpaAHx6lQqox/jND3etPvA
+! Diff-Path: ../patches/14/14-s-1706603741-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.86.7
-! TimeUpdated: 2024-01-30T07:31:42+00:00
+! Version: 2.1.86.8
+! TimeUpdated: 2024-01-30T08:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -45463,6 +45463,7 @@ beasoku.com##.rss-block
 !
 !   SECTION: Widgets - Marketing (specific)
 !
+||snippet.maze.co^$domain=traderie.com
 nutraceuticalsworld.com##.sc-conversation--trigger-widget
 crossenlawfirm.com###icw--alert
 crossenlawfirm.com###icw

@@ -1,9 +1,9 @@
-! Checksum: fazNevQSXXTdSzKeW0DMrQ
-! Diff-Path: ../patches/11/11-s-1706585764-3600.patch
+! Checksum: zMT5xl1YVPBoGtaTmrKAMw
+! Diff-Path: ../patches/11/11-s-1706603789-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.74
-! TimeUpdated: 2024-01-30T03:31:25+00:00
+! Version: 2.0.48.75
+! TimeUpdated: 2024-01-30T08:31:25+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -222,6 +222,8 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||diopousg.com^
+||ruuaqkw.com^
 ||ads-*-nfl.yinzcam.com^
 ||prod.adjoe.zone^
 ||aan.amazon.*^
@@ -2527,6 +2529,8 @@ chip.de,gamesworld.de,fnn.jp##.Ad
 !
 ! SECTION: Regular rules
 !
+pronewsua.com##.ads-into-news
+pronewsua.com##.lna-full-news__ads-block
 ixbt.com##.mobc
 motortrend.com##section[data-c="body"] > div[class]:has(div[data-freestar-placement-name])
 motortrend.com##section[data-c="body"] > div[class]:has(.lazyload-placeholder)
