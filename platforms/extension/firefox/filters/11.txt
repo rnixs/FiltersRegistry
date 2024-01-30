@@ -1,9 +1,9 @@
-! Checksum: 6m/gPW8cbK35LL13y9bboA
-! Diff-Path: ../patches/11/11-s-1706654146-3600.patch
+! Checksum: isb2fTe7Awk3PWPQajaG+Q
+! Diff-Path: ../patches/11/11-s-1706657770-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.77
-! TimeUpdated: 2024-01-30T22:31:25+00:00
+! Version: 2.0.48.78
+! TimeUpdated: 2024-01-30T23:31:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2323,7 +2323,7 @@ cruxnow.com##.grid > div.w-full > div[class^="flex"]:has(> div[class] > div[id^=
 2ch-c.net##.cdt_wrapper
 2ch-c.net##a[href="mgs/mgs.php"]
 baomoi.com###content-main > div[class] > div[class] > div[class]:has(> div[class] > a[href] div button[title="Báo lôi"])
-etudiant.lefigaro.fr##.ccmcss_oas_top
+lefigaro.fr##.ccmcss_oas_top
 spite.cz##.sda-space--mobile
 geo.fr##.ads-introText
 wtmnews.net##.entry-content > p:has(> a[target="_blank"][rel="nofollow sponsored "] > img)

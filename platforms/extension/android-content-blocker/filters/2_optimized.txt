@@ -1,9 +1,9 @@
-! Checksum: SBaDANCQAHnWXlR84l2Mcg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1706654138-3600.patch
+! Checksum: XMp3ANxqQ8llQlaRy201PQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1706657759-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.20.6
-! TimeUpdated: 2024-01-30T22:32:41+00:00
+! Version: 2.3.20.7
+! TimeUpdated: 2024-01-30T23:32:58+00:00
 ! Expires: 5 days (update frequency)
 ||mads-fe.amazon.com^
 ||venturepeasant.com^
@@ -35458,6 +35458,7 @@ browsershots.org#@#.advert_area
 ||dzbkl37t8az8q.cloudfront.net^
 ||dzu5p9pd5q24b.cloudfront.net^
 ||dzxr711a4yw31.cloudfront.net^
+||blockadstop.info^$popup
 ||cute-cursor.com^$popup
 ||daily-guard.net^$popup
 ||global-adblocker.com^$popup

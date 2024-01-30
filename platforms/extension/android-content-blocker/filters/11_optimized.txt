@@ -1,9 +1,9 @@
-! Checksum: 1bzigJ/NdQGoTHyPETXKcQ
-! Diff-Path: ../patches/11_optimized/11_optimized-s-1706654135-3600.patch
+! Checksum: Z8EAOny7nVSY6Q0IW/IWww
+! Diff-Path: ../patches/11_optimized/11_optimized-s-1706657756-3600.patch
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.77
-! TimeUpdated: 2024-01-30T22:31:25+00:00
+! Version: 2.0.48.78
+! TimeUpdated: 2024-01-30T23:31:45+00:00
 ! Expires: 5 days (update frequency)
 ||adx-open-service.youku.com^
 ||ad.youku.com^
@@ -1458,7 +1458,7 @@ rollingstone.de###bannerWrapper
 ||2ch-c.net/mgs/
 2ch-c.net##.cdt_wrapper
 2ch-c.net##a[href="mgs/mgs.php"]
-etudiant.lefigaro.fr##.ccmcss_oas_top
+lefigaro.fr##.ccmcss_oas_top
 spite.cz##.sda-space--mobile
 geo.fr##.ads-introText
 wtmnews.net##.aflImage
