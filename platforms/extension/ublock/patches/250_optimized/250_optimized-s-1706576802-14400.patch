@@ -1,0 +1,22 @@
+d2 2
+a3 2
+! Checksum: HlyJFJyXt4ZBiBuwXXSNlQ
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1706591201-14400.patch
+d6 2
+a7 2
+! Version: 2.0.13.18
+! TimeUpdated: 2024-01-30T05:03:07+00:00
+a96 1
+@@://oo*.ooo/$document
+a911 1
+color-hex.com##.well-sm.well.commentcontainer
+d975 2
+a1871 1
+||amazon.$removeparam=/^aa_/
+a2255 1
+$removeparam=report_recomm_player
+d2452 1
+a2533 1
+$removeparam=rcode,domain=kucoin.com
+a2811 1
+@@||cdon.*/td_redirect^$removeparam=tduid

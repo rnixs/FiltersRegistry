@@ -1,15 +1,15 @@
-! Checksum: ajtEG9PJNYZYdTZZO6+O/Q
-! Diff-Path: ../patches/122/122-s-1706576793-14400.patch
+! Checksum: VyWUOYsWrRaR5Z0fS+sJPg
+! Diff-Path: ../patches/122/122-s-1706591193-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.19
-! TimeUpdated: 2024-01-30T01:02:09+00:00
+! Version: 2.1.20.20
+! TimeUpdated: 2024-01-30T05:02:02+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 8+xCitr4gojQE8ab4EfgVg
-! OriginalVersion: 202401292340
+! Checksum: OreoCYTWZtvctEG+Zide8g
+! OriginalVersion: 202401300415
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-29 23:40 UTC
+! Last modified: 2024-01-30 04:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -37103,6 +37103,7 @@ tanp.jp##.js-appDownloadHeaderBanner
 duckduckgo.com##.js-open-in-app
 my.mintmobile.com##.justify-content-end.rounded-1.g-0.p-3
 sauna-ikitai.com##.l-headerApp
+raileurope.com##.l2-8javB
 ahchealthenews.com##.livewell-widget
 klarna.com##.ljtbes
 gayemagazine.com##.lvMF7
@@ -39419,6 +39420,7 @@ cryptonews.net##.cookies_processing
 obarbershop.com##.cookies_section
 myplantin.com##.cookies_wrapper___zIeC
 erregame.com##.cookieshow
+harmonyos.com##.cookietip
 coop.co.uk##.coopssn-c-cookienotice
 austrian.com,austrianairlines.ag,austriantechnik.at##.cop
 apk-store.org##.cop_dmca
@@ -45856,6 +45858,7 @@ gothamist.com##.newsletter-home
 mcknights.com,mcknightshomecare.com##.newsletter-html-asset
 ibtimes.co.uk,ibtimes.com##.newsletter-in-article
 almanac.com##.newsletter-incontent
+forbes.com##.newsletter-inline-flex
 robbreport.com##.newsletter-link
 sandiegoreader.com##.newsletter-m
 177milkstreet.com##.newsletter-main-old
@@ -46334,6 +46337,7 @@ searchenginejournal.com##.web-dwn
 health.harvard.edu##.welcome-popup
 dictionary.com##.widget
 hpcwire.com##.widget-2
+instaread.co##.widget-ad-container
 mygaming.co.za,printmag.com##.widget-area
 offshore-energy.biz##.widget-dynamic
 nextplatform.com##.widget-no-mobile
@@ -46688,6 +46692,11 @@ vallejosun.com#$#body,html { overflow: auto !important; position: initial !impor
 forbestravelguide.com###cboxOverlay
 forbestravelguide.com###colorbox
 forbestravelguide.com#$#html,body { overflow: auto !important; position: initial !important; }
+! forbes.com
+forbes.com##.zephr-editorial-newsletter-modal
+forbes.com##.zephr-editorial-newsletter-backdrop
+forbes.com#$#html { position: static !important; overflow: auto !important; width: auto !important; }
+forbes.com#%#//scriptlet('ubo-rc.js', 'zephr-modal-open', 'body', 'stay')
 ! .boxzilla-overlay
 thebaffler.com##.boxzilla-overlay
 thebaffler.com##.boxzilla-container
@@ -51450,6 +51459,11 @@ vallejosun.com#$#body,html { overflow: auto !important; position: initial !impor
 forbestravelguide.com###cboxOverlay
 forbestravelguide.com###colorbox
 forbestravelguide.com#$#html,body { overflow: auto !important; position: initial !important; }
+! forbes.com
+forbes.com##.zephr-editorial-newsletter-modal
+forbes.com##.zephr-editorial-newsletter-backdrop
+forbes.com#$#html { position: static !important; overflow: auto !important; width: auto !important; }
+forbes.com#%#//scriptlet('ubo-rc.js', 'zephr-modal-open', 'body', 'stay')
 ! .boxzilla-overlay
 thebaffler.com##.boxzilla-overlay
 thebaffler.com##.boxzilla-container
