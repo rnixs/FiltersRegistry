@@ -1,9 +1,9 @@
-! Checksum: ZL8k+H2xwXsEgu1A8//ywg
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1706614585-3600.patch
+! Checksum: x16yTq7wfN1ctdnsWt8DFQ
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1706629017-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.90
-! TimeUpdated: 2024-01-30T11:31:50+00:00
+! Version: 2.0.7.91
+! TimeUpdated: 2024-01-30T15:32:01+00:00
 ! Expires: 5 days (update frequency)
 $removeparam=cjdata
 $removeparam=cjevent
@@ -219,6 +219,9 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||smartrecruiters.com^$removeparam=km_adgroup
+||smartrecruiters.com^$removeparam=km_matchtype
+||smartrecruiters.com^$removeparam=km_partner
 ||nuuvem.com^$removeparam=ranMID
 ||nuuvem.com^$removeparam=ranEAID
 ||nuuvem.com^$removeparam=ranSiteID

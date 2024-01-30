@@ -1,9 +1,9 @@
-! Checksum: zQxA3aHhtQr6ndR0cAKJnQ
-! Diff-Path: ../patches/14/14-s-1706625417-3600.patch
+! Checksum: yoBWfjV7zZfZXikCA5fkTg
+! Diff-Path: ../patches/14/14-s-1706628956-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.86.14
-! TimeUpdated: 2024-01-30T14:31:46+00:00
+! Version: 2.1.86.15
+! TimeUpdated: 2024-01-30T15:31:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -26594,6 +26594,7 @@ kurashiru.com#$#html.dly-modal-active { overflow: auto !important; }
 !
 ! SECTION: Popups - Mobile sites only
 !
+host.dan-work.com###sp_ad2
 smooth.jp###fixed_bottom_nav
 motom-jp.com###footer_btn
 imobie.jp##.sideadv_wrapmo
@@ -27978,6 +27979,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+kuban24.tv##.news-channels
 ankerjapan.com###shopify-section-v2-ft-mail-magazine
 blick.ch##.igrtpV
 winaero.com##.fixtop
