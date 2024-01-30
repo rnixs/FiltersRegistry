@@ -1,9 +1,9 @@
-! Checksum: CQ6i7pRN67aqa9+o78UeTA
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1706605607-14400.patch
+! Checksum: zF43Ey60BaHHQ3ODmlPEYw
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1706620020-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.19.95
-! TimeUpdated: 2024-01-30T09:01:32+00:00
+! Version: 2.1.19.96
+! TimeUpdated: 2024-01-30T13:01:38+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -645,7 +645,6 @@
 /didna_config.js
 /discourse-adplugin-
 /display-ad/*
-/display-ads-$domain=~google.co.uk|~google.com|~google.com.au
 /display-ads/*
 /displayad.$~script
 /displayad?
@@ -23327,6 +23326,7 @@ browsershots.org#@#.advert_area
 ||reliablemore.com^
 ||reliableorientdelirium.com^
 ||reliantstacklaugh.com^
+||relicsheer.com^
 ||reliefindividual.com^
 ||relievedgeoff.com^
 ||relistinfo.com^
@@ -27894,6 +27894,7 @@ browsershots.org#@#.advert_area
 ||zoagreejouph.com^
 ||zoaheeth.com^
 ||zoaptaup.com^
+||zoawhoal.com^
 ||zoawufoy.net^
 ||zodiacranbehalf.com^
 ||zofitsou.com^

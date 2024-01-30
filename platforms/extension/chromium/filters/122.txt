@@ -1,15 +1,15 @@
-! Checksum: ZFYHvdYYF0Epwsl1o5fTkw
-! Diff-Path: ../patches/122/122-s-1706605592-14400.patch
+! Checksum: I2J5u2cj4yFjhaXnY3iifw
+! Diff-Path: ../patches/122/122-s-1706620000-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.21
-! TimeUpdated: 2024-01-30T09:02:06+00:00
+! Version: 2.1.20.22
+! TimeUpdated: 2024-01-30T13:02:12+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: dx+Nbb9QHtNtvxGnEmV/uw
-! OriginalVersion: 202401300840
+! Checksum: GMKFEiuiwJGZ3F2MTdEFBg
+! OriginalVersion: 202401301240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-30 08:40 UTC
+! Last modified: 2024-01-30 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -41656,6 +41656,7 @@ greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 
 greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 'taunton_user_consent_analytics', 'false')
 physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'allow')
 m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice', 'true')
+endgame.id#%#//scriptlet('ubo-set-cookie.js', 'endgame-accept-policy', 'true')
 omega-nuernberg.servicebund.com#%#//scriptlet('ubo-set-cookie.js', 'cookieChoice', '0')
 eboo.lu#%#//scriptlet('ubo-set-cookie.js', 'PostAnalytics', '0')
 twomates.de#%#//scriptlet('ubo-set-cookie.js', 'gdpr-google-analytics', 'false')
@@ -42785,7 +42786,7 @@ doppelherz.ru,protefix.com,queisser.de,wgm-rastatt.de,litozin.de,stozzon.de,prot
 hej-natural.com,hej-natural.de##.cookie-consent-overlay
 hej-natural.com,hej-natural.de#$#body { overflow: auto !important; position: initial !important; }
 !! #modal-container
-skyscanner.net,skyscanner.ru,skyscanner.fi,skyscanner.no,skyscanner.nl,skyscanner.ro,skyscanner.com.ni,skyscanner.at,skyscanner.com.sg,skyscanner.es,skyscanner.co.nz,skyscanner.com.sa,skyscanner.com.bo,skyscanner.com.br,skyscanner.mx,skyscanner.it,skyscanner.ae,skyscanner.in,skyscanner.com.sv,skyscanner.ie,skyscanner.co.kr,skyscanner.com.pe,skyscanner.com.ph,skyscanner.com.pa,skyscanner.hu,skyscanner.com.gt,skyscanner.com.co,skyscanner.dk,skyscanner.co.th,skyscanner.com.hn,skyscanner.pt,skyscanner.tw,skyscanner.de,skyscanner.com.hk,skyscanner.com.tw,skyscanner.pl,skyscanner.com.tr,skyscanner.cz,skyscanner.com,skyscanner.cr,skyscanner.com.py,skyscanner.cl,skyscanner.com.ua,skyscanner.com.do,skyscanner.kr,skyscanner.co.id,skyscanner.ch,skyscanner.gg,skyscanner.ca,skyscanner.com.uy,skyscanner.com.ec,skyscanner.co.il,skyscanner.co.in,skyscanner.com.vn,skyscanner.se,skyscanner.com.ar,skyscanner.com.au,skyscanner.fr,skyscanner.jp,skyscanner.com.my,skyscanner.com.mx###modal-container
+skyscanner.net,skyscanner.ru,skyscanner.fi,skyscanner.no,skyscanner.nl,skyscanner.ro,skyscanner.com.ni,skyscanner.at,skyscanner.com.sg,skyscanner.es,skyscanner.co.nz,skyscanner.com.sa,skyscanner.com.bo,skyscanner.com.br,skyscanner.mx,skyscanner.it,skyscanner.ae,skyscanner.in,skyscanner.com.sv,skyscanner.ie,skyscanner.co.kr,skyscanner.com.pe,skyscanner.com.ph,skyscanner.com.pa,skyscanner.hu,skyscanner.com.gt,skyscanner.com.co,skyscanner.dk,skyscanner.co.th,skyscanner.com.hn,skyscanner.pt,skyscanner.tw,skyscanner.de,skyscanner.com.hk,skyscanner.com.tw,skyscanner.pl,skyscanner.com.tr,skyscanner.cz,skyscanner.com,skyscanner.cr,skyscanner.com.py,skyscanner.cl,skyscanner.com.ua,skyscanner.com.do,skyscanner.kr,skyscanner.co.id,skyscanner.ch,skyscanner.gg,skyscanner.ca,skyscanner.com.uy,skyscanner.com.ec,skyscanner.co.il,skyscanner.co.in,skyscanner.com.vn,skyscanner.se,skyscanner.com.ar,skyscanner.com.au,skyscanner.fr,skyscanner.jp,skyscanner.com.my,skyscanner.com.mx##.cookie-banner-wrapper
 skyscanner.net,skyscanner.ru,skyscanner.fi,skyscanner.no,skyscanner.nl,skyscanner.ro,skyscanner.com.ni,skyscanner.at,skyscanner.com.sg,skyscanner.es,skyscanner.co.nz,skyscanner.com.sa,skyscanner.com.bo,skyscanner.com.br,skyscanner.mx,skyscanner.it,skyscanner.ae,skyscanner.in,skyscanner.com.sv,skyscanner.ie,skyscanner.co.kr,skyscanner.com.pe,skyscanner.com.ph,skyscanner.com.pa,skyscanner.hu,skyscanner.com.gt,skyscanner.com.co,skyscanner.dk,skyscanner.co.th,skyscanner.com.hn,skyscanner.pt,skyscanner.tw,skyscanner.de,skyscanner.com.hk,skyscanner.com.tw,skyscanner.pl,skyscanner.com.tr,skyscanner.cz,skyscanner.com,skyscanner.cr,skyscanner.com.py,skyscanner.cl,skyscanner.com.ua,skyscanner.com.do,skyscanner.kr,skyscanner.co.id,skyscanner.ch,skyscanner.gg,skyscanner.ca,skyscanner.com.uy,skyscanner.com.ec,skyscanner.co.il,skyscanner.co.in,skyscanner.com.vn,skyscanner.se,skyscanner.com.ar,skyscanner.com.au,skyscanner.fr,skyscanner.jp,skyscanner.com.my,skyscanner.com.mx#$#body,html { overflow: auto !important; position: initial !important; }
 !! .arcticmodal-container
 cbs-nizhnegorskij.ru##.arcticmodal-container
@@ -46521,7 +46522,7 @@ exchangerates.org.uk,vozpopuli.com##.form-newsletter
 !! .newsletter-container
 advocate.com,out.com,pastemagazine.com,san.com,weeklyrecess.com##.newsletter-container
 !! .newsletter-modal
-knowablemagazine.org,louderwithcrowder.com,lung.org,monitor.co.ug,san.com,the-line-up.com,theportalist.com,tokmanni.fi##.newsletter-modal
+knowablemagazine.org,louderwithcrowder.com,lung.org,monitor.co.ug,san.com,the-line-up.com,theportalist.com,tokmanni.fi,zeta.nu##.newsletter-modal
 !! .newsletterSignup
 chemistryworld.com,flightglobal.com,fruitnet.com,screendaily.com,thegrocer.co.uk##.newsletterSignup
 !! NewsletterSignup
@@ -48281,6 +48282,7 @@ greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 
 greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 'taunton_user_consent_analytics', 'false')
 physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'allow')
 m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice', 'true')
+endgame.id#%#//scriptlet('ubo-set-cookie.js', 'endgame-accept-policy', 'true')
 omega-nuernberg.servicebund.com#%#//scriptlet('ubo-set-cookie.js', 'cookieChoice', '0')
 eboo.lu#%#//scriptlet('ubo-set-cookie.js', 'PostAnalytics', '0')
 twomates.de#%#//scriptlet('ubo-set-cookie.js', 'gdpr-google-analytics', 'false')
@@ -49410,7 +49412,7 @@ doppelherz.ru,protefix.com,queisser.de,wgm-rastatt.de,litozin.de,stozzon.de,prot
 hej-natural.com,hej-natural.de##.cookie-consent-overlay
 hej-natural.com,hej-natural.de#$#body { overflow: auto !important; position: initial !important; }
 !! #modal-container
-skyscanner.net,skyscanner.ru,skyscanner.fi,skyscanner.no,skyscanner.nl,skyscanner.ro,skyscanner.com.ni,skyscanner.at,skyscanner.com.sg,skyscanner.es,skyscanner.co.nz,skyscanner.com.sa,skyscanner.com.bo,skyscanner.com.br,skyscanner.mx,skyscanner.it,skyscanner.ae,skyscanner.in,skyscanner.com.sv,skyscanner.ie,skyscanner.co.kr,skyscanner.com.pe,skyscanner.com.ph,skyscanner.com.pa,skyscanner.hu,skyscanner.com.gt,skyscanner.com.co,skyscanner.dk,skyscanner.co.th,skyscanner.com.hn,skyscanner.pt,skyscanner.tw,skyscanner.de,skyscanner.com.hk,skyscanner.com.tw,skyscanner.pl,skyscanner.com.tr,skyscanner.cz,skyscanner.com,skyscanner.cr,skyscanner.com.py,skyscanner.cl,skyscanner.com.ua,skyscanner.com.do,skyscanner.kr,skyscanner.co.id,skyscanner.ch,skyscanner.gg,skyscanner.ca,skyscanner.com.uy,skyscanner.com.ec,skyscanner.co.il,skyscanner.co.in,skyscanner.com.vn,skyscanner.se,skyscanner.com.ar,skyscanner.com.au,skyscanner.fr,skyscanner.jp,skyscanner.com.my,skyscanner.com.mx###modal-container
+skyscanner.net,skyscanner.ru,skyscanner.fi,skyscanner.no,skyscanner.nl,skyscanner.ro,skyscanner.com.ni,skyscanner.at,skyscanner.com.sg,skyscanner.es,skyscanner.co.nz,skyscanner.com.sa,skyscanner.com.bo,skyscanner.com.br,skyscanner.mx,skyscanner.it,skyscanner.ae,skyscanner.in,skyscanner.com.sv,skyscanner.ie,skyscanner.co.kr,skyscanner.com.pe,skyscanner.com.ph,skyscanner.com.pa,skyscanner.hu,skyscanner.com.gt,skyscanner.com.co,skyscanner.dk,skyscanner.co.th,skyscanner.com.hn,skyscanner.pt,skyscanner.tw,skyscanner.de,skyscanner.com.hk,skyscanner.com.tw,skyscanner.pl,skyscanner.com.tr,skyscanner.cz,skyscanner.com,skyscanner.cr,skyscanner.com.py,skyscanner.cl,skyscanner.com.ua,skyscanner.com.do,skyscanner.kr,skyscanner.co.id,skyscanner.ch,skyscanner.gg,skyscanner.ca,skyscanner.com.uy,skyscanner.com.ec,skyscanner.co.il,skyscanner.co.in,skyscanner.com.vn,skyscanner.se,skyscanner.com.ar,skyscanner.com.au,skyscanner.fr,skyscanner.jp,skyscanner.com.my,skyscanner.com.mx##.cookie-banner-wrapper
 skyscanner.net,skyscanner.ru,skyscanner.fi,skyscanner.no,skyscanner.nl,skyscanner.ro,skyscanner.com.ni,skyscanner.at,skyscanner.com.sg,skyscanner.es,skyscanner.co.nz,skyscanner.com.sa,skyscanner.com.bo,skyscanner.com.br,skyscanner.mx,skyscanner.it,skyscanner.ae,skyscanner.in,skyscanner.com.sv,skyscanner.ie,skyscanner.co.kr,skyscanner.com.pe,skyscanner.com.ph,skyscanner.com.pa,skyscanner.hu,skyscanner.com.gt,skyscanner.com.co,skyscanner.dk,skyscanner.co.th,skyscanner.com.hn,skyscanner.pt,skyscanner.tw,skyscanner.de,skyscanner.com.hk,skyscanner.com.tw,skyscanner.pl,skyscanner.com.tr,skyscanner.cz,skyscanner.com,skyscanner.cr,skyscanner.com.py,skyscanner.cl,skyscanner.com.ua,skyscanner.com.do,skyscanner.kr,skyscanner.co.id,skyscanner.ch,skyscanner.gg,skyscanner.ca,skyscanner.com.uy,skyscanner.com.ec,skyscanner.co.il,skyscanner.co.in,skyscanner.com.vn,skyscanner.se,skyscanner.com.ar,skyscanner.com.au,skyscanner.fr,skyscanner.jp,skyscanner.com.my,skyscanner.com.mx#$#body,html { overflow: auto !important; position: initial !important; }
 !! .arcticmodal-container
 cbs-nizhnegorskij.ru##.arcticmodal-container
@@ -55157,7 +55159,6 @@ helthjem.no##.schibsted-bar
 nordiskporselen.com##.w3-black
 nitedals.no##.wf-section
 direktesport.no##[aria-label="Informasjonskapsler"]
-vy.no##div[aria-live="polite"]
 norsk-tipping.no##div[data-test="cookie-toaster"]
 aftenposten.no##div[id^="sp_message_"]
 digiforms.no##fieldset

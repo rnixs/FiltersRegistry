@@ -1,14 +1,14 @@
-! Checksum: ScJoJgaIT4lXz8LNX54vCw
-! Diff-Path: ../patches/118/118-s-1706605642-14400.patch
+! Checksum: n7wNV4amzZ2CXrXfeWw6cQ
+! Diff-Path: ../patches/118/118-s-1706620061-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.21.23
-! TimeUpdated: 2024-01-30T09:01:53+00:00
+! Version: 2.1.21.24
+! TimeUpdated: 2024-01-30T13:01:58+00:00
 ! Expires: 12 hours (update frequency)
 !
-! OriginalVersion: 202401300728
+! OriginalVersion: 202401301202
 ! Title: EasyPrivacy
-! Last modified: 30 Jan 2024 07:28 UTC
+! Last modified: 30 Jan 2024 12:02 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -14596,6 +14596,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||simon.com/46SCNLxs/init.js
 ||skechers.com/dL6GOSf9/init.js
 ||skiphop.com/0F3091f3/init.js
+||skyscanner.*/rf8vapwA/init.js
 ||snipesusa.com/6XNN2xkk/init.js
 ||spirit.com/kp4CLSb5/init.js
 ||ssense.com/58Asv359/init.js
