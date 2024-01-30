@@ -1,9 +1,9 @@
-! Checksum: RR4EFA50+v7jvKMu7vIygQ
-! Diff-Path: ../patches/14/14-s-1706607395-3600.patch
+! Checksum: eIQ1P2keXKK2ODKSXtR3uw
+! Diff-Path: ../patches/14/14-s-1706610997-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.86.9
-! TimeUpdated: 2024-01-30T09:31:42+00:00
+! Version: 2.1.86.10
+! TimeUpdated: 2024-01-30T10:31:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -30941,6 +30941,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+blick.ch##.igrtpV
 winaero.com##.fixtop
 environmentenergyleader.com###stay-informed-cont
 faz.net#?#div.Artikel > div.js-o-ModuleWrapper:has([data-fsw="newsletterpromote"])
