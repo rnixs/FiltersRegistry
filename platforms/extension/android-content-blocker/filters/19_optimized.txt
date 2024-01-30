@@ -1,9 +1,9 @@
-! Checksum: 3+Ev2n2GWr33v977y7L1eg
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1706610954-3600.patch
+! Checksum: 38B0YiKqmfP5DBi540HSLQ
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706618174-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.82
-! TimeUpdated: 2024-01-30T10:31:57+00:00
+! Version: 2.0.30.83
+! TimeUpdated: 2024-01-30T12:32:24+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -6609,7 +6609,7 @@ public.fr,marianne.net,programme-television.org###tc-newsletter-banner
 nur.kz##.block-social
 bestday.com.mx,despegar.com.mx,despegar.com.ar,elama.ru,sddhelp.ru###subscription
 letoile.ru#$#body { overflow: visible!important; }
-stiripesurse.ro,lance.com.br,1prospekte.de,wallpaper.com,marksandspencer.com,blogto.com,deingartenbedarf.de,amp.usatoday.com,thewirecutter.com,thebaffler.com,androidpolice.com##.newsletter-container
+pastemagazine.com,stiripesurse.ro,lance.com.br,1prospekte.de,wallpaper.com,marksandspencer.com,blogto.com,deingartenbedarf.de,amp.usatoday.com,thewirecutter.com,thebaffler.com,androidpolice.com##.newsletter-container
 livelib.ru###popup-mail
 ekonomim.com,sonhaberler.com,superhaber.com,gazeteduvar.com.tr,sanliurfaolay.com,medyatava.com,internethaber.com##.google-news_wrapper
 abc.net.au##div[data-component="InlineSubscribe"]

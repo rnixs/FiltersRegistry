@@ -1,9 +1,9 @@
-! Checksum: S0ONWdGN+X6R8UE5lf7fqA
-! Diff-Path: ../patches/19/19-s-1706610953-3600.patch
+! Checksum: 7txCN9/KaPh+lEdZSDiqCg
+! Diff-Path: ../patches/19/19-s-1706618174-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.82
-! TimeUpdated: 2024-01-30T10:31:57+00:00
+! Version: 2.0.30.83
+! TimeUpdated: 2024-01-30T12:32:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -14587,7 +14587,7 @@ letoile.ru#$#div[data-popup-id="subscribed-popup"] { display: none!important; }
 letoile.ru#$#body { overflow: visible!important; }
 letoile.ru##.b-section_subscription
 business2community.com##.sticky_in_parent > div#community
-stiripesurse.ro,lance.com.br,1prospekte.de,wallpaper.com,marksandspencer.com,blogto.com,deingartenbedarf.de,amp.usatoday.com,thewirecutter.com,thebaffler.com,androidpolice.com##.newsletter-container
+pastemagazine.com,stiripesurse.ro,lance.com.br,1prospekte.de,wallpaper.com,marksandspencer.com,blogto.com,deingartenbedarf.de,amp.usatoday.com,thewirecutter.com,thebaffler.com,androidpolice.com##.newsletter-container
 livelib.ru###popup-mail
 ekonomim.com,sonhaberler.com,superhaber.com,gazeteduvar.com.tr,sanliurfaolay.com,medyatava.com,internethaber.com##.google-news_wrapper
 rotadasbandeiras.com.br##.boxAlertas

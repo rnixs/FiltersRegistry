@@ -1,9 +1,9 @@
-! Checksum: V2dGoy3lGW2LMmL9klVpTQ
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1706582153-3600.patch
+! Checksum: xsgLO7GhBuwJGgP0yPoJpw
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1706618192-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.16
-! TimeUpdated: 2024-01-29T16:32:07+00:00
+! Version: 2.0.88.17
+! TimeUpdated: 2024-01-30T12:32:35+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -3470,10 +3470,10 @@ hen-tay.com#?#td > table:has(> tbody > tr > td:contains(/Реклама|Порн
 hen-tay.com#?#tbody > tr:has(> td > noindex > div[align="center"] > a > img[src^="/go/"])
 hen-tay.com#?#.news > div[align="center"]:has(> a[href*=".php"] > img)
 ||stanet-tiho.ru/banner
-/front/js/vads.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo
-/front/js/all_a.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo
-/mapsview/gomaps5.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo
-mult-porno.boo,sex-studentki.guru,sex-studentki.top##.vpsembedmob
+/front/js/vads.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo|sex-studentki.guru
+/front/js/all_a.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo|sex-studentki.guru
+/mapsview/gomaps5.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo|sex-studentki.guru
+sex-studentki.guru,mult-porno.boo,sex-studentki.guru,sex-studentki.top##.vpsembedmob
 ||cdn.hsmedia.ru/scrooge-client/hsm-creative-manager.
 bankiros.ru##.xxx-mb-30
 ||softportal.com/img/tlmn.png

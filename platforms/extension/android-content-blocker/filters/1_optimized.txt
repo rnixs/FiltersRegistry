@@ -1,9 +1,9 @@
-! Checksum: YuH+J/MsZLnDZb/+py3rpw
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1706582138-3600.patch
+! Checksum: FqZL4tnN4T6vh/lJDiPDhA
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1706618175-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.16
-! TimeUpdated: 2024-01-29T16:32:07+00:00
+! Version: 2.0.88.17
+! TimeUpdated: 2024-01-30T12:32:35+00:00
 ! Expires: 5 days (update frequency)
 .com/services/?id=$script,third-party
 /resources/js/sticker.js?$third-party
@@ -3122,10 +3122,10 @@ muz-tv.ru##.x-popup-ad-short
 marieclaire.ru##.article__block_type-productSet
 pc.ru##div[class^="advert_"]
 ||stanet-tiho.ru/banner
-/front/js/vads.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo
-/front/js/all_a.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo
-/mapsview/gomaps5.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo
-mult-porno.boo,sex-studentki.guru,sex-studentki.top##.vpsembedmob
+/front/js/vads.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo|sex-studentki.guru
+/front/js/all_a.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo|sex-studentki.guru
+/mapsview/gomaps5.js$domain=sex-studentki.top|sex-studentki.guru|mult-porno.boo|sex-studentki.guru
+sex-studentki.guru,mult-porno.boo,sex-studentki.guru,sex-studentki.top##.vpsembedmob
 ||cdn.hsmedia.ru/scrooge-client/hsm-creative-manager.
 bankiros.ru##.xxx-mb-30
 ||softportal.com/img/tlmn.png
