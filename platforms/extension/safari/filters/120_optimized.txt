@@ -1,9 +1,9 @@
-! Checksum: UKZZ9keVJJlmlcfgy1aXJA
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1706620028-14400.patch
+! Checksum: II5hJ12I01dCoB8ef6ZatQ
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1706634403-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.68
-! TimeUpdated: 2024-01-30T13:02:00+00:00
+! Version: 2.0.18.69
+! TimeUpdated: 2024-01-30T17:01:58+00:00
 ! Expires: 5 days (update frequency)
 .id^*/ads_$domain=~cartalog.id
 .id^*/adv-$domain=~adv.kompas.id
@@ -3513,11 +3513,11 @@ okestream.cfd##.header-banner
 okestream.cfd##.player-button-ad
 okestream.cfd###popbox
 okestream.cfd#%#//scriptlet('ubo-rc.js', 'flowbox', 'body')
-bgibola77.*,bgibola8.*,bgibola88.*###floatcenter
-bgibola77.*,bgibola8.*,bgibola88.*###floating_banner_top
-bgibola77.*,bgibola8.*,bgibola88.*##.inline-banner
-bgibola77.*,bgibola8.*,bgibola88.*##.sidebar-content
-bgibola77.*,bgibola8.*,bgibola88.*##.top-player-banner
+bgibola.com,bgibola77.*,bgibola8.*,bgibola88.*###floatcenter
+bgibola.com,bgibola77.*,bgibola8.*,bgibola88.*###floating_banner_top
+bgibola.com,bgibola77.*,bgibola8.*,bgibola88.*##.inline-banner
+bgibola.com,bgibola77.*,bgibola8.*,bgibola88.*##.sidebar-content
+bgibola.com,bgibola77.*,bgibola8.*,bgibola88.*##.top-player-banner
 nobartv8.xyz,tvbersama9.lol###floatcenter
 nobartv8.xyz,tvbersama9.lol###floating_banner_top
 nobartv8.xyz,tvbersama9.lol##.top-player-banner
