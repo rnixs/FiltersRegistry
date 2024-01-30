@@ -1,9 +1,9 @@
-! Checksum: tTDaIuqNZ+QtJi6Vd9i3xw
-! Diff-Path: ../patches/19/19-s-1706582189-3600.patch
+! Checksum: vDpvjkQY03iDxVCbWrIA9w
+! Diff-Path: ../patches/19/19-s-1706600202-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.79
-! TimeUpdated: 2024-01-30T02:31:54+00:00
+! Version: 2.0.30.80
+! TimeUpdated: 2024-01-30T07:31:55+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4201,6 +4201,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+brainly.co.id##div[data-testid="satisfaction_survey_facade"]
 cnbcindonesia.com##.redirect__stick
 airbnb.de##div[data-application="true"] ~ div:not([class],[id],[dir]):has( > div[dir="ltr"] > section div[aria-labelledby="announcement-curtain"])
 airbnb.de#$#body { overflow: auto !important; position: unset !important; }

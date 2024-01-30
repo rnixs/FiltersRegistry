@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: MGbSpAkqR5ygsjcAnTjfow
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706585756-3600.patch
+! Checksum: EtNi/ezRUbpRfr9Pd1dE8w
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706600180-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.19.94
-! TimeUpdated: 2024-01-30T03:32:40+00:00
+! Version: 2.3.19.95
+! TimeUpdated: 2024-01-30T07:32:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -41171,7 +41171,7 @@ nikonrumors.com###index-top > ul.xoxo
 acn.vin,pnd.*##.swal2-container
 tipsforce.com##div[id^="wmg-vb-"][style^="width: 300px; height: 250px;"]
 primewire.li##a[href^="/links/sponsored/"]
-whatismybrowser.com,primewire.li##a[href^="https://go.nordvpn.net/aff_c?"]
+bittorrent.com,whatismybrowser.com,primewire.li##a[href^="https://go.nordvpn.net/aff_c?"]
 streamkora.com###footerStickyBox
 interpals.net##div[style^="float: right;"][style*="min-height: 600px;"]
 cointelegraph.com##.bnrs-list
