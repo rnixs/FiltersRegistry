@@ -1,9 +1,9 @@
-! Checksum: 8JWY6wJW6eygR6+tyKOGRg
-! Diff-Path: ../patches/18/18-s-1706614585-3600.patch
+! Checksum: eWaVAip4PB6djT18drq+wg
+! Diff-Path: ../patches/18/18-s-1706625483-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.36
-! TimeUpdated: 2024-01-30T11:31:52+00:00
+! Version: 2.0.32.37
+! TimeUpdated: 2024-01-30T14:31:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2357,6 +2357,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+thesports.com##.cookie-message-page
 miniclip.com##.mc-consents-wrapper
 caminteresse.fr#%#//scriptlet('trusted-click-element', 'button[title="Accepter"]')
 lactoflorene.eu##.pup-container-cookie

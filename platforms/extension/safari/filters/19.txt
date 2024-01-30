@@ -1,9 +1,9 @@
-! Checksum: JjgKFHr7kUwBWIq+AwQLQg
-! Diff-Path: ../patches/19/19-s-1706621791-3600.patch
+! Checksum: tZFQSBvKJcFwE4jABSvdTw
+! Diff-Path: ../patches/19/19-s-1706625465-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.84
-! TimeUpdated: 2024-01-30T13:32:01+00:00
+! Version: 2.0.30.85
+! TimeUpdated: 2024-01-30T14:32:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4365,6 +4365,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+hapitas.jp##.btnBox
+peraichi.com##.p-fixed-tryout-banner-parts
 jungefreiheit.de#%#//scriptlet('remove-cookie', 'popup')
 brainly.co.id##div[data-testid="satisfaction_survey_facade"]
 cnbcindonesia.com##.redirect__stick
