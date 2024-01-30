@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: hs39dvdmggI3PrEuscyZtQ
-! Diff-Path: ../patches/122/122-s-1706591198-14400.patch
+! Checksum: FEpEvBKxU7lWFS4b1mGCsg
+! Diff-Path: ../patches/122/122-s-1706605620-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.20
-! TimeUpdated: 2024-01-30T05:02:02+00:00
+! Version: 2.1.20.21
+! TimeUpdated: 2024-01-30T09:02:06+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: OreoCYTWZtvctEG+Zide8g
-! OriginalVersion: 202401300415
+! Checksum: dx+Nbb9QHtNtvxGnEmV/uw
+! OriginalVersion: 202401300840
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-01-30 04:15 UTC
+! Last modified: 2024-01-30 08:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -41662,6 +41662,9 @@ eboo.lu##+js(set-cookie, PostAnalytics, 0)
 twomates.de##+js(set-cookie, gdpr-google-analytics, false)
 intergiro.com##+js(set-cookie, cookie_policy, true)
 healthygamer.gg##+js(set-cookie, cookieModalAccept, no)
+telepizza.es,telepizza.pt##+js(set-cookie, AcceptFunctionalCookies, true)
+telepizza.es,telepizza.pt##+js(set-cookie, AcceptAnalyticsCookies, false)
+telepizza.es,telepizza.pt##+js(set-cookie, AcceptNonFunctionalCookies, false)
 frisco.pl##+js(set-cookie, forced-cookies-modal, 2)
 tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com,drainagebuizen.nl##+js(set-cookie, cookiebar, 1)
 likewise.com##+js(set-cookie, cookieconsent_status, true)
@@ -48286,6 +48289,9 @@ eboo.lu##+js(set-cookie, PostAnalytics, 0)
 twomates.de##+js(set-cookie, gdpr-google-analytics, false)
 intergiro.com##+js(set-cookie, cookie_policy, true)
 healthygamer.gg##+js(set-cookie, cookieModalAccept, no)
+telepizza.es,telepizza.pt##+js(set-cookie, AcceptFunctionalCookies, true)
+telepizza.es,telepizza.pt##+js(set-cookie, AcceptAnalyticsCookies, false)
+telepizza.es,telepizza.pt##+js(set-cookie, AcceptNonFunctionalCookies, false)
 frisco.pl##+js(set-cookie, forced-cookies-modal, 2)
 tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com,drainagebuizen.nl##+js(set-cookie, cookiebar, 1)
 likewise.com##+js(set-cookie, cookieconsent_status, true)

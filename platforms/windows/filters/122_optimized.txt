@@ -1,9 +1,9 @@
-! Checksum: mKERsVG9UNV+yEBnTbgQeQ
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1706591219-14400.patch
+! Checksum: 91LqIlyJdMIKfgZri9zS/Q
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1706605643-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.20
-! TimeUpdated: 2024-01-30T05:02:02+00:00
+! Version: 2.1.20.21
+! TimeUpdated: 2024-01-30T09:02:06+00:00
 ! Expires: 12 hours (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -14175,6 +14175,9 @@ eboo.lu#%#//scriptlet('ubo-set-cookie.js', 'PostAnalytics', '0')
 twomates.de#%#//scriptlet('ubo-set-cookie.js', 'gdpr-google-analytics', 'false')
 intergiro.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_policy', 'true')
 healthygamer.gg#%#//scriptlet('ubo-set-cookie.js', 'cookieModalAccept', 'no')
+telepizza.es,telepizza.pt#%#//scriptlet('ubo-set-cookie.js', 'AcceptFunctionalCookies', 'true')
+telepizza.es,telepizza.pt#%#//scriptlet('ubo-set-cookie.js', 'AcceptAnalyticsCookies', 'false')
+telepizza.es,telepizza.pt#%#//scriptlet('ubo-set-cookie.js', 'AcceptNonFunctionalCookies', 'false')
 frisco.pl#%#//scriptlet('ubo-set-cookie.js', 'forced-cookies-modal', '2')
 tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com,drainagebuizen.nl#%#//scriptlet('ubo-set-cookie.js', 'cookiebar', '1')
 likewise.com#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'true')
@@ -17236,6 +17239,9 @@ eboo.lu#%#//scriptlet('ubo-set-cookie.js', 'PostAnalytics', '0')
 twomates.de#%#//scriptlet('ubo-set-cookie.js', 'gdpr-google-analytics', 'false')
 intergiro.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_policy', 'true')
 healthygamer.gg#%#//scriptlet('ubo-set-cookie.js', 'cookieModalAccept', 'no')
+telepizza.es,telepizza.pt#%#//scriptlet('ubo-set-cookie.js', 'AcceptFunctionalCookies', 'true')
+telepizza.es,telepizza.pt#%#//scriptlet('ubo-set-cookie.js', 'AcceptAnalyticsCookies', 'false')
+telepizza.es,telepizza.pt#%#//scriptlet('ubo-set-cookie.js', 'AcceptNonFunctionalCookies', 'false')
 frisco.pl#%#//scriptlet('ubo-set-cookie.js', 'forced-cookies-modal', '2')
 tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com,drainagebuizen.nl#%#//scriptlet('ubo-set-cookie.js', 'cookiebar', '1')
 likewise.com#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'true')

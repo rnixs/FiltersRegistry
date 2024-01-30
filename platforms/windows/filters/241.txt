@@ -1,14 +1,14 @@
-! Checksum: CaPNF5w3rTZhqJGcDmYCjw
-! Diff-Path: ../patches/241/241-s-1706591220-14400.patch
+! Checksum: q3Kp3mIPPHLypRLrjMg5vg
+! Diff-Path: ../patches/241/241-s-1706605645-14400.patch
 ! Title: EasyList Cookie List
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.22
-! TimeUpdated: 2024-01-30T05:02:50+00:00
+! Version: 2.1.28.23
+! TimeUpdated: 2024-01-30T09:02:54+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: IPgp+cxd2GbKUFu5hmXznA
+! Checksum: ND65j3hntogK6MoOiKEVdw
 ! Title: Easylist Cookie List
-! Updated: 2024-01-30 04:40 UTC
+! Updated: 2024-01-30 08:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -22084,6 +22084,9 @@ eboo.lu#%#//scriptlet('ubo-set-cookie.js', 'PostAnalytics', '0')
 twomates.de#%#//scriptlet('ubo-set-cookie.js', 'gdpr-google-analytics', 'false')
 intergiro.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_policy', 'true')
 healthygamer.gg#%#//scriptlet('ubo-set-cookie.js', 'cookieModalAccept', 'no')
+telepizza.es,telepizza.pt#%#//scriptlet('ubo-set-cookie.js', 'AcceptFunctionalCookies', 'true')
+telepizza.es,telepizza.pt#%#//scriptlet('ubo-set-cookie.js', 'AcceptAnalyticsCookies', 'false')
+telepizza.es,telepizza.pt#%#//scriptlet('ubo-set-cookie.js', 'AcceptNonFunctionalCookies', 'false')
 frisco.pl#%#//scriptlet('ubo-set-cookie.js', 'forced-cookies-modal', '2')
 tyleenslang.nl,schrikdraad.net,kruiwagen.net,pvcvoordeel.nl,pvcbuis.com,drainagebuizen.nl#%#//scriptlet('ubo-set-cookie.js', 'cookiebar', '1')
 likewise.com#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'true')

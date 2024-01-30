@@ -1,9 +1,9 @@
-! Checksum: YSVwCGsHb0d6guMD36y6BQ
-! Diff-Path: ../patches/104_optimized/104_optimized-s-1706591161-14400.patch
+! Checksum: 8daSaNvBsSl4FyQakvmNBw
+! Diff-Path: ../patches/104_optimized/104_optimized-s-1706605580-14400.patch
 ! Title: EasyList China (Optimized)
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.34.48
-! TimeUpdated: 2024-01-30T05:01:35+00:00
+! Version: 2.1.34.49
+! TimeUpdated: 2024-01-30T09:01:38+00:00
 ! Expires: 5 days (update frequency)
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
@@ -2408,6 +2408,7 @@ newduba.cn###jq_youxi
 ||ovbgeum.cn^
 ||cpwlctfk.xyz^
 ||pmnct63.shop^
+||czresus.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ##a[href*=".app003.biz"]
@@ -2457,7 +2458,6 @@ newduba.cn###jq_youxi
 ||150075.com^
 ||155zn.com^
 ||16niao20230125.live^
-||172.121.4.252^
 ||173e.cn^
 ||188aaa.us^
 ||199aaa.us^
@@ -5226,10 +5226,12 @@ $script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|m
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc|xyg688.com|zzzzz688.com
 .html|$domain=www.gamer.com.tw
 /404.safedog.cn/sitedog_stat_new.html
+/adnow.js$domain=tvboxnow.com
 /assets/sidebar/*$domain=v2ex.com
 /biz_icon/*$domain=cs090.com|wm090.com
 /EZ-YAHOO/*$domain=ezvivi.com
 /gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
+/images/*gamble$domain=tvboxnow.com
 /images/content/1436/*$domain=chineseinla.com
 /images/masha*.gif
 /images/masha*.png
@@ -5252,7 +5254,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||100.pncdn.cn^
 ||10000xing.cn/images/we
 ||100xuexi.com/CssModel/*Layout.js
-||120.27.*.html
 ||120askimages.com/ask/js/askfrom.js
 ||120askimages.com/ask/js/q
 ||127.net/external/js6promote
@@ -7453,7 +7454,7 @@ qidian.com##.games-op-wrap
 115.com##.gb-advs
 toolfk.com##.geekgay
 infoq.cn##.geo-banner
-1kkk.com,40407.com,5068.com,88148.com,chazidian.com,china.com,cnwnews.com,elecfans.com,ghjie.com,iask.ca,ifeng.com,iqilu.com,juqingba.cn,liuxue86.com,qzwb.com,sina.com.cn,tianya.cn,zsnews.cn##.gg
+1kkk.com,40407.com,5068.com,88148.com,chazidian.com,china.com,cnwnews.com,elecfans.com,ghjie.com,iask.ca,ifeng.com,iqilu.com,juqingba.cn,liuxue86.com,qzwb.com,sina.com.cn,zsnews.cn##.gg
 baidu.com##.gg-content
 bilibili.com##.gg-floor-module
 5068.com,ifeng.com##.gg01
@@ -7790,7 +7791,7 @@ techbang.com##.phone-ads
 ifeng.com##.pic1000
 ifeng.com##.pic300
 down.ali213.net,patch.ali213.net##.picBg
-ifeng.com##.picNews
+ifeng.com##.recommend > .picNews
 dealmoon.com,weibo.com##.pic_ad
 moxing.net##.pic_txt_list
 creaders.net##.pinglun > .btmlist-title
@@ -8236,7 +8237,7 @@ ruanyifeng.com##a[href*=".kaikeba.com"]
 jitashe.org##a[href*=".makeding.com/"]
 sina.cn##a[href*=".maozhuar.com"]
 6park.com##a[href*=".php?key="]
-52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 boke112.com##a[href*=".tencent.com"]
 acgdoge.net,acglala.cc,chinalawedu.com,douyu.com,dzbhdm.net,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
 sojson.com##a[href*=".upyun."]
