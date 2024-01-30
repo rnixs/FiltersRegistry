@@ -1,9 +1,9 @@
-! Checksum: D6ziOe/V5lSxsxLniJv/lQ
-! Diff-Path: ../patches/18/18-s-1706607356-3600.patch
+! Checksum: Q9oBapVADjkPQqDRPsG25g
+! Diff-Path: ../patches/18/18-s-1706614544-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.35
-! TimeUpdated: 2024-01-30T09:31:52+00:00
+! Version: 2.0.32.36
+! TimeUpdated: 2024-01-30T11:31:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2360,7 +2360,6 @@ foodingredientsfirst.com###CookiePolicy_div
 nytimes.com###fides-overlay
 ||cp.motor.elpais.com/chunks/chunk-renderFunnel.*.js
 windy.com###plugin-consent
-||blu-ray-rezensionen.net/wp-content/78ee7dd5514ca0d426c01d72b86fe214.js
 termoaktywnie.pl##.configMessages__footer
 termoaktywnie.pl##.message-popup-background
 novaramedia.com###obligation-bar
