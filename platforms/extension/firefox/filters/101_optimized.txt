@@ -1,9 +1,9 @@
-! Checksum: 8VNJgbDXv0+VEl3ctq/DRg
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1706562385-14400.patch
+! Checksum: MY/JQUhySk7+GxxBwsPH8Q
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1706576781-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.19.92
-! TimeUpdated: 2024-01-29T21:01:32+00:00
+! Version: 2.1.19.93
+! TimeUpdated: 2024-01-30T01:01:35+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -29130,6 +29130,7 @@ browsershots.org#@#.advert_area
 ||signup.asurion.com^$subdocument
 ||siteground.com/img/affiliate/
 ||skimresources.com^$script,subdocument,third-party
+||smartads.statsperform.com^
 ||squirrels.getsquirrel.co^
 ||srv.dynamicyield.com^
 ||srv.tunefindforfans.com^
@@ -30919,6 +30920,7 @@ atlasobscura.com##.ad-site-top-full-width
 nationalreview.com##.ad-skeleton
 cnn.com##.ad-slot-header__wrapper
 oann.com##.ad-slot__ad-label
+cnn.com##.ad-slot__ad-wrapper
 freepressjournal.in##.ad-slots
 trueachievements.com##.ad-wrap
 crn.com,smithsonianmag.com,tasty.co##.ad-wrapper
@@ -31716,6 +31718,7 @@ thestar.com.my##.med-rec
 ghanaweb.com##.med_rec_lg_min
 picuki.me##.media-wrap-h12
 webmd.com##.medianet-ctr
+stealthoptional.com##.mediavine_blockAds
 chess.com##.medium-rectangle-ad-slot
 ebaumsworld.com##.mediumRect
 allnurses.com##.medrec
@@ -31879,7 +31882,7 @@ yopmail.com,yopmail.fr,yopmail.net##.pindexhautctn
 carsized.com##.pl_header_ad
 gismeteo.com,meteofor.com,nofilmschool.com##.placeholder
 sundayworld.co.za##.placeholderPlug
-pcgamebenchmark.com,streetcheck.co.uk##.placement
+pcgamebenchmark.com,soccerway.com,streetcheck.co.uk##.placement
 hagerty.com##.placements
 thepinknews.com##.pn-ad-container
 thepinknews.com##.pn-remove-ads-container
@@ -32814,7 +32817,6 @@ wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="FeedT
 wish.com##div[class^="WishExpressProductsRow__FeedTileColumnWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
 flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
 goal.com##div[class^="open-web-ad_"]
-walmart.ca##div[data-automation="product"]:has(div[data-automation="sponsored-indicator-wrapper"])
 cargurus.com##div[data-cg-ft="car-blade"]:has(div[data-cg-ft="sponsored-listing-badge"])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##div[data-test-id="pin"]:has(div[title^="Promoted"])
@@ -33065,8 +33067,10 @@ search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
 shipt.com#?#li[class$="eBAnBw"]:-abp-contains(Sponsored)
 shipt.com#?#div.swiper-slide:-abp-contains(Sponsored)
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
+walmart.ca#?#div > div[io-id]:-abp-contains(Sponsored)
 wayfair.com,wayfair.co.uk#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
 winaero.com#?#p:-abp-contains(Advertisement)
+walmart.*#?#div > div[io-id]:-abp-contains(Sponsored)
 wayfair.*#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
 porndr.com###PD-Under-player
 swfchan.com###aaaa
