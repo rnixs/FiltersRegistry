@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Q/+K1TeEU4GmAKL8mD6GwQ
-! Diff-Path: ../patches/21/21-s-1706701008-3600.patch
+! Checksum: 64Yfr6PezZ153NX4xR0tYg
+! Diff-Path: ../patches/21/21-s-1706708212-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.21
-! TimeUpdated: 2024-01-31T11:32:30+00:00
+! Version: 2.0.19.22
+! TimeUpdated: 2024-01-31T13:32:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4932,6 +4932,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+auf1.tv##.w-full:has(> div.text-sm:contains(Werbung))
 kupujemprodajem.com##div[class^="Banner"]
 bookvoed.ru##div[class] > a[href^="/redirect/karusel/stat?"]:has(> img[alt="Новичкам везёт!"])
 eksmo.ru##.cheader__personal-offer

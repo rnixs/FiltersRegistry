@@ -1,9 +1,9 @@
-! Checksum: r7AH/6s4oXvnTWuJcsKi8w
-! Diff-Path: ../patches/18/18-s-1706704577-3600.patch
+! Checksum: 9Jp/BoscFT/j/dPImh6hHw
+! Diff-Path: ../patches/18/18-s-1706708183-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.43
-! TimeUpdated: 2024-01-31T12:32:02+00:00
+! Version: 2.0.32.44
+! TimeUpdated: 2024-01-31T13:32:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2357,6 +2357,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+auf1.tv#%#//scriptlet('trusted-set-local-storage-item', 'consent', '{"analytics":false,"location":false,"video":false}')
 rutube.ru##noindex.eu-cookie-popup-module__eu_cookie_popup
 thesports.com##.cookie-message-page
 miniclip.com##.mc-consents-wrapper
@@ -11372,7 +11373,7 @@ zoover.pl###info-bar
 dziennik.pl###inforcwp
 fabrykazabawek.eu,autoserv.ro,evamode.de,dermokozmetik.com,wisp.net.au,telefonylodz.com###iqitcookielaw
 fjallbrynt.se###itc-cookie-notify
-alsen.pl,bdsklep.pl,mediamarkt.pl,redcoon.pl,vobis.pl,zadowolenie.pl###js-cookieInfo
+alsen.pl,bdsklep.pl,redcoon.pl,vobis.pl,zadowolenie.pl###js-cookieInfo
 banggood.com###jsUseCookieTips
 spotamsterdam.nl###js_cookie_wish
 globport.com###kbCookiePolicy
@@ -13675,6 +13676,7 @@ wackojaco.com,gpblog.com#%#//scriptlet('trusted-click-element', 'button[mode="se
 wackojaco.com,gpblog.com#%#//scriptlet('trusted-click-element', '.qc-cmp2-header-links > button[mode="link"]:first-child')
 wackojaco.com,gpblog.com#%#//scriptlet('trusted-click-element', 'div[class^="qc-cmp2-buttons-"] > button[mode="primary"]')
 !
+mediamarkt.pl#%#//scriptlet('trusted-click-element', '#mms-consent-portal-container button[data-test="pwa-consent-layer-deny-all"]')
 sms-receive.net#%#//scriptlet('set-cookie-reload', 'cookieconsent_dismissed', 'yes')
 netzwelt.de#%#//scriptlet('trusted-click-element', 'h2 ~ div[class^="_"] > div[class^="_"] > a[rel="noopener noreferrer"][target="_self"][class^="_"]:only-child')
 mako.co.il#%#//scriptlet('set-local-storage-item', 'mako_GDPR_message_showed', '1')
