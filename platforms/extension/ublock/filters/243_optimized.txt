@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ebzfO+j9nHRH8pl8qBLI3Q
-! Diff-Path: ../patches/243_optimized/243_optimized-s-1706605623-14400.patch
+! Checksum: MTAt6Ul4cPvcxUzTIQTv6A
+! Diff-Path: ../patches/243_optimized/243_optimized-s-1706706429-14400.patch
 ! Title: Frellwit's Swedish Filter (Optimized)
 ! Description: Filter that aims to remove regional Swedish ads, tracking, social media, annoyances, sponsored articles etc.
-! Version: 2.0.17.51
-! TimeUpdated: 2024-01-30T09:02:56+00:00
+! Version: 2.0.17.52
+! TimeUpdated: 2024-01-31T13:03:08+00:00
 ! Expires: 5 days (update frequency)
 .ads-gdprlock
 .ax/ad/
@@ -1223,7 +1223,7 @@ tripadvisor.se##[class$="banner_ad"]
 turismnytt.se##.site-wrap > .row > .col-sm-3
 turistmal.se###col_right
 tv4play.se##button:has-text(Besök annonsör)
-tv4play.se##+js(xml-prune, MediaFile, , se-tv4.videoplaza.tv/proxy/distributor)
+tv4play.se##+js(xml-prune, Ad, , se-tv4.videoplaza.tv/proxy/distributor)
 tv4play.se#$#.avod-web-player-pause { background-color:transparent!important; }
 tv4.se##.maxetise
 tv24.se##li[id^="infeed"]

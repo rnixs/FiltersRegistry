@@ -1,9 +1,9 @@
-! Checksum: r4YPyTA9MVbqYSBDq5FmhQ
-! Diff-Path: ../patches/104/104-s-1706677607-14400.patch
+! Checksum: 8+1jecey7MLacob+pQalfA
+! Diff-Path: ../patches/104/104-s-1706706441-14400.patch
 ! Title: EasyList China
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.34.52
-! TimeUpdated: 2024-01-31T05:01:35+00:00
+! Version: 2.1.34.53
+! TimeUpdated: 2024-01-31T13:01:49+00:00
 ! Expires: 12 hours (update frequency)
 !
 ! Title: EasyList China
@@ -3304,6 +3304,7 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||adtonus.com^
 ||dxsjcz.cn^
 ||yhsdwjes.xyz^
 ||tnllxd.xyz^
@@ -3317,6 +3318,8 @@ newduba.cn###jq_youxi
 ||chsdwjes.xyz^
 ||czouthy.cn^
 ||hscq8.cyou^
+||xhsdwjes.xyz^
+||guysfair.com^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -10841,6 +10844,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+baidu.com##.bd-aside-ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
