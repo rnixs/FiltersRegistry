@@ -1,9 +1,9 @@
-! Checksum: WgCBBnSDy2oryXiKOSsuwQ
-! Diff-Path: ../patches/20/20-s-1706636176-3600.patch
+! Checksum: SZD/hdlt5Dr6gssRxuXOag
+! Diff-Path: ../patches/20/20-s-1706697397-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.12
-! TimeUpdated: 2024-01-30T17:32:36+00:00
+! Version: 2.0.12.13
+! TimeUpdated: 2024-01-31T10:32:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -78,6 +78,7 @@
 ||br.app.link^$third-party
 !
 ##amp-app-banner
+##.smartbanner--ios
 ##.smartbanner--android
 ###smartbanner.ios
 ###smartbanner.windows
@@ -3151,7 +3152,7 @@ linkedin.com##div[data-tracking-id="get_app_omni_bottom"]
 deliveroo.hk##[class^="AppBanner-"]
 !
 !+ NOT_OPTIMIZED
-livemint.com##.openinApp2
+www-livemint-com.cdn.ampproject.org,livemint.com##.openinApp2
 !+ NOT_OPTIMIZED
 vesti.ru#$#.google-app { display: none !important; }
 !+ NOT_OPTIMIZED
