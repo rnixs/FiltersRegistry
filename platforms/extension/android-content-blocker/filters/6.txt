@@ -1,9 +1,9 @@
-! Checksum: lnzYkRLwKcG9Np23c3CEIA
-! Diff-Path: ../patches/6/6-s-1706704567-3600.patch
+! Checksum: +3wfiZX2jb/q45qOSDM3iA
+! Diff-Path: ../patches/6/6-s-1706733354-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.28
-! TimeUpdated: 2024-01-31T12:33:17+00:00
+! Version: 2.0.40.29
+! TimeUpdated: 2024-01-31T20:33:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10366,7 +10366,7 @@ rnd.de##div[class^="Adstyled_"]
 zentralplus.ch##div[class^="Advertisement_container"]
 mactechnews.de##div[class^="Billboard-"]
 mactechnews.de##div[class^="Billboard_"]
-20min.ch##div[class^="ContentPage_insideFullTopPlaceholder_"]
+20min.ch,lessentiel.lu##div[class^="ContentPage_insideFullTopPlaceholder_"]
 lovelybooks.de##div[class^="MoliAd_"]
 derbund.ch##div[class^="PageLayout_topaddesktop_"]
 mactechnews.de##div[class^="Rectangle_"]
