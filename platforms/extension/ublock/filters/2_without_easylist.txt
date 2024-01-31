@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: dvECqgwl09yxkP2CFhHYrw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706668567-3600.patch
+! Checksum: kxlEAEs0HMtdSwanQgbNcw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706672161-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.20.10
-! TimeUpdated: 2024-01-31T02:32:37+00:00
+! Version: 2.3.20.11
+! TimeUpdated: 2024-01-31T03:32:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -19304,6 +19304,8 @@ indiatimes.com##.last8brdiv > div.sponsor_block
 !
 ! NOTE: Indonesian
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171872
+lahelu.com##div[class*="Chunk_ad_"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171829
 roboguru.ruangguru.com##.chakra-container  > div[class^="css-"]:has(> div[class^="css-"] > div[id^="div-gpt-ad-"])
 roboguru.ruangguru.com##.chakra-stack > div[class^="css-"]:has(> div[class^="css-"] > div[id^="div-gpt-ad-"])
