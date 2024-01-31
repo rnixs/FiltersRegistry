@@ -1,9 +1,9 @@
-! Checksum: 0G3Kz5Xx4ACTceSFayqxoA
-! Diff-Path: ../patches/19/19-s-1706719052-3600.patch
+! Checksum: Yo7+Z9Y5qP3IFLE59tU1Dg
+! Diff-Path: ../patches/19/19-s-1706740555-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.95
-! TimeUpdated: 2024-01-31T16:32:30+00:00
+! Version: 2.0.30.96
+! TimeUpdated: 2024-01-31T22:31:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1639,6 +1639,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+sheepit-renderfarm.com##.container[style^="width:728px;height:90px;"]
 civitai.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 civitai.com##div[class^="mantine-"][style="margin: 0px auto;"]:empty
 civitai.com##div[class^="mantine-"][style="margin: 16px auto 10px;"]:empty
