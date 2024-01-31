@@ -1,9 +1,9 @@
-! Checksum: P2/5mu//RWdLp5tW1sKBow
-! Diff-Path: ../patches/18/18-s-1706711795-3600.patch
+! Checksum: fYRlzIG8+gm92DGTL4+cBw
+! Diff-Path: ../patches/18/18-s-1706719064-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.45
-! TimeUpdated: 2024-01-31T14:31:54+00:00
+! Version: 2.0.32.46
+! TimeUpdated: 2024-01-31T16:32:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2359,6 +2359,17 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+krotoski.com###elementor-popup-modal-856
+jaworzynakrynicka.pl###cookies-consent__window
+motor.es#%#//scriptlet('trusted-click-element', '#configCmpButtonMain')
+motor.es#%#//scriptlet('trusted-click-element', '#rejectAllConsent')
+motor.es#%#//scriptlet('trusted-click-element', 'label[for="accept_specialFeatures_1"]')
+motor.es#%#//scriptlet('trusted-click-element', 'label[for="accept_specialFeatures_2"]')
+motor.es#%#//scriptlet('trusted-click-element', '[id="purposesNavLegInt"]')
+houstonchronicle.com#%#//scriptlet('trusted-click-element', '#modals button + button.bg-primaryAccessible')
+doppelmayr.com###dop-cookiebanner-overlay
+doppelmayr.com###dop-cookiebanner
+mysanantonio.com,expressnews.com,sfgate.com#%#//scriptlet('trusted-set-cookie', '_consent_cookie', '{"services":[]}')
 auf1.tv#%#//scriptlet('trusted-set-local-storage-item', 'consent', '{"analytics":false,"location":false,"video":false}')
 rutube.ru##noindex.eu-cookie-popup-module__eu_cookie_popup
 thesports.com##.cookie-message-page
@@ -2413,7 +2424,6 @@ zdf.de,3sat.de#%#//scriptlet('trusted-click-element', 'button#zdf-cmp-deny-btn')
 ulefone.com##.footermsg
 heromic.se###CookieAcceptForm
 ||assets.yoursurprise.com/build/AnalyticsService.
-expressnews.com#%#//scriptlet('trusted-set-cookie', '_consent_cookie', '{"services":[]}')
 foodingredientsfirst.com###CookiePolicy_div
 ozon.by#?#div[data-widget="blockVertical"]:has(> div[data-widget="cookiePopup"])
 nytimes.com###fides-overlay
@@ -2534,7 +2544,6 @@ kijiji.ca##div[class^="cookieBannerContainer"]
 vvvvid.it#%#//scriptlet('set-cookie', 'vvvvid_cookies_accepted', '1')
 emlakjet.com#%#//scriptlet('set-cookie', 'CookiePolicy', '1')
 vivre.*#%#//scriptlet('trusted-set-cookie-reload', 'cookies_consent', '1,~5,~6')
-sfgate.com#%#//scriptlet('trusted-set-cookie', '_consent_cookie', '{"services":[]}')
 comarch.pl#%#//scriptlet('trusted-click-element', '.consent-modal__general-btn > button:first-child')
 kufar.by#%#//scriptlet('trusted-set-cookie', 'kuf_agr', '{%22advertisements%22:false%2C%22statistic%22:false%2C%22mindbox%22:false}')
 ilrestodelcarlino.it,quotidiano.net,lanazione.it,ilgiorno.it,iltelegrafolivorno.it#%#//scriptlet('trusted-click-element', '#pubtech-cmp #pt-close')
@@ -6510,10 +6519,6 @@ modamelis.com###btz-cookie-popup
 gouv.fr##.fr-consent-banner
 pep.pl##.ip-cookies
 domestika.org###cookiesAlertWidget
-oberbank.at,hisarhospital.com##div[class^="dt-cookie-"]
-store.leica-camera.com#$#body { overflow: auto !important; }
-store.leica-camera.com#$#.cookie--permission { display: none !important; }
-store.lrg###cookiesAlertWidget
 oberbank.at,hisarhospital.com##div[class^="dt-cookie-"]
 store.leica-camera.com#$#body { overflow: auto !important; }
 store.leica-camera.com#$#.cookie--permission { display: none !important; }
@@ -10557,7 +10562,7 @@ asos.com,asos.de,asos.fr##div[data-testid="cookie-disclaimer"]
 aixenprovencetourism.com###id-warning-cookies
 ren.tv##.cookies__panel
 farfor.ru##.agreementPopup
-wielkahistoria.pl###rodo-info
+kontomaniak.pl,wielkahistoria.pl###rodo-info
 moviepilot.de##div[data-hypernova-key="CookieNotification"]
 kaufda.de###bonial-cmp-container
 onlykey.io,inateck.de,cymatics.fm,wwfmarket.com##.eg-cc-window[aria-label="cookieconsent"]
@@ -11378,7 +11383,7 @@ zoover.pl###info-bar
 dziennik.pl###inforcwp
 fabrykazabawek.eu,autoserv.ro,evamode.de,dermokozmetik.com,wisp.net.au,telefonylodz.com###iqitcookielaw
 fjallbrynt.se###itc-cookie-notify
-alsen.pl,bdsklep.pl,mediamarkt.pl,redcoon.pl,vobis.pl,zadowolenie.pl###js-cookieInfo
+alsen.pl,bdsklep.pl,redcoon.pl,vobis.pl,zadowolenie.pl###js-cookieInfo
 banggood.com###jsUseCookieTips
 spotamsterdam.nl###js_cookie_wish
 globport.com###kbCookiePolicy
@@ -13696,6 +13701,7 @@ wackojaco.com,gpblog.com#%#//scriptlet('trusted-click-element', 'button[mode="se
 wackojaco.com,gpblog.com#%#//scriptlet('trusted-click-element', '.qc-cmp2-header-links > button[mode="link"]:first-child')
 wackojaco.com,gpblog.com#%#//scriptlet('trusted-click-element', 'div[class^="qc-cmp2-buttons-"] > button[mode="primary"]')
 !
+mediamarkt.pl#%#//scriptlet('trusted-click-element', '#mms-consent-portal-container button[data-test="pwa-consent-layer-deny-all"]')
 sms-receive.net#%#//scriptlet('set-cookie-reload', 'cookieconsent_dismissed', 'yes')
 netzwelt.de#%#//scriptlet('trusted-click-element', 'h2 ~ div[class^="_"] > div[class^="_"] > a[rel="noopener noreferrer"][target="_self"][class^="_"]:only-child')
 mako.co.il#%#//scriptlet('set-local-storage-item', 'mako_GDPR_message_showed', '1')

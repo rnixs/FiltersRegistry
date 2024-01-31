@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: HYCZkyhf8v6qUWGAf4eG9Q
-! Diff-Path: ../patches/19/19-s-1706711790-3600.patch
+! Checksum: W7ZVztSI2j0sI55lGcRt9w
+! Diff-Path: ../patches/19/19-s-1706719058-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.94
-! TimeUpdated: 2024-01-31T14:31:57+00:00
+! Version: 2.0.30.95
+! TimeUpdated: 2024-01-31T16:32:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1529,6 +1529,9 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+civitai.com##+js(no-fetch-if, pagead2.googlesyndication.com)
+civitai.com##div[class^="mantine-"][style="margin: 0px auto;"]:empty
+civitai.com##div[class^="mantine-"][style="margin: 16px auto 10px;"]:empty
 beautifulfonts.net###blockab
 agenda-loto.net##.antiaddblock
 twitchmetrics.net##+js(set-constant, nitroAds.abp, true)
@@ -4105,6 +4108,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+krotoski.com###elementor-popup-modal-64876
 blog.openreplay.com##astro-island[uid="1se2Xg"]
 hapitas.jp##.btnBox
 peraichi.com##.p-fixed-tryout-banner-parts
@@ -12038,6 +12042,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+mlbtraderumors.com###fv_tr_mobile_before_comments
+npmtrends.com##.email-signup
 fxstreet.com##div[class^="fxs_"]:has(> p > a[href^="https://t.me/f"])
 fxstreet.com##div[id^="subscribetonewsletter"]
 auf1.tv##.rounded:has(> div > a[href="https://auf1.tv/newsletter"])
@@ -17014,7 +17020,7 @@ lung.org##.section-signup-email
 techacrobat.com,techgistafrica.com##.jeg_push_notification
 sportpanorama.by##.b-bottom-plates-section
 hotstunners.com##.mail_address
-washingtonpost.com##div[data-qa="newsletter"]
+washingtonpost.com##div:has(> div[data-qa="newsletter"])
 300gospodarka.pl###mc4wp-form-1[data-name*="newsletter"]
 pets.mail.ru##.root-block-for-BlockSubscription
 probonoaustralia.com.au##.news-sign-up

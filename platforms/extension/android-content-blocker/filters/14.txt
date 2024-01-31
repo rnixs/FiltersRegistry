@@ -1,9 +1,9 @@
-! Checksum: 4mAOCASGnRbn44HDy9xlvg
-! Diff-Path: ../patches/14/14-s-1706711748-3600.patch
+! Checksum: 0kNyNvRkZZZaLO5eI0/P+w
+! Diff-Path: ../patches/14/14-s-1706719022-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.86.25
-! TimeUpdated: 2024-01-31T14:31:44+00:00
+! Version: 2.1.86.26
+! TimeUpdated: 2024-01-31T16:32:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2320,6 +2320,10 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+krotoski.com###elementor-popup-modal-856
+jaworzynakrynicka.pl###cookies-consent__window
+doppelmayr.com###dop-cookiebanner-overlay
+doppelmayr.com###dop-cookiebanner
 rutube.ru##noindex.eu-cookie-popup-module__eu_cookie_popup
 thesports.com##.cookie-message-page
 miniclip.com##.mc-consents-wrapper
@@ -6044,10 +6048,6 @@ modamelis.com###btz-cookie-popup
 gouv.fr##.fr-consent-banner
 pep.pl##.ip-cookies
 domestika.org###cookiesAlertWidget
-oberbank.at,hisarhospital.com##div[class^="dt-cookie-"]
-store.leica-camera.com#$#body { overflow: auto !important; }
-store.leica-camera.com#$#.cookie--permission { display: none !important; }
-store.lrg###cookiesAlertWidget
 oberbank.at,hisarhospital.com##div[class^="dt-cookie-"]
 store.leica-camera.com#$#body { overflow: auto !important; }
 store.leica-camera.com#$#.cookie--permission { display: none !important; }
@@ -10020,7 +10020,7 @@ asos.com,asos.de,asos.fr##div[data-testid="cookie-disclaimer"]
 aixenprovencetourism.com###id-warning-cookies
 ren.tv##.cookies__panel
 farfor.ru##.agreementPopup
-wielkahistoria.pl###rodo-info
+kontomaniak.pl,wielkahistoria.pl###rodo-info
 moviepilot.de##div[data-hypernova-key="CookieNotification"]
 kaufda.de###bonial-cmp-container
 onlykey.io,inateck.de,cymatics.fm,wwfmarket.com##.eg-cc-window[aria-label="cookieconsent"]
@@ -10840,7 +10840,7 @@ zoover.pl###info-bar
 dziennik.pl###inforcwp
 fabrykazabawek.eu,autoserv.ro,evamode.de,dermokozmetik.com,wisp.net.au,telefonylodz.com###iqitcookielaw
 fjallbrynt.se###itc-cookie-notify
-alsen.pl,bdsklep.pl,mediamarkt.pl,redcoon.pl,vobis.pl,zadowolenie.pl###js-cookieInfo
+alsen.pl,bdsklep.pl,redcoon.pl,vobis.pl,zadowolenie.pl###js-cookieInfo
 banggood.com###jsUseCookieTips
 spotamsterdam.nl###js_cookie_wish
 globport.com###kbCookiePolicy
@@ -18198,6 +18198,8 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+civitai.com##div[class^="mantine-"][style="margin: 0px auto;"]:empty
+civitai.com##div[class^="mantine-"][style="margin: 16px auto 10px;"]:empty
 beautifulfonts.net###blockab
 agenda-loto.net##.antiaddblock
 twitchmetrics.net##body > div[style^="background:"][style*="position: fixed; display: flex; align-items: center; justify-content: center; inset: 0px; z-index:"]
@@ -20579,6 +20581,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+krotoski.com###elementor-popup-modal-64876
 blog.openreplay.com##astro-island[uid="1se2Xg"]
 hapitas.jp##.btnBox
 peraichi.com##.p-fixed-tryout-banner-parts
@@ -27987,6 +27990,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+mlbtraderumors.com###fv_tr_mobile_before_comments
+npmtrends.com##.email-signup
 fxstreet.com##div[id^="subscribetonewsletter"]
 allevents.in##.bottom-right-subscribe
 azcapitoltimes.com##.newsletter-acton-form-rightsidebar
@@ -32166,7 +32171,6 @@ lung.org##.section-signup-email
 techacrobat.com,techgistafrica.com##.jeg_push_notification
 sportpanorama.by##.b-bottom-plates-section
 hotstunners.com##.mail_address
-washingtonpost.com##div[data-qa="newsletter"]
 300gospodarka.pl###mc4wp-form-1[data-name*="newsletter"]
 pets.mail.ru##.root-block-for-BlockSubscription
 probonoaustralia.com.au##.news-sign-up
@@ -41181,6 +41185,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+mlbtraderumors.com###tr-rotate-ads
 kupujemprodajem.com##div[class^="Banner"]
 eksmo.ru##.cheader__personal-offer
 rocketleague.tracker.network##.app-promo-section
@@ -43433,7 +43438,6 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160439
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160334
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159577
-! https://github.com/AdguardTeam/AdguardFilters/issues/159777
 ! https://github.com/uBlockOrigin/uAssets/issues/19422
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159121
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158698

@@ -1,9 +1,9 @@
-! Checksum: YK87uz2NgCQNZ22o5GCKzg
-! Diff-Path: ../patches/11/11-s-1706711782-3600.patch
+! Checksum: Jzmv0CoDuZTui4gXKPDvtg
+! Diff-Path: ../patches/11/11-s-1706719050-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.81
-! TimeUpdated: 2024-01-31T14:31:25+00:00
+! Version: 2.0.48.82
+! TimeUpdated: 2024-01-31T16:31:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6125,7 +6125,7 @@ healthboards.com##.sticky_ad
 forums.androidcentral.com##.threadbit + li.ui-body-null
 redtube.com,redtube.net##.top-tabs
 m.yingshidaquan.cc##.topmessage
-idownloadblog.com##.wptouch-custom-ad
+mlbtraderumors.com,idownloadblog.com##.wptouch-custom-ad
 kisscartoon.me##.wrap > [style] > div[style^="height: 250px;"]
 bhaskar.com,divyabhaskar.co.in##[id^="TaboolaNativerecommendAd"]
 udaff.com##[width="240"][height="300"]
