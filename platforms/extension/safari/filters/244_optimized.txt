@@ -1,9 +1,9 @@
-! Checksum: Vvql76CGfpil/WktlZ4NTQ
-! Diff-Path: ../patches/244_optimized/244_optimized-s-1706620033-14400.patch
+! Checksum: 1+RJ3aUyAhsTYIrcMsTKZQ
+! Diff-Path: ../patches/244_optimized/244_optimized-s-1706720812-14400.patch
 ! Title: YousList (Optimized)
 ! Description: Filter that blocks ads on Korean sites.
-! Version: 2.0.10.40
-! TimeUpdated: 2024-01-30T13:03:02+00:00
+! Version: 2.0.10.41
+! TimeUpdated: 2024-01-31T17:03:03+00:00
 ! Expires: 5 days (update frequency)
 ##amp-ad
 ##amp-embed.ad_cnt
@@ -2164,6 +2164,7 @@
 ||t.arcade.show^
 ||t.tmdn2015x9.com/build/*/v1/
 ||t1.daumcdn.net/adfit/static/ad.min.js^$domain=~gallery.v.daum.net
+||t1.daumcdn.net/adfit/static/kp.js^$third-party
 ||t1.daumcdn.net/kas/static/ba.min.js^
 ||t1.daumcdn.net/midas/rt/dk_bt/roosevelt_dk_bt.js^$domain=tistory.com
 ||tab.clickmon.co.kr/ad_img/
