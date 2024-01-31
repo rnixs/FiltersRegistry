@@ -1,9 +1,9 @@
-! Checksum: v3B7zZEMwmf3GjEdzd7sXA
-! Diff-Path: ../patches/107_optimized/107_optimized-s-1706648770-14400.patch
+! Checksum: 8POhH6G7/mRFpuFku6QUUA
+! Diff-Path: ../patches/107_optimized/107_optimized-s-1706735179-14400.patch
 ! Title: EasyList Germany (Optimized)
 ! Description: Additional filter list for websites in German. Already included in AdGuard German filter.
-! Version: 2.0.12.57
-! TimeUpdated: 2024-01-30T21:01:41+00:00
+! Version: 2.0.12.58
+! TimeUpdated: 2024-01-31T21:01:53+00:00
 ! Expires: 5 days (update frequency)
 &werbemittel=
 -Bannerwerbung-
@@ -4724,7 +4724,7 @@ rnd.de##div[class^="Adstyled_"]
 zentralplus.ch##div[class^="Advertisement_container"]
 mactechnews.de##div[class^="Billboard-"]
 mactechnews.de##div[class^="Billboard_"]
-20min.ch##div[class^="ContentPage_insideFullTopPlaceholder_"]
+20min.ch,lessentiel.lu##div[class^="ContentPage_insideFullTopPlaceholder_"]
 lovelybooks.de##div[class^="MoliAd_"]
 derbund.ch##div[class^="PageLayout_topaddesktop_"]
 mactechnews.de##div[class^="Rectangle_"]

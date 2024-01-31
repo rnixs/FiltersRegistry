@@ -1,15 +1,15 @@
-! Checksum: W6j3714gpC3h9NPLN0/qZw
-! Diff-Path: ../patches/113/113-s-1706720792-14400.patch
+! Checksum: z0h7PgAYesoOWK9f7qIfAg
+! Diff-Path: ../patches/113/113-s-1706735189-14400.patch
 ! Title: Liste FR
 ! Description: Additional filter list for websites in French. Already included in AdGuard French filter.
-! Version: 2.1.43.0
-! TimeUpdated: 2024-01-31T17:01:54+00:00
+! Version: 2.1.43.1
+! TimeUpdated: 2024-01-31T21:02:00+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 8U16kYIq+XvZMueUfghBMQ
-! OriginalVersion: 202401311651
+! Checksum: oePgD+q4NavnU7/GcV5tJA
+! OriginalVersion: 202401312051
 ! Title: Liste FR
-! Last modified: 31 Jan 2024 16:51 UTC
+! Last modified: 31 Jan 2024 20:51 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -20988,7 +20988,6 @@ captchme.com###menubanner
 aujourdhui-en-france.fr,leparisien.fr###meteo-immo
 liligo.fr###midbanner
 20min.ch###min_billboard
-lessentiel.lu###min_rectangle
 jeu.video###mobile_clic
 w0rld.tv###modal
 le-buzz.fr###modal_chrome
@@ -22034,6 +22033,7 @@ jeu.fr##[data-fallback-type="image"]
 tripadvisor.fr##[data-feed-reason="SPONSORED"]
 films-telecharger.eu##[data-hash]
 lemonde.fr##[data-partner="bienici"]
+lessentiel.lu##[data-testid="Ad"]
 qwantjunior.com##[data-testid="autopromoJuniorLink"]
 toutvendre.fr##[href*=".kelkoogroup.net/"]
 meteofrance.com##[href*=".xiti.com"] > img
@@ -22295,6 +22295,7 @@ lefigaro.fr##div[class*="mad__pub__"]
 rakuten.com##div[class*="rads_placement"]
 leboncoin.fr##div[class="vl"]
 booska-p.com##div[class][style^="background"]
+lessentiel.lu##div[class^="ContentPage_insideFullTopPlaceholder"]
 nrj.fr##div[class^="StyledAds"]
 une-recette.com##div[class^="banniere"]
 frandroid.com##div[class^="container_native_"]
@@ -22521,6 +22522,7 @@ lemonde.fr#?#.area--ops:-abp-has(p:-abp-contains(Contenus partenaires))
 lemonde.fr#?#.bd__bloc:-abp-has(.bd__header:-abp-contains(Barnebys.fr))
 leseclaireuses.com#?#.article.small:-abp-has(a[href*=".smartadserver.com"])
 leseclaireuses.com#?#.gslide:-abp-has(a[href^="https://bit.ly/"])
+lessentiel.lu#?#aside:-abp-has(div + span:-abp-contains(Publicité))
 libhunt.com#?#.boxed:-abp-has(.tag:-abp-contains(Sponsored))
 libhunt.com#?#.repo-component:-abp-has(label:-abp-contains(sponsored))
 linfoweb.com#?#.isnotmobi:-abp-has(a:-abp-contains(sponsorisé))

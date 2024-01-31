@@ -1,9 +1,9 @@
-! Checksum: O0bz/t1G9pUfEDyIvIhg3w
-! Diff-Path: ../patches/113_optimized/113_optimized-s-1706720782-14400.patch
+! Checksum: tyGLXHTUDgdtYt2gmKqCOA
+! Diff-Path: ../patches/113_optimized/113_optimized-s-1706735179-14400.patch
 ! Title: Liste FR (Optimized)
 ! Description: Additional filter list for websites in French. Already included in AdGuard French filter.
-! Version: 2.1.43.0
-! TimeUpdated: 2024-01-31T17:01:54+00:00
+! Version: 2.1.43.1
+! TimeUpdated: 2024-01-31T21:02:00+00:00
 ! Expires: 5 days (update frequency)
 &ad_count=
 &ad_unit_
@@ -4726,6 +4726,7 @@ webstar-electro.com##[class^="banner"]
 doctissimo.fr##[class^="doc-ad-"]
 ambiance-noel.fr,guide-piscine.fr##[class^="pub_"]
 guide-piscine.fr##[class^="regie_"]
+lessentiel.lu##[data-testid="Ad"]
 qwantjunior.com##[data-testid="autopromoJuniorLink"]
 toutvendre.fr##[href*=".kelkoogroup.net/"]
 filecrypt.cc,filecrypt.co,hdss.work,streaming-films.life##[href^="javascript:"]
@@ -4796,6 +4797,7 @@ gauleporno.xxx,pornburst.xxx##div[class*="banner"]
 rakuten.com##div[class*="rads_placement"]
 leboncoin.fr##div[class="vl"]
 booska-p.com##div[class][style^="background"]
+lessentiel.lu##div[class^="ContentPage_insideFullTopPlaceholder"]
 nrj.fr##div[class^="StyledAds"]
 une-recette.com##div[class^="banniere"]
 gamekult.com##div[class^="gk__ads"]

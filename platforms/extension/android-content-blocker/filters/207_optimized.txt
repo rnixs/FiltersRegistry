@@ -1,9 +1,9 @@
-! Checksum: V89cP3z2KG/srac9nDeqCw
-! Diff-Path: ../patches/207_optimized/207_optimized-s-1706720783-14400.patch
+! Checksum: uxQ3GEF3D6Lhxw1nTE/2Zw
+! Diff-Path: ../patches/207_optimized/207_optimized-s-1706735181-14400.patch
 ! Title: Adblock Warning Removal List (Optimized)
 ! Description: Removes anti-adblock warnings and other obtrusive messages.
-! Version: 2.1.43.1
-! TimeUpdated: 2024-01-31T17:02:19+00:00
+! Version: 2.1.43.2
+! TimeUpdated: 2024-01-31T21:02:24+00:00
 ! Expires: 5 days (update frequency)
 /adb-watch.
 /adb_script/*
@@ -29,6 +29,7 @@ freestore.app##.adbn2-wrap2
 4algeria.com###exposeMask
 chahid4u.tk###unblocker
 okanime.tv##.jconfirm
+fctvhd.com##.mw-adblock
 4algeria.com##.xenOverlay
 shahid4u.club#@#.adsBox
 @@||ency-educ.com^$generichide

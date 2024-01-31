@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: yYOUVMu1TmLymiugK8+w7A
-! Diff-Path: ../patches/113_optimized/113_optimized-s-1706720814-14400.patch
+! Checksum: FNt55hWfU8Q5tCjCR9A7HA
+! Diff-Path: ../patches/113_optimized/113_optimized-s-1706735210-14400.patch
 ! Title: Liste FR (Optimized)
 ! Description: Additional filter list for websites in French. Already included in AdGuard French filter.
-! Version: 2.1.43.0
-! TimeUpdated: 2024-01-31T17:01:54+00:00
+! Version: 2.1.43.1
+! TimeUpdated: 2024-01-31T21:02:00+00:00
 ! Expires: 5 days (update frequency)
 &ad_count=
 &ad_unit_
@@ -4734,6 +4734,7 @@ webstar-electro.com##[class^="banner"]
 doctissimo.fr##[class^="doc-ad-"]
 ambiance-noel.fr,guide-piscine.fr##[class^="pub_"]
 guide-piscine.fr##[class^="regie_"]
+lessentiel.lu##[data-testid="Ad"]
 qwantjunior.com##[data-testid="autopromoJuniorLink"]
 toutvendre.fr##[href*=".kelkoogroup.net/"]
 filecrypt.cc,filecrypt.co,hdss.work,streaming-films.life##[href^="javascript:"]
@@ -4804,6 +4805,7 @@ gauleporno.xxx,pornburst.xxx##div[class*="banner"]
 rakuten.com##div[class*="rads_placement"]
 leboncoin.fr##div[class="vl"]
 booska-p.com##div[class][style^="background"]
+lessentiel.lu##div[class^="ContentPage_insideFullTopPlaceholder"]
 nrj.fr##div[class^="StyledAds"]
 une-recette.com##div[class^="banniere"]
 gamekult.com##div[class^="gk__ads"]
@@ -4865,6 +4867,7 @@ latribune.fr#?#.article-wrapper:-abp-has(.subheading:-abp-contains(Partenaire))
 latribune.fr#?#.homepage-section.supplement-section:-abp-has(span:-abp-contains(Partenaires))
 leboncoin.fr#?#.undefined:-abp-contains(Sponsorisé)
 lemonde.fr#?#.area--ops:-abp-has(p:-abp-contains(Contenus partenaires))
+lessentiel.lu#?#aside:-abp-has(div + span:-abp-contains(Publicité))
 libhunt.com#?#.boxed:-abp-has(.tag:-abp-contains(Sponsored))
 libhunt.com#?#.repo-component:-abp-has(label:-abp-contains(sponsored))
 macommune.info#?#.widget_article:-abp-has(.title_widget:-abp-contains(/PUBLI INFO|Publi-info/))
