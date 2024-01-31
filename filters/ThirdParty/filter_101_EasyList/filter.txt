@@ -1,8 +1,8 @@
 !
-! Checksum: RLbb+iBW8/PIhAIG4jqLkw
-! OriginalVersion: 202401302050
+! Checksum: rZ4Juru5s8UspSwoJ0wrPA
+! OriginalVersion: 202401310051
 ! Title: EasyList
-! Last modified: 30 Jan 2024 20:50 UTC
+! Last modified: 31 Jan 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -168,6 +168,7 @@
 /ad/img/*
 /ad/imp?
 /ad/leaderboard.
+/ad/load_ad?
 /ad/player_
 /ad/popup.
 /ad/skin-
@@ -890,7 +891,6 @@
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
-/images/ads_
 /images/adv/*
 /images/adv_
 /images/adz/*
@@ -916,13 +916,8 @@
 /inline_ad_
 /inline_ads.
 /InlineAds.
-/inlineads/*
-/inner-ads-
-/inner-ads/*
-/innerads.
-/insertAd.
-/insertads.
-/internAds.
+/insertads.js
+/internAds.css
 /Javascripts/SBA-
 /jquery-ads.
 /jquery.ad.
@@ -952,19 +947,10 @@
 /layerad-
 /layerad.
 /layerads_
-/layout/ads/*
 /lazy-ads.
-/lazy-ads@
-/lazyad-
-/lazyad.
+/lazyad-loader.js
+/lazyad-loader.min.js
 /lazyload.ads?
-/leader_ad.
-/leaderad.
-/Leaderboard-Ads-
-/leaderboardad.
-/leaderboardads.
-/left-ads.
-/left_ad_
 /left_ads.
 /leftad.
 /leftad_
@@ -975,23 +961,16 @@
 /lijitads.
 /linkad2.
 /linkads.
-/linkadv.
-/linkadv_
-/liveads.
 /livejasmin.$domain=~livejasmin.com
 /livejasmin2.
 /livejasmin_
 /livejasminpopupunder.
-/load_ad?
-/local-ad.
-/localads.$domain=~localads.cab
+/localads.aspx
 /log_ad?
-/logoads.
+/logoads.jpg
+/logoads.png
 /lserver/*
 /mads.php?
-/main/ad/*
-/main_ad/*
-/mainad.$domain=~mainad.ru
 /maven/am.js
 /mbads?
 /mcad.php
@@ -1016,10 +995,9 @@
 /modules/ad_
 /modules/ads/*
 /moneyball/ads/*
-/mpuad.
-/MPUAd/*
+/MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
-/mysimpleads/*
+/mysimpleads/mysa_output.php
 /nad_exo.
 /native-ad-
 /native-ads-
@@ -59873,6 +59851,7 @@ browsershots.org#@#.advert_area
 ||bets.to^$popup
 ||bettingpremier.com/direct/$popup
 ||betzone2000.com^$popup
+||blockadstop.info^$popup
 ||brazzers.com/click/$popup
 ||browsekeeper.com^$popup
 ||canyoublockit.com^$popup,third-party
@@ -67010,6 +66989,7 @@ bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 imgur.com##.Grid-column > div[style^="height:"]:has(.AdHomeContainer)
+imgur.com##.Grid-column > div[style^="height:"]:has(.Post-item-external-ad)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
 haveibeenpwned.com##.actionsBar:has(.why1Password)
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)

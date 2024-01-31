@@ -1,9 +1,9 @@
-! Checksum: XGuJJHrIMNhH/ODo836A7A
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1706648791-14400.patch
+! Checksum: VQQCT+/1kWJFO1p4p92eow
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1706663184-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.19.98
-! TimeUpdated: 2024-01-30T21:01:32+00:00
+! Version: 2.1.19.99
+! TimeUpdated: 2024-01-31T01:01:29+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -144,6 +144,7 @@
 /ad/img/*
 /ad/imp?
 /ad/leaderboard.
+/ad/load_ad?
 /ad/player_
 /ad/popup.
 /ad/skin_
@@ -755,7 +756,6 @@
 /image_ads/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
-/images/ads_
 /images/adv/*
 /images/adv_
 /images2/Ads/*
@@ -779,11 +779,8 @@
 /inline_ad_
 /inline_ads.
 /InlineAds.
-/inner-ads-
-/innerads.
-/insertAd.
-/insertads.
-/internAds.
+/insertads.js
+/internAds.css
 /Javascripts/SBA-
 /jquery-ads.
 /jquery.ad.
@@ -810,18 +807,9 @@
 /layerad-
 /layerad.
 /layerads_
-/layout/ads/*
 /lazy-ads.
-/lazy-ads@
-/lazyad-
-/lazyad.
-/leader_ad.
-/leaderad.
-/Leaderboard-Ads-
-/leaderboardad.
-/leaderboardads.
-/left-ads.
-/left_ad_
+/lazyad-loader.js
+/lazyad-loader.min.js
 /left_ads.
 /leftad.
 /leftad_
@@ -832,23 +820,16 @@
 /lijitads.
 /linkad2.
 /linkads.
-/linkadv.
-/linkadv_
-/liveads.
 /livejasmin.$domain=~livejasmin.com
 /livejasmin2.
 /livejasmin_
 /livejasminpopupunder.
-/load_ad?
-/local-ad.
-/localads.$domain=~localads.cab
+/localads.aspx
 /log_ad?
-/logoads.
+/logoads.jpg
+/logoads.png
 /lserver/*
 /mads.php?
-/main/ad/*
-/main_ad/*
-/mainad.$domain=~mainad.ru
 /mbads?
 /mcad.php
 /media/ads/*
@@ -866,9 +847,9 @@
 /modules/ad/*
 /modules/ad_
 /modules/ads/*
-/mpuad.
-/MPUAd/*
+/MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
+/mysimpleads/mysa_output.php
 /nad_exo.
 /native-ad-
 /native-ads-
@@ -29660,6 +29641,7 @@ browsershots.org#@#.advert_area
 ||dzxr711a4yw31.cloudfront.net^
 ||adserving.unibet.com^$popup
 ||awin1.com/cread.php?s=$popup
+||blockadstop.info^$popup
 ||cute-cursor.com^$popup
 ||daily-guard.net^$popup
 ||global-adblocker.com^$popup
@@ -32675,6 +32657,7 @@ bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 imgur.com##.Grid-column > div[style^="height:"]:has(.AdHomeContainer)
+imgur.com##.Grid-column > div[style^="height:"]:has(.Post-item-external-ad)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
 haveibeenpwned.com##.actionsBar:has(.why1Password)
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
