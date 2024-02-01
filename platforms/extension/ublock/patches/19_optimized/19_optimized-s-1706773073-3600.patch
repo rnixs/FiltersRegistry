@@ -1,0 +1,13 @@
+d2 2
+a3 2
+! Checksum: B33YS7BKOSzU7YB5AouO3g
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706780203-3600.patch
+d6 2
+a7 2
+! Version: 2.0.30.98
+! TimeUpdated: 2024-02-01T09:32:20+00:00
+a105 4
+cbr.com##body > div:not([style],[id]) > style + div[class]
+!+ NOT_OPTIMIZED
+digitalmusicnews.com##body > div#cb-outer-container ~ div:not([class]):not([id])
+!+ NOT_OPTIMIZED

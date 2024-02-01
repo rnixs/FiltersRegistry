@@ -1,9 +1,9 @@
-! Checksum: RWL3yH8LbQkFwrPoVRB02A
-! Diff-Path: ../patches/19/19-s-1706773054-3600.patch
+! Checksum: Q41n6+X3SiXv4v+Rv0X/7Q
+! Diff-Path: ../patches/19/19-s-1706780185-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.97
-! TimeUpdated: 2024-02-01T07:33:18+00:00
+! Version: 2.0.30.98
+! TimeUpdated: 2024-02-01T09:32:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -391,6 +391,9 @@ cbssports.com#%#//scriptlet('set-constant', 'loadAdmiral', 'noopFunc')
 @@||succeedscene.com/*/ads.load.js
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153163
+!+ NOT_OPTIMIZED
+cbr.com##body > div:not([style],[id]) > style + div[class]
+!+ NOT_OPTIMIZED
 digitalmusicnews.com##body > div#cb-outer-container ~ div:not([class]):not([id])
 gamerant.com,koamnewsnow.com,gfinityesports.com,dualshockers.com,insider-gaming.com,pocketnow.com,howtogeek.com,ktvz.com,247sports.com,movieweb.com,givemesport.com,xda-developers.com,collider.com,pocket-lint.com,hotcars.com,topspeed.com,thegamer.com,makeuseof.com,screenrant.com,androidpolice.com,cbr.com,brobible.com#%#//scriptlet('prevent-element-src-loading', 'script', 'ads.load.js')
 !+ NOT_OPTIMIZED
