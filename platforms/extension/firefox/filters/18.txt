@@ -1,9 +1,9 @@
-! Checksum: pFynUOngeBxfqr8zIiJ+5A
-! Diff-Path: ../patches/18/18-s-1706758549-3600.patch
+! Checksum: o8Aw8mtCtL8pBj0g4/VVjg
+! Diff-Path: ../patches/18/18-s-1706762140-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.48
-! TimeUpdated: 2024-02-01T03:31:49+00:00
+! Version: 2.0.32.49
+! TimeUpdated: 2024-02-01T04:31:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3698,7 +3698,7 @@ ozdilek.com.tr##.KVKKcookie_altBar
 store.gaijin.net##.yp-cb.js-cb-policy
 crsed.net##gj-cookie-prompt
 star-conflict.com##aside + .sc-cb
-samokat.ru###modalCookie
+cptm.sp.gov.br,samokat.ru###modalCookie
 oakvillehydro.com##uxlib-cookie-infobar
 docdoc.ru##div[data-testid="cookies-banner"]
 docdoc.ru##div[data-test-id="cookies-banner"]
