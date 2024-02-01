@@ -1,9 +1,9 @@
-! Checksum: ntMhyhINlgUIfsGKgbJC+w
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1706754950-3600.patch
+! Checksum: 2NGFy74qx3wR93qgEQ8Q8w
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706773039-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.96
-! TimeUpdated: 2024-01-31T22:31:53+00:00
+! Version: 2.0.30.97
+! TimeUpdated: 2024-02-01T07:33:18+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -2214,6 +2214,7 @@ thestreet.com,qa.opensooq.com,komandacard.ru#$#.fancybox-overlay-fixed { display
 podnikatel.cz,mesec.cz##.js-push-notifications-modal-dialog--active
 bbc.co.uk#$#div[data-testid="test-overlay"][class*="-Overlay"] { display: none !important; }
 croxy.org,croxyproxy.net,croxyproxy.com###infoBarContainer
+sanctum.shop,zeerawireless.com###shopify-section-popups
 mexc.com#$#.ant-modal-root { display: none !important; }
 mexc.com#$#body { overflow: auto !important; }
 gsmturkey.net##.js-bottomFixTarget

@@ -1,9 +1,9 @@
-! Checksum: vXtuBnBLv91lC2TMbkwfMw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1706754992-3600.patch
+! Checksum: 8h+6GMBjuBw4XcDaXFXvzg
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706773099-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.96
-! TimeUpdated: 2024-01-31T22:31:53+00:00
+! Version: 2.0.30.97
+! TimeUpdated: 2024-02-01T07:33:18+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -2613,6 +2613,7 @@ podnikatel.cz,mesec.cz##.js-push-notifications-modal-dialog--active
 bbc.co.uk#$#div[data-testid="test-overlay"][class*="-Overlay"] { display: none !important; }
 bbc.co.uk#%#//scriptlet('prevent-addEventListener', 'scroll', 'documentElement.scrollTop')
 croxy.org,croxyproxy.net,croxyproxy.com###infoBarContainer
+sanctum.shop,zeerawireless.com###shopify-section-popups
 mexc.com#$#.ant-modal-root { display: none !important; }
 mexc.com#$#body { overflow: auto !important; }
 empire-streaming.co#%#//scriptlet('set-local-storage-item', 'msgads', 'true')
