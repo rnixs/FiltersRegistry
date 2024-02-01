@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: QCVpUFoRhWXVvIIUxr7BiQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706780205-3600.patch
+! Checksum: 3WhacZarWeGWTUhpxJDJVg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706783769-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.20.29
-! TimeUpdated: 2024-02-01T09:33:06+00:00
+! Version: 2.3.20.30
+! TimeUpdated: 2024-02-01T10:32:38+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -32732,6 +32732,8 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+ispreview.co.uk##div[style^="clear:both;border-radius:8px;"]
+ispreview.co.uk###nright_nav > div > div[style]:has(> div.ntop_box > div > div[align="center"] > div.vm-placement)
 ||ytlarge.com/youtube/*728-90.
 houstonchronicle.com##.package:has(> div > div[data-block-type="ad"])
 houstonchronicle.com##div[class^="ad-module"]

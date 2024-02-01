@@ -1,9 +1,9 @@
-! Checksum: JbMsePe/zZMJUHYI01679w
-! Diff-Path: ../patches/11/11-s-1706776546-3600.patch
+! Checksum: 8UD3dnNY8t0FO7q2HkZVAw
+! Diff-Path: ../patches/11/11-s-1706783742-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.83
-! TimeUpdated: 2024-02-01T08:31:33+00:00
+! Version: 2.0.48.84
+! TimeUpdated: 2024-02-01T10:31:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2312,6 +2312,7 @@ chip.de,gamesworld.de,fnn.jp##.Ad
 !
 ! SECTION: Regular rules
 !
+ispreview.co.uk###mobilebanner
 fxstreet.com##.fxs_stickyAd-mobile
 pronewsua.com##.ads-into-news
 pronewsua.com##.lna-full-news__ads-block
