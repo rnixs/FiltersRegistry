@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BBUVuYMISMtUgeOB7YvBow
-! Diff-Path: ../patches/11/11-s-1706783765-3600.patch
+! Checksum: dK15iBKpqNo+sMRmCl/nRQ
+! Diff-Path: ../patches/11/11-s-1706798183-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.84
-! TimeUpdated: 2024-02-01T10:31:24+00:00
+! Version: 2.0.48.85
+! TimeUpdated: 2024-02-01T14:31:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1764,6 +1764,7 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158370
 ! https://play.google.com/store/apps/details?id=fm.tokfm.android
 ! Fixes radio
+! https://play.google.com/store/apps/details?id=pl.tvp.info
 ! https://play.google.com/store/apps/details?id=pl.tvp.stream
 ! https://play.google.com/store/apps/details?id=com.tvp.vodtv.mobile
 ! Fixes video player

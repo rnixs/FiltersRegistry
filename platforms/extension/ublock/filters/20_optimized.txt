@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BpknJz+a59WQ6z/nSluGqA
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1706791149-3600.patch
+! Checksum: BDPu/++7cqHRQb7Be4c3vA
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1706798186-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.19
-! TimeUpdated: 2024-02-01T12:32:22+00:00
+! Version: 2.0.12.20
+! TimeUpdated: 2024-02-01T14:32:15+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ##amp-app-banner
@@ -1365,7 +1365,7 @@ mdpr.jp##.p-articleComment__buttonArea
 !+ NOT_OPTIMIZED
 mdpr.jp###app-header-banner
 !+ NOT_OPTIMIZED
-~turkiye.gov.tr,~trtworld.com,~m.thehipstore.co.uk,~teb.com.tr###smartbanner.android
+~turkiye.gov.tr,~trtworld.com,~m.thehipstore.co.uk,~teb.com.tr##body #smartbanner.android
 !+ NOT_OPTIMIZED
 togetter.com##.app_download_footer
 !+ NOT_OPTIMIZED

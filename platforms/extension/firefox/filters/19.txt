@@ -1,9 +1,9 @@
-! Checksum: g1VhfbvqaMDrpnalPONUWQ
-! Diff-Path: ../patches/19/19-s-1706791126-3600.patch
+! Checksum: yrZE0atZnWrdEfpE2eYrGA
+! Diff-Path: ../patches/19/19-s-1706798167-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.99
-! TimeUpdated: 2024-02-01T12:32:11+00:00
+! Version: 2.0.31.0
+! TimeUpdated: 2024-02-01T14:32:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4217,6 +4217,8 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+banggood.com##.modal-newbie
+banggood.com##.suspended-banner-wrap
 krotoski.com###elementor-popup-modal-64876
 tiktok.com#%#//scriptlet('trusted-click-element', 'div[data-focus-lock-disabled] div#loginContainer > div[class*="DivLoginContainer"] > div[class*="DivHomeContainer"] > div[class*="DivGuestModeContainer"] div[tabindex][role="link"]')
 blog.openreplay.com##astro-island[uid="1se2Xg"]

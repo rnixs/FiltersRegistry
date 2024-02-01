@@ -1,9 +1,9 @@
-! Checksum: xF+aZ2m4Mwfhp6uNK9/Ddg
-! Diff-Path: ../patches/21/21-s-1706791104-3600.patch
+! Checksum: ZdxM5uu2MeocmW1DtxxD0Q
+! Diff-Path: ../patches/21/21-s-1706798151-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.27
-! TimeUpdated: 2024-02-01T12:32:23+00:00
+! Version: 2.0.19.28
+! TimeUpdated: 2024-02-01T14:32:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4536,6 +4536,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+banggood.com##.top-item
 2gis.*##div[class^="_im"]
 ficbook.net##section.fanfic-promo-carousel
 mlbtraderumors.com###tr-rotate-ads
@@ -7127,7 +7128,6 @@ apkadmin.com#$##countdown { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103846
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103846
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88701
-! https://github.com/AdguardTeam/AdguardFilters/issues/88546
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88658
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88324
 ! lenta.ru and motor.ru - disable autolay
