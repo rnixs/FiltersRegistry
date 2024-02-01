@@ -1,9 +1,9 @@
-! Checksum: ui+qtAanrI+gBJSaUYjmqw
-! Diff-Path: ../patches/3/3-s-1706791105-3600.patch
+! Checksum: JGdZNMj7TShQQs28m3oz3A
+! Diff-Path: ../patches/3/3-s-1706794685-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.66.30
-! TimeUpdated: 2024-02-01T12:35:13+00:00
+! Version: 2.0.66.31
+! TimeUpdated: 2024-02-01T13:35:14+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4123,6 +4123,8 @@ adseek.site#$##primary { display: block !important; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||d3nn82uaxijpm6.cloudfront.net^
+||hkrpg-log-upload.mihoyo.com^
 ||reporting-api.gannettinnovation.com^
 ||applog.ssgdfs.com^
 ||dadispapi.gmarket.co.kr^
