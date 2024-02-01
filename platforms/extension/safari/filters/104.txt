@@ -1,9 +1,9 @@
-! Checksum: ByaZyEN6jIbTwYf9PF+JqA
-! Diff-Path: ../patches/104/104-s-1706763977-14400.patch
+! Checksum: leHVXjp7cy3uGwi2FeuUZg
+! Diff-Path: ../patches/104/104-s-1706792974-14400.patch
 ! Title: EasyList China
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.34.56
-! TimeUpdated: 2024-02-01T05:01:31+00:00
+! Version: 2.1.34.57
+! TimeUpdated: 2024-02-01T13:02:14+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: EasyList China
@@ -10843,6 +10843,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+storytrain.info##.responsive_ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -16423,6 +16424,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 !---------------------------------URL Whitelist-------------------------------!
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=line.me
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
