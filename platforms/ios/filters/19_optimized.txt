@@ -1,9 +1,9 @@
-! Checksum: u5OlcAO+JfJP1NZaGhe8cA
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1706798192-3600.patch
+! Checksum: DjuN4sVdY8Ne4BWpjTqa/Q
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706805376-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.0
-! TimeUpdated: 2024-02-01T14:32:04+00:00
+! Version: 2.0.31.1
+! TimeUpdated: 2024-02-01T16:32:01+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1804,6 +1804,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+play-life.jp##.slick-slider > div.slick-list
 banggood.com##.modal-newbie
 banggood.com##.suspended-banner-wrap
 krotoski.com###elementor-popup-modal-64876

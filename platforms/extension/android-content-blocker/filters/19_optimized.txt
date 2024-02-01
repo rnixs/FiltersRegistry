@@ -1,9 +1,9 @@
-! Checksum: fi9WCdn0Ul9ylq1qB72Vbw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1706798150-3600.patch
+! Checksum: lFIe1UJRXYr+3VpMYMccqA
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706805343-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.0
-! TimeUpdated: 2024-02-01T14:32:04+00:00
+! Version: 2.0.31.1
+! TimeUpdated: 2024-02-01T16:32:01+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -1386,6 +1386,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+play-life.jp##.slick-slider > div.slick-list
 banggood.com##.modal-newbie
 banggood.com##.suspended-banner-wrap
 krotoski.com###elementor-popup-modal-64876

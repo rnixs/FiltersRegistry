@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qOHKrbc06fYgOG+1G4Q8vw
-! Diff-Path: ../patches/21/21-s-1706801787-3600.patch
+! Checksum: F9oWhjIVo+uxBUb7oR3GHA
+! Diff-Path: ../patches/21/21-s-1706805372-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.29
-! TimeUpdated: 2024-02-01T15:32:18+00:00
+! Version: 2.0.19.30
+! TimeUpdated: 2024-02-01T16:32:13+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -96,6 +96,10 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171978
+marketing-interactive.com##a.full-skin-image__desktop-banner
+marketing-interactive.com##div[class] > a[href^="https://awards.marketing-interactive.com"]:upward(1)
+marketing-interactive.com##a.full-skin-image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171596
 microsoft.com##section[aria-label="download center details page banner - Internet Explorer"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171690

@@ -1,9 +1,9 @@
-! Checksum: KmtZ5XmPERdQJNKZQj4now
-! Diff-Path: ../patches/19/19-s-1706798150-3600.patch
+! Checksum: ko8WrbK8yJtnh3s6dZadXA
+! Diff-Path: ../patches/19/19-s-1706805343-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.0
-! TimeUpdated: 2024-02-01T14:32:04+00:00
+! Version: 2.0.31.1
+! TimeUpdated: 2024-02-01T16:32:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3915,6 +3915,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+play-life.jp##.slick-slider > div.slick-list
 banggood.com##.modal-newbie
 banggood.com##.suspended-banner-wrap
 krotoski.com###elementor-popup-modal-64876

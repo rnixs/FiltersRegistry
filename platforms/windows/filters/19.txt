@@ -1,9 +1,9 @@
-! Checksum: JnhUaiC8HrQxbcyZWR+kKg
-! Diff-Path: ../patches/19/19-s-1706798209-3600.patch
+! Checksum: 4YDYQhi6o/XpUHv6klxk1g
+! Diff-Path: ../patches/19/19-s-1706805390-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.0
-! TimeUpdated: 2024-02-01T14:32:04+00:00
+! Version: 2.0.31.1
+! TimeUpdated: 2024-02-01T16:32:01+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4210,6 +4210,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+play-life.jp##.slick-slider > div.slick-list
 banggood.com##.modal-newbie
 banggood.com##.suspended-banner-wrap
 krotoski.com###elementor-popup-modal-64876
