@@ -1,9 +1,9 @@
-! Checksum: KvqZIWjhziy2TIFq+rlQvw
-! Diff-Path: ../patches/9_optimized/9_optimized-s-1706780232-3600.patch
+! Checksum: IOHYI3+zzIG/gWvcYoqV9Q
+! Diff-Path: ../patches/9_optimized/9_optimized-s-1706787548-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.10
-! TimeUpdated: 2024-02-01T09:33:43+00:00
+! Version: 2.0.23.11
+! TimeUpdated: 2024-02-01T11:35:32+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};

@@ -1,9 +1,9 @@
-! Checksum: OxSEs07JM1f3JOuV0+146g
-! Diff-Path: ../patches/18/18-s-1706783777-3600.patch
+! Checksum: iC6E4KHuy9EP1wuE+UC2wQ
+! Diff-Path: ../patches/18/18-s-1706787530-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.52
-! TimeUpdated: 2024-02-01T10:31:52+00:00
+! Version: 2.0.32.53
+! TimeUpdated: 2024-02-01T11:34:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2357,6 +2357,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+2gis.*###root > div[dir="ltr"] > div[class] > div[class] > footer:has(a[href^="https://law.2gis."])
 codeinterview.io##.cookie_header
 ||gdpr-api.sharethis.com^
 travel.budgetdirect.com.au##.mask-cc-center_isolated-bg

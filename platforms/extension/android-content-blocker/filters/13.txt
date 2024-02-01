@@ -1,9 +1,9 @@
-! Checksum: AiM58X6CR/JZaK1IGT5rKw
-! Diff-Path: ../patches/13/13-s-1706776543-3600.patch
+! Checksum: 1H++mysIGWjFSNjXZ9vtzQ
+! Diff-Path: ../patches/13/13-s-1706787479-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.49.79
-! TimeUpdated: 2024-02-01T08:31:36+00:00
+! Version: 2.0.49.80
+! TimeUpdated: 2024-02-01T11:31:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1843,7 +1843,7 @@ fullhdfilm.pro###pageskin_ayd
 fullhdfilm.pro##div[class^="r_reklam"]
 bursahaber.com##.floatbanner
 oyundunyasi.net###block-13
-filmmakinesi.net##.ps-head-container
+filmmakinesi.*##.ps-head-container
 ||tranimeizle.co/js/popunder*.js
 ||memurlar.net/common/widget-image^
 memurlar.net###sticky-masthead
