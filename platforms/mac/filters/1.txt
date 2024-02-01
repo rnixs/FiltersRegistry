@@ -1,9 +1,9 @@
-! Checksum: juS8quRi6/BXSzKCVKd8PQ
-! Diff-Path: ../patches/1/1-s-1706729758-3600.patch
+! Checksum: Eq5wsGBObXNty9Jjp6TxqQ
+! Diff-Path: ../patches/1/1-s-1706776571-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.24
-! TimeUpdated: 2024-01-31T19:32:13+00:00
+! Version: 2.0.88.25
+! TimeUpdated: 2024-02-01T08:32:13+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18488,8 +18488,6 @@ rambler.ru##div[class$="mixednews-item_partner"]
 !
 horoscopes.rambler.ru##div[style="min-height: 400px;"]
 horoscopes.rambler.ru##div:has(> div > div > div[id^="hedux-"])
-!
-auto.rambler.ru,finance.rambler.ru,woman.rambler.ru##div:has(> div > div > div[id^="adfox-"])
 !
 woman.rambler.ru##.swiper-wrapper > div.j-gallery__banner
 woman.rambler.ru##.article__read-also

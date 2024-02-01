@@ -1,9 +1,9 @@
-! Checksum: 5EeKM887ChvqdzfKG9mAWg
-! Diff-Path: ../patches/11_optimized/11_optimized-s-1706719010-3600.patch
+! Checksum: ZAWO6zKSP/b2s7Ni3W09+Q
+! Diff-Path: ../patches/11_optimized/11_optimized-s-1706776540-3600.patch
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.82
-! TimeUpdated: 2024-01-31T16:31:57+00:00
+! Version: 2.0.48.83
+! TimeUpdated: 2024-02-01T08:31:33+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1288,6 +1288,8 @@ businessinsider.in$$div[class="amazon_ad"]
 cnet.com$$div[class="amp-ad"]
 businessinsider.in$$div[class="fc_clmb_ad"]
 $$amp-ad
+www-livemint-com.cdn.ampproject.org,livemint.com$$div[class="adHolder"]
+www-livemint-com.cdn.ampproject.org,livemint.com$$div[class="fixadheightbottom"]
 timesnownews.com$$div[id="flyCarpet"]
 timesnownews.com$$div[id="taboolaAds"]
 timesnownews.com,zoomtventertainment.com$$div[class="adv-blocker"]
