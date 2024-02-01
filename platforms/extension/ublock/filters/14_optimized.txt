@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 10WD+aJpjU3Rvdyiu46azg
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1706754974-3600.patch
+! Checksum: sDsY4fyg4DcBaHj1zjwRAg
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1706758562-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.86.27
-! TimeUpdated: 2024-01-31T22:31:40+00:00
+! Version: 2.1.86.28
+! TimeUpdated: 2024-02-01T03:31:39+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1831,7 +1831,7 @@ mediasphera.ru###cknt
 alibaba.com###GDPR-cookies-notice
 tddomovoy.ru##.block_mess_cookies
 crispedge.com##.load-accept-cookies
-infoprice.by,rtl.hr,24ur.com,dozapteka.pl,u24.gov.ua,calltouch.ru,vlab.cz##.cookies
+portalnovosti.com,infoprice.by,rtl.hr,24ur.com,dozapteka.pl,u24.gov.ua,calltouch.ru,vlab.cz##.cookies
 ||cmp.lemonde.fr/js/lemonde.min.js$domain=journal.lemonde.fr
 appnee.com###notification-6413
 dizilah.com###cookie__bar
