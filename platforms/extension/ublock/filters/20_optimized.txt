@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: FqrYIdwM8OX3V/nMX5cIRA
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1706780204-3600.patch
+! Checksum: BpknJz+a59WQ6z/nSluGqA
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1706791149-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.18
-! TimeUpdated: 2024-02-01T09:32:31+00:00
+! Version: 2.0.12.19
+! TimeUpdated: 2024-02-01T12:32:22+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ##amp-app-banner
@@ -1183,7 +1183,6 @@ avito.ru##.common-banner
 sina.cn##.fl_qr
 ||static.fastpic.ru/android.png
 radarbox.com,compendium.com.ua,maximonline.ru##.apps
-sahibinden.com##.download-app-banner
 superfb.com##a[href="http://www.superfb.com/mobil"]
 ||superfb.com/_img/banner/sfb*.png
 ||superfb.com/_img/mobil_imaj.png

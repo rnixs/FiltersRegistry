@@ -1,9 +1,9 @@
-! Checksum: yuvfJ32IEWXjiSs0kF3kFQ
-! Diff-Path: ../patches/19/19-s-1706780170-3600.patch
+! Checksum: pCt6n6QjYjr8tRdqtPZGIQ
+! Diff-Path: ../patches/19/19-s-1706791102-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.30.98
-! TimeUpdated: 2024-02-01T09:32:20+00:00
+! Version: 2.0.30.99
+! TimeUpdated: 2024-02-01T12:32:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3202,7 +3202,6 @@ wvgazettemail.com,ceogelisim.com#@#.adSense
 @@||uderent.com/js/prebid-ads.js
 @@||uploadfiles.io/adsbygoogle.js
 @@||utopia.de/advertisement.js
-@@||valueresearchonline.com/ads.js
 @@||vasilisc.com/js/ad_img.js
 @@||video.komarovskiy.net^$generichide
 @@||viggle.tv/ads.js

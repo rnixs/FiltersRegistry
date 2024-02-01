@@ -1,9 +1,9 @@
-! Checksum: ZZHGDB1CGoMeDxTJcBa4kA
-! Diff-Path: ../patches/23_optimized/23_optimized-s-1706787546-3600.patch
+! Checksum: 3EIQTyhTn3Mg2//Z0gEMig
+! Diff-Path: ../patches/23_optimized/23_optimized-s-1706791178-3600.patch
 ! Title: AdGuard Ukrainian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Ukrainian language.
-! Version: 2.0.3.82
-! TimeUpdated: 2024-02-01T11:34:32+00:00
+! Version: 2.0.3.83
+! TimeUpdated: 2024-02-01T12:34:43+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1308,6 +1308,8 @@ ucoz.ru/informer/
 ##noindex > div[onmouseout]
 ##noindex > nofollow > table[onmouseout^="this.bgColor"]
 ##td[id^="advtd"]
+||ippstuet.com^
+||aigenstud.com^
 ||vst.videolink.site^
 ||ippscriptbear.com^
 ||roomrentpast.com^

@@ -1,9 +1,9 @@
-! Checksum: ClGnW06HOZYe7zJGSWkMuA
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1706632617-3600.patch
+! Checksum: 1CDyp0Jddwwen+Lw/YGUdA
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1706791161-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.92
-! TimeUpdated: 2024-01-30T16:32:10+00:00
+! Version: 2.0.7.93
+! TimeUpdated: 2024-02-01T12:32:06+00:00
 ! Expires: 5 days (update frequency)
 $removeparam=cjdata
 $removeparam=cjevent
@@ -295,7 +295,6 @@ $removeparam=fb_source
 ||incogni.com^$removeparam=affiliate_id
 ||incogni.com^$removeparam=aff_sub
 ||incogni.com^$removeparam=source
-||coolapk.com^$removeparam=shareKey
 ||coolapk.com^$removeparam=shareUid
 ||coolapk.com^$removeparam=shareFrom
 ||sportbank.ua^$removeparam=ref
