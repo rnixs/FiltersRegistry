@@ -1,9 +1,9 @@
-! Checksum: yBACScE5OkWS/N3Zr24xWg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1706898995-3600.patch
+! Checksum: v33Dy9dSlgOiKjTxedBTcg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1706902700-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.20.54
-! TimeUpdated: 2024-02-02T18:32:40+00:00
+! Version: 2.3.20.55
+! TimeUpdated: 2024-02-02T19:34:52+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
