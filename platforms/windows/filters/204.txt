@@ -1,9 +1,9 @@
-! Checksum: yOFGE9yg+G+c9+7E4+pZqQ
-! Diff-Path: ../patches/204/204-s-1706807220-14400.patch
+! Checksum: hWQJsCnZYBJOCA2CXUy7UA
+! Diff-Path: ../patches/204/204-s-1706879376-14400.patch
 ! Title: Peter Lowe's Blocklist
 ! Description: Filter that blocks ads, trackers, and other nasty things.
-! Version: 2.0.13.91
-! TimeUpdated: 2024-02-01T17:02:05+00:00
+! Version: 2.0.13.92
+! TimeUpdated: 2024-02-02T13:02:08+00:00
 ! Expires: 12 hours (update frequency)
 !
 !Blocklist for use with Adblock Plus. Use the following URL to add
@@ -16,9 +16,9 @@
 !Last modified: Wed, 24 Jan 2024 10:03:07 GMT
 !Homepage:      https://pgl.yoyo.org/adservers/
 !Format:        adblockplus
-!Entries:       3786
+!Entries:       3784
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
-!This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext&title=list
+!This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
 !Other formats: https://pgl.yoyo.org/adservers/formats.php
 !
@@ -26,6 +26,7 @@
 ||101com.com^
 ||101order.com^
 ||180hits.de^
+||180searchassistant.com^
 ||1link2020.com^
 ||1rx.io^
 ||207.net^
@@ -1104,12 +1105,10 @@
 ||banner.nixnet.cz^
 ||banner.noblepoker.com^
 ||banner.northsky.com^
-||banner.penguin.cz^
 ||banner.rbc.ru^
 ||banner.reinstil.de^
 ||banner.tanto.de^
 ||banner.titan-dsl.de^
-||banner.webmersion.com^
 ||banner10.zetasystem.dk^
 ||bannerads.de^
 ||bannerboxes.com^
@@ -1618,7 +1617,6 @@
 ||digital-ads.s3.amazonaws.com^
 ||digitalmerkat.com^
 ||direct-events-collector.spot.im^
-||direct-xxx-access.com^
 ||directaclick.com^
 ||directleads.com^
 ||directorym.com^
@@ -1690,6 +1688,7 @@
 ||eiv.baidu.com^
 ||ejyymghi.com^
 ||elasticchange.com^
+||elasticducks.com^
 ||elderlyscissors.com^
 ||elderlytown.com^
 ||elephantqueue.com^
@@ -2975,7 +2974,6 @@
 ||rtb.gumgum.com^
 ||rtbadzesto.com^
 ||rtbflairads.com^
-||rtbidhost.com^
 ||rtbplatform.net^
 ||rtbpop.com^
 ||rtbpopd.com^
@@ -3375,6 +3373,7 @@
 ||terriblethumb.com^
 ||text-link-ads.com^
 ||textad.sexsearch.com^
+||textads.biz^
 ||textlinks.com^
 ||tfag.de^
 ||the-ozone-project.com^
@@ -3478,7 +3477,6 @@
 ||tracking.42-01pr5-osm-secure.co.uk^
 ||tracking.5-47737-bi.co.uk^
 ||tracking.epicgames.com^
-||tracking.exipure.com^
 ||tracking.hyros.com^
 ||tracking.ibxlink.com^
 ||tracking.intentsify.io^
