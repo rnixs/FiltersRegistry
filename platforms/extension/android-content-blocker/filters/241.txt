@@ -1,14 +1,14 @@
-! Checksum: NJl6pFKotIc4Qo3uMMYzFA
-! Diff-Path: ../patches/241/241-s-1706837153-14400.patch
+! Checksum: JQbunMVfM3rboiblDkHopw
+! Diff-Path: ../patches/241/241-s-1706865034-14400.patch
 ! Title: EasyList Cookie List
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.39
-! TimeUpdated: 2024-02-02T01:07:15+00:00
+! Version: 2.1.28.40
+! TimeUpdated: 2024-02-02T09:05:00+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 8bqxAsxJ2EPv8fDg5iT1gw
+! Checksum: XdCJNOO9vqRDpNF38p3E+g
 ! Title: Easylist Cookie List
-! Updated: 2024-02-02 00:40 UTC
+! Updated: 2024-02-02 08:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -7889,6 +7889,7 @@
 ###pfCookieNotice
 ###pfizer_cookies_policy
 ###pfwCookiePreferences
+###pg-cookie-notice
 ###pg-cookiesInfo
 ###pg-gdpr
 ###pgdg-gdpr
@@ -23163,6 +23164,9 @@ kissnofrog.com#$#html { position: static !important; overflow: auto !important; 
 ! 21vek.by
 21vek.by###modal-cookie
 21vek.by#$#body,html { position: static !important; overflow: auto !important; width: auto !important; }
+! event.educathai.com
+event.educathai.com##.cookie-modal-dialog
+event.educathai.com#$#body,html { position: static !important; overflow: auto !important; width: auto !important; }
 ! toujeo.com
 toujeo.com###modal-cookie-modal
 toujeo.com##.backdrop-filter

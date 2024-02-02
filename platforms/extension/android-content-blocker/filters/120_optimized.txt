@@ -1,9 +1,9 @@
-! Checksum: phLS1+iWl6tgvdGcoJvksg
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1706821584-14400.patch
+! Checksum: 3KPkd/5VcBLTuZ2EF/uHtQ
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1706865033-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.73
-! TimeUpdated: 2024-02-01T21:02:07+00:00
+! Version: 2.0.18.74
+! TimeUpdated: 2024-02-02T09:01:53+00:00
 ! Expires: 5 days (update frequency)
 .id^*/ads_$domain=~cartalog.id
 .id^*/adv-$domain=~adv.kompas.id
@@ -2839,6 +2839,7 @@ suara.com##.parallax_swipe
 uzone.id##.text-scroll
 katadata.co.id,tempo.co##amp-fx-flying-carpet
 #@#[id^="google_ads_iframe"]
+lumpiastudio.com##[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
 /antiblockersjoss.$image
 @@-cpm-ads.$domain=moenesia.com
 ||bloggerku.com/antiadblock/$script

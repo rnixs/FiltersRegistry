@@ -1,9 +1,9 @@
-! Checksum: lYOu7HN7Nzoj+UNTMKZtRg
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1706821587-14400.patch
+! Checksum: Cc0EZtmege0/X/NQW5p5ew
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1706865035-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.13.20
-! TimeUpdated: 2024-02-01T21:03:19+00:00
+! Version: 2.0.13.21
+! TimeUpdated: 2024-02-02T09:05:17+00:00
 ! Expires: 5 days (update frequency)
 ###smart-banner
 ###smartbanner
@@ -78,6 +78,7 @@ no#$#html.smartbanner-show[data-paywall] { margin-top: 0 !important }
 ||gdn^$document,domain=~cst.gdn|~pss.gdn
 ||bid^$document
 ||ooo^$document,domain=~toast.ooo
+@@://oo*.ooo/$document
 ||sbs^$document,domain=~ecopulse.sbs
 ||cfd^$document,domain=~frcoal.cfd|~freedium.cfd
 .life/*/?*=*&*=*&*=*&*=*&*=$document
@@ -429,6 +430,7 @@ www.microsoft.com##a[data-pfns][data-pfns^="9"][data-pfns*="games."]
 ~linkedin.com##li[data-share=linkedin]
 ~mail.ru##a[href^="https://connect.mail.ru/share?url="]
 ~mewe.com##div[class*=share-link]
+~ne.jp##a[href*="b.hatena.ne.jp/add?url="]
 ~ne.jp##iframe[class^=hatena-bookmark]
 ~ok.ru##a[href*="/connect.ok.ru/dk?"]
 ~ok.ru##a[href^="https://connect.ok.ru/offer?url="]
