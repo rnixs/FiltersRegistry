@@ -1,9 +1,9 @@
-! Checksum: q/ogm6ZQtSGToBvz3bE6Rw
-! Diff-Path: ../patches/21/21-s-1706859460-3600.patch
+! Checksum: twnpoxtdwf7JkK5iiTH12Q
+! Diff-Path: ../patches/21/21-s-1706862937-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.31
-! TimeUpdated: 2024-02-02T07:32:06+00:00
+! Version: 2.0.19.32
+! TimeUpdated: 2024-02-02T08:32:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5009,6 +5009,10 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+investorgain.com#$#.welcome-bar { display: none !important; }
+investorgain.com#%#//scriptlet('remove-class', 'welcome-body', 'body')
+investorgain.com##.position-fixed.bottom-0
+investorgain.com###right > div.sticky-xl-top
 12ft.io###ad
 banggood.com##.top-item
 2gis.*##div[class^="_im"]

@@ -1,0 +1,13 @@
+d2 2
+a3 2
+! Checksum: jiL9B6uglt+BUG1bKCEy5Q
+! Diff-Path: ../patches/3/3-s-1706862978-3600.patch
+d6 2
+a7 2
+! Version: 2.0.66.34
+! TimeUpdated: 2024-02-02T08:32:48+00:00
+a488 1
+||trandgid.com^
+a88776 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/171994
+@@||cdn.*.exponea.com/production*/consent?$subdocument,domain=proffsmagasinet.se|staypro.*

@@ -1,9 +1,9 @@
-! Checksum: ZSFNT8DdKDEyu7RlWbHCxQ
-! Diff-Path: ../patches/3/3-s-1706816159-3600.patch
+! Checksum: hfHtCPnEhBYuIJkpo6p6tg
+! Diff-Path: ../patches/3/3-s-1706862985-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.66.33
-! TimeUpdated: 2024-02-01T19:32:51+00:00
+! Version: 2.0.66.34
+! TimeUpdated: 2024-02-02T08:32:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -539,6 +539,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !
 !
 !
+||trandgid.com^
 ||efreecode.com^$third-party
 ||trackerscript.sqreemtech.com^$third-party
 ||infinity-tracking.com^$third-party
@@ -40185,6 +40186,8 @@ inapps.appsflyersdk.com^
 !@@||mc.yandex.ru/metrika/watch.js$domain=
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171994
+@@||cdn.*.exponea.com/production*/consent?$subdocument,domain=proffsmagasinet.se|staypro.*
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171972
 @@||porntrex.com/*/?mode=async&action=js_stats&rand=$image,domain=porntrex.com
 ! tipranks.com - broken page

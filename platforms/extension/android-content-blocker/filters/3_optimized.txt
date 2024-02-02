@@ -1,9 +1,9 @@
-! Checksum: 658nC+hHCtlvU1vs7WvPYw
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1706816139-3600.patch
+! Checksum: 5PqDWXLyzeju0zs+X/gcRQ
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1706862944-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.66.33
-! TimeUpdated: 2024-02-01T19:32:51+00:00
+! Version: 2.0.66.34
+! TimeUpdated: 2024-02-02T08:32:48+00:00
 ! Expires: 5 days (update frequency)
 itmedia.co.jp#$##ulCommentWidget[style*="display"] { display: block !important; }
 ://*.*$document,permissions=join-ad-interest-group=()\,run-ad-auction=()\,browsing-topics=()
@@ -37,6 +37,7 @@ adseek.site#$##primary { display: block !important; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||trandgid.com^
 ||efreecode.com^$third-party
 ||trackerscript.sqreemtech.com^$third-party
 ||infinity-tracking.com^$third-party
@@ -58342,6 +58343,7 @@ inapps.appsflyersdk.com^
 !#################
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=7flowers.ru
+@@||cdn.*.exponea.com/production*/consent?$subdocument,domain=proffsmagasinet.se|staypro.*
 @@||porntrex.com/*/?mode=async&action=js_stats&rand=$image,domain=porntrex.com
 @@||cdn.taboola.com/libtrc/tipranks-tipranks/loader.js$domain=tipranks.com
 @@||cxense.com^$domain=thelocal.fr
