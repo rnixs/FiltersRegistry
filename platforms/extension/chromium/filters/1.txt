@@ -1,9 +1,9 @@
-! Checksum: M10BX55c8vMH4iWGtXV6Iw
-! Diff-Path: ../patches/1/1-s-1706862945-3600.patch
+! Checksum: jU27IGxa0cqI60C5s6HrKA
+! Diff-Path: ../patches/1/1-s-1706870152-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.31
-! TimeUpdated: 2024-02-02T08:32:07+00:00
+! Version: 2.0.88.32
+! TimeUpdated: 2024-02-02T10:32:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4404,6 +4404,8 @@ modsforwot.ru,helpsetup.ru,vargr.ru,trialkeys.ru#%#//scriptlet("abort-on-propert
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171998
+tragtorr.in#%#//scriptlet('trusted-replace-node-text', 'script', 'adBlockFunction', '/if\(style == \'none\' \|\| control_block\.length == 0\)/', 'if(!style)')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170949
 @@||textovod.com/images/728x90.png
 @@||textovod.com/images/ads.png
@@ -4411,8 +4413,6 @@ modsforwot.ru,helpsetup.ru,vargr.ru,trialkeys.ru#%#//scriptlet("abort-on-propert
 torlook.in#%#//scriptlet("set-constant", "adBlockFunction", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168249
 positiverecords.ru#%#//scriptlet("abort-current-inline-script", "$", "Adblock")
-! https://github.com/AdguardTeam/AdguardFilters/issues/167379
-tragtorr.in#@#div[id^="yandex_rtb"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167304
 ||tests24.su^$cookie=/^ai/
 ! pikabu.ru
