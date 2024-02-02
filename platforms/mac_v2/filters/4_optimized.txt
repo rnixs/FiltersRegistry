@@ -1,9 +1,9 @@
-! Checksum: I14woMdankA2IWm2g5KFaw
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1706866605-3600.patch
+! Checksum: UK38BD0KfyrLSi0LbP6ecA
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1706881206-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.2
-! TimeUpdated: 2024-02-02T09:33:04+00:00
+! Version: 2.0.97.3
+! TimeUpdated: 2024-02-02T13:33:54+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -393,7 +393,6 @@ news.ubisoft.com##.social__title
 lahelu.com##button:has(> svg > path[d^="M5.5 15a3.51"])
 femina.fr##.SocialBlock--inArticle
 ivi.ru##.userControls__item_share
-gata21.jp##.director-social-btn
 caminteresse.fr##.articleSocials
 navita.co.jp##.c-sns-share__outer
 sovsport.ru##[class^="news-by-id_header"] > div:has(div[class^="share-"])
@@ -1941,7 +1940,7 @@ videosection.com##.player-detail__controls-item > .icon-share + noindex
 sportsmole.co.uk##.share320
 sportsmole.co.uk##.twitter_line
 keyakizaka46matomemory.net##.article-footer ~ div[style]
-keyakizaka46matomemory.net##.director-social-btn
+toyamadays.com,gata21.jp,keyakizaka46matomemory.net##.director-social-btn
 primamedia.ru##.comment-box
 newsler.ru##.media-repost-count
 newsler.ru##.news-pos div.repost
@@ -7537,7 +7536,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ~dailymail.co.uk##.shareComment
 ~soundcloud.com##.shareContent
 ##.shareLinks
-##.shareThis
+##body .shareThis
 ##.shareWrapper
 ##.share__button
 ##.share__buttons
