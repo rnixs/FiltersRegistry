@@ -1,9 +1,9 @@
-! Checksum: Xej+oVqEDj7iQKIrR5uZtA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1706909741-3600.patch
+! Checksum: kHIvWbUxEHt2rqen4TWhVQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1706913387-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.20.56
-! TimeUpdated: 2024-02-02T21:32:39+00:00
+! Version: 2.3.20.57
+! TimeUpdated: 2024-02-02T22:33:25+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -20534,6 +20534,7 @@ browsershots.org#@#.advert_area
 ||ak-tracker.com^
 ||akaiksots.com^
 ||akdbr.com^
+||akjasjanwhif.com^
 ||akkvmkgdvokn.com^
 ||akmxts.com^
 ||aksleaj.com^
@@ -20885,6 +20886,7 @@ browsershots.org#@#.advert_area
 ||attacketslovern.info^
 ||attemptdruggedcarve.com^
 ||attempttipsrye.com^
+||attentive-bad.com^
 ||attepigom.com^
 ||atthewon.buzz^
 ||attributedconcernedamendable.com^
@@ -22029,6 +22031,7 @@ browsershots.org#@#.advert_area
 ||cntrktaieagnam.com^
 ||cnysvtpu.com^
 ||coaboowie.com^
+||coacaips.com^
 ||coagrohos.com^
 ||coashoog.com^
 ||cobweblockerdiana.com^
@@ -23812,6 +23815,7 @@ browsershots.org#@#.advert_area
 ||gjigle.com^
 ||gjpcwjzzc.com^
 ||gk79a2oup.com^
+||gkbvnyk.com^
 ||gkfehrdhbm.com^
 ||gkkchmjdndovu.xyz^
 ||gkoutpips.com^
@@ -24793,6 +24797,7 @@ browsershots.org#@#.advert_area
 ||iononetravoy.com^
 ||iovxhfavijyu.com^
 ||ipgbcmfagij.com^
+||ipjouefgjog.com^
 ||ipmuvtmonjdwuf.xyz^
 ||ipnkkmxo.com^
 ||ipomeamiching.com^
@@ -26549,6 +26554,7 @@ browsershots.org#@#.advert_area
 ||nlbgkaesfhf.com^
 ||nlfqqjvyfr.com^
 ||nlkli.com^
+||nlnmfkr.com^
 ||nlrhfomyjfhkcv.xyz^
 ||nlyxqpeo.com^
 ||nlzxclfg.com^
@@ -28866,6 +28872,7 @@ browsershots.org#@#.advert_area
 ||suphelper.com^
 ||suppliedhopelesspredestination.com^
 ||supportedbushesimpenetrable.com^
+||supremeoutcome.com^
 ||suptraf.com^
 ||suptrkdisplay.com^
 ||surahsbimas.com^
@@ -29762,6 +29769,7 @@ browsershots.org#@#.advert_area
 ||voawbugcy.com^
 ||voicedstart.com^
 ||volumedpageboy.com^
+||voluminoussoup.pro^
 ||voluumtrk.com^
 ||voluumtrk3.com^
 ||vooculok.com^
@@ -31132,6 +31140,7 @@ browsershots.org#@#.advert_area
 ||stoorgel.com^$popup
 ||strungcourthouse.com^$popup
 ||stvkr.com^$popup
+||supremeoutcome.com^$popup
 ||sympatheticfling.com^$popup
 ||taghaugh.com^$popup
 ||talentorganism.com^$popup
