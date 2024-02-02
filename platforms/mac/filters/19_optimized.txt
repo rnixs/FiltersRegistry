@@ -1,9 +1,9 @@
-! Checksum: ZDhHEzlA+6poPIHv7Iflgw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1706884725-3600.patch
+! Checksum: oz0iHWfUDCI7JTS5FXrYBg
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1706888445-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.5
-! TimeUpdated: 2024-02-02T14:32:02+00:00
+! Version: 2.0.31.6
+! TimeUpdated: 2024-02-02T15:32:00+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1582,6 +1582,7 @@ aol.com#@#.adwrap
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+ncars.com.ua##.lkdm_vw__container
 nytimes.com###app > div > div[data-testid="onsite-messaging-unit-gateway"]:has(a[href^="https://www.nytimes.com/subscription?"])
 mobile-hoken.com##.popup._active
 ultimate-guitar.com##.SiteWideBanner

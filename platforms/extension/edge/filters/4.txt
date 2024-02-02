@@ -1,9 +1,9 @@
-! Checksum: ToCtzWvTpKcWG9wmz3jAtg
-! Diff-Path: ../patches/4/4-s-1706884693-3600.patch
+! Checksum: 2/N3yV2uZcnchxW3vWy7/w
+! Diff-Path: ../patches/4/4-s-1706888416-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.4
-! TimeUpdated: 2024-02-02T14:33:03+00:00
+! Version: 2.0.97.5
+! TimeUpdated: 2024-02-02T15:35:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2679,7 +2679,7 @@ soranews24.com##li[id^="share-"]
 kosodatemap.gakken.jp,report.iko-yo.net,sakigake.jp##.p-article-share
 okuyami-info.com##.cc-m-twitter
 okuyami-info.com###flexsocialbuttons
-russian.rt.com##.article__share_article-page
+russian.rt.com##body .article__share_article-page
 cineaste.co.kr##a[onclick^="apms_sns"]
 ||realtime-chart.mofi.xyz/image/twitter.png
 sportsw.kr,idsn.co.kr,upinews.kr##.viewSns > ul:not(.font)

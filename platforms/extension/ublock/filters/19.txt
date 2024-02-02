@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ltDNPJBPrVLvbKB46xZ2GA
-! Diff-Path: ../patches/19/19-s-1706884713-3600.patch
+! Checksum: 83cRVt4W+KFz1xXg/wsmkw
+! Diff-Path: ../patches/19/19-s-1706888434-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.5
-! TimeUpdated: 2024-02-02T14:32:02+00:00
+! Version: 2.0.31.6
+! TimeUpdated: 2024-02-02T15:32:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4111,6 +4111,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+ncars.com.ua##.lkdm_vw__container
 nytimes.com###app > div > div[data-testid="onsite-messaging-unit-gateway"]:has(a[href^="https://www.nytimes.com/subscription?"])
 mobile-hoken.com##.popup._active
 ultimate-guitar.com##.SiteWideBanner
