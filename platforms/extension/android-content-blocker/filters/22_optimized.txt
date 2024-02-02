@@ -1,9 +1,9 @@
-! Checksum: 0dYz8u8S42pn3VhKS8hDfg
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1706842211-3600.patch
+! Checksum: Ra/RMbUh+OS2qLhp+YkpEg
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1706884679-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.27
-! TimeUpdated: 2024-02-01T08:32:22+00:00
+! Version: 2.0.7.28
+! TimeUpdated: 2024-02-02T14:32:21+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### Block useless widgets #######################
@@ -890,6 +890,7 @@ otonanswer.jp##aside > div[style="min-height: 881px;"]
 ||widget.intercom.io^$domain=appmaster.io
 ||helpdeskeddy.com//js/contact-widget.js$domain=litres.ru
 litres.ru###call_support
+||bot.leadoo.com^$domain=bobsbusiness.co.uk
 connect.podium.com/nitro-min-widget.js$third-party
 ||library.telefonica.de/*/components/contact-link/bundle.js
 ||v*.zopim.com^$domain=ltbjeans.com
