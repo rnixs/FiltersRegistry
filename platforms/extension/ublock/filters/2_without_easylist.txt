@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: CK+E9jFDISQGf+WcNBLVhQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706895637-3600.patch
+! Checksum: M1OgUDGYxzJQqahTMcEvzg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706898977-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.20.53
-! TimeUpdated: 2024-02-02T17:37:02+00:00
+! Version: 2.3.20.54
+! TimeUpdated: 2024-02-02T18:32:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -55225,6 +55225,7 @@ implbits.com#@#.banner_container
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171656
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172028
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172017 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171666
