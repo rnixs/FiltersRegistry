@@ -1,9 +1,9 @@
-! Checksum: IvS1YfcIR6jQEAyHfFII7g
-! Diff-Path: ../patches/19/19-s-1706870171-3600.patch
+! Checksum: X1WIRAy3tBP+2TcRbEmerQ
+! Diff-Path: ../patches/19/19-s-1706873778-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.2
-! TimeUpdated: 2024-02-02T10:31:57+00:00
+! Version: 2.0.31.3
+! TimeUpdated: 2024-02-02T11:32:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4209,6 +4209,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+mobile-hoken.com##.popup._active
 ultimate-guitar.com##.SiteWideBanner
 ultimate-guitar.com#%#//scriptlet('trusted-set-cookie', 'auth_modal_shown', '1')
 play-life.jp##.slick-slider > div.slick-list

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ubKEct1xt/EqRW5j9cD3Hw
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1706870184-3600.patch
+! Checksum: BE7l2+sIfm1wF2hPJbuiJQ
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1706873791-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.9.71
-! TimeUpdated: 2024-02-02T10:32:16+00:00
+! Version: 2.1.9.72
+! TimeUpdated: 2024-02-02T11:32:21+00:00
 ! Expires: 5 days (update frequency)
 ||98765.pw^
 ||cdn.holmesmind.com^$third-party
@@ -5919,6 +5919,9 @@ newduba.cn###jq_youxi
 ||ctcxflak.xyz^
 ||gghhce96.shop^
 ||bqnmxza.cn^
+##a[href*=".ysmdhk.com/"]
+||bocenamesingle.xyz^
+||xtcxflak.xyz^
 ||catwalkoutled.com^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -19146,6 +19149,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||520cc.cc/api/jspopunder.
 @@||520cc.cc/jspopunder.
 @@||520cc.cc^*/ad.php
+@@||chineseanime.vip^$generichide
 @@||5278.cool^$generichide
 @@||52zy.com/gg/
 @@||58.com/adJump?adType=
