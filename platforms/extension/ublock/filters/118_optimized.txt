@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: l5XZLu1Hicx5/OSQ90jbPA
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1706821616-14400.patch
+! Checksum: 2QOpBWGHJWaTYTrY7X90vQ
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1706837181-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.21.38
-! TimeUpdated: 2024-02-01T21:02:05+00:00
+! Version: 2.1.21.39
+! TimeUpdated: 2024-02-02T01:04:00+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -6065,6 +6065,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-sg.tiktok.com^
 ||analytics-static.ugc.bazaarvoice.com^
 ||analytics.30m.com^
+||analytics.adobe.io^
 ||analytics.agoda.com^
 ||analytics.aimtell.com^
 ||analytics.algolia.com^
@@ -9480,6 +9481,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||citibank.com.sg/tmx/
 ||clear.wallapop.com^
 ||content22.bmo.com^
+||content22.citibankonline.com^
 ||content22.online.citi.com^
 ||customer.homedepot.com^$script
 ||drfdisvc.walmart.com^
