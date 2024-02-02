@@ -1,9 +1,9 @@
-! Checksum: DpSa/u6vIwWYqtAF2Opwrw
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1706891760-3600.patch
+! Checksum: 1XAH6OgKT+ofsy8YDypCVA
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1706895609-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.18
-! TimeUpdated: 2024-02-02T16:33:30+00:00
+! Version: 2.0.48.19
+! TimeUpdated: 2024-02-02T17:37:40+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||af.atsoho.com^$third-party
@@ -7987,6 +7987,7 @@ blog.livedoor.jp##a[href*="ad-feed.com/link/click"]
 ||video.laxd.com/a/pagead/
 ||video.laxd.com/static/video/js/plr/tg/
 ||video.fc2.com/static/video/js/plr/tg/
+vip-front.video.g.fc2.com,video.fc2.com##.main-body > div.content-wrap[aria-hidden][data-hidden-on-tab]
 vip-front.video.g.fc2.com,video.fc2.com##.ad_panelAR
 video.fc2.com##.list-subCont > li[style$="height: 98px;"]
 vip-front.video.g.fc2.com,video.fc2.com##.ads-container

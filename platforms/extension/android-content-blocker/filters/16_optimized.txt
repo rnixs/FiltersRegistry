@@ -1,9 +1,9 @@
-! Checksum: 8g/oU1bzuQrKVfeuEw5WQw
-! Diff-Path: ../patches/16_optimized/16_optimized-s-1706888403-3600.patch
+! Checksum: 7pR5jYh19ftkYoSlch3h8w
+! Diff-Path: ../patches/16_optimized/16_optimized-s-1706895607-3600.patch
 ! Title: AdGuard French filter (Optimized)
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.17
-! TimeUpdated: 2024-02-02T15:31:54+00:00
+! Version: 2.0.43.18
+! TimeUpdated: 2024-02-02T17:34:02+00:00
 ! Expires: 5 days (update frequency)
 ||vookamoo.com^
 ||proxy.ads.canalplus-bo.net^
@@ -561,6 +561,7 @@ lesfrontaliers.lu###full-container > div#header-wrapper + div[class]
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_french
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||multi-screen.cloud-*.molotov.tv/*/ping?token=
+liaoningmovie.net,vip-front.video.g.fc2.com,video.fc2.com#@#.with-ad
 nitrotype.com#@#.with-ad
 ||dmcdn.net^$media,badfilter
 familjeliv.se#@#div[data-ad]

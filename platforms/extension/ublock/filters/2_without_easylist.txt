@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 5fymLF8DxwoLdudnNETO6A
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706888436-3600.patch
+! Checksum: CK+E9jFDISQGf+WcNBLVhQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1706895637-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.20.52
-! TimeUpdated: 2024-02-02T15:34:54+00:00
+! Version: 2.3.20.53
+! TimeUpdated: 2024-02-02T17:37:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7323,9 +7323,9 @@ free-mp3-download.net##+js(abort-on-property-write, DetectByGoogleAd)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170946
 ||bbpic.ru/js/plears.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170717
-@@||ytlarge.com/youtube/ad/advrotator.js
+@@||ytlarge.com/youtube/ad/
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ytlarge.com
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2021.js$domain=ytlarge.com
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*fy2021.js$domain=ytlarge.com
 @@||googleads.g.doubleclick.net/pagead/html/*/zrt_lookup_fy2021.html$domain=ytlarge.com
 @@||googleads.g.doubleclick.net/pagead/ads?client=ca-pub-*&adk=$~xmlhttprequest,~script,~image,domain=ytlarge.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170718
@@ -32750,6 +32750,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+top.gg##div[class*="_AdContainer-"]
 linkedin.com##.scaffold-finite-scroll__content > div > div[data-id^="urn:li:activity:"]:has(.update-components-text-view > span[aria-hidden="true"]):not(:has(li-icon > svg))
 ispreview.co.uk##div[style^="clear:both;border-radius:8px;"]
 ispreview.co.uk###nright_nav > div > div[style]:has(> div.ntop_box > div > div[align="center"] > div.vm-placement)
@@ -36069,7 +36070,6 @@ rakuten.tv##div[data-testid="progress-bar"] > div[data-testid^="progress-ads-"]
 ||static-ma-ht.project1content.com/static1/@one/blocks/async/CatfishBlock.*.js$domain=babes.com|mofos.com|realitykings.com
 pornclassic.tube,thegay.com,thegay.tube,vjav.*,hotmovs.*,tubepornclassic.com##.video-page__content > div.left + div[class]:last-child
 top.gg##article[data-testid="promoted-product"]
-top.gg##.chakra-popover__content .chakra-link[href*="/click?targetUrl="]
 hancinema.net##.ad_300x600_300x250
 3movs.com,lesbian8.com###intt-layer
 lesbian8.com##.block-album > div.table
