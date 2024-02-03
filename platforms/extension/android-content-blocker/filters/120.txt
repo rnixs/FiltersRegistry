@@ -1,15 +1,15 @@
-! Checksum: ts0XRMs5faNlqgNX5dgt2A
-! Diff-Path: ../patches/120/120-s-1706908101-14400.patch
+! Checksum: f3KMqZZfC2ulVkkqZOKTFw
+! Diff-Path: ../patches/120/120-s-1706922893-14400.patch
 ! Title: AdBlockID
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.76
-! TimeUpdated: 2024-02-02T21:01:56+00:00
+! Version: 2.0.18.77
+! TimeUpdated: 2024-02-03T01:01:54+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 24.2.10
+! OriginalVersion: 24.2.11
 ! Title: AdBlockID
 ! Description: Filter list that specifically removes adverts on Indonesian language websites.
-! Last modified: 02 Feb 2024 20:26 UTC
+! Last modified: 02 Feb 2024 21:47 UTC
 ! Expires: 1 days
 ! Homepage: https://github.com/realodix/AdBlockID
 .id^*/ads_$domain=~cartalog.id
@@ -3272,7 +3272,6 @@ lacako.com##.chat-popup
 lister.co.id##.elementor-popup-modal
 bagas31.info##.frame-banner-places-popup
 wibufile.com##.ik-overlay
-alona.co.id##.inf_infusionsoft_popup
 jelajahcoin.com##.jc_popup
 kompaslampung.com##.jqbox_innerhtml
 kanalkalimantan.com##.lepopup-popup-container

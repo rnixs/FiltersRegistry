@@ -1,15 +1,15 @@
-! Checksum: Q1yFkY0l1H5xbrKP1g+Aow
-! Diff-Path: ../patches/120/120-s-1706908106-14400.patch
+! Checksum: 7ojuV76aK1aiOxw240KVmg
+! Diff-Path: ../patches/120/120-s-1706922897-14400.patch
 ! Title: AdBlockID
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.76
-! TimeUpdated: 2024-02-02T21:01:56+00:00
+! Version: 2.0.18.77
+! TimeUpdated: 2024-02-03T01:01:54+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 24.2.10
+! OriginalVersion: 24.2.11
 ! Title: AdBlockID
 ! Description: Filter list that specifically removes adverts on Indonesian language websites.
-! Last modified: 02 Feb 2024 20:26 UTC
+! Last modified: 02 Feb 2024 21:47 UTC
 ! Expires: 1 days
 ! Homepage: https://github.com/realodix/AdBlockID
 .id^*/ads_$domain=~cartalog.id
@@ -3613,7 +3613,6 @@ lacako.com##.chat-popup
 lister.co.id##.elementor-popup-modal
 bagas31.info##.frame-banner-places-popup
 wibufile.com##.ik-overlay
-alona.co.id##.inf_infusionsoft_popup
 jelajahcoin.com##.jc_popup
 kompaslampung.com##.jqbox_innerhtml
 kanalkalimantan.com##.lepopup-popup-container
@@ -3690,7 +3689,7 @@ bahankain.com#%#//scriptlet('ubo-ra.js', 'onmousedown|onselectstart|unselectable
 digiaudiostore.com##.anticopas
 mercon.id#$?#style:has-text(::selection) { remove: true; }
 ||webpraktis.com/librari/anticopas.$third-party,stylesheet,script
-antaranews.com,arahbatin.com,arlinadzgn.com,bisnis.com,bisnisukm.com,bloggerkoplo.com,cashdik.com,codeflare.net,dialeksis.com,gadgetidn.id,gizmologi.id,greeners.co,gurupenyemangat.com,hamparan.net,inihits.com,keepo.me,kelasexcel.id,laciusang.com,majalahponsel.org,maswarsito.com,mediadayak.id,mediaponorogo.com,mercon.id,modalrakyat.id,posciety.com,productnation.co,ridertua.com,seputarkuliah.com,tepat.id,tulisanndeso.com#%#//scriptlet('ubo-aeld.js', '/copy|keydown/')
+antaranews.com,arahbatin.com,arlinadzgn.com,bisnis.com,bisnisukm.com,bloggerkoplo.com,codeflare.net,dialeksis.com,gadgetidn.id,gizmologi.id,greeners.co,gurupenyemangat.com,hamparan.net,inihits.com,keepo.me,kelasexcel.id,laciusang.com,majalahponsel.org,maswarsito.com,mediadayak.id,mediaponorogo.com,mercon.id,modalrakyat.id,posciety.com,productnation.co,ridertua.com,seputarkuliah.com,tepat.id,tulisanndeso.com#%#//scriptlet('ubo-aeld.js', '/copy|keydown/')
 alternatifmu.com,fokusborneo.com,jakartastudio.com,malukuterkini.com,rgamesstore.com,wartaterkini.news#%#//scriptlet('ubo-aopr.js', 'disable_copy')
 rgamesstore.com#%#//scriptlet('ubo-aopr.js', 'disable_hot_keys')
 anteroaceh.com,balipost.com,cindenian.com,cnnindonesia.com,detik.com,ibtimes.id,jpnn.com,mediaindonesia.com,mediaini.com,my24hours.net,navigasi.eu.org,ngaji.id,nu.or.id,rahmatullah.id,sanepo.com,suatekno.id,thejakartapost.com,viva.co.id#%#//scriptlet('ubo-aopr.js', 'document.oncopy')

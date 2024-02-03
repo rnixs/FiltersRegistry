@@ -240,6 +240,8 @@ cashback-cards.ch##+js(set-cookie, sc-privacy-settings, true)
 ahorn24.de##+js(set-cookie, accept_cookies2, true, , reload, 1)
 ! Rule "blockdyor.com##+js(set-cookie, cf_consent, false)" converted to: "blockdyor.com#%#//scriptlet('ubo-set-cookie.js', 'cf_consent', 'false')"
 blockdyor.com##+js(set-cookie, cf_consent, false)
+! Rule "ticket.io##+js(set-cookie, privacyCookie, 1, , reload, 1)" converted to: "ticket.io#%#//scriptlet('ubo-set-cookie.js', 'privacyCookie', '1', '', 'reload', '1')"
+ticket.io##+js(set-cookie, privacyCookie, 1, , reload, 1)
 ! Rule "omega-nuernberg.servicebund.com##+js(set-cookie, cookieChoice, 0)" converted to: "omega-nuernberg.servicebund.com#%#//scriptlet('ubo-set-cookie.js', 'cookieChoice', '0')"
 omega-nuernberg.servicebund.com##+js(set-cookie, cookieChoice, 0)
 ! Rule "lojaboschferramentas.com.br##+js(set-cookie, lgpdConsent, true)" converted to: "lojaboschferramentas.com.br#%#//scriptlet('ubo-set-cookie.js', 'lgpdConsent', 'true')"

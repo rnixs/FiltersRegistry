@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: dzsOjyFzMtYmCJt4JBNLaw
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1706908133-14400.patch
+! Checksum: JF+dmqLjLYuZ6pLzVyHtKA
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1706922922-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.76
-! TimeUpdated: 2024-02-02T21:01:56+00:00
+! Version: 2.0.18.77
+! TimeUpdated: 2024-02-03T01:01:54+00:00
 ! Expires: 5 days (update frequency)
 .id^*/ads_$domain=~cartalog.id
 .id^*/adv-$domain=~adv.kompas.id
@@ -3606,7 +3606,6 @@ lacako.com##.chat-popup
 lister.co.id##.elementor-popup-modal
 bagas31.info##.frame-banner-places-popup
 wibufile.com##.ik-overlay
-alona.co.id##.inf_infusionsoft_popup
 jelajahcoin.com##.jc_popup
 kompaslampung.com##.jqbox_innerhtml
 kanalkalimantan.com##.lepopup-popup-container
@@ -3682,7 +3681,7 @@ bahankain.com##+js(remove-attr, onmousedown|onselectstart|unselectable, .post-in
 digiaudiostore.com##.anticopas
 mercon.id#$?#style:has-text(::selection) { remove: true; }
 ||webpraktis.com/librari/anticopas.$third-party,stylesheet,script
-antaranews.com,arahbatin.com,arlinadzgn.com,bisnis.com,bisnisukm.com,bloggerkoplo.com,cashdik.com,codeflare.net,dialeksis.com,gadgetidn.id,gizmologi.id,greeners.co,gurupenyemangat.com,hamparan.net,inihits.com,keepo.me,kelasexcel.id,laciusang.com,majalahponsel.org,maswarsito.com,mediadayak.id,mediaponorogo.com,mercon.id,modalrakyat.id,posciety.com,productnation.co,ridertua.com,seputarkuliah.com,tepat.id,tulisanndeso.com##+js(addEventListener-defuser, /copy|keydown/)
+antaranews.com,arahbatin.com,arlinadzgn.com,bisnis.com,bisnisukm.com,bloggerkoplo.com,codeflare.net,dialeksis.com,gadgetidn.id,gizmologi.id,greeners.co,gurupenyemangat.com,hamparan.net,inihits.com,keepo.me,kelasexcel.id,laciusang.com,majalahponsel.org,maswarsito.com,mediadayak.id,mediaponorogo.com,mercon.id,modalrakyat.id,posciety.com,productnation.co,ridertua.com,seputarkuliah.com,tepat.id,tulisanndeso.com##+js(addEventListener-defuser, /copy|keydown/)
 alternatifmu.com,fokusborneo.com,jakartastudio.com,malukuterkini.com,rgamesstore.com,wartaterkini.news##+js(abort-on-property-read, disable_copy)
 rgamesstore.com##+js(abort-on-property-read, disable_hot_keys)
 anteroaceh.com,balipost.com,cindenian.com,cnnindonesia.com,detik.com,ibtimes.id,jpnn.com,mediaindonesia.com,mediaini.com,my24hours.net,navigasi.eu.org,ngaji.id,nu.or.id,rahmatullah.id,sanepo.com,suatekno.id,thejakartapost.com,viva.co.id##+js(abort-on-property-read, document.oncopy)
