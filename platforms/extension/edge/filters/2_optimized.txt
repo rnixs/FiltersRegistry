@@ -1,9 +1,9 @@
-! Checksum: HGw0gZzVdaalHFvZ6nRF1A
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1706963875-3600.patch
+! Checksum: YF8lsRNoZRP2V0LC+Qn/tA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1706967601-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.20.60
-! TimeUpdated: 2024-02-03T12:34:52+00:00
+! Version: 2.3.20.61
+! TimeUpdated: 2024-02-03T13:37:01+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -23041,6 +23041,7 @@ browsershots.org#@#.advert_area
 ||ensignpancreasrun.com^
 ||ensinthetertaning.com^
 ||ensosignal.com^
+||entachbanker.top^
 ||entaildollar.com^
 ||entjgcr.com^
 ||entjryftqwmsus.com^
@@ -23517,6 +23518,7 @@ browsershots.org#@#.advert_area
 ||fouleewu.net^
 ||foupeethaija.com^
 ||fourteenthcongratulate.com^
+||fouwiphy.net^
 ||foxmeywkh.xyz^
 ||foxpush.io^
 ||foxqck.com^
@@ -24740,6 +24742,7 @@ browsershots.org#@#.advert_area
 ||infra.systems^
 ||infringementpeanut.com^
 ||inglunewly.com^
+||inheritedunstable.com^
 ||inhospitablededucefairness.com^
 ||initiallycompetitionunderwear.com^
 ||injuredripplegentleman.com^
@@ -24908,6 +24911,7 @@ browsershots.org#@#.advert_area
 ||iyvxqckadbplaa.com^
 ||iywttijabeyb.com^
 ||izanzjtuvpp.com^
+||izbmbmt.com^
 ||izjzkye.com^
 ||izlunwgx.com^
 ||izlzunewumqgg.com^
@@ -25056,6 +25060,7 @@ browsershots.org#@#.advert_area
 ||jjrvlrslb.com^
 ||jjsocpeg.com^
 ||jjtnadbcbovqarv.xyz^
+||jjutwcgtqd.com^
 ||jjvafukltxk.com^
 ||jkajyrkjmzmkz.top^
 ||jkha742.xyz^
@@ -25144,6 +25149,7 @@ browsershots.org#@#.advert_area
 ||jqitetsk.com^
 ||jqlqmeveax.com^
 ||jqluhrwlfwsgdd.com^
+||jqmebwvmbzwy.top^
 ||jqueryoi.com^
 ||jqwsldso.com^
 ||jrbbavbmwqwjl.top^
@@ -25943,6 +25949,7 @@ browsershots.org#@#.advert_area
 ||majorworkertop.com^
 ||makethebusiness.com^
 ||makingnude.com^
+||malay.buzz^
 ||mallettraumatize.com^
 ||mammocksambos.com^
 ||mamydirect.com^
@@ -26188,6 +26195,7 @@ browsershots.org#@#.advert_area
 ||modulepush.com^
 ||mohiwhaileed.com^
 ||moistentrailed.top^
+||mokrqhjjcaeipf.xyz^
 ||moksoxos.com^
 ||moleconcern.com^
 ||moltenforger.top^
@@ -26850,6 +26858,7 @@ browsershots.org#@#.advert_area
 ||ogmvulgumhk.xyz^
 ||ognsotmhjx.com^
 ||ografazu.xyz^
+||ogtakvkpoaxt.com^
 ||ogvkyxx.com^
 ||ogwmubfnjbzyo.com^
 ||ogwnjcumfbgm.com^
@@ -28162,6 +28171,7 @@ browsershots.org#@#.advert_area
 ||rhombicsomeday.com^
 ||rhpjzjqhgz.com^
 ||rhsorga.com^
+||rhvsujcakbmdpkh.com^
 ||rhythmxchange.com^
 ||ricewaterhou.xyz^
 ||richinfo.co^
@@ -28498,6 +28508,7 @@ browsershots.org#@#.advert_area
 ||serconmp.com^
 ||serdaive.com^
 ||sereanstanza.com^
+||sermonbakery.com^
 ||serv-selectmedia.com^
 ||serv01001.xyz^
 ||serv1for.pro^
@@ -28647,6 +28658,7 @@ browsershots.org#@#.advert_area
 ||slowundergroundattentive.com^
 ||slpmcfdljsntwp.com^
 ||sltvhyjthx.com^
+||sluccju.com^
 ||sluicehamate.com^
 ||sluxaaiabw.com^
 ||smaato.net^
@@ -28717,6 +28729,7 @@ browsershots.org#@#.advert_area
 ||soocaips.com^
 ||sopalk.com^
 ||sorbentfalsum.com^
+||sorboseyatvyag.top^
 ||sorryfearknockout.com^
 ||sortiesbabhan.com^
 ||sortyellowapples.com^
@@ -30537,6 +30550,7 @@ browsershots.org#@#.advert_area
 ||zegnoaft.com^
 ||zelatorpukka.com^
 ||zelqytckpgzwag.com^
+||zendiclayaway.website^
 ||zendplace.pro^
 ||zepazupi.com^
 ||zephyronearc.com^
@@ -32066,7 +32080,7 @@ $script,stylesheet,third-party,xmlhttprequest,domain=up-4ever.net
 @@||connect.facebook.net^$script,domain=up-4ever.net
 @@||fonts.googleapis.com^$stylesheet,domain=up-4ever.net
 @@||up4ever.download^$domain=up-4ever.net
-$script,third-party,domain=hitomi.la
+$script,third-party,domain=hitomi.la|rule34hentai.net
 @@||gelbooru.com^$generichide
 $script,third-party,xmlhttprequest,domain=ouo.io|ouo.press
 $script,third-party,domain=imgbox.com
