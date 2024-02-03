@@ -1,9 +1,9 @@
-! Checksum: XY5jXuWBBV+J3XFP0/5u6A
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1706922895-14400.patch
+! Checksum: Qqp8NOAwh3TFB2MOW8uEFg
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1706937420-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.44
-! TimeUpdated: 2024-02-03T01:09:24+00:00
+! Version: 2.1.28.45
+! TimeUpdated: 2024-02-03T05:09:26+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -11637,6 +11637,7 @@
 ##.cookie-notification--external
 ##.cookie-notification-alert
 ##.cookie-notification-backdrop
+##.cookie-notification-background
 ##.cookie-notification-banner
 ##.cookie-notification-bar
 ##.cookie-notification-block
@@ -24295,7 +24296,7 @@ trovanumeri.com###hid
 gustosaricerca.it###holdon-overlay
 mariangelaguido.it###icegram_message_10971
 mondoprofessionisti.it###informativaPrivacy
-105.net,meteo.it,r101.it,radiomontecarlo.net,unitedmusic.com,virginradio.it###iubenda-cs-banner
+105.net,meteo.it,r101.it,radiomontecarlo.net,repubblica.it,unitedmusic.com,virginradio.it###iubenda-cs-banner
 vmmotori.it###ll_banner
 vmmotori.it###ll_info
 programmitv.it###mag
@@ -25755,6 +25756,7 @@ ants.vn##.sg-popup-content
 ||vag.de/typo3conf/ext/cookieman/
 ||versicherungsjournal.de/public/app.js
 ||weddstyle.de/bilder/banner/$image
+||weiterbildung-biberach.de/ccm-wb/public/app.js
 ||brsimg.com/gdpr/$domain=boursorama.com
 ||cmp.histoire-et-civilisations.com^
 ||consent.prismamedia.com^

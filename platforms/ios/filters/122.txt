@@ -1,15 +1,15 @@
-! Checksum: wRkMgia6P3ekjTeEZZdK6Q
-! Diff-Path: ../patches/122/122-s-1706922927-14400.patch
+! Checksum: 2xBVQyqsYPPJbB3wgsNvwg
+! Diff-Path: ../patches/122/122-s-1706937451-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.42
-! TimeUpdated: 2024-02-03T01:02:05+00:00
+! Version: 2.1.20.43
+! TimeUpdated: 2024-02-03T05:02:09+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: cX8wOc7ppUuaHO8U31YVMA
-! OriginalVersion: 202402022340
+! Checksum: OPXa8y2jLfU0UZaCSbZ65g
+! OriginalVersion: 202402030340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-02 23:40 UTC
+! Last modified: 2024-02-03 03:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25540,6 +25540,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-notification--external
 ##.cookie-notification-alert
 ##.cookie-notification-backdrop
+##.cookie-notification-background
 ##.cookie-notification-banner
 ##.cookie-notification-bar
 ##.cookie-notification-block
@@ -40815,7 +40816,7 @@ grillfuerst.de,pss.sk##.cb-overlay
 !! .jsFixedMessage
 eufy.com,kurasu.kyoto,popcandyco.com,seenebula.com,soundcore.com##.jsFixedMessage
 !! #cboxOverlay
-abrakadabra.com,dumtiskaren.cz,evaair.com,flender.com.cn,harmony.co.il,heuristic.pl,laboratoria.net,luxprom.pl,motonera.com,mydoka.com,play.tv,portal.by.aok.de,ppkbjelovar.com,premium-aerotec.com,stokrotka.pl,sudnews.it,surflightingdesign.com,testo.com,transletra.pl,ubs.com###cboxOverlay
+abrakadabra.com,dumtiskaren.cz,evaair.com,flender.com.cn,harmony.co.il,heuristic.pl,laboratoria.net,luxprom.pl,motonera.com,mydoka.com,pelety-premium.cz,play.tv,portal.by.aok.de,ppkbjelovar.com,premium-aerotec.com,stokrotka.pl,sudnews.it,surflightingdesign.com,testo.com,transletra.pl,ubs.com###cboxOverlay
 !! #cboxWrapper
 stokrotka.pl###cboxWrapper
 !! #colorbox
@@ -40957,7 +40958,7 @@ aplikuj.pl,btr-tools.com,extract.pics,hopetv.org,londonciv.org.uk,schletter-grou
 !! #sp_message_container
 bloomberg.co.jp,hitc.com##div[id^="sp_message_container_"]
 !! .tw-bottom-0
-blickers.com,blindewandplanken.nl,businessoffashion.com,cloud.ionos.com,naiin.com##.tw-bottom-0
+blickers.com,blindewandplanken.nl,businessoffashion.com,cloud.ionos.com,ionos.com,naiin.com##.tw-bottom-0
 !! .cookiesConsent
 bestreisengroup.pl,oasistours.com.pl,volare.pl##.cookiesConsent
 !! #dm-cookie-popup-container
@@ -41169,6 +41170,8 @@ desenio.se,justo.ca,moises.ai,my.openbb.co,promobit.com.br,remnote.com,shuttle.r
 netnoticias.mx##.bottom-40
 !! .bottom-3
 accu-components.com,accu.co.uk,knock.app##.bottom-3
+!! .bottom-14
+haberturk.com##.bottom-14
 !! .bottom-16
 fikfap.com,tweetdeleter.com##.bottom-16
 !! .bottom
@@ -41668,6 +41671,7 @@ endgame.id#%#//scriptlet('ubo-set-cookie.js', 'endgame-accept-policy', 'true')
 cashback-cards.ch#%#//scriptlet('ubo-set-cookie.js', 'sc-privacy-settings', 'true')
 ahorn24.de#%#//scriptlet('ubo-set-cookie.js', 'accept_cookies2', 'true', '', 'reload', '1')
 blockdyor.com#%#//scriptlet('ubo-set-cookie.js', 'cf_consent', 'false')
+ticket.io#%#//scriptlet('ubo-set-cookie.js', 'privacyCookie', '1', '', 'reload', '1')
 omega-nuernberg.servicebund.com#%#//scriptlet('ubo-set-cookie.js', 'cookieChoice', '0')
 lojaboschferramentas.com.br#%#//scriptlet('ubo-set-cookie.js', 'lgpdConsent', 'true')
 shareloft.com#%#//scriptlet('ubo-set-cookie.js', 'shareloft_cookie_decision', '1')
@@ -42338,8 +42342,13 @@ myeventeo.com#%#//scriptlet('ubo-set-cookie.js', 'cookiesPolicy20211101', '1')
 snap.com#%#//scriptlet('ubo-set-cookie.js', 'sc-cookies-accepted', 'true')
 ratemyprofessors.com#%#//scriptlet('ubo-set-cookie.js', 'ccpa-notice-viewed-02', 'true')
 filen.io#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'yes')
-leotrippi.com,restaurantclub.pl,context.news#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'true')
+leotrippi.com,restaurantclub.pl,context.news,queisser.de#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'true')
 stilord.com,stilord.pl,stilord.de,stilord.fr#%#//scriptlet('ubo-set-cookie.js', 'plenty-shop-cookie', '0')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'analytics_cookies', '0')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'cookies_accepted', '1', '', 'reload', '1')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'tracking_cookies', '0')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'advertisement-age-show-alcohol', 'false')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'advertisement-age-show-gamble', 'false')
 quantamagazine.org#%#//scriptlet('ubo-set-cookie.js', 'acceptedPolicy', 'true')
 followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'false')
 scaleway.com#%#//scriptlet('ubo-set-cookie.js', 'consent-analytics', 'false')
@@ -42391,6 +42400,9 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-oth
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-seen', 'true')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 nove.fr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie', 'true')
+autoride.cz,autoride.es,autoride.io,autoride.sk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies_necessary_consent', 'true')
+autoride.cz,autoride.es,autoride.io,autoride.sk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies_marketing_consent', 'false')
+autoride.cz,autoride.es,autoride.io,autoride.sk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies_statistics_consent', 'false')
 wunderground.com#%#//scriptlet('ubo-set-local-storage-item.js', 'wu.ccpa-toast-viewed', 'true')
 baselime.io#%#//scriptlet('ubo-set-local-storage-item.js', 'closed', 'true')
 eversports.de#%#//scriptlet('ubo-set-local-storage-item.js', 'dnt', '1')
@@ -47451,6 +47463,7 @@ btr.com##.footer-info-col--newsletter
 sunsetmicro.com##.footer-info-newsletter-inn
 rightstufanime.com##.footer-mailing-list-signup
 vistashops.com##.footer-mid
+funko.com,loungefly.com##.footer-newsletter
 hugesupplements.com##.footer-newsletter-block
 eastendprints.co.uk##.footer-newsletterTop
 marshallheadphones.com##.footer-newsletter__container
@@ -48322,6 +48335,7 @@ endgame.id#%#//scriptlet('ubo-set-cookie.js', 'endgame-accept-policy', 'true')
 cashback-cards.ch#%#//scriptlet('ubo-set-cookie.js', 'sc-privacy-settings', 'true')
 ahorn24.de#%#//scriptlet('ubo-set-cookie.js', 'accept_cookies2', 'true', '', 'reload', '1')
 blockdyor.com#%#//scriptlet('ubo-set-cookie.js', 'cf_consent', 'false')
+ticket.io#%#//scriptlet('ubo-set-cookie.js', 'privacyCookie', '1', '', 'reload', '1')
 omega-nuernberg.servicebund.com#%#//scriptlet('ubo-set-cookie.js', 'cookieChoice', '0')
 lojaboschferramentas.com.br#%#//scriptlet('ubo-set-cookie.js', 'lgpdConsent', 'true')
 shareloft.com#%#//scriptlet('ubo-set-cookie.js', 'shareloft_cookie_decision', '1')
@@ -48992,8 +49006,13 @@ myeventeo.com#%#//scriptlet('ubo-set-cookie.js', 'cookiesPolicy20211101', '1')
 snap.com#%#//scriptlet('ubo-set-cookie.js', 'sc-cookies-accepted', 'true')
 ratemyprofessors.com#%#//scriptlet('ubo-set-cookie.js', 'ccpa-notice-viewed-02', 'true')
 filen.io#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'yes')
-leotrippi.com,restaurantclub.pl,context.news#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'true')
+leotrippi.com,restaurantclub.pl,context.news,queisser.de#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'true')
 stilord.com,stilord.pl,stilord.de,stilord.fr#%#//scriptlet('ubo-set-cookie.js', 'plenty-shop-cookie', '0')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'analytics_cookies', '0')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'cookies_accepted', '1', '', 'reload', '1')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'tracking_cookies', '0')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'advertisement-age-show-alcohol', 'false')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'advertisement-age-show-gamble', 'false')
 quantamagazine.org#%#//scriptlet('ubo-set-cookie.js', 'acceptedPolicy', 'true')
 followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'false')
 scaleway.com#%#//scriptlet('ubo-set-cookie.js', 'consent-analytics', 'false')
@@ -49045,6 +49064,9 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-oth
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-seen', 'true')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 nove.fr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie', 'true')
+autoride.cz,autoride.es,autoride.io,autoride.sk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies_necessary_consent', 'true')
+autoride.cz,autoride.es,autoride.io,autoride.sk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies_marketing_consent', 'false')
+autoride.cz,autoride.es,autoride.io,autoride.sk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies_statistics_consent', 'false')
 wunderground.com#%#//scriptlet('ubo-set-local-storage-item.js', 'wu.ccpa-toast-viewed', 'true')
 baselime.io#%#//scriptlet('ubo-set-local-storage-item.js', 'closed', 'true')
 eversports.de#%#//scriptlet('ubo-set-local-storage-item.js', 'dnt', '1')
@@ -51861,6 +51883,8 @@ yvonnebennetti.com#%#//scriptlet('ubo-set-cookie.js', 'MCPopupClosed', 'yes')
 foliosociety.com##.modals-overlay
 foliosociety.com##.popup-newsletter
 foliosociety.com#$#body { overflow: auto !important; position: initial !important; }
+! funco/loungefly
+funko.com,loungefly.com#%#//scriptlet('ubo-set-cookie.js', 'welcome_modal_email_ts', '1')
 ! drinkspy.co.nz
 drinkspy.co.nz##.modal-backdrop
 drinkspy.co.nz#$#body { overflow: auto !important; position: initial !important; }
@@ -53812,6 +53836,7 @@ nomadays.de##.container-fixed-cookie
 andinet.de##.coo
 planet-beruf.de##.coo-con
 webcountdown.de##.cooBubble
+der-ersatzteile-profi.de##.coockie_poliy
 crossnative.com##.cookie-consent_overlay__SIXMM
 oeh-wu.at##.cookie-container
 matec.de,myconvotherm.de##.cookie-inquiry-wrapper
@@ -54967,7 +54992,7 @@ trovanumeri.com###hid
 gustosaricerca.it###holdon-overlay
 mariangelaguido.it###icegram_message_10971
 mondoprofessionisti.it###informativaPrivacy
-105.net,meteo.it,r101.it,radiomontecarlo.net,unitedmusic.com,virginradio.it###iubenda-cs-banner
+105.net,meteo.it,r101.it,radiomontecarlo.net,repubblica.it,unitedmusic.com,virginradio.it###iubenda-cs-banner
 vmmotori.it###ll_banner
 vmmotori.it###ll_info
 programmitv.it###mag
@@ -55990,6 +56015,7 @@ tescoma.sk##.overlay-wrapper
 hossafamily.sk##.p-cookie-bar
 inzeratyzadarmo.sk##.pd10-ing
 zebracomp.sk##.position-fixed.ov.shadow
+soi.sk##.set-win-coo-popup
 speedmeter.sk##.w_notice
 posta.sk##[src="https://static.posta.sk/cookies-consents/dialog/sk/index.html"]
 spsjm.sk##[style^="position: fixed; bottom: 0px;"]
@@ -56501,6 +56527,7 @@ ants.vn##.sg-popup-content
 ||vag.de/typo3conf/ext/cookieman/
 ||versicherungsjournal.de/public/app.js
 ||weddstyle.de/bilder/banner/$image
+||weiterbildung-biberach.de/ccm-wb/public/app.js
 !
 ! ---------- French ----------
 !

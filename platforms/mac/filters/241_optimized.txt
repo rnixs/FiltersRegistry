@@ -1,9 +1,9 @@
-! Checksum: K5vzzaajUJnx7givl1cZ0A
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1706922934-14400.patch
+! Checksum: omtaYu7eKbUTNiLPBSR+YQ
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1706937457-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.44
-! TimeUpdated: 2024-02-03T01:09:24+00:00
+! Version: 2.1.28.45
+! TimeUpdated: 2024-02-03T05:09:26+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -11637,6 +11637,7 @@
 ##.cookie-notification--external
 ##.cookie-notification-alert
 ##.cookie-notification-backdrop
+##.cookie-notification-background
 ##.cookie-notification-banner
 ##.cookie-notification-bar
 ##.cookie-notification-block
@@ -22321,8 +22322,13 @@ myeventeo.com#%#//scriptlet('ubo-set-cookie.js', 'cookiesPolicy20211101', '1')
 snap.com#%#//scriptlet('ubo-set-cookie.js', 'sc-cookies-accepted', 'true')
 ratemyprofessors.com#%#//scriptlet('ubo-set-cookie.js', 'ccpa-notice-viewed-02', 'true')
 filen.io#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'yes')
-leotrippi.com,restaurantclub.pl,context.news#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'true')
+leotrippi.com,restaurantclub.pl,context.news,queisser.de#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'true')
 stilord.com,stilord.pl,stilord.de,stilord.fr#%#//scriptlet('ubo-set-cookie.js', 'plenty-shop-cookie', '0')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'analytics_cookies', '0')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'cookies_accepted', '1', '', 'reload', '1')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'tracking_cookies', '0')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'advertisement-age-show-alcohol', 'false')
+grandprixradio.dk,grandprixradio.nl,grandprixradio.be#%#//scriptlet('ubo-set-cookie.js', 'advertisement-age-show-gamble', 'false')
 quantamagazine.org#%#//scriptlet('ubo-set-cookie.js', 'acceptedPolicy', 'true')
 followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'false')
 scaleway.com#%#//scriptlet('ubo-set-cookie.js', 'consent-analytics', 'false')
@@ -22373,6 +22379,9 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-oth
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-seen', 'true')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 nove.fr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie', 'true')
+autoride.cz,autoride.es,autoride.io,autoride.sk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies_necessary_consent', 'true')
+autoride.cz,autoride.es,autoride.io,autoride.sk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies_marketing_consent', 'false')
+autoride.cz,autoride.es,autoride.io,autoride.sk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies_statistics_consent', 'false')
 wunderground.com#%#//scriptlet('ubo-set-local-storage-item.js', 'wu.ccpa-toast-viewed', 'true')
 baselime.io#%#//scriptlet('ubo-set-local-storage-item.js', 'closed', 'true')
 eversports.de#%#//scriptlet('ubo-set-local-storage-item.js', 'dnt', '1')
@@ -25405,7 +25414,7 @@ trovanumeri.com###hid
 gustosaricerca.it###holdon-overlay
 mariangelaguido.it###icegram_message_10971
 mondoprofessionisti.it###informativaPrivacy
-105.net,meteo.it,r101.it,radiomontecarlo.net,unitedmusic.com,virginradio.it###iubenda-cs-banner
+105.net,meteo.it,r101.it,radiomontecarlo.net,repubblica.it,unitedmusic.com,virginradio.it###iubenda-cs-banner
 vmmotori.it###ll_banner
 vmmotori.it###ll_info
 programmitv.it###mag
@@ -26865,6 +26874,7 @@ ants.vn##.sg-popup-content
 ||vag.de/typo3conf/ext/cookieman/
 ||versicherungsjournal.de/public/app.js
 ||weddstyle.de/bilder/banner/$image
+||weiterbildung-biberach.de/ccm-wb/public/app.js
 ||brsimg.com/gdpr/$domain=boursorama.com
 ||cmp.histoire-et-civilisations.com^
 ||consent.prismamedia.com^

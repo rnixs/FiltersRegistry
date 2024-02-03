@@ -1,5 +1,5 @@
-! Checksum: Cc0EZtmege0/X/NQW5p5ew
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1706865035-14400.patch
+! Checksum: 3KG5CozV9ZEZ4J9cGu2Eug
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1706937420-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
 ! Version: 2.0.13.21
@@ -39,7 +39,6 @@ ifeng.com##.openApp[onclick^="loadOpen.init(download"]
 imageban.ru##img[alt="Get it on Google Play"]
 kurashiru.com##.footer-image-wrapper
 m.yelp.*##a[href*="app.adjust.com"]
-mail.yandex.*##.popup-overlay
 metservice.com##.Footer-section--promo
 metservice.com##.HasPromoPadding
 momondo.*#$##mobile-splash-popup { display: none!important }
@@ -633,6 +632,7 @@ trade.tmall.com##.show-cross-btn
 universalbeijingresort.com##.download-box
 xinhuanet.com##.s-ewm
 ctrip.com###fl_wrap_default
+smzdm.com##.qr-buy-container
 12306.cn##.fixed-right-menu > li.menu-item:nth-of-type(3)
 58.com##.app.rightbtn
 amap.com###amap-result-banner
@@ -820,14 +820,12 @@ rule34.xxx###status-notices > br:empty
 ~imdb.com##a[href="/top-imdb"]
 ~imdb.com###repimdb
 ~imdb.com##.owl-item .poster > .rating
-~imdb.com##a[href*=".imdb."] > .rating
 ~imdb.com##a[href$="/top-imdb/"]
 ~imdb.com##span[data-automation-id=imdb-rating-badge]
 ~imdb.com##.imdb_r:not(html, body)
 ~imdb.com##.btn-imdb:not(html, body)
 ~imdb.com##.jt-imdb:not(html, body)
 ~imdb.com##.imdb-score:not(html, body)
-~imdb.com##div[data-test-id=decorator__imdb i]
 rakuten.tv##a[href*=".imdb.com/title/"]
 playpilot.com##.ratings
 /auto-append-spmid.js
