@@ -1,9 +1,9 @@
-! Checksum: +ya8cbDuSsp0gLBlud5j9Q
-! Diff-Path: ../patches/232_optimized/232_optimized-s-1706908124-14400.patch
+! Checksum: XO/nIOLL7mCcQRuRF+YphA
+! Diff-Path: ../patches/232_optimized/232_optimized-s-1706951184-14400.patch
 ! Title: KAD - Anti-Scam (Optimized)
 ! Description: Filter that protects against various types of scams in the Polish network, such as mass text messaging, fake online stores, etc.
-! Version: 2.0.52.35
-! TimeUpdated: 2024-02-02T21:04:52+00:00
+! Version: 2.0.52.36
+! TimeUpdated: 2024-02-03T09:02:37+00:00
 ! Expires: 5 days (update frequency)
 !#safari_cb_affinity(security)
 ||1vulkanvegas.com^$all
@@ -5654,6 +5654,7 @@
 ||aktivwebsitedesign.com^$all
 ||aktpl.com^$all
 ||aktprawny.click^$all
+||aktual.taxility.com^$all
 ||aktualizacja-127637-sprawa.info03.pl^$all
 ||aktualizacja-131025-konto.info03.pl^$all
 ||aktualizacja-162120-allgr.info03.pl^$all
@@ -6068,6 +6069,7 @@
 ||allegrolokalnie.aukcja-allegro.pl^$all
 ||allegrolokalnie.aukcja-id76941.pl^$all
 ||allegrolokalnie.aukcja-id78533.pl^$all
+||allegrolokalnie.aukcja-id642781.pl^$all
 ||allegrolokalnie.aukcja-id849214.pl^$all
 ||allegrolokalnie.aukcja-id7647128.pl^$all
 ||allegrolokalnie.aukcja-id7948261.pl^$all
@@ -9338,6 +9340,7 @@
 ||baltic.proversoon.quest^$all
 ||baltic.proversoon.sbs^$all
 ||baltic.proversoon.space^$all
+||baltic.proversoon.store^$all
 ||baltic.proversoon.website^$all
 ||baltic.thebestway3.store^$all
 ||baltica0.finnewspl.com^$all
@@ -17170,6 +17173,7 @@
 ||dhl.1334.marketiow.co.uk^$all
 ||dhl.00591050727345.id.vanveo.com^$all
 ||dhl.de-podh.com^$all
+||dhl.forward-delivery.info^$all
 ||dhl.lotnicze.squaredesign.pl^$all
 ||dhl.trk-post.com^$all
 ||dhlbazeos.tiokickrenimb.cf^$all
@@ -18680,6 +18684,7 @@
 ||dziennikarzepl.space^$all
 ||dziennikexpress.com^$all
 ||dziennikinfo24h.click^$all
+||dziennikinformacji.pl^$all
 ||dziennikmiasta.click^$all
 ||dziennikporanny.click^$all
 ||dziennikportal.click^$all
@@ -19594,6 +19599,7 @@
 ||embracingcchange.site^$all
 ||embracingchallenge.site^$all
 ||embracingdiversity.site^$all
+||embroidcer.shop^$all
 ||embroiderydailynews.com^$all
 ||emchels.com^$all
 ||emcnitoring.pcozta-polska.cc^$all
@@ -23918,6 +23924,7 @@
 ||gligght.site^$all
 ||glimmerdash.fun^$all
 ||glimmeringslmker.info^$all
+||glimpsesaw.xyz^$all
 ||glimpsport.shop^$all
 ||glinstock.com^$all
 ||glitchrepublic.com^$all
@@ -37427,6 +37434,7 @@
 ||newalbanypodiatry.com^$all
 ||newamanager.online^$all
 ||newarkcarsforsale.com^$all
+||newarticle.taxility.com^$all
 ||newbonalice.com^$all
 ||newbonjour.com^$all
 ||newboroughcottage.com^$all
@@ -39285,6 +39293,7 @@
 ||olum.site^$all
 ||olurytrewdgfe.shop^$all
 ||olx-434.19751454.xyz^$all
+||olx-545.69751454.xyz^$all
 ||olx-darmowe-ogloszenia.pl^$all
 ||olx-deliver.$all,domain=~olx.pl|~przekret-z-falszywym-kuriererm-dostawa.*
 ||olx-delivers.$all,domain=~olx.pl|~przekret-z-falszywym-kuriererm-dostawa.*
@@ -46978,6 +46987,7 @@
 ||royalmailsl.life^$all
 ||royalthunderrecords.com^$all
 ||royalzysk.com^$all
+||roynijhuis.com^$all
 ||royonomoqe.space^$all
 ||rozafa.app^$all
 ||rozciagacz-plecow-pl2.com^$all
