@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0ksbXDVHxpcolGu7SmJvLQ
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1706951196-14400.patch
+! Checksum: +kpiOoamPmcU9yNV+mZcdQ
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1706980028-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.39.23
-! TimeUpdated: 2024-02-03T09:02:53+00:00
+! Version: 2.1.39.24
+! TimeUpdated: 2024-02-03T17:03:20+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -404,7 +404,6 @@ supernowosci24.pl##[id^="r-"]
 ||systempartnerski.pl^$subdocument,domain=icyfrowypolsat.pl
 ||systemyplatnosci.com^*^fundacja_zoodoptuj.
 ||systemyplatnosci.com^*^hotpay_
-||szczecinek.com^*^inline_
 ||szukam-ksiazki.pl/marbet_
 ||szukam-ksiazki.pl^*^havana.
 ||tanuki.pl/imglink^
