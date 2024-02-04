@@ -1,9 +1,9 @@
-! Checksum: imp7jCIlx15Sa5yDQE4J6w
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1707051975-14400.patch
+! Checksum: KV93MBhs20gSFTyf87cfAg
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1707066382-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.20.24
-! TimeUpdated: 2024-02-04T13:01:33+00:00
+! Version: 2.1.20.25
+! TimeUpdated: 2024-02-04T17:01:39+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -28869,6 +28869,7 @@ browsershots.org#@#.advert_area
 ||23.109.87.
 ||0rv1wtduj.com^$popup
 ||1ts17.top^$popup
+||1xlite-579542.top^$popup
 ||24-sportnews.com^$popup
 ||24click.top^$popup
 ||26485.top^$popup
@@ -33198,6 +33199,7 @@ google.ac,google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,
 msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
 msn.com##.articlePage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.bannerAdContainer-DS-EntryPoint1-1
+msn.com##.consumption-page-banner-wrapper
 msn.com##.galleryPage_eoabContent_new-DS-EntryPoint1-1
 msn.com##.galleryPage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.intra-article-ad-full
