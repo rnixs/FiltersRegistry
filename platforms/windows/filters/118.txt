@@ -1,14 +1,14 @@
-! Checksum: Q95ej3plxrlCgU5EsGMOzQ
-! Diff-Path: ../patches/118/118-s-1707037632-14400.patch
+! Checksum: KURzlbll1YnAF7mWBaDlvg
+! Diff-Path: ../patches/118/118-s-1707052029-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.21.51
-! TimeUpdated: 2024-02-04T09:01:58+00:00
+! Version: 2.1.21.52
+! TimeUpdated: 2024-02-04T13:01:54+00:00
 ! Expires: 12 hours (update frequency)
 !
-! OriginalVersion: 202402040828
+! OriginalVersion: 202402041215
 ! Title: EasyPrivacy
-! Last modified: 04 Feb 2024 08:28 UTC
+! Last modified: 04 Feb 2024 12:15 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -13063,6 +13063,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||embed.reddit.com/svc/shreddit
 ||engagefront.meteomedia.com^
 ||engagefront.theweathernetwork.com^
+||engagement.feedly.com^
 ||engine.traceparts.com^
 ||engineering.com/scripts/$script,domain=eng-tips.com
 ||eproof.drudgereport.com^
@@ -13123,6 +13124,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fc2.com/ana/processor.php?
 ||fc2.com/counter_img.php?
 ||fdt.kraken.com^
+||feedly.com/mxpnl/
 ||femetrics.grammarly.io^
 ||figma.com/api/figment-proxy/
 ||filext.com/pageview^
@@ -13464,6 +13466,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nasi.etherscan.com^
 ||nature.com/platform/track/
 ||naukrigulf.com/ni/nibms/bms_display.php
+||navan.com/api/analytics
 ||nbarizona.com/metrics/
 ||nbc.com/webevents/
 ||nbcnews.com/_next/static/chunks/ads.$script,domain=msnbc.com|nbcnews.com
@@ -41983,6 +41986,7 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ||kwgs.letudiant.fr^
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-sentry/lc-sentry.js
+||lacoccinelle.net/tools.js
 ||laposte.fr/cdp/events?
 ||ldlc.com/V4px/js/ldlcmachine.js
 ||leboncoin.fr/rav-monitoring/

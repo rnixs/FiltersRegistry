@@ -1,9 +1,9 @@
-! Checksum: 7zUyr34LQcfa60nN6JR+kw
-! Diff-Path: ../patches/233_optimized/233_optimized-s-1706908114-14400.patch
+! Checksum: 8aBrMLmGk8yzYr3USZbdrQ
+! Diff-Path: ../patches/233_optimized/233_optimized-s-1707051988-14400.patch
 ! Title: Adblock List for Finland (Optimized)
 ! Description: Finnish ad blocking filter list.
-! Version: 2.0.10.79
-! TimeUpdated: 2024-02-02T21:04:53+00:00
+! Version: 2.0.10.80
+! TimeUpdated: 2024-02-04T13:02:43+00:00
 ! Expires: 5 days (update frequency)
 ampparit.com##.ad-slot
 ap-cdn.sanomagames.com##.banner-slot-preroll
@@ -1195,7 +1195,7 @@ verkkouutiset.fi##article.rp-lift.featured-post
 verkkouutiset.fi##section[id^="front-page-parade"]
 verkkouutiset.fi##section[id^="front_page_parade"]
 verkkouutiset.fi#?#.elementor-motion-effects-parent:has(.strossle-sidebar)
-verkkouutiset.fi#?#.elementor-section-height-default.elementor-section-boxed.elementor-element.elementor-top-section.elementor-section:has(.elementor-widget-shortcode:has(.vu-adlabel))
+verkkouutiset.fi#?#.elementor-widget-shortcode:has(.vu-adlabel)
 verkkouutiset.fi#?#article.featured-post:has-text(Mainos)
 vertaa.fi##[id|=gpt-slot-billboard]
 vertaa.fi#?#li[class^=cg-][data-role=items-list-item]:has(> div > [id^=gpt-slot-results-][id*=rectangle])
