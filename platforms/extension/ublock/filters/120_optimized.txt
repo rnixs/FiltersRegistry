@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qdNwKHQrBJ6ehzCu3D1w3Q
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1706994398-14400.patch
+! Checksum: 2yyItDZ1iip5CebaGvwMpg
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1707008800-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.79
-! TimeUpdated: 2024-02-03T21:01:53+00:00
+! Version: 2.0.18.80
+! TimeUpdated: 2024-02-04T01:01:57+00:00
 ! Expires: 5 days (update frequency)
 .id^*/ads_$domain=~cartalog.id
 .id^*/adv-$domain=~adv.kompas.id
@@ -2101,6 +2101,7 @@ tuntasonline.id#$?##block-bannervideo { remove: true; }
 tirto.id###bn-premium
 fajar.co.id###bottom_ads_holder
 batamnews.co.id,cakrawalantt.com,harianmerdeka.id,karawangnews.com,komentar.co,progresif.id,sukabuminews.net###btm_banner
+nu.or.id###carouselBanner
 fajar.co.id###closeAdsBtnx
 zuperdrive.my.id###directAds
 suara.com###div-ad-mobile_bacajuga

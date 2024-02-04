@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: vzfuyrBXbGzD80TC0gqD9Q
-! Diff-Path: ../patches/120/120-s-1706994398-14400.patch
+! Checksum: pleX0MKWr2jHA1TzoUqehg
+! Diff-Path: ../patches/120/120-s-1707008800-14400.patch
 ! Title: AdBlockID
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.79
-! TimeUpdated: 2024-02-03T21:01:53+00:00
+! Version: 2.0.18.80
+! TimeUpdated: 2024-02-04T01:01:57+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 24.2.19
+! OriginalVersion: 24.2.20
 ! Title: AdBlockID
 ! Description: Filter list that specifically removes adverts on Indonesian language websites.
-! Last modified: 03 Feb 2024 20:48 UTC
+! Last modified: 03 Feb 2024 21:59 UTC
 ! Expires: 1 days
 ! Homepage: https://github.com/realodix/AdBlockID
 .id^*/ads_$domain=~cartalog.id
@@ -2108,6 +2108,7 @@ tuntasonline.id#$?##block-bannervideo { remove: true; }
 tirto.id###bn-premium
 fajar.co.id###bottom_ads_holder
 batamnews.co.id,cakrawalantt.com,harianmerdeka.id,karawangnews.com,komentar.co,progresif.id,sukabuminews.net###btm_banner
+nu.or.id###carouselBanner
 fajar.co.id###closeAdsBtnx
 zuperdrive.my.id###directAds
 suara.com###div-ad-mobile_bacajuga

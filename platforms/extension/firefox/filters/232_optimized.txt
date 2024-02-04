@@ -1,9 +1,9 @@
-! Checksum: ortDJlOw+p7S8VAKiJHxTA
-! Diff-Path: ../patches/232_optimized/232_optimized-s-1706994385-14400.patch
+! Checksum: HvjD0NKPPCf7uzS1dBGx2w
+! Diff-Path: ../patches/232_optimized/232_optimized-s-1707008786-14400.patch
 ! Title: KAD - Anti-Scam (Optimized)
 ! Description: Filter that protects against various types of scams in the Polish network, such as mass text messaging, fake online stores, etc.
-! Version: 2.0.52.38
-! TimeUpdated: 2024-02-03T21:02:37+00:00
+! Version: 2.0.52.39
+! TimeUpdated: 2024-02-04T01:02:43+00:00
 ! Expires: 5 days (update frequency)
 !#safari_cb_affinity(security)
 ||1vulkanvegas.com^$all
@@ -8409,6 +8409,7 @@
 ||auta-wilk.pl^$all
 ||auta-winiarski.pl^$all
 ||auta-witowski.pl^$all
+||auta-wloczynski.pl^$all
 ||auta-wojtas.pl^$all
 ||auta-wolski.pl^$all
 ||auta-wyprzedaz.pl^$all
@@ -8554,6 +8555,7 @@
 ||autogielda-zawadzka.pl^$all
 ||autogielda-ziemianowicz.pl^$all
 ||autogielda-zietek.pl^$all
+||autogielda-ziezynski.pl^$all
 ||autohandel-boniek.pl^$all
 ||autohoop.pl^$all
 ||autoinformacja.com^$all
@@ -19159,6 +19161,7 @@
 ||ef92-d2.cfd^$all
 ||ef24874db98402421c97165a4cf1c434.actgro.pl^$all
 ||ef-24d.cfd^$all
+||ef-erlsb.cfd^$all
 ||efaleb.com^$all
 ||efd.tradepeoplexf.top^$all
 ||efe.coolplattf.top^$all
@@ -49605,6 +49608,7 @@
 ||sprawa-800407-wzglad.info03.pl^$all
 ||sprawa-801983-raport.info03.pl^$all
 ||sprawa-kata.eu^$all
+||sprawa-konto-powiadomianie.netlify.app^$all
 ||sprawa-reportera.eu^$all
 ||sprawa-wagi.eu^$all
 ||sprawareporter.click^$all
