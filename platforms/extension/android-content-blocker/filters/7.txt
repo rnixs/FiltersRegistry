@@ -1,9 +1,9 @@
-! Checksum: dXJMx/zuREsoQKq5GcMi6A
-! Diff-Path: ../patches/7/7-s-1707057340-3600.patch
+! Checksum: yEXDaif1a2Ko2oVswlU1Aw
+! Diff-Path: ../patches/7/7-s-1707060951-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.21
-! TimeUpdated: 2024-02-04T14:33:13+00:00
+! Version: 2.0.48.22
+! TimeUpdated: 2024-02-04T15:33:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1363,6 +1363,7 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+.tk/windows~activation-error/$document
 .com/YWJjZDAwMDU3P$document
 ://rakuten.*.cn/*/login.php^$document
 ://jp-*-*.s3.ap-*.amazonaws.com/*-*-*-*-*-*-*/index.html$document
@@ -1398,7 +1399,7 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /?type=lp001&afl=$document
 /?wt=*&adv=$document
 /^https:\/\/\d*juniorlak[0-9a-z]+\.[a-z]{2}\.com\//$document,domain=sa.com|ru.com|za.com
-://www.smtd.jp.*.com/$document
+://www.smtd.*.com/client_*/index.php$document
 ://amazon-co-jp.*.com/$document
 ://smfg-card.com.$document
 ://www.mynumberpoint.*.com/$document
