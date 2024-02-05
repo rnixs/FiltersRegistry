@@ -1,9 +1,9 @@
-! Checksum: 9q96FFdZuR8z4skXH1j8oA
-! Diff-Path: ../patches/19/19-s-1707111359-3600.patch
+! Checksum: SEORHmij4644jfgrGmYMTQ
+! Diff-Path: ../patches/19/19-s-1707114968-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.8
-! TimeUpdated: 2024-02-05T05:31:53+00:00
+! Version: 2.0.31.9
+! TimeUpdated: 2024-02-05T06:31:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4374,6 +4374,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+democracydocket.com###alert-bar
 ncars.com.ua##.lkdm_vw__container
 nytimes.com###app > div > div[data-testid="onsite-messaging-unit-gateway"]:has(a[href^="https://www.nytimes.com/subscription?"])
 mobile-hoken.com##.popup._active

@@ -1,0 +1,39 @@
+d1 2
+a2 2
+! Checksum: BcGnj17GwAY0TZtX4+2eVw
+! Diff-Path: ../patches/2/2-s-1707114980-3600.patch
+d5 2
+a6 2
+! Version: 2.3.20.80
+! TimeUpdated: 2024-02-05T06:32:38+00:00
+a7598 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/172212
+d7601 1
+a7601 1
+lootdest.com,loot-link.com,lootlinks.co,loot-links.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+a29877 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/172212
+d29881 2
+a29882 2
+lootdest.com,loot-link.com,lootlinks.co,loot-links.com#%#//scriptlet('prevent-window-open', '', '5')
+lootdest.com,loot-link.com,lootlinks.co,loot-links.com#%#AG_onLoad((function(){const t=PUBLISHER_LINK;if("string"==typeof t)if(t.startsWith("http"))location.assign(PUBLISHER_LINK);else{const n=((t,n=5)=>{try{const o=atob(t),r=o.substring(0,n),s=o.substring(n);let i="";for(let t=0;t<s.length;t++){const n=s.charCodeAt(t),o=n^r.charCodeAt(t%r.length);i+=String.fromCharCode(o)}return i}catch(t){return console.error(`Invalid input: ${t}`),null}})(t);n&&n.startsWith("http")&&location.assign(n)}}));
+a86825 1
+||akqktwdk.xyz^
+a90571 1
+||cesebtp.com^
+a91667 1
+||coptisphraser.top^
+a97496 1
+||gragleek.com^
+a100470 1
+||jjahvmjatfpj.com^
+a105984 1
+||opatacarnal.top^
+a108992 1
+||qqguvmf.com^
+a109133 1
+||qwyoxrmhep.com^
+a110143 1
+||rmervvazoakba.top^
+a117180 1
+||woujaupi.xyz^
