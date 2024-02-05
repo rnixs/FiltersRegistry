@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8bMfk1EuQMRnPeGgrHB0dA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707129503-3600.patch
+! Checksum: VcX3h6juQFSWiNhNUore9Q
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707132985-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.20.84
-! TimeUpdated: 2024-02-05T10:32:47+00:00
+! Version: 2.3.20.85
+! TimeUpdated: 2024-02-05T11:32:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1497,6 +1497,8 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||ads.videy.co^
+||ads.sportslocalmedia.com^
 ||ads.tvp.pl^
 ||ads.environmentalleader.com^
 ||edge.ads.twitch.tv^
@@ -7303,6 +7305,7 @@ yoykp.com#@#ins.adsbygoogle
 yoykp.com#$#body ins.adsbygoogle { display: block !important; }
 yoykp.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171651
+mhdsportstv.com##+js(abort-on-stack-trace, DOMTokenList.prototype.contains, manageBodyClasses)
 mhdsportstv.com##+js(addEventListener-defuser, DOMContentLoaded, adsSrc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171597
 streamer4u.site##+js(no-fetch-if, pagead2.googlesyndication.com)

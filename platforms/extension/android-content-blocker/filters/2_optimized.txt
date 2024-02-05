@@ -1,9 +1,9 @@
-! Checksum: qsFU6PohHmUasHBjUSST+w
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1707129384-3600.patch
+! Checksum: kjBn/QYn6GRPYXJmYgph9Q
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1707132958-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.20.84
-! TimeUpdated: 2024-02-05T10:32:47+00:00
+! Version: 2.3.20.85
+! TimeUpdated: 2024-02-05T11:32:51+00:00
 ! Expires: 5 days (update frequency)
 ||monthcurrencybeam.com^
 ||begracetindery.com^
@@ -389,6 +389,8 @@
 ||amgload.net^$third-party,badfilter
 ||d71e6dd31a026d45.com$popup
 ||adconsent.samsungrs.com^
+||ads.videy.co^
+||ads.sportslocalmedia.com^
 ||ads.tvp.pl^
 ||ads.environmentalleader.com^
 ||edge.ads.twitch.tv^
@@ -24178,6 +24180,7 @@ browsershots.org#@#.advert_area
 ||affiz.net^
 ||afflat3a1.com^
 ||afflat3d2.com^
+||afflat3e1.com^
 ||affluentretinueelegance.com^
 ||affmoneyy.com^
 ||affoutrck.com^
@@ -25348,6 +25351,7 @@ browsershots.org#@#.advert_area
 ||buteostrowane.com^
 ||butnefso.com^
 ||buttersource.com^
+||buythetool.co^
 ||buzffovvq.com^
 ||buzzardcraizey.com^
 ||buzzdancing.com^
@@ -25671,6 +25675,7 @@ browsershots.org#@#.advert_area
 ||choogeet.net^
 ||choomsiesurvey.top^
 ||chooxaur.com^
+||choseing.com^
 ||choto.xyz^
 ||choughigrool.com^
 ||choupsee.com^
@@ -25891,6 +25896,7 @@ browsershots.org#@#.advert_area
 ||connectad.io^
 ||connextra.com^
 ||conoret.com^
+||conqueredallrightswell.com^
 ||conquereddestination.com^
 ||consternationmysticalstuff.com^
 ||consukultingeca.com^
@@ -29119,6 +29125,8 @@ browsershots.org#@#.advert_area
 ||kaiu-marketing.com^
 ||kalseech.xyz^
 ||kamachilinins.com^
+||kaminari.space^
+||kaminari.systems^
 ||kangaroohiccups.com^
 ||kaoelsng.com^
 ||karandacotised.com^
@@ -30847,6 +30855,7 @@ browsershots.org#@#.advert_area
 ||onetouch19.com^
 ||onetouch20.com^
 ||onetouch22.com^
+||onetouch26.com^
 ||onetouch4.com^
 ||onetouch8.info^
 ||onevenadvnow.com^
@@ -35093,14 +35102,17 @@ browsershots.org#@#.advert_area
 ||binaryborrowedorganized.com^$popup
 ||blehcourt.com^$popup
 ||bongacams.com^$popup,third-party
+||buythetool.co^$popup
 ||candyoffers.com^$popup
 ||cdn4ads.com^$popup
 ||certainlydisparagewholesome.com^$popup
 ||chikaveronika.com^$popup
+||choseing.com^$popup
 ||clickwork7secure.com^$popup
 ||clixcrafts.com^$popup
 ||cn846.com^$popup
 ||condles-temark.com^$popup
+||conqueredallrightswell.com^$popup
 ||cudgeletc.com^$popup
 ||dblueclaockbro.info^$popup
 ||dexpredict.com^$popup
@@ -35168,6 +35180,7 @@ browsershots.org#@#.advert_area
 ||memunicate.com^$popup
 ||messenger-notify.xyz^
 ||mgid.com^$popup
+||moveyourbackup.co^$popup
 ||mungfali.com^$popup
 ||muzzlematrix.com^$popup
 ||myadsserver.com^$popup
@@ -35182,6 +35195,7 @@ browsershots.org#@#.advert_area
 ||onclickmega.com^$popup
 ||onclickperformance.com^$popup
 ||oneegrou.net^$popup
+||onetouch26.com^$popup
 ||ontreck.cyou^$popup
 ||ophisrebrown.top^$popup
 ||optimizesrv.com^$popup
@@ -35207,6 +35221,7 @@ browsershots.org#@#.advert_area
 ||s0cool.net^$popup
 ||sabotageharass.com^$popup
 ||sardineforgiven.com^$popup
+||saveourspace.co^$popup
 ||smartcj.com^$popup
 ||smartlphost.com^$popup
 ||spongemilitarydesigner.com^$popup
@@ -35237,6 +35252,7 @@ browsershots.org#@#.advert_area
 ||tributesexually.com^$popup
 ||troopsassistedstupidity.com^$popup
 ||tropbikewall.art^$popup
+||troublesomeleerycarry.com^$popup
 ||tsyndicate.com^$popup
 ||twinklecourseinvade.com^$popup
 ||tzaqkp.com^$popup
