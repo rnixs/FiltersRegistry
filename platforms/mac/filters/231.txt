@@ -1,15 +1,15 @@
-! Checksum: XA94QKohqUIPh8A0M93GQQ
-! Diff-Path: ../patches/231/231-s-1707152825-14400.patch
+! Checksum: jklc7kbIr/gGp29CjoNwiQ
+! Diff-Path: ../patches/231/231-s-1707167216-14400.patch
 ! Title: EasyList Spanish
 ! Description: Additional filter list for websites in Spanish.
-! Version: 2.1.43.30
-! TimeUpdated: 2024-02-05T17:02:33+00:00
+! Version: 2.1.43.31
+! TimeUpdated: 2024-02-05T21:02:37+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: GUjkjiBP9ZrxM3QpHDrt3w
-! OriginalVersion: 202402051651
+! Checksum: 6WTqQk87GW1O14lnubP8zw
+! OriginalVersion: 202402052051
 ! Title: EasyList Spanish
-! Last modified: 05 Feb 2024 16:51 UTC
+! Last modified: 05 Feb 2024 20:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1494,6 +1494,8 @@ eleconomista.es##.bannerIntermedio
 clarin.com##.bannerTopHeader
 chilevision.cl##.banner_full
 elperiodicodeaqui.com##.banner_lat
+wiselwisel.com##.banner_superior
+wiselwisel.com##.banner_widget
 gasteizhoy.com##.bannerclick
 eleconomista.es##.banners-superiores2
 iproup.com##.bannerwide
@@ -1663,6 +1665,7 @@ portafolio.co##.pauta__billboard
 visortmo.com##.pba
 visortmo.com##.pbb
 visortmo.com##.pbc
+visortmo.com##.pbd
 otakuteca.com,planetaneperian.com,todomecanica.com,vgrecipes.com##.pbl
 espaebook2.com##.perfbtn
 otakustv.com##.pestana_footer
