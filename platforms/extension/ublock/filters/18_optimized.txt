@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: dBl0G8L8cyzui4i15onGfg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1707122177-3600.patch
+! Checksum: O1DAssqcv2Sa+nTonLM44A
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1707125790-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.68
-! TimeUpdated: 2024-02-05T08:31:59+00:00
+! Version: 2.0.32.69
+! TimeUpdated: 2024-02-05T09:32:09+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -819,6 +819,7 @@
 !#######################################################
 !######### General URL blocking rules ##################
 !#######################################################
+||cookieparty.eu^$third-party
 ||gatekeeperconsent.com^$third-party
 /smart-eu-cookies.min.js
 ||bundles.efilli.com^$third-party
@@ -1381,7 +1382,7 @@ gov.lv##+js(set-cookie, allowCookies, 0)
 flip.bg#$?#div[id$="_modal_outer_"]:has(> .cookie-modal) { display: none !important; }
 flip.bg#$#.modal-open { overflow: auto !important; }
 newsflare.com##.nf-cookie-consent
-itvbd.com##.cookies-eu-banner
+geratrium.ch,itvbd.com##.cookies-eu-banner
 withhive.com##.gdpr_cookie
 visme.co##.vismecookie
 quillbot.com##+js(set-local-storage-item, showPrivacyBannerNov2023, false)

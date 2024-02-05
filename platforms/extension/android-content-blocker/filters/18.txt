@@ -1,9 +1,9 @@
-! Checksum: xnSN3vliskNlNu9YO/OPGw
-! Diff-Path: ../patches/18/18-s-1707122147-3600.patch
+! Checksum: PK5NZ6b9gLOpt1uQG0xcnA
+! Diff-Path: ../patches/18/18-s-1707125762-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.68
-! TimeUpdated: 2024-02-05T08:31:59+00:00
+! Version: 2.0.32.69
+! TimeUpdated: 2024-02-05T09:32:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1665,6 +1665,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+||cookieparty.eu^$third-party
 ||gatekeeperconsent.com^$third-party
 /smart-eu-cookies.min.js
 ||bundles.efilli.com^$third-party
@@ -2507,7 +2508,7 @@ flip.bg#$#.modal-open { overflow: auto !important; }
 ekokoza.*#$##CookiesConfirmation { display: none !important; }
 ekokoza.*#$#body { overflow: auto !important; }
 newsflare.com##.nf-cookie-consent
-itvbd.com##.cookies-eu-banner
+geratrium.ch,itvbd.com##.cookies-eu-banner
 topsporter.net##.penci-wrap-gprd-law
 baltimoresun.com##.osano-cm-dialog-custom
 blue.vanmarcke.com#$##cookieModal { display: none !important; }

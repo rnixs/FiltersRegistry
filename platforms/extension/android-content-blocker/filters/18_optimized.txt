@@ -1,9 +1,9 @@
-! Checksum: FwV0kACIFhtjQzKuy5R1rw
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1707122147-3600.patch
+! Checksum: dEEqVUJhaJQncx5dlT1S7w
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1707125762-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.68
-! TimeUpdated: 2024-02-05T08:31:59+00:00
+! Version: 2.0.32.69
+! TimeUpdated: 2024-02-05T09:32:09+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -818,6 +818,7 @@
 !#######################################################
 !######### General URL blocking rules ##################
 !#######################################################
+||cookieparty.eu^$third-party
 ||gatekeeperconsent.com^$third-party
 /smart-eu-cookies.min.js
 ||bundles.efilli.com^$third-party
@@ -1338,7 +1339,7 @@ re1999.bluepoch.com##.cookie-cont
 audiobooksnow.com##.sticky_consent_footer
 flip.bg#$#.modal-open { overflow: auto !important; }
 newsflare.com##.nf-cookie-consent
-itvbd.com##.cookies-eu-banner
+geratrium.ch,itvbd.com##.cookies-eu-banner
 withhive.com##.gdpr_cookie
 visme.co##.vismecookie
 movavi.com,movavi.ru##.v-privacy-policy-popup
