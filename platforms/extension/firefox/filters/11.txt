@@ -1,9 +1,9 @@
-! Checksum: GRqtS6Zrm+xlXr4LznlwHg
-! Diff-Path: ../patches/11/11-s-1707118560-3600.patch
+! Checksum: rpjlKssusLrgjNIO92yq4w
+! Diff-Path: ../patches/11/11-s-1707122160-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.48.93
-! TimeUpdated: 2024-02-05T07:31:24+00:00
+! Version: 2.0.48.94
+! TimeUpdated: 2024-02-05T08:31:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -221,6 +221,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||ads*.textra.me^
 ||diopousg.com^
 ||ruuaqkw.com^
 ||ads-*-nfl.yinzcam.com^
@@ -322,7 +323,7 @@
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||thecatmachine.com^
 ||blueduckredapple.com^
-||cdn.mobilefuse.com^
+||mobilefuse.com^
 ||api-ad-callback.mobiuspace.net
 ||hb.rayjump.com^
 ||gdl.i9dhjx.ru^
@@ -1802,6 +1803,7 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 ! Repeated requests, two or more in one second if blocked - https://old.reddit.com/r/Adguard/comments/ztbv96/how_do_i_stop_this_my_phone_is_overheating_and/
 ! https://old.reddit.com/r/Adguard/comments/18s9snu/api2branch_causing_cpu_overheat/
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/171942
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167921
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162304
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162044

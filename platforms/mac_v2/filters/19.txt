@@ -1,9 +1,9 @@
-! Checksum: +bHDj/DvqDJ+LvuGP5u+3g
-! Diff-Path: ../patches/19/19-s-1707118601-3600.patch
+! Checksum: 1iB9G/m5j3imNKlxZdXZBg
+! Diff-Path: ../patches/19/19-s-1707122193-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.10
-! TimeUpdated: 2024-02-05T07:31:55+00:00
+! Version: 2.0.31.11
+! TimeUpdated: 2024-02-05T08:32:02+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11366,6 +11366,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 ! SECTION: Push notifications - Regular rules
 !
 ! push
+gameguru.ru###webpush-wrapper
 outlook.live.com#$##BottomSheetAnimatedOVERLAY_BANNER { display: none !important; }
 outlook.live.com#$#body { overflow:auto !important; }
 hnonline.sk##.piano-pushnotify--hnonline
@@ -16957,7 +16958,7 @@ christianity.com##.newsletter-390
 jansatta.com##div[id^="id_newsletter_subscription"]
 cbsnews.com##div[title*="Get the Newsletter"]
 livehindustan.com##.nletter-cont
-itcstore.in,farmasave.it##.wrapper-newsletter
+kisene.com,itcstore.in,farmasave.it##.wrapper-newsletter
 vawoo.co.uk##.footer-stay-connected
 timesofindia.indiatimes.com##.toinewsletternudge
 eisamay.com,maharashtratimes.com,navbharattimes.indiatimes.com##.wdt_newsLetter

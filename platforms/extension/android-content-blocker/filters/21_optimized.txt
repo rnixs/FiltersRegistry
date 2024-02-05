@@ -1,12 +1,13 @@
-! Checksum: UEVELzsIiG1T9mkJxGZvRA
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1707118544-3600.patch
+! Checksum: SthyS2Jnl0PCig1UTMeskA
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1707122149-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.38
-! TimeUpdated: 2024-02-05T07:32:07+00:00
+! Version: 2.0.19.39
+! TimeUpdated: 2024-02-05T08:32:16+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com##._aagw:empty
+sports.kz##div.stories_
 ||geo.dailymotion.com/libs/player/$domain=cosmopolitan.fr
 cosmopolitan.fr##.VideoGroup
 marketing-interactive.com##a.full-skin-image__desktop-banner
