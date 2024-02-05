@@ -1,9 +1,9 @@
-! Checksum: oV6mJCexQJZw3XdPtduxiQ
-! Diff-Path: ../patches/13/13-s-1707125794-3600.patch
+! Checksum: gZr7NnCjfInU8lpkSHD4zw
+! Diff-Path: ../patches/13/13-s-1707140218-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.49.83
-! TimeUpdated: 2024-02-05T09:31:44+00:00
+! Version: 2.0.49.84
+! TimeUpdated: 2024-02-05T13:31:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5902,6 +5902,17 @@ isguc.org##td[width="200"] a[target="_blank"] img[width="200"][alt]
 ||ulasimonline.com/*/banner/
 ||vidout.net/vidoutMedia/ads/
 ||bolununsesi.com/ilangorsel/
+!
+! xyzsports - frequently changed domains
+||xyzsports113.xyz/assets/images/ras/
+||xyzsports113.xyz/assets/images/das/
+||xyzsports113.xyz/assets/images/bcd/
+||xyzsports113.xyz/assets/images/pgskn_hovarda.jpeg
+||xyzsprtsfrmr1.site/assets/images/das/*.gif
+xyzsports113.xyz###sticky-footer
+xyzsports113.xyz###banners
+xyzsports113.xyz##.headbar
+xyzsprtsfrmr1.site#%#//scriptlet('set-constant', 'adsConfigs.0.enabled', '0')
 !
 ! superbetin*.com - frequently changed domains
 ||sport.superbetin*.com/Common/GetSportBanners?deviceType=

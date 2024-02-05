@@ -1,9 +1,9 @@
-! Checksum: RQVUGtoc54ElJz9aKiX4gg
-! Diff-Path: ../patches/19/19-s-1707136620-3600.patch
+! Checksum: wzDEkfnoyKHNUEeiycvNFg
+! Diff-Path: ../patches/19/19-s-1707140225-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.14
-! TimeUpdated: 2024-02-05T12:32:07+00:00
+! Version: 2.0.31.15
+! TimeUpdated: 2024-02-05T13:32:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2531,6 +2531,7 @@ samfw.com###block-mess
 samfw.com###block-mess ~ div.holder
 sanalkurs.net#$#.advert { height: 1px!important; }
 satelliteguys.us#%#//scriptlet("set-constant", "adBlockDetected", "false")
+savevideo.me#%#//scriptlet("prevent-setTimeout", "function() { if ((($('.y_banner #b0').length < 1", "2000")
 savevideo.me#%#//scriptlet('abort-current-inline-script', '$', 'Please disable "ad blocker"')
 scantrad.net#%#//scriptlet("set-constant", "canRunAds", "true")
 schwaebische.de##.goodies
