@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0lqvTMEj2T+mkwR2zZQFsQ
-! Diff-Path: ../patches/18/18-s-1707150988-3600.patch
+! Checksum: 4g7aGbdKvZjwUaMuaBoWKw
+! Diff-Path: ../patches/18/18-s-1707154572-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.71
-! TimeUpdated: 2024-02-05T16:32:07+00:00
+! Version: 2.0.32.72
+! TimeUpdated: 2024-02-05T17:32:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2330,6 +2330,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+developer.twitter.com##.u12-data-protection-notice__item
 modpda.com##.message_warn
 bcb.gov.br##bcb-cookies
 litres.ru##div[data-testid="cookieAcceptPopup"]
