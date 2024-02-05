@@ -1,9 +1,9 @@
-! Checksum: W2TMr8qiTz0LlDGdLcXDNw
-! Diff-Path: ../patches/4/4-s-1707129498-3600.patch
+! Checksum: XTfxnpq+pZIIgX9SB1RRbQ
+! Diff-Path: ../patches/4/4-s-1707150987-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.11
-! TimeUpdated: 2024-02-05T10:33:00+00:00
+! Version: 2.0.97.12
+! TimeUpdated: 2024-02-05T16:33:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -920,7 +920,7 @@ racinggames.gg##.article-float-buttons > button[aria-label="article share"]
 blog.1password.com#?##commentswrapper:has(> .commentswrapper-heading:only-child > a[href*="share"]:only-child)
 pjsekai.sega.jp##.fix-sns
 discoveryjapan.jp##.st-aa-sharewrap
-delfi.lv##.article-social
+delfi.ee,delfi.lv##.article-social
 baby-calendar.jp#?#.col-md-6 > .gutter-mtb:has(> a.button.bgc-line)
 ayataka.jp##.kanbayasi-socail
 iecolle.com##.linefriend-bnr
