@@ -1,16 +1,16 @@
-! Checksum: ImJuR6aY7YMKbnH2MDhz7w
-! Diff-Path: ../patches/244/244-s-1707052021-14400.patch
+! Checksum: GD7SrgAMw4fXVnXz2kn3Ug
+! Diff-Path: ../patches/244/244-s-1707124023-14400.patch
 ! Title: YousList
 ! Description: Filter that blocks ads on Korean sites.
-! Version: 2.0.10.42
-! TimeUpdated: 2024-02-04T13:02:57+00:00
+! Version: 2.0.10.43
+! TimeUpdated: 2024-02-05T09:02:59+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Homepage: https://github.com/yous/YousList
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! OriginalVersion: 20240130
+! OriginalVersion: 20240205
 ! General element hiding rules
 ##amp-ad
 ##amp-embed.ad_cnt
@@ -7426,6 +7426,7 @@ yepan.net##div[id^="left_ad_box_"]
 yepan.net##div[id^="pb_tab_banner"]
 yes24.com##div#divYes24SCMEvent
 ygosu.com##body>div[style="position:relative; width: 975px; margin: 0 auto;"]
+ygosu.com##div#clickmon_bottom
 ygosu.com##div#contain>div[style="margin-bottom: 8px;  height:258px"]
 ygosu.com##div.ad700
 ygosu.com##div.alliance_ad
