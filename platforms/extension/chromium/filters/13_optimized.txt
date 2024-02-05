@@ -1,9 +1,9 @@
-! Checksum: Uwb5jT1L91vdOXdLl4Myxw
-! Diff-Path: ../patches/13_optimized/13_optimized-s-1707143778-3600.patch
+! Checksum: 1AwBA1DOY18T1t7tmXZDZg
+! Diff-Path: ../patches/13_optimized/13_optimized-s-1707147352-3600.patch
 ! Title: AdGuard Turkish filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.49.85
-! TimeUpdated: 2024-02-05T14:31:39+00:00
+! Version: 2.0.49.86
+! TimeUpdated: 2024-02-05T15:31:34+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};

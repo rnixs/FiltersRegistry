@@ -1,9 +1,9 @@
-! Checksum: mfBktOYaektKwqc2apP3TA
-! Diff-Path: ../patches/19/19-s-1707140220-3600.patch
+! Checksum: fV340IJJKJV7KfHs3J3FyA
+! Diff-Path: ../patches/19/19-s-1707147383-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.15
-! TimeUpdated: 2024-02-05T13:32:10+00:00
+! Version: 2.0.31.16
+! TimeUpdated: 2024-02-05T15:32:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11615,6 +11615,8 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 ! SECTION: Push notifications - Regular rules
 !
 ! push
+strannikmodz.me##body > div.sp-prompt.sp-modal.show-prompt + div.sp-prompt-backdrop
+strannikmodz.me##body > div.sp-prompt
 gameguru.ru###webpush-wrapper
 outlook.live.com#$##BottomSheetAnimatedOVERLAY_BANNER { display: none !important; }
 outlook.live.com#$#body { overflow:auto !important; }

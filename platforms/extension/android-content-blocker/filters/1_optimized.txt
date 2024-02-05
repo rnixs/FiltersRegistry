@@ -1,9 +1,9 @@
-! Checksum: UiU4FRCwMtP79edLLWhKnA
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1707111334-3600.patch
+! Checksum: VLmdcMtJDIAX41DI0Fu7SQ
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1707147349-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.35
-! TimeUpdated: 2024-02-05T05:32:03+00:00
+! Version: 2.0.88.36
+! TimeUpdated: 2024-02-05T15:32:12+00:00
 ! Expires: 5 days (update frequency)
 .com/services/?id=$script,third-party
 /resources/js/sticker.js?$third-party
@@ -2045,6 +2045,7 @@ sinoptik.ua#$#head > style[id]:empty { background-image: none !important; }
 modsforwot.ru,vargr.ru,trialkeys.ru#@#.AdSense
 modsforwot.ru,vargr.ru,trialkeys.ru#@#iframe[width="728"][height="90"]
 modsforwot.ru,vargr.ru,trialkeys.ru#@#img[width="728"][height="90"]
+@@||yandex.ru/ads/system/context.js$domain=tvzvezda.ru
 @@||textovod.com/images/728x90.png
 @@||textovod.com/images/ads.png
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
