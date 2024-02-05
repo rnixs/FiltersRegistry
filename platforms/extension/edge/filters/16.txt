@@ -1,9 +1,9 @@
-! Checksum: 9hZCdeDr7w+Ta9yPxI+dZQ
-! Diff-Path: ../patches/16/16-s-1707118554-3600.patch
+! Checksum: g+sYfV7iHO0cRuawbBiVAQ
+! Diff-Path: ../patches/16/16-s-1707129418-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.24
-! TimeUpdated: 2024-02-05T07:31:49+00:00
+! Version: 2.0.43.25
+! TimeUpdated: 2024-02-05T10:31:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -867,6 +867,8 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+h2-mobile.fr#?##main-container .blog__content:has(> .title-wrap--pr > h3:contains(Annonces))
+h2-mobile.fr###main-container .blog__content:has(> .col-md-4 > div[id^="optidigital-adslot-"])
 cosmopolitan.fr##.External
 /japs/*_1200x2000_banner_fr.jpg$domain=japscan.lol
 ||japscan.lol/ujs/$script
