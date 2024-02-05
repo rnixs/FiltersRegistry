@@ -1,9 +1,9 @@
-! Checksum: sBtUWNt5TWDAUozXTVdayw
-! Diff-Path: ../patches/19/19-s-1707132956-3600.patch
+! Checksum: oXYE+n01nKlf85RiTt9JPg
+! Diff-Path: ../patches/19/19-s-1707136569-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.13
-! TimeUpdated: 2024-02-05T11:32:07+00:00
+! Version: 2.0.31.14
+! TimeUpdated: 2024-02-05T12:32:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12627,7 +12627,7 @@ dev.miuiflash.com##center > a[target="_blank"][href="https://bit.ly/tglootdeals"
 360tv.ru##footer[class^="LinkZen_wrap"]
 ac-illust.com##.login__bar.bottom-0
 alisale.by##.telega-block
-timeextension.com###ui-join-newsletter
+nintendolife.com,timeextension.com###ui-join-newsletter
 humanevents.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 humanevents.com#$#.modal { display: none !important; }
 humanevents.com#$#.modal ~ div.modal-backdrop { display: none !important; }

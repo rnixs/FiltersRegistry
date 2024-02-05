@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: rft4GJ5sJREuR3dtC2YWfg
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1707132983-3600.patch
+! Checksum: 0ftLGbWSkg98B+tlYxRqIw
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1707136607-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.13
-! TimeUpdated: 2024-02-05T11:32:07+00:00
+! Version: 2.0.31.14
+! TimeUpdated: 2024-02-05T12:32:07+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -6250,7 +6250,7 @@ thehackernews.com#?#ul > li:has(> a[href="#email-outer"])
 360tv.ru##footer[class^="LinkZen_wrap"]
 alisale.by#?#div[id^="modal_mypopup_"]:has( a[href^="https://t.me/alisale_by"])
 alisale.by##.telega-block
-timeextension.com###ui-join-newsletter
+nintendolife.com,timeextension.com###ui-join-newsletter
 humanevents.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 humanevents.com#$#.modal { display: none !important; }
 humanevents.com#$#.modal ~ div.modal-backdrop { display: none !important; }

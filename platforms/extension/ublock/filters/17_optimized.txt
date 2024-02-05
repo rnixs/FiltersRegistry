@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: y3jLBCpcXIGRRyzQ4Nns4g
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1707086145-3600.patch
+! Checksum: tlXAjxbSwQVm1L3jbwAVCA
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1707136607-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.94
-! TimeUpdated: 2024-02-04T22:31:56+00:00
+! Version: 2.0.7.95
+! TimeUpdated: 2024-02-05T12:32:02+00:00
 ! Expires: 5 days (update frequency)
 $removeparam=cjdata
 $removeparam=cjevent
@@ -219,6 +219,8 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||streamable.com^$removeparam=src_internal
+||streamable.com^$removeparam=src_player
 ||smartrecruiters.com^$removeparam=km_adgroup
 ||smartrecruiters.com^$removeparam=km_matchtype
 ||smartrecruiters.com^$removeparam=km_partner

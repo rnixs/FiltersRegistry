@@ -1,9 +1,9 @@
-! Checksum: 1+yl5kLLA7vNXVp7MWC0gA
-! Diff-Path: ../patches/224/224-s-1707111387-3600.patch
+! Checksum: 4zqvvXLM+M2ss7iA3nid2A
+! Diff-Path: ../patches/224/224-s-1707136636-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.9.93
-! TimeUpdated: 2024-02-05T05:32:11+00:00
+! Version: 2.1.9.94
+! TimeUpdated: 2024-02-05T12:32:26+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1295,6 +1295,8 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+yibian.hopto.org##.yb-apng
+||yibian.hopto.org/apng/load.php$important
 ||d1.yingyongge.com/qmoshe.js
 ||d1.yingyongge.com/production/*/production/ihth.js
 ||d2.yingyongge.com/*?*&$subdocument

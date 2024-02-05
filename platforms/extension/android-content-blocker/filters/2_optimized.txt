@@ -1,9 +1,9 @@
-! Checksum: kjBn/QYn6GRPYXJmYgph9Q
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1707132958-3600.patch
+! Checksum: +BoD6z0PW2ypiUQKyyatTw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1707136571-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.20.85
-! TimeUpdated: 2024-02-05T11:32:51+00:00
+! Version: 2.3.20.86
+! TimeUpdated: 2024-02-05T12:32:52+00:00
 ! Expires: 5 days (update frequency)
 ||monthcurrencybeam.com^
 ||begracetindery.com^
@@ -6935,6 +6935,8 @@ a-ads.com##.aa_container
 linksvip.net##div[class^="banner-style-"]
 nhaccuatui.com##div[class^="adv_"]
 @@||facebook.com/share/share_now_menu/$domain=facebook.com
+!+ NOT_OPTIMIZED
+##.js_midbanner_ad_slot
 !+ NOT_OPTIMIZED
 ##.ad-slot-wrapper
 !+ NOT_OPTIMIZED
