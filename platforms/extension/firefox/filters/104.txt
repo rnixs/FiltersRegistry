@@ -1,9 +1,9 @@
-! Checksum: oHAwKt0sEHi8ZbDYP5ELEA
-! Diff-Path: ../patches/104/104-s-1707109594-14400.patch
+! Checksum: iB7csC0AoVkq/q4OOG6TcA
+! Diff-Path: ../patches/104/104-s-1707138396-14400.patch
 ! Title: EasyList China
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.34.72
-! TimeUpdated: 2024-02-05T05:01:37+00:00
+! Version: 2.1.34.73
+! TimeUpdated: 2024-02-05T13:01:37+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: EasyList China
@@ -1639,6 +1639,7 @@ newduba.cn###jq_youxi
 ##style + .a-loading
 ##style + .need_grid_img
 ##style + .vdgdo
+##._300x250.item
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##td[id^="td_"] > a[href^="/htmm/"]
 ##vg-pause-d > .vg-v-p
@@ -3396,6 +3397,7 @@ newduba.cn###jq_youxi
 ||yyyaih.icu^
 ||auerkbo.cn^
 ||clrjnhxi.xyz^
+||xlrjnhxi.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -16463,7 +16465,6 @@ lm-us.com#@#.advertisement_above_footer
 jd.com#@#.adwords
 epubit.com#@#.article_share
 dingdong.ganji.com#@#.banner
-xchina.co,xchina.fun,xchina.pro#@#.banner_ad
 ishangman.com#@#.bottom_ad
 douban.com#@#.download-ad
 typecho.wiki#@#.downloadad

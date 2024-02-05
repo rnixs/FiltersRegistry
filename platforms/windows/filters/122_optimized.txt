@@ -1,9 +1,9 @@
-! Checksum: vouZ0HXIMXWJ9r+5HoeE7w
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1707124032-14400.patch
+! Checksum: S4DqrDZ+IpqP/6TKUgEiVg
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1707138446-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.55
-! TimeUpdated: 2024-02-05T09:02:09+00:00
+! Version: 2.1.20.56
+! TimeUpdated: 2024-02-05T13:02:05+00:00
 ! Expires: 12 hours (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -12351,6 +12351,7 @@ softwarekeep.com##img[alt="Banner"]
 archdaily.com###article-navigation
 castanet.net###backtotop
 euractiv.com###bsf_rt_progress_bar_container
+xboxera.com###check-also-box
 inquirer.net###read-next-2018
 census.gov###thumbs_div
 tech.hindustantimes.com##.alsoReadSectionAppend
@@ -15477,8 +15478,8 @@ lolaliza.com#$#body,html { overflow: auto !important; position: initial !importa
 win2day.at#%#//scriptlet('ubo-rc.js', 'cookie-not-accepted-overlay', '', 'stay')
 win2day.at#$#body,html { height: auto !important; overflow: auto !important }
 espatur.net,finquesballesta.com,espana-holiday.com,bellmon.com,mynice-vacances.fr,benneckerent.ru,turistcasa.it,alaparisienne.com,inmobiliariacanovas.com,hometown.ae,tranquilityvillarentals.com,rickettsluxury.com,blauhousealquileres.com,priorityvillas.com,solaga.co.uk,coroacoroa.com,iberorentapartments.com,kazaportugal.com,homesud.fr,dreamhomesrentals.com,vivalidays.com,alquilervacationesempuriabrava.com,solaga.es,webvillas.nl,vakantiewoninghuurcostabrava.com,alpineinspirations.com,playa-vacaciones.com,benneckerent.es,qtur.pt,zeusapartamentos.es,benneckerent.fr,solaga.dk,webvillas.net,mallorca4rent.com,lloguervacancesempuriabrava.com,villasduma.com,ferienwohnungmietencostabrava.com,vitivola.com,travelhabitat.es#$#body,html { overflow: auto !important; position: initial !important; }
-edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,profesia.sk,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it###cc--main
-edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,profesia.sk,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it#$#body,html { overflow: auto !important; position: initial !important; }
+bgasecurity.com,edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,profesia.sk,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it###cc--main
+bgasecurity.com,edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,profesia.sk,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it#$#body,html { overflow: auto !important; position: initial !important; }
 whoohoo.pl#$#body,html { overflow: auto !important; position: initial !important; }
 puregoldprotein.com#$#body,html { overflow: auto !important; position: initial !important; }
 kidioui.fr#$#body,html { overflow: auto !important; position: initial !important; }
@@ -18571,8 +18572,8 @@ lolaliza.com#$#body,html { overflow: auto !important; position: initial !importa
 win2day.at#%#//scriptlet('ubo-rc.js', 'cookie-not-accepted-overlay', '', 'stay')
 win2day.at#$#body,html { height: auto !important; overflow: auto !important }
 espatur.net,finquesballesta.com,espana-holiday.com,bellmon.com,mynice-vacances.fr,benneckerent.ru,turistcasa.it,alaparisienne.com,inmobiliariacanovas.com,hometown.ae,tranquilityvillarentals.com,rickettsluxury.com,blauhousealquileres.com,priorityvillas.com,solaga.co.uk,coroacoroa.com,iberorentapartments.com,kazaportugal.com,homesud.fr,dreamhomesrentals.com,vivalidays.com,alquilervacationesempuriabrava.com,solaga.es,webvillas.nl,vakantiewoninghuurcostabrava.com,alpineinspirations.com,playa-vacaciones.com,benneckerent.es,qtur.pt,zeusapartamentos.es,benneckerent.fr,solaga.dk,webvillas.net,mallorca4rent.com,lloguervacancesempuriabrava.com,villasduma.com,ferienwohnungmietencostabrava.com,vitivola.com,travelhabitat.es#$#body,html { overflow: auto !important; position: initial !important; }
-edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,profesia.sk,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it###cc--main
-edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,profesia.sk,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it#$#body,html { overflow: auto !important; position: initial !important; }
+bgasecurity.com,edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,profesia.sk,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it###cc--main
+bgasecurity.com,edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,profesia.sk,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it#$#body,html { overflow: auto !important; position: initial !important; }
 whoohoo.pl#$#body,html { overflow: auto !important; position: initial !important; }
 puregoldprotein.com#$#body,html { overflow: auto !important; position: initial !important; }
 kidioui.fr#$#body,html { overflow: auto !important; position: initial !important; }
