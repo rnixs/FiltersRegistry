@@ -1,9 +1,9 @@
-! Checksum: lAcFIC6sbgX+CxY+3Xk4fg
-! Diff-Path: ../patches/18/18-s-1707096943-3600.patch
+! Checksum: V6ReilZhiXawfc2xRhnXuw
+! Diff-Path: ../patches/18/18-s-1707107736-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.64
-! TimeUpdated: 2024-02-05T01:32:00+00:00
+! Version: 2.0.32.65
+! TimeUpdated: 2024-02-05T04:31:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2321,6 +2321,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+bcb.gov.br##bcb-cookies
 litres.ru##div[data-testid="cookieAcceptPopup"]
 louwman.nl#$##cookie-policy { display: none !important; }
 louwman.nl#$#body { overflow: auto !important; }
