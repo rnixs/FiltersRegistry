@@ -1,9 +1,9 @@
-! Checksum: Kaq1nD2umr40UU3+6i0K0A
-! Diff-Path: ../patches/21/21-s-1707212254-3600.patch
+! Checksum: iDEFIM2U+bjnb0ul/9Y7cw
+! Diff-Path: ../patches/21/21-s-1707215804-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.44
-! TimeUpdated: 2024-02-06T09:32:12+00:00
+! Version: 2.0.19.45
+! TimeUpdated: 2024-02-06T10:32:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2885,6 +2885,8 @@ yasir252.com#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySe
 !
 !
 !
+thenewstack.io###tns-promo-voxpop
+thenewstack.io###tns-footer-bar
 zelvia.co.jp##.p-sticky > div.container > div.p-side_sticky
 sport5.by###news > div[style="margin-bottom: 50px; margin-top: -40px;"]
 istories.media##div[class^="SocialMediaBanner"]
@@ -3308,6 +3310,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! mydealz.de - "looking for new team members"
+mydealz.de##.cept-banner-id-148
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171856
 open-web-advocacy.org##.who-entry > .prom-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171979
