@@ -1,0 +1,29 @@
+d2 2
+a3 2
+! Checksum: 3TdeAkC/ICcCrAc4IJEyFA
+! Diff-Path: ../patches/2/2-s-1707230192-3600.patch
+d6 2
+a7 2
+! Version: 2.3.21.6
+! TimeUpdated: 2024-02-06T14:32:54+00:00
+a7295 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/172095
+toolkitspro.com##+js(abort-current-script, EventTarget.prototype.addEventListener, adsbygoogle.js)
+a7359 1
+@@||ytlarge.com/youtube/css/mnpw3.js
+a19381 7
+! https://github.com/AdguardTeam/AdguardFilters/issues/172298
+ggwp.id##.sticky-footer
+ggwp.id##a[href^="https://www.threads.net/"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/172297
+nontonanimeid.org##div[class^="adspost"]
+nontonanimeid.org##.banner_player
+nontonanimeid.org##.floating_footer
+a32805 2
+medibang.com#$#.mpcViewerAds { display: none !important; }
+medibang.com#$#body.mpc-modal-open { overflow: auto !important; }
+d116618 1
+d116624 1
+d116726 1
+a116847 1
+||sieglinde22.xyz^
