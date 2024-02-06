@@ -1,9 +1,9 @@
-! Checksum: 5s1/4cfc5gyXxS1Wc7HVew
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1707167223-14400.patch
+! Checksum: OhkFuMlbu/r93/JpX8kn8g
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1707181615-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.60
-! TimeUpdated: 2024-02-05T21:02:56+00:00
+! Version: 2.1.28.61
+! TimeUpdated: 2024-02-06T01:02:50+00:00
 ! Expires: 12 hours (update frequency)
 -consent-banner-
 -consent-banner.
@@ -21656,6 +21656,8 @@ greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 
 physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'allow')
 m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice', 'true')
 ivyexec.com#%#//scriptlet('ubo-set-cookie.js', 'COOKIE-POLICY-ACCEPT', 'true')
+kijiji.ca#%#//scriptlet('ubo-set-cookie.js', 'hdcab', 'true')
+posterstore.fr,posterstore.eu,posterstore.be,posterstore.de,posterstore.hu,posterstore.ie,posterstore.it,posterstore.no,posterstore.nl,posterstore.pl,posterstore.com,posterstore.ae,posterstore.ca,posterstore.nz,posterstore.es,posterstore.kr,posterstore.jp,posterstore.dk,posterstore.se,posterstore.ch,posterstore.at#%#//scriptlet('ubo-set-cookie.js', 'synapse-cookie-preferences-set', 'true')
 endgame.id#%#//scriptlet('ubo-set-cookie.js', 'endgame-accept-policy', 'true')
 cashback-cards.ch#%#//scriptlet('ubo-set-cookie.js', 'sc-privacy-settings', 'true')
 ahorn24.de#%#//scriptlet('ubo-set-cookie.js', 'accept_cookies2', 'true', '', 'reload', '1')

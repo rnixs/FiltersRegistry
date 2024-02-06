@@ -1,0 +1,24 @@
+d2 2
+a3 2
+! Checksum: bzRK78wabsu25ozScU5d+w
+! Diff-Path: ../patches/250/250-s-1707181600-14400.patch
+d6 2
+a7 2
+! Version: 2.0.13.22
+! TimeUpdated: 2024-02-06T01:03:05+00:00
+d4663 1
+a4663 1
+! OriginalVersion: 05February2024v4
+d4994 1
+a4994 1
+$document,removeparam=targetid,domain=~myanonamouse.net
+d6282 1
+a6282 2
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-8374154
+/search?$document,removeparam=gs_lcrp,domain=bing.com|google.com
+a8414 5
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-8368863
+||streamable.com^$document,removeparam=src_internal
+||streamable.com^$document,removeparam=src_player
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-8295864
+||thefocusfuel.com^$removeparam=snowball,document

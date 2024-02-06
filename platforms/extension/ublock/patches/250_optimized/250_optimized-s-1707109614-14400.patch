@@ -1,0 +1,18 @@
+d2 2
+a3 2
+! Checksum: lCVJNx+guIfSwzQa/+EcIg
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1707181600-14400.patch
+d6 2
+a7 2
+! Version: 2.0.13.22
+! TimeUpdated: 2024-02-06T01:03:05+00:00
+d1415 1
+a1415 1
+$document,removeparam=targetid,domain=~myanonamouse.net
+d1944 1
+a1944 1
+/search?$document,removeparam=gs_lcrp,domain=bing.com|google.com
+a2789 3
+||streamable.com^$document,removeparam=src_internal
+||streamable.com^$document,removeparam=src_player
+||thefocusfuel.com^$removeparam=snowball,document
