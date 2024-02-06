@@ -1,15 +1,15 @@
-! Checksum: Fz0w0ssY9EXFg1WPiTcVbg
-! Diff-Path: ../patches/122/122-s-1707181567-14400.patch
+! Checksum: bJ/WeaIt0JXTwJE8VN0SwA
+! Diff-Path: ../patches/122/122-s-1707195974-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.59
-! TimeUpdated: 2024-02-06T01:02:04+00:00
+! Version: 2.1.20.60
+! TimeUpdated: 2024-02-06T05:02:00+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: ZQeudoeD7drFJbY1qbYEig
-! OriginalVersion: 202402060040
+! Checksum: /Ue1quvrND7EGRY4TYsX7w
+! OriginalVersion: 202402060440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-06 00:40 UTC
+! Last modified: 2024-02-06 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -40700,7 +40700,7 @@ brightree.com,cgtrader.com,configserverfirewall.com,cortesdecima.com,delo.si,dia
 !! GDPRConsent
 cambash.com,massivecams.com,nordforme.org,nordvpn.com##[class^="GDPRConsent"]
 !! .modal-overlay
-fahrrad-xxl.de,maxict.nl,mook.com.tw,paposertanejo.com,plus.pl,plushbezlimitu.pl,rolfsbuss.se,solresor.se,starcar.de##.modal-overlay
+delfi.ee,fahrrad-xxl.de,maxict.nl,mook.com.tw,paposertanejo.com,plus.pl,plushbezlimitu.pl,rolfsbuss.se,solresor.se,starcar.de##.modal-overlay
 !! .cookie-wrapper
 pickmypostcode.com##.cookie-wrapper
 !! .cc
@@ -49786,7 +49786,7 @@ lemondeinformatique.fr##.bloc.advice
 e-sante.fr##.box-one-click
 lemondeinformatique.fr##.box-question
 telesatellite.com##.btnpg
-sadisflix.biz,sadisflix.vip,sadisflix.wiki##.fav-info
+sadisflix.biz,sadisflix.fun,sadisflix.vip,sadisflix.wiki##.fav-info
 airbnb.be##.flash-container
 easeus.fr##.float_totop
 ecommercemag.fr##.js-scrollTo
@@ -51486,6 +51486,7 @@ haus-des-meeres.at##.data-privacy-settings-container
 senninger-metzgerei.at##.data-protection
 deutschestheater.de,komische-oper-berlin.de,theater-essen.de##.dataprotection
 hilzingen.de##.datenschutz
+dbb-nrw.de,dvgsachsen.de,gdl.de,vab-gewerkschaft.de##.dbb-gdpr
 dosamigos-ibb.de##.dd-cl-window
 digital.uni-passau.de##.dfm_cookie
 durchblick-durch-daten.de##.dialog-container
@@ -51495,6 +51496,7 @@ groener.de##.disable_page_background_div
 grundlosproductions.ch##.disclaimer-component
 meinwomo.net##.divb
 laboremus.de##.drawer-cook
+mfgroup.ch##.dsgvo
 la-palma24.info##.dvcookies
 ethno-klamotten.de,guru-shop.de,kolonialstilmoebel.com,tagesdecken.org##.dwlightbox-wrap
 ticketswap.de##.e3v4wli0
@@ -54781,6 +54783,7 @@ earthsky.org#@#.cp-popup-container:not(body):not(html)
 restock.ca#@#.custom_cookie
 abc.es,as.com,corrieredellosport.it,elconfidencial.com,elindependiente.com,seguro.elespanol.com,tuttosport.com#@#.didomi-notice-banner
 20minutos.es,goplay.be,ouest-france.fr,strefabiznesu.pl#@#.didomi-screen-xlarge
+dgsf.org#@#.dsgvo-banner
 myrobotcenter.at,myrobotcenter.co.uk,myrobotcenter.de#@#.ec-gtm-cookie-directive
 aireuropa.com#@#.ensNotifyBanner
 aida64.com,nvidia.com,vchaspik.ua#@#.eu-cookie-compliance-popup-open

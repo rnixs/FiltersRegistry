@@ -1,9 +1,9 @@
-! Checksum: TNgM6D25cUxUylQDPSohnw
-! Diff-Path: ../patches/250/250-s-1707181569-14400.patch
+! Checksum: tM6HITU+C4uA6RRZdK5HTQ
+! Diff-Path: ../patches/250/250-s-1707195976-14400.patch
 ! Title: Dandelion Sprout's Annoyances List
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.13.22
-! TimeUpdated: 2024-02-06T01:03:05+00:00
+! Version: 2.0.13.23
+! TimeUpdated: 2024-02-06T05:03:03+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: ⚙️ Dandelion Sprout's Annoyances List
@@ -2839,7 +2839,7 @@ twe.no#$#div[style*=overlayFadeTo] { --overlayFadeTo: none !important }
 ! Prime Video
 ! And just about any other streaming or rental service out there in the world as well, especially USA- or nation-specific ones.
 ! Title: 💐 Anti-'Awful comments' list
-! OriginalVersion: 12January2023v1-Beta
+! OriginalVersion: 06February2024v1-Beta
 ! Expires: 7 days
 ! Description: This is a somewhat alternate approach to the usual anti-comment-section lists, as this list only removes those comment sections that are filled with exceptionally bad comments.
 ! Note: Out of sheer massive spite against how some newssites deliberately run userpolls on the most contentious articles and only those articles, this list also targets such userpolls now.
@@ -2847,7 +2847,7 @@ twe.no#$#div[style*=overlayFadeTo] { --overlayFadeTo: none !important }
 ! ——— Newspaper comment sections where commentators have no idea what they're talking about and also haven't actually read the articles either ———
 ||comments.vg.no^
 vg.no###comments
-||cmmnts.i.bt.no^
+!!!||cmmnts.i.bt.no^ (Awaiting how well Adresseavisen's new comment section works out)
 jyllands-posten.dk##article-facebook-comments
 ||comment.youmaker.com^$domain=theepochtimes.com
 theepochtimes.com###remark-side-panel

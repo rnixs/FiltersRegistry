@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: dfOdfh3+PledK0KM1xCWsw
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1707181600-14400.patch
+! Checksum: cQZPvvaZdnafgQrLCEmR+w
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1707196006-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.61
-! TimeUpdated: 2024-02-06T01:02:50+00:00
+! Version: 2.1.28.62
+! TimeUpdated: 2024-02-06T05:02:47+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -21031,7 +21031,7 @@ atomizer.gr,biblio.co.uk,comfortclick.com,discountoffice.nl,nowemiasteczko.pl,or
 apgbio.com,cheddar.com,co-operative.coop,couchsurfing.com,cyscale.com,diagnosticquestions.com,fluidra.ba,fullscreen.com,haymarketbooks.org,human-facts.com,incyte.jp,jumia.ci,jumia.co.ke,jumia.com.dz,jumia.com.eg,jumia.com.gh,jumia.com.ng,jumia.com.tn,jumia.dz,jumia.ma,jumia.sn,jumia.ug,modrinth.com,oceanmata.com,peer5.com,pluralsight.com,securitylab.github.com,subaru.be,trainsplit.com,usatoday.com,versobooks.com,zando.co.za##.banner
 brightree.com,cgtrader.com,configserverfirewall.com,cortesdecima.com,delo.si,dialight.com,discordapp.com,dotmailer.com,evgo.com,exposition-osiris.com,fcc-fac.ca,foreground.com.au,fritchy.com,hilltopads.com,keenfootwear.com,medicalxpress.com,mygwork.com,outsideonline.com,pajilleros.com,phys.org,pokemon-trainer.com,revolver.news,shire.com,slovenskenovice.si,snbforums.com,socialmediagirls.com,techxplore.com,thresholdtrailseries.com,ubuntu18.com,vialibri.net,vonmoos-luzern.ch##.notice
 cambash.com,massivecams.com,nordforme.org,nordvpn.com##[class^="GDPRConsent"]
-fahrrad-xxl.de,maxict.nl,mook.com.tw,paposertanejo.com,plus.pl,plushbezlimitu.pl,rolfsbuss.se,solresor.se,starcar.de##.modal-overlay
+delfi.ee,fahrrad-xxl.de,maxict.nl,mook.com.tw,paposertanejo.com,plus.pl,plushbezlimitu.pl,rolfsbuss.se,solresor.se,starcar.de##.modal-overlay
 pickmypostcode.com##.cookie-wrapper
 bdsi.de,hyle.appspot.com,johanneswerk.de,niederoesterreich-card.at##.cc
 doctoranytime.gr,netzreform.de,opensocietyfoundations.org,otter.finance,stanceldavid.sk###cc_div
@@ -21659,6 +21659,7 @@ m.twitch.tv##+js(set-cookie, tachyon-accepted-cookie-notice, true)
 ivyexec.com##+js(set-cookie, COOKIE-POLICY-ACCEPT, true)
 kijiji.ca##+js(set-cookie, hdcab, true)
 posterstore.fr,posterstore.eu,posterstore.be,posterstore.de,posterstore.hu,posterstore.ie,posterstore.it,posterstore.no,posterstore.nl,posterstore.pl,posterstore.com,posterstore.ae,posterstore.ca,posterstore.nz,posterstore.es,posterstore.kr,posterstore.jp,posterstore.dk,posterstore.se,posterstore.ch,posterstore.at##+js(set-cookie, synapse-cookie-preferences-set, true)
+dgsf.org##+js(set-cookie, confirm_cookies, 1)
 endgame.id##+js(set-cookie, endgame-accept-policy, true)
 cashback-cards.ch##+js(set-cookie, sc-privacy-settings, true)
 ahorn24.de##+js(set-cookie, accept_cookies2, true, , reload, 1)
@@ -22395,6 +22396,7 @@ omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-other, false)
 omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-social, true)
 businessclass.com##+js(set-local-storage-item, bcCookieAccepted, true)
+thehub21.com##+js(set-local-storage-item, hub-cp, true)
 nove.fr##+js(set-local-storage-item, cookie, true)
 autoride.cz,autoride.es,autoride.io,autoride.sk##+js(set-local-storage-item, cookies_necessary_consent, true)
 autoride.cz,autoride.es,autoride.io,autoride.sk##+js(set-local-storage-item, cookies_marketing_consent, false)
@@ -24360,6 +24362,7 @@ haus-des-meeres.at##.data-privacy-settings-container
 senninger-metzgerei.at##.data-protection
 deutschestheater.de,komische-oper-berlin.de,theater-essen.de##.dataprotection
 hilzingen.de##.datenschutz
+dbb-nrw.de,dvgsachsen.de,gdl.de,vab-gewerkschaft.de##.dbb-gdpr
 dosamigos-ibb.de##.dd-cl-window
 digital.uni-passau.de##.dfm_cookie
 durchblick-durch-daten.de##.dialog-container
@@ -24369,6 +24372,7 @@ groener.de##.disable_page_background_div
 grundlosproductions.ch##.disclaimer-component
 meinwomo.net##.divb
 laboremus.de##.drawer-cook
+mfgroup.ch##.dsgvo
 la-palma24.info##.dvcookies
 ethno-klamotten.de,guru-shop.de,kolonialstilmoebel.com,tagesdecken.org##.dwlightbox-wrap
 ticketswap.de##.e3v4wli0
@@ -27281,6 +27285,7 @@ earthsky.org#@#.cp-popup-container:not(body):not(html)
 restock.ca#@#.custom_cookie
 abc.es,as.com,corrieredellosport.it,elconfidencial.com,elindependiente.com,seguro.elespanol.com,tuttosport.com#@#.didomi-notice-banner
 20minutos.es,goplay.be,ouest-france.fr,strefabiznesu.pl#@#.didomi-screen-xlarge
+dgsf.org#@#.dsgvo-banner
 myrobotcenter.at,myrobotcenter.co.uk,myrobotcenter.de#@#.ec-gtm-cookie-directive
 aireuropa.com#@#.ensNotifyBanner
 aida64.com,nvidia.com,vchaspik.ua#@#.eu-cookie-compliance-popup-open
