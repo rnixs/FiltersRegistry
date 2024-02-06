@@ -1,8 +1,8 @@
 !
-! Checksum: E/SKStQy6Y+b4nAZhwFmuw
-! OriginalVersion: 202402061250
+! Checksum: VnU/DmXCC4idGEgJemZEPA
+! OriginalVersion: 202402061650
 ! Title: RU AdList: Counters
-! Last modified: 06 Feb 2024 12:50 UTC
+! Last modified: 06 Feb 2024 16:50 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -184,6 +184,8 @@
 _hits_stat.
 _pagespeed_beacon?
 ||analytics.*.*/pixel.php?h=
+||app.*.*/js/analytics/fdUserFingerprintToken.js?ver=$~third-party
+||app.*.*/js/analytics/index.js?ver=$~third-party
 ||kz/js/analytic
 ||ru/cnt/?
 ||ru/count/$domain=~yandex.by|~yandex.kz|~yandex.ru|~yandex.uz

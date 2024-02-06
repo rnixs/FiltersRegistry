@@ -1,9 +1,9 @@
-! Checksum: ud+DLYjQVXPZxiTYyOKHdQ
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1707224864-14400.patch
+! Checksum: H45umHuTRSp4DImj6esc0g
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1707239218-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.39.41
-! TimeUpdated: 2024-02-06T13:03:54+00:00
+! Version: 2.1.39.42
+! TimeUpdated: 2024-02-06T17:03:09+00:00
 ! Expires: 10 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -218,7 +218,6 @@ supernowosci24.pl##[id^="r-"]
 ||blogomaniak.pl^*-ceneo-
 ||bluepartner.pl^$script,domain=infofordon.pl
 ||bobrowniki.tv^*^praca-piekary.
-||booking.com/flexiproduct.$third-party
 ||botland.com.pl^*^banery_$script
 ||bstok.pl^*^iparts.
 ||bstok.pl^*^masal-
