@@ -1,9 +1,9 @@
-! Checksum: 5f8cedLLvc3AuJnh92F4xw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1707204942-3600.patch
+! Checksum: pu0lWJ9Dhg5LeVFmzUrczQ
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1707208542-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.19
-! TimeUpdated: 2024-02-06T07:31:59+00:00
+! Version: 2.0.31.20
+! TimeUpdated: 2024-02-06T08:31:57+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -342,7 +342,7 @@ newsnow.com##.hero-wrapper
 newsnow.com,newsnow.co.uk##.ad__container + div
 pks.raenonx.cc##.bg-red-500\/50
 ||chinahandys.net/*/adblock-tracker.js
-||baeldung.com/*/wp-content/themes/baeldung/library/dist/js/ad-recovery.min.js
+||baeldung.com/*/ad-recovery.min.js
 rtl.hu##.adblock-confirm
 ||concertarchives.org/assets/freestar-ad-recovery.js
 bilibili.com##.__adblockhidden
@@ -1259,6 +1259,7 @@ aol.com#@#.adwrap
 !+ NOT_PLATFORM(windows, mac, android)
 @@||pubads.g.doubleclick.net/gampad/adx?*/ad-blk$domain=washingtonpost.com
 !#safari_cb_affinity(general)
+@@||imasdk.googleapis.com^$xmlhttprequest,domain=nanifile.com
 @@||adskeeper.co.uk^$domain=bravedown.com
 @@||s.nitropay.com/ads-*.js$domain=maxroll.gg
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=calcmaps.com
