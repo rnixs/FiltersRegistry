@@ -1,9 +1,9 @@
-! Checksum: F6r7CbC9z225i+D2pODCew
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1707244614-3600.patch
+! Checksum: 5Vtv1HHh3HLfoHyT4acOgw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1707248172-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.21.10
-! TimeUpdated: 2024-02-06T18:32:47+00:00
+! Version: 2.3.21.11
+! TimeUpdated: 2024-02-06T19:32:41+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -22446,6 +22446,7 @@ browsershots.org#@#.advert_area
 ||continuedhostilityequipped.com^
 ||conventionalrestaurant.com^
 ||convers.link^
+||convertedhorace.com^
 ||convertmb.com^
 ||convrse.media^
 ||coochitiphy.com^
@@ -25873,6 +25874,7 @@ browsershots.org#@#.advert_area
 ||kscmqmrlrepwim.com^
 ||ksehinkitw.hair^
 ||ksnbiepnvjdi.com^
+||kstjqjuaw.xyz^
 ||ksuoodqeiuupey.com^
 ||ksurpiwdayc.com^
 ||ksvtdifdlqyrv.com^
@@ -29373,6 +29375,7 @@ browsershots.org#@#.advert_area
 ||srnpochi.com^
 ||srrmpfstbh.com^
 ||srshqnrmqs.com^
+||srsotqdgln.com^
 ||srtrak.com^
 ||srumifuroqkuoi.com^
 ||sruzefwboxu.com^
@@ -30938,6 +30941,7 @@ browsershots.org#@#.advert_area
 ||xineday.com^
 ||xipteq.com^
 ||xiqougw.com^
+||xitesa.uno^
 ||xitwpifbihsxpj.com^
 ||xjrwxfdphc.com^
 ||xjsx.lol^
