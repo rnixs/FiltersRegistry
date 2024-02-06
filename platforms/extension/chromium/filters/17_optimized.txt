@@ -1,10 +1,10 @@
-! Checksum: BTWRz4a1UsJc2qqQjc3QMg
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1707136575-3600.patch
+! Checksum: /2KOSoHUo05ujodXYdDxSg
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1707212193-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
 ! Version: 2.0.7.95
 ! TimeUpdated: 2024-02-05T12:32:02+00:00
-! Expires: 5 days (update frequency)
+! Expires: 10 days (update frequency)
 $removeparam=cjdata
 $removeparam=cjevent
 $removeparam=/^at_custom/

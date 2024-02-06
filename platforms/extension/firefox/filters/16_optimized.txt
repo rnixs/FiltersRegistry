@@ -1,10 +1,10 @@
-! Checksum: G2sFrn3w72dchkEmTkDtyw
-! Diff-Path: ../patches/16_optimized/16_optimized-s-1707204957-3600.patch
+! Checksum: OHflDaNVKR99lVmcFXQocw
+! Diff-Path: ../patches/16_optimized/16_optimized-s-1707212211-3600.patch
 ! Title: AdGuard French filter (Optimized)
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.28
-! TimeUpdated: 2024-02-06T07:31:54+00:00
-! Expires: 5 days (update frequency)
+! Version: 2.0.43.29
+! TimeUpdated: 2024-02-06T09:31:54+00:00
+! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
 #%#var AG_removeElementBySelector = function(selector) { if (!document.querySelectorAll) { return; } var nodes = document.querySelectorAll(selector); if (nodes) { for (var i = 0; i < nodes.length; i++) { if (nodes[i] && nodes[i].parentNode) { nodes[i].parentNode.removeChild(nodes[i]); } } } };
@@ -686,6 +686,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_french
 ||canalplus.com^$document,replace=/"featPlayerAds":true/"featPlayerAds":false/
 ||be-rtl.videoplaza.tv/proxy/distributor/$replace=/(\,"vast":\{)[\s\S]*(\}\}\])/\$1\$2/,important,domain=rtlplay.be
 app.molotov.tv#%#//scriptlet('prevent-xhr', '/ping?token=')
+casualgame.hange.jp#@#a[href*="/adclick?"]
 ||dmcdn.net^$media,badfilter
 familjeliv.se#@#div[data-ad]
 ||dailycaller.com^$badfilter

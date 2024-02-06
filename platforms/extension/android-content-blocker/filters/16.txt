@@ -1,9 +1,9 @@
-! Checksum: NBjTlpnMNSxr10ec6ILsVw
-! Diff-Path: ../patches/16/16-s-1707204941-3600.patch
+! Checksum: 2QbYraUzZzL4+V0WFajr7Q
+! Diff-Path: ../patches/16/16-s-1707212185-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.28
-! TimeUpdated: 2024-02-06T07:31:54+00:00
+! Version: 2.0.43.29
+! TimeUpdated: 2024-02-06T09:31:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1444,6 +1444,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_french
 !
 !
 !
+! contents hidden
+casualgame.hange.jp#@#a[href*="/adclick?"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168065
 ||dmcdn.net^$media,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167890
