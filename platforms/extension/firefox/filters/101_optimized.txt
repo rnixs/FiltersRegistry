@@ -1,9 +1,9 @@
-! Checksum: rosPPZ2hL+M4uJoRWhLWWQ
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1707239208-14400.patch
+! Checksum: h5pJPKhUaO7iZo8XT3eTGA
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1707253604-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.20.37
-! TimeUpdated: 2024-02-06T17:01:43+00:00
+! Version: 2.1.20.38
+! TimeUpdated: 2024-02-06T21:01:46+00:00
 ! Expires: 10 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -1280,7 +1280,7 @@
 ://a.ads.
 ://ad-api-
 ://ad1.
-://ads.$~image,domain=ads.8designers.com|ads.ac.uk|ads.adstream.com.ro|ads.allegro.pl|ads.am|ads.amazon|ads.apple.com|ads.atmosphere.copernicus.eu|ads.band|ads.bestprints.biz|ads.brave.com|ads.buscaempresas.co|ads.cafebazaar.ir|ads.colombiaonline.com|ads.comeon.com|ads.cvut.cz|ads.doordash.com|ads.dosocial.ge|ads.dosocial.me|ads.elevateplatform.co.uk|ads.finance|ads.google.com|ads.gree.net|ads.gurkerl.at|ads.harvard.edu|ads.instacart.com|ads.jiosaavn.com|ads.kaipoke.biz|ads.kazakh-zerno.net|ads.kifli.hu|ads.knuspr.de|ads.listonic.com|ads.magalu.com|ads.mercadolivre.com.br|ads.mgid.com|ads.microsoft.com|ads.midwayusa.com|ads.mobilebet.com|ads.msstate.edu|ads.mst.dk|ads.mt|ads.nc|ads.nipr.ac.jp|ads.olx.pl|ads.pinterest.com|ads.quasaraffiliates.com|ads.rohlik.cz|ads.route.cc|ads.safi-gmbh.ch|ads.scotiabank.com|ads.selfip.com|ads.shopee.cn|ads.shopee.co.th|ads.shopee.com.br|ads.shopee.com.mx|ads.shopee.com.my|ads.shopee.kr|ads.shopee.ph|ads.shopee.pl|ads.shopee.sg|ads.shopee.tw|ads.shopee.vn|ads.smartnews.com|ads.snapchat.com|ads.socialtheater.com|ads.spotify.com|ads.studyplus.co.jp|ads.taboola.com|ads.tiktok.com|ads.twitter.com|ads.typepad.jp|ads.us.tiktok.com|ads.viksaffiliates.com|ads.vk.com|ads.watson.ch|badassembly.com|caravansforsale.co.uk|fusac.fr|memo2.nl|reempresa.org|satmetrix.com|seriouswheels.com
+://ads.$~image,domain=ads.8designers.com|ads.ac.uk|ads.adstream.com.ro|ads.allegro.pl|ads.am|ads.amazon|ads.apple.com|ads.atmosphere.copernicus.eu|ads.band|ads.bestprints.biz|ads.brave.com|ads.buscaempresas.co|ads.cafebazaar.ir|ads.colombiaonline.com|ads.comeon.com|ads.cvut.cz|ads.doordash.com|ads.dosocial.ge|ads.dosocial.me|ads.elevateplatform.co.uk|ads.finance|ads.google.com|ads.gree.net|ads.gurkerl.at|ads.harvard.edu|ads.instacart.com|ads.jiosaavn.com|ads.kaipoke.biz|ads.kazakh-zerno.net|ads.kifli.hu|ads.knuspr.de|ads.listonic.com|ads.magalu.com|ads.mercadolivre.com.br|ads.mgid.com|ads.microsoft.com|ads.midwayusa.com|ads.mobilebet.com|ads.msstate.edu|ads.mst.dk|ads.mt|ads.nc|ads.nipr.ac.jp|ads.olx.pl|ads.pinterest.com|ads.quasaraffiliates.com|ads.remix.es|ads.rohlik.cz|ads.route.cc|ads.safi-gmbh.ch|ads.scotiabank.com|ads.selfip.com|ads.shopee.cn|ads.shopee.co.th|ads.shopee.com.br|ads.shopee.com.mx|ads.shopee.com.my|ads.shopee.kr|ads.shopee.ph|ads.shopee.pl|ads.shopee.sg|ads.shopee.tw|ads.shopee.vn|ads.smartnews.com|ads.snapchat.com|ads.socialtheater.com|ads.spotify.com|ads.studyplus.co.jp|ads.taboola.com|ads.tiktok.com|ads.twitter.com|ads.typepad.jp|ads.us.tiktok.com|ads.viksaffiliates.com|ads.vk.com|ads.watson.ch|badassembly.com|caravansforsale.co.uk|fusac.fr|memo2.nl|reempresa.org|satmetrix.com|seriouswheels.com
 ://ads2.
 ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://affiliate.$third-party
@@ -13333,6 +13333,7 @@ browsershots.org#@#.advert_area
 ||conventforgotten.com^
 ||conventionalrestaurant.com^
 ||convers.link^
+||convertedhorace.com^
 ||convertmb.com^
 ||convrse.media^
 ||convsweeps.com^
@@ -13773,6 +13774,7 @@ browsershots.org#@#.advert_area
 ||dawtsboosted.com^
 ||daysstone.com^
 ||dayznews.biz^
+||dazeoffhandskip.com^
 ||db20da1532.com^
 ||db72c26349.com^
 ||dbaomgnsahy.com^
@@ -14740,6 +14742,7 @@ browsershots.org#@#.advert_area
 ||eertogro.net^
 ||eeshemto.com^
 ||eesihighlyrec.xyz^
+||eessoong.com^
 ||eetsegeb.net^
 ||eeycumpmwy.com^
 ||eeywmvwebqblq.top^
@@ -14829,6 +14832,7 @@ browsershots.org#@#.advert_area
 ||elasticad.net^
 ||elasticdestruct.com^
 ||elaterconditing.info^
+||elatorfatback.com^
 ||elbowrevolutionary.com^
 ||elbowsmouldoral.com^
 ||elcfdhbxyb.com^
@@ -15000,6 +15004,7 @@ browsershots.org#@#.advert_area
 ||eoasxirquewfyn.com^
 ||eofst.com^
 ||eogaeapolaric.com^
+||eontappetito.com^
 ||eonwayaha.com^
 ||eopleshouldt.info^
 ||eopudxnabotrlsx.com^
@@ -15099,6 +15104,7 @@ browsershots.org#@#.advert_area
 ||estaterenderwalking.com^
 ||estatestitch.com^
 ||esteemtalented.com^
+||eswsentatives.info^
 ||esxjpnkgyaeiu.xyz^
 ||etbnbvlnhvr.com^
 ||etccdvfodthhc.com^
@@ -18953,6 +18959,7 @@ browsershots.org#@#.advert_area
 ||kscmqmrlrepwim.com^
 ||ksehinkitw.hair^
 ||ksnbiepnvjdi.com^
+||kstjqjuaw.xyz^
 ||ksuoodqeiuupey.com^
 ||ksurpiwdayc.com^
 ||ksvtdifdlqyrv.com^
@@ -20471,6 +20478,7 @@ browsershots.org#@#.advert_area
 ||murderassuredness.com^
 ||muricidmartins.com^
 ||murkilyergots.com^
+||murreyequate.com^
 ||muscledarcysilly.com^
 ||muscleomnipresent.com^
 ||museumimpenetrablerepose.com^
@@ -24583,6 +24591,7 @@ browsershots.org#@#.advert_area
 ||shippingswimsuitflog.com^
 ||shipsmotorw.xyz^
 ||shitcustody.com^
+||shoabibs.xyz^
 ||shockadviceinsult.com^
 ||shockingstrategynovelty.com^
 ||shoeingneurone.com^
@@ -25099,6 +25108,7 @@ browsershots.org#@#.advert_area
 ||srnpochi.com^
 ||srrmpfstbh.com^
 ||srshqnrmqs.com^
+||srsotqdgln.com^
 ||srtrak.com^
 ||srumifuroqkuoi.com^
 ||sruzefwboxu.com^
@@ -25305,6 +25315,7 @@ browsershots.org#@#.advert_area
 ||stressfulsurroundingcomeback.com^
 ||stretchedbarbarian.com^
 ||stretchedcreepy.com^
+||stretchedgluttony.com^
 ||stretchingwicked.com^
 ||strettechoco.com^
 ||strewdirtinessnestle.com^
@@ -26711,6 +26722,7 @@ browsershots.org#@#.advert_area
 ||uppereugene.com^
 ||uprimp.com^
 ||uprivaladserver.net^
+||uproarglossy.com^
 ||upsaibou.net^
 ||upsajeve.com^
 ||upsamurottr.com^
@@ -27442,6 +27454,7 @@ browsershots.org#@#.advert_area
 ||wg-aff.com^
 ||wgbwlgzthobp.com^
 ||wgchrrammzv.com^
+||wghzbgmjpyig.com^
 ||wgplayer.com^
 ||wgsxteihr.com^
 ||wgyoaqtjfb.com^
@@ -27771,6 +27784,7 @@ browsershots.org#@#.advert_area
 ||wpush.org^
 ||wpushorg.com^
 ||wqjbldnnceroue.com^
+||wqlnfrxnp.xyz^
 ||wqorxfp.com^
 ||wqzjfsmudvpct.com^
 ||wqzqoobqpubx.com^
@@ -27929,6 +27943,7 @@ browsershots.org#@#.advert_area
 ||xineday.com^
 ||xipteq.com^
 ||xiqougw.com^
+||xitesa.uno^
 ||xitwpifbihsxpj.com^
 ||xjakcitm.com^
 ||xjrwxfdphc.com^
@@ -28994,6 +29009,7 @@ browsershots.org#@#.advert_area
 ||affinity.net^$popup
 ||aitsatho.com^$popup
 ||akutapro.com^$popup
+||alarmsubjectiveanniversary.com^$popup
 ||alitems.co^$popup
 ||alitems.site^$popup
 ||ammannests.com^$popup
@@ -29024,6 +29040,7 @@ browsershots.org#@#.advert_area
 ||clickwork7secure.com^$popup
 ||clixcrafts.com^$popup
 ||cn846.com^$popup
+||code4us.com^$popup
 ||condles-temark.com^$popup
 ||conqueredallrightswell.com^$popup
 ||crdefault.link^$popup
@@ -29043,6 +29060,8 @@ browsershots.org#@#.advert_area
 ||dressingdedicatedmeeting.com^$popup
 ||dukirliaon.com^$popup
 ||eacdn.com^$popup
+||eessoong.com^$popup
+||eontappetito.com^$popup
 ||eptougry.net^$popup
 ||eshkol.io^$popup
 ||ethicalpastime.com^$popup
@@ -29131,6 +29150,7 @@ browsershots.org#@#.advert_area
 ||mungfali.com^$popup
 ||muzzlematrix.com^$popup
 ||myadsserver.com^$popup
+||myemailtracking.com^$popup
 ||mywondertrip.com^$popup
 ||naxadrug.com^$popup
 ||nereu-gdr.com^$popup
@@ -29152,6 +29172,7 @@ browsershots.org#@#.advert_area
 ||ophisrebrown.top^$popup
 ||optimizesrv.com^$popup
 ||optnx.com^$popup
+||otingolston.com^$popup
 ||otnolatrnup.com^$popup
 ||ovardu.com^$popup
 ||paeastei.net^$popup
@@ -29252,6 +29273,7 @@ browsershots.org#@#.advert_area
 ||tzaqkp.com^$popup
 ||ugeewhee.xyz^$popup
 ||ugroocuw.net^$popup
+||uproarglossy.com^$popup
 ||vaitotoo.net^$popup
 ||vasteeds.net^$popup
 ||veepteero.com^$popup
@@ -29375,6 +29397,7 @@ browsershots.org#@#.advert_area
 ||1173384488.rsc.cdn77.org^
 ||1187531871.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
+||1445112467.rsc.cdn77.org^
 ||1556048427.rsc.cdn77.org^
 ||1580345775.rsc.cdn77.org^
 ||1647871863.rsc.cdn77.org^
@@ -29679,6 +29702,7 @@ browsershots.org#@#.advert_area
 ||d1ev866ubw90c6.cloudfront.net^
 ||d1ezlc9vy4yc7g.cloudfront.net^
 ||d1f05vr3sjsuy7.cloudfront.net^
+||d1f5r3d462eit5.cloudfront.net^
 ||d1f7vr2umogk27.cloudfront.net^
 ||d1f9tkqiyb5a97.cloudfront.net^
 ||d1fs2ef81chg3.cloudfront.net^
@@ -31204,9 +31228,7 @@ croxyproxy.rocks###zapperSquare
 marketscreener.com###zppFooter
 marketscreener.com###zppRight2
 ultrabookreview.com###zzifhome2
-androidauthority.com##.--_-___Jg
 androidauthority.com##.--_-___Mb
-androidauthority.com##.--_-___Sb
 androidauthority.com##.--_-___jb
 talkingpointsmemo.com##.--span\:12.AdSlot
 bigissue.com##.-ad

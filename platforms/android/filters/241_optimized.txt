@@ -1,9 +1,9 @@
-! Checksum: 1tXOpVzxoWX1qh/s9sSb0g
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1707239191-14400.patch
+! Checksum: 5K0k7ByVKs7ZXvvKglj/ng
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1707253589-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.65
-! TimeUpdated: 2024-02-06T17:03:04+00:00
+! Version: 2.1.28.66
+! TimeUpdated: 2024-02-06T21:03:04+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -20866,6 +20866,7 @@ openbookpublishers.com##body > .menu-header
 goodboy.ninja##body > div > .card
 facebook.com##body:not([style^="margin-bottom"]) div[data-testid="cookie-policy-banner"]
 success.trendmicro.com##c-dcx-cookie
+qualified.io##consent-cookie-popup
 23degrees.io##consent-toast
 access.login.nhs.uk##core-cookie-banner
 medium.com##div > .branch-journeys-top
