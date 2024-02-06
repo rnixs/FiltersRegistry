@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /mYmxigenRBLWAGVrknMFQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707233781-3600.patch
+! Checksum: 0FwdLlGXN6rb3YTdwINfdg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707237385-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.21.7
-! TimeUpdated: 2024-02-06T15:32:45+00:00
+! Version: 2.3.21.8
+! TimeUpdated: 2024-02-06T16:33:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -32813,6 +32813,8 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+comohoy.com###contenthide > a[target="_blank"]
+vimm.net###footerContainer
 reddxxx.com#?#.mx-auto > div.mb-2:has(> div.flex > div.flex > div > h2:contains(VALENTINES SALE))
 medibang.com#$#.mpcViewerAds { display: none !important; }
 medibang.com#$#body.mpc-modal-open { overflow: auto !important; }
@@ -56761,6 +56763,7 @@ blitz.bg#$#div[id^="div-gpt-ad"] { position: absolute!important; left: -3000px!i
 !
 ! NOTE: Specific
 !
+manager.bg##.central-banner
 pik.bg##div[class^="banners"]
 zamunda.ch##a[href^="https://bgkoleda.bg/"]
 telegraph.bg##.banner
