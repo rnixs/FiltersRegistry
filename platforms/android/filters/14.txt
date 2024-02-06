@@ -1,9 +1,9 @@
-! Checksum: qBi6ryJvCgpiPJ8p+eIMiA
-! Diff-Path: ../patches/14/14-s-1707240941-3600.patch
+! Checksum: v6leL085Wgl9iC6xno8VsQ
+! Diff-Path: ../patches/14/14-s-1707244543-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.86.81
-! TimeUpdated: 2024-02-06T17:31:49+00:00
+! Version: 2.1.86.82
+! TimeUpdated: 2024-02-06T18:31:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15023,6 +15023,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172094
+profile.hatena.ne.jp#@#.privacy-alert
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172271
 flickr.org#@##cookie-law-info-bar
 flickr.org#@##cliSettingsPopup
@@ -22644,6 +22646,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+profile.hatena.ne.jp#%#//scriptlet('trusted-click-element', '.privacy-alert-button > input#privacy-alert-ok')
 entities.oclc.org###login-alert-popper
 cr.mufg.jp###code-mc-container-74
 cr.mufg.jp###code-mc-panel-64

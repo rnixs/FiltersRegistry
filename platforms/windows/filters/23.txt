@@ -1,9 +1,9 @@
-! Checksum: gB27o2zToEj1NR4Z3HWbZQ
-! Diff-Path: ../patches/23/23-s-1707111387-3600.patch
+! Checksum: t+0z3kh/D8oYdNG1trFeQA
+! Diff-Path: ../patches/23/23-s-1707244614-3600.patch
 ! Title: AdGuard Ukrainian filter
 ! Description: Filter that enables ad blocking on websites in Ukrainian language.
-! Version: 2.0.3.84
-! TimeUpdated: 2024-02-05T05:32:14+00:00
+! Version: 2.0.3.85
+! TimeUpdated: 2024-02-06T18:32:24+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4865,6 +4865,7 @@ citrus.ua,xsport.ua,zi.dn.ua,zi.ua##img[src^="/upload/rk/"]
 !
 !
 !
+opentv.media##img[alt="ad"]
 /assets/vendor/*.xml$domain=tortuga.wtf
 liga.net##.ad
 liga.net##.b-blocks

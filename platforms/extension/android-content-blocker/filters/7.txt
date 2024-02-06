@@ -1,9 +1,9 @@
-! Checksum: n4pPJqOXV0BNKaSitPJ1NA
-! Diff-Path: ../patches/7/7-s-1707212190-3600.patch
+! Checksum: cN5FeXKxjgEg2O8iEsJUNA
+! Diff-Path: ../patches/7/7-s-1707244554-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.27
-! TimeUpdated: 2024-02-06T09:33:15+00:00
+! Version: 2.0.48.28
+! TimeUpdated: 2024-02-06T18:33:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1655,8 +1655,10 @@ discoveryjapan.jp##.interstitial_ad
 freem.ne.jp##.game-ad-bottom
 nikkan-spa.jp##.tag-box > div.series-img
 game16.net##.g-txt
-pvpoke-re.com###nitro-header-mobile
-pvpoke-re.com###nitro-top
+||pvpoke-re.com/ads-main.min.js
+||pvpoke-re.com/ads-base.min.js
+||pvpoke-re.com/nitro.js
+pvpoke-re.com##div[id^="nitro"]
 kantan.game##.c-modal-light-score__ad-frame
 ||dabun.net/js/addAmz.js
 motimoti3d.jp###sidemenu > dl.sidemenu_body:first-child

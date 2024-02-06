@@ -1,9 +1,9 @@
-! Checksum: VYgHemPwa0IYFKQlw5y4XQ
-! Diff-Path: ../patches/23_optimized/23_optimized-s-1707212215-3600.patch
+! Checksum: MlAogyLBi1JQ4m5kUOQOwA
+! Diff-Path: ../patches/23_optimized/23_optimized-s-1707244570-3600.patch
 ! Title: AdGuard Ukrainian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Ukrainian language.
-! Version: 2.0.3.84
-! TimeUpdated: 2024-02-05T05:32:14+00:00
+! Version: 2.0.3.85
+! TimeUpdated: 2024-02-06T18:32:24+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4366,6 +4366,7 @@ kodik*/adv-vast/
 ||kodik.cc/vastadvert/
 /upload/rk/*$domain=citrus.ua|xsport.ua|zi.dn.ua|zi.ua
 citrus.ua,xsport.ua,zi.dn.ua,zi.ua##img[src^="/upload/rk/"]
+opentv.media##img[alt="ad"]
 /assets/vendor/*.xml$domain=tortuga.wtf
 liga.net##.ad
 liga.net##.b-blocks

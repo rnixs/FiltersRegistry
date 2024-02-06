@@ -1,9 +1,9 @@
-! Checksum: y0Vt08eY25QMHrDk72HFzg
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1707212208-3600.patch
+! Checksum: mrL+TXEIOkNwczVXCq9d0g
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1707244566-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.27
-! TimeUpdated: 2024-02-06T09:33:15+00:00
+! Version: 2.0.48.28
+! TimeUpdated: 2024-02-06T18:33:17+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1361,8 +1361,10 @@ discoveryjapan.jp##.interstitial_ad
 freem.ne.jp##.game-ad-bottom
 nikkan-spa.jp##.tag-box > div.series-img
 game16.net##.g-txt
-pvpoke-re.com###nitro-header-mobile
-pvpoke-re.com###nitro-top
+||pvpoke-re.com/ads-main.min.js
+||pvpoke-re.com/ads-base.min.js
+||pvpoke-re.com/nitro.js
+pvpoke-re.com##div[id^="nitro"]
 yjgames.gamedistribution.com#?#.MuiPaper-elevation.MuiPaper-rounded:has(> div[class^="css-"] > div[id^="idhb-"])
 kantan.game##.c-modal-light-score__ad-frame
 ||dabun.net/js/addAmz.js
