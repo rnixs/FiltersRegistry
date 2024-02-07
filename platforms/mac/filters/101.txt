@@ -1,15 +1,15 @@
-! Checksum: Tu7EiGx8haAxrUpuoEFDZg
-! Diff-Path: ../patches/101/101-s-1707268005-14400.patch
+! Checksum: wYZxkfGXIGm0Vn0N/XMFDA
+! Diff-Path: ../patches/101/101-s-1707282403-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.20.39
-! TimeUpdated: 2024-02-07T01:01:30+00:00
+! Version: 2.1.20.40
+! TimeUpdated: 2024-02-07T05:01:32+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: BHX4JHoIdChB6qVYU93lCg
-! OriginalVersion: 202402070050
+! Checksum: HblKA2BtoRso5R3u8j24Xg
+! OriginalVersion: 202402070450
 ! Title: EasyList
-! Last modified: 07 Feb 2024 00:50 UTC
+! Last modified: 07 Feb 2024 04:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17573,7 +17573,6 @@ _800x80_
 ##a[href^="http://www.h4trck.com/"]
 ##a[href^="http://www.iyalc.com/"]
 ##a[href^="http://www.mrskin.com/tour"]
-##a[href^="http://www.onclickmega.com/jump/next.php?"]
 ##a[href^="https://1betandgonow.com/"]
 ##a[href^="https://a-ads.com/"]
 ##a[href^="https://a.adtng.com/"]
@@ -17626,7 +17625,6 @@ _800x80_
 ##a[href^="https://datingoffers30.info/"]
 ##a[href^="https://dl-protect.net/"]
 ##a[href^="https://engine.phn.doublepimp.com/"]
-##a[href^="https://engine.trackingdesks.com/"]
 ##a[href^="https://fc.lc/ref/"]
 ##a[href^="https://financeads.net/tc.php?"]
 ##a[href^="https://go.cmtaffiliates.com/"]
@@ -63099,6 +63097,7 @@ oann.com##.ad-slot__ad-label
 cnn.com##.ad-slot__ad-wrapper
 freepressjournal.in##.ad-slots
 techinformed.com##.ad-text-styles
+companiesmarketcap.com##.ad-tr
 bqprime.com##.ad-with-placeholder-m__place-holder-wrapper__1_rkH
 trueachievements.com##.ad-wrap
 crn.com,smithsonianmag.com,tasty.co##.ad-wrapper
