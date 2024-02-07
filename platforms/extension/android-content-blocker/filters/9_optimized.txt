@@ -1,9 +1,9 @@
-! Checksum: 04Khq1PwidYhToCjBS2Ktg
-! Diff-Path: ../patches/9_optimized/9_optimized-s-1707240951-3600.patch
+! Checksum: n5eyeJoMaih/AWd1Z4yzgg
+! Diff-Path: ../patches/9_optimized/9_optimized-s-1707302169-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.22
-! TimeUpdated: 2024-02-06T17:33:23+00:00
+! Version: 2.0.23.23
+! TimeUpdated: 2024-02-07T10:33:32+00:00
 ! Expires: 5 days (update frequency)
 ||nobeta.com.br^$third-party
 ||bcgame.top^$popup
@@ -213,6 +213,8 @@ httpmangacrab2.com,manga-crab.com##div[uncopy-anti-adblocker]
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=sabornutritivo.com
 ||financasdeouro.com/*/js/adblock.js
+!+ NOT_PLATFORM(windows, mac, android, ext_chromium, ext_opera)
+@@||mssl.fwmrm.net/libs/adm/*/AdManager.js$domain=southparkstudios.com.br|southpark.lat
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=southparkstudios.com.br|southpark.lat
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=southparkstudios.com.br|southpark.lat
 animeszone.net#@#.ads-box
