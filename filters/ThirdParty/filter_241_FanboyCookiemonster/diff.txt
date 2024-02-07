@@ -1692,6 +1692,8 @@ ofdb.de##+js(set-cookie, ofdb_werbung, Y, , reload, 1)
 dtksoft.com##+js(set-cookie, user_cookie_consent, 1)
 ! Rule "serverstoplist.com##+js(set-cookie, STAgreement, 1)" converted to: "serverstoplist.com#%#//scriptlet('ubo-set-cookie.js', 'STAgreement', '1')"
 serverstoplist.com##+js(set-cookie, STAgreement, 1)
+! Rule "truecaller.com##+js(set-cookie, tc:dismissexitintentpopup, true)" converted to: "truecaller.com#%#//scriptlet('ubo-set-cookie.js', 'tc:dismissexitintentpopup', 'true')"
+truecaller.com##+js(set-cookie, tc:dismissexitintentpopup, true)
 ! Rule "tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-necessary, yes)" converted to: "tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-necessary', 'yes')"
 tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-necessary, yes)
 ! Rule "tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-markkinointi, no)" converted to: "tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-markkinointi', 'no')"

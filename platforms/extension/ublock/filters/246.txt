@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: a/5NDgT1PMmzujfqd4W4Wg
-! Diff-Path: ../patches/246/246-s-1707282398-14400.patch
+! Checksum: qwxWWV5zAQxRH/4SHeih8A
+! Diff-Path: ../patches/246/246-s-1707296942-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.39.45
-! TimeUpdated: 2024-02-07T05:02:53+00:00
+! Version: 2.1.39.46
+! TimeUpdated: 2024-02-07T09:04:45+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: S5pzY+bJTpEUMGpOl+xugQ
-! OriginalVersion: 202402070450
+! Checksum: cJVbgYqNn7V7DE5nbw7V8g
+! OriginalVersion: 202402070901
 ! Title: EasyList Polish
-! Last modified: 07 Feb 2024 04:50 UTC
+! Last modified: 07 Feb 2024 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -271,7 +271,6 @@ supernowosci24.pl##[id^="r-"]
 ||dothaish.net^$script
 ||dx-team.org^*^pover.
 ||dz-ow.pl^*^narty.
-||dziennikpolski24.pl^*^ads?$xmlhttprequest,domain=dziennikpolski24.pl
 ||dzisiajwgliwicach.pl^*^sixsilver-
 ||e-hotelarz.pl^*=300x80^
 ||e-hotelarz.pl^*=750x200^
@@ -2006,6 +2005,7 @@ audiostereo.pl##a[href="https://audiotrendt.com.pl/"]
 gazeta-mosina.pl##a[href="https://autocompol.dacia.pl/"]
 staleo.pl##a[href="https://baumalog.pl/"]
 tulodz.pl##a[href="https://beesafe.pl/"]
+bitcoin.pl##a[href="https://bit.ly/3Na2lXH"]
 bitcoin.pl##a[href="https://bit.ly/46VOjAf"]
 swarzedz24.pl##a[href="https://bit.ly/WarsztatyOSM"]
 wiesci.com.pl##a[href="https://budet.pl/"]

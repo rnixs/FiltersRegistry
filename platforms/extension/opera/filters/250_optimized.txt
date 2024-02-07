@@ -1,9 +1,9 @@
-! Checksum: XMwD2hSguc6JLcnfjkrY6A
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1707282388-14400.patch
+! Checksum: JIXPQvQUfB/F7XSNZKqMOw
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1707296931-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.13.24
-! TimeUpdated: 2024-02-07T01:03:03+00:00
+! Version: 2.0.13.25
+! TimeUpdated: 2024-02-07T09:04:58+00:00
 ! Expires: 10 days (update frequency)
 ###smart-banner
 ###smartbanner
@@ -2718,6 +2718,7 @@ $document,removeparam=km_adgroup
 ||streamable.com^$document,removeparam=src_internal
 ||streamable.com^$document,removeparam=src_player
 ||thefocusfuel.com^$removeparam=snowball,document
+$removeparam=cgkit_search_word
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
 $removeparam=height,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
