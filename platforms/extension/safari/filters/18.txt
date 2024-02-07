@@ -1,9 +1,9 @@
-! Checksum: kpHTs6NvPhgeDRDi4VKvDA
-! Diff-Path: ../patches/18/18-s-1707294960-3600.patch
+! Checksum: R7KfA7E6OjBRZNbjSOD0bw
+! Diff-Path: ../patches/18/18-s-1707298597-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.81
-! TimeUpdated: 2024-02-07T08:31:53+00:00
+! Version: 2.0.32.82
+! TimeUpdated: 2024-02-07T09:32:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9689,7 +9689,7 @@ m.timesofindia.com###myConsentFlow
 hutch.io##.eytau7z0
 mckinsey.com##.cookie-warning-wrapper
 hyperxgaming.com,toluna.com##.notification-center
-open.tube##.privacy-concerns
+kaleidos.net,open.tube##.privacy-concerns
 aptoide.com#$#html.no-scroll { overflow: auto !important; }
 aptoide.com#$#body { overflow: auto !important; }
 aptoide.com#$#div[class^="cookie-notice_"] { display: none !important; }

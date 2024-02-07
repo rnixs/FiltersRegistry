@@ -1,9 +1,9 @@
-! Checksum: fc/UuaB3GG8+azHs2zZePg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1707294942-3600.patch
+! Checksum: tx7YpUh1HwlWukVZ0qhEWw
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1707298564-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.81
-! TimeUpdated: 2024-02-07T08:31:53+00:00
+! Version: 2.0.32.82
+! TimeUpdated: 2024-02-07T09:32:08+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -4671,6 +4671,7 @@ neovolt.ru##.pop-up-cookie-alert-block
 fitomarket.ru###cookie_pop
 football24.ua##.privete-polisy
 m.timesofindia.com###myConsentFlow
+kaleidos.net,open.tube##.privacy-concerns
 aptoide.com#$#body { overflow: auto !important; }
 aptoide.com#$#div[class^="cookie-notice_"] { display: none !important; }
 delta.com###ensModalWrapper
