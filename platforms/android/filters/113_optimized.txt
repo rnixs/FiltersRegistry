@@ -1,9 +1,9 @@
-! Checksum: xJnOzptvB4ZWNmXt5jo7/g
-! Diff-Path: ../patches/113_optimized/113_optimized-s-1707311229-14400.patch
+! Checksum: 8ce63bOWZcetosYc0/WM7Q
+! Diff-Path: ../patches/113_optimized/113_optimized-s-1707325572-14400.patch
 ! Title: Liste FR (Optimized)
 ! Description: Additional filter list for websites in French. Already included in AdGuard French filter.
-! Version: 2.1.43.39
-! TimeUpdated: 2024-02-07T13:02:27+00:00
+! Version: 2.1.43.40
+! TimeUpdated: 2024-02-07T17:01:47+00:00
 ! Expires: 5 days (update frequency)
 &ad_count=
 &ad_unit_
@@ -4852,6 +4852,7 @@ zataz.com#?#.custom-sidebar:-abp-has(h3:-abp-contains(/Partenaires|Publicité/))
 @@||hcaptcha.com/captcha/*/hcaptcha.js$script
 flasharch.com#@#.ad_area_wrap
 payfit.com#@#.publicity
+casualgame.hange.jp#@#a[href*="/adclick?"]
 /ad-blocking-detector/*
 /adblock-checker.
 /adblockchecker.
