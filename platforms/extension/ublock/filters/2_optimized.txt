@@ -1,11 +1,13 @@
 ![Adblock Plus 2.0]
-! Checksum: 6SJ/rM+mJgnNhvcFA4I+xw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1707320181-3600.patch
+! Checksum: L1uVujnVf8BYrmhCHPz6pQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1707323787-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.21.25
-! TimeUpdated: 2024-02-07T15:32:48+00:00
+! Version: 2.3.21.26
+! TimeUpdated: 2024-02-07T16:32:54+00:00
 ! Expires: 5 days (update frequency)
+||bqeuffmdobmpoe.xyz^
+||njsbccyenjyq.com^
 ||vowpairmax.live^$popup
 ||slownansuch.info^$popup
 ||stethuth.xyz^
@@ -5296,6 +5298,7 @@ mako.co.il##div[id^="top-strip-"]
 !+ NOT_OPTIMIZED
 hometheater.co.il##td[width="900"][align="center"][valign="top"]
 mako.co.il##+js(set-constant, isBs, false)
+sorrisi.com##.tvsc-adv-slot
 movieplayer.it##.banner
 finanzaonline.com#$#body { margin-top: 0 !important; }
 studenti.it##+js(set-constant, Object.prototype.prerollLaunched, true)
@@ -9093,6 +9096,10 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||livehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+||faqwiki.us/ezais/
+||ezojs.com/beardeddragon/
+||time4tv.online/iframe/
+||embedstreams.me/partytown/
 ||l.js-assets.cloud/min.t.*.js
 tides.digimap.gg##.logo > div.carousel
 daijiworld.com###pnlCricket
@@ -9854,6 +9861,8 @@ golinuxcloud.com##div[id^="golin-"]
 weather.us##div[class*="dkpw-"]
 charlieintel.com##aside[data-cy="Sidebar"]
 wankoz.com##.bottom-placeholder
+vidmoly.to,kissasian.li###mg_vd2
+vidmoly.to,kissasian.li###mg_vd
 npr.org,indystar.com,usatoday.com##aside[aria-label="advertisement"]
 ||hltv.org/img/*&s=
 ||javhdporn.net/wp-content/themes/kingtube/assets/js/fun.js
@@ -27154,6 +27163,7 @@ browsershots.org#@#.advert_area
 ||pauzajoo.net^
 ||pavfazbwiap.com^
 ||pavymoieter.com^
+||pawkilycurvous.com^
 ||paxsfiss.com^
 ||paxyued.com^
 ||payoffdisastrous.com^
@@ -28597,6 +28607,7 @@ browsershots.org#@#.advert_area
 ||shunparagraphdim.com^
 ||shurfhlba.com^
 ||shutesaroph.com^
+||shutunga.com^
 ||shydastidu.com^
 ||sibcjyml.com^
 ||sibgycqzgj.com^
@@ -29062,6 +29073,7 @@ browsershots.org#@#.advert_area
 ||tapjoyads.com^
 ||tarandunlame.life^
 ||taroads.com^
+||tarsiusbaconic.com^
 ||tartator.com^
 ||tasterscaltha.com^
 ||tastierxyphoid.com^
@@ -29091,6 +29103,7 @@ browsershots.org#@#.advert_area
 ||techniciancocoon.com^
 ||technoratimedia.com^
 ||technoshadows.com^
+||teddedskeich.com^
 ||teefousoju.com^
 ||teemooge.net^
 ||tegronews.com^
@@ -29207,6 +29220,7 @@ browsershots.org#@#.advert_area
 ||timesroadmapwed.com^
 ||timot-cvk.info^
 ||tipcupids.com^
+||tipmanperdure.com^
 ||tipsembankment.com^
 ||tipslyrev.com^
 ||tiredomlovered.com^
