@@ -1,9 +1,9 @@
-! Checksum: H3WaT/NJpKqqalbGhmDnfw
-! Diff-Path: ../patches/18/18-s-1707334541-3600.patch
+! Checksum: ijzZVKcZhoHvHyStlj7E8w
+! Diff-Path: ../patches/18/18-s-1707338143-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.90
-! TimeUpdated: 2024-02-07T19:32:00+00:00
+! Version: 2.0.32.91
+! TimeUpdated: 2024-02-07T20:31:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13108,6 +13108,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/166753
+@@||cdn.onesignal.com/sdks/OneSignalSDK.js$domain=hideout.co
+@@||cmp.quantcast.com^$domain=hideout.co
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172394
 solitaire-home.com#@#.o-cookielaw
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172384
