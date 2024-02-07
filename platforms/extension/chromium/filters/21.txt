@@ -1,9 +1,9 @@
-! Checksum: Bge9OkOGr4PuUiVAbok0iw
-! Diff-Path: ../patches/21/21-s-1707291348-3600.patch
+! Checksum: tgTUClxDQbzflRkfYIacSA
+! Diff-Path: ../patches/21/21-s-1707312973-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.50
-! TimeUpdated: 2024-02-07T07:32:11+00:00
+! Version: 2.0.19.51
+! TimeUpdated: 2024-02-07T13:32:29+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4657,9 +4657,11 @@ radiotunes.com##.content-box > p > a[href^="/premium"]
 ! https://forum.adguard.com/index.php?threads/pop-up-continuously-appearing.31460
 theaustralian.com.au#$#div[id^="lightcase-"] { display:none!important; }
 theaustralian.com.au#$#body { overflow:visible!important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/172324
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100544
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41736
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29908#issuecomment-466136893
+allegro.pl##div[data-box-name="allegro.advertising.adspremium"]
 allegro.pl##div[data-box-name="AdsPremium"]
 allegro.pl##div[data-box-name="leftpanel_ads"]
 allegro.pl##div[data-analytics-tags*="TopHeader"][data-box-name="Single Image Variant Container"]
