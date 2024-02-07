@@ -1,0 +1,20 @@
+d1 2
+a2 2
+! Checksum: +LL5UY+vkNA0BLt6LXVnQg
+! Diff-Path: ../patches/18/18-s-1707320153-3600.patch
+d5 2
+a6 2
+! Version: 2.0.32.86
+! TimeUpdated: 2024-02-07T15:32:01+00:00
+a2362 3
+solitaire-home.com#$#.cookielaw-modal-layer { display: none !important; }
+solitaire-home.com#$#.cookielaw-blur-background { overflow-y: auto !important; }
+solitaire-home.com#$#.cookielaw-blur-background > *:not(script) { -webkit-filter: unset !important; }
+d2689 1
+a2689 1
+kurier.at,telegraaf.nl#%#//scriptlet('trusted-click-element', '#didomi-notice-agree-button')
+a14988 4
+! https://github.com/AdguardTeam/AdguardFilters/issues/172394
+solitaire-home.com#@#.o-cookielaw
+! https://github.com/AdguardTeam/AdguardFilters/issues/172384
+@@||privacy-center.org^$domain=kurier.at

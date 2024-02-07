@@ -1,9 +1,9 @@
-! Checksum: dbtZ/BZhExv7Z3r5Iu4jqA
-! Diff-Path: ../patches/16/16-s-1707302176-3600.patch
+! Checksum: DvsVkpwNdx4eBI+r9ZfUgw
+! Diff-Path: ../patches/16/16-s-1707320158-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.30
-! TimeUpdated: 2024-02-07T10:32:02+00:00
+! Version: 2.0.43.31
+! TimeUpdated: 2024-02-07T15:31:58+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1581,8 +1581,6 @@ app.molotov.tv#%#//scriptlet('prevent-xhr', '/ping?token=')
 !
 !
 !
-! contents hidden
-casualgame.hange.jp#@#a[href*="/adclick?"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168065
 ||dmcdn.net^$media,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167890
@@ -25313,6 +25311,7 @@ zataz.com#?#.custom-sidebar:-abp-has(h3:-abp-contains(/Partenaires|Publicité/))
 @@||static.stormwall.pro/jsav1.3.js$script
 flasharch.com#@#.ad_area_wrap
 payfit.com#@#.publicity
+casualgame.hange.jp#@#a[href*="/adclick?"]
 /ad-blocking-detector/*
 /adblock-checker.
 /adblockchecker.

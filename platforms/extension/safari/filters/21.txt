@@ -1,9 +1,9 @@
-! Checksum: ppkHbVD0+8MGBgLrKSaF2Q
-! Diff-Path: ../patches/21/21-s-1707312991-3600.patch
+! Checksum: gn6ppboR2wVeimDkGYU/fg
+! Diff-Path: ../patches/21/21-s-1707320176-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.51
-! TimeUpdated: 2024-02-07T13:32:29+00:00
+! Version: 2.0.19.52
+! TimeUpdated: 2024-02-07T15:32:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4989,6 +4989,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+sbermarket.ru##div[class^="BannersAndSlidersThroughCatalog"]
 sbermarket.ru##div[class*="ShowJsPlacement_bannerMainHeader"]
 opentip.kaspersky.com##div[class^="AnalysisBanner"]
 strannikmodz.me###sidebar > div:has(> center > a[href="//strannikmodz.me/premium.html"])

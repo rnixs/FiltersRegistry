@@ -1,9 +1,9 @@
-! Checksum: LR26nzF1WP9fcjRq12Vlag
-! Diff-Path: ../patches/7/7-s-1707309408-3600.patch
+! Checksum: cazrkoywa7knqbPWhHTFYg
+! Diff-Path: ../patches/7/7-s-1707320172-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.30
-! TimeUpdated: 2024-02-07T12:33:37+00:00
+! Version: 2.0.48.31
+! TimeUpdated: 2024-02-07T15:33:18+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -962,6 +962,8 @@ nasubiblog.com,kyukyoku-matome.com##.widget_pc_ad
 !-------JS----------
 !-------------------
 !
+! ad-leftover on click
+twidouga.net#%#//scriptlet('prevent-addEventListener', '', 'setTrigger')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166651
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166658
 pictab.art,onagazou.info#%#//scriptlet('set-constant', 'pum_vars', 'undefined')

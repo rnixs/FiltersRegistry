@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: cDl1+WnYZyEHfeCm2aQssg
-! Diff-Path: ../patches/18/18-s-1707316596-3600.patch
+! Checksum: EjeRoc0K4D1vbD+fRvkgxw
+! Diff-Path: ../patches/18/18-s-1707320179-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.85
-! TimeUpdated: 2024-02-07T14:32:05+00:00
+! Version: 2.0.32.86
+! TimeUpdated: 2024-02-07T15:32:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2331,6 +2331,9 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+solitaire-home.com#$#.cookielaw-modal-layer { display: none !important; }
+solitaire-home.com#$#.cookielaw-blur-background { overflow-y: auto !important; }
+solitaire-home.com#$#.cookielaw-blur-background > *:not(script) { -webkit-filter: unset !important; }
 visitprocida.com##.privacywire-wrapper
 tekno.kompas.com#$##kgmModal-cookie { display: none !important; }
 regery.com##.privacyAlertBox
@@ -14144,6 +14147,10 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172394
+solitaire-home.com#@#.o-cookielaw
+! https://github.com/AdguardTeam/AdguardFilters/issues/172384
+@@||privacy-center.org^$domain=kurier.at
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172353
 clickasnap.com#@#.CookieConsent:not(body):not(html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172094
