@@ -1,9 +1,9 @@
-! Checksum: mBDRknaTaJWl6I+WEI+a9g
-! Diff-Path: ../patches/251_optimized/251_optimized-s-1707210391-14400.patch
+! Checksum: HlqQJAT2WNjSAkDgHhTz8g
+! Diff-Path: ../patches/251_optimized/251_optimized-s-1707267980-14400.patch
 ! Title: Legitimate URL Shortener (Optimized)
 ! Description: Automatically removes unnecessary '$' and '&' values from URLs, making them easier to copy from the URL bar and pasting elsewhere as links.
-! Version: 2.0.7.35
-! TimeUpdated: 2024-02-06T01:03:06+00:00
+! Version: 2.0.7.36
+! TimeUpdated: 2024-02-07T01:03:04+00:00
 ! Expires: 10 days (update frequency)
 $removeparam=yclid
 $removeparam=gclid
@@ -2267,7 +2267,7 @@ $removeparam=post_index,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy
 $removeparam=auto_token,domain=nextdoor.com
 $removeparam=mobile_deeplink_data
 $removeparam=link_source_user_id,domain=nextdoor.com
-$removeparam=is,domain=nextdoor.com|media.discordapp.*
+$removeparam=is,domain=nextdoor.com
 $removeparam=mar,domain=nextdoor.com
 ||cbs42.com^$removeparam=ipid
 ||dzen.ru^$removeparam=yredirect
@@ -2397,8 +2397,6 @@ $removeparam=dyn,domain=clink2.com|dlink2.com,document
 ||adguard.info^$removeparam=nc
 *ref=404media.co*$document,removeparam=/^ref=404media.co$/
 *ref=easywithai*$document,removeparam=/^ref=easywithai$/
-||media.discordapp.$removeparam=ex
-||media.discordapp.$removeparam=hm
 ||slack.com/downloads/$document,removeparam=t
 $document,removeparam=jp_cmp,domain=chase.com
 $document,removeparam=orig_ref,domain=peacocktv.com
