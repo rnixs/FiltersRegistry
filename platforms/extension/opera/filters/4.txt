@@ -1,9 +1,9 @@
-! Checksum: 1kwB/6Do5INfFWVCmdTLcA
-! Diff-Path: ../patches/4/4-s-1707305773-3600.patch
+! Checksum: 8V5wyF97QEr8r5cbIr1K4w
+! Diff-Path: ../patches/4/4-s-1707316587-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.18
-! TimeUpdated: 2024-02-07T11:33:01+00:00
+! Version: 2.0.97.19
+! TimeUpdated: 2024-02-07T14:33:05+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1594,7 +1594,7 @@ sravni.ru##div[class^="article-footer_wrapper"] button[name="Поделитьс�
 maxnet.ua,nsenergybusiness.com##.social-media
 barchart.com##.modal-share-group
 barchart.com##.bc-twittertimeline-wrapper
-oilcapital.ru,newizv.ru,inkazan.ru,vostokmedia.com##button[class^="LeftcolSocials"]
+newia.ru,udm-info.ru,oilcapital.ru,newizv.ru,inkazan.ru,vostokmedia.com##button[class^="LeftcolSocials"]
 poradnikprzedsiebiorcy.pl##.share-static
 cosmopolitan.fr##.js-SocialNetworkLink
 cosmopolitan.fr##.ArticleContent-share

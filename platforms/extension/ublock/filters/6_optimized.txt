@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: iva60H9ls89occmITLMSVg
-! Diff-Path: ../patches/6_optimized/6_optimized-s-1707302204-3600.patch
+! Checksum: AEisfTkv0U4IKT1cCSj0xw
+! Diff-Path: ../patches/6_optimized/6_optimized-s-1707316602-3600.patch
 ! Title: AdGuard German filter (Optimized)
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.34
-! TimeUpdated: 2024-02-07T10:33:20+00:00
+! Version: 2.0.40.35
+! TimeUpdated: 2024-02-07T14:33:17+00:00
 ! Expires: 5 days (update frequency)
 ||lehrer-finden.de^
 ||lokalwerben.t-online.de^
@@ -483,6 +483,7 @@ t-online.de#@#div[class^="Tsshopst"]
 essen-und-trinken.de##+js(no-setTimeout-if, s.call(null), 10)
 /^https:\/\/www\.essen-und-trinken\.de\/[a-z]{10,}\.js$/$script,~third-party,match-case
 schnittmuster-datenbank.de##+js(abort-on-property-read, adsBlocked)
+aktion-holz.de##+js(abort-current-script, document.addEventListener, /abisuq/)
 restegourmet.de#@##AdHeader
 restegourmet.de#@##AD_Top
 restegourmet.de#@##homead
