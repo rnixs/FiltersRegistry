@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: HPAFqr01sgofpDdICJ07sQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1707302199-3600.patch
+! Checksum: T5KhiKL+ROQ3QEHzmuOwvw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1707305780-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.86.89
-! TimeUpdated: 2024-02-07T10:31:55+00:00
+! Version: 2.1.86.90
+! TimeUpdated: 2024-02-07T11:31:49+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -6911,7 +6911,7 @@ gelia.fi,gelia.no,gelia.se##+js(remove-attr, style, body div.main-menu\, a.logot
 autokino-duesseldorf.ticket.io##+js(remove-class, modal-open, body)
 mazda.com.tr##+js(remove-class, cookie-panel-enabled, .cookie-panel-enabled[data-module="header"])
 freeyou.ag##+js(remove-class, fixed-body, body\,html)
-adidas.com.tr,adidas.it,adidas.com.br,adidas.es,adidas.se,adidas.no,adidas.fi,adidas.com.ar,adidas.co.uk,adidas.nl,adidas.pl##+js(set-cookie, notice_preferences, 1)
+adidas.ch,adidas.com.tr,adidas.it,adidas.com.br,adidas.es,adidas.se,adidas.no,adidas.fi,adidas.com.ar,adidas.co.uk,adidas.nl,adidas.pl##+js(set-cookie, notice_preferences, 1)
 sourceforge.net##+js(set-constant, window.cmpmngr.setConsentViaBtn, noopFunc)
 m.winfuture.de##+js(set-session-storage-item, sdgSeen, true)
 tecchannel.de##+js(abort-on-property-read, Object.prototype.waitForConsentData)
