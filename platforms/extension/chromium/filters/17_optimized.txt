@@ -1,9 +1,9 @@
-! Checksum: Oq1LVdJs5VboQme+2PbMQw
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1707363336-3600.patch
+! Checksum: 2fymcFpwhV0HY2+/b7YdoA
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1707388587-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.7.97
-! TimeUpdated: 2024-02-08T03:31:50+00:00
+! Version: 2.0.7.98
+! TimeUpdated: 2024-02-08T10:32:03+00:00
 ! Expires: 10 days (update frequency)
 $removeparam=cjdata
 $removeparam=cjevent
@@ -219,6 +219,7 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||prothomalo.com^$cookie=uuid_v2
 ||track.wargaming-aff.com/click?pid=$removeparam=ref_id
 ||trck.wargaming.net^$removeparam
 ||join.worldoftanks.eu^$removeparam
