@@ -1,9 +1,9 @@
-! Checksum: uN/MdLhtXxMX4sr9t4pDHg
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1707359751-3600.patch
+! Checksum: yLmTtwrpOdttt5o9oaHMzw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1707377736-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.1
-! TimeUpdated: 2024-02-08T02:32:00+00:00
+! Version: 2.1.87.2
+! TimeUpdated: 2024-02-08T07:31:45+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -5787,7 +5787,7 @@ souschef.co.uk,usharbors.com,domain-status.com,netdoktor.de,toolslib.net##.cc-fl
 argusmonitor.com,audeze.com,hedd.audio,spigen.com,jasminwagner.de,aqua-fun.com,dji.com,ockles.com,mkvtoolnix.download,mlbstream.me##.cc-window
 freebitco.in,sozialversicherung-kompetent.de,mobile-tracker-free.com,store.bistudio.com,hifi-forum.de,m.apotheken-umschau.de,futhead.com,gofobo.com,mobiflip.de,news.de##.cc_banner-wrapper
 allday.com.tr,happylook.ru,e-consystems.com,uaz.ru,nakubani.ru,eksmo.ru,papajohns.com.tr,dreamtv.com.tr,jobinfo.hu,kanald.com.tr,radyod.com,slowturk.com.tr##.cookie-accept
-naray.one,mcdonalds.co.id,euronabycerny.com,mangahack.com,wiadomoscihandlowe.pl,bcs-express.ru,psc-inc.co.jp,apteka24.ua,u-mama.ru,gumtree.co.za,btclod.com,a12.com,ontiva.com,dr-telemed.ru,myfasol.ru,ponyexpress.ru,litres.ru,amediateka.ru,hansa.rs,schnaeppchenfuchs.com,xsport.ua##.cookie-agreement
+sanyglobal.com,naray.one,mcdonalds.co.id,euronabycerny.com,mangahack.com,wiadomoscihandlowe.pl,bcs-express.ru,psc-inc.co.jp,apteka24.ua,u-mama.ru,gumtree.co.za,btclod.com,a12.com,ontiva.com,dr-telemed.ru,myfasol.ru,ponyexpress.ru,litres.ru,amediateka.ru,hansa.rs,schnaeppchenfuchs.com,xsport.ua##.cookie-agreement
 thomasmeyerhoefer.com,kaffeebraun.com,bessey.de,europe.nflshop.com,neuronation.com,conjuga-me.net,proz.com,htc.com,index.hr,vice.com##.cookie-consent-container
 deloitte.com##.cookie-container
 avantree.com,singlife.com.ph,ok.co.uk##.cookie-div
@@ -8022,7 +8022,7 @@ rtl.hu##.adblock-confirm
 ||concertarchives.org/assets/freestar-ad-recovery.js
 bilibili.com##.__adblockhidden
 spletnik.ru##.z-adblock-message
-||static.qiota.com/assets/getQiota.js$domain=cosmopolitan.fr|beautyshow-by-kikomilano-cosmo.fr
+||static.qiota.com/assets/getQiota.js$domain=cosmopolitan.fr|beautyshow-by-kikomilano-cosmo.fr|magicmaman.com
 megogo.net##.adBlock_banner
 animenewsnetwork.com#$#body #Adbanner { display: block !important; height: 1px !important; }
 graphicget.com,udemy-downloader.com#$##modal_blocker { display: none !important; }
@@ -8059,8 +8059,8 @@ woowebtools.com,wooseotools.com##div[style^="position: fixed; width: 100vw;"][st
 smods.ru###ab-warning
 casper.tw##.container > div.row > div.rounded-top + div.d-lg-block
 boylove.cc##.blocked_hint_msg_pc
-android.com.pl#$#body > div:not([class], [id]) > #AdHeader { display: block !important; }
-android.com.pl#$#body > div:not([class], [id]) > #AdHeader ~ * { display: block !important; }
+101soundboards.com,android.com.pl#$#body > div:not([class], [id]) > #AdHeader { display: block !important; }
+101soundboards.com,android.com.pl#$#body > div:not([class], [id]) > #AdHeader ~ * { display: block !important; }
 ||it-actual.ru/wp-content/themes/iconic-one/js/lcr.js
 advancedtomato.com##.donate-container
 reddit.com#$##acceptabletest { display: block !important; }
@@ -8933,6 +8933,7 @@ aol.com#@#.adwrap
 !+ NOT_PLATFORM(windows, mac, android)
 @@||pubads.g.doubleclick.net/gampad/adx?*/ad-blk$domain=washingtonpost.com
 !#safari_cb_affinity(general)
+@@||101soundboards.com^$generichide
 @@||imasdk.googleapis.com^$xmlhttprequest,domain=nanifile.com
 @@||adskeeper.co.uk^$domain=bravedown.com
 @@||s.nitropay.com/ads-*.js$domain=maxroll.gg
