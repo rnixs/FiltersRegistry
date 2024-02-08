@@ -1,9 +1,9 @@
-! Checksum: wLeK8M2hSb7DGP+ZUj3cjg
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1707339981-14400.patch
+! Checksum: bVVtMqquFJFX4IhhTLyxsQ
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1707397588-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.18.87
-! TimeUpdated: 2024-02-07T21:02:09+00:00
+! Version: 2.0.18.88
+! TimeUpdated: 2024-02-08T13:02:01+00:00
 ! Expires: 5 days (update frequency)
 .id^*/adv-$domain=~adv.kompas.id
 .id^*/bnr/$domain=~kalbarprov.go.id
@@ -3161,6 +3161,7 @@ monitorteknologi.com##.penci-google-adsense-2
 /SvgAdblockDetected/*
 /wp-content/uploads/an-temp/*$stylesheet,script
 _adblock_killer.
+/wp-content/uploads/gudyoab.$script
 /wp-content/plugins/ad-block-defender/*
 /wp-content/plugins/adunblocker
 /wp-content/plugins/eazy-ad-unblocker/*
