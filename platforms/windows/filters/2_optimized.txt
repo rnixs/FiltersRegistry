@@ -1,9 +1,9 @@
-! Checksum: C3ENnGFAJtLPDz07rcXivw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1707359790-3600.patch
+! Checksum: 0yb8vnUp7eOMFh9I2BLDJQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1707366968-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.21.29
-! TimeUpdated: 2024-02-07T21:32:38+00:00
+! Version: 2.3.21.30
+! TimeUpdated: 2024-02-08T04:32:39+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -29353,6 +29353,7 @@ browsershots.org#@#.advert_area
 ||starsaug.com^
 ||starswalker.site^
 ||startappexchange.com^
+||startperfectsolutions.com^
 ||starvardsee.xyz^
 ||stassaxouwa.com^
 ||stat-rock.com^
