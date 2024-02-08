@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 3ThaAPMnLpPEB7uNcToJCw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1707417373-3600.patch
+! Checksum: BYTOVcjGrUG0D1YKWLNHkQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1707420975-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.21.41
-! TimeUpdated: 2024-02-08T18:32:49+00:00
+! Version: 2.3.21.42
+! TimeUpdated: 2024-02-08T19:32:48+00:00
 ! Expires: 5 days (update frequency)
 ||lfkxjcrlrrar.com^
 ||feetdonsub.live^$popup
@@ -17151,6 +17151,8 @@ _800x80_
 ##.ad-wireframe
 ##.ad-wireframe-wrapper
 ##.ad-wp-720
+##.ad-wppr
+##.ad-wppr-container
 ##.ad-wrap
 ##.ad-wrapper
 ##.ad-wrapper--ad-unit-wrap
@@ -19736,6 +19738,7 @@ browsershots.org#@#.advert_area
 ||63voy9ciyi14.com^
 ||649ce954a0.com^
 ||65f249bd43.com^
+||665166e5a9.com^
 ||68069795d1.com^
 ||69i.club^
 ||69v.club^
@@ -20699,6 +20702,7 @@ browsershots.org#@#.advert_area
 ||avouboojirs.com^
 ||avqhelxlb.com^
 ||avrqaijwdqk.xyz^
+||avrqikbubjin.com^
 ||avthelkp.net^
 ||avwwphtnquacgd.com^
 ||avygpim.com^
@@ -20751,6 +20755,7 @@ browsershots.org#@#.advert_area
 ||azeriondigital.com^
 ||azkcqs.com^
 ||azoaltou.com^
+||azotvby.com^
 ||azvneyrknejew.top^
 ||azwkjjkmbqvye.top^
 ||azxhlzxmrqc.com^
@@ -21191,6 +21196,7 @@ browsershots.org#@#.advert_area
 ||bowerspollees.com^
 ||bowerywill.com^
 ||bowldescended.com^
+||boxernightdilution.com^
 ||boxofficehelping.com^
 ||boxofwhisper.com^
 ||bp9l1pi60.pro^
@@ -23981,6 +23987,7 @@ browsershots.org#@#.advert_area
 ||guvnsusr.com^
 ||guxedsuba.com^
 ||gvcgmvblssh.com^
+||gvfkzyq.com^
 ||gvkqpogjqvni.com^
 ||gvkzvgm.com^
 ||gvt2.com^
@@ -24072,6 +24079,7 @@ browsershots.org#@#.advert_area
 ||haveredsiren.space^
 ||havingsreward.com^
 ||haviorshydnoid.com^
+||hawhuxee.com^
 ||hawkyeye5ssnd.com^
 ||haxbyq.com^
 ||hayjvhirir.com^
@@ -24561,6 +24569,7 @@ browsershots.org#@#.advert_area
 ||imitrck.net^
 ||imkbgfcnd.com^
 ||immediateknowledge.com^
+||immerseweariness.com^
 ||immoxdzdke.com^
 ||imp2aff.com^
 ||impact-betegy.com^
@@ -24843,6 +24852,7 @@ browsershots.org#@#.advert_area
 ||javascriptcdnlive.com^
 ||jazzlowness.com^
 ||jazzspeechlessarena.com^
+||jbirahiifj.com
 ||jblxcqsga.com^
 ||jbm6c54upkui.com^
 ||jbnmppupawyil.com^
@@ -25560,6 +25570,7 @@ browsershots.org#@#.advert_area
 ||likeads.com^
 ||likenedfondles.life^
 ||lilysuffocateacademy.com^
+||limineshucks.com^
 ||limpattemptnoose.com^
 ||limpingpick.com^
 ||limurol.com^
@@ -25971,6 +25982,7 @@ browsershots.org#@#.advert_area
 ||messagereceiver.com^
 ||messenger-notify.xyz^
 ||messiahspoot.com^
+||messy-concentrate.com^
 ||metaeatage.life^
 ||metorealiukz.org^
 ||metrica-yandex.com^
@@ -26106,6 +26118,7 @@ browsershots.org#@#.advert_area
 ||modents-diance.com^
 ||modoro360.com^
 ||modularmental.com^
+||modulecooper.com^
 ||moduledescendantlos.com^
 ||modulepush.com^
 ||mohiwhaileed.com^
@@ -28697,6 +28710,7 @@ browsershots.org#@#.advert_area
 ||snhtvtp.com^
 ||snipersex.com^
 ||snoopundesirable.com^
+||snoopytown.pro^
 ||snowdayonline.xyz^
 ||snowdonuncia.com^
 ||snowmiracles.com^
@@ -31178,6 +31192,7 @@ browsershots.org#@#.advert_area
 ||bewathis.com^$popup
 ||binaryborrowedorganized.com^$popup
 ||bongacams.com^$popup,third-party
+||boxernightdilution.com^$popup
 ||buythetool.co^$popup
 ||candyoffers.com^$popup
 ||cdn4ads.com^$popup

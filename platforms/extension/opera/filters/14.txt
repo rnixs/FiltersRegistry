@@ -1,9 +1,9 @@
-! Checksum: 96wDnxr9jwEriJqs0ZTteA
-! Diff-Path: ../patches/14/14-s-1707413752-3600.patch
+! Checksum: R6WYIFH7udGOqX4OK7AS5g
+! Diff-Path: ../patches/14/14-s-1707420963-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.11
-! TimeUpdated: 2024-02-08T17:31:44+00:00
+! Version: 2.1.87.12
+! TimeUpdated: 2024-02-08T19:31:49+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -31626,7 +31626,7 @@ thefederalist.com#$#.pum-overlay[data-popmake*='"slug":"sign-up-for-federalist-c
 ensonhaber.com##.article-gnews
 securelist.com##.c-widget-subscribe
 unian.net##.app-banner-yt
-unian.net#?#.newsfeed__list > div.newsfeed__item:has(> div.newsfeed__tg)
+unian.net##.newsfeed__list > div.newsfeed__item:has(> div.newsfeed__tg)
 oilprice.com##form[id^="sidebar_signupform_"]
 suspilne.media#?#.c-article-content__content > p:has(> strong > a[href="https://t.me/suspilneodesa"])
 boredpanda.com##.post-footer-gnews-promotion
