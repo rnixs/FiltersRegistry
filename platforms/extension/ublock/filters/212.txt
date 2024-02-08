@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: SAfO3fr4i3Z/8n0Ag6Cn2g
-! Diff-Path: ../patches/212/212-s-1707412015-14400.patch
+! Checksum: rQdnw8V3C4gLzbWR32Eh3g
+! Diff-Path: ../patches/212/212-s-1707426454-14400.patch
 ! Title: RU AdList: Counters
 ! Description: RU AdList supplement for trackers blocking.
-! Version: 2.1.42.72
-! TimeUpdated: 2024-02-08T17:02:20+00:00
+! Version: 2.1.42.73
+! TimeUpdated: 2024-02-08T21:02:53+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: A4yiatbiG6egGMgbuhyUnw
-! OriginalVersion: 202402081651
+! Checksum: kYThcX4qWO+EMJFwhJZO4Q
+! OriginalVersion: 202402082051
 ! Title: RU AdList: Counters
-! Last modified: 08 Feb 2024 16:51 UTC
+! Last modified: 08 Feb 2024 20:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1338,7 +1338,7 @@ $removeparam=referrer_clid
 $removeparam=rf,domain=mail.ru|sportmail.ru
 $removeparam=rtclick
 $removeparam=searchid,domain=kufar.by
-$removeparam=short_domain,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turboobit.com|turbosit.net
+$removeparam=short_domain,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
 $removeparam=sid,domain=nnm-club.lib|nnm-club.me|nnmclub.ro|nnmclub.to|rutor.in
 $removeparam=source_ve_path,domain=youtube.com
 $removeparam=tt_content,domain=twitch.tv

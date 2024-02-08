@@ -1,15 +1,15 @@
-! Checksum: 8pLdzXGBzqRjxa3cKZr9Qw
-! Diff-Path: ../patches/122/122-s-1707412037-14400.patch
+! Checksum: Csc1LOOhD2YRM4F7V2CktQ
+! Diff-Path: ../patches/122/122-s-1707426474-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.75
-! TimeUpdated: 2024-02-08T17:02:11+00:00
+! Version: 2.1.20.76
+! TimeUpdated: 2024-02-08T21:02:45+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: owyC0yWxV3wOvWIXmubC9w
-! OriginalVersion: 202402081540
+! Checksum: wT73SRMEWs0boYKQnfyymA
+! OriginalVersion: 202402081940
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-08 15:40 UTC
+! Last modified: 2024-02-08 19:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10359,6 +10359,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.post__share--twitter
 ##.post__share--whatsapp
 ##.post__share--white
+##.post__share-container
 ##.post__share-social
 ##.post__single-social
 ##.post__social-container
