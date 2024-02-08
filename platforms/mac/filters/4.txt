@@ -1,9 +1,9 @@
-! Checksum: wQ9wRbC3M9DGA6AfpqBL+A
-! Diff-Path: ../patches/4/4-s-1707381388-3600.patch
+! Checksum: M7ZKGl1RKsVXVg57ywuGXw
+! Diff-Path: ../patches/4/4-s-1707399441-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.21
-! TimeUpdated: 2024-02-08T08:32:54+00:00
+! Version: 2.0.97.22
+! TimeUpdated: 2024-02-08T13:33:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10578,7 +10578,7 @@ nbcnews.com##.stack-list-share > li:first-child
 nbcnews.com##.stack-list-share > li:nth-child(2)
 msn.com##.stbp-row-wrap
 netzwelt.de##.stcl
-detik.com,lacapital.com.ar,binaryfork.com,withnews.jp,elitedaily.com##.sticky-share
+telkomsel.com,detik.com,lacapital.com.ar,binaryfork.com,withnews.jp,elitedaily.com##.sticky-share
 theblaze.com##.story-col-share
 ibtimes.com##.story_allsocial
 rambler.ru##.subscribe-widget

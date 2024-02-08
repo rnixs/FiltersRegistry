@@ -1,9 +1,9 @@
-! Checksum: KJy3mLr8VA8H4QPN5y5Auw
-! Diff-Path: ../patches/18/18-s-1707395851-3600.patch
+! Checksum: 4H93dKNZVT1Ozqfw/m1iLA
+! Diff-Path: ../patches/18/18-s-1707399450-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.96
-! TimeUpdated: 2024-02-08T12:32:12+00:00
+! Version: 2.0.32.97
+! TimeUpdated: 2024-02-08T13:32:42+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2360,6 +2360,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+crazyegg.com##.gdpr-cookie-modal
 promobit.com.br###__next > div.fixed:has(> div.flex > p > a[href="/institucional/cookies/"])
 pechinchou.com.br##section[class^="ModalCookies_"]
 nexcess.net#%#//scriptlet('trusted-click-element', 'button[aria-label="Accept cookies"]', '', '2000')

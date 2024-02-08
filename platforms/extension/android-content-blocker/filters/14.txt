@@ -1,9 +1,9 @@
-! Checksum: xXT94ImbgwcWxOzFICofXA
-! Diff-Path: ../patches/14/14-s-1707395772-3600.patch
+! Checksum: s3aeksX9eIT5t82juuRg0Q
+! Diff-Path: ../patches/14/14-s-1707399392-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.6
-! TimeUpdated: 2024-02-08T12:32:02+00:00
+! Version: 2.1.87.7
+! TimeUpdated: 2024-02-08T13:32:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2323,6 +2323,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+crazyegg.com##.gdpr-cookie-modal
 pechinchou.com.br##section[class^="ModalCookies_"]
 interamt.de#$#.ia-m-modal--cookie { display: none !important; }
 interamt.de#$#.ia-modal-opened { overflow: auto !important; }
@@ -39768,6 +39769,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172421
+debugbear.com##div[class^="ctaContainer_"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172426
 nexcess.net###page-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172445

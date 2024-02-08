@@ -1,9 +1,9 @@
-! Checksum: DbUAiC7Ux5SLVuNsH0004A
-! Diff-Path: ../patches/18/18-s-1707395774-3600.patch
+! Checksum: QYvcueXCC9GM7lRzOtdiww
+! Diff-Path: ../patches/18/18-s-1707399393-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.96
-! TimeUpdated: 2024-02-08T12:32:12+00:00
+! Version: 2.0.32.97
+! TimeUpdated: 2024-02-08T13:32:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2323,6 +2323,7 @@ moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+crazyegg.com##.gdpr-cookie-modal
 pechinchou.com.br##section[class^="ModalCookies_"]
 interamt.de#$#.ia-m-modal--cookie { display: none !important; }
 interamt.de#$#.ia-modal-opened { overflow: auto !important; }
