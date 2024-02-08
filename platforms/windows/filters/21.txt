@@ -1,9 +1,9 @@
-! Checksum: J5BdvNiW/tiTOxfv67w4XQ
-! Diff-Path: ../patches/21/21-s-1707403054-3600.patch
+! Checksum: McQk970KBrSAR7nKlyc6hA
+! Diff-Path: ../patches/21/21-s-1707413779-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.57
-! TimeUpdated: 2024-02-08T14:32:48+00:00
+! Version: 2.0.19.58
+! TimeUpdated: 2024-02-08T17:32:10+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -737,6 +737,7 @@ so.toutiao.com##.s-side-list > div.result-content > div[id^="s-dom-"]
 ||widget.golfscape.com^$domain=sport360.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118308
 ! embed tv, used on many sites in floating player
+lance.com.br##.justify-center:has(> div:only-child > .dugout-video)
 lance.com.br#?#.container:has(> div > div.dugout-video)
 tribuna.com##.dugout-video
 football-tribe.com#?#.stamp > div.tribe-thumbnails-wrapper > div.post-thumbnail:has(> div.dugout_video_cont)

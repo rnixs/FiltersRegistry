@@ -1,9 +1,9 @@
-! Checksum: sJVTI9QFOijJp/eHgDJFCg
-! Diff-Path: ../patches/16_optimized/16_optimized-s-1707395774-3600.patch
+! Checksum: 205UR6ptHvNH16+e3oIh8g
+! Diff-Path: ../patches/16_optimized/16_optimized-s-1707413739-3600.patch
 ! Title: AdGuard French filter (Optimized)
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.33
-! TimeUpdated: 2024-02-08T12:32:10+00:00
+! Version: 2.0.43.34
+! TimeUpdated: 2024-02-08T17:31:52+00:00
 ! Expires: 5 days (update frequency)
 ||vookamoo.com^
 ||proxy.ads.canalplus-bo.net^
@@ -3899,7 +3899,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||instantjmm.com/pub/
 ||iqoption.com/land/$third-party
 ||jeu-gratuit.net/images/bannieres/
-||jokerly.com^*/_final_landscape.
 ||jolstatic.fr/www/skins/
 ||jumia.*/banners/
 ||kaltura.com^*/a.mp4|$media
@@ -5929,7 +5928,6 @@ ouedkniss.com##.mt-4.mt-md-6.home-front-store
 allo-streaming.one##.mvic-btn
 tchatche.com##.native-banner
 porndoe.com##.news-ticker-wrap
-nicematin.com##.nm_header_ad
 manjaro.fr##.nuxit
 lenouveleconomiste.fr##.nveco-widget
 lecho.be##.o-hpgrid__row-sponsoredcombo
