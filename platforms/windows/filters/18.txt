@@ -1,9 +1,9 @@
-! Checksum: OLqGCVelkK3cCGgojTUa/g
-! Diff-Path: ../patches/18/18-s-1707377785-3600.patch
+! Checksum: UkmcNeJ38QAjP9E/fAwS5w
+! Diff-Path: ../patches/18/18-s-1707381395-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.93
-! TimeUpdated: 2024-02-08T07:31:55+00:00
+! Version: 2.0.32.94
+! TimeUpdated: 2024-02-08T08:31:55+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15115,7 +15115,9 @@ krungsricard.com#@##cookieModal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169963
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=weather.com
 @@||cdn.privacy-mgmt.com/mms/$domain=weather.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/172413
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169960
+!+ NOT_OPTIMIZED
 @@||tennisachat.com/min/?f=/skin/frontend/rwd/*/css/styles.css
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169917
 quiksilver.be#@##cookie-popup
