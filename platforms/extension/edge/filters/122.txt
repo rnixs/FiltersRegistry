@@ -1,15 +1,15 @@
-! Checksum: XYAxk49SK7rQPwh21pf2mQ
-! Diff-Path: ../patches/122/122-s-1707354380-14400.patch
+! Checksum: ys3oziKa3Z0nGNa23blORA
+! Diff-Path: ../patches/122/122-s-1707368953-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.71
-! TimeUpdated: 2024-02-08T01:02:00+00:00
+! Version: 2.1.20.72
+! TimeUpdated: 2024-02-08T05:02:09+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: IQUt7t+PtPlJeXXvH/1l7A
-! OriginalVersion: 202402080040
+! Checksum: Rj6tK7eFkykWbGT9/IMm0w
+! OriginalVersion: 202402080440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-08 00:40 UTC
+! Last modified: 2024-02-08 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -47792,6 +47792,8 @@ thedesignlove.com##.cp-overlay
 thedesignlove.com#$#body,html { overflow: auto !important; position: initial !important; }
 ! linkedin.com
 linkedin.com##.promo-bottom-sheet
+linkedin.com##.promo
+linkedin.com##.overlay
 linkedin.com#$#body { overflow: auto !important; position: initial !important; }
 ! imgur.io
 imgur.io##.SeeImgurOIA-overlay
