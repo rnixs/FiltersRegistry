@@ -1,0 +1,14 @@
+d2 2
+a3 2
+! Checksum: Hxd0BzCt19w9GhhaDd+0pw
+! Diff-Path: ../patches/1/1-s-1707406590-3600.patch
+d6 2
+a7 2
+! Version: 2.0.88.48
+! TimeUpdated: 2024-02-08T15:32:22+00:00
+a5705 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/172460
+otfilm.ru,bossfilm.ru##+js(remove-node-text, script, adOnClick)
+a7559 1
+/content/stargate/$image,domain=otfilm.ru|bossfilm.ru
+d11531 1
