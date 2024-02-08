@@ -1,9 +1,9 @@
-! Checksum: 6m/qh/Cv7H9JJ5+ENql5Qw
-! Diff-Path: ../patches/19/19-s-1707356148-3600.patch
+! Checksum: mI1DVQZi9MsoRCeimC7m1A
+! Diff-Path: ../patches/19/19-s-1707359755-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.34
-! TimeUpdated: 2024-02-08T01:31:54+00:00
+! Version: 2.0.31.35
+! TimeUpdated: 2024-02-08T02:32:13+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12156,6 +12156,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+infomoney.com.br##div[class^="cta-"]
 niezalezna.pl##.n-container
 politnavigator.net#?#.amp-wp-article-content > .hide_mobile:has(> strong:contains(Подпишитесь))
 kinoland.biz##.page__share

@@ -1,9 +1,9 @@
-! Checksum: wpskbuLubct4ImLOkzgu+g
-! Diff-Path: ../patches/9/9-s-1707356144-3600.patch
+! Checksum: OsJRbt68giPsRVi/RmBHrw
+! Diff-Path: ../patches/9/9-s-1707359750-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.24
-! TimeUpdated: 2024-02-08T01:33:12+00:00
+! Version: 2.0.23.25
+! TimeUpdated: 2024-02-08T02:33:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2444,7 +2444,7 @@ colombia.com##.alto
 gamestorrents.fm##a[href^="https://sTartGAMIng.net/"] > img
 kienyke.com##.contendo-relacionado-por-columnas
 ccma.cat###contenidor_megabanner
-ccma.cat##[data-ad-type]
+infomoney.com.br,ccma.cat##[data-ad-type]
 principal.cat##.publi-principal
 estandarte.com##.ad-p
 elrellano.com##.inside-right-sidebar
