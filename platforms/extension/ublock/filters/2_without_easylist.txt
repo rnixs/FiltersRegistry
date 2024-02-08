@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: rcsGfCNqbiEvy0Ng3Q9ksA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707381377-3600.patch
+! Checksum: 8bEkBjqJcZMcUXPkuzdsSg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707384975-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.21.32
-! TimeUpdated: 2024-02-08T08:32:40+00:00
+! Version: 2.3.21.33
+! TimeUpdated: 2024-02-08T09:32:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1501,7 +1501,6 @@
 !
 ! https://github.com/AdguardTeam/AdGuardHome/issues/1046
 ||samsungtvads.com^
-||adconsent.samsungrs.com^
 !
 ! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
 ! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
@@ -7304,6 +7303,8 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172436
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172399
 elamigos-games.net##+js(no-setTimeout-if, checkAdblockUser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172350
