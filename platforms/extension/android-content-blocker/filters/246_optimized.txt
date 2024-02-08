@@ -1,9 +1,9 @@
-! Checksum: 7rA6sSb5BTo5RztnDOrpBQ
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1707368864-14400.patch
+! Checksum: Rzk+D3XbT0oD3sGE/FzQFA
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1707383183-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.39.51
-! TimeUpdated: 2024-02-08T05:02:58+00:00
+! Version: 2.1.39.52
+! TimeUpdated: 2024-02-08T09:03:01+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -271,7 +271,6 @@ supernowosci24.pl##[id^="r-"]
 ||fiatklubpolska.pl^*-iparts.
 ||fireads.online^$third-party
 ||forum.haszysz.com/solarr^$image
-||fwcdn.pl^*^ready^$subdocument,domain=filmweb.pl
 ||g.cda.pl/mediafile/acyHQyrkZus.mp4
 ||gazetasenior.pl^*_300x300_
 ||getsitecontrol.com^$script,domain=swiatmotocykli.pl
@@ -2028,6 +2027,7 @@ nowawrzesnia.pl##a[href="https://www.facebook.com/mbus.info"]
 plonskwsieci.pl##a[href="https://www.facebook.com/romaplonsk"]
 staleo.pl##a[href="https://www.fanuc.eu/pl/pl?utm_source=staleo&utm_medium=banner+wysuwalny&utm_campaign=ogolny"]
 gazeta-mosina.pl##a[href="https://www.firmarolnicza.pl/"]
+bitcoin.pl##a[href="https://www.geco.one/bonuses"]
 cenyrolnicze.pl##a[href="https://www.indrol.pl/kontakt#kontraktacja"]
 swidnica24.pl##a[href="https://www.iparts.pl"]
 nowawrzesnia.pl##a[href="https://www.lazienkowepasje.pl/"]
