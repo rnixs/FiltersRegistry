@@ -1,9 +1,9 @@
-! Checksum: EvK/1LzN0SeBtdWoMvWK+g
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1707311244-14400.patch
+! Checksum: +pkdON7XGdqd/TznrRkDtQ
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1707354378-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.13.26
-! TimeUpdated: 2024-02-07T13:03:48+00:00
+! Version: 2.0.13.27
+! TimeUpdated: 2024-02-08T01:03:04+00:00
 ! Expires: 10 days (update frequency)
 ###smart-banner
 ###smartbanner
@@ -881,6 +881,9 @@ rule34.xxx###comment-list
 e621.net,e926.net###comments
 ###hot-network-questions
 justin-time.fandom.com##div[class^=CommentList_c]:not([class*=" "])
+arstechnica.com###social-footer
+||arstechnica.$removeparam=comments
+||arstechnica.$removeparam=comments-page
 kimcartoon.*#?#.title-list:has-text(/^Comments$/i)
 kimcartoon.*#?#.title-list:has-text(/^Comments$/i) ~ div
 /endscreen.js$script,domain=youtube.com|youtu.be|youtube-nocookie.com
@@ -1996,7 +1999,7 @@ $removeparam=share_link_id
 ||tiktok.com^$removeparam=sec_uid
 ||tiktok.com^$removeparam=share_author_id
 ||tiktok.com^$removeparam=embed_source
-$removeparam=si,document,domain=open.spotify.com|soundcloud.com|youtube.com|youtu.be|zappos.com
+$removeparam=si,document,domain=open.spotify.com|soundcloud.com|zappos.com
 $removeparam=gtm
 $removeparam=referral,domain=tv2.no|spotify.com|yubo.live
 ||spotify.com^$removeparam=nd
