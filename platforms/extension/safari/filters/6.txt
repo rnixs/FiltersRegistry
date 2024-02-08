@@ -1,9 +1,9 @@
-! Checksum: 8+o5dpB3mEQ0lCRNldyvLQ
-! Diff-Path: ../patches/6/6-s-1707316594-3600.patch
+! Checksum: IA+OBia62dIEa4giqqKTVg
+! Diff-Path: ../patches/6/6-s-1707395817-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.35
-! TimeUpdated: 2024-02-07T14:33:17+00:00
+! Version: 2.0.40.36
+! TimeUpdated: 2024-02-08T12:33:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -657,6 +657,11 @@ schnittmuster-datenbank.de#%#//scriptlet("abort-on-property-read", "adsBlocked")
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172385
 aktion-holz.de#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "/abisuq/")
+aktion-holz.de#@##AdLayer1
+aktion-holz.de#@##ad-tab
+aktion-holz.de#@##ad_left_top
+aktion-holz.de#@##adscontent
+aktion-holz.de#@##adside
 ! https://github.com/uBlockOrigin/uAssets/issues/21862
 restegourmet.de#@##AdHeader
 restegourmet.de#@##AD_Top

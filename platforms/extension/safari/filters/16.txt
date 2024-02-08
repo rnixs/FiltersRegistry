@@ -1,9 +1,9 @@
-! Checksum: 1T6ZG0Bce5OCM6KVZL3YCA
-! Diff-Path: ../patches/16/16-s-1707377760-3600.patch
+! Checksum: H1puYt+4wnR18tpK+OsfRQ
+! Diff-Path: ../patches/16/16-s-1707395812-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.32
-! TimeUpdated: 2024-02-08T07:31:52+00:00
+! Version: 2.0.43.33
+! TimeUpdated: 2024-02-08T12:32:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -929,6 +929,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+neko-sama.fr#?##watch > div.container > div.row:has(> div[style] > script[src$="code.js"])
 magicmaman.com##.External.is-empty
 cookomix.com##.AdMB
 ||voirdrama.org/rotateva.php
