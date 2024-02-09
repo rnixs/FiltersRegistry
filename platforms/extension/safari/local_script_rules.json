@@ -4874,20 +4874,12 @@
             "script": "document.cookie=\"allowTracking=false; path=/;\"; document.cookie=\"trackingSettings={%22ads%22:false%2C%22performance%22:false}; path=/;\";"
         },
         {
-            "domains": "cw.choice.faktor.io",
-            "script": "AG_onLoad(function(){if(window.self!==window.top&&document.referrer.startsWith(\"https://www.omroepwest.nl/\")){var a=new MutationObserver(function(){var b=document.querySelector(\"button#acceptAll\");b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});"
-        },
-        {
             "domains": "proshop.de",
             "script": "document.cookie = \"CookieInformationConsent=%7B%22consents_approved%22%3A%5B%22cookie_cat_necessary%22%5D%7D; path=/;\";"
         },
         {
             "domains": "new-work.se,xing.com",
             "script": "document.cookie=\"userConsent=%7B%22marketing%22%3Afalse%2C%22version%22%3A%221%22%7D; path=/;\";"
-        },
-        {
-            "domains": "eposaudio.com",
-            "script": "AG_onLoad(function() { setTimeout(function() { var el = document.querySelector('span.coi-banner__accept'); if(el) el.click(); }, 1E3); });"
         },
         {
             "domains": "sendgb.com",
@@ -8002,20 +7994,12 @@
             "script": "document.cookie=\"allowTracking=false; path=/;\"; document.cookie=\"trackingSettings={%22ads%22:false%2C%22performance%22:false}; path=/;\";"
         },
         {
-            "domains": "cw.choice.faktor.io",
-            "script": "AG_onLoad(function(){if(window.self!==window.top&&document.referrer.startsWith(\"https://www.omroepwest.nl/\")){var a=new MutationObserver(function(){var b=document.querySelector(\"button#acceptAll\");b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});"
-        },
-        {
             "domains": "proshop.de",
             "script": "document.cookie = \"CookieInformationConsent=%7B%22consents_approved%22%3A%5B%22cookie_cat_necessary%22%5D%7D; path=/;\";"
         },
         {
             "domains": "new-work.se,xing.com",
             "script": "document.cookie=\"userConsent=%7B%22marketing%22%3Afalse%2C%22version%22%3A%221%22%7D; path=/;\";"
-        },
-        {
-            "domains": "eposaudio.com",
-            "script": "AG_onLoad(function() { setTimeout(function() { var el = document.querySelector('span.coi-banner__accept'); if(el) el.click(); }, 1E3); });"
         },
         {
             "domains": "sendgb.com",

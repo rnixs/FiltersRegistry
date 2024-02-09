@@ -1,9 +1,9 @@
-! Checksum: TSa/PwYkGjc3j5jEfbLbFw
-! Diff-Path: ../patches/6_optimized/6_optimized-s-1707399418-3600.patch
+! Checksum: qL7iJkPfBUyuTFLtP8rjRQ
+! Diff-Path: ../patches/6_optimized/6_optimized-s-1707438981-3600.patch
 ! Title: AdGuard German filter (Optimized)
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.37
-! TimeUpdated: 2024-02-08T13:33:53+00:00
+! Version: 2.0.40.38
+! TimeUpdated: 2024-02-09T00:33:12+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
