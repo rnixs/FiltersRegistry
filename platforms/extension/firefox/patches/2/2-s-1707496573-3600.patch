@@ -1,0 +1,28 @@
+d1 2
+a2 2
+! Checksum: RlqFHNzGgkm4YcNjVvJrRw
+! Diff-Path: ../patches/2/2-s-1707500183-3600.patch
+d5 2
+a6 2
+! Version: 2.3.21.58
+! TimeUpdated: 2024-02-09T17:33:00+00:00
+a52385 2
+! https://github.com/AdguardTeam/HttpsExclusions/issues/560
+! "Read sample" does not work on amazon.com and read.amazon.com
+a82529 1
+||blowssubplow.com^
+a92878 1
+||incloseoverprotective.com^
+a106026 1
+||stethuth.xyz^
+a116097 1
+||promisspacay.space^$popup
+a118297 1
+||js.manga1001.win^
+a119576 1
+||bup.seksohub.com^
+a119716 1
+||prettytube.net^$third-party
+d119782 1
+a120127 1
+||j8jp.com/fhfjfj.js

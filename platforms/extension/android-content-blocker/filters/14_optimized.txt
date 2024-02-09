@@ -1,9 +1,9 @@
-! Checksum: 8FQnuZ+eksEwJ1Mr4mYTKg
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1707496558-3600.patch
+! Checksum: rWz79fMA43map3LaC7gpdQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1707500167-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.23
-! TimeUpdated: 2024-02-09T16:31:54+00:00
+! Version: 2.1.87.24
+! TimeUpdated: 2024-02-09T17:31:59+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -17640,7 +17640,6 @@ thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesst
 picwish.com##astro-island > a[href^="https://download.aoscdn.com/down.php?"][target="_self"]
 online-stopwatch.com##.premiumShow
 ||online-stopwatch.com/images/wantmore/www.online-stopwatch.com.jpg
-bing.com###b_results > li.b_ans.b_top
 bing.com###b_context #waitListDefault
 bing.com###b_opalpers
 clearvpn.com##.articleSideBanner

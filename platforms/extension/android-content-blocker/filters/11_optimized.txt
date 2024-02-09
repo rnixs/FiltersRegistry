@@ -1,9 +1,9 @@
-! Checksum: 5WS0BL47/Nlf5f9QkGf2Yw
-! Diff-Path: ../patches/11_optimized/11_optimized-s-1707493018-3600.patch
+! Checksum: X6Zb3FanhEB6VFiyVMRzXA
+! Diff-Path: ../patches/11_optimized/11_optimized-s-1707500166-3600.patch
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.49.8
-! TimeUpdated: 2024-02-09T15:31:51+00:00
+! Version: 2.0.49.9
+! TimeUpdated: 2024-02-09T17:31:41+00:00
 ! Expires: 5 days (update frequency)
 ||adx-open-service.youku.com^
 ||ad.youku.com^
@@ -3483,7 +3483,6 @@ gaytail.com##.happy-before-list
 gaytail.com##.happy-before-video
 kompasiana.com###bannerhorz
 m.faz.net##.iqadtile_wrapper
-||nan-net.com/*/bbs/s/inc/$subdocument
 nan-net.com##div[style^="background-color:#f5f5f5; margin-top:0px"] > div[style$="height:40px;"]
 nan-net.com##.bbs_box[style="height:50px;"]
 nan-net.com##a[href="https://search.nan-net.com/bbslist.php"] + div.bbs_box
