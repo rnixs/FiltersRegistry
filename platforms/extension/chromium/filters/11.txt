@@ -1,9 +1,9 @@
-! Checksum: sKUSGvsxeMMcyT1Sjfuq0A
-! Diff-Path: ../patches/11/11-s-1707482160-3600.patch
+! Checksum: a5rnlvOKQnpTlHiFBsBqSA
+! Diff-Path: ../patches/11/11-s-1707493023-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.49.7
-! TimeUpdated: 2024-02-09T12:31:40+00:00
+! Version: 2.0.49.8
+! TimeUpdated: 2024-02-09T15:31:51+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6698,6 +6698,7 @@ dzen.ru##div[class^="dzen-mobile__bannerMain-"]
 ! Dzen News
 dzen.ru##div[class*="news"] > div[class*="_banner_"]
 ! Dzen feed
+dzen.ru#?#.feed-item article:matches-attr("/data[a-z-]+/"="/^card-[a-zA-Z]{3,}/")
 dzen.ru##.zenad-card-rtb
 [$path=/media]dzen.ru##div[class^="article-render-mobile"][class$="type_yandex-direct"]
 zen.yandex.by,zen.yandex.com,zen.yandex.kz,zen.yandex.ru##.article-render-mobile__block_embed

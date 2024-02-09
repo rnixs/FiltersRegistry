@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qjv2YHOH4J0ko0SKghImjA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707489424-3600.patch
+! Checksum: Y+Igihf6u+G298WHfDV4xA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707493053-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.21.55
-! TimeUpdated: 2024-02-09T14:33:16+00:00
+! Version: 2.3.21.56
+! TimeUpdated: 2024-02-09T15:33:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -32823,7 +32823,6 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
-livecamrips.com###live-cam
 filehorse.com##div[id^="td-"]
 imagetostl.com##.vb
 proxyium.com###zapperSquare

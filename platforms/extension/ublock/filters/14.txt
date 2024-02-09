@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: fBkl0M/j1sZi57Z221DuKA
-! Diff-Path: ../patches/14/14-s-1707489418-3600.patch
+! Checksum: BLftae9i6ngGKchTkYRExQ
+! Diff-Path: ../patches/14/14-s-1707493049-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.21
-! TimeUpdated: 2024-02-09T14:32:19+00:00
+! Version: 2.1.87.22
+! TimeUpdated: 2024-02-09T15:32:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12725,7 +12725,7 @@ teamliquid.net##body > div[style^="position: fixed; bottom: 0px; width: 98%;"]:n
 rebuy.de##cookie-permission
 cru.be##cru-cookie-policy
 meblini.pl,shop-apotheke.com##div#cookie
-rtl.nl,rtlxl.nl##div#rtl-cookie-notification
+rtl.nl##div#rtl-cookie-notification
 meine-gesundheit.de,chrome-portable.com##div.cookie
 my.dazn.com##div.cookieFooterbg
 filmitorrent.org##div[align="center"] > a[onclick="window.open(this.href,'_blank'); return false;"] > img
@@ -16789,9 +16789,6 @@ idp.funktionstjanster.se#@##cookieinfo
 @@||assets.digitalocean.com/cookieConsent/$script,stylesheet
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66006
 kokaihop.se#@#.cookiePolicy:not(body):not(html)
-! https://github.com/AdguardTeam/AdguardFilters/issues/65981
-@@||cdn.cookielaw.org^$domain=rtlxl.nl
-rtlxl.nl#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65978
 trixie.de#@#.cookie_accept
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167939
