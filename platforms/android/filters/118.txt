@@ -1,14 +1,14 @@
-! Checksum: sIefWvxWfYSyx6iu8QmZhQ
-! Diff-Path: ../patches/118/118-s-1707498374-14400.patch
+! Checksum: 6Wg8cm5YKWMI3dm7lECc/g
+! Diff-Path: ../patches/118/118-s-1707512775-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.21.82
-! TimeUpdated: 2024-02-09T17:01:57+00:00
+! Version: 2.1.21.83
+! TimeUpdated: 2024-02-09T21:01:58+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202402091653
+! OriginalVersion: 202402092015
 ! Title: EasyPrivacy
-! Last modified: 09 Feb 2024 16:53 UTC
+! Last modified: 09 Feb 2024 20:15 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -48818,6 +48818,7 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
 ||kwgs.letudiant.fr^
+||l.nicematin.com/pv.js
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-sentry/lc-sentry.js
 ||lacoccinelle.net/tools.js

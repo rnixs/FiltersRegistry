@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 4BtIiR4OlpNqO9IEvTU5VQ
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1707498414-14400.patch
+! Checksum: TLv3v+7xAHW8iyP2AiLcwQ
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1707512813-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.21.82
-! TimeUpdated: 2024-02-09T17:01:57+00:00
+! Version: 2.1.21.83
+! TimeUpdated: 2024-02-09T21:01:58+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -15829,6 +15829,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||igen.fr/modules/statistics/statistics.php
 ||insights.decathlon.net^
 ||jscrambler.com^$script,domain=airfrance.fr
+||l.nicematin.com/pv.js
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-sentry/lc-sentry.js
 ||lacoccinelle.net/tools.js

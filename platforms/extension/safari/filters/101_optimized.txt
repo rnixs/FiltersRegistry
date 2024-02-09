@@ -1,9 +1,9 @@
-! Checksum: CQ3XkOabJKcyqsmBSimpEA
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1707498407-14400.patch
+! Checksum: vY0rV+c+ere/+49iDOd0vA
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1707512807-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.20.55
-! TimeUpdated: 2024-02-09T17:01:36+00:00
+! Version: 2.1.20.56
+! TimeUpdated: 2024-02-09T21:01:38+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -15521,6 +15521,7 @@ browsershots.org#@#.advert_area
 ||feegozoa.com^
 ||feegreep.xyz^
 ||feelfereetoc.top^
+||feelingsmixed.com^
 ||feelingstoriesplumb.com^
 ||feeloshu.com^
 ||feelresolve.com^
@@ -29214,6 +29215,7 @@ browsershots.org#@#.advert_area
 ||predictivdisplay.com^$popup
 ||premonitioninventdisagree.com^$popup
 ||profitablecpmgate.com^$popup
+||promisspacay.space^$popup
 ||prtrackings.com^$popup
 ||purpleads.io^$popup
 ||purplewinds.xyz^$popup
@@ -30339,6 +30341,7 @@ browsershots.org#@#.advert_area
 ||instagram.com/api/v1/injected_story_units/
 ||intersc.igaming-service.io^$domain=hltv.org
 ||investing.com/jp.php
+||j8jp.com/fhfjfj.js
 ||jamanetwork.com/AMA/AdTag
 ||japfg-trending-content.uc.r.appspot.com^
 ||jobsora.com/img/banner/
@@ -31147,7 +31150,7 @@ who-called.co.uk###snigel_ads-mobile
 thedriven.io###solarchoice_banner_1
 firmwarefile.com###spon
 homedepot.com###sponsored-standard-banner-nucleus
-fastseduction.com,geekwire.com,landreport.com,whenitdrops.com###sponsors
+fastseduction.com,geekwire.com,landreport.com,vuejs.org,whenitdrops.com###sponsors
 colourlovers.com###sponsors-links
 tvtropes.org###stick-cont
 dvdsreleasedates.com###sticky
@@ -32591,7 +32594,7 @@ informer.com##.spnsd
 mydramalist.com##.spnsr
 worldtimezone.com##.spon-menu
 andrewlock.net,centos.org,domainincite.com,europages.co.uk,gamingcloud.com,ijr.com,kpbs.org,manutd.com,phillyvoice.com,phish.report,speedcafe.com,thefederalistpapers.org,thegatewaypundit.com,ufile.io,westernjournal.com,wnd.com##.sponsor
-cssbattle.dev,vuejs.org##.sponsor-container
+cssbattle.dev##.sponsor-container
 dallasinnovates.com##.sponsor-footer
 jquery.com##.sponsor-line
 compellingtruth.org##.sponsor-sidebar
@@ -33003,6 +33006,7 @@ douploads.net##a[href^="https://href.li/?"]
 metager.org##a[href^="https://metager.org"][href*="/partner/r?"]
 metager.org##a[href^="https://r.search.yahoo.com/"]
 inquirer.net##a[href^="https://ruby.inquirer.net/"]
+emalm.com,linkdecode.com,up-4ever.net##a[href^="https://s.click.aliexpress.com/"]
 scrolller.com##a[href^="https://trk.scrolller.com/"]
 ancient-origins.net,anisearch.com,catholicculture.org,deadspin.com,electrek.co,jalopnik.com,jezebel.com,kotaku.com,lewrockwell.com,lifehacker.com,ssbcrack.com,thetakeout.com##a[href^="https://www.amazon."][href*="tag="]
 duplichecker.com##a[href^="https://www.duplichecker.com/"][target*="blank"][rel*="nofollow"] > img
@@ -33197,7 +33201,7 @@ newyorkyimby.com,tipsquoteswishes.com##img[height="280"]
 howtogermany.com##img[width="120"]
 lyngsat-logo.com,lyngsat-maps.com,lyngsat-stream.com,lyngsat.com,webhostingtalk.com##img[width="160"]
 fashionpulis.com##img[width="250"]
-airplaydirect.com,americaoutloud.com,bigeye.ug,completesports.com,cryptomining-blog.com,cryptoreporter.info,dotsauce.com,espnrichmond.com,flsentinel.com,forexmt4indicators.com,freedomhacker.net,gamblingnewsmagazine.com,gameplayinside.com,goodcarbadcar.net,kenyabuzz.com,kiwiblog.co.nz,mauitime.com,mkvcage.com,movin100.com,mycolumbuspower.com,naijaloaded.com.ng,newzimbabwe.com,onislandtimes.com,ouo.press,portlandphoenix.me,punchng.com,reviewparking.com,robhasawebsite.com,sacobserver.com,seguintoday.com,themediaonline.co.za,theolivepress.es,therep.co.za,thewillnigeria.com,tntribune.com,waamradio.com,wantedinafrica.com,wantedinrome.com,wschronicle.com##img[width="300"]
+airplaydirect.com,americaoutloud.com,bigeye.ug,completesports.com,cryptomining-blog.com,cryptoreporter.info,dotsauce.com,espnrichmond.com,flsentinel.com,forexmt4indicators.com,freedomhacker.net,gamblingnewsmagazine.com,gameplayinside.com,goodcarbadcar.net,kenyabuzz.com,kiwiblog.co.nz,mauitime.com,mkvcage.com,movin100.com,mycolumbuspower.com,naijaloaded.com.ng,newzimbabwe.com,onislandtimes.com,ouo.press,portlandphoenix.me,punchng.com,reviewparking.com,robhasawebsite.com,sacobserver.com,seguintoday.com,themediaonline.co.za,theolivepress.es,therep.co.za,thewillnigeria.com,tntribune.com,up-4ever.net,waamradio.com,wantedinafrica.com,wantedinrome.com,wschronicle.com##img[width="300"]
 flashx.cc,flashx.co,forum.gsmhosting.com,themediaonline.co.za,topprepperwebsites.com##img[width="468"]
 americanfreepress.net,analyticsindiamag.com,readneverland.com##img[width="600"]
 novelfull.com##ins[style*="width:300px;height:250px;"]
