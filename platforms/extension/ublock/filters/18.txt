@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: zN12K4nBAu/1kno7MRqm4A
-! Diff-Path: ../patches/18/18-s-1707438989-3600.patch
+! Checksum: 3w+Wu7+P0xDH6Tjnc1z8Xg
+! Diff-Path: ../patches/18/18-s-1707442577-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.32.99
-! TimeUpdated: 2024-02-09T00:32:00+00:00
+! Version: 2.0.33.0
+! TimeUpdated: 2024-02-09T01:32:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -16930,8 +16930,6 @@ tataq.com#@##cookies
 @@||stabila.com/*bundles/marketingsuite/css/cookie-bar.css
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61874
 @@||usercentrics.eu^$domain=billiger-telefonieren.de
-! https://github.com/AdguardTeam/AdguardFilters/issues/60744
-@@||usercentrics.eu^$domain=webradio.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62227
 bauermedia.co.uk#@##cookies-modal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68459
@@ -17325,8 +17323,6 @@ mediamarkt.se#@##cookie-info-layer
 calvinklein.de#@#.cookie-notice:not(body):not(html)
 ! https://forum.adguard.com/index.php?threads/31342/
 @@||consent.truste.com/notice?domain=$domain=proximus.be
-! webradio.de - broken player
-@@||cookiebot.com^$domain=webradio.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/31448
 @@||cdn.cookielaw.org^$xmlhttprequest,script,domain=cnn.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/31185
