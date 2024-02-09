@@ -1,9 +1,9 @@
-! Checksum: zac5c40nLuFai2EZgyxU6w
-! Diff-Path: ../patches/14/14-s-1707493019-3600.patch
+! Checksum: WhTYGvIjcxlIHyCXOe21GQ
+! Diff-Path: ../patches/14/14-s-1707496557-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.22
-! TimeUpdated: 2024-02-09T15:32:15+00:00
+! Version: 2.1.87.23
+! TimeUpdated: 2024-02-09T16:31:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13111,6 +13111,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! unblock restaurants finder
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=mcdonalds.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172429
 businessaccountingbasics.co.uk#@##cookie-law-info-bar
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166753
