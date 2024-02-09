@@ -1,15 +1,15 @@
-! Checksum: YTWaG96PsN43ZMrqCFgmIQ
-! Diff-Path: ../patches/246/246-s-1707455214-14400.patch
+! Checksum: /hDG4mvFxvlVpoPfRutpRg
+! Diff-Path: ../patches/246/246-s-1707469607-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.39.57
-! TimeUpdated: 2024-02-09T05:03:04+00:00
+! Version: 2.1.39.58
+! TimeUpdated: 2024-02-09T09:03:06+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: oQM7EvNKr1YAmxkb7gD4Og
-! OriginalVersion: 202402090451
+! Checksum: Ze9YPkn4/6udriRIizOtLw
+! OriginalVersion: 202402090851
 ! Title: EasyList Polish
-! Last modified: 09 Feb 2024 04:51 UTC
+! Last modified: 09 Feb 2024 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -388,7 +388,6 @@ supernowosci24.pl##[id^="r-"]
 ||radiosudety24.pl^*^sad^$image
 ||radiowrzesnia.pl^*^pum^$script
 ||redefine.hit.stat24.com^$script,domain=geekweek.pl
-||redefine.hit.stat24.com^$subdocument,domain=polsatsport.pl
 ||redefineadpl.hit.gemius.pl^$domain=polsatnews.pl|polsatsport.pl
 ||rehabilitacyjne.pl^*_maxim.
 ||rek.www.wp.pl^
@@ -2072,6 +2071,7 @@ nowawrzesnia.pl##a[href="https://www.lazienkowepasje.pl/"]
 e-kg.pl##a[href="https://www.mazowieckapark.pl/"]
 30minut.pl##a[href="https://www.orlenpaczka.pl/o-usludze-orlen-paczka/"]
 staleo.pl##a[href="https://www.polteknik.pl/"]
+biznestuba.pl##a[href="https://www.portu.pl/?utm_source=pl&utm_medium=banner&utm_campaign=biznes-tuba"]
 samiswoi.news##a[href="https://www.przekazypieniezne.com/"]
 samiswoi.news##a[href="https://www.przekazypieniezne.com/przekazy-mobilne"]
 pfmrc.eu##a[href="https://www.rchubiq.eu"]
