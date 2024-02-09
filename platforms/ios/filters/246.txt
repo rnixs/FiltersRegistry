@@ -1,15 +1,15 @@
-! Checksum: e4wSdrGkqVjqWhnFQBxIdQ
-! Diff-Path: ../patches/246/246-s-1707484045-14400.patch
+! Checksum: zPG82NvAoNjonJOWzaIo4g
+! Diff-Path: ../patches/246/246-s-1707498423-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.39.59
-! TimeUpdated: 2024-02-09T13:03:06+00:00
+! Version: 2.1.39.60
+! TimeUpdated: 2024-02-09T17:03:02+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: pRcQli0SSSCIPGrdUfBJJg
-! OriginalVersion: 202402091251
+! Checksum: 8/iXB2sXPcThwIHPAPV9iw
+! OriginalVersion: 202402091651
 ! Title: EasyList Polish
-! Last modified: 09 Feb 2024 12:51 UTC
+! Last modified: 09 Feb 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -390,7 +390,6 @@ supernowosci24.pl##[id^="r-"]
 ||redefine.hit.stat24.com^$script,domain=geekweek.pl
 ||redefineadpl.hit.gemius.pl^$domain=polsatnews.pl|polsatsport.pl
 ||rehabilitacyjne.pl^*_maxim.
-||rek.www.wp.pl^
 ||reklama-lowicz.pl^$image,domain=lowicz24.eu
 ||reklama.shinden.eu^$subdocument
 ||reklamy.naszraciborz.pl^ad^$script
