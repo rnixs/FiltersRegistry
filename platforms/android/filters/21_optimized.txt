@@ -1,9 +1,9 @@
-! Checksum: /6K4KwuL7ILn8iSSrXJpvw
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1707467740-3600.patch
+! Checksum: t5bx2pIdJkVBz2xaULH1iQ
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1707478549-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.59
-! TimeUpdated: 2024-02-09T08:32:14+00:00
+! Version: 2.0.19.60
+! TimeUpdated: 2024-02-09T11:32:20+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1375,6 +1375,7 @@ alexfitness.ru#$#div.modal-backdrop { display: none!important; }
 alexfitness.ru#$#.modal-open { overflow: visible!important; }
 tf1.fr##div[aria-describedby^="max-banner-"]
 ||contributions.guardianapis.com^
+eikoh.co.jp##.targetSpace
 dbook.docomo.ne.jp##.p-top-banner
 sbermarket.ru##div[class^="BannersAndSlidersThroughCatalog"]
 sbermarket.ru##div[class*="ShowJsPlacement_bannerMainHeader"]

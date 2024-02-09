@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Ecr2G5r7uKTuzeDo8wu/gg
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1707474975-3600.patch
+! Checksum: J8co8q3KCLJo3tP+COIBlQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1707478578-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.17
-! TimeUpdated: 2024-02-09T10:31:51+00:00
+! Version: 2.1.87.18
+! TimeUpdated: 2024-02-09T11:31:54+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -19994,6 +19994,7 @@ alexfitness.ru#$#div.modal-backdrop { display: none!important; }
 alexfitness.ru#$#.modal-open { overflow: visible!important; }
 tf1.fr##div[aria-describedby^="max-banner-"]
 ||contributions.guardianapis.com^
+eikoh.co.jp##.targetSpace
 dbook.docomo.ne.jp##.p-top-banner
 sbermarket.ru##div[class^="BannersAndSlidersThroughCatalog"]
 sbermarket.ru##div[class*="ShowJsPlacement_bannerMainHeader"]

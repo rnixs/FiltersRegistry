@@ -1,9 +1,9 @@
-! Checksum: UY8OhBubhSWzQ65Swdy54A
-! Diff-Path: ../patches/21/21-s-1707467740-3600.patch
+! Checksum: a4aLG5uadCrZiK8Nu7RkhA
+! Diff-Path: ../patches/21/21-s-1707478549-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.59
-! TimeUpdated: 2024-02-09T08:32:14+00:00
+! Version: 2.0.19.60
+! TimeUpdated: 2024-02-09T11:32:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5030,6 +5030,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+eikoh.co.jp##.targetSpace
 dbook.docomo.ne.jp##.p-top-banner
 sbermarket.ru##div[class^="BannersAndSlidersThroughCatalog"]
 sbermarket.ru##div[class*="ShowJsPlacement_bannerMainHeader"]
