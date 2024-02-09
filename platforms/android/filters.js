@@ -357,8 +357,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/android/filters/2_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.3.21.50",
-			"timeUpdated": "2024-02-09T08:32:45+0000",
+			"version": "2.3.21.51",
+			"timeUpdated": "2024-02-09T09:33:22+0000",
 			"languages": [],
 			"tags": [
 				10,
