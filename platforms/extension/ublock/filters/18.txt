@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 7fYRddm6Pt5aVsefk9V8EA
-! Diff-Path: ../patches/18/18-s-1707507472-3600.patch
+! Checksum: Q2jEeRvmpoNX4DKqIll5gg
+! Diff-Path: ../patches/18/18-s-1707521754-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.9
-! TimeUpdated: 2024-02-09T19:33:38+00:00
+! Version: 2.0.33.10
+! TimeUpdated: 2024-02-09T23:31:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13001,7 +13001,6 @@ trade.telia.se#$#body { overflow: auto !important; }
 prolighting.de,moebelplus.de,itsco.de,noor.eu#$#div[data-feature="Web.Core.Feature.PrivacyCategory.Dialog"] { display: none !important; }
 prolighting.de,moebelplus.de,itsco.de,noor.eu#$#div[data-feature="Web.Core.Feature.PrivacyCategory.Dialog"] ~ div.modal-backdrop { display: none !important; }
 prolighting.de,moebelplus.de,itsco.de,noor.eu#$#body { overflow: auto !important; }
-!
 !
 !
 !
