@@ -1,9 +1,9 @@
-! Checksum: zkNhGyYgkt+MQJQEqCiz8w
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1707426458-14400.patch
+! Checksum: COA8shvawXEnsvGEqo1wEw
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1707440808-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.76
-! TimeUpdated: 2024-02-08T21:02:45+00:00
+! Version: 2.1.20.77
+! TimeUpdated: 2024-02-09T01:02:05+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -414,6 +414,7 @@ _social_footer_
 /cookiealert/*
 /cookiebanner.js
 /cookiebanner.script.js
+/cookiebanner/banner.js
 /cookiebar-latest.min.js
 /cookiebar/*
 /cookieblocker.min.css
@@ -13465,6 +13466,7 @@ accounts.ucas.com,nngroup.com##.CybotEdge
 basspro.com,cabelas.com##.DisclosurePopupContainer
 picoxr.com##.EjUUOLYo3tCrc6j7Mapv
 talixo.com##.FloatingBoxesContainerBottom
+aapfalsestarts.com,onebrandssweepstakes.com,tjc.co.uk##.GDPR
 boosty.to##.GdprOffer_root_pCuOO
 airasia.com##.Gdpr__GdprParentWrapper-sc-z30mcl-0
 flyfi.com##.HASH_COOKIE_ALERT_GRID_ITEM_FIXED
@@ -13688,6 +13690,7 @@ gaia.com##.layer-modal-footer
 lawinsider.com##.light-blue-bordered-card
 cirrus.com##.links-are-reversed
 jw.org##.lnc-firstRunPopup
+isolarcloud.com##.login-cookie-tips
 insideevs.com,motor1.com,motor1.uol.com.br,rideapart.com##.m1-footer-messages
 magicplan.app##.magicplan-cookie-banner
 bypass.city##.mantine-Dialog-root
@@ -13950,6 +13953,7 @@ agegeek.com,bit-tech.net,evanews.eu,memorycard.guru,pratt.edu,tedpella.com,yokoh
 cote.co.uk,ennismore.com,gemini.pl,sallys-shop.de##.z-100
 mall.cz,mall.hr,mall.hu,mall.sk,mimovrste.com##.legal-consent
 horloge.nl,orologio.it,relogios.pt,watch.co.uk##.bg-green-200
+tripx.co.uk,tripx.dk,tripx.fi,tripx.no,tripx.se##.eCsvdb
 morningstar.at,morningstar.be,morningstar.ca,morningstar.ch,morningstar.co.uk,morningstar.com,morningstar.de,morningstar.dk,morningstar.es,morningstar.fi,morningstar.fr,morningstar.hk,morningstar.it,morningstar.nl,morningstar.no,morningstar.pt,morningstar.se,morningstarbr.com###additionalInfoe
 dagrasso.pl,freedomtreks.co.uk,hiveon.com,hiveon.net,kritikos-sm.gr,skisafari.com,watch.plex.tv##div[class^="CookieBar"]
 celticfc.com,devart.com,fulhamfc.com,nottinghamforest.co.uk,schuttetweewielers.nl,taptapp.rs##.popup-wrapper
@@ -14225,6 +14229,8 @@ m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice',
 playtesting.games#%#//scriptlet('ubo-set-cookie.js', 'myAwesomeCookieName3', 'true')
 showtv.com.tr#%#//scriptlet('ubo-set-cookie.js', 'cookiePolicy', '1')
 ldz.lv#%#//scriptlet('ubo-set-cookie.js', 'cookie-agreed', '0')
+vkf-renzel.nl#%#//scriptlet('ubo-set-cookie.js', 'handledCookieMessage', '1')
+sanswiss.pl#%#//scriptlet('ubo-set-cookie.js', 'cookie_info', '1', '', 'reload', '1')
 petdesk.com#%#//scriptlet('ubo-set-cookie.js', 'allowCookies', 'true')
 ivyexec.com#%#//scriptlet('ubo-set-cookie.js', 'COOKIE-POLICY-ACCEPT', 'true')
 railtech.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr', 'accept')
@@ -14957,12 +14963,12 @@ onnibus.com#%#//scriptlet('ubo-set-cookie.js', 'functionalCookies', 'true')
 onnibus.com#%#//scriptlet('ubo-set-cookie.js', 'contentPersonalisationCookies', 'false')
 onnibus.com#%#//scriptlet('ubo-set-cookie.js', 'marketingCookies', 'false')
 onnibus.com#%#//scriptlet('ubo-set-cookie.js', 'statisticalCookies', 'false')
-flickr.org,espacocasa.com,altraeta.it,centrooceano.it,allstoresdigital.com,cultarm3d.de,soulbounce.com,fluidtopics.com,uvetgbt.com,malcorentacar.com,emondo.de,maspero.it,kelkay.com,underground-england.com,vert.eco,turcolegal.com,magnet4blogging.net,moovly.com,automationafrica.co.za,jornaldoalgarve.pt,keravanenergia.fi,kuopas.fi,frag-machiavelli.de,healthera.co.uk,mobeleader.com,powerup-gaming.com,developer-blog.net,medical.edu.mt,deh.mt,bluebell-railway.com,ribescasals.com,javea.com,chinaimportal.com,inds.co.uk,raoul-follereau.org,serramenti-milano.it,cosasdemujer.com,luz-blanca.info,cosasdeviajes.com,safehaven.io,havocpoint.it,motofocus.pl,nomanssky.com,drei-franken-info.de,clausnehring.com,alttab.net,kinderleicht.berlin,kiakkoradio.fi,cosasdelcaribe.es,de-sjove-jokes.dk,serverprofis.de,biographyonline.net,iziconfort.com,sportinnederland.com,natureatblog.com,wtsenergy.com,cosasdesalud.es,internetpasoapaso.com,zurzeit.at,contaspoupanca.pt,steamdeckhq.com,ipouritinc.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de,tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'viewed_cookie_policy', 'yes', '', 'reload', '1')
-flickr.org,steamdeckhq.com,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-functional', 'yes')
-flickr.org,steamdeckhq.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,steamdeckhq.com,ipouritinc.com,tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-necessary', 'yes')
-flickr.org,steamdeckhq.com,ipouritinc.com,hemglass.se,gogolf.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-advertisement', 'no')
-flickr.org,steamdeckhq.com,hemglass.se#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-analytics', 'no')
-flickr.org,steamdeckhq.com,hemglass.se#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-performance', 'no')
+businessaccountingbasics.co.uk,flickr.org,espacocasa.com,altraeta.it,centrooceano.it,allstoresdigital.com,cultarm3d.de,soulbounce.com,fluidtopics.com,uvetgbt.com,malcorentacar.com,emondo.de,maspero.it,kelkay.com,underground-england.com,vert.eco,turcolegal.com,magnet4blogging.net,moovly.com,automationafrica.co.za,jornaldoalgarve.pt,keravanenergia.fi,kuopas.fi,frag-machiavelli.de,healthera.co.uk,mobeleader.com,powerup-gaming.com,developer-blog.net,medical.edu.mt,deh.mt,bluebell-railway.com,ribescasals.com,javea.com,chinaimportal.com,inds.co.uk,raoul-follereau.org,serramenti-milano.it,cosasdemujer.com,luz-blanca.info,cosasdeviajes.com,safehaven.io,havocpoint.it,motofocus.pl,nomanssky.com,drei-franken-info.de,clausnehring.com,alttab.net,kinderleicht.berlin,kiakkoradio.fi,cosasdelcaribe.es,de-sjove-jokes.dk,serverprofis.de,biographyonline.net,iziconfort.com,sportinnederland.com,natureatblog.com,wtsenergy.com,cosasdesalud.es,internetpasoapaso.com,zurzeit.at,contaspoupanca.pt,steamdeckhq.com,ipouritinc.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de,tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'viewed_cookie_policy', 'yes', '', 'reload', '1')
+businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-functional', 'yes')
+businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,steamdeckhq.com,ipouritinc.com,tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-necessary', 'yes')
+businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,ipouritinc.com,hemglass.se,gogolf.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-advertisement', 'no')
+businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,hemglass.se#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-analytics', 'no')
+businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,hemglass.se#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-performance', 'no')
 tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-markkinointi', 'no')
 tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-tilastointi', 'no')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-other', 'false')
@@ -14970,6 +14976,7 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 businessclass.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bcCookieAccepted', 'true')
 thehub21.com#%#//scriptlet('ubo-set-local-storage-item.js', 'hub-cp', 'true')
+archiup.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookiePolicyAccepted', 'yes')
 dbschenker.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie_usage_acknowledged_2', 'true')
 nove.fr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie', 'true')
 autoride.cz,autoride.es,autoride.io,autoride.sk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies_necessary_consent', 'true')
@@ -17354,6 +17361,8 @@ m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice',
 playtesting.games#%#//scriptlet('ubo-set-cookie.js', 'myAwesomeCookieName3', 'true')
 showtv.com.tr#%#//scriptlet('ubo-set-cookie.js', 'cookiePolicy', '1')
 ldz.lv#%#//scriptlet('ubo-set-cookie.js', 'cookie-agreed', '0')
+vkf-renzel.nl#%#//scriptlet('ubo-set-cookie.js', 'handledCookieMessage', '1')
+sanswiss.pl#%#//scriptlet('ubo-set-cookie.js', 'cookie_info', '1', '', 'reload', '1')
 petdesk.com#%#//scriptlet('ubo-set-cookie.js', 'allowCookies', 'true')
 ivyexec.com#%#//scriptlet('ubo-set-cookie.js', 'COOKIE-POLICY-ACCEPT', 'true')
 railtech.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr', 'accept')
@@ -18086,12 +18095,12 @@ onnibus.com#%#//scriptlet('ubo-set-cookie.js', 'functionalCookies', 'true')
 onnibus.com#%#//scriptlet('ubo-set-cookie.js', 'contentPersonalisationCookies', 'false')
 onnibus.com#%#//scriptlet('ubo-set-cookie.js', 'marketingCookies', 'false')
 onnibus.com#%#//scriptlet('ubo-set-cookie.js', 'statisticalCookies', 'false')
-flickr.org,espacocasa.com,altraeta.it,centrooceano.it,allstoresdigital.com,cultarm3d.de,soulbounce.com,fluidtopics.com,uvetgbt.com,malcorentacar.com,emondo.de,maspero.it,kelkay.com,underground-england.com,vert.eco,turcolegal.com,magnet4blogging.net,moovly.com,automationafrica.co.za,jornaldoalgarve.pt,keravanenergia.fi,kuopas.fi,frag-machiavelli.de,healthera.co.uk,mobeleader.com,powerup-gaming.com,developer-blog.net,medical.edu.mt,deh.mt,bluebell-railway.com,ribescasals.com,javea.com,chinaimportal.com,inds.co.uk,raoul-follereau.org,serramenti-milano.it,cosasdemujer.com,luz-blanca.info,cosasdeviajes.com,safehaven.io,havocpoint.it,motofocus.pl,nomanssky.com,drei-franken-info.de,clausnehring.com,alttab.net,kinderleicht.berlin,kiakkoradio.fi,cosasdelcaribe.es,de-sjove-jokes.dk,serverprofis.de,biographyonline.net,iziconfort.com,sportinnederland.com,natureatblog.com,wtsenergy.com,cosasdesalud.es,internetpasoapaso.com,zurzeit.at,contaspoupanca.pt,steamdeckhq.com,ipouritinc.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de,tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'viewed_cookie_policy', 'yes', '', 'reload', '1')
-flickr.org,steamdeckhq.com,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-functional', 'yes')
-flickr.org,steamdeckhq.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,steamdeckhq.com,ipouritinc.com,tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-necessary', 'yes')
-flickr.org,steamdeckhq.com,ipouritinc.com,hemglass.se,gogolf.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-advertisement', 'no')
-flickr.org,steamdeckhq.com,hemglass.se#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-analytics', 'no')
-flickr.org,steamdeckhq.com,hemglass.se#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-performance', 'no')
+businessaccountingbasics.co.uk,flickr.org,espacocasa.com,altraeta.it,centrooceano.it,allstoresdigital.com,cultarm3d.de,soulbounce.com,fluidtopics.com,uvetgbt.com,malcorentacar.com,emondo.de,maspero.it,kelkay.com,underground-england.com,vert.eco,turcolegal.com,magnet4blogging.net,moovly.com,automationafrica.co.za,jornaldoalgarve.pt,keravanenergia.fi,kuopas.fi,frag-machiavelli.de,healthera.co.uk,mobeleader.com,powerup-gaming.com,developer-blog.net,medical.edu.mt,deh.mt,bluebell-railway.com,ribescasals.com,javea.com,chinaimportal.com,inds.co.uk,raoul-follereau.org,serramenti-milano.it,cosasdemujer.com,luz-blanca.info,cosasdeviajes.com,safehaven.io,havocpoint.it,motofocus.pl,nomanssky.com,drei-franken-info.de,clausnehring.com,alttab.net,kinderleicht.berlin,kiakkoradio.fi,cosasdelcaribe.es,de-sjove-jokes.dk,serverprofis.de,biographyonline.net,iziconfort.com,sportinnederland.com,natureatblog.com,wtsenergy.com,cosasdesalud.es,internetpasoapaso.com,zurzeit.at,contaspoupanca.pt,steamdeckhq.com,ipouritinc.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de,tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'viewed_cookie_policy', 'yes', '', 'reload', '1')
+businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-functional', 'yes')
+businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,steamdeckhq.com,ipouritinc.com,tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-necessary', 'yes')
+businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,ipouritinc.com,hemglass.se,gogolf.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-advertisement', 'no')
+businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,hemglass.se#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-analytics', 'no')
+businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,hemglass.se#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-performance', 'no')
 tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-markkinointi', 'no')
 tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-tilastointi', 'no')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-other', 'false')
@@ -18099,6 +18108,7 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 businessclass.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bcCookieAccepted', 'true')
 thehub21.com#%#//scriptlet('ubo-set-local-storage-item.js', 'hub-cp', 'true')
+archiup.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookiePolicyAccepted', 'yes')
 dbschenker.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie_usage_acknowledged_2', 'true')
 nove.fr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie', 'true')
 autoride.cz,autoride.es,autoride.io,autoride.sk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies_necessary_consent', 'true')
@@ -19968,6 +19978,7 @@ seznamzpravy.cz##.szn-cmp-dialog-container
 fler.cz##.ui_widgets_unit-cookies_pref2022_footer
 cernilov.cz##.userSettings
 anwb.nl###TRCO-application
+vkf-renzel.nl###cookie-modal
 doof.nl###cookiechoices
 trafficshare.nl###notification
 studeersnel.nl##._cbad9bafd417
@@ -20492,6 +20503,7 @@ downdetector.com#@##_evh-button
 la7.it#@##_evh-ric
 withings.com#@##analytics_cookie
 sonyliv.com#@##app-cookie-div
+bancaditalia.it#@##banner-privacy
 pharmastar.it#@##cc-modal
 bundesanzeiger.de#@##cc_banner
 bing.com#@##cc_container
