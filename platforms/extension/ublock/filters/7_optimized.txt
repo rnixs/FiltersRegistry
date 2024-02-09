@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: bNeSpi25HGsCDrrZwZCnNQ
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1707428165-3600.patch
+! Checksum: zZxI49s+Nnx37YDuLCoLzw
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1707482192-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.33
-! TimeUpdated: 2024-02-08T21:33:13+00:00
+! Version: 2.0.48.34
+! TimeUpdated: 2024-02-09T12:33:25+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||af.atsoho.com^$third-party
@@ -3100,6 +3100,7 @@ vtubernews.jp###plugin-a > div.plugin-memo
 watch.impress.co.jp##div[class^="affiliate_tag_"]
 watch.impress.co.jp##aside[id$="-rakuten-ranking"]
 hobonichielog.com##.mainwidget:first-child
+idol-blog.com###maincol > div.post:has(> div.post-title > h3 > a[href^="https://appollo.jp/api/lp/"][target="_blank"])
 idol-blog.com###maincol > div.col-inner:first-child
 idol-blog.com##.rssbox02 ~ div.box
 ||moez-m.com/right2-$subdocument
