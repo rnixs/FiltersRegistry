@@ -1,9 +1,9 @@
-! Checksum: 4IPWjSsq4inShOwOSxV5pQ
-! Diff-Path: ../patches/18/18-s-1707442562-3600.patch
+! Checksum: 1WOU+BoiePGRS60BPlrFWg
+! Diff-Path: ../patches/18/18-s-1707464151-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.0
-! TimeUpdated: 2024-02-09T01:32:00+00:00
+! Version: 2.0.33.1
+! TimeUpdated: 2024-02-09T07:31:57+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -16308,8 +16308,6 @@ mustijamirri.fi#@##cookie_consent
 @@||consent.cookiebot.com/uc.js$domain=werder.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123176
 @@||sdk.privacy-center.org^$domain=public.fr
-! https://github.com/AdguardTeam/AdguardFilters/issues/123152
-nhl.com#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122999
 @@||consent.cookiefirst.com^$domain=blutspendedienst.com
 ! https://github.com/easylist/easylist/commit/98b79528f695f5eea7d944d26e1f81d084cc3ec8

@@ -1,9 +1,9 @@
-! Checksum: IUez8tMfRaDi5Iw03Wa3Bg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1707446158-3600.patch
+! Checksum: 2/TerVlADU3+Un7umG6QMg
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1707464179-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.0
-! TimeUpdated: 2024-02-09T01:32:00+00:00
+! Version: 2.0.33.1
+! TimeUpdated: 2024-02-09T07:31:57+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -8211,7 +8211,6 @@ kern-haus.de#@##tarteaucitronAlertBig
 mustijamirri.fi#@##cookie_consent
 @@||consent.cookiebot.com/uc.js$domain=werder.de
 @@||sdk.privacy-center.org^$domain=public.fr
-nhl.com#@##onetrust-consent-sdk
 @@||consent.cookiefirst.com^$domain=blutspendedienst.com
 schleswig-holstein.de#@##cookiebanner
 schleswig-holstein.de#@#.cookiebanner:not(body)
