@@ -1,9 +1,9 @@
-! Checksum: A+0T8PKJRMcoXYL8eciV/g
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1707464149-3600.patch
+! Checksum: p7pI/uj2pIeOBSXPIAW9WQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1707467745-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.21.49
-! TimeUpdated: 2024-02-09T07:32:44+00:00
+! Version: 2.3.21.50
+! TimeUpdated: 2024-02-09T08:32:45+00:00
 ! Expires: 5 days (update frequency)
 ||lfkxjcrlrrar.com^
 ||feetdonsub.live^$popup
@@ -8304,7 +8304,7 @@ elsubtitle.com##div[class*="-ad-box"]
 ||rabbitstream.net/ajax/*/banners
 carscoops.com##.cnt_asd
 carscoops.com##.in-asd-content
-torrentgalaxy.mx,torrentgalaxy.to##a[href*="."][href*="?"][href*="="] img[src^="http"]:not([alt])
+torrentgalaxy.mx,torrentgalaxy.to##a[href*="?"][href*="="] img:not([alt])
 jiocinema.com##ins[id^="jioads"]
 glosbe.com###topTrufleContainer
 glosbe.com##.right-sidebar-trufle-container
@@ -12529,6 +12529,8 @@ cdn.braun634.com^$third-party
 @@||zoover.adtrackers.net/shared/bannerpages/darttagsbanner.aspx
 !+ NOT_OPTIMIZED
 @@||zoover.bannertrack.net/shared/bannerpages/darttagsbanner.aspx
+!+ NOT_OPTIMIZED
+@@||bombuj.si^$generichide
 !+ NOT_OPTIMIZED
 @@||bits.re^$generichide
 !+ NOT_OPTIMIZED
