@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: e00IED1QJnwUcoKztzR/eA
-! Diff-Path: ../patches/18/18-s-1707474976-3600.patch
+! Checksum: cEW6HB5y3P9OTjri9gnO8A
+! Diff-Path: ../patches/18/18-s-1707485782-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.2
-! TimeUpdated: 2024-02-09T10:32:01+00:00
+! Version: 2.0.33.3
+! TimeUpdated: 2024-02-09T13:32:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6783,7 +6783,7 @@ premierleague.com#$#.tcf-cmp + script ~ div[class^="_"][class*=" "]:empty { disp
 bytes.com###bytes-cm-display
 mayoclinic.org###mayo-privacy-consent-banner
 movavi.com##.top-popup-gdpr
-gnc.com,movavi.com##.privacy-policy-popup
+viture.com,gnc.com,movavi.com##.privacy-policy-popup
 faballey.com,houseofindya.com###popcookiesDiv
 ultrafarma.com.br###modal-lgpd
 petlove.com.br##.card-bottom
