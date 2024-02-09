@@ -1,9 +1,9 @@
-! Checksum: CVlHRYUTZ/yXRocdqjdV/A
-! Diff-Path: ../patches/237_optimized/237_optimized-s-1707440809-14400.patch
+! Checksum: xzyJmBpD2/8fp3NL7sLokw
+! Diff-Path: ../patches/237_optimized/237_optimized-s-1707484045-14400.patch
 ! Title: Polish Annoyances Filters (Optimized)
 ! Description: Filter list that hides and blocks pop-ups, widgets, newsletters, push notifications, arrows, tagged internal links that are off-topic, and other irritating elements. Polish GDPR-Cookies Filters is already in it.
-! Version: 1.0.30.69
-! TimeUpdated: 2024-02-09T01:02:46+00:00
+! Version: 1.0.30.70
+! TimeUpdated: 2024-02-09T13:02:56+00:00
 ! Expires: 5 days (update frequency)
 ||4prm.pl/*/4p_newsletter.jpg
 ||a-ajurweda.pl/images/layout/ajurweda/newsletter_ajurweda.png
@@ -6505,7 +6505,6 @@ youtube-nocookie.com,youtube.com##.ytp-ce-element
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button, #rvid
 youtube.com#?#tp-yt-paper-dialog:-abp-has(yt-mealbar-promo-renderer:-abp-contains(Przedstawiamy Sample))
 youtube.com#?#tp-yt-paper-dialog:-abp-has(yt-mealbar-promo-renderer:-abp-contains(Zacznij wspierać ten kanał))
-youtube.com#?#ytd-popup-container tp-yt-paper-dialog:-abp-has(yt-touch-feedback-shape)
 yves-rocher.pl##.layout-banner__top.layout-banner
 z-hotel.com###repuso_floating
 zadowolenie.pl##.b-bragLabel

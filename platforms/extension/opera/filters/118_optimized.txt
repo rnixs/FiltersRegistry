@@ -1,9 +1,9 @@
-! Checksum: N+BDDn3yZXI66wjjSr2rEA
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1707455223-14400.patch
+! Checksum: Gu2wjsf/9fESdMbo0KnmJg
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1707484020-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.21.80
-! TimeUpdated: 2024-02-09T05:02:00+00:00
+! Version: 2.1.21.81
+! TimeUpdated: 2024-02-09T13:02:01+00:00
 ! Expires: 10 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -6425,6 +6425,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||crossees.com^
 ||delivery.satr.jp/event/
 ||docomo.ne.jp/scripts/retargeting/retargeting.js
+||e-nls.com/disp_cnt.php
 ||estore.jp/beacon/
 ||ev.tpocdm.com^
 ||future-shop.jp/rview.gif?
@@ -7038,6 +7039,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gamejolt.com/tick/
 ||gc.newsweek.com/front/js/counter.js
 ||gct.americanexpress.com^
+||gemoo-resource.com/js/analytics.js
 ||generalblue.com/js/pages/shared/analytics.min.js
 ||generic-function-log-data-7il2midpaa-nn.a.run.app^$domain=telus.com
 ||geo.nbcsports.com^
