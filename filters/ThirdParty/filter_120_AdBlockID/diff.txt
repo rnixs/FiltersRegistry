@@ -854,8 +854,8 @@ oploverz.*##+js(aopr, SGPB_POPUP_PARAMS)
 oploverz.*##+js(nowoif)
 ! Rule "komiku.id,mihentai.com,novelgo.id,sektedoujin.cc##+js(nobab)" converted to: "komiku.id,mihentai.com,novelgo.id,sektedoujin.cc#%#//scriptlet('ubo-nobab.js')"
 komiku.id,mihentai.com,novelgo.id,sektedoujin.cc##+js(nobab)
-! Rule "ainzscans.net,warungkomik.com##+js(noeval-if, /chp_?ad/)" converted to: "ainzscans.net,warungkomik.com#%#//scriptlet('ubo-noeval-if.js', '/chp_?ad/')"
-ainzscans.net,warungkomik.com##+js(noeval-if, /chp_?ad/)
+! Rule "ainzscans.net,siimanga.cyou,warungkomik.com##+js(noeval-if, /chp_?ad/)" converted to: "ainzscans.net,siimanga.cyou,warungkomik.com#%#//scriptlet('ubo-noeval-if.js', '/chp_?ad/')"
+ainzscans.net,siimanga.cyou,warungkomik.com##+js(noeval-if, /chp_?ad/)
 ! Rule "crotpedia.net##+js(noeval-if, ads)" converted to: "crotpedia.net#%#//scriptlet('ubo-noeval-if.js', 'ads')"
 crotpedia.net##+js(noeval-if, ads)
 ! Rule "||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js,domain=warungkomik.com" converted to: "||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication-adsbygoogle,domain=warungkomik.com"
