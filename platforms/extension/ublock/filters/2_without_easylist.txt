@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: E0jbiLdiwL7DDU77xdSlIQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707539759-3600.patch
+! Checksum: /hF2oKvMoHqQjcgSsGTORg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707557760-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.21.63
-! TimeUpdated: 2024-02-10T04:32:42+00:00
+! Version: 2.3.21.64
+! TimeUpdated: 2024-02-10T09:32:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -77,6 +77,17 @@
 !
 !
 !
+||wearishalgins.com^
+||estouca.com^
+||qvtcigr.com^
+||nkbhsbteuu.com^
+||vodsourg.net^
+||hewiseryoun.com^
+||wouldmakefeagre.info^
+||silldisappoint.com^
+||qsxkxuqnsqg.com^
+||ievjylvqfjry.com^
+||floristgathering.com^
 ||lhamjcpnpqb.xyz^
 ||blowssubplow.com^
 ||lalalkamwsz.com^
@@ -1519,6 +1530,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||d1kx6hl0p7bemr.cloudfront.net^
 ||ads.videy.co^
 ||ads.sportslocalmedia.com^
 ||ads.tvp.pl^
