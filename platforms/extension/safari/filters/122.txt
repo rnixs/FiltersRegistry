@@ -1,15 +1,15 @@
-! Checksum: 6ynCu38HNiYaKlkQnaffGw
-! Diff-Path: ../patches/122/122-s-1707512808-14400.patch
+! Checksum: hzTnYbzTbnVYA1Gi6uWM3g
+! Diff-Path: ../patches/122/122-s-1707527195-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.82
-! TimeUpdated: 2024-02-09T21:02:11+00:00
+! Version: 2.1.20.83
+! TimeUpdated: 2024-02-10T01:02:02+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: QB6ygHupZMA43INMKgbQwA
-! OriginalVersion: 202402092015
+! Checksum: q4hb+sGWo1V8UGKWOzofaQ
+! OriginalVersion: 202402100040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-09 20:15 UTC
+! Last modified: 2024-02-10 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11980,7 +11980,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.sna-whatsapp
 ##.snapchat-share-button
 ##.snei-social
-##.snp-fb
 ##.sns-bar
 ##.sns-btn-wrap
 ##.sns-btns
@@ -36781,6 +36780,7 @@ tdtube.net###main-fixed
 iol.pt###popover
 livenation.co.nz###push-notifications-popup
 google.com###pushdown
+newnoisemagazine.com###snppopup-welcome
 nrl.com###vue-prompt-toast
 live.erinn.biz###win_appinstallhint
 alarabiya.net,indiatimes.com###wzrk_wrapper
@@ -36800,6 +36800,8 @@ techwalla.com##.component-push-notification
 manutd.com##.custom-popup
 advfn.com##.cw-prompt-alert
 mediaexpert.pl##.dynamic-modal
+newnoisemagazine.com##.fancybox-overlay
+newnoisemagazine.com##.fancybox-wrap
 apkpure.net##.float-request-notification-permission-button
 msn.com##.homepage-banner
 yummly.com##.house-promo-root
@@ -37553,6 +37555,8 @@ theverge.com##.duet--article--share-buttons
 echonewshub.com,jugomobile.com##.e-shared-sec
 shkspr.mobi##.edent-share
 argusdelassurance.com##.editoSocialBar
+newnoisemagazine.com##.elementor-element-44f5e77
+newnoisemagazine.com##.elementor-element-c6f7bc9
 topic.com##.elements-Tombstone-social
 fism.tv##.elfsight-widget-social-share-buttons
 topauto.co.za##.eltd-blog-single-share
@@ -40912,7 +40916,7 @@ twitch.tv##.consent-banner
 !! .dialog-lightbox-message
 1800runaway.org,aceprensa.com,ak-asya.com.tr,alivia.org.pl,almeidastextile.pt,ancon.io,caltex.co.za,cerre.eu,cofense.com,cronycle.com,detonated.com,direct-carpets.com,experiorfinancial.com,fermedelinciaux.be,fft.mt,getspace.us,gilmoreglobal.com,ingeniamc.com,janninebarron.com,lsisoftware.pl,lucerna-chem.ch,luukku.com,lwab.se,maltaconsulting.mt,marathonhr.com,marshfieldpre-school.co.uk,medyascope.tv,mitreprinting.co.uk,realvnc.com,ritchy.com,rwi.se,shotam.info,smackcoders.com,takeoff.org.mt,terracreta.gr,terveyskauneus.fi,tvpop.com.br,tzumi.com,vrxdb.com,webdesignspecialistamsterdam.nl,webdesignspecialistdenhaag.nl,whatcounts.com##.dialog-lightbox-message
 !! .dialog-lightbox-widget
-ardutronix.de,awdisbrands.com,blackmusicscholar.com,coachdaveacademy.com,courses.heatgeek.com,cover-4-less.com,dogfoodreviews.com,elegis.com.br,golffang.co.uk,itepexam.com,martonmedia.pl,mindigital.gr,onlyonce.today,renovainvest.com.br,saferpass.com,satel.pl,sublabmusic.com,tealstreet.io,thebfa.org,veracore.com,victorvision.com.br##.dialog-lightbox-widget
+ardutronix.de,awdisbrands.com,blackmusicscholar.com,coachdaveacademy.com,courses.heatgeek.com,cover-4-less.com,dogfoodreviews.com,elegis.com.br,golffang.co.uk,itepexam.com,martonmedia.pl,mindigital.gr,newnoisemagazine.com,onlyonce.today,renovainvest.com.br,saferpass.com,satel.pl,sublabmusic.com,tealstreet.io,thebfa.org,veracore.com,victorvision.com.br##.dialog-lightbox-widget
 !! .t657
 2035.university,alfabusinessweek.ru,bohoo.ru,dcciv.ru,domino-sveta.ru,evisa-russia.ru,examus.com,floristtina.ru,geniusreferrals.com,millionviews.ru,nadessert.com,niagara-pu.ru,ollinprofessional.ru,qapp.tech,sales-battle.ru,tilda.cc,usedesk.ru,waterlamp.de,xianti.fr,zaslon-ul.ru##.t657
 !! .t886
@@ -55542,7 +55546,6 @@ hellohr.pl##.css-py4a32
 health-platform.online##.css-um19vb
 orange.pl##.css-yco2eg
 zdzis.com##.dDWWPk
-izodom2000.pl##.dialog-lightbox-widget
 pwpw.pl##.dialogblockrodo
 komornik.pl##.divModalDialog
 home.pl##.edxzdK
