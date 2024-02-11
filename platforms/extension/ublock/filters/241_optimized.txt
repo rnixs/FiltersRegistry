@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: t84Voa3HrH66SRIyzfX9JQ
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1707628003-14400.patch
+! Checksum: asl4T8dPvMphk4j1cx5LhQ
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1707642416-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.92
-! TimeUpdated: 2024-02-11T05:02:53+00:00
+! Version: 2.1.28.93
+! TimeUpdated: 2024-02-11T09:03:00+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -22424,6 +22424,7 @@ omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-other, false)
 omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-social, true)
 businessclass.com##+js(set-local-storage-item, bcCookieAccepted, true)
+schneidewind-immobilien.de##+js(set-local-storage-item, pcClosedOnce, true)
 galaxy.com##+js(set-local-storage-item, terms, true)
 ticketmelon.com##+js(set-local-storage-item, cookie_accept, true)
 pechinchou.com.br##+js(set-local-storage-item, Pechinchou:CookiesModal, true)
@@ -24504,7 +24505,7 @@ kraehe.de##.nav-cookie
 biancodipuro.ch##.ngcookiewarning
 kaelte-nuhn.com,kvvks.de,messe-kassel.de##.note
 onb.ac.at##.notification-wrapper
-klimaanlage.at##.notificationArea
+klimaanlage.at,schneidewind-immobilien.de##.notificationArea
 horizon.tv##.notifications-manager
 civey.com##.notifications-module_notificationContainer_3zCTN
 gewinnspiele.de,lotty.de##.npco_overlay

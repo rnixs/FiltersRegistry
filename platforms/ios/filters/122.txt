@@ -1,15 +1,15 @@
-! Checksum: s7u2Kh839MSei4haPqCqdA
-! Diff-Path: ../patches/122/122-s-1707628005-14400.patch
+! Checksum: qbWiXLrukPhDljY55dYEnA
+! Diff-Path: ../patches/122/122-s-1707642418-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.90
-! TimeUpdated: 2024-02-11T05:02:07+00:00
+! Version: 2.1.20.91
+! TimeUpdated: 2024-02-11T09:02:15+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: GnzRjynH5ssP282GHUP1SQ
-! OriginalVersion: 202402110440
+! Checksum: zgiA1F/Ae2MCZQB12uWX/A
+! OriginalVersion: 202402110815
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-11 04:40 UTC
+! Last modified: 2024-02-11 08:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2102,6 +2102,7 @@ _twitter_follow.
 ##.td-more-articles-box
 ##.trustpilot-widget
 ##.upNext-container
+##.vf-conversation-starter
 ##.widget-feedburner
 ##.widget_al2fb
 ##.widget_feedburnerformwidget
@@ -35523,6 +35524,7 @@ convertio.co##.chrome-app
 meet.jit.si##.chrome-extension-banner
 techcrunch.com##.close-button
 phoenixnap.com##.code-block
+kesq.com##.code-block-22
 knowyourmeme.com##.combo-wrapper
 freemake.com,next-gen.biz##.community
 avg.com,copykat.com,snagfilms.com##.connect
@@ -35826,6 +35828,7 @@ turners.co.nz##.ad-container
 newrepublic.com##.ad-container-house
 twitchquotes.com##.ad-parent
 thejakartapost.com##.ad-v-box
+scrippsnews.com##.ads-container
 thejakartapost.com##.ads-large-leaderboard
 universetoday.com##.adv-link
 hindawi.com##.advWrapper
@@ -36073,6 +36076,7 @@ carsandbids.com##.promo-bar
 lmtribune.com##.promo-button
 komando.com##.promo-cta
 thesaturdaypaper.com.au##.promo-footer-strap-wrapper
+scrippsnews.com##.promo-image
 instructables.com##.promo-link
 investing.com##.promo-strip-wrapper
 404media.co##.promo-unit
@@ -37564,7 +37568,7 @@ newnoisemagazine.com##.elementor-element-c6f7bc9
 topic.com##.elements-Tombstone-social
 fism.tv##.elfsight-widget-social-share-buttons
 topauto.co.za##.eltd-blog-single-share
-bdonline.co.uk,screendaily.com##.email
+bdonline.co.uk,flightglobal.com,screendaily.com##.email
 spectator.co.uk##.entry-meta__item--social
 arabnews.com##.entry-views
 nrttv.com##.eshare
@@ -37622,6 +37626,7 @@ telegraphindia.com##.followusbox
 thejc.com##.foot__socials
 dot.la##.foot_bar
 dot.la##.foot_social
+moviemaker.com##.footer-bg
 leisurewheels.co.za##.footer-column-3
 lineageos.org,morbidology.com,topuniversities.com,westpac.com.au##.footer-icons
 chinafile.com##.footer-links
@@ -38026,6 +38031,7 @@ nationalheraldindia.com##.styles-m__sticky-social-share__fJQ4J
 patch.com##.styles_SocialShare__lQpUq
 firstpost.com##.subcrbe_btn
 todayonline.com##.subcription-two
+scrippsnews.com##.subheader
 npr.org,symmetrymagazine.org,thefinance.sg,topbet.eu##.subscribe
 jasonwatmore.com##.subscribe-buttons
 newsandguts.com##.subscribeBar
@@ -38175,7 +38181,7 @@ ansa.it,az.com.na,azernews.az,b92.net,gfinityesports.com,huffingtonpost.fr,iltal
 !! .shares
 bulawayo24.com,foodbeast.com,forbes.ru,iol.pt,levantenews.it,tn.com.ar,twistedfood.co.uk##.shares
 !! .sharing
-amoledo.com,astrologyzone.com,bigleaguepolitics.com,goedgevoel.be,indiatoday.in,marketingweek.com,metacritic.com,numberempire.com,ornews.it,screenrant.com,spectator.com.au,thepointsguy.com##.sharing
+amoledo.com,astrologyzone.com,bigleaguepolitics.com,goedgevoel.be,indiatoday.in,marketingweek.com,metacritic.com,moviemaker.com,numberempire.com,ornews.it,screenrant.com,spectator.com.au,thepointsguy.com##.sharing
 !! .social-bar
 bearingarms.com,heraldscotland.com,hotair.com,ilsettimanale.online,meridiano.net,pjmedia.com,redstate.com,salisburyjournal.co.uk,thecollegefix.com,townhall.com##.social-bar
 !! .social-container
@@ -38217,7 +38223,7 @@ cadenaazul.com,ilfoglio.it,peoplesweather.com,rfm.fr,sassymamahk.com,zoom.earth#
 !! .Share
 7kanal.co.il,focusjunior.it,inn.co.il##.Share
 !! .social-links
-anothermag.com,armageddonexpo.com,averiecooks.com,bnn.de,bolina.it,cgchannel.com,classic105.com,diariolasamericas.com,ebu.io,fortune.com,fullfact.org,hannity.com,i24news.tv,insurancejournal.com,metro.us,mobilesyrup.com,nextplay.nl,oann.com,quantamagazine.org,realnewsmontana.com,rocketbeans.tv,screencrush.com,skinnyms.com,sowetanlive.co.za,stoneyroads.com,thedailystar.net,trustradio.com.ng,tuasaude.com,wantedonline.co.za,wijwedden.net##.social-links
+anothermag.com,armageddonexpo.com,averiecooks.com,bnn.de,bolina.it,cgchannel.com,classic105.com,diariolasamericas.com,ebu.io,fortune.com,fullfact.org,hannity.com,i24news.tv,insurancejournal.com,metro.us,mobilesyrup.com,moviemaker.com,nextplay.nl,oann.com,quantamagazine.org,realnewsmontana.com,rocketbeans.tv,screencrush.com,skinnyms.com,sowetanlive.co.za,stoneyroads.com,thedailystar.net,trustradio.com.ng,tuasaude.com,wantedonline.co.za,wijwedden.net##.social-links
 !! .social-link
 english.nv.ua,jenkemmag.com,largus.fr,masterduelmeta.com,merriam-webster.com##.social-link
 !! .google-news
@@ -42437,6 +42443,7 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-oth
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-seen', 'true')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 businessclass.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bcCookieAccepted', 'true')
+schneidewind-immobilien.de#%#//scriptlet('ubo-set-local-storage-item.js', 'pcClosedOnce', 'true')
 galaxy.com#%#//scriptlet('ubo-set-local-storage-item.js', 'terms', 'true')
 ticketmelon.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie_accept', 'true')
 pechinchou.com.br#%#//scriptlet('ubo-set-local-storage-item.js', 'Pechinchou:CookiesModal', 'true')
@@ -45766,6 +45773,7 @@ inverse.com##.j1J
 fatherly.com##.jNY
 techopedia.com##.jan-bg-dotted
 desmog.com##.jet-popup
+vvng.com##.jetpack-subscribe-modal
 judicialwatch.org,thenewcivilrightsmovement.com##.join
 guidingtech.com##.join-newsletter
 forksoverknives.com##.join-section
@@ -49160,6 +49168,7 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-oth
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-seen', 'true')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 businessclass.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bcCookieAccepted', 'true')
+schneidewind-immobilien.de#%#//scriptlet('ubo-set-local-storage-item.js', 'pcClosedOnce', 'true')
 galaxy.com#%#//scriptlet('ubo-set-local-storage-item.js', 'terms', 'true')
 ticketmelon.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie_accept', 'true')
 pechinchou.com.br#%#//scriptlet('ubo-set-local-storage-item.js', 'Pechinchou:CookiesModal', 'true')
@@ -54075,7 +54084,7 @@ kraehe.de##.nav-cookie
 biancodipuro.ch##.ngcookiewarning
 kaelte-nuhn.com,kvvks.de,messe-kassel.de##.note
 onb.ac.at##.notification-wrapper
-klimaanlage.at##.notificationArea
+klimaanlage.at,schneidewind-immobilien.de##.notificationArea
 horizon.tv##.notifications-manager
 civey.com##.notifications-module_notificationContainer_3zCTN
 gewinnspiele.de,lotty.de##.npco_overlay

@@ -1,9 +1,9 @@
-! Checksum: /1IZc0QHtvFuXGmhpcHs2A
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1707627992-14400.patch
+! Checksum: leFNpMXCWxcxIqKsGklCiQ
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1707642406-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.28.92
-! TimeUpdated: 2024-02-11T05:02:53+00:00
+! Version: 2.1.28.93
+! TimeUpdated: 2024-02-11T09:03:00+00:00
 ! Expires: 10 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -22423,6 +22423,7 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-oth
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-seen', 'true')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 businessclass.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bcCookieAccepted', 'true')
+schneidewind-immobilien.de#%#//scriptlet('ubo-set-local-storage-item.js', 'pcClosedOnce', 'true')
 galaxy.com#%#//scriptlet('ubo-set-local-storage-item.js', 'terms', 'true')
 ticketmelon.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie_accept', 'true')
 pechinchou.com.br#%#//scriptlet('ubo-set-local-storage-item.js', 'Pechinchou:CookiesModal', 'true')
@@ -24501,7 +24502,7 @@ kraehe.de##.nav-cookie
 biancodipuro.ch##.ngcookiewarning
 kaelte-nuhn.com,kvvks.de,messe-kassel.de##.note
 onb.ac.at##.notification-wrapper
-klimaanlage.at##.notificationArea
+klimaanlage.at,schneidewind-immobilien.de##.notificationArea
 horizon.tv##.notifications-manager
 civey.com##.notifications-module_notificationContainer_3zCTN
 gewinnspiele.de,lotty.de##.npco_overlay
