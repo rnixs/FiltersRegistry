@@ -1,9 +1,9 @@
-! Checksum: NbGJXrrpvdhyaxsX06nszQ
-! Diff-Path: ../patches/20/20-s-1707474981-3600.patch
+! Checksum: bs8uY5/gBEztfXNk4Y0Alw
+! Diff-Path: ../patches/20/20-s-1707673047-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.34
-! TimeUpdated: 2024-02-09T10:32:15+00:00
+! Version: 2.0.12.35
+! TimeUpdated: 2024-02-11T17:33:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3132,6 +3132,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! Limit it to mobile versions only
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 !
+backnumber.info###app-bnr
 kp.ru#?##app > div[class^="sc-"]:has(> div[class^="sc-"]:contains(Установить))
 prcm.jp##.w2a-banner
 2gis.ru##._1tqtg5e

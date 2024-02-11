@@ -1,9 +1,9 @@
-! Checksum: ySYHdrNmZPeAStDuqFxQNA
-! Diff-Path: ../patches/7/7-s-1707662191-3600.patch
+! Checksum: NeQjgiV2H7hMLmkqNSNEuw
+! Diff-Path: ../patches/7/7-s-1707673014-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.43
-! TimeUpdated: 2024-02-11T14:33:52+00:00
+! Version: 2.0.48.44
+! TimeUpdated: 2024-02-11T17:34:11+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1473,6 +1473,7 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 ! Malware/Phishing
 /Softbank2024.apk$document
 .tk/windows~activation-error/$document
+.top/YWJjZDAwMDU3P$document
 .com/YWJjZDAwMDU3P$document
 ://rakuten.*.cn/*/login.php^$document
 ://jp-*-*.s3.ap-*.amazonaws.com/*-*-*-*-*-*-*/index.html$document
@@ -3862,7 +3863,7 @@ qiita.com##.css-pvblll
 jobcatalog.yahoo.co.jp###qa-mr-ad1
 kasegeru.blog.jp##.article-body-inner > a[href^="https://www.amazon.co.jp/gp/"]
 jumpmatome2ch.biz##div[class^="ad-box"]
-uwakich.com##div[style^="height:350px;"][style*="width:735px;"]
+uwakich.com##a[href^="https://www.cuddle-jp.com/"][target="_blank"]
 trilltrill.jp##.sideBar-AffiliateBanner
 pokemonbbs.com##.ads_oya
 pokemonbbs.com##div[style="height:100px"]
