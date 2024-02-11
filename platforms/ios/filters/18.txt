@@ -1,9 +1,9 @@
-! Checksum: A1sv3a3uhnrfMli3ilz+Qg
-! Diff-Path: ../patches/18/18-s-1707521757-3600.patch
+! Checksum: bZq3bWcSTdhHqMJ/6a4rpQ
+! Diff-Path: ../patches/18/18-s-1707662218-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.10
-! TimeUpdated: 2024-02-09T23:31:55+00:00
+! Version: 2.0.33.11
+! TimeUpdated: 2024-02-11T14:32:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2362,6 +2362,8 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+elsevier.com###__next > div[class*="_"] > div[class] > div[class] > div[class*="_"][style*=" var"]:has(> div[data-testid="cookie-banner"])
+elsevier.com###__next > div[class*="_"] > div[class] > div[class] > div[class*="_"][style*=" var"]:has(> div[data-testid="cookie-banner"]) + div[class^="_"]:empty
 ||privacy.ene.si^
 dwdrums.com##main > div > div.fixed:has(> div.caption > span.underline > a[href="/privacy/"])
 crazyegg.com##.gdpr-cookie-modal

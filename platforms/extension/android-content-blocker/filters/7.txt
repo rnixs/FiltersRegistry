@@ -1,9 +1,9 @@
-! Checksum: OwoIsdGkn0wkb8Y3gvnJNQ
-! Diff-Path: ../patches/7/7-s-1707647748-3600.patch
+! Checksum: bqVhAtqo5TBexgSfATBFZQ
+! Diff-Path: ../patches/7/7-s-1707662186-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.42
-! TimeUpdated: 2024-02-11T10:33:18+00:00
+! Version: 2.0.48.43
+! TimeUpdated: 2024-02-11T14:33:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7333,6 +7333,7 @@ ameblo.jp###entryBody > div.pickCreative_root + p
 ameblo.jp##div[class^="_"][style="min-width: 300px; min-height: 250px;"]
 ameblo.jp##.myPick_block
 anond.hatelabo.jp##.ad-in-entry-block
+kakuyomu.jp##div[id^="work-ad-"]
 kakuyomu.jp##div[class^="widget-ad-"]
 realsound.jp###appleBnr
 realsound.jp##.entryBottomAd
