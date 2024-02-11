@@ -1,15 +1,15 @@
-! Checksum: lqFcyBO9w4ajDQMGS5tYGw
-! Diff-Path: ../patches/101/101-s-1707599200-14400.patch
+! Checksum: WoBW31Ie70aIaIXZ08yg6A
+! Diff-Path: ../patches/101/101-s-1707613582-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.20.62
-! TimeUpdated: 2024-02-10T21:01:55+00:00
+! Version: 2.1.20.63
+! TimeUpdated: 2024-02-11T01:01:41+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: CPwEpmv/Epv91rAhd6kE+A
-! OriginalVersion: 202402102051
+! Checksum: 6ia5XogE2mb7eHmXdznGIw
+! OriginalVersion: 202402110050
 ! Title: EasyList
-! Last modified: 10 Feb 2024 20:51 UTC
+! Last modified: 11 Feb 2024 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9923,6 +9923,7 @@ _800x80_
 ##.adplaceholder-top
 ##.adplacement
 ##.adplate-background
+##.adplugg-tag
 ##.adpod
 ##.adpopup
 ##.adpos-300-mobile
@@ -61076,6 +61077,7 @@ browsershots.org#@#.advert_area
 ||soundcloud.com/audio-ads?
 ||southfloridagaynews.com/images/banners/
 ||spike-plant.valorbuff.com^
+||sponsors.vuejs.org^
 ||sportlemon24.com/img/301.jpg
 ||sportshub.to/player-source/images/banners/
 ||spox.com/daznpic/
@@ -62923,6 +62925,7 @@ wcny.org###soliloquy-12716
 toumpano.net###sp-feature
 hilltimes.com###sp-mini-box
 toumpano.net###sp-right
+vuejs.org###special-sponsor
 coingape.com###spinbtn
 fastseduction.com###splash
 streetdirectory.com###splash_screen_overlay

@@ -1,9 +1,9 @@
-! Checksum: 7wQvB69uTj3xp8h+Z1TBkw
-! Diff-Path: ../patches/232_optimized/232_optimized-s-1707599194-14400.patch
+! Checksum: GkwIEUncz/u030TIcWJR/w
+! Diff-Path: ../patches/232_optimized/232_optimized-s-1707613576-14400.patch
 ! Title: KAD - Anti-Scam (Optimized)
 ! Description: Filter that protects against various types of scams in the Polish network, such as mass text messaging, fake online stores, etc.
-! Version: 2.0.52.67
-! TimeUpdated: 2024-02-10T21:03:02+00:00
+! Version: 2.0.52.68
+! TimeUpdated: 2024-02-11T01:02:48+00:00
 ! Expires: 5 days (update frequency)
 !#safari_cb_affinity(security)
 ||1vulkanvegas.com^$all
@@ -2432,6 +2432,7 @@
 ||00lx.22348735.xyz^$all
 ||0lx.29487947.xyz^$all
 ||0lx.38498286.xyz^$all
+||0lx.47347363.xyz^$all
 ||0lx.47347365.xyz^$all
 ||00lx.72426453.xyz^$all
 ||0lx.88734741.xyz^$all
@@ -3304,6 +3305,7 @@
 ||33k.boats^$all
 ||33ravel10em6lobe.quest^$all
 ||34-4kobv.cfd^$all
+||34-djsf2-f.cfd^$all
 ||34-gtro5.cfd^$all
 ||34-h2g.cfd^$all
 ||34-ln.homes^$all
@@ -6076,6 +6078,8 @@
 ||allegrolokalnie.szybka-paczka.pl^$all
 ||allegrolokalnie.szybka-transkacja.pl^$all
 ||allegrolokalnie.szybki-zakup09803.pl^$all
+||allegrolokalnie.szybki-zakup35462.pl^$all
+||allegrolokalnie.szybki-zakup44532.pl^$all
 ||allegrolokalnie.szybki-zakup243645.pl^$all
 ||allegrolokalnie.szybkie-aukcje.pl^$all
 ||allegrolokalnie.szybkie-kupno.pl^$all
@@ -9436,6 +9440,7 @@
 ||beznowway.com^$all
 ||bezpieczenstwo24h.click^$all
 ||bezpieczenstwo.site^$all
+||bezpieczenstwo.sviluppo.host^$all
 ||bezpieczenstwo.tech^$all
 ||bezpieczny-zakup24.pl^$all
 ||bezposrednie-przetwarzanie-online.xyz^$all
@@ -18084,6 +18089,7 @@
 ||eprzfgdkhmtuw.com^$all
 ||epsilon-delta.sbs^$all
 ||epsilooneepl.site^$all
+||epswebsites.net^$all
 ||ept.tradelifeworld.top^$all
 ||epwrpl.github.io^$all
 ||eqgcloud.com^$all
@@ -25407,6 +25413,7 @@
 ||inoskydive.pl^$all
 ||inovationpipe.store^$all
 ||inovium.net^$all
+||inp0st.7766095.xyz^$all
 ||inp0st.7766097.xyz^$all
 ||inp0st.823647217.xyz^$all
 ||inp-stbyuuiz.top^$all
@@ -46525,6 +46532,8 @@
 ||szybkaplatnosc-payu.com^$all
 ||szybkareakcja24h.click^$all
 ||szybki-zakup09803.pl^$all
+||szybki-zakup35462.pl^$all
+||szybki-zakup44532.pl^$all
 ||szybki-zakup243645.pl^$all
 ||szybkibiiegacz.site^$all
 ||szybkie-glosy.eu^$all
@@ -50184,6 +50193,7 @@
 ||viapaczki.cloud^$all
 ||viapadovamondo.com^$all
 ||viasolidaria.com^$all
+||vibesreason.xyz^$all
 ||vibra-bonito.com^$all
 ||vibrant5life.online^$all
 ||vibrant6.live^$all

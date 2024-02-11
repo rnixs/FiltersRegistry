@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: LWT/f0RVDm4bVOjKka65TA
-! Diff-Path: ../patches/113/113-s-1707599229-14400.patch
+! Checksum: nfkwCMofZealF6lXLFGQdA
+! Diff-Path: ../patches/113/113-s-1707613611-14400.patch
 ! Title: Liste FR
 ! Description: Additional filter list for websites in French. Already included in AdGuard French filter.
-! Version: 2.1.43.59
-! TimeUpdated: 2024-02-10T21:02:11+00:00
+! Version: 2.1.43.60
+! TimeUpdated: 2024-02-11T01:01:57+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: QheLRC07SvfOP7a6/TmDgA
-! OriginalVersion: 202402102051
+! Checksum: 0b6LdvYLQGWg99ZTYsHKpw
+! OriginalVersion: 202402110050
 ! Title: Liste FR
-! Last modified: 10 Feb 2024 20:51 UTC
+! Last modified: 11 Feb 2024 00:50 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -16575,8 +16575,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||maxxxblog.com/disclaimer-st.js
 ||mayottehebdo.com/images/banners/
 ||mayottehebdo.com^*/pub_bottom.
-||mcetv.fr^*/ban-partenaires-
-||mcetv.fr^*/habillage-
 ||med.tn/uploads/banners/
 ||media-ext.wanarun.net^
 ||media.freepik.com/sponsor/
@@ -18429,8 +18427,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ###pub_megaban
 ###pub_megabanner
 ###pub_middle_home
-###pub_nativ1
-###pub_nativ2
 ###pub_pave
 ###pub_pave2
 ###pub_pave3
@@ -20511,7 +20507,6 @@ zikinf.com###album
 akeo.fr###amazon
 millenium.gg###amazon_container
 soap-passion.com###annonce
-mcetv.fr###annonce-header
 upp-auteurs.fr###annonce_a
 upp-auteurs.fr###annonce_b
 leberry.fr###appel_BR_home_BPI_Stonest
@@ -22128,6 +22123,8 @@ developpez.com,developpez.net##div[id^="gabarit_megaban"]
 lachainemeteo.com##div[id^="ob_footer"]
 lachainemeteo.com##div[id^="ob_in-feed"]
 dsih.fr##div[id^="pub"]
+ouest-france.fr##div[id^="pub_native"]
+ouest-france.fr##div[id^="pub_pave_article"]
 universfreebox.com##div[id^="publicite-"]
 musculaction.com##div[id^="pubsousmenu"]
 pagesjaunes.fr##div[id^="push"]

@@ -1,9 +1,9 @@
-! Checksum: Py4BmpmgnfklhTPXR5XlTg
-! Diff-Path: ../patches/113_optimized/113_optimized-s-1707599218-14400.patch
+! Checksum: XdauiQsKqRGv0hi2iucOlw
+! Diff-Path: ../patches/113_optimized/113_optimized-s-1707613600-14400.patch
 ! Title: Liste FR (Optimized)
 ! Description: Additional filter list for websites in French. Already included in AdGuard French filter.
-! Version: 2.1.43.59
-! TimeUpdated: 2024-02-10T21:02:11+00:00
+! Version: 2.1.43.60
+! TimeUpdated: 2024-02-11T01:01:57+00:00
 ! Expires: 10 days (update frequency)
 &ad_count=
 &ad_unit_
@@ -4854,6 +4854,8 @@ developpez.com,developpez.net##div[id^="gabarit_megaban"]
 lachainemeteo.com##div[id^="ob_footer"]
 lachainemeteo.com##div[id^="ob_in-feed"]
 dsih.fr##div[id^="pub"]
+ouest-france.fr##div[id^="pub_native"]
+ouest-france.fr##div[id^="pub_pave_article"]
 universfreebox.com##div[id^="publicite-"]
 cpasbien.fi,gktorrents.cc,gktorrents.org,oxtorrent.tk,torrent9.cm,torrent911.me,torrent911.ws,yggtorrents.lol##div[id^="vpn"]
 zonebourse.com##div[id^="zpp"]
