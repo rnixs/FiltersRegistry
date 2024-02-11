@@ -1,14 +1,14 @@
-! Checksum: NS/+P/xA+K6uDuxLsoRShA
-! Diff-Path: ../patches/118/118-s-1707656816-14400.patch
+! Checksum: dBQMHL3WOUw72j8/B9Uexg
+! Diff-Path: ../patches/118/118-s-1707671216-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.21.93
-! TimeUpdated: 2024-02-11T13:01:58+00:00
+! Version: 2.1.21.94
+! TimeUpdated: 2024-02-11T17:01:55+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202402111237
+! OriginalVersion: 202402111634
 ! Title: EasyPrivacy
-! Last modified: 11 Feb 2024 12:37 UTC
+! Last modified: 11 Feb 2024 16:34 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -1532,6 +1532,7 @@
 /oo/*/lsync.js
 /oo/cl*.js?rd=
 /opdc.js
+/ope-adalliance.js
 /open/log/*
 /openpixel.gif?
 /openpixel.js
@@ -48507,6 +48508,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bz-berlin.de/_stats/
 ||chartsurfer.de/js/mtm.js
 ||chartsurfer.de/uscoll.php?
+||chefkoch-cdn.de/agf/agf.js
+||chefkoch.de/search/tracking/
 ||chefkoch.de/tracking/
 ||click.alternate.de^
 ||cmp2.channelpartner.de^

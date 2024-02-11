@@ -1,7 +1,7 @@
 !
-! OriginalVersion: 202402111237
+! OriginalVersion: 202402111634
 ! Title: EasyPrivacy
-! Last modified: 11 Feb 2024 12:37 UTC
+! Last modified: 11 Feb 2024 16:34 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -1525,6 +1525,7 @@
 /oo/*/lsync.js
 /oo/cl*.js?rd=
 /opdc.js
+/ope-adalliance.js
 /open/log/*
 /openpixel.gif?
 /openpixel.js
@@ -48504,6 +48505,8 @@ abema.tv$$script[tag-content="NREUM"][max-length="262144"]
 ||bz-berlin.de/_stats/
 ||chartsurfer.de/js/mtm.js
 ||chartsurfer.de/uscoll.php?
+||chefkoch-cdn.de/agf/agf.js
+||chefkoch.de/search/tracking/
 ||chefkoch.de/tracking/
 ||click.alternate.de^
 ||cmp2.channelpartner.de^
