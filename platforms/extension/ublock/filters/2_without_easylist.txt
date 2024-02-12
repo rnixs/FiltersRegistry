@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZfFAVvChPFwPI951iweArQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707759386-3600.patch
+! Checksum: +JX/MDv6s9jCV6u+Q1bSVg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707762985-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.22.2
-! TimeUpdated: 2024-02-12T17:32:49+00:00
+! Version: 2.3.22.3
+! TimeUpdated: 2024-02-12T18:32:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -51379,6 +51379,11 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172583
+nectr.com.au#@#.ad-main
+nectr.com.au#@#.ad-heading
+nectr.com.au#@#.ad-tag
+nectr.com.au#@#.ad-content
 ! https://github.com/AdguardTeam/HttpsExclusions/issues/560
 ! "Read sample" does not work on amazon.com and read.amazon.com
 ! github.io - too wide rule
