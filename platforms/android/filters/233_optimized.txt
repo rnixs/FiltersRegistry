@@ -1,9 +1,9 @@
-! Checksum: XvOqSTWgix85OVYQpI6l3A
-! Diff-Path: ../patches/233_optimized/233_optimized-s-1707483990-14400.patch
+! Checksum: VW06oIAvO8n8grMi2Chlcw
+! Diff-Path: ../patches/233_optimized/233_optimized-s-1707743185-14400.patch
 ! Title: Adblock List for Finland (Optimized)
 ! Description: Finnish ad blocking filter list.
-! Version: 2.0.10.83
-! TimeUpdated: 2024-02-09T13:02:50+00:00
+! Version: 2.0.10.84
+! TimeUpdated: 2024-02-12T13:02:47+00:00
 ! Expires: 5 days (update frequency)
 ampparit.com##.ad-slot
 ap-cdn.sanomagames.com##.banner-slot-preroll
@@ -65,6 +65,7 @@ finder.fi#%#//scriptlet('ubo-rc.js', 'SearchResultList__Row--advertisement', '',
 findit.fi#%#//scriptlet('ubo-acs.js', 'testPrebid')
 happypancake.fi#%#//scriptlet('ubo-aopr.js', 'Object.prototype.adUnits')
 s-kaupat.fi#%#//scriptlet('ubo-json-prune.js', 'props.pageProps.contentfulState.frontPage.sections.[].fields.hasCitrusAdSlot props.pageProps.contentfulState.frontPage.sections.[].fields.isCitrusAdGrid')
+srk.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielaw_accepted', '1', '', 'reload', '1')
 &browser=MozillaFirefox$xmlhttprequest,removeparam=browser,domain=mtv.fi|mtvuutiset.fi
 @@||fi-mtv3.videoplaza.tv/proxy/distributor$domain=mtv.fi|mtvuutiset.fi
 mtv.fi,mtvuutiset.fi#%#//scriptlet('ubo-xml-prune.js', 'MediaFile', '', 'fi-mtv3.videoplaza.tv/proxy/distributor')
@@ -1519,3 +1520,9 @@ pienimatkaopas.com#@##mainos
 netticaravan.fi#@#article.ad
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=telsu.fi
 @@||/media/banners/*$image,domain=www.netrauta.fi
+@@||consent.cookiebot.com/uc.js$domain=www.seurakuntalainen.fi
+@@||consent.cookiebot.com/*/cc.js?renew=true$domain=www.seurakuntalainen.fi
+@@||consent.cookiebot.com/logconsent.ashx$domain=www.seurakuntalainen.fi
+www.seurakuntalainen.fi#@##CookieBanner
+@@||srk.fi/*/cookielaw.js$script
+srk.fi#@##CookielawBanner
