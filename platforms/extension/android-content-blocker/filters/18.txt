@@ -1,9 +1,9 @@
-! Checksum: hxd8037t8kwXE2XlAmCkbA
-! Diff-Path: ../patches/18/18-s-1707734349-3600.patch
+! Checksum: f13JWDXsMVZG1qouu2ms5A
+! Diff-Path: ../patches/18/18-s-1707737790-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.17
-! TimeUpdated: 2024-02-12T10:34:34+00:00
+! Version: 2.0.33.18
+! TimeUpdated: 2024-02-12T11:32:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13011,10 +13011,6 @@ premium-link.ninja##.cc_banner-wrapper
 !--- JS rules---
 ! SECTION: Cookies - Specific rules (JS)
 !
-! dumont group
-! Note for iOS it requires main domain, not third-party (sub) domain
-! new dumont group rules
-! Button "Einstellungen"
 ! Button "Einstellungen" at start, enabling social network embeds and Button "Auswahl speichern" at the end
 ! Button "Einstellungen anpassen"
 ! "Button Optionen"
