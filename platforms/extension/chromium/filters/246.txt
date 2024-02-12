@@ -1,15 +1,15 @@
-! Checksum: jqKly9iH+XTcSGXqEGK5FQ
-! Diff-Path: ../patches/246/246-s-1707743196-14400.patch
+! Checksum: 3Taa5Pc0t90IM8MbXg3G5A
+! Diff-Path: ../patches/246/246-s-1707757588-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.39.77
-! TimeUpdated: 2024-02-12T13:03:03+00:00
+! Version: 2.1.39.78
+! TimeUpdated: 2024-02-12T17:03:03+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: M3HN18c03RmYT+wADIJs8g
-! OriginalVersion: 202402121251
+! Checksum: G0XFzUjfPPV4oLh+sJBdrQ
+! OriginalVersion: 202402121651
 ! Title: EasyList Polish
-! Last modified: 12 Feb 2024 12:51 UTC
+! Last modified: 12 Feb 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -211,7 +211,6 @@ mandarinodesign.eu#@#.reklama
 ^reklamowe^$domain=bolec.info
 ^reklamy-$domain=ipulawy.pl
 ^reklamy_$domain=gazetka.be
-^reklamy_baner^$domain=wirtualnygarwolin.pl
 ^rekrek^$domain=moj-sen.net
 ^rotator^$domain=gorzowianin.com|lubuskie24.pl
 ^sam-pro-images^$domain=mojaswidnica.pl
@@ -2084,6 +2083,7 @@ tomaszowiak.net##a[href="infusions/weblinks/weblinks.php?weblink_id=106"]
 tomaszowiak.net##a[href="infusions/weblinks/weblinks.php?weblink_id=113"]
 tomaszowiak.net##a[href="infusions/weblinks/weblinks.php?weblink_id=115"]
 chelmski.eu##a[href="naszchelm.eu"]
+blogbukmacherski.pl##a[href="sts"]
 mojprzewodnik.pl##a[href="www.finans.pl"]
 livingroom24.pl##a[href^="/ads/"]
 cztery-lapy.pl##a[href^="/adv/"]
