@@ -1,9 +1,9 @@
-! Checksum: LlNQ+eD3yGDKVICDnxXPbw
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1707737794-3600.patch
+! Checksum: bfI0tlPzl6oQKcM5i2dUyQ
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1707748546-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.26
-! TimeUpdated: 2024-02-12T11:33:40+00:00
+! Version: 2.0.97.27
+! TimeUpdated: 2024-02-12T14:32:57+00:00
 ! Expires: 5 days (update frequency)
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
@@ -1288,7 +1288,7 @@ corocoro.jp##.p-ariticle__sns
 diapazon.kz##.publication__footer
 m.apkpure.*##.banner_share
 news.mit.edu##.news-article--share
-linforme.com,uber.com###article-share
+jiei.com,linforme.com,uber.com###article-share
 mensxp.com###share-result
 inews.co.uk##.inews__post-share
 ansa.it##.social-menu + .hidden-phone > ul:not([class])
