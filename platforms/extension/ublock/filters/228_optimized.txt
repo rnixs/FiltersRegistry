@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 7kUKcNN66BeDo6mzR4kULg
-! Diff-Path: ../patches/228_optimized/228_optimized-s-1707714460-14400.patch
+! Checksum: XLiSzDDWiRRUXlSFTeQ1zA
+! Diff-Path: ../patches/228_optimized/228_optimized-s-1707772018-14400.patch
 ! Title: xinggsf (Optimized)
 ! Description: Blocks ads on the Chinese video platforms (MangoTV, DouYu and others).
-! Version: 2.0.2.57
-! TimeUpdated: 2024-02-12T05:03:34+00:00
+! Version: 2.0.2.58
+! TimeUpdated: 2024-02-12T21:02:39+00:00
 ! Expires: 5 days (update frequency)
 @@||bdstatic.com/static/common/widget/ui/admanager/$script,domain=image.baidu.com
 ||cpro.$domain=~baidu.com
@@ -1215,6 +1215,7 @@ de.as.pptv.com
 ||cmvideo.cn/v1/iflyad/delivery$media,domain=miguvideo.com
 pub.funshion.com
 ||relive.vodfile.m1905.com/video/qiantie202$media
+1905.com#$?#.pauseInfoWrap { remove: true; }
 @@||tb.mgtv.com/sdk/*/ad-sdk.
 ad-survey.com
 ||video.da.mgtv.com/$media
