@@ -1,9 +1,9 @@
-! Checksum: jEnJZnYCEOaMxe0WndTFuw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1707755762-3600.patch
+! Checksum: QYZTxhBjkNFfYk9foPmwew
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1707759355-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.22.1
-! TimeUpdated: 2024-02-12T16:32:54+00:00
+! Version: 2.3.22.2
+! TimeUpdated: 2024-02-12T17:32:49+00:00
 ! Expires: 5 days (update frequency)
 ||lhamjcpnpqb.xyz^
 ||blowssubplow.com^
@@ -3309,16 +3309,23 @@ smartwebsolutions.org#@#.adsense-container
 @@||djxmaza.in^$generichide
 @@||miuiflash.com^$generichide
 @@/gettoken.php?$xmlhttprequest,domain=dropgalaxy.com
-@@||securepubads.g.doubleclick.net/pagead/ppub_config?ippd=$xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com
-@@||a2zapk.com^$script,xmlhttprequest,third-party,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com
-@@||services.vlitag.com/adv1/$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com
-@@||securepubads.g.doubleclick.net/*/pubads_impl*.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com
-@@||googlesyndication.com^$script,xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com
-miuiflash.com,djxmaza.in,thecubexguide.com#$##featuredimage { height: 20px !important; }
+@@||securepubads.g.doubleclick.net/pagead/ppub_config?ippd=$xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||a2zapk.com^$script,xmlhttprequest,third-party,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||protagcdn.com/s/dropgalaxy.com/site.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||services.vlitag.com/adv1/$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||protagcdn.com/check-bot/index.html$subdocument,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||assets.vlitag.com/prebid/default/prebid-*.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||jscdn.greeter.me/dropgalaxy.onlinehead.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||securepubads.g.doubleclick.net/*/pubads_impl*.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||player.aplhb.adipolo.com/prebidlink/$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||googletagmanager.com/gtag/js$xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||googletagservices.com/tag/js/gpt.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||googlesyndication.com^$script,xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+jytechs.in,miuiflash.com,djxmaza.in,thecubexguide.com#$##featuredimage { height: 20px !important; }
 dropgalaxy.com#@#iframe[data-aa]
 dropgalaxy.com#@#div[id^="div-gpt-ad"]
-financemonk.net,rtxkeeda.com,houseofblogger.com,dropgalaxy.com#@#.showads
+financemonk.net,rtxkeeda.com,houseofblogger.com,dropgalaxy.com,djxmaza.in,jytechs.in#@#.showads
 dropgalaxy.com##.pgAdWrapper
 @@||tpc.googlesyndication.com/simgad/$domain=smartkhabrinews.com|streama2z.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mobile-tracker-free.com
@@ -25993,6 +26000,7 @@ browsershots.org#@#.advert_area
 ||clmbtech.com^
 ||clnxfwyxyedh.com^
 ||clockwiseleaderfilament.com^
+||clonesmesopic.com^
 ||clonkfanion.com^
 ||clopembira.website^
 ||closed-consequence.com^
@@ -26319,6 +26327,7 @@ browsershots.org#@#.advert_area
 ||cyilxkpkf.com^
 ||cylindrical-form.com^
 ||cylsszrrfbkgjf.com^
+||cymtiadhurrie.com^
 ||cystisolor.com^
 ||cyyhkeknmbe.com^
 ||cyyjhkhgt.com^
@@ -28311,6 +28320,7 @@ browsershots.org#@#.advert_area
 ||haiwoubo.com^
 ||haksaigho.com^
 ||halftimestarring.com^
+||hammamfehmic.com^
 ||hammerhewer.top^
 ||hammockpublisherillumination.com^
 ||handgripvegetationhols.com^
@@ -32844,6 +32854,7 @@ browsershots.org#@#.advert_area
 ||selscronet.com^
 ||semblanceafford.com^
 ||semidapt.com^
+||senagegrasper.com^
 ||sendmepush.com^
 ||senecaanoles.com^
 ||senonsiatinus.com^
@@ -32990,6 +33001,7 @@ browsershots.org#@#.advert_area
 ||skatistlollard.com^
 ||skawwebless.com^
 ||skeetads.com^
+||skenaiaefaldy.com^
 ||sketchyrecycleimpose.com^
 ||skiddyteapots.com^
 ||skiguggn.com^
@@ -33663,6 +33675,7 @@ browsershots.org#@#.advert_area
 ||torioluor.com^
 ||toromclick.com^
 ||torrent-protection.com^
+||toshlypilate.com^
 ||toskmisway.com^
 ||totalactualnewz.com^
 ||totalcoolblog.com^
@@ -34249,6 +34262,7 @@ browsershots.org#@#.advert_area
 ||visiblemeasures.com^
 ||visitstats.com^
 ||visitweb.com^
+||visivefluxing.com^
 ||visoadroursu.com^
 ||vistoolr.net^
 ||vitiumcranker.com^
@@ -35352,6 +35366,7 @@ browsershots.org#@#.advert_area
 ||httpool.com^$third-party
 ||hyros.com^$third-party
 ||icorp.ro^$third-party
+||idevaffiliate.com^$third-party
 ||impact-ad.jp^$third-party
 ||impactify.io^$third-party
 ||improvedigital.com^$third-party
@@ -38327,6 +38342,7 @@ groupon.com##figure[data-clickurl^="https://api.groupon.com/sponsored/"]
 law.com,topcultured.com##h3
 kazwire.com##h3.tracking-widest
 drive.com.au##hr
+nordstrom.com##iframe[name*="revjet-single-iframe"]
 coincodex.com,yourbittorrent.com##iframe[src]
 theflixertv.to##iframe[style*="width: 100%"]
 bollyflix.loan,downloadlagu321.site,dramacool.sr,uwatchfre.cam##iframe[style*="z-index: 2147483646"]

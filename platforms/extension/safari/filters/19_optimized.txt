@@ -1,9 +1,9 @@
-! Checksum: ItrSBIUqDhgBZwxdk/8u4A
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1707755786-3600.patch
+! Checksum: e8uqb7u0X2/rNnM8DHaLoA
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1707759379-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.51
-! TimeUpdated: 2024-02-12T16:32:09+00:00
+! Version: 2.0.31.52
+! TimeUpdated: 2024-02-12T17:32:05+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1774,6 +1774,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+tp-link.com###linkedin-follow
 consumerreports.org#%#//scriptlet('set-cookie', 'mt_gaclosed', 'true')
 macked.app#%#//scriptlet('prevent-setTimeout', 'showed_system_notice')
 viva.co.id###wa-channel
