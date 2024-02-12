@@ -1,9 +1,9 @@
-! Checksum: 4UNCSNkzpYtONoNOxlUoAw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1707777367-3600.patch
+! Checksum: OGL0OARzmsFhufoLWCwlTA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1707780951-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.22.7
-! TimeUpdated: 2024-02-12T22:33:04+00:00
+! Version: 2.3.22.8
+! TimeUpdated: 2024-02-12T23:32:42+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -25565,6 +25565,7 @@ browsershots.org#@#.advert_area
 ||kittledtwang.top^
 ||kitwkuouldhukel.xyz^
 ||kiwsiftuvac.com^
+||kiyyrilqb.com^
 ||kjcafatfgwpggu.xyz^
 ||kjfhenoqfyfljo.com^
 ||kjgqsrejwsthwiw.com^
@@ -28353,6 +28354,7 @@ browsershots.org#@#.advert_area
 ||ratcovertlicence.com^
 ||ratemytop.app^
 ||ratimsub.net^
+||raudoabe.com^
 ||raudoufoay.com^
 ||raupothrepe.com^
 ||raupsica.net^
@@ -30216,6 +30218,7 @@ browsershots.org#@#.advert_area
 ||verninchange.com^
 ||veronalhaf.com^
 ||verpasnores.com^
+||versedarkenedhusky.com^
 ||verwh.com^
 ||veryn1ce.com^
 ||vespymedia.com^
@@ -31814,6 +31817,7 @@ browsershots.org#@#.advert_area
 ||upleaptlistel.top^$popup
 ||uproarglossy.com^$popup
 ||venuewasadi.org^$popup
+||versedarkenedhusky.com^$popup
 ||viiavjpe.com^$popup
 ||vowpairmax.live^$popup
 ||vsucocesisful.com^$popup
