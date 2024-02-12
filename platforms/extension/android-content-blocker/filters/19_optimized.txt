@@ -1,9 +1,9 @@
-! Checksum: vZZ1aM7FKjNoztbWadbNcQ
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1707705339-3600.patch
+! Checksum: yE8MBGok7go4PTNFm7g/5A
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1707723342-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.46
-! TimeUpdated: 2024-02-11T15:34:58+00:00
+! Version: 2.0.31.47
+! TimeUpdated: 2024-02-12T07:31:57+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -105,7 +105,7 @@ livescience.com##.ad-unit
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[0-9a-z_-]{0,84}[A-Z])(?=[a-zA-Z_-]{0,84}[0-9])[0-9a-zA-Z_-]{54,85}(#\?v=[0-9a-f]{32})?$/$ping,script,xmlhttprequest,third-party,match-case
 @@||succeedscene.com/*/ads.load.js
 !+ NOT_OPTIMIZED
-cbr.com##body > div:not([style],[id]) > style + div[class]
+mlive.com,cbr.com##body > div:not([style],[id]) > style + div[class]
 !+ NOT_OPTIMIZED
 digitalmusicnews.com##body > div#cb-outer-container ~ div:not([class]):not([id])
 !+ NOT_OPTIMIZED
