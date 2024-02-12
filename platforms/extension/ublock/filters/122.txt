@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: BdCIZFaqzcVmd+Iu2bz6dA
-! Diff-Path: ../patches/122/122-s-1707700013-14400.patch
+! Checksum: Gm1RRp3JTln4q+SqJgbs/g
+! Diff-Path: ../patches/122/122-s-1707714458-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.20.95
-! TimeUpdated: 2024-02-12T01:02:17+00:00
+! Version: 2.1.20.96
+! TimeUpdated: 2024-02-12T05:03:13+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: qq6nygg8CwISgd3jbqd5Jg
-! OriginalVersion: 202402120015
+! Checksum: MMgbZK2wQoQ1De2HD0CPAw
+! OriginalVersion: 202402120440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-12 00:15 UTC
+! Last modified: 2024-02-12 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -47046,6 +47046,9 @@ bonappetit.com##+js(cookie-remover, pay_ent_msmp)
 babiesrus.ca,toysrus.ca##+js(set-cookie, isNewsletterPopupShown, false, , reload, 1)
 ! clutchpoints.com (newsletter popup)
 clutchpoints.com##+js(set-local-storage-item, nbaSIBWidgetSeen, true)
+!  clevercreations.org (mailerrite dim)
+clevercreations.org##.ml-embedded
+clevercreations.org##+js(set-cookie, mailerlite:forms:shown:109925949413262377, 1)
 ! semafor.com
 semafor.com##+js(set-session-storage-item, floating-sign-up-dismissed, true)
 ! arcade1up.com
@@ -51905,6 +51908,9 @@ bonappetit.com##+js(cookie-remover, pay_ent_msmp)
 babiesrus.ca,toysrus.ca##+js(set-cookie, isNewsletterPopupShown, false, , reload, 1)
 ! clutchpoints.com (newsletter popup)
 clutchpoints.com##+js(set-local-storage-item, nbaSIBWidgetSeen, true)
+!  clevercreations.org (mailerrite dim)
+clevercreations.org##.ml-embedded
+clevercreations.org##+js(set-cookie, mailerlite:forms:shown:109925949413262377, 1)
 ! semafor.com
 semafor.com##+js(set-session-storage-item, floating-sign-up-dismissed, true)
 ! arcade1up.com

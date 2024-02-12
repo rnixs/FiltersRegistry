@@ -1,9 +1,9 @@
-! Checksum: wdKoQRREr4y2i06uqB0LWw
-! Diff-Path: ../patches/228/228-s-1707498382-14400.patch
+! Checksum: DnscyO0BlAEEXa1MXYxaaw
+! Diff-Path: ../patches/228/228-s-1707714430-14400.patch
 ! Title: xinggsf
 ! Description: Blocks ads on the Chinese video platforms (MangoTV, DouYu and others).
-! Version: 2.0.2.56
-! TimeUpdated: 2024-02-09T17:02:33+00:00
+! Version: 2.0.2.57
+! TimeUpdated: 2024-02-12T05:03:34+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: 乘风 广告过滤规则
@@ -1203,7 +1203,7 @@ apisgame.iqiyi.com
 static.g.iqiyi.com
 ||ssports.iqiyi.com/json/shop/shopInfo
 show.ssports.com
-v.qq.com##.quick_games.quick_item
+v.qq.com##.quick_games.quick_item, div.game-switch-ad
 !qq.com##.mod_ad, .txp_ad, .txp_ad_link, .adWrap
 !qq.com##+js(no-xhr-if,/trace\.|\/collect/)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
