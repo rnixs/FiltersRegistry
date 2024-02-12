@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: +hbPFgQIaTj24FTrIukamQ
-! Diff-Path: ../patches/22/22-s-1707730596-3600.patch
+! Checksum: mC+wfUN/uiwark/IPAuziQ
+! Diff-Path: ../patches/22/22-s-1707755793-3600.patch
 ! Title: AdGuard Widgets filter
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.30
-! TimeUpdated: 2024-02-12T09:32:20+00:00
+! Version: 2.0.7.31
+! TimeUpdated: 2024-02-12T16:32:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1840,6 +1840,8 @@ zebratechnologies.force.com##.zbrbot-container
 !
 !   SECTION: Uncategorized
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172585 - betting widget
+||s-cdn.sportbox.ru/sites/*/coefs-parser/coefs-parser.global.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169262
 ||api-*.spot.im/*/feed/pitc/*/no^post$domain=olhardigital.com.br
 ! https://github.com/AdguardTeam/AdguardFilters/issues/163923 - quiz widget

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: W1f3u2kxvK5t0YkhHW7qew
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707752237-3600.patch
+! Checksum: ZqQwhGmyd1vr0IEKle/hKQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707755794-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.22.0
-! TimeUpdated: 2024-02-12T15:33:35+00:00
+! Version: 2.3.22.1
+! TimeUpdated: 2024-02-12T16:32:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7291,6 +7291,7 @@ chpadblock.com##+js(noeval-if, chp_adblock)
 starwarsaddicted.it,wuyong.fun,26g.me,myqqjd.com,poapan.xyz,javboys.com,idevicecentral.com,fcportables.com,codehelppro.com##+js(abort-on-property-read, reqServers)
 ! chp_ads_blocker popups, that can be hidden
 ! generic
+##a[id][href="https://toolkitspro.com"][rel="noopener noreferrer"]
 ##a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
 ! specific
 doumura.com##body > .container ~ h4.adblock_title ~ div[class]
@@ -7500,6 +7501,8 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172588
+sinonimos.de##+js(set-constant, adbDetected, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172596
 trackid.net##+js(no-fetch-if, www3.doubleclick.net)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172504
@@ -33021,6 +33024,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+themirror.com##reach-billboard
 4kporn.xxx##.myadswarning
 4kporn.xxx##div[id^="list_videos_"] > div.item:has(> .ads)
 ||4kporn.xxx/static/js/sj.js
@@ -47247,7 +47251,7 @@ popsugar.com###sugar-subnav-ad
 theaustralian.com.au###super-skin-left-wrapper
 theaustralian.com.au###super-skin-right-wrapper
 msn.com###taboola-above-homepage-thumbnails
-myyearbook.com###takeover
+themirror.com,myyearbook.com###takeover
 wunderground.com###targeted-banner
 aftvnews.com###text-16:nth-child(2)
 urtech.ca###text-17:last-child
