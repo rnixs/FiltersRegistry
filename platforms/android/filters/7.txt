@@ -1,9 +1,9 @@
-! Checksum: IxM0Rtsv7C1tdXrkWKFMNA
-! Diff-Path: ../patches/7/7-s-1707824161-3600.patch
+! Checksum: vJKNKImPW2i7sEjhq6bYhg
+! Diff-Path: ../patches/7/7-s-1707827816-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.50
-! TimeUpdated: 2024-02-13T11:33:25+00:00
+! Version: 2.0.48.51
+! TimeUpdated: 2024-02-13T12:34:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -494,6 +494,10 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/159931
+iwb.jp#%#//scriptlet('abort-on-property-read', 'alert')
+iwb.jp#$#body { display: block !important; }
+iwb.jp#$##main { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171258
 jprime.jp#$?#.js-reward-modal  { remove: true; }
 jprime.jp#$?#.js-reward-gallery-modal  { remove: true; }
@@ -1668,6 +1672,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+erodaizensyu.com##.widget-banner
 eroita.net##div[style*="height:260px;"]
 yakuyoke-yakubarai-jinja.com###contents-colum-resp-ad
 yakuyoke-yakubarai-jinja.com##.box-pr

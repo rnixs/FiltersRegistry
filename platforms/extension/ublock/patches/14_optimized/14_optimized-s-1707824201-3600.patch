@@ -1,0 +1,11 @@
+d2 2
+a3 2
+! Checksum: y/6lN9dmZ2a121/N2AgYhw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1707827853-3600.patch
+d6 2
+a7 2
+! Version: 2.1.87.52
+! TimeUpdated: 2024-02-13T12:32:53+00:00
+d18913 1
+a18913 1
+wired.com#$?#.grid-layout__aside > .sticky-box > .sticky-box__primary > div[data-in-view] > figure[data-testid="cne-interlude-container-right-rail"]:has(> .cne-video-embed) { remove: true; }

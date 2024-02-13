@@ -1,9 +1,9 @@
-! Checksum: vWQ5ZNXiUf6MlGSRacWJzg
-! Diff-Path: ../patches/21/21-s-1707813356-3600.patch
+! Checksum: hecZo6cFuG3vnLfsVp6+oQ
+! Diff-Path: ../patches/21/21-s-1707827820-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.69
-! TimeUpdated: 2024-02-13T08:32:21+00:00
+! Version: 2.0.19.70
+! TimeUpdated: 2024-02-13T12:33:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -640,9 +640,8 @@ football-tribe.com##.dugout_video_cont
 ||embed.dugout.com^$script,third-party,domain=~sportowefakty.wp.pl|~ultra-soccer.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117432
 cureco.jp##object[width="640"][height="480"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/172712
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116423
-||player.cnevids.com^$domain=wired.com
-wired.com##amp-iframe[src^="https://player.cnevids.com/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116397
 ais.th##.container_float_shop
 ||ais.th/asset_index2020/js/chat_and_shop.js

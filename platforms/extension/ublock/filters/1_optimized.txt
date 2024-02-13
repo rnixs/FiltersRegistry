@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: G/czLdmczuXLGt5j5oHvxw
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1707791776-3600.patch
+! Checksum: JdBOuWfL1QeMTk7Cxn/vOA
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1707827854-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.55
-! TimeUpdated: 2024-02-12T16:32:19+00:00
+! Version: 2.0.88.56
+! TimeUpdated: 2024-02-13T12:33:16+00:00
 ! Expires: 5 days (update frequency)
 /load-xml/?id=*&roll=$xmlhttprequest
 .com/services/?id=$script,third-party
@@ -2102,7 +2102,6 @@ vuzdoc.org,studref.com##+js(set-constant, abl, noopFunc)
 libertycity.net,libertycity.ru##+js(set-constant, adBlockEnabled, false)
 ||itcrowd.top/templates/yootheme/block.js
 shadowcore.ru##+js(abort-on-property-read, justDetectAdblock)
-notdrink.ru##+js(abort-current-script, $, initDetection)
 @@||staticmv.mediavitrina.ru/vitrina_assets/*/banner.gif?r=*&ads=adv$domain=player.mediavitrina.ru
 sdamgia.ru#$#.googlead.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 letyshops.com#$#.banner_ad.ad_banner.ad-button { display: block !important; }

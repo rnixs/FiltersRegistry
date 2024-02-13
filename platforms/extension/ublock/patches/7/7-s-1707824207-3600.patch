@@ -1,0 +1,15 @@
+d2 2
+a3 2
+! Checksum: 8Zbo4KJPNThWF3z3u43aww
+! Diff-Path: ../patches/7/7-s-1707827858-3600.patch
+d6 2
+a7 2
+! Version: 2.0.48.51
+! TimeUpdated: 2024-02-13T12:34:21+00:00
+a484 4
+! https://github.com/AdguardTeam/AdguardFilters/issues/159931
+iwb.jp##+js(abort-on-property-read, alert)
+iwb.jp#$#body { display: block !important; }
+iwb.jp#$##main { display: block !important; }
+a1653 1
+erodaizensyu.com##.widget-banner

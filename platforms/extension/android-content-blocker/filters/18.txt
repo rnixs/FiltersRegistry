@@ -1,9 +1,9 @@
-! Checksum: FoLAi95vorJ0E0X9RZaSJg
-! Diff-Path: ../patches/18/18-s-1707824163-3600.patch
+! Checksum: zHUiV/WFdAFO8K2HMiXBGw
+! Diff-Path: ../patches/18/18-s-1707827818-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.33
-! TimeUpdated: 2024-02-13T11:32:08+00:00
+! Version: 2.0.33.34
+! TimeUpdated: 2024-02-13T12:33:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12399,6 +12399,7 @@ cherryservers.com##.cherry-layout > div.cherry-footer + div.bottom-0
 premier.one##.main > div.notifications-container
 tubepornclassic.com,hclips.com,privatehomeclips.com##.cookies-policy-block
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172559
 ! G/O Media / g-omedia.com and similar
 !
 ! START: Yandex
