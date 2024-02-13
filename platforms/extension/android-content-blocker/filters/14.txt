@@ -1,9 +1,9 @@
-! Checksum: aHoeQJZKtx0kA9NKAUWH8w
-! Diff-Path: ../patches/14/14-s-1707780939-3600.patch
+! Checksum: Em0xwg/w0dWmiaUURTekHg
+! Diff-Path: ../patches/14/14-s-1707813354-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.47
-! TimeUpdated: 2024-02-12T23:31:46+00:00
+! Version: 2.1.87.48
+! TimeUpdated: 2024-02-13T08:31:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2323,6 +2323,7 @@ tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+||truyoproductionuscdn.truyo.com/static/cookie-plugin.js
 dorcelvision.com##iframe[style="position: fixed; background-color: rgb(0, 0, 0); inset: 0px; width: 100%; height: 100%; z-index: 10000; border: 0px; display: block;"]
 badegg.co###Avada-CookiesBar
 sanswiss.pl#$#body { overflow: auto !important; }
@@ -33713,6 +33714,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! TODO: Delete the following rule when https://github.com/AdguardTeam/ExtendedCss/issues/172 is resolved.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 !
+agar.io###mainui-promo
 matchendirect.fr##.bloc_coldroite[style]
 petsmart.com##.app-callout
 ebay.*##.gadget-banner.bottom-of-page
@@ -39775,6 +39777,9 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172636
+okbizcs.okwave.jp##.qaDetail_oemLink_under
+okbizcs.okwave.jp##.oem_link_under_question_detail
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172619
 skyeng.ru##ssm-articles-content-aside
 skyeng.ru##ssm-cms-general-lead-form

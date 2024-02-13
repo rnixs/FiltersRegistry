@@ -1,9 +1,9 @@
-! Checksum: 3PookRaDA8v0cmPYLwHgZA
-! Diff-Path: ../patches/21/21-s-1707744968-3600.patch
+! Checksum: R+VgNBZ1yXIjA54YWj7NeA
+! Diff-Path: ../patches/21/21-s-1707813371-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.68
-! TimeUpdated: 2024-02-12T13:32:12+00:00
+! Version: 2.0.19.69
+! TimeUpdated: 2024-02-13T08:32:21+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3298,6 +3298,9 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172636
+okbizcs.okwave.jp##.qaDetail_oemLink_under
+okbizcs.okwave.jp##.oem_link_under_question_detail
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172619
 skyeng.ru##ssm-articles-content-aside
 skyeng.ru##ssm-cms-general-lead-form
