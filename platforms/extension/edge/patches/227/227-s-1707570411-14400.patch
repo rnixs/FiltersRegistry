@@ -1,0 +1,36 @@
+d1 2
+a2 2
+! Checksum: 233m3Utx+jyFTEl+cdjzEg
+! Diff-Path: ../patches/227/227-s-1707829612-14400.patch
+d5 2
+a6 2
+! Version: 2.0.17.63
+! TimeUpdated: 2024-02-13T13:02:37+00:00
+d11 1
+a11 1
+! OriginalVersion: 2024.0213.6
+a1261 1
+||bbongtv.*/img/*.gif$domain=bbongtv.*
+d1443 1
+a1443 1
+m.gamechosun.co.kr,hub.zum.com,news.heraldcorp.com,lalawin.com,badayak.com,ujnews.co.kr,realty.chosun.com,koreadaily.com,it.chosun.com,m.fmkorea.com,ytn.co.kr,www.ebs.co.kr,newsis.com,m.newsen.com,jwmx.tistory.com,thespike.co.kr,hobbyen.co.kr,socialvalue.kr,entertainpost.com,m.moneys.co.kr,basketkorea.com,m.ohmynews.com,heraldcorp.com,slrclub.com##div[class^="ad"]
+d1489 1
+a1489 3
+namu.wiki,~board.namu.wiki##div[class]:not([class*=" "]) ~ div[class*=" "] > *[class*=" "] > *:has(iframe[id^="google_ads_iframe_"])
+namu.wiki,~board.namu.wiki##article > div[class]:not([class*=" "]) ~ *:not([class]) > *[class]:has(iframe[id^="google_ads_iframe_"])
+maple.gg##.container-content div[class*=" "]:has(> div[id^="div-gpt-ad-"]):not(:has(*[class]:not([id])))
+d1495 6
+a2683 1
+maple.gg#$#.container-content > section[class*=" "] ~ main[class*=" "] { margin-top: 50px !important; }
+d2753 1
+d3138 1
+a3138 1
+m.fmkorea.com#%#//scriptlet('json-prune', 'tpl apply', 'tpl.[].c')
+d3179 1
+a3179 1
+laftel.net#%#//scriptlet('prevent-xhr', 'api/avods/v1/advertisement')
+d3260 1
+d3262 11
+a3272 2
+t.hi098123.com#$#.tabad { visibility: hidden !important; }
+t.hi098123.com#$#article.inner2 { top: 0px !important; }
