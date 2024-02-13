@@ -1,9 +1,9 @@
-! Checksum: WHYXpl3Nd7O//TLyS12mRg
-! Diff-Path: ../patches/18/18-s-1707831351-3600.patch
+! Checksum: L06I8yaDMorsvt3eMWSW1w
+! Diff-Path: ../patches/18/18-s-1707835112-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.35
-! TimeUpdated: 2024-02-13T13:31:59+00:00
+! Version: 2.0.33.36
+! TimeUpdated: 2024-02-13T14:34:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2323,6 +2323,7 @@ tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+elements.com.br###shopify-section-cookies
 m.domovita.by#$#body { overflow: auto !important; }
 m.domovita.by#$#.modal-overlay { display: none !important; }
 m.domovita.by#$#.modal--cookies { display: none !important; }
@@ -12402,6 +12403,7 @@ cherryservers.com##.cherry-layout > div.cherry-footer + div.bottom-0
 premier.one##.main > div.notifications-container
 tubepornclassic.com,hclips.com,privatehomeclips.com##.cookies-policy-block
 !
+! aida64
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172559
 ! G/O Media / g-omedia.com and similar
 !

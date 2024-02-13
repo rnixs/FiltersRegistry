@@ -1,9 +1,9 @@
-! Checksum: Y/+EdIOMKBZIU18QiPaIVg
-! Diff-Path: ../patches/19/19-s-1707824169-3600.patch
+! Checksum: a3NBuxfVRIAqthOb7YqHJA
+! Diff-Path: ../patches/19/19-s-1707835118-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.56
-! TimeUpdated: 2024-02-13T11:32:11+00:00
+! Version: 2.0.31.57
+! TimeUpdated: 2024-02-13T14:34:27+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1712,7 +1712,7 @@ marieclaire.fr#$#body { overflow: auto !important; }
 vsthemes.org#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 chat.g4f.ai,chat.chatbot.sex##.adsbox
 vnexpress.net##.wrap-hd-adblock
-woowebtools.com,wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
+pallabmobile.in,woowebtools.com,wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
 smods.ru###ab-warning
 onlineshopping.flysas.com###AdBlockModal
 casper.tw##.container > div.row > div.rounded-top + div.d-lg-block
