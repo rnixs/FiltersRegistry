@@ -1,9 +1,9 @@
-! Checksum: vryErbPsNe7wJyo23AtsVA
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1707772011-14400.patch
+! Checksum: 0PXBnG2LEzogVulqO4egMA
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1707786386-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.0
-! TimeUpdated: 2024-02-12T21:02:17+00:00
+! Version: 2.1.21.1
+! TimeUpdated: 2024-02-13T01:02:03+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -11279,7 +11279,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.tnp-subscription-minimal
 ##.ts-newsletter
 ##.tsq_sailthru_newsletter_widget
-##.tve-leads-lightbox
 ##.tve-leads-widget
 ##.ue-c-article__newsletter-widget
 ##.vc-email-subscribe__wrapper
@@ -12151,6 +12150,7 @@ talkingpointsmemo.com##.Footer__ModalAds
 techlila.com##.IRPP_button
 oilprice.com##.JoinCommunityBtnContainer
 disk.yandex.com,disk.yandex.ru##.PSHeader-Center
+thekitchn.com##.PromotionalRibbon
 feedly.com##.StarFeatureDockedPopup
 laist.com##.TogglerWrapper
 tripadvisor.com##.ZkqhQ
@@ -12310,6 +12310,7 @@ toucharcade.com##.ta_patreonWidget
 pjmedia.com##.thm-piano-bottom
 pjmedia.com,townhall.com##.thm-piano-eop
 cnn.com##.toast-popup
+thestayathomechef.com##.top-hat
 banggood.com##.top-item
 redstate.com##.tp-container-inner
 truthout.org##.truth-post-content-after
@@ -12387,7 +12388,7 @@ asahi.com###ToTop
 gayboystube.com###action-up
 annualreviews.org###article-back-to-top
 shameless.com###b2t
-al-watan.com,appdate.lk,duhuliye.com,krdb.com,leakedzone.com,qatar-tribune.com,slocounty.ca.gov###back-to-top
+al-watan.com,appdate.lk,coinedcuisine.com,duhuliye.com,krdb.com,leakedzone.com,qatar-tribune.com,slocounty.ca.gov###back-to-top
 stoneberry.com###backTo
 toplegal.it,tsc.ca,vov.vn###backToTop
 cdw.com###backToTopWrapper
@@ -12875,6 +12876,8 @@ beebom.com##.beebom-social-share
 firstpost.com##.bg-mail
 military.com##.block--addtoanyadv
 tastesbetterfromscratch.com##.block-follow-me
+tastesbetterfromscratch.com##.block-follow-updates
+therecipecritic.com##.block-pinterest-cta
 9to5linux.com##.bm-social-top
 breitbart.com##.bnn-social-share
 bangkokpost.com##.boxnav--social
@@ -12913,6 +12916,7 @@ dailymail.co.uk##.container-3zJLP
 androidpolice.com,cbr.com,dualshockers.com,gamerant.com,makeuseof.com,movieweb.com,pocket-lint.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com##.copy-link-button
 coub.com##.coub__sharing__dropdown
 coub.com##.coub__sharing__list
+handletheheat.com##.creator-recipe-footer
 thedrive.com##.css-vr83lp
 therighthairstyles.com##.custom-pinterest-wrap
 cracked.com##.desktop-controls
@@ -12940,8 +12944,9 @@ thehackernews.com##.float-share
 nypost.com##.floating-share
 nypost.com##.floating-share-wrap
 thehackernews.com##.follow-box
-businesstech.co.za,mybroadband.co.za##.follow-buttons
+businesstech.co.za,handletheheat.com,mybroadband.co.za##.follow-buttons
 indiatvnews.com##.follow-google
+simplejoy.com##.follow-me-foot
 opendemocracy.net##.follow-od
 alarabiya.net,ausgamers.com,cloudwards.net,notateslaapp.com,republicworld.com,timeslive.co.za,trueachievements.com##.follow-us
 financialexpress.com##.follow-us-on
@@ -13062,6 +13067,8 @@ dailymail.co.uk##.prevNextWrapper-1Vg7e
 inspiredtaste.net##.profile-icons
 ubisoft.com##.promo--channels
 cbn.com##.py-4.flex-wrap.flex
+tasteofhome.com##.recipe-social-share
+fleischmannsyeast.com##.recipe__social
 businesstoday.in##.rhs-fixwhtsapp
 dailycaller.com##.rounded-full
 alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,cochraneeagle.ca,delta-optimist.com,lakelandtoday.ca,moosejawtoday.com,mountainviewtoday.ca,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,rmoutlook.com,squamishchief.com,stalbertgazette.com,theorca.ca,timescolonist.com,tricitynews.com,vancouverisawesome.com,westernwheel.ca##.sc
@@ -13093,7 +13100,9 @@ muscleandfitness.com##.sharedaddy__wrapper
 cointelegraph.com##.shares-list__list
 citizensforethics.org##.shares-simple
 12tomatoes.com##.sharetocare-popup
+budgetbytes.com##.single-share-wrap
 nme.com##.site-footer-social
+simplejoy.com##.sj-recipe-callout
 buyee.jp##.sns_list
 bizarrepedia.com,porngals4.com##.soc
 getpocket.com##.social-actions
@@ -13194,6 +13203,7 @@ mediapost.com##.widget_group
 411mania.com##.widget_sm411_widget
 railtech.com##.widget_twitter_followers
 fandom.com##.wikia-bar-anon
+budgetbytes.com,butterwithasideofbread.com,handletheheat.com,therecipecritic.com##.wprm-call-to-action
 manhwatop.com##.wrap_social_account
 footwearnews.com,indiewire.com##[class^="_socialMedia_"]
 motortrend.com##[data-c="social-share"]
@@ -15623,6 +15633,10 @@ stiwa.com#$#body,html { overflow: auto !important; position: initial !important;
 lennar.com#$#body,html { overflow: auto !important; position: initial !important; }
 hotelscombined.se,hotelscombined.gr,swoodoo.com##.YSUE
 hotels.biyi.cn,hotelscombined.se,hotelscombined.gr,hotelscombined.co.kr,swoodoo.com#$#body,html { overflow: auto !important; position: initial !important; }
+transparency.fb.com#%#//scriptlet('ubo-rc.js', '_31e', 'div', 'stay')
+transparency.fb.com#%#//scriptlet('ubo-rc.js', 'hasCookieBanner', 'body', 'stay')
+transparency.fb.com##[data-testid="cookie-policy-dialog"]
+transparency.fb.com#$#body { overflow: scroll !important }
 vaillant.de,vaillant.ba,vaillant.at,vaillant.be,vaillant.co.uk,vaillant.com,vaillant.com.ro,vaillant.cz,vaillant.de,vaillant.dk,vaillant.es,vaillant.fi,vaillant.fr,vaillant.hr,vaillant.hu,vaillant.info,vaillant.it,vaillant.nl,vaillant.no,vaillant.pl,vaillant.rs,vaillant.se,vaillant.si,vaillant.sk,vaillant.ua#$#body,html { overflow: auto !important; position: initial !important; }
 cn.momondo.com#$#body,html { overflow: auto !important; position: initial !important; }
 postbank.de#$#body,html { overflow: auto !important; position: initial !important; }
@@ -16068,6 +16082,7 @@ jpost.com###premium-link
 scientificamerican.com###promo-header
 cined.com###right-widget-d-newsletter_form_widget-17
 cined.com###right-widget-top-newsletter_form_widget-14
+lilluna.com###savetherecipe
 12tomatoes.com###sg_email
 clutchpoints.com###sib-form
 aetv.com,historytoday.com###signup-popup
@@ -16151,7 +16166,7 @@ restofworld.org##.block--homepage-newsletter
 kffhealthnews.org##.block--newsletter
 ancient-origins.net##.block-ao-activecampaign
 joyfoodsunshine.com,spendwithpennies.com##.block-ebook
-noracooks.com,tastesbetterfromscratch.com##.block-email
+acouplecooks.com,lilluna.com,noracooks.com,tastesbetterfromscratch.com,therecipecritic.com##.block-email
 budgetbytes.com##.block-email-subscribe
 etonline.com##.block-et-newsletter
 almanac.com##.block-listraksubscribe-block
@@ -16159,11 +16174,13 @@ tastesbetterfromscratch.com##.block-meal-plan
 jocooks.com##.block-media-feature-image
 averiecooks.com,bingehq.com,streamsgeek.com##.block-newsletter
 cbn.com##.block-newsletter-block
+thefoodcharlatan.com##.block-save-recipe
 press-start.com.au##.block-wrap-mailing
 kiplinger.com##.blueconic-article__wrapper
 ctvnews.ca##.bm-footer__wrapper__subscribeButton
 english.nv.ua##.bn-subscribe
 esquire.com##.body-tip
+billyparisi.com##.bodysection-subscribebar
 ntd.com##.border-\[\#000777\]
 nysun.com##.border-sunGolden
 mashable.com##.border-warmgray-100
@@ -16243,10 +16260,12 @@ spectator.org##.email-signup-widget
 rei.com##.email-signup__container
 staradvertiser.com##.emailbox
 texasmonthly.com##.eoa__newsletter-signup
-diycarserviceparts.co.uk,nutritioncare.net,online-tech-tips.com,onthegotours.com##.et_bloom_popup
+foodfolksandfun.net##.et_bloom_inline_form
+diycarserviceparts.co.uk,foodfolksandfun.net,nutritioncare.net,online-tech-tips.com,onthegotours.com##.et_bloom_popup
 publicdomainreview.org##.exit-modal__shade
 freethink.com##.f-block--form-text
 edition.cnn.com##.factbox_inline-small
+barefootuniverse.com,bestbeefrecipes.com,herwholesomekitchen.com,laurenslatest.com##.fd-modal
 damndelicious.net,sdxcentral.com##.featured-subscribe
 fender.com##.fender-EmailSignup
 aclu.org##.floating-action-wrapper
@@ -16327,6 +16346,7 @@ e-flux.com##.landing-subscribe
 gearjunkie.com##.ldm-cta
 tuc.org.uk##.listings_sign_up
 gunsandammo.com##.lity
+loveandlemons.com##.lnl-recipe-emailme
 loveandlemons.com##.lnl-theme-widget-subscribe-popup
 trendhunter.com##.lp__formPopCont
 lifesitenews.com##.lsn-petitions
@@ -16459,6 +16479,7 @@ notthebee.com##.rounded-lg.px-6
 urbandictionary.com##.rounded-md.md\:p-8.mb-4.dark\:text-white
 thebudgetsavvybride.com##.savvy-target
 wethegeek.com##.sec-subscribe
+billyparisi.com,kimpetras.com##.section-subscribe
 searchenginejournal.com##.sej-hello-bar
 searchenginejournal.com##.sej-subscribe-form
 searchenginejournal.com##.sej-widget
@@ -16510,6 +16531,7 @@ lovefoodnotcooking.com,nautil.us,rabble.ca,spectator.org##.subscribe-bar
 aorus.com,nutritioninsight.com,packaginginsights.com##.subscribe-div
 allthings.how,armageddonexpo.com,businesstech.co.za,itsfoss.com,jurist.org,pandotrip.com,pissdaily.com,rigzone.com##.subscribe-form
 bongino.com##.subscribe-form-home
+theinspiredhome.com##.subscribe-form-wrap
 rt.com##.subscribe-layout
 techpout.com##.subscribe-medium
 wccftech.com,westhawaiitoday.com##.subscribe-now
@@ -16582,6 +16604,7 @@ pewresearch.org##.wp-block-prc-block-promo
 accessnow.org##.wp-popup
 visualcapitalist.com##.wpforms-ajax-form
 nintendosoup.com,thehappyfoodie.co.uk##.wppopups-whole
+tastesbetterfromscratch.com##.wprm-custom-cta
 amazingribs.com##.wpsta-ar-newsletter-1st-page-view
 expressvpn.com##.wrap-subscribe
 wwd.com##.wwd-subscribe-now-banner-ad-container
@@ -16769,7 +16792,9 @@ informatykzakladowy.pl#$#body { overflow: auto !important; }
 prowritingaid.com#$#body { overflow: auto !important; }
 kitchentime.com,kitchentime.de,kitchentime.dk,kitchentime.fi,kitchentime.no,kitchentime.se#$#body,html { height: auto !important; overflow: auto !important }
 axios.com#$#body,html { overflow: auto !important; position: initial !important; }
-dailynewsegypt.com,hdwalle.com,megacatstudios.com,scholarlykitchen.sspnet.org#$#html { overflow:auto !important }
+dailynewsegypt.com,hdwalle.com,megacatstudios.com,scholarlykitchen.sspnet.org,daphneoz.com##.mfp-bg
+dailynewsegypt.com,hdwalle.com,megacatstudios.com,scholarlykitchen.sspnet.org,daphneoz.com##.mfp-wrap
+dailynewsegypt.com,hdwalle.com,megacatstudios.com,scholarlykitchen.sspnet.org,daphneoz.com#$#html { overflow:auto !important }
 syfy.com##.blog-post__gated__wrapper
 syfy.com#$#body,html { overflow: auto !important; position: initial !important; }
 nieuwsblad.be#$#body { overflow: auto !important; }
@@ -16825,6 +16850,8 @@ clevercreations.org##.ml-embedded
 clevercreations.org#%#//scriptlet('ubo-set-cookie.js', 'mailerlite:forms:shown:109925949413262377', '1')
 hcn.org###pelcro-app
 hcn.org#$#body,html { overflow: auto !important; position: initial !important; }
+everyday-reading.com##.tve-leads-lightbox
+everyday-reading.com#$#body,html { overflow: auto !important; position: initial !important; }
 semafor.com#%#//scriptlet('ubo-set-session-storage-item.js', 'floating-sign-up-dismissed', 'true')
 arcade1up.com##.tingle-modal
 arcade1up.com#$#body { overflow: scroll !important; position: unset !important }
@@ -18783,6 +18810,10 @@ stiwa.com#$#body,html { overflow: auto !important; position: initial !important;
 lennar.com#$#body,html { overflow: auto !important; position: initial !important; }
 hotelscombined.se,hotelscombined.gr,swoodoo.com##.YSUE
 hotels.biyi.cn,hotelscombined.se,hotelscombined.gr,hotelscombined.co.kr,swoodoo.com#$#body,html { overflow: auto !important; position: initial !important; }
+transparency.fb.com#%#//scriptlet('ubo-rc.js', '_31e', 'div', 'stay')
+transparency.fb.com#%#//scriptlet('ubo-rc.js', 'hasCookieBanner', 'body', 'stay')
+transparency.fb.com##[data-testid="cookie-policy-dialog"]
+transparency.fb.com#$#body { overflow: scroll !important }
 vaillant.de,vaillant.ba,vaillant.at,vaillant.be,vaillant.co.uk,vaillant.com,vaillant.com.ro,vaillant.cz,vaillant.de,vaillant.dk,vaillant.es,vaillant.fi,vaillant.fr,vaillant.hr,vaillant.hu,vaillant.info,vaillant.it,vaillant.nl,vaillant.no,vaillant.pl,vaillant.rs,vaillant.se,vaillant.si,vaillant.sk,vaillant.ua#$#body,html { overflow: auto !important; position: initial !important; }
 cn.momondo.com#$#body,html { overflow: auto !important; position: initial !important; }
 postbank.de#$#body,html { overflow: auto !important; position: initial !important; }
@@ -19240,7 +19271,9 @@ informatykzakladowy.pl#$#body { overflow: auto !important; }
 prowritingaid.com#$#body { overflow: auto !important; }
 kitchentime.com,kitchentime.de,kitchentime.dk,kitchentime.fi,kitchentime.no,kitchentime.se#$#body,html { height: auto !important; overflow: auto !important }
 axios.com#$#body,html { overflow: auto !important; position: initial !important; }
-dailynewsegypt.com,hdwalle.com,megacatstudios.com,scholarlykitchen.sspnet.org#$#html { overflow:auto !important }
+dailynewsegypt.com,hdwalle.com,megacatstudios.com,scholarlykitchen.sspnet.org,daphneoz.com##.mfp-bg
+dailynewsegypt.com,hdwalle.com,megacatstudios.com,scholarlykitchen.sspnet.org,daphneoz.com##.mfp-wrap
+dailynewsegypt.com,hdwalle.com,megacatstudios.com,scholarlykitchen.sspnet.org,daphneoz.com#$#html { overflow:auto !important }
 syfy.com##.blog-post__gated__wrapper
 syfy.com#$#body,html { overflow: auto !important; position: initial !important; }
 nieuwsblad.be#$#body { overflow: auto !important; }
@@ -19296,6 +19329,8 @@ clevercreations.org##.ml-embedded
 clevercreations.org#%#//scriptlet('ubo-set-cookie.js', 'mailerlite:forms:shown:109925949413262377', '1')
 hcn.org###pelcro-app
 hcn.org#$#body,html { overflow: auto !important; position: initial !important; }
+everyday-reading.com##.tve-leads-lightbox
+everyday-reading.com#$#body,html { overflow: auto !important; position: initial !important; }
 semafor.com#%#//scriptlet('ubo-set-session-storage-item.js', 'floating-sign-up-dismissed', 'true')
 arcade1up.com##.tingle-modal
 arcade1up.com#$#body { overflow: scroll !important; position: unset !important }

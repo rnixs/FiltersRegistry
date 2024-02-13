@@ -1,7 +1,7 @@
 !
-! Checksum: SRHGE0wjw43kf1Acxs345w
+! Checksum: vhx6CuZVReCWqJTsaxQKbQ
 ! Title: Easylist Cookie List
-! Updated: 2024-02-12 20:15 UTC
+! Updated: 2024-02-13 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -24275,6 +24275,11 @@ hotelscombined.se,hotelscombined.gr,swoodoo.com##.YSUE
 hotelscombined.co.kr###HO_P
 hotels.biyi.cn,hotelscombined.se,hotelscombined.gr,hotelscombined.co.kr,swoodoo.com#$#body,html { overflow: auto !important; position: initial !important; }
 hotels.biyi.cn,hotelscombined.co.kr##.R9-Overlay
+! transparency.fb.com
+transparency.fb.com#%#//scriptlet('ubo-rc.js', '_31e', 'div', 'stay')
+transparency.fb.com#%#//scriptlet('ubo-rc.js', 'hasCookieBanner', 'body', 'stay')
+transparency.fb.com##[data-testid="cookie-policy-dialog"]
+transparency.fb.com#$#body { overflow: scroll !important }
 ! vaillant
 vaillant.de,vaillant.ba,vaillant.at,vaillant.be,vaillant.co.uk,vaillant.com,vaillant.com.ro,vaillant.cz,vaillant.de,vaillant.dk,vaillant.es,vaillant.fi,vaillant.fr,vaillant.hr,vaillant.hu,vaillant.info,vaillant.it,vaillant.nl,vaillant.no,vaillant.pl,vaillant.rs,vaillant.se,vaillant.si,vaillant.sk,vaillant.ua##.modal--theme-default
 vaillant.de,vaillant.ba,vaillant.at,vaillant.be,vaillant.co.uk,vaillant.com,vaillant.com.ro,vaillant.cz,vaillant.de,vaillant.dk,vaillant.es,vaillant.fi,vaillant.fr,vaillant.hr,vaillant.hu,vaillant.info,vaillant.it,vaillant.nl,vaillant.no,vaillant.pl,vaillant.rs,vaillant.se,vaillant.si,vaillant.sk,vaillant.ua##.cookiewarning:not(body):not(html)
@@ -28511,6 +28516,7 @@ ants.vn##.sg-popup-content
 ! ---------- Spanish ----------
 !
 ||advgo.net/borostcf/
+||amazonaws.com/sc-tagmanager/nox-formulatv.js$domain=formulatv.com
 ||atv.pe/wp-content/plugins/ned-cookies-form/
 ||cookies.unidadeditorial.es^
 ||digitalmedia-comunicacion.com/cookie/v2/script2.js
