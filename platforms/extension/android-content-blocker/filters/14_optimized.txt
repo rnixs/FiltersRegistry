@@ -1,9 +1,9 @@
-! Checksum: aDPcu/zfl5DpZZYA0tHnxw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1707813354-3600.patch
+! Checksum: oTpT9t7ItVZgZ8SktlQzKA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1707816958-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.48
-! TimeUpdated: 2024-02-13T08:31:55+00:00
+! Version: 2.1.87.49
+! TimeUpdated: 2024-02-13T09:31:49+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -9071,6 +9071,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+d20pfsrd.com##.ognannouncement-container
 civilsdaily.com###z.modal
 tp-link.com###linkedin-follow
 viva.co.id###wa-channel
