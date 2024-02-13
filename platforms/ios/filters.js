@@ -357,8 +357,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/ios/filters/2_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.3.22.22",
-			"timeUpdated": "2024-02-13T19:32:47+0000",
+			"version": "2.3.22.23",
+			"timeUpdated": "2024-02-13T20:32:54+0000",
 			"languages": [],
 			"tags": [
 				10,
@@ -588,8 +588,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/ios/filters/14_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.1.87.58",
-			"timeUpdated": "2024-02-13T18:31:47+0000",
+			"version": "2.1.87.59",
+			"timeUpdated": "2024-02-13T20:31:55+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -660,8 +660,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/ios/filters/18_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.33.40",
-			"timeUpdated": "2024-02-13T18:31:58+0000",
+			"version": "2.0.33.41",
+			"timeUpdated": "2024-02-13T20:32:06+0000",
 			"languages": [],
 			"tags": [
 				5,
