@@ -1,9 +1,9 @@
-! Checksum: D+8SWezACGAZfXER1Y+qhQ
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1707786411-14400.patch
+! Checksum: PvbdiyWPXPkS0AK/4Sm8Rw
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1707800814-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.29.3
-! TimeUpdated: 2024-02-13T01:02:47+00:00
+! Version: 2.1.29.4
+! TimeUpdated: 2024-02-13T05:02:52+00:00
 ! Expires: 12 hours (update frequency)
 -consent-banner-
 -consent-banner.
@@ -20272,6 +20272,7 @@ lemonade.finance##.molecule-cookie-box
 motherless.com##.motherless-cookie-wrapper
 arcade1up.com##.mount
 unityj.com##.mpp-container-position-bottom-bar
+takasago-fluidics.com##.mrc_gdpr_banner
 motorsport.com,motorsport.uol.com.br##.ms-footer-messages
 motorsport.com##.ms-header-messages
 faapy.com,minneapolis.org,visitcos.com,visitpittsburgh.com##.msg
@@ -27069,6 +27070,7 @@ ants.vn##.sg-popup-content
 ||rp.pl/cmp/
 ||sycow.pl/a/cookie.js
 ||zgody.infor.pl^
+||elisa.ee/modules/custom/elisa_cookie/js/cookienoticecontroller.js
 ||bricodepot.ro^*/cookie-wrapper.js
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||cookies.teraz.sk^

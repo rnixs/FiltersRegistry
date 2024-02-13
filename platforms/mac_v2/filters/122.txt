@@ -1,15 +1,15 @@
-! Checksum: ARHQQwdeI4pgYHwJDM1P7g
-! Diff-Path: ../patches/122/122-s-1707786404-14400.patch
+! Checksum: 02KJye7plBF3IDm/pT4D3Q
+! Diff-Path: ../patches/122/122-s-1707800807-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.1
-! TimeUpdated: 2024-02-13T01:02:03+00:00
+! Version: 2.1.21.2
+! TimeUpdated: 2024-02-13T05:02:07+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: YzoK2I+Dn6cIjoZOXBQxJQ
-! OriginalVersion: 202402130015
+! Checksum: BT2/OGUZ7QBCYWIhm3dHVg
+! OriginalVersion: 202402130440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-13 00:15 UTC
+! Last modified: 2024-02-13 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34440,6 +34440,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||channel.io/plugin/$media
 ||chat.octadesk.services/embed/static/media/$media
 ||chatango.com/pcache/sounds/
+||chatplus.jp/app/s/sound/
 ||cleversite.ru/client/default/sound/
 ||cliengo.com^$media
 ||cloudfront.net/prod/media/$domain=birdeye.com
@@ -37879,7 +37880,7 @@ ibtimes.co.in##.share-btn-wrp
 tastecooking.com##.share-button
 apptrigger.com##.share-capture
 cryptopolitan.com##.share-col
-cheknews.ca,fandomwire.com,tvline.com##.share-container
+cheknews.ca,fandomwire.com,stadiumtalk.com,tvline.com##.share-container
 paloaltonetworks.com##.share-copy-mail
 news.cgtn.com,newsus.cgtn.com##.share-icon
 alwatanvoice.com,binnews.com,blog.phylum.io,gulf-times.com,iheart.com,jessekellyshow.com,news12.com,steveharveyfm.com##.share-icons
@@ -39943,6 +39944,7 @@ lemonade.finance##.molecule-cookie-box
 motherless.com##.motherless-cookie-wrapper
 arcade1up.com##.mount
 unityj.com##.mpp-container-position-bottom-bar
+takasago-fluidics.com##.mrc_gdpr_banner
 motorsport.com,motorsport.uol.com.br##.ms-footer-messages
 motorsport.com##.ms-header-messages
 faapy.com,minneapolis.org,visitcos.com,visitpittsburgh.com##.msg
@@ -56899,6 +56901,9 @@ ants.vn##.sg-popup-content
 !
 ! ---------- Portuguese ----------
 !
+! ---------- Estonian ---------
+!
+||elisa.ee/modules/custom/elisa_cookie/js/cookienoticecontroller.js
 !
 ! ---------- Romanian ----------
 !
