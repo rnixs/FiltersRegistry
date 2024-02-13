@@ -1,9 +1,9 @@
-! Checksum: 4P58QcIg6H0XcWvnIznalg
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1707829652-14400.patch
+! Checksum: CwKmq5TOw922icnKzQkzkw
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1707844043-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.39.83
-! TimeUpdated: 2024-02-13T13:03:09+00:00
+! Version: 2.1.39.84
+! TimeUpdated: 2024-02-13T17:03:19+00:00
 ! Expires: 12 hours (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -238,7 +238,6 @@ supernowosci24.pl##[id^="r-"]
 ||dzisiajwgliwicach.pl^*^sixsilver-
 ||e-hotelarz.pl^*=300x80^
 ||e-hotelarz.pl^*=750x200^
-||e-kolo.pl/css/popup.css^$stylesheet,domain=e-kolo.pl
 ||e-pingpong.pl^*^pileczkigewo-
 ||e-pingpong.pl^*^reklamapingpong.
 ||e-pingpong.pl^*reklama.
@@ -770,7 +769,7 @@ press.pl###topBanner
 dziennikteatralny.pl###topBigBanner
 sadeczanin.info###topContainer
 acermaniak.pl,activemaniak.pl,agdmaniak.pl###topMenu
-gsmmaniak.pl###topMenu-wrapper
+blogomaniak.pl,gsmmaniak.pl###topMenu-wrapper
 rubber.pl###topNas
 superportal24.pl###top_above_menu
 ostrowmaz.com###top_advertisement

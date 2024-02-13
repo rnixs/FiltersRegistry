@@ -12193,6 +12193,7 @@ azzun.pl,manorhouse.pl#$##scroll-container { overflow: auto !important; width: a
 azzun.pl,manorhouse.pl##.scrollbar-track
 bankobranie.blogspot.com#$##sideSocial { height: auto !important }
 bithub.pl#$#.st-post-share { position: static !important }
+blogspot.com,miejskamuzyka.pl#%#//scriptlet('ubo-spoof-css.js', 'body, html', 'background-attachment', 'scroll')
 blogspot.com,miejskamuzyka.pl#$#body, html { background-attachment: fixed !important }
 budujemydom.pl#$#.magazyn-label .m-okladka { bottom: 0 !important }
 budujemydom.pl#$#.magazyn-label { position:static !important }
@@ -13361,7 +13362,12 @@ abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,dobreprogramy.pl,fotoblogi
 amway.pl#%#//scriptlet('ubo-set.js', 'amw.isAnalyticsCookiesAccepted', 'false')
 amway.pl#%#//scriptlet('ubo-set.js', 'amw.isCookieConsentAccepted', 'true')
 amway.pl#%#//scriptlet('ubo-set.js', 'amw.isMarketingCookiesAccepted', 'false')
+budujmase.pl,drogerium.pl,trec.pl,wylecz.to#%#//scriptlet('ubo-set-cookie-reload.js', 'rodoHfM', 'true')
+espedytor.pl#%#//scriptlet('ubo-set-cookie-reload.js', 'zgodaRODO', 'true')
+f1racing.pl#%#//scriptlet('ubo-set-cookie-reload.js', 'x-id-cookie-yes', '1')
 hrkgame.com#$#.modals.dimmer > .gdpr.ui { visibility: hidden !important }
+parkiet.com,rp.pl#%#//scriptlet('ubo-set-cookie-reload.js', '__gm_tcfconsent_v2', '1')
+pepper.pl#%#//scriptlet('ubo-set-cookie-reload.js', 'cookie_policy_agreement', '3')
 !#endif
 !#endif
 !@

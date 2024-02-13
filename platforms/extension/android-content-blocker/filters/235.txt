@@ -1,9 +1,9 @@
-! Checksum: cgqeD9YU+q8hRxhwBUmEAA
-! Diff-Path: ../patches/235/235-s-1707829602-14400.patch
+! Checksum: N/IqJwS9N55xxWoSwBWw0A
+! Diff-Path: ../patches/235/235-s-1707843991-14400.patch
 ! Title: Persian Blocker
 ! Description: Filter list for blocking ads and trackers on websites in Persian.
-! Version: 2.0.4.12
-! TimeUpdated: 2024-02-13T13:02:55+00:00
+! Version: 2.0.4.13
+! TimeUpdated: 2024-02-13T17:03:05+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: PersianBlocker
@@ -1803,6 +1803,7 @@ sakhtafzarmag.com##.bannergroup
 seemorgh.com##.bannergroup
 seemorgh.com##.bannergroupsam-full-width
 ||sarzamindownload.com/images/banners^$image,~third-party
+||sarzamindownload.com/ppjs/free/freepop.js^$script,~third-party
 sarzamindownload.com##.OpenTable5
 sarzamindownload.com##.GSAdsLR
 @@||sarzamindownload.com/images/Ads_Place.jpg$image,~third-party

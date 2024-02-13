@@ -924,8 +924,18 @@ amway.pl##+js(set, amw.isAnalyticsCookiesAccepted, false)
 amway.pl##+js(set, amw.isCookieConsentAccepted, true)
 ! Rule "amway.pl##+js(set, amw.isMarketingCookiesAccepted, false)" converted to: "amway.pl#%#//scriptlet('ubo-set.js', 'amw.isMarketingCookiesAccepted', 'false')"
 amway.pl##+js(set, amw.isMarketingCookiesAccepted, false)
+! Rule "budujmase.pl,drogerium.pl,trec.pl,wylecz.to##+js(set-cookie-reload, rodoHfM, true)" converted to: "budujmase.pl,drogerium.pl,trec.pl,wylecz.to#%#//scriptlet('ubo-set-cookie-reload.js', 'rodoHfM', 'true')"
+budujmase.pl,drogerium.pl,trec.pl,wylecz.to##+js(set-cookie-reload, rodoHfM, true)
+! Rule "espedytor.pl##+js(set-cookie-reload, zgodaRODO, true)" converted to: "espedytor.pl#%#//scriptlet('ubo-set-cookie-reload.js', 'zgodaRODO', 'true')"
+espedytor.pl##+js(set-cookie-reload, zgodaRODO, true)
+! Rule "f1racing.pl##+js(set-cookie-reload, x-id-cookie-yes, 1)" converted to: "f1racing.pl#%#//scriptlet('ubo-set-cookie-reload.js', 'x-id-cookie-yes', '1')"
+f1racing.pl##+js(set-cookie-reload, x-id-cookie-yes, 1)
 ! Rule "hrkgame.com##.modals.dimmer > .gdpr.ui:style(visibility: hidden !important)" converted to: "hrkgame.com#$#.modals.dimmer > .gdpr.ui { visibility: hidden !important }"
 hrkgame.com##.modals.dimmer > .gdpr.ui:style(visibility: hidden !important)
+! Rule "parkiet.com,rp.pl##+js(set-cookie-reload, __gm_tcfconsent_v2, 1)" converted to: "parkiet.com,rp.pl#%#//scriptlet('ubo-set-cookie-reload.js', '__gm_tcfconsent_v2', '1')"
+parkiet.com,rp.pl##+js(set-cookie-reload, __gm_tcfconsent_v2, 1)
+! Rule "pepper.pl##+js(set-cookie-reload, cookie_policy_agreement, 3)" converted to: "pepper.pl#%#//scriptlet('ubo-set-cookie-reload.js', 'cookie_policy_agreement', '3')"
+pepper.pl##+js(set-cookie-reload, cookie_policy_agreement, 3)
 ! Rule "azure.microsoft.com###main:style(padding-top: 88px !important)" converted to: "azure.microsoft.com#$##main { padding-top: 88px !important }"
 azure.microsoft.com###main:style(padding-top: 88px !important)
 ! Rule "accuweather.com,bezprawnik.pl,bolec.info##body[style]:style(overflow: auto !important)" converted to: "accuweather.com,bezprawnik.pl,bolec.info#$#body[style] { overflow: auto !important }"
@@ -954,15 +964,5 @@ stilord.pl##.active-overlay-blur:remove-class(active-overlay-blur)
 zoom.us###agree-terms ~ div label input[disabled]:remove-attr(disabled)
 ! Error: "Unknown pseudo-class ':watch-attr' in selector: '#agree-terms ~ div label[class]:watch-attr(class):remove-class(/disabled/)'" in the rule: "zoom.us###agree-terms ~ div label[class]:watch-attr(class):remove-class(/disabled/)"
 zoom.us###agree-terms ~ div label[class]:watch-attr(class):remove-class(/disabled/)
-! Error: Invalid selector: '+js(set-cookie-reload, rodoHfM, true)' -- '+js(set-cookie-reload, rodoHfM, true)' is not a valid selector in rule:
-budujmase.pl,drogerium.pl,trec.pl,wylecz.to##+js(set-cookie-reload, rodoHfM, true)
-! Error: Invalid selector: '+js(set-cookie-reload, zgodaRODO, true)' -- '+js(set-cookie-reload, zgodaRODO, true)' is not a valid selector in rule:
-espedytor.pl##+js(set-cookie-reload, zgodaRODO, true)
-! Error: Invalid selector: '+js(set-cookie-reload, x-id-cookie-yes, 1)' -- '+js(set-cookie-reload, x-id-cookie-yes, 1)' is not a valid selector in rule:
-f1racing.pl##+js(set-cookie-reload, x-id-cookie-yes, 1)
 ! Error: Invalid selector: '.modals.dimmer > .gdpr.visible:upward(1):watch-attr([class])' -- Error: unable to select by '.modals.dimmer > .gdpr.visible:watch-attr([class])' — unknown pseudo-class selector ':watch-attr([class])' in rule:
 hrkgame.com##.modals.dimmer > .gdpr.visible:upward(1):watch-attr([class])
-! Error: Invalid selector: '+js(set-cookie-reload, __gm_tcfconsent_v2, 1)' -- '+js(set-cookie-reload, __gm_tcfconsent_v2, 1)' is not a valid selector in rule:
-parkiet.com,rp.pl##+js(set-cookie-reload, __gm_tcfconsent_v2, 1)
-! Error: Invalid selector: '+js(set-cookie-reload, cookie_policy_agreement, 3)' -- '+js(set-cookie-reload, cookie_policy_agreement, 3)' is not a valid selector in rule:
-pepper.pl##+js(set-cookie-reload, cookie_policy_agreement, 3)

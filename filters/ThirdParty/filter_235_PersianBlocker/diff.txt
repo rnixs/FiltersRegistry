@@ -942,6 +942,8 @@ searchline.ir##*:style(-webkit-touch-callout: default !important; -webkit-user-s
 shomanews.com##.row_one_content:style(width: 100% !important;)
 ! Rule "||sarzamindownload.com/images/banners^$image,1p" converted to: "||sarzamindownload.com/images/banners^$image,~third-party"
 ||sarzamindownload.com/images/banners^$image,1p
+! Rule "||sarzamindownload.com/ppjs/free/freepop.js^$script,1p" converted to: "||sarzamindownload.com/ppjs/free/freepop.js^$script,~third-party"
+||sarzamindownload.com/ppjs/free/freepop.js^$script,1p
 ! Rule "@@||sarzamindownload.com/images/Ads_Place.jpg$image,1p" converted to: "@@||sarzamindownload.com/images/Ads_Place.jpg$image,~third-party"
 @@||sarzamindownload.com/images/Ads_Place.jpg$image,1p
 ! Rule "instagram.com##+js(window-close-if, /[Ss][Mm][Oo][Ss][Tt][Aa][Ff][Aa][Mm][Oo][Oo][Ss][Aa][Vv][Ii]/)" converted to: "instagram.com#%#//scriptlet('ubo-window-close-if.js', '/[Ss][Mm][Oo][Ss][Tt][Aa][Ff][Aa][Mm][Oo][Oo][Ss][Aa][Vv][Ii]/')"
@@ -2504,6 +2506,8 @@ opizo.me##form[action^="link/topPageSubmit/"], div#linkStr:others()
 rasm.io##+js(set-local-storage-item, VisitedCompanies, $remove$)
 ! Error: "Unknown modifier: strict3p" in the rule: "*$image,strict3p,domain=rozup.ir"
 *$image,strict3p,domain=rozup.ir
+! Error: "Unknown modifier: popunder" in the rule: "||oneshare.ir^$popup,popunder"
+||oneshare.ir^$popup,popunder
 ! Error: "Unknown pseudo-class ':remove-attr' in selector: 'input.filter:remove-attr(disabled)'" in the rule: "takhfifan.com##input.filter:remove-attr(disabled)"
 takhfifan.com##input.filter:remove-attr(disabled)
 ! Error: "Unknown pseudo-class ':remove-class' in selector: 'input.filter:remove-class(filter)'" in the rule: "takhfifan.com##input.filter:remove-class(filter)"

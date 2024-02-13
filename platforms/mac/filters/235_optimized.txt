@@ -1,9 +1,9 @@
-! Checksum: 62rVVVL+H092OgJSuYvbSA
-! Diff-Path: ../patches/235_optimized/235_optimized-s-1707829646-14400.patch
+! Checksum: LFcEUK8T8MZBQIouwLyJkQ
+! Diff-Path: ../patches/235_optimized/235_optimized-s-1707844036-14400.patch
 ! Title: Persian Blocker (Optimized)
 ! Description: Filter list for blocking ads and trackers on websites in Persian.
-! Version: 2.0.4.12
-! TimeUpdated: 2024-02-13T13:02:55+00:00
+! Version: 2.0.4.13
+! TimeUpdated: 2024-02-13T17:03:05+00:00
 ! Expires: 5 days (update frequency)
 ~arongroups.site,~arongroups.co##a[href^="https://arongroups.site/"]
 ~arongroups.site,~arongroups.co##a[href^="https://arongroups.co/"]
@@ -1764,6 +1764,7 @@ sakhtafzarmag.com##.dinu:upward(.widget)
 seemorgh.com##.bannergroup
 seemorgh.com##.bannergroupsam-full-width
 ||sarzamindownload.com/images/banners^$image,~third-party
+||sarzamindownload.com/ppjs/free/freepop.js^$script,~third-party
 sarzamindownload.com##.OpenTable5
 sarzamindownload.com##.OpenTable > div > center > a[rel="nofollow"] > .img-responsive:upward(.OpenTable)
 sarzamindownload.com##.GSBlock > div > .title > h3:has-text(لینک های ویژه):upward(.GSBlock)

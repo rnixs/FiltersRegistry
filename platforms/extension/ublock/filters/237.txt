@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: pGqBLbQPa8ukKfYZub4+Og
-! Diff-Path: ../patches/237/237-s-1707685616-14400.patch
+! Checksum: kCjDmKynR5T0FI8GSmzbtQ
+! Diff-Path: ../patches/237/237-s-1707844025-14400.patch
 ! Title: Polish Annoyances Filters
 ! Description: Filter list that hides and blocks pop-ups, widgets, newsletters, push notifications, arrows, tagged internal links that are off-topic, and other irritating elements. Polish GDPR-Cookies Filters is already in it.
-! Version: 1.0.30.73
-! TimeUpdated: 2024-02-11T21:02:57+00:00
+! Version: 1.0.30.74
+! TimeUpdated: 2024-02-13T17:03:09+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: 🇵🇱 Polskie Filtry Elementów Irytujących
@@ -12081,6 +12081,7 @@ azzun.pl,manorhouse.pl#$##scroll-container { overflow: auto !important; width: a
 azzun.pl,manorhouse.pl##.scrollbar-track
 bankobranie.blogspot.com#$##sideSocial { height: auto !important }
 bithub.pl#$#.st-post-share { position: static !important }
+blogspot.com,miejskamuzyka.pl##+js(spoof-css, body\, html, background-attachment, scroll)
 blogspot.com,miejskamuzyka.pl#$#body, html { background-attachment: fixed !important }
 budujemydom.pl#$#.magazyn-label .m-okladka { bottom: 0 !important }
 budujemydom.pl#$#.magazyn-label { position:static !important }

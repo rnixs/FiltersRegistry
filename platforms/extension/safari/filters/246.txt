@@ -1,15 +1,15 @@
-! Checksum: rg8mVF5VL1uzYDe4HsYQFA
-! Diff-Path: ../patches/246/246-s-1707829630-14400.patch
+! Checksum: XS+iA+NNwJm2Se8C7eigFQ
+! Diff-Path: ../patches/246/246-s-1707844020-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.39.83
-! TimeUpdated: 2024-02-13T13:03:09+00:00
+! Version: 2.1.39.84
+! TimeUpdated: 2024-02-13T17:03:19+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: 7BKJsEECOk9wwmao+ZGfcw
-! OriginalVersion: 202402131251
+! Checksum: IeHjtTyTjRaqtFugbBvpHw
+! OriginalVersion: 202402131650
 ! Title: EasyList Polish
-! Last modified: 13 Feb 2024 12:51 UTC
+! Last modified: 13 Feb 2024 16:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -269,7 +269,6 @@ supernowosci24.pl##[id^="r-"]
 ||dzisiajwgliwicach.pl^*^sixsilver-
 ||e-hotelarz.pl^*=300x80^
 ||e-hotelarz.pl^*=750x200^
-||e-kolo.pl/css/popup.css^$stylesheet,domain=e-kolo.pl
 ||e-pingpong.pl^*^pileczkigewo-
 ||e-pingpong.pl^*^reklamapingpong.
 ||e-pingpong.pl^*reklama.
@@ -806,7 +805,7 @@ press.pl###topBanner
 dziennikteatralny.pl###topBigBanner
 sadeczanin.info###topContainer
 acermaniak.pl,activemaniak.pl,agdmaniak.pl###topMenu
-gsmmaniak.pl###topMenu-wrapper
+blogomaniak.pl,gsmmaniak.pl###topMenu-wrapper
 rubber.pl###topNas
 superportal24.pl###top_above_menu
 ostrowmaz.com###top_advertisement
