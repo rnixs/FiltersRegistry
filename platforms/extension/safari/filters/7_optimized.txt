@@ -1,9 +1,9 @@
-! Checksum: u1B/En28xjC/8uBXLIdvNQ
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1707759381-3600.patch
+! Checksum: bb82i07R0ZchjQDPveqgNQ
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1707809765-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.47
-! TimeUpdated: 2024-02-12T17:33:19+00:00
+! Version: 2.0.48.48
+! TimeUpdated: 2024-02-13T07:33:14+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1238,7 +1238,6 @@ freekontaktina.com###HTML12
 freekontaktina.com###HTML15
 freekontaktina.com###HTML26
 jiei.com###article-ad-1
-okbizcs.okwave.jp##.oem_link_under_question_detail
 mysterynavi.com###main-content > nav#breadcrumbFt + aside:not([class])
 mysterynavi.com###navi-r > p.semihide[style="margin-left:15px;text-align:left;"]
 mysterynavi.com##.admsg

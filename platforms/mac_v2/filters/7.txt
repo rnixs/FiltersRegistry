@@ -1,9 +1,9 @@
-! Checksum: Vs5xFf7dPhev2QGj7s68lg
-! Diff-Path: ../patches/7/7-s-1707759402-3600.patch
+! Checksum: UA91NeVY8MWIBCI/9Fnzag
+! Diff-Path: ../patches/7/7-s-1707809777-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.47
-! TimeUpdated: 2024-02-12T17:33:19+00:00
+! Version: 2.0.48.48
+! TimeUpdated: 2024-02-13T07:33:14+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1678,7 +1678,6 @@ freekontaktina.com###HTML12
 freekontaktina.com###HTML15
 freekontaktina.com###HTML26
 jiei.com###article-ad-1
-okbizcs.okwave.jp##.oem_link_under_question_detail
 mysterynavi.com###main-content > nav#breadcrumbFt + aside:not([class])
 mysterynavi.com###navi-r > p.semihide[style="margin-left:15px;text-align:left;"]
 mysterynavi.com##.admsg
