@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 1jv8YqqzBw5ZQJOf6+/XTA
-! Diff-Path: ../patches/14/14-s-1707827852-3600.patch
+! Checksum: rLFHXPYNB3p9Qtqgealwog
+! Diff-Path: ../patches/14/14-s-1707831382-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.52
-! TimeUpdated: 2024-02-13T12:32:53+00:00
+! Version: 2.1.87.53
+! TimeUpdated: 2024-02-13T13:31:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2331,6 +2331,9 @@ tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+m.domovita.by#$#body { overflow: auto !important; }
+m.domovita.by#$#.modal-overlay { display: none !important; }
+m.domovita.by#$#.modal--cookies { display: none !important; }
 cloud.ru##div[class^="CookiePop_root__"]
 cloud.mts.ru##.Cookie_cookie__laacy
 platform.openai.com##div[data-testid="cookie-consent-banner"]
@@ -42862,6 +42865,10 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172711s
+pagesix.com##.single__content > p:has(> strong:contains(For more Page Six))
+pagesix.com##.single__content > ul:has(> li > a[href^="https://pagesix.com/podcasts/"])
+pagesix.com##.single__content > .wp-block-separator
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172636
 okbizcs.okwave.jp##.qaDetail_oemLink_under
 okbizcs.okwave.jp##.oem_link_under_question_detail

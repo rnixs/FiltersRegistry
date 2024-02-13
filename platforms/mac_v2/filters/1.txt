@@ -1,9 +1,9 @@
-! Checksum: eSNBxE+1JWiAqG7p9FIQog
-! Diff-Path: ../patches/1/1-s-1707827871-3600.patch
+! Checksum: EHvDqSUZOCOsN01W+wlixg
+! Diff-Path: ../patches/1/1-s-1707831399-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.56
-! TimeUpdated: 2024-02-13T12:33:16+00:00
+! Version: 2.0.88.57
+! TimeUpdated: 2024-02-13T13:32:12+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7582,6 +7582,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 !
 !
+||domovita.by/js/adfox/
 74.ru##div[class^="creative"]
 ||static.spotles365.com/static.js
 kuban24.tv##.sda-section

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 30CLqCVYB2XeNt3Hpd4JDQ
-! Diff-Path: ../patches/11_optimized/11_optimized-s-1707824200-3600.patch
+! Checksum: reQ1Sp3zX/OewBPfotNYhQ
+! Diff-Path: ../patches/11_optimized/11_optimized-s-1707831382-3600.patch
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.49.21
-! TimeUpdated: 2024-02-13T11:31:40+00:00
+! Version: 2.0.49.22
+! TimeUpdated: 2024-02-13T13:31:31+00:00
 ! Expires: 5 days (update frequency)
 ||adx-open-service.youku.com^
 ||ad.youku.com^
@@ -1501,11 +1501,10 @@ wuxiabee.com##.chapter-content > p + div[class]:has(> div[id] > script)
 okbizcs.okwave.jp##.box_ad_rectangle_btm
 okbizcs.okwave.jp##.box_ad_rectangle_detail
 m.sports.ru##.navigation-left-banner
-wear.jp##li.col-span-full.bg-gray-50:has(> .ad-container)
 thepopverse.com###sticky_leaderboard
 pixiv.net##.ad-mobile-anchor
 webtekno.com##div.visible-mobile[style*="min-height"]
-webtekno.com##.sticky-ad-container-mobile
+webtekno.com##body .sticky-ad-container-mobile
 getnews.jp###jp_gn_sp_gate_header
 ||nan-net.com/show/bbs/inc/pc_side_adv/
 movieplayer.it###adv-head

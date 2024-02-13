@@ -1,9 +1,9 @@
-! Checksum: Hu5t1ScmqXVw9DCqqeu+Vg
-! Diff-Path: ../patches/8/8-s-1707723345-3600.patch
+! Checksum: zNm9JoH+7KZxJ1B0jmprRA
+! Diff-Path: ../patches/8/8-s-1707831354-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.43
-! TimeUpdated: 2024-02-12T07:33:14+00:00
+! Version: 2.0.6.44
+! TimeUpdated: 2024-02-13T13:33:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1376,8 +1376,8 @@ tweakers.net#$#.widebnr { display: block !important; min-height: 2px !important;
 @@/prebid/ad.gif?user=*&adId=$domain=kijk.nl
 @@||ads-talpa.adhese.com/json/$domain=kijk.nl
 kijk.nl#$#body .pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: initial !important; }
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||kijk.nl^$generichide
+@@||shownieuws.nl^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167987
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160901
 @@||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/streams$domain=goplay.be
