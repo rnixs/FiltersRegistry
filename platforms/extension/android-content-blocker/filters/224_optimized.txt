@@ -1,9 +1,9 @@
-! Checksum: j8+DDB1KCbYY1HWV8pr/xw
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1707816961-3600.patch
+! Checksum: 4YZSdi+5ar9N0iaDCLxqWw
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1707820580-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.10.50
-! TimeUpdated: 2024-02-13T09:32:22+00:00
+! Version: 2.1.10.51
+! TimeUpdated: 2024-02-13T10:32:42+00:00
 ! Expires: 5 days (update frequency)
 ||98765.pw^
 ||cdn.holmesmind.com^$third-party
@@ -1015,8 +1015,8 @@ tieba.baidu.com##.top_toutu_admarks
 wnflb2023.com##.GzList
 bdys03.com##.artplayer-plugin-ads
 ||u10*.com/*.gif$domain=bhuai.top
-m.nivod4.tv,m.nivod5.tv###hellBoy > li:not([track-by]) > img
-m.nivod4.tv,m.nivod5.tv###video-container + ul[style^="width:"] > li > img
+m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###hellBoy > li:not([track-by]) > img
+m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###video-container + ul[style^="width:"] > li > img
 ||ll.ibiqiuge.com/m.js
 axutongxue.net###uuuui
 sstv.pw##.container > a > img[style="width: 100%;"]
