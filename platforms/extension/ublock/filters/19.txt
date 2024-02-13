@@ -1,6 +1,6 @@
 ![Adblock Plus 2.0]
-! Checksum: pWlQHLcw+jUtltLzySQcrQ
-! Diff-Path: ../patches/19/19-s-1707838612-3600.patch
+! Checksum: 2xD0lrqEB8A+LxV/pfxMsA
+! Diff-Path: ../patches/19/19-s-1707845819-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
 ! Version: 2.0.31.58
@@ -1730,6 +1730,7 @@ thecrimson.com##+js(no-setTimeout-if, /0===.\.offsetHeight/)
 ddys.*##+js(no-fetch-if, analytics)
 megogo.net##.infoBlock_v1
 ||rule34porn.net/wp-content/plugins/wpN*/*.js
+pornone.com##+js(set-cookie-reload, adblock, 1)
 startpage.com##.mainline-results > .block-display
 gametop.com###adsModal
 gotxx.net###ebf2
@@ -4157,6 +4158,8 @@ ulefone.com###div_mask
 hd.kinopoisk.ru#$?#body > div.ReactModalPortal:has(> div.ReactModal__Overlay > div.ReactModal__Content > div[data-tid="FullscreenNotification"] > div > div[class^="styles_buttonContainer"] > button:contains(Не сейчас)) { display: none !important; }
 hd.kinopoisk.ru#$#body { overflow: auto !important; }
 famille-kazokusou.com##div[class^="bnr_ft_"]
+briefmenow.org##+js(set-cookie-reload, disallowPrepawayBanner, 1)
+briefmenow.org##+js(set-cookie-reload, isPopupClosed, 1)
 patch.com##+js(set-cookie, patch_top_tooltip_next_door_dismissed, true)
 patch.com##+js(set-cookie, patch_email_mobile_modal_dismissed, true)
 upgradedhome.com#$#.lbHtmlFix body { overflow: auto !important; }
@@ -4259,6 +4262,7 @@ retailmenot.com##+js(addEventListener-defuser, prepare-exit-modal, =>)
 later.com##+js(addEventListener-defuser, mouseout, relatedTarget)
 hostpro.ua##.hp-promo-container
 community.checkpoint.com###login-popup
+qiita.com##+js(set-cookie-reload, login_popup_displayed, false)
 qiita.com##+js(set-local-storage-item, next_optin_check_time, false)
 mspoweruser.com##.survey-bnr
 wikiwand.com##div[class^="navbar_sticky__"]
@@ -4702,6 +4706,7 @@ ground.news#?#body > div > div.react-responsive-modal-overlay:has(> div.react-re
 organic-mix.ru##.popup-best-price
 brainly.co.id#$#.js-react-registration-toplayer { display: none !important; }
 brainly.co.id#$#body { overflow: auto !important; position: unset !important; }
+bankbazaar.com##+js(set-cookie-reload, notification_subscription, false)
 careers360.com##+js(set-cookie, common_sign_up_show, 1)
 samplerateconverter.com##.frame_win_teasers
 azuremagazine.com##.flyout--non-subscriber
@@ -4733,6 +4738,7 @@ cellmapper.net##.bootbox-alert ~ div.modal-backdrop
 gmotech.jp###bannerParts
 krone.at##.krn-flyby
 krone.at##.c_floating-player
+fireweatheravalanche.org##+js(set-cookie-reload, donate, 1)
 tmz.com###browser-notifications-prompt
 minigames.versusgame.com###modal-root div.absolute.w-full[style^="opacity: 1;"]
 talkingpointsmemo.com##.MeteredModal23Container
@@ -5452,6 +5458,7 @@ masterclass.com##+js(set-local-storage-item, video_muted, true)
 tg24.sky.it##.j-player[style^="position: fixed; height:"]
 siirtolayhaber.com,kriptoparahaber.com###kanews-modal-popup
 nbcdfw.com,nbcmiami.com##.video-flyout--fixed > figure
+tumblr.com##+js(set-cookie-reload, logged_in, 1)
 okc.com.ua##.appointment
 vm.ee#$##warning-modal { display: none !important; }
 vm.ee#$#.modal-backdrop { display: none !important; }
@@ -6291,6 +6298,7 @@ descomplica.com.br##div[class^="Modal__Wrapper-"]
 koronawirusunas.pl##+js(no-setTimeout-if, #PatronModal)
 nsctotal.com.br#$#.tp-modal { display: none !important; }
 nsctotal.com.br#$#.tp-backdrop { display: none !important; }
+petri.com##+js(set-cookie-reload, hustle-hide-module-10, 10)
 ext.hp.com##.cmnbox01 > div.repo
 web.bridge-net.jp##.fltBnr
 ucsusa.org###block-actioninterrupter
@@ -10154,6 +10162,7 @@ market.yandex.*##div[data-apiary-widget-name="@MarketNode/ReviewPollPopup"]
 market.yandex.*##div[data-zone-name="BannerPopup"]
 !
 ! Yandex.Realty
+realty.ya.ru##+js(set-cookie-reload, housearch_popup_shown, yes)
 !
 ! Yandex.Arenda
 arenda.yandex.ru#$#div[class*="LandingOwnerQuizModalBase__popup-"] { display: none !important; }
@@ -13015,6 +13024,7 @@ nytimes.com##div[data-gtm-element="newsletter_loaf_form"]
 neg.by##.section-top-banner
 aldi.pl##.mod-newsletter-popup
 forbes.ru#?#div[class] > div[class*=" "]:has(> a[href="https://t.me/forbesrussia"])
+fajn-brigady.cz##+js(set-cookie-reload, new_overlay_uchazeci_open, 1)
 wealth.com.tw##a[href="https://bit.ly/3IUoJkV"]
 ukraina.ru##.article__aggr
 ||static.gazeta.ru/nm2021/*/telega
@@ -14771,6 +14781,7 @@ ayntec.com##section[data-section-type="newsletter-popup"]
 github.com##.js-newsletter-signup-form
 ||thesun.co.uk/simwidgets/v1/sim$subdocument
 the-sun.com##iframe[src="https://www.thesun.co.uk/simwidgets/v1/sim"]
+machow2.com##+js(set-cookie-reload, hustle-hide-module-2, 2)
 globo.com###newsletterMCWrapper
 piacenza24.eu###simplemodal-overlay
 piacenza24.eu###simplemodal-container
@@ -15736,6 +15747,7 @@ vivat.de##.footer__top
 impressionen.de#?#div[data-app] > div[class] > div:has(> div[class] > div[class] > section[role="dialog"] > aside[aria-label^="Zum Newsletter"])
 banglatech24.com#?#.schema-faq-section > div.code-block:has(> div.custom-jetpack > div.jetpack_subscription_widget)
 acunetix.com#?#.entry-content > div.featured-pages-spacing:has(> div.featured-page-row > div.row > div[class] > form#mc-embedded-subscribe-form)
+networkworld.com##+js(set-cookie-reload, nsdr, 1)
 klerk.ru##.base-subscribe-pop-up
 klerk.ru##div[class^="klerk-subscribe"]
 myvitamins.com,myprotein.com,zavvi.*,homebase.co.uk#$#.emailReengagement_noscroll { overflow: auto !important; }

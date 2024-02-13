@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: A3nfJEdUfxasxgAf45w6pQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1707838614-3600.patch
+! Checksum: +5CQN0Q3C4TfD+Nz/pFU7g
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1707845821-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.22.19
-! TimeUpdated: 2024-02-13T15:33:10+00:00
+! Version: 2.3.22.20
+! TimeUpdated: 2024-02-13T17:33:25+00:00
 ! Expires: 5 days (update frequency)
 ||wenoolgo.icu^$all
 ||slownansuch.info^$popup
@@ -7143,6 +7143,7 @@ limetorrents.lol##+js(window.open-defuser)
 breitbart.com##+js(set-constant, BB_G.doing_popup, undefined)
 inxxx.com##+js(abort-current-script, Symbol, egoTab)
 xxx18.uno##+js(no-setTimeout-if, window[a0b(\'0x)
+xxx18.uno##+js(set-cookie-reload, hasShownPromo, true)
 pahe.li##+js(window.open-defuser)
 uploadsea.com##+js(set-constant, openLink, noopFunc)
 discoveryplus.com##+js(json-prune, data.attributes.ssaiInfo.forecastTimeline data.attributes.ssaiInfo.vendorAttributes.breaks.*.timeOffset)
@@ -7315,6 +7316,8 @@ softonic.com##+js(set-cookie, softonic-r2d2-view-state, 1)
 boyfriendtv.com##+js(abort-on-property-read, backgroundBlack)
 ultimedia.com##+js(adjust-setTimeout, [native code], 5000, 0.02)
 financerites.in##+js(window.open-defuser)
+greatandhra.com##+js(set-cookie-reload, garb, 1)
+greatandhra.com##+js(set-cookie-reload, sosh, true)
 guccihide.com##+js(abort-current-script, eval, String.fromCharCode)
 10play.com.au##+js(m3u-prune, /redirector\.googlevideo\.com\/videoplayback[\s\S]*?dclk_video_ads/, .m3u8)
 aniwave.to,watchseries.id,9anime.to##+js(abort-on-property-read, a0a)
@@ -7397,6 +7400,7 @@ eticket.gsc.com.my##+js(set-constant, googletag, {})
 fapmeifyoucan.net##+js(set-cookie, fameifyoucandisclamer, 1)
 pornid.*##+js(set-constant, document.head.insertAdjacentHTML, undefined)
 xnxx.fit##+js(set-cookie, current_click, 1)
+xnxx.fit##+js(set-cookie-reload, clicked, 1)
 7starhd.*##+js(abort-on-property-read, _pop)
 xxxshake.com##+js(window.open-defuser)
 amateur8.com,bigtitslust.com,maturetubehere.com,lesbian8.com,sortporn.com,freeporn8.com##+js(abort-on-property-read, Q433)
@@ -34234,6 +34238,7 @@ radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.p
 gtaforums.com###ipsLayout_mainArea div:has(> #pwDeskLbAtf)
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
 imgur.com##.Grid-column > div[style^="height:"]:has(.Post-item-external-ad)
+outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
 haveibeenpwned.com##.actionsBar:has(.why1Password)
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
 blitz.gg##.aside-content-column:has(.display-ad)

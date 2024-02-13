@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ymAvk/qb45Ouvbk2dfBsVg
-! Diff-Path: ../patches/20/20-s-1707820613-3600.patch
+! Checksum: DJD+lHenNW1fokIWyu3Few
+! Diff-Path: ../patches/20/20-s-1707845821-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.40
-! TimeUpdated: 2024-02-13T10:32:33+00:00
+! Version: 2.0.12.41
+! TimeUpdated: 2024-02-13T17:32:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -114,6 +114,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 temu.com#?#div[role="main"] div[style] > div[style]:has(> div[style] div[js-selector="mobile-download-ui"])
 !
+lazada.com.ph,lazada.vn##.card-platform-campaign-banner-container
 agar.io###mainui-promo
 matchendirect.fr##.bloc_coldroite[style]
 petsmart.com##.app-callout
@@ -220,6 +221,7 @@ sinefy3.com##.btn-watch-together.app
 free-url-shortener.rb.gy#?#body > div.ReactModalPortal:has(> div.ReactModal__Overlay > .ReactModal__Content > div.ModalContent button:contains(Get Chrome extension))
 free-url-shortener.rb.gy#$#body.ReactModal__Body--open { overflow-y: auto !important; }
 yappy.media#?#.videoCollection__mobile div.drawer-swipeable:has(> img[alt="Yappy app logo"])
+ilmeteo.it##+js(set-cookie-reload, sb_user_close, 1)
 openrec.tv##div[class^="ComponentMobile__AppBannerDialogWrapper"]
 openrec.tv##section[class^="AppSuggestionCardSection__Section"]
 offertevolantini.it##.corner-popup-container
@@ -326,12 +328,14 @@ makemytrip.com###appDownloadWrapper
 fikfap.com###root > .flex > .items-center.fixed
 becorrect.com###extensionPopupPlaceholder
 m.news.nate.com###viewAppPOP
+cenoteka.rs##+js(set-cookie-reload, android_download_hide, 1)
 daily.co.jp##.add-button-dialog
 baike.baidu.com##.wgt-baikeapp-promote-container
 kavkazr.com##.banner__a
 ||ad.chatpad.jp^
 espreso.co.rs###installAndroidApp
 vesti.kz##.button-install
+flagma.by##+js(set-cookie-reload, flagmajob_ads_shown, 1)
 pepper.pl#?#.js-threadList > .js-banner:has(img[alt$="-App"])
 ithome.com##.down_app
 m.shein.com###branch-app
@@ -1079,6 +1083,7 @@ meme.chat##.footer-new
 wallscloud.net,7themes.su###android_promo
 livemint.com##.appMint
 vivo.com.br##.barra-conversao--purple[data-settings='{"pagina": "Vivo Easy Prime: Plano de celular digital com Cashback"}']
+prom.ua##+js(set-cookie-reload, hide_mobile_download_app_popup, true)
 9gag.com##.use-app
 cuonet.com##.hidden-sm > .widget-box + div:not([class]):not([style])
 gnavi.co.jp###js-app
@@ -1199,6 +1204,7 @@ b.hatena.ne.jp##div[class*="js-dynamic-link-app-banner"]
 b.hatena.ne.jp##.top-app-banner
 b.hatena.ne.jp##.comment-store
 lylcrc.cn###bdnovel
+blutspendedienst.com##+js(set-cookie-reload, smartbanner_exited, 1)
 buy.line.me##.app-appPromotionBanner
 yavtube.com,lipscosme.com##.open-app-banner
 lipscosme.com###footer-app-banner
@@ -1396,6 +1402,7 @@ erecipe.woman.excite.co.jp##.appdl_container
 access.line.me##.MdMN01Banner
 hidemy.io,hidemy.name##.main-download-popup
 tunein.com##+js(set-cookie, navBasedDialogManager, true)
+kinarino.jp##+js(set-cookie-reload, hide_app_banner, 1)
 bushikaku.net##.ad__foot-lower
 r.gnavi.co.jp##div[class^="style_appAdvertise__"]
 dcard.tw##.__portal > button
@@ -1780,6 +1787,7 @@ netmovies.com.br##div[class^="styles_storesDownload__"]
 qrius.com##.sidebar-info > div.s-widget > p + div.store-btn
 ||abhipedia.abhimanu.com/UP/FreeResources/*-Down-load-android-app-on-playstore.jpeg
 carnegie.ru,atlasvpn.com##.app-links
+m.mobile01.com,radiobells.com##+js(set-cookie-reload, smartbanner_exited, 1)
 medicaldialogues.in#?#.bottom_cont > li:has(> a[href="https://play.google.com/store/apps/details?id=com.app.medicaldialogues"])
 dahuasecurity.com##.float_tips > div.partner
 thedailystar.net##.app-link-wrapper a[href^="https://itunes.apple.com/us/app/the-daily-star/"]
@@ -2657,6 +2665,7 @@ imageban.ru##img[alt="Get it on Google Play"]
 ||vizefinalsorupaylasimi.com/uploads/googleplay.jpg
 mediamarkt.de##.mrh-app-banner
 rt.com###offers
+cnnbrasil.com.br##+js(set-cookie-reload, CNNsmartbanner, 1)
 bilyoner.com##+js(set-cookie, smartbanner-closed, true)
 izi.ua##+js(set-session-storage-item, hideMobilePopup, 1)
 leroymerlin.ru##+js(set-cookie, daysToHide, 14)
@@ -3304,6 +3313,7 @@ m.digi24.ro##+js(remove-class, smartbanner-visible, body)
 agoda.com##section[class^="TallBanner__container-"]
 tour.ne.jp##.str-footer-app
 jmty.jp##.gtm-app-induction-article-detail-footer
+jmty.jp##+js(set-cookie-reload, close_recommend_app, true)
 magi.camp##.app-link-header
 expedia.co.jp##.customer-notification-container
 s.tabelog.com###js-rvwr-top-app-footer-banner
@@ -3376,6 +3386,7 @@ pokemongo-get.com###appreach-box
 dmkt-sp.jp##body > div[style^="position:"][style*="ease-out"]
 paypal.com###PPAppDownloadBannerContainer
 smartnews.com##.default-banner-interrupt
+bonprix.de##+js(set-cookie-reload, customAppBannerClosed, true)
 baur.de##div[data-testid="app-banner"]
 lotteon.com#?#div[data-modal].v--modal-overlay:has(.appReviewBox)
 m.yahoo.co.jp###log-rsab

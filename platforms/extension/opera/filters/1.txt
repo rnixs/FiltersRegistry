@@ -1,9 +1,9 @@
-! Checksum: WlpCBQ2W07d38xIi84E0sQ
-! Diff-Path: ../patches/1/1-s-1707831371-3600.patch
+! Checksum: ZgPjBx4m1LviLlpSDmLWTg
+! Diff-Path: ../patches/1/1-s-1707845806-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.57
-! TimeUpdated: 2024-02-13T13:32:12+00:00
+! Version: 2.0.88.58
+! TimeUpdated: 2024-02-13T17:32:51+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7406,9 +7406,6 @@ livesport.ws#$#.wrapper-holder {margin-top: 0!important; }
 !
 ! kinopoisk.ru
 www.kinopoisk.ru##div[class*="styles_height250__"]
-! go.mail.ru
-go.mail.ru#$#.response___wrapper > #js-topBar > div > div[class*="p"][class*="t"] > style + div { position: absolute!important; left: -3000px!important; }
-go.mail.ru#$#.response___wrapper > #js-bottomBar > div > div[class*="b"][class*="t"] > style + div { position: absolute!important; left: -3000px!important; }
 !
 !
 !-----------------------
@@ -12428,7 +12425,6 @@ verstov.info###adv_left_banner
 biwork.ru###adv_rezina
 salda.ws###adv_up
 tubewolf.com###advertising2-preroll
-nigma.ru###adverts_div
 druzya-serial.ru,megaresheba.com###advideo_adv
 vse42.ru###advippanel
 latino-serialo.ru,tvfru.ru###advm_preload

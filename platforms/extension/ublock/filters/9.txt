@@ -1,6 +1,6 @@
 ![Adblock Plus 2.0]
-! Checksum: AJnKonqlyrUUfXW7kSWxKg
-! Diff-Path: ../patches/9/9-s-1707835157-3600.patch
+! Checksum: tf3m4hqMLxLU1E0rDLAuew
+! Diff-Path: ../patches/9/9-s-1707845824-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
 ! Version: 2.0.23.32
@@ -1507,6 +1507,7 @@ gnula.club##+js(remove-attr, href, li[onclick^="go_to_player"] > a[target="_blan
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151449
 elmundo.es##+js(set-constant, Object.prototype.adSlot, '')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149757
+pelisflix2.*##+js(set-cookie-reload, adtura, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146455
 niusdiario.es##+js(set-constant, google.ima.OmidVerificationVendor, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145476

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: baaN6oYaLB8j7KdYTSvnGA
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1707831385-3600.patch
+! Checksum: 7w7/IGVl73e3pAM3m+NDsQ
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1707845821-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.71
-! TimeUpdated: 2024-02-13T13:32:14+00:00
+! Version: 2.0.19.72
+! TimeUpdated: 2024-02-13T17:32:53+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
@@ -57,6 +57,7 @@ howtogeek.com,gamerant.com,cbr.com,thegamer.com,screenrant.com,makeuseof.com,mov
 lachainemeteo.com##.videoContainer.videoFixed
 charter97.org##.article-subscription
 toro.it##+js(remove-class, vjs-floater-parent|vjs-top-parent-mobile, #iol_player_container)
+people.com##+js(set-cookie-reload, notification_banner_dismissed, true)
 closermag.fr##.viously-player
 newarab.com##.footer-top
 bilibili.com##.rank-list-wrap + div:not([class])
@@ -268,6 +269,7 @@ news18.com##.jio_widgetAmp
 gamewith.jp##.to-btn--nps
 4900.co.jp##.fixedFooter
 csoonline.com##+js(set-cookie, aiia, true)
+csoonline.com##+js(set-cookie-reload, nsdr, 1)
 chip.de###footer-white-global
 biglobe.ne.jp###spage-bnr
 meduza.global.ssl.fastly.net,meduza.io##div[class^="AnnouncementInText-module_root__"]

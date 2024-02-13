@@ -1,6 +1,6 @@
 ![Adblock Plus 2.0]
-! Checksum: pHU5yKj3t6lELtJ6qQtboA
-! Diff-Path: ../patches/3/3-s-1707835155-3600.patch
+! Checksum: 959N9C5KFAVKRq8b4BQDIQ
+! Diff-Path: ../patches/3/3-s-1707845822-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
 ! Version: 2.0.66.67
@@ -206,6 +206,7 @@ member.neofinancial.com##+js(set-constant, __fpjs_p_l_b.load, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140178
 itsu.com##+js(set-constant, AtreemoTrackingLbr, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140059
+pracuj.pl##+js(set-cookie-reload, gptrackCookie, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167552
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152478
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139949
@@ -226,6 +227,7 @@ reuters.com##+js(set-local-storage-item, ajs_anonymous_id, null)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81513
 ! https://listauthorschat.slack.com/archives/C010N14G4TF/p1686743998780969
 ! https://www.reddit.com/r/uBlockOrigin/comments/1495nei/please_provide_advice_on_this_filter/
+m.dcinside.com,upload.dcinside.com##+js(set-cookie-reload, _ga, OK)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136436
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134220
 6play.fr##+js(set-local-storage-item, gdprTracking, false)
@@ -306,6 +308,7 @@ alternative.me,justjaredjr.com,r-graph-gallery.com##+js(remove-attr, onclick, a[
 eduscho.at##+js(set-constant, exactagTrack, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91255
 ! TODO: can be replaced by redirect resources (Fingerprint2) when it will be added - https://github.com/AdguardTeam/Scriptlets/issues/141
+the-japan-news.com##+js(set-cookie-reload, fp, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91087
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93708
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90258

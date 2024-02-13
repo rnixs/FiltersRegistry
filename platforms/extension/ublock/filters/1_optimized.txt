@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: KHCk71vGukB73ee58sms7A
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1707831384-3600.patch
+! Checksum: /zoulYVRE4A72mcymay5Fw
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1707845819-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.57
-! TimeUpdated: 2024-02-13T13:32:12+00:00
+! Version: 2.0.88.58
+! TimeUpdated: 2024-02-13T17:32:51+00:00
 ! Expires: 5 days (update frequency)
 /load-xml/?id=*&roll=$xmlhttprequest
 .com/services/?id=$script,third-party
@@ -2460,6 +2460,7 @@ adultepic.com,xxxtube2022.com,fuck-xxx-movies.com##+js(abort-on-property-read, u
 sweet-tv.net,cdnneedtv.ru##+js(window.open-defuser)
 online.anidub.com,online.anidub.club##+js(abort-on-property-write, bg)
 https-xvideos.com##+js(window.open-defuser)
+igroutka.ru##+js(set-cookie-reload, afg, 1)
 me-qr.com##+js(remove-class, d-none, #goBtn.d-none)
 sex-studentki.*##+js(set-constant, biads.initCli, noopFunc)
 cq.ru##+js(json-prune, catfish-desktop catfish-mobile branding-desktop branding-mobile content-1-desktop content-2-mobile content-3-mobile)
