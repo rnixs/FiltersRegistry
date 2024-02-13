@@ -1,9 +1,9 @@
-! Checksum: kZiChrUUatNtCNNVG04+Ew
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1707809748-3600.patch
+! Checksum: v/+9K2IHD5y06rF/CFEPXA
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1707824166-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.66.65
-! TimeUpdated: 2024-02-13T07:32:52+00:00
+! Version: 2.0.66.66
+! TimeUpdated: 2024-02-13T11:33:04+00:00
 ! Expires: 5 days (update frequency)
 itmedia.co.jp#$##ulCommentWidget[style*="display"] { display: block !important; }
 ://*.*$document,permissions=join-ad-interest-group=()\,run-ad-auction=()\,browsing-topics=()
@@ -3754,6 +3754,7 @@ adseek.site#$##primary { display: block !important; }
 ||affex.org^
 ||tagman.britishairways.com^
 |piwik.
+||track.addevent.com^
 ||visitor.sokuja.net^
 ||nlog.naver.com^
 ||collector.taoxh.life^
