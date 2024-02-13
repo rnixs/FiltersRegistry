@@ -1,9 +1,9 @@
-! Checksum: JnkE4YLsBlP2hD+6iUszXA
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1707844008-14400.patch
+! Checksum: rb09Pwp/LuvOrzPxW7UQVA
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1707858391-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.29.7
-! TimeUpdated: 2024-02-13T17:03:14+00:00
+! Version: 2.1.29.8
+! TimeUpdated: 2024-02-13T21:02:52+00:00
 ! Expires: 10 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -27407,6 +27407,7 @@ ahsgr.org,lurker.land#@#.uk-flex-center.uk-grid-collapse
 playcode.io#@#.welcome-privacy
 stergioufamily.gr#@#.x-cookies-modal
 ceramtec-group.com,openfiber.it,rete.toscana.it#@#[aria-label="cookieconsent"]
+remarkable.com#@#[data-cy="cookie-banner"]
 devowl.io#@#[href="https://devowl.io/wordpress-real-cookie-banner/"]
 ollca.com#@#app-cookie-warning
 frag.jetzt#@#app-cookies

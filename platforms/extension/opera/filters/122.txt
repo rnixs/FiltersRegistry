@@ -1,15 +1,15 @@
-! Checksum: FiqDlgzTTxWDgMCblT6n4A
-! Diff-Path: ../patches/122/122-s-1707844011-14400.patch
+! Checksum: 05dVRwStCdawo+us977ehQ
+! Diff-Path: ../patches/122/122-s-1707858394-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.5
-! TimeUpdated: 2024-02-13T17:02:28+00:00
+! Version: 2.1.21.6
+! TimeUpdated: 2024-02-13T21:02:06+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: a5maH/A64InA0ptXmELZhw
-! OriginalVersion: 202402131615
+! Checksum: c7KnGz02EPiuuayNYzMuPg
+! OriginalVersion: 202402132015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-13 16:15 UTC
+! Last modified: 2024-02-13 20:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -46325,6 +46325,7 @@ fansided.com,lastnighton.com,netflixlife.com,stormininnorman.com,winteriscoming.
 attilasec.com##.sub-form
 investmentnews.com##.subPopupTop
 salon.com##.sub_promo
+bolavip.com##.subs-block
 nautil.us##.subscibe-bar
 3dprint.com##.subscribe--sidebar
 bookforum.com##.subscribe-ad__corner
@@ -57419,6 +57420,7 @@ ahsgr.org,lurker.land#@#.uk-flex-center.uk-grid-collapse
 playcode.io#@#.welcome-privacy
 stergioufamily.gr#@#.x-cookies-modal
 ceramtec-group.com,openfiber.it,rete.toscana.it#@#[aria-label="cookieconsent"]
+remarkable.com#@#[data-cy="cookie-banner"]
 devowl.io#@#[href="https://devowl.io/wordpress-real-cookie-banner/"]
 ollca.com#@#app-cookie-warning
 frag.jetzt#@#app-cookies

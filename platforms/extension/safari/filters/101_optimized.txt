@@ -1,9 +1,9 @@
-! Checksum: hpggGL8s+LA9FMSuWCAb2A
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1707844015-14400.patch
+! Checksum: Xaqm96K9j/Cffvl/G/XfHA
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1707858398-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.20.79
-! TimeUpdated: 2024-02-13T17:01:56+00:00
+! Version: 2.1.20.80
+! TimeUpdated: 2024-02-13T21:01:34+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -8976,6 +8976,7 @@ _800x80_
 ##a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"]
 ##a[href^="https://adultfriendfinder.com/go/"]
 ##a[href^="https://ak.hauchiwu.com/"]
+##a[href^="https://ak.oalsauwy.net/"]
 ##a[href^="https://ak.psaltauw.net/"]
 ##a[href^="https://ausoafab.net/"]
 ##a[href^="https://aweptjmp.com/"]
@@ -10580,6 +10581,7 @@ browsershots.org#@#.advert_area
 ||aidata.io^
 ||aidraiphejpb.com^
 ||aidspectacle.com^
+||aifoghou.com^
 ||aigaithojo.com^
 ||aigneloa.com^
 ||aigretenew.top^
@@ -19590,6 +19592,7 @@ browsershots.org#@#.advert_area
 ||lkkhedpqeduyukj.com^
 ||lklaiwqnk.com^
 ||lklhwrqrcbsxdn.com^
+||lkoqoxgkntjv.com^
 ||lkoulntogv.com^
 ||lkoxbiwi.com^
 ||lkpmprksau.com^
@@ -22369,6 +22372,7 @@ browsershots.org#@#.advert_area
 ||pheepudo.net^
 ||pheneobdure.digital^
 ||phenomenonwhilstsleek.com^
+||phepofte.net^
 ||pheptoam.com^
 ||phesheet.net^
 ||phewhouhopse.com^
@@ -32044,6 +32048,7 @@ mybroadband.co.za##.box-sponsored
 kiz10.com##.box-topads-x2
 fctables.com##.box-width > .hidden-xs
 tribunnews.com##.box__reserved
+bolavip.com##.boxbanner_container
 petkeen.com##.br-10
 bing.com##.br-poleoffcarousel
 infoworld.com##.brVideoContainer
@@ -32783,6 +32788,7 @@ gonintendo.com##.pt-5
 getyarn.io##.pt3p > div
 1980-games.com,coleka.com,flash-mp3-player.net,gameslol.net,theportugalnews.com,tolonews.com##.pub
 starsinsider.com##.pub-container
+dn.pt##.pub-wrapper
 yabiladi.com##.pub2
 gameslol.net##.pubGside
 gameslol.net,yabiladi.com##.pub_header
@@ -33327,7 +33333,7 @@ scmp.com##[id^="div-ad-"]
 eatthis.com##[id^="gm_karmaadunit_widget"]
 comicbook.com,popculture.com##[id^="native-plus-"]
 grabcad.com##[ng-if="model.asense"]
-appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,thefinancialbrand.com##[rel*="sponsored"]
+appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,thefinancialbrand.com,tld-list.com##[rel*="sponsored"]
 myanimelist.net##[src*="/c/img/images/event/"]
 audioz.download##[src*="/promo/"]
 webcamtests.com##[src^="/MyShowroom/view.php?medium="]
@@ -33605,6 +33611,7 @@ bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 imgur.com##.Grid-column > div[style^="height:"]:has(.Post-item-external-ad)
+outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
 haveibeenpwned.com##.actionsBar:has(.why1Password)
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
 blitz.gg##.aside-content-column:has(.display-ad)
@@ -33729,6 +33736,7 @@ playbuzz.com##.stickyplayer-container
 mentalfloss.com##.style_k8mr7b-o_O-style_1ts1q2h
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 petapixel.com##.video-aspect-wrapper
+bolavip.com##.video-player-placeholder
 consequence.net##.video_container
 hollywoodreporter.com##[id^="jwplayer"]
 yahoo.com###Lead-0-Ad-Proxy
