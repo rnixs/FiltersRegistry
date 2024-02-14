@@ -1,9 +1,9 @@
-! Checksum: 8rvDLhBDsOUn7Q6US2PYkA
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1707925054-3600.patch
+! Checksum: 3V6jsknEQoz0MZxM1a2wSQ
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1707932157-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.60
-! TimeUpdated: 2024-02-14T15:32:13+00:00
+! Version: 2.0.88.61
+! TimeUpdated: 2024-02-14T17:32:16+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -6961,7 +6961,7 @@ forum.ixbt.com##.mainpage_table > tbody > tr > td[align="center"]
 sdamgia.ru##a[target="_blank"] > img[src^="data:image"]
 sdamgia.ru#$?#div > aside > div:has(script:contains(window.yaContextCb)) { position: absolute !important; top: -9999px !important; }
 sdamgia.ru#$?#div > aside > div:has(script:contains(window.rotator)) { position: absolute !important; top: -9999px !important; }
-sdamgia.ru#$?#.menu > div[style]:has(script:contains(window.rotator)) { position: absolute !important; top: -9999px !important; }
+sdamgia.ru#$?#.menu > div[style]:has(> a > img[src^="data:;base64"]) { position: absolute !important; top: -9999px !important; }
 sdamgia.ru##.con_warper > div[class$="t_block"]
 stratege.ru##psplus-footer
 zol.ru##.central_banner
