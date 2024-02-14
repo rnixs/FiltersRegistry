@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Y2vVDTLdWmiInfbriwVacQ
-! Diff-Path: ../patches/18/18-s-1707917791-3600.patch
+! Checksum: b33eAHzO+exz3w0vpfRnXQ
+! Diff-Path: ../patches/18/18-s-1707921384-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.50
-! TimeUpdated: 2024-02-14T13:32:04+00:00
+! Version: 2.0.33.51
+! TimeUpdated: 2024-02-14T14:32:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13555,6 +13555,7 @@ techmoviles.com##.pea_cook_wrapper
 !
 ! For cmp.quantcast.com unblocked and clicks are required
 !
+ogladajanime.pl##+js(set-cookie-reload, accepted, true)
 boxy-svg.com##+js(set-local-storage-item, bx-portalwebapp:showPrivacyNotification, false)
 sms-receive.net##+js(set-cookie-reload, cookieconsent_dismissed, yes)
 mako.co.il##+js(set-local-storage-item, mako_GDPR_message_showed, 1)
@@ -14225,7 +14226,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
-! fix the map
+! https://github.com/uBlockOrigin/uAssets/issues/22471
+my.remarkable.com#@#div[data-cy="cookie-banner"]
+! e-ladestation.aldi-sued.de - fix the map
 e-ladestation.aldi-sued.de#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172516
 camping-bad-griesbach.de#@##redim-cookiehint-modal

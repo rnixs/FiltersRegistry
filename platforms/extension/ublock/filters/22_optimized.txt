@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: GgFJeTTQTizGt3eRNdh1ig
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1707917793-3600.patch
+! Checksum: gzY/G3O6bjtPb1C62Mg9mA
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1707921386-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.33
-! TimeUpdated: 2024-02-14T13:32:26+00:00
+! Version: 2.0.7.34
+! TimeUpdated: 2024-02-14T14:32:24+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### Block useless widgets #######################
@@ -121,6 +121,7 @@ blog.livedoor.jp##.naka_rss
 blog.livedoor.jp##div[class^="footrss"]
 blog.livedoor.jp##div[class^="shitarss_"]
 blog.livedoor.jp##div[id^="shitarss_title_"]
+||ryusoku.com/assets/html/headline.html
 aaieba.livedoor.biz##.left-container
 blog.tinect.jp##p + .g.g-46 > .g-single
 jiwasoku.com###pcpc-rss

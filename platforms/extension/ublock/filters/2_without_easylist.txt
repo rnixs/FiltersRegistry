@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: p8hwbeU8hR4PcND2ME2Yiw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707917794-3600.patch
+! Checksum: RgvULqV14W611w6Xa6eBUA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707921387-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.22.33
-! TimeUpdated: 2024-02-14T13:32:50+00:00
+! Version: 2.3.22.34
+! TimeUpdated: 2024-02-14T14:32:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -821,6 +821,10 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||d1rr5z16sjcy10.cloudfront.net^
+||d2xupcbyjjjfoa.cloudfront.net^
+||d17xmf66fp9kg9.cloudfront.net^
+||d3icekm41k795y.cloudfront.net^
 ||ads.videy.co^
 ||ads.sportslocalmedia.com^
 ||ads.tvp.pl^
@@ -32325,6 +32329,9 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+forbes.com##.rtb-top-wrapper
+||wsj.com/assets-proxy/intdoaq
+||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=marketwatch.com
 aarp.org#$?#.uxdia-leaderboard-js--sticky { remove: true; }
 ||uploady.io/nt.js
 fresherslive.com##div[class^="desk-ad"]

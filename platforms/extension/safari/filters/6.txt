@@ -1,9 +1,9 @@
-! Checksum: pMmqayxE7TwYmmzmBXrYfA
-! Diff-Path: ../patches/6/6-s-1707863770-3600.patch
+! Checksum: ihxpCI2McNfA1faLPPxMAQ
+! Diff-Path: ../patches/6/6-s-1707921383-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.45
-! TimeUpdated: 2024-02-13T22:33:09+00:00
+! Version: 2.0.40.46
+! TimeUpdated: 2024-02-14T14:33:13+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -655,6 +655,8 @@ schnittmuster-datenbank.de#%#//scriptlet("abort-on-property-read", "adsBlocked")
 @@||ads-api.twitter.com^$domain=schnittmuster-datenbank.de
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172735
+@@||static.kleinanzeigen.de/static/js/belen/tracking/adblock-detection
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172385
 aktion-holz.de#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "/abisuq/")
 aktion-holz.de#@##AdLayer1
