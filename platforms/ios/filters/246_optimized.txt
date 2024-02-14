@@ -1,9 +1,9 @@
-! Checksum: gwrDhtF7Iv0bPurTVVm2hQ
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1707916035-14400.patch
+! Checksum: zZHxyTzY8Eq+RDK+1NBkvA
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1707930489-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.39.89
-! TimeUpdated: 2024-02-14T13:02:58+00:00
+! Version: 2.1.39.90
+! TimeUpdated: 2024-02-14T17:03:06+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -290,7 +290,6 @@ supernowosci24.pl##[id^="r-"]
 ||kmziz.pl^*^728x90c^
 ||kobiety-kobietom.com^*^dobrykantor.
 ||komediowo.pl^*^ciekawe-miejsca-
-||kopalniawiedzy.pl^*^skanerMKS.
 ||koscierzyna24.info^*^s3_
 ||kreacje.ebroker.pl^$image,domain=max-kasa.pl
 ||kryniczanie.pl^*^ubezpieczenie-na-
@@ -1679,7 +1678,7 @@ starosadeckie.info##.the-slider ~ div[style^="overflow: hidden"]
 bialogardinfo.pl##.theiaStickySidebar .g-dyn
 odkryjpomorze.pl##.ticker-container
 wpolityce.pl##.tile--ad-tile
-cosiedzieje.tv,expresskaszebe.pl,gostynin24.pl,kk24.pl,malbork1.pl,nasztomaszow.pl,truso.tv,tuolawa.pl,tvmaster.eu,tvpolice.com.pl,tvsudecka.pl,tygodnik-krapkowicki.pl,zachodniopomorska.tv##.tipad_tag
+bobasmiesiaca.pl,cosiedzieje.tv,expresskaszebe.pl,gostynin24.pl,kk24.pl,malbork1.pl,nasztomaszow.pl,truso.tv,tuolawa.pl,tvmaster.eu,tvpolice.com.pl,tvsudecka.pl,tygodnik-krapkowicki.pl,zachodniopomorska.tv##.tipad_tag
 kk24.pl,rzeszow-info.pl##.tipad_tag + a
 transfermarkt.pl##.tm-header > div > img[src$=".gif"]
 meblarskapolska.pl##.tm-promt-image
