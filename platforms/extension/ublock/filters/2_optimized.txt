@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Fh2+md+YfqhcUWMAzO2iBg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1707935842-3600.patch
+! Checksum: SAe115QTK+UGYvwiCtAxuw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1707939408-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.22.36
-! TimeUpdated: 2024-02-14T18:33:02+00:00
+! Version: 2.3.22.37
+! TimeUpdated: 2024-02-14T19:33:22+00:00
 ! Expires: 5 days (update frequency)
 ||wenoolgo.icu^$all
 ||slownansuch.info^$popup
@@ -18963,6 +18963,7 @@ _800x80_
 ##a[href^="//go.eabids.com/"]
 ##a[href^="//s.st1net.com/splash.php"]
 ##a[href^="http://adultfriendfinder.com/go/"]
+##a[href^="http://avthelkp.net/"]
 ##a[href^="http://cam4com.go2cloud.org/aff_c?"]
 ##a[href^="http://dragfault.com/"]
 ##a[href^="http://guestblackmail.com/"]
@@ -29141,6 +29142,7 @@ browsershots.org#@#.advert_area
 ||stullsstud.com^
 ||stumercackles.com^
 ||stunthedge.com^
+||stvbiopr.net^
 ||stvkr.com^
 ||sualgvoi.com^
 ||sub.xxx-porn-tube.com^
@@ -31628,6 +31630,7 @@ browsershots.org#@#.advert_area
 ||stickingrepute.com^$popup
 ||stoopedsignbookkeeper.com^$popup
 ||stoorgel.com^$popup
+||stvbiopr.net^$popup
 ||stvkr.com^$popup
 ||supremeoutcome.com^$popup
 ||taghaugh.com^$popup
@@ -32464,6 +32467,7 @@ browsershots.org#@#.advert_area
 ||tampermonkey.net/s.js
 ||tashanmp3.com/api/pops/
 ||thephuketnews.com/photo/banner/
+||thespike.gg/images/bc-game/
 ||timesnownews.com/dfpamzn.js
 ||torrentfreak.com/wp-content/banners/
 ||tpc.googlesyndication.com^

@@ -1,9 +1,9 @@
-! Checksum: zSyiuYxib0R7WT5dyk0r+g
-! Diff-Path: ../patches/14/14-s-1707935766-3600.patch
+! Checksum: XW979H38EkzTiO1Oijx/xg
+! Diff-Path: ../patches/14/14-s-1707939379-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.73
-! TimeUpdated: 2024-02-14T18:32:05+00:00
+! Version: 2.1.87.74
+! TimeUpdated: 2024-02-14T19:32:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13050,8 +13050,6 @@ online.swedbank.se##fdp-widget-cookie-consent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141023
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167103
 ! TODO: rewrite and move to top when https://github.com/AdguardTeam/Scriptlets/issues/284 is resolved
-! https://github.com/AdguardTeam/AdguardFilters/issues/132219
-! https://github.com/AdguardTeam/AdguardFilters/issues/131476
 ! youtube - new cookie window
 ! https://github.com/AdguardTeam/Scriptlets/issues/212
 ! TODO: replace the rule with a scriptlet `set-cookie-reload` when it is improved
@@ -13069,7 +13067,6 @@ online.swedbank.se##fdp-widget-cookie-consent
 ! Navigation to images in Google search is broken when the value 'CAESHA' is used, so it's necessary to use the real value
 ! Rules below causes that settings are not saved - https://github.com/AdguardTeam/AdguardFilters/issues/161778#issuecomment-1727832192
 !
-!! Breaks config button - https://github.com/AdguardTeam/AdguardFilters/issues/138489
 ! NOTE: Specific rules (JS) end ⬆️
 ! !SECTION: Cookies - Specific rules (JS)
 !
