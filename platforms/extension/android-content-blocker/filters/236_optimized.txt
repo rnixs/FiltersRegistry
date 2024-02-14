@@ -1,9 +1,9 @@
-! Checksum: qGs9VOQdlhzaF+L2tvycQw
-! Diff-Path: ../patches/236_optimized/236_optimized-s-1705842374-14400.patch
+! Checksum: unAJR+kI7mOtptcVNPeL8w
+! Diff-Path: ../patches/236_optimized/236_optimized-s-1707944785-14400.patch
 ! Title: road-block light (Optimized)
 ! Description: Romanian ad blocking filter subscription.
-! Version: 2.0.2.44
-! TimeUpdated: 2024-01-21T13:02:45+00:00
+! Version: 2.0.2.45
+! TimeUpdated: 2024-02-14T21:02:49+00:00
 ! Expires: 5 days (update frequency)
 /plugins/footer-pop-up-banner/*
 /Reclama/*
@@ -1110,6 +1110,7 @@ diacritice.ro##.space
 loganclub.ro##.axd
 clubmercedes.ro##.axd
 ||clubmercedes.ro/*.gif$image
+||hostclub.ro^$subdocument,domain=forum.b-zone.ro
 litoraltv.ro##.pum-active
 litoraltv.ro#$#html { overflow: auto !important; }
 ||blaneo.com^

@@ -1,9 +1,9 @@
-! Checksum: slGp5fkBeXLOPEsJdgh3eg
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1707930393-14400.patch
+! Checksum: lwK0H7+wpG3bPErOEcpw5g
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1707944776-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.20.85
-! TimeUpdated: 2024-02-14T17:01:42+00:00
+! Version: 2.1.20.86
+! TimeUpdated: 2024-02-14T21:01:40+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -8960,6 +8960,7 @@ _800x80_
 ##a[href^="//go.eabids.com/"]
 ##a[href^="//s.st1net.com/splash.php"]
 ##a[href^="http://adultfriendfinder.com/go/"]
+##a[href^="http://avthelkp.net/"]
 ##a[href^="http://bongacams.com/track?"]
 ##a[href^="http://cam4com.go2cloud.org/aff_c?"]
 ##a[href^="http://dragfault.com/"]
@@ -25647,6 +25648,7 @@ browsershots.org#@#.advert_area
 ||stullsstud.com^
 ||stumercackles.com^
 ||stunthedge.com^
+||stvbiopr.net^
 ||stvkr.com^
 ||stylewhiskerscreepy.com^
 ||sualgvoi.com^
@@ -29627,6 +29629,7 @@ browsershots.org#@#.advert_area
 ||stoopedsignbookkeeper.com^$popup
 ||stoorgel.com^$popup
 ||strtgic.com^$popup
+||stvbiopr.net^$popup
 ||stvkr.com^$popup
 ||supremeoutcome.com^$popup
 ||suptraf.com^$popup
@@ -30813,6 +30816,7 @@ browsershots.org#@#.advert_area
 ||tampermonkey.net/s.js
 ||tashanmp3.com/api/pops/
 ||thephuketnews.com/photo/banner/
+||thespike.gg/images/bc-game/
 ||timesnownews.com/dfpamzn.js
 ||torrentfreak.com/wp-content/banners/
 ||tpc.googlesyndication.com^

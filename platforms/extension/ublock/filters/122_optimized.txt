@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: u4iV3CJUg8QCHdqhmaugDA
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1707930476-14400.patch
+! Checksum: YJm1WdSC+esyqbuiYdwtQg
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1707944816-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.11
-! TimeUpdated: 2024-02-14T17:02:14+00:00
+! Version: 2.1.21.12
+! TimeUpdated: 2024-02-14T21:02:12+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -14853,6 +14853,7 @@ bayernportal.de##+js(set-cookie, cookieConsent, true, , reload, 1)
 bayernportal.de##+js(set-cookie, videoConsent, true)
 bayernportal.de##+js(set-cookie, comfortConsent, true)
 ayudatpymes.com,zipjob.com##+js(set-cookie, cookie_consent, 1)
+thenounproject.com##+js(set-cookie, cookie_consent, 1, , reload, 1)
 pricehubble.com##+js(set-cookie, cookieBannerAccepted, 1, , reload, 1)
 ilmotorsport.de##+js(set-cookie, cookieMsg, true, , reload, 1)
 monese.com##+js(set-cookie, accept-cookies, true)
@@ -18055,6 +18056,7 @@ bayernportal.de##+js(set-cookie, cookieConsent, true, , reload, 1)
 bayernportal.de##+js(set-cookie, videoConsent, true)
 bayernportal.de##+js(set-cookie, comfortConsent, true)
 ayudatpymes.com,zipjob.com##+js(set-cookie, cookie_consent, 1)
+thenounproject.com##+js(set-cookie, cookie_consent, 1, , reload, 1)
 pricehubble.com##+js(set-cookie, cookieBannerAccepted, 1, , reload, 1)
 ilmotorsport.de##+js(set-cookie, cookieMsg, true, , reload, 1)
 monese.com##+js(set-cookie, accept-cookies, true)

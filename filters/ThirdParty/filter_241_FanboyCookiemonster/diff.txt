@@ -1492,6 +1492,8 @@ bayernportal.de##+js(set-cookie, videoConsent, true)
 bayernportal.de##+js(set-cookie, comfortConsent, true)
 ! Rule "ayudatpymes.com,zipjob.com##+js(set-cookie, cookie_consent, 1)" converted to: "ayudatpymes.com,zipjob.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1')"
 ayudatpymes.com,zipjob.com##+js(set-cookie, cookie_consent, 1)
+! Rule "thenounproject.com##+js(set-cookie, cookie_consent, 1, , reload, 1)" converted to: "thenounproject.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1', '', 'reload', '1')"
+thenounproject.com##+js(set-cookie, cookie_consent, 1, , reload, 1)
 ! Rule "pricehubble.com##+js(set-cookie, cookieBannerAccepted, 1, , reload, 1)" converted to: "pricehubble.com#%#//scriptlet('ubo-set-cookie.js', 'cookieBannerAccepted', '1', '', 'reload', '1')"
 pricehubble.com##+js(set-cookie, cookieBannerAccepted, 1, , reload, 1)
 ! Rule "ilmotorsport.de##+js(set-cookie, cookieMsg, true, , reload, 1)" converted to: "ilmotorsport.de#%#//scriptlet('ubo-set-cookie.js', 'cookieMsg', 'true', '', 'reload', '1')"

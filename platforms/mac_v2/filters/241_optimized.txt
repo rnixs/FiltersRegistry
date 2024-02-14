@@ -1,9 +1,9 @@
-! Checksum: N/GA6A4c80NRAQoziInjXQ
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1707930510-14400.patch
+! Checksum: 20KMBa6waD06b0ysRRyV+A
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1707944835-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.29.13
-! TimeUpdated: 2024-02-14T17:03:01+00:00
+! Version: 2.1.29.14
+! TimeUpdated: 2024-02-14T21:02:58+00:00
 ! Expires: 12 hours (update frequency)
 -consent-banner-
 -consent-banner.
@@ -22309,6 +22309,7 @@ bayernportal.de#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'true', '', 
 bayernportal.de#%#//scriptlet('ubo-set-cookie.js', 'videoConsent', 'true')
 bayernportal.de#%#//scriptlet('ubo-set-cookie.js', 'comfortConsent', 'true')
 ayudatpymes.com,zipjob.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1')
+thenounproject.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1', '', 'reload', '1')
 pricehubble.com#%#//scriptlet('ubo-set-cookie.js', 'cookieBannerAccepted', '1', '', 'reload', '1')
 ilmotorsport.de#%#//scriptlet('ubo-set-cookie.js', 'cookieMsg', 'true', '', 'reload', '1')
 monese.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'true')

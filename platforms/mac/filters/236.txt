@@ -1,9 +1,9 @@
-! Checksum: 7u6S7MdjIBmcgF3HTC7pNw
-! Diff-Path: ../patches/236/236-s-1705842411-14400.patch
+! Checksum: FYvsFZqNP+hxmfhkdcPFig
+! Diff-Path: ../patches/236/236-s-1707944829-14400.patch
 ! Title: road-block light
 ! Description: Romanian ad blocking filter subscription.
-! Version: 2.0.2.44
-! TimeUpdated: 2024-01-21T13:02:45+00:00
+! Version: 2.0.2.45
+! TimeUpdated: 2024-02-14T21:02:49+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: ROU: Romanian Ad (ROad) Block List Light
@@ -1314,6 +1314,8 @@ diacritice.ro##.space
 loganclub.ro##.axd
 clubmercedes.ro##.axd
 ||clubmercedes.ro/*.gif$image
+||hostclub.ro^$subdocument,domain=forum.b-zone.ro
+forum.b-zone.ro##.ipsPad.ipsWidget_inner:has([src*="://www.hostclub.ro"])
 ! Title: Romanian specific uBO filters
 ! Expires: 3 days
 ! Issue tracker: https://github.com/tcptomato/ROad-Block/issues
