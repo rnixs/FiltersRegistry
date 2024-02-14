@@ -1,9 +1,9 @@
-! Checksum: CsI7liT6mbXHuuFjzpzGVQ
-! Diff-Path: ../patches/237_optimized/237_optimized-s-1707844020-14400.patch
+! Checksum: C65f2Pv6Z49g7cWbQ9yf2A
+! Diff-Path: ../patches/237_optimized/237_optimized-s-1707916021-14400.patch
 ! Title: Polish Annoyances Filters (Optimized)
 ! Description: Filter list that hides and blocks pop-ups, widgets, newsletters, push notifications, arrows, tagged internal links that are off-topic, and other irritating elements. Polish GDPR-Cookies Filters is already in it.
-! Version: 1.0.30.74
-! TimeUpdated: 2024-02-13T17:03:09+00:00
+! Version: 1.0.30.75
+! TimeUpdated: 2024-02-14T13:02:50+00:00
 ! Expires: 5 days (update frequency)
 ||4prm.pl/*/4p_newsletter.jpg
 ||a-ajurweda.pl/images/layout/ajurweda/newsletter_ajurweda.png
@@ -6190,6 +6190,7 @@ partneragdrtv.com.pl###js-sis_menu
 pasazer.com##.fixed-search-tabs
 pcworld.pl###newsmore
 pep.pl##.work-offers
+pepper.pl##.browserExtension-promotionBanner
 pepper.pl##.js-keyword-alerts.thread :is(.threadGrid-image, .threadGrid-title)
 pepper.pl#?#.cept-banner.js-banner:-abp-has([alt*="App" i])
 pepper.pl#?#.cept-banner.js-banner:-abp-has([alt*="Hall of flame" i])

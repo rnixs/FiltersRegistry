@@ -1,14 +1,14 @@
-! Checksum: 4pT2bilsPf+wB2sraoLfug
-! Diff-Path: ../patches/227/227-s-1707887223-14400.patch
+! Checksum: ObnUUJaek0oCJucZto9Y2Q
+! Diff-Path: ../patches/227/227-s-1707916053-14400.patch
 ! Title: List-KR
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.64
-! TimeUpdated: 2024-02-14T05:02:32+00:00
+! Version: 2.0.17.65
+! TimeUpdated: 2024-02-14T13:02:29+00:00
 ! Expires: 12 hours (update frequency)
 !
 ! Title: List-KR for AdGuard
 ! Description: List-KR for AdGuard. Maintained by the adblock community and AdGuard.
-! OriginalVersion: 2024.0214.1
+! OriginalVersion: 2024.0214.4
 ! Expires: 1 day
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://github.com/List-KR/List-KR/issues/223
@@ -3134,6 +3134,7 @@ blacktoon276.com,blacktoon277.com,blacktoon278.com,blacktoon279.com,blacktoon280
 ! PopMagic
 watchfreejavonline.co#%#//scriptlet('abort-current-inline-script', 'popMagic.init')
 ! m.humoruniv.com
+m.humoruniv.com#%#//scriptlet('prevent-setTimeout', 'height && 1 <= height && height <= 20')
 m.humoruniv.com#%#//scriptlet('set-constant', 'list_end_run', 'noopFunc')
 m.humoruniv.com#%#//scriptlet('abort-on-stack-trace', '$.prototype.html', '_boom')
 m.humoruniv.com#%#//scriptlet('abort-current-inline-script', '$.prototype.html', '/\/images\/[A-z0-9-_]+\.?(jpg|gif)/')
@@ -3265,6 +3266,7 @@ aagag.com#$#.la { height: 75px !important; width: 75px !important; visibility: h
 t.hi098123.com#$#.tabad { visibility: hidden !important; }
 t.hi098123.com#$#article.inner2 { top: 0px !important; }
 !
+svrforum.com##body > div[class][style*="box-shadow:"]
 luckyquiz3.blogspot.com#%#//scriptlet('abort-on-stack-trace', 'Node.prototype.insertBefore', '.html')
 luckyquiz3.blogspot.com#%#//scriptlet('set-cookie', 'notToday2', 'Y')
 sbs.co.kr#%#//scriptlet('prevent-element-src-loading', 'script', 'imasdk.googleapis.com/js/sdkloader/ima3.js')

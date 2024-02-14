@@ -1,15 +1,15 @@
-! Checksum: +VaRTkd2dwDZ4WI5IPwQ3w
-! Diff-Path: ../patches/101/101-s-1707901728-14400.patch
+! Checksum: q+jlylIv2b19wE/vNau60Q
+! Diff-Path: ../patches/101/101-s-1707916043-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.20.83
-! TimeUpdated: 2024-02-14T09:02:47+00:00
+! Version: 2.1.20.84
+! TimeUpdated: 2024-02-14T13:01:37+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: IR5lY5gN8NVBTsCFLUCNsQ
-! OriginalVersion: 202402140851
+! Checksum: 4oReNMKqF4t+gEsU2b2kFg
+! OriginalVersion: 202402141251
 ! Title: EasyList
-! Last modified: 14 Feb 2024 08:51 UTC
+! Last modified: 14 Feb 2024 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12582,6 +12582,7 @@ _800x80_
 ##.c-gallery-vertical__advert
 ##.c-googleadslot
 ##.c-gpt-ad
+##.c-header__ad
 ##.c-header__advert-container
 ##.c-inblog_ad
 ##.c-main-header__ad
@@ -17475,6 +17476,7 @@ _800x80_
 ##[data-ad-width]
 ##[data-adblockkey]
 ##[data-adbridg-ad-class]
+##[data-adshim]
 ##[data-advadstrackid]
 ##[data-css-class="dfp-inarticle"]
 ##[data-d-ad-id]
