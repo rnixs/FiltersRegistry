@@ -1,0 +1,15 @@
+d2 2
+a3 2
+! Checksum: 9c1eOMcjLzY+EJWzqkd5Rg
+! Diff-Path: ../patches/14/14-s-1707903387-3600.patch
+d6 2
+a7 2
+! Version: 2.1.87.64
+! TimeUpdated: 2024-02-14T09:31:59+00:00
+a2333 1
+platform.stability.ai###app > .bg-brand-gray-1.fixed.bottom-5.left-5
+a36302 1
+foodora.*##+js(set-cookie, hideSmartphoneBanner, 1)
+a42963 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/172751
+foodora.*##+js(set-cookie, rider-banner-hidden, 1)
