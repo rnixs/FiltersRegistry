@@ -1,9 +1,9 @@
-! Checksum: cSjWWQ8cX/MhUgUCpEruXg
-! Diff-Path: ../patches/22/22-s-1707910652-3600.patch
+! Checksum: TgenXTV7Hxpjxq9z9aWLYg
+! Diff-Path: ../patches/22/22-s-1707917809-3600.patch
 ! Title: AdGuard Widgets filter
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.32
-! TimeUpdated: 2024-02-14T11:33:10+00:00
+! Version: 2.0.7.33
+! TimeUpdated: 2024-02-14T13:32:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -247,6 +247,7 @@ blog.livedoor.jp##div[id^="shitarss_title_"]
 !
 ! NOTE: Blogroll specific rules
 !
+aaieba.livedoor.biz##.left-container
 blog.tinect.jp##p + .g.g-46 > .g-single
 jiwasoku.com###pcpc-rss
 jiwasoku.com###test-blo
