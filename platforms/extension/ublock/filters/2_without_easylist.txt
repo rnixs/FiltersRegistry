@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 3QbvBxPZcltfmMct0s7RRQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707942968-3600.patch
+! Checksum: 389nmZjscQPv348aWas+eQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1707946573-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.22.38
-! TimeUpdated: 2024-02-14T20:32:48+00:00
+! Version: 2.3.22.39
+! TimeUpdated: 2024-02-14T21:32:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -28676,8 +28676,6 @@ stre4mplay.*,streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,strean
 javhdfree.icu##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85566
 kartaplovdiv.com##+js(remove-attr, href, a[href="https://kartaplovdiv.com/c5/sexdating.php"])
-! https://github.com/AdguardTeam/AdguardFilters/issues/85475
-puzzles.msn.com##+js(nano-setInterval-booster, game will, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85097
 givemenbastreams.com##+js(window.open-defuser)
 ! popup
@@ -28855,7 +28853,6 @@ itsfuck.com,stilltube.com##+js(remove-attr, onclick, .previewhd > a)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79679
 history.com##+js(set-constant, phxSiteConfig.gallery.ads.interstitialFrequency, {})
 history.com##+js(remove-class, has-ad-top|has-ad-right, .m-gallery-overlay.has-ad-top.has-ad-right)
-! https://github.com/AdguardTeam/AdguardFilters/issues/79665
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79775
 reuters.com##+js(no-setTimeout-if, .call(null), 10)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79356
@@ -29808,7 +29805,6 @@ shortearn.eu##+js(window.open-defuser)
 adbull.site##+js(set-constant, window.open, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46722
 mstream.xyz##+js(abort-on-property-read, doSecondPop)
-! https://github.com/AdguardTeam/AdguardFilters/issues/46615
 ! https://github.com/AdguardTeam/AdguardFilters/issues/6537
 fetishshrine.com##+js(abort-on-property-read, customScript)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46280

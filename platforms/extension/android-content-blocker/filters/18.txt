@@ -1,9 +1,9 @@
-! Checksum: ysDvXeLAFJfVV0iVHmmf+A
-! Diff-Path: ../patches/18/18-s-1707939380-3600.patch
+! Checksum: ahrQXcWZcUUFfFLngS7wVw
+! Diff-Path: ../patches/18/18-s-1707946544-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.56
-! TimeUpdated: 2024-02-14T19:32:35+00:00
+! Version: 2.0.33.57
+! TimeUpdated: 2024-02-14T21:31:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9478,7 +9478,6 @@ englishdom.com##.js-gdpr-tooltip
 drp.su,driverpack.io##.GdprBanner__bg
 twin.com##.cookiePolicyView
 symbolab.com##.nl-cookiepolicy
-puzzles.msn.com##div[class^="CookieBanner__Banner_"]
 coral.ru##.cookieAgreement
 jugendhilfeportal.de,volksbund.de###ig-cookie-simple
 brillen-sehhilfen.de###datenschutzhinweis
