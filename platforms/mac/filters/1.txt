@@ -1,9 +1,9 @@
-! Checksum: 2eik0zm/VgpQqkJXNLQJyA
-! Diff-Path: ../patches/1/1-s-1707917804-3600.patch
+! Checksum: Tm4hXCCUak/yiA5JTgYQsQ
+! Diff-Path: ../patches/1/1-s-1707925076-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.59
-! TimeUpdated: 2024-02-14T13:32:17+00:00
+! Version: 2.0.88.60
+! TimeUpdated: 2024-02-14T15:32:13+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5703,7 +5703,9 @@ auto.ru###app .ym-hide-content
 !
 ! Common rules
 www.kinopoisk.ru,yandex.*#%#//scriptlet('abort-on-property-write', 'Object.prototype.adSystem')
-||yandex.ru/ads/system/context.js$script,xmlhttprequest,redirect-rule=noopjs
+! TODO: remove the domain from the rule below or leave it after reviewing the task
+! https://github.com/AdguardTeam/Scriptlets/issues/406
+||yandex.ru/ads/system/context.js$script,xmlhttprequest,redirect-rule=noopjs,domain=~vseinstrumenti.ru
 !
 ! END: Yandex
 !

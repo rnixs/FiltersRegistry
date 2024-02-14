@@ -1,0 +1,13 @@
+d1 2
+a2 2
+! Checksum: uVgKRddc5dAz5bCAPQztUQ
+! Diff-Path: ../patches/1/1-s-1707925085-3600.patch
+d5 2
+a6 2
+! Version: 2.0.88.60
+! TimeUpdated: 2024-02-14T15:32:13+00:00
+d5706 1
+a5706 3
+! TODO: remove the domain from the rule below or leave it after reviewing the task
+! https://github.com/AdguardTeam/Scriptlets/issues/406
+||yandex.ru/ads/system/context.js$script,xmlhttprequest,redirect-rule=noopjs,domain=~vseinstrumenti.ru
