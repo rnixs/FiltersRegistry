@@ -1,9 +1,9 @@
-! Checksum: zmtgYSqzLU4ISCzLNk4e1Q
-! Diff-Path: ../patches/21/21-s-1707910603-3600.patch
+! Checksum: VHwdmNYqFNkQBTtj1VR3sg
+! Diff-Path: ../patches/21/21-s-1707914188-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.75
-! TimeUpdated: 2024-02-14T11:33:03+00:00
+! Version: 2.0.19.76
+! TimeUpdated: 2024-02-14T12:32:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6243,8 +6243,9 @@ eiga.com##.header-pure-banner
 !##############################
 ! SECTION: Tweaks - CSS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172741
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169109
-lepoint.fr,lpnt.fr#$#.dailymotion-player-wrapper { height: 100% !important; position: absolute !important; width: 100% !important; transform: translate(0px, 0px) !important; z-index: auto !important; }
+cumhuriyet.com.tr,lepoint.fr,lpnt.fr#$#.dailymotion-player-wrapper { height: 100% !important; position: absolute !important; width: 100% !important; transform: translate(0px, 0px) !important; z-index: auto !important; }
 ! https://go.tinys.click/jzEDHsQHbNTokEJrRorG timer
 tinys.click#$##wpsafe-link { display: block !important; }
 tinys.click#$##wpsafe-generate { display: block !important; }
