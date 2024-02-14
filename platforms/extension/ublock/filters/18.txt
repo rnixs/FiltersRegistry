@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Qo/2Hgvd1NW1nP7P1cKCYw
-! Diff-Path: ../patches/18/18-s-1707903388-3600.patch
+! Checksum: 67hgtEmQTzHIWT8r3QDTSA
+! Diff-Path: ../patches/18/18-s-1707906993-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.46
-! TimeUpdated: 2024-02-14T09:32:10+00:00
+! Version: 2.0.33.47
+! TimeUpdated: 2024-02-14T10:32:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13735,7 +13735,7 @@ rynekpierwotny.pl##+js(set-local-storage-item, lscache-cookieMessageIsRead, true
 uxfeedback.ru##+js(set-local-storage-item, uxfb_cookies, true)
 premiumkino.de##+js(set-cookie, cookie_required, true)
 happydog.de##+js(set-cookie, mnd-cookie-accepted-happydogde4, 1)
-trolley-center.com,rabe-markt.com,holland-shop.com,hanse-soft.de,bamboo-nr-1.de,kvm-ip.de,team-undercover.de,superpreis-moebel.de,kantenschutzprofi.shop,diorama-world.com,colvital.de##+js(set-cookie-reload, epCookieConsent, 0)
+anderweltverlag.com,trolley-center.com,rabe-markt.com,holland-shop.com,hanse-soft.de,bamboo-nr-1.de,kvm-ip.de,team-undercover.de,superpreis-moebel.de,kantenschutzprofi.shop,diorama-world.com,colvital.de##+js(set-cookie-reload, epCookieConsent, 0)
 lolaliza.com##+js(set-cookie, enableTracking, false)
 peakd.com##+js(set-cookie, COOKIE_CONSENT_ACCEPTED, true)
 refurbishedstore.de##+js(set-cookie-reload, COOKIE_CONSENT, true)

@@ -1,9 +1,9 @@
-! Checksum: bhmE5aDl3/WxUUJROw2RhQ
-! Diff-Path: ../patches/19/19-s-1707838580-3600.patch
+! Checksum: ILijSrO8BrvESeYPrW5fHw
+! Diff-Path: ../patches/19/19-s-1707906958-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.58
-! TimeUpdated: 2024-02-13T15:32:27+00:00
+! Version: 2.0.31.59
+! TimeUpdated: 2024-02-14T10:32:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3830,6 +3830,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 /cmp/cmp.*.js
 /cmp/cmp.js
 !
+||pt.wisernotify.com^
 ||ex1tp.com^$third-party
 ||player.gliacloud.com^$third-party
 ||getresponse.com^$third-party

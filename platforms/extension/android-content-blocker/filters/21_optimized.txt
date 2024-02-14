@@ -1,9 +1,9 @@
-! Checksum: kYQFKeEfGqpUTzQ+rdDDYA
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1707903362-3600.patch
+! Checksum: RZSEeUjIC8B8qP0YsnMFGg
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1707906959-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.73
-! TimeUpdated: 2024-02-14T09:32:25+00:00
+! Version: 2.0.19.74
+! TimeUpdated: 2024-02-14T10:32:22+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com##._aagw:empty
@@ -1119,6 +1119,7 @@ alexfitness.ru#$#div.modal-backdrop { display: none!important; }
 alexfitness.ru#$#.modal-open { overflow: visible!important; }
 tf1.fr##div[aria-describedby^="max-banner-"]
 ||contributions.guardianapis.com^
+ptsecurity.com##.sidebar-item_banner
 eikoh.co.jp##.targetSpace
 dbook.docomo.ne.jp##.p-top-banner
 sbermarket.ru##div[class^="BannersAndSlidersThroughCatalog"]

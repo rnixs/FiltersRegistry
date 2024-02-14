@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 9c1eOMcjLzY+EJWzqkd5Rg
-! Diff-Path: ../patches/14/14-s-1707903387-3600.patch
+! Checksum: pd6eLjH1mByi4fuc/wxv+Q
+! Diff-Path: ../patches/14/14-s-1707906992-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.64
-! TimeUpdated: 2024-02-14T09:31:59+00:00
+! Version: 2.1.87.65
+! TimeUpdated: 2024-02-14T10:31:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13735,7 +13735,7 @@ rynekpierwotny.pl##+js(set-local-storage-item, lscache-cookieMessageIsRead, true
 uxfeedback.ru##+js(set-local-storage-item, uxfb_cookies, true)
 premiumkino.de##+js(set-cookie, cookie_required, true)
 happydog.de##+js(set-cookie, mnd-cookie-accepted-happydogde4, 1)
-trolley-center.com,rabe-markt.com,holland-shop.com,hanse-soft.de,bamboo-nr-1.de,kvm-ip.de,team-undercover.de,superpreis-moebel.de,kantenschutzprofi.shop,diorama-world.com,colvital.de##+js(set-cookie-reload, epCookieConsent, 0)
+anderweltverlag.com,trolley-center.com,rabe-markt.com,holland-shop.com,hanse-soft.de,bamboo-nr-1.de,kvm-ip.de,team-undercover.de,superpreis-moebel.de,kantenschutzprofi.shop,diorama-world.com,colvital.de##+js(set-cookie-reload, epCookieConsent, 0)
 lolaliza.com##+js(set-cookie, enableTracking, false)
 peakd.com##+js(set-cookie, COOKIE_CONSENT_ACCEPTED, true)
 refurbishedstore.de##+js(set-cookie-reload, COOKIE_CONSENT, true)
@@ -21683,6 +21683,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 /cmp/cmp.*.js
 /cmp/cmp.js
 !
+||pt.wisernotify.com^
 ||ex1tp.com^$third-party
 ||player.gliacloud.com^$third-party
 ||getresponse.com^$third-party
@@ -29745,6 +29746,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+ptsecurity.com##.sidebar-item:has(> form[class] > div.subscribe-form__title)
 nypost.com##.inline-module--newsletter
 themirror.com###auth-ui_marketing-opt-in-container
 bookpress.gr##.custom > div.moduletable
@@ -44667,6 +44669,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+ptsecurity.com##.sidebar-item_banner
 eikoh.co.jp##.targetSpace
 dbook.docomo.ne.jp##.p-top-banner
 sbermarket.ru##div[class^="BannersAndSlidersThroughCatalog"]
