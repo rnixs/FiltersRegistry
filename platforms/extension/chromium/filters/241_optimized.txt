@@ -1,9 +1,9 @@
-! Checksum: isF2zNDtW6lGwdnTyQodhA
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1707959168-14400.patch
+! Checksum: wR//Gitg8Efx1DH6nHbxrQ
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1707973575-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.29.15
-! TimeUpdated: 2024-02-15T01:02:45+00:00
+! Version: 2.1.29.16
+! TimeUpdated: 2024-02-15T05:02:45+00:00
 ! Expires: 10 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -21982,6 +21982,9 @@ pubgesports.com#%#//scriptlet('ubo-set-cookie.js', 'functional', 'N')
 outwrite.com#%#//scriptlet('ubo-set-cookie.js', 'gradeproof_shown_cookie_warning', 'true')
 sberbank.com#%#//scriptlet('ubo-set-cookie.js', 'sber.pers_notice_en', '1')
 sbermarket.ru#%#//scriptlet('ubo-set-cookie.js', 'cookies_consented', 'yes')
+atani.com#%#//scriptlet('ubo-set-cookie.js', 'cookies_consent', 'true')
+atani.com#%#//scriptlet('ubo-set-cookie.js', 'cookies_consent', 'false')
+atani.com#%#//scriptlet('ubo-set-cookie.js', 'anal-opt-in', 'false')
 bgextras.co.uk#%#//scriptlet('ubo-set-cookie.js', 'CB393_DONOTREOPEN', 'true')
 sede.coruna.gal#%#//scriptlet('ubo-set-cookie.js', 'AYTO_CORUNA_COOKIES', '1', '', 'reload', '1')
 czech-server.cz#%#//scriptlet('ubo-set-cookie.js', 'I6IISCOOKIECONSENT0', 'n', '', 'reload', '1')
@@ -23966,9 +23969,8 @@ hallhuber.com##.cookie-box-modal
 hallhuber.com#$#body,html { height: auto !important; overflow: auto !important }
 one4all.ie#$#body,html { height: auto !important; overflow: auto !important }
 harveynorman.co.nz,harveynorman.com.sg,harveynorman.com.my#$#body,html { height: auto !important; overflow: auto !important }
-pentagon-group.co.uk###cookie
-pentagon-group.co.uk###cookies-dull-out
-pentagon-group.co.uk#$#body,html { overflow: auto !important; position: initial !important; }
+motustruckandvan.co.uk,countygarageford.co.uk,wjking.co.uk,bartletts-seat.com,kenbrownmotors.co.uk,suttonparkgroup.co.uk,toomeymotorgroup.co.uk,pentagon-group.co.uk,rjtkauto.com###cookies-dull-out
+motustruckandvan.co.uk,countygarageford.co.uk,wjking.co.uk,bartletts-seat.com,kenbrownmotors.co.uk,suttonparkgroup.co.uk,toomeymotorgroup.co.uk,pentagon-group.co.uk,rjtkauto.com#$#body,html { overflow: auto !important; position: initial !important; }
 opusteno.rs###conditions-l
 opusteno.rs#$#body,html { overflow: auto !important; position: initial !important; }
 elavon.ie##.cookiePolicy
