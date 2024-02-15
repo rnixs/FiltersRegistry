@@ -1,9 +1,9 @@
-! Checksum: OYwd9VXYOPNvYE81kQKNSQ
-! Diff-Path: ../patches/224/224-s-1707996976-3600.patch
+! Checksum: F2wgM1BbZQ2Z4+rFZwzwOw
+! Diff-Path: ../patches/224/224-s-1708014993-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.10.68
-! TimeUpdated: 2024-02-15T11:32:24+00:00
+! Version: 2.1.10.69
+! TimeUpdated: 2024-02-15T16:32:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4910,27 +4910,26 @@ newduba.cn###jq_youxi
 ||23.231.151.252^
 ||cupfox.app^$third-party
 ##a[href*=".bvftxy.com/"]
-||caomeixz7.xyz^
-||cdmnlxtu.xyz^
-||ngnxyub.cn^
-||tyodot.icu^
-||lvdedf.xyz^
-||spsfupq.cn^
-||yliffnsc.xyz^
-||agmed.cyou^
-||ycqbgm.xyz^
-||xszw0.icu^
-||ztxjutz.xyz^
 ||88lm05.com^
-||dsbqvj.xyz^
+||agmed.cyou^
+||caomeixz7.xyz^
 ||ccsshn137.shop^
-||cwssfg632.shop^
-||szpnz.cn^
+||cdmnlxtu.xyz^
 ||cliffnsc.xyz^
-||xcypgd.icu^
+||cwssfg632.shop^
+||dsbqvj.xyz^
+||lvdedf.xyz^
+||ngnxyub.cn^
+||spsfupq.cn^
 ||szpnz.cn^
-||xliffnsc.xyz^
+||tyodot.icu^
+||xcypgd.icu^
 ||xdmnlxtu.xyz^
+||xliffnsc.xyz^
+||xszw0.icu^
+||ycqbgm.xyz^
+||yliffnsc.xyz^
+||ztxjutz.xyz^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]

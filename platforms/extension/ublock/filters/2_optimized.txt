@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6rveK9D76YFORtfmXOSEZw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708011364-3600.patch
+! Checksum: 8459p4EVPsb/kpIMv5dZMw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708014999-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.22.52
-! TimeUpdated: 2024-02-15T15:32:43+00:00
+! Version: 2.3.22.53
+! TimeUpdated: 2024-02-15T16:32:56+00:00
 ! Expires: 5 days (update frequency)
 ||arwobaton.com^$all
 ||gaming001.site^$all
@@ -4369,6 +4369,7 @@ syri.net##div[id^="rekl-"]
 ||filma24.*/kazino*.gif
 ||i.imgur.com^$domain=filma24.*
 ||gjc.gjirafa.com^
+nabd.com##div[id^="nb-ad-"]
 ||go4kora.tv/assets/js/script_antiAdBlock_*.js
 livekoora.info##+js(abort-on-property-write, checkAdsStatus)
 go4kooora.com##+js(no-fetch-if, pagead2.googlesyndication.com)
