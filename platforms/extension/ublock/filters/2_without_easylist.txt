@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mw8ryMTyNePXUZ5zP/a7+Q
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708000601-3600.patch
+! Checksum: d3b/MeC9L1Ef+P2nmejDLw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708004318-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.22.49
-! TimeUpdated: 2024-02-15T12:32:45+00:00
+! Version: 2.3.22.50
+! TimeUpdated: 2024-02-15T13:34:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -77,6 +77,7 @@
 !
 !
 !
+||eanwhitepinafor.com^
 ||rubestdealfinder.com^
 ||wenoolgo.icu^$all
 ||slownansuch.info^$popup
@@ -6604,6 +6605,7 @@ chpadblock.com##+js(noeval-if, chp_adblock)
 starwarsaddicted.it,wuyong.fun,26g.me,myqqjd.com,poapan.xyz,javboys.com,idevicecentral.com,fcportables.com,codehelppro.com##+js(abort-on-property-read, reqServers)
 ! chp_ads_blocker popups, that can be hidden
 ! generic
+###chp_branding
 ##a[id][href="https://toolkitspro.com"][rel="noopener noreferrer"]
 ##a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
 ! specific
@@ -6705,7 +6707,6 @@ myqqjd.com##body > .wshop-pay-button + div[class][style="display:none;"] + div[i
 javcock.com,poapan.xyz,javboys.com##body > #site-wrapper > footer#site-footer + div[id][class*=" "]
 noblessetranslations.com,4allprograms.me,ahstudios.net##body > script[src] + div[id][class*=" "]:not([id*="_"])
 francaisfacile.net,o-pro.online,eda-ah.com,ta2deem7arbya.com,leechyscripts.com,killdhack.com,rarovhs.com,jpopsingles.eu,technicalatg.com,anreiter.at,moewalls.com,frenchweb.fr,freemagazines.top,desktopsolution.org,zuariya.com,bankofinfo.com,knightnoscanlation.com,pathshalanepal.com,angolopsicologia.com,courserecap.com,cyberbump.net,mikrometoxos.gr,geezwild.com,manga-fenix.com,codehelppro.com,9movierulz.*,icongnghe.com,pulpitandpen.org,turbolangs.com,skincaredupes.com,codeastro.com,saniaowner.space,chineseanime.co.in,hentai-mega-mix.com,ragnarokscan.com,codecap.org,themehits.com,katmoviefix.*,dragontea.ink,twinkybf.com,softfully.com,windowsbulletin.com,udemycoupons.me,365tips.be,animeactua.com,galaxytranslations97.com,myviptuto.com,tienichmaytinh.net,coursevania.com,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,mangakik.com,michaelemad.com,javgayplus.com,gaypornhdfree.com,fcportables.com,netfuck.net,mkvhouse.com##div[id^="chp_ads_block"]
-mikrometoxos.gr,geezwild.com,manga-fenix.com,codehelppro.com,9movierulz.*,icongnghe.com,turbolangs.com,skincaredupes.com,codeastro.com,saniaowner.space,chineseanime.co.in,katmoviefix.*###chp_branding
 !+ NOT_OPTIMIZED
 parking-map.info##body[class^=" "] > div[id][class]:not(#body_wrap)
 !+ NOT_OPTIMIZED
@@ -27111,7 +27112,7 @@ sitenable.*,filesdownloader.com,siteget.net,freeproxy.io,glodls.to##+js(abort-cu
 ! FingerprintJS
 sitenable.*,filesdownloader.com,siteget.net,freeproxy.io,glodls.to##+js(abort-on-stack-trace, navigator, Object.isFlashEnabled)
 wishanimes.com,hd-streams.org,skidrowreloaded.com##+js(abort-current-script, Promise, FingerprintJS)
-arcjav.com,mc-hacks.net,mycivillinks.com,woiden.com,wonderapk.com,megaup.net,exeo.app,vidsrc.*,cricstream.me,vipleague.*,socceronline.me,igg-games.co,crackstreams.*,torrentmac.net,vipboxtv.*,vipbox.*,userscloud.com,game3rb.com,soap2day.*,soccerworldcup.me,igg-games.com,miraculous.to,coloredmanga.com,hentaispark.com,send.cm##+js(abort-current-script, navigator, FingerprintJS)
+yoykp.com,arcjav.com,mc-hacks.net,mycivillinks.com,woiden.com,wonderapk.com,megaup.net,exeo.app,vidsrc.*,cricstream.me,vipleague.*,socceronline.me,igg-games.co,crackstreams.*,torrentmac.net,vipboxtv.*,vipbox.*,userscloud.com,game3rb.com,soap2day.*,soccerworldcup.me,igg-games.com,miraculous.to,coloredmanga.com,hentaispark.com,send.cm##+js(abort-current-script, navigator, FingerprintJS)
 !
 ! ad script wpadmngr.com
 nuuuppp.bio,fuxnxx.com,pornxp.org,pornxp.com,sukkisukki.com,hitomi.la,kmansin09.com,komiklokal.me,amateurblog.tv,fashionblog.tv,idolsblog.tv,latinblog.tv,silverblog.tv,tokyoblog.tv,xblog.tv,ilikecomix.com,edoujin.net,klmanga.net,porncomixonline.net,tokyoblog.tv,monoschinos2.com,idolsblog.tv,zetporn.com,javtiful.com,torlock.com,javhub.net,kisscos.net,javfor.tv,highporn.net,kissanimex.com##+js(abort-current-script, EventTarget.prototype.addEventListener, 0x)
@@ -31760,6 +31761,8 @@ neowin.net#$#div[class^="banner-"] { height: 0!important; min-height: 0!importan
 ! /asset/angular.min.js$domain=avple.video|javhdfree.icu|nekolink.site|mambast.tk|netflav.com|fembed-hd.com|ndrama.xyz|pornhole.club|ffem.club|jvembed.com|dzmdplay.xyz|jav247.top|yuistream.xyz|javfu.net|iframe2videos.xyz|viplayer.cc|watchjavnow.xyz|cdn-myhdjav.info|embed-media.com|fembed9hd.com|cloudrls.com|vidgo.top
 ! /asset/jquery/slim-3.2.min.js$domain=avple.video|javhdfree.icu|nekolink.site|mambast.tk|netflav.com|fembed-hd.com|ndrama.xyz|pornhole.club|ffem.club|jvembed.com|dzmdplay.xyz|jav247.top|yuistream.xyz|javfu.net|iframe2videos.xyz|viplayer.cc|watchjavnow.xyz|cdn-myhdjav.info|embed-media.com|fembed9hd.com|cloudrls.com|vidgo.top
 !
+! https://github.com/uBlockOrigin/uAssets/issues/9139#issuecomment-1945860142
+.com/api/users?token=*&uuid=&pii=&in=false^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158316
 ://trk.*.run^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156603
@@ -32314,6 +32317,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+luckymodapk.com##.popup-container
 scribd.com##div[data-testid="bottom-right-mrec"]
 scribd.com#$#div[data-testid="desktop-leaderboard"] { display: none !important; }
 scribd.com#$#.auto__doc_page_body_toolbar[style^="margin-top:"] { margin-top: 0 !important; }
@@ -54766,6 +54770,7 @@ implbits.com#@#.banner_container
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172808 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/HttpsExclusions/issues/560
 ! "Read sample" does not work on amazon.com and read.amazon.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172698 [Stealth Mode - Referrer]

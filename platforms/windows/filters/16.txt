@@ -1,9 +1,9 @@
-! Checksum: ijbhyIJyA8YZh56JL7ldvA
-! Diff-Path: ../patches/16/16-s-1707950175-3600.patch
+! Checksum: eCCisRwjI4EXBg5HlgtwUw
+! Diff-Path: ../patches/16/16-s-1708004354-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.50
-! TimeUpdated: 2024-02-14T22:31:56+00:00
+! Version: 2.0.43.51
+! TimeUpdated: 2024-02-15T13:33:11+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -862,6 +862,12 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+automobile-magazine.fr##.multi-opti
+automobile-magazine.fr##.multi-opti-mob
+automobile-magazine.fr##.bloc-promo
+automobile-magazine.fr##.bloc-promo-mega
+automobile-magazine.fr##.wrap-am.bloc-line-three.annonces
+automobile-magazine.fr##.bloc-arts > .small-art:has(> div[id^="optidigital-adslot-"])
 neko-sama.fr#?##watch > div.container > div.row:has(> div[style] > script[src$="code.js"])
 magicmaman.com##.External.is-empty
 cookomix.com##.AdMB
