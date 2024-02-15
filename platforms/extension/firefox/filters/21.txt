@@ -1,9 +1,9 @@
-! Checksum: LZxpw1swvbRwjbVXbCozrg
-! Diff-Path: ../patches/21/21-s-1707925058-3600.patch
+! Checksum: gUeTvGJpHKYhxCpXEWSTDA
+! Diff-Path: ../patches/21/21-s-1707996965-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.77
-! TimeUpdated: 2024-02-14T15:32:15+00:00
+! Version: 2.0.19.78
+! TimeUpdated: 2024-02-15T11:32:17+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3299,6 +3299,10 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172795
+dlupload.com#?#div[class] > div[class]:has(> small:contains(Suggestions))
+dlupload.com##center > img[data-target="#signup-modal"]
+||dlupload.com/contents/horiads$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172751
 foodora.*#%#//scriptlet('set-cookie', 'rider-banner-hidden', '1')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172711s
