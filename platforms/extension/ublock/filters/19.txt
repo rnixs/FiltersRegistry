@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: MkpJf023zSbnr2jSF7XViA
-! Diff-Path: ../patches/19/19-s-1707953772-3600.patch
+! Checksum: Uw9hByn7mLXHnqshwhCjNw
+! Diff-Path: ../patches/19/19-s-1707960991-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.63
-! TimeUpdated: 2024-02-14T23:32:08+00:00
+! Version: 2.0.31.64
+! TimeUpdated: 2024-02-15T01:32:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10180,9 +10180,6 @@ auto.ru#?#body > div:has(> div.Modal > div.Modal__container > div[class*="Admins
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155513
 !+ PLATFORM(ext_ublock)
 dream.ai##div[data-testid="overlay-backdrop"]
-! https://github.com/AdguardTeam/AdguardFilters/issues/148934
-! https://github.com/AdguardTeam/AdguardFilters/issues/100436
-! https://github.com/AdguardTeam/AdguardFilters/issues/94408
 ! https://github.com/AdguardTeam/AdguardFilters/issues/89306
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74468
 pasco.com#$#body { overflow: visible!important; }

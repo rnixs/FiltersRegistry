@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: A9cepLPrzqgDINVeBohOGg
-! Diff-Path: ../patches/14/14-s-1707953770-3600.patch
+! Checksum: dsq8QH8ojfT7g43VY4Iq6w
+! Diff-Path: ../patches/14/14-s-1707960990-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.76
-! TimeUpdated: 2024-02-14T23:31:55+00:00
+! Version: 2.1.87.77
+! TimeUpdated: 2024-02-15T01:31:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -27843,9 +27843,6 @@ auto.ru#?#body > div:has(> div.Modal > div.Modal__container > div[class*="Admins
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155513
 !+ PLATFORM(ext_ublock)
 dream.ai##div[data-testid="overlay-backdrop"]
-! https://github.com/AdguardTeam/AdguardFilters/issues/148934
-! https://github.com/AdguardTeam/AdguardFilters/issues/100436
-! https://github.com/AdguardTeam/AdguardFilters/issues/94408
 ! https://github.com/AdguardTeam/AdguardFilters/issues/89306
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74468
 pasco.com#$#body { overflow: visible!important; }

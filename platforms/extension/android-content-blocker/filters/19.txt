@@ -1,9 +1,9 @@
-! Checksum: EmUV1zoeoXaWWjwpiKM9Ew
-! Diff-Path: ../patches/19/19-s-1707953746-3600.patch
+! Checksum: U29hvpml1z9y6c6O0ZZozA
+! Diff-Path: ../patches/19/19-s-1707960965-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.63
-! TimeUpdated: 2024-02-14T23:32:08+00:00
+! Version: 2.0.31.64
+! TimeUpdated: 2024-02-15T01:32:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9521,9 +9521,6 @@ arenda.yandex.ru#$#body[style] { overflow: auto !important; }
 abema.tv#$#.body--prevent-scroll { overflow: auto !important; }
 abema.tv#$#.com-onboarding-OnboardingModalContainerView--enter-done { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155513
-! https://github.com/AdguardTeam/AdguardFilters/issues/148934
-! https://github.com/AdguardTeam/AdguardFilters/issues/100436
-! https://github.com/AdguardTeam/AdguardFilters/issues/94408
 ! https://github.com/AdguardTeam/AdguardFilters/issues/89306
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74468
 pasco.com#$#body { overflow: visible!important; }
