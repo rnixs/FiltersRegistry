@@ -1,15 +1,15 @@
-! Checksum: FwWI0rE7VD1kx60n8YmEtg
-! Diff-Path: ../patches/122/122-s-1707973602-14400.patch
+! Checksum: +wsrIEfieiN3P9GEIto3PQ
+! Diff-Path: ../patches/122/122-s-1707988024-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.14
-! TimeUpdated: 2024-02-15T05:02:00+00:00
+! Version: 2.1.21.15
+! TimeUpdated: 2024-02-15T09:02:12+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: BVTjFZ8siQn0XLQQUkzQsQ
-! OriginalVersion: 202402150415
+! Checksum: NsVkiF6dHEcyAPS6r5xQDw
+! OriginalVersion: 202402150815
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-15 04:15 UTC
+! Last modified: 2024-02-15 08:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -38320,6 +38320,7 @@ franchisegator.com###EUWarning
 aberdeenplumberservices.co.uk,firstcallmotorbreakdown.co.uk,pattheduck.com###FISLCC
 megabus.com###GB_overlay
 gamivo.com###GTM-cookie-consent
+idoc.tips###IDOCTIPS_cookie_box
 xclacksoverhead.org###LegalCookieNotice
 moam.info###MOAMINFO_cookie_box
 pdfcoffee.com###PDFCOFFEECOM_cookie_box
@@ -42016,6 +42017,9 @@ pubgesports.com#%#//scriptlet('ubo-set-cookie.js', 'functional', 'N')
 outwrite.com#%#//scriptlet('ubo-set-cookie.js', 'gradeproof_shown_cookie_warning', 'true')
 sberbank.com#%#//scriptlet('ubo-set-cookie.js', 'sber.pers_notice_en', '1')
 sbermarket.ru#%#//scriptlet('ubo-set-cookie.js', 'cookies_consented', 'yes')
+atani.com#%#//scriptlet('ubo-set-cookie.js', 'cookies_consent', 'true')
+atani.com#%#//scriptlet('ubo-set-cookie.js', 'cookies_consent', 'false')
+atani.com#%#//scriptlet('ubo-set-cookie.js', 'anal-opt-in', 'false')
 bgextras.co.uk#%#//scriptlet('ubo-set-cookie.js', 'CB393_DONOTREOPEN', 'true')
 sede.coruna.gal#%#//scriptlet('ubo-set-cookie.js', 'AYTO_CORUNA_COOKIES', '1', '', 'reload', '1')
 czech-server.cz#%#//scriptlet('ubo-set-cookie.js', 'I6IISCOOKIECONSENT0', 'n', '', 'reload', '1')
@@ -56042,6 +56046,7 @@ bcs.ru##.Cbh_c
 litres.ru##.CookieAcceptPopup-module__container_UndPF
 metaratings.ru##.CookieAllowance_cookiesAllowance__78hAO
 sberdisk.ru##.CookieContainer_CookieContainer__1xqA-
+petshop.ru##.CookieInformer_wrapper__DUrv9
 m.1gd.ru##.CookiePopup_overlay__1CXnV
 salonsecret.ru##.CookieWarning_root__Hyslm
 wowworks.ru##.CookieWindowstyle__block--1iXfq
@@ -56087,6 +56092,7 @@ detmir.ru##.bn
 finuslugi.ru##.bottom-message
 makc.ru##.bottom-notification
 likeni.ru,seonews.ru##.bottom-popup
+fialkaspb.ru##.bottom__cookie_block
 blackwot.ru##.brave_popup
 tvguru.ru##.c-modal
 apteka-april.ru##.c-notices > .hasButton.c-notice
@@ -56620,6 +56626,7 @@ ciftcilaw.com.tr###div_cc_cc
 hostixo.com###general-tos
 kitapyurdu.com###js-popup-container
 altin.in,oses.com.tr,ruinadalia.com.tr###kvkk
+turktelekomakademi.com.tr###kvkk-banner-header
 defacto.com.tr###kvkk_notification
 kayaholding.com.tr###kvkkbox
 suslusozluk.com###lightsout
