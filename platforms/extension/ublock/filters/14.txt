@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: dsq8QH8ojfT7g43VY4Iq6w
-! Diff-Path: ../patches/14/14-s-1707960990-3600.patch
+! Checksum: GbrI9KCYLNRtQFPxcPDYOg
+! Diff-Path: ../patches/14/14-s-1707982565-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.87.77
-! TimeUpdated: 2024-02-15T01:31:55+00:00
+! Version: 2.1.87.78
+! TimeUpdated: 2024-02-15T07:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2331,6 +2331,7 @@ tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+bbva.it##.cookiesgdpr__scroll .general-wrapper::after
 igmetall.de##body.cookie-overlay::before
 kids.lego.com##div[class^="cookie-overlay_"]
 znews.vn##.cookie-consent
@@ -4121,7 +4122,6 @@ just-eat.dk#$#div[data-qa="granular-privacy-settings"] { display: none !importan
 just-eat.dk#$#body { overflow: auto !important; touch-action: unset !important; }
 hypeauditor.com##footer > .popup
 northwell.edu##div[id^="nwh_footer_banner_legal"]
-bitrefill.com##div[data-contentwrapper="true"][tabindex="-1"]
 bandcamp.com##.tos-update
 cherry-lane.co.uk###cookienotice_container
 cherry-lane.co.uk##div[id^="cookie_popup_"]
