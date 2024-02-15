@@ -1,9 +1,9 @@
-! Checksum: z/dfGzrCjc+ywXQyb/cDqg
-! Diff-Path: ../patches/17/17-s-1707888957-3600.patch
+! Checksum: eBHoNluvk2qOsWqfLmELmA
+! Diff-Path: ../patches/17/17-s-1708011359-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.8.0
-! TimeUpdated: 2024-02-14T05:31:51+00:00
+! Version: 2.0.8.1
+! TimeUpdated: 2024-02-15T15:31:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -122,6 +122,7 @@
 !
 !
 !
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-8479998
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-8455734
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172125
 ! Wargaming tracking
