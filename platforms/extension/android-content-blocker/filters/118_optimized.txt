@@ -1,9 +1,9 @@
-! Checksum: Fc1SYcO3PnrOP0J4uuMFOg
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1707944783-14400.patch
+! Checksum: IOoey4ThceVFH81i1WZ1kA
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1707959161-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.11
-! TimeUpdated: 2024-02-14T21:01:59+00:00
+! Version: 2.1.22.12
+! TimeUpdated: 2024-02-15T01:01:47+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -3332,6 +3332,7 @@ img.promio-connect.com$image
 ||addictedattention.com^
 ||agreeabletouch.com^
 ||aloofvest.com^
+||ambientdusk.com^
 ||ambiguousafternoon.com^
 ||amuckafternoon.com^
 ||ar1nvz5.com^
@@ -4215,6 +4216,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contineljs.com^$third-party
 ||gostats.vn^$third-party
 -client-tracking.goodgamestudios.com/
+-wrapper-analytics-prod.cloudfunctions.net/
 ||1558334541.rsc.cdn77.org^
 ||1worldsync.com/log?
 ||360buyimg.com/jdf/1.0.0/unit/log/
@@ -5814,6 +5816,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||workers.dev/js/script.js
 ||worldssl.net/reporting.js
 ||worldztool.com^*/dotraceuser.php
+||wp-engage.org/api/v5/post/activity/log/
 ||wp.com/i/mu.gif$image
 ||wp.com/wp-content/js/bilmur.min.js
 ||wren.condenastdigital.com^

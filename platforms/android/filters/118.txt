@@ -1,14 +1,14 @@
-! Checksum: 4jLnqx24G+05Kx+AkldoEw
-! Diff-Path: ../patches/118/118-s-1707944777-14400.patch
+! Checksum: xKgGVFQZtAnUj8uVwbWYeA
+! Diff-Path: ../patches/118/118-s-1707959156-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.11
-! TimeUpdated: 2024-02-14T21:01:59+00:00
+! Version: 2.1.22.12
+! TimeUpdated: 2024-02-15T01:01:47+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202402142041
+! OriginalVersion: 202402150036
 ! Title: EasyPrivacy
-! Last modified: 14 Feb 2024 20:41 UTC
+! Last modified: 15 Feb 2024 00:36 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -6095,6 +6095,7 @@ omni.soundestlink.com$image
 ||aloofvest.com^
 ||alpineactor.com^
 ||amazingairplane.com^
+||ambientdusk.com^
 ||ambiguousafternoon.com^
 ||ambiguousalarm.com^
 ||ambiguousanger.com^
@@ -8951,6 +8952,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! -----------------Third-party tracking services-----------------!
 ! *** easylist:easyprivacy/easyprivacy_thirdparty.txt ***
 -client-tracking.goodgamestudios.com/
+-wrapper-analytics-prod.cloudfunctions.net/
 ||100widgets.com^$third-party
 ||105app.com/report/?
 ||1558334541.rsc.cdn77.org^
@@ -11328,6 +11330,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||workers.dev/js/script.js
 ||worldssl.net/reporting.js
 ||worldztool.com^*/dotraceuser.php
+||wp-engage.org/api/v5/post/activity/log/
 ||wp.com/i/mu.gif$image
 ||wp.com/wp-content/js/bilmur.min.js
 ||wren.condenastdigital.com^

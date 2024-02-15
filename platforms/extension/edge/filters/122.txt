@@ -1,15 +1,15 @@
-! Checksum: FlAOjdtvuIsUz/i5BD/P4g
-! Diff-Path: ../patches/122/122-s-1707944793-14400.patch
+! Checksum: 8ERyLFpYCUt/83apa9pzjg
+! Diff-Path: ../patches/122/122-s-1707959170-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.12
-! TimeUpdated: 2024-02-14T21:02:12+00:00
+! Version: 2.1.21.13
+! TimeUpdated: 2024-02-15T01:01:59+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: 5GiIdj4MFDpral0SSnmuSw
-! OriginalVersion: 202402142040
+! Checksum: dlwCARbNYXSkKD3Ag64T8w
+! OriginalVersion: 202402142340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-14 20:40 UTC
+! Last modified: 2024-02-14 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36317,6 +36317,7 @@ office.com###supFeedbackWrapper
 youtube.com###yt-feedback
 youtube.com###yt-hitchhiker-feedback
 nationaltoday.com##.c-holidayPlug
+decider.com,nypost.com,pagesix.com##.comments-inline-cta
 courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com,tiktok.com,usatoday.com##.feedback
 accuweather.com##.feedback-banner
 dickssportinggoods.com##.feedback-container-bottom
@@ -40906,7 +40907,7 @@ dagrasso.pl,freedomtreks.co.uk,hiveon.com,hiveon.net,kritikos-sm.gr,skisafari.co
 !! .cookie-check
 connection.com,eink.com,govconnection.com,macconnection.com##.cookie-check
 !! .cc-window
-ablebits.com,bund-naturschutz.de,e-infra.com,gesundheit-nds.de,ionos-group.com,justia.com,malaysiaairlines.com,sf311.org,wedolit.eu,zesty.tech##.cc-window
+ablebits.com,bund-naturschutz.de,cc-egov.de,e-infra.com,gesundheit-nds.de,ionos-group.com,justia.com,malaysiaairlines.com,sf311.org,wedolit.eu,zesty.tech##.cc-window
 !! .popup
 agcopartsbooks.com,beiersdorf.com,digitfoto.de,efootwear.eu,engeo.ch,gps-viewer.com,hypeauditor.com,kiswe.com,mellerud.de,mesampoulesgratuites.fr,mindmatrix.net,mymuesli.com,salesmanago.pl,swayhotels.com,topographic-map.com,travelexpress.pl,yclients.com,zabkagroup.com##.popup
 !! .popup-wrapper
@@ -42342,6 +42343,11 @@ bayernportal.de#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'true', '', 
 bayernportal.de#%#//scriptlet('ubo-set-cookie.js', 'videoConsent', 'true')
 bayernportal.de#%#//scriptlet('ubo-set-cookie.js', 'comfortConsent', 'true')
 ayudatpymes.com,zipjob.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1')
+plastischechirurgie-muenchen.info#%#//scriptlet('ubo-set-cookie.js', 'ff_cookie_notice', '1')
+bonn.sitzung-online.de#%#//scriptlet('ubo-set-cookie.js', 'allris-cookie-msg', '1')
+depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__google__analytics', 'false')
+depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__facebook__social', 'false')
+depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__depop__functional', 'true')
 thenounproject.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1', '', 'reload', '1')
 pricehubble.com#%#//scriptlet('ubo-set-cookie.js', 'cookieBannerAccepted', '1', '', 'reload', '1')
 ilmotorsport.de#%#//scriptlet('ubo-set-cookie.js', 'cookieMsg', 'true', '', 'reload', '1')
@@ -42651,8 +42657,8 @@ afaudio.co.uk,kuki.cz,mit-dem-rad-zur-arbeit.de,raiffeisen-mobil.at,vrsdigital.d
 afaudio.co.uk,kuki.cz,mit-dem-rad-zur-arbeit.de,raiffeisen-mobil.at,vrsdigital.de##.modal-backdrop
 afaudio.co.uk,kuki.cz,mit-dem-rad-zur-arbeit.de,raiffeisen-mobil.at,vrsdigital.de#$#html { position: static !important; overflow: auto !important; width: auto !important; }
 !! .modal (only)
-biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,cmteb.ro,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,hermann-saunierduval.it,protherm.cz,saunierduval.es,protherm.sk,protherm.ua,saunierduval.hu,press-shop.be,saunierduval.ro,saunierduval.at,awb.nl##.modal
-biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,cmteb.ro,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,hermann-saunierduval.it,protherm.cz,saunierduval.es,protherm.sk,protherm.ua,saunierduval.hu,press-shop.be,saunierduval.ro,saunierduval.at,awb.nl#$#body,html { overflow: auto !important; position: initial !important; }
+kbhallen.dk,biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,cmteb.ro,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,hermann-saunierduval.it,protherm.cz,saunierduval.es,protherm.sk,protherm.ua,saunierduval.hu,press-shop.be,saunierduval.ro,saunierduval.at,awb.nl##.modal
+kbhallen.dk,biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,cmteb.ro,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,hermann-saunierduval.it,protherm.cz,saunierduval.es,protherm.sk,protherm.ua,saunierduval.hu,press-shop.be,saunierduval.ro,saunierduval.at,awb.nl#$#body,html { overflow: auto !important; position: initial !important; }
 !! .modal (only, just body)
 mytime.de,entuk.org,albixon.de,hoehenberger-biokiste.de,pwn.pl,cinc.com##.modal
 mytime.de,entuk.org,albixon.de,hoehenberger-biokiste.de,pwn.pl,cinc.com#$#body { overflow: auto !important; position: initial !important; }
@@ -42763,8 +42769,8 @@ bederhomes.ch,beterhomes.ch,betterhome.ch,betterhomes-international.com,betterho
 digitalo.de,smdv.de##.reveal__overlay
 digitalo.de,smdv.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .modals-wrapper
-houseofwatches.co.uk,cameraworld.co.uk,vitalpoint.cz,combat.pl,intersport.si,intersport.ba,intersport.me,intersport.hr,productosqp.com,alpinawein.de,hydroscand.co.za,hydroscand.dk,hydroscand.fr,navygreen-eshop.gr,drgoerg.com,bloomfashion.nl,artero.com,cd-lux.de,gutes-shop.de,elvezio.com,jeans-fritz.de,naturalpower.at,myrobotcenter.at,myrobotcenter.co.uk,myrobotcenter.de,intersport.rs,remarketed.com,wendoverart.com,alles-im-lackshop.de##.modals-wrapper
-houseofwatches.co.uk,cameraworld.co.uk,vitalpoint.cz,combat.pl,intersport.si,intersport.ba,intersport.me,intersport.hr,productosqp.com,alpinawein.de,hydroscand.co.za,hydroscand.dk,hydroscand.fr,navygreen-eshop.gr,drgoerg.com,bloomfashion.nl,artero.com,cd-lux.de,gutes-shop.de,elvezio.com,jeans-fritz.de,naturalpower.at,myrobotcenter.at,myrobotcenter.co.uk,myrobotcenter.de,intersport.rs,remarketed.com,wendoverart.com,alles-im-lackshop.de#$#body { overflow: auto !important; position: initial !important; }
+obelink.de,obelink.es,obelink.it,obelink.at,obelink.fr,obelink.be,obelink.nl,houseofwatches.co.uk,cameraworld.co.uk,vitalpoint.cz,combat.pl,intersport.si,intersport.ba,intersport.me,intersport.hr,productosqp.com,alpinawein.de,hydroscand.co.za,hydroscand.dk,hydroscand.fr,navygreen-eshop.gr,drgoerg.com,bloomfashion.nl,artero.com,cd-lux.de,gutes-shop.de,elvezio.com,jeans-fritz.de,naturalpower.at,myrobotcenter.at,myrobotcenter.co.uk,myrobotcenter.de,intersport.rs,remarketed.com,wendoverart.com,alles-im-lackshop.de##.modals-wrapper
+obelink.de,obelink.es,obelink.it,obelink.at,obelink.fr,obelink.be,obelink.nl,houseofwatches.co.uk,cameraworld.co.uk,vitalpoint.cz,combat.pl,intersport.si,intersport.ba,intersport.me,intersport.hr,productosqp.com,alpinawein.de,hydroscand.co.za,hydroscand.dk,hydroscand.fr,navygreen-eshop.gr,drgoerg.com,bloomfashion.nl,artero.com,cd-lux.de,gutes-shop.de,elvezio.com,jeans-fritz.de,naturalpower.at,myrobotcenter.at,myrobotcenter.co.uk,myrobotcenter.de,intersport.rs,remarketed.com,wendoverart.com,alles-im-lackshop.de#$#body { overflow: auto !important; position: initial !important; }
 !! .privacy_headsup_overlay
 animail.se,musti.no,petenkoiratarvike.com,mustijamirri.fi,vetzoo.se,arkenzoo.se,vetzoo.no##.privacy_headsup
 animail.se,musti.no,petenkoiratarvike.com,mustijamirri.fi,vetzoo.se,arkenzoo.se,vetzoo.no##.privacy_headsup_overlay
@@ -44887,7 +44893,7 @@ thebarentsobserver.com###article-newsletter
 gulfnews.com###article-nl-wrap
 dlnews.com###article-sign-up
 humanevents.com###article-signup
-androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,screenrant.com,thegamer.com,thetravel.com,xda-developers.com###articleNewsletterForm
+androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,screenrant.com,thegamer.com,thetravel.com,topspeed.com,xda-developers.com###articleNewsletterForm
 favesouthernrecipes.com###articleNewsletterSignup_div
 arnnet.com.au###article_bottom_promo
 medicalnewstoday.com###banner-sticky
@@ -45804,7 +45810,7 @@ rferl.org##.infgraphicsAttach
 boomlive.in##.info-container2
 vcpost.com##.info-message
 routesonline.com##.infoBlock
-nypost.com##.inline-module--newsletter
+nypost.com,pagesix.com##.inline-module--newsletter
 businessinsider.com,ekathimerini.com,insider.com##.inline-newsletter-form
 themarshallproject.org,utilitydive.com##.inline-signup
 technologynetworks.com##.inner_content_lazy_load_content_divider
@@ -49105,6 +49111,11 @@ bayernportal.de#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', 'true', '', 
 bayernportal.de#%#//scriptlet('ubo-set-cookie.js', 'videoConsent', 'true')
 bayernportal.de#%#//scriptlet('ubo-set-cookie.js', 'comfortConsent', 'true')
 ayudatpymes.com,zipjob.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1')
+plastischechirurgie-muenchen.info#%#//scriptlet('ubo-set-cookie.js', 'ff_cookie_notice', '1')
+bonn.sitzung-online.de#%#//scriptlet('ubo-set-cookie.js', 'allris-cookie-msg', '1')
+depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__google__analytics', 'false')
+depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__facebook__social', 'false')
+depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__depop__functional', 'true')
 thenounproject.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1', '', 'reload', '1')
 pricehubble.com#%#//scriptlet('ubo-set-cookie.js', 'cookieBannerAccepted', '1', '', 'reload', '1')
 ilmotorsport.de#%#//scriptlet('ubo-set-cookie.js', 'cookieMsg', 'true', '', 'reload', '1')
@@ -49414,8 +49425,8 @@ afaudio.co.uk,kuki.cz,mit-dem-rad-zur-arbeit.de,raiffeisen-mobil.at,vrsdigital.d
 afaudio.co.uk,kuki.cz,mit-dem-rad-zur-arbeit.de,raiffeisen-mobil.at,vrsdigital.de##.modal-backdrop
 afaudio.co.uk,kuki.cz,mit-dem-rad-zur-arbeit.de,raiffeisen-mobil.at,vrsdigital.de#$#html { position: static !important; overflow: auto !important; width: auto !important; }
 !! .modal (only)
-biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,cmteb.ro,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,hermann-saunierduval.it,protherm.cz,saunierduval.es,protherm.sk,protherm.ua,saunierduval.hu,press-shop.be,saunierduval.ro,saunierduval.at,awb.nl##.modal
-biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,cmteb.ro,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,hermann-saunierduval.it,protherm.cz,saunierduval.es,protherm.sk,protherm.ua,saunierduval.hu,press-shop.be,saunierduval.ro,saunierduval.at,awb.nl#$#body,html { overflow: auto !important; position: initial !important; }
+kbhallen.dk,biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,cmteb.ro,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,hermann-saunierduval.it,protherm.cz,saunierduval.es,protherm.sk,protherm.ua,saunierduval.hu,press-shop.be,saunierduval.ro,saunierduval.at,awb.nl##.modal
+kbhallen.dk,biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,cmteb.ro,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,hermann-saunierduval.it,protherm.cz,saunierduval.es,protherm.sk,protherm.ua,saunierduval.hu,press-shop.be,saunierduval.ro,saunierduval.at,awb.nl#$#body,html { overflow: auto !important; position: initial !important; }
 !! .modal (only, just body)
 mytime.de,entuk.org,albixon.de,hoehenberger-biokiste.de,pwn.pl,cinc.com##.modal
 mytime.de,entuk.org,albixon.de,hoehenberger-biokiste.de,pwn.pl,cinc.com#$#body { overflow: auto !important; position: initial !important; }
@@ -49526,8 +49537,8 @@ bederhomes.ch,beterhomes.ch,betterhome.ch,betterhomes-international.com,betterho
 digitalo.de,smdv.de##.reveal__overlay
 digitalo.de,smdv.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .modals-wrapper
-houseofwatches.co.uk,cameraworld.co.uk,vitalpoint.cz,combat.pl,intersport.si,intersport.ba,intersport.me,intersport.hr,productosqp.com,alpinawein.de,hydroscand.co.za,hydroscand.dk,hydroscand.fr,navygreen-eshop.gr,drgoerg.com,bloomfashion.nl,artero.com,cd-lux.de,gutes-shop.de,elvezio.com,jeans-fritz.de,naturalpower.at,myrobotcenter.at,myrobotcenter.co.uk,myrobotcenter.de,intersport.rs,remarketed.com,wendoverart.com,alles-im-lackshop.de##.modals-wrapper
-houseofwatches.co.uk,cameraworld.co.uk,vitalpoint.cz,combat.pl,intersport.si,intersport.ba,intersport.me,intersport.hr,productosqp.com,alpinawein.de,hydroscand.co.za,hydroscand.dk,hydroscand.fr,navygreen-eshop.gr,drgoerg.com,bloomfashion.nl,artero.com,cd-lux.de,gutes-shop.de,elvezio.com,jeans-fritz.de,naturalpower.at,myrobotcenter.at,myrobotcenter.co.uk,myrobotcenter.de,intersport.rs,remarketed.com,wendoverart.com,alles-im-lackshop.de#$#body { overflow: auto !important; position: initial !important; }
+obelink.de,obelink.es,obelink.it,obelink.at,obelink.fr,obelink.be,obelink.nl,houseofwatches.co.uk,cameraworld.co.uk,vitalpoint.cz,combat.pl,intersport.si,intersport.ba,intersport.me,intersport.hr,productosqp.com,alpinawein.de,hydroscand.co.za,hydroscand.dk,hydroscand.fr,navygreen-eshop.gr,drgoerg.com,bloomfashion.nl,artero.com,cd-lux.de,gutes-shop.de,elvezio.com,jeans-fritz.de,naturalpower.at,myrobotcenter.at,myrobotcenter.co.uk,myrobotcenter.de,intersport.rs,remarketed.com,wendoverart.com,alles-im-lackshop.de##.modals-wrapper
+obelink.de,obelink.es,obelink.it,obelink.at,obelink.fr,obelink.be,obelink.nl,houseofwatches.co.uk,cameraworld.co.uk,vitalpoint.cz,combat.pl,intersport.si,intersport.ba,intersport.me,intersport.hr,productosqp.com,alpinawein.de,hydroscand.co.za,hydroscand.dk,hydroscand.fr,navygreen-eshop.gr,drgoerg.com,bloomfashion.nl,artero.com,cd-lux.de,gutes-shop.de,elvezio.com,jeans-fritz.de,naturalpower.at,myrobotcenter.at,myrobotcenter.co.uk,myrobotcenter.de,intersport.rs,remarketed.com,wendoverart.com,alles-im-lackshop.de#$#body { overflow: auto !important; position: initial !important; }
 !! .privacy_headsup_overlay
 animail.se,musti.no,petenkoiratarvike.com,mustijamirri.fi,vetzoo.se,arkenzoo.se,vetzoo.no##.privacy_headsup
 animail.se,musti.no,petenkoiratarvike.com,mustijamirri.fi,vetzoo.se,arkenzoo.se,vetzoo.no##.privacy_headsup_overlay
@@ -56167,6 +56178,7 @@ sbis.ru##.sbisru-CookieAgreement
 zvuk.com##.sc-18olso3-0
 libmogilev.by##.sc-widget
 netology.ru##.shared-components-CookiesAgreement--root--2INjM
+astralinux.ru##.show-cookie
 spb-guide.ru##.snowdiv-modal
 datasystem.ru##.specialAlert
 nergb.ru##.spu-bottom-left
