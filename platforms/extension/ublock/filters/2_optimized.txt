@@ -1,11 +1,12 @@
 ![Adblock Plus 2.0]
-! Checksum: RfPbW7Yeh9QtZH28WoU5Cg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708018578-3600.patch
+! Checksum: iEQxFN39dDiIRtjsj+ZLsg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708022190-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.22.54
-! TimeUpdated: 2024-02-15T17:32:52+00:00
+! Version: 2.3.22.55
+! TimeUpdated: 2024-02-15T18:32:47+00:00
 ! Expires: 5 days (update frequency)
+||externalfavlink.com^$all
 ||arwobaton.com^$all
 ||gaming001.site^$all
 ||fountaincheek.com^$all
@@ -8966,7 +8967,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||livehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
-||externalfavlink.com/*.html?zoneid=*&sourceid=*&ymid=$all
+sportskeeda.com##.primis-player-container
 luckymodapk.com##.popup-container
 scribd.com##div[data-testid="bottom-right-mrec"]
 scribd.com#$#div[data-testid="desktop-leaderboard"] { display: none !important; }

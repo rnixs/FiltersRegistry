@@ -1,9 +1,9 @@
-! Checksum: psX3pU/qmv7zHnWlPqj2Og
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1708018557-3600.patch
+! Checksum: LmLWKWa9ad4jKk3bOQkntA
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1708022159-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.38
-! TimeUpdated: 2024-02-15T17:33:05+00:00
+! Version: 2.0.97.39
+! TimeUpdated: 2024-02-15T18:33:00+00:00
 ! Expires: 5 days (update frequency)
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
@@ -2531,7 +2531,7 @@ cojicaji.jp,ismedia.jp##.article-header__sns
 cojicaji.jp##.article-footer__sns
 xiaomiui.net##.share_float_container
 jalan.net##.jln-btn-share
-carscoops.com,meteoblue.com,regnum.ru,vashotel.ru,axolot.mave.digital,stopcor.org,life4me.plus,obrazovaka.ru,myabandonware.com,winporn.net,earthsight.org.uk,1news.az,mahjong.com,zabkagroup.com,buy.line.me,hromadske.radio,intellinews.com,zaochnik.ru##.socials
+htmlgames.com,carscoops.com,meteoblue.com,regnum.ru,vashotel.ru,axolot.mave.digital,stopcor.org,life4me.plus,obrazovaka.ru,myabandonware.com,winporn.net,earthsight.org.uk,1news.az,mahjong.com,zabkagroup.com,buy.line.me,hromadske.radio,intellinews.com,zaochnik.ru##.socials
 corp.rakuten.co.jp##.snsSharing
 sport-express.ru##div[class^="se-shareblock"]
 sundaypost.com##.sharing-bar
