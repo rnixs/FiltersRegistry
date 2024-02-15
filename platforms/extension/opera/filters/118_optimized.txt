@@ -1,9 +1,9 @@
-! Checksum: P1m2b1TkE2J5xgSI0M0NTg
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1707988008-14400.patch
+! Checksum: tl/EoNDc2RMbJaUdYUpwtA
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1708002430-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.14
-! TimeUpdated: 2024-02-15T09:02:00+00:00
+! Version: 2.1.22.15
+! TimeUpdated: 2024-02-15T13:02:06+00:00
 ! Expires: 10 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -6419,6 +6419,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||panda.kasika.io^
 ||pia.jp/akam/$script
 ||pia.jp/images/pt.gif$image
+||ping.paidy.com^
 ||popin.cc/iframe/piuid.html
 ||popin.cc/js/pixel.js
 ||popin.cc/PopinService/Logs/
@@ -16070,6 +16071,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||dxlive.com/js/dtrace.js
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
+||fspark-ap.com/ft/analytics_log
 ||g123.jp/stats?
 ||game-i.daa.jp/skin/analytics.php
 ||gizmodo.jp/api/SurveyCountCollection?

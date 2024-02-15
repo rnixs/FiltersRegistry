@@ -1,14 +1,14 @@
-! Checksum: Q1BXp75NdHIw0X98+sKwuQ
-! Diff-Path: ../patches/227/227-s-1707915981-14400.patch
+! Checksum: Ya3JXiKJ4vKJChCWeRQMjg
+! Diff-Path: ../patches/227/227-s-1708002401-14400.patch
 ! Title: List-KR
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.65
-! TimeUpdated: 2024-02-14T13:02:29+00:00
+! Version: 2.0.17.66
+! TimeUpdated: 2024-02-15T13:02:41+00:00
 ! Expires: 1 day (update frequency)
 !
 ! Title: List-KR for AdGuard
 ! Description: List-KR for AdGuard. Maintained by the adblock community and AdGuard.
-! OriginalVersion: 2024.0214.4
+! OriginalVersion: 2024.0215.3
 ! Expires: 1 day
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://github.com/List-KR/List-KR/issues/223
@@ -1487,6 +1487,8 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 !
+3277532532.reviewtoday.net##*[class*="-coupas-"]
+3277532532.reviewtoday.net##div[class^="Post_post__"] > .text-center:has(ins.adsbygoogle)
 search.naver.com##div[id^="power_link_together_"]
 namu.wiki,~board.namu.wiki##article div:not([class*=" "]) ~ div div + div[class*=" "]:has(iframe[id^="google_ads_"])
 namu.wiki,~board.namu.wiki##article div:not([class*=" "]) ~ div div + div[class*=" "]:has(iframe[src*="arca.live/external/callad"])
@@ -1555,7 +1557,7 @@ m.sports.naver.com##.main_grid_item> div[class*="_promotion__"]
 prod.danawa.com###powerShoppingContent
 m.richgo.ai##div[class^="DanjiInfomation__"] > div[class^="Divider__SD_Layout-"] + div[class^="Divider__SD_Layout-"]
 m.clien.net##.board_recommended > a.list_item ~ div[class*=" "]
-tenbizt.com,mobilitytv.co.kr,thehousemagazine.kr,tminews.co.kr,maxmovie.kr,capress.kr,youtu.co,dfast.kr,mememedia.co.kr,newautopost.co.kr###main > div[class*="-ad-"]
+carandmore.co.kr,maxmovieen.com,tenbizt.com,mobilitytv.co.kr,thehousemagazine.kr,tminews.co.kr,capress.kr,youtu.co,dfast.kr,mememedia.co.kr,newautopost.co.kr###main > div[class*="-ad-"]
 newautopost.co.kr###coupang-ad-wrapper
 www.dt.co.kr##.main_wrap > center > div[style*=" height:"]
 www.dt.co.kr##.article_view > div[style$="overflow:hidden"].img_center
@@ -2534,6 +2536,7 @@ osen.mt.co.kr##div#close_mask
 !
 ! DOMAIN-REFRESHER: START
 !
+bbongtv.*##img[src^="/img/"][src*=".gif"]
 ygy48.com,ygy49.com,ygy50.com,ygy51.com,ygy52.com,ygy53.com,ygy54.com,ygy55.com,ygy56.com,ygy57.com,ygy58.com,ygy59.com,ygy60.com,ygy61.com##.popup_wrap
 moeni.net##img[src^="/img/sp/"]
 av19.gg###page ~ div[style^="min-height:"]#content.row
@@ -2682,6 +2685,8 @@ x86.co.kr#@#.download_ad
 auto.danawa.com#%#//scriptlet('set-constant', 'NAVER_ADPOST_V2', 'noopFunc')
 ! TODO: remove the following filter if https://github.com/AdguardTeam/CoreLibs/issues/1831 is resolved.
 /^https:\/\/m[0-9]+\.kotbc\.com\/img\/[a-z0-9_/]+\.gif$/
+3277532532.reviewtoday.net#$#div[class^="Post_continue_coupang__"] { display: none !important; }
+3277532532.reviewtoday.net#$#.post-contents > div[style] { height: 100% !important; }
 maple.gg#$#.container-content > section[class*=" "] ~ main[class*=" "] { margin-top: 50px !important; }
 courtauctionmap.com#$##map_area { height: 100% !important; }
 coolfun.zal.kr#$#.inner-body.hided .inside-content-background-gradient { display: none !important; }
@@ -2690,7 +2695,7 @@ coolfun.zal.kr#$#.inner-body.hided { overflow-y: auto !important; max-height: no
 etoland.co.kr#$##mw_mobile > .mw_icon_box { margin-top: 25px !important; }
 m.hub.zum.com#$#.banner_slot_top + #container .article_cover { top: 100px !important; }
 mlbpark.donga.com#$#div[id^="SmartPhone_"][id$="_today"] .lists > li::before { padding-top: 0px !important; border-bottom: none !important; }
-tenbizt.com,mobilitytv.co.kr,thehousemagazine.kr,tminews.co.kr,maxmovie.kr,capress.kr,youtu.co,dfast.kr,mememedia.co.kr,newautopost.co.kr#$#.news-view-wrap { padding-top: 0px !important; }
+carandmore.co.kr,maxmovieen.com,tenbizt.com,mobilitytv.co.kr,thehousemagazine.kr,tminews.co.kr,capress.kr,youtu.co,dfast.kr,mememedia.co.kr,newautopost.co.kr#$#.news-view-wrap { padding-top: 0px !important; }
 gall.dcinside.com#$##zzbang_img { display: block !important; }
 tgd.kr#$#html[style*="background-image: url(//upload.tgd.kr/"].darkmode { background-image: none !important; background-color: #151515 !important; }
 tgd.kr#$#html[style*="background-image: url(//upload.tgd.kr/"]:not(.darkmode) { background-image: none !important; background-color: #f3f2f0 !important; }
