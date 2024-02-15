@@ -1,9 +1,9 @@
-! Checksum: gG1KM+DKfvVHEr07AepmuQ
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1708002470-14400.patch
+! Checksum: f/0XtPoOD/cYUqFBTfs2EQ
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1708016861-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.15
-! TimeUpdated: 2024-02-15T13:02:06+00:00
+! Version: 2.1.22.16
+! TimeUpdated: 2024-02-15T17:02:10+00:00
 ! Expires: 12 hours (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -7599,6 +7599,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||xing.com/logjam/
 ||xnxx.com/picserror/
 ||xvideos.com/picserror/
+||ya.ru/clck/
 ||yahoo.com/_td_api/beacon/
 ||yahoo.com/beacon/
 ||yahoo.com/beacon?

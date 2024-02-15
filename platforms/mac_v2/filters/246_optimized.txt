@@ -1,9 +1,9 @@
-! Checksum: g9WhVPX7xDrueCb+WuBj8Q
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1708002467-14400.patch
+! Checksum: YEu8qIW2mdGlRbzTkTNYzQ
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1708016859-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.39.95
-! TimeUpdated: 2024-02-15T13:03:12+00:00
+! Version: 2.1.39.96
+! TimeUpdated: 2024-02-15T17:03:14+00:00
 ! Expires: 12 hours (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -314,7 +314,6 @@ supernowosci24.pl##[id^="r-"]
 ||mmarocks.pl^*^1342x178.
 ||modele.sklep.pl/images/banery^$image,domain=pfmrc.eu
 ||motocykle125.pl^*^junak^$subdocument
-||naszekielce.com^*^inkubator_kielce.
 ||naszekielce.com^*_250x500.
 ||nevicom.pl/wyswietl_baner.$script,third-party
 ||niebiescy.pl^*^icservice_
@@ -2010,6 +2009,7 @@ audiostereo.pl##a[href="https://www.audiostereo.pl/index.php?app=core&module=sys
 audiostereo.pl##a[href="https://www.audiostereo.pl/index.php?app=core&module=system&controller=redirect&do=advertisement&ad=23&key=11bc81cfd831311e85f56ad6e4e38dcc2e3598d40be4ea085d4f707ea11700f5"]
 nadmorski24.pl##a[href="https://www.autodoc.pl/"]
 bobasmiesiaca.pl##a[href="https://www.autoscribe.online/"]
+bobrzanie.pl##a[href="https://www.banklbs.pl/"]
 bielsko.info##a[href="https://www.bielsko.info/reklama"]
 biokurier.pl##a[href="https://www.cobico.pl/produkcja-ekologiczna"]
 gazeta-mosina.pl##a[href="https://www.condorpolska.com.pl/"]
