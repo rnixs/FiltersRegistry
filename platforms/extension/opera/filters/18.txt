@@ -1,9 +1,9 @@
-! Checksum: i72vlcb7vns02BXLEnkFqA
-! Diff-Path: ../patches/18/18-s-1707982557-3600.patch
+! Checksum: bR9E8ZbsFKPydWbr6H2S+w
+! Diff-Path: ../patches/18/18-s-1707986153-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.58
-! TimeUpdated: 2024-02-15T07:31:53+00:00
+! Version: 2.0.33.59
+! TimeUpdated: 2024-02-15T08:31:51+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2360,6 +2360,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+microsoft.com###ms-cookie-banner
 bbva.it##.cookiesgdpr__scroll .general-wrapper::after
 igmetall.de##body.cookie-overlay::before
 my.remarkable.com#%#//scriptlet('trusted-click-element', 'button[data-cy="cookie-banner-necessary"]')

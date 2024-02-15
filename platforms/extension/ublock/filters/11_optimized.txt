@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: noisZkkkZ/e4vypOZaR0yg
-! Diff-Path: ../patches/11_optimized/11_optimized-s-1707982565-3600.patch
+! Checksum: UJ9eLmbD/eKdNIG/DE540w
+! Diff-Path: ../patches/11_optimized/11_optimized-s-1707986162-3600.patch
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.49.32
-! TimeUpdated: 2024-02-15T07:31:25+00:00
+! Version: 2.0.49.33
+! TimeUpdated: 2024-02-15T08:31:24+00:00
 ! Expires: 5 days (update frequency)
 ||adx-open-service.youku.com^
 ||ad.youku.com^
@@ -941,7 +941,6 @@ realty.ya.*#?#main > div[class^="Frame"]:has(> div[class*="PostBlocks__ad"])
 realty.ya.ru##.SearchResultsTopAdWithFixedHeight
 realty.ya.ru##.SitesSerp__ad
 realty.ya.ru##.OffersSerp__item_type_ad
-yandex.*##div[class*="_banner_"]
 yandex.*#$?#:matches-path(/q)body.page_qQuestionRoute div#page > div[class]:first-child > div[class]:first-child > section[class*=" "] > div[class] + div > div:not(:has(> div[id^="content-control-"])):not(:has(a[class])) { height: 0 !important; }
 yandex.*#$?#:matches-path(/q)body.page_qQuestionRoute div#page > div[class]:first-child > div[class]:first-child > section[class*=" "] > div[class] + div + div > div[class] > div:not(:has(> div[id^="content-control-"])):not(:has(a[class])) { height: 0 !important; }
 yandex.*#$?#:matches-path(/q)body.page_qArticleRoute div#page > div[class]:first-child > div[class]:first-child > section[class*=" "] > div[class] + div + div > span ~ div:not(:has(> div[class] button[data-role="button"] > svg)) { height: 0 !important; }

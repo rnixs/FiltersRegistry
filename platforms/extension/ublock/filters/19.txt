@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Uw9hByn7mLXHnqshwhCjNw
-! Diff-Path: ../patches/19/19-s-1707960991-3600.patch
+! Checksum: MRAwhNft735z3a4Rdp9/Ew
+! Diff-Path: ../patches/19/19-s-1707986163-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.64
-! TimeUpdated: 2024-02-15T01:32:08+00:00
+! Version: 2.0.31.65
+! TimeUpdated: 2024-02-15T08:31:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12083,6 +12083,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+player.it###text-4
 ilsole24ore.com##.suggbox
 noi.md##.comment-block ~ div.row > div.text-center.p-0
 tsfjazz.com##.home-newsletter-push
