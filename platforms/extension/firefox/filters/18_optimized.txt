@@ -1,9 +1,9 @@
-! Checksum: AsJIWbQuD7oIc5eE8AWjFg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1708094193-3600.patch
+! Checksum: v3KxxvfEtebMTosVmAwOJg
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1708101394-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.72
-! TimeUpdated: 2024-02-16T14:32:23+00:00
+! Version: 2.0.33.73
+! TimeUpdated: 2024-02-16T16:32:04+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -3324,7 +3324,7 @@ aia.co.th##.alertFooterContent
 jobs.concentrix.com,careers.microsoft.com,footlocker.com##.ph-cookie-popup-v2-default-default
 tass.ru#?#div[class^="Cookies_container__"]
 esicosmetic.com.tr,modaincisi.com.tr,serialcart.com,serialcart.de##.wd-cookies-popup
-prostavochka.com.ua,cifrus.ru##.messages_cookies
+hrtime.ru,prostavochka.com.ua,cifrus.ru##.messages_cookies
 landshut.de#$#.main_self_overlay_cookie { display: none !important; }
 ||dydo-ghd.co.jp/check-cookie/$xmlhttprequest
 freeromsdownload.com,roms-hub.com,roms-download.com#$##kuk { display: none !important; }
