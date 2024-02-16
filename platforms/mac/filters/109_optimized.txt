@@ -1,9 +1,9 @@
-! Checksum: GRp6xYqGWltccc62BPheLQ
-! Diff-Path: ../patches/109_optimized/109_optimized-s-1708088841-14400.patch
+! Checksum: o3TDr/coSU0XwrYQXVKIbw
+! Diff-Path: ../patches/109_optimized/109_optimized-s-1708103246-14400.patch
 ! Title: EasyList Italy (Optimized)
 ! Description: Additional filter list for websites in Italian.
-! Version: 2.1.43.95
-! TimeUpdated: 2024-02-16T13:01:48+00:00
+! Version: 2.1.43.96
+! TimeUpdated: 2024-02-16T17:01:49+00:00
 ! Expires: 5 days (update frequency)
 -000Pubblicita-
 -000pubblicita.
@@ -725,6 +725,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||italycharter.it/searchwidget$third-party
 ||jooble.org/css/images/logos/jooble_$third-party
 ||netsons.com/manage/images/affiliates/$third-party
+||offerte.news/pub/
 ||pegasomedia.it/public/immaginibnr/
 ||postimg.cc^$domain=napolimagazine.com|settecalcio.it|toscanagol.it
 ||pratoverdecagliari.it/images/banners/$third-party
@@ -2476,7 +2477,7 @@ filmtv.it##.altri
 prezzisalute.com##.amaz
 lombardoandrea.com##.amazon-auto-links
 animeclick.it,gamerclick.it##.amazon-row
-androidworld.it,cookaround.com,dmbeauty.it,donnamoderna.com,focus.it,giallozafferano.it,iconmagazine.it,mobileworld.it,my-personaltrainer.it,nostrofiglio.it,pianetadonna.it,pianetamamma.it,smartworld.it,soldionline.it,sorrisi.com,studenti.it,thewom.it,valorinormali.com,webboh.it##.amePlaceholderBox
+cookaround.com,dmbeauty.it,donnamoderna.com,focus.it,giallozafferano.it,iconmagazine.it,my-personaltrainer.it,nostrofiglio.it,pianetadonna.it,pianetamamma.it,smartworld.it,soldionline.it,sorrisi.com,studenti.it,thewom.it,valorinormali.com,webboh.it##.amePlaceholderBox
 ansa.it##.ansa-c
 bznews24.it,ilfilo.net,iltquotidiano.it,lasberla.com,stateofmind.it##.apPluginContainer
 quotidianodelsud.it##.argomenti-articolo-sponsor
@@ -3226,9 +3227,10 @@ everyeye.it##.topskin
 tvprato.it##.tp-banner-bar
 giornaledibarga.it,noitv.it##.track
 noinotizie.it##.tre-spazi
-androidworld.it,mobileworld.it,smartworld.it##.tw-carousel
+smartworld.it##.tw-carousel
 smartworld.it##.tw-fragment-affiliation-container
 radioram.it##.ubm_banners_rotation
+uiblog.it##.uiblo-widget
 notebookitalia.it##.uk-height-medium
 padelmagazine.it##.uk-padding.uk-padding-remove-bottom.uk-text-center
 monitorimmobiliare.it##.uk-skin-link
@@ -3270,7 +3272,7 @@ italiavela.it##.widget.f300x524
 ilgolfonline.it,imgpress.it,minkiaroby.it##.widget_black_studio_tinymce
 grossetosport.com,scrivolibero.it,trivenetogoal.it##.widget_block
 stilearte.it##.widget_codewidget
-androidblog.it,aroundtheworld.pro,assisisport.it,berlinomagazine.com,bollicinevip.com,bznews24.it,canalesassuolo.it,carteprepagate.org,circuitoturismo.it,corriereal.info,corrieredelmolise.com,corrierequotidiano.it,dauniacom.it,dayitalianews.com,europacalcio.it,expartibus.it,fantascientificast.com,forestalinews.it,giustizianews24.it,gonews.it,ibizaa.it,ifood.it,ilcarmagnolese.it,ilclandestinogiornale.italiasera.it,ildiariometropolitano.it,ilgiornaledeiveronesi.it,ilprimatonazionale.it,immaginaviaggiare.it,informazionecomunicazione.it,ioamolasicilia.com,iocaccio.it,italianiedimburgo.com,italianotizie.online,italyandmore.it,lameziaterme.it,laprimapagina.it,leggopassword.it,libringioco.blog,mangiabevigodi.it,mercatini-natale.com,momentidicalcio.com,motori360.it,napolisera.it,newsfood.com,newtuscia.it,nonsolomac.com,oltrefano.it,padelmagazine.it,padovagoal.it,putignanonews.it,quotidianopiemontese.it,sciscianonotizie.it,scrivolibero.it,sicilianews24.it,sportando.basketball,stadiotardini.it,startmag.it,thailandiapertutti.it,torremaggiore.com,tribunapoliticaweb.sm,trivenetogoal.it,tusciatimes.eu,tuttotek.it,tvdigitaldivide.it,umbria.webcam,viaggioingermania.it,zerosette.it##.widget_custom_html
+androidblog.it,aroundtheworld.pro,assisisport.it,berlinomagazine.com,bollicinevip.com,bznews24.it,canalesassuolo.it,carteprepagate.org,circuitoturismo.it,corriereal.info,corrieredelmolise.com,corrierequotidiano.it,dauniacom.it,dayitalianews.com,europacalcio.it,expartibus.it,fantascientificast.com,forestalinews.it,giustizianews24.it,gonews.it,ibizaa.it,ifood.it,ilcarmagnolese.it,ilclandestinogiornale.italiasera.it,ildiariometropolitano.it,ilgiornaledeiveronesi.it,ilprimatonazionale.it,immaginaviaggiare.it,informazionecomunicazione.it,ioamolasicilia.com,iocaccio.it,italianiedimburgo.com,italianotizie.online,italyandmore.it,lameziaterme.it,laprimapagina.it,leggopassword.it,libringioco.blog,mangiabevigodi.it,mercatini-natale.com,momentidicalcio.com,mondomobileweb.it,motori360.it,napolisera.it,newsfood.com,newtuscia.it,nonsolomac.com,oltrefano.it,padelmagazine.it,padovagoal.it,putignanonews.it,quotidianopiemontese.it,sciscianonotizie.it,scrivolibero.it,sicilianews24.it,sportando.basketball,stadiotardini.it,startmag.it,thailandiapertutti.it,torremaggiore.com,tribunapoliticaweb.sm,trivenetogoal.it,tusciatimes.eu,tuttotek.it,tvdigitaldivide.it,umbria.webcam,viaggioingermania.it,zerosette.it##.widget_custom_html
 padovagoal.it##.widget_cyclone-slider-widget
 padovagoal.it##.widget_execphp
 ilfilo.net##.widget_goodlayers-1-1-banner-widget
@@ -3393,7 +3395,7 @@ medicalexcellencetv.it##div[class*="medic-"]
 romaedintorninotizie.it##div[class*="romae-"]
 tmnotizie.com##div[class*="tmnot-"]
 zonalocale.it##div[class*="zonal-"]
-corrieredellosport.it,tuttosport.com##div[class^="AdUnit_"]
+auto.it,corrieredellosport.it,tuttosport.com##div[class^="AdUnit_"]
 ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[class^="Ad_"]
 sslazio.it##div[class^="Footer_footerSponsorItem_"]
 tuttoandroid.net##div[class^="OfferteCarousel"]
@@ -4907,12 +4909,14 @@ technofashion.it#?#.td_block_wrap:-abp-has(span:-abp-contains(Advertorial))
 tgcom24.mediaset.it#?#.right.es.large:-abp-has(span:-abp-contains(contenuto sponsorizzato))
 tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 @@||amazon-adsystem.com/aax2/apstag.js$domain=calcionapoli1926.it|cittaceleste.it|derbyderbyderby.it|fantamagazine.com|fcinter1908.it|formulapassion.it|forzaroma.info|gazzabet.news|golssip.it|hellas1903.it|ilmilanista.it|ilposticipo.it|itasportpress.it|juvenews.eu|mediagol.it|mondoudinese.it|notiziecalciomercato.eu|numericalcio.it|padovasport.tv|pianetamilan.it|toronews.net|tuttobolognaweb.it|video.gazzetta.it|violanews.com
+@@||amazon-adsystem.com/aax2/apstag.js$script,domain=auto.it|corrieredellosport.it|tuttosport.com
 @@||buonenotiziebologna.it/images/banners/logos/bnb/logo.png
 @@||centrosangiorgio.com^*_pubblicita.
 @@||centrosangiorgio.com^*_pubblicita/
 @@||centrosangiorgio.com^*_pubblicita_
 @@||components2.rcsobjects.it/rcs_adv/v1/distro/dfp/common/prebid7.33.0.js$script,domain=calcionapoli1926.it|cittaceleste.it|derbyderbyderby.it|fantamagazine.com|fcinter1908.it|forzaroma.info|gazzabet.news|golssip.it|hellas1903.it|ilmilanista.it|ilposticipo.it|itasportpress.it|juvenews.eu|mediagol.it|mondoudinese.it|notiziecalciomercato.eu|numericalcio.it|padovasport.tv|pianetamilan.it|toronews.net|tuttobolognaweb.it|video.gazzetta.it|violanews.com
 @@||fluid.4strokemedia.com/www/delivery/asyncspc.php?$xmlhttprequest,domain=circusf1.com|fantacalcio.it|gianlucadimarzio.com|ilmeteo.it
+@@||g.doubleclick.net/tag/js/gpt.js$script,domain=auto.it|corrieredellosport.it|tuttosport.com
 @@||gay.it/adv/empty.mp4$media,~third-party
 @@||go.ezodn.com/tardisrocinante/lazy_load.js?$script,domain=consiglibenessere.org
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=agi.it|calcionapoli1926.it|circusf1.com|cittaceleste.it|derbyderbyderby.it|fantacalcio.it|fantamagazine.com|fcinter1908.it|formulapassion.it|forzaroma.info|gazzabet.news|gianlucadimarzio.com|golssip.it|hellas1903.it|ilmeteo.it|ilmilanista.it|ilposticipo.it|itasportpress.it|juvenews.eu|mediagol.it|mistergadget.tech|mondoudinese.it|notiziecalciomercato.eu|numericalcio.it|padovasport.tv|pianetamilan.it|toronews.net|tuttobolognaweb.it|video.gazzetta.it|violanews.com|vrsicilia.it
@@ -4928,7 +4932,6 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 @@||adultsadv.com/etero/random730_90.php$domain=mrjizz.com|pornotubo.it
 @@||adv.mediamond.it/hp_sponsor/utility_mediamond.js$domain=105.net|r101.it|radiomontecarlo.net|virginradio.it
 @@||adv.mediamond.it^*/tag_adv_mediamond.js$domain=105.net|r101.it|radiomontecarlo.net|virginradio.it
-@@||amazon-adsystem.com/aax2/apstag.js$script,domain=corrieredellosport.it|tuttosport.com
 @@||ansa.it^*/ad-gallery/$image
 @@||antonioranesi.it/cache/Lavori/Pubblicita/$~third-party
 @@||api.everli.com/sm/api/*&adgroupid=$~third-party,xmlhttprequest
@@ -4955,7 +4958,6 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 @@||foolbite.com/foolbite/*_pubblicita_$~third-party
 @@||forebase.com/plugin/*/images/ads/$image
 @@||forebase.com/plugin/ads.htm?$subdocument
-@@||g.doubleclick.net/tag/js/gpt.js$script,domain=corrieredellosport.it|tuttosport.com
 @@||google.com/adsense/$subdocument,domain=sedo.ch|sedo.it
 @@||google.com/adsense/search/ads.js$script,domain=tutti.ch
 @@||images.sbito.it/api/v1/sbt-ads-images-pro/images/ad/$image,domain=subito.it
