@@ -1,9 +1,9 @@
-! Checksum: rX6IA7Yj6HxzAKmMI61l0A
-! Diff-Path: ../patches/11_optimized/11_optimized-s-1708072566-3600.patch
+! Checksum: GAYiDUHDmRheK1rJEO7Bdw
+! Diff-Path: ../patches/11_optimized/11_optimized-s-1708083396-3600.patch
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.49.36
-! TimeUpdated: 2024-02-16T08:31:35+00:00
+! Version: 2.0.49.37
+! TimeUpdated: 2024-02-16T11:31:37+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
