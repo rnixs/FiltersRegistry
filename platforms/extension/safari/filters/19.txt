@@ -1,9 +1,9 @@
-! Checksum: kZdGwRCADbH9lzna3e02wQ
-! Diff-Path: ../patches/19/19-s-1708112187-3600.patch
+! Checksum: bpaXd/nNh04fAAiDJRhwbQ
+! Diff-Path: ../patches/19/19-s-1708119455-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.77
-! TimeUpdated: 2024-02-16T19:32:17+00:00
+! Version: 2.0.31.78
+! TimeUpdated: 2024-02-16T21:33:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18106,7 +18106,7 @@ ilrestodelcarlino.it###newsletter--mailupform
 stackexchange.com,stackoverflow.com###newsletter-ad
 bicycling.com,runnersworld.com,womenshealthmag.com###newsletter-block
 national-geographic.pl,pcworld.pl###newsletter-box
-lalanguefrancaise.com,delfi.lt###newsletter-container
+fourchette-et-bikini.fr,lalanguefrancaise.com,delfi.lt###newsletter-container
 content.techgig.com,dezeen.com,metalinjection.net,salon.com###newsletter-form
 rd.com###newsletter-form-container
 dailyhive.com###newsletter-module
