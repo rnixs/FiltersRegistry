@@ -1,9 +1,9 @@
-! Checksum: J0jVU47JHqz/PHXLtLVOLg
-! Diff-Path: ../patches/18/18-s-1708054545-3600.patch
+! Checksum: CsDYL1LNF2efgW4/LPhUFw
+! Diff-Path: ../patches/18/18-s-1708068952-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.33.68
-! TimeUpdated: 2024-02-16T03:32:00+00:00
+! Version: 2.0.33.69
+! TimeUpdated: 2024-02-16T07:31:53+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2362,6 +2362,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+makemytrip.com##.cookiesModalOuterWrapper
 empikbilety.pl##div[class^="_cookieBar_"]
 tomshw.it##.iubenda-tp-btn
 insideclimatenews.org##.icn-cookie-notice

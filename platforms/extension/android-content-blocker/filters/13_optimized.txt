@@ -1,9 +1,9 @@
-! Checksum: rD2pa/bEoBd3naQJRSlQXg
-! Diff-Path: ../patches/13_optimized/13_optimized-s-1708004261-3600.patch
+! Checksum: 5UwSiGPbtCaEo/Zrx0++Qg
+! Diff-Path: ../patches/13_optimized/13_optimized-s-1708068942-3600.patch
 ! Title: AdGuard Turkish filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.50.0
-! TimeUpdated: 2024-02-15T13:32:45+00:00
+! Version: 2.0.50.1
+! TimeUpdated: 2024-02-16T07:31:29+00:00
 ! Expires: 5 days (update frequency)
 ||pixad.com.tr^$third-party
 ||srvd2204.com^
@@ -4917,6 +4917,7 @@ merlininkazani.com##.adsbygoogle
 driverdestek.com##.adsbygoogle
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_turkish
+makemytrip.com#@##top-banner
 mislink3.com#@##reklamlar
 ralphlauren.co.uk#@##top-banner
 @@||dogus-ads-cdn.dygdigital.com/daion/daion-videojs-hlsjs-*.min.js
