@@ -1,15 +1,15 @@
-! Checksum: OT4xJKy1nkhrrI1iV4w4jQ
-! Diff-Path: ../patches/122/122-s-1708045623-14400.patch
+! Checksum: kQ2tzn85yqHCGT6mi7ph/g
+! Diff-Path: ../patches/122/122-s-1708060017-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.19
-! TimeUpdated: 2024-02-16T01:02:05+00:00
+! Version: 2.1.21.20
+! TimeUpdated: 2024-02-16T05:02:10+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: k8Uhxuuzrsuy5reror/KLA
-! OriginalVersion: 202402160015
+! Checksum: LYn8KjYbJR+KJlyHGdj9hA
+! OriginalVersion: 202402160440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-16 00:15 UTC
+! Last modified: 2024-02-16 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14378,6 +14378,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.whatsapp_share
 ##.whoShare
 ##.whtapp-web
+##.whtspp_share
 ##.widget--twitter
 ##.widget-ahsocial
 ##.widget-altervista-social
@@ -36833,6 +36834,7 @@ pnas.org##.pop-notification
 iclarified.com##.pushmodal
 startpage.com##.s-toast
 pnas.org##.signup-alert-ad
+indiatoday.in##.tapBoxCls
 ghpage.com##.tds-call-to-action1
 gptoday.net##.webpush_popup
 waze.com##.wz-downloadbar
@@ -37789,6 +37791,7 @@ zerolives.com##.naf-article-share
 zerolives.com##.naf-article-social-block
 adexchanger.com##.nav-sharebox
 denofgeek.com##.nav-social__items
+outlookindia.com##.nav-socials
 triblive.com##.navbar-right
 gomag.com##.navbar-social
 chess.com##.navigation-footer-platforms-component
@@ -37857,6 +37860,7 @@ teamcoco.com,tomshardware.com##.reddit
 onegreenplanet.org##.reveal-modal-bg
 businesstoday.in##.rhs-fixwhtsapp
 pulse.com.gh,pulse.ng##.ring-detail-social-share
+outlookindia.com##.rm-social-share
 rebelnews.com##.rn_widgets
 dailycaller.com##.rounded-full
 publicbooks.org##.rss
@@ -38765,6 +38769,7 @@ canalplus.com###privacy-manager
 studiocanal.com###privacy-manager-popin
 xceptance.com###privacy-message
 dailyjournal.com,islamicfinder.org###privacy-modal
+boxy-svg.com###privacy-notice
 govt.nz###privacy-notification
 atlanticsuperstore.ca,nofrills.ca,realcanadiansuperstore.ca###privacy-policy
 foundryvtt.com###privacy-policy-prompt
@@ -39813,6 +39818,7 @@ cgtn.com##.js-tools-dialog
 getaround.com##.js_cookie-consent
 latoken.com##.jss1097
 effectivealtruism.org##.jss144
+mydirtyhobby.com##.jss302
 mile.cloud##.jss4
 hubsite365.com##.jss468
 arcanys.com##.jss63
@@ -43680,8 +43686,8 @@ bhw.de,dslbank.de#$#body,html { overflow: auto !important; position: initial !im
 abm-accountants.com,abdijsiteherkenrode.be,avlwoningbouw.be,vivantia.be,o-f-s.eu,a2o-architecten.be,thebelgianbed.com,adlon.be,rsc-slaapcomfort.com,antiek-albarello.com,enib.be,a2o-omgeving.be,design-home.be,eremex.be,dasbelgischebett.de,jagsonly.be,decoform.be,aptigu.be,kickbike.be,morphologicum.org,kwvanbladel.be,vaatkliniek.be,barbecues.be,sanik.be,browsbox.com,tuincenterlissens.be,royalcrown.be,dr-geeraerts-dermatologie.be,dewiekslag.be,omerus.be,microscope-shop.be,marlou.be,depaterstafel.eu,tri-active.be,durocub.be,delbruyere.be,hanssens.net,scherpesteen.be,aratina.com,gripsholm.be,noorwegenhitravissers.be,incadans.be,medibe.be,atirio.be,sani-lux.net,a2o.be,vado.be,jbavicon.com,hetbelgischbed.be,kindermolen.be,baeyens-l.be,p-laser.com,allimex.eu,granhold.com,bbcbb.be,adtemptare.be,a-spect.be,visitatiebottelare.be,groepmsi.be,deregenboog.be,vrijdagmarkt.net,nsi-be.com,liswood-tache.com,bartyde.be##.c-cookie-popup
 abm-accountants.com,abdijsiteherkenrode.be,avlwoningbouw.be,vivantia.be,o-f-s.eu,a2o-architecten.be,thebelgianbed.com,adlon.be,rsc-slaapcomfort.com,antiek-albarello.com,enib.be,a2o-omgeving.be,design-home.be,eremex.be,dasbelgischebett.de,jagsonly.be,decoform.be,aptigu.be,kickbike.be,morphologicum.org,kwvanbladel.be,vaatkliniek.be,barbecues.be,sanik.be,browsbox.com,tuincenterlissens.be,royalcrown.be,dr-geeraerts-dermatologie.be,dewiekslag.be,omerus.be,microscope-shop.be,marlou.be,depaterstafel.eu,tri-active.be,durocub.be,delbruyere.be,hanssens.net,scherpesteen.be,aratina.com,gripsholm.be,noorwegenhitravissers.be,incadans.be,medibe.be,atirio.be,sani-lux.net,a2o.be,vado.be,jbavicon.com,hetbelgischbed.be,kindermolen.be,baeyens-l.be,p-laser.com,allimex.eu,granhold.com,bbcbb.be,adtemptare.be,a-spect.be,visitatiebottelare.be,groepmsi.be,deregenboog.be,vrijdagmarkt.net,nsi-be.com,liswood-tache.com,bartyde.be#$#body,html { overflow: auto !important; position: initial !important; }
 !! #didomi-host
-tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr###didomi-host
-tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
+corrieredellosport.it,tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr###didomi-host
+corrieredellosport.it,tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
 !! Didomi noop
 elconfidencial.com,euromaster.de,lavanguardia.com,strefabiznesu.pl,jofogas.hu,gamepro.de,melty.fr#%#//scriptlet('ubo-set.js', 'Didomi', 'noopFunc')
 ! mkb.hu
@@ -44952,7 +44958,7 @@ codeur.com,techguide.com.au###custom_html-3
 saabplanet.com###custom_html-30
 theregister.co.nz###custom_html-32
 legacy.com###custom_html-4
-biznews.com###custom_html-7
+biznews.com,opindia.com###custom_html-7
 ostechnix.com###custom_html-9
 democracynow.org###daily_digest_modal
 dailycaller.com###dc-home-tab-bar
@@ -47478,6 +47484,7 @@ arcade-sound.com###cb-announement-bar
 wards.com###cred-bnr-top
 gourmetfoodstore.com###divInterstitialContainer
 overstock.com###dynamic_banners
+niteize.com###easybanner-overlay-el
 costco.com###email-popup-title
 cb2.ca###emailCheckFooter
 cruise.com###emailFooter
@@ -47575,6 +47582,7 @@ gourmetfoodstore.com##.divInterstitialBGCover
 thegoodguys.com.au##.drawerTitleTextWrapper
 dickssportinggoods.com##.dsg-react-footer-cwu-sign-up
 nectarsleep.com##.dy-act-overlay
+niteize.com##.easybanner-lightbox-content
 taurususa.com##.eb-init
 belk.com##.email-alert-signup
 pulseuniform.com##.email-bar20
@@ -50452,8 +50460,8 @@ bhw.de,dslbank.de#$#body,html { overflow: auto !important; position: initial !im
 abm-accountants.com,abdijsiteherkenrode.be,avlwoningbouw.be,vivantia.be,o-f-s.eu,a2o-architecten.be,thebelgianbed.com,adlon.be,rsc-slaapcomfort.com,antiek-albarello.com,enib.be,a2o-omgeving.be,design-home.be,eremex.be,dasbelgischebett.de,jagsonly.be,decoform.be,aptigu.be,kickbike.be,morphologicum.org,kwvanbladel.be,vaatkliniek.be,barbecues.be,sanik.be,browsbox.com,tuincenterlissens.be,royalcrown.be,dr-geeraerts-dermatologie.be,dewiekslag.be,omerus.be,microscope-shop.be,marlou.be,depaterstafel.eu,tri-active.be,durocub.be,delbruyere.be,hanssens.net,scherpesteen.be,aratina.com,gripsholm.be,noorwegenhitravissers.be,incadans.be,medibe.be,atirio.be,sani-lux.net,a2o.be,vado.be,jbavicon.com,hetbelgischbed.be,kindermolen.be,baeyens-l.be,p-laser.com,allimex.eu,granhold.com,bbcbb.be,adtemptare.be,a-spect.be,visitatiebottelare.be,groepmsi.be,deregenboog.be,vrijdagmarkt.net,nsi-be.com,liswood-tache.com,bartyde.be##.c-cookie-popup
 abm-accountants.com,abdijsiteherkenrode.be,avlwoningbouw.be,vivantia.be,o-f-s.eu,a2o-architecten.be,thebelgianbed.com,adlon.be,rsc-slaapcomfort.com,antiek-albarello.com,enib.be,a2o-omgeving.be,design-home.be,eremex.be,dasbelgischebett.de,jagsonly.be,decoform.be,aptigu.be,kickbike.be,morphologicum.org,kwvanbladel.be,vaatkliniek.be,barbecues.be,sanik.be,browsbox.com,tuincenterlissens.be,royalcrown.be,dr-geeraerts-dermatologie.be,dewiekslag.be,omerus.be,microscope-shop.be,marlou.be,depaterstafel.eu,tri-active.be,durocub.be,delbruyere.be,hanssens.net,scherpesteen.be,aratina.com,gripsholm.be,noorwegenhitravissers.be,incadans.be,medibe.be,atirio.be,sani-lux.net,a2o.be,vado.be,jbavicon.com,hetbelgischbed.be,kindermolen.be,baeyens-l.be,p-laser.com,allimex.eu,granhold.com,bbcbb.be,adtemptare.be,a-spect.be,visitatiebottelare.be,groepmsi.be,deregenboog.be,vrijdagmarkt.net,nsi-be.com,liswood-tache.com,bartyde.be#$#body,html { overflow: auto !important; position: initial !important; }
 !! #didomi-host
-tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr###didomi-host
-tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
+corrieredellosport.it,tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr###didomi-host
+corrieredellosport.it,tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
 !! Didomi noop
 elconfidencial.com,euromaster.de,lavanguardia.com,strefabiznesu.pl,jofogas.hu,gamepro.de,melty.fr#%#//scriptlet('ubo-set.js', 'Didomi', 'noopFunc')
 ! mkb.hu
@@ -52303,6 +52311,7 @@ temu.com#$#body { overflow: auto !important; position: initial !important; }
 ##.odkl-klass-stat
 ||linker.ba^$third-party
 ||pichak.net/blogcod/$third-party
+||trustseal.e-rasaneh.ir^$third-party
 !
 ! ---------- Non-english Site Specific Hiding Rules ----------
 !
@@ -52311,6 +52320,7 @@ thscore.mobi###returnTop
 ! ---------- German Site Specific Hiding Rules ----------
 !
 baguette.at###TopBtn
+jobsuche-bw.de###UpToTopButton
 valentins.de###arrow-up
 unsertirol24.com###beginn-arrow
 reifenpresse.de###custom_html-2
@@ -53449,6 +53459,7 @@ altinget.no##.self-center
 !
 !---------- Persian Site Specific Hiding Rules ----------
 !
+namnak.com###shrarea
 !
 !---------- Polish Site Specific Hiding Rules ----------
 !
@@ -53677,6 +53688,7 @@ huffingtonpost.es,segre.com##.c-detail__share
 cadenaser.com##.c-sn
 clubdelsubscriptor.cat##.club-producte-social
 cadenaser.com,caracol.com.co,wradio.com.co##.cnt-interaccion
+adslzone.net##.comments-social-share
 elmundofinanciero.com##.comparte_noticia
 ecologiaverde.com,el9nou.cat,lanacion.com.ar,psicologia-online.com,qmusica.tv,revistafamilia.ec##.compartir
 abc.es##.compartir-mas
@@ -53701,7 +53713,7 @@ ara.cat##.footer-rrss
 rivanimation.com##.footer-social-wrapper
 portafolio.co##.footer__redes
 sport.es##.ft-mol-rrss
-sport.es##.ft-mol-rrss-column
+elperiodico.com,sport.es##.ft-mol-rrss-column
 elmostrador.cl##.gnews-container
 ecuavisa.com##.google-news
 metroecuador.com.ec##.googlenews-btn
@@ -53737,7 +53749,7 @@ biobiochile.cl##.redes-container
 diariodecuyo.com.ar##.redes-left
 telesurtv.net##.redesHeader
 futbolred.com##.redes__articulo
-cadenaser.com,deia.eus,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,elcorreogallego.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,emporda.info,farodevigo.es,globovision.com,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,noticiasdealava.eus,noticiasdegipuzkoa.eus,noticiasdenavarra.com,regio7.cat,sport.es,superdeporte.es,welife.es##.rrss
+cadenaser.com,deia.eus,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,elcorreogallego.es,eldia.es,elperiodico.com,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,emporda.info,farodevigo.es,globovision.com,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,noticiasdealava.eus,noticiasdegipuzkoa.eus,noticiasdenavarra.com,regio7.cat,sport.es,superdeporte.es,welife.es##.rrss
 aurora-israel.co.il##.rrss-link
 elcomercio.pe##.s-buttons
 betano.com##.sb-footer__notes__socials
@@ -57253,7 +57265,7 @@ fairfitters.de#@##gdpr-blocking-page-overlay
 kalenderwoche.de#@##gdpr-consent
 deleteme.com#@##gdpr-cookie-message
 warframe.com#@##gdprSettings
-savpieces.envienord.fr#@##gdpr_consent
+savpieces.envienord.fr,veritable-potager.fr#@##gdpr_consent
 icims.com#@##gdpr_container
 ing.jobs#@##gdprconsent
 meteored.com.py,tameteo.nl#@##gpdr:not(body):not(html)
@@ -57515,7 +57527,7 @@ iledefrance-mobilites.fr#@#div.cookies-banner
 bazaar-online.gr,stergioufamily.gr#@#div.cookies-modal-container
 onas.org.pl#@#div.cookies-visible
 goape.co.uk#@#div.eupopup
-coastalliving.com,commercialtrucktrader.com,cookinglight.com,efarma.com,esselunga.it,essence.com,ew.com,fix-price.com,food.com,fortune.com,gct.com,golf.com,health.com,hellogiggles.com,instyle.com,metallica.com,mirjan24.pl,my.games,ochotnicy.waw.pl,people.com,realsimple.com,ria.com,si.com,slovnaftludom.sk,smooth-on.com,southernliving.com,time.com,touchnote.com,travelandleisure.com,zulily.com#@#div.gdpr
+coastalliving.com,commercialtrucktrader.com,cookinglight.com,efarma.com,esselunga.it,essence.com,ew.com,fix-price.com,food.com,fortune.com,gct.com,golf.com,greenhouse.io,health.com,hellogiggles.com,instyle.com,metallica.com,mirjan24.pl,my.games,ochotnicy.waw.pl,people.com,realsimple.com,ria.com,si.com,slovnaftludom.sk,smooth-on.com,southernliving.com,time.com,touchnote.com,travelandleisure.com,zulily.com#@#div.gdpr
 nutaku.net#@#div.js-disclaimer
 dbschenker.com#@#div.privacy-modal
 etrodo.de,linkezeitung.de,securiti.ai,skfbearingselect.com#@#div.privacy-notice
@@ -57959,6 +57971,9 @@ axios.com#@#.is-newsletter
 varma.fi#@#.needsclick[aria-label][style]
 uol.com.br#@#.newsletter-article
 oetker.de#@#.newsletter-component
+wizzair.com#@#.newsletter.box
+wizzair.com#@#.newsletter__cta
+wizzair.com#@#.newsletter__title
 sourceforge.net#@#.psp_newsletter_subscribe
 doctorofcredit.com#@#.wpdiscuz-subscribe-bar
 novojornal.co.ao#@#div.box-newsletter

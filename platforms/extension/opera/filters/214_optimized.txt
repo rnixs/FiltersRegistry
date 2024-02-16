@@ -1,9 +1,9 @@
-! Checksum: 9+4dqim4jys+9k3B99Ex3w
-! Diff-Path: ../patches/214_optimized/214_optimized-s-1708045595-14400.patch
+! Checksum: +a9k3HWOMnt7fk81Aa1CkA
+! Diff-Path: ../patches/214_optimized/214_optimized-s-1708059989-14400.patch
 ! Title: ABPVN List (Optimized)
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.27.11
-! TimeUpdated: 2024-02-16T01:02:14+00:00
+! Version: 2.0.27.12
+! TimeUpdated: 2024-02-16T05:02:19+00:00
 ! Expires: 10 days (update frequency)
 .com/cpc/$script
 .com/qc/
@@ -292,6 +292,7 @@
 ||dinhvu.pro^$third-party
 ||effacedefend.com^
 ||fpgedsewst.com^
+||fs.sedgierlassoes.com^
 ||fv.togataurnfuls.com^
 ||gammaplatform.com^$third-party
 ||gelatinerespectivelyhector.com^
@@ -408,10 +409,10 @@ biphim.biz,subnhanh.ac##.underplayer_btn
 biphims.co,biphims.cc##.banner-sticky-footer-wrapper
 blog.abit.vn##.button-dangkyngay
 blogkiienthuc.net##.textwidget
-blogtruyenvn.com##.BT-Ads
-blogtruyenvn.com##.qc-inner
-blogtruyenvn.com##div.qc_TC_Chap_Middle
-blogtruyenvn.com##div[id^="qc_M_"]
+blogtruyenvn.org##.BT-Ads
+blogtruyenvn.org##.qc-inner
+blogtruyenvn.org##div.qc_TC_Chap_Middle
+blogtruyenvn.org##div[id^="qc_M_"]
 bluphim.com##.container>div[style^="height: 228px"]
 boctem.com,motchilluk.com,anivn.club,phim.vkoolz.com,hoathinhtq.tv,xemphimchill.xyz,247phim.cc,vungtv.us,vuaphimmoi2.net###popup-giua-man-hinh
 bongda.com.vn##.top_page
@@ -734,10 +735,10 @@ soikeo365.net##.top-nha-cai
 soikeoz.co,phimmoinay.org,phimtho.net,tutientruyen3.xyz,chillhaynet.click,protruyen4.fun###popup_banner_beta
 sport5.vn,afamily.vn##.afw-topbanner
 subnhanhvl.net,subnhanh.men,subnhanh.ac,dongchill.co###xs-addd0
-tamlinh247.com.vn##.ads-gg-top
-tamlinh247.com.vn##.container + .col-xs-12.content_wrap
-tamlinh247.com.vn##.content>.content>.content
-tamlinh247.com.vn##.wrap-single>.pagination.text-center
+tamlinh247.biz##.ads-gg-top
+tamlinh247.biz##.container + .col-xs-12.content_wrap
+tamlinh247.biz##.content>.content>.content
+tamlinh247.biz##.wrap-single>.pagination.text-center
 tapchibitcoin.io##.header-fix-ads
 tapchibitcoin.io##.lepopup-popup-container
 tapchibitcoin.io##.lepopup-popup-overlay

@@ -1,14 +1,14 @@
-! Checksum: rb+34CGprWuh6N5Notw53Q
-! Diff-Path: ../patches/241/241-s-1708045590-14400.patch
+! Checksum: auFB1GVeaDoIBlWD21w7Lw
+! Diff-Path: ../patches/241/241-s-1708059985-14400.patch
 ! Title: EasyList Cookie List
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.29.21
-! TimeUpdated: 2024-02-16T01:02:51+00:00
+! Version: 2.1.29.22
+! TimeUpdated: 2024-02-16T05:02:56+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: a3L9ixuIb1OukMFuik0TEw
+! Checksum: snR+TOMtgvWgX8A08GXwXg
 ! Title: Easylist Cookie List
-! Updated: 2024-02-16 00:40 UTC
+! Updated: 2024-02-16 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -19179,6 +19179,7 @@ canalplus.com###privacy-manager
 studiocanal.com###privacy-manager-popin
 xceptance.com###privacy-message
 dailyjournal.com,islamicfinder.org###privacy-modal
+boxy-svg.com###privacy-notice
 govt.nz###privacy-notification
 atlanticsuperstore.ca,nofrills.ca,realcanadiansuperstore.ca###privacy-policy
 foundryvtt.com###privacy-policy-prompt
@@ -20227,6 +20228,7 @@ cgtn.com##.js-tools-dialog
 getaround.com##.js_cookie-consent
 latoken.com##.jss1097
 effectivealtruism.org##.jss144
+mydirtyhobby.com##.jss302
 mile.cloud##.jss4
 hubsite365.com##.jss468
 arcanys.com##.jss63
@@ -24094,8 +24096,8 @@ bhw.de,dslbank.de#$#body,html { overflow: auto !important; position: initial !im
 abm-accountants.com,abdijsiteherkenrode.be,avlwoningbouw.be,vivantia.be,o-f-s.eu,a2o-architecten.be,thebelgianbed.com,adlon.be,rsc-slaapcomfort.com,antiek-albarello.com,enib.be,a2o-omgeving.be,design-home.be,eremex.be,dasbelgischebett.de,jagsonly.be,decoform.be,aptigu.be,kickbike.be,morphologicum.org,kwvanbladel.be,vaatkliniek.be,barbecues.be,sanik.be,browsbox.com,tuincenterlissens.be,royalcrown.be,dr-geeraerts-dermatologie.be,dewiekslag.be,omerus.be,microscope-shop.be,marlou.be,depaterstafel.eu,tri-active.be,durocub.be,delbruyere.be,hanssens.net,scherpesteen.be,aratina.com,gripsholm.be,noorwegenhitravissers.be,incadans.be,medibe.be,atirio.be,sani-lux.net,a2o.be,vado.be,jbavicon.com,hetbelgischbed.be,kindermolen.be,baeyens-l.be,p-laser.com,allimex.eu,granhold.com,bbcbb.be,adtemptare.be,a-spect.be,visitatiebottelare.be,groepmsi.be,deregenboog.be,vrijdagmarkt.net,nsi-be.com,liswood-tache.com,bartyde.be##.c-cookie-popup
 abm-accountants.com,abdijsiteherkenrode.be,avlwoningbouw.be,vivantia.be,o-f-s.eu,a2o-architecten.be,thebelgianbed.com,adlon.be,rsc-slaapcomfort.com,antiek-albarello.com,enib.be,a2o-omgeving.be,design-home.be,eremex.be,dasbelgischebett.de,jagsonly.be,decoform.be,aptigu.be,kickbike.be,morphologicum.org,kwvanbladel.be,vaatkliniek.be,barbecues.be,sanik.be,browsbox.com,tuincenterlissens.be,royalcrown.be,dr-geeraerts-dermatologie.be,dewiekslag.be,omerus.be,microscope-shop.be,marlou.be,depaterstafel.eu,tri-active.be,durocub.be,delbruyere.be,hanssens.net,scherpesteen.be,aratina.com,gripsholm.be,noorwegenhitravissers.be,incadans.be,medibe.be,atirio.be,sani-lux.net,a2o.be,vado.be,jbavicon.com,hetbelgischbed.be,kindermolen.be,baeyens-l.be,p-laser.com,allimex.eu,granhold.com,bbcbb.be,adtemptare.be,a-spect.be,visitatiebottelare.be,groepmsi.be,deregenboog.be,vrijdagmarkt.net,nsi-be.com,liswood-tache.com,bartyde.be#$#body,html { overflow: auto !important; position: initial !important; }
 !! #didomi-host
-tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr###didomi-host
-tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
+corrieredellosport.it,tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr###didomi-host
+corrieredellosport.it,tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr#$#body,html { overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important }
 !! Didomi noop
 elconfidencial.com,euromaster.de,lavanguardia.com,strefabiznesu.pl,jofogas.hu,gamepro.de,melty.fr#%#//scriptlet('ubo-set.js', 'Didomi', 'noopFunc')
 ! mkb.hu
@@ -28586,7 +28588,7 @@ fairfitters.de#@##gdpr-blocking-page-overlay
 kalenderwoche.de#@##gdpr-consent
 deleteme.com#@##gdpr-cookie-message
 warframe.com#@##gdprSettings
-savpieces.envienord.fr#@##gdpr_consent
+savpieces.envienord.fr,veritable-potager.fr#@##gdpr_consent
 icims.com#@##gdpr_container
 ing.jobs#@##gdprconsent
 meteored.com.py,tameteo.nl#@##gpdr:not(body):not(html)
@@ -28848,7 +28850,7 @@ iledefrance-mobilites.fr#@#div.cookies-banner
 bazaar-online.gr,stergioufamily.gr#@#div.cookies-modal-container
 onas.org.pl#@#div.cookies-visible
 goape.co.uk#@#div.eupopup
-coastalliving.com,commercialtrucktrader.com,cookinglight.com,efarma.com,esselunga.it,essence.com,ew.com,fix-price.com,food.com,fortune.com,gct.com,golf.com,health.com,hellogiggles.com,instyle.com,metallica.com,mirjan24.pl,my.games,ochotnicy.waw.pl,people.com,realsimple.com,ria.com,si.com,slovnaftludom.sk,smooth-on.com,southernliving.com,time.com,touchnote.com,travelandleisure.com,zulily.com#@#div.gdpr
+coastalliving.com,commercialtrucktrader.com,cookinglight.com,efarma.com,esselunga.it,essence.com,ew.com,fix-price.com,food.com,fortune.com,gct.com,golf.com,greenhouse.io,health.com,hellogiggles.com,instyle.com,metallica.com,mirjan24.pl,my.games,ochotnicy.waw.pl,people.com,realsimple.com,ria.com,si.com,slovnaftludom.sk,smooth-on.com,southernliving.com,time.com,touchnote.com,travelandleisure.com,zulily.com#@#div.gdpr
 nutaku.net#@#div.js-disclaimer
 dbschenker.com#@#div.privacy-modal
 etrodo.de,linkezeitung.de,securiti.ai,skfbearingselect.com#@#div.privacy-notice
