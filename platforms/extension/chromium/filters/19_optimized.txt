@@ -1,9 +1,9 @@
-! Checksum: zPVBOYYFZzdLjCpHLlzwGQ
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1708086961-3600.patch
+! Checksum: C/YbyaVukFkjGpVRENyCew
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1708094184-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.75
-! TimeUpdated: 2024-02-16T12:32:05+00:00
+! Version: 2.0.31.76
+! TimeUpdated: 2024-02-16T14:32:27+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -2441,7 +2441,7 @@ radyofenomen.com#$#.modal-open { overflow: visible !important; }
 loader.to##div[id$="_addon"]
 dfm.ru##._c-l
 techcrunch.com##.rightrail--promo
-joom.com#%#AG_onLoad(function(){var g=new MutationObserver(function(){var a=document.querySelector('div[class^="modalOverlay_"] button[class^="close_"]');var b=document.querySelector('div[class^="modalOverlay_"] a[href*="/promotions/"]');if(a&&b){a.click()}});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)});
+joom.ru,joom.com#%#//scriptlet('trusted-click-element', 'div[class^="modalOverlay_"] > div[class^="design_"] button[class^="close_"]')
 perfecthealthclinic.com###sticky_bar
 perfecthealthclinic.com#%#//scriptlet("prevent-setTimeout", "", "15000")
 disntr.com#%#//scriptlet('set-cookie', 'divioverlay240311', 'true')
