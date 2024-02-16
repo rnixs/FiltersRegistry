@@ -1,14 +1,14 @@
-! Checksum: m5Rs1iCqQ6mpnXKoUd8fHQ
-! Diff-Path: ../patches/214/214-s-1708016806-14400.patch
+! Checksum: /UJhDM24dd4UX2zfsrJyAQ
+! Diff-Path: ../patches/214/214-s-1708045575-14400.patch
 ! Title: ABPVN List
 ! Description: Vietnamese adblock filter list.
-! Version: 2.0.27.10
-! TimeUpdated: 2024-02-15T17:02:32+00:00
+! Version: 2.0.27.11
+! TimeUpdated: 2024-02-16T01:02:14+00:00
 ! Expires: 5 days (update frequency)
 ! version for AdGuard Content Blocker only
-! OriginalVersion: 20240215202813791
+! OriginalVersion: 20240216075108531
 ! Title: ABPVN List
-! Last modified: 15 Feb 2024 20:28:13 UTC+7
+! Last modified: 16 Feb 2024 07:51:08 UTC+7
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -1140,7 +1140,7 @@ $third-party,script,domain=sexdiaryx.pro
 ||phimsexsub.xyz/css/pss.webp$image,domain=nhentaivn.com
 ||phym18.one/static/js/adlia.js
 ||quatvn.tube/ads.js$script
-||quoracdn.net^$image,domain=vlxx.xxx|vlxyz.vc|sieudamtv.vip
+||quoracdn.net^$image,domain=vlxx.moe|vlxyz.vc|sieudamtv.vip
 ||rphang.online^*.gif
 ||sayhentai.club/assets/js/ads.js
 ||sayhentai.club/storage/images/banner/$image
@@ -1239,13 +1239,13 @@ vailonxx.com##.happy-under-player
 vailonxx.com##.vailo-sticky
 vailonxx.com##.vailo-under-navbar-mobile
 viet69.li##.footer-fixed-br-container
-vlxx.xxx###adx
-vlxx.xxx##.banner-preload
-vlxx.xxx##.catfish-bottom
-vlxx.xxx##.catfish-top
-vlxx.xxx##.ff-banner
-vlxx.xxx##div.banner-catfish-bottom
-vlxx.xxx,javtopxx.com##.ads
+vlxx.moe###adx
+vlxx.moe##.banner-preload
+vlxx.moe##.catfish-bottom
+vlxx.moe##.catfish-top
+vlxx.moe##.ff-banner
+vlxx.moe##div.banner-catfish-bottom
+vlxx.moe,javtopxx.com##.ads
 vlxxhot.com###ab_ctl
 vlxxhot.com##.bannerads
 vlxyz.vc##.xx-ads

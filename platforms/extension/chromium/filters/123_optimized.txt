@@ -1,9 +1,9 @@
-! Checksum: 8aGjaxSif3/r4PrDIIGgbg
-! Diff-Path: ../patches/123_optimized/123_optimized-s-1708031208-14400.patch
+! Checksum: bxk+UI1Sn/Qx9JR8oGMDUw
+! Diff-Path: ../patches/123_optimized/123_optimized-s-1708045579-14400.patch
 ! Title: Fanboy's Social Blocking List (Optimized)
 ! Description: Hides and blocks social content, social widgets, social scripts and social icons. Already included in Fanboy's Annoyances list.
-! Version: 2.1.19.51
-! TimeUpdated: 2024-02-15T21:02:23+00:00
+! Version: 2.1.19.52
+! TimeUpdated: 2024-02-16T01:02:07+00:00
 ! Expires: 10 days (update frequency)
 -buttons-facebook.
 -facebook-share.
@@ -5452,6 +5452,7 @@ auction.co.kr##.sare-sns
 ||draugiem.lv/business/ext/follow/$third-party
 ||draugiem.lv/say/ext/like.php$third-party
 nrk.no##.nrkno-share
+namnak.com###shrarea
 reclameaqui.com.br###footer-social-links
 superesportes.com.br###shareitens
 agazeta.com.br##.ag-mobile-social-widget
@@ -5507,6 +5508,7 @@ eltiempo.com##.btn_googlelink
 huffingtonpost.es,segre.com##.c-detail__share
 cadenaser.com##.c-sn
 cadenaser.com,caracol.com.co,wradio.com.co##.cnt-interaccion
+adslzone.net##.comments-social-share
 ecologiaverde.com,el9nou.cat,lanacion.com.ar,psicologia-online.com,qmusica.tv,revistafamilia.ec##.compartir
 elcolombiano.com##.contenedor-google-noticias
 semana.com##.footer-google-news
