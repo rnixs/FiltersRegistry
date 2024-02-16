@@ -1,0 +1,13 @@
+d2 2
+a3 2
+! Checksum: a852KsidjsCd85u2cjb2Og
+! Diff-Path: ../patches/21/21-s-1708079779-3600.patch
+d6 2
+a7 2
+! Version: 2.0.19.83
+! TimeUpdated: 2024-02-16T10:32:13+00:00
+a3200 4
+! Yandex Browser promo
+! https://github.com/AdguardTeam/AdguardFilters/issues/172840
+ya.ru##.simple-popup__overlay_shown
+ya.ru##.simple-popup__overlay_shown + div.simple-popup_shown.simple-popup_autoclosable_yes
