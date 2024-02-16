@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 9eAZx2pu+PKI4JcjMFUblw
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1708031235-14400.patch
+! Checksum: fsqA3UghT+0E84mH6tckPA
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1708088827-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.19.4
-! TimeUpdated: 2024-02-15T21:02:09+00:00
+! Version: 2.0.19.5
+! TimeUpdated: 2024-02-16T13:01:59+00:00
 ! Expires: 5 days (update frequency)
 .id^*/bnr/$domain=~kalbarprov.go.id
 /iklan/*$image,domain=~jualrumahjakarta.com|~jualsewakios.com|~jualsewaruko.com|~kostjakarta.com|~pusatiklan.co.id|~sewa-apartemen.net|~sewa-rumah.net|~sewa-villa.com|~situsproperti.com|~tempat-usaha.com
@@ -1342,6 +1342,7 @@ _TimAds_$image
 /get/*?zoneid=$script
 /lv/esnk/*$third-party,script
 /pfe/current/*$third-party,script
+/[0-9a-f]{32}\/invoke\.js/$third-party,script,redirect-rule=noop.js
 ||amazonaws.com^*/banner/$third-party,domain=bogornews.com
 ||beritabaru.news/sc/detect-click.js
 ||cloudhost.id^*_ads_$third-party,image

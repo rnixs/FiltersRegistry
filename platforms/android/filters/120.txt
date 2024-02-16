@@ -1,15 +1,15 @@
-! Checksum: RBh4OxJMNvwX1LjCgCVetw
-! Diff-Path: ../patches/120/120-s-1708031198-14400.patch
+! Checksum: 4tDizz1kxkD+VGDT4im2bw
+! Diff-Path: ../patches/120/120-s-1708088782-14400.patch
 ! Title: AdBlockID
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.19.4
-! TimeUpdated: 2024-02-15T21:02:09+00:00
+! Version: 2.0.19.5
+! TimeUpdated: 2024-02-16T13:01:59+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 24.2.69
+! OriginalVersion: 24.2.70
 ! Title: AdBlockID
 ! Description: Filter list that specifically removes adverts on Indonesian language websites.
-! Last modified: 15 Feb 2024 19:16 UTC
+! Last modified: 16 Feb 2024 12:37 UTC
 ! Expires: 1 days
 ! Homepage: https://github.com/realodix/AdBlockID
 .id^*/bnr/$domain=~kalbarprov.go.id
@@ -1348,6 +1348,7 @@ _TimAds_$image
 /get/*?zoneid=$script
 /lv/esnk/*$third-party,script
 /pfe/current/*$third-party,script
+/[0-9a-f]{32}\/invoke\.js/$third-party,script,redirect-rule=noopjs
 ||amazonaws.com^*/banner/$third-party,domain=bogornews.com
 ||beritabaru.news/sc/detect-click.js
 ||cloudhost.id^*_ads_$third-party,image

@@ -66,6 +66,8 @@
 /lv/esnk/*$3p,script
 ! Rule "/pfe/current/*$3p,script" converted to: "/pfe/current/*$third-party,script"
 /pfe/current/*$3p,script
+! Rule "/[0-9a-f]{32}\/invoke\.js/$3p,script,redirect-rule=noop.js" converted to: "/[0-9a-f]{32}\/invoke\.js/$third-party,script,redirect-rule=noopjs"
+/[0-9a-f]{32}\/invoke\.js/$3p,script,redirect-rule=noop.js
 ! Rule "||amazonaws.com^*/banner/$3p,domain=bogornews.com" converted to: "||amazonaws.com^*/banner/$third-party,domain=bogornews.com"
 ||amazonaws.com^*/banner/$3p,domain=bogornews.com
 ! Rule "||cloudhost.id^*_ads_$3p,image" converted to: "||cloudhost.id^*_ads_$third-party,image"
