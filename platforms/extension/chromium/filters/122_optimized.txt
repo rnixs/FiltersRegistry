@@ -1,9 +1,9 @@
-! Checksum: 3Y3gmd5ol2W1eZZkkxaCDQ
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1708103207-14400.patch
+! Checksum: q2nfQKCBcEqgMQPj/Yx/vw
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1708117584-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.23
-! TimeUpdated: 2024-02-16T17:02:10+00:00
+! Version: 2.1.21.24
+! TimeUpdated: 2024-02-16T21:02:13+00:00
 ! Expires: 10 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -13454,6 +13454,7 @@ vive.com###vive-cookie-notice
 sabanci.com###warning-bar
 wyze.com###wyze-cookie-banner
 framer.com##.--framer-cookie-banner-container
+dune.com##.CookieNotification_notification__0Nkrk
 retn.net##.CookieWindow__Wrapper-sc-uhdlpk-0
 accounts.ucas.com,nngroup.com##.CybotEdge
 basspro.com,cabelas.com##.DisclosurePopupContainer
