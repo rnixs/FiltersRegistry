@@ -1,9 +1,9 @@
-! Checksum: M3LYrDrf/qYO18aTpFFbsg
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1708011370-3600.patch
+! Checksum: N3fEK6Hz1LRAwGaRELng+w
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1708087010-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.8.1
-! TimeUpdated: 2024-02-15T15:31:55+00:00
+! Version: 2.0.8.2
+! TimeUpdated: 2024-02-16T12:32:00+00:00
 ! Expires: 5 days (update frequency)
 $removeparam=cjdata
 $removeparam=cjevent
@@ -219,6 +219,10 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||ubereats.com^$removeparam=campaign
+||ubereats.com^$removeparam=sub-campaign
+||ubereats.com^$removeparam=marketing-visitor-id
+||uber.com^$removeparam=uclick_id
 ||controld.com^$removeparam=cid
 ?ref=upstract.com^$removeparam=ref
 ||prothomalo.com^$cookie=uuid_v2
