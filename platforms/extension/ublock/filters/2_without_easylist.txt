@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: HCP6zOsvW9eKYmOMENJf+A
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708105017-3600.patch
+! Checksum: iET2dvUhbNn9Ql0FR27/Zg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708112195-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.22.70
-! TimeUpdated: 2024-02-16T17:33:20+00:00
+! Version: 2.3.22.71
+! TimeUpdated: 2024-02-16T19:33:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6809,9 +6809,10 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 ! END: Ads replacement
 !
 ! Prevent Admiral detection
+! Partially for "Freestar Recovered"
 #@#.stickyads
 #@#.ads_banner
-##.stickyads:not([style^="width: 32px"])
+##.stickyads:not([style^="width: 32px"]):not([data-freestar-ad])
 ##.ads_banner:not([style^="width: 32px"])
 @@||static.adsafeprotected.com/skeleton.js?adslot=
 @@||static.adsafeprotected.com/skeleton.js?adunitid=
