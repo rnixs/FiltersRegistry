@@ -1,9 +1,9 @@
-! Checksum: PMghSL/ein+VdIfX9KtgMg
-! Diff-Path: ../patches/250_optimized/250_optimized-s-1708189593-14400.patch
+! Checksum: g5U3lnEjs2C7iRxsT8jjxw
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1708203994-14400.patch
 ! Title: Dandelion Sprout's Annoyances List (Optimized)
 ! Description: This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.
-! Version: 2.0.13.41
-! TimeUpdated: 2024-02-17T17:03:09+00:00
+! Version: 2.0.13.42
+! TimeUpdated: 2024-02-17T21:03:11+00:00
 ! Expires: 10 days (update frequency)
 ###smart-banner
 ###smartbanner
@@ -1579,13 +1579,14 @@ $removeparam=adj_creative
 $removeparam=_vsrefdom
 $removeparam=ceneo_spo
 $document,removeparam=/^from=ceneo$/
+$document,removeparam=/^ref=ceneo$/
 $removeparam=__s,document
 $removeparam=_kx
-$removeparam=/^affsrc=/i
-$removeparam=/^aff_sub\d?=/
+$document,removeparam=/^affsrc=/i
+$document,removeparam=/^aff_sub\d?=/
 $removeparam=afftrack
 $removeparam=atid
-$removeparam=/^clickref\d?=/
+$document,removeparam=/^clickref\d?=/
 $removeparam=cuid
 $removeparam=data1,domain=~web3.cmvm.pt
 $removeparam=data2
@@ -1599,11 +1600,11 @@ $removeparam=sub2,domain=~go.dgdp.net
 $removeparam=sub3
 $removeparam=sub4
 $removeparam=sub5
-$removeparam=/^subid1=/i
-$removeparam=/^subid2=/i
-$removeparam=/^subid3=/i
-$removeparam=/^subid4=/i
-$removeparam=/^subid5=/i
+$document,removeparam=/^subid1=/i
+$document,removeparam=/^subid2=/i
+$document,removeparam=/^subid3=/i
+$document,removeparam=/^subid4=/i
+$document,removeparam=/^subid5=/i
 $removeparam=tid1
 $removeparam=tid2
 $removeparam=tid3
@@ -1612,7 +1613,7 @@ $removeparam=avad
 $removeparam=ckmc
 $removeparam=ckmsc
 $removeparam=__cn_tracker
-$removeparam=/^sfmc_/
+$document,removeparam=/^sfmc_/
 $removeparam=mktc
 $removeparam=cm_ven
 $removeparam=cm_cat
@@ -1620,17 +1621,26 @@ $removeparam=cm_pla
 $removeparam=cm_ite
 $removeparam=cm_lm
 $removeparam=cm_ainfo
+$document,removeparam=/^Offers\.com/
+$document,removeparam=/^source=connexity$/
 $removeparam=cnxclid
-$removeparam=/^source=webgains$/
-$removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
-$removeparam=/^from=kelkoo/
+$document,removeparam=/^refsource=webgains$/
+$document,removeparam=/^source=webgains$/
+$document,removeparam=/^source=tradedoubler$/
+$document,removeparam=/^network=webgains$/i
+$document,removeparam=/^ref=kelkoo/
+$document,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
+$document,removeparam=/^from=kelkoo/
+$document,removeparam=/^source=partnerads$/
 $removeparam=paid
 $removeparam=pacid
+||prispresseren.dk^$document,removeparam=/^amp;/
 $removeparam=adtype
 $removeparam=tmad
 $removeparam=tmcampid
 $removeparam=s_afcid
 $removeparam=n_cid
+$document,removeparam=/^src=aff$/
 $removeparam=af_ad
 $removeparam=af_ad_id
 $removeparam=af_adset
@@ -1645,14 +1655,14 @@ $removeparam=af_prt
 $removeparam=af_referrer_customer_id
 $removeparam=af_referrer_uid
 $removeparam=af_siteid
-$removeparam=/^af_sub\d=/
+$document,removeparam=/^af_sub\d=/
 $removeparam=af_sub_siteid
 $removeparam=is_retargeting
 $document,removeparam=shortlink
-$removeparam=/^pid=.*_int$/
+$document,removeparam=/^pid=.*_int$/
 $removeparam=deep_link_sub1
 $removeparam=sub_aff_id
-$removeparam=/^sub_id\d=/
+$document,removeparam=/^sub_id\d=/
 $removeparam=tg_ref
 $removeparam=dt_dapp
 $removeparam=waad
@@ -1668,11 +1678,13 @@ $removeparam=nrtv_as_src
 $removeparam=trk_ref
 $removeparam=ircid
 $removeparam=dfw_tracker
-$removeparam=/^src=rss$/
+$document,removeparam=/^src=rss$/
+$document,removeparam=/^otm_/
 $removeparam=amp_device_id
 $removeparam=awinaffid
 $removeparam=iclid
 $removeparam=rndad
+$document,removeparam=/^tracker=affiliatefuture$/i
 $removeparam=affc
 $removeparam=a_fid
 $removeparam=afCampaignId
@@ -1687,8 +1699,9 @@ $removeparam=ef_id
 $removeparam=s_kwcid
 $removeparam=dm_i
 $removeparam=epik
-$removeparam=/^mtm_/
-$removeparam=/^piwik_/
+$document,removeparam=/^mtm_/
+$document,removeparam=/^matomo_/
+$document,removeparam=/^piwik_/
 $removeparam=pk_campaign
 $removeparam=pk_medium
 $removeparam=pk_source
@@ -1699,14 +1712,19 @@ $removeparam=ig_mid
 $removeparam=au_advert_id
 $removeparam=au_car_id
 $removeparam=elqTrack
-$removeparam=/^source=rss$/
-$removeparam=/^ref=rss$/
+$document,removeparam=/^from=rss$/
+$document,removeparam=/^source=rss$/
+$document,removeparam=/^ref=rss$/
+$document,removeparam=/^via=rss$/
 $removeparam=mindbox-click-id
 $removeparam=tj,domain=baidu.com|sina.com.cn
 $removeparam=tagtag_uid
 $removeparam=affiliateCode
 $removeparam=affcode
-$removeparam=/^target=admitad$/
+$document,removeparam=/^ref=admitad$/
+$document,removeparam=/^source=admitad$/
+$document,removeparam=/^target=admitad$/
+$document,removeparam=/^referer=prisjakt/i
 $removeparam=cx_testId
 $removeparam=cx_testVariant
 $removeparam=cx_artPos
@@ -1724,8 +1742,9 @@ $removeparam=gaa_ts
 $removeparam=gaa_sig
 $removeparam=amp_gsa
 $removeparam=vgo_ee
-$removeparam=/^ref=prisjakt/i
-$removeparam=/^amp;utm_/
+$document,removeparam=/^ref=prisjakt/i
+$document,removeparam=/^ref=pricespy/i
+$document,removeparam=/^amp;utm_/
 $removeparam=sap-outbound-id
 $removeparam=analyticsCorrelationId
 $removeparam=Affiliate_id
@@ -1735,7 +1754,7 @@ $removeparam=oft_k
 $removeparam=oft_lk
 $removeparam=oft_d
 $removeparam=adobe_mc
-$removeparam=/^_sgm_/i
+$document,removeparam=/^_sgm_/i
 $removeparam=omnisendContactID
 $removeparam=affiliate,domain=~justice.gov
 $removeparam=nosto_source
@@ -1749,16 +1768,18 @@ $removeparam=as_campaign
 $removeparam=as_camptype
 $removeparam=as_channel
 $removeparam=as_source
+$document,removeparam=/^source=igodigital$/
 $removeparam=qq-pf-to
 $removeparam=mibextid
 $removeparam=li_source
 $removeparam=li_medium
-$removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
+$document,removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/
+$document,removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
 $removeparam=relatedposts_hit
 $removeparam=relatedposts_origin
 $removeparam=relatedposts_position
-$removeparam=/^ref=itsfoss.com$/
-$removeparam=/^ref=news.itsfoss.com$/
+$document,removeparam=/^ref=itsfoss.com$/
+$document,removeparam=/^ref=news.itsfoss.com$/
 $removeparam=gad_source
 $removeparam=_gid
 $removeparam=ga_vid

@@ -1,0 +1,106 @@
+d2 2
+a3 2
+! Checksum: SYWoUPu4g8Yg+NMWpzGwUA
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1708204010-14400.patch
+d6 2
+a7 2
+! Version: 2.0.13.42
+! TimeUpdated: 2024-02-17T21:03:11+00:00
+d175 1
+a175 1
+||top^$document,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top|~audioforyou.top|~pegelinux.top
+d190 1
+a190 1
+www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"], [href*="pegelinux.top"]))
+d199 1
+a199 1
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"], [href*="pegelinux.top"]))
+d202 1
+a202 1
+bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"], [href*="pegelinux.top"]))
+a1985 1
+$document,removeparam=/^ref=ceneo$/
+d1988 2
+a1989 2
+$document,removeparam=/^affsrc=/i
+$document,removeparam=/^aff_sub\d?=/
+d1992 1
+a1992 1
+$document,removeparam=/^clickref\d?=/
+d2006 5
+a2010 5
+$document,removeparam=/^subid1=/i
+$document,removeparam=/^subid2=/i
+$document,removeparam=/^subid3=/i
+$document,removeparam=/^subid4=/i
+$document,removeparam=/^subid5=/i
+d2019 1
+a2019 1
+$document,removeparam=/^sfmc_/
+a2026 2
+$document,removeparam=/^Offers\.com/
+$document,removeparam=/^source=connexity$/
+d2028 3
+a2030 8
+$document,removeparam=/^refsource=webgains$/
+$document,removeparam=/^source=webgains$/
+$document,removeparam=/^source=tradedoubler$/
+$document,removeparam=/^network=webgains$/i
+$document,removeparam=/^ref=kelkoo/
+$document,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
+$document,removeparam=/^from=kelkoo/
+$document,removeparam=/^source=partnerads$/
+a2032 1
+||prispresseren.dk^$document,removeparam=/^amp;/
+a2037 1
+$document,removeparam=/^src=aff$/
+d2052 1
+a2052 1
+$document,removeparam=/^af_sub\d=/
+d2056 1
+a2056 1
+$document,removeparam=/^pid=.*_int$/
+d2059 1
+a2059 1
+$document,removeparam=/^sub_id\d=/
+d2075 1
+a2075 2
+$document,removeparam=/^src=rss$/
+$document,removeparam=/^otm_/
+a2079 1
+$document,removeparam=/^tracker=affiliatefuture$/i
+d2094 2
+a2095 3
+$document,removeparam=/^mtm_/
+$document,removeparam=/^matomo_/
+$document,removeparam=/^piwik_/
+d2106 2
+a2107 4
+$document,removeparam=/^from=rss$/
+$document,removeparam=/^source=rss$/
+$document,removeparam=/^ref=rss$/
+$document,removeparam=/^via=rss$/
+d2113 1
+a2113 4
+$document,removeparam=/^ref=admitad$/
+$document,removeparam=/^source=admitad$/
+$document,removeparam=/^target=admitad$/
+$document,removeparam=/^referer=prisjakt/i
+d2131 2
+a2132 3
+$document,removeparam=/^ref=prisjakt/i
+$document,removeparam=/^ref=pricespy/i
+$document,removeparam=/^amp;utm_/
+d2142 1
+a2142 1
+$document,removeparam=/^_sgm_/i
+a2155 1
+$document,removeparam=/^source=igodigital$/
+d2160 1
+a2160 2
+$document,removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/
+$document,removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
+d2164 2
+a2165 2
+$document,removeparam=/^ref=itsfoss.com$/
+$document,removeparam=/^ref=news.itsfoss.com$/

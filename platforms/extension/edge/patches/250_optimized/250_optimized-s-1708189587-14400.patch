@@ -1,0 +1,94 @@
+d1 2
+a2 2
+! Checksum: BihL0rCUnHchX5DNxeZ+gg
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1708203988-14400.patch
+d5 2
+a6 2
+! Version: 2.0.13.42
+! TimeUpdated: 2024-02-17T21:03:11+00:00
+a1582 1
+$document,removeparam=/^ref=ceneo$/
+d1585 2
+a1586 2
+$document,removeparam=/^affsrc=/i
+$document,removeparam=/^aff_sub\d?=/
+d1589 1
+a1589 1
+$document,removeparam=/^clickref\d?=/
+d1603 5
+a1607 5
+$document,removeparam=/^subid1=/i
+$document,removeparam=/^subid2=/i
+$document,removeparam=/^subid3=/i
+$document,removeparam=/^subid4=/i
+$document,removeparam=/^subid5=/i
+d1616 1
+a1616 1
+$document,removeparam=/^sfmc_/
+a1623 2
+$document,removeparam=/^Offers\.com/
+$document,removeparam=/^source=connexity$/
+d1625 3
+a1627 8
+$document,removeparam=/^refsource=webgains$/
+$document,removeparam=/^source=webgains$/
+$document,removeparam=/^source=tradedoubler$/
+$document,removeparam=/^network=webgains$/i
+$document,removeparam=/^ref=kelkoo/
+$document,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
+$document,removeparam=/^from=kelkoo/
+$document,removeparam=/^source=partnerads$/
+a1629 1
+||prispresseren.dk^$document,removeparam=/^amp;/
+a1634 1
+$document,removeparam=/^src=aff$/
+d1649 1
+a1649 1
+$document,removeparam=/^af_sub\d=/
+d1653 1
+a1653 1
+$document,removeparam=/^pid=.*_int$/
+d1656 1
+a1656 1
+$document,removeparam=/^sub_id\d=/
+d1672 1
+a1672 2
+$document,removeparam=/^src=rss$/
+$document,removeparam=/^otm_/
+a1676 1
+$document,removeparam=/^tracker=affiliatefuture$/i
+d1691 2
+a1692 3
+$document,removeparam=/^mtm_/
+$document,removeparam=/^matomo_/
+$document,removeparam=/^piwik_/
+d1703 2
+a1704 4
+$document,removeparam=/^from=rss$/
+$document,removeparam=/^source=rss$/
+$document,removeparam=/^ref=rss$/
+$document,removeparam=/^via=rss$/
+d1710 1
+a1710 4
+$document,removeparam=/^ref=admitad$/
+$document,removeparam=/^source=admitad$/
+$document,removeparam=/^target=admitad$/
+$document,removeparam=/^referer=prisjakt/i
+d1728 2
+a1729 3
+$document,removeparam=/^ref=prisjakt/i
+$document,removeparam=/^ref=pricespy/i
+$document,removeparam=/^amp;utm_/
+d1739 1
+a1739 1
+$document,removeparam=/^_sgm_/i
+a1752 1
+$document,removeparam=/^source=igodigital$/
+d1757 1
+a1757 2
+$document,removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/
+$document,removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
+d1761 2
+a1762 2
+$document,removeparam=/^ref=itsfoss.com$/
+$document,removeparam=/^ref=news.itsfoss.com$/

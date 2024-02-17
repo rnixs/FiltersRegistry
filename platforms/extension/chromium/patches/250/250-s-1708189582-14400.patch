@@ -1,0 +1,135 @@
+d1 2
+a2 2
+! Checksum: KnRiVkzk2ol9gcex8AD8pg
+! Diff-Path: ../patches/250/250-s-1708203982-14400.patch
+d5 2
+a6 2
+! Version: 2.0.13.42
+! TimeUpdated: 2024-02-17T21:03:11+00:00
+d25543 1
+a25543 1
+! OriginalVersion: 17February2024v4
+d26252 1
+a26252 1
+$document,removeparam=/^ref=ceneo$/
+d26258 2
+a26259 2
+$document,removeparam=/^affsrc=/i
+$document,removeparam=/^aff_sub\d?=/
+d26262 1
+a26262 1
+$document,removeparam=/^clickref\d?=/
+d26276 5
+a26280 5
+$document,removeparam=/^subid1=/i
+$document,removeparam=/^subid2=/i
+$document,removeparam=/^subid3=/i
+$document,removeparam=/^subid4=/i
+$document,removeparam=/^subid5=/i
+d26299 1
+a26299 1
+$document,removeparam=/^sfmc_/
+d26310 1
+a26310 1
+$document,removeparam=/^Offers\.com/
+d26316 1
+a26316 1
+$document,removeparam=/^source=connexity$/
+d26319 1
+a26319 1
+$document,removeparam=/^refsource=webgains$/
+d26321 1
+a26321 1
+$document,removeparam=/^source=webgains$/
+d26323 1
+a26323 1
+$document,removeparam=/^source=tradedoubler$/
+d26325 1
+a26325 1
+$document,removeparam=/^network=webgains$/i
+d26328 1
+a26328 1
+$document,removeparam=/^ref=kelkoo/
+d26331 2
+a26332 2
+$document,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
+$document,removeparam=/^from=kelkoo/
+d26336 1
+a26336 1
+$document,removeparam=/^source=partnerads$/
+d26342 1
+a26342 1
+||prispresseren.dk^$document,removeparam=/^amp;/
+d26370 1
+a26370 1
+$document,removeparam=/^src=aff$/
+d26392 1
+a26392 1
+$document,removeparam=/^af_sub\d=/
+d26398 1
+a26398 1
+$document,removeparam=/^pid=.*_int$/
+d26412 1
+a26412 1
+$document,removeparam=/^sub_id\d=/
+d26480 1
+a26480 1
+$document,removeparam=/^src=rss$/
+d26482 1
+a26482 1
+$document,removeparam=/^otm_/
+d26494 1
+a26494 1
+$document,removeparam=/^tracker=affiliatefuture$/i
+d26522 3
+a26524 3
+$document,removeparam=/^mtm_/
+$document,removeparam=/^matomo_/
+$document,removeparam=/^piwik_/
+d26548 1
+a26548 1
+$document,removeparam=/^from=rss$/
+d26550 1
+a26550 1
+$document,removeparam=/^source=rss$/
+d26552 1
+a26552 1
+$document,removeparam=/^ref=rss$/
+d26554 1
+a26554 1
+$document,removeparam=/^via=rss$/
+d26571 1
+a26571 1
+$document,removeparam=/^ref=admitad$/
+d26573 1
+a26573 1
+$document,removeparam=/^source=admitad$/
+d26575 1
+a26575 1
+$document,removeparam=/^target=admitad$/
+d26577 1
+a26577 1
+$document,removeparam=/^referer=prisjakt/i
+d26621 1
+a26621 1
+$document,removeparam=/^ref=prisjakt/i
+d26623 1
+a26623 1
+$document,removeparam=/^ref=pricespy/i
+d26625 1
+a26625 1
+$document,removeparam=/^amp;utm_/
+d26646 1
+a26646 1
+$document,removeparam=/^_sgm_/i
+d26684 1
+a26684 1
+$document,removeparam=/^source=igodigital$/
+d26694 2
+a26695 2
+$document,removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/
+$document,removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
+d26702 2
+a26703 2
+$document,removeparam=/^ref=itsfoss.com$/
+$document,removeparam=/^ref=news.itsfoss.com$/

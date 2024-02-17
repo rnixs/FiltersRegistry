@@ -146,16 +146,112 @@ $doc,removeparam=/^wtm_/
 $removeparam=rb_clickid,doc
 ! Rule "$doc,removeparam=/^from=ceneo$/" converted to: "$document,removeparam=/^from=ceneo$/"
 $doc,removeparam=/^from=ceneo$/
+! Rule "$doc,removeparam=/^ref=ceneo$/" converted to: "$document,removeparam=/^ref=ceneo$/"
+$doc,removeparam=/^ref=ceneo$/
 ! Rule "$removeparam=__s,doc" converted to: "$removeparam=__s,document"
 $removeparam=__s,doc
+! Rule "$doc,removeparam=/^affsrc=/i" converted to: "$document,removeparam=/^affsrc=/i"
+$doc,removeparam=/^affsrc=/i
+! Rule "$doc,removeparam=/^aff_sub\d?=/" converted to: "$document,removeparam=/^aff_sub\d?=/"
+$doc,removeparam=/^aff_sub\d?=/
+! Rule "$doc,removeparam=/^clickref\d?=/" converted to: "$document,removeparam=/^clickref\d?=/"
+$doc,removeparam=/^clickref\d?=/
+! Rule "$doc,removeparam=/^subid1=/i" converted to: "$document,removeparam=/^subid1=/i"
+$doc,removeparam=/^subid1=/i
+! Rule "$doc,removeparam=/^subid2=/i" converted to: "$document,removeparam=/^subid2=/i"
+$doc,removeparam=/^subid2=/i
+! Rule "$doc,removeparam=/^subid3=/i" converted to: "$document,removeparam=/^subid3=/i"
+$doc,removeparam=/^subid3=/i
+! Rule "$doc,removeparam=/^subid4=/i" converted to: "$document,removeparam=/^subid4=/i"
+$doc,removeparam=/^subid4=/i
+! Rule "$doc,removeparam=/^subid5=/i" converted to: "$document,removeparam=/^subid5=/i"
+$doc,removeparam=/^subid5=/i
+! Rule "$doc,removeparam=/^sfmc_/" converted to: "$document,removeparam=/^sfmc_/"
+$doc,removeparam=/^sfmc_/
+! Rule "$doc,removeparam=/^Offers\.com/" converted to: "$document,removeparam=/^Offers\.com/"
+$doc,removeparam=/^Offers\.com/
+! Rule "$doc,removeparam=/^source=connexity$/" converted to: "$document,removeparam=/^source=connexity$/"
+$doc,removeparam=/^source=connexity$/
+! Rule "$doc,removeparam=/^refsource=webgains$/" converted to: "$document,removeparam=/^refsource=webgains$/"
+$doc,removeparam=/^refsource=webgains$/
+! Rule "$doc,removeparam=/^source=webgains$/" converted to: "$document,removeparam=/^source=webgains$/"
+$doc,removeparam=/^source=webgains$/
+! Rule "$doc,removeparam=/^source=tradedoubler$/" converted to: "$document,removeparam=/^source=tradedoubler$/"
+$doc,removeparam=/^source=tradedoubler$/
+! Rule "$doc,removeparam=/^network=webgains$/i" converted to: "$document,removeparam=/^network=webgains$/i"
+$doc,removeparam=/^network=webgains$/i
+! Rule "$doc,removeparam=/^ref=kelkoo/" converted to: "$document,removeparam=/^ref=kelkoo/"
+$doc,removeparam=/^ref=kelkoo/
+! Rule "$doc,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/" converted to: "$document,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/"
+$doc,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
+! Rule "$doc,removeparam=/^from=kelkoo/" converted to: "$document,removeparam=/^from=kelkoo/"
+$doc,removeparam=/^from=kelkoo/
+! Rule "$doc,removeparam=/^source=partnerads$/" converted to: "$document,removeparam=/^source=partnerads$/"
+$doc,removeparam=/^source=partnerads$/
+! Rule "||prispresseren.dk^$doc,removeparam=/^amp;/" converted to: "||prispresseren.dk^$document,removeparam=/^amp;/"
+||prispresseren.dk^$doc,removeparam=/^amp;/
+! Rule "$doc,removeparam=/^src=aff$/" converted to: "$document,removeparam=/^src=aff$/"
+$doc,removeparam=/^src=aff$/
+! Rule "$doc,removeparam=/^af_sub\d=/" converted to: "$document,removeparam=/^af_sub\d=/"
+$doc,removeparam=/^af_sub\d=/
 ! Rule "$doc,removeparam=shortlink" converted to: "$document,removeparam=shortlink"
 $doc,removeparam=shortlink
+! Rule "$doc,removeparam=/^pid=.*_int$/" converted to: "$document,removeparam=/^pid=.*_int$/"
+$doc,removeparam=/^pid=.*_int$/
+! Rule "$doc,removeparam=/^sub_id\d=/" converted to: "$document,removeparam=/^sub_id\d=/"
+$doc,removeparam=/^sub_id\d=/
+! Rule "$doc,removeparam=/^src=rss$/" converted to: "$document,removeparam=/^src=rss$/"
+$doc,removeparam=/^src=rss$/
+! Rule "$doc,removeparam=/^otm_/" converted to: "$document,removeparam=/^otm_/"
+$doc,removeparam=/^otm_/
+! Rule "$doc,removeparam=/^tracker=affiliatefuture$/i" converted to: "$document,removeparam=/^tracker=affiliatefuture$/i"
+$doc,removeparam=/^tracker=affiliatefuture$/i
+! Rule "$doc,removeparam=/^mtm_/" converted to: "$document,removeparam=/^mtm_/"
+$doc,removeparam=/^mtm_/
+! Rule "$doc,removeparam=/^matomo_/" converted to: "$document,removeparam=/^matomo_/"
+$doc,removeparam=/^matomo_/
+! Rule "$doc,removeparam=/^piwik_/" converted to: "$document,removeparam=/^piwik_/"
+$doc,removeparam=/^piwik_/
+! Rule "$doc,removeparam=/^from=rss$/" converted to: "$document,removeparam=/^from=rss$/"
+$doc,removeparam=/^from=rss$/
+! Rule "$doc,removeparam=/^source=rss$/" converted to: "$document,removeparam=/^source=rss$/"
+$doc,removeparam=/^source=rss$/
+! Rule "$doc,removeparam=/^ref=rss$/" converted to: "$document,removeparam=/^ref=rss$/"
+$doc,removeparam=/^ref=rss$/
+! Rule "$doc,removeparam=/^via=rss$/" converted to: "$document,removeparam=/^via=rss$/"
+$doc,removeparam=/^via=rss$/
 ! Rule "$doc,removeparam=dtpid" converted to: "$document,removeparam=dtpid"
 $doc,removeparam=dtpid
+! Rule "$doc,removeparam=/^ref=admitad$/" converted to: "$document,removeparam=/^ref=admitad$/"
+$doc,removeparam=/^ref=admitad$/
+! Rule "$doc,removeparam=/^source=admitad$/" converted to: "$document,removeparam=/^source=admitad$/"
+$doc,removeparam=/^source=admitad$/
+! Rule "$doc,removeparam=/^target=admitad$/" converted to: "$document,removeparam=/^target=admitad$/"
+$doc,removeparam=/^target=admitad$/
+! Rule "$doc,removeparam=/^referer=prisjakt/i" converted to: "$document,removeparam=/^referer=prisjakt/i"
+$doc,removeparam=/^referer=prisjakt/i
+! Rule "$doc,removeparam=/^ref=prisjakt/i" converted to: "$document,removeparam=/^ref=prisjakt/i"
+$doc,removeparam=/^ref=prisjakt/i
+! Rule "$doc,removeparam=/^ref=pricespy/i" converted to: "$document,removeparam=/^ref=pricespy/i"
+$doc,removeparam=/^ref=pricespy/i
+! Rule "$doc,removeparam=/^amp;utm_/" converted to: "$document,removeparam=/^amp;utm_/"
+$doc,removeparam=/^amp;utm_/
+! Rule "$doc,removeparam=/^_sgm_/i" converted to: "$document,removeparam=/^_sgm_/i"
+$doc,removeparam=/^_sgm_/i
 ! Rule "$doc,removeparam=_clde" converted to: "$document,removeparam=_clde"
 $doc,removeparam=_clde
 ! Rule "$doc,removeparam=_cldee" converted to: "$document,removeparam=_cldee"
 $doc,removeparam=_cldee
+! Rule "$doc,removeparam=/^source=igodigital$/" converted to: "$document,removeparam=/^source=igodigital$/"
+$doc,removeparam=/^source=igodigital$/
+! Rule "$doc,removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/" converted to: "$document,removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/"
+$doc,removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/
+! Rule "$doc,removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/" converted to: "$document,removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/"
+$doc,removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
+! Rule "$doc,removeparam=/^ref=itsfoss.com$/" converted to: "$document,removeparam=/^ref=itsfoss.com$/"
+$doc,removeparam=/^ref=itsfoss.com$/
+! Rule "$doc,removeparam=/^ref=news.itsfoss.com$/" converted to: "$document,removeparam=/^ref=news.itsfoss.com$/"
+$doc,removeparam=/^ref=news.itsfoss.com$/
 ! Rule "$doc,removeparam=traceId" converted to: "$document,removeparam=traceId"
 $doc,removeparam=traceId
 ! Rule "$doc,removeparam=uid_bam" converted to: "$document,removeparam=uid_bam"
