@@ -1,15 +1,15 @@
-! Checksum: Afo28rQcjnxj5W3YAw0pQQ
-! Diff-Path: ../patches/122/122-s-1708160798-14400.patch
+! Checksum: jRlbxpFP/GlczuNJoNo/Bw
+! Diff-Path: ../patches/122/122-s-1708175183-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.27
-! TimeUpdated: 2024-02-17T09:02:24+00:00
+! Version: 2.1.21.28
+! TimeUpdated: 2024-02-17T13:02:07+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: 5AUo7IckyLCz57oudMg8yA
-! OriginalVersion: 202402170740
+! Checksum: zwUeLQNFYTdEfmtKR2jBDA
+! OriginalVersion: 202402171215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-17 07:40 UTC
+! Last modified: 2024-02-17 12:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -37610,6 +37610,8 @@ foodbeast.com##.fdbst-share-button
 sacurrent.com##.fdn-icon-button-smaller
 phoenixnewtimes.com##.fdn-site-header-social-icons
 eadaily.com##.feed
+thebarentsobserver.com##.field-name-sharing-buttons-1
+thebarentsobserver.com##.field-name-sharing-buttons-2
 straitstimes.com##.field-name-telegram
 peepingmoon.com##.fixed-action-btn
 onegreenplanet.org##.fixed-ad
@@ -38959,6 +38961,7 @@ rythm.fm##.Homepage_banner__Bo2QI
 poebuilds.net##.HzPhN
 blix.gg##.J75RiVJTxgBjGwxgE1z-Lg\=\=
 kw.com##.KWBanner
+coinbureau.com##.Layout_mainCookieDiv__nf6PT
 quora.com##.LoadingDots___StyledFlex-sc-1r7wywh-1
 print24.com##.ModalSubModule_overlay__3PmWQ
 tunnelmb.net##.MqsPw
@@ -41052,7 +41055,7 @@ handandstone.com##.modal-cookie-policy
 !! #sliding-popup
 aa.org,alandsradio.ax,audirsclub.it,automobil.se,bell-labs.com,bigsocietycapital.com,camperlife.it,caroftheyear.se,cartoonnetwork.co.uk,eif.co.uk,endurobloggen.se,integralmemory.com,juce.com,kantarsifo.se,lanutrition.fr,meethue.com,middleeasteye.net,mopedgaraget.se,parkinsons.org.uk,rmg.co.uk,servimedia.es,spainbs.com,svjt.se,thalesgroup.com,topuniversities.com,ucas.com###sliding-popup
 !! .sliding-popup-bottom
-accessonline.com,ar.iiarjournals.org,asobostudio.com,avvir.no,axa-im.es,begambleaware.org,beko.fr,biorxiv.org,blikopnieuws.nl,bportugal.pt,cam.ac.uk,centrale-canine.fr,cervantes.es,ciee.org,circuitdigest.com,cmaj.ca,der-baecker-eifler.de,derprivatpatient.de,diena.lt,domradio.de,dtm.com,eluniversal.com.mx,encuentre-abierto.es,escort-ads.com,europapark.de,europol.europa.eu,exploregeorgia.org,fdp.de,financialsense.com,firmania.es,gsis.gr,gysev.hu,handballerd.hu,helsinginkaupunginorkesteri.fi,herbatint.com,ilm.pri.ee,indstate.edu,intelligentcitieschallenge.eu,iphonefaq.org,iva.de,jneurosci.org,kodi.tv,kpnpensioen.nl,land.nrw,lexcellence.swiss,ligainsider.de,mags.nrw,manner.com,mavcsoport.hu,medindia.net,medrxiv.org,metromadrid.es,migros.fr,minsait.com,muhabirce.de,nationalinterest.org,news.ki.se,nibusinessinfo.co.uk,nnieuws.be,novartis.co.jp,nrscotland.gov.uk,nutella.com,oneforall.com,orange.be,osmanlicakelam.net,ovomaltine.de,paihdelinkki.fi,paladinomedia.com,piaggiogroup.com,pioneer-car.eu,prestashop.com,psau.edu.sa,questionmark.com,radiosaw.de,rae.es,reinisfischer.com,rotel.com,sandoz.com.tr,sergeferrari.com,sonntagsblatt.de,sorbonne-universite.fr,staff.ki.se,stainlessgames.com,thuisarts.nl,timeshighereducation.com,tolisihoni.com,topuniversities.com,total.com,trademark-clearinghouse.com,ucg.org,unesco.de,unicef.org,usccb.org,uwaterloo.ca,veganjunkfoodbar.com,veggiepeople.org,voltimum.de,voxmail.it,waffengebraucht.at,weightwatchers.com,wildlifetrusts.org,wis-wander.weizmann.ac.il,worldpressphoto.org,zanzu.be,ziraatkatilim.com.tr,zuerich.com##.sliding-popup-bottom
+accessonline.com,ar.iiarjournals.org,asobostudio.com,avvir.no,axa-im.es,begambleaware.org,beko.fr,biorxiv.org,blikopnieuws.nl,bportugal.pt,cam.ac.uk,centrale-canine.fr,cervantes.es,ciee.org,circuitdigest.com,cmaj.ca,der-baecker-eifler.de,derprivatpatient.de,diena.lt,domradio.de,dtm.com,eluniversal.com.mx,encuentre-abierto.es,escort-ads.com,europapark.de,europol.europa.eu,exploregeorgia.org,fdp.de,financialsense.com,firmania.es,gsis.gr,gysev.hu,handballerd.hu,helsinginkaupunginorkesteri.fi,herbatint.com,ilm.pri.ee,indstate.edu,intelligentcitieschallenge.eu,iphonefaq.org,iva.de,jneurosci.org,kodi.tv,kpnpensioen.nl,land.nrw,lexcellence.swiss,ligainsider.de,mags.nrw,manner.com,mavcsoport.hu,medindia.net,medrxiv.org,metromadrid.es,migros.fr,minsait.com,muhabirce.de,nationalinterest.org,news.ki.se,nibusinessinfo.co.uk,nnieuws.be,novartis.co.jp,nrscotland.gov.uk,nutella.com,oneforall.com,orange.be,osmanlicakelam.net,ovomaltine.de,paihdelinkki.fi,paladinomedia.com,piaggiogroup.com,pioneer-car.eu,prestashop.com,psau.edu.sa,questionmark.com,radiosaw.de,rae.es,reinisfischer.com,rotel.com,sandoz.com.tr,sergeferrari.com,sonntagsblatt.de,sorbonne-universite.fr,staff.ki.se,stainlessgames.com,thebarentsobserver.com,thuisarts.nl,timeshighereducation.com,tolisihoni.com,topuniversities.com,total.com,trademark-clearinghouse.com,ucg.org,unesco.de,unicef.org,usccb.org,uwaterloo.ca,veganjunkfoodbar.com,veggiepeople.org,voltimum.de,voxmail.it,waffengebraucht.at,weightwatchers.com,wildlifetrusts.org,wis-wander.weizmann.ac.il,worldpressphoto.org,zanzu.be,ziraatkatilim.com.tr,zuerich.com##.sliding-popup-bottom
 !! .cookiesplus-modal
 alfombrashamid.es,autovilardell.com,blancmarine.com,carmenvazquez.es,fadenkreuz-shop.de,farmaciadejaime.es,hobbysaliplant.com,kalkumezquerra.com,lauraashley.es,maletia.com,mcracingsa.com,molpack.com,moverte.com,moviloff.es,mueblestudio.com,muellerglas.at,rhsgroup.ro,sakata3d.com,tomasbodero.com,vinoyalgomas.com##.cookiesplus-modal
 !! .cookiewall
@@ -42500,6 +42503,8 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 businessclass.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bcCookieAccepted', 'true')
 schneidewind-immobilien.de#%#//scriptlet('ubo-set-local-storage-item.js', 'pcClosedOnce', 'true')
+astondevs.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'banner', 'true')
+comnet.com.tr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieСonsent', 'true')
 geomiq.com#%#//scriptlet('ubo-set-local-storage-item.js', 'gtag_enabled', '1')
 bbc.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cvcConsentGiven', 'true')
 galaxy.com#%#//scriptlet('ubo-set-local-storage-item.js', 'terms', 'true')
@@ -46531,6 +46536,7 @@ instaread.co##.widget-ad-container
 mygaming.co.za,printmag.com##.widget-area
 offshore-energy.biz##.widget-dynamic
 nextplatform.com##.widget-no-mobile
+bestlifeonline.com##.widget-postup-standalone-form
 blog.vidizmo.com##.widget-type-blog_subscribe
 domainnamewire.com##.widget-wrap.widget_text
 vancouverisawesome.com##.widget-wysiwyg
@@ -49279,6 +49285,8 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 businessclass.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bcCookieAccepted', 'true')
 schneidewind-immobilien.de#%#//scriptlet('ubo-set-local-storage-item.js', 'pcClosedOnce', 'true')
+astondevs.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'banner', 'true')
+comnet.com.tr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieСonsent', 'true')
 geomiq.com#%#//scriptlet('ubo-set-local-storage-item.js', 'gtag_enabled', '1')
 bbc.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cvcConsentGiven', 'true')
 galaxy.com#%#//scriptlet('ubo-set-local-storage-item.js', 'terms', 'true')
@@ -56153,6 +56161,7 @@ kaida-fish.ru##.custom_message
 vivt.ru##.dangen-lable
 iksmedia.ru##.descl
 mathedu.ru##.dialog
+joom.ru##.disclaimer___w8XGU
 ichip.ru,ivd.ru,lisa.ru##.disclamer
 life-webmaster.ru##.div152
 love.mail.ru##.dnQAZn.sc-iFMAoI
