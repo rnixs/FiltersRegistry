@@ -1,9 +1,9 @@
-! Checksum: A3oFgjc/mmZHZ3cpGW8OUQ
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1708175195-14400.patch
+! Checksum: 8V00fTtzoiT64FdCNgtZdg
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1708189595-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.26
-! TimeUpdated: 2024-02-17T13:01:54+00:00
+! Version: 2.1.22.27
+! TimeUpdated: 2024-02-17T17:01:54+00:00
 ! Expires: 10 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -30,6 +30,7 @@
 .gatracking.js
 .gif?Log=
 .jp/static/js/track.js
+.js?id=GTM-
 .lms-analytics/
 .net/l.gif?
 .no/app/aas/a
@@ -578,6 +579,7 @@
 /gtag.js
 /gtag.min.js
 /gtag/js?
+/gtm-data-layer-$script
 /gtm-suite.js
 /gtm.js
 /gtm.min.js
@@ -16070,6 +16072,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||g123.jp/stats?
 ||game-i.daa.jp/skin/analytics.php
 ||gizmodo.jp/api/SurveyCountCollection?
+||gtm.diamond.jp^
 ||hatarako.net/api/recommend/analyze_logger
 ||img.syosetu.org/js/c_
 ||k-crm.jp/tracking.js

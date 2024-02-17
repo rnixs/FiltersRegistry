@@ -1,15 +1,15 @@
-! Checksum: Uy6QUNzyvumcc34mMf940g
-! Diff-Path: ../patches/246/246-s-1708175181-14400.patch
+! Checksum: UhkiZ97Bb20W/MTMRTRGMA
+! Diff-Path: ../patches/246/246-s-1708189582-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.40.7
-! TimeUpdated: 2024-02-17T13:02:58+00:00
+! Version: 2.1.40.8
+! TimeUpdated: 2024-02-17T17:02:58+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: RA0MR0JKjMX6mLneeLVUxw
-! OriginalVersion: 202402171251
+! Checksum: 9m4QYFsA8u1zZ7qFVv8Ajg
+! OriginalVersion: 202402171651
 ! Title: EasyList Polish
-! Last modified: 17 Feb 2024 12:51 UTC
+! Last modified: 17 Feb 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -368,7 +368,6 @@ supernowosci24.pl##[id^="r-"]
 ||poradnik-pacjenta.pl^*-rekl.
 ||portalmorski.pl^*^pmb^
 ||postimg.cc^$domain=pogonsportnet.pl
-||powiat-piaseczynski.info^*_300x200.
 ||powiat-piaseczynski.info^*_300x250px-
 ||prudnik24.pl^*^wypozyczalnia_gastronomiczna.
 ||ps3-hack.pl^*^buttons/VirtualFuture.
@@ -443,6 +442,7 @@ supernowosci24.pl##[id^="r-"]
 ||xlomza.pl^*^kukasz08_
 ||xlomza.pl^*^wizytowka_kaledarz.
 ||xtb.com^$script,domain=kantorywalut.pl
+||zamioculcas2.org^
 ||zamioculcas2.org^$script,domain=budujesz.info|rynek-rolny.pl
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zw.pl/ads/

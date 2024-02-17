@@ -1,0 +1,27 @@
+d2 2
+a3 2
+! Checksum: PuGHD8AaYNTMWRengOXz8A
+! Diff-Path: ../patches/250_optimized/250_optimized-s-1708189610-14400.patch
+d6 2
+a7 2
+! Version: 2.0.13.41
+! TimeUpdated: 2024-02-17T17:03:09+00:00
+d1670 4
+a1673 5
+&uclick=*&uclickhash=$document,removeparam
+/?r=dir&zoneid=$document,removeparam
+/?rb=*&zoneid=$document,removeparam
+/?uclick=*;uclickhash=$document,removeparam
+$document,removeparam=/^\??utm_/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl
+d1832 1
+a1832 1
+$document,removeparam=campaignid
+d2668 1
+a2668 1
+$document,removeparam=campaign,domain=1sol.io|bdsmx.tube|blue-tomato.com|bybit.com|coinpanel.com|discord.*|docs.google.com|docsend.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|mrgay.tube|outnorth.fi|peterhahn.*|reddit.app.link|runnode.com|scmp.com|shopee.*|sitepoint.com|sportler.com|t.me|twitter.com|ubereats.com|x.com|youtube.com
+d2702 1
+a2702 1
+$document,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxofficemojo.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|imdb.com|primevideo.com|shopbop.com
+a3182 2
+||ubereats.com^$document,removeparam=marketing-visitor-id
+||ubereats.com^$document,removeparam=sub-campaign

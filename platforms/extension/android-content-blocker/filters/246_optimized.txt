@@ -1,9 +1,9 @@
-! Checksum: JTUAKB2RYGEqSDXtFU//5Q
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1708175175-14400.patch
+! Checksum: xQ2N/rghgkja/vQjI7Xl0g
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1708189576-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.40.7
-! TimeUpdated: 2024-02-17T13:02:58+00:00
+! Version: 2.1.40.8
+! TimeUpdated: 2024-02-17T17:02:58+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -337,7 +337,6 @@ supernowosci24.pl##[id^="r-"]
 ||poradnik-pacjenta.pl^*-rekl.
 ||portalmorski.pl^*^pmb^
 ||postimg.cc^$domain=pogonsportnet.pl
-||powiat-piaseczynski.info^*_300x200.
 ||powiat-piaseczynski.info^*_300x250px-
 ||prudnik24.pl^*^wypozyczalnia_gastronomiczna.
 ||ps3-hack.pl^*^buttons/VirtualFuture.
@@ -412,6 +411,7 @@ supernowosci24.pl##[id^="r-"]
 ||xlomza.pl^*^kukasz08_
 ||xlomza.pl^*^wizytowka_kaledarz.
 ||xtb.com^$script,domain=kantorywalut.pl
+||zamioculcas2.org^
 ||zamioculcas2.org^$script,domain=budujesz.info|rynek-rolny.pl
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zw.pl/ads/
