@@ -1,15 +1,15 @@
-! Checksum: 0OA31JnwvSdIQwp4IDAYtA
-! Diff-Path: ../patches/101/101-s-1708132003-14400.patch
+! Checksum: HOCy+G5swaQBn2sq4snFuA
+! Diff-Path: ../patches/101/101-s-1708146383-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.20.99
-! TimeUpdated: 2024-02-17T01:01:36+00:00
+! Version: 2.1.21.0
+! TimeUpdated: 2024-02-17T05:01:31+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: QhAUQAoQBDLACwso44qJPA
-! OriginalVersion: 202402170051
+! Checksum: BsSkB94VSoCKWs3V1DJaJg
+! OriginalVersion: 202402170451
 ! Title: EasyList
-! Last modified: 17 Feb 2024 00:51 UTC
+! Last modified: 17 Feb 2024 04:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12590,6 +12590,7 @@ _800x80_
 ##.c-posts__ad
 ##.c-prebid
 ##.c-res-ad
+##.c-sidebar-ad-stream__ad
 ##.c-sitenav-adslot
 ##.c-sitenavPlaceholder__ad
 ##.c_nt_ad
@@ -42929,6 +42930,7 @@ browsershots.org#@#.advert_area
 ||pu1.biz^
 ||pu3.biz^
 ||pu5hk1n2020.com^
+||pub.network^
 ||pubacca5mc.com^
 ||pubaka5.com^
 ||pubceremony.com^
@@ -59263,7 +59265,6 @@ browsershots.org#@#.advert_area
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
 ||a-delivery.rmbl.ws^
-||a.pub.network^*/pubfig.min.js
 ||a.ucoz.net^
 ||ad-blocking24.net^
 ||ad-serve.b-cdn.net^
@@ -59602,7 +59603,6 @@ browsershots.org#@#.advert_area
 ||promos.fling.com^
 ||promote.pair.com/88x31.pl
 ||proxysolutions.net/affiliates/
-||pub.network/core/pubfig/
 ||pubfeed.linkby.com^
 ||public.porn.fr^$third-party
 ||publish0x.com^$image,script,third-party
@@ -62078,8 +62078,9 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||analsexstars.com/og/
 ||anybunny.tv/js/main.ex.js
 ||anyporn.com/aa/
-||anysex.com/*oio/|$script
-||anysex.com/2-2-temparoryo/
+||anysex.com/*/js|
+||anysex.com/*/script|
+||anysex.com^$subdocument,~third-party
 ||asg.faperoni.com^
 ||atube.xxx/static/js/abb.js
 ||aucdn.net^$media,domain=clgt.one
@@ -63398,6 +63399,7 @@ webkinznewz.ganzworld.com###site-description
 dead-frog.com###site_top
 2oceansvibe.com###skin
 namemc.com###skin_wrapper
+pinkvilla.com###skinnerAdClosebtn
 dafont.com###sky
 dailymail.co.uk,thisismoney.co.uk###sky-left-container
 dailymail.co.uk###sky-right
@@ -66185,6 +66187,7 @@ livemint.com##.rhsWidgetNotAdFree
 moneycontrol.com##.rhs_banner_300x34_widget
 siteslike.com##.rif
 terminal.hackernoon.com##.right
+pinkvilla.com##.right--side--ad-s1
 cnbctv18.com##.right-ad-amp
 news.net##.right-banner-wr > .right
 africanews.com##.right-legend
@@ -66389,6 +66392,7 @@ garagejournal.com##.size-medium
 canadianbusiness.com##.sjm-dfp-wrapper
 indiancountrytoday.com##.skgeoeho
 charismanews.com##.skinTrackClicks
+pinkvilla.com##.skinnerAd
 hltv.org##.skinport
 entrepreneur.com##.sky
 edarabia.com##.sky-600
@@ -69307,6 +69311,7 @@ senzuri.tube##.video-tube-friends
 xhamster.com##.video-view-ads
 china-tubex.site##.videoAd
 javynow.com##.videos-ad__ad
+porntop.com##.videos-slider--promo
 porndoe.com##.videos-tsq
 zbporn.tv##.view-aside
 zbporn.com,zbporn.tv##.view-aside-block
