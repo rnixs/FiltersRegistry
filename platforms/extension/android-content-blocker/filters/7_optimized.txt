@@ -1,9 +1,9 @@
-! Checksum: 8B7YUwnGfG9qdq9Az8nLhA
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1708169739-3600.patch
+! Checksum: Rt/n7vPdzPIv9UwyMxK4CA
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1708173345-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.69
-! TimeUpdated: 2024-02-17T11:33:12+00:00
+! Version: 2.0.48.70
+! TimeUpdated: 2024-02-17T12:33:14+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||af.atsoho.com^$third-party
@@ -7172,7 +7172,7 @@ news.mynavi.jp##.articleBnr_ydn
 news.mynavi.jp##.c-sideBanner_articleBottom
 news.mynavi.jp##.headerBillboard
 news.mynavi.jp##.c-sidePickup
-asmr18.fans,twivideo.net,javfan.one,jav.direct,openloadpro.com,javmix.*##div[style^="max-width: 1000px;"]
+nyahentai.re,asmr18.fans,twivideo.net,javfan.one,jav.direct,openloadpro.com,javmix.*##div[style^="max-width: 1000px;"]
 javmix.*##div[style^="width: 728px; height: 90px"]
 blog.goo.ne.jp##.article__banner
 blog.goo.ne.jp##.mod-entry-set-goo-ad
