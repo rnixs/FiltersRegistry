@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: hz1xixoXGW+Jc1y1REcO1w
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1708173367-3600.patch
+! Checksum: TQn7AdMgnGY9kTQrZXcaCw
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1708176969-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.70
-! TimeUpdated: 2024-02-17T12:33:14+00:00
+! Version: 2.0.48.71
+! TimeUpdated: 2024-02-17T13:33:12+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||af.atsoho.com^$third-party
@@ -1209,9 +1209,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 nyahentai.re###main > .home-h:has(> a[href^="https://go.xlrdr.com"])
 kurashiru.com##div[class^="article-items_ads_"]
 kurashiru.com##div[class^="article-items_ads_"] + div[aria-hidden="true"]:empty
-kurashiru.com##div[id^="affiliateItem-"]
 kurashiru.com##div[class^="page_sp_ad"]
-kurashiru.com##div[class^="sp-only_"]
 ||assets.hikaku-api.kurashiru.com/banner/
 xn--1-td6bm19b.com##div[id^="space"]
 meow.fan###meows > p[style="text-align: center;"]

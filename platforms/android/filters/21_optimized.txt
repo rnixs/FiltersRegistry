@@ -1,9 +1,9 @@
-! Checksum: iZ3kz4tVrncqdF4VVvs6WA
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1708166138-3600.patch
+! Checksum: Cauh8rjHC73nzpeBis6Y2w
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1708176936-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.86
-! TimeUpdated: 2024-02-17T10:32:11+00:00
+! Version: 2.0.19.87
+! TimeUpdated: 2024-02-17T13:32:11+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1387,6 +1387,7 @@ alexfitness.ru#$#div.modal-backdrop { display: none!important; }
 alexfitness.ru#$#.modal-open { overflow: visible!important; }
 tf1.fr##div[aria-describedby^="max-banner-"]
 ||contributions.guardianapis.com^
+||utatane-plts.com/images/banner/utatane-plts_pr_$domain=m-pe.tv
 native-phrase-blog.com###codewidget-2
 insideclimatenews.org##.icn-call-out-block
 g2.com##.product-head__sponsored-ad

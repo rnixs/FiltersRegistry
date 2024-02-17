@@ -1,9 +1,9 @@
-! Checksum: gtiFyu8V5OjHp/H1aTRnPg
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1708137379-3600.patch
+! Checksum: XT6ZPZG7Sm6VOpEVL9US2g
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1708176971-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.78
-! TimeUpdated: 2024-02-16T21:33:06+00:00
+! Version: 2.0.31.79
+! TimeUpdated: 2024-02-17T13:31:59+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4772,6 +4772,7 @@ medonet.pl##body.withFPU::before
 kurashiru.com#$##dly-LandingPopupBanner { display: none !important; }
 !+ NOT_OPTIMIZED
 kurashiru.com#$#html.dly-modal-active { overflow: auto !important; }
+baumclinic.jp###footer_fixed
 host.dan-work.com###sp_ad2
 smooth.jp###fixed_bottom_nav
 motom-jp.com###footer_btn
