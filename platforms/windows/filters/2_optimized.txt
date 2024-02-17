@@ -1,9 +1,9 @@
-! Checksum: N2Q+rdnuxLAe+SeEXuY4mA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708187799-3600.patch
+! Checksum: D0Vm6zuKSQqcnzlRKE7uHA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708205912-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.22.81
-! TimeUpdated: 2024-02-17T16:33:02+00:00
+! Version: 2.3.22.82
+! TimeUpdated: 2024-02-17T21:35:03+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -19412,6 +19412,7 @@ _800x80_
 ##a[href^="https://track.adform.net/"]
 ##a[href^="https://track.afcpatrk.com/"]
 ##a[href^="https://trk.sportsflix4k.club/"]
+##a[href^="https://turnstileunavailablesite.com/"]
 ##a[href^="https://twinrdsrv.com/"]
 ##a[href^="https://www.adultempire.com/"][href*="?partner_id="]
 ##a[href^="https://www.adxsrve.com/"]
@@ -19427,6 +19428,7 @@ _800x80_
 ##a[href^="https://www.nutaku.net/signup/landing/"]
 ##a[href^="https://www.toprevenuegate.com/"]
 ##a[href^="https://xbet-4.com/"]
+##a[href^="https://zirdough.net/"]
 ##ad-slot
 ##app-ad
 ##app-advertisement
@@ -20803,6 +20805,7 @@ browsershots.org#@#.advert_area
 ||armourhardilytraditionally.com^
 ||armoursviolino.com^
 ||army.delivery^
+||arnditluplfa.com^
 ||arnepurxlbsjiih.xyz^
 ||aromatic-possibility.pro^
 ||aroundpayslips.com^
@@ -20839,6 +20842,7 @@ browsershots.org#@#.advert_area
 ||ashamedtriumphant.com^
 ||ashcdn.com^
 ||ashlarinaugur.com^
+||ashopsoo.net^
 ||ashoreyuripatter.com^
 ||ashoupsu.com^
 ||ashturfchap.com^
@@ -25918,6 +25922,7 @@ browsershots.org#@#.advert_area
 ||laqsvgmjrw.com^
 ||laquearhokan.com^
 ||larchesrotates.com^
+||largeharass.com^
 ||larkyabandum.com^
 ||larontale.com^
 ||larvpydqmwvt.com^
@@ -26213,6 +26218,7 @@ browsershots.org#@#.advert_area
 ||lowuybgxsekr.com^
 ||loxgodpus.com^
 ||loxitdat.com^
+||lparket.com^
 ||lpetooopz.com^
 ||lpnljafoaklewbt.xyz^
 ||lppexpgt.com^
@@ -26711,6 +26717,7 @@ browsershots.org#@#.advert_area
 ||mpbpuctr.com^
 ||mpecehfd.xyz^
 ||mpfofpynoououe.xyz^
+||mphhqaw.com^
 ||mpnrs.com^
 ||mppqellliovkuqi.com^
 ||mppwqimwfkrkpx.com^
@@ -28018,6 +28025,7 @@ browsershots.org#@#.advert_area
 ||polarcdn-terrax.com^
 ||policityseriod.info^
 ||poliesgoral.com^
+||politesewer.com^
 ||pollpublicly.com^
 ||polluxnetwork.com^
 ||poloptrex.com^
@@ -28763,6 +28771,7 @@ browsershots.org#@#.advert_area
 ||rfmjcnramsw.com^
 ||rftodidsrel.com^
 ||rftslb.com^
+||rfxxjpuh.com^
 ||rgcxmzrmcvbxem.com^
 ||rgentssep.xyz^
 ||rgjlpgkzagf.com^
@@ -29201,6 +29210,7 @@ browsershots.org#@#.advert_area
 ||shanorin.com^
 ||sharieta.com^
 ||shasogna.com^
+||shauladubhe.top^
 ||shaulauhuck.com^
 ||shaumpem.com^
 ||shaumtol.com^
@@ -29906,6 +29916,7 @@ browsershots.org#@#.advert_area
 ||thubanoa.com^
 ||thulrlidos.com^
 ||thump-night-stand.com^
+||thunderdepthsforger.top^
 ||thunderhead.com^
 ||thuphedsaup.com^
 ||thyroidaketon.com^
@@ -30183,6 +30194,7 @@ browsershots.org#@#.advert_area
 ||turmoilragcrutch.com^
 ||turncdn.com^
 ||turnhub.net^
+||turnstileunavailablesite.com^
 ||turpentinecomics.com^
 ||tuvlqcjff.com^
 ||tuvwryunm.xyz^
@@ -30896,6 +30908,7 @@ browsershots.org#@#.advert_area
 ||whoursie.com^
 ||whouseem.com^
 ||whoutsog.net^
+||whqxqwy.com^
 ||whugeestauva.com^
 ||whugesto.net^
 ||whulsaux.com^
@@ -32124,6 +32137,7 @@ browsershots.org#@#.advert_area
 ||pixelspivot.com^$popup
 ||pnperf.com^$popup
 ||podefr.net^$popup
+||politesewer.com^$popup
 ||pompreflected.com^$popup
 ||popupblocker-download.com^$popup
 ||predictiondisplay.com^$popup
@@ -32142,6 +32156,7 @@ browsershots.org#@#.advert_area
 ||saveourspace.co^$popup
 ||searchheader.xyz^$popup
 ||shainsie.com^$popup
+||shauladubhe.top^$popup
 ||sing-tracker.com^$popup
 ||slownansuch.info^$popup
 ||smartcj.com^$popup
@@ -32165,6 +32180,7 @@ browsershots.org#@#.advert_area
 ||thaudray.com^$popup
 ||theoverheat.com^$popup
 ||thescads.com^$popup
+||thunderdepthsforger.top^$popup
 ||toprevenuegate.com^$popup
 ||toptrendyinc.com^$popup
 ||totaladblock.com^$popup
@@ -32178,6 +32194,7 @@ browsershots.org#@#.advert_area
 ||troublesomeleerycarry.com^$popup
 ||trustflayer1.online^$popup
 ||tsyndicate.com^$popup
+||turnstileunavailablesite.com^$popup
 ||typicalsecuritydevice.com^$popup
 ||tzaqkp.com^$popup
 ||ugeewhee.xyz^$popup
@@ -32194,6 +32211,7 @@ browsershots.org#@#.advert_area
 ||waufooke.com^$popup
 ||whairtoa.com^$popup
 ||whoursie.com^$popup
+||wigsynthesis.com^$popup
 ||wildestelf.com^$popup
 ||wiringsensitivecontents.com^$popup
 ||wishfulla.com^$popup
