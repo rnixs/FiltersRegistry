@@ -1,9 +1,9 @@
-! Checksum: 9ejD8GqLfeujqlk1pbht/A
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708126570-3600.patch
+! Checksum: 9uf29oM+hPukkk9YDrfteA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708133797-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.22.75
-! TimeUpdated: 2024-02-16T23:32:42+00:00
+! Version: 2.3.22.76
+! TimeUpdated: 2024-02-17T01:33:02+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -36964,6 +36964,7 @@ browsershots.org#@#.advert_area
 ||ptyomtzjpdlcf.com^
 ||pu1.biz^
 ||pu3.biz^
+||pub.network^
 ||pubaka5.com^
 ||pubdisturbance.com^
 ||pubfuture-ad.com^
@@ -40986,7 +40987,6 @@ browsershots.org#@#.advert_area
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
 ||a-delivery.rmbl.ws^
-||a.pub.network^*/pubfig.min.js
 ||ad-blocking24.net^
 ||ad.22betpartners.com^
 ||ad.about.co.kr^
@@ -41109,7 +41109,6 @@ browsershots.org#@#.advert_area
 ||partners.hostgator.com^
 ||play-asia.com^$image,subdocument,third-party
 ||promos.fling.com^
-||pub.network/core/pubfig/
 ||pubfeed.linkby.com^
 ||qsearch-a.akamaihd.net^
 ||random-affiliate.atimaze.com^
@@ -42814,6 +42813,7 @@ mumsnet.com##.lg\:w-billboard
 rebelnews.com##.lighter-gray-bg
 linuxize.com##.linaff
 jpost.com##.line-left-side-before-and-after-container
+apkmirror.com##.listWidget > .promotedAppListing
 researchgate.net##.lite-page__above
 tigerdroppings.com##.lowLead
 thestreet.com##.m-balloon-header
