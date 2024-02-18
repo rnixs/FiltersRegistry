@@ -1,15 +1,15 @@
-! Checksum: 3B/C/4Vtz4YX3L9EtNX4rQ
-! Diff-Path: ../patches/122/122-s-1708247185-14400.patch
+! Checksum: bG8PrHujFM4APHMQHNQF3Q
+! Diff-Path: ../patches/122/122-s-1708261581-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.33
-! TimeUpdated: 2024-02-18T09:02:13+00:00
+! Version: 2.1.21.34
+! TimeUpdated: 2024-02-18T13:02:11+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: w33MY4ILy1x1QO9z/V+rHA
-! OriginalVersion: 202402180840
+! Checksum: rnNuhvZ/DphhhKMpTecUZA
+! OriginalVersion: 202402181240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-18 08:40 UTC
+! Last modified: 2024-02-18 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36395,6 +36395,7 @@ bingplaces.com###pagination_Arrow
 accessoires-asus.com###retourHaut
 news.mingpao.com###return_top_2023
 baystatebanner.com###scroll-back
+ofbez.com###scroll-buttons
 advister.it,aeromalls.com,ecrater.com,gadgetstouse.com,hard-drive.net,hotels.com,iphoneitalia.com,safetydetectives.com,theblondeabroad.com,thefintechtimes.com,yoshuabengio.org###scroll-to-top
 dihi.org,trutone.ca###scroll-top
 morbidology.com,rivanimation.com,spuf.org,theoverclocker.com,uska.ch,wdet.org###scroll-up
@@ -37281,7 +37282,7 @@ skidrowreloaded.com###communication
 6sqft.com,activistpost.com,wakingtimes.com###conversions-box
 sputnikglobe.com###cta
 newframe.com###cta-follow
-investigativepost.org###custom_html-2
+investigativepost.org,ofbez.com###custom_html-2
 freegameplanet.com###custom_html-3
 naijachoice.com.ng###custom_html-53
 ceoworld.biz###custom_html-7
@@ -37492,6 +37493,7 @@ butwhytho.net##.bm-social-sharing
 9to5linux.com##.bm-social-top
 breitbart.com##.bnn-social-share
 crn.com##.border-all-mid-gray-rounded
+ofbez.com##.box-fixed-subscription
 cardiff.ac.uk##.box-services
 bangkokpost.com##.boxnav--social
 purewow.com##.btn--email
@@ -38367,7 +38369,7 @@ basecamelectronics.com###agreement-alert
 bracketfights.com,tiermaker.com###agreementMessage
 ibispaint.com###agreementPane
 airvpn.org###air_cookielaw_container
-chefoo.co.uk,godbolt.org###alert
+chefoo.co.uk###alert
 rome2rio.com###alert-banner
 youtube.com###alert-banner > .ytd-browse > .yt-alert-with-actions-renderer
 supermicro.com###alert-container
@@ -41296,7 +41298,7 @@ allinone.im,jsonquerytool.com,mydirtyhobby.com,sweetcombecottages.co.uk##.MuiDia
 !! .MuiSnackbar-root
 bloggersnetworkdaily.com,coingate.com,customerservicedaily.com,dailyhuntingnews.com,exceldailynews.com,logistica.la,mysilife.com,schlossbergapotheken-zeitung.de,taipeinewsnetwork.com,therobbreview.org##.MuiSnackbar-root
 !! .bottom-0
-aktiivikristinusko.fi,aktiveschristentum.de,aktivkeresztenyseg.hu,aktivkristendom.dk,aktivkristendom.no,aktivkristendom.se,aktivnoyekhristianstvo.ru,aktywnechrzescijanstwo.pl,appsmith.com,askfinny.com,badael.org,bateswells.co.uk,bishopfox.com,burnleyfootballclub.com,centricabusinesssolutions.ie,checkoutwithcoupon.com,cherryservers.com,cheshirecommunityfoundation.org.uk,christenzijn.nl,christianismeactif.fr,cll.net.nz,clubmed.co.il,consumentenbond.nl,crestinismactiv.ro,cristianesimoattivo.it,cristianismoativo.org,csirt.gov.it,d2iq.com,deceiveinc.com,devstudio.bg,egis-group.com,etherpad.org,forumdamobilidadeinteligente.pt,freshboxed.com.au,glinche-automobiles.com,globusgroup.com,gloot.com,graphy.com,matador-diervoeders.be,matador-diervoeders.com,medpets.fr,milliescookies.com,mirabilisapartments.com,moonpay.com,nooz-optics.com,nucleusnetwork.com,piggy.eu,pro.kraken.com,qualityedge.com,rambox.app,refurbed.at,refurbed.es,refurbed.it,regiojet.cz,sfc.edu,slice.is,studiorebels.nl,tengr.ai,teym.eu,thaicycling.or.th,theburydirectory.co.uk,tpg.com,truecaller.com,undercovertea.es,valasztas.hu,vilavitaparc.com,wallstreetenglish.in.th,webcatalog.io,wentworthpuzzles.com,yourparkingsign.co.uk,zennio-deutschland.de,zennio.com,zennio.com.au,zennio.mx,zymurgorium.com##.bottom-0
+aktiivikristinusko.fi,aktiveschristentum.de,aktivkeresztenyseg.hu,aktivkristendom.dk,aktivkristendom.no,aktivkristendom.se,aktivnoyekhristianstvo.ru,aktywnechrzescijanstwo.pl,appsmith.com,askfinny.com,badael.org,bateswells.co.uk,bishopfox.com,burnleyfootballclub.com,centricabusinesssolutions.ie,checkoutwithcoupon.com,cherryservers.com,cheshirecommunityfoundation.org.uk,christenzijn.nl,christianismeactif.fr,cll.net.nz,clubmed.co.il,consumentenbond.nl,crestinismactiv.ro,cristianesimoattivo.it,cristianismoativo.org,csirt.gov.it,d2iq.com,deceiveinc.com,devstudio.bg,egis-group.com,etherpad.org,forumdamobilidadeinteligente.pt,freshboxed.com.au,glinche-automobiles.com,globusgroup.com,gloot.com,graphy.com,matador-diervoeders.be,matador-diervoeders.com,medpets.fr,milliescookies.com,mirabilisapartments.com,moonpay.com,nooz-optics.com,nucleusnetwork.com,piggy.eu,pro.kraken.com,qualityedge.com,rambox.app,refurbed.at,refurbed.es,refurbed.it,regiojet.cz,sfc.edu,slice.is,studiorebels.nl,tengr.ai,teym.eu,thaicycling.or.th,theburydirectory.co.uk,theinquisitor.game,tpg.com,truecaller.com,undercovertea.es,valasztas.hu,vilavitaparc.com,wallstreetenglish.in.th,webcatalog.io,wentworthpuzzles.com,yourparkingsign.co.uk,zennio-deutschland.de,zennio.com,zennio.com.au,zennio.mx,zymurgorium.com##.bottom-0
 !! .mysticky-welcomebar-fixed-wrap
 fabocompany.com,polipc.hu##.mysticky-welcomebar-fixed-wrap
 !! mod_cms_accept_tags
@@ -41728,6 +41730,7 @@ greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 
 physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'allow')
 gourmetfoodstore.com#%#//scriptlet('ubo-set-cookie.js', 'AnalyticsAcceptancePopOver', 'false')
 schulfahrt.de#%#//scriptlet('ubo-set-cookie.js', 'cookiecookie', '1')
+godbolt.org#%#//scriptlet('ubo-set-cookie.js', 'privacy_status', '1')
 m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice', 'true')
 playtesting.games#%#//scriptlet('ubo-set-cookie.js', 'myAwesomeCookieName3', 'true')
 portal.by.aok.de#%#//scriptlet('ubo-set-cookie.js', 'cookie-notification', 'ACCEPTED', '', 'reload', '1')
@@ -42640,6 +42643,8 @@ flyingpapers.com#%#//scriptlet('ubo-set-local-storage-item.js', 'FP_cookiesAccep
 beta.character.ai#%#//scriptlet('ubo-set-local-storage-item.js', 'VISITED_0', 'true')
 beta.character.ai#%#//scriptlet('ubo-set-local-storage-item.js', 'OPTIONAL_COOKIES_ACCEPTED_0', 'true')
 bittimittari.fi#%#//scriptlet('ubo-set-local-storage-item.js', 'storagePermission', 'true')
+aida64.co.uk,aida64.com.ua,aida64.de,aida64.hu,aida64.it,aida64russia.com#%#//scriptlet('ubo-set-local-storage-item.js', 'set_cookie_stat', 'false')
+aida64.co.uk,aida64.com.ua,aida64.de,aida64.hu,aida64.it,aida64russia.com#%#//scriptlet('ubo-set-local-storage-item.js', 'set_cookie_tracking', 'false')
 ! set-session-storage-item
 erco.com#%#//scriptlet('ubo-set-session-storage-item.js', 'cookieMessageDisagree', 'true')
 smartwielen.lu#%#//scriptlet('ubo-set-session-storage-item.js', 'terms-and-policy-accepted', 'true')
@@ -42764,7 +42769,7 @@ dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk##.lbOuterWrapper
 dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk##.lbOverlay
 dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk#$#body { overflow: auto !important; position: initial !important; }
 !! onetrust scroll fix
-zurbrueggen.de,ilsole24ore.com#$#body,html { overflow: auto !important; position: initial !important; }
+grundig.com,zurbrueggen.de,ilsole24ore.com#$#body,html { overflow: auto !important; position: initial !important; }
 !! .gdpr-cookie-overlay
 convertia.com,inconcertcc.com##.gdpr-cookie-overlay
 convertia.com,inconcertcc.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -46042,7 +46047,7 @@ psychologies.com##.newslatter_box
 theblaze.com##.newsletter-2020
 theintercept.com##.newsletter-block__content
 dailydot.com##.newsletter-button
-health.com##.newsletter-dialog-header-link
+health.com,lifewire.com##.newsletter-dialog-header-link
 carnewschina.com##.newsletter-for-scroll
 mobilesyrup.com##.newsletter-form-container
 popsugar.com.au##.newsletter-form-wrapper
@@ -48516,6 +48521,7 @@ greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 
 physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'allow')
 gourmetfoodstore.com#%#//scriptlet('ubo-set-cookie.js', 'AnalyticsAcceptancePopOver', 'false')
 schulfahrt.de#%#//scriptlet('ubo-set-cookie.js', 'cookiecookie', '1')
+godbolt.org#%#//scriptlet('ubo-set-cookie.js', 'privacy_status', '1')
 m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice', 'true')
 playtesting.games#%#//scriptlet('ubo-set-cookie.js', 'myAwesomeCookieName3', 'true')
 portal.by.aok.de#%#//scriptlet('ubo-set-cookie.js', 'cookie-notification', 'ACCEPTED', '', 'reload', '1')
@@ -49428,6 +49434,8 @@ flyingpapers.com#%#//scriptlet('ubo-set-local-storage-item.js', 'FP_cookiesAccep
 beta.character.ai#%#//scriptlet('ubo-set-local-storage-item.js', 'VISITED_0', 'true')
 beta.character.ai#%#//scriptlet('ubo-set-local-storage-item.js', 'OPTIONAL_COOKIES_ACCEPTED_0', 'true')
 bittimittari.fi#%#//scriptlet('ubo-set-local-storage-item.js', 'storagePermission', 'true')
+aida64.co.uk,aida64.com.ua,aida64.de,aida64.hu,aida64.it,aida64russia.com#%#//scriptlet('ubo-set-local-storage-item.js', 'set_cookie_stat', 'false')
+aida64.co.uk,aida64.com.ua,aida64.de,aida64.hu,aida64.it,aida64russia.com#%#//scriptlet('ubo-set-local-storage-item.js', 'set_cookie_tracking', 'false')
 ! set-session-storage-item
 erco.com#%#//scriptlet('ubo-set-session-storage-item.js', 'cookieMessageDisagree', 'true')
 smartwielen.lu#%#//scriptlet('ubo-set-session-storage-item.js', 'terms-and-policy-accepted', 'true')
@@ -49552,7 +49560,7 @@ dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk##.lbOuterWrapper
 dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk##.lbOverlay
 dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk#$#body { overflow: auto !important; position: initial !important; }
 !! onetrust scroll fix
-zurbrueggen.de,ilsole24ore.com#$#body,html { overflow: auto !important; position: initial !important; }
+grundig.com,zurbrueggen.de,ilsole24ore.com#$#body,html { overflow: auto !important; position: initial !important; }
 !! .gdpr-cookie-overlay
 convertia.com,inconcertcc.com##.gdpr-cookie-overlay
 convertia.com,inconcertcc.com#$#body,html { overflow: auto !important; position: initial !important; }
