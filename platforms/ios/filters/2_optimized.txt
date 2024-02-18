@@ -1,9 +1,9 @@
-! Checksum: ykRK/qpXWVYyFQbSEmgRzA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708284977-3600.patch
+! Checksum: 9nog3oXLMpZdRO1LjZ7Efg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708288567-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.22.95
-! TimeUpdated: 2024-02-18T19:32:44+00:00
+! Version: 2.3.22.96
+! TimeUpdated: 2024-02-18T20:32:40+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -28135,7 +28135,6 @@ _800x80_
 ##.container-content__container-relatedlinks
 ###pubexchange_below_content
 ###outbrain-wrapper
-##.ob-dynamic-rec-containeoutBrainWrapper
 ##.ob-p.ob-dynamic-rec-container
 ##.outbrain-ad-units
 ##.outbrain-widget
@@ -41051,7 +41050,6 @@ browsershots.org#@#.advert_area
 ||weby.aaas.org^
 ||widget.sellwild.com^
 ||widgets.oddschecker.com^
-||widgets.outbrain.com/widgetMonitor/
 ||widgets.outbrain.com^*/widget.js
 ||widgets.tree.com^
 ||winonexd.b-cdn.net^
