@@ -1,9 +1,9 @@
-! Checksum: EWMqNslf5kGbuLY7ULaCFQ
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1708204029-14400.patch
+! Checksum: a75WhkMS4Om6x2hKTzG8mA
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1708218428-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.28
-! TimeUpdated: 2024-02-17T21:01:56+00:00
+! Version: 2.1.22.29
+! TimeUpdated: 2024-02-18T01:01:56+00:00
 ! Expires: 12 hours (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -956,6 +956,7 @@
 /resxclsx.js
 /rgea.min.js
 /riveted.min.js
+/rnb/events
 /roi_tracker.js
 /rollbar.js
 /rollbar.min.js
@@ -5823,6 +5824,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ws.sharethis.com^$script
 ||wsmcdn.audioeye.com^
 ||wspisp.net/logger.php
+||wstats.slashed.cloud^
 ||wt.viagogo.net^
 ||wtbevents.pricespider.com^
 ||wtr-digital-analytics.ew.r.appspot.com^
@@ -6329,6 +6331,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics00.meride.tv^
 ||analytics2-3-meride-tv.akamaized.net^
 ||analytics2-meride-tv.akamaized.net^
+||api.rivpoint.com/*/event/
 ||audit.shaa.it^
 ||click.kataweb.it^
 ||cnt.iol.it^

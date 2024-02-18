@@ -1,9 +1,9 @@
-! Checksum: ywjfLDbtK6w41iss+X2PWA
-! Diff-Path: ../patches/247_optimized/247_optimized-s-1705799171-14400.patch
+! Checksum: ZRq4NpniHQTE2CJgHKn6Zw
+! Diff-Path: ../patches/247_optimized/247_optimized-s-1708218376-14400.patch
 ! Title: Polish Anti-Annoying Special Supplement (Optimized)
 ! Description: Filters that block and hide RSS elements and remnants of hidden newsletters combined with social elements on Polish websites.
-! Version: 2.0.3.66
-! TimeUpdated: 2024-01-21T01:02:58+00:00
+! Version: 2.0.3.67
+! TimeUpdated: 2024-02-18T01:03:01+00:00
 ! Expires: 5 days (update frequency)
 4kdownload.com##.community__item--feed.community__item
 4media.com,tvmaster.eu,wielicka.tv##.social > .rss
@@ -112,6 +112,7 @@ demagog.org.pl##.dg-social_icons a[href*="/feed"]
 dhl.com##.c-footer-social-container
 digitalassets.pl##.feed-link-wrap
 diver.net.pl###menumob > a[href*="feedburner.com/divernetpl"], .xpd-ele-1
+dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl##.footer-menu-list-link[href*="/rss"]
 dlapolski.pl##.dashicons-rss
 dns.pl##.follow-links > li[class*="rss" i]
 dobreprogramy.pl##a[href="#rssModal"], .no-mobile.block:nth-of-type(7)
