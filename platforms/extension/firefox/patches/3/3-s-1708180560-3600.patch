@@ -1,0 +1,19 @@
+d1 2
+a2 2
+! Checksum: OAMNqz3mEOE5w9iGo6X6/g
+! Diff-Path: ../patches/3/3-s-1708259788-3600.patch
+d5 2
+a6 2
+! Version: 2.0.66.85
+! TimeUpdated: 2024-02-18T12:33:12+00:00
+a550 1
+||event.lib.visumo.io^
+a4362 1
+||analytics.castel.jp^
+d92521 1
+a92521 1
+!/^https?:\/\/(?:[0-9a-z]{10,13}|[0-9a-z]{6})\.[^\/]*\/[a-zA-Z0-9\/\+\-]{80,106}$/$match-case,script,~third-party
+a92619 1
+/gtm.js?id=GTM-
+a93144 1
+||show.revico.jp/providejs/revico_tracking.js

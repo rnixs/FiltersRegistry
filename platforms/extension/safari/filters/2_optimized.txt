@@ -1,9 +1,9 @@
-! Checksum: HAj0/uuVlHLKp1jyPk08HA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708256161-3600.patch
+! Checksum: fXlJH+0oV2c7eR0VwanYkA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708259800-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.22.90
-! TimeUpdated: 2024-02-18T11:32:44+00:00
+! Version: 2.3.22.91
+! TimeUpdated: 2024-02-18T12:33:04+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -26789,7 +26789,8 @@ _800x80_
 ##.container-content__container-relatedlinks
 ###pubexchange_below_content
 ###outbrain-wrapper
-##.ob-dynamic-rec-container
+##.ob-dynamic-rec-containeoutBrainWrapper
+##.ob-p.ob-dynamic-rec-container
 ##.outbrain-ad-units
 ##.outbrain-widget
 ##.single__outbrain
@@ -39692,6 +39693,7 @@ browsershots.org#@#.advert_area
 ||weby.aaas.org^
 ||widget.sellwild.com^
 ||widgets.oddschecker.com^
+||widgets.outbrain.com/widgetMonitor/
 ||widgets.outbrain.com^*/widget.js
 ||widgets.tree.com^
 ||winonexd.b-cdn.net^
