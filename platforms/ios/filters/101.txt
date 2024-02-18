@@ -1,15 +1,15 @@
-! Checksum: x0wPMZe0QnWukckJxUlIBg
-! Diff-Path: ../patches/101/101-s-1708232805-14400.patch
+! Checksum: yV3Hsb7OzNv0z2kjq/THrQ
+! Diff-Path: ../patches/101/101-s-1708247215-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.6
-! TimeUpdated: 2024-02-18T05:01:43+00:00
+! Version: 2.1.21.7
+! TimeUpdated: 2024-02-18T09:01:40+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: COYOWWsPzZKQGYdg4bNtVQ
-! OriginalVersion: 202402180451
+! Checksum: 8mMmMn5H5miRwtpPwFxA9w
+! OriginalVersion: 202402180850
 ! Title: EasyList
-! Last modified: 18 Feb 2024 04:51 UTC
+! Last modified: 18 Feb 2024 08:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -61182,6 +61182,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||expats.cz/images/amedia/
 ||facebook.com/network_ads_common
 ||familylawweek.co.uk/bin_1/
+||fastapi.tiangolo.com/img/sponsors/$image
 ||fauceit.com/Roulette-(728x90).jpg
 ||fentent.streampiay.fun^
 ||fentent.streampiay.me^
@@ -65685,6 +65686,7 @@ tekno.kompas.com##.native-wrap
 seura.fi##.nativead:not(.list)
 vice.com##.nav-bar__article-spacer
 majorgeeks.com##.navigation-light
+notebookcheck.net##.nbc-right-float
 vocm.com##.nccBigBox
 aceshowbiz.com,cmr24.net##.ne-banner-layout1
 meilleurpronostic.fr##.ne4u07a96r5c3

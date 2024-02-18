@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 604803eVVQ1KJ9hLjdSQ5A
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1708232801-14400.patch
+! Checksum: MfTp2Rq2uEqbantrkD8nAQ
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1708247210-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.6
-! TimeUpdated: 2024-02-18T05:01:43+00:00
+! Version: 2.1.21.7
+! TimeUpdated: 2024-02-18T09:01:40+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -30947,6 +30947,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||europeangaming.eu/portal/wp-admin/admin-ajax.php?action=acc_get_banners
 ||expats.cz/images/amedia/
 ||facebook.com/network_ads_common
+||fastapi.tiangolo.com/img/sponsors/$image
 ||filehippo.com/revamp.js
 ||filemoon.*/js/baf.js
 ||fishki.net/code?
@@ -32932,6 +32933,7 @@ phillyvoice.com##.native-sponsor
 tekno.kompas.com##.native-wrap
 vice.com##.nav-bar__article-spacer
 majorgeeks.com##.navigation-light
+notebookcheck.net##.nbc-right-float
 vocm.com##.nccBigBox
 danpatrick.com##.needsclick
 newegg.com##.negspa-brands
