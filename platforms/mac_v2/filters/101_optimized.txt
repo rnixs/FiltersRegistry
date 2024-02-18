@@ -1,9 +1,9 @@
-! Checksum: 5XsHzelVZOBvwb6PigWWag
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1708276027-14400.patch
+! Checksum: fdXnOUBG7o1o0UCHT61JCg
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1708290448-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.9
-! TimeUpdated: 2024-02-18T17:01:38+00:00
+! Version: 2.1.21.10
+! TimeUpdated: 2024-02-18T21:02:01+00:00
 ! Expires: 12 hours (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -9274,7 +9274,6 @@ _800x80_
 ###outbrain-wrapper
 ##.OUTBRAIN[data-widget-id^="FMS_REELD_"]
 ##.adv_outbrain
-##.ob-dynamic-rec-containeoutBrainWrapper
 ##.ob-p.ob-dynamic-rec-container
 ##.outBrainWrapper
 ##.outbrain-ad-units
@@ -22643,7 +22642,6 @@ browsershots.org#@#.advert_area
 ||pixelplay.pro^
 ||pixelspivot.com^
 ||pixfuture.net^
-||pixiv.org^
 ||pixxur.com^
 ||pizzasocalled.com^
 ||pjhbyaaadlw.com^
@@ -30291,7 +30289,6 @@ browsershots.org#@#.advert_area
 ||widget.engageya.com/engageya_loader.js
 ||widget.sellwild.com^
 ||widgets.oddschecker.com^
-||widgets.outbrain.com/widgetMonitor/
 ||widgets.outbrain.com^*/widget.js
 ||widgets.progrids.com^
 ||widgets.tree.com^
@@ -34787,7 +34784,6 @@ porn-w.org#?#.row:-abp-contains(Promotion Bot)
 reddxxx.com#?#.items-center:-abp-contains(/^ad$/)
 reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||4cdn.org/adv/$image,xmlhttprequest,domain=4channel.org
-@@||a.pixiv.org/yufulight-image/$domain=pixiv.net
 @@||adap.tv/redir/javascript/vpaid.js
 @@||adnxs.com/ast/ast.js$domain=zone.msn.com
 @@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com

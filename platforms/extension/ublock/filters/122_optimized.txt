@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZEQ9cJ1jy3gAPPUbBZohvA
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1708276012-14400.patch
+! Checksum: lL0jjVxsUVxjwTzqmrVSkg
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1708290434-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.35
-! TimeUpdated: 2024-02-18T17:02:10+00:00
+! Version: 2.1.21.36
+! TimeUpdated: 2024-02-18T21:02:33+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -14171,7 +14171,9 @@ physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehir
 gourmetfoodstore.com##+js(set-cookie, AnalyticsAcceptancePopOver, false)
 schulfahrt.de##+js(set-cookie, cookiecookie, 1)
 godbolt.org##+js(set-cookie, privacy_status, 1)
+freshis.com##+js(set-cookie, accept_cookies, accepted)
 m.twitch.tv##+js(set-cookie, tachyon-accepted-cookie-notice, true)
+environment.data.gov.uk##+js(set-cookie, defra-cookie-banner-dismissed, true, , reload, 1)
 playtesting.games##+js(set-cookie, myAwesomeCookieName3, true)
 portal.by.aok.de##+js(set-cookie, cookie-notification, ACCEPTED, , reload, 1)
 umlandscout.de##+js(set-cookie, loader, 1)

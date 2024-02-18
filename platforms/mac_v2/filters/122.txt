@@ -1,15 +1,15 @@
-! Checksum: gYZbKC34TCkDOUns1GBJ1w
-! Diff-Path: ../patches/122/122-s-1708276028-14400.patch
+! Checksum: Jo9yRNn3/sS9Y6iuxLIOag
+! Diff-Path: ../patches/122/122-s-1708290450-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.35
-! TimeUpdated: 2024-02-18T17:02:10+00:00
+! Version: 2.1.21.36
+! TimeUpdated: 2024-02-18T21:02:33+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: 5GODFW99G6uV/WF2KmmJwg
-! OriginalVersion: 202402181640
+! Checksum: EiVq3gvtLz265naDSOJZIA
+! OriginalVersion: 202402181940
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-18 16:40 UTC
+! Last modified: 2024-02-18 19:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -41731,7 +41731,9 @@ physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehir
 gourmetfoodstore.com#%#//scriptlet('ubo-set-cookie.js', 'AnalyticsAcceptancePopOver', 'false')
 schulfahrt.de#%#//scriptlet('ubo-set-cookie.js', 'cookiecookie', '1')
 godbolt.org#%#//scriptlet('ubo-set-cookie.js', 'privacy_status', '1')
+freshis.com#%#//scriptlet('ubo-set-cookie.js', 'accept_cookies', 'accepted')
 m.twitch.tv#%#//scriptlet('ubo-set-cookie.js', 'tachyon-accepted-cookie-notice', 'true')
+environment.data.gov.uk#%#//scriptlet('ubo-set-cookie.js', 'defra-cookie-banner-dismissed', 'true', '', 'reload', '1')
 playtesting.games#%#//scriptlet('ubo-set-cookie.js', 'myAwesomeCookieName3', 'true')
 portal.by.aok.de#%#//scriptlet('ubo-set-cookie.js', 'cookie-notification', 'ACCEPTED', '', 'reload', '1')
 umlandscout.de#%#//scriptlet('ubo-set-cookie.js', 'loader', '1')
