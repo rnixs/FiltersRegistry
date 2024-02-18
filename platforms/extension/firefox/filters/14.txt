@@ -1,9 +1,9 @@
-! Checksum: lTK5JRqqTs9WvGjdM3jfPA
-! Diff-Path: ../patches/14/14-s-1708284955-3600.patch
+! Checksum: x47S4Q5Zt1OTEfcL18rBIQ
+! Diff-Path: ../patches/14/14-s-1708295771-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.88.12
-! TimeUpdated: 2024-02-18T19:31:47+00:00
+! Version: 2.1.88.13
+! TimeUpdated: 2024-02-18T22:32:08+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -19885,8 +19885,8 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ! !SECTION: Anti-adblock - Admiral
 !
 ! SECTION: Anti-adblock - Freestar Recovered
-hostednovel.com,getemoji.com,concertarchives.org#$#body > div.ad.banner-ad[data-freestar-ad][style] { display: block !important; }
-hostednovel.com,getemoji.com,concertarchives.org#%#//scriptlet('prevent-element-src-loading', 'script', 'a.pub.network')
+#$#body > div.ad.banner-ad[data-freestar-ad][style]:empty { display: block !important; }
+||a.pub.network/core/prebid-universal-creative.js$script,redirect=noopjs
 ! If the script in a separate file
 ||getemoji.com/scripts/apester.js
 ! NOTE: Freestar Recovered end ⬆️

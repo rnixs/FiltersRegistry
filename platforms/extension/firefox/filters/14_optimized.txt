@@ -1,9 +1,9 @@
-! Checksum: ocOkHSoq+LZ2RTuX9kCzZQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1708284956-3600.patch
+! Checksum: CDQJwg3VBdY+2ZRouTXR8A
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1708295772-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.88.12
-! TimeUpdated: 2024-02-18T19:31:47+00:00
+! Version: 2.1.88.13
+! TimeUpdated: 2024-02-18T22:32:08+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -9330,8 +9330,8 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ||sincerebuffalo.com^$third-party
 ||strivesidewalk.com^$third-party
 ||terriblethumb.com^$third-party
-hostednovel.com,getemoji.com,concertarchives.org#$#body > div.ad.banner-ad[data-freestar-ad][style] { display: block !important; }
-hostednovel.com,getemoji.com,concertarchives.org#%#//scriptlet('prevent-element-src-loading', 'script', 'a.pub.network')
+#$#body > div.ad.banner-ad[data-freestar-ad][style]:empty { display: block !important; }
+||a.pub.network/core/prebid-universal-creative.js$script,redirect=noopjs
 ||getemoji.com/scripts/apester.js
 scitechdaily.com,thewindowsclub.com#%#//scriptlet("set-constant", "ezAardvarkDetected", "false")
 !#safari_cb_affinity(general)

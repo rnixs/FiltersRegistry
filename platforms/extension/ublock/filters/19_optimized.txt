@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 5owg6FWOdolCqqRCB9NMDQ
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1708223766-3600.patch
+! Checksum: EQDFrcw1ZQc1cH3y44WlUw
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1708295786-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.79
-! TimeUpdated: 2024-02-17T13:31:59+00:00
+! Version: 2.0.31.80
+! TimeUpdated: 2024-02-18T22:32:21+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -299,7 +299,8 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ||sincerebuffalo.com^$third-party
 ||strivesidewalk.com^$third-party
 ||terriblethumb.com^$third-party
-hostednovel.com,getemoji.com,concertarchives.org#$#body > div.ad.banner-ad[data-freestar-ad][style] { display: block !important; }
+#$#body > div.ad.banner-ad[data-freestar-ad][style]:empty { display: block !important; }
+||a.pub.network/core/prebid-universal-creative.js$script,redirect=noop.js
 ||getemoji.com/scripts/apester.js
 scitechdaily.com,thewindowsclub.com##+js(set-constant, ezAardvarkDetected, false)
 !#safari_cb_affinity(general)

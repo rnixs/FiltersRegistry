@@ -1,9 +1,9 @@
-! Checksum: ds+Fd4+P31vlHvfOJWF9pg
-! Diff-Path: ../patches/19/19-s-1708176962-3600.patch
+! Checksum: 7rNEHHHavacYm6VG6pw8eA
+! Diff-Path: ../patches/19/19-s-1708295781-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.79
-! TimeUpdated: 2024-02-17T13:31:59+00:00
+! Version: 2.0.31.80
+! TimeUpdated: 2024-02-18T22:32:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1612,10 +1612,8 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ! !SECTION: Anti-adblock - Admiral
 !
 ! SECTION: Anti-adblock - Freestar Recovered
-hostednovel.com,getemoji.com,concertarchives.org#$#body > div.ad.banner-ad[data-freestar-ad][style] { display: block !important; }
-hostednovel.com,getemoji.com,concertarchives.org#%#//scriptlet('prevent-element-src-loading', 'script', 'a.pub.network')
+#$#body > div.ad.banner-ad[data-freestar-ad][style]:empty { display: block !important; }
 !#safari_cb_affinity(general,privacy)
-hostednovel.com,getemoji.com,concertarchives.org#@#[data-freestar-ad]
 hostednovel.com,getemoji.com,concertarchives.org#@#.banner-ad-container
 hostednovel.com,getemoji.com,concertarchives.org#@#.banner-ad
 hostednovel.com,getemoji.com,concertarchives.org#@#.ad-siderail
