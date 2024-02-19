@@ -1,9 +1,9 @@
-! Checksum: 7aTyBsEcJJmpdY6hX20MNQ
-! Diff-Path: ../patches/19/19-s-1708346167-3600.patch
+! Checksum: VsQBT3VyKdU2cnK5o+4wfQ
+! Diff-Path: ../patches/19/19-s-1708353379-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.87
-! TimeUpdated: 2024-02-19T12:32:05+00:00
+! Version: 2.0.31.88
+! TimeUpdated: 2024-02-19T14:32:06+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12170,6 +12170,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+||focus.it/images/embed/banner-canale-whats-up/bannerwhatsup.html
+decorte.com##.block-footer--newsletter
 purina.co.uk###block-newsletterstickybanner
 rmj.ru##.banner-top
 thecooldown.com##.popup-box
