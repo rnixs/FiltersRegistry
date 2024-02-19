@@ -1,9 +1,9 @@
-! Checksum: AvjunKlyAUOJAVy04CBKHQ
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1708310143-3600.patch
+! Checksum: kfpN920JQQISFatdIdGiWA
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1708346162-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.37
-! TimeUpdated: 2024-02-16T17:32:55+00:00
+! Version: 2.0.7.38
+! TimeUpdated: 2024-02-19T12:32:24+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### Block useless widgets #######################
@@ -1029,7 +1029,7 @@ kids-in-mind.com###main-content > .page > .entry-content > .et-l--post > .et_bui
 cavalierdaily.com#$#.modal-backdrop { display: none !important; }
 cavalierdaily.com#$##cav-generic-modal { display: none !important; }
 cavalierdaily.com#$#body { overflow-y: auto !important; padding-right: 0 !important; }
-klto9.com,klz9.com,baominh.tech##div[id^="kofi-widget"]
+decrypt.day,klto9.com,klz9.com,baominh.tech##div[id^="kofi-widget"]
 apkmody.io###fixed-donate
 ||static.fundraiseup.com$domain=gijn.org
 peta.org##.sticky-share-bar div.social-links > a.donate

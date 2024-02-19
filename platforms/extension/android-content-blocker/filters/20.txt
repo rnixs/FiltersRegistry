@@ -1,9 +1,9 @@
-! Checksum: 7+++29xqnmNMFxXyaiiI5A
-! Diff-Path: ../patches/20/20-s-1708306562-3600.patch
+! Checksum: WzSsGWKsoBSAlEujC1utmA
+! Diff-Path: ../patches/20/20-s-1708346162-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.49
-! TimeUpdated: 2024-02-19T01:32:15+00:00
+! Version: 2.0.12.50
+! TimeUpdated: 2024-02-19T12:32:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -112,6 +112,10 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! TODO: Delete the following rule when https://github.com/AdguardTeam/ExtendedCss/issues/172 is resolved.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 !
+clubd.co.jp##.dc-app-download
+||baycrews.jp/src/feature/seo/*_app/*-app-bana.jpg
+shop.menz-style.com##img[alt="秋冬コーデのコツ"]
+shop.menz-style.com###coupon-container
 delishkitchen.tv##.footer-app-banner-wrap
 luckymodapk.com##.downbox
 peachjohn.co.jp##.block-footer-guide--service a[href="/app"]

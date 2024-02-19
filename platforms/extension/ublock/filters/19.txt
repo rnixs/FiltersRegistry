@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: zXEbE/+rGM0io0NIXST0Pw
-! Diff-Path: ../patches/19/19-s-1708342630-3600.patch
+! Checksum: wTiXKT1Uly4pa1La3vja8g
+! Diff-Path: ../patches/19/19-s-1708346201-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.86
-! TimeUpdated: 2024-02-19T11:32:17+00:00
+! Version: 2.0.31.87
+! TimeUpdated: 2024-02-19T12:32:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2905,11 +2905,11 @@ iqiyi.com##div[adid]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/38910
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22801
 ! https://github.com/AdguardTeam/AdguardFilters/issues/14731
-sports.iqiyi.com,m.iqiyi.com##+js(set-constant, Object.prototype.adPlayerId, '')
+sports.iqiyi.com##+js(set-constant, Object.prototype.adPlayerId, '')
 www.iqiyi.com##+js(set-constant, QiyiPlayerProphetData.a.data, {})
 www.iqiyi.com##+js(set-constant, Object.prototype.parseXML, noopFunc)
 www.iqiyi.com##+js(set-constant, Object.prototype.blackscreenDuration, 1)
-||cupid.iqiyi.com/mixer?$domain=iqiyi.com
+||cupid.iqiyi.com/mixer?$domain=www.iqiyi.com
 ||data.video.iqiyi.com/videos/other/*$xmlhttprequest,~third-party,badfilter
 !+ NOT_PLATFORM(ios, ext_android_cb, ext_safari)
 iqiyi.com##.black-screen[data-cupid="adblock-blackscreen"]
@@ -4116,6 +4116,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 !
 ! SECTION: Popups - Regular rules
 !
+clubd.co.jp##.footer-fix-banner
 rmj.ru#$##healthcodeLinkingModal { display: none !importnat; }
 rmj.ru#$#body.modal-open { overflow: auto !importnat; }
 lis-skins.ru##.bonus-banner

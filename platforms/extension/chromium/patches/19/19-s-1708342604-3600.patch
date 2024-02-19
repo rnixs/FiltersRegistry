@@ -1,0 +1,17 @@
+d1 2
+a2 2
+! Checksum: 7aTyBsEcJJmpdY6hX20MNQ
+! Diff-Path: ../patches/19/19-s-1708346167-3600.patch
+d5 2
+a6 2
+! Version: 2.0.31.87
+! TimeUpdated: 2024-02-19T12:32:05+00:00
+d2993 1
+a2993 1
+sports.iqiyi.com#%#//scriptlet("set-constant", "Object.prototype.adPlayerId", "")
+d2999 1
+a2999 2
+m.iqiyi.com#%#!function(){const s={apply:(c,e,n)=>(n[0]?.adSlots&&(n[0].adSlots=[]),n[1]?.success&&(n[1].success=new Proxy(n[1].success,s)),Reflect.apply(c,e,n))};window.Object.assign=new Proxy(window.Object.assign,s)}();
+||cupid.iqiyi.com/mixer?$domain=www.iqiyi.com
+a4205 1
+clubd.co.jp##.footer-fix-banner
