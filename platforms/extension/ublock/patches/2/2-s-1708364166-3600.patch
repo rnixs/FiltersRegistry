@@ -1,0 +1,12 @@
+d2 2
+a3 2
+! Checksum: hO0sbvl0dN3q2iQtklrtrQ
+! Diff-Path: ../patches/2/2-s-1708367784-3600.patch
+d6 2
+a7 2
+! Version: 2.3.23.12
+! TimeUpdated: 2024-02-19T18:32:51+00:00
+a6931 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/172971
+dgb.lol##+js(set-constant, findCMP, noopFunc)
+||tagan.adlightning.com/setupad-hai/op.js$script,redirect=noop.js,domain=dgb.lol
