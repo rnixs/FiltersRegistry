@@ -1,9 +1,9 @@
-! Checksum: Ixt1qg9KRGHoqkxtlp+/LQ
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1708310156-3600.patch
+! Checksum: +O3TcwvAiIE+Y4pQ0UZkaA
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1708339242-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.84
-! TimeUpdated: 2024-02-19T02:31:55+00:00
+! Version: 2.0.31.85
+! TimeUpdated: 2024-02-19T10:32:06+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1582,6 +1582,8 @@ aol.com#@#.adwrap
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+rmj.ru#$##healthcodeLinkingModal { display: none !importnat; }
+rmj.ru#$#body.modal-open { overflow: auto !importnat; }
 lis-skins.ru##.bonus-banner
 wotexpress.eu##.we_popup
 d20pfsrd.com##.ognannouncement-container
