@@ -1,15 +1,15 @@
-! Checksum: wZjsU7C8QuSJqYzig9VnTw
-! Diff-Path: ../patches/120/120-s-1708290403-14400.patch
+! Checksum: EpNKWM6etKM93sMZ8QaBwQ
+! Diff-Path: ../patches/120/120-s-1708304771-14400.patch
 ! Title: AdBlockID
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.19.12
-! TimeUpdated: 2024-02-18T21:02:22+00:00
+! Version: 2.0.19.13
+! TimeUpdated: 2024-02-19T01:01:54+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 24.2.89
+! OriginalVersion: 24.2.92
 ! Title: AdBlockID
 ! Description: Filter list that specifically removes adverts on Indonesian language websites.
-! Last modified: 18 Feb 2024 20:05 UTC
+! Last modified: 18 Feb 2024 21:17 UTC
 ! Expires: 1 days
 ! Homepage: https://github.com/realodix/AdBlockID
 .id^*/bnr/$domain=~kalbarprov.go.id
@@ -3334,8 +3334,6 @@ _usafelink.$third-party,script
 ||jwplayer21.com/images/*.gif$image
 ||sokuja.site/tmp/$image
 ||wibudesu.co^*_kiri-kanan.$image
-||lk21static.xyz/iframe/content.php$subdocument
-||lk21static.xyz/iframe/content2.php$subdocument
 filmbioskop21.info##.inner-wrap > .ban_empat ~ hr + .table-hover
 130.51.20.150,gamingweb.xyz,nessandbeauty.xyz,tindershots.xyz###adf_tera
 anichin.plus,samehadaku.baby###bannerhomefooter
@@ -3405,7 +3403,6 @@ animeku.cam##.modal2
 kuramanime.pro##.player-overplay
 idlixofficial.co##.swal-overlay
 manganime.live##.vd
-nontondrama.click##.warning-modal
 /wp-content/plugins/wp-popup-banners/*$domain=0.0.realodix
 0.0.realodix###wpb_overlay
 /wp-content/plugins/itro-popup/*$domain=0.0.realodix

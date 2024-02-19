@@ -1,9 +1,9 @@
-! Checksum: IJNXzWHKh2F4+ddnD/emTw
-! Diff-Path: ../patches/123_optimized/123_optimized-s-1708290408-14400.patch
+! Checksum: u0LwHFl/yOIDvSRcGuAcKQ
+! Diff-Path: ../patches/123_optimized/123_optimized-s-1708304777-14400.patch
 ! Title: Fanboy's Social Blocking List (Optimized)
 ! Description: Hides and blocks social content, social widgets, social scripts and social icons. Already included in Fanboy's Annoyances list.
-! Version: 2.1.19.68
-! TimeUpdated: 2024-02-18T21:02:35+00:00
+! Version: 2.1.19.69
+! TimeUpdated: 2024-02-19T01:02:07+00:00
 ! Expires: 10 days (update frequency)
 -buttons-facebook.
 -facebook-share.
@@ -203,7 +203,6 @@
 /widgets/socials/*
 /widgets/twitter/*
 /wordpress-popup/*$domain=ahchealthenews.com
-/wp-content/*/social_$~stylesheet
 /ya-share.js
 _footer_share_
 _footer_twitter.
