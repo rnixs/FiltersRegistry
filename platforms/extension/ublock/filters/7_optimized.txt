@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TQn7AdMgnGY9kTQrZXcaCw
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1708176969-3600.patch
+! Checksum: n9uX68Wu6fK3WHCHV9atQg
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1708320946-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.71
-! TimeUpdated: 2024-02-17T13:33:12+00:00
+! Version: 2.0.48.72
+! TimeUpdated: 2024-02-19T05:33:07+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||af.atsoho.com^$third-party
@@ -8811,7 +8811,7 @@ dokuha.jp#?#.owl-item > div.ad-wrapper:upward(1)
 ||fgamers.saikyou.biz/image/a/
 ||frontier-direct.jp/top/img/$domain=fgamers.saikyou.biz
 fgamers.saikyou.biz##.leftbar hr
-fgamers.saikyou.biz##a[href*="amazon.co.jp/"]
+fgamers.saikyou.biz##a[href*="amazon.co.jp/"][target="_blank"]
 kininaru-geinou-m.blog.jp#?#.main-container > div:contains(/^【スポンサードリンク】$/)
 solodc2017.com#?#p > ins.adsbygoogle:upward(1)
 splatoon-torikara.com#?#.side-section > div[data-as-slot-id]:upward(1)
