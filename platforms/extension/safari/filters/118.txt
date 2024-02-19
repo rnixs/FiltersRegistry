@@ -1,14 +1,14 @@
-! Checksum: G0/JFykeOlKmxX44fya+/Q
-! Diff-Path: ../patches/118/118-s-1708319199-14400.patch
+! Checksum: JgJdiznJEFcgF8PKq5v/QA
+! Diff-Path: ../patches/118/118-s-1708348050-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.36
-! TimeUpdated: 2024-02-19T05:01:57+00:00
+! Version: 2.1.22.37
+! TimeUpdated: 2024-02-19T13:02:31+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202402190348
+! OriginalVersion: 202402191220
 ! Title: EasyPrivacy
-! Last modified: 19 Feb 2024 03:48 UTC
+! Last modified: 19 Feb 2024 12:20 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -49477,6 +49477,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.nrk.no^
 ||nrk.no^*/stats/
 ||stats.proff.no^
+||stm.komplett.no^
 ||tdep.hema.nl/main.js
 ||vg.no/stats/
 ! Persian
@@ -50422,6 +50423,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 !
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||hvemder.no/js/hitcount.min.js$~third-party
+@@||komplett.no/gtm.js$script,~third-party
 !
 ! ---------- Polish ----------
 !

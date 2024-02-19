@@ -1,9 +1,9 @@
-! Checksum: fuaMi2xGRa5QFIL1ywJxrw
-! Diff-Path: ../patches/102_optimized/102_optimized-s-1708131976-14400.patch
+! Checksum: Eq+08GHypGHAE9fjJXvYig
+! Diff-Path: ../patches/102_optimized/102_optimized-s-1708348020-14400.patch
 ! Title: ABPindo (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.6.57
-! TimeUpdated: 2024-02-17T01:01:38+00:00
+! Version: 2.0.6.58
+! TimeUpdated: 2024-02-19T13:02:11+00:00
 ! Expires: 5 days (update frequency)
 ||188affiliates.com^$third-party
 ||accesstrade.co.id^$third-party
@@ -614,7 +614,6 @@ iklan300x250.gif|
 @@||shirosafe.web.id^$generichide
 @@||suarankri.me^$generichide
 @@||tokusatsuindo.com^$generichide
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=193.142.147.230|ainzscans.net|igobokep.cam|siimanga.cyou
 gurusd.web.id,kurikulum.co.id#@##adsense
 woof.tube#@#.adsbox
 aktual.id,datasekolah.co.id,eramuslim.com,mangalist.org,maulandaru.com#@#.adsbygoogle
@@ -1587,6 +1586,7 @@ dwa21.org##[class*="banner"]
 kurina.vip##[class="sc__wrp"]
 jalantikus.com##[class^="ad-"][class*="-container"]
 kompas.tv##[class^=ads-]
+mudah.my##[data-testid^="featured-ads"]
 nontoncinema.org##[href$="/referral/nontoncinema"]
 sukamovie.club##[href$="/sukamovieclub"]
 pakbos21.org##[href="//dumbpop.com/help.xml"]

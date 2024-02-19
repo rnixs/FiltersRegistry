@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: flRoAlRLsR8jPvDFsPT+aQ
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1708319203-14400.patch
+! Checksum: KWJXsKKHdL5b7/I/pprQmw
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1708348056-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.12
-! TimeUpdated: 2024-02-19T05:01:37+00:00
+! Version: 2.1.21.13
+! TimeUpdated: 2024-02-19T13:02:09+00:00
 ! Expires: 5 days (update frequency)
 -ad-300x600-
 -ad-bottom-
@@ -10630,6 +10630,7 @@ browsershots.org#@#.advert_area
 ||akmxts.com^
 ||akqktwdk.xyz^
 ||aksleaj.com^
+||aktxwijitaqs.com^
 ||akutapro.com^
 ||akxwffsgijttvrc.com^
 ||akychhluvbh.com^
@@ -26058,7 +26059,6 @@ browsershots.org#@#.advert_area
 ||taximenmugwort.com^
 ||taxissunroom.com^
 ||taxpillsqueal.com^
-||tayloryourbestlife.com^
 ||tberjonk.com^
 ||tbgmckdemnv.com^
 ||tbiwkjomju.com^
@@ -29979,6 +29979,7 @@ browsershots.org#@#.advert_area
 ||1934671980.rsc.cdn77.org^
 ||1948576968.rsc.cdn77.org^
 ||1969321160.rsc.cdn77.org^
+||2839f789ab.f092680893.com^
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
 ||a-delivery.rmbl.ws^
@@ -30201,6 +30202,7 @@ browsershots.org#@#.advert_area
 ||widgets.progrids.com^
 ||widgets.tree.com^
 ||winonexd.b-cdn.net^
+||wixlabs-adsense-v3.uc.r.appspot.com^
 ||ws.amazon.*/widgets/$third-party
 ||wsimg.com/parking-lander/
 ||yahoo.com/bidRequest
@@ -31509,6 +31511,7 @@ xcalibrscans.com###close-teaser
 oneindia.com###closePopupDiv
 smbc-comics.com###comicright > div[style]
 mirror.co.uk,themirror.com###comments-standalone-mpu
+blackbeltmag.com###comp-loxyxvrt
 seatguru.com###comparePrices
 cpuid.com###console_log
 miniwebtool.com###contain300-1
@@ -31600,6 +31603,7 @@ rakuten.com###id_parent_rrPlacementTop
 fc-lc.xyz,tophostingapp.com###iframe_id
 4f.to,furbooru.org###imagespns
 linksly.co###imgAddDirectLink
+blackbeltmag.com###img_comp-loxyxvrt
 planetradio.co.uk###inline-01
 planetradio.co.uk###inline-02
 datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###inline-top
@@ -31981,6 +31985,9 @@ comedy.com##.ad-placement-wrapper
 beincrypto.com##.ad-post-right-sidebar-2
 atlasobscura.com##.ad-site-top-full-width
 nationalreview.com##.ad-skeleton
+imresizer.com##.ad-slot-1-fixed-ad
+imresizer.com##.ad-slot-2-fixed-ad
+imresizer.com##.ad-slot-3-fixed-ad
 cnn.com##.ad-slot-header__wrapper
 oann.com##.ad-slot__ad-label
 cnn.com##.ad-slot__ad-wrapper
@@ -33453,6 +33460,7 @@ cnn.com##.zone__ads
 gab.com##[aria-label*="Sponsored:"]
 thepointsguy.com##[aria-label="Advertisement"]
 wsj.com##[aria-label="Sponsored Offers"]
+blackbeltmag.com##[aria-label="Wix Monetize with AdSense"]
 hedgefollow.com##[class$="side_scraper"]
 barandbench.com##[class*="ad-slot"]
 usnews.com##[class*="ad-spacer"]
@@ -33487,6 +33495,7 @@ hedgefollow.com##[data-dee_type^="large_banner"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
 news.sky.com##[data-format="leaderboard"]
 tvzoneuk.com##[data-hook="HtmlComponent"]
+blackbeltmag.com##[data-hook="bgLayers"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-layout="ad"]
 goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
@@ -34099,6 +34108,7 @@ msn.com##above-river-block
 msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##div[class^="galleryPage_bannerAd"]
 msn.com##div[id^="nativeAd"]
+msn.com##div[id^="watch-feed-native-ad-"]
 bing.com###bepfo.popup[style^="visibility: visible"]
 bing.com##.ad_sc
 bing.com##.b_ad

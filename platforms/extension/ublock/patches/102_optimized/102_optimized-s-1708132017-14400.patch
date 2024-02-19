@@ -1,0 +1,17 @@
+d2 2
+a3 2
+! Checksum: nkxOSmoqz7z535Vr4CTNog
+! Diff-Path: ../patches/102_optimized/102_optimized-s-1708348056-14400.patch
+d6 2
+a7 2
+! Version: 2.0.6.58
+! TimeUpdated: 2024-02-19T13:02:11+00:00
+a566 1
+mudah.my##+js(no-fetch-if, ads.google.com)
+a573 1
+almaftuchin.com##+js(remove-node-text, script, adblock)
+d631 1
+a1604 1
+mudah.my##[data-testid^="featured-ads"]
+a1735 1
+mudah.my#?#div:-abp-has( > div > .adunitContainer)
