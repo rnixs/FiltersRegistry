@@ -1,9 +1,9 @@
-! Checksum: 0/aVJH9A4PXxPJza9VtFuQ
-! Diff-Path: ../patches/21/21-s-1708328185-3600.patch
+! Checksum: 9U8iUgBd8adBCRvrJBAIdQ
+! Diff-Path: ../patches/21/21-s-1708335421-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.89
-! TimeUpdated: 2024-02-19T07:32:15+00:00
+! Version: 2.0.19.90
+! TimeUpdated: 2024-02-19T09:32:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5726,6 +5726,7 @@ llbean.ca###pc5
 atida.fr##header .cmpt_flash_info
 atida.fr###top-info
 weather.yahoo.co.jp###rbnr > p[style="margin:0px 0px 20px 0px;text-align:center;"]
+novelskey.tarbin.net,gp.tsukimi.club,misskey.neos.love,mk.yopo.work,nijimiss.moe#%#//scriptlet('json-prune', 'ads.[].imageUrl')
 novelskey.tarbin.net,gp.tsukimi.club,misskey.neos.love,mk.yopo.work,nijimiss.moe##.xF6dY
 bilibili.com##.video-page-special-card-small
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url*=".bili"]

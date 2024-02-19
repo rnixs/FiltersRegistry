@@ -1,9 +1,9 @@
-! Checksum: Aum9Nw/alDq7xliwUchtng
-! Diff-Path: ../patches/7/7-s-1708320951-3600.patch
+! Checksum: kQWsQmHbtm9Z8UTrDKoHWg
+! Diff-Path: ../patches/7/7-s-1708335423-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.72
-! TimeUpdated: 2024-02-19T05:33:07+00:00
+! Version: 2.0.48.73
+! TimeUpdated: 2024-02-19T09:33:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1016,6 +1016,8 @@ jav380.com#%#//scriptlet('set-constant', 'document.write', 'noopFunc')
 anacap.doorblog.jp#%#//scriptlet('prevent-addEventListener', 'scroll', 'b.type')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144212
 anianierosuki.work#%#//scriptlet('prevent-addEventListener', 'click', 'event')
+! https://github.com/AdguardTeam/AdguardFilters/issues/142720
+trpger.us,mk.yopo.work,sushi.ski,warpday.net,zadankai.club,misskey.io,misskey.oga.ninja#%#//scriptlet('json-prune', 'ads.[].imageUrl')
 ! popup
 oppaideippai.net#%#//scriptlet('prevent-window-open')
 ! ads

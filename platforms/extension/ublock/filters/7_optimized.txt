@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: n9uX68Wu6fK3WHCHV9atQg
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1708320946-3600.patch
+! Checksum: oN+ycZe1b0sLAGRkDlpUnQ
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1708335412-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.72
-! TimeUpdated: 2024-02-19T05:33:07+00:00
+! Version: 2.0.48.73
+! TimeUpdated: 2024-02-19T09:33:19+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 ||af.atsoho.com^$third-party
@@ -768,6 +768,7 @@ uraaka-joshi.com##+js(window.open-defuser)
 jav380.com##+js(set-constant, document.write, noopFunc)
 anacap.doorblog.jp##+js(addEventListener-defuser, scroll, b.type)
 anianierosuki.work##+js(addEventListener-defuser, click, event)
+trpger.us,mk.yopo.work,sushi.ski,warpday.net,zadankai.club,misskey.io,misskey.oga.ninja##+js(json-prune, ads.[].imageUrl)
 oppaideippai.net##+js(window.open-defuser)
 russianbeauties.jp##+js(abort-current-script, document.write, LinkURL)
 agora-web.jp##+js(abort-current-script, document.currentScript, insertAdjacentHTML)
