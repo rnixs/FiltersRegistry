@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: LFHcFBsrY3hmkZ7qSrWibQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708360596-3600.patch
+! Checksum: EyK/zhpGR2wMM72Bt0T3sw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708364168-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.23.10
-! TimeUpdated: 2024-02-19T16:33:02+00:00
+! Version: 2.3.23.11
+! TimeUpdated: 2024-02-19T17:32:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -50650,9 +50650,6 @@ partner.ads.js$domain=d3ward.github.io
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169776
 ! https://github.com/AdguardTeam/CoreLibs/issues/1730
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143916
-! https://github.com/AdguardTeam/AdguardFilters/issues/140891
-! https://github.com/AdguardTeam/PopupBlocker/issues/283
-! TODO: remove it when it will be fixed in AdGuard Popup Blocker userscript
 ! Fixing the problem, caused by CNAME trackers - this request must be blocked by AdGuard Cookie Notices filter (`||consent.cookiefirst.com^$third-party`)
 ||consent.cookiefirst.com^$badfilter
 ! https://twitter.com/alter_plr/status/1606517980321710082
