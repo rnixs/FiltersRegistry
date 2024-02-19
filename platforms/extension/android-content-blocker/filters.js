@@ -357,8 +357,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/android-content-blocker/filters/2.txt",
 			"trustLevel": "full",
-			"version": "2.3.22.98",
-			"timeUpdated": "2024-02-18T23:32:46+0000",
+			"version": "2.3.22.99",
+			"timeUpdated": "2024-02-19T00:32:43+0000",
 			"languages": [],
 			"tags": [
 				10,
@@ -588,8 +588,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/android-content-blocker/filters/14.txt",
 			"trustLevel": "full",
-			"version": "2.1.88.14",
-			"timeUpdated": "2024-02-18T23:31:51+0000",
+			"version": "2.1.88.15",
+			"timeUpdated": "2024-02-19T00:31:47+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -607,8 +607,8 @@
 			"groupId": 6,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/android-content-blocker/filters/15.txt",
 			"trustLevel": "full",
-			"version": "2.0.61.98",
-			"timeUpdated": "2024-02-18T18:31:51+0000",
+			"version": "2.0.61.99",
+			"timeUpdated": "2024-02-19T00:31:48+0000",
 			"languages": [],
 			"tags": [
 				45,
@@ -660,8 +660,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/android-content-blocker/filters/18.txt",
 			"trustLevel": "full",
-			"version": "2.0.33.83",
-			"timeUpdated": "2024-02-18T23:32:00+0000",
+			"version": "2.0.33.84",
+			"timeUpdated": "2024-02-19T00:31:57+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -680,8 +680,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/android-content-blocker/filters/19.txt",
 			"trustLevel": "full",
-			"version": "2.0.31.81",
-			"timeUpdated": "2024-02-18T23:32:03+0000",
+			"version": "2.0.31.82",
+			"timeUpdated": "2024-02-19T00:32:00+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -1483,8 +1483,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/android-content-blocker/filters/224.txt",
 			"trustLevel": "full",
-			"version": "2.1.10.90",
-			"timeUpdated": "2024-02-18T13:32:19+0000",
+			"version": "2.1.10.91",
+			"timeUpdated": "2024-02-19T00:32:19+0000",
 			"languages": [
 				"zh"
 			],
