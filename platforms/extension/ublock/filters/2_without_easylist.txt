@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: p2JRqEuxRGCB445CKfi1zQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708357115-3600.patch
+! Checksum: LFHcFBsrY3hmkZ7qSrWibQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708360596-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.23.9
-! TimeUpdated: 2024-02-19T15:33:40+00:00
+! Version: 2.3.23.10
+! TimeUpdated: 2024-02-19T16:33:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -22074,7 +22074,11 @@ barlinek24.pl#?#.item-page > div:not([class]) > table[align="center"]:has(> tbod
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123647
 terenyinwestycyjne.info##.advert-block-wide
 terenyinwestycyjne.info#?#.news-list > .news-item:has(> .advert-block-wide)
+! https://github.com/AdguardTeam/AdguardFilters/issues/172926
 ! https://github.com/AdguardTeam/AdguardFilters/issues/124098
+investmap.pl##+js(no-fetch-if, /serve/ajs.php)
+investmap.pl##div[height="300px"]:has(> div[class^="sc-"]:only-child > script[async]:not([src]):only-child)
+investmap.pl#?#div:is([height="300px"], [height="250px"]):has(> span[class^="sc-"]:only-child > span[class]:contains(/^REKLAMA$/))
 investmap.pl##article > div[height="250px"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123490
 respawn.pl##a[href*=".adsrv.eacdn.com/"]
