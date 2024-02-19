@@ -1,9 +1,9 @@
-! Checksum: +no0Z/Cxf+7nAPWY4Qepzw
-! Diff-Path: ../patches/14/14-s-1708367755-3600.patch
+! Checksum: 0Gi2C6FW4Vc0N8iKUZ5rMg
+! Diff-Path: ../patches/14/14-s-1708378551-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.88.29
-! TimeUpdated: 2024-02-19T18:31:55+00:00
+! Version: 2.1.88.30
+! TimeUpdated: 2024-02-19T21:31:54+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -29691,6 +29691,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 ! SECTION: Push notifications - Regular rules
 !
 ! push
+nowtv.com.tr##.gospock-webpush-permission-modal-contanier
 ||heraldsun.com/*/messaging/webpush_
 themirror.com##.pwa-modal-prompt
 ||shiftdelete.net/wp-content/plugins/push-notification-*/js/pnfpb_pushscript_pwa.js
