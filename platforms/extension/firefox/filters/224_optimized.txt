@@ -1,9 +1,9 @@
-! Checksum: 9PvSGAF/8D1ldo0bl8fH/w
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1708302974-3600.patch
+! Checksum: cdwRBUemhv/Oho+U0Az9UA
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1708306573-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.10.91
-! TimeUpdated: 2024-02-19T00:32:19+00:00
+! Version: 2.1.10.92
+! TimeUpdated: 2024-02-19T01:32:23+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4348,6 +4348,8 @@ newduba.cn###jq_youxi
 ||yvudqzoa.xyz^
 ||clywws.xyz^
 ||anjdwmq.xyz^
+||p45m0.icu^
+||hbjolp.xyz^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -19739,7 +19741,6 @@ guailie.com#@#.google-ad
 !#8
 !#91porny.com
 ###playerJsvLayer.jsv-layer
-##.btn-outline-primary[href*=".cc"]
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
 ##.fixed-bottom.jsv.jsv-g1
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
