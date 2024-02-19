@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 71Q8prMbT9GU678bstBHMg
-! Diff-Path: ../patches/216_optimized/216_optimized-s-1708204008-14400.patch
+! Checksum: kdnSagA95S2P4hQ34BZZBQ
+! Diff-Path: ../patches/216_optimized/216_optimized-s-1708362449-14400.patch
 ! Title: Official Polish filters for AdBlock, uBlock Origin & AdGuard (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.0.15.35
-! TimeUpdated: 2024-02-17T21:02:20+00:00
+! Version: 2.0.15.36
+! TimeUpdated: 2024-02-19T17:02:24+00:00
 ! Expires: 5 days (update frequency)
 ##a[href*="techmaniak.pl/www/gact/ckk.php"]
 .*sales*.pl/offers/$image
@@ -4947,6 +4947,12 @@ zywiecinfo.pl##[href*="/component/banners/click/"]
 @@||cdn.onesignal.com/sdks/$script,domain=www.aptekarska.pl|aptekarski.com
 @@||onesignal.com/$domain=www.aptekarska.pl|aptekarski.com
 @@||region1.analytics.google.com/$domain=www.aptekarska.pl|aptekarski.com
+@@||region1.google-analytics.com/$domain=swiatzdrowia.pl
+@@/ads/ga-audiences$domain=swiatzdrowia.pl
+@@||www.google-analytics.com$domain=swiatzdrowia.pl
+@@||www.googletagmanager.com/$domain=swiatzdrowia.pl
+@@||doubleclick.net/$domain=swiatzdrowia.pl
+@@||region1.analytics.google.com$domain=swiatzdrowia.pl
 emag.pl#@#a[href^="https://pubads.g.doubleclick.net/"]
 emag.pl#@#[href^="http://pubads.g.doubleclick.net/"]
 freedisc.pl#@#.footer-ad

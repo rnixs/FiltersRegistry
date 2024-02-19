@@ -1,14 +1,14 @@
-! Checksum: X9Y+AE0a0v68acftg1QZyw
-! Diff-Path: ../patches/227/227-s-1708348027-14400.patch
+! Checksum: eIsJ197h6J9ZLqWoEv+TWg
+! Diff-Path: ../patches/227/227-s-1708362413-14400.patch
 ! Title: List-KR
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.70
-! TimeUpdated: 2024-02-19T13:03:06+00:00
+! Version: 2.0.17.71
+! TimeUpdated: 2024-02-19T17:02:33+00:00
 ! Expires: 10 days (update frequency)
 !
 ! Title: List-KR for AdGuard
 ! Description: List-KR for AdGuard. Maintained by the adblock community and AdGuard.
-! OriginalVersion: 2024.0219.1
+! OriginalVersion: 2024.0219.3
 ! Expires: 1 day
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://github.com/List-KR/List-KR/issues/223
@@ -1489,6 +1489,7 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 !
+m.fishingseasons.co.kr##.contents .table_cls > li
 newsnjoy.or.kr###article-view.mobile .wrapper > .clearfix
 newsnjoy.or.kr###leftFloat
 tenbizt.com##div[class*="-adsense-"]

@@ -1,9 +1,9 @@
-! Checksum: txD7yWar+cCoIWTYmTy0mA
-! Diff-Path: ../patches/227_optimized/227_optimized-s-1708348017-14400.patch
+! Checksum: xIBhXTDgdT0c6mNnOYJd2g
+! Diff-Path: ../patches/227_optimized/227_optimized-s-1708362393-14400.patch
 ! Title: List-KR (Optimized)
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.70
-! TimeUpdated: 2024-02-19T13:03:06+00:00
+! Version: 2.0.17.71
+! TimeUpdated: 2024-02-19T17:02:33+00:00
 ! Expires: 1 day (update frequency)
 ||d1cykymlllue3h.cloudfront.net^
 ||ad1.missyusa.com^
@@ -1427,6 +1427,7 @@ lol.ps##div[class*="ad-"]
 jobkorea.co.kr##div[id^="Banner"]
 eegosa.com##section[id*="_ads_"]
 sports.donga.com##div[id*="_AD"]
+m.fishingseasons.co.kr##.contents .table_cls > li
 newsnjoy.or.kr###article-view.mobile .wrapper > .clearfix
 newsnjoy.or.kr###leftFloat
 tenbizt.com##div[class*="-adsense-"]
@@ -3237,6 +3238,7 @@ lover924.net,lover925.net,lover926.net,lover927.net,lover928.net,lover929.net,lo
 @@||api-ao-list.adison.co^$app=kvp.jjy.MispAndroid320
 @@||api-ao-list.adison.co^$app=com.nhn.android.webtoon
 @@||api-ao-list.adison.co^$app=com.nhn.android.nbooks
+||graph.facebook.com^$app=viva.republica.toss
 ||fundingchoicesmessages.google.com^$app=com.dencreak.spbook
 ||settings.cashwalk.io/cashwalk/*/notice/notice2_main|
 ||braze-images.com^$app=kr.co.rememberapp

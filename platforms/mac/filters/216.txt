@@ -1,9 +1,9 @@
-! Checksum: gXKE2si6W4Hfh9d5+dbikw
-! Diff-Path: ../patches/216/216-s-1708204019-14400.patch
+! Checksum: +0iR76yrSPHrxtyrIYONUA
+! Diff-Path: ../patches/216/216-s-1708362460-14400.patch
 ! Title: Official Polish filters for AdBlock, uBlock Origin & AdGuard
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.0.15.35
-! TimeUpdated: 2024-02-17T21:02:20+00:00
+! Version: 2.0.15.36
+! TimeUpdated: 2024-02-19T17:02:24+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: Official Polish Filters for AdBlock, uBlock Origin & AdGuard
@@ -14,9 +14,9 @@
 ! Works best with EasyList - be sure to subscribe it as well!
 ! Działa najlepiej z EasyList - pamiętaj aby zasubskrybować!
 !   Patronite ==> https://patronite.pl/polskiefiltry
-! Last modified: 17 February 2024
+! Last modified: 19 February 2024
 ! Expires: 1 day
-! OriginalVersion: 2024021701
+! OriginalVersion: 2024021902
 ! Support:
 !   Email >> errorsfilters@certyficate.it
 !   Github >> https://github.com/MajkiIT/polish-ads-filter/issues
@@ -24,7 +24,7 @@
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright © 2024 Certyficate IT
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock
-! v.2024021701 aktualizacja: sob, 17 lutego 2024, 18:50:00
+! v.2024021902 aktualizacja: pon, 19 lutego 2024, 15:05:00
 !
 !
 !1#-----------------------General advert blocking filters-----------------------!
@@ -4998,6 +4998,12 @@ zywiecinfo.pl##[href*="/component/banners/click/"]
 @@||cdn.onesignal.com/sdks/$script,domain=www.aptekarska.pl|aptekarski.com
 @@||onesignal.com/$domain=www.aptekarska.pl|aptekarski.com
 @@||region1.analytics.google.com/$domain=www.aptekarska.pl|aptekarski.com
+@@||region1.google-analytics.com/$domain=swiatzdrowia.pl
+@@/ads/ga-audiences$domain=swiatzdrowia.pl
+@@||www.google-analytics.com$domain=swiatzdrowia.pl
+@@||www.googletagmanager.com/$domain=swiatzdrowia.pl
+@@||doubleclick.net/$domain=swiatzdrowia.pl
+@@||region1.analytics.google.com$domain=swiatzdrowia.pl
 !
 !13#------------------------Whitelist specific element hiding rules------------------------!
 emag.pl#@#a[href^="https://pubads.g.doubleclick.net/"]
