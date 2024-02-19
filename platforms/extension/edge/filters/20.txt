@@ -1,9 +1,9 @@
-! Checksum: ZDA5Sch4sFhVcJolErr2JQ
-! Diff-Path: ../patches/20/20-s-1708346175-3600.patch
+! Checksum: +bm7J+jTXrOq97CQnVfPBQ
+! Diff-Path: ../patches/20/20-s-1708349773-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.50
-! TimeUpdated: 2024-02-19T12:32:16+00:00
+! Version: 2.0.12.51
+! TimeUpdated: 2024-02-19T13:32:11+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -122,6 +122,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 temu.com#?#div[role="main"] div[style] > div[style]:has(> div[style] div[js-selector="mobile-download-ui"])
 !
+pierrotshop.jp##body > div.l-footerTop:has(> div.wider > div.commonCtr div.btn > a[href^="https://yappli.plus/pierrotshop_blog"])
 clubd.co.jp##.dc-app-download
 ||baycrews.jp/src/feature/seo/*_app/*-app-bana.jpg
 shop.menz-style.com##img[alt="秋冬コーデのコツ"]

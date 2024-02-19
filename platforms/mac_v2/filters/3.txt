@@ -1,9 +1,9 @@
-! Checksum: pnBg6MC/rs8qu6OgcmC0bQ
-! Diff-Path: ../patches/3/3-s-1708346224-3600.patch
+! Checksum: 3d6Wou2cFRNH3BJXrznKug
+! Diff-Path: ../patches/3/3-s-1708349820-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.66.88
-! TimeUpdated: 2024-02-19T12:32:58+00:00
+! Version: 2.0.66.89
+! TimeUpdated: 2024-02-19T13:32:53+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -552,6 +552,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !
 !
 !
+||tracker.oval.id^
 ||event.lib.visumo.io^
 ||gtm.taginstall.com^
 ||mdstats.info^

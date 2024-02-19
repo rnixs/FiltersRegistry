@@ -1,9 +1,9 @@
-! Checksum: 0hxdkPWA0RQC26otQdCNoA
-! Diff-Path: ../patches/7/7-s-1708346212-3600.patch
+! Checksum: 0+TR/MOsW4yBeb7BN2J32A
+! Diff-Path: ../patches/7/7-s-1708349808-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.76
-! TimeUpdated: 2024-02-19T12:33:20+00:00
+! Version: 2.0.48.77
+! TimeUpdated: 2024-02-19T13:33:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1538,6 +1538,7 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+.com/resona/client/index.php$document
 .top/nc/bbs22.php$document
 /mart/*.html?zenid=$document,domain=cfd|top
 /?bcda=*)-$document
