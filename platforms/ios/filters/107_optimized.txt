@@ -1,9 +1,9 @@
-! Checksum: saWZ+n4oy7LJ1ECQslDBfg
-! Diff-Path: ../patches/107_optimized/107_optimized-s-1708304805-14400.patch
+! Checksum: 171rQaM8HwHXE4CguO6BKw
+! Diff-Path: ../patches/107_optimized/107_optimized-s-1708376824-14400.patch
 ! Title: EasyList Germany (Optimized)
 ! Description: Additional filter list for websites in German. Already included in AdGuard German filter.
-! Version: 2.0.12.67
-! TimeUpdated: 2024-02-19T01:01:42+00:00
+! Version: 2.0.12.68
+! TimeUpdated: 2024-02-19T21:01:57+00:00
 ! Expires: 5 days (update frequency)
 &werbemittel=
 -Bannerwerbung-
@@ -371,6 +371,7 @@ _woz_banner_vote.
 ##.ads_rechts
 ##.adsense-ArtikelOben
 ##.adzeiger
+##.alice-root-header-ads__ad--top
 ##.anzeigenwerbung
 ##.article-werb
 ##.artikelinlinead
@@ -3428,7 +3429,6 @@ blitzrechner.de##.ai_widget
 nextpit.de##.al-amazon
 ligaportal.at##.alert
 desired.de,familie.de,giga.de,kino.de,spielaffe.de##.alice-adslot
-spielaffe.de##.alice-root-header-ads__ad--top
 notebookcheck.com##.am_el
 indirekter-freistoss.de##.amalink
 plattentests.de##.amazon
