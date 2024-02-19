@@ -1,0 +1,21 @@
+d2 2
+a3 2
+! Checksum: L16+ccDiD9e3OYe9v0pdUA
+! Diff-Path: ../patches/2/2-s-1708331905-3600.patch
+d6 2
+a7 2
+! Version: 2.3.23.2
+! TimeUpdated: 2024-02-19T08:34:42+00:00
+a27913 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/173054
+d27916 1
+a27916 1
+msn.com##+js(json-prune, configs.*.properties.slideshowWCSettings.interstitialNativeAds configs.*.properties.fullScreenSlideshowSettings.interstitialNativeAds properties.componentConfigs.slideshowConfigs.interstitialNativeAds)
+d32302 1
+d34332 1
+a34332 3
+1024tera.com,4funbox.com,terabox.*##.patch-ad
+1024tera.com,4funbox.com,terabox.*##.ad-patch-base
+1024tera.com,4funbox.com,terabox.*##.pause-patch-ad
+a50082 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/173054
