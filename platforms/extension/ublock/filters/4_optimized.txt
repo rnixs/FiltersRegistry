@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: GNec38JaivXKsXmyj+AudQ
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1708310175-3600.patch
+! Checksum: h692lmzJ/SrRwGuNiM/LJw
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1708313762-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.48
-! TimeUpdated: 2024-02-19T01:33:01+00:00
+! Version: 2.0.97.49
+! TimeUpdated: 2024-02-19T03:33:00+00:00
 ! Expires: 5 days (update frequency)
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
@@ -3339,7 +3339,7 @@ milliyet.com.tr,dha.com.tr,gazetevatan.com##.social-bar-v2 > ul > li.social-bar-
 anime.priconne-redive.jp##.infoCard--twitter
 zdravcity.ru##.js-yandex-share-tooltip
 hottomotto.com,tokyo-revengers-anime.com##.c-sns__share
-jqos.jp,ikiru-living-movie.jp,lageri-movie.jp,ichikei-movie.jp,coto-movie.jp,silent-service.jp,sumaho-bank.com,lab.sonicmoov.com###sns-area
+minyu-net.com,jqos.jp,ikiru-living-movie.jp,lageri-movie.jp,ichikei-movie.jp,coto-movie.jp,silent-service.jp,sumaho-bank.com,lab.sonicmoov.com###sns-area
 lovelive-as.bushimo.jp##.l-footer_share
 bluereflection-ray.com###mv_share
 mouse-jp.co.jp##.block-goods-detail-share
