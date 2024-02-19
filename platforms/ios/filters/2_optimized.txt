@@ -1,9 +1,9 @@
-! Checksum: 7WKmYSp9O18MfyodMG/xpA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708353433-3600.patch
+! Checksum: Z1Qa6JILa0a+MiHMt+uncg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708357124-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.23.8
-! TimeUpdated: 2024-02-19T14:32:51+00:00
+! Version: 2.3.23.9
+! TimeUpdated: 2024-02-19T15:33:40+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -30681,6 +30681,7 @@ browsershots.org#@#.advert_area
 ||chioneflake.com^
 ||chipmanksmochus.com^
 ||chitika.net^
+||chitsnooked.com^
 ||chl7rysobc3ol6xla.com^
 ||chloralinkblot.com^
 ||choaboox.com^
@@ -30739,6 +30740,7 @@ browsershots.org#@#.advert_area
 ||citycoordinatesnorted.com^
 ||citydsp.com^
 ||civadsoo.net^
+||ciwedsem.xyz^
 ||ciwhacheho.pro^
 ||cjcbzqrwwi.com^
 ||cjewz.com^
@@ -31285,6 +31287,7 @@ browsershots.org#@#.advert_area
 ||deeperhundredpassion.com^
 ||deephicy.net^
 ||deepnewsjuly.com^
+||deezusty.net^
 ||defacebunny.com^
 ||defenselessweather.com^
 ||defensive-bad.com^
@@ -35566,6 +35569,7 @@ browsershots.org#@#.advert_area
 ||naonoupm.com^
 ||napallergy.com^
 ||napererelysian.com^
+||narineware.com^
 ||narkalignevil.com^
 ||narwbaqtct.xyz^
 ||nastycognateladen.com^
@@ -37379,6 +37383,7 @@ browsershots.org#@#.advert_area
 ||remotelyoccasionallyfacing.com^
 ||remploymehnt.info^
 ||renadomsey.com^
+||rendchewed.com^
 ||reoiebco.com^
 ||reople.co.kr^
 ||repentantsympathy.com^
@@ -37997,6 +38002,7 @@ browsershots.org#@#.advert_area
 ||slatnea.com^
 ||slfsmf.com^
 ||sliddeceived.com^
+||slidderpicoid.com^
 ||slideff.com^
 ||slightcareconditions.com^
 ||slightlyeaglepenny.com^
@@ -38443,6 +38449,7 @@ browsershots.org#@#.advert_area
 ||talesapricot.com^
 ||taliagebauxite.com^
 ||talouktaboutrice.info^
+||tamedilks.com^
 ||taminystopgap.com^
 ||tampvhio.com^
 ||tanksfright.com^
