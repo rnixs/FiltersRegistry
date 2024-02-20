@@ -1,9 +1,9 @@
-! Checksum: qNIy76qRMy42syhI0uXVoQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708436234-3600.patch
+! Checksum: wcO6vMc0U0Qcg5CL2Fy1MQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708439830-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.23.21
-! TimeUpdated: 2024-02-20T13:32:58+00:00
+! Version: 2.3.23.22
+! TimeUpdated: 2024-02-20T14:32:56+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -20884,6 +20884,10 @@ king-shoot.tv#@##ads_top
 !+ NOT_OPTIMIZED
 topbusiness24.ru,mydomsam.ru,hubuhu.ru,moysadinfo.ru,mybusinessplus.ru,dukand.ru,mydizayn.ru,polzadom.ru,umnodachnik.ru,delnyesovety.ru,soverhenie.ru,mirinteresa.ru,uskorit.ru,dskyar.ru,biscand.ru,smartid24.ru,stroysaminfo.ru,topsovety.ru,sotsvetiya.ru,imdaily.ru,turizmnaok.ru,zdorovyobrazzhizni.ru,kinomann.ru,techinfolife.ru,dommoysad.ru,rteinfo.ru,psisovety.ru,kvilit.ru,speshit.ru,ollss.ru#@#.ad-placement
 !+ NOT_OPTIMIZED
+@@||app.appsflyer.com/id*&*navigate_url*shopee.co
+!+ NOT_OPTIMIZED
+@@||app.appsflyer.com/*?af_ios_url=https*shopee.co
+!+ NOT_OPTIMIZED
 forbes.com##.table-ad
 !+ NOT_OPTIMIZED
 @@||digitalmusicnews.com^$generichide
@@ -38802,7 +38806,6 @@ browsershots.org#@#.advert_area
 ||troubleextremityascertained.com^
 ||troublesomeleerycarry.com^
 ||trowingpaba.website^
-||trstx.org^
 ||trtjigpsscmv9epe10.com^
 ||trumppuffy.com^
 ||trustbummler.com^
@@ -41125,6 +41128,7 @@ browsershots.org#@#.advert_area
 ||track.effiliation.com^$image,script
 ||travel.mediaalpha.com/js/serve.js
 ||trendads.reactivebetting.com^
+||trstx.org/overroll/
 ||truex.com/js/client.js
 ||trvl-px.com/trvl-px/
 ||utility.rogersmedia.com/wrapper.js
