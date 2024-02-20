@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8Rva+SU85q4SQ6LfyK/u2A
-! Diff-Path: ../patches/14/14-s-1708425396-3600.patch
+! Checksum: aQCqdQu/bQXyzvww00g8aA
+! Diff-Path: ../patches/14/14-s-1708429014-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.88.36
-! TimeUpdated: 2024-02-20T10:31:55+00:00
+! Version: 2.1.88.37
+! TimeUpdated: 2024-02-20T11:32:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2321,7 +2321,7 @@ fabricators.ltd,spaziogames.it,urbanpost.it,synlab.it,dissapore.com,leganerd.com
 ||cdn.iubenda.com/cs/iubenda_cs.js$domain=palermotoday.it|agrigentonotizie.it|anconatoday.it|arezzonotizie.it|avellinotoday.it|baritoday.it|bolognatoday.it|bresciatoday.it|brindisireport.it|casertanews.it|cataniatoday.it|cesenatoday.it|chietitoday.it|ferraratoday.it|firenzetoday.it|foggiatoday.it|forlitoday.it|frosinonetoday.it|genovatoday.it|ilpescara.it|ilpiacenza.it|latinatoday.it|lecceprima.it|leccotoday.it|livornotoday.it|messinatoday.it|milanotoday.it|modenatoday.it|monzatoday.it|napolitoday.it|novaratoday.it|padovaoggi.it|parmatoday.it|perugiatoday.it|pisatoday.it|pordenonetoday.it|quicomo.it|ravennatoday.it|reggiotoday.it|riminitoday.it|romatoday.it|salernotoday.it|sondriotoday.it|ternitoday.it|torinotoday.it|trentotoday.it|trevisotoday.it|triesteprima.it|udinetoday.it|veneziatoday.it|veronasera.it|vicenzatoday.it|viterbotoday.it
 ! Action is required (Save. Required cookies allowed by default, others - rejected)
 ! ilmattino.it: more attention required
-tomshw.it,moto.it#$#html { overflow: auto !important; }
+multiplayer.it,tomshw.it,moto.it#$#html { overflow: auto !important; }
 ! If scrolling is blocked, page reloading required after click
 focus.it##+js(remove-class, cp-banner-visible, body)
 ! Action is required (All cookies allowed by default)
