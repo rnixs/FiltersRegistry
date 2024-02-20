@@ -1,9 +1,9 @@
-! Checksum: c5zLBAWzIvHlrh8B3ZA3xg
-! Diff-Path: ../patches/19/19-s-1708425377-3600.patch
+! Checksum: AC6sZZNq2NL5cpm7y5pm2g
+! Diff-Path: ../patches/19/19-s-1708436191-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.95
-! TimeUpdated: 2024-02-20T10:32:08+00:00
+! Version: 2.0.31.96
+! TimeUpdated: 2024-02-20T13:32:14+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4102,6 +4102,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 ! mobile
 ###credential_picker_iframe
 !
+api.flocktory.com
 /wp-content/plugins/ays-facebook-popup-likebox/*
 .ru/?iam=$script
 /cdn-cgi/pe/bag2?r[]=*mailget.net
@@ -9049,7 +9050,6 @@ mp3istek.com,find-key.ru#$#iframe[id^="_pn_"] { visibility: hidden!important; }
 ||chan.sankakucomplex.com/javascripts/sp/s-new.js
 chan.sankakucomplex.com#$##sank-prestitial { display: none!important; }
 chan.sankakucomplex.com#$#body { overflow: visible!important; position: initial!important; }
-tele2.ru,eldorado.ru,svyaznoy.ru##.flocktory-widget-overlay
 svyaznoy.ru##div[class="uxs-wrapper"][style*="cursor: pointer"]
 driveridentifier.com##.black_overlay
 driveridentifier.com##.white_content

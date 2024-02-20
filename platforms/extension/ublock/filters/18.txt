@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: oobgnOC4F3RE4M3jbC+bIQ
-! Diff-Path: ../patches/18/18-s-1708432606-3600.patch
+! Checksum: YjZldauYQ7/NFQIYiwK5uw
+! Diff-Path: ../patches/18/18-s-1708436221-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.1
-! TimeUpdated: 2024-02-20T12:32:13+00:00
+! Version: 2.0.34.2
+! TimeUpdated: 2024-02-20T13:32:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2339,6 +2339,7 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 ! NOTE: Regular rules
 !
+lavoro.leroymerlin.it##dialog[data-controller="common--cookies--alert"]
 loggi.com##+js(set-cookie, _cookie_banner_showed, true)
 derimod.com.tr##.cc-window[aria-label="cookie bar"]
 vava.cars##vc-cookies-notification

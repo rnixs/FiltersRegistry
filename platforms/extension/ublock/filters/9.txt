@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: pVV1vfJ8jzKC1yyCBF/2mA
-! Diff-Path: ../patches/9/9-s-1708429020-3600.patch
+! Checksum: +EI37uRbZiK16Apbhb02Ew
+! Diff-Path: ../patches/9/9-s-1708436229-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.40
-! TimeUpdated: 2024-02-20T11:33:53+00:00
+! Version: 2.0.23.41
+! TimeUpdated: 2024-02-20T13:33:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1513,9 +1513,10 @@ niusdiario.es##+js(set-constant, google.ima.OmidVerificationVendor, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145476
 superhq.net##+js(abort-on-property-write, exopop)
 hentaikai.com,superhq.net##+js(abort-on-property-write, protData)
+! https://github.com/AdguardTeam/AdguardFilters/issues/173197
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142854
-cuevana.biz,cuevana.run##+js(window.open-defuser)
-cuevana.biz,cuevana.run##+js(abort-on-property-read, cJsEdge)
+cuevana.*##+js(window.open-defuser)
+cuevana.*##+js(abort-on-property-read, cJsEdge)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142855
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140890
 pobre.wtf##+js(set-constant, ads, false)
@@ -2429,7 +2430,9 @@ gasteizhoy.com##.macrobanblock
 universohq.com##.barAds
 istoe.com.br##div[style^="width: 100%; min-height: 250px;"]
 laopinion.com.co##div[class^="pauta"]
-/edgeSystem*.js$domain=cuevana.biz|cuevana.run
+||player.cuevana.*/assets/vast_*.xml
+cuevana.*##a[rel*="sponsored"] img
+/edgeSystem*.js$domain=cuevana.*
 ffcv.es##.hidden-xs.zn_section
 dw-anime.net###custom_html-60
 autoscout24.es##.hf-top-old

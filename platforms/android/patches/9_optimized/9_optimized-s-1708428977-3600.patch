@@ -1,0 +1,18 @@
+d1 2
+a2 2
+! Checksum: VX2dLWRNXpqf8UxJkNkpBg
+! Diff-Path: ../patches/9_optimized/9_optimized-s-1708436175-3600.patch
+d5 2
+a6 2
+! Version: 2.0.23.41
+! TimeUpdated: 2024-02-20T13:33:36+00:00
+d863 2
+a864 3
+cuevana.*#%#//scriptlet('prevent-window-open')
+cuevana.*#%#//scriptlet('abort-on-property-read', 'cJsEdge')
+player.cuevana.*#%#//scriptlet('trusted-replace-node-text', 'script', 'loadRedirect', '/vastPlayer\.runAds\(\);/g', 'vastPlayer.adsCompleted();')
+d1579 1
+a1579 3
+||player.cuevana.*/assets/vast_*.xml
+cuevana.*##a[rel*="sponsored"] img
+/edgeSystem*.js$domain=cuevana.*

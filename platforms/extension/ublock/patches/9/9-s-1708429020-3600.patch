@@ -1,0 +1,19 @@
+d2 2
+a3 2
+! Checksum: +EI37uRbZiK16Apbhb02Ew
+! Diff-Path: ../patches/9/9-s-1708436229-3600.patch
+d6 2
+a7 2
+! Version: 2.0.23.41
+! TimeUpdated: 2024-02-20T13:33:36+00:00
+a1515 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/173197
+d1517 2
+a1518 2
+cuevana.*##+js(window.open-defuser)
+cuevana.*##+js(abort-on-property-read, cJsEdge)
+d2432 1
+a2432 3
+||player.cuevana.*/assets/vast_*.xml
+cuevana.*##a[rel*="sponsored"] img
+/edgeSystem*.js$domain=cuevana.*
