@@ -1,9 +1,9 @@
-! Checksum: +cKou7nSx+lxxii7QhIdBQ
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1708396541-3600.patch
+! Checksum: 5lDkSelAbB9a3ko5kfvxbw
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1708418155-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.92
-! TimeUpdated: 2024-02-19T21:32:07+00:00
+! Version: 2.0.31.93
+! TimeUpdated: 2024-02-20T08:32:04+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -1381,6 +1381,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+earthly.dev##.announcement-banner
 clubd.co.jp##.footer-fix-banner
 rmj.ru#$##healthcodeLinkingModal { display: none !importnat; }
 rmj.ru#$#body.modal-open { overflow: auto !importnat; }

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: NsfoSw8BHGsjTK13mam9TQ
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1708396563-3600.patch
+! Checksum: 0f+o7zaFzP2TIhxrSMa19w
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1708418177-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.65
-! TimeUpdated: 2024-02-19T09:32:15+00:00
+! Version: 2.0.88.66
+! TimeUpdated: 2024-02-20T08:32:14+00:00
 ! Expires: 5 days (update frequency)
 /load-xml/?id=*&roll=$xmlhttprequest
 .com/services/?id=$script,third-party
@@ -585,6 +585,7 @@ ucoz.ru/informer/
 ##div[id^="smi2adblock"]
 ##div[id^="smi_teaser_"]
 ##noindex > div[onmouseout]
+||1wiipr.xyz^$document
 ||bcdjcjjhgfiejgfjhah.world^
 ||proppellerads.ru^
 ||usesentry.com^
