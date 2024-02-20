@@ -1,0 +1,45 @@
+d1 2
+a2 2
+! Checksum: ugwaY6mne5Dh3oiQ+RmJgA
+! Diff-Path: ../patches/2/2-s-1708457777-3600.patch
+d5 2
+a6 2
+! Version: 2.3.23.27
+! TimeUpdated: 2024-02-20T19:32:54+00:00
+d33187 4
+a33190 4
+www.youtube.com#%#//scriptlet('trusted-replace-fetch-response', '/"auxiliaryUi":\{"messageRenderers":\{"bkaEnforcementMessageViewModel.*?e\}\}\}\,/', '', 'player?')
+www.youtube.com#%#//scriptlet('trusted-replace-fetch-response', '/("trackingParam":"kx_fmPxhoPZR)[-_0-9A-Za-z]{150}[-_0-9A-Za-z]+?([-_0-9A-Za-z]{43}BwOcCE59TDtslLKPQ-SS"\})/', '$1$2', 'player?')
+www.youtube.com#%#//scriptlet('trusted-replace-xhr-response', '/"auxiliaryUi":\{"messageRenderers":\{"bkaEnforcementMessageViewModel.*?e\}\}\}\,/', '', '/playlist\?list=|player\?|watch\?v=/')
+www.youtube.com#%#//scriptlet('trusted-replace-xhr-response', '/("trackingParam":"kx_fmPxhoPZR)[-_0-9A-Za-z]{150}[-_0-9A-Za-z]+?([-_0-9A-Za-z]{43}BwOcCE59TDtslLKPQ-SS"\})/', '$1$2', '/playlist\?list=|player\?|watch\?v=/')
+d33195 2
+a33196 2
+youtube.com#%#//scriptlet('trusted-replace-xhr-response', '/\"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/', '', '/^(?!.*(\/\/tv\.youtube\.com)).*(playlist\?list=|player\?|watch\?v=)/')
+tv.youtube.com#%#//scriptlet('trusted-replace-xhr-response', '"adPlacements"', '"no_ads"', '/playlist\?list=|player\?|watch\?v=/')
+d33201 1
+a33201 1
+youtube.com#%#//scriptlet('trusted-replace-fetch-response', '/"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/', '', 'player?')
+a77903 1
+||acbcamapztca.com^
+a78851 1
+||agtwvigehvl.com^
+a86129 1
+||dustratebilate.com^
+a88317 1
+||flaviusemulsor.com^
+a91676 1
+||idthecharityc.info^
+a93107 1
+||jnrgcwf.com^
+a99231 1
+||oybcobkru.xyz^
+a108196 1
+||unynwld.com^
+a111055 1
+||yourfreshjournal.com^
+a114035 1
+||dustratebilate.com^$popup
+a115171 1
+||natallcolumnsto.info^$popup
+a116883 1
+||yourfreshjournal.com^$popup
