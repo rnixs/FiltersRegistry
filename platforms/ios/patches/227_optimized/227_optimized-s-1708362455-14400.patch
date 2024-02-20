@@ -1,0 +1,21 @@
+d1 2
+a2 2
+! Checksum: PHwe7ZbcJVd3MZHRXzXuLQ
+! Diff-Path: ../patches/227_optimized/227_optimized-s-1708434448-14400.patch
+d5 2
+a6 2
+! Version: 2.0.17.72
+! TimeUpdated: 2024-02-20T13:02:57+00:00
+a1448 7
+monitor.co.kr##div[class^="notice"] .notice td[bgcolor="white"]:has(ins.adsbygoogle)
+bbs.ruliweb.com###board_top .best_list ~ .border_box
+doctorjob.co.kr##.grand_banner
+doctorjob.co.kr##.grand_banner + .sectionc
+doctorjob.co.kr##.nurse_banner:has(a[href^="/business/recruit_write.php"])
+doctorjob.co.kr##.main_pay + .sectionc:has(a[href^="/business/recruit_write.php"])
+doctorjob.co.kr##.main_pay ~ .sectionc > .nurse_banner ~ *:is(.sectionc, .hire-list)
+d2607 2
+a2608 1
+08dragon.com#@#[data-ez-name]
+a2657 1
+bbs.ruliweb.com#$##board_top .best_list { width: 100% !important; }
