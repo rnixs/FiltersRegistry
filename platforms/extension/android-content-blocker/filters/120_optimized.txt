@@ -1,9 +1,9 @@
-! Checksum: r8CIXfu31YGKkWZmokeJvA
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1708420066-14400.patch
+! Checksum: 4l0vZ/qgL2V2GmQpyx8bUA
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1708448788-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.19.17
-! TimeUpdated: 2024-02-20T09:03:10+00:00
+! Version: 2.0.19.18
+! TimeUpdated: 2024-02-20T17:02:04+00:00
 ! Expires: 5 days (update frequency)
 .id^*/bnr/$domain=~kalbarprov.go.id
 /iklan/*$image,domain=~jualrumahjakarta.com|~jualsewakios.com|~jualsewaruko.com|~kostjakarta.com|~pusatiklan.co.id|~sewa-apartemen.net|~sewa-rumah.net|~sewa-villa.com|~situsproperti.com|~tempat-usaha.com
@@ -3335,6 +3335,7 @@ _usafelink.$third-party,script
 ||jwplayer21.com/images/*.gif$image
 ||sokuja.site/tmp/$image
 ||wibudesu.co^*_kiri-kanan.$image
+||lk21static.xyz/iframe/content2.php$subdocument
 filmbioskop21.info##.inner-wrap > .ban_empat ~ hr + .table-hover
 130.51.20.150,gamingweb.xyz,nessandbeauty.xyz,tindershots.xyz###adf_tera
 anichin.plus,samehadaku.baby###bannerhomefooter
@@ -3543,7 +3544,7 @@ duduk123.com,masuk123.com,semprot.com##div[id^="semprotnenenmontok_"]
 duduk123.com,masuk123.com,semprot.com#@#.adVertical
 duduk123.com,masuk123.com,semprot.com#@#img[width="500"][height="70"]
 duduk123.com,masuk123.com,semprot.com#@#img[width="550"][height="70"]
-avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##.close-text
+66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##.close-text
 rumahbokep.guru,videocrotindo.online,websitebokep-id.com##.inside-player-ad
 rumahbokep.guru,videocrotindo.online,websitebokep-id.com##body > div[style^="position: fixed; display: block; width: 100%; height: 100%;"]
 rumahbokep.guru,videocrotindo.online,websitebokep-id.com##iframe.padPreload[style^="width: 0px; height: 0px; position: absolute;"]

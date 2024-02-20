@@ -1,15 +1,15 @@
-! Checksum: 8iheWtcRJ7sfZkoK9RJvUA
-! Diff-Path: ../patches/120/120-s-1708420088-14400.patch
+! Checksum: U1bvN7KAu5jwxAN+913+VA
+! Diff-Path: ../patches/120/120-s-1708448808-14400.patch
 ! Title: AdBlockID
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.19.17
-! TimeUpdated: 2024-02-20T09:03:10+00:00
+! Version: 2.0.19.18
+! TimeUpdated: 2024-02-20T17:02:04+00:00
 ! Expires: 10 days (update frequency)
 !
-! OriginalVersion: 24.2.110
+! OriginalVersion: 24.2.111
 ! Title: AdBlockID
 ! Description: Filter list that specifically removes adverts on Indonesian language websites.
-! Last modified: 20 Feb 2024 07:11 UTC
+! Last modified: 20 Feb 2024 16:10 UTC
 ! Expires: 1 days
 ! Homepage: https://github.com/realodix/AdBlockID
 .id^*/bnr/$domain=~kalbarprov.go.id
@@ -3736,6 +3736,7 @@ _usafelink.$third-party,script
 ||blurayku.sbs/wp-content/uploads/$redirect=noopmp4-1s,media
 ||cdn13.com/disk1/movies/indo/ads/$redirect=noopmp4-1s,media
 ||lk21static.xyz/assets/$redirect=noopmp4-1s,media
+||lk21static.xyz/iframe/content2.php$subdocument
 filmbioskop21.info##.inner-wrap > .ban_empat ~ hr + .table-hover
 checast.com##[href^="https://shope.ee/"]:has(> img)
 130.51.20.150,gamingweb.xyz,nessandbeauty.xyz,tindershots.xyz###adf_tera
@@ -4097,6 +4098,7 @@ crothot.com,indobokepxxi.org#%#//scriptlet('ubo-aopr.js', 'document.oncontextmen
 crothot.com,erocafe.net#%#//scriptlet('ubo-aopr.js', 'document.onselectstart')
 erocafe.net#%#//scriptlet('ubo-aopr.js', 'protected_links')
 pusatporn18.com##.content-post center:has(> a > img)
+bocilov.pro#%#//scriptlet('ubo-acis.js', 'history.replaceState', 'location.replace')
 duduk123.com,masuk123.com,semprot.com###fixedbox
 duduk123.com,masuk123.com,semprot.com##.js-post:has-text(Banned)
 duduk123.com,masuk123.com,semprot.com##div[class*="banner"]
@@ -4108,12 +4110,12 @@ duduk123.com,masuk123.com,semprot.com#@#.adVertical
 duduk123.com,masuk123.com,semprot.com##.semprot_wizard:has-text(adblocker)
 duduk123.com,masuk123.com,semprot.com#@#img[width="500"][height="70"]
 duduk123.com,masuk123.com,semprot.com#@#img[width="550"][height="70"]
-/px.gif|$image,redirect-rule=1x1-transparent.gif,domain=avtub.casa|avtub.cc|avtub.center|avtub.net|avtub.vin|pasarbokep.skin|playbokep.vc|rajabokep.ws|sangelink.ws|simontok.vc
-avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##.close-text
-avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##a[target*="blank"]:has(> img)
-avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-aopr.js', 'ujiPopups')
-avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-nowoif.js')
-avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-acis.js', 'history.replaceState', 'location.replace')
+/px.gif|$image,redirect-rule=1x1-transparent.gif,domain=66.29.129.161|avtub.casa|avtub.cc|avtub.center|avtub.net|avtub.vin|pasarbokep.skin|playbokep.vc|rajabokep.ws|sangelink.ws|simontok.vc
+66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##.close-text
+66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##a[target*="blank"]:has(> img)
+66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-aopr.js', 'ujiPopups')
+66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-nowoif.js')
+66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-acis.js', 'history.replaceState', 'location.replace')
 rumahbokep.guru,videocrotindo.online,websitebokep-id.com##.inside-player-ad
 rumahbokep.guru,videocrotindo.online,websitebokep-id.com##a[target*="blank"]:has(> img)
 rumahbokep.guru,videocrotindo.online,websitebokep-id.com#%#//scriptlet('ubo-aeld.js', 'contextmenu')

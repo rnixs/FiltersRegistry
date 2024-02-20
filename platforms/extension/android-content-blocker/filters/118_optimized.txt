@@ -1,9 +1,9 @@
-! Checksum: AwSo4eeWuoXpLUHU2bBNrA
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1708434407-14400.patch
+! Checksum: CwkJjm9ejWlGy8LcQzEtlQ
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1708448787-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.43
-! TimeUpdated: 2024-02-20T13:02:23+00:00
+! Version: 2.1.22.44
+! TimeUpdated: 2024-02-20T17:02:02+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -1740,6 +1740,7 @@ omni.soundestlink.com$image
 ||spinnaker-js.com^
 ||stack-sonar.com^
 ||stat.ovh^
+||stats.rip^
 ||summerhamster.com^
 ||t13.io^
 ||takingbackjuly.com^
@@ -5707,6 +5708,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.wisepops.com^
 ||tracking1.brandmentions.com^
 ||tracking2.channeladvisor.com^
+||trackingapi.trendemon.com/api/events/pageview?
 ||trackjs.com/agent/$script,third-party
 ||trackjs.com/usage.gif?
 ||trackla.stackla.com^
@@ -6329,7 +6331,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||videostat-new.index.hu^
 ||videostat.index.hu^
 ||tvid.in/log/
-||tracker.oval.id^
+||oval.id/tracker/
 ||analytics.competitoor.com^
 ||analytics.eikondigital.it^
 ||analytics.gtechgroup.it^
@@ -16097,6 +16099,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sy.ameblo.jp^
 ||t.syosetu.org^
 ||tower.jp/bundle/beacon
+||tracking.ai.rakuten.co.jp^
 ||tracking.game8.jp^
 ||tracking.gnavi.co.jp^
 ||travel.co.jp/js/analysis.js

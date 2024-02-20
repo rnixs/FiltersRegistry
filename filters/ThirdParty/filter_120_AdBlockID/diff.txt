@@ -748,6 +748,8 @@ _usafelink.$3p,script
 ||cdn13.com/disk1/movies/indo/ads/$mp4
 ! Rule "||lk21static.xyz/assets/$mp4" converted to: "||lk21static.xyz/assets/$redirect=noopmp4-1s,media"
 ||lk21static.xyz/assets/$mp4
+! Rule "||lk21static.xyz/iframe/content2.php$frame" converted to: "||lk21static.xyz/iframe/content2.php$subdocument"
+||lk21static.xyz/iframe/content2.php$frame
 ! Rule "bioskopkeren.pw,kebioskop21.sbs,lk21official.watch##a[target*="blank"] > video:remove()" converted to: "bioskopkeren.pw,kebioskop21.sbs,lk21official.watch#$?#a[target*="blank"] > video { remove: true; }"
 bioskopkeren.pw,kebioskop21.sbs,lk21official.watch##a[target*="blank"] > video:remove()
 ! Rule "kopajasubs.info##+js(aopr, adAdbLoad)" converted to: "kopajasubs.info#%#//scriptlet('ubo-aopr.js', 'adAdbLoad')"
@@ -1004,16 +1006,18 @@ crothot.com,indobokepxxi.org##+js(aopr, document.oncontextmenu)
 crothot.com,erocafe.net##+js(aopr, document.onselectstart)
 ! Rule "erocafe.net##+js(aopr, protected_links)" converted to: "erocafe.net#%#//scriptlet('ubo-aopr.js', 'protected_links')"
 erocafe.net##+js(aopr, protected_links)
+! Rule "bocilov.pro##+js(acis, history.replaceState, location.replace)" converted to: "bocilov.pro#%#//scriptlet('ubo-acis.js', 'history.replaceState', 'location.replace')"
+bocilov.pro##+js(acis, history.replaceState, location.replace)
 ! Rule "duduk123.com,masuk123.com,semprot.com##+js(acis, String.fromCharCode, ahli)" converted to: "duduk123.com,masuk123.com,semprot.com#%#//scriptlet('ubo-acis.js', 'String.fromCharCode', 'ahli')"
 duduk123.com,masuk123.com,semprot.com##+js(acis, String.fromCharCode, ahli)
-! Rule "/px.gif|$image,redirect-rule=1x1.gif,domain=avtub.casa|avtub.cc|avtub.center|avtub.net|avtub.vin|pasarbokep.skin|playbokep.vc|rajabokep.ws|sangelink.ws|simontok.vc" converted to: "/px.gif|$image,redirect-rule=1x1-transparent.gif,domain=avtub.casa|avtub.cc|avtub.center|avtub.net|avtub.vin|pasarbokep.skin|playbokep.vc|rajabokep.ws|sangelink.ws|simontok.vc"
-/px.gif|$image,redirect-rule=1x1.gif,domain=avtub.casa|avtub.cc|avtub.center|avtub.net|avtub.vin|pasarbokep.skin|playbokep.vc|rajabokep.ws|sangelink.ws|simontok.vc
-! Rule "avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(aopr, ujiPopups)" converted to: "avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-aopr.js', 'ujiPopups')"
-avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(aopr, ujiPopups)
-! Rule "avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(nowoif)" converted to: "avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-nowoif.js')"
-avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(nowoif)
-! Rule "avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(acis, history.replaceState, location.replace)" converted to: "avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-acis.js', 'history.replaceState', 'location.replace')"
-avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(acis, history.replaceState, location.replace)
+! Rule "/px.gif|$image,redirect-rule=1x1.gif,domain=66.29.129.161|avtub.casa|avtub.cc|avtub.center|avtub.net|avtub.vin|pasarbokep.skin|playbokep.vc|rajabokep.ws|sangelink.ws|simontok.vc" converted to: "/px.gif|$image,redirect-rule=1x1-transparent.gif,domain=66.29.129.161|avtub.casa|avtub.cc|avtub.center|avtub.net|avtub.vin|pasarbokep.skin|playbokep.vc|rajabokep.ws|sangelink.ws|simontok.vc"
+/px.gif|$image,redirect-rule=1x1.gif,domain=66.29.129.161|avtub.casa|avtub.cc|avtub.center|avtub.net|avtub.vin|pasarbokep.skin|playbokep.vc|rajabokep.ws|sangelink.ws|simontok.vc
+! Rule "66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(aopr, ujiPopups)" converted to: "66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-aopr.js', 'ujiPopups')"
+66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(aopr, ujiPopups)
+! Rule "66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(nowoif)" converted to: "66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-nowoif.js')"
+66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(nowoif)
+! Rule "66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(acis, history.replaceState, location.replace)" converted to: "66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc#%#//scriptlet('ubo-acis.js', 'history.replaceState', 'location.replace')"
+66.29.129.161,avtub.casa,avtub.cc,avtub.center,avtub.net,avtub.vin,pasarbokep.skin,playbokep.vc,rajabokep.ws,sangelink.ws,simontok.vc##+js(acis, history.replaceState, location.replace)
 ! Rule "rumahbokep.guru,videocrotindo.online,websitebokep-id.com##+js(aeld, contextmenu)" converted to: "rumahbokep.guru,videocrotindo.online,websitebokep-id.com#%#//scriptlet('ubo-aeld.js', 'contextmenu')"
 rumahbokep.guru,videocrotindo.online,websitebokep-id.com##+js(aeld, contextmenu)
 ! Rule "rumahbokep.guru,videocrotindo.online,websitebokep-id.com##+js(nowoif)" converted to: "rumahbokep.guru,videocrotindo.online,websitebokep-id.com#%#//scriptlet('ubo-nowoif.js')"

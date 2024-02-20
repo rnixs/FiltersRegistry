@@ -1,9 +1,9 @@
-! Checksum: UkGH8aO3AneyAxtAMZfrjA
-! Diff-Path: ../patches/124_optimized/124_optimized-s-1708434413-14400.patch
+! Checksum: wtOX8zdRLWLeT7mxtAl3uw
+! Diff-Path: ../patches/124_optimized/124_optimized-s-1708448793-14400.patch
 ! Title: EasyList Portuguese (Optimized)
 ! Description: Additional filter list for websites in Spanish and Portuguese.
-! Version: 2.0.15.91
-! TimeUpdated: 2024-02-20T13:02:38+00:00
+! Version: 2.0.15.92
+! TimeUpdated: 2024-02-20T17:02:19+00:00
 ! Expires: 10 days (update frequency)
 /ads/anuncio.
 -publicidade.
@@ -393,6 +393,7 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||imgur.com^$domain=politicosdosuldabahia.com.br|zonadoguaxinim.com.br
 ||ljii.github.io^$third-party
 ||melhorplano.net/plugin-search-broadband-plans?$domain=minhaconexao.com.br
+||outbrain.com^$domain=visortmo.com
 ||postimg.cc^$domain=barbacenamais.com.br
 ||publyads.jstag.space^
 ||pubs.xl.pt^
@@ -728,7 +729,7 @@ natelinha.uol.com.br##.arroba-texto
 purebreak.com.br##.article-column-container
 calangodocerrado.net##.banFooter
 humordido.net##.banSect
-bne.com.br,meiobit.com,metropolitanafm.com.br,muramasa.com.br,overplay.com.br,ovicio.com.br,sputniknewsbr.com.br,tntsports.com.br##.banner
+bne.com.br,meiobit.com,metropolitanafm.com.br,muramasa.com.br,overplay.com.br,ovicio.com.br,sputniknewsbr.com.br,tntsports.com.br,visortmo.com##.banner
 icarros.com.br##.banner-arroba-container
 valor.globo.com,valorinveste.globo.com##.banner-fix-cls
 redegn.com.br##.banner-img
@@ -906,6 +907,7 @@ visortmo.com##.pba
 visortmo.com##.pbb
 visortmo.com##.pbc
 visortmo.com##.pbd
+visortmo.com##.pbf
 otakuteca.com##.pbl
 meutimao.com.br##.pbmt
 portalpopline.com.br##.plads_container

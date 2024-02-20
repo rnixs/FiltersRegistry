@@ -1,15 +1,15 @@
-! Checksum: hucimAVckr1N5vZawY7Btg
-! Diff-Path: ../patches/246/246-s-1708434415-14400.patch
+! Checksum: Z2AOvEQxMsIJWA+r2SfNBA
+! Diff-Path: ../patches/246/246-s-1708448795-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.40.24
-! TimeUpdated: 2024-02-20T13:03:27+00:00
+! Version: 2.1.40.25
+! TimeUpdated: 2024-02-20T17:03:08+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: HrrG+z78L8eI1MPC06+iwA
-! OriginalVersion: 202402201251
+! Checksum: QBXoXPxC++s+DA6PfrwQKw
+! OriginalVersion: 202402201651
 ! Title: EasyList Polish
-! Last modified: 20 Feb 2024 12:51 UTC
+! Last modified: 20 Feb 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -380,7 +380,6 @@ supernowosci24.pl##[id^="r-"]
 ||rep.leaselink.pl/plugin^$script,domain=icomp.pl
 ||rlu24.pl^marek2.
 ||rodaknet.com/reklamujemy^
-||s0urce.io^*^idletowerminer^
 ||sc.4media.com$domain=zycieolsztyna.pl
 ||skipol.pl^*^watermark_azoty.
 ||sokolka.tv^*^betonholding.
@@ -2001,6 +2000,7 @@ angolia.co.uk##a[href="https://domeny24.uk/"]
 chwaszczyno.pl##a[href="https://e-eltom.pl/"]
 auto-przeglad.pl##a[href="https://ewiniety.pl//"]
 wiesci.com.pl##a[href="https://focusdentalclinic.pl"]
+buzz.give5.pl##a[href="https://give5.pl/u/CMP6l"]
 wiesci.com.pl##a[href="https://instalatorsanitarny.com.pl/"]
 barlinek24.pl##a[href="https://lewiatan.pl/aktualna-gazetka?search=Barlinek"]
 gazeta-mosina.pl##a[href="https://m-cool.pl/"]
