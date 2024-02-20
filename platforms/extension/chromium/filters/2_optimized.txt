@@ -1,9 +1,9 @@
-! Checksum: 77pw9iI+DHlJJlkM4DtGKQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708457764-3600.patch
+! Checksum: 54yUQ6l/JaHagbEz+Q2yZQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708464961-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.23.27
-! TimeUpdated: 2024-02-20T19:32:54+00:00
+! Version: 2.3.23.28
+! TimeUpdated: 2024-02-20T21:32:54+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -21331,6 +21331,7 @@ browsershots.org#@#.advert_area
 ||byrkmeibah.com^
 ||bytogeticr.com^
 ||byvhtcpfoom.com^
+||byvmvfllobup.com^
 ||byvtkhdxfjw.com^
 ||byxcbixzvjclxz.com^
 ||byxsmjqvjvmhxpy.xyz^
@@ -24552,6 +24553,7 @@ browsershots.org#@#.advert_area
 ||icmssjinq.com^
 ||icoawhou.com^
 ||iconcardinal.com^
+||icy-location.com^
 ||icycreatmentr.info^
 ||icyxbdxvhqswvxg.com^
 ||idantglyoxim.top^
@@ -25265,6 +25267,7 @@ browsershots.org#@#.advert_area
 ||kcnfrqincdlf.xyz^
 ||kcwtugkvnq.xyz^
 ||kdkatxfkxmgmbhu.xyz^
+||kdmjvnk.com^
 ||kdwdrpiwdxof.com^
 ||kdxhsaaealyadm.com^
 ||kdyxxkcd.com^
@@ -29483,6 +29486,7 @@ browsershots.org#@#.advert_area
 ||theoverheat.com^
 ||therelimitless.com^
 ||thertoldimnver.xyz^
+||thesekid.pro^
 ||thesisadornpathetic.com^
 ||thetchaixoo.com^
 ||theusualsuspectz.biz^
@@ -30027,6 +30031,7 @@ browsershots.org#@#.advert_area
 ||urquqtbswaqta.com^
 ||urthdtcg.com^
 ||urtirepor.com^
+||uruftio.com^
 ||usageultra.com^
 ||usefulcontentsites.com^
 ||usetalentedpunk.com^
@@ -30323,6 +30328,7 @@ browsershots.org#@#.advert_area
 ||vuolobnhqb.com^
 ||vuphoubs.com^
 ||vupoupay.com^
+||vuqufo.uno^
 ||vusrabieg.com^
 ||vuwmkymwbipd.com^
 ||vuzxgvjt.com^
@@ -31015,6 +31021,7 @@ browsershots.org#@#.advert_area
 ||zeebestmarketing.com^
 ||zeechoog.net^
 ||zeekaihu.net^
+||zeephouh.com^
 ||zeepteestaub.com^
 ||zegnoaft.com^
 ||zelatorpukka.com^
