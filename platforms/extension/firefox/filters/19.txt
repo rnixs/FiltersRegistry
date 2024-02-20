@@ -1,9 +1,9 @@
-! Checksum: em5NOVXQ5agwV5D+RIGj1g
-! Diff-Path: ../patches/19/19-s-1708443419-3600.patch
+! Checksum: OAEHQMZKDLeemXwW7umsDw
+! Diff-Path: ../patches/19/19-s-1708447068-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.98
-! TimeUpdated: 2024-02-20T15:32:49+00:00
+! Version: 2.0.31.99
+! TimeUpdated: 2024-02-20T16:33:32+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4226,6 +4226,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+zhihu.com##div[style^="transform-origin: center bottom; margin-top:"]
 community.atlassian.com##.login-spotlight
 earthly.dev##.announcement-banner
 clubd.co.jp##.footer-fix-banner
@@ -12196,6 +12197,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+coindoo.com##body > div.modal-wrapper:has(> div.modal-container div.email-subscribe-wrapper)
 geekjob.ru##article#filter-box > section > div.s12 > div.message.violet.icon
 originalmarines.com##.modal_newsletter_popup
 originalmarines.com##.modal_newsletter_popup ~ .modals-overlay
