@@ -1,9 +1,9 @@
-! Checksum: i43hQhhR1Xx//+9tiVptQA
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1708376788-14400.patch
+! Checksum: 1YbZXzIThfznAO8f2tJkjg
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1708391171-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.19.15
-! TimeUpdated: 2024-02-19T21:02:10+00:00
+! Version: 2.0.19.16
+! TimeUpdated: 2024-02-20T01:01:57+00:00
 ! Expires: 5 days (update frequency)
 .id^*/bnr/$domain=~kalbarprov.go.id
 /iklan/*$image,domain=~jualrumahjakarta.com|~jualsewakios.com|~jualsewaruko.com|~kostjakarta.com|~pusatiklan.co.id|~sewa-apartemen.net|~sewa-rumah.net|~sewa-villa.com|~situsproperti.com|~tempat-usaha.com
@@ -3547,7 +3547,7 @@ rumahbokep.guru,videocrotindo.online,websitebokep-id.com##.inside-player-ad
 rumahbokep.guru,videocrotindo.online,websitebokep-id.com##body > div[style^="position: fixed; display: block; width: 100%; height: 100%;"]
 rumahbokep.guru,videocrotindo.online,websitebokep-id.com##iframe.padPreload[style^="width: 0px; height: 0px; position: absolute;"]
 bokepkita.fun,inibokep.rest,kamarbokep.mom,kebokepanku.one,ruangbokep.one,sibokep.click##.btm_ban
-bocilviral.autos,bokepbaru.homes,bokepid.autos,bokepkeren.autos,bookep.boats,ngentotin.ink,simontok.autos,viralhub.autos###fixedban
+bocilviral.autos,bokepbaru.homes,bokepid.autos,bokepkeren.autos,bookep.fun,ngentotin.ink,simontok.autos,viralhub.autos###fixedban
 /luxury_hd_dvd_hd.mp4$media
 ||imgur.com/PptFxqt.$image
 /*capsa*.gif$image

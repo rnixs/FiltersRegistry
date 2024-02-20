@@ -1,15 +1,15 @@
-! Checksum: fw1yN54ZMVXpLybA94U5pg
-! Diff-Path: ../patches/120/120-s-1708376788-14400.patch
+! Checksum: mPn2QucrQD7wn6a8fHQfsw
+! Diff-Path: ../patches/120/120-s-1708391171-14400.patch
 ! Title: AdBlockID
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.19.15
-! TimeUpdated: 2024-02-19T21:02:10+00:00
+! Version: 2.0.19.16
+! TimeUpdated: 2024-02-20T01:01:57+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 24.2.104
+! OriginalVersion: 24.2.106
 ! Title: AdBlockID
 ! Description: Filter list that specifically removes adverts on Indonesian language websites.
-! Last modified: 19 Feb 2024 20:34 UTC
+! Last modified: 19 Feb 2024 21:04 UTC
 ! Expires: 1 days
 ! Homepage: https://github.com/realodix/AdBlockID
 .id^*/bnr/$domain=~kalbarprov.go.id
@@ -3554,7 +3554,7 @@ rumahbokep.guru,videocrotindo.online,websitebokep-id.com##.inside-player-ad
 rumahbokep.guru,videocrotindo.online,websitebokep-id.com##body > div[style^="position: fixed; display: block; width: 100%; height: 100%;"]
 rumahbokep.guru,videocrotindo.online,websitebokep-id.com##iframe.padPreload[style^="width: 0px; height: 0px; position: absolute;"]
 bokepkita.fun,inibokep.rest,kamarbokep.mom,kebokepanku.one,ruangbokep.one,sibokep.click##.btm_ban
-bocilviral.autos,bokepbaru.homes,bokepid.autos,bokepkeren.autos,bookep.boats,ngentotin.ink,simontok.autos,viralhub.autos###fixedban
+bocilviral.autos,bokepbaru.homes,bokepid.autos,bokepkeren.autos,bookep.fun,ngentotin.ink,simontok.autos,viralhub.autos###fixedban
 /luxury_hd_dvd_hd.mp4$media
 ||imgur.com/PptFxqt.$image
 /*capsa*.gif$image

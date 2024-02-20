@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: cVdQ7OAhDwYFJ2/Rqb5ILA
-! Diff-Path: ../patches/207_optimized/207_optimized-s-1708376821-14400.patch
+! Checksum: ySWFxZwuj8Jl3hrwS3DOVg
+! Diff-Path: ../patches/207_optimized/207_optimized-s-1708391201-14400.patch
 ! Title: Adblock Warning Removal List (Optimized)
 ! Description: Removes anti-adblock warnings and other obtrusive messages.
-! Version: 2.1.44.13
-! TimeUpdated: 2024-02-19T21:02:28+00:00
+! Version: 2.1.44.14
+! TimeUpdated: 2024-02-20T01:02:15+00:00
 ! Expires: 5 days (update frequency)
 /adb-watch.
 /adb_script/*
@@ -459,6 +459,7 @@ _adblock_killer.
 ##.AdblockMessage_msg
 ##.BrokenAd
 ##.ab-detected
+##.ab-detector-wrap
 ##.ad-alert-message-text
 ##.ad-alert-wrapper
 ##.ad-block-detected

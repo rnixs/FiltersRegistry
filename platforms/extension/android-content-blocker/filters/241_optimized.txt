@@ -1,9 +1,9 @@
-! Checksum: 1mOoYFHWuLzgRlTPsEClNA
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1708376790-14400.patch
+! Checksum: d6ybsbvvjgtjNpiq3X5Ung
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1708391173-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.29.43
-! TimeUpdated: 2024-02-19T21:03:07+00:00
+! Version: 2.1.29.44
+! TimeUpdated: 2024-02-20T01:02:54+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -20348,6 +20348,7 @@ cheddar.com##.notificationBanner__banner___38gx8
 teletoon.com##.notificationBar
 listen.tidal.com##.notificationWrapper--2lyVW
 noxum.com##.notification__banner
+orderchamp.com##.notification__cookie
 cancer.org.au##.notification_banner
 insurancebusinessmag.com##.notification_strip
 amateur.tv##.notificationbar
@@ -21803,6 +21804,9 @@ samsoe.com##.modal-backdrop
 samsoe.com#$#body,html { overflow: auto !important; position: initial !important; }
 ovenclean.com,gebrauchtwagen-outlet.info,filmzie.com##.cookie-modal
 ovenclean.com,gebrauchtwagen-outlet.info,filmzie.com#$#body,html { overflow: auto !important; position: initial !important; }
+toto.nl##.cookie-modal
+toto.nl##.overlay
+toto.nl#$#body,html { overflow: auto !important; position: initial !important; }
 moebel-akut.de,smit-sport.de,justmusic.de###PrivacyCategoryAlert
 moebel-akut.de,smit-sport.de,justmusic.de##.modal-backdrop
 moebel-akut.de,smit-sport.de,justmusic.de#$#body,html { overflow: auto !important; position: initial !important; }
@@ -23626,6 +23630,7 @@ fr-com.com##.modal-content
 jobijoba.com##.modal-wrapper
 lafi.fr##.nota
 cis-immobilier.com##.nq-rgpd-bar
+apf-francehandicap.org##.orejime-NoticeOverlay
 axa.ci##.overlay_axa
 groupama.fr##.perfModal
 envol-vert.org##.popup
