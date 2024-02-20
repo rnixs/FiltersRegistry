@@ -1,0 +1,12 @@
+d2 2
+a3 2
+! Checksum: LlNY3AuRVfn6AhlhruZ0eQ
+! Diff-Path: ../patches/13/13-s-1708421788-3600.patch
+d6 2
+a7 2
+! Version: 2.0.50.7
+! TimeUpdated: 2024-02-20T09:31:41+00:00
+a1409 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/173151
+a1410 1
+fullhdfilmizlesene.*#$#body > .orta:not([style*="margin-top:"]) { margin-top: 0 !important; }

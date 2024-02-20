@@ -1,9 +1,9 @@
-! Checksum: Dv209XV0r7YZV3JqFJNMYg
-! Diff-Path: ../patches/21/21-s-1708418188-3600.patch
+! Checksum: eOmp5Dn7PtZ9iPkP59J6Kg
+! Diff-Path: ../patches/21/21-s-1708421808-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.19.94
-! TimeUpdated: 2024-02-20T08:32:16+00:00
+! Version: 2.0.19.95
+! TimeUpdated: 2024-02-20T09:32:20+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5026,6 +5026,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+itc.ua##body > div[style="text-align:center;margin-bottom: 0;"]
 astral.sh##main ~ div.container:has(> div > div.relative > div > a[href="https://docs.astral.sh/ruff/"])
 rakumachi.jp###js-MultiPageHeader
 rakumachi.jp##.postBanner

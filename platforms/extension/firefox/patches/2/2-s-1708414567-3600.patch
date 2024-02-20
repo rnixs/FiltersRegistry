@@ -1,0 +1,19 @@
+d1 2
+a2 2
+! Checksum: sPtR6ILX4EqePhGP9/JiUQ
+! Diff-Path: ../patches/2/2-s-1708421775-3600.patch
+d5 2
+a6 2
+! Version: 2.3.23.17
+! TimeUpdated: 2024-02-20T09:32:52+00:00
+a20633 1
+focus.it##.foc-adv-slot
+a51890 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/173151
+! TODO: remove the rule when it's fixed in EasyList
+||trstx.org^$badfilter
+a124360 1
+mypunepulse.com##.n2-padding
+d125507 1
+a125507 1
+mypunepulse.com,optimyz.com##.widget_smartslider3

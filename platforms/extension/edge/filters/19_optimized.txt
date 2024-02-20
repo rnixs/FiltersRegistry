@@ -1,9 +1,9 @@
-! Checksum: Y93bnUj+FmncS3fefgdyiw
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1708418162-3600.patch
+! Checksum: paZSpean8c/ne9KTRVeu1A
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1708421769-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.31.93
-! TimeUpdated: 2024-02-20T08:32:04+00:00
+! Version: 2.0.31.94
+! TimeUpdated: 2024-02-20T09:32:08+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1579,6 +1579,7 @@ aol.com#@#.adwrap
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+community.atlassian.com##.login-spotlight
 earthly.dev##.announcement-banner
 clubd.co.jp##.footer-fix-banner
 rmj.ru#$##healthcodeLinkingModal { display: none !importnat; }
