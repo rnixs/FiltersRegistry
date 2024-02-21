@@ -1,9 +1,9 @@
-! Checksum: xePABmZeYj/o9OzWfDPOfA
-! Diff-Path: ../patches/19/19-s-1708526422-3600.patch
+! Checksum: kpn097uUaxOUxJbkBq9ApQ
+! Diff-Path: ../patches/19/19-s-1708536996-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.5
-! TimeUpdated: 2024-02-21T14:36:00+00:00
+! Version: 2.0.32.6
+! TimeUpdated: 2024-02-21T17:32:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7110,7 +7110,7 @@ businesstoday.in,aajtak.in##.rhs-fixwhtsapp
 justdial.com###best_deal_div
 justdial.com##.b-modal.__b-popup1__
 bauking.de##.exit-intent-wrap
-book.dmm.co.jp###react-popup-parts-root
+book.dmm.com,book.dmm.co.jp###react-popup-parts-root
 hollywoodmask.com###newletter-popup
 ewdn.com##div[data-title^="Subscription Form - Popup"]
 indiafreestuff.in##.mypopups-substare

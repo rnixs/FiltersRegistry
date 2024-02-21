@@ -1,9 +1,9 @@
-! Checksum: A8MdrA5OsEv4DMsWc9Dggg
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1708526443-3600.patch
+! Checksum: QzCT1S5luuzuwaNRmRmkow
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1708537017-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.5
-! TimeUpdated: 2024-02-21T14:36:00+00:00
+! Version: 2.0.32.6
+! TimeUpdated: 2024-02-21T17:32:21+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -3249,7 +3249,7 @@ irishpost.com###overlay-form-container
 ||ecb.qualquantsignals.com/invite/*.js$domain=alstom.com
 aarp.org###siteBannerText
 businesstoday.in,aajtak.in##.rhs-fixwhtsapp
-book.dmm.co.jp###react-popup-parts-root
+book.dmm.com,book.dmm.co.jp###react-popup-parts-root
 indiafreestuff.in##.mypopups-substare
 newbalance.*###discount-popup-container
 nikkei.com###slideIn
