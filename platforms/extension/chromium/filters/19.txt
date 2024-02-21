@@ -1,9 +1,9 @@
-! Checksum: b73JAQaNIFAHmg+iVfmEVw
-! Diff-Path: ../patches/19/19-s-1708461365-3600.patch
+! Checksum: iJiT59dPB1S10cwAmEMBCg
+! Diff-Path: ../patches/19/19-s-1708511770-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.2
-! TimeUpdated: 2024-02-20T20:32:15+00:00
+! Version: 2.0.32.3
+! TimeUpdated: 2024-02-21T10:32:13+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12177,6 +12177,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+emlak.mitula.com.tr###bannerEmailLeftContainer
+||emlak.mitula.com.tr/jsp/include/banners/bannerEmail
 totaltypescript.com###article-cta
 sonarsource.com###form-blog-newsletter
 venezia.pl##.m-newsletter-panel

@@ -1,9 +1,9 @@
-! Checksum: CtpopLTmGbwjI+nnq+4NEQ
-! Diff-Path: ../patches/18/18-s-1708508180-3600.patch
+! Checksum: 6s6c8gBJ7L3pzHUGj5HCgw
+! Diff-Path: ../patches/18/18-s-1708511765-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.9
-! TimeUpdated: 2024-02-21T09:32:20+00:00
+! Version: 2.0.34.10
+! TimeUpdated: 2024-02-21T10:32:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6973,7 +6973,7 @@ lcwaikiki.com##.cookiealert.show
 liveworksheets.com###divcookieconsent
 audioboom.com#$#div[id^="cookie-modal-"] { display: none !important; }
 audioboom.com#$#body { overflow: visible !important; padding-right: 0 !important; }
-venezia.pl,jungfrau.ch##.m-cookie-info
+unisono.eu,venezia.pl,jungfrau.ch##.m-cookie-info
 rheinbahn.de###cookiefrage
 /misc/cookie.js$domain=kurnik.pl|playok.com
 tbd.community###block-tbd-cookie-notice

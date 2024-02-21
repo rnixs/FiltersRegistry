@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ITRQsNZ+YXrjDX8Jydk+Ig
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1708482967-3600.patch
+! Checksum: TNkVzSDNlOmxtuEAgsFJ1A
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1708511801-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.60
-! TimeUpdated: 2024-02-20T23:33:07+00:00
+! Version: 2.0.97.61
+! TimeUpdated: 2024-02-21T10:33:10+00:00
 ! Expires: 5 days (update frequency)
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
@@ -3013,7 +3013,7 @@ direct.money.pl##.author-social-list
 inphic.com,warnerbrosanimationstore.com##.detail_share
 roundup-gamers.jp,onepiece-film.jp##.arti-sharing-wrapper
 ostin.com##.o-product__share
-bursadabugun.com##a[onclick^="RE.share("]
+baskagazete.com,bursadabugun.com##a[onclick^="RE.share("]
 shiftdelete.net##.thb-article-share
 heise.de##section[data-component="SocialMediaModule"]
 kuow.org##div[data-react-class="ShareActions"]
