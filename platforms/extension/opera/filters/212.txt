@@ -1,15 +1,15 @@
-! Checksum: 4JQ8kPoEN2/YrwkiLPBgfQ
-! Diff-Path: ../patches/212/212-s-1708520815-14400.patch
+! Checksum: 5ovrmzrTdj38FBkIZ4D6ag
+! Diff-Path: ../patches/212/212-s-1708535212-14400.patch
 ! Title: RU AdList: Counters
 ! Description: RU AdList supplement for trackers blocking.
-! Version: 2.1.43.48
-! TimeUpdated: 2024-02-21T13:02:30+00:00
+! Version: 2.1.43.49
+! TimeUpdated: 2024-02-21T17:02:29+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: skqCSz8OCrRHVaUcyYyniA
-! OriginalVersion: 202402211250
+! Checksum: gILqiGuS20RCavcw72uktg
+! OriginalVersion: 202402211651
 ! Title: RU AdList: Counters
-! Last modified: 21 Feb 2024 12:50 UTC
+! Last modified: 21 Feb 2024 16:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -51,7 +51,7 @@
 @@||kufar.by/cc_proxy/api/users/*/counter?withPollingTime=true$xmlhttprequest,domain=kufar.by
 @@||mail.ru/js/cpf/tools/jquery/counters/$domain=mail.ru
 @@||mc.yandex.ru/metrika/tag.js|$script,domain=auto.yandex|iz.ru
-@@||mc.yandex.ru/metrika/watch.js$domain=carambatv.ru|cashalot.su|chelyabinsk.74.ru|damprodam.ru|iz.ru|lk.boxberry.ru|magadanmedia.ru|muzofond.org|news.rambler.ru|player.1tv.com|samozapis-spb.ru|sherlock.store|sovsport.ru|sprinthost.ru|stylenews.ru|tvrain.ru
+@@||mc.yandex.ru/metrika/watch.js$domain=carambatv.ru|cashalot.su|chelyabinsk.74.ru|damprodam.ru|iz.ru|lk.boxberry.ru|magadanmedia.ru|muzofond.org|news.rambler.ru|player.1tv.com|samozapis-spb.ru|sherlock.store|sprinthost.ru|stylenews.ru|tvrain.ru
 @@||mc.yandex.ru/metrika/watch_visor.js$script,domain=zebratelecom.ru
 @@||mc.yandex.ru/webvisor^$domain=overclockers.ru
 @@||megafon.ru/static/?files=*/piwik.$domain=megafon.ru
