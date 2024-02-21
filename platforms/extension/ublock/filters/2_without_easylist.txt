@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Rw+cvAEK9bNbtSK4DGNzZw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708529900-3600.patch
+! Checksum: MqrP7BtgD4IJRQ/gc6/HdQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708533416-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.23.40
-! TimeUpdated: 2024-02-21T15:34:22+00:00
+! Version: 2.3.23.41
+! TimeUpdated: 2024-02-21T16:33:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -27284,6 +27284,8 @@ kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekic
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172763
+mmtv01.xyz##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173012
 doodss.*##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173184

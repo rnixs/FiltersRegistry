@@ -1,9 +1,9 @@
-! Checksum: CCjPPvF4Hv5ktJAXjYr1Ow
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708529863-3600.patch
+! Checksum: tpbUXxGxzT1Jkl5z8MNg7g
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708533378-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.23.40
-! TimeUpdated: 2024-02-21T15:34:22+00:00
+! Version: 2.3.23.41
+! TimeUpdated: 2024-02-21T16:33:05+00:00
 ! Expires: 5 days (update frequency)
 ||ipurseeh.xyz^
 ||reonews.pl^$third-party
@@ -20585,6 +20585,7 @@ _800x80_
 ###player-advertising
 ###player_ad
 ###playerad
+###pop.div_pop
 ###popupAd
 ###pr_ad
 ###pre-adv
@@ -38873,7 +38874,6 @@ iwara.tv##.contentBlock__content
 faptor.com##.dblock
 anysex.com##.desc.type2
 hentaicity.com##.detail-side-bnr
-spankbang.mov##.div_pop
 xxxporn.pics##.download
 drtuber.com##.drt-sponsor-block
 drtuber.com,iceporn.com,nuvid.com,proporn.com,viptube.com,winporn.com##.drt-spot-box

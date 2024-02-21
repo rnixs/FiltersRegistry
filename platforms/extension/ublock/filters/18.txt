@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mL02UrllgjFvQbI6ErBcMQ
-! Diff-Path: ../patches/18/18-s-1708529897-3600.patch
+! Checksum: Ib5SCKpngrm98iddJQm0kA
+! Diff-Path: ../patches/18/18-s-1708533413-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.15
-! TimeUpdated: 2024-02-21T15:33:33+00:00
+! Version: 2.0.34.16
+! TimeUpdated: 2024-02-21T16:32:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2340,6 +2340,7 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 ! NOTE: Regular rules
 !
+basketligakobiet.pl,plk.pl,pzkosz.pl##.zgoda_na_cookie
 ||ga.de/assets/consent/consent-page.js
 autism-unlimited.org###cookie-cover
 emlak.mitula.com.tr##+js(set-cookie, cookieBannerDesktop, true)

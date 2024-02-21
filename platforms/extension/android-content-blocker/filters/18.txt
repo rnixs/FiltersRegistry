@@ -1,9 +1,9 @@
-! Checksum: F4p6HW/Xt6uy5jijNjeVlQ
-! Diff-Path: ../patches/18/18-s-1708529861-3600.patch
+! Checksum: PasLzt0cEXqkBkeGw2CUrQ
+! Diff-Path: ../patches/18/18-s-1708533376-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.15
-! TimeUpdated: 2024-02-21T15:33:33+00:00
+! Version: 2.0.34.16
+! TimeUpdated: 2024-02-21T16:32:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2331,6 +2331,7 @@ multiplayer.it,tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+basketligakobiet.pl,plk.pl,pzkosz.pl##.zgoda_na_cookie
 ||ga.de/assets/consent/consent-page.js
 autism-unlimited.org###cookie-cover
 androidpolice.com#$#main ~ .adsninja-ad-zone ~ .adsninja-ad-zone ~ div[class][style*="z-index"] { display: none !important; }
