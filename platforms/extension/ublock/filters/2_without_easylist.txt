@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: FEUHJUvb9Ndn4J3EPMPIDw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708519179-3600.patch
+! Checksum: Ju2XvSNuPGegrxqGPYsjpw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708522604-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.23.37
-! TimeUpdated: 2024-02-21T12:35:42+00:00
+! Version: 2.3.23.38
+! TimeUpdated: 2024-02-21T13:32:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -77,6 +77,7 @@
 !
 !
 !
+||ipurseeh.xyz^
 ||reonews.pl^$third-party
 ||reomanager.pl^$third-party
 ||adx.ws^$third-party
@@ -32258,7 +32259,7 @@ watchmoviesss.*###bread + div[style^="width:"]
 ! https://r023m83skv5v.com/c5/d1/c7/c5d1c7fa34676226827685638cd1efb7.js
 ! https://prevotch.com/r8WLKGtgCSjddY/11983
 ! https://jickodsa.com/5/5729178
-/\/[0-9][0-9][0-9][0-9][0-9][0-9][0-9]$/$third-party,script,domain=bingewatch.to
+/\/[0-9][0-9][0-9][0-9][0-9][0-9][0-9]$/$third-party,script,domain=bingewatch.to|yeshd.net
 !
 ! common names
 ! ##.banner
