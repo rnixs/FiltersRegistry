@@ -1,9 +1,9 @@
-! Checksum: oYCIYb7bjNerQfgU2zkqRg
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1708535189-14400.patch
+! Checksum: J//qODQFTyDc9GxNv+EEBg
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1708549594-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.26
-! TimeUpdated: 2024-02-21T17:01:48+00:00
+! Version: 2.1.21.27
+! TimeUpdated: 2024-02-21T21:01:52+00:00
 ! Expires: 5 days (update frequency)
 &sadbl=1&abtg=1
 -ad-300x600-
@@ -9203,6 +9203,7 @@ _800x80_
 ##.legion_primiswrapper
 ##.mm-embed--sendtonews
 ##.mm-widget--sendtonews
+##.nts-video-wrapper
 ##.oovvuu-embed-player
 ##.pbs__player
 ##.pmc-contextual-player
@@ -21235,6 +21236,7 @@ browsershots.org#@#.advert_area
 ||o333o.com^
 ||o4uxrk33.com^
 ||o911o.com^
+||oachailo.net^
 ||oackoubs.com^
 ||oadsaurs.net^
 ||oagleeju.xyz^
@@ -24381,6 +24383,7 @@ browsershots.org#@#.advert_area
 ||sbxitxnmfxzyf.com^
 ||sbxsdvwfabvx.com^
 ||scaffoldsense.com^
+||scalenerequin.com^
 ||scalfebecky.digital^
 ||scalliontrend.com^
 ||scalpelvengeance.com^

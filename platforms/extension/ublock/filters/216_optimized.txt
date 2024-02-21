@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: kdnSagA95S2P4hQ34BZZBQ
-! Diff-Path: ../patches/216_optimized/216_optimized-s-1708362449-14400.patch
+! Checksum: oaAupRaM03VQbkrrT1uUJA
+! Diff-Path: ../patches/216_optimized/216_optimized-s-1708549631-14400.patch
 ! Title: Official Polish filters for AdBlock, uBlock Origin & AdGuard (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.0.15.36
-! TimeUpdated: 2024-02-19T17:02:24+00:00
+! Version: 2.0.15.37
+! TimeUpdated: 2024-02-21T21:02:38+00:00
 ! Expires: 5 days (update frequency)
 ##a[href*="techmaniak.pl/www/gact/ckk.php"]
 .*sales*.pl/offers/$image
@@ -5124,6 +5124,8 @@ filmyfilmy.pl###play
 ||taboola.com^
 ||dumpster-rental-37906.bond^
 ||pralkosuszarka-1936126.online^
+||mito-med.pl^
+||mito-pharma.pl^
 ||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=exs.pl,important
 ||ipla.hit.stat24.com^$object,domain=ipla.tv,important
 ~pilot.wp.pl,~poczta.wp.pl,wp.pl##body > div:nth-of-type(1)[style^="display: block;"]:not(#page)
