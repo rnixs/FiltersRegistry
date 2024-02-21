@@ -1,14 +1,14 @@
-! Checksum: 7sXPQSq7zpw0uLHBDIP+Ow
-! Diff-Path: ../patches/118/118-s-1708463216-14400.patch
+! Checksum: S9MaLEqqXRpuxuQ33FDyuw
+! Diff-Path: ../patches/118/118-s-1708477595-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.45
-! TimeUpdated: 2024-02-20T21:02:15+00:00
+! Version: 2.1.22.46
+! TimeUpdated: 2024-02-21T01:02:04+00:00
 ! Expires: 10 days (update frequency)
 !
-! OriginalVersion: 202402201904
+! OriginalVersion: 202402210036
 ! Title: EasyPrivacy
-! Last modified: 20 Feb 2024 19:04 UTC
+! Last modified: 21 Feb 2024 00:36 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -184,6 +184,7 @@
 /aff_i?offer_id=
 /aff_land?referrer
 /affiliate-tracker.js
+/affiliate:link_visit?
 /affiliatetracking.js
 /aftrack.asp
 /aggbug.aspx?
@@ -47141,7 +47142,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||link.nextlevelsports.com^
 ||link.nilclub.com^
 ||link.notifications.busuu.app^
-||link.nubank.com.br^
 ||link.nutty.chat^
 ||link.offers.kodakmoments.com^
 ||link.olympya.com^
