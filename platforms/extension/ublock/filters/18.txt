@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6UTvuUsBxgmmZOR0jOYr1A
-! Diff-Path: ../patches/18/18-s-1708547810-3600.patch
+! Checksum: jkSLZz4aBLmiBn/foyq+Ig
+! Diff-Path: ../patches/18/18-s-1708551390-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.20
-! TimeUpdated: 2024-02-21T20:32:31+00:00
+! Version: 2.0.34.21
+! TimeUpdated: 2024-02-21T21:32:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -14268,7 +14268,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 ! fix login button
-@@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=northantstelegraph.co.uk|newsletter.co.uk
+@@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=northantstelegraph.co.uk|newsletter.co.uk|portsmouth.co.uk
 ! fix cookie popup
 @@||tweakers.net/*/styles/components/cookiebar/cookie_bar.
 ! platform.twitter.com/widgets/tweet_button.html

@@ -1,9 +1,9 @@
-! Checksum: CysQbXftkb958m/6A5/jmw
-! Diff-Path: ../patches/4/4-s-1708540573-3600.patch
+! Checksum: 9KE24rVFiPYtodYy8VYYsg
+! Diff-Path: ../patches/4/4-s-1708551362-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.62
-! TimeUpdated: 2024-02-21T18:33:22+00:00
+! Version: 2.0.97.63
+! TimeUpdated: 2024-02-21T21:33:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1783,7 +1783,7 @@ vrubcovske.ru##.darkart-entry-post > div.darkart-social-links
 axolot.mave.digital##.mobile-menu-header > span + svg[height="38"]
 olegcassini.com.tr##.p-bottom > div.smlIconSet
 ozap.com###follow-plugin
-notion.so,businessinsider.de,sports.ru,oscars.org,planeta.pl##.social-share
+portsmouth.co.uk,notion.so,businessinsider.de,sports.ru,oscars.org,planeta.pl##.social-share
 ozmall.co.jp##.share__area
 fanbox.cc##div[class^="Share__Wrapper-"]
 10play.com.au##button.btn--social-share

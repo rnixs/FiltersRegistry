@@ -1,9 +1,9 @@
-! Checksum: /Dpfjdsi006dH20rpj8wPw
-! Diff-Path: ../patches/19/19-s-1708547783-3600.patch
+! Checksum: vgTsxeBXaoS/o25z2NbcdA
+! Diff-Path: ../patches/19/19-s-1708551360-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.9
-! TimeUpdated: 2024-02-21T20:32:34+00:00
+! Version: 2.0.32.10
+! TimeUpdated: 2024-02-21T21:32:13+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13241,7 +13241,7 @@ nytimes.com#$#.pz-header-sales > .nav-messaging.pz-nav { top: 0 !important; }
 nytimes.com#$#.pz-header-sales > .nav-messaging.pz-nav-drawer { top: 52px !important; }
 metro.co.uk###metro-comments-container > .spot-im-spotlight[data-conversation-spotlight]
 riamo.ru##.article--external
-newsletter.co.uk,northantstelegraph.co.uk,falkirkherald.co.uk,nationalworld.com,sunderlandecho.com,scotsman.com###sidebar-newsletter-signup
+portsmouth.co.uk,newsletter.co.uk,northantstelegraph.co.uk,falkirkherald.co.uk,nationalworld.com,sunderlandecho.com,scotsman.com###sidebar-newsletter-signup
 designboom.com###nlbox-popup-wrapper
 megacatstudios.com#$#div[class^="mfp-"] { display: none !important; }
 megacatstudios.com#$#html[style*="overflow:"] { overflow: auto !important; margin-right: 0 !important; }
