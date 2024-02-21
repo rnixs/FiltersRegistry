@@ -1,14 +1,14 @@
-! Checksum: ib4sEW15ou1bFbpyB4jW2A
-! Diff-Path: ../patches/118/118-s-1708492004-14400.patch
+! Checksum: wvmjj3i5hP/uJz0YYVd0JA
+! Diff-Path: ../patches/118/118-s-1708520820-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.47
-! TimeUpdated: 2024-02-21T05:01:59+00:00
+! Version: 2.1.22.48
+! TimeUpdated: 2024-02-21T13:02:09+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202402210301
+! OriginalVersion: 202402211152
 ! Title: EasyPrivacy
-! Last modified: 21 Feb 2024 03:01 UTC
+! Last modified: 21 Feb 2024 11:52 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -7026,6 +7026,7 @@ omni.soundestlink.com$image
 ||nappyattack.com^
 ||nappyneck.com^
 ||neatshade.com^
+||nebulacrescent.com^
 ||nebulousripple.com^
 ||necessarywax.com^
 ||needlessnorth.com^
@@ -14407,6 +14408,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! easyprivacy_specific_uBO.txt
 ! #if ext_ublock
 ! GPC
+! chartbeat.js redirect
 ! Admiral popups
 ! fedex.com
 ! #if cap_html_filtering
@@ -50156,6 +50158,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 ! ! ci-mpsnare.iovation.com
 @@||ci-mpsnare.iovation.com/snare.js$domain=equifax.ca
+! ! lightning.cnn.com
+@@||lightning.cnn.com^$script,domain=wfmz.com
 ! ! tag.aticdn.net
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 ! ! cdn.optimizely.com/public
