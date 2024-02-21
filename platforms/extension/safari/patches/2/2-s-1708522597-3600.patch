@@ -1,0 +1,30 @@
+d1 2
+a2 2
+! Checksum: 73IHcZ9Xy1WvGWIxyTit+w
+! Diff-Path: ../patches/2/2-s-1708526423-3600.patch
+d5 2
+a6 2
+! Version: 2.3.23.39
+! TimeUpdated: 2024-02-21T14:36:47+00:00
+a61203 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/173275
+!+ NOT_OPTIMIZED
+dailymail.co.uk##ad-slot
+d66406 1
+a81933 1
+##a[href^="https://a.medfoodsafety.com/"]
+a126607 1
+||pornstargold.com/tf2b6c6c9a44/
+a132707 1
+pornstargold.com###basePopping
+a132803 1
+pornstargold.com###popup
+a133118 1
+pornstargold.com##.et_bloom_popup
+a133520 1
+ooxxx.com##.video-ntv-wrapper
+d133718 1
+a133718 1
+namethatpornad.com,vxxx.com##a[href^="https://www.g2fame.com/"]
+a133766 1
+ooxxx.com##div[style^="width: 728px; height: 90px;"]

@@ -1,9 +1,9 @@
-! Checksum: ny1PcMZaH0bz/Lsw8NWmww
-! Diff-Path: ../patches/19/19-s-1708515778-3600.patch
+! Checksum: xePABmZeYj/o9OzWfDPOfA
+! Diff-Path: ../patches/19/19-s-1708526422-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.4
-! TimeUpdated: 2024-02-21T11:37:32+00:00
+! Version: 2.0.32.5
+! TimeUpdated: 2024-02-21T14:36:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4905,7 +4905,7 @@ kutikomi.com#?##content > div.popup:has(> a#amplitude-Popup_DocumentBtn)
 careerkarma.com#%#//scriptlet('trusted-set-local-storage-item', 'closeModal', '$now$')
 feedwatcher.net###no-login
 content.techgig.com#?#body > div.modalwrap:has(> div.loggedin_gmail)
-healthymatters.com.hk#%#AG_onLoad(function(){if(!localStorage.getItem("loginPopUpId")){const b=new MutationObserver(function(){const a=document.querySelector('.pop-up-ani div[name="close"]');a&&(b.disconnect(),a.click())});b.observe(document,{childList:!0,subtree:!0}),setTimeout(function(){b.disconnect()},1E4)}});
+healthymatters.com.hk#%#//scriptlet('trusted-click-element', '.pop-up-ani div[name="close"]', '!localStorage:loginPopUpId')
 kunel-salon.com#?#body > div.toast:has(> a[href="https://kunel-salon.com/member/"])
 asiro.co.jp##.follow_cta
 pdf-xchange.eu###someone-purchased
