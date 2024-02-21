@@ -1,9 +1,9 @@
-! Checksum: l28GNQKjOTJ3YJ4SBsS99g
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1708544181-3600.patch
+! Checksum: x03H/xH73QhtkMIkCf2Bhg
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1708547792-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.8
-! TimeUpdated: 2024-02-21T19:32:26+00:00
+! Version: 2.0.32.9
+! TimeUpdated: 2024-02-21T20:32:34+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -6736,7 +6736,7 @@ kommersant.uk#?#main > section + div.container:has(> article.subscription__form)
 huffingtonpost.kr###letter-form
 galeriakrakowska.pl###newsletter-bar
 riamo.ru##.article--external
-northantstelegraph.co.uk,falkirkherald.co.uk,nationalworld.com,sunderlandecho.com,scotsman.com###sidebar-newsletter-signup
+newsletter.co.uk,northantstelegraph.co.uk,falkirkherald.co.uk,nationalworld.com,sunderlandecho.com,scotsman.com###sidebar-newsletter-signup
 blizko.by##cite
 bbbl.dev##.subscription-section
 bbbl.dev##.telegram-widget
