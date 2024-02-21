@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: FteU4DQO4BI7Jn6F+aFayw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708504636-3600.patch
+! Checksum: U3JkNX4CxPJ88J+nfjPvYA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708508213-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.23.33
-! TimeUpdated: 2024-02-21T08:33:31+00:00
+! Version: 2.3.23.34
+! TimeUpdated: 2024-02-21T09:33:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6933,6 +6933,8 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173251
+||sportshub.to/frames/cf/block/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172971
 dgb.lol##+js(set-constant, findCMP, noopFunc)
 ||tagan.adlightning.com/setupad-hai/op.js$script,redirect=noop.js,domain=dgb.lol
@@ -7177,9 +7179,6 @@ androidpolice.com##+js(set-constant, ValstreamVideoPlayer.prototype.isAllowedToP
 ! satdl.com - needless waiting time
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=satdl.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,important,domain=satdl.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/167343
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sportshub.to
-@@||static.doubleclick.net/instream/ad_status.js$domain=sportshub.to
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166599
 @@||stpd.cloud/saas/$script,domain=dragontea.ink
 !#safari_cb_affinity(privacy)
@@ -8042,9 +8041,6 @@ techiesavi.com##.ADs-BG
 ask4movie.net##div[id][class^="popup"][class$="wrap"][style^="opacity"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152563
 ||rxd-mods.xyz/assets/js/zblocker.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/152602
-sportshub.to##.ad-modal
-sportshub.to##+js(no-setTimeout-if, keepChecking)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152003
 ||leak.sx/fag/style/abdetector.style.min.css
 leak.sx##.abdmodal
