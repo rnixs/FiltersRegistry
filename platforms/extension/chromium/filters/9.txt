@@ -1,9 +1,9 @@
-! Checksum: y3j5Hnj0KDRsYotAD+6Zaw
-! Diff-Path: ../patches/9/9-s-1708630583-3600.patch
+! Checksum: G+iTtGmh6vWcNW+Rf0PtWQ
+! Diff-Path: ../patches/9/9-s-1708637777-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.45
-! TimeUpdated: 2024-02-22T19:33:53+00:00
+! Version: 2.0.23.46
+! TimeUpdated: 2024-02-22T21:33:49+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3768,7 +3768,6 @@ androidescomplicado.blogspot.com###ads-top
 androidescomplicado.blogspot.com###ads-home
 androidescomplicado.blogspot.com###ads-title
 publico.pt##.ad-slot
-cinemaniahdd.com,solowarez.org##a[href^="//mellowads.com"]
 economia3.com##.banner_eco3
 economia3.com##.cont_publicidad
 ||economia3.com/wp-content/uploads/*/*banner*.

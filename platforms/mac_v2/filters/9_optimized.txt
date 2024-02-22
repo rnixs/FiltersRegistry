@@ -1,9 +1,9 @@
-! Checksum: n3BiM9+XU2qGACupntjO+A
-! Diff-Path: ../patches/9_optimized/9_optimized-s-1708630612-3600.patch
+! Checksum: wcTMv1wgCLwlftsATkXfew
+! Diff-Path: ../patches/9_optimized/9_optimized-s-1708637808-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.45
-! TimeUpdated: 2024-02-22T19:33:53+00:00
+! Version: 2.0.23.46
+! TimeUpdated: 2024-02-22T21:33:49+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -2956,7 +2956,6 @@ androidescomplicado.blogspot.com###ads-top
 androidescomplicado.blogspot.com###ads-home
 androidescomplicado.blogspot.com###ads-title
 publico.pt##.ad-slot
-cinemaniahdd.com,solowarez.org##a[href^="//mellowads.com"]
 economia3.com##.banner_eco3
 economia3.com##.cont_publicidad
 ||economia3.com/wp-content/uploads/*/*banner*.
