@@ -1,9 +1,9 @@
-! Checksum: ZOL3KA+Wc2Ipi0rFxRFeFQ
-! Diff-Path: ../patches/18/18-s-1708601832-3600.patch
+! Checksum: S0zSVUcY28nRQ9z644vLLg
+! Diff-Path: ../patches/18/18-s-1708605377-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.28
-! TimeUpdated: 2024-02-22T11:33:06+00:00
+! Version: 2.0.34.29
+! TimeUpdated: 2024-02-22T12:32:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -16821,8 +16821,6 @@ mediamarkt.nl#@#.cookie-info-modal
 webmd.com#@#.cookie-consent
 ! https://forum.adguard.com/index.php?threads/12198/
 bankmillennium.pl#@#.cookies-info:not(html):not(body)
-! https://forum.adguard.com/index.php?threads/11812/
-simyo.nl#@#.popup-cookie
 ! https://forum.adguard.com/index.php?threads/club-ad-nl.11822/
 @@/cookie_law/*$script,domain=club.ad.nl
 ! https://forum.adguard.com/index.php?threads/11808/

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: +D1jBUpVQhLQTUMrakjeww
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708601873-3600.patch
+! Checksum: piJ2O3hh0NDJdRdGlW3Ndg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708605414-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.23.55
-! TimeUpdated: 2024-02-22T11:33:54+00:00
+! Version: 2.3.23.56
+! TimeUpdated: 2024-02-22T12:33:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -27294,6 +27294,9 @@ kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekic
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172930
+bypass.city##+js(window.open-defuser, /jump/next.php)
+bypass.city##+js(set-local-storage-item, ads_enabled, false)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172763
 mmtv01.xyz##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173012
@@ -32336,6 +32339,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+igg-games.com##a[href^="https://slotspilot.com/"]
 ||vidhidevip.com/assets/jquery/api100.js
 igg-games.com##.post > a > img
 xozilla.xxx###scrollhere

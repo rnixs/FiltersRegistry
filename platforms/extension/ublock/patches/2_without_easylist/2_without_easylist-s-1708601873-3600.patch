@@ -1,0 +1,14 @@
+d2 2
+a3 2
+! Checksum: piJ2O3hh0NDJdRdGlW3Ndg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708605414-3600.patch
+d6 2
+a7 2
+! Version: 2.3.23.56
+! TimeUpdated: 2024-02-22T12:33:08+00:00
+a27296 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/172930
+bypass.city##+js(window.open-defuser, /jump/next.php)
+bypass.city##+js(set-local-storage-item, ads_enabled, false)
+a32338 1
+igg-games.com##a[href^="https://slotspilot.com/"]

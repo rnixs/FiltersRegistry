@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 9RsG9a8E3kV3rCGi2Jyf0g
-! Diff-Path: ../patches/14/14-s-1708601868-3600.patch
+! Checksum: tT+iX1qdq7+w8A8K/Whpmw
+! Diff-Path: ../patches/14/14-s-1708605410-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.88.68
-! TimeUpdated: 2024-02-22T11:32:56+00:00
+! Version: 2.1.88.69
+! TimeUpdated: 2024-02-22T12:32:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2340,6 +2340,7 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 ! NOTE: Regular rules
 !
+simyo.nl##+js(set-cookie, acceptCookies, 1)
 ||sauto.cz/*/cmp?zoneId=
 authentikcanada.com##.cookies-acceptation-banner
 vod.warszawa.pl#$#.app-cookie__modal { display: none !important; }
@@ -17753,8 +17754,6 @@ mediamarkt.nl#@#.cookie-info-modal
 webmd.com#@#.cookie-consent
 ! https://forum.adguard.com/index.php?threads/12198/
 bankmillennium.pl#@#.cookies-info:not(html):not(body)
-! https://forum.adguard.com/index.php?threads/11812/
-simyo.nl#@#.popup-cookie
 ! https://forum.adguard.com/index.php?threads/club-ad-nl.11822/
 @@/cookie_law/*$script,domain=club.ad.nl
 ! https://forum.adguard.com/index.php?threads/11808/
@@ -29838,6 +29837,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+postium.ru##.hype-ad:has(> noindex > a[href="https://t.me/postiumru/"])
 diritto.it##.block-salesmanago-form:has(img[id^="closeBtnNewsletter"])
 emlak.mitula.com.tr###bannerEmailLeftContainer
 ||emlak.mitula.com.tr/jsp/include/banners/bannerEmail
@@ -36423,6 +36423,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 temu.com#?#div[role="main"] div[style] > div[style]:has(> div[style] div[js-selector="mobile-download-ui"])
 !
+youla.ru##+js(set-cookie, youla_fullscreenbanner, disabled)
 aliexpress.com###mobile-download
 japantravel.navitime.com###appli-japan-travel
 japantravel.navitime.com##.appli-japan-travel-banner
