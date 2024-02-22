@@ -1,9 +1,9 @@
-! Checksum: knIJgg8xAql/3i8Fzs1FvA
-! Diff-Path: ../patches/112_optimized/112_optimized-s-1708592836-14400.patch
+! Checksum: TNN0BKTeicyV5f5oWhTVtw
+! Diff-Path: ../patches/112_optimized/112_optimized-s-1708607188-14400.patch
 ! Title: Liste AR (Optimized)
 ! Description: Additional filter list for websites in Arabic.
-! Version: 2.1.44.28
-! TimeUpdated: 2024-02-22T09:02:15+00:00
+! Version: 2.1.44.29
+! TimeUpdated: 2024-02-22T13:02:05+00:00
 ! Expires: 5 days (update frequency)
 %20728x90%20
 &ad_size=
@@ -565,6 +565,7 @@ $stylesheet,third-party,domain=arteenz.com|brstej.com|egydead.live
 ||bayt.com/widgets/get_jobs_widget?
 ||beeieg.com/bums//js.php?
 ||bistscript.ir/banner/
+||bit.ly^$domain=amni8.com
 ||bothemes.com^*/popup.js
 ||campaign-uploads.s3.amazonaws.com^
 ||casasky.com/bannerslider/

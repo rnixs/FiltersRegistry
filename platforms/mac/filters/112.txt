@@ -1,15 +1,15 @@
-! Checksum: OcgEXfFZMQR90hXYL0Zdfg
-! Diff-Path: ../patches/112/112-s-1708592888-14400.patch
+! Checksum: FFGt3zwGGDNHfC3QGATpew
+! Diff-Path: ../patches/112/112-s-1708607237-14400.patch
 ! Title: Liste AR
 ! Description: Additional filter list for websites in Arabic.
-! Version: 2.1.44.28
-! TimeUpdated: 2024-02-22T09:02:15+00:00
+! Version: 2.1.44.29
+! TimeUpdated: 2024-02-22T13:02:05+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: wu07IP0SUgU0SaOK+lbJ+w
-! OriginalVersion: 202402220850
+! Checksum: TUsi1s4Ruvoxfzufg6qsXQ
+! OriginalVersion: 202402221251
 ! Title: Liste AR
-! Last modified: 22 Feb 2024 08:50 UTC
+! Last modified: 22 Feb 2024 12:51 UTC
 ! Expires: 1 days (fréquence des mises à jour automatiques)
 ! Homepage: https://code.google.com/p/liste-ar-adblock/
 !
@@ -608,6 +608,7 @@ $stylesheet,third-party,domain=arteenz.com|brstej.com|egydead.live
 ||bayt.com/widgets/get_jobs_widget?
 ||beeieg.com/bums//js.php?
 ||bistscript.ir/banner/
+||bit.ly^$domain=amni8.com
 ||bothemes.com^*/popup.js
 ||campaign-uploads.s3.amazonaws.com^
 ||casasky.com/bannerslider/

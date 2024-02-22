@@ -1,15 +1,15 @@
-! Checksum: benNEZtu5KHphjpRQecjbg
-! Diff-Path: ../patches/122/122-s-1708592848-14400.patch
+! Checksum: 4nMhDRQarjMXV6Up08wFsQ
+! Diff-Path: ../patches/122/122-s-1708607199-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.56
-! TimeUpdated: 2024-02-22T09:02:36+00:00
+! Version: 2.1.21.57
+! TimeUpdated: 2024-02-22T13:02:25+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: w1yD2IWbLuyeGIqTX9tDnw
-! OriginalVersion: 202402220740
+! Checksum: 8HYKYESZib7/V2H6zdoKeg
+! OriginalVersion: 202402221215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-22 07:40 UTC
+! Last modified: 2024-02-22 12:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -41246,7 +41246,7 @@ argyle.com,artma-zaproszenia.pl,avif.io,lahella.fi,olecams.com,videochaterotico.
 !! .bottom-6
 boostroyal.nl,wimotic.fr##.bottom-6
 !! .bottom-5
-cinobo.com,jdslabs.com,lukso.network,platform.stability.ai,simtex.io,skyline-emu.one,vloot.io##.bottom-5
+cinobo.com,jdslabs.com,lukso.network,mymarket.ge,platform.stability.ai,simtex.io,skyline-emu.one,vloot.io##.bottom-5
 !! .bottom-8
 ai-coustics.com,dr-anns.com,lightyear.one,vecer.com##.bottom-8
 !! .bottom-4
@@ -42548,6 +42548,8 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 businessclass.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bcCookieAccepted', 'true')
 schneidewind-immobilien.de#%#//scriptlet('ubo-set-local-storage-item.js', 'pcClosedOnce', 'true')
+cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasConsent', '1')
+cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasDsg', '1')
 astondevs.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'banner', 'true')
 comnet.com.tr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieConsent', 'true')
 geomiq.com#%#//scriptlet('ubo-set-local-storage-item.js', 'gtag_enabled', '1')
@@ -44547,6 +44549,10 @@ prague-catering.cz#$#body,html { overflow: auto !important; position: initial !i
 ! acara.cz
 acara.cz##.bs-dialog-overlay
 acara.cz#$#body,html { overflow: auto !important; position: initial !important; }
+! larca.de
+larca.de###wsConsentLayer
+larca.de##.modal-backdrop
+larca.de#$#body,html { overflow: auto !important; position: initial !important; }
 ! 220.lv
 220.lv,pigu.lt,kaup24.ee,hansapost.ee,hobbyhall.fi##.c-modal-container--cookies
 220.lv,pigu.lt,kaup24.ee,hansapost.ee,hobbyhall.fi#$#body,html { overflow: auto !important; position: initial !important; }
@@ -49371,6 +49377,8 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 businessclass.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bcCookieAccepted', 'true')
 schneidewind-immobilien.de#%#//scriptlet('ubo-set-local-storage-item.js', 'pcClosedOnce', 'true')
+cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasConsent', '1')
+cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasDsg', '1')
 astondevs.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'banner', 'true')
 comnet.com.tr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieConsent', 'true')
 geomiq.com#%#//scriptlet('ubo-set-local-storage-item.js', 'gtag_enabled', '1')
@@ -51370,6 +51378,10 @@ prague-catering.cz#$#body,html { overflow: auto !important; position: initial !i
 ! acara.cz
 acara.cz##.bs-dialog-overlay
 acara.cz#$#body,html { overflow: auto !important; position: initial !important; }
+! larca.de
+larca.de###wsConsentLayer
+larca.de##.modal-backdrop
+larca.de#$#body,html { overflow: auto !important; position: initial !important; }
 ! 220.lv
 220.lv,pigu.lt,kaup24.ee,hansapost.ee,hobbyhall.fi##.c-modal-container--cookies
 220.lv,pigu.lt,kaup24.ee,hansapost.ee,hobbyhall.fi#$#body,html { overflow: auto !important; position: initial !important; }
@@ -57856,6 +57868,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||playoverwatch.com/static/externals/cookie-consent-filter-compat.js
 @@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|fdm-travel.dk|jysk.nl|power.no|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
+@@||portal-frontend.plarium.com/client/cookiesbanner.js$script,~third-party
 @@||portal.aae.at^*/cookieconsent.js$script,~third-party
 @@||portal.energie-graz.at/kundenportal/css/cookieconsent/$~third-party
 @@||portal.energie-graz.at/kundenportal/js/lib/cookieconsent.js$~third-party
