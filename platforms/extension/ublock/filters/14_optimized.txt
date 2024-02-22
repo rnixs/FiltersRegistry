@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TmddpRLO0UmDhQUt6rj6lQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1708623415-3600.patch
+! Checksum: FbvnwUjSyMWdjgCqv462Jw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1708644991-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.88.74
-! TimeUpdated: 2024-02-22T17:32:13+00:00
+! Version: 2.1.88.75
+! TimeUpdated: 2024-02-22T23:32:03+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -21465,7 +21465,6 @@ garutpos.com##+js(nano-setInterval-booster, timePassed, , 0.02)
 fmmods.com##+js(abort-current-script, document.createElement, counter.toString)
 listas.pro##+js(nano-setInterval-booster, counter, *, 0.02)
 kinemaster.cc##+js(adjust-setTimeout, /_0x|gotoo/, *, 0.02)
-userload.co##+js(nano-setInterval-booster, secondsleft, *, 0.02)
 dizimini.com##+js(nano-setInterval-booster, countdown, , 0.02)
 mobileprice.site,bestmobilenew.com##+js(nano-setInterval-booster, #mdtimer, , 0.02)
 gaminplay.com##+js(nano-setInterval-booster, yuidea-, *, 0.02)
