@@ -1,9 +1,9 @@
-! Checksum: 1gummngNUxTrnuiWINbYmA
-! Diff-Path: ../patches/18/18-s-1708612577-3600.patch
+! Checksum: 8ZtpehrzwdEikhlxlEhIKA
+! Diff-Path: ../patches/18/18-s-1708616181-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.31
-! TimeUpdated: 2024-02-22T14:32:16+00:00
+! Version: 2.0.34.32
+! TimeUpdated: 2024-02-22T15:32:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2331,6 +2331,7 @@ multiplayer.it,tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+geeksforgeeks.org##.gfg_cookie__container
 ||sauto.cz/*/cmp?zoneId=
 authentikcanada.com##.cookies-acceptation-banner
 vod.warszawa.pl#$#.app-cookie__modal { display: none !important; }

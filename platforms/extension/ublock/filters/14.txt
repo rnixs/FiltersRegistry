@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: dA6PZeil/Fp4y8TnmP3IEg
-! Diff-Path: ../patches/14/14-s-1708612609-3600.patch
+! Checksum: Hi0j7BXtYLFkT/ulfjpH5Q
+! Diff-Path: ../patches/14/14-s-1708616211-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.88.71
-! TimeUpdated: 2024-02-22T14:32:06+00:00
+! Version: 2.1.88.72
+! TimeUpdated: 2024-02-22T15:32:13+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2340,6 +2340,7 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 ! NOTE: Regular rules
 !
+geeksforgeeks.org##.gfg_cookie__container
 afreesms.com##+js(set-cookie, cookie, accepted)
 virustotal.com##+js(set-cookie, euConsent, 1)
 simyo.nl##+js(set-cookie, acceptCookies, 1)
@@ -21860,6 +21861,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+wkyc.com,wzzm13.com##dialog[data-name="exitInterstitial"]
 democracynow.org##+js(set-cookie, campaign_seen_today, true)
 kare11.com,13newsnow.com,12news.com#$?#div[data-module="grid"] > dialog[data-name="exitInterstitial"] { remove: true; }
 authentikcanada.com##+js(set-cookie, Klaviyo-Popup, true)
@@ -29846,6 +29848,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+democracynow.org##.home_daily_digest
 postium.ru##.hype-ad:has(> noindex > a[href="https://t.me/postiumru/"])
 diritto.it##.block-salesmanago-form:has(img[id^="closeBtnNewsletter"])
 emlak.mitula.com.tr###bannerEmailLeftContainer
