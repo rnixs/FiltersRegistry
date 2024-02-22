@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: lPqLzitrF/UcVTd34olq/w
-! Diff-Path: ../patches/251_optimized/251_optimized-s-1708261614-14400.patch
+! Checksum: ogkzKC6uXTudsBJx5cZwNA
+! Diff-Path: ../patches/251_optimized/251_optimized-s-1708564016-14400.patch
 ! Title: Legitimate URL Shortener (Optimized)
 ! Description: Automatically removes unnecessary '$' and '&' values from URLs, making them easier to copy from the URL bar and pasting elsewhere as links.
-! Version: 2.0.7.49
-! TimeUpdated: 2024-02-18T13:03:13+00:00
+! Version: 2.0.7.50
+! TimeUpdated: 2024-02-22T01:03:19+00:00
 ! Expires: 5 days (update frequency)
 $removeparam=yclid
 $removeparam=gclid
@@ -2557,6 +2557,7 @@ $document,removeparam=vsm_pid
 ||carousell.$removeparam=t-referrer_source
 ||carousell.$removeparam=t-source
 ||carousell.$removeparam=t-tap_index
+$document,removeparam=pk_cid
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu

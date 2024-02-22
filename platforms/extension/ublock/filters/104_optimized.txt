@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Z0VXZPnGoBJ93T4U1cqzpA
-! Diff-Path: ../patches/104_optimized/104_optimized-s-1708535221-14400.patch
+! Checksum: d8z39NVRTaY+M/f9VcLNnw
+! Diff-Path: ../patches/104_optimized/104_optimized-s-1708564012-14400.patch
 ! Title: EasyList China (Optimized)
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.35.49
-! TimeUpdated: 2024-02-21T17:01:54+00:00
+! Version: 2.1.35.50
+! TimeUpdated: 2024-02-22T01:01:48+00:00
 ! Expires: 5 days (update frequency)
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
@@ -766,7 +766,7 @@ newduba.cn###jq_youxi
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
-##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
+##body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##div#ad_id
@@ -909,6 +909,12 @@ newduba.cn###jq_youxi
 ||yvudqzoa.xyz^
 ||yyddkm526.shop^
 ||ztxjutz.xyz^
+||misjgy.xyz^
+||wkywrc.cn^
+||rarcff.xyz^
+||phvfevk.xyz^
+||rydyvv.xyz^
+||zopuqv.icu^
 ##a[href*=".cgn8j9f4j3g.com:"]
 ##a[href*=".erodatalabs.com/"]
 ##a[href*=".hyenadata.com/"]
@@ -7304,7 +7310,6 @@ newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
 chineseinla.com##.deal_discount
 8ziyuan.com##.deanadsside
-pc.qq.com##.detail-install-fast
 100ec.cn##.detail_top_ad
 xiadele.com##.details-small-carousel
 yicai.com##.dfb-ad

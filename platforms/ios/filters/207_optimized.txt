@@ -1,9 +1,9 @@
-! Checksum: /e52uOmqd0nr1xNOtWUXSA
-! Diff-Path: ../patches/207_optimized/207_optimized-s-1708549638-14400.patch
+! Checksum: WU9xnJlb6490g49DdT/riw
+! Diff-Path: ../patches/207_optimized/207_optimized-s-1708564019-14400.patch
 ! Title: Adblock Warning Removal List (Optimized)
 ! Description: Removes anti-adblock warnings and other obtrusive messages.
-! Version: 2.1.44.25
-! TimeUpdated: 2024-02-21T21:02:33+00:00
+! Version: 2.1.44.26
+! TimeUpdated: 2024-02-22T01:02:22+00:00
 ! Expires: 5 days (update frequency)
 /adb-watch.
 /adb_script/*
@@ -36,6 +36,7 @@ azrotv.com##div[id^="laoad_Adb"]
 shahid4u.club#@#.adsBox
 @@||ency-educ.com^$generichide
 @@||shahid.mbc.net^$generichide
+@@||yacine-app.com^$generichide
 bouweenpc.nl###header-banner
 rtlxl.nl##.adblock
 spele.nl##.adblocker
