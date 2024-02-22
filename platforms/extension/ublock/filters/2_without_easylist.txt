@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: IfJ0JBd4ofNRTt8/5q3gbA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708594605-3600.patch
+! Checksum: HFCJug0M1XMLfs62k5vMFA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708598234-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.23.53
-! TimeUpdated: 2024-02-22T09:33:03+00:00
+! Version: 2.3.23.54
+! TimeUpdated: 2024-02-22T10:33:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6877,10 +6877,10 @@ slate.com#@#.ad
 slate.com#@#.ad01
 !
 ! @@/libs/advertisement.js popular antiadblock on crypto faucet websites
-@@/libs/advertisement.js$domain=xfaucet.net|getfreebit.xyz|amber-dash.cf|getfree.co.in|starbits.io|shahinshort.tk|bagi.co.in|grandfaucet.net|harena.space|myethereumfaucet.com|konstantinova.net|gajiancoin.online|starfaucet.net|bitearns.com|cryptofreebies.info|trivisna.com|nosl.juezcoin.xyz|earn-cryptolive.000webhostapp.com|momofree.website|dogeatm.com|aztecafaucet.space|multifaucet.org|dogestar.website|claimbits.io|i-bits.io|diamondfaucet.space|gobits.io|russiacoin.xyz|starsfaucet.com|lionltcfaucet.xyz|faucet.shorterall.com|yellowfaucet.ovh|faucet.cryptourl.net|simplyfaucet.xyz|faucet-doge.u7u.pl|up-cripto.com|highearn.xyz
+@@/libs/advertisement.js$domain=xfaucet.net|getfreebit.xyz|amber-dash.cf|getfree.co.in|starbits.io|shahinshort.tk|bagi.co.in|grandfaucet.net|harena.space|myethereumfaucet.com|konstantinova.net|gajiancoin.online|starfaucet.net|bitearns.com|cryptofreebies.info|trivisna.com|nosl.juezcoin.xyz|earn-cryptolive.000webhostapp.com|momofree.website|dogeatm.com|aztecafaucet.space|multifaucet.org|dogestar.website|claimbits.io|i-bits.io|diamondfaucet.space|gobits.io|russiacoin.xyz|starsfaucet.com|lionltcfaucet.xyz|faucet.shorterall.com|yellowfaucet.ovh|faucet.cryptourl.net|simplyfaucet.xyz|faucet-doge.u7u.pl|up-cripto.com|highearn.xyz|tv3.lv
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76212
-bangordailynews.com,hnonline.sk,vijesti.me##+js(abort-on-property-read, setNptTechAdblockerCookie)
+tv3.lv,bangordailynews.com,hnonline.sk,vijesti.me##+js(abort-on-property-read, setNptTechAdblockerCookie)
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120388
 ! ##.wgAdBlockMessage
@@ -32330,6 +32330,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+igg-games.com##.post > a > img
 xozilla.xxx###scrollhere
 terabox.com##.shadow
 northantstelegraph.co.uk##div[class^="Dailymotion__Wrapper-"]

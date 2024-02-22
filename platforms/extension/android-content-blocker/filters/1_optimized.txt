@@ -1,9 +1,9 @@
-! Checksum: VWw631/2Hvm8L96EHkNzIg
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1708587377-3600.patch
+! Checksum: XXyH5+9UbgsrMzljUOF4gw
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1708598197-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.72
-! TimeUpdated: 2024-02-22T07:32:25+00:00
+! Version: 2.0.88.73
+! TimeUpdated: 2024-02-22T10:32:48+00:00
 ! Expires: 5 days (update frequency)
 /load-xml/?id=*&roll=$xmlhttprequest
 .com/services/?id=$script,third-party
