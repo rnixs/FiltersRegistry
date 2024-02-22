@@ -1,9 +1,9 @@
-! Checksum: Kb3c4F7lCeb7YrT04KOflQ
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1708529881-3600.patch
+! Checksum: OqAGBIs/RZcAQS3XBOZTFw
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1708576584-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.83
-! TimeUpdated: 2024-02-21T15:34:53+00:00
+! Version: 2.0.48.84
+! TimeUpdated: 2024-02-22T04:33:36+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -496,13 +496,17 @@ rocketnews24.com,youpouch.com#%#//scriptlet('remove-attr', 'id', '#div-gpt-ad-re
 blog-and-destroy.com###no-ads-msg
 blog-and-destroy.com##.affiliate-card
 blog-and-destroy.com#%#//scriptlet("abort-current-inline-script", "onload", "adsCount")
+||fc2.com/g/a/m/gamemod/z-$script,domain=gamemod.blog.fc2.com
+||fc2.com/g/a/m/gamemod/min-toc.js$domain=gamemod.blog.fc2.com
+||fc2.com/g/a/m/gamemod/min-twitter.js$domain=gamemod.blog.fc2.com
 ||fc2.com/h/e/l/helpsupport/x-$script,domain=helpsupport.blog.fc2.com
-||fc2.com/h/e/l/helpsupport/min-toc.js$script,domain=helpsupport.blog.fc2.com
-||fc2.com/h/e/l/helpsupport/min-twitter.js$script,domain=helpsupport.blog.fc2.com
-helpsupport.blog.fc2.com###load:empty
-helpsupport.blog.fc2.com#@#.AdContainer
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=helpsupport.blog.fc2.com,important
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=helpsupport.blog.fc2.com
+||fc2.com/h/e/l/helpsupport/min-toc.js$domain=helpsupport.blog.fc2.com
+||fc2.com/h/e/l/helpsupport/min-twitter.js$domain=helpsupport.blog.fc2.com
+gamemod.blog.fc2.com,helpsupport.blog.fc2.com###load:empty
+gamemod.blog.fc2.com,helpsupport.blog.fc2.com#@#.AdContainer
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=helpsupport.blog.fc2.com|gamemod.blog.fc2.com,important
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=helpsupport.blog.fc2.com|gamemod.blog.fc2.com
+@@||gamemod.blog.fc2.com^$generichide
 @@||helpsupport.blog.fc2.com^$generichide
 kledgeb.blogspot.com#$#body > div[style="visibility: hidden;"] { visibility: visible !important; }
 kledgeb.blogspot.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "_0x")
@@ -2517,9 +2521,6 @@ city.mitaka.lg.jp###BannerArea
 sweetchocolate.blogterest.net##.blockAreaHeader
 ||townnews.co.jp/entry_ad.json
 ||koko-soccer.com/assets/img/base/side_title_contents.jpg
-||bignox.com/moniqi-blog/$image,domain=wikiru.jp
-wikiru.jp##.menubar > a[target="_blank"] > img
-wikiru.jp##.menubar > a[target="_blank"] + br
 fu.minkabu.jp##div[class^="ad_hide"]
 adult-gazou.me,dougle.one,oppai-paipai.com##.head-pick
 ||oppai-paipai.com/out-link/
@@ -6640,7 +6641,6 @@ soco-st.com,mangahack.com##.ad_01
 mangahack.com##.ad_affiliate
 mangahack.com##.ad_affiliate_common_footer
 mangahack.com##.nbrArea
-comic-walker.com###right_top_banner
 mangaz.com###scroll-adv
 mangaz.com##.amazonLinkMod
 playlearnlife.com##.theiaStickySidebar > .widget_text
