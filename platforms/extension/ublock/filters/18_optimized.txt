@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /NcnokZb8UmqVDKG6Yn8Ww
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1708616212-3600.patch
+! Checksum: S553TnfXGTNhF9pvS1MVZg
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1708619805-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.32
-! TimeUpdated: 2024-02-22T15:32:24+00:00
+! Version: 2.0.34.33
+! TimeUpdated: 2024-02-22T16:32:22+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -815,6 +815,7 @@
 !#######################################################
 !######### General URL blocking rules ##################
 !#######################################################
+||cm.nxtm.pl^$third-party
 ||ccdn.mobildev.in^
 /jquery.bs.gdpr.cookies.js
 ||cookieparty.eu^$third-party
@@ -1094,7 +1095,7 @@ _europecookielaw.
 ||nebulousgarden.com^$third-party
 ||nebulacrescent.com^$third-party
 ||possiblepencil.com^$third-party
-||eu.usercentrics.eu^$third-party
+.usercentrics.eu^$third-party
 ||cdn.consentmanager.mgr.consensu.org^$third-party
 ||quantcast.mgr.consensu.org^$third-party
 !#######################################################
