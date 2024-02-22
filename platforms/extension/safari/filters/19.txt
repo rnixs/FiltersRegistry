@@ -1,9 +1,9 @@
-! Checksum: tJQ2SN0HzWWeT3hiNJeH5Q
-! Diff-Path: ../patches/19/19-s-1708619800-3600.patch
+! Checksum: 687Ycul6oJ3Nwk6JeHjK0A
+! Diff-Path: ../patches/19/19-s-1708623410-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.17
-! TimeUpdated: 2024-02-22T16:32:25+00:00
+! Version: 2.0.32.18
+! TimeUpdated: 2024-02-22T17:32:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4382,6 +4382,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+fox4kc.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'firstLoad')
 geeksforgeeks.org#%#//scriptlet('trusted-set-local-storage-item', 'problemPageShowOnboardingPopup', 'true')
 wkyc.com,wzzm13.com##dialog[data-name="exitInterstitial"]
 democracynow.org#%#//scriptlet('set-cookie', 'campaign_seen_today', 'true')
