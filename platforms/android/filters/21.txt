@@ -1,9 +1,9 @@
-! Checksum: 8hbERpgrzi4jfRWsl8vtuw
-! Diff-Path: ../patches/21/21-s-1708601828-3600.patch
+! Checksum: JBJiDyNxb+XNLh0hOk4J2Q
+! Diff-Path: ../patches/21/21-s-1708612574-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.20.1
-! TimeUpdated: 2024-02-22T11:33:22+00:00
+! Version: 2.0.20.2
+! TimeUpdated: 2024-02-22T14:32:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5045,6 +5045,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+hepper.com##body div.opportunity-container.active
 book.dmm.com##div[class^="css-"] > div[class^="css-"]:has(> div[class^="css-"] > a[class^="css-"] >img[src*="p.book.dmm.com/images/banner/banner_dmm_"])
 book.dmm.com##div > div[class^="css-"]:has(> a[class^="css-"] >img[src*="p.book.dmm.com/images/banner/banner_dmm_"])
 deezer.com###tbcc_offer_btn
