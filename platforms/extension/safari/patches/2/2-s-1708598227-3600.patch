@@ -1,0 +1,75 @@
+d1 2
+a2 2
+! Checksum: kVzVIox6qyRV+JgS8JLHtQ
+! Diff-Path: ../patches/2/2-s-1708601864-3600.patch
+d5 2
+a6 2
+! Version: 2.3.23.55
+! TimeUpdated: 2024-02-22T11:33:54+00:00
+d89 1
+a17643 4
+! https://github.com/AdguardTeam/AdguardFilters/issues/173320
+! sssp
+sauto.cz#%#//scriptlet('json-prune', 'ads', 'requestId')
+sauto.cz##div[class^="c-ssp-"]
+a20456 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/173302
+fanpage.it##.box-news-banner
+fanpage.it##div[class^="taboola-widget-"]
+a33696 1
+||vidhidevip.com/assets/jquery/api100.js
+d37484 1
+a51047 2
+||camstreams.tv/player/html.php?aid=*_html&video_id=*&*&referer
+!+ NOT_OPTIMIZED
+a51995 2
+! https://github.com/AdguardTeam/AdguardFilters/issues/173314
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=metrolagu.cam
+d55892 2
+a85135 1
+||alpine-vpn.com^
+a90143 1
+||cr00.biz^
+a91275 1
+||diingsinspiri.com^
+a92213 1
+||e6wwd.top^
+a97880 1
+||imcod.net^
+a97889 1
+||imgsdn.com^
+a101810 1
+||mbvlmx.com^
+a103117 1
+||nauwheer.net^
+a103504 1
+||nindsstudio.com^
+a104559 1
+||onasider.top^
+a107500 1
+||push1000.com^
+a107534 1
+||pushflow.net^
+a109151 1
+||rollads.live^
+a113573 1
+||trpool.org^
+a114909 1
+||viatechonline.com^
+a116064 1
+||wildestduplicate.com^
+a117743 2
+||nauwheer.net^$document
+||nxtpsh.com^$document
+a119497 1
+||alpine-vpn.com^$popup
+a121379 1
+||nindsstudio.com^$popup
+a121682 1
+||pk910324e.com^$popup
+a122018 1
+||rollads.live^$popup
+a122627 1
+||trpool.org^$popup
+a122776 1
+||viatechonline.com^$popup
