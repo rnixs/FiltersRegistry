@@ -1,9 +1,9 @@
-! Checksum: 7a7hrnAx4Xv/qpAs/7Jmng
-! Diff-Path: ../patches/236_optimized/236_optimized-s-1707944801-14400.patch
+! Checksum: FF36n8fhegBhrn+yINuvVg
+! Diff-Path: ../patches/236_optimized/236_optimized-s-1708636030-14400.patch
 ! Title: road-block light (Optimized)
 ! Description: Romanian ad blocking filter subscription.
-! Version: 2.0.2.45
-! TimeUpdated: 2024-02-14T21:02:49+00:00
+! Version: 2.0.2.46
+! TimeUpdated: 2024-02-22T21:03:22+00:00
 ! Expires: 10 days (update frequency)
 /plugins/footer-pop-up-banner/*
 /Reclama/*
@@ -1283,6 +1283,8 @@ clubmercedes.ro##.axd
 ||clubmercedes.ro/*.gif$image
 ||hostclub.ro^$subdocument,domain=forum.b-zone.ro
 forum.b-zone.ro##.ipsPad.ipsWidget_inner:has([src*="://www.hostclub.ro"])
+||atacdeconstanta.com/*banner-$image
+||atacdeconstanta.com/*VIVO*.gif$image
 turdanews.net#%#//scriptlet('ubo-nostif.js', 'ai_')
 nosteam.ro,nosteamgames.ro#%#//scriptlet('ubo-nowoif.js')
 competentedigitale.ro#%#//scriptlet('ubo-acis.js', 'Math.floor', 'offsetHeight')

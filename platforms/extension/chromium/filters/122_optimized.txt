@@ -1,9 +1,9 @@
-! Checksum: e7w/B3NGrgyVpEQnMJgVhA
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1708621598-14400.patch
+! Checksum: qem3dSn216Fx7/Tpxxqpbg
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1708636019-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.58
-! TimeUpdated: 2024-02-22T17:02:27+00:00
+! Version: 2.1.21.59
+! TimeUpdated: 2024-02-22T21:02:43+00:00
 ! Expires: 10 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -13314,7 +13314,6 @@ kramp.com###cookiewall-modal
 atos.net,dsm.com,tesco.ie,unify.com###cp
 wsj.com###cx-notification
 ibm.com###dbdm--message
-fimfiction.net###dimmers
 owasp.org###disclaimer-container
 newser.com###divCM
 drupal.org###drupalorg-crosssite-gdpr
@@ -14159,6 +14158,7 @@ werkenbijkruidvat.nl#%#//scriptlet('ubo-rc.js', 'is-active-cookiebar', 'body', '
 ghacks.net#%#//scriptlet('ubo-rc.js', 'didomi-popup-open', 'body')
 cutoff.es,whyopencomputing.com#%#//scriptlet('ubo-rc.js', 'idxrcookies-block-user-nav', 'body', 'stay')
 mbanc.com#%#//scriptlet('ubo-rc.js', 'ccpa-banner', '', 'stay')
+fimfiction.net#%#//scriptlet('ubo-set.js', 'config.requireCookieConsent', 'false')
 greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 'taunton_user_consent_submitted', 'true')
 greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 'taunton_user_consent_advertising', 'false')
 greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 'taunton_user_consent_analytics', 'false')
@@ -14948,6 +14948,7 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 businessclass.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bcCookieAccepted', 'true')
 schneidewind-immobilien.de#%#//scriptlet('ubo-set-local-storage-item.js', 'pcClosedOnce', 'true')
+simpleswap.io#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies-notification-message-is-hidden', 'true')
 cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasConsent', '1')
 cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasDsg', '1')
 astondevs.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'banner', 'true')
@@ -17387,6 +17388,7 @@ werkenbijkruidvat.nl#%#//scriptlet('ubo-rc.js', 'is-active-cookiebar', 'body', '
 ghacks.net#%#//scriptlet('ubo-rc.js', 'didomi-popup-open', 'body')
 cutoff.es,whyopencomputing.com#%#//scriptlet('ubo-rc.js', 'idxrcookies-block-user-nav', 'body', 'stay')
 mbanc.com#%#//scriptlet('ubo-rc.js', 'ccpa-banner', '', 'stay')
+fimfiction.net#%#//scriptlet('ubo-set.js', 'config.requireCookieConsent', 'false')
 greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 'taunton_user_consent_submitted', 'true')
 greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 'taunton_user_consent_advertising', 'false')
 greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 'taunton_user_consent_analytics', 'false')
@@ -18176,6 +18178,7 @@ omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-see
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-social', 'true')
 businessclass.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bcCookieAccepted', 'true')
 schneidewind-immobilien.de#%#//scriptlet('ubo-set-local-storage-item.js', 'pcClosedOnce', 'true')
+simpleswap.io#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies-notification-message-is-hidden', 'true')
 cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasConsent', '1')
 cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasDsg', '1')
 astondevs.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'banner', 'true')

@@ -1,9 +1,9 @@
-! Checksum: cxCxls1hZgynr8GmBIiFxg
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1708621614-14400.patch
+! Checksum: h0glx9FSdjOXKI6dpgm3Jw
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1708636032-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.32
-! TimeUpdated: 2024-02-22T17:01:53+00:00
+! Version: 2.1.21.33
+! TimeUpdated: 2024-02-22T21:02:11+00:00
 ! Expires: 10 days (update frequency)
 &sadbl=1&abtg=1
 -ad-300x600-
@@ -7645,11 +7645,13 @@ _800x80_
 ##.mj-floating-ad-wrapper
 ##.mks_ads_widget
 ##.ml-advert
+##.mm-ads-adhesive-ad
 ##.mm-ads-gpt-adunit
 ##.mm-ads-leaderboard-header
 ##.mm-banner970-ad
 ##.mmads
 ##.mntl-gpt-adunit
+##.mntl-sc-block-adslot
 ##.mob-ad-break-text
 ##.mob_ads
 ##.mobads
@@ -9783,6 +9785,7 @@ browsershots.org#@#.advert_area
 ||59e5e13578.com^
 ||5a6c114183.com^
 ||5b10f288ee.com^
+||5b98503e1b.com^
 ||5btekl14.de^
 ||5c577fc74618431b.com^
 ||5cbbdb4434.com^
@@ -12843,6 +12846,7 @@ browsershots.org#@#.advert_area
 ||cheeringashtrayherb.com^
 ||cheeroredraw.com^
 ||cheesydebatablepantomime.com^
+||cheesythirtycloth.com^
 ||cheetieaha.com^
 ||chefishoani.com^
 ||cheksoam.com^
@@ -19558,6 +19562,7 @@ browsershots.org#@#.advert_area
 ||lixuhwuwychupbd.com^
 ||lizebruisiaculi.info^
 ||lizziefullrounded.com^
+||ljbwzlmzlzbkm.top^
 ||ljcsrrrhvu.com^
 ||ljdlgunextreyk.xyz^
 ||ljfncdojjuorjxu.com^
@@ -29465,6 +29470,7 @@ browsershots.org#@#.advert_area
 ||extractionatticpillowcase.com^$popup
 ||fardasub.xyz^$popup
 ||felingual.com^$popup
+||feuageepitoke.com^$popup
 ||flimmerscabish.com^$popup
 ||forooqso.tv^$popup
 ||friendshipconcerning.com^$popup
@@ -29535,6 +29541,7 @@ browsershots.org#@#.advert_area
 ||lataniaembosks.com^$popup
 ||linkboss.shop^$popup
 ||linkonclick.com^$popup
+||ljbwzlmzlzbkm.top^$popup
 ||llalo.click^$popup
 ||lostdormitory.com^$popup
 ||lwonclbench.com^$popup
@@ -29853,6 +29860,7 @@ browsershots.org#@#.advert_area
 ||1934671980.rsc.cdn77.org^
 ||1948576968.rsc.cdn77.org^
 ||1969321160.rsc.cdn77.org^
+||1993311980.rsc.cdn77.org^
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
 ||a-delivery.rmbl.ws^
@@ -31864,7 +31872,7 @@ home-designing.com,inc.com,trustpilot.com##.ad-block
 fangoria.com##.ad-block__container
 imsa.com##.ad-close-container
 npr.org##.ad-config
-12news.com,9news.com,9to5google.com,9to5mac.com,aad.org,advfn.com,all3dp.com,allaboutcookies.org,allnovel.net,athleticbusiness.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,cbs8.com,cc.com,ccjdigital.com,computerworld.com,dailytrust.com,delish.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,equipmentworld.com,etcanada.com,footyheadlines.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,globalspec.com,gmanetwork.com,grammarbook.com,hbr.org,howstuffworks.com,huffpost.com,insidehook.com,insider.com,intouchweekly.com,khou.com,koat.com,ktvu.com,lifeandstylemag.com,macstories.net,mail.com,mangakakalot.app,memuplay.com,metro.us,metrophiladelphia.com,miningweekly.com,mixed-news.com,mobilesyrup.com,modernhealthcare.com,msnbc.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,papermag.com,physiology.org,pixiv.net,punchng.com,realsport101.com,reason.com,refinery29.com,roadandtrack.com,scroll.in,seattletimes.com,songkick.com,sportskeeda.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,themarketherald.ca,tmz.com,toofab.com,uploadvr.com,usmagazine.com,vanguardngr.com,wogx.com,wral.com##.ad-container
+12news.com,9news.com,9to5google.com,9to5mac.com,aad.org,advfn.com,all3dp.com,allaboutcookies.org,allnovel.net,athleticbusiness.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,cbs8.com,cc.com,ccjdigital.com,computerworld.com,dailytrust.com,delish.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,equipmentworld.com,etcanada.com,footyheadlines.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,globalspec.com,gmanetwork.com,grammarbook.com,hbr.org,howstuffworks.com,huffpost.com,insidehook.com,insider.com,intouchweekly.com,khou.com,koat.com,ktvu.com,lifeandstylemag.com,macstories.net,mail.com,mangakakalot.app,memuplay.com,metro.us,metrophiladelphia.com,miningweekly.com,mixed-news.com,mobilesyrup.com,modernhealthcare.com,msnbc.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,papermag.com,physiology.org,pixiv.net,punchng.com,qns.com,realsport101.com,reason.com,refinery29.com,roadandtrack.com,scroll.in,seattletimes.com,songkick.com,sportskeeda.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,themarketherald.ca,tmz.com,toofab.com,uploadvr.com,usmagazine.com,vanguardngr.com,wogx.com,wral.com##.ad-container
 newthinking.com##.ad-container-mpu
 wheelofnames.com##.ad-declaration
 sciencealert.com##.ad-desktop\:block
