@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 5hAfLhXt7I5DfhOVQaPmwQ
-! Diff-Path: ../patches/18/18-s-1708680999-3600.patch
+! Checksum: 9YyViwlrRd7ZfJaejmeHsw
+! Diff-Path: ../patches/18/18-s-1708684598-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.37
-! TimeUpdated: 2024-02-23T09:32:20+00:00
+! Version: 2.0.34.38
+! TimeUpdated: 2024-02-23T10:32:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2341,6 +2341,8 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 ! NOTE: Regular rules
 !
+ubiklibri.it#$#html { overflow: auto !important; }
+ubiklibri.it#$##cookie-html { display: none !important; }
 obligacjeskarbowe.pl###cookieNotSet
 geeksforgeeks.org##.gfg_cookie__container
 afreesms.com##+js(set-cookie, cookie, accepted)
@@ -14278,6 +14280,11 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173395
+ubiklibri.it#@#.cookie-header
+ubiklibri.it#@#.cookie-container
+ubiklibri.it#@#.cookie-info:not(body):not(html)
+ubiklibri.it#@#.cookie-overlay:not(html):not(body)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173332
 @@||cdn-cookieyes.com^$domain=money.it
 money.it#@#.cky-consent-container

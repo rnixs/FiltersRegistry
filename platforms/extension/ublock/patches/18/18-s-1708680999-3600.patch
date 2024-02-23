@@ -1,0 +1,17 @@
+d2 2
+a3 2
+! Checksum: 9YyViwlrRd7ZfJaejmeHsw
+! Diff-Path: ../patches/18/18-s-1708684598-3600.patch
+d6 2
+a7 2
+! Version: 2.0.34.38
+! TimeUpdated: 2024-02-23T10:32:18+00:00
+a2343 2
+ubiklibri.it#$#html { overflow: auto !important; }
+ubiklibri.it#$##cookie-html { display: none !important; }
+a14280 5
+! https://github.com/AdguardTeam/AdguardFilters/issues/173395
+ubiklibri.it#@#.cookie-header
+ubiklibri.it#@#.cookie-container
+ubiklibri.it#@#.cookie-info:not(body):not(html)
+ubiklibri.it#@#.cookie-overlay:not(html):not(body)
