@@ -1,9 +1,9 @@
-! Checksum: M0I+S08yKtnLhFx4TUQNqA
-! Diff-Path: ../patches/3/3-s-1708699026-3600.patch
+! Checksum: yv+F+sQkYDTD1Zn9Lli3QA
+! Diff-Path: ../patches/3/3-s-1708702620-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.67.4
-! TimeUpdated: 2024-02-23T14:33:20+00:00
+! Version: 2.0.67.5
+! TimeUpdated: 2024-02-23T15:33:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -110775,6 +110775,8 @@ inapps.appsflyersdk.com^
 ! For platforms which do not support $redirect rules
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173368
+||openfpcdn.io/fingerprintjs/v$script,redirect=fingerprintjs3,domain=pdfextra.com
 ! fix videos
 @@||tru.am/scripts/custom/reuters.js$domain=reuters.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172693
