@@ -1,9 +1,9 @@
-! Checksum: IEtVOg0C7QlBKuRzHUT1Pg
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1708664787-14400.patch
+! Checksum: 51AkYQKJjGQY46tjiPW/+w
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1708679209-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.61
-! TimeUpdated: 2024-02-23T05:02:18+00:00
+! Version: 2.1.21.62
+! TimeUpdated: 2024-02-23T09:02:30+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -17465,7 +17465,7 @@ newpharma.be,newpharma.fr,newpharma.de,newpharma.at,newpharma.nl#%#//scriptlet('
 newpharma.be,newpharma.fr,newpharma.de,newpharma.at,newpharma.nl#%#//scriptlet('ubo-set-cookie.js', 'gdpr-consent-cookie-level3', '1')
 newpharma.be,newpharma.fr,newpharma.de,newpharma.at,newpharma.nl#%#//scriptlet('ubo-set-cookie.js', 'gdpr-consent-cookie-level2', '1')
 kapoorwatch.com#%#//scriptlet('ubo-set-cookie.js', 'ck-cp', 'accepted')
-paf.se#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', '1')
+instantoffices.com,paf.se#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', '1')
 azertyfactor.be#%#//scriptlet('ubo-set-cookie.js', 'consent-cookie', '1')
 zelezodum.cz#%#//scriptlet('ubo-set-cookie.js', 'show_gdpr_cookie_message_388801234_cz', 'no')
 thw.de,bafa.de,bka.de,bmbf.de#%#//scriptlet('ubo-set-cookie.js', 'gsbbanner', '0')
@@ -18768,7 +18768,8 @@ leasingverband.de#$#body,html { overflow: auto !important; position: initial !im
 nuc.edu#$#html { overflow: auto !important; position: initial !important; }
 arcane.no#$#body,html { overflow: auto !important; position: initial !important; }
 lifepointspanel.com#$#body { overflow: auto !important; position: initial !important; }
-happiesthealth.com#$#body,html { overflow: auto !important; position: initial !important; }
+tommedications.com,happiesthealth.com##.dialog-lightbox-widget
+tommedications.com,happiesthealth.com#$#body,html { overflow: auto !important; position: initial !important; }
 mibe.de#%#//scriptlet('ubo-rc.js', 'layerActive', '', 'stay')
 24helmets.co.uk,koliro.de,24helmets.de#$#body,html { overflow: auto !important; position: initial !important; }
 bemmaisseguro.com#%#//scriptlet('ubo-rc.js', 'blocked-body', 'body', 'stay')
@@ -19981,6 +19982,7 @@ latendresseencuisine.com##.mdc-snackbar
 rueducommerce.fr##.micromodal-slide.modal
 apf-francehandicap.org##.orejime-NoticeOverlay
 groupama.fr##.perfModal
+mon-espace.cise-reunion.re##.sds-m-cookiebanner
 solidaris-wallonie.be##app-pop-up-tracking
 francetravail.fr##pe-cookies
 gbzp.by###gdpr-accept-cookie
@@ -20013,6 +20015,7 @@ nejlevnejsi-barvy-laky.cz###Box1002
 cd.cz###c22overlay
 czc.cz###ccp-popup
 fler.cz###cookies-bar-bottom
+levnapc.cz###cookies-lp-banner
 zdopravy.cz###open_preferences_center
 ledko.cz###p_lt_WebPartZone13_ZoneMain_UserControl5_userControlElem_pnlCookies
 osu.cz###souhlas
