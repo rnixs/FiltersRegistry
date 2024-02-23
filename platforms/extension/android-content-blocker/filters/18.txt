@@ -1,9 +1,9 @@
-! Checksum: 3p3w8ba8Lw+2RdolghMCIQ
-! Diff-Path: ../patches/18/18-s-1708684569-3600.patch
+! Checksum: ZH8w5bjUm4uXkb6Zz+FSxQ
+! Diff-Path: ../patches/18/18-s-1708691791-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.38
-! TimeUpdated: 2024-02-23T10:32:18+00:00
+! Version: 2.0.34.39
+! TimeUpdated: 2024-02-23T12:32:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2332,6 +2332,7 @@ multiplayer.it,tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+euronet.pl##.eu-cookies-bar-cookies-bar-wrap
 ubiklibri.it#$#html { overflow: auto !important; }
 ubiklibri.it#$##cookie-html { display: none !important; }
 obligacjeskarbowe.pl###cookieNotSet
@@ -12043,7 +12044,7 @@ benzinpreis-aktuell.de###newcookie_x
 hachettefle.com###notice-cookie
 theverge.com###notice.p-notice
 money.cnn.com###notice_banner
-aptekasowa.pl,goldenup.pl,goldon.pl,tastestore.pl,aptekazawiszy.pl,aptekawsieci.pl,lek24.pl,euronetpolska.pl,goabroad.com###notice_bar
+mojwplatomat.pl,aptekasowa.pl,goldenup.pl,goldon.pl,tastestore.pl,aptekazawiszy.pl,aptekawsieci.pl,lek24.pl,euronetpolska.pl,goabroad.com###notice_bar
 lidl.at,lidl.be,lidl.hu,lidl.it,lidl.nl,lidl.pl###notification-allowCookies
 papergeek.fr###notification-bar-top
 infoconcert.com###notification-cookies

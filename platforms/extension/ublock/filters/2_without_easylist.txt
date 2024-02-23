@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: X/9eaXrbYAHX8ZhcvdQq9Q
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708688214-3600.patch
+! Checksum: Y1ZiBHLdxEMtBH0i8ZAaZw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708691824-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.23.72
-! TimeUpdated: 2024-02-23T11:33:09+00:00
+! Version: 2.3.23.73
+! TimeUpdated: 2024-02-23T12:33:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6933,6 +6933,9 @@ pornhub.com,pornhub.org,pornhub.net##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173423
+gpfans.org##.adblock-wrapper
+gpfans.org##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173251
 ||sportshub.to/frames/cf/block/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172971
@@ -32660,10 +32663,11 @@ tomsguide.com##div[class^="bordeaux-"]
 ||animalporn.dog/js/video_plb_link.js
 animalporn.dog##a[href^="/out.php"]
 animalporn.dog###content > .related
-thehackernews.com#?#body > div[class^="gg"]:has(> center > a[href][target="_blank"])
-thehackernews.com##.bb-side-box-1
-thehackernews.com##.zz-box-1
-thehackernews.com##.check_two.babsi
+thehackernews.com##body > div[class^="pp"]:has(> center > a[href][target="_blank"])
+thehackernews.com###right-box > #expand-list
+thehackernews.com###right-box > section[class*="bb-side-box-"]
+thehackernews.com##center > a[rel="nofollow noopener sponsored"] > img
+thehackernews.com###articlebody > .bobbob:has(> center > a[rel="nofollow noopener sponsored"] > img)
 portsmouth.co.uk,northantstelegraph.co.uk,thestar.co.uk##a[class^="Header__NatWorldTVLink-"]
 thestar.co.uk#?#.article-content > div[class] > div[class]:has(> a#shots-tv-banner)
 spanishdict.com###adMiddle2-container
