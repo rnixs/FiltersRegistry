@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: y8AuJacpUTRfJzKZ8SP2Aw
-! Diff-Path: ../patches/122/122-s-1708679247-14400.patch
+! Checksum: G60tHPUpDone1fjIIL4JdA
+! Diff-Path: ../patches/122/122-s-1708693640-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.62
-! TimeUpdated: 2024-02-23T09:02:30+00:00
+! Version: 2.1.21.63
+! TimeUpdated: 2024-02-23T13:02:28+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: UEDDA2VoCuwOV1/g7vyWRg
-! OriginalVersion: 202402230840
+! Checksum: Yilunw+CIW7zOdHGj5nCzg
+! OriginalVersion: 202402231240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-23 08:40 UTC
+! Last modified: 2024-02-23 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12405,7 +12405,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.social-line-button
 ##.social-link-bot
 ##.social-link-col
-##.social-link-container
 ##.social-link-email
 ##.social-link-facebook
 ##.social-link-fb
@@ -41853,7 +41852,7 @@ newpharma.be,newpharma.fr,newpharma.de,newpharma.at,newpharma.nl##+js(set-cookie
 newpharma.be,newpharma.fr,newpharma.de,newpharma.at,newpharma.nl##+js(set-cookie, gdpr-consent-cookie-level3, 1)
 newpharma.be,newpharma.fr,newpharma.de,newpharma.at,newpharma.nl##+js(set-cookie, gdpr-consent-cookie-level2, 1)
 kapoorwatch.com##+js(set-cookie, ck-cp, accepted)
-paf.se##+js(set-cookie, cookieConsent, 1)
+instantoffices.com,paf.se##+js(set-cookie, cookieConsent, 1)
 azertyfactor.be##+js(set-cookie, consent-cookie, 1)
 zelezodum.cz##+js(set-cookie, show_gdpr_cookie_message_388801234_cz, no)
 thw.de,bafa.de,bka.de,bmbf.de##+js(set-cookie, gsbbanner, 0)
@@ -43845,8 +43844,8 @@ lifepointspanel.com###cookie-modal-box
 lifepointspanel.com##.modal-backdrop
 lifepointspanel.com#$#body { overflow: auto !important; position: initial !important; }
 ! happiesthealth.com
-happiesthealth.com##.dialog-lightbox-widget
-happiesthealth.com#$#body,html { overflow: auto !important; position: initial !important; }
+tommedications.com,happiesthealth.com##.dialog-lightbox-widget
+tommedications.com,happiesthealth.com#$#body,html { overflow: auto !important; position: initial !important; }
 ! mibe.de
 mibe.de###layer-wrapper
 mibe.de##+js(remove-class, layerActive, , stay)

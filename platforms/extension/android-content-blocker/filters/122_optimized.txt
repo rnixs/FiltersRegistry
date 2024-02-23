@@ -1,9 +1,9 @@
-! Checksum: qwZ0f7YfJY5DmFbNmYlYEQ
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1708679215-14400.patch
+! Checksum: vws9LDe1S0YMWlaBhlPMig
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1708693605-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.62
-! TimeUpdated: 2024-02-23T09:02:30+00:00
+! Version: 2.1.21.63
+! TimeUpdated: 2024-02-23T13:02:28+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -5152,7 +5152,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.social-likes__widget
 ##.social-likes_visible
 ##.social-link-col
-##.social-link-container
 ##.social-link-email
 ##.social-link-facebook
 ##.social-link-fb
@@ -14388,7 +14387,8 @@ leasingverband.de#$#body,html { overflow: auto !important; position: initial !im
 nuc.edu#$#html { overflow: auto !important; position: initial !important; }
 arcane.no#$#body,html { overflow: auto !important; position: initial !important; }
 lifepointspanel.com#$#body { overflow: auto !important; position: initial !important; }
-happiesthealth.com#$#body,html { overflow: auto !important; position: initial !important; }
+tommedications.com,happiesthealth.com##.dialog-lightbox-widget
+tommedications.com,happiesthealth.com#$#body,html { overflow: auto !important; position: initial !important; }
 24helmets.co.uk,koliro.de,24helmets.de#$#body,html { overflow: auto !important; position: initial !important; }
 salvagny.org###cc-mc-rgpd
 taxfix.de#$#body { overflow: auto !important; position: initial !important; }

@@ -1,15 +1,15 @@
-! Checksum: rKhjCqZDJGxG3Fajng8n6w
-! Diff-Path: ../patches/101/101-s-1708679251-14400.patch
+! Checksum: q1qCQ22MGmokTbqLFaeqfQ
+! Diff-Path: ../patches/101/101-s-1708693644-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.36
-! TimeUpdated: 2024-02-23T09:01:57+00:00
+! Version: 2.1.21.37
+! TimeUpdated: 2024-02-23T13:01:53+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: GZh1W5wY62krlC0gSHU2fg
-! OriginalVersion: 202402230851
+! Checksum: 0j9QsNFo38+9qfk4T4HQ1A
+! OriginalVersion: 202402231251
 ! Title: EasyList
-! Last modified: 23 Feb 2024 08:51 UTC
+! Last modified: 23 Feb 2024 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -66251,7 +66251,6 @@ thebarentsobserver.com##.pane-title
 comedycentral.com.au##.pane-vimn-coda-gpt-panes
 wunderground.com##.pane-wu-fullscreenweather-ad-box-atf
 khmertimeskh.com##.panel-grid-cell
-tutorialspoint.com##.panel-htop.layout-panel-east
 panarmenian.net##.panner_2
 battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.parallax-breakout
 pons.com##.parallax-container
@@ -66691,7 +66690,6 @@ zap-map.com##.sidebar__advert
 pbs.org##.sidebar__logo-pond
 hepper.com##.sidebar__placement
 snopes.com##.sidebar_ad
-timesofindia.indiatimes.com##.sidebar_ad_fix
 pcgamesn.com##.sidebar_affiliate_disclaimer
 bxr.com##.sidebar_promo
 bleedingcool.com##.sidebar_spacer
@@ -68282,6 +68280,7 @@ fortune.com##.homepage:has(> div[id^="InStream"])
 qwant.com##.is-sidebar:has(a[data-testid="advertiserAdsLink"])
 yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
+tutorialspoint.com##.layout-panel-east:has(> [data-options*="Advertisement"])
 content.dictionary.com##.lp-code:has(> [class$="Ad"])
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-driven="sponsored-products"])
 officedepot.com##.od-col:has(.od-product-card-region-colors-sponsored)

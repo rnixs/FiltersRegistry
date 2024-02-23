@@ -1,15 +1,15 @@
-! Checksum: 5LM6p1cb4jEe1QyIRrAxcw
-! Diff-Path: ../patches/122/122-s-1708679264-14400.patch
+! Checksum: lnXoNQYqVcS0hPR/9xKeCA
+! Diff-Path: ../patches/122/122-s-1708693657-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.62
-! TimeUpdated: 2024-02-23T09:02:30+00:00
+! Version: 2.1.21.63
+! TimeUpdated: 2024-02-23T13:02:28+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: UEDDA2VoCuwOV1/g7vyWRg
-! OriginalVersion: 202402230840
+! Checksum: Yilunw+CIW7zOdHGj5nCzg
+! OriginalVersion: 202402231240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-23 08:40 UTC
+! Last modified: 2024-02-23 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12404,7 +12404,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.social-line-button
 ##.social-link-bot
 ##.social-link-col
-##.social-link-container
 ##.social-link-email
 ##.social-link-facebook
 ##.social-link-fb
@@ -41852,7 +41851,7 @@ newpharma.be,newpharma.fr,newpharma.de,newpharma.at,newpharma.nl#%#//scriptlet('
 newpharma.be,newpharma.fr,newpharma.de,newpharma.at,newpharma.nl#%#//scriptlet('ubo-set-cookie.js', 'gdpr-consent-cookie-level3', '1')
 newpharma.be,newpharma.fr,newpharma.de,newpharma.at,newpharma.nl#%#//scriptlet('ubo-set-cookie.js', 'gdpr-consent-cookie-level2', '1')
 kapoorwatch.com#%#//scriptlet('ubo-set-cookie.js', 'ck-cp', 'accepted')
-paf.se#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', '1')
+instantoffices.com,paf.se#%#//scriptlet('ubo-set-cookie.js', 'cookieConsent', '1')
 azertyfactor.be#%#//scriptlet('ubo-set-cookie.js', 'consent-cookie', '1')
 zelezodum.cz#%#//scriptlet('ubo-set-cookie.js', 'show_gdpr_cookie_message_388801234_cz', 'no')
 thw.de,bafa.de,bka.de,bmbf.de#%#//scriptlet('ubo-set-cookie.js', 'gsbbanner', '0')
@@ -43844,8 +43843,8 @@ lifepointspanel.com###cookie-modal-box
 lifepointspanel.com##.modal-backdrop
 lifepointspanel.com#$#body { overflow: auto !important; position: initial !important; }
 ! happiesthealth.com
-happiesthealth.com##.dialog-lightbox-widget
-happiesthealth.com#$#body,html { overflow: auto !important; position: initial !important; }
+tommedications.com,happiesthealth.com##.dialog-lightbox-widget
+tommedications.com,happiesthealth.com#$#body,html { overflow: auto !important; position: initial !important; }
 ! mibe.de
 mibe.de###layer-wrapper
 mibe.de#%#//scriptlet('ubo-rc.js', 'layerActive', '', 'stay')
