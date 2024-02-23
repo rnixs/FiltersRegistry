@@ -8188,6 +8188,8 @@ deepl.com##+js(set-local-storage-item, LMT_freeUserUsageBlock, $remove$)
 deepl.com##+js(set-local-storage-item, onboardingData, $remove$)
 ! Error: Invalid selector: '+js(trusted-set-local-storage-item, cookieBanner, false)' -- '+js(trusted-set-local-storage-item, cookieBanner, false)' is not a valid selector in rule:
 wales.nhs.attendanywhere.com##+js(trusted-set-local-storage-item, cookieBanner, false)
+! Error: Invalid selector: '+js(set-local-storage-item, entity-limiter-views, $remove$)' -- '+js(set-local-storage-item, entity-limiter-views, $remove$)' is not a valid selector in rule:
+crunchbase.com##+js(set-local-storage-item, entity-limiter-views, $remove$)
 ! Error: Invalid selector: '+js(set-local-storage-item, gatedSignupTimerCounter, $remove$)' -- '+js(set-local-storage-item, gatedSignupTimerCounter, $remove$)' is not a valid selector in rule:
 zippia.com##+js(set-local-storage-item, gatedSignupTimerCounter, $remove$)
 ! Error: Invalid selector: '+js(set-local-storage-item, mode-quills, $remove$)' -- '+js(set-local-storage-item, mode-quills, $remove$)' is not a valid selector in rule:
