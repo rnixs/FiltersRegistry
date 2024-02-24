@@ -1,9 +1,9 @@
-! Checksum: +TWEaB1x0qNigObzMzNnhA
-! Diff-Path: ../patches/243_optimized/243_optimized-s-1708780029-14400.patch
+! Checksum: mWPrlD6ghDBdOq/u2685uw
+! Diff-Path: ../patches/243_optimized/243_optimized-s-1708794413-14400.patch
 ! Title: Frellwit's Swedish Filter (Optimized)
 ! Description: Filter that aims to remove regional Swedish ads, tracking, social media, annoyances, sponsored articles etc.
-! Version: 2.0.17.74
-! TimeUpdated: 2024-02-24T13:03:21+00:00
+! Version: 2.0.17.75
+! TimeUpdated: 2024-02-24T17:03:08+00:00
 ! Expires: 10 days (update frequency)
 .ads-gdprlock
 .ax/ad/
@@ -1465,6 +1465,7 @@ zeromagazine.nu##div[id^="ads"]
 ##div.o-indenter--ad
 ##div.panorama-ad
 ##div.panorama-ad-standard
+##div.partnership-ads
 ##div.phpbb-ads-center
 ##div.prebid-ad-slot
 ##div.sb-egmont-plugin
