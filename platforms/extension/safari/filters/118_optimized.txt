@@ -1,9 +1,9 @@
-! Checksum: dD+03o4XdticNxX+9Oqg9g
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1708765626-14400.patch
+! Checksum: y/EUQ8nEe450acCEpSMtCg
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1708780031-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.65
-! TimeUpdated: 2024-02-24T09:02:13+00:00
+! Version: 2.1.22.66
+! TimeUpdated: 2024-02-24T13:02:18+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -2703,6 +2703,7 @@ omni.soundestlink.com$image
 ||ositracker.com^$third-party
 ||otoshiana.com^$third-party
 ||ournet-analytics.com^$third-party
+||outbrainimg.com^$third-party
 ||overtracking.com^$third-party
 ||ownpage.fr^$third-party
 ||pabidding.io^$third-party
@@ -2847,6 +2848,7 @@ omni.soundestlink.com$image
 ||reliablecounter.com^$third-party
 ||relmaxtop.com^$third-party
 ||remarketstats.com^$third-party
+||renderbetter.net^$third-party
 ||repixel.co^$third-party
 ||report-uri.com^$third-party
 ||report-uri.io^$third-party
@@ -5034,7 +5036,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.nordot.jp^
 ||log.olark.com^
 ||log.outbrain.com^
-||log.outbrainimg.com^
 ||log.pinterest.com^
 ||log.reformal.ru^
 ||log.seekda.com^
@@ -7127,6 +7128,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kbb.com/pixall/
 ||kck.st/web/track
 ||kloth.net/images/pixel.gif
+||knewz.com/api/event
 ||komoot.*/api/t/event
 ||kompass.com/logAdvertisements
 ||lastminute.com/s/hdp/hotel-details/api/logs

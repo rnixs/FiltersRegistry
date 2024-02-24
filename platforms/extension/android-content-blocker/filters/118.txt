@@ -1,14 +1,14 @@
-! Checksum: YniUiV+NPnLMLvlxq3JNLA
-! Diff-Path: ../patches/118/118-s-1708765600-14400.patch
+! Checksum: Kvo1O7uIgmA64ABV4GaMCw
+! Diff-Path: ../patches/118/118-s-1708780003-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.65
-! TimeUpdated: 2024-02-24T09:02:13+00:00
+! Version: 2.1.22.66
+! TimeUpdated: 2024-02-24T13:02:18+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202402240849
+! OriginalVersion: 202402241159
 ! Title: EasyPrivacy
-! Last modified: 24 Feb 2024 08:49 UTC
+! Last modified: 24 Feb 2024 11:59 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -4923,6 +4923,7 @@ omni.soundestlink.com$image
 ||otoshiana.com^$third-party
 ||ournet-analytics.com^$third-party
 ||outbid.io^$third-party
+||outbrainimg.com^$third-party
 ||overstat.com^$third-party
 ||overtracking.com^$third-party
 ||owltrack.com^$third-party
@@ -5146,6 +5147,7 @@ omni.soundestlink.com$image
 ||remailtarget.com^$third-party
 ||remarketstats.com^$third-party
 ||remind.me^$third-party
+||renderbetter.net^$third-party
 ||repixel.co^$third-party
 ||report-uri.com^$third-party
 ||report-uri.io^$third-party
@@ -10230,7 +10232,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.nordot.jp^
 ||log.olark.com^
 ||log.outbrain.com^
-||log.outbrainimg.com^
 ||log.pinterest.com^
 ||log.reformal.ru^
 ||log.seekda.com^
@@ -13337,6 +13338,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
 ||kloth.net/images/pixel.gif
+||knewz.com/api/event
 ||kohls.com/mtFndb/
 ||kohls.com/test_rum_nv?
 ||komoot.*/api/t/event

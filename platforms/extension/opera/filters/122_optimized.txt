@@ -1,9 +1,9 @@
-! Checksum: A+i2eFHoYn8E+lQIluxRZw
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1708765621-14400.patch
+! Checksum: AAjPz3vEM5lkLSMUas9j9g
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1708780026-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.68
-! TimeUpdated: 2024-02-24T09:02:27+00:00
+! Version: 2.1.21.69
+! TimeUpdated: 2024-02-24T13:02:31+00:00
 ! Expires: 10 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -16079,6 +16079,7 @@ weather.com##.AnonymousNewsletter--AnonymousNewsletter--1Btxs
 laist.com##.ArticlePage-aside-content
 fatherly.com,mic.com##.BMP
 cnbc.com##.CNBCFooter-info
+wbur.org##.Campaign__innerWrapper
 popsugar.com##.EmailAcquisitonstyles__EmailAcquisitionOuterContainer-sc-1b9duud-0
 zazzle.com##.EmailSignupForm
 nationalgeographic.com##.InlineEmail__Container
@@ -16100,6 +16101,7 @@ nordvpn.com##.SubscribeSection
 naturalnews.com##.Subscription-Article-Box
 rt.com##.Subscription-isReact
 gatesnotes.com##.TGN_site_FullOverlay
+wbur.org##.WallOfLinks_actions__cAUTE
 axios.com##.\!bg-blue-core
 thequint.com##._1iwhd
 stylecaster.com##._newsletter_nu1a3_1
@@ -16203,6 +16205,8 @@ businesstimes.com.sg##.container-content-1
 pcmag.com##.container-xs.bg-gray-lightest
 commondreams.org##.content_newsletter_wrapper
 defenseone.com##.conversion-module
+thecooldown.com##.cool_gallery__main
+thecooldown.com##.cool_newsletter
 english.nv.ua##.coronavirus_subscribe
 hightimes.com,mysteriesrunsolved.com##.cs-entry__subscribe
 foreigndesknews.com,hackread.com,hightimes.com,mysteriesrunsolved.com##.cs-site-subscribe
@@ -16441,6 +16445,7 @@ reviewed.usatoday.com##.persistent-email-cta
 washingtontimes.com##.piano-fixed-footer-two
 mathrubhumi.com##.piano-newsletter-article
 crikey.com.au##.pm-todays-newsletter-block
+thecooldown.com,wanderlust.co.uk##.popup-box
 venturebeat.com##.post-boilerplate
 themarshallproject.org##.post-footer-subscribe-promo
 ip2location.com##.pre-footer-subscribe-box
@@ -16541,6 +16546,7 @@ securityweek.com##.sw-newsletter
 propublica.org##.syndicated-modal
 techrepublic.com##.ta-campaign-widget
 techrepublic.com##.ta-campaign-widget__popup-wrapper
+thecooldown.com##.tcd-gradient-cerulean-alt
 carnewschina.com##.td-pb-span4.tdi_127
 carnewschina.com##.tdi_117
 opindia.com##.tdi_174
