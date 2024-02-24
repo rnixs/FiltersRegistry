@@ -288,6 +288,8 @@ blog-dnz.com##+js(aopr, adAdbLoad)
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager_gtm.js,domain=orami.co.id
 ! Rule "@@||inwepo.co^$ghide,badfilter" converted to: "@@||inwepo.co^$generichide,badfilter"
 @@||inwepo.co^$ghide,badfilter
+! Rule "sonora.id##.read__textarea > .kgnw-middle:remove()" converted to: "sonora.id#$?#.read__textarea > .kgnw-middle { remove: true; }"
+sonora.id##.read__textarea > .kgnw-middle:remove()
 ! Rule "@@/api/ads/*$xhr,domain=klasika.kompas.com" converted to: "@@/api/ads/*$xmlhttprequest,domain=klasika.kompas.com"
 @@/api/ads/*$xhr,domain=klasika.kompas.com
 ! Rule "@@/wp-content/uploads/*$1p,image,domain=korporasi.kompas.id" converted to: "@@/wp-content/uploads/*$~third-party,image,domain=korporasi.kompas.id"

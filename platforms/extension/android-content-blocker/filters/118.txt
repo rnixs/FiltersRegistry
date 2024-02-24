@@ -1,14 +1,14 @@
-! Checksum: CxCaorq48uq8W0MCQ8fl0w
-! Diff-Path: ../patches/118/118-s-1708751215-14400.patch
+! Checksum: YniUiV+NPnLMLvlxq3JNLA
+! Diff-Path: ../patches/118/118-s-1708765600-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.64
-! TimeUpdated: 2024-02-24T05:02:36+00:00
+! Version: 2.1.22.65
+! TimeUpdated: 2024-02-24T09:02:13+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202402240448
+! OriginalVersion: 202402240849
 ! Title: EasyPrivacy
-! Last modified: 24 Feb 2024 04:48 UTC
+! Last modified: 24 Feb 2024 08:49 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -2737,6 +2737,7 @@ _WebVitalsReporter_
 ! parked domains
 /ls.php?t=
 /track.php?domain=
+/track.php?toggle=
 ! pinterest.*
 /ContextLogResource/*
 /statslogresource/*
@@ -5012,6 +5013,7 @@ omni.soundestlink.com$image
 ||pointillist.com^$third-party
 ||pointmediatracker.com^$third-party
 ||pointomatic.com^$third-party
+||polaranalytics.com^$third-party
 ||polarbyte.com^$third-party
 ||polarcdn-pentos.com^$third-party
 ||pop6serve.com^$third-party
@@ -5770,6 +5772,7 @@ omni.soundestlink.com$image
 ||webtuna.com^$third-party
 ||wecantrack.com^$third-party
 ||wgsas.com^$third-party
+||whale.camera^$third-party
 ||wheredoyoucomefrom.ovh^$third-party
 ||whitepixel.com^$third-party
 ||whoaremyfriends.com^$third-party

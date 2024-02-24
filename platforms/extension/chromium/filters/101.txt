@@ -1,15 +1,15 @@
-! Checksum: 4SxJ0P3JgavrOb/HT8agRw
-! Diff-Path: ../patches/101/101-s-1708751218-14400.patch
+! Checksum: ZyHzsqIX1HukIAx+J0R1aw
+! Diff-Path: ../patches/101/101-s-1708765603-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.41
-! TimeUpdated: 2024-02-24T05:02:16+00:00
+! Version: 2.1.21.42
+! TimeUpdated: 2024-02-24T09:01:52+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: YzNNAMyQ9qTehktlJhQlXg
-! OriginalVersion: 202402240451
+! Checksum: eLX+QWK3R17Aw8h4rMRBcA
+! OriginalVersion: 202402240851
 ! Title: EasyList
-! Last modified: 24 Feb 2024 04:51 UTC
+! Last modified: 24 Feb 2024 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17926,6 +17926,7 @@ _800x80_
 ##.ad-container--hot-video
 ##.ae-player__itv
 ##.aniview-inline-player
+##.anyClipWrapper
 ##.aplvideo
 ##.article-connatix-wrap
 ##.article-detail-ad
@@ -64928,7 +64929,10 @@ bolavip.com##.boxbanner_container
 retailgazette.co.uk##.boxzilla-overlay
 retailgazette.co.uk##.boxzilla-popup-advert
 wbur.org##.bp--native
+wbur.org##.bp--outer
+wbur.org##.bp--rec
 wbur.org##.bp--responsive
+wbur.org##.bp-label
 businessplus.ie##.bp_billboard_single
 petkeen.com##.br-10
 bing.com##.br-poleoffcarousel
@@ -65011,7 +65015,6 @@ dllme.com##.captchabox > div
 coolors.co##.carbon-cad
 speakerdeck.com##.carbon-container
 buzzfeed.com##.card--article-ad
-wbur.org##.card--flex-uw
 u.today##.card--something-md
 nrl.com##.card-content__sponsor
 devdiscourse.com##.carousel
@@ -66685,7 +66688,6 @@ minecraftservers.org##.second-banner
 businesstoday.in##.secondAdPosition
 finextra.com##.section--minitextad
 finextra.com##.section--mpu
-wbur.org##.section--uw
 sowetanlive.co.za##.section-article-sponsored
 nzherald.co.nz##.section-iframe
 tvarticles.me##.section-post-about
@@ -67204,9 +67206,6 @@ filepuma.com##.update_software
 letterboxd.com##.upgrade-kicker
 upworthy.com##.upworthy_infinite_scroll_ad
 upworthy.com##.upworthy_infinte_scroll_outer_wrap
-wbur.org##.uw--rec
-wbur.org##.uw--rectangle
-wbur.org##.uw-label--bottom
 vervetimes.com##.uyj-before-header
 militarywatchmagazine.com##.v-card--link
 yesflicks.com##.v-detail-xps
@@ -68520,6 +68519,7 @@ google.ac,google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,
 ! invideo advertising
 gunsandammo.com###VideoPlayerDivIframe
 usnews.com###ac-lre-player-ph
+wral.com###exco
 ginx.tv###ginx-floatingvod-containerspacer
 gunsandammo.com###inline-player
 pubs.rsc.org###journal-info > .text--centered
