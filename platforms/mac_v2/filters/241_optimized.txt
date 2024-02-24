@@ -1,9 +1,9 @@
-! Checksum: vIqKTS+VcQF9e3ah7SubwQ
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1708722459-14400.patch
+! Checksum: 4W4WqHmZP8L2x0pA66QuSQ
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1708736851-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.29.67
-! TimeUpdated: 2024-02-23T21:03:20+00:00
+! Version: 2.1.29.68
+! TimeUpdated: 2024-02-24T01:03:13+00:00
 ! Expires: 12 hours (update frequency)
 -consent-banner-
 -consent-banner.
@@ -21698,6 +21698,7 @@ greenbuildingadvisor.com,finewoodworking.com#%#//scriptlet('ubo-set-cookie.js', 
 physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'allow')
 gourmetfoodstore.com#%#//scriptlet('ubo-set-cookie.js', 'AnalyticsAcceptancePopOver', 'false')
 schulfahrt.de#%#//scriptlet('ubo-set-cookie.js', 'cookiecookie', '1')
+wewantjusticedao.org#%#//scriptlet('ubo-set-cookie.js', 'gdpr-analytics-enabled', 'false')
 godbolt.org#%#//scriptlet('ubo-set-cookie.js', 'privacy_status', '1')
 projectenglish.com.pl#%#//scriptlet('ubo-set-cookie.js', 'privacy_settings', '1')
 sae.fsc.ccoo.es#%#//scriptlet('ubo-set-cookie.js', 'config', '1', '', 'reload', '1')
@@ -24633,7 +24634,7 @@ shop.bernhardtmoden.de##.ssts_lightbox_wrapper
 die-bewerbungsschreiber.de##.super-gtag-cookie-consent
 adsomenoise.de##.svelte-sac9e3
 parlament.gv.at##.svelte-uo7olx
-erotik.com##.swinger-consent
+dvderotik.com,erotik.com##.swinger-consent
 blitzrechner.de##.sygnal24-gdpr-modal-wrap
 dav-summit-club.de##.theme-cookie-hint
 trixxo-arena.be##.ts-header-message
@@ -27187,7 +27188,7 @@ dnb.no#@##consentContainer
 wacom.com#@##consent_blackbar
 voas.fi#@##coockie-modal
 japanrailpass.net#@##cookie-accept
-feierabend.de#@##cookie-banner
+feierabend.de,vrtranspoint.fi#@##cookie-banner
 dm-drogeriemarkt.it#@##cookie-bar
 bremer-gewuerzhandel.de,gents.com,keobeer.com.cy,ms-reptilien.de,officiallondontheatre.com,retterspitz.de#@##cookie-consent
 channel4.com#@##cookie-consent-banner
@@ -27442,6 +27443,7 @@ uniroyal.pl#@#.js-cookie-banner
 hildesheimer-allgemeine.de#@#.js-cookie-consent
 capstan.fr#@#.js-cookie-container
 bd-advocaten.nl,elmzell.se#@#.js-cookie-container:not(html):not(body)
+overdrive.com#@#.js-cookie-modal
 newpharma.be#@#.js-cookie-policy
 mymuesli.com#@#.js-cookies-consent
 balay.es,bosch-home.at,bosch-home.be,bosch-home.com,bosch-home.dk,bosch-home.es,bosch-home.fi,bosch-home.fr,bosch-home.lt,bosch-home.lu,bosch-home.nl,bosch-home.no,bosch-home.ro,bosch-home.se,bsh-group.com,constructa.com,home-connect.com,neff-home.com#@#.js-setcookiepolicy
@@ -27488,6 +27490,7 @@ ollca.com#@#app-cookie-warning
 frag.jetzt#@#app-cookies
 eurostar.com,mediamarkt.de,online.no,telenor.no#@#div#__tealiumGDPRecModal
 tumblr.com#@#div#cmp-app-container
+vrtranspoint.fi#@#div#cookie-popup
 dcinside.com#@#div#privacy_policy
 elmzell.se#@#div.c-cookies
 educationconnection.com#@#div.ccpa-message
@@ -27815,6 +27818,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=atv.at|bayer04.de|douglas.de|festool.at|festool.be|festool.bg|festool.ch|festool.cn|festool.co.kr|festool.co.uk|festool.co.za|festool.com|festool.cz|festool.de|festool.dk|festool.es|festool.fi|festool.fr|festool.hu|festool.ie|festool.it|festool.lt|festool.nl|festool.no|festool.pl|festool.pt|festool.ro|festool.ru|festool.se|festool.sk|festool.ua|festoolcanada.com|festoolusa.com|flaschenpost.de|highsnobiety.com|immowelt.de|joyn.de|kicker.de|morenutrition.de|paketshop.myhermes.de|postbank.de|prosieben.at|puls4.com|ran.de|sat1.at|schlager.radio|sportdeutschland.tv|srf.ch|verivox.de|wetter.com
 @@||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=telegraph.co.uk|tf1.fr
 @@||vesmir.cz/components/eu_cookie/$script
+@@||vrtranspoint.fi/static/studio/pub/SYSTEM/v2/branches/master/js/cookie-consent.min.js$script
 @@||vulcangas.com^*/cookie-notice/$script
 @@||webtv.stofa.dk/public/js/cookie-banner.$script,~third-party
 @@||wikia.nocookie.net^$script,domain=fandom.com
