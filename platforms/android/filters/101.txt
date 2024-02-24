@@ -1,15 +1,15 @@
-! Checksum: 4wZyTuzDkEWWnujpR+u1xQ
-! Diff-Path: ../patches/101/101-s-1708794384-14400.patch
+! Checksum: CitMPHHbh8mCeyDVwrfyTw
+! Diff-Path: ../patches/101/101-s-1708808794-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.44
-! TimeUpdated: 2024-02-24T17:01:47+00:00
+! Version: 2.1.21.45
+! TimeUpdated: 2024-02-24T21:01:55+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: oN1nfaxBUQ3uX71nMxvw/A
-! OriginalVersion: 202402241650
+! Checksum: Pj8QJxf6sWzEFSqmFGnDww
+! OriginalVersion: 202402242051
 ! Title: EasyList
-! Last modified: 24 Feb 2024 16:50 UTC
+! Last modified: 24 Feb 2024 20:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -48105,6 +48105,7 @@ browsershots.org#@#.advert_area
 ||tbiwkjomju.com^
 ||tbm09.com^
 ||tbmwkwbdcryfhb.xyz^
+||tbpot.com^
 ||tbppfktchj.com^
 ||tbradshedm.org^
 ||tbsjkaorxwuchyb.com^
@@ -66208,6 +66209,7 @@ pcgamesn.com##.new_affiliate_embed
 farminguk.com##.news-advert-button-click
 myflixer.to##.news-iframe
 dailysocial.id##.news__detail-ads-subs
+firstpost.com##.newtopadd
 moddb.com##.nextmediaboxtop
 democraticunderground.com##.nhome-mediumrectangle-container
 hulkshare.com##.nhsBotBan
@@ -66593,6 +66595,7 @@ grammar.yourdictionary.com##.revenue-placeholder
 hindustantimes.com##.rgtAdSection
 indianexpress.com##.rhs-banner-carousel
 cnbctv18.com##.rhs-home-second-ad
+firstpost.com##.rhs-tp-ad
 dailyo.in##.rhsAdvertisement300
 livemint.com##.rhsWidgetNotAdFree
 moneycontrol.com##.rhs_banner_300x34_widget
@@ -67003,6 +67006,7 @@ ucompares.com##.tablepress-id-46
 posemaniacs.com##.tabletL\:w-\[728px\]
 6abc.com,abcnews.go.com##.taboola
 gizmodo.com,kotaku.com,theonion.com,theroot.com##.taboola-container
+firstpost.com##.taboola-div
 protocol.com##.tag-sponsored
 spectrum.ieee.org##.tag-type-whitepaper
 ghanaweb.com,thefastmode.com##.takeover
@@ -67095,6 +67099,7 @@ freedomleaf.com##.top-ab
 cartoq.com##.top-ad-blank-div
 forbes.com##.top-ad-container
 artistdirect.com##.top-add
+firstpost.com##.top-addd
 n4g.com,techspy.com##.top-ads-container-outer
 jamieoliver.com##.top-avocado
 advfn.com##.top-ban-wrapper
@@ -69999,7 +70004,7 @@ mysexgames.com##table[height="640"]
 motherless.com##table[style*="max-width:"]
 exoav.com##td > a[href]
 xxxcomics.org##video
-porndoe.com,tube8.es,tube8.fr,youporngay.com##video[autoplay]
+tube8.es,tube8.fr,youporngay.com##video[autoplay]
 porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 ! :has()

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: PDvFLxoOBTceIvDHRtbIrQ
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1708794419-14400.patch
+! Checksum: MjFFsXxaGofwjlB8thNeqA
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1708808831-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.44
-! TimeUpdated: 2024-02-24T17:01:47+00:00
+! Version: 2.1.21.45
+! TimeUpdated: 2024-02-24T21:01:55+00:00
 ! Expires: 5 days (update frequency)
 &sadbl=1&abtg=1
 -ad-300x600-
@@ -24405,6 +24405,7 @@ browsershots.org#@#.advert_area
 ||tbgmckdemnv.com^
 ||tbiwkjomju.com^
 ||tbmwkwbdcryfhb.xyz^
+||tbpot.com^
 ||tbppfktchj.com^
 ||tbradshedm.org^
 ||tbudz.co.in^
@@ -31141,6 +31142,7 @@ newegg.com##.negspa-brands
 play.typeracer.com##.newNorthWidget
 pcgamesn.com##.new_affiliate_embed
 dailysocial.id##.news__detail-ads-subs
+firstpost.com##.newtopadd
 moddb.com##.nextmediaboxtop
 afterdawn.com##.ni_box
 tumblr.com##.njwip
@@ -31334,6 +31336,7 @@ latimes.com,sandiegouniontribune.com##.revcontent
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##.revenue-display
 indianexpress.com##.rhs-banner-carousel
 cnbctv18.com##.rhs-home-second-ad
+firstpost.com##.rhs-tp-ad
 moneycontrol.com##.rhs_banner_300x34_widget
 pinkvilla.com##.right--side--ad-s1
 cnbctv18.com##.right-ad-amp
@@ -31538,6 +31541,7 @@ html-online.com##.szekcio4
 posemaniacs.com##.tabletL\:w-\[728px\]
 6abc.com,abcnews.go.com##.taboola
 gizmodo.com,kotaku.com,theonion.com,theroot.com##.taboola-container
+firstpost.com##.taboola-div
 spectrum.ieee.org##.tag-type-whitepaper
 tennis.com##.tc-video-player-iframe
 antiguanewsroom.com,aptoslife.com,aviacionline.com,bohemian.com,carnewschina.com,constructionreviewonline.com,corvetteblogger.com,cyberparse.co.uk,darkhorizons.com,eastbayexpress.com,eindhovennews.com,ericpetersautos.com,fenuxe.com,gameplayinside.com,gamezone.com,ghpage.com,gilroydispatch.com,gizmochina.com,goodtimes.sc,goonhammer.com,greekreporter.com,greenfieldnews.com,healdsburgtribune.com,indianapolisrecorder.com,industryhit.com,jewishpress.com,kenyan-post.com,kingcityrustler.com,lankanewsweb.net,maltabusinessweekly.com,metrosiliconvalley.com,morganhilltimes.com,musictech.net,nasilemaktech.com,newsnext.live,newstalkflorida.com,nme.com,pacificsun.com,pajaronian.com,pakobserver.net,pipanews.com,pressbanner.com,radioink.com,runnerstribe.com,salinasvalleytribune.com,sanbenito.com,scrolla.africa,sonorannews.com,telugubullet.com,theindependent.co.zw,unlockboot.com,wrestling-online.com,zycrypto.com##.td-a-rec
@@ -31568,6 +31572,7 @@ euobserver.com,medicinehatnews.com##.top
 mashable.com##.top-0.sticky > div
 cartoq.com##.top-a
 forbes.com##.top-ad-container
+firstpost.com##.top-addd
 n4g.com,techspy.com##.top-ads-container-outer
 jamieoliver.com##.top-avocado
 advfn.com##.top-ban-wrapper
@@ -32962,7 +32967,7 @@ pictoa.com##nav li[style="position: relative;"]
 redtube.com##svg
 mysexgames.com##table[height="630"]
 mysexgames.com##table[height="640"]
-porndoe.com,tube8.es,tube8.fr,youporngay.com##video[autoplay]
+tube8.es,tube8.fr,youporngay.com##video[autoplay]
 porn-w.org##.align-items-center.list-row:has(.col:empty)
 porngames.com##.contentbox:has(a[href="javascript:void(0);"])
 porngames.com##.contentbox:has(iframe[src^="//"])
