@@ -1,9 +1,9 @@
-! Checksum: Pq7AyIWRQm3VelG7tQXoEg
-! Diff-Path: ../patches/3/3-s-1708752970-3600.patch
+! Checksum: PAODp0qQIHDQ/v8B+BSQtg
+! Diff-Path: ../patches/3/3-s-1708781767-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.67.8
-! TimeUpdated: 2024-02-24T05:33:10+00:00
+! Version: 2.0.67.9
+! TimeUpdated: 2024-02-24T13:33:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -64938,6 +64938,8 @@ inapps.appsflyersdk.com^
 !@@||mc.yandex.ru/metrika/watch.js$domain=
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/22628
+@@||googletagmanager.com/gtm.js$domain=iamgujarat.com|eisamay.com|samayam.com|vijaykarnataka.com|indiatimes.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173368
 ! If DNS filtering blocks openfpcdn.io
 !+ PLATFORM(ios, ext_safari, ext_android_cb)

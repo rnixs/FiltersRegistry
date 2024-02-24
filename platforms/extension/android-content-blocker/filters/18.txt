@@ -1,9 +1,9 @@
-! Checksum: IxioNwg3SXUEFe02B3VeUQ
-! Diff-Path: ../patches/18/18-s-1708752969-3600.patch
+! Checksum: HDTcHxin6CJp2RYu6UYFhw
+! Diff-Path: ../patches/18/18-s-1708781765-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.42
-! TimeUpdated: 2024-02-24T05:32:15+00:00
+! Version: 2.0.34.43
+! TimeUpdated: 2024-02-24T13:32:14+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2332,6 +2332,7 @@ multiplayer.it,tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+iamgujarat.com,eisamay.com,samayam.com,vijaykarnataka.com,indiatimes.com##.top-header-gdpr
 euronet.pl##.eu-cookies-bar-cookies-bar-wrap
 ubiklibri.it#$#html { overflow: auto !important; }
 ubiklibri.it#$##cookie-html { display: none !important; }
