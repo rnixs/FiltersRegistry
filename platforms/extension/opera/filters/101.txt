@@ -1,15 +1,15 @@
-! Checksum: Vo/Z3Ih/ZpzbSrHA+YbXwA
-! Diff-Path: ../patches/101/101-s-1708736821-14400.patch
+! Checksum: 5SeSuCAYASsHSdNGSEq/pw
+! Diff-Path: ../patches/101/101-s-1708751235-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.40
-! TimeUpdated: 2024-02-24T01:01:52+00:00
+! Version: 2.1.21.41
+! TimeUpdated: 2024-02-24T05:02:16+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: 4XLwYQLyG0ro0hINqWHIxw
-! OriginalVersion: 202402240051
+! Checksum: YzNNAMyQ9qTehktlJhQlXg
+! OriginalVersion: 202402240451
 ! Title: EasyList
-! Last modified: 24 Feb 2024 00:51 UTC
+! Last modified: 24 Feb 2024 04:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59724,7 +59724,7 @@ browsershots.org#@#.advert_area
 ||btr.domywife.com^
 ||c.bannerflow.net^
 ||c2shb.pubgw.yahoo.com^
-||caffeine.tv/embed/
+||caffeine.tv/embed/$third-party
 ||campaigns.williamhill.com^
 ||capital.com/widgets/$third-party
 ||careerwebsite.com/distrib_pages/jobs.cfm?
@@ -66867,6 +66867,7 @@ newegg.com##.sponsored-brands
 cheknews.ca##.sponsored-by
 washingtontimes.com##.sponsored-heading
 breakingdefense.com##.sponsored-inline
+justwatch.com##.sponsored-recommendation
 crn.com##.sponsored-resources
 search.brave.com##.sponsored-unit_wrapper
 coingecko.com##.sponsored-v2
@@ -68074,6 +68075,7 @@ qwant.com##div[data-testid="homeTrendsContainer"] a[href^="https://api.qwant.com
 qwant.com##div[data-testid="pam.container"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
 sitepoint.com##div[data-unit-code]
+weather.com##div[id*="Taboola-sidebar"]
 chrome-stats.com##div[id*="billboard_responsive"]
 thenewspaper.gr##div[id*="thene-"]
 diskingdom.com##div[id="diski-"]

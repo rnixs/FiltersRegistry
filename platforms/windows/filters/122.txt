@@ -1,15 +1,15 @@
-! Checksum: zeypQoYAu5nYYOMEAOZ2LA
-! Diff-Path: ../patches/122/122-s-1708736854-14400.patch
+! Checksum: ijE/HCk7AmxtbDajacbzVg
+! Diff-Path: ../patches/122/122-s-1708751270-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.66
-! TimeUpdated: 2024-02-24T01:02:25+00:00
+! Version: 2.1.21.67
+! TimeUpdated: 2024-02-24T05:02:50+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: 2jJJpObt933q/wOS2FnGEA
-! OriginalVersion: 202402240015
+! Checksum: Lt2A2wwf8JBG8n4fsDkD8Q
+! OriginalVersion: 202402240440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-24 00:15 UTC
+! Last modified: 2024-02-24 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35074,7 +35074,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||js.pelcro.com/ui/plugin/
 ||justone.ai/embed/csd.html$subdocument
 ||lightboxcdn.com/vendor/$script,third-party
-||mailerlite.com^$third-party
+||mailerlite.com/js/universal.js
 ||maillist-manage.com^$third-party
 ||mailmojo.no/sdk.js
 ||nordiskemedier.dk/remodal/
@@ -35830,6 +35830,7 @@ oilprice.com##.JoinCommunityBtnContainer
 marieclaire.com.au##.MagDriver
 disk.yandex.com,disk.yandex.ru##.PSHeader-Center
 talkingpointsmemo.com##.PostArticleAsk
+weather.com##.PromoDriver--card--15FjK
 sacurrent.com##.PromoTopBar
 thekitchn.com##.PromotionalRibbon
 popsci.com##.PromotionalStripe
@@ -37410,6 +37411,7 @@ embed.listcorp.com##.CompanyPage2CompanyPageAbout__share
 nutraingredients-asia.com,nutraingredients-latam.com,nutraingredients-usa.com,nutraingredients.com##.Detail-share
 federalnewsnetwork.com##.Entry-infoSocial
 nutraingredients-asia.com,nutraingredients-latam.com,nutraingredients-usa.com,nutraingredients.com##.Follow
+weather.com##.Footer--socialContainer--3z8CW
 earth.com##.Footer_social_bar__E9yGn
 coingape.com##.GoogleFollws
 gadgetsnow.com##.KkbaU
@@ -37990,7 +37992,7 @@ knewz.com##.social-items
 cinenews.be##.social-line
 businesspost.ie##.social-links-wrapper
 denofgeek.com##.social-links__anchor--sharing
-securityaffairs.com,trtworld.com,watchesbysjx.com##.social-media
+securityaffairs.com,techopedia.com,trtworld.com,watchesbysjx.com##.social-media
 cyberdaily.au,gamingbolt.com##.social-media-container
 outlookindia.com,pgpf.org##.social-media-icons
 defenseone.com##.social-media-icons-container
@@ -41249,7 +41251,7 @@ cinobo.com,jdslabs.com,lukso.network,mymarket.ge,platform.stability.ai,simtex.io
 !! .bottom-8
 ai-coustics.com,dr-anns.com,lightyear.one,vecer.com##.bottom-8
 !! .bottom-4
-desenio.se,justo.ca,moises.ai,my.openbb.co,promobit.com.br,remnote.com,shuttle.rs,stableaudio.com,thecycle.game,urlcast.io##.bottom-4
+depot.dev,desenio.se,getmerlin.in,justo.ca,moises.ai,my.openbb.co,promobit.com.br,remnote.com,shuttle.rs,stableaudio.com,thecycle.game,urlcast.io##.bottom-4
 !! .bottom-40
 netnoticias.mx##.bottom-40
 !! .bottom-3
@@ -41710,7 +41712,7 @@ lactostop.de#%#//scriptlet('ubo-rc.js', 'layerActive', '', 'stay')
 spilger.de#%#//scriptlet('ubo-rc.js', 'cookiebar-open', 'body', 'stay')
 dbs.si#%#//scriptlet('ubo-rc.js', 'blur', 'body', 'stay')
 abcya.com#%#//scriptlet('ubo-rc.js', 'cookie', '', 'stay')
-jongcdenv.be,umicore.jp,umicore.cn,umicore.pl,umicore.kr,umicore.co.th,umicore.fr,umicore.de,donneurdecellulessouches.be,stammzellenspender.be,stemcelldonor.be,umicore.com,umicore.com.br,koenvandenheuvel.be,stamceldonor.be,nahima.be#%#//scriptlet('ubo-rc.js', 'cookieconsent-active', 'body', 'stay')
+umicore.be,umicore.fi,umicore.ca,umicore.be,jongcdenv.be,umicore.jp,umicore.cn,umicore.pl,umicore.kr,umicore.co.th,umicore.fr,umicore.de,donneurdecellulessouches.be,stammzellenspender.be,stemcelldonor.be,umicore.com,umicore.com.br,koenvandenheuvel.be,stamceldonor.be,nahima.be#%#//scriptlet('ubo-rc.js', 'cookieconsent-active', 'body', 'stay')
 catused.com#%#//scriptlet('ubo-rc.js', 'cookieMsg', '', 'stay')
 eujuicers.cz#%#//scriptlet('ubo-rc.js', 'cookie_consent__alert', '', 'stay')
 graziellawicki.com,funnelcockpit.com#%#//scriptlet('ubo-rc.js', 'gdpr-cookie-notice-center-loaded', '', 'stay')
@@ -42961,8 +42963,8 @@ gera.de##.cookie-banner-container
 gera.de##.cookie-banner-overlay-blocker
 gera.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .if6_eprivacy
-foerde-sparkasse.de,sparkasse-pforzheim-calw.de,sparkasse-essen.de,sparkasse-bochum.de,sparkasse-re.de,sparkasse-krefeld.de,sparkasse-lemgo.de,sparkasse-ansbach.de,spk-elbe-elster.de,spk-goettingen.de,kskmayen.de,sparkasse-lueneburg.de,sparkasse-moenchengladbach.de,sparkasse-emsland.de,spk-arnstadt-ilmenau.de,sparkasse-leerwittmund.de,sparkasse-nordhorn.de,stadtsparkasse-bocholt.de,spk-mecklenburg-nordwest.de,sparkasse-rhein-nahe.de,taunussparkasse.de,ksk-ostalb.de,spk-schaumburg.de,sparkasse-amberg-sulzbach.de,sparkasse-hamm.de,spk-swb.de,sparkasse-lev.de,sparkasse-mecklenburg-schwerin.de,sparkasse-westmuensterland.de,s-kukc.de,spk-luebeck.de,ksn-northeim.de,ksk-verden.de,sparkasse-koblenz.de,sparkasse-saarbruecken.de,sparkasse-uelzen-luechow-dannenberg.de,sparkasse-witten.de,kskwd.de,sparkasse-oberpfalz-nord.de,sparkasse-vorderpfalz.de,sparkasse-giessen.de,sparkasse-oberhessen.de,spk-westholstein.de,haspa.de,bw-bank.de,sparkasse-leipzig.de,sparkasse-nuernberg.de,sparkasse-muensterland-ost.de,sparkasse-bremen.de,lzo.com,spk-chemnitz.de,sparkasse-mainfranken.de,sparkasse-dortmund.de,blsk.de,sskduesseldorf.de,ksk-es.de,sparkasse-offenburg.de,sparkasse-hgp.de,sparkasse-heidelberg.de,sparkasse-erlangen.de,sparkasse-mittelthueringen.de,ksk-fds.de,sparkasse-osnabrueck.de,sparkasse-ulm.de,sparkasse-karlsruhe.de,kreissparkasse-ravensburg.de,naspa.de,kskwn.de,sparkasse-am-niederrhein.de,sparkasse-herford.de,nospa.de,sparkasse-bamberg.de,kskmse.de,skmb.de,sparkasse-magdeburg.de,spk-suedholstein.de,ksk-reutlingen.de,sparkasse-sha.de,sparkasse-gelsenkirchen.de,spk-in-ei.de,sparkasse-fulda.de,ksk-gelnhausen.de,sparkasse-hochfranken.de,sparkasse-wetzlar.de,sparkasse-unnakamen.de,wespa.de,spkvr.de,kskbb.de,ksk-tut.de,sparkasse-rhein-haardt.de,sparkasse-siegen.de,spk-vorpommern.de,sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##.if6_eprivacy
-foerde-sparkasse.de,sparkasse-pforzheim-calw.de,sparkasse-essen.de,sparkasse-bochum.de,sparkasse-re.de,sparkasse-krefeld.de,sparkasse-lemgo.de,sparkasse-ansbach.de,spk-elbe-elster.de,spk-goettingen.de,kskmayen.de,sparkasse-lueneburg.de,sparkasse-moenchengladbach.de,sparkasse-emsland.de,spk-arnstadt-ilmenau.de,sparkasse-leerwittmund.de,sparkasse-nordhorn.de,stadtsparkasse-bocholt.de,spk-mecklenburg-nordwest.de,sparkasse-rhein-nahe.de,taunussparkasse.de,ksk-ostalb.de,spk-schaumburg.de,sparkasse-amberg-sulzbach.de,sparkasse-hamm.de,spk-swb.de,sparkasse-lev.de,sparkasse-mecklenburg-schwerin.de,sparkasse-westmuensterland.de,s-kukc.de,spk-luebeck.de,ksn-northeim.de,ksk-verden.de,sparkasse-koblenz.de,sparkasse-saarbruecken.de,sparkasse-uelzen-luechow-dannenberg.de,sparkasse-witten.de,kskwd.de,sparkasse-oberpfalz-nord.de,sparkasse-vorderpfalz.de,sparkasse-giessen.de,sparkasse-oberhessen.de,spk-westholstein.de,haspa.de,bw-bank.de,sparkasse-leipzig.de,sparkasse-nuernberg.de,sparkasse-muensterland-ost.de,sparkasse-bremen.de,lzo.com,spk-chemnitz.de,sparkasse-mainfranken.de,sparkasse-dortmund.de,blsk.de,sskduesseldorf.de,ksk-es.de,sparkasse-offenburg.de,sparkasse-hgp.de,sparkasse-heidelberg.de,sparkasse-erlangen.de,sparkasse-mittelthueringen.de,ksk-fds.de,sparkasse-osnabrueck.de,sparkasse-ulm.de,sparkasse-karlsruhe.de,kreissparkasse-ravensburg.de,naspa.de,kskwn.de,sparkasse-am-niederrhein.de,sparkasse-herford.de,nospa.de,sparkasse-bamberg.de,kskmse.de,skmb.de,sparkasse-magdeburg.de,spk-suedholstein.de,ksk-reutlingen.de,sparkasse-sha.de,sparkasse-gelsenkirchen.de,spk-in-ei.de,sparkasse-fulda.de,ksk-gelnhausen.de,sparkasse-hochfranken.de,sparkasse-wetzlar.de,sparkasse-unnakamen.de,wespa.de,spkvr.de,kskbb.de,ksk-tut.de,sparkasse-rhein-haardt.de,sparkasse-siegen.de,spk-vorpommern.de,sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }
+foerde-sparkasse.de,sparkasse-pforzheim-calw.de,sparkasse-essen.de,sparkasse-bochum.de,sparkasse-re.de,sparkasse-krefeld.de,sparkasse-lemgo.de,sparkasse-ansbach.de,spk-elbe-elster.de,spk-goettingen.de,kskmayen.de,sparkasse-lueneburg.de,sparkasse-moenchengladbach.de,sparkasse-emsland.de,spk-arnstadt-ilmenau.de,sparkasse-leerwittmund.de,sparkasse-nordhorn.de,stadtsparkasse-bocholt.de,spk-mecklenburg-nordwest.de,sparkasse-rhein-nahe.de,taunussparkasse.de,ksk-ostalb.de,spk-schaumburg.de,sparkasse-amberg-sulzbach.de,sparkasse-hamm.de,spk-swb.de,sparkasse-lev.de,sparkasse-mecklenburg-schwerin.de,sparkasse-westmuensterland.de,s-kukc.de,spk-luebeck.de,ksn-northeim.de,ksk-verden.de,sparkasse-koblenz.de,sparkasse-saarbruecken.de,sparkasse-uelzen-luechow-dannenberg.de,sparkasse-witten.de,kskwd.de,sparkasse-oberpfalz-nord.de,sparkasse-vorderpfalz.de,sparkasse-giessen.de,sparkasse-oberhessen.de,spk-westholstein.de,haspa.de,bw-bank.de,sparkasse-leipzig.de,sparkasse-nuernberg.de,sparkasse-muensterland-ost.de,sparkasse-bremen.de,lzo.com,spk-chemnitz.de,sparkasse-mainfranken.de,sparkasse-dortmund.de,blsk.de,sskduesseldorf.de,ksk-es.de,sparkasse-offenburg.de,sparkasse-hgp.de,sparkasse-heidelberg.de,sparkasse-erlangen.de,sparkasse-mittelthueringen.de,ksk-fds.de,sparkasse-osnabrueck.de,sparkasse-ulm.de,sparkasse-karlsruhe.de,kreissparkasse-ravensburg.de,naspa.de,kskwn.de,sparkasse-am-niederrhein.de,sparkasse-herford.de,nospa.de,sparkasse-bamberg.de,kskmse.de,skmb.de,sparkasse-magdeburg.de,spk-suedholstein.de,ksk-reutlingen.de,sparkasse-sha.de,sparkasse-gelsenkirchen.de,spk-in-ei.de,sparkasse-fulda.de,ksk-gelnhausen.de,sparkasse-hochfranken.de,sparkasse-wetzlar.de,sparkasse-unnakamen.de,wespa.de,spkvr.de,kskbb.de,ksk-tut.de,sparkasse-rhein-haardt.de,sparkasse-siegen.de,spk-vorpommern.de,sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de,sparkasse-pm.de##.if6_eprivacy
+foerde-sparkasse.de,sparkasse-pforzheim-calw.de,sparkasse-essen.de,sparkasse-bochum.de,sparkasse-re.de,sparkasse-krefeld.de,sparkasse-lemgo.de,sparkasse-ansbach.de,spk-elbe-elster.de,spk-goettingen.de,kskmayen.de,sparkasse-lueneburg.de,sparkasse-moenchengladbach.de,sparkasse-emsland.de,spk-arnstadt-ilmenau.de,sparkasse-leerwittmund.de,sparkasse-nordhorn.de,stadtsparkasse-bocholt.de,spk-mecklenburg-nordwest.de,sparkasse-rhein-nahe.de,taunussparkasse.de,ksk-ostalb.de,spk-schaumburg.de,sparkasse-amberg-sulzbach.de,sparkasse-hamm.de,spk-swb.de,sparkasse-lev.de,sparkasse-mecklenburg-schwerin.de,sparkasse-westmuensterland.de,s-kukc.de,spk-luebeck.de,ksn-northeim.de,ksk-verden.de,sparkasse-koblenz.de,sparkasse-saarbruecken.de,sparkasse-uelzen-luechow-dannenberg.de,sparkasse-witten.de,kskwd.de,sparkasse-oberpfalz-nord.de,sparkasse-vorderpfalz.de,sparkasse-giessen.de,sparkasse-oberhessen.de,spk-westholstein.de,haspa.de,bw-bank.de,sparkasse-leipzig.de,sparkasse-nuernberg.de,sparkasse-muensterland-ost.de,sparkasse-bremen.de,lzo.com,spk-chemnitz.de,sparkasse-mainfranken.de,sparkasse-dortmund.de,blsk.de,sskduesseldorf.de,ksk-es.de,sparkasse-offenburg.de,sparkasse-hgp.de,sparkasse-heidelberg.de,sparkasse-erlangen.de,sparkasse-mittelthueringen.de,ksk-fds.de,sparkasse-osnabrueck.de,sparkasse-ulm.de,sparkasse-karlsruhe.de,kreissparkasse-ravensburg.de,naspa.de,kskwn.de,sparkasse-am-niederrhein.de,sparkasse-herford.de,nospa.de,sparkasse-bamberg.de,kskmse.de,skmb.de,sparkasse-magdeburg.de,spk-suedholstein.de,ksk-reutlingen.de,sparkasse-sha.de,sparkasse-gelsenkirchen.de,spk-in-ei.de,sparkasse-fulda.de,ksk-gelnhausen.de,sparkasse-hochfranken.de,sparkasse-wetzlar.de,sparkasse-unnakamen.de,wespa.de,spkvr.de,kskbb.de,ksk-tut.de,sparkasse-rhein-haardt.de,sparkasse-siegen.de,spk-vorpommern.de,sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de,sparkasse-pm.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .dwa-cms-ui-cookie
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se##.dwa-cms-ui-cookie
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se#$#body,html { overflow: auto !important; position: initial !important; }
@@ -43696,6 +43698,9 @@ uhb.nhs.uk#$#body,html { overflow: auto !important; position: initial !important
 ! pl.canalplus.com
 canalplus.com##.Overlayer
 canalplus.com#$#html,body { position: static !important; overflow: auto !important; width: auto !important; }
+! weather.com privacy popup
+weather.com##div[class*="PrivacyConsentModal"]
+weather.com#%#//scriptlet('ubo-rc.js', 'modalOpen', 'body', 'stay')
 ! clasohlson.com
 clasohlson.com##.cookie-bar-overlay
 clasohlson.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -45280,6 +45285,7 @@ bbc.com###zephr-message
 sciencenews.org###zephr-user-form-root
 pirg.org##.-gg\:1.-mb\:3
 fivebooks.com##.-newsletter
+weather.com##.AnonymousNewsletter--AnonymousNewsletter--1Btxs
 newshub.co.nz##.ArticleAttribution
 laist.com##.ArticlePage-aside-content
 outdoorstatus.com##.ArticleSignupForm
@@ -46655,6 +46661,7 @@ culturemap.com##.z-newsletter
 nypost.com,pagesix.com##.zephr-component
 bbc.com##.zephr-overlay
 minds.com##M-MODAL
+weather.com##[aria-label="The Weather Channel Newsletter"]
 therealdeal.com##[class*="Newsletter"]
 axios.com##[class*="StoryPageCTA_story-page-cta_"]
 animalchannel.co,homehacks.co,parentingisnteasy.co,relieved.co,seeitlive.co,spotlightstories.co,sweetandsavory.co##[class="md:mt-10"]
@@ -48547,7 +48554,7 @@ lactostop.de#%#//scriptlet('ubo-rc.js', 'layerActive', '', 'stay')
 spilger.de#%#//scriptlet('ubo-rc.js', 'cookiebar-open', 'body', 'stay')
 dbs.si#%#//scriptlet('ubo-rc.js', 'blur', 'body', 'stay')
 abcya.com#%#//scriptlet('ubo-rc.js', 'cookie', '', 'stay')
-jongcdenv.be,umicore.jp,umicore.cn,umicore.pl,umicore.kr,umicore.co.th,umicore.fr,umicore.de,donneurdecellulessouches.be,stammzellenspender.be,stemcelldonor.be,umicore.com,umicore.com.br,koenvandenheuvel.be,stamceldonor.be,nahima.be#%#//scriptlet('ubo-rc.js', 'cookieconsent-active', 'body', 'stay')
+umicore.be,umicore.fi,umicore.ca,umicore.be,jongcdenv.be,umicore.jp,umicore.cn,umicore.pl,umicore.kr,umicore.co.th,umicore.fr,umicore.de,donneurdecellulessouches.be,stammzellenspender.be,stemcelldonor.be,umicore.com,umicore.com.br,koenvandenheuvel.be,stamceldonor.be,nahima.be#%#//scriptlet('ubo-rc.js', 'cookieconsent-active', 'body', 'stay')
 catused.com#%#//scriptlet('ubo-rc.js', 'cookieMsg', '', 'stay')
 eujuicers.cz#%#//scriptlet('ubo-rc.js', 'cookie_consent__alert', '', 'stay')
 graziellawicki.com,funnelcockpit.com#%#//scriptlet('ubo-rc.js', 'gdpr-cookie-notice-center-loaded', '', 'stay')
@@ -49798,8 +49805,8 @@ gera.de##.cookie-banner-container
 gera.de##.cookie-banner-overlay-blocker
 gera.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .if6_eprivacy
-foerde-sparkasse.de,sparkasse-pforzheim-calw.de,sparkasse-essen.de,sparkasse-bochum.de,sparkasse-re.de,sparkasse-krefeld.de,sparkasse-lemgo.de,sparkasse-ansbach.de,spk-elbe-elster.de,spk-goettingen.de,kskmayen.de,sparkasse-lueneburg.de,sparkasse-moenchengladbach.de,sparkasse-emsland.de,spk-arnstadt-ilmenau.de,sparkasse-leerwittmund.de,sparkasse-nordhorn.de,stadtsparkasse-bocholt.de,spk-mecklenburg-nordwest.de,sparkasse-rhein-nahe.de,taunussparkasse.de,ksk-ostalb.de,spk-schaumburg.de,sparkasse-amberg-sulzbach.de,sparkasse-hamm.de,spk-swb.de,sparkasse-lev.de,sparkasse-mecklenburg-schwerin.de,sparkasse-westmuensterland.de,s-kukc.de,spk-luebeck.de,ksn-northeim.de,ksk-verden.de,sparkasse-koblenz.de,sparkasse-saarbruecken.de,sparkasse-uelzen-luechow-dannenberg.de,sparkasse-witten.de,kskwd.de,sparkasse-oberpfalz-nord.de,sparkasse-vorderpfalz.de,sparkasse-giessen.de,sparkasse-oberhessen.de,spk-westholstein.de,haspa.de,bw-bank.de,sparkasse-leipzig.de,sparkasse-nuernberg.de,sparkasse-muensterland-ost.de,sparkasse-bremen.de,lzo.com,spk-chemnitz.de,sparkasse-mainfranken.de,sparkasse-dortmund.de,blsk.de,sskduesseldorf.de,ksk-es.de,sparkasse-offenburg.de,sparkasse-hgp.de,sparkasse-heidelberg.de,sparkasse-erlangen.de,sparkasse-mittelthueringen.de,ksk-fds.de,sparkasse-osnabrueck.de,sparkasse-ulm.de,sparkasse-karlsruhe.de,kreissparkasse-ravensburg.de,naspa.de,kskwn.de,sparkasse-am-niederrhein.de,sparkasse-herford.de,nospa.de,sparkasse-bamberg.de,kskmse.de,skmb.de,sparkasse-magdeburg.de,spk-suedholstein.de,ksk-reutlingen.de,sparkasse-sha.de,sparkasse-gelsenkirchen.de,spk-in-ei.de,sparkasse-fulda.de,ksk-gelnhausen.de,sparkasse-hochfranken.de,sparkasse-wetzlar.de,sparkasse-unnakamen.de,wespa.de,spkvr.de,kskbb.de,ksk-tut.de,sparkasse-rhein-haardt.de,sparkasse-siegen.de,spk-vorpommern.de,sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de##.if6_eprivacy
-foerde-sparkasse.de,sparkasse-pforzheim-calw.de,sparkasse-essen.de,sparkasse-bochum.de,sparkasse-re.de,sparkasse-krefeld.de,sparkasse-lemgo.de,sparkasse-ansbach.de,spk-elbe-elster.de,spk-goettingen.de,kskmayen.de,sparkasse-lueneburg.de,sparkasse-moenchengladbach.de,sparkasse-emsland.de,spk-arnstadt-ilmenau.de,sparkasse-leerwittmund.de,sparkasse-nordhorn.de,stadtsparkasse-bocholt.de,spk-mecklenburg-nordwest.de,sparkasse-rhein-nahe.de,taunussparkasse.de,ksk-ostalb.de,spk-schaumburg.de,sparkasse-amberg-sulzbach.de,sparkasse-hamm.de,spk-swb.de,sparkasse-lev.de,sparkasse-mecklenburg-schwerin.de,sparkasse-westmuensterland.de,s-kukc.de,spk-luebeck.de,ksn-northeim.de,ksk-verden.de,sparkasse-koblenz.de,sparkasse-saarbruecken.de,sparkasse-uelzen-luechow-dannenberg.de,sparkasse-witten.de,kskwd.de,sparkasse-oberpfalz-nord.de,sparkasse-vorderpfalz.de,sparkasse-giessen.de,sparkasse-oberhessen.de,spk-westholstein.de,haspa.de,bw-bank.de,sparkasse-leipzig.de,sparkasse-nuernberg.de,sparkasse-muensterland-ost.de,sparkasse-bremen.de,lzo.com,spk-chemnitz.de,sparkasse-mainfranken.de,sparkasse-dortmund.de,blsk.de,sskduesseldorf.de,ksk-es.de,sparkasse-offenburg.de,sparkasse-hgp.de,sparkasse-heidelberg.de,sparkasse-erlangen.de,sparkasse-mittelthueringen.de,ksk-fds.de,sparkasse-osnabrueck.de,sparkasse-ulm.de,sparkasse-karlsruhe.de,kreissparkasse-ravensburg.de,naspa.de,kskwn.de,sparkasse-am-niederrhein.de,sparkasse-herford.de,nospa.de,sparkasse-bamberg.de,kskmse.de,skmb.de,sparkasse-magdeburg.de,spk-suedholstein.de,ksk-reutlingen.de,sparkasse-sha.de,sparkasse-gelsenkirchen.de,spk-in-ei.de,sparkasse-fulda.de,ksk-gelnhausen.de,sparkasse-hochfranken.de,sparkasse-wetzlar.de,sparkasse-unnakamen.de,wespa.de,spkvr.de,kskbb.de,ksk-tut.de,sparkasse-rhein-haardt.de,sparkasse-siegen.de,spk-vorpommern.de,sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de#$#body,html { overflow: auto !important; position: initial !important; }
+foerde-sparkasse.de,sparkasse-pforzheim-calw.de,sparkasse-essen.de,sparkasse-bochum.de,sparkasse-re.de,sparkasse-krefeld.de,sparkasse-lemgo.de,sparkasse-ansbach.de,spk-elbe-elster.de,spk-goettingen.de,kskmayen.de,sparkasse-lueneburg.de,sparkasse-moenchengladbach.de,sparkasse-emsland.de,spk-arnstadt-ilmenau.de,sparkasse-leerwittmund.de,sparkasse-nordhorn.de,stadtsparkasse-bocholt.de,spk-mecklenburg-nordwest.de,sparkasse-rhein-nahe.de,taunussparkasse.de,ksk-ostalb.de,spk-schaumburg.de,sparkasse-amberg-sulzbach.de,sparkasse-hamm.de,spk-swb.de,sparkasse-lev.de,sparkasse-mecklenburg-schwerin.de,sparkasse-westmuensterland.de,s-kukc.de,spk-luebeck.de,ksn-northeim.de,ksk-verden.de,sparkasse-koblenz.de,sparkasse-saarbruecken.de,sparkasse-uelzen-luechow-dannenberg.de,sparkasse-witten.de,kskwd.de,sparkasse-oberpfalz-nord.de,sparkasse-vorderpfalz.de,sparkasse-giessen.de,sparkasse-oberhessen.de,spk-westholstein.de,haspa.de,bw-bank.de,sparkasse-leipzig.de,sparkasse-nuernberg.de,sparkasse-muensterland-ost.de,sparkasse-bremen.de,lzo.com,spk-chemnitz.de,sparkasse-mainfranken.de,sparkasse-dortmund.de,blsk.de,sskduesseldorf.de,ksk-es.de,sparkasse-offenburg.de,sparkasse-hgp.de,sparkasse-heidelberg.de,sparkasse-erlangen.de,sparkasse-mittelthueringen.de,ksk-fds.de,sparkasse-osnabrueck.de,sparkasse-ulm.de,sparkasse-karlsruhe.de,kreissparkasse-ravensburg.de,naspa.de,kskwn.de,sparkasse-am-niederrhein.de,sparkasse-herford.de,nospa.de,sparkasse-bamberg.de,kskmse.de,skmb.de,sparkasse-magdeburg.de,spk-suedholstein.de,ksk-reutlingen.de,sparkasse-sha.de,sparkasse-gelsenkirchen.de,spk-in-ei.de,sparkasse-fulda.de,ksk-gelnhausen.de,sparkasse-hochfranken.de,sparkasse-wetzlar.de,sparkasse-unnakamen.de,wespa.de,spkvr.de,kskbb.de,ksk-tut.de,sparkasse-rhein-haardt.de,sparkasse-siegen.de,spk-vorpommern.de,sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de,sparkasse-pm.de##.if6_eprivacy
+foerde-sparkasse.de,sparkasse-pforzheim-calw.de,sparkasse-essen.de,sparkasse-bochum.de,sparkasse-re.de,sparkasse-krefeld.de,sparkasse-lemgo.de,sparkasse-ansbach.de,spk-elbe-elster.de,spk-goettingen.de,kskmayen.de,sparkasse-lueneburg.de,sparkasse-moenchengladbach.de,sparkasse-emsland.de,spk-arnstadt-ilmenau.de,sparkasse-leerwittmund.de,sparkasse-nordhorn.de,stadtsparkasse-bocholt.de,spk-mecklenburg-nordwest.de,sparkasse-rhein-nahe.de,taunussparkasse.de,ksk-ostalb.de,spk-schaumburg.de,sparkasse-amberg-sulzbach.de,sparkasse-hamm.de,spk-swb.de,sparkasse-lev.de,sparkasse-mecklenburg-schwerin.de,sparkasse-westmuensterland.de,s-kukc.de,spk-luebeck.de,ksn-northeim.de,ksk-verden.de,sparkasse-koblenz.de,sparkasse-saarbruecken.de,sparkasse-uelzen-luechow-dannenberg.de,sparkasse-witten.de,kskwd.de,sparkasse-oberpfalz-nord.de,sparkasse-vorderpfalz.de,sparkasse-giessen.de,sparkasse-oberhessen.de,spk-westholstein.de,haspa.de,bw-bank.de,sparkasse-leipzig.de,sparkasse-nuernberg.de,sparkasse-muensterland-ost.de,sparkasse-bremen.de,lzo.com,spk-chemnitz.de,sparkasse-mainfranken.de,sparkasse-dortmund.de,blsk.de,sskduesseldorf.de,ksk-es.de,sparkasse-offenburg.de,sparkasse-hgp.de,sparkasse-heidelberg.de,sparkasse-erlangen.de,sparkasse-mittelthueringen.de,ksk-fds.de,sparkasse-osnabrueck.de,sparkasse-ulm.de,sparkasse-karlsruhe.de,kreissparkasse-ravensburg.de,naspa.de,kskwn.de,sparkasse-am-niederrhein.de,sparkasse-herford.de,nospa.de,sparkasse-bamberg.de,kskmse.de,skmb.de,sparkasse-magdeburg.de,spk-suedholstein.de,ksk-reutlingen.de,sparkasse-sha.de,sparkasse-gelsenkirchen.de,spk-in-ei.de,sparkasse-fulda.de,ksk-gelnhausen.de,sparkasse-hochfranken.de,sparkasse-wetzlar.de,sparkasse-unnakamen.de,wespa.de,spkvr.de,kskbb.de,ksk-tut.de,sparkasse-rhein-haardt.de,sparkasse-siegen.de,spk-vorpommern.de,sparkasse-heilbronn.de,ostsaechsische-sparkasse-dresden.de,s-jena.de,stadtsparkasse-oberhausen.de,sparkasse-pdh.de,berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-hrv.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de,sska.de,sparkasse-pm.de#$#body,html { overflow: auto !important; position: initial !important; }
 !! .dwa-cms-ui-cookie
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se##.dwa-cms-ui-cookie
 dasweltauto.com.mx,vgacertifiedpreowned.com.au,dasweltauto.se#$#body,html { overflow: auto !important; position: initial !important; }
@@ -50533,6 +50540,9 @@ uhb.nhs.uk#$#body,html { overflow: auto !important; position: initial !important
 ! pl.canalplus.com
 canalplus.com##.Overlayer
 canalplus.com#$#html,body { position: static !important; overflow: auto !important; width: auto !important; }
+! weather.com privacy popup
+weather.com##div[class*="PrivacyConsentModal"]
+weather.com#%#//scriptlet('ubo-rc.js', 'modalOpen', 'body', 'stay')
 ! clasohlson.com
 clasohlson.com##.cookie-bar-overlay
 clasohlson.com#$#body,html { overflow: auto !important; position: initial !important; }
@@ -55479,6 +55489,7 @@ justjoin.it##.jss218
 justjoin.it##.jss243
 processos.tribunais.org.pt##.justica-cookie_bar
 tv.quattroruote.it##.jw-popups
+bmartigrafiche.it##.main-container-cookie-banner
 ari.it,supermeteo.com##.message
 emiliaromagnasport.com,marchesport.info##.modal-backdrop
 telethon.it##.modalMessage
@@ -55704,6 +55715,7 @@ przyspiesz.pl###container_vsm
 krsystem.pl###cook
 eastnews.pl###cookie-frame
 przystanki.bialystok.pl###cookie-info-overlay
+stylchen.pl###cookieMonsterOvr
 binkowskihotel.pl###cookieWarningNew
 esbank.pl###cookie_info_es
 net-s.pl###cookie_info_sel1_n
