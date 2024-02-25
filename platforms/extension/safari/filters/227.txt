@@ -1,14 +1,14 @@
-! Checksum: RvdgEEpyf88uzqo9hn1KWg
-! Diff-Path: ../patches/227/227-s-1708736829-14400.patch
+! Checksum: Dig6tcPgu4r3TkAZpDuJ4g
+! Diff-Path: ../patches/227/227-s-1708880830-14400.patch
 ! Title: List-KR
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.77
-! TimeUpdated: 2024-02-24T01:02:47+00:00
+! Version: 2.0.17.78
+! TimeUpdated: 2024-02-25T17:02:50+00:00
 ! Expires: 1 day (update frequency)
 !
 ! Title: List-KR for AdGuard
 ! Description: List-KR for AdGuard. Maintained by the adblock community and AdGuard.
-! OriginalVersion: 2024.0224.0
+! OriginalVersion: 2024.0225.0
 ! Expires: 1 day
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://community.list-kr.com/docs/
@@ -1498,6 +1498,7 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 !
+gall.dcinside.com##article#write_wrap > #write >  div[style]:has(ins.kakao_ad_area)
 monitor.co.kr##div[class^="notice"] .notice td[bgcolor="white"]:has(ins.adsbygoogle)
 bbs.ruliweb.com###board_top .best_list ~ .border_box
 doctorjob.co.kr##.grand_banner

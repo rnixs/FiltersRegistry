@@ -1,9 +1,9 @@
-! Checksum: ElYCKQCde+UHuOYM7a2PuQ
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1708866406-14400.patch
+! Checksum: NwD/RggntBKnbTQCCZoMyA
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1708880806-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.75
-! TimeUpdated: 2024-02-25T13:02:26+00:00
+! Version: 2.1.21.76
+! TimeUpdated: 2024-02-25T17:02:28+00:00
 ! Expires: 10 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -12081,6 +12081,7 @@ aarp.org##.backgroundParsys
 freecodecamp.org,monkeytype.com,singsnap.com,wikipedia.org##.banner
 jumia.ci,jumia.co.ke,jumia.com.dz,jumia.com.eg,jumia.com.gh,jumia.com.ng,jumia.com.tn,jumia.ma,jumia.sn,jumia.ug##.banner-pop
 billboard.com##.bb-pro-promotional-banner
+scribd.com##.between_page_portal_root
 kitchenknifeforums.com##.block-row.block-body
 newsnow.co.uk##.blocker
 aclu.org##.blocklink-container
@@ -12237,6 +12238,8 @@ xhamster.com,xhamster.desi##a[class*="promoMessageBanner-"]
 tech-camp.in##a[data-gtm-tcb="TCB_CLICK_scrollbanner_default_exp_income"]
 tech-camp.in##a[data-gtm-tcb^="TCB_CLICK_buntyubanner_"]
 amazon.com##div[class^="DesktopFlexBannerLayout-module__playerContainer_"]
+scribd.com##div[data-testid="bottom-right-mrec"]
+scribd.com##div[data-testid="sticky-wrapper"]
 softwarekeep.com##img[alt="Banner"]
 archdaily.com###article-navigation
 castanet.net###backtotop
@@ -12438,6 +12441,8 @@ zippia.com#%#//scriptlet('ubo-cookie-remover.js', '_zippia-popup-s_t')
 opensecrets.org##.is-visible.js-init.Modal
 opensecrets.org#%#//scriptlet('ubo-rc.js', 'js-no-scroll', 'html', 'stay')
 kartable.fr#$#body,html { overflow: auto !important; position: initial !important; }
+scribd.com#$#._2kkM6y { padding-top: unset !important; }
+scribd.com##div[data-testid="desktop-leaderboard"]
 shein.com##.c-vue-coupon
 shein.com##.sui-modal
 shein.com#$#body { overflow: auto !important; position: initial !important; }
@@ -17121,6 +17126,8 @@ zippia.com#%#//scriptlet('ubo-cookie-remover.js', '_zippia-popup-s_t')
 opensecrets.org##.is-visible.js-init.Modal
 opensecrets.org#%#//scriptlet('ubo-rc.js', 'js-no-scroll', 'html', 'stay')
 kartable.fr#$#body,html { overflow: auto !important; position: initial !important; }
+scribd.com#$#._2kkM6y { padding-top: unset !important; }
+scribd.com##div[data-testid="desktop-leaderboard"]
 shein.com##.c-vue-coupon
 shein.com##.sui-modal
 shein.com#$#body { overflow: auto !important; position: initial !important; }
