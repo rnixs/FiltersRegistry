@@ -1,9 +1,9 @@
-! Checksum: Ea9/+hi/AWRD3PrXVzUTxA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708878994-3600.patch
+! Checksum: 7ABX5457wgbQjjaK67YNZw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708893381-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.24.1
-! TimeUpdated: 2024-02-25T16:33:05+00:00
+! Version: 2.3.24.2
+! TimeUpdated: 2024-02-25T20:33:04+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -19954,6 +19954,7 @@ _800x80_
 ##[id^="ad_sky"]
 ##[id^="div-gpt-ad"]
 ##[name^="google_ads_iframe"]
+##a[data-href^="http://ads.trafficjunky.net/"]
 ##a[href*=".engine.adglare.net/"]
 ##a[href*=".foxqck.com/"]
 ##a[href*=".g2afse.com/"]
@@ -20601,6 +20602,7 @@ browsershots.org#@#.advert_area
 ||4ed196b502.com^
 ||4hfchest5kdnfnut.com^
 ||4kggatl1p7ps.top^
+||4lke.online^
 ||4wnet.com^
 ||4wnetwork.com^
 ||508ec56533e3937e.com^
@@ -23340,6 +23342,7 @@ browsershots.org#@#.advert_area
 ||energeticrecognisepostcard.com^
 ||eniesdzgowy.com^
 ||enisleslonely.com^
+||enjehdch.xyz^
 ||enkijanuary.digital^
 ||enkvmrkwrnzel.top^
 ||enmewdrafter.top^
@@ -27168,6 +27171,7 @@ browsershots.org#@#.advert_area
 ||ptlwm.com^
 ||ptlwmstc.com^
 ||ptmtbpli.com^
+||ptoagnin.xyz^
 ||ptoahaistais.com^
 ||ptoockex.xyz^
 ||ptookoar.net^
@@ -28945,6 +28949,7 @@ browsershots.org#@#.advert_area
 ||tunisiarivel.top^
 ||tunnelbuilder.top^
 ||tupwiwm.com^
+||tuqizi.uno^
 ||turboadv.com^
 ||turbocap.net^
 ||turdinexylenyl.guru^
@@ -29398,6 +29403,7 @@ browsershots.org#@#.advert_area
 ||vstserv.com^
 ||vstvstsa.com^
 ||vsucocesisful.com^
+||vtabnalp.net^
 ||vttbtsamsbbcpgy.com^
 ||vtveyowwjvz.com^
 ||vtvkkbasfm.com^
@@ -30798,6 +30804,7 @@ browsershots.org#@#.advert_area
 ||viatechonline.com^$popup
 ||viiavjpe.com^$popup
 ||vowpairmax.live^$popup
+||vtabnalp.net^$popup
 ||waisheph.com^$popup
 ||wantatop.com^$popup
 ||wargaming-aff.com^$popup
@@ -31877,6 +31884,11 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||ps0z.com/300x250b
 ||qovua60gue.tubewolf.com^
 ||redgifs.com/assets/js/goCtrl.js
+||rockpoint.xhamster.com^
+||rockpoint.xhamster.desi^
+||rockpoint.xhamster2.com^
+||rockpoint.xhamster3.com^
+||rockpoint.xhamster42.desi^
 ||rtb-1.jizzberry.com^
 ||rtb-1.mylust.com^
 ||rule34.xxx/images/r34_doll.png
@@ -33996,6 +34008,7 @@ xhamster.com##.promo-message
 viptube.com##.promotion
 tnaflix.com##.pspBanner
 spankbang.com##.ptgncdn_holder
+pornhub.com##.realsex
 svscomics.com##.regi
 bestjavporn.com##.related-native-banner
 cumlouder.com##.related-sites

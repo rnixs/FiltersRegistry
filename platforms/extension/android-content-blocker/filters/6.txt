@@ -1,9 +1,9 @@
-! Checksum: fVi/1A8Jri3y/3zd2DKeBA
-! Diff-Path: ../patches/6/6-s-1708878975-3600.patch
+! Checksum: Tqm3vfmm1YxsdTRu2Uo/aw
+! Diff-Path: ../patches/6/6-s-1708893368-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.66
-! TimeUpdated: 2024-02-25T16:33:31+00:00
+! Version: 2.0.40.67
+! TimeUpdated: 2024-02-25T20:33:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10363,7 +10363,7 @@ via-ferrata.de##div[class^="overlay-"]
 grenzecho.net##div[class^="pane-dpipub-"]
 pictures-magazin.de##div[class^="pictu-"]
 rundschau.info##div[class^="runds-werbung-"]
-berliner-kurier.de##div[class^="showheroes_"]
+berliner-kurier.de,berliner-zeitung.de##div[class^="showheroes_"]
 berliner-kurier.de,berliner-zeitung.de,evangelische-zeitung.de##div[class^="traffective_"]
 winfuture.de##div[class^="ws_contentAd"]
 amazon.de##div[data-ad-id]
