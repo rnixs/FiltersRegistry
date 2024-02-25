@@ -1,15 +1,15 @@
-! Checksum: ELLdsOz3OaIyRVXelSG44A
-! Diff-Path: ../patches/122/122-s-1708823193-14400.patch
+! Checksum: zM1fsogIgcGF9xA5rJlOeQ
+! Diff-Path: ../patches/122/122-s-1708837615-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.72
-! TimeUpdated: 2024-02-25T01:02:25+00:00
+! Version: 2.1.21.73
+! TimeUpdated: 2024-02-25T05:02:44+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: IRClJIjJgghSsXc/tj9Omw
-! OriginalVersion: 202402250015
+! Checksum: sL8EXhx3tuPNwzX9ApNTEw
+! OriginalVersion: 202402250415
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-25 00:15 UTC
+! Last modified: 2024-02-25 04:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10120,6 +10120,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.parler-icon
 ##.partage-twitter
 ##.partage_contenu
+##.partial-share
 ##.pathSocialIcons
 ##.patient-likebox
 ##.patreon-button-facebook
@@ -33859,6 +33860,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.unit--newsletter
 ##.unitnewsletter
 ##.vc-email-subscribe__wrapper
+##.vc_newsletters_subscription
 ##.vspl__section--newsletter
 ##.wcpopupmodal-open
 ##.wcpopupmodal-wrapper-open
@@ -34203,7 +34205,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ||jsdelivr.net/npm/disable-devtool
 ||judge.me^$third-party
 ||jugglu.com^$third-party
-||justanswer.com^$third-party
 ||kaango.com/feCustomWidgetDisplay/$third-party
 ||ko-fi.com/cdn/widget/$third-party
 ||leadacity.net^$third-party
@@ -37604,6 +37605,7 @@ foodbeast.com##.fdbst-share-button
 sacurrent.com##.fdn-icon-button-smaller
 phoenixnewtimes.com##.fdn-site-header-social-icons
 eadaily.com##.feed
+teaonews.co.nz##.ffsAxx
 thebarentsobserver.com##.field-name-sharing-buttons-1
 thebarentsobserver.com##.field-name-sharing-buttons-2
 straitstimes.com##.field-name-telegram
@@ -38180,7 +38182,7 @@ gmx.net##ui-social
 jagranjosh.com##ul[class^="Details_Social_"]
 dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
 !! .share-links
-ansa.it,cryptopotato.com,eff.org,ewn.co.za,hannity.com,jurist.org,lagaceta.com.ec,menselijklichaam.nl,mobilesyrup.com,mole24.it,sampdoria.it,upcomingvinyl.com,vivercomsaude.site##.share-links
+ansa.it,cryptopotato.com,eff.org,ewn.co.za,hannity.com,jurist.org,lagaceta.com.ec,menselijklichaam.nl,miragenews.com,mobilesyrup.com,mole24.it,sampdoria.it,upcomingvinyl.com,vivercomsaude.site##.share-links
 !! .share-buttons
 adressa.no,alwatanvoice.com,apk4free.org,auto-moto.com,bank.gov.ua,criminaljusticedegreehub.com,datingscammer.info,design-milk.com,diariolasamericas.com,diariouno.com.ar,exputer.com,ff-bz.com,gamosaurus.com,investigativepost.org,letrap.com.ar,mediaplaynews.com,metro.co.uk,nbcbayarea.com,nbcboston.com,nbcchicago.com,nbcconnecticut.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com,necn.com,olhardigital.com.br,pastebin.pl,psychologies.com,psychologytoday.com,robbreport.com,spy.com,telemundo20.com,telemundo31.com,telemundo33.com,telemundo40.com,telemundo47.com,telemundo48elpaso.com,telemundo49.com,telemundo51.com,telemundo52.com,telemundo62.com,telemundoareadelabahia.com,telemundoarizona.com,telemundochicago.com,telemundodallas.com,telemundodenver.com,telemundofresno.com,telemundohouston.com,telemundolasvegas.com,telemundonuevainglaterra.com,telemundonuevomexico.com,telemundopr.com,telemundosanantonio.com,telemundoutah.com,telemundowashingtondc.com,tenor.com,vlaamskijken.nl##.share-buttons
 !! .ActionBar
@@ -38196,7 +38198,7 @@ almanar.com.lb,bergamonews.it,fantasymagazine.it,overwolf.com,tirto.id##.share-b
 !! .twitter
 agenziacasaclima.it,anandtech.com,bdonline.co.uk,buzzfil.com,cadenaazul.com,catapult.co,clubic.com,filmgo.org,gameranx.com,habrahabr.ru,howtogeek.com,iexprofs.nl,ifun.de,ilfoglio.it,iphone-ticker.de,lci.tf1.fr,lesoir.be,lounge.fm,ludokado.com,mf24.pl,miningjournal.net,nikkei-cnbc.co.jp,ondacero.es,peoplesweather.com,programme-tv.net,rfm.fr,richersounds.com,screendaily.com,shortlist.com,teleticino.ch,todomercadoweb.es,tripstodiscover.com,trt.net.tr,trueachievements.com,truesteamachievements.com,tuttomercatoweb.com,webnews.it,yoink.com##.twitter
 !! .socials
-addictivetips.com,ambito.com,anews.com.tr,animeworld.tv,az.nl,bazar.it,cracked.com,dacast.com,einbecker-morgenpost.de,ezalenyeg.hu,fastweb.it,hirtv.hu,instant-gaming.com,ipwatchdog.com,iranpress.com,jagranjosh.com,kyivpost.com,laprovinciadicomo.it,mob.org,ouest-france.fr,radiolina.it,recyclingproductnews.com,rt.com,secoloditalia.it,thejc.com,videolina.it##.socials
+addictivetips.com,ambito.com,anews.com.tr,animeworld.tv,az.nl,bazar.it,cracked.com,dacast.com,einbecker-morgenpost.de,ezalenyeg.hu,fastweb.it,hirtv.hu,instant-gaming.com,ipwatchdog.com,iranpress.com,jagranjosh.com,kyivpost.com,laprovinciadicomo.it,mob.org,ouest-france.fr,radiolina.it,recyclingproductnews.com,rt.com,secoloditalia.it,sportwebsicilia.it,thejc.com,videolina.it##.socials
 !! .social-icons
 abc13.com,akkogear.com.vn,changer4u.com,cuevanahd.net,davidwalsh.name,dcrainmaker.com,dreambigtravelfarblog.com,esquerdaonline.com.br,futurity.org,glas-javnosti.rs,ijr.com,justthenews.com,letras.mus.br,liliputing.com,nypost.com,observer.com,pelisplus2.ai,pink.rs,publicdomainreview.org,scmagazine.com,screenshot-media.com,superporn.com,the-decoder.com,thetoyinsider.com,thewindowsclub.com,trtafrika.com,trtarabi.com,trtbalkan.com,trtdeutsch.com,trtfrancais.com,trtrussian.com##.social-icons
 !! .article-share
@@ -40882,7 +40884,7 @@ proprospan.ru,worksmile.com##.cookies-component
 !! #cc-main
 jackbox.tv,kirchberg.ch,ndsas.sk,sardynkibiznesu.pl,trakt.tv###cc-main
 !! #cc--main
-alde.se,arbetsgivarverket.se,bambulab.com,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,defector.com,feedoptimise.com,flowforge.com,gatehousebank.com,kroo.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,stocksy.com,streetsblog.org,suncalc.org,teksavvy.com,ungeziefer-ratgeber.info,wifiwijs.nl###cc--main
+alde.se,arbetsgivarverket.se,bambulab.com,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,defector.com,feedoptimise.com,flowforge.com,gatehousebank.com,kroo.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,teksavvy.com,ungeziefer-ratgeber.info,wifiwijs.nl###cc--main
 !! .c--anim
 a24films.com,accademia-agricoltura.it,actualidadempleo.es,aftermath.site,alpha-heidelberg.de,amperecomputing.com,auraton.cz,bicidastrada.it,brnooffice.cz,byu.edu,cgmfinance.it,cubeshot.io,diderot.sk,ebikecult.it,elettricomagazine.it,emmellearredamenti.com,fanfiktion.de,fazzini.sk,fcvysocina.cz,federgolf.it,ferbafran.com,fiumewine.com,floorpark.cz,gaminternational.it,giga-hamburg.de,handylex.org,hippogroup.it,import-sport.com,izolace-info.cz,klasikcz.eu,locandadelledune.it,macrent.se,mtbcult.it,nabytek-alesvit.cz,nasejimky.cz,natureticabielli.it,netzwerk-kinderschutz-msh.de,nicelocal.com.de,passionemaglie.it,perugiassisi.org,plateuptools.com,plus-gp-joule.de,ppeshop.cz,rptuning.cz,ruinimarco.it,santarcangelobasket.com,sbcomp.cz,senkyrik.cz,shop.dicompass.cloud,sponkovacky-kovani-vruty.cz,svet-topeni.eu,systeminit.com,tagvenue.com,tgyou24.it,tokarex.cz,trakt.tv,tuttopisa.com,universoinformatico24.it,vinoplacek.cz,vkcyklosport.cz,www.query.cz,xn--audiodiqualit-1db.com,yalemedicine.org,zeno.fm##.c--anim
 !! #wr-c
@@ -41808,8 +41810,8 @@ autodoc.de,autodoc.se,auto-doc.at,auto-doc.fr,autodoc.co.uk,auto-doc.it,justingu
 !! .cdk-overlay-container (non-scroll fix)
 cursr.app##.cdk-overlay-container
 !! .cdk-overlay-container
-technomarket.bg,digit-concept.group,u-bordeaux.fr,skaarup-fjernvarme.dk,ppk.pzu.pl,flyingblue.se,iqair.com,swedbank.se,roseoftralee.ie,soubha.info,rfeda.es,vivirasturias.com,energym-nerac.com,alkhabar.ma,fo-renault.com,cgt-renault.com,audiolivres.info,app.web-byte.de,hotellallastra.com,fosps.com,emons.it,emons.de,emons.cz,emons.pl,emons.ch,emons.com,cristopower.com,rodovrefjernvarme.dk,skjernfjernvarme.dk,aarsfjv.dk##.cdk-overlay-container
-technomarket.bg,digit-concept.group,u-bordeaux.fr,skaarup-fjernvarme.dk,ppk.pzu.pl,flyingblue.se,iqair.com,swedbank.se,roseoftralee.ie,soubha.info,rfeda.es,vivirasturias.com,energym-nerac.com,alkhabar.ma,fo-renault.com,cgt-renault.com,audiolivres.info,app.web-byte.de,hotellallastra.com,fosps.com,emons.it,emons.de,emons.cz,emons.pl,emons.ch,emons.com,cristopower.com,rodovrefjernvarme.dk,skjernfjernvarme.dk,aarsfjv.dk#$#html { position: static !important; overflow: auto !important; width: auto !important; }
+technomarket.bg,digit-concept.group,u-bordeaux.fr,skaarup-fjernvarme.dk,ppk.pzu.pl,flyingblue.se,iqair.com,roseoftralee.ie,soubha.info,rfeda.es,vivirasturias.com,energym-nerac.com,alkhabar.ma,fo-renault.com,cgt-renault.com,audiolivres.info,app.web-byte.de,hotellallastra.com,fosps.com,emons.it,emons.de,emons.cz,emons.pl,emons.ch,emons.com,cristopower.com,rodovrefjernvarme.dk,skjernfjernvarme.dk,aarsfjv.dk##.cdk-overlay-container
+technomarket.bg,digit-concept.group,u-bordeaux.fr,skaarup-fjernvarme.dk,ppk.pzu.pl,flyingblue.se,iqair.com,roseoftralee.ie,soubha.info,rfeda.es,vivirasturias.com,energym-nerac.com,alkhabar.ma,fo-renault.com,cgt-renault.com,audiolivres.info,app.web-byte.de,hotellallastra.com,fosps.com,emons.it,emons.de,emons.cz,emons.pl,emons.ch,emons.com,cristopower.com,rodovrefjernvarme.dk,skjernfjernvarme.dk,aarsfjv.dk#$#html { position: static !important; overflow: auto !important; width: auto !important; }
 !! .cookiemessagebackground
 1a-garten-krauss.de,floragard.de,kunzbaumschulen.ch,mauk-gartenwelt.de,rammes-gruenland.com,gartenbaumschule-becker.de,gartenwelt-dauchenbeck.de,garten-kremer.de,pflanzenkatalog.ley-baumschule.de,olerum.de,gartencenter-streb.de,1a-garten-hopp.de,1a-garten-weggler.de,1a-garten.de,app-baumschulen.de,aquatop-aachen.de,bauer-baumschulen.ch,baumschule-haid.de,baumschule-mueller.de,baumschule-plattner.de,baumschule-rosskamp.de,baumschule-stielau.de,baumschulen-suedost.at,bazle.de,beichel.com,bellandris-lueske.de,bellandris-woerlein.de,berghausener-blumentopf.de,blumen-dorn.de,blumen-eber.de,blumen-frondorf.de,blumen-osswald.com,blumen-radloff.de,blumen-tinneberg.de,blumen-wilking.de,blumenhof-pfeil.de,blumenland-halmer.de,blumenparadies-radtke.de,certech.de,dabluehichauf.de,deltaflor.de,donaumarkt-gartencenter.de,doschblumen.de,edelkamp.de,fahr-pflanzen.de,fenis-blumen.de,fgh.de,fischer-pflanzen.de,florado.de,florapark.de,florawelt.de,gaertnerei-dunst.de,gaertnerei-huebsch.de,gaertnerei-jandl.at,gaertnerei-jenkel.de,gaertnerei-otten.de,gaertnerei-petersen.de,gaertnerei-steinhilber.de,gaertnerei-sylvester.de,ganslmaier.de,garten-baumschule-woehrle.de,garten-center-spiegel.de,garten-reiter.de,garten-sauer.de,garten-vielfalt.de,gartencenter-bachmann.de,gartencenter-bergerhoff.de,gartencenter-braun.de,gartencenter-decker.de,gartencenter-erfurt.de,gartencenter-kruse.de,gartencenter-meckelburg.de,gartencenter-nickl.de,gartencenter-nordharz.de,gartencenter-schrieverhoff.de,gartencenter-stassen.de,gartengraaf.de,gartenundambiente.com,gartenvergnuegen-lochte.de,goeppert-gartencenter.de,hegemann-kwh.de,hollandpark.de,inflora.de,jensgerdes.de,kircher-collection.de,landgaertnerei-beier.de,magnus-gartenpark.de,mauch-garten.de,meineoldenburger.de,meyers-muehle.de,myrhodo.de,neiske.com,ottos-gartenparadies.de,pflanzen-breuer.de,pflanzen-fuer-unsere-gaerten.ch,pflanzenhof-plum.de,pflanzenhof-schuerg.de,pflanzenhof-vaihingen.de,pflanzenkonzepte.net,pflanzenmarkt-schlereth.de,pflanzenrichter.de,piardino.cz,piardino.eu,piardino.info,piardino.it,planterspunch.de,projektsicherheit.de,ritter-blumen.de,schley-gartencenter.de,schupp-gartencenter.de,seebauer.de,seeberger-pflanzenhof.de,selders-toni.de,shop.gaertnerei-heckel.com,sporleder-gaertnerei.de,stauden-siebler.de,stoecker-stauden.de,striebel-haus-des-gartens.de,uhlsalarymaxing.nhs.uk,urgibl.de,villaflora.de,voigt-pflanzenhof.de,weber-baumschule.de,wilsaflor.de,wingendorfer-gaertnerei.de,zanker.net,zirener-pflanzen.de##.cookiemessagebackground
 1a-garten-krauss.de,floragard.de,kunzbaumschulen.ch,mauk-gartenwelt.de,rammes-gruenland.com,gartenbaumschule-becker.de,gartenwelt-dauchenbeck.de,garten-kremer.de,pflanzenkatalog.ley-baumschule.de,olerum.de,gartencenter-streb.de,1a-garten-hopp.de,1a-garten-weggler.de,1a-garten.de,app-baumschulen.de,aquatop-aachen.de,bauer-baumschulen.ch,baumschule-haid.de,baumschule-mueller.de,baumschule-plattner.de,baumschule-rosskamp.de,baumschule-stielau.de,baumschulen-suedost.at,bazle.de,beichel.com,bellandris-lueske.de,bellandris-woerlein.de,berghausener-blumentopf.de,blumen-dorn.de,blumen-eber.de,blumen-frondorf.de,blumen-osswald.com,blumen-radloff.de,blumen-tinneberg.de,blumen-wilking.de,blumenhof-pfeil.de,blumenland-halmer.de,blumenparadies-radtke.de,certech.de,dabluehichauf.de,deltaflor.de,donaumarkt-gartencenter.de,doschblumen.de,edelkamp.de,fahr-pflanzen.de,fenis-blumen.de,fgh.de,fischer-pflanzen.de,florado.de,florapark.de,florawelt.de,gaertnerei-dunst.de,gaertnerei-huebsch.de,gaertnerei-jandl.at,gaertnerei-jenkel.de,gaertnerei-otten.de,gaertnerei-petersen.de,gaertnerei-steinhilber.de,gaertnerei-sylvester.de,ganslmaier.de,garten-baumschule-woehrle.de,garten-center-spiegel.de,garten-reiter.de,garten-sauer.de,garten-vielfalt.de,gartencenter-bachmann.de,gartencenter-bergerhoff.de,gartencenter-braun.de,gartencenter-decker.de,gartencenter-erfurt.de,gartencenter-kruse.de,gartencenter-meckelburg.de,gartencenter-nickl.de,gartencenter-nordharz.de,gartencenter-schrieverhoff.de,gartencenter-stassen.de,gartengraaf.de,gartenundambiente.com,gartenvergnuegen-lochte.de,goeppert-gartencenter.de,hegemann-kwh.de,hollandpark.de,inflora.de,jensgerdes.de,kircher-collection.de,landgaertnerei-beier.de,magnus-gartenpark.de,mauch-garten.de,meineoldenburger.de,meyers-muehle.de,myrhodo.de,neiske.com,ottos-gartenparadies.de,pflanzen-breuer.de,pflanzen-fuer-unsere-gaerten.ch,pflanzenhof-plum.de,pflanzenhof-schuerg.de,pflanzenhof-vaihingen.de,pflanzenkonzepte.net,pflanzenmarkt-schlereth.de,pflanzenrichter.de,piardino.cz,piardino.eu,piardino.info,piardino.it,planterspunch.de,projektsicherheit.de,ritter-blumen.de,schley-gartencenter.de,schupp-gartencenter.de,seebauer.de,seeberger-pflanzenhof.de,selders-toni.de,shop.gaertnerei-heckel.com,sporleder-gaertnerei.de,stauden-siebler.de,stoecker-stauden.de,striebel-haus-des-gartens.de,uhlsalarymaxing.nhs.uk,urgibl.de,villaflora.de,voigt-pflanzenhof.de,weber-baumschule.de,wilsaflor.de,wingendorfer-gaertnerei.de,zanker.net,zirener-pflanzen.de#$#body,html { overflow: auto !important; position: initial !important; }
@@ -45096,6 +45098,7 @@ ahchealthenews.com##.savicom-subscribe-widget
 thebudgetsavvybride.com##.savvy-target
 idropnews.com##.sb3
 complex.com##.sc-2ff98d60-0
+iol.co.za##.sc-kkGfuU.ufUAH
 wayfairertravel.com##.search-container2
 wethegeek.com##.sec-subscribe
 sainsburysmagazine.co.uk##.section--blue.section
@@ -47391,8 +47394,8 @@ autodoc.de,autodoc.se,auto-doc.at,auto-doc.fr,autodoc.co.uk,auto-doc.it,justingu
 !! .cdk-overlay-container (non-scroll fix)
 cursr.app##.cdk-overlay-container
 !! .cdk-overlay-container
-technomarket.bg,digit-concept.group,u-bordeaux.fr,skaarup-fjernvarme.dk,ppk.pzu.pl,flyingblue.se,iqair.com,swedbank.se,roseoftralee.ie,soubha.info,rfeda.es,vivirasturias.com,energym-nerac.com,alkhabar.ma,fo-renault.com,cgt-renault.com,audiolivres.info,app.web-byte.de,hotellallastra.com,fosps.com,emons.it,emons.de,emons.cz,emons.pl,emons.ch,emons.com,cristopower.com,rodovrefjernvarme.dk,skjernfjernvarme.dk,aarsfjv.dk##.cdk-overlay-container
-technomarket.bg,digit-concept.group,u-bordeaux.fr,skaarup-fjernvarme.dk,ppk.pzu.pl,flyingblue.se,iqair.com,swedbank.se,roseoftralee.ie,soubha.info,rfeda.es,vivirasturias.com,energym-nerac.com,alkhabar.ma,fo-renault.com,cgt-renault.com,audiolivres.info,app.web-byte.de,hotellallastra.com,fosps.com,emons.it,emons.de,emons.cz,emons.pl,emons.ch,emons.com,cristopower.com,rodovrefjernvarme.dk,skjernfjernvarme.dk,aarsfjv.dk#$#html { position: static !important; overflow: auto !important; width: auto !important; }
+technomarket.bg,digit-concept.group,u-bordeaux.fr,skaarup-fjernvarme.dk,ppk.pzu.pl,flyingblue.se,iqair.com,roseoftralee.ie,soubha.info,rfeda.es,vivirasturias.com,energym-nerac.com,alkhabar.ma,fo-renault.com,cgt-renault.com,audiolivres.info,app.web-byte.de,hotellallastra.com,fosps.com,emons.it,emons.de,emons.cz,emons.pl,emons.ch,emons.com,cristopower.com,rodovrefjernvarme.dk,skjernfjernvarme.dk,aarsfjv.dk##.cdk-overlay-container
+technomarket.bg,digit-concept.group,u-bordeaux.fr,skaarup-fjernvarme.dk,ppk.pzu.pl,flyingblue.se,iqair.com,roseoftralee.ie,soubha.info,rfeda.es,vivirasturias.com,energym-nerac.com,alkhabar.ma,fo-renault.com,cgt-renault.com,audiolivres.info,app.web-byte.de,hotellallastra.com,fosps.com,emons.it,emons.de,emons.cz,emons.pl,emons.ch,emons.com,cristopower.com,rodovrefjernvarme.dk,skjernfjernvarme.dk,aarsfjv.dk#$#html { position: static !important; overflow: auto !important; width: auto !important; }
 !! .cookiemessagebackground
 1a-garten-krauss.de,floragard.de,kunzbaumschulen.ch,mauk-gartenwelt.de,rammes-gruenland.com,gartenbaumschule-becker.de,gartenwelt-dauchenbeck.de,garten-kremer.de,pflanzenkatalog.ley-baumschule.de,olerum.de,gartencenter-streb.de,1a-garten-hopp.de,1a-garten-weggler.de,1a-garten.de,app-baumschulen.de,aquatop-aachen.de,bauer-baumschulen.ch,baumschule-haid.de,baumschule-mueller.de,baumschule-plattner.de,baumschule-rosskamp.de,baumschule-stielau.de,baumschulen-suedost.at,bazle.de,beichel.com,bellandris-lueske.de,bellandris-woerlein.de,berghausener-blumentopf.de,blumen-dorn.de,blumen-eber.de,blumen-frondorf.de,blumen-osswald.com,blumen-radloff.de,blumen-tinneberg.de,blumen-wilking.de,blumenhof-pfeil.de,blumenland-halmer.de,blumenparadies-radtke.de,certech.de,dabluehichauf.de,deltaflor.de,donaumarkt-gartencenter.de,doschblumen.de,edelkamp.de,fahr-pflanzen.de,fenis-blumen.de,fgh.de,fischer-pflanzen.de,florado.de,florapark.de,florawelt.de,gaertnerei-dunst.de,gaertnerei-huebsch.de,gaertnerei-jandl.at,gaertnerei-jenkel.de,gaertnerei-otten.de,gaertnerei-petersen.de,gaertnerei-steinhilber.de,gaertnerei-sylvester.de,ganslmaier.de,garten-baumschule-woehrle.de,garten-center-spiegel.de,garten-reiter.de,garten-sauer.de,garten-vielfalt.de,gartencenter-bachmann.de,gartencenter-bergerhoff.de,gartencenter-braun.de,gartencenter-decker.de,gartencenter-erfurt.de,gartencenter-kruse.de,gartencenter-meckelburg.de,gartencenter-nickl.de,gartencenter-nordharz.de,gartencenter-schrieverhoff.de,gartencenter-stassen.de,gartengraaf.de,gartenundambiente.com,gartenvergnuegen-lochte.de,goeppert-gartencenter.de,hegemann-kwh.de,hollandpark.de,inflora.de,jensgerdes.de,kircher-collection.de,landgaertnerei-beier.de,magnus-gartenpark.de,mauch-garten.de,meineoldenburger.de,meyers-muehle.de,myrhodo.de,neiske.com,ottos-gartenparadies.de,pflanzen-breuer.de,pflanzen-fuer-unsere-gaerten.ch,pflanzenhof-plum.de,pflanzenhof-schuerg.de,pflanzenhof-vaihingen.de,pflanzenkonzepte.net,pflanzenmarkt-schlereth.de,pflanzenrichter.de,piardino.cz,piardino.eu,piardino.info,piardino.it,planterspunch.de,projektsicherheit.de,ritter-blumen.de,schley-gartencenter.de,schupp-gartencenter.de,seebauer.de,seeberger-pflanzenhof.de,selders-toni.de,shop.gaertnerei-heckel.com,sporleder-gaertnerei.de,stauden-siebler.de,stoecker-stauden.de,striebel-haus-des-gartens.de,uhlsalarymaxing.nhs.uk,urgibl.de,villaflora.de,voigt-pflanzenhof.de,weber-baumschule.de,wilsaflor.de,wingendorfer-gaertnerei.de,zanker.net,zirener-pflanzen.de##.cookiemessagebackground
 1a-garten-krauss.de,floragard.de,kunzbaumschulen.ch,mauk-gartenwelt.de,rammes-gruenland.com,gartenbaumschule-becker.de,gartenwelt-dauchenbeck.de,garten-kremer.de,pflanzenkatalog.ley-baumschule.de,olerum.de,gartencenter-streb.de,1a-garten-hopp.de,1a-garten-weggler.de,1a-garten.de,app-baumschulen.de,aquatop-aachen.de,bauer-baumschulen.ch,baumschule-haid.de,baumschule-mueller.de,baumschule-plattner.de,baumschule-rosskamp.de,baumschule-stielau.de,baumschulen-suedost.at,bazle.de,beichel.com,bellandris-lueske.de,bellandris-woerlein.de,berghausener-blumentopf.de,blumen-dorn.de,blumen-eber.de,blumen-frondorf.de,blumen-osswald.com,blumen-radloff.de,blumen-tinneberg.de,blumen-wilking.de,blumenhof-pfeil.de,blumenland-halmer.de,blumenparadies-radtke.de,certech.de,dabluehichauf.de,deltaflor.de,donaumarkt-gartencenter.de,doschblumen.de,edelkamp.de,fahr-pflanzen.de,fenis-blumen.de,fgh.de,fischer-pflanzen.de,florado.de,florapark.de,florawelt.de,gaertnerei-dunst.de,gaertnerei-huebsch.de,gaertnerei-jandl.at,gaertnerei-jenkel.de,gaertnerei-otten.de,gaertnerei-petersen.de,gaertnerei-steinhilber.de,gaertnerei-sylvester.de,ganslmaier.de,garten-baumschule-woehrle.de,garten-center-spiegel.de,garten-reiter.de,garten-sauer.de,garten-vielfalt.de,gartencenter-bachmann.de,gartencenter-bergerhoff.de,gartencenter-braun.de,gartencenter-decker.de,gartencenter-erfurt.de,gartencenter-kruse.de,gartencenter-meckelburg.de,gartencenter-nickl.de,gartencenter-nordharz.de,gartencenter-schrieverhoff.de,gartencenter-stassen.de,gartengraaf.de,gartenundambiente.com,gartenvergnuegen-lochte.de,goeppert-gartencenter.de,hegemann-kwh.de,hollandpark.de,inflora.de,jensgerdes.de,kircher-collection.de,landgaertnerei-beier.de,magnus-gartenpark.de,mauch-garten.de,meineoldenburger.de,meyers-muehle.de,myrhodo.de,neiske.com,ottos-gartenparadies.de,pflanzen-breuer.de,pflanzen-fuer-unsere-gaerten.ch,pflanzenhof-plum.de,pflanzenhof-schuerg.de,pflanzenhof-vaihingen.de,pflanzenkonzepte.net,pflanzenmarkt-schlereth.de,pflanzenrichter.de,piardino.cz,piardino.eu,piardino.info,piardino.it,planterspunch.de,projektsicherheit.de,ritter-blumen.de,schley-gartencenter.de,schupp-gartencenter.de,seebauer.de,seeberger-pflanzenhof.de,selders-toni.de,shop.gaertnerei-heckel.com,sporleder-gaertnerei.de,stauden-siebler.de,stoecker-stauden.de,striebel-haus-des-gartens.de,uhlsalarymaxing.nhs.uk,urgibl.de,villaflora.de,voigt-pflanzenhof.de,weber-baumschule.de,wilsaflor.de,wingendorfer-gaertnerei.de,zanker.net,zirener-pflanzen.de#$#body,html { overflow: auto !important; position: initial !important; }
@@ -50917,6 +50920,7 @@ mezzicommerciali.it##.fb-menu
 theitaliantimes.it##.fco2b
 theitaliantimes.it##.finfo3
 virgilio.it##.foglia__social
+sportwebsicilia.it##.follow-title
 udinese.it##.foobar-social
 staseraincucina.it##.footer
 jeanlouisdavid.it##.footerIconsUl
@@ -50936,6 +50940,7 @@ milanodabere.it##.info-links
 wallstreetitalia.com##.inner__more
 zona.eu##.insta-frame
 isaechia.it##.instagram-widget
+libero.it##.iol-social
 tv.quattroruote.it##.jw-video-details-share
 thevision.com##.like
 showprice.it##.link_invia_amico
@@ -50982,6 +50987,7 @@ finanzaonline.com,mediaset.it,teleborsa.it,tempostretto.it##.soc
 animeworld.tv##.social-aw
 andreagaleazzi.com##.social-bookmarks
 wallstreetitalia.com##.social-btn
+sportwebsicilia.it##.social-button
 trend-online.com##.social-icon
 deejay.it##.social-launch
 ansa.it##.social-menu
@@ -52976,6 +52982,7 @@ justjoin.it##.jss243
 processos.tribunais.org.pt##.justica-cookie_bar
 tv.quattroruote.it##.jw-popups
 bmartigrafiche.it##.main-container-cookie-banner
+rse-web.it##.mapstore-cookie-panel
 ari.it,supermeteo.com##.message
 emiliaromagnasport.com,marchesport.info##.modal-backdrop
 telethon.it##.modalMessage
@@ -52997,6 +53004,7 @@ prelex.it##.rstboxes
 ship2shore.it##.s2s-cookie-banner
 juzaphoto.com##.s_bluebox
 ogrtorino.it##.sc-dxgOiQ
+play.stardust.it##.sc-fznNvL.iAszhc
 tahititourisme.it##.site-footer__cookies
 arcafondi.it##.slds-backdrop
 arcafondi.it##.slds-modal
@@ -54422,6 +54430,8 @@ ants.vn##.sg-popup-content
 ||henryschein.at^*/CookieList.aspx
 ||howatherm.de/frontend/media/cm/
 ||jaloucity.de/skin/frontend/default/jaloucity_rwd/js/jcitycookiepopup.js
+||jobs.ch/public/scripts/modern/chunk-cookie-consent-modal.
+||jobup.ch/public/scripts/modern/chunk-cookie-consent-modal.
 ||kefalonia-griechenland.com/RR_KE_ccm19/
 ||lights-on.io/public/app.js
 ||marketing.mafell.de/consent/public/app.js
