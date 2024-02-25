@@ -1,9 +1,9 @@
-! Checksum: FF36n8fhegBhrn+yINuvVg
-! Diff-Path: ../patches/236_optimized/236_optimized-s-1708636030-14400.patch
+! Checksum: t/J+sW/oZoUHvGu91WLehg
+! Diff-Path: ../patches/236_optimized/236_optimized-s-1708866420-14400.patch
 ! Title: road-block light (Optimized)
 ! Description: Romanian ad blocking filter subscription.
-! Version: 2.0.2.46
-! TimeUpdated: 2024-02-22T21:03:22+00:00
+! Version: 2.0.2.47
+! TimeUpdated: 2024-02-25T13:03:06+00:00
 ! Expires: 10 days (update frequency)
 /plugins/footer-pop-up-banner/*
 /Reclama/*
@@ -1330,3 +1330,4 @@ filme2023.online#%#//scriptlet('ubo-rmnt.js', 'script', 'document.head.appendChi
 *&ad=$subdocument,domain=filme2023.online
 onlyplay.online#%#//scriptlet('ubo-nowoif.js', '', '10')
 boardingpass.ro#%#//scriptlet('ubo-nostif.js', 'ai_adb')
+clujust.ro#%#//scriptlet('ubo-rmnt.js', 'script', 'ai_adb')
