@@ -1,9 +1,9 @@
-! Checksum: +MjzkqHHxkFh9SrUMhU8vw
-! Diff-Path: ../patches/107_optimized/107_optimized-s-1708880838-14400.patch
+! Checksum: VINvuZbDKCz0W0S2bR/6sQ
+! Diff-Path: ../patches/107_optimized/107_optimized-s-1708895230-14400.patch
 ! Title: EasyList Germany (Optimized)
 ! Description: Additional filter list for websites in German. Already included in AdGuard German filter.
-! Version: 2.0.12.71
-! TimeUpdated: 2024-02-25T17:02:04+00:00
+! Version: 2.0.12.72
+! TimeUpdated: 2024-02-25T21:01:59+00:00
 ! Expires: 5 days (update frequency)
 &werbemittel=
 -Bannerwerbung-
@@ -4715,7 +4715,7 @@ via-ferrata.de##div[class^="overlay-"]
 grenzecho.net##div[class^="pane-dpipub-"]
 pictures-magazin.de##div[class^="pictu-"]
 rundschau.info##div[class^="runds-werbung-"]
-berliner-kurier.de##div[class^="showheroes_"]
+berliner-kurier.de,berliner-zeitung.de##div[class^="showheroes_"]
 berliner-kurier.de,berliner-zeitung.de,evangelische-zeitung.de##div[class^="traffective_"]
 winfuture.de##div[class^="ws_contentAd"]
 amazon.de##div[data-ad-id]
