@@ -1,9 +1,9 @@
-! Checksum: k9NRtEJAELd+waZpq/umMQ
-! Diff-Path: ../patches/19/19-s-1708781765-3600.patch
+! Checksum: 7iEDs/fo2lcAGpd7urkCrA
+! Diff-Path: ../patches/19/19-s-1708900570-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.20
-! TimeUpdated: 2024-02-24T13:32:17+00:00
+! Version: 2.0.32.21
+! TimeUpdated: 2024-02-25T22:32:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1518,7 +1518,6 @@ hostednovel.com,getemoji.com,concertarchives.org#@#.ad-siderail
 ! SECTION: Anti-adblock - ezAardvark
 ! START: ezAardvark
 !#safari_cb_affinity(general)
-scitechdaily.com,thewindowsclub.com#@#.textads
 scitechdaily.com,thewindowsclub.com#@#.banner_ads
 scitechdaily.com,thewindowsclub.com#@#.banner-ads
 scitechdaily.com,thewindowsclub.com#@#.ad-zone
@@ -2630,7 +2629,6 @@ animenewsnetwork.com#@##Adbanner
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=strategium.ru
 @@||yandex.ru/ads/system/context.js$xmlhttprequest,domain=sdamgia.ru
 timeanddate.com#@##ad-wrap2
-fastfoodmenupreise.de#@#.textads
 fastfoodmenupreise.de#@#.banner_ads
 fastfoodmenupreise.de#@#.banner-ads
 fastfoodmenupreise.de#@#.ad-zone
@@ -2641,7 +2639,6 @@ startpage.com#@#.ad.widget
 startpage.com#@#.widget.ad
 @@||public.slidesharecdn.com/v2/javascripts/assets/ads/detection.*.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=slideshare.net
-slideshare.net#@#.textads
 slideshare.net#@#.banner_ads
 slideshare.net#@#.banner-ads
 slideshare.net#@#.ad-zone

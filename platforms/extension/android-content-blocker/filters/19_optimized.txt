@@ -1,9 +1,9 @@
-! Checksum: IL6ZsV8Hj0hF+aRQ9zFnag
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1708828559-3600.patch
+! Checksum: /Xh2/IeDBTXDilTSrBxY4w
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1708900571-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.20
-! TimeUpdated: 2024-02-24T13:32:17+00:00
+! Version: 2.0.32.21
+! TimeUpdated: 2024-02-25T22:32:24+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -308,7 +308,6 @@ hostednovel.com,getemoji.com,concertarchives.org#@#.ad-siderail
 !#safari_cb_affinity
 ||getemoji.com/scripts/apester.js
 !#safari_cb_affinity(general)
-scitechdaily.com,thewindowsclub.com#@#.textads
 scitechdaily.com,thewindowsclub.com#@#.banner_ads
 scitechdaily.com,thewindowsclub.com#@#.banner-ads
 scitechdaily.com,thewindowsclub.com#@#.ad-zone
@@ -714,7 +713,6 @@ animenewsnetwork.com#@##Adbanner
 @@||imasdk.googleapis.com^$xmlhttprequest,domain=cc-fan.tv|cn-fan.tv|fox-fan.tv|nf-fan.tv
 @@||yandex.ru/ads/system/context.js$xmlhttprequest,domain=sdamgia.ru
 timeanddate.com#@##ad-wrap2
-fastfoodmenupreise.de#@#.textads
 fastfoodmenupreise.de#@#.banner_ads
 fastfoodmenupreise.de#@#.banner-ads
 fastfoodmenupreise.de#@#.ad-zone
@@ -724,7 +722,6 @@ megogo.net#@#.ad-placement
 startpage.com#@#.ad.widget
 startpage.com#@#.widget.ad
 @@||public.slidesharecdn.com/v2/javascripts/assets/ads/detection.*.js
-slideshare.net#@#.textads
 slideshare.net#@#.banner_ads
 slideshare.net#@#.banner-ads
 slideshare.net#@#.ad-zone
