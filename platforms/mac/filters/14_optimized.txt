@@ -1,9 +1,9 @@
-! Checksum: anXYGL2cdCO/0Ur0gzksWQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1708871801-3600.patch
+! Checksum: RckSaYXFpj5fnUJ1vHhdAA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1708875403-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.88.88
-! TimeUpdated: 2024-02-25T14:32:03+00:00
+! Version: 2.1.88.89
+! TimeUpdated: 2024-02-25T15:32:07+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -20379,10 +20379,6 @@ alexfitness.ru#$#div.modal-backdrop { display: none!important; }
 alexfitness.ru#$#.modal-open { overflow: visible!important; }
 tf1.fr##div[aria-describedby^="max-banner-"]
 ||contributions.guardianapis.com^
-scribd.com#$#div[data-testid="desktop-leaderboard"] { display: none !important; }
-scribd.com#$#._2kkM6y { padding-top: unset !important; }
-scribd.com##div[data-testid="bottom-right-mrec"]
-scribd.com##div[data-testid="sticky-wrapper"]
 flightradar24.com##.size-full > div.relative > div.size-full ~ div.justify-between.absolute > div.justify-center.flex + div.items-end
 hepper.com##body div.opportunity-container.active
 deezer.com###tbcc_offer_btn
