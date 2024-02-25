@@ -1,9 +1,9 @@
-! Checksum: LpbVhOwsYUAknjtKBIgJIA
-! Diff-Path: ../patches/7/7-s-1708778204-3600.patch
+! Checksum: N1DN2Fuhr8AbZWyQeHeUAg
+! Diff-Path: ../patches/7/7-s-1708864617-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.48.91
-! TimeUpdated: 2024-02-24T12:33:54+00:00
+! Version: 2.0.48.92
+! TimeUpdated: 2024-02-25T12:34:09+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6376,6 +6376,7 @@ itmedia.co.jp##div[id^="ITR"]
 itmedia.co.jp##iframe[id^="cxWidget_"]
 itmedia.co.jp##ins[id^="yoneads"]
 atmarkit.itmedia.co.jp###globalHeaderMiddle
+nlab.itmedia.co.jp##.contents_bannar
 nlab.itmedia.co.jp##.admsg
 nlab.itmedia.co.jp##.bannar
 nlab.itmedia.co.jp###globalHeader
