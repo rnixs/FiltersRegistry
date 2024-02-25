@@ -1,9 +1,9 @@
-! Checksum: x0khZSviq4nW3oD1znILTQ
-! Diff-Path: ../patches/6/6-s-1708875374-3600.patch
+! Checksum: a7NrCTiYdTu4N1wDMrT7tw
+! Diff-Path: ../patches/6/6-s-1708878980-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.65
-! TimeUpdated: 2024-02-25T15:33:29+00:00
+! Version: 2.0.40.66
+! TimeUpdated: 2024-02-25T16:33:31+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1614,6 +1614,7 @@ formel1.de,krautundrueben.de,motorsport-total.com,traktorpool.de,fnweb.de,laborj
 !
 !
 !
+winfuture.de###wfv4_bb2_lazyload
 sueddeutsche.de##main > div[class^="css-"]:has(> ins.asm_async_creative)
 chip.de##section.TopList--Count
 giga.de#$#div[class*="ad--top"] { min-height: 40px !important; }
