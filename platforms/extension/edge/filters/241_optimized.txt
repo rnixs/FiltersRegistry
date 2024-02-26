@@ -1,9 +1,9 @@
-! Checksum: pENg/YoEXlrWq01XK98hlA
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1708909599-14400.patch
+! Checksum: sWb9aJjqkUlVGuGO+C8wyw
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1708924023-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.29.80
-! TimeUpdated: 2024-02-26T01:03:07+00:00
+! Version: 2.1.29.81
+! TimeUpdated: 2024-02-26T05:03:09+00:00
 ! Expires: 10 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -18534,7 +18534,7 @@
 ||consent.thegreatoutdoorsmag.com^
 ||consent.truste.com^$script,domain=docs.oracle.com|thehindubusinessline.com|wunderground.com
 ||cookie-consent.festo.com^
-||cookiebot.eu/uc.js$domain=casio.com|epochtimes.de|expert.de|feinewerkzeuge.de|ikarus.de
+||cookiebot.eu/uc.js$domain=casio.com|epochtimes.de|expert.de|feinewerkzeuge.de|ikarus.de|tuv.com
 ||cookies.lmt.lv^
 ||corporate.modivo.com/layout/default/dist/js/cmp.js
 ||credit-suisse.com/media/assets/aep/ot-cmp/
@@ -22436,6 +22436,7 @@ businessclass.com#%#//scriptlet('ubo-set-cookie.js', 'ibe.acceptedCookie', 'true
 quantamagazine.org#%#//scriptlet('ubo-set-cookie.js', 'acceptedPolicy', 'true')
 followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'false')
 hellotv.nl#%#//scriptlet('ubo-set-cookie.js', 'cookieConsentClosed', 'true')
+jisc.ac.uk#%#//scriptlet('ubo-set-cookie.js', 'cookiesPrivacy', 'false')
 lasestrellas.tv#%#//scriptlet('ubo-set-cookie.js', '_tvsPrivacy', 'true')
 nanuko.de,hair-body-24.de,shopforyou47.de,kreativverliebt.de,anderweltverlag.com,octavio-shop.com,forcetools-kepmar.eu,fantecshop.de,hexen-werkstatt.shop,shop-naturstrom.de,biona-shop.de,camokoenig.de,bikepro.de,kaffeediscount.com,vamos-skateshop.com,holland-shop.com,avonika.com#%#//scriptlet('ubo-set-cookie.js', 'epCookieConsent', '0', '', 'reload', '1')
 hurton.pl#%#//scriptlet('ubo-set-cookie.js', 'is_allowed_client_traking_niezbedne', '1', '', 'reload', '1')
