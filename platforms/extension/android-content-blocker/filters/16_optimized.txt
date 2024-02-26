@@ -1,9 +1,9 @@
-! Checksum: Jdfj+AQeUj+8mWtjWWLWHA
-! Diff-Path: ../patches/16_optimized/16_optimized-s-1708925758-3600.patch
+! Checksum: i0erJ7d3LcKl8RD5NeQaEw
+! Diff-Path: ../patches/16_optimized/16_optimized-s-1708929365-3600.patch
 ! Title: AdGuard French filter (Optimized)
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.71
-! TimeUpdated: 2024-02-26T05:32:08+00:00
+! Version: 2.0.43.72
+! TimeUpdated: 2024-02-26T06:32:08+00:00
 ! Expires: 5 days (update frequency)
 ||vookamoo.com^
 ||proxy.ads.canalplus-bo.net^
@@ -6176,6 +6176,7 @@ decitre.fr##.advertise
 lemoniteur.fr,skipass.com,telerama.fr##.advertisement
 ccm.net,commentcamarche.com,commentcamarche.net,latribune.fr,traildesforts.com##.advertising
 nestoria.fr##.afsDiv
+pix-geeks.com,voiturego.com,zebulon.fr##.afxshop
 leparking-moto.fr##.alter
 amazon.fr##.amzn-safe-frame-container
 madagascar-tribune.com##.annonce
