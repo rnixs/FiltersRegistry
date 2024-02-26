@@ -1,15 +1,15 @@
-! Checksum: eS0iWARczHjonPTY9nuyPQ
-! Diff-Path: ../patches/122/122-s-1708924016-14400.patch
+! Checksum: I9cylpXq6LMJIaGpKJKmuw
+! Diff-Path: ../patches/122/122-s-1708938424-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.79
-! TimeUpdated: 2024-02-26T05:02:22+00:00
+! Version: 2.1.21.80
+! TimeUpdated: 2024-02-26T09:02:23+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: tOhJq65eoSjeoFUu1GxVuw
-! OriginalVersion: 202402260340
+! Checksum: JqFBN9E3OrizlPtXRj2kYQ
+! OriginalVersion: 202402260840
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-26 03:40 UTC
+! Last modified: 2024-02-26 08:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -21333,6 +21333,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###nfPPBar
 ###nf_cookiebanner
 ###nfa-cookie-cookie-banner
+###nfb-cookies-banner
 ###nfcCookieNote
 ###nfcookieAcceptModal
 ###nge_box_cookie_alerte_message
@@ -38576,7 +38577,6 @@ aptoide.com###news
 metal-shop.eu###nextcreBotDialog
 plotz.co.uk,skyremotecodes.co.uk###nfaModal
 plotz.co.uk,skyremotecodes.co.uk###nfaPopup
-nfb.ca###nfb-cookies-banner
 lycoschat.com###nomnom
 bydautomotive.com.au###noticeModal
 co-opinsurance.co.uk###noticePanel
@@ -56433,6 +56433,7 @@ btp.es,consorciocaucho.es,fotokamal.com,fundazintegra.com,grdar.com,laalacenadem
 lacentral.com###page-overlay
 hirealestate.es###pdcc-message-container
 scherzo.es###pdcc-modal-bg
+compartamos.com.mx###polCook
 tusclasesparticulares.com###pp
 esenviseu.net###qLtempOverlay
 montepiedad.com.mx###static-cover

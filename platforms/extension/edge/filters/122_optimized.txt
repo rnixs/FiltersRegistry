@@ -1,9 +1,9 @@
-! Checksum: 1/2pSvZJOyj01vFuqRVuKg
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1708924021-14400.patch
+! Checksum: DLN89deQ8MOI15tmrM7m9w
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1708938432-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.79
-! TimeUpdated: 2024-02-26T05:02:22+00:00
+! Version: 2.1.21.80
+! TimeUpdated: 2024-02-26T09:02:23+00:00
 ! Expires: 10 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -7923,6 +7923,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###new-cookies
 ###newCookieDisclaimerBanner
 ###nfPPBar
+###nfb-cookies-banner
 ###nibirumail_cookie_advice
 ###no-cookie
 ###nocookie
@@ -13208,7 +13209,6 @@ juno.co.uk,junodownload.com###juno-cookie-consent
 escapefromtarkov.com###legalLightBlock
 allabout-japan.com###meerkat-wrap
 shellsmart.com###modal_container
-nfb.ca###nfb-cookies-banner
 amcharts.com###notices
 checkpoint.com,csl-computer.com,pomvom.com,proscia.com,yesgolive.com###notification
 pacesuite.com###notification-cont
@@ -20167,6 +20167,7 @@ descifrandolaguerra.es###adam-cookie-banner
 arsys.es###arsysCookieAcceptance
 pulzo.com###divConsent
 habitaclia.com###legalCookies
+compartamos.com.mx###polCook
 tusclasesparticulares.com###pp
 uca.es###uca_popup_background
 exteriores.gob.es##.alert__msg-Wrapper

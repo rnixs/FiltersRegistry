@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: vaEOzDesj5V9KJgw3UqcEQ
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1708924044-14400.patch
+! Checksum: s0PXVk1gPuj1fO9M9ZAAog
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1708938471-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.29.81
-! TimeUpdated: 2024-02-26T05:03:09+00:00
+! Version: 2.1.29.82
+! TimeUpdated: 2024-02-26T09:03:11+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -7620,6 +7620,7 @@
 ###nfPPBar
 ###nf_cookiebanner
 ###nfa-cookie-cookie-banner
+###nfb-cookies-banner
 ###nfcCookieNote
 ###nfcookieAcceptModal
 ###nge_box_cookie_alerte_message
@@ -19006,7 +19007,6 @@ aptoide.com###news
 metal-shop.eu###nextcreBotDialog
 plotz.co.uk,skyremotecodes.co.uk###nfaModal
 plotz.co.uk,skyremotecodes.co.uk###nfaPopup
-nfb.ca###nfb-cookies-banner
 lycoschat.com###nomnom
 bydautomotive.com.au###noticeModal
 co-opinsurance.co.uk###noticePanel
@@ -26668,6 +26668,7 @@ btp.es,consorciocaucho.es,fotokamal.com,fundazintegra.com,grdar.com,laalacenadem
 lacentral.com###page-overlay
 hirealestate.es###pdcc-message-container
 scherzo.es###pdcc-modal-bg
+compartamos.com.mx###polCook
 tusclasesparticulares.com###pp
 esenviseu.net###qLtempOverlay
 montepiedad.com.mx###static-cover

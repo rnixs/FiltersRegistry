@@ -1,15 +1,15 @@
-! Checksum: o8dqtWhR1j1Dk+AfpNz2aw
-! Diff-Path: ../patches/246/246-s-1708924029-14400.patch
+! Checksum: C72WBY2fNk+IFIkBYPpRmQ
+! Diff-Path: ../patches/246/246-s-1708938441-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.40.58
-! TimeUpdated: 2024-02-26T05:03:14+00:00
+! Version: 2.1.40.59
+! TimeUpdated: 2024-02-26T09:03:16+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: kG2IlEO2OQD4jjtN9itNHw
-! OriginalVersion: 202402260450
+! Checksum: 3lFfN4afhImiXMcP7lZ8Ng
+! OriginalVersion: 202402260851
 ! Title: EasyList Polish
-! Last modified: 26 Feb 2024 04:50 UTC
+! Last modified: 26 Feb 2024 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -250,7 +250,6 @@ supernowosci24.pl##[id^="r-"]
 ||bstok.pl^*^masal-
 ||busiarze.com.pl^*^lacus-
 ||busiarze.com.pl^*^Webp.net-
-||cdn-lubimyczytac.pl/upload/wallpapers^$domain=lubimyczytac.pl
 ||cdn.gallery^*^files^$image,domain=szczecinek.com
 ||cdn.sterta.pl^$domain=rusz.pl
 ||ceneo.pl^$image,domain=7dni.pila.pl|archigame.pl|exerim.pl|grojec24.net|komputery-pc.info|nowinylokalne.pl|pch24.info|pgo24.pl|pmi24.info|tromil.pl|warownie.pl
@@ -1977,6 +1976,7 @@ zwolen24.pl##a[href="http://www.zlomotex.com.pl/"]
 ceo.com.pl##a[href="https://123tlumacz.pl/"]
 buzz.give5.pl##a[href="https://654.pl/hNdBjFTy"]
 buzz.give5.pl##a[href="https://654.pl/rMZs3KSL"]
+buzz.give5.pl##a[href="https://654.pl/znrb6S"]
 audiostereo.pl##a[href="https://audiotrendt.com.pl/"]
 biznestuba.pl##a[href="https://aurechome.pl"]
 gazeta-mosina.pl##a[href="https://autocompol.dacia.pl/"]
