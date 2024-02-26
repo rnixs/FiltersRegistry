@@ -1,9 +1,9 @@
-! Checksum: uhmTzg1AS2rN8VPEn1nQAQ
-! Diff-Path: ../patches/4/4-s-1708900573-3600.patch
+! Checksum: EmFeyQUTiQ5+Oq5XxJfxEA
+! Diff-Path: ../patches/4/4-s-1708940180-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.69
-! TimeUpdated: 2024-02-25T22:33:19+00:00
+! Version: 2.0.97.70
+! TimeUpdated: 2024-02-26T09:33:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10707,7 +10707,7 @@ health.chosun.com##.left_aside_sns > li:not(.cmt)
 hubnews.co.kr##.view_share
 imnews.imbc.com##div[class="share fixed"]
 insight.co.kr##.fixedhead-share
-mangacross.jp,plant-world.biz,newscafe.ne.jp,washoku-style.jp,invenglobal.com,nta.co.jp,topgate.co.jp,m.gobalnews.com##.sns-list
+healthcare.omron.co.jp,mangacross.jp,plant-world.biz,newscafe.ne.jp,washoku-style.jp,invenglobal.com,nta.co.jp,topgate.co.jp,m.gobalnews.com##.sns-list
 m.joseilbo.com##.sns_icon_set
 cyberlink.com,eveeve.jp,sugoren.com,m.pann.nate.com##.social_area
 m.sportsseoul.com##.bottom_iconMenu

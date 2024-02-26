@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: LlNYXzN5rw4/cdQ7O5MtQw
-! Diff-Path: ../patches/21/21-s-1708936595-3600.patch
+! Checksum: WgBOUcCh2yOKulld1nz5hQ
+! Diff-Path: ../patches/21/21-s-1708940211-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.20.12
-! TimeUpdated: 2024-02-26T08:32:26+00:00
+! Version: 2.0.20.13
+! TimeUpdated: 2024-02-26T09:32:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4637,10 +4637,12 @@ radiotunes.com##.content-box > p > a[href^="/premium"]
 ! https://forum.adguard.com/index.php?threads/pop-up-continuously-appearing.31460
 theaustralian.com.au#$#div[id^="lightcase-"] { display:none!important; }
 theaustralian.com.au#$#body { overflow:visible!important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/173451
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172324
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100544
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41736
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29908#issuecomment-466136893
+allegro.pl##div[data-box-name="premium.with.dfp.bottom"]
 allegro.pl##div[data-box-name="allegro.advertising.adspremium"]
 allegro.pl##div[data-box-name="AdsPremium"]
 allegro.pl##div[data-box-name="leftpanel_ads"]
@@ -6970,7 +6972,7 @@ theverge.com#$#.mt-80 { margin-top: 50px !important; }
 theverge.com#$#.md\:mb-40 { margin-bottom: 20px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159669
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148098
-gamesera.online,free-games.cam,top-games.live,tech-review.me,gulftech.live,reviewhub.vip,reviewtech.me,pcreview.me,reviewstation.me#$#.downloadbtn { display: block !important; }
+gamezone.cam,gamesera.online,free-games.cam,top-games.live,tech-review.me,gulftech.live,reviewhub.vip,reviewtech.me,pcreview.me,reviewstation.me#$#.downloadbtn { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146297
 oneslidephotography.com,apasih.my.id,financekami.com#$##wpsafe-wait1 { display: none !important; }
 oneslidephotography.com,apasih.my.id,financekami.com#$##wpsafe-generate { display: block !important; }

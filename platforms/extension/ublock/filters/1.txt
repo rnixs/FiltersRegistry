@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wz2tk9X4huON2aGYQyGgYQ
-! Diff-Path: ../patches/1/1-s-1708936592-3600.patch
+! Checksum: yfwkPb6f4hiXz1HFknFLHA
+! Diff-Path: ../patches/1/1-s-1708940208-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.80
-! TimeUpdated: 2024-02-26T08:32:24+00:00
+! Version: 2.0.88.81
+! TimeUpdated: 2024-02-26T09:32:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7510,6 +7510,7 @@ gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru,innov.ru,k1new
 !
 !
 !
+reform.by###custom_html-8
 ||postium.ru/wp-content/uploads/2024/02/VK*-1.jpg
 postium.ru##.hype-ad:has(> noindex > span.hype-ad__title)
 161.ru,74.ru##div[class^="creative"]

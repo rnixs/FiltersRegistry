@@ -1,9 +1,9 @@
-! Checksum: qQrIOZWB3K/hhbIPHdtL4g
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1708932976-3600.patch
+! Checksum: YfadUjefA/cmNWdMqNnyUA
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1708940178-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.22
-! TimeUpdated: 2024-02-26T07:32:20+00:00
+! Version: 2.0.32.23
+! TimeUpdated: 2024-02-26T09:32:19+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -1366,6 +1366,7 @@ api.flocktory.com
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+hokiesports.com###polite-pop-up
 wkyc.com,wzzm13.com##dialog[data-name="exitInterstitial"]
 zhihu.com##div[style^="transform-origin: center bottom; margin-top:"]
 community.atlassian.com##.login-spotlight

@@ -1,9 +1,9 @@
-! Checksum: HUWwSxXEvyADvmMOpnqejQ
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1708936612-3600.patch
+! Checksum: 5R6X4jyvhcbWr2dKgCLf0g
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1708940228-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.20.12
-! TimeUpdated: 2024-02-26T08:32:26+00:00
+! Version: 2.0.20.13
+! TimeUpdated: 2024-02-26T09:32:32+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1281,6 +1281,7 @@ escortbook.com##.escortbook_banner
 1fichier.com##.ui-widget-overlay
 1fichier.com##.ui-widget-content[aria-describedby="modal-msg"]
 theaustralian.com.au#$#body { overflow:visible!important; }
+allegro.pl##div[data-box-name="premium.with.dfp.bottom"]
 allegro.pl##div[data-box-name="allegro.advertising.adspremium"]
 allegro.pl##div[data-box-name="AdsPremium"]
 allegro.pl##div[data-box-name="leftpanel_ads"]
@@ -2384,7 +2385,7 @@ cnews.fr#$#.header-menu { top: 0 !important; }
 veterinarians.org#$#.single-post .menu-floating-single { bottom: 0 !important; }
 theverge.com#$#.mb-60 { margin-bottom: 0px !important; }
 theverge.com#$#.md\:mb-40 { margin-bottom: 20px !important; }
-gamesera.online,free-games.cam,top-games.live,tech-review.me,gulftech.live,reviewhub.vip,reviewtech.me,pcreview.me,reviewstation.me#$#.downloadbtn { display: block !important; }
+gamezone.cam,gamesera.online,free-games.cam,top-games.live,tech-review.me,gulftech.live,reviewhub.vip,reviewtech.me,pcreview.me,reviewstation.me#$#.downloadbtn { display: block !important; }
 oneslidephotography.com,apasih.my.id,financekami.com#$##wpsafe-wait1 { display: none !important; }
 oneslidephotography.com,apasih.my.id,financekami.com#$##wpsafe-generate { display: block !important; }
 infranken.de#$##site-footer { padding: 1rem 0 1rem 0 !important; }

@@ -1,0 +1,23 @@
+d2 2
+a3 2
+! Checksum: 3oZAZPLKXCMzK5G9ybTykg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1708940212-3600.patch
+d6 2
+a7 2
+! Version: 2.3.24.9
+! TimeUpdated: 2024-02-26T09:33:04+00:00
+a15521 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/173591
+d15530 7
+a15536 7
+gamezone.cam,gamesera.online,free-games.cam,top-games.live,tech-review.me,gulftech.live,reviewhub.vip,reviewtech.me,pcreview.me,reviewstation.me###ad
+gamezone.cam,gamesera.online,free-games.cam,top-games.live,tech-review.me,gulftech.live,reviewhub.vip,reviewtech.me,pcreview.me,reviewstation.me###adxbox
+gamezone.cam,gamesera.online,free-games.cam,top-games.live,tech-review.me,gulftech.live,reviewhub.vip,reviewtech.me,pcreview.me,reviewstation.me##.div-over
+gamezone.cam,gamesera.online,free-games.cam,top-games.live,tech-review.me,gulftech.live,reviewhub.vip,reviewtech.me,pcreview.me,reviewstation.me###fixedban
+gamezone.cam,gamesera.online,free-games.cam,top-games.live,tech-review.me,gulftech.live,reviewhub.vip,reviewtech.me,pcreview.me,reviewstation.me###fixedban2
+gamezone.cam,gamesera.online,free-games.cam,top-games.live,tech-review.me,gulftech.live,reviewhub.vip,reviewtech.me,pcreview.me,reviewstation.me##div[class^="adbn"][class*="wrap"]
+gamezone.cam,gamesera.online,free-games.cam,top-games.live,tech-review.me,gulftech.live,reviewhub.vip,reviewtech.me,pcreview.me,reviewstation.me##+js(no-fetch-if, /pagead2\.googlesyndication\.com|greeter\.me/)
+d19413 2
+a19414 2
+automoto.it,moto.it##body .mawrap
+automoto.it,moto.it##body .mhwrap
