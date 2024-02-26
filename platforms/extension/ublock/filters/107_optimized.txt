@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: opWrje/p0uIZicEQJIxNpg
-! Diff-Path: ../patches/107_optimized/107_optimized-s-1708895225-14400.patch
+! Checksum: UKXItuoIWWF6BsiM3MXwiw
+! Diff-Path: ../patches/107_optimized/107_optimized-s-1708967233-14400.patch
 ! Title: EasyList Germany (Optimized)
 ! Description: Additional filter list for websites in German. Already included in AdGuard German filter.
-! Version: 2.0.12.72
-! TimeUpdated: 2024-02-25T21:01:59+00:00
+! Version: 2.0.12.73
+! TimeUpdated: 2024-02-26T17:02:00+00:00
 ! Expires: 5 days (update frequency)
 &werbemittel=
 -Bannerwerbung-
@@ -4713,6 +4713,7 @@ experten.de##div[class^="c-ad-exper-"]
 costanachrichten.com##div[class^="lp_track_"]
 morecore.de##div[class^="morec-"]
 emtb-news.de,mtb-news.de##div[class^="mtbnews-ad-container"]
+berliner-kurier.de,berliner-zeitung.de##div[class^="outbrain_"]
 via-ferrata.de##div[class^="overlay-"]
 grenzecho.net##div[class^="pane-dpipub-"]
 pictures-magazin.de##div[class^="pictu-"]

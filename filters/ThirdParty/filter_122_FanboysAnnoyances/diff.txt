@@ -18,6 +18,8 @@ opensecrets.org##+js(rc, js-no-scroll, html, stay)
 kartable.fr##body,html:style(overflow: auto !important; position: initial !important;)
 ! Rule "scribd.com##._2kkM6y:style(padding-top: unset !important;)" converted to: "scribd.com#$#._2kkM6y { padding-top: unset !important; }"
 scribd.com##._2kkM6y:style(padding-top: unset !important;)
+! Rule "scribd.com##.modal_open:style(height: auto !important; overflow: auto !important;)" converted to: "scribd.com#$#.modal_open { height: auto !important; overflow: auto !important; }"
+scribd.com##.modal_open:style(height: auto !important; overflow: auto !important;)
 ! Rule "shein.com##body:style(overflow: auto !important; position: initial !important;)" converted to: "shein.com#$#body { overflow: auto !important; position: initial !important; }"
 shein.com##body:style(overflow: auto !important; position: initial !important;)
 ! Rule "abhiandroid.com##body,html:style(height: auto !important; overflow: auto !important)" converted to: "abhiandroid.com#$#body,html { height: auto !important; overflow: auto !important }"
@@ -358,6 +360,8 @@ greenbuildingadvisor.com,finewoodworking.com##+js(set-cookie, taunton_user_conse
 greenbuildingadvisor.com,finewoodworking.com##+js(set-cookie, taunton_user_consent_analytics, false)
 ! Rule "physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at##+js(set-cookie, cookieconsent_status, allow)" converted to: "physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'allow')"
 physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at##+js(set-cookie, cookieconsent_status, allow)
+! Rule "ilsaggiatore.com##+js(set-cookie, cookies_analytics_enabled, 0, , reload, 1)" converted to: "ilsaggiatore.com#%#//scriptlet('ubo-set-cookie.js', 'cookies_analytics_enabled', '0', '', 'reload', '1')"
+ilsaggiatore.com##+js(set-cookie, cookies_analytics_enabled, 0, , reload, 1)
 ! Rule "gourmetfoodstore.com##+js(set-cookie, AnalyticsAcceptancePopOver, false)" converted to: "gourmetfoodstore.com#%#//scriptlet('ubo-set-cookie.js', 'AnalyticsAcceptancePopOver', 'false')"
 gourmetfoodstore.com##+js(set-cookie, AnalyticsAcceptancePopOver, false)
 ! Rule "schulfahrt.de##+js(set-cookie, cookiecookie, 1)" converted to: "schulfahrt.de#%#//scriptlet('ubo-set-cookie.js', 'cookiecookie', '1')"
@@ -4128,6 +4132,8 @@ opensecrets.org##+js(rc, js-no-scroll, html, stay)
 kartable.fr##body,html:style(overflow: auto !important; position: initial !important;)
 ! Rule "scribd.com##._2kkM6y:style(padding-top: unset !important;)" converted to: "scribd.com#$#._2kkM6y { padding-top: unset !important; }"
 scribd.com##._2kkM6y:style(padding-top: unset !important;)
+! Rule "scribd.com##.modal_open:style(height: auto !important; overflow: auto !important;)" converted to: "scribd.com#$#.modal_open { height: auto !important; overflow: auto !important; }"
+scribd.com##.modal_open:style(height: auto !important; overflow: auto !important;)
 ! Rule "shein.com##body:style(overflow: auto !important; position: initial !important;)" converted to: "shein.com#$#body { overflow: auto !important; position: initial !important; }"
 shein.com##body:style(overflow: auto !important; position: initial !important;)
 ! Rule "abhiandroid.com##body,html:style(height: auto !important; overflow: auto !important)" converted to: "abhiandroid.com#$#body,html { height: auto !important; overflow: auto !important }"
@@ -4460,6 +4466,8 @@ greenbuildingadvisor.com,finewoodworking.com##+js(set-cookie, taunton_user_conse
 greenbuildingadvisor.com,finewoodworking.com##+js(set-cookie, taunton_user_consent_analytics, false)
 ! Rule "physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at##+js(set-cookie, cookieconsent_status, allow)" converted to: "physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at#%#//scriptlet('ubo-set-cookie.js', 'cookieconsent_status', 'allow')"
 physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at##+js(set-cookie, cookieconsent_status, allow)
+! Rule "ilsaggiatore.com##+js(set-cookie, cookies_analytics_enabled, 0, , reload, 1)" converted to: "ilsaggiatore.com#%#//scriptlet('ubo-set-cookie.js', 'cookies_analytics_enabled', '0', '', 'reload', '1')"
+ilsaggiatore.com##+js(set-cookie, cookies_analytics_enabled, 0, , reload, 1)
 ! Rule "gourmetfoodstore.com##+js(set-cookie, AnalyticsAcceptancePopOver, false)" converted to: "gourmetfoodstore.com#%#//scriptlet('ubo-set-cookie.js', 'AnalyticsAcceptancePopOver', 'false')"
 gourmetfoodstore.com##+js(set-cookie, AnalyticsAcceptancePopOver, false)
 ! Rule "schulfahrt.de##+js(set-cookie, cookiecookie, 1)" converted to: "schulfahrt.de#%#//scriptlet('ubo-set-cookie.js', 'cookiecookie', '1')"

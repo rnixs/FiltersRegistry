@@ -1,14 +1,14 @@
-! Checksum: QpikO3BNSdWgqRNLsIzBTw
-! Diff-Path: ../patches/118/118-s-1708938454-14400.patch
+! Checksum: HPgDcgKxvO2dUa4mse6S+w
+! Diff-Path: ../patches/118/118-s-1708967227-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.75
-! TimeUpdated: 2024-02-26T09:02:09+00:00
+! Version: 2.1.22.76
+! TimeUpdated: 2024-02-26T17:02:11+00:00
 ! Expires: 5 days (update frequency)
 !
-! OriginalVersion: 202402260754
+! OriginalVersion: 202402261503
 ! Title: EasyPrivacy
-! Last modified: 26 Feb 2024 07:54 UTC
+! Last modified: 26 Feb 2024 15:03 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -7414,6 +7414,7 @@ omni.soundestlink.com$image
 ||shesubscriptions.com^
 ||shinesavage.com^
 ||shinestuart.com^
+||shinypond.com^
 ||shirtsidewalk.com^
 ||shiveringspot.com^
 ||shiverscissors.com^
@@ -11398,7 +11399,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! https://d3ward.github.io/toolz/adblock.html
 ||adsdk.yandex.ru^
 ||analytics-api.samsunghealthcn.com^
-||analytics.b2.ai^
 ||analytics.mobile.yandex.net^
 ||analytics.samsungknox.com^
 ||app.chat.xiaomi.net^$third-party
@@ -13131,6 +13131,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fansedge.com/api/track
 ||fansshare.com/t.gif
 ||faphouse.com/collector/
+||faro-collector-prod-*.grafana.net^
 ||fathom.app.silverbeak.com^
 ||fathom.tdvm.net^
 ||fbo-statistics-collector-tc.is.flippingbook.com^
@@ -49858,7 +49859,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||builder.lift.acquia.com/lift.js$script,domain=edwardjones.com
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
-@@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
+@@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-net.com/cc.js
@@ -50338,6 +50339,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 !
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
+@@||gdh.postcodeloterij.nl/gdltm.js$domain=vriendenloterij.nl
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
 !

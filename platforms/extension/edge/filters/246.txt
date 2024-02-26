@@ -1,15 +1,15 @@
-! Checksum: +AxG5/hSdwr+qHnPpR05nA
-! Diff-Path: ../patches/246/246-s-1708938435-14400.patch
+! Checksum: tb95iSeFa93qEcDBxbznQg
+! Diff-Path: ../patches/246/246-s-1708967212-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.40.59
-! TimeUpdated: 2024-02-26T09:03:16+00:00
+! Version: 2.1.40.60
+! TimeUpdated: 2024-02-26T17:03:17+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: 3lFfN4afhImiXMcP7lZ8Ng
-! OriginalVersion: 202402260851
+! Checksum: rQrrbcYlWGTpPIa7HDzUuQ
+! OriginalVersion: 202402261651
 ! Title: EasyList Polish
-! Last modified: 26 Feb 2024 08:51 UTC
+! Last modified: 26 Feb 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -383,7 +383,6 @@ supernowosci24.pl##[id^="r-"]
 ||spliff.pl^*^DomowaUprawa_
 ||spliff.pl^*^ecobison_
 ||spliff.pl^*^sensimilla_
-||spottedskarzysko.pl^*^pup_
 ||spottedskarzysko.pl^*^szmaragd.
 ||sprowadzanie-aut.pl^*^auta-z-usa-
 ||stalowemiasto.pl/_a^
@@ -1987,6 +1986,7 @@ bitcoin.pl##a[href="https://bit.ly/46VOjAf"]
 bokser.org##a[href="https://bit.ly/SzybkaRejestracjaSB"]
 swarzedz24.pl##a[href="https://bit.ly/WarsztatyOSM"]
 wiesci.com.pl##a[href="https://budet.pl/"]
+bydgoszcz.com##a[href="https://cdue.edu.pl"]
 bitcoin-info.pl##a[href="https://coingi.com/pl"]
 staleo.pl##a[href="https://discover.mazakeu.com/pl/iconnect/"]
 angolia.co.uk##a[href="https://domeny24.uk/"]
