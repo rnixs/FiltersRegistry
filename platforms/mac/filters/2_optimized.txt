@@ -1,9 +1,9 @@
-! Checksum: IX1/v+TY+2VtOZJxQtv7DA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708904187-3600.patch
+! Checksum: 6DBDtsef2uMmYilcrMabIA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708911469-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.24.4
-! TimeUpdated: 2024-02-25T23:32:55+00:00
+! Version: 2.3.24.5
+! TimeUpdated: 2024-02-26T01:34:07+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -33635,6 +33635,7 @@ darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld
 pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="overflow: hidden;"])
 porndoe.com##.video-item:has(a.video-item-link[ng-native-click])
+pornhub.com##div[class="video-wrapper"] > .clear.hd:has(.adsbytrafficjunky)
 rule34.paheal.net##section[id$="main"] > .blockbody:has(> div[align="center"] > ins)
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 hotmovs.com#?#.block_label--last:-abp-contains(Advertisement)
