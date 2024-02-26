@@ -1,9 +1,9 @@
-! Checksum: bGU3xj56SIJ81+zjiyHYIA
-! Diff-Path: ../patches/18/18-s-1708961878-3600.patch
+! Checksum: x5axkCAVGEqImBHm4DcMfw
+! Diff-Path: ../patches/18/18-s-1708965370-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.53
-! TimeUpdated: 2024-02-26T15:32:55+00:00
+! Version: 2.0.34.54
+! TimeUpdated: 2024-02-26T16:32:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4362,6 +4362,7 @@ my.nintendo.com##div[class^="Cookie"]
 scherzo.es###pdcc-modal-bg
 smsl-audio.com##.pupop
 inhope.org###cookie_banner-wrapper
+makro.pl#$#.consent-disclaimer { display: none !important; }
 makro.pl#$#body { overflow: auto !important; }
 kodyrabatowy.pl,coupert.com##.m-privacy-policy-pop
 hawesko.de,vinos.de##div[data-placeholder="consent-cookie-box"]

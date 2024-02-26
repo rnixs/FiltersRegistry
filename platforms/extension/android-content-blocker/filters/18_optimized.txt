@@ -1,9 +1,9 @@
-! Checksum: hoNelJ16OYE+3fT9yr3LLw
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1708961878-3600.patch
+! Checksum: e8lSkL4nkcYEIAjLoyxknw
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1708965370-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.53
-! TimeUpdated: 2024-02-26T15:32:55+00:00
+! Version: 2.0.34.54
+! TimeUpdated: 2024-02-26T16:32:18+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -2449,6 +2449,7 @@ bitepito.hu###cookie_accepter_div
 sberindex.ru##div[class*="styles_Layout__cookiePanel"]
 smsl-audio.com##.pupop
 inhope.org###cookie_banner-wrapper
+makro.pl#$#.consent-disclaimer { display: none !important; }
 makro.pl#$#body { overflow: auto !important; }
 kodyrabatowy.pl,coupert.com##.m-privacy-policy-pop
 hawesko.de,vinos.de##div[data-placeholder="consent-cookie-box"]
