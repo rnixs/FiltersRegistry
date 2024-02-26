@@ -1,9 +1,9 @@
-! Checksum: /sBU8K2yRQM3RsiD1u3UeA
-! Diff-Path: ../patches/13/13-s-1708709775-3600.patch
+! Checksum: ZOloINxCkjGLgHzIawMD3w
+! Diff-Path: ../patches/13/13-s-1708958167-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.50.15
-! TimeUpdated: 2024-02-23T17:32:00+00:00
+! Version: 2.0.50.16
+! TimeUpdated: 2024-02-26T14:31:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -86,6 +86,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||hemenindir.to^
 ||pixad.com.tr^$third-party
 ||srvd2204.com^
 ||cryptosmoke.care^$third-party
@@ -1923,6 +1924,8 @@ $xmlhttprequest,third-party,denyallow=linkvertise.com|fastly.net|statically.io|s
 /service/advertchannels?$xmlhttprequest,redirect=nooptext,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+uzaymanga.com##section:has(> p > a[href^="https://bit.ly/"])
+uzaymanga.com##.duyuru-kutusu
 trovit.com.tr##.adsense-container-skeleton
 mitula.com.tr###afs-top-container-father
 4kfilmizlesene.*#%#//scriptlet('prevent-window-open')
