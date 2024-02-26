@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 669kbgE2CNt9bKd3dEIhwQ
-! Diff-Path: ../patches/18/18-s-1708951021-3600.patch
+! Checksum: RSwxR5q7x5dhCc/05iGzVA
+! Diff-Path: ../patches/18/18-s-1708954639-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.50
-! TimeUpdated: 2024-02-26T12:32:28+00:00
+! Version: 2.0.34.51
+! TimeUpdated: 2024-02-26T13:32:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2342,6 +2342,8 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 ! NOTE: Regular rules
 !
+ekonomiczny.ing.pl#$#body { overflow-y: auto !important; }
+ekonomiczny.ing.pl#$#body #cookiePolicy { display: none !important; }
 outletmoto.com###aviso_cookie
 goxavier.com###transcend-consent-manager
 gate.shop#$?##snippet--cookies { remove: true; }
@@ -14290,6 +14292,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173552
+ekonomiczny.ing.pl#@##cookiePolicy
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173523
 @@||amica.pl/static/*/Amasty_GdprFrontendUi/js/*.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173544
