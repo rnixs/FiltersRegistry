@@ -1,9 +1,9 @@
-! Checksum: Pnz73RgbedMk4XIq5OcGSg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708968973-3600.patch
+! Checksum: 6QntSke2T5lXPVTERbIfqA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708972576-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.24.17
-! TimeUpdated: 2024-02-26T17:33:09+00:00
+! Version: 2.3.24.18
+! TimeUpdated: 2024-02-26T18:33:09+00:00
 ! Expires: 5 days (update frequency)
 ||rwwmbymwbzbea.top^
 ||adnext.pl^$third-party
@@ -5766,6 +5766,8 @@ roweroweporady.pl#@#.ad_container
 ||cdn.questvert.pl/publishers/*/qpscript.js
 !+ PLATFORM(ios, ext_android_cb)
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
+fxmag.pl##text[class^="Ad_"]
+fxmag.pl##div[class^="Ad_bottom_"]
 franczyzawhandlu.pl##.top
 franczyzawhandlu.pl##div[class^="position_"][class$="top"]
 analizy.pl##.vdaText
