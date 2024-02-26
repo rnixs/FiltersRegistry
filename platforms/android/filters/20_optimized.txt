@@ -1,9 +1,9 @@
-! Checksum: a45PI6EioDwWgJr4X2Se8w
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1708914971-3600.patch
+! Checksum: olcjb2HvJjP9oP6dtlLCfw
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1708943758-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.62
-! TimeUpdated: 2024-02-25T22:32:35+00:00
+! Version: 2.0.12.63
+! TimeUpdated: 2024-02-26T10:32:26+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1538,6 +1538,7 @@ honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~xltrax.ee,~hitta.se,~mail.ru,~v7player.wostreaming.net,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
+la-croix.com##.popin-application-mobile
 cian.ru#$#body { overflow: auto !important; }
 cian.ru#$#div[data-name="FullscreenBanner"] { display: none !important; }
 flightradar24.com##.size-full > div.relative > div.size-full ~ div.justify-between.absolute > div.justify-center.flex
