@@ -1,9 +1,9 @@
-! Checksum: NgpxFLKf3ILJ7Sm2mgBAPg
-! Diff-Path: ../patches/14/14-s-1708932974-3600.patch
+! Checksum: 6VfPeP2mWJscLa3o7tjtcw
+! Diff-Path: ../patches/14/14-s-1708936561-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.88.92
-! TimeUpdated: 2024-02-26T07:32:06+00:00
+! Version: 2.1.88.93
+! TimeUpdated: 2024-02-26T08:32:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2332,6 +2332,7 @@ multiplayer.it,tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+dea.digar.ee###deacookienotificationbarcontainer
 iamgujarat.com,eisamay.com,samayam.com,vijaykarnataka.com,indiatimes.com##.top-header-gdpr
 euronet.pl##.eu-cookies-bar-cookies-bar-wrap
 ubiklibri.it#$#html { overflow: auto !important; }

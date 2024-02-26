@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: dzy6wmJQ+HccakIaqjoiEw
-! Diff-Path: ../patches/21/21-s-1708933013-3600.patch
+! Checksum: LlNYXzN5rw4/cdQ7O5MtQw
+! Diff-Path: ../patches/21/21-s-1708936595-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.20.11
-! TimeUpdated: 2024-02-26T07:32:32+00:00
+! Version: 2.0.20.12
+! TimeUpdated: 2024-02-26T08:32:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7509,7 +7509,8 @@ antonimos.de,quesignifi.ca##+js(set-constant, waitTime, 0)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160875
 streamvid.net##+js(adjust-setTimeout, countDown, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160528
-decrypt.day##+js(nano-setInterval-booster, update, *, 0.001)
+decrypt.day##+js(adjust-setTimeout, _=!0, *, 0.001)
+decrypt.day##+js(nano-setInterval-booster, update, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160439
 alpinecorporate.com##+js(nano-setInterval-booster, counter, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160334

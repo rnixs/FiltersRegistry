@@ -1,9 +1,9 @@
-! Checksum: SsakV7L2aHxiWnJ404e8VQ
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1708932989-3600.patch
+! Checksum: HQ78PSDUDVpwm90NY/detQ
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1708936573-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.79
-! TimeUpdated: 2024-02-26T07:32:30+00:00
+! Version: 2.0.88.80
+! TimeUpdated: 2024-02-26T08:32:24+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -3260,7 +3260,6 @@ russian-seriali.ru##.mixmob
 russian-seriali.ru##.roll
 ||goodgame.ru/html/embed-player/dist/index.html?partner=
 shazoo.ru#?#.aside > div > b:contains(Партнерский стрим)
-||cdnvideo.v.ozone.ru/vod/*/asset_*.mp4
 audit-it.ru##.opadv
 stavka.tv##.Sidebar
 doramatv.live##div[class*=" "]:has(> noindex > script)

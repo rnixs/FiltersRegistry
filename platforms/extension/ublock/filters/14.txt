@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JeDUvBzNPar/loxHpI3wqg
-! Diff-Path: ../patches/14/14-s-1708933009-3600.patch
+! Checksum: iqYLJXXLbDeBDjZxyPaPUQ
+! Diff-Path: ../patches/14/14-s-1708936592-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.88.92
-! TimeUpdated: 2024-02-26T07:32:06+00:00
+! Version: 2.1.88.93
+! TimeUpdated: 2024-02-26T08:32:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2341,6 +2341,7 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 ! NOTE: Regular rules
 !
+dea.digar.ee###deacookienotificationbarcontainer
 iamgujarat.com,eisamay.com,samayam.com,vijaykarnataka.com,indiatimes.com##.top-header-gdpr
 sumsub.com##+js(set-cookie, viewed_cookie_policy, yes)
 euronet.pl##.eu-cookies-bar-cookies-bar-wrap
@@ -47396,7 +47397,8 @@ antonimos.de,quesignifi.ca##+js(set-constant, waitTime, 0)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160875
 streamvid.net##+js(adjust-setTimeout, countDown, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160528
-decrypt.day##+js(nano-setInterval-booster, update, *, 0.001)
+decrypt.day##+js(adjust-setTimeout, _=!0, *, 0.001)
+decrypt.day##+js(nano-setInterval-booster, update, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160439
 alpinecorporate.com##+js(nano-setInterval-booster, counter, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160334

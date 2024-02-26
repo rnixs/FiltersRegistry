@@ -1,9 +1,9 @@
-! Checksum: EynsqMeB9azWVJX1z64rqQ
-! Diff-Path: ../patches/21/21-s-1708933002-3600.patch
+! Checksum: idmCKrgqSxQwDOpLG1a6pw
+! Diff-Path: ../patches/21/21-s-1708936585-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.20.11
-! TimeUpdated: 2024-02-26T07:32:32+00:00
+! Version: 2.0.20.12
+! TimeUpdated: 2024-02-26T08:32:26+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7568,7 +7568,8 @@ antonimos.de,quesignifi.ca#%#//scriptlet('set-constant', 'waitTime', '0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160875
 streamvid.net#%#//scriptlet('adjust-setTimeout', 'countDown', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160528
-decrypt.day#%#//scriptlet('adjust-setInterval', 'update', '*', '0.001')
+decrypt.day#%#//scriptlet('adjust-setTimeout', '_=!0', '*', '0.001')
+decrypt.day#%#//scriptlet('adjust-setInterval', 'update', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160439
 alpinecorporate.com#%#//scriptlet('adjust-setInterval', 'counter', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160334

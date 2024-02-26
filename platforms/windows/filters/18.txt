@@ -1,9 +1,9 @@
-! Checksum: zq2ehrP61YfE7lmhQ0pPlg
-! Diff-Path: ../patches/18/18-s-1708933035-3600.patch
+! Checksum: gSrlkazgGiwjPIIpKYO9Bw
+! Diff-Path: ../patches/18/18-s-1708936616-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.45
-! TimeUpdated: 2024-02-26T07:32:17+00:00
+! Version: 2.0.34.46
+! TimeUpdated: 2024-02-26T08:32:11+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2370,6 +2370,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+dea.digar.ee###deacookienotificationbarcontainer
 iamgujarat.com,eisamay.com,samayam.com,vijaykarnataka.com,indiatimes.com##.top-header-gdpr
 vrtranspoint.fi#%#//scriptlet('trusted-set-cookie', 'cookie_consent', '{%22cookies_statistical%22:false%2C%22cookies_ad%22:true}')
 sumsub.com#%#//scriptlet('set-cookie', 'viewed_cookie_policy', 'yes')

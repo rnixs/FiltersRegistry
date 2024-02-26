@@ -1,0 +1,12 @@
+d1 2
+a2 2
+! Checksum: B+sz+d/NIxvoX17i36CbBw
+! Diff-Path: ../patches/21/21-s-1708936591-3600.patch
+d5 2
+a6 2
+! Version: 2.0.20.12
+! TimeUpdated: 2024-02-26T08:32:26+00:00
+d7563 1
+a7563 2
+decrypt.day#%#//scriptlet('adjust-setTimeout', '_=!0', '*', '0.001')
+decrypt.day#%#//scriptlet('adjust-setInterval', 'update', '*', '0.02')

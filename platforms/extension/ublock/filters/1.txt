@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 2Xi0Jig9r4LAjEzP4nfxlw
-! Diff-Path: ../patches/1/1-s-1708933009-3600.patch
+! Checksum: wz2tk9X4huON2aGYQyGgYQ
+! Diff-Path: ../patches/1/1-s-1708936592-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.79
-! TimeUpdated: 2024-02-26T07:32:30+00:00
+! Version: 2.0.88.80
+! TimeUpdated: 2024-02-26T08:32:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7711,7 +7711,6 @@ russian-seriali.ru##.mixmob
 russian-seriali.ru##.roll
 ||goodgame.ru/html/embed-player/dist/index.html?partner=
 shazoo.ru#?#.aside > div > b:contains(Партнерский стрим)
-||cdnvideo.v.ozone.ru/vod/*/asset_*.mp4
 audit-it.ru##.opadv
 stavka.tv##.Sidebar
 doramatv.live##div[class*=" "]:has(> noindex > script)

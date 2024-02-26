@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: yTG5gR7CdV91Tx4fSHHt8g
-! Diff-Path: ../patches/18/18-s-1708933011-3600.patch
+! Checksum: 8m/UT6KCBUpXGcQzCf6oLw
+! Diff-Path: ../patches/18/18-s-1708936594-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.45
-! TimeUpdated: 2024-02-26T07:32:17+00:00
+! Version: 2.0.34.46
+! TimeUpdated: 2024-02-26T08:32:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2341,6 +2341,7 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 ! NOTE: Regular rules
 !
+dea.digar.ee###deacookienotificationbarcontainer
 iamgujarat.com,eisamay.com,samayam.com,vijaykarnataka.com,indiatimes.com##.top-header-gdpr
 sumsub.com##+js(set-cookie, viewed_cookie_policy, yes)
 euronet.pl##.eu-cookies-bar-cookies-bar-wrap
