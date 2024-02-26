@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZgYuWH4o2SadFWB0uEMLyA
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1708914992-3600.patch
+! Checksum: jKZXBVIY9Rs/H2pwyKmY7g
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1708933011-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.78
-! TimeUpdated: 2024-02-25T22:32:34+00:00
+! Version: 2.0.88.79
+! TimeUpdated: 2024-02-26T07:32:30+00:00
 ! Expires: 5 days (update frequency)
 /load-xml/?id=*&roll=$xmlhttprequest
 .com/services/?id=$script,third-party
@@ -2271,7 +2271,7 @@ mail.ru##div[data-logger="partnerNews"]
 mail.ru##.mailru-visibility-check
 mail.ru##div[class*="rb-slot_plug"]
 mail.ru,sportmail.ru##div[class*="m-fixed-panel__box"]
-mail.ru,sportmail.ru,~my.mail.ru,~touch.mail.ru##+js(set-constant, Object.prototype.mimic, null)
+mail.ru,sportmail.ru,~e.mail.ru,~my.mail.ru,~touch.mail.ru##+js(set-constant, Object.prototype.mimic, null)
 mail.ru##:matches-path(/^\/$|mail\.ru\/\?/)div[slot="main-column"] > div.tgb-wrapper
 kino.mail.ru##.block_ad-text
 kino.mail.ru##button[class*="adv-marker"]
