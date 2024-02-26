@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: QUXjQ7eXCPM/CNSjue1Rxg
-! Diff-Path: ../patches/13_optimized/13_optimized-s-1708958204-3600.patch
+! Checksum: NoDcAviY2USZ2kBK8R3kvQ
+! Diff-Path: ../patches/13_optimized/13_optimized-s-1708968995-3600.patch
 ! Title: AdGuard Turkish filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.50.16
-! TimeUpdated: 2024-02-26T14:31:55+00:00
+! Version: 2.0.50.17
+! TimeUpdated: 2024-02-26T17:31:59+00:00
 ! Expires: 5 days (update frequency)
 ||hemenindir.to^
 ||pixad.com.tr^$third-party
@@ -1252,6 +1252,8 @@ $xmlhttprequest,third-party,denyallow=linkvertise.com|fastly.net|statically.io|s
 /service/advertchannels?$domain=kocaelifikir.com|anayurtgazetesi.com|medyaankara.com|ozgunkocaeli.com.tr|urfanatik.com|dirilispostasi.com|turkuazgazetesi.net|yenialanya.com|bugunkocaeli.com.tr|cagdaskocaeli.com.tr|mansetaydin.com|enkocaeli.com|kocaelikoz.com|kocaelibarisgazetesi.com|seskocaeli.com|sigortahaber.com|gaziantepgunes.com
 /service/advertchannels?$xmlhttprequest,redirect=noop.txt,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
+haberturk.com##ht-section[data-section="manset2reklam"]
+ensonhaber.com##.aksa
 uzaymanga.com##section:has(> p > a[href^="https://bit.ly/"])
 uzaymanga.com##.duyuru-kutusu
 trovit.com.tr##.adsense-container-skeleton

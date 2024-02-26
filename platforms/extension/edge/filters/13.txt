@@ -1,9 +1,9 @@
-! Checksum: P19n3KW5z1IRelayIX+PjA
-! Diff-Path: ../patches/13/13-s-1708958183-3600.patch
+! Checksum: FgCpoUBl9+3qO4hvwN+hHQ
+! Diff-Path: ../patches/13/13-s-1708968978-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.50.16
-! TimeUpdated: 2024-02-26T14:31:55+00:00
+! Version: 2.0.50.17
+! TimeUpdated: 2024-02-26T17:31:59+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1916,6 +1916,8 @@ $xmlhttprequest,third-party,denyallow=linkvertise.com|fastly.net|statically.io|s
 /service/advertchannels?$xmlhttprequest,redirect=nooptext,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+haberturk.com##ht-section[data-section="manset2reklam"]
+ensonhaber.com##.aksa
 uzaymanga.com##section:has(> p > a[href^="https://bit.ly/"])
 uzaymanga.com##.duyuru-kutusu
 trovit.com.tr##.adsense-container-skeleton
