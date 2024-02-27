@@ -1,9 +1,9 @@
-! Checksum: ARVE7qpQTJnyZmFKiEtepQ
-! Diff-Path: ../patches/107_optimized/107_optimized-s-1708967251-14400.patch
+! Checksum: 7L87311dk5Hptks0U97D6Q
+! Diff-Path: ../patches/107_optimized/107_optimized-s-1709053661-14400.patch
 ! Title: EasyList Germany (Optimized)
 ! Description: Additional filter list for websites in German. Already included in AdGuard German filter.
-! Version: 2.0.12.73
-! TimeUpdated: 2024-02-26T17:02:00+00:00
+! Version: 2.0.12.74
+! TimeUpdated: 2024-02-27T17:02:08+00:00
 ! Expires: 12 hours (update frequency)
 &werbemittel=
 -Bannerwerbung-
@@ -5244,6 +5244,7 @@ sportdeutschland.tv#?#.text-right.text-white.col-6:-abp-contains(präsentiert vo
 swz.it#?#.jeg_post.jeg_pl_md_2.pr.format-standard:-abp-has(span:-abp-contains(PR-INFO))
 t-online.de,www-t--online-de.cdn.ampproject.org#?#div[id^="T-"][onfocus^="A('zid="]:-abp-has(a:-abp-contains(Anzeige))
 tag24.de#?#article.article-tile:-abp-has(span.article-tile__badge2:-abp-contains(ANZEIGE))
+tiger.ch#?#div[id^="gridSuche_panRecord_"]:has([id^="gridSuche_lblUrl_"]:-abp-contains(Anzeige))
 tonight.de#?#.td_block_wrap:-abp-has(a:-abp-contains(Anzeige))
 um-tv.de#?#.small-12.column.space:-abp-has(p:-abp-contains(--Anzeige--))
 unicum.de#?#.artikel-preview-content:-abp-has(p:-abp-contains(-ANZEIGE-))
