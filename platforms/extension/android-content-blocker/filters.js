@@ -434,8 +434,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/android-content-blocker/filters/6.txt",
 			"trustLevel": "full",
-			"version": "2.0.40.73",
-			"timeUpdated": "2024-02-27T20:33:28+0000",
+			"version": "2.0.40.74",
+			"timeUpdated": "2024-02-27T21:33:26+0000",
 			"languages": [
 				"de"
 			],
