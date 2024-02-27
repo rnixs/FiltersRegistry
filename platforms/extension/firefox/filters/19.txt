@@ -1,9 +1,9 @@
-! Checksum: 3EL6vsjdi87j9Yb6hDq5jQ
-! Diff-Path: ../patches/19/19-s-1709037402-3600.patch
+! Checksum: MSglAHoVF7LOWpIU2QO8ug
+! Diff-Path: ../patches/19/19-s-1709041017-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.34
-! TimeUpdated: 2024-02-27T12:32:21+00:00
+! Version: 2.0.32.35
+! TimeUpdated: 2024-02-27T13:32:39+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4139,6 +4139,8 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+steam.kupikod.com###app > div.vfm:has(> div.popunder)
+bnext.com.tw###aaabar
 hokiesports.com###polite-pop-up
 fox4kc.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'firstLoad')
 geeksforgeeks.org#%#//scriptlet('trusted-set-local-storage-item', 'problemPageShowOnboardingPopup', 'true')

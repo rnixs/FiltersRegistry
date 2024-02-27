@@ -1,9 +1,9 @@
-! Checksum: c37MiAX2z/j8hGMl7R5+ew
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1709037403-3600.patch
+! Checksum: 42eg94JGpsIeIW6eC/vSmQ
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1709041017-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.34
-! TimeUpdated: 2024-02-27T12:32:21+00:00
+! Version: 2.0.32.35
+! TimeUpdated: 2024-02-27T13:32:39+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1567,6 +1567,8 @@ api.flocktory.com
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+steam.kupikod.com###app > div.vfm:has(> div.popunder)
+bnext.com.tw###aaabar
 hokiesports.com###polite-pop-up
 fox4kc.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'firstLoad')
 geeksforgeeks.org#%#//scriptlet('trusted-set-local-storage-item', 'problemPageShowOnboardingPopup', 'true')

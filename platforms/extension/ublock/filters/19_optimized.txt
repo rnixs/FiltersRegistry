@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: vJItBHCD9EUAuQPox2APNg
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1709037424-3600.patch
+! Checksum: I5J9lebMJdtWZ+8TLxq87w
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1709041037-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.34
-! TimeUpdated: 2024-02-27T12:32:21+00:00
+! Version: 2.0.32.35
+! TimeUpdated: 2024-02-27T13:32:39+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -1481,6 +1481,8 @@ api.flocktory.com
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+steam.kupikod.com###app > div.vfm:has(> div.popunder)
+bnext.com.tw###aaabar
 hokiesports.com###polite-pop-up
 fox4kc.com##+js(addEventListener-defuser, DOMContentLoaded, firstLoad)
 democracynow.org##+js(set-cookie, campaign_seen_today, true)
