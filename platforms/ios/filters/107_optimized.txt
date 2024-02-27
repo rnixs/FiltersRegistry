@@ -1,9 +1,9 @@
-! Checksum: a9K6LqHppMrWzq0ryu/Qrw
-! Diff-Path: ../patches/107_optimized/107_optimized-s-1709053650-14400.patch
+! Checksum: W/yuNVaqaWbENyyUCPwoqw
+! Diff-Path: ../patches/107_optimized/107_optimized-s-1709068034-14400.patch
 ! Title: EasyList Germany (Optimized)
 ! Description: Additional filter list for websites in German. Already included in AdGuard German filter.
-! Version: 2.0.12.74
-! TimeUpdated: 2024-02-27T17:02:08+00:00
+! Version: 2.0.12.75
+! TimeUpdated: 2024-02-27T21:02:06+00:00
 ! Expires: 5 days (update frequency)
 &werbemittel=
 -Bannerwerbung-
@@ -3224,7 +3224,7 @@ bitcoinnews.ch###text-32
 motormobiles.de###text-33
 nh24.de###text-35
 motormobiles.de###text-39
-fahrzeuglackiererforum.de###text-4
+cvj.ch,fahrzeuglackiererforum.de###text-4
 motormobiles.de###text-41
 motormobiles.de###text-42
 geocaching-magazin.com,nh24.de###text-48
@@ -3363,7 +3363,7 @@ ak-kurier.de##.ad + #flashContent
 ak-kurier.de##.ad + .tdt
 ak-kurier.de##.ad + .uk-panel
 immobilienscout24.de##.ad-banner
-gebraucht-kaufen.de,it-daily.net,mixed.de,raetsel-hilfe.de,sueddeutsche.de,swissmom.ch,tt.com,watchtime.net,zeit.de##.ad-container
+gebraucht-kaufen.de,it-daily.net,mixed.de,nebelspalter.ch,raetsel-hilfe.de,sueddeutsche.de,swissmom.ch,tt.com,watchtime.net,zeit.de##.ad-container
 hallo-minden.de##.ad-info
 xdate.ch##.ad-item
 diegrenzgaenger.lu##.ad-listing
@@ -3398,6 +3398,7 @@ smartdroid.de##.adp1
 africa-positive.de,androidhow.eu,arbeitszeugnisgenerator.de,autoscout24.ch,badi-info.ch,erochatcommunity.com,erochatcommunity.net,eurotrainer.ndz.de,fischkopf.de,nachtkritik.de,raetselhilfe.net,regenbogen.de,stol.it,viamichelin.at,viamichelin.ch,viamichelin.de,wetter.at,xwords.de##.ads
 efahrer.chip.de##.ads-alignment
 glarus24.ch,radiocentral.ch,sunshine.ch##.ads-container
+bluewin.ch##.ads-group
 6profis.de##.ads6p
 chefkoch.de##.ads__initialized
 meetingpoint-brandenburg.de##.ads_mobile
@@ -3920,6 +3921,7 @@ computerbild.de##.jobbioTeaser
 nextpit.de##.jobbioapp
 interaktiv.tagesspiegel.de##.jobunion-container
 nur-positive-nachrichten.de##.jrCardBanner
+suedostschweiz.ch##.js-audienzz
 eurocampings.de##.js-mock-banner
 eurogirlsescort.de##.js-stt-click > picture
 wetter.com##.jsDaa-D
@@ -4986,6 +4988,7 @@ restegourmet.de##li[data-content-type="ad"]
 gmx.ch,gmx.net,web.de##list-inbox-ad-item
 gmx.ch,gmx.net,web.de##list-inbox-pga-ad-item
 gmx.ch,gmx.net,web.de##list-programmatic-inbox-ad-item
+nau.ch##nau-external-content-lazy
 areadvd.de##onehr
 chip.de##span.Button--Clickout[data-submit]
 ariva.de##span[onpointerdown^="countClickOnGAorEs("]
