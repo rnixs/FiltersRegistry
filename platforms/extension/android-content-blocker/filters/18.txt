@@ -1,9 +1,9 @@
-! Checksum: A/VasuOrUuVz3iLfaHABdA
-! Diff-Path: ../patches/18/18-s-1709015756-3600.patch
+! Checksum: CdLuXHQDPE6F0tKrKrnVzg
+! Diff-Path: ../patches/18/18-s-1709019405-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.57
-! TimeUpdated: 2024-02-27T06:32:11+00:00
+! Version: 2.0.34.58
+! TimeUpdated: 2024-02-27T07:32:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2333,10 +2333,11 @@ multiplayer.it,tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+||telematics.naviexpert.pl/*/cookiesconsent.min.js
 zaiks.org.pl###pageCookieConsent
 zaiks.org.pl##div[class^="cookiesInformation_wrapper_"]
 toolsai.net##div[class^="ancr-"]
-meteo.imgw.pl###imgw-pop-box-cookie
+imgw.pl###imgw-pop-box-cookie
 ekonomiczny.ing.pl#$#body { overflow-y: auto !important; }
 ekonomiczny.ing.pl#$#body #cookiePolicy { display: none !important; }
 outletmoto.com###aviso_cookie

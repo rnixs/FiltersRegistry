@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: WbeYVfzRrkvannGMSWm38g
-! Diff-Path: ../patches/18/18-s-1709015779-3600.patch
+! Checksum: 36L+jQnqV/BNMQKPLxcmtg
+! Diff-Path: ../patches/18/18-s-1709019432-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.57
-! TimeUpdated: 2024-02-27T06:32:11+00:00
+! Version: 2.0.34.58
+! TimeUpdated: 2024-02-27T07:32:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2342,10 +2342,11 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 ! NOTE: Regular rules
 !
+||telematics.naviexpert.pl/*/cookiesconsent.min.js
 zaiks.org.pl###pageCookieConsent
 zaiks.org.pl##div[class^="cookiesInformation_wrapper_"]
 toolsai.net##div[class^="ancr-"]
-meteo.imgw.pl###imgw-pop-box-cookie
+imgw.pl###imgw-pop-box-cookie
 ekonomiczny.ing.pl#$#body { overflow-y: auto !important; }
 ekonomiczny.ing.pl#$#body #cookiePolicy { display: none !important; }
 outletmoto.com###aviso_cookie
@@ -13647,6 +13648,7 @@ apply.lufthansagroup.careers##+js(set-cookie, cookieCenterConsent, true)
 fusionbrain.ai##+js(set-local-storage-item, fb-cookies-accept, 1)
 digi24.ro##+js(set-cookie-reload, cmp_level, 5)
 !
+mhwm.pl##+js(set-cookie, declineOwnCookiesCookie, 1)
 schwurbeltreff.de##+js(set-local-storage-item, cookieGrant, 1)
 comiccave.de##+js(set-cookie, mnd-cookie-accepted-comiccavede1, 1)
 etoll.gov.pl##+js(set-local-storage-item, cookieconsent_status, true)
