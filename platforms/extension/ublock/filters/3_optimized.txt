@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZRXZZSa8yxsHk8ICSBG6rA
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1709026642-3600.patch
+! Checksum: mTWihe6DHgdlSzUF4qw2+g
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1709030291-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.67.14
-! TimeUpdated: 2024-02-27T09:33:49+00:00
+! Version: 2.0.67.15
+! TimeUpdated: 2024-02-27T10:33:42+00:00
 ! Expires: 5 days (update frequency)
 thesaurus.net,alle-tests.nl,maketecheasier.com,gamingdeputy.com,motorgraph.com,mlbpark.donga.com,thephoblographer.com,brandbrief.co.kr,meconomynews.com,apkmirror.com##+js(abort-current-script, atob, eval(decodeURIComponent(escape(window.atob("KCgpPT5)
 motorgraph.com,brandbrief.co.kr,meconomynews.com,apkmirror.com##+js(noeval-if, https://07c225f3.online/loader.min.js)
@@ -74,12 +74,12 @@ member.neofinancial.com##+js(set-constant, __fpjs_p_l_b, {})
 member.neofinancial.com##+js(set-constant, __fpjs_p_l_b.load, noopFunc)
 itsu.com##+js(set-constant, AtreemoTrackingLbr, noopFunc)
 pracuj.pl##+js(set-cookie-reload, gptrackCookie, 1)
-tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors, {})
-tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors.init, noopFunc)
-tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors.track, noopFunc)
-tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors.quick, noopFunc)
-tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors.login, noopFunc)
-tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors.registerPage, noopFunc)
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors, {})
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors.init, noopFunc)
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors.track, noopFunc)
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors.quick, noopFunc)
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors.login, noopFunc)
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn##+js(set-constant, sensors.registerPage, noopFunc)
 embed.rtl.hu##+js(set-constant, gemiusStream, {})
 embed.rtl.hu##+js(set-constant, gemiusStream.event, noopFunc)
 reuters.com##+js(set-local-storage-item, ajs_anonymous_id, null)
