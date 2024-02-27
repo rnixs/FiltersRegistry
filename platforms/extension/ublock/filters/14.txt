@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: YMHzay1aEUGhxtGrOrHMHg
-! Diff-Path: ../patches/14/14-s-1709004983-3600.patch
+! Checksum: VqrGLkRkfriZXnkgUAH0TA
+! Diff-Path: ../patches/14/14-s-1709015777-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.4
-! TimeUpdated: 2024-02-27T03:31:58+00:00
+! Version: 2.1.89.5
+! TimeUpdated: 2024-02-27T06:32:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2342,6 +2342,8 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 ! NOTE: Regular rules
 !
+zaiks.org.pl###pageCookieConsent
+zaiks.org.pl##div[class^="cookiesInformation_wrapper_"]
 toolsai.net##div[class^="ancr-"]
 meteo.imgw.pl###imgw-pop-box-cookie
 ekonomiczny.ing.pl#$#body { overflow-y: auto !important; }

@@ -1,9 +1,9 @@
-! Checksum: 2bCymh/dLlRBjkzTnGWRfA
-! Diff-Path: ../patches/14/14-s-1709004959-3600.patch
+! Checksum: MN8FVK6J6O9gKc48X+oDJQ
+! Diff-Path: ../patches/14/14-s-1709015758-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.4
-! TimeUpdated: 2024-02-27T03:31:58+00:00
+! Version: 2.1.89.5
+! TimeUpdated: 2024-02-27T06:32:01+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2371,6 +2371,8 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+zaiks.org.pl###pageCookieConsent
+zaiks.org.pl##div[class^="cookiesInformation_wrapper_"]
 toolsai.net##div[class^="ancr-"]
 sklepy-odido.pl#%#//scriptlet('trusted-click-element', '.cookie-container button.reject-btn', '', '1000')
 meteo.imgw.pl###imgw-pop-box-cookie
