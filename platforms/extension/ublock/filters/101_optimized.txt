@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 013dmxdmsEUMQjATki9QIw
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1708981624-14400.patch
+! Checksum: YXhfOwHq8EMYPQTFuB0sbA
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1708996021-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.56
-! TimeUpdated: 2024-02-26T21:01:53+00:00
+! Version: 2.1.21.57
+! TimeUpdated: 2024-02-27T01:01:48+00:00
 ! Expires: 5 days (update frequency)
 &sadbl=1&abtg=1
 -ad-300x600-
@@ -121,7 +121,6 @@
 /ad-choices-
 /ad-choices.
 /ad-engine.js
-/ad-left.js
 /ad-scripts--
 /ad-scroll.js
 /ad-server.$~script
@@ -3437,8 +3436,6 @@ _800x80_
 ###player_ads
 ###playerad
 ###playerads
-###pnlLhsNativeAd
-###pnlRhsNativeAd
 ###pop.div_pop
 ###popupAd
 ###post-ad
@@ -3458,7 +3455,6 @@ _800x80_
 ###primis-container
 ###primis_player
 ###promo_ads
-###ps-vertical-ads
 ###pub728x90
 ###publicidad
 ###pushAd
@@ -6364,7 +6360,6 @@ _800x80_
 ##.bannerad
 ##.bannerads
 ##.banneradv
-##.bannergoogle
 ##.banners_ad
 ##.bannervcms
 ##.bar_ad
@@ -6379,7 +6374,6 @@ _800x80_
 ##.below-nav-ad
 ##.belowMastheadWrapper
 ##.below_nav_ad_wrap
-##.belt-ad
 ##.bg-ad-gray
 ##.bg-ads
 ##.bg-ads-space
@@ -6394,7 +6388,6 @@ _800x80_
 ##.bigAds
 ##.big_ad
 ##.big_ads
-##.big_center_ad
 ##.bigad
 ##.bigads
 ##.bigbox-ad
@@ -6402,12 +6395,10 @@ _800x80_
 ##.bigbox_ad
 ##.billboard-ad
 ##.billboard-ad-one
-##.billboard-ad-slot-container
 ##.billboard-ad-space
 ##.billboard-ads
 ##.billboard.ad
 ##.billboardAd
-##.billboard__ad__full
 ##.billboard_ad
 ##.billboard_ad_wrap
 ##.billboard_adwrap
@@ -6457,7 +6448,6 @@ _800x80_
 ##.blog-ad
 ##.blog-ad-image
 ##.blog-ads
-##.blog-ads-container
 ##.blogAd
 ##.blogads
 ##.bmd_advert
@@ -6532,15 +6522,11 @@ _800x80_
 ##.boxadv
 ##.br-ad
 ##.br-ad-wrapper
-##.branded-sponsored-result
 ##.break-ads
 ##.breaker-ad
 ##.brn-ads-box
 ##.brn-ads-mobile-container
 ##.brn-ads-sticky-wrapper
-##.bsaProCarousel
-##.bsaProContainer
-##.bsaProContainerNew
 ##.bt_ad
 ##.btm_ad
 ##.btn-ad
@@ -6556,7 +6542,6 @@ _800x80_
 ##.buttonads
 ##.buysellAds
 ##.bvp-ad
-##.bx-ads
 ##.bxad
 ##.bz-ad
 ##.c-ArticleAds
@@ -6592,7 +6577,6 @@ _800x80_
 ##.c-gallery-vertical__advert
 ##.c-googleadslot
 ##.c-header__ad
-##.c-inblog_ad
 ##.c-res-ad
 ##.c-sidebar-ad-stream__ad
 ##.c-sitenavPlaceholder__ad
