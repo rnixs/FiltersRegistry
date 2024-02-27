@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: VWijEer40Z7XLOf+LZgsyQ
-! Diff-Path: ../patches/18/18-s-1709044591-3600.patch
+! Checksum: x1HBynbQjapinXvFVpBNiA
+! Diff-Path: ../patches/18/18-s-1709048204-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.64
-! TimeUpdated: 2024-02-27T14:32:16+00:00
+! Version: 2.0.34.65
+! TimeUpdated: 2024-02-27T15:32:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9563,7 +9563,7 @@ schwaebische.de#$#body.tc-modal-open { overflow: visible !important; }
 schwaebische.de#$#div[class*="tc-privacy-"]:not([style]) { display: none !important; }
 tuenti.ec,lopes.com.br,crysis.com##.cookiemodal
 pokemongolive.com,nianticlabs.com##ark-cookiebar
-bnb.by,webcomicsapp.com,banggood.com,wbg.nuernberg.de,texterra.ru,medcentr-tula.ru,comparai.com.br,spimovel.com.br,ege-study.ru##.modal-cookie
+app.pitbot.pl,bnb.by,webcomicsapp.com,banggood.com,wbg.nuernberg.de,texterra.ru,medcentr-tula.ru,comparai.com.br,spimovel.com.br,ege-study.ru##.modal-cookie
 macupdate.com##.mu_cookie
 kleankanteen.ru.com###client-cookies-notice
 go2bus.ru###useragreement

@@ -1,9 +1,9 @@
-! Checksum: lsMiO4Q0jsTvafUg2Z8Myg
-! Diff-Path: ../patches/19/19-s-1709044568-3600.patch
+! Checksum: 40gR5Fp2rL6FESwV1xb5MQ
+! Diff-Path: ../patches/19/19-s-1709048181-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.36
-! TimeUpdated: 2024-02-27T14:32:19+00:00
+! Version: 2.0.32.37
+! TimeUpdated: 2024-02-27T15:32:25+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4122,6 +4122,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+burton.com#%#//scriptlet('trusted-set-cookie', 'emailPopupCookie', 'has-viewed')
 lego.com##.survey
 steam.kupikod.com###app > div.vfm:has(> div.popunder)
 bnext.com.tw###aaabar

@@ -1,9 +1,9 @@
-! Checksum: Xj2Rj84z0xjm2WIleTrTMQ
-! Diff-Path: ../patches/13/13-s-1709037378-3600.patch
+! Checksum: ZI8sIFhJaKbW1MqTPf1oCg
+! Diff-Path: ../patches/13/13-s-1709048175-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.50.20
-! TimeUpdated: 2024-02-27T12:31:54+00:00
+! Version: 2.0.50.21
+! TimeUpdated: 2024-02-27T15:31:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1730,6 +1730,7 @@ $xmlhttprequest,third-party,denyallow=linkvertise.com|fastly.net|statically.io|s
 ! Sometimes some images do not load if above request is blocked, redirect rule fixes it
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+||hdfilmizle7.com/show-promote.min.js
 ||worldofturkiye.com/wp-content/uploads/*/sagkule.
 /uploads/*-banner-$domain=worldofturkiye.com|bursa.com|sigortacigazetesi.com.tr
 /uploads/*-banner.$domain=worldofturkiye.com|kampyerleri.org|bilgenc.com|sigortacigazetesi.com.tr|gmdergi.com
