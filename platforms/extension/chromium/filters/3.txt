@@ -1,9 +1,9 @@
-! Checksum: Pb9RQj6v9gHuNElZsZvksg
-! Diff-Path: ../patches/3/3-s-1709030256-3600.patch
+! Checksum: 9DFY4CoyS7PFIxPc95sFwQ
+! Diff-Path: ../patches/3/3-s-1709037390-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.67.15
-! TimeUpdated: 2024-02-27T10:33:42+00:00
+! Version: 2.0.67.16
+! TimeUpdated: 2024-02-27T12:33:13+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -113376,7 +113376,7 @@ tieba.baidu.com#%#//scriptlet('set-constant', 'passFingerPrint', 'noopFunc')
 !#safari_cb_affinity
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139046
-||idm.hit.gemius.pl/gplayer.js$script,redirect=gemius,domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl|vibefm.pl
+||idm.hit.gemius.pl/gplayer.js$script,redirect=gemius,domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl|vibefm.pl|urzadzamy.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138964
 @@||googletagmanager.com/gtm.js$domain=petlebi.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138727

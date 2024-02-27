@@ -1,9 +1,9 @@
-! Checksum: fGPUB3W+I/QyJr7wUM+eaw
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1709001375-3600.patch
+! Checksum: O2cqlVYcga7yGrNdbBPhuw
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1709037419-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.68
-! TimeUpdated: 2024-02-27T00:32:26+00:00
+! Version: 2.0.12.69
+! TimeUpdated: 2024-02-27T12:32:32+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -115,7 +115,6 @@ shafa.ua##.js-catalog-apps-promotion-banner
 kijiji.ca##section[aria-labelledby="app-marketing-title"]
 rikunabi.com##.guiding-app-dl
 turkmenportal.com##.modal_download_app
-pokebattler.com#?#.container > div.row:has(> div > a[href^="https://apps.apple.com/app/apple-store/"])
 indiatoday.in##.downloadapp__section
 businesstoday.in##.ad_pg_btm
 etsy.com###web2app-drawer

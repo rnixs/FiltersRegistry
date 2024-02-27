@@ -1,9 +1,9 @@
-! Checksum: XHu+5GF4UA3dbCXOM6dZtw
-! Diff-Path: ../patches/19/19-s-1709033762-3600.patch
+! Checksum: yH0bJ0DQj/6gRJxEw1HAoA
+! Diff-Path: ../patches/19/19-s-1709037381-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.33
-! TimeUpdated: 2024-02-27T11:32:19+00:00
+! Version: 2.0.32.34
+! TimeUpdated: 2024-02-27T12:32:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -381,6 +381,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161003#issuecomment-1712255190
 ! reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.promotedlink
 !#safari_cb_affinity
+||vividmeadow.com^$third-party
 ||piquantgrove.com^$third-party
 ||nebulousgarden.com^$third-party
 ||jubilantglimmer.com^$third-party
@@ -11148,6 +11149,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+vsquare.org##.section-blocks div.elements > a[href="https://vsquare.org/newsletter/"]
+vsquare.org##.section-blocks div.elements > div.element.tail
 ubuntubuzz.com###subscribebox
 xxlmag.com##.widget-tsq_sailthru_newsletter_widget
 aplicaciones.ai###elementor-popup-modal-1910
