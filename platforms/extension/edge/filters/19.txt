@@ -1,9 +1,9 @@
-! Checksum: SFYXbCdoQ03uIBSK0FH8hw
-! Diff-Path: ../patches/19/19-s-1709041010-3600.patch
+! Checksum: xRNsnuQ2wKLzwtcC3mijQA
+! Diff-Path: ../patches/19/19-s-1709044573-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.35
-! TimeUpdated: 2024-02-27T13:32:39+00:00
+! Version: 2.0.32.36
+! TimeUpdated: 2024-02-27T14:32:19+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4126,6 +4126,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+lego.com##.survey
 steam.kupikod.com###app > div.vfm:has(> div.popunder)
 bnext.com.tw###aaabar
 hokiesports.com###polite-pop-up
@@ -4138,8 +4139,8 @@ zhihu.com##div[style^="transform-origin: center bottom; margin-top:"]
 community.atlassian.com##.login-spotlight
 earthly.dev##.announcement-banner
 clubd.co.jp##.footer-fix-banner
-rmj.ru#$##healthcodeLinkingModal { display: none !importnat; }
-rmj.ru#$#body.modal-open { overflow: auto !importnat; }
+rmj.ru#$##healthcodeLinkingModal { display: none !important; }
+rmj.ru#$#body.modal-open { overflow: auto !important; }
 lis-skins.ru##.bonus-banner
 wotexpress.eu##.we_popup
 d20pfsrd.com##.ognannouncement-container
