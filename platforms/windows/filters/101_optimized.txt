@@ -1,9 +1,9 @@
-! Checksum: VzxTK9nfSvkKLuqLFX3rxA
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1709010470-14400.patch
+! Checksum: V3YmhwgxfVvhykqcknhMnQ
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1709024850-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.58
-! TimeUpdated: 2024-02-27T05:02:20+00:00
+! Version: 2.1.21.59
+! TimeUpdated: 2024-02-27T09:01:55+00:00
 ! Expires: 12 hours (update frequency)
 &sadbl=1&abtg=1
 -ad-300x600-
@@ -30238,6 +30238,8 @@ zeenews.india.com##.add-placeholder
 ndtv.com##.add-section
 moneycontrol.com##.add-spot
 ndtv.com##.add-wrp
+newindian.in##.add160x600
+newindian.in##.add160x600-right
 ndtv.com##.add__txt
 ndtv.com##.add_dxt-non
 aish.com##.adholder-sidebar
@@ -30650,6 +30652,7 @@ foobar2000.org##.db_link
 fxempire.com##.ddAwpw
 slashdot.org##.deals-wrapper
 nettv4u.com##.desk_only
+newindian.in##.deskad
 livesoccertv.com##.desktop-ad-container
 tiermaker.com##.desktop-sticky
 buzzfeed.com,buzzfeednews.com##.desktop-sticky-ad_desktopStickyAdWrapper__a_tyF
@@ -31276,6 +31279,7 @@ infobel.com##.results-bottom-banner-container
 curseforge.com##.rev-container
 latimes.com,sandiegouniontribune.com##.revcontent
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##.revenue-display
+newindian.in##.rhs-ad2
 indianexpress.com##.rhs-banner-carousel
 cnbctv18.com##.rhs-home-second-ad
 firstpost.com##.rhs-tp-ad
@@ -32072,6 +32076,7 @@ bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 imgur.com##.Grid-column > div[style^="height:"]:has(.Post-item-external-ad)
+imgur.com##.Post-item:has(.Post-item-external-ad)
 outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
 haveibeenpwned.com##.actionsBar:has(.why1Password)
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)

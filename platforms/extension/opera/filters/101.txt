@@ -1,15 +1,15 @@
-! Checksum: oLKCpsRQYndGrFfEGv6Exw
-! Diff-Path: ../patches/101/101-s-1709010441-14400.patch
+! Checksum: YjpeogpMD0uiGJFCPNa9lw
+! Diff-Path: ../patches/101/101-s-1709024816-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.58
-! TimeUpdated: 2024-02-27T05:02:20+00:00
+! Version: 2.1.21.59
+! TimeUpdated: 2024-02-27T09:01:55+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: jLqXTZ2GqSZACQLxeJDgNg
-! OriginalVersion: 202402270451
+! Checksum: hKVV6CRGwuxRCG2/LsldnQ
+! OriginalVersion: 202402270851
 ! Title: EasyList
-! Last modified: 27 Feb 2024 04:51 UTC
+! Last modified: 27 Feb 2024 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -64362,6 +64362,8 @@ moneycontrol.com##.add-spot
 media4growth.com##.add-text
 brandingmag.com##.add-wrap
 ndtv.com##.add-wrp
+newindian.in##.add160x600
+newindian.in##.add160x600-right
 muslimobserver.com##.add2
 projectorcentral.com##.addDiv2
 projectorcentral.com##.addDiv3
@@ -65200,6 +65202,7 @@ sgcarmart##.dealer_banner
 slashdot.org##.deals-wrapper
 defiantamerica.com##.defia-widget
 nettv4u.com##.desk_only
+newindian.in##.deskad
 cardealermagazine.co.uk##.desktop
 livesoccertv.com##.desktop-ad-container
 rok.guide##.desktop-promo-banner
@@ -66541,6 +66544,7 @@ latimes.com,sandiegouniontribune.com##.revcontent
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##.revenue-display
 grammar.yourdictionary.com##.revenue-placeholder
 hindustantimes.com##.rgtAdSection
+newindian.in##.rhs-ad2
 indianexpress.com##.rhs-banner-carousel
 cnbctv18.com##.rhs-home-second-ad
 firstpost.com##.rhs-tp-ad
@@ -68295,6 +68299,7 @@ bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 imgur.com##.Grid-column > div[style^="height:"]:has(.Post-item-external-ad)
+imgur.com##.Post-item:has(.Post-item-external-ad)
 outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
 haveibeenpwned.com##.actionsBar:has(.why1Password)

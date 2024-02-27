@@ -1,9 +1,9 @@
-! Checksum: ko86HAwyDSVGw7oqKhfBRQ
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1709010428-14400.patch
+! Checksum: RnmspdMDDbQ8gcxOBYCwrA
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1709024802-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.19.35
-! TimeUpdated: 2024-02-27T05:02:42+00:00
+! Version: 2.0.19.36
+! TimeUpdated: 2024-02-27T09:02:17+00:00
 ! Expires: 10 days (update frequency)
 .id^*/bnr/$domain=~kalbarprov.go.id
 /iklan/*$image,domain=~jualrumahjakarta.com|~jualsewakios.com|~jualsewaruko.com|~kostjakarta.com|~pusatiklan.co.id|~sewa-apartemen.net|~sewa-rumah.net|~sewa-villa.com|~situsproperti.com|~tempat-usaha.com
@@ -2338,7 +2338,7 @@ dairi24jam.id,feritekno.com,kanalaspirasi.com,zonasultra.id##img[alt^="iklan" i]
 kemajuanrakyat.id##img[title*="iklan" i]
 suarakonsumenindonesia.com##img[title^="adv" i]
 batakpost.com,bumimaluku.com,detak.co,liranews.com,mediaaceh.co.id,okebung.com,penasulsel.com,suarabaru.id##img[title^="banner" i]
-bardimin.com,otoinfo.id,selidikinews.com##.code-block
+bardimin.com,cerah.id,otoinfo.id,selidikinews.com##.code-block
 dutaislam.com,maxmanroe.com##.post a[target="_blank"] > img
 timesindonesia.co.id##.text-center a[target="_blank"] > img
 adventuriderz.com,ardisaz.com,danirachmat.com,iphincow.com,koreanindo.net,langitselatan.com,mydirtsheet.com,warungasep.net##.wpa
@@ -2502,6 +2502,7 @@ fajarcirebon.com##img[width="2560"][height="428"]
 mediasembilan.co.id##img[width="290"][height="435"]
 shalokalindonesia.com##img[width="300"][height="600"]
 sbsinews.com##img[width="306"][height="606"]
+dekade.id##img[width="336"][height="280"]
 narahubung.id##img[width="361"][height="52"]
 mediasuarapublik.com##img[width="368"][height="720"]
 acehherald.com##img[width="387"][height="1024"]
@@ -2532,7 +2533,7 @@ pasificpos.com##img[width="720"][height="1280"]
 sinjai.info##img[width="720"][height="182"]
 akurasi.id##img[width="725"][height="1024"]
 karimuntoday.com,okemedan.com,pecihitam.org##img[width="728"][height="90"]
-beritanasional.id,bogornetwork.com,infosumut.id,kanalntb.co,kliksamarinda.com,matakota.com,mzknews.co,newsurban.id,ntbsatu.com,potretmaluku.id,rumaysho.com,suaraislam.id,upnews.id,wartakotanews.id##img[width="728"][height="91"]
+beritanasional.id,bogornetwork.com,dekade.id,infosumut.id,kanalntb.co,kliksamarinda.com,matakota.com,mzknews.co,newsurban.id,ntbsatu.com,potretmaluku.id,rumaysho.com,suaraislam.id,upnews.id,wartakotanews.id##img[width="728"][height="91"]
 masherul.com##img[width="728px"][height="90px"]
 bogordaily.net,kurawalmedia.com,newsurban.id##img[width="729"][height="91"]
 bogornetwork.com##img[width="730"][height="91"]
@@ -3045,6 +3046,7 @@ grid.id###div-top-banner-transparent
 kontan.co.id###halfpage-ads
 bolasport.com###top-banner-ads
 kontan.co.id##.OUTBRAIN
+parapuan.co##.ad-photo
 bolasport.com,gridoto.com,juara.net,motorplus-online.com##.ads
 kompas.tv##.ads-big
 kompas.tv##.ads-flycarpet
@@ -3092,6 +3094,7 @@ kontan.co.id##.thebanner
 kgnow.com##.topBanner
 motorplus-online.com###div-paralax-container
 grid.id###show-pushdown
+parapuan.co##.btnclose
 kontan.co.id##.center[style^="min-height: 250px"]:has(> [id^="div-Billboard_"])
 gridoto.com##.cls-mgid:has(> script[src^="https://jsc.mgid.com/"])
 kontan.co.id##.entry-content > div[style="width: 300px; margin: 0px auto 5px auto;min-height: 280px;"]

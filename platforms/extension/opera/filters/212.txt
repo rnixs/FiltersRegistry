@@ -1,15 +1,15 @@
-! Checksum: gTT7axtaA2110Pf/HLs0Pw
-! Diff-Path: ../patches/212/212-s-1709010444-14400.patch
+! Checksum: giS+zhSTgtSZrfjiKYSuTw
+! Diff-Path: ../patches/212/212-s-1709024819-14400.patch
 ! Title: RU AdList: Counters
 ! Description: RU AdList supplement for trackers blocking.
-! Version: 2.1.43.81
-! TimeUpdated: 2024-02-27T05:03:01+00:00
+! Version: 2.1.43.82
+! TimeUpdated: 2024-02-27T09:02:36+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: drgrevDfsVC0kMDQhfYTfA
-! OriginalVersion: 202402270451
+! Checksum: qb5PaNUs9CvXn1lO5LsQ0g
+! OriginalVersion: 202402270851
 ! Title: RU AdList: Counters
-! Last modified: 27 Feb 2024 04:51 UTC
+! Last modified: 27 Feb 2024 08:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -918,7 +918,6 @@ _pagespeed_beacon?
 ||t.sports.ru^
 ||tag.aticdn.net^$domain=~tv5monde.com
 ||tags.soloway.ru^$third-party
-||tags.tiqcdn.com/utag^*/utag.js$domain=~ikea.com
 ||tags.tiqcdn.com/utag^*/utag.sync.js
 ||tapad.com^$third-party
 ||tapstat.ru^$third-party
