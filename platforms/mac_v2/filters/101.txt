@@ -1,15 +1,15 @@
-! Checksum: 4vbU71iQFXlGgbou9oGJsw
-! Diff-Path: ../patches/101/101-s-1709024844-14400.patch
+! Checksum: 51rJcFCQs1gpZaxNLc/JEQ
+! Diff-Path: ../patches/101/101-s-1709039266-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.21.59
-! TimeUpdated: 2024-02-27T09:01:55+00:00
+! Version: 2.1.21.60
+! TimeUpdated: 2024-02-27T13:02:00+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: hKVV6CRGwuxRCG2/LsldnQ
-! OriginalVersion: 202402270851
+! Checksum: e7FdeSpx8RrdHalsBoVgOg
+! OriginalVersion: 202402271251
 ! Title: EasyList
-! Last modified: 27 Feb 2024 08:51 UTC
+! Last modified: 27 Feb 2024 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -69054,6 +69054,7 @@ xhamster.com##._80e65-containerBottomSpot
 xhamster.com##._80e65-containerPauseSpot
 tubepornclassic.com##.___it0h1l3u2se2lo
 pichunter.com##.__autofooterwidth
+redgifs.com##._advertTab_hvumk_1
 sunporno.com##.a-block
 pornsos.com##.a-box
 7mm001.com,7mmtv.sx##.a-d-block
@@ -70159,6 +70160,7 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 @@||letocard.fr/wp-content/uploads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
 @@||live.primis.tech^$script,domain=eurogamer.net|klaq.com|loudwire.com|screencrush.com|vg247.com|xxlmag.com
+@@||live.primis.tech^$xmlhttprequest,domain=xxlmag.com
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||looker.com/api/internal/$~third-party
