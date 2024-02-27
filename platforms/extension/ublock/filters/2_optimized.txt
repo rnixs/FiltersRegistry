@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: r8PGQr+in3A0uAWoBFnIsQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709030289-3600.patch
+! Checksum: eFQZKEZ6hkudj7Yc59cqKg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709033796-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.24.28
-! TimeUpdated: 2024-02-27T10:33:32+00:00
+! Version: 2.3.24.29
+! TimeUpdated: 2024-02-27T11:33:02+00:00
 ! Expires: 5 days (update frequency)
 ||rwwmbymwbzbea.top^
 ||adnext.pl^$third-party
@@ -8965,6 +8965,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||livehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+miui.rahim-soft.com##a[href^="https://canoestallowrootsabre.com/"]
 embtaku.pro##iframe[style*="0px"]
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=theguardian.com
 ||flixtorz.to/assets/_bnx/*_*xx.$image
@@ -32751,6 +32752,7 @@ redtube.com###video_right_col > .clearfix
 gosexpod.com###xtw
 beeg.com##.GreyFox
 porndoe.com##.\-f-banners
+redgifs.com##._advertTab_hvumk_1
 pornsos.com##.a-box
 7mm001.com,7mmtv.sx##.a-d-block
 porngem.com,uiporn.com##.a-d-v
