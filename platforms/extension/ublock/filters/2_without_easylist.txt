@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6XeMmKaXujR1LHj2Y7+DNA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709019435-3600.patch
+! Checksum: +xfXi9fx1/b+BSdSo26/0w
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709023019-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.24.25
-! TimeUpdated: 2024-02-27T07:33:40+00:00
+! Version: 2.3.24.26
+! TimeUpdated: 2024-02-27T08:32:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -24967,8 +24967,13 @@ techsauce.co###banner-link-c
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117583
 komchadluek.net###section-thaileague
 komchadluek.net##.default-sticky-1
+! https://github.com/AdguardTeam/AdguardFilters/issues/173667
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116784
-thairath.co.th#?##headerWraper ~ div:matches-css(height: 280px)
+thairath.co.th##.adsbox-style
+thairath.co.th##div[class^="ads-slot-"]
+thairath.co.th##.article-body div[style*="overflow:"][style*="background:"]:has(> div[class^="ads-slot-"])
+thairath.co.th###headerWraper ~ div[class]:has(> div:only-child > div[style]:only-child > #slot-billboard:only-child)
+thairath.co.th#?##headerWraper ~ div:matches-css(min-height: 280px)
 thairath.co.th##footer ~ div[style="text-align: center; opacity: 1;"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116778
 bangkokbiznews.com,thansettakij.com,komchadluek.net,springnews.co.th,nationtv.tv,tnews.co.th##.default-billboard
@@ -49994,6 +49999,8 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173660
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=mountathletics.com
 ! https://github.com/uBlockOrigin/uAssets/issues/16691#issuecomment-1959352291
 @@||ddzswov1e84sp.cloudfront.net^$script,domain=free-content.pro
 @@||onasider.top/tc$xmlhttprequest,domain=free-content.pro

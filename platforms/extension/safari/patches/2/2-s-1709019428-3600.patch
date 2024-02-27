@@ -1,0 +1,30 @@
+d1 2
+a2 2
+! Checksum: bscL8P4iUlg0tFe9Zy+4ZQ
+! Diff-Path: ../patches/2/2-s-1709023011-3600.patch
+d5 2
+a6 2
+! Version: 2.3.24.26
+! TimeUpdated: 2024-02-27T08:32:58+00:00
+a25909 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/173667
+d25911 1
+a25911 5
+thairath.co.th##.adsbox-style
+thairath.co.th##div[class^="ads-slot-"]
+thairath.co.th##.article-body div[style*="overflow:"][style*="background:"]:has(> div[class^="ads-slot-"])
+thairath.co.th###headerWraper ~ div[class]:has(> div:only-child > div[style]:only-child > #slot-billboard:only-child)
+thairath.co.th#?##headerWraper ~ div:matches-css(min-height: 280px)
+a51248 3
+! https://github.com/AdguardTeam/AdguardFilters/issues/173660
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mountathletics.com
+a127388 2
+newindian.in##.add160x600
+newindian.in##.add160x600-right
+a128226 1
+newindian.in##.deskad
+a129567 1
+newindian.in##.rhs-ad2
+a131320 1
+imgur.com##.Post-item:has(.Post-item-external-ad)

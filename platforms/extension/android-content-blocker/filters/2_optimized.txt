@@ -1,9 +1,9 @@
-! Checksum: 3uVDEnuP/Dw5KxVB8hU5Ww
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709019407-3600.patch
+! Checksum: sLrek6TyG0tIPcv9qIgqVg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709022982-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.24.25
-! TimeUpdated: 2024-02-27T07:33:40+00:00
+! Version: 2.3.24.26
+! TimeUpdated: 2024-02-27T08:32:58+00:00
 ! Expires: 5 days (update frequency)
 ||rwwmbymwbzbea.top^
 ||adnext.pl^$third-party
@@ -6599,6 +6599,8 @@ i-moviehd.com##div[id^="banner"]
 ||i-moviehd.com/wp-content/uploads/*/*/*.gif
 ||wp.com/mawtoload.com/wp-content/uploads/*.webp$domain=mawtoload.com
 ||mawtoload.com/wp-content/uploads/*.webp
+thairath.co.th##.adsbox-style
+thairath.co.th##div[class^="ads-slot-"]
 kapook.com##.fullbanner
 khaosod.co.th##.ads_position_wrapper
 sanook.com##.BillboardPremium
@@ -10979,6 +10981,8 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 !##################
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mountathletics.com
 @@||ddzswov1e84sp.cloudfront.net^$script,domain=free-content.pro
 @@||onasider.top/tc$xmlhttprequest,domain=free-content.pro
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=metrolagu.cam
@@ -34992,6 +34996,8 @@ indianexpress.com##.add-first
 ndtv.com##.add-section
 moneycontrol.com##.add-spot
 ndtv.com##.add-wrp
+newindian.in##.add160x600
+newindian.in##.add160x600-right
 ndtv.com##.add__txt
 auto-data.net##.adin
 watchcartoononline.bz##.adkiss
@@ -35250,6 +35256,7 @@ engadget.com##.da-container
 sportshub.stream##.db783ekndd812sdz-ads
 foobar2000.org##.db_link
 slashdot.org##.deals-wrapper
+newindian.in##.deskad
 livesoccertv.com##.desktop-ad-container
 tiermaker.com##.desktop-sticky
 hanime.tv##.desktop.htvad
@@ -35642,6 +35649,7 @@ myminifactory.com##.result-adv
 curseforge.com##.rev-container
 latimes.com,sandiegouniontribune.com##.revcontent
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##.revenue-display
+newindian.in##.rhs-ad2
 indianexpress.com##.rhs-banner-carousel
 cnbctv18.com##.rhs-home-second-ad
 firstpost.com##.rhs-tp-ad

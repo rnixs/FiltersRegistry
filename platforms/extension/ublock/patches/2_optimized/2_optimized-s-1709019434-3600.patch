@@ -1,0 +1,26 @@
+d2 2
+a3 2
+! Checksum: MiO7Md8sly5ejXYH8FPclA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709023018-3600.patch
+d6 2
+a7 2
+! Version: 2.3.24.26
+! TimeUpdated: 2024-02-27T08:32:58+00:00
+d6505 1
+a6505 5
+thairath.co.th##.adsbox-style
+thairath.co.th##div[class^="ads-slot-"]
+thairath.co.th##.article-body div[style*="overflow:"][style*="background:"]:has(> div[class^="ads-slot-"])
+thairath.co.th###headerWraper ~ div[class]:has(> div:only-child > div[style]:only-child > #slot-billboard:only-child)
+thairath.co.th#?##headerWraper ~ div:matches-css(min-height: 280px)
+a12895 1
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=mountathletics.com
+a31215 2
+newindian.in##.add160x600
+newindian.in##.add160x600-right
+a31473 1
+newindian.in##.deskad
+a31865 1
+newindian.in##.rhs-ad2
+a32399 1
+imgur.com##.Post-item:has(.Post-item-external-ad)
