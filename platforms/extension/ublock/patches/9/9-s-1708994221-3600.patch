@@ -1,0 +1,19 @@
+d2 2
+a3 2
+! Checksum: FcIIfSddraGvktj7QjVHpg
+! Diff-Path: ../patches/9/9-s-1709120281-3600.patch
+d6 2
+a7 2
+! Version: 2.0.23.52
+! TimeUpdated: 2024-02-28T11:34:00+00:00
+a1487 1
+! https://github.com/AdguardTeam/AdguardFilters/issues/173727
+d1491 2
+a1492 2
+poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(window.open-defuser)
+poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(abort-on-property-read, cJsEdge)
+d2407 4
+a2410 3
+||player.*/assets/vast_*.xml
+poseidonhd2.co,cuevana2espanol.*,cuevana.*##a[rel*="sponsored"] img
+/edgeSystem*.js$domain=cuevana.*|cuevana2espanol.*|poseidonhd2.co
