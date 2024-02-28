@@ -1,9 +1,9 @@
-! Checksum: qLybZCCTEhGhkLt5ukaRKw
-! Diff-Path: ../patches/19/19-s-1709134634-3600.patch
+! Checksum: zQu85QkjkG1cq5kn2GLWtw
+! Diff-Path: ../patches/19/19-s-1709145440-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.43
-! TimeUpdated: 2024-02-28T15:32:25+00:00
+! Version: 2.0.32.44
+! TimeUpdated: 2024-02-28T18:32:42+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1566,6 +1566,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+whattoexpect.com##.ad-blocked-holder
 motorkari.cz##.dakcolb-info-panel
 pdfextra.com##.pdf-tool > .tw-widget-root > .tw-relative > .tw-absolute
 ||2game.info/ad/failed_ad_view.js

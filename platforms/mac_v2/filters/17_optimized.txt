@@ -1,9 +1,9 @@
-! Checksum: TIgZS5Q71BddaB95X4NSOQ
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1709116610-3600.patch
+! Checksum: SAivgcagVgsWsQC0R8sgOg
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1709145434-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.8.6
-! TimeUpdated: 2024-02-28T10:32:19+00:00
+! Version: 2.0.8.7
+! TimeUpdated: 2024-02-28T18:32:38+00:00
 ! Expires: 12 hours (update frequency)
 $removeparam=vsm_type
 $removeparam=vsm_cid
@@ -713,8 +713,9 @@ $removeparam=afid,domain=123chat.jp|kanochat.jp|live.fc2.com
 ||immobilienscout24.de^$removeparam=navigationServiceUrl
 ||immobilienscout24.de^$removeparam=searchId
 ||immobilienscout24.de^$removeparam=searchGeoPath
-||immobilienscout24.de^$removeparam=enteredFrom
 ||immobilienscout24.de^$removeparam=source
+!+ NOT_PLATFORM(ext_ublock)
+||immobilienscout24.de^$removeparam=enteredFrom
 ||tumblr.com^$removeparam=source
 ||tumblr.app.link^$removeparam=_p
 ||dhits.docomo.ne.jp^$removeparam=affiliate

@@ -1,9 +1,9 @@
-! Checksum: QyoldKWEl/pBTwec0x6TzA
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1709134634-3600.patch
+! Checksum: DzRL4bbva0Vpw8BbyptxfA
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1709145440-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.43
-! TimeUpdated: 2024-02-28T15:32:25+00:00
+! Version: 2.0.32.44
+! TimeUpdated: 2024-02-28T18:32:42+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -341,6 +341,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ||wp-r.github.io/*/assets/js/jquery.adsplacer.ab-testing.js
 ||wp-r.github.io/adsplacer_pro/$third-party
 !#safari_cb_affinity
+whattoexpect.com##.ad-blocked-holder
 motorkari.cz##.dakcolb-info-panel
 pdfextra.com##.pdf-tool > .tw-widget-root > .tw-relative > .tw-absolute
 ||2game.info/ad/failed_ad_view.js
