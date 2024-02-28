@@ -1,9 +1,9 @@
-! Checksum: xp8VARyEGH6Y9e6PTn6j+w
-! Diff-Path: ../patches/123_optimized/123_optimized-s-1709096831-14400.patch
+! Checksum: H4Z1696FOwJwHgxOAivmaQ
+! Diff-Path: ../patches/123_optimized/123_optimized-s-1709111229-14400.patch
 ! Title: Fanboy's Social Blocking List (Optimized)
 ! Description: Hides and blocks social content, social widgets, social scripts and social icons. Already included in Fanboy's Annoyances list.
-! Version: 2.1.20.19
-! TimeUpdated: 2024-02-28T05:02:43+00:00
+! Version: 2.1.20.20
+! TimeUpdated: 2024-02-28T09:02:27+00:00
 ! Expires: 10 days (update frequency)
 -buttons-facebook.
 -facebook-share.
@@ -4972,7 +4972,7 @@ shine.cn##.jiathis_style_shine
 buzzfeed.com##.js-inline-share-bar
 myanimelist.net##.js-sns-icon-container
 kdnuggets.com##.kd_bottom
-levernews.com##.kg-callout-card-blue
+levernews.com,overkill.wtf##.kg-callout-card-blue
 4sysops.com##.kleo-quick-contact-wrapper
 echonewshub.com,jugomobile.com##.l-shared-sec
 axios.com##.leading-0
