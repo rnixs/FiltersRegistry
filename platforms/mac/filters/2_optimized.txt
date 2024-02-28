@@ -1,9 +1,9 @@
-! Checksum: Xh7qYSi5dkrwt17UZ8r80g
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709087794-3600.patch
+! Checksum: yy82fqk8dpdB4QS//fiHyQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709091384-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.24.39
-! TimeUpdated: 2024-02-28T02:32:58+00:00
+! Version: 2.3.24.40
+! TimeUpdated: 2024-02-28T03:32:53+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -31755,6 +31755,7 @@ abcya.com##.a-skyscraper
 breitbart.com##.a-wrapper
 fastweb.com##.a_cls_s
 premierguitar.com##.a_promo
+absoluteanime.com##.aa_leaderboard
 freedownloadmanager.org##.ab1
 freedownloadmanager.org##.ab320
 convertingcolors.com,slickdeals.net,whitecoatinvestor.com##.abc
