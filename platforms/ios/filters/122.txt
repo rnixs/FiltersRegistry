@@ -1,15 +1,15 @@
-! Checksum: YMWlQhYbKDzg6CLp/vPZqA
-! Diff-Path: ../patches/122/122-s-1709082431-14400.patch
+! Checksum: /rWCHCpgwr89KGIquWwSPQ
+! Diff-Path: ../patches/122/122-s-1709096846-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.89
-! TimeUpdated: 2024-02-28T01:02:27+00:00
+! Version: 2.1.21.90
+! TimeUpdated: 2024-02-28T05:02:41+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: FCyMcZP+jBaLnRJTThK+bg
-! OriginalVersion: 202402280040
+! Checksum: 91jBXHj1o6Oj/Tj/eUCz/A
+! OriginalVersion: 202402280440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-28 00:40 UTC
+! Last modified: 2024-02-28 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -33170,6 +33170,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newsletter-popup-on-scroll-version
 ##.newsletter-popup-subscribe-block
 ##.newsletter-popup-wrap
+##.newsletter-popup.kadence-conversion-popup
 ##.newsletter-popups
 ##.newsletter-promo
 ##.newsletter-promo-container
@@ -34760,6 +34761,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||cookie-script.com^$third-party
 ||cookie.consents.app^
 ||cookie.pearshealthcyber.com^
+||cookie.pii.ai^$third-party
 ||cookie.support^$third-party
 ||cookieapi.incomit.dk^
 ||cookieapi2.incomit.dk^
@@ -46244,7 +46246,7 @@ chromeunboxed.com##.sideMC
 thewalrus.ca##.sidebar-above-footer
 hotelnewsresource.com##.sidebar-block-signup
 thehustle.co##.sidebar-feed-hustle
-caribjournal.com##.sidebar-form
+altpress.com,caribjournal.com##.sidebar-form
 youcouldtravel.com##.sidebar-item-subscribe-form
 techgenix.com##.sidebar-optin
 curiocity.com##.sidebar-section--subscribe
