@@ -1,9 +1,9 @@
-! Checksum: /u17IEotC19qAPvX+2Lvuw
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1709067998-14400.patch
+! Checksum: h5ONONMt5LA4ZdD8EVfWgw
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1709082397-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.22.83
-! TimeUpdated: 2024-02-27T21:02:17+00:00
+! Version: 2.1.22.84
+! TimeUpdated: 2024-02-28T01:02:13+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -1304,6 +1304,7 @@
 /wp-useronline/useronline.js
 /wps-visitor-counter/styles/js/custom.js
 /wpstatistics/v1/hit?
+/wrapper/metrics/v1/custom-metrics?
 /writelog.js
 /wt_capi.js
 /wtbase.js
@@ -6082,6 +6083,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||onlex.de/_counter.php
 ||orbidder.otto.de^
 ||ottogroup.media/ogm.nitro.
+||owen.prolitteris.ch^
 ||pixel.poptok.com^
 ||plausible.ams.to^
 ||px.staticfiles.at^
@@ -6500,6 +6502,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.aasaam.com^
 ||analytics.ceneo.pl^
 ||analytics.greensender.pl^$third-party
+||ar1.aza.io^
 ||cmp.dreamlab.pl^
 ||dsg.interia.pl^
 ||hit.interia.pl^
@@ -7036,6 +7039,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gettyimages.*/pulse$ping
 ||gg.vevor.com^
 ||ghacks.net/statics/px.gif
+||girlsofdesire.org/images/girlsofdesire.org/analytics.js
 ||github.com/_private/browser/stats
 ||github.dev/diagnostic?
 ||glassdoor.*/geb/events/
