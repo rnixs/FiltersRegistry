@@ -1,9 +1,9 @@
-! Checksum: Bf+j+HeObd78Kukco4Lz7g
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1709123804-3600.patch
+! Checksum: N5rOcxYEUhhPngeS8dKOPA
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1709127385-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.40
-! TimeUpdated: 2024-02-28T12:32:42+00:00
+! Version: 2.0.32.41
+! TimeUpdated: 2024-02-28T13:32:19+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -3460,7 +3460,7 @@ benchmark.pl##aside > .next-click
 novostroy-m.ru##.mcs-button
 loxotrona.net#$#.fancybox-container { display: none!important; }
 loxotrona.net#$#body { overflow: visible!important; }
-tp-link.com##.bottom-popup
+poisondrop.ru,tp-link.com##.bottom-popup
 frenchweb.fr,e-marineeducation.com#$#.wpmui-popup { display: none!important; }
 frenchweb.fr,e-marineeducation.com#$#body { overflow: visible!important; }
 frenchweb.fr,e-marineeducation.com#$#html { overflow: visible!important; }
