@@ -1,9 +1,9 @@
-! Checksum: kyn8hxAsVloMh3GlxS6/1g
-! Diff-Path: ../patches/102_optimized/102_optimized-s-1708736821-14400.patch
+! Checksum: +O6xQoCRFvRXJruyPPlc1w
+! Diff-Path: ../patches/102_optimized/102_optimized-s-1709140075-14400.patch
 ! Title: ABPindo (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.6.59
-! TimeUpdated: 2024-02-24T01:01:54+00:00
+! Version: 2.0.6.60
+! TimeUpdated: 2024-02-28T17:02:42+00:00
 ! Expires: 10 days (update frequency)
 ||188affiliates.com^$third-party
 ||accesstrade.co.id^$third-party
@@ -202,6 +202,7 @@
 ||epfcfhtjxqd.com^$popup
 ||fkglkpkgkduh.top^$popup
 ||flexterkita.com^$third-party
+||fnasmpygwa.com^$third-party
 ||fnkyyrgraizy.com^$popup
 ||frpiksdeygy.com^$popup
 ||fryruejoust.cam^$popup
@@ -629,7 +630,6 @@ carisinyal.com#%#//scriptlet('ubo-rmnt.js', 'script', 'showModal')
 @@||shirosafe.web.id^$generichide
 @@||suarankri.me^$generichide
 @@||tokusatsuindo.com^$generichide
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=193.142.147.230|ainzscans.net|igobokep.cam|siimanga.cyou
 gurusd.web.id,kurikulum.co.id#@##adsense
 woof.tube#@#.adsbox
 aktual.id,datasekolah.co.id,eramuslim.com,mangalist.org,maulandaru.com#@#.adsbygoogle
