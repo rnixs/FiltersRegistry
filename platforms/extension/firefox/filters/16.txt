@@ -1,9 +1,9 @@
-! Checksum: ArsJ/O1eYkp8PXa2PH1ofQ
-! Diff-Path: ../patches/16/16-s-1709087770-3600.patch
+! Checksum: 6I81o9xhdQ+8bKLQpTMp1A
+! Diff-Path: ../patches/16/16-s-1709102168-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.79
-! TimeUpdated: 2024-02-28T02:32:11+00:00
+! Version: 2.0.43.80
+! TimeUpdated: 2024-02-28T06:32:09+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11754,7 +11754,6 @@ _siteunder/$popup
 ||cardmrket.com^$popup,third-party
 ||cash-duck.com^$popup,third-party
 ||cbshift.com^$popup,third-party
-||cdn77.org^$popup,third-party
 ||cdnrl.com^$popup,third-party
 ||cduporno.fr^$popup,third-party
 ||cgmission.com^$popup,third-party

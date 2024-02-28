@@ -1,9 +1,9 @@
-! Checksum: +B4f9pAg9qbI8BnoJyEL4A
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709098555-3600.patch
+! Checksum: XbkEyqr/RP55xge84ScNGQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709102158-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.24.41
-! TimeUpdated: 2024-02-28T05:32:56+00:00
+! Version: 2.3.24.42
+! TimeUpdated: 2024-02-28T06:32:57+00:00
 ! Expires: 5 days (update frequency)
 ||shodaisy.com^
 ||cqkhdhrpo.com^
@@ -22893,6 +22893,7 @@ _800x80_
 ##.gnt_x
 ##.gnt_x__lbl
 ###Player_Playoncontent
+###kargo-player
 ###vidazoo-player
 ##.ae-player__itv
 ##.anyClipWrapper
@@ -35308,7 +35309,7 @@ quora.com##.dom_annotate_ad_promoted_answer
 quora.com##.dom_annotate_ad_text_ad
 thepiratebay3.to##.download_buutoon
 thesun.co.uk##.dpa-slot
-distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.dpbdIG
+distractify.com,greenmatters.com,inquisitr.com,okmagazine.com,radaronline.com##.dpbdIG
 cryptonews.com##.dslot
 kickasstorrents.to##.dssdffds
 digitaltrends.com,themanual.com##.dt-primis
@@ -35452,6 +35453,7 @@ garticphone.com##.jsx-3256658636
 aiscore.com##.justify-center.w100
 koreaboo.com##.kba-container
 standard.co.uk##.kcdphh
+overkill.wtf##.kg-blockquote-alt
 kvraudio.com##.kvrblockdynamic
 legit.ng,tuko.co.ke##.l-adv-branding__top
 wwe.com##.l-hybrid-col-frame_rail-wrap

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: WvJ3goLIG63EW6SYTijDsw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709098575-3600.patch
+! Checksum: NdAT0Icv8R1yPsJHbE0JNA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709102182-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.24.41
-! TimeUpdated: 2024-02-28T05:32:56+00:00
+! Version: 2.3.24.42
+! TimeUpdated: 2024-02-28T06:32:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -27238,6 +27238,7 @@ fansonlinehub.com,teralink.me,teraearn.com,terashare.me,hotmediahub.com,terabox.
 thebypasser.com##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152828
 ! Fixes the video player, may be required if DNS filtering is enabled
+! https://github.com/AdguardTeam/AdguardFilters/issues/173687
 ! https://github.com/AdguardTeam/AdguardFilters/issues/154277
 independent.co.uk##+js(adjust-setTimeout, /Autoplay|Piano/, *, 0.02)
 independent.co.uk##+js(adjust-setTimeout, [native code], 2500, 0.02)
