@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: DZl6NHt7z/oll77bjIHm8Q
-! Diff-Path: ../patches/17/17-s-1708943843-3600.patch
+! Checksum: rQiPm6v5p4cdBjrqX/83MQ
+! Diff-Path: ../patches/17/17-s-1709116598-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.8.5
-! TimeUpdated: 2024-02-26T10:32:11+00:00
+! Version: 2.0.8.6
+! TimeUpdated: 2024-02-28T10:32:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1152,7 +1152,6 @@ $removeparam=xptdk,domain=shopee.ph|shopee.co.th
 ! https://github.com/uBlockOrigin/uAssets/issues/14653
 ||hktvmall.com/yuicombo?$script,removeparam=/^\/_ui\/desktop\/common\/js\/uiAnalytics\//
 ||hktvmall.com/yuicombo?$script,removeparam=/_ui\/shared\/common\/js\/analytics\/with-intersection-track.js/
-||hktvmall.com/yuicombo?$script,removeparam=/_ui\/shared\/common\/js\/InappCommunicationManager.js/
 ||hktvmall.com/yuicombo?$script,removeparam=/_ui\/shared\/common\/js\/util\/jquery.analytics-utils.js/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128820
 ||go.xlivrdr.com^$removeparam
