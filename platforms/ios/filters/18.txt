@@ -1,9 +1,9 @@
-! Checksum: FxueTrM28pDEVC1FyjQ7JQ
-! Diff-Path: ../patches/18/18-s-1709120283-3600.patch
+! Checksum: dfevKKIxifsW9NPzlv3l9A
+! Diff-Path: ../patches/18/18-s-1709123842-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.70
-! TimeUpdated: 2024-02-28T11:32:35+00:00
+! Version: 2.0.34.71
+! TimeUpdated: 2024-02-28T12:32:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2378,6 +2378,8 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+primevideo.com##.DVWebNode-conditional-site-wide-wrapper > .fbl-banner:has(form[action*="/privacyprefs/sp/consent/"])
+bullionvault.com##.navigation__cookies
 edu.eset.com##doc-layout-cookie-policy-banner
 ||cdn.shopify.com/shopifycloud/privacy-banner/storefront-banner.js
 r.pl##.r-consent-bottom-notif__modal
