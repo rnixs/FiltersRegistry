@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: O9O98Fr9Y4vfhVmL5tGcUQ
-! Diff-Path: ../patches/21/21-s-1709123838-3600.patch
+! Checksum: 9aPV614q2uFl2E2kFAeqqw
+! Diff-Path: ../patches/21/21-s-1709131011-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.20.20
-! TimeUpdated: 2024-02-28T12:32:55+00:00
+! Version: 2.0.20.21
+! TimeUpdated: 2024-02-28T14:32:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3175,6 +3175,7 @@ ya.ru##.message-promo
 ya.ru##.search3__inner > div.link-bro
 ! Yandex Browser promo
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172840
+ya.ru##.DistributionSplashScreenModal[outercrosstitle="Нет, спасибо"]
 ya.ru##.simple-popup__overlay_shown
 ya.ru##.simple-popup__overlay_shown + div.simple-popup_shown.simple-popup_autoclosable_yes
 ! Yandex.Disk
@@ -4939,6 +4940,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+streamable.com##nav ~ div[class]:has(> a[href$="page-video-ad"])
 flightradar24.com##.size-full > div.relative > div.size-full ~ div.justify-between.absolute > div.justify-center.flex + div.items-end
 hepper.com##body div.opportunity-container.active
 deezer.com###tbcc_offer_btn

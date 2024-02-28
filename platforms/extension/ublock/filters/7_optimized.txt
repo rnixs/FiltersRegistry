@@ -1,12 +1,13 @@
 ![Adblock Plus 2.0]
-! Checksum: 4jpjV0UVoSVWUOlY9Rf5yQ
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1709127421-3600.patch
+! Checksum: ZIVqiIMN3JtABZgEQz211A
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1709131015-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.49.1
-! TimeUpdated: 2024-02-28T13:33:33+00:00
+! Version: 2.0.49.2
+! TimeUpdated: 2024-02-28T14:33:34+00:00
 ! Expires: 5 days (update frequency)
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
+||smart-below.com^
 ||ad1.girls-affiliate.com^$document
 ||manga.boy.jp^$third-party
 ||af.atsoho.com^$third-party
