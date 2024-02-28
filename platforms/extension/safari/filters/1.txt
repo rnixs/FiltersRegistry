@@ -1,9 +1,9 @@
-! Checksum: 2RvLDChTij/vRaTtwrnkMA
-! Diff-Path: ../patches/1/1-s-1709141804-3600.patch
+! Checksum: fLTIkD1TTxKSyuteNXSF4w
+! Diff-Path: ../patches/1/1-s-1709152585-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.88
-! TimeUpdated: 2024-02-28T17:32:40+00:00
+! Version: 2.0.88.89
+! TimeUpdated: 2024-02-28T20:32:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7640,6 +7640,8 @@ gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru,innov.ru,k1new
 !
 !
 !
+||forum.cxem.net/adv/
+cxem.net##.rek_plashka
 3dnews.ru##.sqdad
 slimboxtv.ru###block-55
 reform.by###custom_html-8
