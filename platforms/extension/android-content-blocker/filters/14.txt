@@ -1,9 +1,9 @@
-! Checksum: 4pD+oT3dOa+UJKy0SUc3OA
-! Diff-Path: ../patches/14/14-s-1709105762-3600.patch
+! Checksum: I7MYkjCwCZPoxbrjeFxASg
+! Diff-Path: ../patches/14/14-s-1709112970-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.18
-! TimeUpdated: 2024-02-28T07:32:05+00:00
+! Version: 2.1.89.19
+! TimeUpdated: 2024-02-28T09:32:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -34840,8 +34840,6 @@ newsdigest.jp##.app-banner__inner
 newsdigest.jp##.post-inarticle-banner
 voicy.jp##.leftmenu-app-leading
 101soundboards.com##.appStoresContainer
-newspicks.com##.modal.initial-display
-newspicks.com##.app-lead
 dokuha.jp###smart-banner-pr-app
 m.jd.com##.j_curtain_yinliu
 m.jd.com###m_common_tip
@@ -36100,11 +36098,13 @@ check24.de#$#.c24m-asb-visible { position: absolute !important; }
 ! Misc rules, removed during optimization. If some rules are in groups, no need to move them here
 !
 !+ NOT_OPTIMIZED
+newspicks.com##.app-lead
+!+ NOT_OPTIMIZED
+newspicks.com##.footer-app-lead
+!+ NOT_OPTIMIZED
 ostrovok.ru##.mobileappbanner
 !+ NOT_OPTIMIZED
 starwalk.space###get-app-button-block
-!+ NOT_OPTIMIZED
-newspicks.com##.footer-app-lead
 !+ NOT_OPTIMIZED
 slickdeals.net#$#body.pushToAppDrawerScrollLock { overflow: auto !important; }
 !+ NOT_OPTIMIZED

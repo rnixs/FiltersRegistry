@@ -1,9 +1,9 @@
-! Checksum: U4brp7Lzz/IQcJwf+kAWHA
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1709087768-3600.patch
+! Checksum: SNCNaxxnQUbflQ565ajChg
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1709112978-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.69
-! TimeUpdated: 2024-02-27T12:32:32+00:00
+! Version: 2.0.12.70
+! TimeUpdated: 2024-02-28T09:32:36+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1343,11 +1343,13 @@ check24.de#$#.c24m-asb-visible { position: absolute !important; }
 !+ NOT_OPTIMIZED
 3sat.de#$#.smartbanner-show .playlist-wrap { height: calc(100%) !important; }
 !+ NOT_OPTIMIZED
+newspicks.com##.app-lead
+!+ NOT_OPTIMIZED
+newspicks.com##.footer-app-lead
+!+ NOT_OPTIMIZED
 ostrovok.ru##.mobileappbanner
 !+ NOT_OPTIMIZED
 starwalk.space###get-app-button-block
-!+ NOT_OPTIMIZED
-newspicks.com##.footer-app-lead
 !+ NOT_OPTIMIZED
 slickdeals.net#$#body.pushToAppDrawerScrollLock { overflow: auto !important; }
 !+ NOT_OPTIMIZED

@@ -1,9 +1,9 @@
-! Checksum: OVOsAJjxsIW2vEced2h45g
-! Diff-Path: ../patches/19/19-s-1709073368-3600.patch
+! Checksum: zMt1NrPfda3b0kqxnF+New
+! Diff-Path: ../patches/19/19-s-1709112974-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.38
-! TimeUpdated: 2024-02-27T22:32:21+00:00
+! Version: 2.0.32.39
+! TimeUpdated: 2024-02-28T09:32:25+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11965,6 +11965,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+montanafreepress.org##.newspack-popup-container:not(:has(a[href^="https://montanafreepress.org/donate?"]))
 vsquare.org##.content > div.module-item:has(> form[data-name="Vsquare Newsletter"])
 vsquare.org##.section-blocks div.elements > a[href="https://vsquare.org/newsletter/"]
 vsquare.org##.section-blocks div.elements > div.element.tail

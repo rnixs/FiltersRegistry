@@ -1,9 +1,9 @@
-! Checksum: U95CCPB88Tib2IfLe1t5pQ
-! Diff-Path: ../patches/22/22-s-1709037435-3600.patch
+! Checksum: av7Wk6Uoo4Lheo9w9f2tOg
+! Diff-Path: ../patches/22/22-s-1709112995-3600.patch
 ! Title: AdGuard Widgets filter
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.42
-! TimeUpdated: 2024-02-27T12:32:40+00:00
+! Version: 2.0.7.43
+! TimeUpdated: 2024-02-28T09:32:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2093,6 +2093,7 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !
 !   NOTE: Donation widgets (which are really annoying only)
 !
+montanafreepress.org##.newspack-popup-container:has(a[href^="https://montanafreepress.org/donate?"])
 vsquare.org##.section-blocks div.elements > a[href="https://vsquare.org/support-us/"]
 theportugalnews.com##.donation
 getcomics.org##.wpfront-notification-bar-spacer
