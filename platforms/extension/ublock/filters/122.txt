@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: MJk+1M4L5iNhiWRGIKXE/A
-! Diff-Path: ../patches/122/122-s-1709212036-14400.patch
+! Checksum: KXgorqtigbQeG6+tgSXLvQ
+! Diff-Path: ../patches/122/122-s-1709226446-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.98
-! TimeUpdated: 2024-02-29T13:02:27+00:00
+! Version: 2.1.21.99
+! TimeUpdated: 2024-02-29T17:02:27+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: LMIALRRkvSEk/1NJeaybiw
-! OriginalVersion: 202402291215
+! Checksum: AY5pVWEAMDPkNmpC1+6fng
+! OriginalVersion: 202402291640
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-29 12:15 UTC
+! Last modified: 2024-02-29 16:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36684,8 +36684,10 @@ wfaa.com,wkyc.com,9news.com,11alive.com##+js(remove-class, video__docker_state_d
 cbsnews.com##+js(remove-class, floating, , stay)
 cbsnews.com##.floating
 ! fanboy_notifications_specific_hide.txt
+clubd.co.jp###FixedBanner
 tbsnews.net###___tbspushdiv
 redbull.com###bottom-notifications
+clubd.co.jp###footerBanner
 thehindu.com,thehindubusinessline.com###gsi_overlay
 masrawy.com,yallakora.com###izooto-optin
 kizi.com###kizi-popover-dialog
