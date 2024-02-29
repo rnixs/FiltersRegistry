@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ijbUZpQT5napPi85SsByZA
-! Diff-Path: ../patches/23_optimized/23_optimized-s-1709026640-3600.patch
+! Checksum: H+WJ4b0JKk0ffVEtfYLmPQ
+! Diff-Path: ../patches/23_optimized/23_optimized-s-1709217399-3600.patch
 ! Title: AdGuard Ukrainian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Ukrainian language.
-! Version: 2.0.3.99
-! TimeUpdated: 2024-02-27T09:33:20+00:00
+! Version: 2.0.4.0
+! TimeUpdated: 2024-02-29T14:32:49+00:00
 ! Expires: 5 days (update frequency)
 /load-xml/?id=*&roll=$xmlhttprequest
 .com/services/?id=$script,third-party
@@ -1297,6 +1297,7 @@ ucoz.ru/informer/
 ##noindex > div[onmouseout]
 ##noindex > nofollow > table[onmouseout^="this.bgColor"]
 ##td[id^="advtd"]
+||gainifyads.com^$popup,third-party
 ||qkyspzfxnc.ru^$third-party
 ||monetizer.guru^$third-party
 ||1wiipr.xyz^$document
