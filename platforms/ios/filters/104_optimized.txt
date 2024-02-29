@@ -1,9 +1,9 @@
-! Checksum: wdVQ1hynyis/7cNTVfxj/A
-! Diff-Path: ../patches/104_optimized/104_optimized-s-1709183226-14400.patch
+! Checksum: WNSceAvn56VpP+HymCHB5A
+! Diff-Path: ../patches/104_optimized/104_optimized-s-1709197632-14400.patch
 ! Title: EasyList China (Optimized)
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.35.77
-! TimeUpdated: 2024-02-29T05:01:57+00:00
+! Version: 2.1.35.78
+! TimeUpdated: 2024-02-29T09:01:53+00:00
 ! Expires: 5 days (update frequency)
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
@@ -993,6 +993,11 @@ newduba.cn###jq_youxi
 ||xsfajf.xyz^
 ||fefgvh.xyz^
 ||tduenkq839.shop^
+||execuri.com^
+||88lm06.com^
+||szmnl.cn^
+||sdjkbcjksbdsvv.com^
+||mlhtr.cn^
 ||yyddkm526.shop^
 ||zagyjnn.cn^
 ||zopuqv.icu^
@@ -5357,7 +5362,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 ||sohu.com/i/?pvid=$popup
 ||taobao.com^$popup,domain=52movieba.com|btee.net|ck180.net|friok.com|iqiyi.com
 ||tmall.com^$popup,domain=eyusky.net|iqiyi.com
-$script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.net
+$script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.net
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 .html|$domain=www.gamer.com.tw
 /404.safedog.cn/sitedog_stat_new.html
@@ -6409,6 +6414,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zt2088.com^
 ||ztyumn.ifeng.com^
 ||zzzyk.com/js/
+||8h93.com^*.gif
 manhuabika.com##a[href*="/ad/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -9185,6 +9191,7 @@ guailie.com#@#.google-ad
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
 /exads-adblock-$image
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
@@ -10143,6 +10150,7 @@ booktxts.com##div[style*="position:"]
 ||333uu.org/config/
 ||477zw.com/js/nzm
 ||d3iih5w7xp5hdg.cloudfront.net^
+||d2un76zvb5mgzx.cloudfront.net^
 ||fxsc6.net/js/
 ||jpg1.oss-cn-beijing.aliyuncs.com^
 ||jsdelivr.net/gh/diyibanzhu/
