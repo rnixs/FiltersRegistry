@@ -1,9 +1,9 @@
-! Checksum: kdFjqb4eNh/fRDsZJ6E0QA
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1709168810-14400.patch
+! Checksum: Nl2CRud7/3FJ96lc9A7uoA
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1709183214-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.29.97
-! TimeUpdated: 2024-02-29T01:03:04+00:00
+! Version: 2.1.29.98
+! TimeUpdated: 2024-02-29T05:03:09+00:00
 ! Expires: 10 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -19233,7 +19233,7 @@ here.com###wrapper
 wyze.com###wyze-cookie-banner
 coindix.com###xbanner
 spiceworks.com###zdprivacy-content-new
-framer.com##.--framer-cookie-banner-container
+bunq.com,framer.com##.--framer-cookie-banner-container
 dublininquirer.com##.-alert.-fixed.notice
 alpari.com,alpariforex.org##.-footer__notice
 nhl.com##.-left.nhl-c-toast
@@ -19665,6 +19665,7 @@ aia.com##.cmp-notification-action-panel
 manulife.com##.cmp-ntfbanner
 evoestate.com##.cnc-container
 cnn.com##.cnn-toast--tos
+courthousenews.com##.cns-cg-modal__overlay
 meteopower.com##.cnt223
 candyoffers.com##.co-cookie-message
 canvasondemand.com##.cod-notifications
@@ -20473,6 +20474,7 @@ jacksonsauction.com##.popup-dialog
 cancerresearch.org##.popup-inner
 skippersreview.com##.popup-overlayPop
 haiermedical.com##.popup-window
+mfc.co.uk##.popup-wrapper
 smartclient.com##.popupPolicies
 plsx.com##.popup_block
 abplive.in##.popup_desktop

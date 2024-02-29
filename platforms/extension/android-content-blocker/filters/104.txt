@@ -1,9 +1,9 @@
-! Checksum: 1nfm9D13v8b2VtdBcqIciw
-! Diff-Path: ../patches/104/104-s-1709168788-14400.patch
+! Checksum: zkpXxYGa4W4VwODmGFNXmg
+! Diff-Path: ../patches/104/104-s-1709183191-14400.patch
 ! Title: EasyList China
 ! Description: Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.
-! Version: 2.1.35.76
-! TimeUpdated: 2024-02-29T01:01:51+00:00
+! Version: 2.1.35.77
+! TimeUpdated: 2024-02-29T05:01:57+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: EasyList China
@@ -10892,6 +10892,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+manhuabika.com##a[href*="/ad/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -16371,6 +16372,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle
 !---------------------------------URL Whitelist-------------------------------!
 @@.adserver.$domain=litv.tv
+@@||gitee.com/HServer/
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com

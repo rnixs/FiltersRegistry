@@ -1,16 +1,16 @@
-! Checksum: SvJB+Sqw0F+KmX3vkjSD5g
-! Diff-Path: ../patches/244/244-s-1709039265-14400.patch
+! Checksum: dZxvR+Z1503ClIbvYifBpw
+! Diff-Path: ../patches/244/244-s-1709183234-14400.patch
 ! Title: YousList
 ! Description: Filter that blocks ads on Korean sites.
-! Version: 2.0.10.47
-! TimeUpdated: 2024-02-27T13:03:22+00:00
+! Version: 2.0.10.48
+! TimeUpdated: 2024-02-29T05:03:12+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Homepage: https://github.com/yous/YousList
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! OriginalVersion: 20240227
+! OriginalVersion: 20240229
 ! General element hiding rules
 ##amp-ad
 ##amp-embed.ad_cnt
@@ -5692,6 +5692,7 @@ msn.com##cs-native-ad-card-no-hover
 msn.com##display-ads
 msn.com##div#displayAdCard
 msn.com##div.ad-slot-placeholder
+msn.com##div.consumption-page-banner-wrapper
 msn.com##div.views-right-rail-top-display
 msn.com##div[class*=" modernRightRail_stickyTopBannerAd-"]
 msn.com##div[class^="articlePage_eoabContent-"]

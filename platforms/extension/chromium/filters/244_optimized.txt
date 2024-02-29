@@ -1,9 +1,9 @@
-! Checksum: eIh2oo/HEmu5sVh7tL+v4w
-! Diff-Path: ../patches/244_optimized/244_optimized-s-1709039224-14400.patch
+! Checksum: RbbJJwSa31eQLJhTM8F0qA
+! Diff-Path: ../patches/244_optimized/244_optimized-s-1709183199-14400.patch
 ! Title: YousList (Optimized)
 ! Description: Filter that blocks ads on Korean sites.
-! Version: 2.0.10.47
-! TimeUpdated: 2024-02-27T13:03:22+00:00
+! Version: 2.0.10.48
+! TimeUpdated: 2024-02-29T05:03:12+00:00
 ! Expires: 10 days (update frequency)
 ##amp-ad
 ##amp-embed.ad_cnt
@@ -5682,6 +5682,7 @@ msn.com##cs-native-ad-card-no-hover
 msn.com##display-ads
 msn.com##div#displayAdCard
 msn.com##div.ad-slot-placeholder
+msn.com##div.consumption-page-banner-wrapper
 msn.com##div.views-right-rail-top-display
 msn.com##div[class*=" modernRightRail_stickyTopBannerAd-"]
 msn.com##div[class^="articlePage_eoabContent-"]
