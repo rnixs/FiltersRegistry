@@ -1,15 +1,15 @@
-! Checksum: unGxQHm7w+8GYcK40j6D1g
-! Diff-Path: ../patches/122/122-s-1709154461-14400.patch
+! Checksum: 30N5UtgW/xKFbmOgTRJOLQ
+! Diff-Path: ../patches/122/122-s-1709168837-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.94
-! TimeUpdated: 2024-02-28T21:02:34+00:00
+! Version: 2.1.21.95
+! TimeUpdated: 2024-02-29T01:02:17+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: AUuV9dymS+QQzs29GLS8Ug
-! OriginalVersion: 202402282015
+! Checksum: vxJNlqTqc3JhgYoQDoYZlA
+! OriginalVersion: 202402290040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-28 20:15 UTC
+! Last modified: 2024-02-29 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3136,6 +3136,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###aside-app-banner
 ###bannerInstallApp
 ###branch-banner-iframe
+###brzpushpermission
 ###custom_smartbanner
 ###daraz-smart-banner
 ###download_app_banner_btn
@@ -47614,7 +47615,7 @@ yinibinibaby.com##.fd-modal
 esourceparts.ca##.foo-newsletter
 dhgate.com##.foot-login
 wholesomeculture.com##.footer--subscribe
-arcade-sound.com,gizmogoober.com,justripenutrition.com##.footer-block--newsletter
+arcade-sound.com,gizmogoober.com,justripenutrition.com,vargooutdoors.com##.footer-block--newsletter
 halseymusicstore.com,localthreads.com.au##.footer-block__newsletter
 crutchfield.com##.footer-card-email
 keychron.com##.footer-col--newsletter
@@ -52183,6 +52184,9 @@ yvonnebennetti.com#%#//scriptlet('ubo-set-cookie.js', 'MCPopupClosed', 'yes')
 foliosociety.com##.modals-overlay
 foliosociety.com##.popup-newsletter
 foliosociety.com#$#body { overflow: auto !important; position: initial !important; }
+! #shopify-section-custom-popup
+vargooutdoors.com###shopify-section-custom-popup
+vargooutdoors.com#$#body,html { overflow: auto !important; position: initial !important; }
 ! funco/loungefly
 funko.com,loungefly.com#%#//scriptlet('ubo-set-cookie.js', 'welcome_modal_email_ts', '1')
 ! drinkspy.co.nz

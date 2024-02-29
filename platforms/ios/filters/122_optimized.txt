@@ -1,9 +1,9 @@
-! Checksum: BhgwCMiRMVoq1yw/KHvsCQ
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1709154445-14400.patch
+! Checksum: sda0BRYieauLVna2spAz1g
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1709168823-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.21.94
-! TimeUpdated: 2024-02-28T21:02:34+00:00
+! Version: 2.1.21.95
+! TimeUpdated: 2024-02-29T01:02:17+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -1221,6 +1221,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###SmarterBannerContainer
 ###aside-app-banner
 ###branch-banner-iframe
+###brzpushpermission
 ###inlineBannerForApp
 ###iossmartbanner
 ###smart-bnr-rbcapp
@@ -16849,6 +16850,7 @@ levi.com##.email-subscription-form
 cultbeauty.co.uk,cultbeauty.com,lookfantastic.com,myprotein.com,myprotein.it,myvitamins.com,thehut.com##.emailReengagement
 target.com.au##.enews-quick
 rona.ca##.enewsSubscribeModal
+arcade-sound.com,gizmogoober.com,justripenutrition.com,vargooutdoors.com##.footer-block--newsletter
 crutchfield.com##.footer-card-email
 keychron.com##.footer-col--newsletter
 fleshlight.eu##.footer-cta
@@ -19252,6 +19254,8 @@ dollartree.com##.modal-backdrop
 dollartree.com#$#body,html { overflow: auto !important; position: initial !important; }
 yvonnebennetti.com#%#//scriptlet('ubo-set-cookie.js', 'MCPopupClosed', 'yes')
 foliosociety.com#$#body { overflow: auto !important; position: initial !important; }
+vargooutdoors.com###shopify-section-custom-popup
+vargooutdoors.com#$#body,html { overflow: auto !important; position: initial !important; }
 funko.com,loungefly.com#%#//scriptlet('ubo-set-cookie.js', 'welcome_modal_email_ts', '1')
 drinkspy.co.nz#$#body { overflow: auto !important; position: initial !important; }
 mightyape.co.nz#%#//scriptlet('ubo-rc.js', 'modal-open', 'body', 'stay')
