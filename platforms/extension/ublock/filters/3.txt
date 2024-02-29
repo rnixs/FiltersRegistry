@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: yErt1yFqycXXkx59rE/RaQ
-! Diff-Path: ../patches/3/3-s-1709213821-3600.patch
+! Checksum: mgUZY88FwCxazyaP3RMT/A
+! Diff-Path: ../patches/3/3-s-1709221039-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.67.24
-! TimeUpdated: 2024-02-29T13:33:17+00:00
+! Version: 2.0.67.25
+! TimeUpdated: 2024-02-29T15:33:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -112078,6 +112078,8 @@ inapps.appsflyersdk.com^
 ! For platforms which do not support $redirect rules
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173780
+@@||googletagmanager.com/gtm.js$domain=sportingnews.com
 ! https://www.redstoneonline.jp/event/transfer blank page
 @@||s.yimg.jp/images/listing/tool/cv/ytag.js$domain=redstoneonline.jp
 @@||googletagmanager.com/gtag/js?$xmlhttprequest,domain=redstoneonline.jp
