@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: YywzEsKGpt8DMv3muy9mAQ
-! Diff-Path: ../patches/212/212-s-1709197629-14400.patch
+! Checksum: SgV9ee3/lduVN6U7TX7v4w
+! Diff-Path: ../patches/212/212-s-1709212037-14400.patch
 ! Title: RU AdList: Counters
 ! Description: RU AdList supplement for trackers blocking.
-! Version: 2.1.43.94
-! TimeUpdated: 2024-02-29T09:02:32+00:00
+! Version: 2.1.43.95
+! TimeUpdated: 2024-02-29T13:02:34+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: qIyIcfHrfavtbiCWwnhA2A
-! OriginalVersion: 202402290851
+! Checksum: Ktrr+9wtUIfW/9MH5DlAww
+! OriginalVersion: 202402291251
 ! Title: RU AdList: Counters
-! Last modified: 29 Feb 2024 08:51 UTC
+! Last modified: 29 Feb 2024 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1361,7 +1361,7 @@ $removeparam=utm_name
 $removeparam=utm_partner_id,domain=mail.ru|sportmail.ru
 $removeparam=utm_referer
 $removeparam=utm_referrer
-$removeparam=utm_source,domain=~soyztreid.website
+$removeparam=utm_source,domain=~fonland.site
 $removeparam=utm_sourece
 $removeparam=utm_space
 $removeparam=utm_term

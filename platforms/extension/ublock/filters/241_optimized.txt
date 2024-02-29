@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mjbGL4pmXi45qc30PXJF4g
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1709197631-14400.patch
+! Checksum: xkn9gKiKBdqivsiZzQTEBQ
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1709212039-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.29.99
-! TimeUpdated: 2024-02-29T09:03:10+00:00
+! Version: 2.1.30.0
+! TimeUpdated: 2024-02-29T13:03:12+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -19629,6 +19629,7 @@ yoursoccerdose.com##.cc-simple
 mysoapbox.com##.cc_modal
 drakecircus.com##.ccc-widget
 blueskybuilding.com##.ccd_cookie_bar
+ccmhockey.com##.ccm-cookie-banner
 ccn.com##.ccn-consent
 plebbin.com##.ccp-pop
 hannity.com,oxfordhotel.com,thespotlyte.com##.ccpa
@@ -20856,6 +20857,7 @@ plente.com##[class*="SnackbarMessages__snackbar_"]
 payback-ltd.com##[class*="cookiesPopUp"]
 noovo.ca##[class*="modalstyles__StyledModalContainer-"]
 weedmaps.com##[class*="styles__BannerContainer-"]
+getunleash.io##[class^="CookieControl"]
 bitbrain.com##[class^="CookiesManager"]
 btc-alpha.com##[class^="Cookies_container"]
 graphql.braintreepayments.com##[class^="GDPR-module_"]
@@ -22493,6 +22495,7 @@ toyota.co.uk,businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,hemglass.
 toyota.co.uk,businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,hemglass.se##+js(set-cookie, cookielawinfo-checkbox-performance, no)
 tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-markkinointi, no)
 tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-tilastointi, no)
+web.bunq.com##+js(set-local-storage-item, bunq:CookieConsentStore:isBannerVisible, false)
 triumphtechnicalinformation.com##+js(set-local-storage-item, ROCUMENTS.cookieConsent, true)
 omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-other, false)
 omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-seen, true)
@@ -26277,6 +26280,7 @@ churchsoftware.com.br##.popup-pro
 agazetafm.com,araraquaranews.com.br,slatual.com.br##.popup_footer
 gaz.com.br##.privacy-policy__popup
 starrcompanies.com.br##.privacy-warning
+honda-automoveis.pt##.rigor-cookies
 rovitex.com.br##.rovitex-apps-0-x-cookieContainer
 blog.runrun.it##.sc-AxiKw
 direcaoconcursos.com.br##.sc-faada46b-0
@@ -27063,6 +27067,7 @@ ants.vn##.sg-popup-content
 ||up-cookiemon.wavecdn.net^
 ||vag.de/typo3conf/ext/cookieman/
 ||versicherungsjournal.de/public/app.js
+||wc.vandervalkonline.com/cookie-manager/cookie-manager.js
 ||weddstyle.de/bilder/banner/$image
 ||weiterbildung-biberach.de/ccm-wb/public/app.js
 ||brsimg.com/gdpr/$domain=boursorama.com
