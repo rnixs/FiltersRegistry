@@ -1,9 +1,9 @@
-! Checksum: XjuZdZqGcYU8utFEfR03oQ
-! Diff-Path: ../patches/21/21-s-1709221057-3600.patch
+! Checksum: iC7pvxROScWInP2G9+B22w
+! Diff-Path: ../patches/21/21-s-1709224638-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.20.24
-! TimeUpdated: 2024-02-29T15:32:42+00:00
+! Version: 2.0.20.25
+! TimeUpdated: 2024-02-29T16:32:40+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5002,6 +5002,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+||dream.jp/entmeet/wp-content/themes/entmeet/images/banner/sidebar_bnr.png
 streamable.com##nav ~ div[class]:has(> a[href$="page-video-ad"])
 flightradar24.com##.size-full > div.relative > div.size-full ~ div.justify-between.absolute > div.justify-center.flex + div.items-end
 hepper.com##body div.opportunity-container.active

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Hw3Ov2Bm5uxgHS1jqoij0Q
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709221037-3600.patch
+! Checksum: 9GgY5jVcjgiCi+QVdeQCkw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709224618-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.24.68
-! TimeUpdated: 2024-02-29T15:33:14+00:00
+! Version: 2.3.24.69
+! TimeUpdated: 2024-02-29T16:33:11+00:00
 ! Expires: 5 days (update frequency)
 ||gvwdwrtzrs.com^
 ||guangzhuiyuan.com^
@@ -2599,6 +2599,7 @@ maxstream.video#$#div[id][style*="display"] div[id]:not(#play_limit_box,[class*=
 maxstream.video##+js(adjust-setTimeout, .fadeIn(), *, 0.02)
 maxstream.video##+js(nano-setInterval-booster, counter, *, 0.02)
 mixfaucet.com##+js(abort-on-property-read, adblockDetector)
+1cloudfile.com#@#.advert-wrapper
 1cloudfile.com##+js(no-fetch-if, cloudfront.net/?)
 1cloudfile.com##+js(abort-current-script, document.getElementById, adblockEnabled)
 1cloudfile.com##+js(abort-on-property-read, cdnasset)
@@ -6603,6 +6604,7 @@ asilmedia.org#$#.site-wrap { margin-top: 0 !important; }
 asilmedia.org###banner
 mod18.com##img[width="728px"][height="90px"]
 mod18.com##.epcl-banner
+hellobacsi.com##.article-desktop-ad-container
 subnhanhvl.net##.under-player
 animet.net###menubentrai
 animet.net##.sticky_bottom

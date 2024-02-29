@@ -1,9 +1,9 @@
-! Checksum: RkkefzvlFuqmzL78EXE9ug
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1709220998-3600.patch
+! Checksum: Nbrp0qI7gXyY/stlhKRhzg
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1709224581-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.97.91
-! TimeUpdated: 2024-02-29T15:33:29+00:00
+! Version: 2.0.97.92
+! TimeUpdated: 2024-02-29T16:33:25+00:00
 ! Expires: 5 days (update frequency)
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
@@ -624,7 +624,7 @@ oceans-nadia.com##p[class^="SocialShare_"]
 morioh.com##div[id^="headlessui-dialog-panel-"] > div.space-y-4 > div.flex.space-x-4
 thingiverse.com##button[aria-label^="Share"]
 theverge.com##.content-start > div.uppercase
-helloyishi.com.tw##div[data-testid="art-share"]
+hellobacsi.com,helloyishi.com.tw##div[data-testid="art-share"]
 tabigo-media.net##.l-left-side
 france24.com,rfi.fr##.t-content__shares
 frieren-anime.jp##.footer__shareDl
