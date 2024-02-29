@@ -1,9 +1,9 @@
-! Checksum: O/jz5Za/MyEf1/e2d6wkaA
-! Diff-Path: ../patches/13/13-s-1709116610-3600.patch
+! Checksum: QfwdQQx9Mv2qG+ss8rnGiA
+! Diff-Path: ../patches/13/13-s-1709174190-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.50.23
-! TimeUpdated: 2024-02-28T10:31:57+00:00
+! Version: 2.0.50.24
+! TimeUpdated: 2024-02-29T02:31:41+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6106,7 +6106,6 @@ kopekturleri.org#@#.td-a-rec
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69969
 @@||images-eu.ssl-images-amazon.com/images/$domain=amazon.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69059
-! https://github.com/AdguardTeam/AdguardFilters/issues/68646
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68622
 themagger.com#@#.post-sponsored
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68085
