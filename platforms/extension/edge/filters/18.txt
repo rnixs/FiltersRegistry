@@ -1,9 +1,9 @@
-! Checksum: ZAhgVc+GHz22kIZtWeDXHg
-! Diff-Path: ../patches/18/18-s-1709192167-3600.patch
+! Checksum: TgWm5HJWOCpXyBnUE6nIkw
+! Diff-Path: ../patches/18/18-s-1709206599-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.78
-! TimeUpdated: 2024-02-29T07:32:10+00:00
+! Version: 2.0.34.79
+! TimeUpdated: 2024-02-29T11:32:23+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2377,6 +2377,8 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+eplus.by#$##cookiesAgreementNotice { display: none !important; }
+eplus.by#$#body[class] { overflow: auto !important; }
 usg.edu###gdpr-cookie-notification
 screen.studio##body > div[class]:has(> div[style] a[href="/privacy"])
 banki24.by##.cookies_consent
@@ -14894,6 +14896,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173807
+eplus.by#@#.cookies-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173786
 @@||sailmg.com/sites/all/modules/eu_cookie_compliance/js/jquery.cookie-*.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173706
