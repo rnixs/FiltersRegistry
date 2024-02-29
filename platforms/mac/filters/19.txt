@@ -1,9 +1,9 @@
-! Checksum: 4z3i703LzKmg4XFhJrPlvg
-! Diff-Path: ../patches/19/19-s-1709145429-3600.patch
+! Checksum: AFO2JZ2ZJ3V6IduYDkXayA
+! Diff-Path: ../patches/19/19-s-1709195813-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.44
-! TimeUpdated: 2024-02-28T18:32:42+00:00
+! Version: 2.0.32.45
+! TimeUpdated: 2024-02-29T08:32:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18501,6 +18501,8 @@ magazine.skyeng.ru##.tg-banner
 !
 ! SECTION: Subscriptions - Allowlist
 !
+! #@#.mailpoet_form
+website.com#@#.mailpoet_form
 ! #@##mc_embed_signup
 mycopilot.ai,thomasmeyerhoefer.com,bakadesuyo.com,apotekfordeg.no,theoatmeal.com,copays.org,nothing.tech,mega-debrid.eu,curvegames.com,news.un.org,norwichzen.org.uk,dereferer.me,syncapps.io,dereferer.link,artisttrust.org,vanguardia.com.mx#@##mc_embed_signup
 ! https://github.com/uBlockOrigin/uAssets/issues/19783

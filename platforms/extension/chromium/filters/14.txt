@@ -1,9 +1,9 @@
-! Checksum: jvOkTFLtvrL50lYf5PN6LA
-! Diff-Path: ../patches/14/14-s-1709192161-3600.patch
+! Checksum: BA/Ae/2f1/2fMozyOt97GA
+! Diff-Path: ../patches/14/14-s-1709195771-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.30
-! TimeUpdated: 2024-02-29T07:32:01+00:00
+! Version: 2.1.89.31
+! TimeUpdated: 2024-02-29T08:32:06+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -36847,6 +36847,8 @@ magazine.skyeng.ru##.tg-banner
 !
 ! SECTION: Subscriptions - Allowlist
 !
+! #@#.mailpoet_form
+website.com#@#.mailpoet_form
 ! #@##mc_embed_signup
 mycopilot.ai,thomasmeyerhoefer.com,bakadesuyo.com,apotekfordeg.no,theoatmeal.com,copays.org,nothing.tech,mega-debrid.eu,curvegames.com,news.un.org,norwichzen.org.uk,dereferer.me,syncapps.io,dereferer.link,artisttrust.org,vanguardia.com.mx#@##mc_embed_signup
 ! https://github.com/uBlockOrigin/uAssets/issues/19783

@@ -1,9 +1,9 @@
-! Checksum: 3bPeyXI43oenMyhyTV80Jw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709192160-3600.patch
+! Checksum: e7SWB1YUrNNXN1fyVX1Rmw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709195769-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.24.60
-! TimeUpdated: 2024-02-29T07:32:56+00:00
+! Version: 2.3.24.61
+! TimeUpdated: 2024-02-29T08:33:02+00:00
 ! Expires: 5 days (update frequency)
 ||gvwdwrtzrs.com^
 ||guangzhuiyuan.com^
@@ -1133,6 +1133,8 @@ brokensilenze.net,financeyogi.net,satcesc.com,quatvn.club,audiotools.in,insider-
 xn--nbkw38mlu2a.com,chataigpt.org,gamevcore.com,novel-gate.com##body > iframe + div[id][class*=" "]
 news-toranomaki.net,nanamiyuki.com,unkochan893.com,tyksnet.com,it-money-life.com,codelikes.com,eigo-no-manma.com,radsum.com,avitter.net,26g.me##body > #container > .content ~ script + div[id][class*=" "]
 javcock.com,poapan.xyz,javboys.com##body > #site-wrapper > footer#site-footer + div[id][class*=" "]
+!+ NOT_OPTIMIZED
+msonglyrics.com##nav + div[id][class*=" "]
 !+ NOT_OPTIMIZED
 fumettologica.it##body div[id="td-outer-wrap"] ~ div[id][class*=" "]
 !+ NOT_OPTIMIZED
