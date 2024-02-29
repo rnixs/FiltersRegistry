@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: d6uSFSDr2682xqDveI+jEg
-! Diff-Path: ../patches/14/14-s-1709145417-3600.patch
+! Checksum: T59n9NrpTU3LrwFPi39AIQ
+! Diff-Path: ../patches/14/14-s-1709177771-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.27
-! TimeUpdated: 2024-02-28T18:32:30+00:00
+! Version: 2.1.89.28
+! TimeUpdated: 2024-02-29T03:31:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2348,6 +2348,7 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 ! NOTE: Regular rules
 !
+screen.studio##body > div[class]:has(> div[style] a[href="/privacy"])
 banki24.by##.cookies_consent
 /stereotypedsugar\.com\/[a-z]?\/[a-z0-9]+\/[a-z]{4}[a-z0-9]{15,25}\.index\.js$/$script,match-case,domain=agweek.com
 primevideo.com##.DVWebNode-conditional-site-wide-wrapper > .fbl-banner:has(form[action*="/privacyprefs/sp/consent/"])
