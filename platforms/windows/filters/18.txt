@@ -1,9 +1,9 @@
-! Checksum: gADKXQI3yyXKTbBsHCtlFQ
-! Diff-Path: ../patches/18/18-s-1709206651-3600.patch
+! Checksum: 6U081pjZcDl9+D6jpCRv8A
+! Diff-Path: ../patches/18/18-s-1709210230-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.79
-! TimeUpdated: 2024-02-29T11:32:23+00:00
+! Version: 2.0.34.80
+! TimeUpdated: 2024-02-29T12:32:24+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2377,6 +2377,8 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+suny.edu##.noCookieModal
+||news.samsung.com/*/wp-content/plugins/btr_gdpr_cookie/public/bgc_script.js
 eplus.by#$##cookiesAgreementNotice { display: none !important; }
 eplus.by#$#body[class] { overflow: auto !important; }
 usg.edu###gdpr-cookie-notification

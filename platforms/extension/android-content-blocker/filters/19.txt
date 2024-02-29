@@ -1,9 +1,9 @@
-! Checksum: Qsp8shqkEC5PmXKmxl4BZw
-! Diff-Path: ../patches/19/19-s-1709195767-3600.patch
+! Checksum: Ke1ZwrIVNThTqNrmtQ5IRA
+! Diff-Path: ../patches/19/19-s-1709210178-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.45
-! TimeUpdated: 2024-02-29T08:32:19+00:00
+! Version: 2.0.32.46
+! TimeUpdated: 2024-02-29T12:32:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9324,6 +9324,8 @@ com-magazin.de##w-div[role$="dialog"]
 ||sud.ua/js/jquery.arcticmodal*.min.js
 /jquery.magnific-popup.min.js$domain=ufatime.ru|koreanworld.ru
 !
+! TODO: check the element after 2024 May 1 - https://github.com/AdguardTeam/AdguardFilters/issues/173453
+kurier.at###view-offer
 ! TODO: check the element after 2024 May 1 - https://github.com/AdguardTeam/AdguardFilters/issues/173225
 ! TODO: check the element after 2024 Jan 10 - https://github.com/AdguardTeam/AdguardFilters/issues/169645
 ||piano.io/xbuilder/experience/execute?aid=$domain=athleterecipe.com
