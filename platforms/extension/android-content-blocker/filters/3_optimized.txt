@@ -1,9 +1,9 @@
-! Checksum: R5UcMjEto+sTQCAugmCkfA
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1709206589-3600.patch
+! Checksum: 5M/YraQ/LoAf5M36+CgIow
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1709213787-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.67.23
-! TimeUpdated: 2024-02-29T11:33:19+00:00
+! Version: 2.0.67.24
+! TimeUpdated: 2024-02-29T13:33:17+00:00
 ! Expires: 5 days (update frequency)
 itmedia.co.jp#$##ulCommentWidget[style*="display"] { display: block !important; }
 ://*.*$document,permissions=join-ad-interest-group=()\,run-ad-auction=()\,browsing-topics=()
@@ -63685,6 +63685,8 @@ inapps.appsflyersdk.com^
 !#################
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=7flowers.ru
+@@||s.yimg.jp/images/listing/tool/cv/ytag.js$domain=redstoneonline.jp
+@@||googletagmanager.com/gtag/js?$xmlhttprequest,domain=redstoneonline.jp
 @@||forecast.lemonde.fr/widget.js$domain=lemonde.fr
 @@||forecast.lemonde.fr/sdk.js$domain=lemonde.fr
 @@||forecast.lemonde.fr/ls.html$domain=lemonde.fr

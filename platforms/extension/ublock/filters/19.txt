@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8AHxANOVzq53cJalMVgBSg
-! Diff-Path: ../patches/19/19-s-1709210209-3600.patch
+! Checksum: Y/PR3dbtsCsO2Ej9l5kHkQ
+! Diff-Path: ../patches/19/19-s-1709213818-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.46
-! TimeUpdated: 2024-02-29T12:32:27+00:00
+! Version: 2.0.32.47
+! TimeUpdated: 2024-02-29T13:32:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11896,6 +11896,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+/cp-module-main.js$domain=seokratie.de
 vulcanpost.com##.elementor-container > .elementor-column:has(form[name^="Newsletter"])
 montanafreepress.org##.newspack-popup-container:not(:has(a[href^="https://montanafreepress.org/donate?"]))
 vsquare.org##.content > div.module-item:has(> form[data-name="Vsquare Newsletter"])
