@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Lu8gT/+lguQqa0fUGVV4NA
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1709278592-3600.patch
+! Checksum: MfshQtTsdSuElrJm4Ln1qg
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1709282270-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.39
-! TimeUpdated: 2024-03-01T07:32:07+00:00
+! Version: 2.1.89.40
+! TimeUpdated: 2024-03-01T08:33:00+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -2819,7 +2819,7 @@ welcometothejungle.com##.axeptio_mount
 maniac.de#$#body > div[id*="-"][data-bg^="background-color:"][style*="backdrop-filter:"] { display: none !important; }
 maniac.de#$#body { overflow: auto !important; }
 ||cdn.privacy-mgmt.com/consent/$domain=ariva.de,important
-idream.pl###garua_cookie_consent_popup
+mimarkt.pl,idream.pl###garua_cookie_consent_popup
 commonspace.eu##.typify-cookie-popup
 bitepito.hu###cookie_accepter_div
 enermax.com###cookice-text
@@ -6468,7 +6468,7 @@ leibniz.com##+js(set-cookie, consent, 1)
 ertflix.gr##+js(set-cookie, ARE_REQUIRED_COOKIES_ACCEPTED, true)
 drafthound.com##+js(set-local-storage-item, acceptsNecessaryCookies, true)
 drafthound.com##+js(set-local-storage-item, acceptsAnalyticsCookies, false)
-tvsmart.pl##+js(set-cookie, cookie-notice, 1)
+tvsmart.vectra.pl,tvsmart.pl##+js(set-cookie, cookie-notice, 1)
 onlineveilingmeester.nl##+js(set-cookie, trackingConsent, false)
 iqbroker.com##+js(set-local-storage-item, cookie_usage_accepted, 1)
 e-food.gr##+js(set-cookie-reload, accepted_cookies, true)
@@ -8725,6 +8725,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ||wp-r.github.io/*/assets/js/jquery.adsplacer.ab-testing.js
 ||wp-r.github.io/adsplacer_pro/$third-party
 !#safari_cb_affinity
+||mageclash.io/assets/adblock_
 whattoexpect.com##.ad-blocked-holder
 motorkari.cz##.dakcolb-info-panel
 pdfextra.com##.pdf-tool > .tw-widget-root > .tw-relative > .tw-absolute
@@ -19582,6 +19583,7 @@ ya.ru##.simple-popup__overlay_shown
 ya.ru##.simple-popup__overlay_shown + div.simple-popup_shown.simple-popup_autoclosable_yes
 ya.ru,yandex.*##:matches-path(/search).AdvOffers
 ya.ru,yandex.*##:matches-path(/search).EContent.SearchPage-RMG
+ya.ru,yandex.*##:matches-path(/search).serp-item[data-fast-subtype="product_tiles_adv"]
 ya.ru,yandex.*##:matches-path(/search).serp-item:has(> div[data-state-id] > article > div[class*="Header"] > span[id*="-PriceDisclaimer"])
 ya.ru,yandex.*##:matches-path(/search).Distribution-Popup
 ya.ru,yandex.*#$#:matches-path(/search).Distribution-Splashscreen { display: none !important; }
