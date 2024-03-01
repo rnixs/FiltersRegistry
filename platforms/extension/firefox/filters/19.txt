@@ -1,9 +1,9 @@
-! Checksum: bLZNCDdQsNu3pyzderO7WQ
-! Diff-Path: ../patches/19/19-s-1709321861-3600.patch
+! Checksum: yM3gzmwemgH+53VK2wXIwQ
+! Diff-Path: ../patches/19/19-s-1709332577-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.60
-! TimeUpdated: 2024-03-01T19:33:31+00:00
+! Version: 2.0.32.61
+! TimeUpdated: 2024-03-01T22:32:15+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12003,6 +12003,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+metropoles.com###m-newsletter
+terra.com.br###article-sign-notifications-container
 asiaplustj.info###subscribe-popup
 lance.com.br##.flex-col > div.flex:has(> div[id^="captacao-e-mail"][role="main"])
 lance.com.br##div[class*="newsLetterContainer"]
