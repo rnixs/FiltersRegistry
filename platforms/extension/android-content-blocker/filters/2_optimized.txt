@@ -1,9 +1,9 @@
-! Checksum: dTc9yUuuweZjyAWz4SXoOA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709260615-3600.patch
+! Checksum: kmaIZX9NViOtBIeWemgS6g
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709267762-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.24.76
-! TimeUpdated: 2024-03-01T02:33:51+00:00
+! Version: 2.3.24.77
+! TimeUpdated: 2024-03-01T04:33:00+00:00
 ! Expires: 5 days (update frequency)
 ||gvwdwrtzrs.com^
 ||guangzhuiyuan.com^
@@ -35821,6 +35821,7 @@ blackbeltmag.com##[data-hook="bgLayers"]
 clevelandclinic.org##[data-identity*="billboard-ad"]
 clevelandclinic.org##[data-identity="leaderboard-ad"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-layout="ad"]
+lightnovelpub.com##[data-mobid]
 goal.com##[data-name="ad-leaderboard"]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
