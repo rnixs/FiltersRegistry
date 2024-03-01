@@ -1,9 +1,9 @@
-! Checksum: PMkMSPmYeVAWYPFbJCaMAA
-! Diff-Path: ../patches/21/21-s-1709282261-3600.patch
+! Checksum: fKhonwXw0hVhiqDoiDyabw
+! Diff-Path: ../patches/21/21-s-1709293104-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.20.26
-! TimeUpdated: 2024-03-01T08:33:24+00:00
+! Version: 2.0.20.27
+! TimeUpdated: 2024-03-01T11:33:02+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3225,7 +3225,7 @@ ya.ru##.simple-popup__overlay_shown + div.simple-popup_shown.simple-popup_autocl
 [$path=/search]ya.ru,yandex.*##.AdvOffers
 [$path=/search]ya.ru,yandex.*##.EContent.SearchPage-RMG
 [$path=/search]ya.ru,yandex.*##.serp-item[data-fast-subtype="product_tiles_adv"]
-[$path=/search]ya.ru,yandex.*##.serp-item:has(> div[data-state-id] > article > div[class*="Header"] > span[id*="-PriceDisclaimer"])
+[$path=/search]ya.ru,yandex.*##.serp-item:has(> div[data-state-id] > article > div[class*="-"] span[id*="-PriceDisclaimer"])
 ! popup
 [$path=/search]ya.ru,yandex.*##.Distribution-Popup
 [$path=/search]ya.ru,yandex.*#$#.Distribution-Splashscreen { display: none !important; }
