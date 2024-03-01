@@ -1,15 +1,15 @@
-! Checksum: tsLkHJWnJ+L2AZvPn+DiYA
-! Diff-Path: ../patches/122/122-s-1709240839-14400.patch
+! Checksum: 54hMv41/bK8gpjtpG/3FhA
+! Diff-Path: ../patches/122/122-s-1709255203-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.0
-! TimeUpdated: 2024-02-29T21:02:31+00:00
+! Version: 2.1.22.1
+! TimeUpdated: 2024-03-01T01:02:22+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: CO377CazRT5znuXkzsEkgA
-! OriginalVersion: 202402292040
+! Checksum: ln5skR3VqxOs9HZgnVFOjg
+! OriginalVersion: 202403010015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-29 20:40 UTC
+! Last modified: 2024-03-01 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42456,6 +42456,7 @@ tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-m
 tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-tilastointi', 'no')
 ! set-local-storage-item
 web.bunq.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bunq:CookieConsentStore:isBannerVisible', 'false')
+google.com#%#//scriptlet('ubo-set-local-storage-item.js', 'wf-promo-2::d', '1')
 triumphtechnicalinformation.com#%#//scriptlet('ubo-set-local-storage-item.js', 'ROCUMENTS.cookieConsent', 'true')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-other', 'false')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-seen', 'true')
@@ -49330,6 +49331,7 @@ tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-m
 tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-tilastointi', 'no')
 ! set-local-storage-item
 web.bunq.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bunq:CookieConsentStore:isBannerVisible', 'false')
+google.com#%#//scriptlet('ubo-set-local-storage-item.js', 'wf-promo-2::d', '1')
 triumphtechnicalinformation.com#%#//scriptlet('ubo-set-local-storage-item.js', 'ROCUMENTS.cookieConsent', 'true')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-other', 'false')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-seen', 'true')

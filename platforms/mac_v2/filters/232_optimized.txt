@@ -1,9 +1,9 @@
-! Checksum: 8iJ5n7E4xb6X6ra/OwlCTQ
-! Diff-Path: ../patches/232_optimized/232_optimized-s-1709226467-14400.patch
+! Checksum: dzFSyh0rIZRsY/hZv9o/mQ
+! Diff-Path: ../patches/232_optimized/232_optimized-s-1709255246-14400.patch
 ! Title: KAD - Anti-Scam (Optimized)
 ! Description: Filter that protects against various types of scams in the Polish network, such as mass text messaging, fake online stores, etc.
-! Version: 2.0.53.43
-! TimeUpdated: 2024-02-29T17:03:02+00:00
+! Version: 2.0.53.44
+! TimeUpdated: 2024-03-01T01:02:57+00:00
 ! Expires: 12 hours (update frequency)
 !#safari_cb_affinity(security)
 ||1vulkanvegas.com^$all
@@ -955,6 +955,7 @@
 ||mania-perfum.pl^$all
 ||manilis.com^$all
 ||maniol.pl^$all
+||manufakturawanien.pl^$all
 ||maoamao.myshoplaza.com^$all
 ||marcjacobs-polska.com^$all
 ||marcjacobspolska.com^$all
