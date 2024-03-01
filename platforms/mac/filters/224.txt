@@ -1,9 +1,9 @@
-! Checksum: lgEGkiw+lhQ8vfTT4sT7sA
-! Diff-Path: ../patches/224/224-s-1709293123-3600.patch
+! Checksum: rnle1biW2ujeimkLJSY0jw
+! Diff-Path: ../patches/224/224-s-1709300252-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.11.76
-! TimeUpdated: 2024-03-01T11:33:08+00:00
+! Version: 2.1.11.77
+! TimeUpdated: 2024-03-01T13:32:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -809,7 +809,7 @@ moorzon.com#%#//scriptlet("json-prune", "*", "nativeConfig")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121492
 dogfight360.com#%#//scriptlet("abort-current-inline-script", "document.write", "document.write(ad);")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119195
-baiyangzuo.xkyn.com#%#//scriptlet("set-constant", "conone_lmg", "noopFunc")
+xkyn.com#%#//scriptlet("set-constant", "conone_lmg", "noopFunc")
 ! malicious redirect on first visit
 85tube.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'document.createElement')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109829 popunder
@@ -1689,7 +1689,7 @@ viu.com##div[data-marker-title="undefined"]
 i8k.cc##.module-adslist
 haiwai.com##.container + .fixed-bottom[style^="box-shadow:"]
 ||waipian*.com/statics/recommend/
-||baiyangzuo.xkyn.com/imgs/js/al.js
+||xkyn.com/imgs/js/al.js
 pornlulu.com##.row.links
 oh100.com##.mySwiperBox
 ||cpt.9136.com/img/b_special/
@@ -4762,6 +4762,7 @@ newduba.cn###jq_youxi
 ||fxjnfn.xyz^
 ||szmnk.cn^
 ||crjeymh.cn^
+||uiqcf.cn^
 ||zhaweifeng.com^
 ||zopuqv.icu^
 ||zsjpi.cn^
