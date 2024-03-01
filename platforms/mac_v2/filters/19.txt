@@ -1,9 +1,9 @@
-! Checksum: 6UDofZ8lB69tQgZWw1E02w
-! Diff-Path: ../patches/19/19-s-1709285820-3600.patch
+! Checksum: B9vdfx7jWRuZleO0Bu765w
+! Diff-Path: ../patches/19/19-s-1709289428-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.53
-! TimeUpdated: 2024-03-01T09:32:28+00:00
+! Version: 2.0.32.54
+! TimeUpdated: 2024-03-01T10:32:37+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1566,8 +1566,8 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
-starblast.io#%#//scriptlet('prevent-element-src-loading', 'script' ,'pafvertizing.crazygames.com')
-||mageclash.io/assets/adblock_
+/assets/adblock_$domain=mageclash.io|monstermaster.io|grix.io
+starblast.io#%#//scriptlet('prevent-element-src-loading', 'script', 'pafvertizing.crazygames.com')
 whattoexpect.com##.ad-blocked-holder
 motorkari.cz##.dakcolb-info-panel
 pdfextra.com##.pdf-tool > .tw-widget-root > .tw-relative > .tw-absolute

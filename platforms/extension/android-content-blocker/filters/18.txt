@@ -1,9 +1,9 @@
-! Checksum: lCvm4CPhxuIy+GmkoP6krQ
-! Diff-Path: ../patches/18/18-s-1709285776-3600.patch
+! Checksum: rp9+owC3k+xMqk3qER7klw
+! Diff-Path: ../patches/18/18-s-1709289384-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.84
-! TimeUpdated: 2024-03-01T09:32:24+00:00
+! Version: 2.0.34.85
+! TimeUpdated: 2024-03-01T10:32:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2340,6 +2340,7 @@ multiplayer.it,tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+inkasso.de#$#body { overflow: auto !important; position: unset !important; }
 suny.edu##.noCookieModal
 ||news.samsung.com/*/wp-content/plugins/btr_gdpr_cookie/public/bgc_script.js
 eplus.by#$##cookiesAgreementNotice { display: none !important; }
