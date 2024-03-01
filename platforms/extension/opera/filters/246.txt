@@ -1,15 +1,15 @@
-! Checksum: 0fVsKSm4eXgKlSyEThO56w
-! Diff-Path: ../patches/246/246-s-1709284045-14400.patch
+! Checksum: bK/gMOiM7cEZn8+UKVEbPw
+! Diff-Path: ../patches/246/246-s-1709298606-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.40.82
-! TimeUpdated: 2024-03-01T09:03:30+00:00
+! Version: 2.1.40.83
+! TimeUpdated: 2024-03-01T13:06:08+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: YrdUpF8eizJS9B99OzcT3A
-! OriginalVersion: 202403010851
+! Checksum: fNtKl5rH79p4BYSoYK/nfw
+! OriginalVersion: 202403011251
 ! Title: EasyList Polish
-! Last modified: 01 Mar 2024 08:51 UTC
+! Last modified: 01 Mar 2024 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2468,6 +2468,10 @@ lowicz24.eu##.c-content__adv + div
 lowicz24.eu##.l-news__more
 lowicz24.eu##[class="card  card--box"]
 lowicz24.eu##[class="card card--low card--box"]
+mgsm.pl##[class="large-12 medium-12 columns"]
+mgsm.pl##[id^="comments-leadebaord"]
+mgsm.pl##.card-widget-prices__container
+mgsm.pl###CardBuyIn
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2

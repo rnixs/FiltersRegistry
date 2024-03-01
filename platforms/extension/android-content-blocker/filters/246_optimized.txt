@@ -1,9 +1,9 @@
-! Checksum: QeT9n7o5mn3w6aeV9jQQdA
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1709284025-14400.patch
+! Checksum: 94Y/OIWUEXxwWNFcx8/1Ug
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1709298584-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.40.82
-! TimeUpdated: 2024-03-01T09:03:30+00:00
+! Version: 2.1.40.83
+! TimeUpdated: 2024-03-01T13:06:08+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -2429,6 +2429,10 @@ lowicz24.eu##.c-content__adv + div
 lowicz24.eu##.l-news__more
 lowicz24.eu##[class="card  card--box"]
 lowicz24.eu##[class="card card--low card--box"]
+mgsm.pl##[class="large-12 medium-12 columns"]
+mgsm.pl##[id^="comments-leadebaord"]
+mgsm.pl##.card-widget-prices__container
+mgsm.pl###CardBuyIn
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
 filmyporno.tv###playerOverlay
