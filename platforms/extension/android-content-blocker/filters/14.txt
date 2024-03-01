@@ -1,9 +1,9 @@
-! Checksum: CpQqTf0W3LSfrgCncNE1+g
-! Diff-Path: ../patches/14/14-s-1709314586-3600.patch
+! Checksum: XhRP6AzmbK5Z1N89KzlqgA
+! Diff-Path: ../patches/14/14-s-1709321844-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.49
-! TimeUpdated: 2024-03-01T17:32:20+00:00
+! Version: 2.1.89.50
+! TimeUpdated: 2024-03-01T19:33:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2341,6 +2341,8 @@ multiplayer.it,tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+mgfimoveis.com.br###ucke
+surfguru.com.br###aceitar_cookies
 ||honda.com.br/*/custom/home_notification/js/notification.js
 pneustore.com.br###consent-management-alert
 inkasso.de#$#body { overflow: auto !important; position: unset !important; }
@@ -9941,7 +9943,7 @@ condor.com##.site_header_cookie
 ||rating.happymod.com/cookie/cookies.js
 orlandosolarbearshockey.com##.s-navigation-tool-panel-disclaimer
 nflonlocation.com###tcPopup
-iphone-tricks.de###accept-cookie-wrapper
+kto.com,iphone-tricks.de###accept-cookie-wrapper
 forums.thefashionspot.com,germancarforum.com##.bottomFixer >div.Notices
 wiwo.de,handelsblatt.com###vhb-consentlayer
 nk.org.ua##div[class^="styled__CookieBanner"]
@@ -28001,6 +28003,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+asiaplustj.info###subscribe-popup
+lance.com.br##div[class*="newsLetterContainer"]
 nationalgeographic.com##div[data-testid="prism-newsletter-form"]
 nationalgeographic.com##div[data-testid="prism-background-image"]
 cartacapital.com.br##.s-whatsapp
