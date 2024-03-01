@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: iWGCUIrvLrVXE2seK5Fb4g
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1709269623-14400.patch
+! Checksum: XIXKiJA2wx5GADhU3XyzHQ
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1709284052-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.2
-! TimeUpdated: 2024-03-01T05:02:20+00:00
+! Version: 2.1.22.3
+! TimeUpdated: 2024-03-01T09:02:39+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -15945,6 +15945,7 @@ bbc.com###zephr-message
 sciencenews.org###zephr-user-form-root
 fivebooks.com##.-newsletter
 weather.com##.AnonymousNewsletter--AnonymousNewsletter--1Btxs
+lightreading.com##.ArticleBase-Newsletter
 laist.com##.ArticlePage-aside-content
 startrek.com##.Article_newsletterPromo__YXJkV
 fatherly.com,mic.com##.BMP
