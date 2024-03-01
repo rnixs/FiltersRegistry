@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 5odk3JvGEiDgbJn6xM97Dg
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1709293113-3600.patch
+! Checksum: 9yPEsts4fm/ocgCxCvsvOA
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1709296624-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.20.27
-! TimeUpdated: 2024-03-01T11:33:02+00:00
+! Version: 2.0.20.28
+! TimeUpdated: 2024-03-01T12:32:48+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
@@ -2458,8 +2458,6 @@ vstdrive.in##+js(nano-setInterval-booster, time--, *, 0.001)
 zeroupload.com##+js(nano-setInterval-booster, count, *, 0.001)
 antonimos.de,quesignifi.ca##+js(set-constant, waitTime, 0)
 streamvid.net##+js(adjust-setTimeout, countDown, *, 0.001)
-decrypt.day##+js(adjust-setTimeout, _=!0, *, 0.001)
-decrypt.day##+js(nano-setInterval-booster, update, *, 0.02)
 alpinecorporate.com##+js(nano-setInterval-booster, counter, *, 0.001)
 mcafee-com.com##+js(set-constant, count, 0)
 1fichier.com##+js(adjust-setTimeout, show(), *, 0.001)
