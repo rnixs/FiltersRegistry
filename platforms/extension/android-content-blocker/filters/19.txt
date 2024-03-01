@@ -1,9 +1,9 @@
-! Checksum: AF+DEu7Ae5FInAghNr1XOw
-! Diff-Path: ../patches/19/19-s-1709224578-3600.patch
+! Checksum: V2Xcbaw7XDOfu2kqe9RZLg
+! Diff-Path: ../patches/19/19-s-1709260613-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.49
-! TimeUpdated: 2024-02-29T16:32:28+00:00
+! Version: 2.0.32.50
+! TimeUpdated: 2024-03-01T02:33:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1685,7 +1685,6 @@ duhoctrungquoc.vn###danger_adblock
 kunststoffe.de##.adBlocker
 kunststoffe.de##.adBlocker + div[class*=" bg-opacity-"]
 lesnumeriques.com##.ln__a-in-notif
-yourmomdoesporn.com#@#[data-revive-zoneid]
 analviolation.com,pornforce.com,analized.com###ad_blocker_note
 lamusica.com#$#div[id$="___BV_modal_outer_"] { display: none !important; }
 lamusica.com#$#.modal-open { overflow: auto !important; }

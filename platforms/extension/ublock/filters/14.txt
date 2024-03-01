@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: nsMyShcVlaJcVPSs1DK1MQ
-! Diff-Path: ../patches/14/14-s-1709224615-3600.patch
+! Checksum: 9691tN5Gn80KDL43rR+20g
+! Diff-Path: ../patches/14/14-s-1709260641-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.37
-! TimeUpdated: 2024-02-29T16:32:15+00:00
+! Version: 2.1.89.38
+! TimeUpdated: 2024-03-01T02:32:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -19509,7 +19509,6 @@ gohatori.com##+js(abort-current-script, setTimeout, none)
 kunststoffe.de##.adBlocker
 kunststoffe.de##.adBlocker + div[class*=" bg-opacity-"]
 lesnumeriques.com##.ln__a-in-notif
-yourmomdoesporn.com#@#[data-revive-zoneid]
 photosonic.writesonic.com##+js(no-fetch-if, www3.doubleclick.net)
 analviolation.com,pornforce.com,analized.com###ad_blocker_note
 nexusmods.com##+js(set-constant, blockingAds, false)
