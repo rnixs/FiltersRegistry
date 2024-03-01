@@ -1,9 +1,9 @@
-! Checksum: J/UXtgn/yi/BbLwPasj3vw
-! Diff-Path: ../patches/19/19-s-1709300201-3600.patch
+! Checksum: FWfPK0SLGnqxhdxU5emMsA
+! Diff-Path: ../patches/19/19-s-1709307385-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.56
-! TimeUpdated: 2024-03-01T13:32:33+00:00
+! Version: 2.0.32.57
+! TimeUpdated: 2024-03-01T15:32:34+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11982,6 +11982,9 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+nationalgeographic.com##div[data-testid="prism-newsletter-form"]
+nationalgeographic.com##div[data-testid="prism-background-image"]
+nationalgeographic.com#%#//scriptlet('set-cookie', 'viewfreemium', 'true')
 cartacapital.com.br##.s-whatsapp
 cartacapital.com.br##.google-news > a.support-btn ~ *
 yablyk.com##.mypopup-modal-container

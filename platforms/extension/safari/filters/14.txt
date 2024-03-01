@@ -1,9 +1,9 @@
-! Checksum: Y+2Hfzj60DqR/gcCypL/0g
-! Diff-Path: ../patches/14/14-s-1709303790-3600.patch
+! Checksum: FqNmvVFER0Pz4QWRD/pDAw
+! Diff-Path: ../patches/14/14-s-1709307404-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.46
-! TimeUpdated: 2024-03-01T14:32:08+00:00
+! Version: 2.1.89.47
+! TimeUpdated: 2024-03-01T15:32:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1677,6 +1677,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+||consent.dadoslegais.com.br^
 .pl/ajax/getCookieConsent.php
 /jquery.bs.gdpr.cookies.min.js
 ||cdn.shopify.com/extensions/*/assets/consentmo_cookie_consent.js
@@ -30632,6 +30633,9 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+nationalgeographic.com##div[data-testid="prism-newsletter-form"]
+nationalgeographic.com##div[data-testid="prism-background-image"]
+nationalgeographic.com#%#//scriptlet('set-cookie', 'viewfreemium', 'true')
 cartacapital.com.br##.s-whatsapp
 cartacapital.com.br##.google-news > a.support-btn ~ *
 yablyk.com##.mypopup-modal-container
