@@ -1506,8 +1506,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/edge/filters/224.txt",
 			"trustLevel": "full",
-			"version": "2.1.11.81",
-			"timeUpdated": "2024-03-02T03:32:44+0000",
+			"version": "2.1.11.82",
+			"timeUpdated": "2024-03-02T15:32:42+0000",
 			"languages": [
 				"zh"
 			],
