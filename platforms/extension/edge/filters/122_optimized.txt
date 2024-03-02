@@ -1,9 +1,9 @@
-! Checksum: 8FwMU+Zs4Mqc0oIQa6wzyw
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1709356004-14400.patch
+! Checksum: c3Hnqcjz9d4zu05nlimYpA
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1709370452-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.8
-! TimeUpdated: 2024-03-02T05:02:31+00:00
+! Version: 2.1.22.9
+! TimeUpdated: 2024-03-02T09:03:11+00:00
 ! Expires: 10 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -14513,7 +14513,7 @@ campusbrno.cz#%#//scriptlet('ubo-set-cookie.js', 'cookie-m-personalization', '0'
 campusbrno.cz#%#//scriptlet('ubo-set-cookie.js', 'cookie-m-marketing', '0')
 campusbrno.cz#%#//scriptlet('ubo-set-cookie.js', 'cookie-m-analytics', '0')
 secrid.com#%#//scriptlet('ubo-set-cookie.js', 'cookies', 'true')
-etsy.com#%#//scriptlet('ubo-set-cookie.js', 'ctc_rejected', '1')
+etsy.com,careers.cloud.com#%#//scriptlet('ubo-set-cookie.js', 'ctc_rejected', '1')
 seb.se,sebgroup.com#%#//scriptlet('ubo-set-cookie.js', 'AcceptedCookieCategories', '1')
 deps.dev#%#//scriptlet('ubo-set-cookie.js', 'cookie_policy_acknowledgement', 'true')
 buf.build#%#//scriptlet('ubo-set-cookie.js', 'allowCookies', 'yes')
@@ -17768,7 +17768,7 @@ campusbrno.cz#%#//scriptlet('ubo-set-cookie.js', 'cookie-m-personalization', '0'
 campusbrno.cz#%#//scriptlet('ubo-set-cookie.js', 'cookie-m-marketing', '0')
 campusbrno.cz#%#//scriptlet('ubo-set-cookie.js', 'cookie-m-analytics', '0')
 secrid.com#%#//scriptlet('ubo-set-cookie.js', 'cookies', 'true')
-etsy.com#%#//scriptlet('ubo-set-cookie.js', 'ctc_rejected', '1')
+etsy.com,careers.cloud.com#%#//scriptlet('ubo-set-cookie.js', 'ctc_rejected', '1')
 seb.se,sebgroup.com#%#//scriptlet('ubo-set-cookie.js', 'AcceptedCookieCategories', '1')
 deps.dev#%#//scriptlet('ubo-set-cookie.js', 'cookie_policy_acknowledgement', 'true')
 buf.build#%#//scriptlet('ubo-set-cookie.js', 'allowCookies', 'yes')

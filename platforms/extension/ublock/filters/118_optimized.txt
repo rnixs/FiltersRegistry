@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: UCFt8zYg/Jc6Ed+Szgp6rg
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1709356024-14400.patch
+! Checksum: RVh35ryiiQFbcLCjzVqy5Q
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1709370470-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.23.3
-! TimeUpdated: 2024-03-02T05:02:18+00:00
+! Version: 2.1.23.4
+! TimeUpdated: 2024-03-02T09:02:57+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -1230,6 +1230,7 @@
 /v1/pixel?
 /v1/stats/track
 /v1/tracker.js
+/v2/pv-data?
 /v4/metrics
 /v60.js
 /valnet-header.

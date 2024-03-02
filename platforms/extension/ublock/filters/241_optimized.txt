@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: w9qOjGmJ9yPSJxDjSGr+6g
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1709356026-14400.patch
+! Checksum: cecBXM24KK3vMtVXEHjG+A
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1709370473-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.30.10
-! TimeUpdated: 2024-03-02T05:03:16+00:00
+! Version: 2.1.30.11
+! TimeUpdated: 2024-03-02T09:03:57+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -22201,7 +22201,7 @@ campusbrno.cz##+js(set-cookie, cookie-m-personalization, 0)
 campusbrno.cz##+js(set-cookie, cookie-m-marketing, 0)
 campusbrno.cz##+js(set-cookie, cookie-m-analytics, 0)
 secrid.com##+js(set-cookie, cookies, true)
-etsy.com##+js(set-cookie, ctc_rejected, 1)
+etsy.com,careers.cloud.com##+js(set-cookie, ctc_rejected, 1)
 seb.se,sebgroup.com##+js(set-cookie, AcceptedCookieCategories, 1)
 deps.dev##+js(set-cookie, cookie_policy_acknowledgement, true)
 buf.build##+js(set-cookie, allowCookies, yes)
