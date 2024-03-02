@@ -1,9 +1,9 @@
-! Checksum: VFL+oiXCbzuFfTppJgOPgA
-! Diff-Path: ../patches/233_optimized/233_optimized-s-1709341605-14400.patch
+! Checksum: bTBb5KvZFRxZqzx97JC7pg
+! Diff-Path: ../patches/233_optimized/233_optimized-s-1709399254-14400.patch
 ! Title: Adblock List for Finland (Optimized)
 ! Description: Finnish ad blocking filter list.
-! Version: 2.0.10.89
-! TimeUpdated: 2024-03-02T01:02:55+00:00
+! Version: 2.0.10.90
+! TimeUpdated: 2024-03-02T17:03:46+00:00
 ! Expires: 10 days (update frequency)
 ampparit.com##.ad-slot
 ap-cdn.sanomagames.com##.banner-slot-preroll
@@ -333,6 +333,7 @@ ehandel.fi###div-leeadsFullpageAd
 ehandel.fi##.article-ad-container
 ehandel.fi##.commercial-row
 ehandel.fi,tvmatsit.com##.annons
+ei-toimi.fi##div[style="min-height:300px;"]
 elmotv.com##.affilistaukset
 elmotv.com##.leovegas
 elmotv.com##[class^=mstila]
