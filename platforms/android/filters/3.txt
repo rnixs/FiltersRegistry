@@ -1,9 +1,9 @@
-! Checksum: 0XkVHval/y4HztU/u7k7FA
-! Diff-Path: ../patches/3/3-s-1709300192-3600.patch
+! Checksum: E82yV07XOQbgnKNhAJdc0Q
+! Diff-Path: ../patches/3/3-s-1709361367-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.67.28
-! TimeUpdated: 2024-03-01T13:33:24+00:00
+! Version: 2.0.67.29
+! TimeUpdated: 2024-03-02T06:33:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -106129,6 +106129,7 @@ zmail.neolab.ubilab.me$image
 ! ZhugeIO
 /zhugeio.js
 !
+/v2/pv-data?
 /gtm.js?id=GTM-
 ://tagging.*.js?id=GTM-
 ://gtm.*.js?id=GTM-

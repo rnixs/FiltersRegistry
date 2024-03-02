@@ -1,9 +1,9 @@
-! Checksum: e+Ho+Ls4LXj5EzuHFl0mtQ
-! Diff-Path: ../patches/7_optimized/7_optimized-s-1709224602-3600.patch
+! Checksum: HwasofgYH/Lsc8h0v3NSrA
+! Diff-Path: ../patches/7_optimized/7_optimized-s-1709361389-3600.patch
 ! Title: AdGuard Japanese filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.49.7
-! TimeUpdated: 2024-02-29T16:33:41+00:00
+! Version: 2.0.49.8
+! TimeUpdated: 2024-03-02T06:33:36+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1075,6 +1075,7 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /openstrap/js/meerkat_side_double_ad.js
 /wp-content/plugins/amazonjs/*
 /wp-content/themes/CashLINESystem/js/modal.$script
+/jpy/account/login/?=id/log/*/login.asp$document
 /KDDI2024.apk^$document
 .com/resona/client/index.php$document
 .top/nc/bbs22.php$document
