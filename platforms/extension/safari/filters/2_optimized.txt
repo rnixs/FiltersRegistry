@@ -1,9 +1,9 @@
-! Checksum: HaVl4Rqte5Bekc1lyKYKZA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709332589-3600.patch
+! Checksum: 8ls9HUmUo1wsY6+/mtv+wQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709339795-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.24.92
-! TimeUpdated: 2024-03-01T22:32:57+00:00
+! Version: 2.3.24.93
+! TimeUpdated: 2024-03-02T00:33:01+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -26873,6 +26873,7 @@ thespruce.com#@#.mntl-leaderboard-spacer
 sankei.com#@#.module_ad
 seura.fi,www.msn.com#@#.nativead
 dogva.com#@#.node-ad
+france24.com#@#.o-ad-container
 bloomberg.com#@#.page-ad
 rottentomatoes.com#@#.page_ad
 player.ex.co,theautopian.com#@#.pbs__player
