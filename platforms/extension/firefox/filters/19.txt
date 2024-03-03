@@ -1,9 +1,9 @@
-! Checksum: yM3gzmwemgH+53VK2wXIwQ
-! Diff-Path: ../patches/19/19-s-1709332577-3600.patch
+! Checksum: GOLv/XdhQh6bpmRIopbWNA
+! Diff-Path: ../patches/19/19-s-1709501785-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.61
-! TimeUpdated: 2024-03-01T22:32:15+00:00
+! Version: 2.0.32.62
+! TimeUpdated: 2024-03-03T21:32:19+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4147,6 +4147,8 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+mashnews.ru#$#.fancybox__container { display: none !important; }
+mashnews.ru#$#.with-fancybox { overflow: auto !important; }
 comet.it#$#.custombox-open { display: none !important; }
 comet.it#$#.custombox-lock { overflow: auto !important; }
 hellobacsi.com#$##hhg-comp-popup-wrapper { display: none !important; }
