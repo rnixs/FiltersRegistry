@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /ZmqYC6B+ZSUjZuIhDL8qw
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1709471224-14400.patch
+! Checksum: 04N9cfmS+qTE5hc+0LFN7Q
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1709485622-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.19.44
-! TimeUpdated: 2024-03-03T13:02:11+00:00
+! Version: 2.0.19.45
+! TimeUpdated: 2024-03-03T17:02:13+00:00
 ! Expires: 5 days (update frequency)
 .id^*/bnr/$domain=~kalbarprov.go.id
 /iklan/*$image,domain=~jualrumahjakarta.com|~jualsewakios.com|~jualsewaruko.com|~kostjakarta.com|~pusatiklan.co.id|~sewa-apartemen.net|~sewa-rumah.net|~sewa-villa.com|~situsproperti.com|~tempat-usaha.com
@@ -2256,6 +2256,8 @@ poskota.co.id##[class^="get_ads_"]
 kaskus.co.id##[class^="skyscrapperAds"]
 kumparan.com##[data-qa-id*="banner"]
 kumparan.com##[data-qa-id*="sticky-bottom-ads"]
+kumparan.com##[data-qa-id="left-skyscrapper-ads"]
+kumparan.com##[data-qa-id="right-skyscrapper-ads"]
 telisik.id##[data-src*="/ads/"]
 popbela.com##[data-testid="ads-megabillboard"]
 timesindonesia.co.id##[href*="ads-"]
@@ -2736,6 +2738,8 @@ garudadaily.com##.wpb_row .wpb_column > .wpb_wrapper:has(.terbaru:has-text(/adv/
 ruangguru.com##[class^="css-"]:has(> p:has-text(/iklan/i) )
 realitakita.com##[class^="gpt-ad-"]
 kumparan.com##[data-qa-id*="mobile-article-page-"]:has-text(/adv/i)
+kumparan.com##[data-qa-id="desktop-article-page-below-images"]:has(> div > span:has-text(/adv/i))
+kumparan.com##[data-qa-id^="desktop-article-page-inline-"]:has(> div > span:has-text(/adv/i))
 alinea.id,indozone.id,tek.id##[id^="div-gpt-ad"]:upward(.flying_carpet_div)
 genpi.co##[id^="div-gpt-ad-"]:upward(.text-center)
 tirto.id##[id^="gpt-"]:has(> script)
@@ -2769,6 +2773,7 @@ sehatq.com##div:matches-css(position:absolute):matches-css(top:0px):has([id^="di
 berita.99.co,kelasexcel.id,suarapemredkalbar.com###adop_flyingcarpet
 trackpacking.com###fix-footer
 petalokasi.org###optad_atf
+kumparan.com###parallax
 semutaspal.com###sticky-bottom
 21cineplex.com###top-bar
 faktualnews.co###wideskyscraper
@@ -2804,6 +2809,7 @@ kontenjatim.com,law-justice.co,nusadaily.com,sumselupdate.com##.sticky_bottom
 klubpria.com,materiipa.com##.stickyunit
 ceklissatu.com##[class^="bn-"]
 rakcer.id##[class^="site-gpt-"]
+kumparan.com##[data-qa-id="mobile-article-page-billboard-1"]
 acehekspres.com,acehportal.com,acehstandar.com,acehtrend.com,akuratnews.com,kabartamiang.com,kabartimurnews.com,malukuterkini.com,metropolis.id,mimbaraceh.com,modusaceh.co##article #slpremium
 ceklist.id##article .affcoups
 bulat.co.id##article .melayang

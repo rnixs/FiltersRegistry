@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: K5ATMgSLpUCQa9nxq+wrbQ
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1709471225-14400.patch
+! Checksum: VCtvy/7C4+QDf4Fy2q47cA
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1709485623-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.16
-! TimeUpdated: 2024-03-03T13:02:22+00:00
+! Version: 2.1.22.17
+! TimeUpdated: 2024-03-03T17:02:24+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -476,6 +476,7 @@ _socialfancysliders/
 /eucookies.
 /evidon-sitenotice-tag.js
 /exponea.min.js
+/fcc-cookie-consent.min.js
 /feoCookies.min.js
 /fs-cc.js
 /gdpr-assets-
@@ -12015,6 +12016,7 @@ road.cc##.info-subscription-box
 bonappetit.com,wired.com##.journey-unit
 grist.org##.js-membership-ad.membership-ad
 pravda.com.ua##.m_banner
+tedium.co##.md-adbox
 bitchute.com##.membership-container > .spa
 bitchute.com##.membership-container > span
 atlasobscura.com##.membership-creative
@@ -16396,6 +16398,7 @@ pbs.org##.subscribe__form-wrapper
 drive.com.au##.subscribe_drive-subscribe-content__wrapper__eL0k9
 topuniversities.com##.subscribe_news_letter
 cookingclassy.com##.subscribebar
+tedium.co##.subscribebox
 natashaskitchen.com##.subscribenew
 todayonline.com##.subscription-block
 bcg.com##.subscription-widget
@@ -19954,6 +19957,7 @@ medischcontact.nl##.cc-popup
 beslist.nl##.cookie--XpbFM
 independer.nl##.ind-cbar
 t-mobile.nl##.koekje-content
+plus.nl##.popup-backdrop
 nrc.nl##.user-confirmation-screen
 ov-chipkaart.nl##[aria-describedby="cookie-banner-message"]
 npo.nl##ccm-notification
