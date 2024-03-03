@@ -1,15 +1,15 @@
-! Checksum: kN+kRtIZgkrwXLd83xVwlw
-! Diff-Path: ../patches/122/122-s-1709428022-14400.patch
+! Checksum: Qgt075BG0xeVr13lotpYUA
+! Diff-Path: ../patches/122/122-s-1709442416-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.13
-! TimeUpdated: 2024-03-03T01:02:20+00:00
+! Version: 2.1.22.14
+! TimeUpdated: 2024-03-03T05:02:29+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: degCmU2Xi+GYJEKqsWi+aQ
-! OriginalVersion: 202403030015
+! Checksum: yZ9GRvD2WMR+AEBGjWYE2g
+! OriginalVersion: 202403030340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-03-03 00:15 UTC
+! Last modified: 2024-03-03 03:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36283,7 +36283,7 @@ ofbez.com###scroll-buttons
 advister.it,aeromalls.com,ecrater.com,gadgetstouse.com,hard-drive.net,hotels.com,iphoneitalia.com,safetydetectives.com,theblondeabroad.com,thefintechtimes.com,yoshuabengio.org###scroll-to-top
 dihi.org,trutone.ca###scroll-top
 morbidology.com,rivanimation.com,spuf.org,theoverclocker.com,uska.ch,wdet.org###scroll-up
-alldomains.hosting,capital.com,permanentstyle.com###scrollToTop
+alldomains.hosting,capital.com,permanentstyle.com,vodacomsoccer.com###scrollToTop
 123ink.ca,americanmusical.com,cinemo.hu,itdevices.ca,joemonster.org,kingofcocaine.com,primecables.ca###scrollUp
 vipcars.com###scroll_top
 astrofame.com###scrolling-top
@@ -38904,6 +38904,7 @@ userstyles.org##.NotificationLine
 sungod.co##.PageCookieConsentBanner
 rows.com##.PnyGo
 midasbuy.com##.PopCookie_active__UWi7E
+themattresswarehouse.co.za##.PopiBanner__PopiContainer-igharm-1
 cs.money##.Popover_wrapper__feCxt
 cjbayliss.co.uk,hcdltd.com##.PopupOverall
 powercolor.com##.Privacy
@@ -42157,6 +42158,7 @@ campusbrno.cz#%#//scriptlet('ubo-set-cookie.js', 'cookie-m-marketing', '0')
 campusbrno.cz#%#//scriptlet('ubo-set-cookie.js', 'cookie-m-analytics', '0')
 secrid.com#%#//scriptlet('ubo-set-cookie.js', 'cookies', 'true')
 etsy.com,careers.cloud.com#%#//scriptlet('ubo-set-cookie.js', 'ctc_rejected', '1')
+blablacar.rs,blablacar.ru,blablacar.com.tr,blablacar.com.ua,blablacar.com.br#%#//scriptlet('ubo-set-cookie.js', '_cookies_v2', '1')
 seb.se,sebgroup.com#%#//scriptlet('ubo-set-cookie.js', 'AcceptedCookieCategories', '1')
 deps.dev#%#//scriptlet('ubo-set-cookie.js', 'cookie_policy_acknowledgement', 'true')
 buf.build#%#//scriptlet('ubo-set-cookie.js', 'allowCookies', 'yes')
