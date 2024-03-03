@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 5NaKDetqSwSc+Vxz8QsBAg
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709501806-3600.patch
+! Checksum: uFClvApq1Z4irLJT2RxF7g
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709505379-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.25.4
-! TimeUpdated: 2024-03-03T21:33:02+00:00
+! Version: 2.3.25.5
+! TimeUpdated: 2024-03-03T22:32:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -78,6 +78,28 @@
 !
 !
 !
+||tauphaub.net^
+||koophaip.net^
+||regardsperformedgreens.com^
+||bywordmiddleagedpowder.com^
+||layoutsdaydawn.top^
+||eveneraw.digital^
+||tpciqzm.com^
+||vhdbohe.com^
+||showdoyoukno.info^
+||hfjvuxuwasf.com^
+||phaiseen.com^
+||interimmemory.com^
+||jpsthqhvxynfdx.com^
+||joaqaylueycfqw.xyz^
+||minsaith.xyz^
+||billiardsnotealertness.com^
+||perverseunsuccessful.com^
+||hadseaside.com^
+||sheardirectly.com^
+||frulednulx.com^
+||divorcebelievable.com^
+||swzgvmlvt.com^
 ||aeoqmogkswsd.com^
 ||aunauque.net^
 ||gvwdwrtzrs.com^
@@ -54120,6 +54142,7 @@ implbits.com#@#.banner_container
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173999
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170006
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173479
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173723
