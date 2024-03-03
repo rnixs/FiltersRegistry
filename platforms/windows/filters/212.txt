@@ -1,15 +1,15 @@
-! Checksum: nJpncIWO1P5E5Z1Yt8CG4Q
-! Diff-Path: ../patches/212/212-s-1709456848-14400.patch
+! Checksum: iTPS0ZlC2f9GhGxD7IB2hQ
+! Diff-Path: ../patches/212/212-s-1709471247-14400.patch
 ! Title: RU AdList: Counters
 ! Description: RU AdList supplement for trackers blocking.
-! Version: 2.1.44.12
-! TimeUpdated: 2024-03-03T09:02:30+00:00
+! Version: 2.1.44.13
+! TimeUpdated: 2024-03-03T13:02:30+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: K/rj0HcEjX61aV/mjr3u2g
-! OriginalVersion: 202403030851
+! Checksum: MMfkxNDTvebt+NVPOLVIPQ
+! OriginalVersion: 202403031251
 ! Title: RU AdList: Counters
-! Last modified: 03 Mar 2024 08:51 UTC
+! Last modified: 03 Mar 2024 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1340,7 +1340,7 @@ $removeparam=rf,domain=mail.ru|sportmail.ru
 $removeparam=rtclick
 $removeparam=searchid,domain=kufar.by
 $removeparam=short_domain,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
-$removeparam=sid,domain=nnm-club.lib|nnm-club.me|nnmclub.ro|nnmclub.to|rutor.in
+$removeparam=sid,domain=nnmclub.to|rutor.in
 $removeparam=source_ve_path,domain=youtube.com
 $removeparam=stid,domain=dzen.ru
 $removeparam=tt_content,domain=twitch.tv
@@ -1425,7 +1425,7 @@ utm_$document,removeparam=ig_rid,domain=instagram.com
 ||youtube.com/embed/$subdocument,removeparam=iv_load_policy
 ||youtube.com/embed/$subdocument,removeparam=rel
 ! исключения
-@@/forum\/(login|torrent)\.php\?(logout|mode)\=/$removeparam,domain=nnm-club.lib|nnm-club.me|nnmclub.ro|nnmclub.to
+@@/forum\/(login|torrent)\.php\?(logout|mode)\=/$removeparam,domain=nnmclub.to
 @@|https://www.sravni.ru/$subdocument,removeparam=utm_campaign
 @@|https://www.sravni.ru/$subdocument,removeparam=utm_content
 @@|https://www.sravni.ru/$subdocument,removeparam=utm_medium

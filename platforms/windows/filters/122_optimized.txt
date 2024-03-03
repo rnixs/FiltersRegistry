@@ -1,9 +1,9 @@
-! Checksum: qgxlk34LkDcCGcusKcIxKQ
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1709456847-14400.patch
+! Checksum: tDx70LE2ChPUWg7dP3kIBQ
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1709471246-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.15
-! TimeUpdated: 2024-03-03T09:02:22+00:00
+! Version: 2.1.22.16
+! TimeUpdated: 2024-03-03T13:02:22+00:00
 ! Expires: 12 hours (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -11597,7 +11597,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ||orangeclickmedia.com^$third-party
 ||plugin.management^
 ||privacy-center.org^$third-party
-||privacy.wum.rocks^
 ||privacylab.it^$third-party
 ||privacymanager.io^$third-party
 ||privacytools.com.br^$third-party
@@ -14181,7 +14180,6 @@ blxxded.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', 'true')
 rtu.lv#%#//scriptlet('ubo-set-cookie.js', 'uce-cookie', 'N')
 sysdream.com#%#//scriptlet('ubo-set-cookie.js', 'tarteaucitron', 'false')
 cinemarkca.com#%#//scriptlet('ubo-set-cookie.js', 'cookiePolicies', 'true')
-wedding.pl#%#//scriptlet('ubo-set-cookie.js', 'wed_cookie_info', '1')
 neander-zahn.de#%#//scriptlet('ubo-set-cookie.js', 'cookie_optin_q', 'false')
 theadelphileeds.co.uk,tobycarvery.co.uk#%#//scriptlet('ubo-set-cookie.js', 'ce-cookie', 'N')
 viajesatodotren.com#%#//scriptlet('ubo-set-cookie.js', 'NTCookies', '0')
@@ -14640,8 +14638,6 @@ bizkaia.eus#%#//scriptlet('ubo-set-cookie.js', 'pc_preferencias_bizkaia', 'true'
 bizkaia.eus#%#//scriptlet('ubo-set-cookie.js', 'pc_tecnicas_bizkaia', 'true')
 sinparty.com#%#//scriptlet('ubo-set-cookie.js', 'gdrp_popup_showed', '1')
 deltatre.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preferences-technical', 'yes')
-depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__google__analytics', 'false')
-depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__depop__functional', 'true')
 mantel.com#%#//scriptlet('ubo-set-cookie.js', 'tracking_cookie', '1')
 armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent_group_technical', '1')
 armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preference_renew10', '1')
@@ -14664,7 +14660,6 @@ depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__depop__functional', 'true')
 thenounproject.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1', '', 'reload', '1')
 pricehubble.com#%#//scriptlet('ubo-set-cookie.js', 'cookieBannerAccepted', '1', '', 'reload', '1')
 ilmotorsport.de#%#//scriptlet('ubo-set-cookie.js', 'cookieMsg', 'true', '', 'reload', '1')
-monese.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'true')
 karate.com,psbank.ru,myriad.social,exeedme.com,followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'true')
 aqua-store.fr#%#//scriptlet('ubo-set-cookie.js', 'abz_seo_choosen', '1')
 voila.ca#%#//scriptlet('ubo-set-cookie.js', 'privacyAccepted', 'true')
@@ -14890,7 +14885,6 @@ worstbassist.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies-selecte
 tattoodo.com#%#//scriptlet('ubo-set-local-storage-item.js', 'accepted_cookies', 'true')
 tattoodo.com#%#//scriptlet('ubo-set-local-storage-item.js', 'accepted_cookie', 'true')
 jmonline.com.br,atlas.workland.com,virginexperiencedays.co.uk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie-consent', 'true')
-evernote.com#%#//scriptlet('ubo-set-local-storage-item.js', 'accepts-cookie-notice', 'true')
 emag.berliner-woche.de,nordkurier.de#%#//scriptlet('ubo-set-local-storage-item.js', 'consentManager_shown', 'true')
 emag.berliner-woche.de,nordkurier.de#%#//scriptlet('ubo-set-local-storage-item.js', 'consent_necessary', 'true')
 emag.berliner-woche.de,nordkurier.de#%#//scriptlet('ubo-set-local-storage-item.js', 'consent_performance', 'false')
@@ -17454,7 +17448,6 @@ blxxded.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', 'true')
 rtu.lv#%#//scriptlet('ubo-set-cookie.js', 'uce-cookie', 'N')
 sysdream.com#%#//scriptlet('ubo-set-cookie.js', 'tarteaucitron', 'false')
 cinemarkca.com#%#//scriptlet('ubo-set-cookie.js', 'cookiePolicies', 'true')
-wedding.pl#%#//scriptlet('ubo-set-cookie.js', 'wed_cookie_info', '1')
 neander-zahn.de#%#//scriptlet('ubo-set-cookie.js', 'cookie_optin_q', 'false')
 theadelphileeds.co.uk,tobycarvery.co.uk#%#//scriptlet('ubo-set-cookie.js', 'ce-cookie', 'N')
 viajesatodotren.com#%#//scriptlet('ubo-set-cookie.js', 'NTCookies', '0')
@@ -17913,8 +17906,6 @@ bizkaia.eus#%#//scriptlet('ubo-set-cookie.js', 'pc_preferencias_bizkaia', 'true'
 bizkaia.eus#%#//scriptlet('ubo-set-cookie.js', 'pc_tecnicas_bizkaia', 'true')
 sinparty.com#%#//scriptlet('ubo-set-cookie.js', 'gdrp_popup_showed', '1')
 deltatre.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preferences-technical', 'yes')
-depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__google__analytics', 'false')
-depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__depop__functional', 'true')
 mantel.com#%#//scriptlet('ubo-set-cookie.js', 'tracking_cookie', '1')
 armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent_group_technical', '1')
 armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preference_renew10', '1')
@@ -17937,7 +17928,6 @@ depop.com#%#//scriptlet('ubo-set-cookie.js', 'gdpr__depop__functional', 'true')
 thenounproject.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent', '1', '', 'reload', '1')
 pricehubble.com#%#//scriptlet('ubo-set-cookie.js', 'cookieBannerAccepted', '1', '', 'reload', '1')
 ilmotorsport.de#%#//scriptlet('ubo-set-cookie.js', 'cookieMsg', 'true', '', 'reload', '1')
-monese.com#%#//scriptlet('ubo-set-cookie.js', 'accept-cookies', 'true')
 karate.com,psbank.ru,myriad.social,exeedme.com,followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'true')
 aqua-store.fr#%#//scriptlet('ubo-set-cookie.js', 'abz_seo_choosen', '1')
 voila.ca#%#//scriptlet('ubo-set-cookie.js', 'privacyAccepted', 'true')
@@ -18163,7 +18153,6 @@ worstbassist.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies-selecte
 tattoodo.com#%#//scriptlet('ubo-set-local-storage-item.js', 'accepted_cookies', 'true')
 tattoodo.com#%#//scriptlet('ubo-set-local-storage-item.js', 'accepted_cookie', 'true')
 jmonline.com.br,atlas.workland.com,virginexperiencedays.co.uk#%#//scriptlet('ubo-set-local-storage-item.js', 'cookie-consent', 'true')
-evernote.com#%#//scriptlet('ubo-set-local-storage-item.js', 'accepts-cookie-notice', 'true')
 emag.berliner-woche.de,nordkurier.de#%#//scriptlet('ubo-set-local-storage-item.js', 'consentManager_shown', 'true')
 emag.berliner-woche.de,nordkurier.de#%#//scriptlet('ubo-set-local-storage-item.js', 'consent_necessary', 'true')
 emag.berliner-woche.de,nordkurier.de#%#//scriptlet('ubo-set-local-storage-item.js', 'consent_performance', 'false')

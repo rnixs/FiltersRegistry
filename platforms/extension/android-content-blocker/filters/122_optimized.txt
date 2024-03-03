@@ -1,9 +1,9 @@
-! Checksum: 3cKoHEtknzsTP8GkFmf68w
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1709456793-14400.patch
+! Checksum: Z1KiiGdlCC/Y8/L4iBbpZw
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1709471194-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.15
-! TimeUpdated: 2024-03-03T09:02:22+00:00
+! Version: 2.1.22.16
+! TimeUpdated: 2024-03-03T13:02:22+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -11597,7 +11597,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ||orangeclickmedia.com^$third-party
 ||plugin.management^
 ||privacy-center.org^$third-party
-||privacy.wum.rocks^
 ||privacylab.it^$third-party
 ||privacymanager.io^$third-party
 ||privacytools.com.br^$third-party
