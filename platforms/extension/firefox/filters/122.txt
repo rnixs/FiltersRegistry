@@ -1,15 +1,15 @@
-! Checksum: c4f77ayoTGgfKbsx9Nc+bQ
-! Diff-Path: ../patches/122/122-s-1709413612-14400.patch
+! Checksum: pHqEZQvVFvEDOn6jN6SHDQ
+! Diff-Path: ../patches/122/122-s-1709428017-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.12
-! TimeUpdated: 2024-03-02T21:02:24+00:00
+! Version: 2.1.22.13
+! TimeUpdated: 2024-03-03T01:02:20+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: cWrzXwMS1FuC/Zeacb+3TA
-! OriginalVersion: 202403022015
+! Checksum: degCmU2Xi+GYJEKqsWi+aQ
+! OriginalVersion: 202403030015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-03-02 20:15 UTC
+! Last modified: 2024-03-03 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36277,6 +36277,7 @@ census.gov,chugai-pharm.co.jp,nyk.com###pagetop
 bingplaces.com###pagination_Arrow
 accessoires-asus.com###retourHaut
 news.mingpao.com###return_top_2023
+betway.co.za###scroll
 baystatebanner.com###scroll-back
 ofbez.com###scroll-buttons
 advister.it,aeromalls.com,ecrater.com,gadgetstouse.com,hard-drive.net,hotels.com,iphoneitalia.com,safetydetectives.com,theblondeabroad.com,thefintechtimes.com,yoshuabengio.org###scroll-to-top
@@ -36287,7 +36288,7 @@ alldomains.hosting,capital.com,permanentstyle.com###scrollToTop
 vipcars.com###scroll_top
 astrofame.com###scrolling-top
 generalist.academy###scrollup
-winzzguitars.com###site-scroll
+homemark.co.za,winzzguitars.com###site-scroll
 irusa.org###slide_top
 ugreen.com###t4s-backToTop
 thegamecrater.com###to-top-wrap
@@ -37470,6 +37471,7 @@ handletheheat.com##.creator-recipe-footer
 overwolf.com##.creator-social
 bloomberg.com##.css--social-wrapper-outer
 dailywire.com##.css-a91oi6
+onedayonly.co.za##.css-p1ns9f
 thedrive.com##.css-vr83lp
 coincodecap.com##.ct-block-wrapper
 columbian.com##.cta
@@ -37899,7 +37901,6 @@ iflscience.com##.social-share-elements
 nashvillescene.com,stltoday.com##.social-share-links
 thenationalnews.com##.social-share-rail__sticky
 rappler.com##.social-share__actions
-byjus.com,malaymail.com,maxabout.com,news24.com,politico.eu,thepostmillennial.com##.social-sharing
 officialcharts.com##.social-sharing-bar
 trip101.com##.social-sharing-sidebar
 mintpressnews.com,online-tech-tips.com##.social-signup
@@ -38095,6 +38096,8 @@ skeptoid.com##td > .nomobile
 gmx.net##ui-social
 jagranjosh.com##ul[class^="Details_Social_"]
 dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
+!! .social-sharing
+byjus.com,homemark.co.za,malaymail.com,maxabout.com,news24.com,politico.eu,thepostmillennial.com##.social-sharing
 !! .share-links
 ansa.it,cryptopotato.com,eff.org,ewn.co.za,hannity.com,jurist.org,lagaceta.com.ec,menselijklichaam.nl,miragenews.com,mobilesyrup.com,mole24.it,sampdoria.it,upcomingvinyl.com,vivercomsaude.site##.share-links
 !! .share-buttons
@@ -39409,6 +39412,7 @@ odds.am##.cs
 louisvuitton.com##.cs_banner
 filen.io##.css-11l9fez
 drive.filen.io##.css-13xwjmo
+onedayonly.co.za##.css-1gx7o2j
 balthasarspeyr.org##.css-1lhf63g
 quillbot.com##.css-1lxznmp
 carawayhome.com##.css-1m7ve5s
@@ -40152,6 +40156,7 @@ nicequest.com##.qk.qj.qi
 abetterrouteplanner.com##.r-145dblm.r-nc4a30
 mycards.hdfcbank.com##.r-1p0dtai
 book.hacktricks.xyz,docs.safe.global##.r-l13dpy
+makro.co.za##.r-mvcfej
 wolvesville.com##.r-u8s1d.r-1r74h94.r-1nlw0im.css-1dbjc4n
 niceareas.co.uk##.rayAlertBox
 carrot.tech##.rcc
@@ -41129,7 +41134,7 @@ consumer-legal.com,generatedata.com,matchbook.com,profim.eu,profim.fr,profim.pl,
 !! CookieBanner
 abc.net.au,amie.so,app.daily.dev,bbfc.co.uk,billhop.com,cars.co.za,channel5.com,coinbase.com,consoles.radioplayer.cloud,deluxemusic.de,desiindian-brighton.co.uk,drbuho.com,fingerprint.com,foodcorner.dk,forum.effectivealtruism.org,hackney.gov.uk,harrys.com,itzipitzipizza.dk,javabusinesscompetition.id,klientboost.com,lendo.se,letsenhance.io,lindahall.org,luminpdf.com,make.com,monzo.com,mrpizzahastings.co.uk,oddschecker.com,onceupon.photo,qured.us,skyvegas.com,socratesdergi.com,start.ru,sweatco.in,theculturetrip.com,trelson.com,tri.global,unum.co.uk,westerracu.com##div[class*="CookieBanner"]
 !! CookieBanner_
-acffiorentina.com,breastcancer.org,gieffektivt.no,spline.design,svoi.ru,urbanarmorgear.com##div[class^="CookieBanner_"]
+acffiorentina.com,betway.de,breastcancer.org,gieffektivt.no,spline.design,svoi.ru,urbanarmorgear.com##div[class^="CookieBanner_"]
 !! CookieBannerstyle_
 gomibo.at,gomibo.be,gomibo.ch,gomibo.co.uk,gomibo.cy,gomibo.cz,gomibo.de,gomibo.dk,gomibo.ee,gomibo.es,gomibo.fi,gomibo.fr,gomibo.gr,gomibo.hr,gomibo.ie,gomibo.it,gomibo.lt,gomibo.lu,gomibo.mt,gomibo.no,gomibo.pl,gomibo.pt,gomibo.ro,gomibo.se,gomibo.si,gomibo.sk##div[class^="CookieBannerstyle_"]
 !! .active.legacy
@@ -45683,6 +45688,7 @@ mediamatters.org##.footer--upper
 blog.duncangeere.com,blog.elevatedataviz.com##.footer-cta
 grid.news##.footer-daily-drop
 howtogeek.com##.footer-email
+sneakernews.com##.footer-email-subscribe
 paloaltonetworks.com,techxplore.com##.footer-form
 minitool.com##.footer-join-wrapper
 letsencrypt.org##.footer-newsletter-col
@@ -47560,6 +47566,9 @@ shop.mango.com###newsletterSubscriptionModalLoad
 akkogear.com###newuser_promotion_ad
 edenfantasys.com###nlSubscriptionForm
 overstock.com###omailContainer
+snatcher.co.za###omnisend-dynamic-container
+homemark.co.za###omnisend-form-6374e71bfb02cc636d393258
+snatcher.co.za###omnisend-form-63c2e367547ff69603390250-submit-form
 audiogeeks.com,keepgo.com###omnisend-forms-container
 virginexperiencedays.co.uk###onExit
 kedak.online###ouibounce-modal
@@ -47584,6 +47593,7 @@ elgato.com##.NewsletterPopup_newsletter-popup__1pFRF
 penguin.co.uk##.NewsletterSignup_wrapper__mTmqu
 homary.com##.RegisterAndGetOFF
 grove.co##.TheFooterSignUp
+takealot.com##.Toastify
 jbhifi.com.au##._13cnlxs2af
 dicksmith.co.nz,dicksmith.com.au,kogan.com,mattblatt.com.au##._1iiWS
 wayfair.com##._4zodakb._4zodaka
@@ -47607,6 +47617,7 @@ made-in-china.com##.campaign-pop-mask
 shopperplus.ca##.connect-us
 flashtrend.co.nz##.container-news-sub
 stoneberry.com##.cordial-email-signup
+onedayonly.co.za##.css-16esypq
 minted.com##.css-1dwh0gf
 katespade.com##.css-81stxx
 lakeside.com,ltdcommodities.com##.css-jh5v8h
@@ -47636,6 +47647,7 @@ rosegal.com##.email-wrap
 hammacher.com##.emailBox
 cultbeauty.co.uk,cultbeauty.com,lookfantastic.com,myprotein.com,myprotein.it,myvitamins.com,thehut.com##.emailReengagement
 mcguckin.com##.email_SignUp
+snatcher.co.za##.emthemesModez-footer-newsletter
 ngpstoreusa.com##.emthemesModez-footer-topColumns
 edmfast.com,joelinksstore.com,priceblaze.com,rosmancomputers.com.au,t-shirt.ca,theonlinedrugstore.com,youritdelivered.com##.emthemesModez-footer-topColumns-wrapper
 target.com.au##.enews-quick
@@ -56466,6 +56478,7 @@ ayudatpymes.com###__bg
 ayudatpymes.com###__cookies
 agendadeteatro.es###abdm-cookies-overlay
 as.com###acceptationCMPWall
+pcactual.net###aceptar-cookies
 descifrandolaguerra.es###adam-cookie-banner
 lizipaina.es###additional
 sierraygonzalez.es###anuncio
