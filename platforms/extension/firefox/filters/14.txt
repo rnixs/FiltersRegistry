@@ -1,9 +1,9 @@
-! Checksum: nIx4oUmYt1FEILpizn9geA
-! Diff-Path: ../patches/14/14-s-1709501784-3600.patch
+! Checksum: Uaieo4K/U8/ltZV26xOG0A
+! Diff-Path: ../patches/14/14-s-1709519783-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.55
-! TimeUpdated: 2024-03-03T21:32:06+00:00
+! Version: 2.1.89.56
+! TimeUpdated: 2024-03-04T02:32:08+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -40588,6 +40588,8 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174014
+hwupgrade.it###live-player
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173398
 123telugu.com#%#//scriptlet('trusted-click-element', '.landinghead > a[href="https://www.123telugu.com/index.php"]')
 ! https://ga.de/bonn/stadt-bonn/palaestinenser-fordern-absage-von-bonner-veranstaltung_aid-107495383

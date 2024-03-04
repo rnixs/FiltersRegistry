@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: uFClvApq1Z4irLJT2RxF7g
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709505379-3600.patch
+! Checksum: k+3LE1KEML41DmN8EvahBA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709519803-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.25.5
-! TimeUpdated: 2024-03-03T22:32:57+00:00
+! Version: 2.3.25.6
+! TimeUpdated: 2024-03-04T02:33:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -19409,6 +19409,8 @@ mako.co.il##+js(set-constant, isBs, false)
 open.online##a[rel="sponsored"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173490
 news.fidelityhouse.eu##.hb_ad
+! https://github.com/AdguardTeam/AdguardFilters/issues/174016
+ilmessaggero.it###outbrainWait
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173546
 fumettologica.it###yb-hidemefloorad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173302
