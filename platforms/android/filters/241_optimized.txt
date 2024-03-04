@@ -1,9 +1,9 @@
-! Checksum: 7W1YSewYEIlHIU1IfmBFgA
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1709514385-14400.patch
+! Checksum: 3KntKE/hLwfczmAUqDK2Bg
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1709528786-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.30.21
-! TimeUpdated: 2024-03-04T01:03:09+00:00
+! Version: 2.1.30.22
+! TimeUpdated: 2024-03-04T05:03:04+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -21022,6 +21022,7 @@ roninwear.com,roninwear.de,roninwear.fi,roninwear.fr,roninwear.hu,roninwear.it,r
 aperitif.no,byggmesteren.as,cosmosmagazine.com,estatenyheter.no,forskning.no,forsvaretsforum.no,journalisten.no,khrono.no,m24.no,sciencenordic.com,sciencenorway.no##.adn-message
 comparethemarket.com###__tealiumGDPRcpPrefs
 mbgtc.de,privateproperty.co.za###consentManager
+stat.fi,unesdoc.unesco.org,vkf-renzel.nl###cookie-modal
 1med.tv,mediasphera.ru,waldorf-expertenservice.de###cknt
 cv.ee,cv.lv,cvonline.lt##.cookie-consent-container
 houseofmilk.nl,kiralabunu.com,latuciuri.ro,onlineparentingconsultation.co.uk,unityassetcollection.com##.wpcb-banner
@@ -22451,7 +22452,8 @@ followalice.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-consent', 'false')
 hellotv.nl#%#//scriptlet('ubo-set-cookie.js', 'cookieConsentClosed', 'true')
 jisc.ac.uk#%#//scriptlet('ubo-set-cookie.js', 'cookiesPrivacy', 'false')
 lasestrellas.tv#%#//scriptlet('ubo-set-cookie.js', '_tvsPrivacy', 'true')
-nanuko.de,hair-body-24.de,shopforyou47.de,kreativverliebt.de,anderweltverlag.com,octavio-shop.com,forcetools-kepmar.eu,fantecshop.de,hexen-werkstatt.shop,shop-naturstrom.de,biona-shop.de,camokoenig.de,bikepro.de,kaffeediscount.com,vamos-skateshop.com,holland-shop.com,avonika.com#%#//scriptlet('ubo-set-cookie.js', 'epCookieConsent', '0', '', 'reload', '1')
+schoonmaakgroothandelemmen.nl,nanuko.de,hair-body-24.de,shopforyou47.de,kreativverliebt.de,anderweltverlag.com,octavio-shop.com,forcetools-kepmar.eu,fantecshop.de,hexen-werkstatt.shop,shop-naturstrom.de,biona-shop.de,camokoenig.de,bikepro.de,kaffeediscount.com,vamos-skateshop.com,holland-shop.com,avonika.com#%#//scriptlet('ubo-set-cookie.js', 'epCookieConsent', '0', '', 'reload', '1')
+royal-oak.org#%#//scriptlet('ubo-set-cookie.js', 'royaloakTermsCookie', '1')
 hurton.pl#%#//scriptlet('ubo-set-cookie.js', 'is_allowed_client_traking_niezbedne', '1', '', 'reload', '1')
 officesuite.com#%#//scriptlet('ubo-set-cookie.js', 'intro', 'true')
 fups.com#%#//scriptlet('ubo-set-cookie.js', 'SeenCookieBar', 'true')
@@ -24314,7 +24316,6 @@ rapool.de,softwarenetz.de###grayout
 urlaubstage.de###growls
 auktionssuche.de,baumpflege.ac,garten.ac,heim-und-haustiere.de,schwedisch-translator.de###hinweise
 can-apparatebau.de,ib-walz.de,intecprint.de,lions-club-kreuztal.de,rohrbach-elektrotechnik.com,schnabl-engineering.de,ssb-siegen.de,zentrifugen-service.de###hmc
-aqualip.de###idHrSysGipsDivBlackTransparentOverlay
 d-secour.de###importantMessages
 herole.de###incredible-cookie-furnace-generator
 bongu.de###infoBar
@@ -25188,7 +25189,6 @@ pensioenleeftijdberekenen.nl###ckpol
 cdh.be###comp-jkmod7cm
 denhaagfm.nl,gld.nl,omroepwest.nl,omroepzeeland.nl,omropfryslan.nl,rtvdrenthe.nl,rtvnoord.nl,rtvoost.nl,rtvutrecht.nl###consent-plugin
 targetsupport.nl###consentModal
-vkf-renzel.nl###cookie-modal
 ekoplaza.nl###cookie-prompt-modal___BV_modal_outer_
 l28.nl###cookie_popup_body
 doof.nl###cookiechoices
@@ -25354,7 +25354,6 @@ cellbes.ee##.w1xroek9
 virtuaaltuur.tlu.ee##[style^="bottom: 0px; height: 50px;"]
 sportamore.com###__next > div.MuiBox-root:last-of-type
 viddla.fi###cookie-info-wrap
-stat.fi###cookie-modal
 ecoprint.info,karkkikuja.fi,konejatarvike.com###cp_popup
 virtasenkauppa.fi###gtmCookieBanner
 kiinteistomaailma.fi###km-ccw
@@ -25597,7 +25596,6 @@ programmitv.it###mag
 lifter.it###mask-overlay
 mato.muoversiatorino.it###messageBar
 molgroupitaly.it###mgit_notification
-e-tv.it,excelacademy.it###my-agile-privacy-notification-area
 meteomonopoli.it###my_privacy_widget
 demaiogroup.it,dematteogroup.it,gramscicafe.com###normativa
 tecnolatte.it###page_hider
@@ -25640,6 +25638,7 @@ almaviva.it##.background-popup
 papersera.net##.black_overlay
 calcolostipendio.it##.bold_text
 bose.it##.bose-infoBar2016--fixedBottom
+masterinvendita.com,nuovenergiespa.it##.cboss_banner_container
 finanziariatosinvest.it##.cc-link
 buyon.it,codicesconto.com##.cc_placeholder
 likesx.com##.cent
@@ -26180,6 +26179,7 @@ gauchazh.clicrbs.com.br###privacy-tools-banner
 webmotors.com.br###root > .sc-bdVaJa
 rtp.pt###rtpgeralcookiecontent
 tjmg.jus.br###termo-uso
+imashop.com.br,toqueacampainha.com.br###vtex-lgpd-cookie
 xalingo.com.br###wrng-agrmnt
 fiat.com.br##.CookieHolder_container__23g0s
 morana.com.br##.DykGo.sc-crzoAE

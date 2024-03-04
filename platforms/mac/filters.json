@@ -408,8 +408,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt",
-			"version": "2.1.35.92",
-			"timeUpdated": "2024-03-04T01:01:58+0000",
+			"version": "2.1.35.93",
+			"timeUpdated": "2024-03-04T05:01:54+0000",
 			"languages": []
 		},
 		{
@@ -603,8 +603,8 @@
 			"displayNumber": 2,
 			"groupId": 2,
 			"subscriptionUrl": "https://easylist.to/easylist/easyprivacy.txt",
-			"version": "2.1.23.11",
-			"timeUpdated": "2024-03-04T01:02:11+0000",
+			"version": "2.1.23.12",
+			"timeUpdated": "2024-03-04T05:02:06+0000",
 			"languages": []
 		},
 		{
@@ -657,8 +657,8 @@
 			"displayNumber": 100,
 			"groupId": 4,
 			"subscriptionUrl": "https://secure.fanboy.co.nz/fanboy-annoyance_ubo.txt",
-			"version": "2.1.22.19",
-			"timeUpdated": "2024-03-04T01:02:24+0000",
+			"version": "2.1.22.20",
+			"timeUpdated": "2024-03-04T05:02:19+0000",
 			"languages": []
 		},
 		{
@@ -670,8 +670,8 @@
 			"displayNumber": 2,
 			"groupId": 3,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/fanboy-social.txt",
-			"version": "2.1.20.44",
-			"timeUpdated": "2024-03-04T01:02:26+0000",
+			"version": "2.1.20.45",
+			"timeUpdated": "2024-03-04T05:02:21+0000",
 			"languages": []
 		},
 		{
@@ -752,8 +752,8 @@
 			"displayNumber": 4,
 			"groupId": 2,
 			"subscriptionUrl": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext",
-			"version": "2.0.14.46",
-			"timeUpdated": "2024-03-03T17:02:29+0000",
+			"version": "2.0.14.47",
+			"timeUpdated": "2024-03-04T05:02:24+0000",
 			"languages": []
 		},
 		{
@@ -882,8 +882,8 @@
 			"displayNumber": 2,
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_adguard.txt",
-			"version": "2.0.27.55",
-			"timeUpdated": "2024-03-03T17:02:33+0000",
+			"version": "2.0.27.56",
+			"timeUpdated": "2024-03-04T05:02:28+0000",
 			"languages": [
 				"vi"
 			]
@@ -1251,8 +1251,8 @@
 			"displayNumber": 100,
 			"groupId": 4,
 			"subscriptionUrl": "https://www.fanboy.co.nz/fanboy-cookiemonster.txt",
-			"version": "2.1.30.21",
-			"timeUpdated": "2024-03-04T01:03:09+0000",
+			"version": "2.1.30.22",
+			"timeUpdated": "2024-03-04T05:03:04+0000",
 			"languages": []
 		},
 		{
