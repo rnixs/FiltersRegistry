@@ -1,9 +1,9 @@
-! Checksum: 4c9e4McdbKCD/obBiqpMFQ
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1709572083-14400.patch
+! Checksum: sbabRLGXZXSXjEHl8Y53Kg
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1709586511-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.30.24
-! TimeUpdated: 2024-03-04T17:03:33+00:00
+! Version: 2.1.30.25
+! TimeUpdated: 2024-03-04T21:04:06+00:00
 ! Expires: 12 hours (update frequency)
 -consent-banner-
 -consent-banner.
@@ -18392,7 +18392,7 @@
 ||global.mgr.consensu.org^$third-party
 ||goadopt.io^$third-party
 ||grvmedia.com^$third-party
-||gstatic.com/glue/cookienotificationbar/
+||gstatic.com/glue/cookienotificationbar/$domain=play.google.com
 ||hs-banner.com^$third-party
 ||hu-manity.co/hu-banner.min.js
 ||illow.io/public/cookies/

@@ -1,15 +1,15 @@
 ![Adblock Plus 2.0]
-! Checksum: CteC1fjwBAkqN/3q8yLpnQ
-! Diff-Path: ../patches/241/241-s-1709572063-14400.patch
+! Checksum: uYyvdf/nEyTQAeJPhjCmRg
+! Diff-Path: ../patches/241/241-s-1709586494-14400.patch
 ! Title: EasyList Cookie List
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.30.24
-! TimeUpdated: 2024-03-04T17:03:33+00:00
+! Version: 2.1.30.25
+! TimeUpdated: 2024-03-04T21:04:06+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: Kudx8VQ47Oq0Dd07XBam4w
+! Checksum: ul5nYyFEMeXGwtzobeM8Qw
 ! Title: Easylist Cookie List
-! Updated: 2024-03-04 15:40 UTC
+! Updated: 2024-03-04 20:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -18468,7 +18468,7 @@
 ||global.mgr.consensu.org^$third-party
 ||goadopt.io^$third-party
 ||grvmedia.com^$third-party
-||gstatic.com/glue/cookienotificationbar/
+||gstatic.com/glue/cookienotificationbar/$domain=play.google.com
 ||hs-banner.com^$third-party
 ||hu-manity.co/hu-banner.min.js
 ||illow.io/public/cookies/
