@@ -1,9 +1,9 @@
-! Checksum: DCWw+EDmMlsjFKRmAj1b7w
-! Diff-Path: ../patches/227_optimized/227_optimized-s-1709226466-14400.patch
+! Checksum: CFAdR/yxUU1zX6TCar30fA
+! Diff-Path: ../patches/227_optimized/227_optimized-s-1709572080-14400.patch
 ! Title: List-KR (Optimized)
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.83
-! TimeUpdated: 2024-02-29T17:02:47+00:00
+! Version: 2.0.17.84
+! TimeUpdated: 2024-03-04T17:03:07+00:00
 ! Expires: 12 hours (update frequency)
 ||d1cykymlllue3h.cloudfront.net^
 ||ad1.missyusa.com^
@@ -1229,6 +1229,7 @@
 ||loader2.fmkorea.com/_myphp/adpost/content_new.php
 ||loader.fmkorea.com/_loader/
 ||ssl.pstatic.net/tveta/libs/
+||avguri.com/__/nuevo.min.js
 ||ohli365.*/data/apms/$domain=ohli365.*
 ||bbongtv.*/img/*.gif$domain=bbongtv.*
 /^https:\/\/www\.ygy[0-9]+\.com\/upload_files\/banner\//$domain=ygy48.com|ygy49.com|ygy50.com|ygy51.com|ygy52.com|ygy53.com|ygy54.com|ygy55.com|ygy56.com|ygy57.com|ygy58.com|ygy59.com|ygy60.com|ygy61.com
@@ -1420,12 +1421,13 @@ soccerline.kr##section[class$="-ads"]
 m.cgv.co.kr,m.dailian.co.kr,digitalchosun.dizzo.com,edit.incruit.com##div[class*="Banner"]
 m.inven.co.kr##section[class*="-ad"]
 dpg.danawa.com##div[id*="-ad"]
-m.sports.chosun.com,m.sportschosun.com,m.wowtv.co.kr,m.eye.seoul.co.kr,news.nate.com,m.seoul.co.kr##div[id*="Ad"]
+auto.danawa.com,m.sports.chosun.com,m.sportschosun.com,m.wowtv.co.kr,m.eye.seoul.co.kr,news.nate.com,m.seoul.co.kr##div[id*="Ad"]
 search.zum.com,philgo.com,vop.co.kr,paxnet.co.kr##div[class*="ad_"]
 lol.ps##div[class*="ad-"]
 jobkorea.co.kr##div[id^="Banner"]
 eegosa.com##section[id*="_ads_"]
 sports.donga.com##div[id*="_AD"]
+zum.com##div[class$="-banners"]
 search.daum.net##body.nate .screen_out ~ div[disp-attr]:has(> #bizDirtColl)
 search.daum.net##body.nate .screen_out ~ div[disp-attr]:has(> div[style*="height:"])
 search.daum.net##body.nate aside#mAside > div[disp-attr]:has(> .wing_nate)
@@ -2491,6 +2493,7 @@ orbi.kr##div.panel.class-event-wrap
 orbi.kr##a[href^="https://ads.orbi.kr/"]
 osen.mt.co.kr##div#close_mask
 www.erdcloud.com##.erd-ads-area
+avguri.com###hd_pop
 bbongtv.*##img[src^="/img/"][src*=".gif"]
 ygy48.com,ygy49.com,ygy50.com,ygy51.com,ygy52.com,ygy53.com,ygy54.com,ygy55.com,ygy56.com,ygy57.com,ygy58.com,ygy59.com,ygy60.com,ygy61.com##.popup_wrap
 moeni.net##img[src^="/img/sp/"]
@@ -3062,12 +3065,14 @@ img.imimggggg87878.com#?#a[target="_blank"][href^="http://"].menu-a:contains(보
 frtoon205.com,frtoon206.com,frtoon207.com,frtoon208.com,frtoon209.com,frtoon210.com,frtoon211.com,frtoon212.com,frtoon213.com,frtoon214.com,frtoon215.com,frtoon216.com,frtoon217.com,frtoon218.com#?#.alert-danger.container:contains([AD])
 hdhd315.net,hdhd316.net,hdhd317.net,hdhd318.net,hdhd319.net,hdhd320.net,hdhd321.net,hdhd322.net,hdhd323.net,hdhd324.net,hdhd325.net,hdhd326.net,hdhd327.net,hdhd328.net,hdhd329.net#?#.menu-ul > .menu-li:has(> a:contains(보증토토))
 blacktoon276.com,blacktoon277.com,blacktoon278.com,blacktoon279.com,blacktoon280.com,blacktoon281.com,blacktoon282.com,blacktoon283.com,blacktoon284.com,blacktoon285.com,blacktoon286.com,blacktoon287.com#?#.alert.alert-danger:has(> a:contains([AD]))
+zum.com#%#//scriptlet('set-constant', '_ads_zum_main_initbanner_750_zum_main_br_widget_336', 'true')
 watchfreejavonline.co#%#//scriptlet('abort-current-inline-script', 'popMagic.init')
 m.humoruniv.com#%#//scriptlet('prevent-setTimeout', 'height && 1 <= height && height <= 20')
 m.humoruniv.com#%#//scriptlet('set-constant', 'list_end_run', 'noopFunc')
 m.humoruniv.com#%#//scriptlet('abort-on-stack-trace', '$.prototype.html', '_boom')
 m.humoruniv.com#%#//scriptlet('abort-current-inline-script', '$.prototype.html', '/\/images\/[A-z0-9-_]+\.?(jpg|gif)/')
 m.fmkorea.com#%#//scriptlet('json-prune', 'tpl apply', 'tpl.[].c')
+laftel.net#%#//scriptlet('prevent-setInterval', '[native code]', '1000')
 doctornow.co.kr#%#//scriptlet('json-prune', 'data', 'data.getBannerAdExchange')
 10000recipe.com#%#//scriptlet('prevent-setTimeout', 'popup_goods')
 oh-yes.co.kr#%#//scriptlet('set-cookie', 'ld_ac_timeout', 'Y')

@@ -1,9 +1,9 @@
-! Checksum: kV61iOeWIlxNvWQw4I6o5Q
-! Diff-Path: ../patches/227_optimized/227_optimized-s-1709226409-14400.patch
+! Checksum: HNEAPCotMgnywf/dO8UW5Q
+! Diff-Path: ../patches/227_optimized/227_optimized-s-1709572023-14400.patch
 ! Title: List-KR (Optimized)
 ! Description: Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.
-! Version: 2.0.17.83
-! TimeUpdated: 2024-02-29T17:02:47+00:00
+! Version: 2.0.17.84
+! TimeUpdated: 2024-03-04T17:03:07+00:00
 ! Expires: 1 day (update frequency)
 ||d1cykymlllue3h.cloudfront.net^
 ||ad1.missyusa.com^
@@ -1228,6 +1228,7 @@
 ||loader2.fmkorea.com/_myphp/adpost/content_new.php
 ||loader.fmkorea.com/_loader/
 ||ssl.pstatic.net/tveta/libs/
+||avguri.com/__/nuevo.min.js
 ||ohli365.*/data/apms/$domain=ohli365.*
 ||bbongtv.*/img/*.gif$domain=bbongtv.*
 /^https:\/\/www\.ygy[0-9]+\.com\/upload_files\/banner\//$domain=ygy48.com|ygy49.com|ygy50.com|ygy51.com|ygy52.com|ygy53.com|ygy54.com|ygy55.com|ygy56.com|ygy57.com|ygy58.com|ygy59.com|ygy60.com|ygy61.com
@@ -1419,12 +1420,13 @@ soccerline.kr##section[class$="-ads"]
 m.cgv.co.kr,m.dailian.co.kr,digitalchosun.dizzo.com,edit.incruit.com##div[class*="Banner"]
 m.inven.co.kr##section[class*="-ad"]
 dpg.danawa.com##div[id*="-ad"]
-m.sports.chosun.com,m.sportschosun.com,m.wowtv.co.kr,m.eye.seoul.co.kr,news.nate.com,m.seoul.co.kr##div[id*="Ad"]
+auto.danawa.com,m.sports.chosun.com,m.sportschosun.com,m.wowtv.co.kr,m.eye.seoul.co.kr,news.nate.com,m.seoul.co.kr##div[id*="Ad"]
 search.zum.com,philgo.com,vop.co.kr,paxnet.co.kr##div[class*="ad_"]
 lol.ps##div[class*="ad-"]
 jobkorea.co.kr##div[id^="Banner"]
 eegosa.com##section[id*="_ads_"]
 sports.donga.com##div[id*="_AD"]
+zum.com##div[class$="-banners"]
 www.daum.net##.inner_main > div[data-tiara-layer="shopping"]
 www.daum.net##.inner_side > div[style^="min-width:"]
 bbs.ruliweb.com###board_top .best_list ~ .border_box
@@ -2470,6 +2472,7 @@ orbi.kr##div.panel.class-event-wrap
 orbi.kr##a[href^="https://ads.orbi.kr/"]
 osen.mt.co.kr##div#close_mask
 www.erdcloud.com##.erd-ads-area
+avguri.com###hd_pop
 bbongtv.*##img[src^="/img/"][src*=".gif"]
 ygy48.com,ygy49.com,ygy50.com,ygy51.com,ygy52.com,ygy53.com,ygy54.com,ygy55.com,ygy56.com,ygy57.com,ygy58.com,ygy59.com,ygy60.com,ygy61.com##.popup_wrap
 moeni.net##img[src^="/img/sp/"]
@@ -2612,6 +2615,7 @@ x86.co.kr#@#.download_ad
 @@||ssl.pstatic.net/adimg*.search/adpost/js/ad.js$domain=naver.com
 @@/^https:\/\/www\.ehanex\.com\/images\/main\/[a-z]{2}_ad\.gif$/
 @@||t1.daumcdn.net/adfit/static/kp.js$domain=pindirectshop.com|dongbanmall.com
+@@||adxv.zum.com/view/targets?slots=$domain=zum.com
 quiz.avatye.com#@#ins.adsbygoogle
 @@||ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js$domain=danawa.com
 @@||ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js$script,domain=m.cafe.naver.com
@@ -2637,6 +2641,7 @@ te31.com#@#.text-ads
 te31.com#@#.textAd
 te31.com#@#.text_ad
 te31.com#@#.text_ads
+@@||adxv.zum.com/view/targets?slots=$domain=zum.com
 svrforum.com##body > div[class][style*="box-shadow:"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=t.hi098123.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=luckyquiz3.blogspot.com
