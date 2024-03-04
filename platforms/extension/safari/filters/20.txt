@@ -1,9 +1,9 @@
-! Checksum: slRDtQ6phiJ/S7o0jmJ3OQ
-! Diff-Path: ../patches/20/20-s-1709563028-3600.patch
+! Checksum: nCI4JG3M+S1oJnVkuvK54Q
+! Diff-Path: ../patches/20/20-s-1709570218-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.79
-! TimeUpdated: 2024-03-04T14:32:31+00:00
+! Version: 2.0.12.80
+! TimeUpdated: 2024-03-04T16:32:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -121,6 +121,8 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 temu.com#?#div[role="main"] div[style] > div[style]:has(> div[style] div[js-selector="mobile-download-ui"])
 !
+kundeavisogtilbud.no##.page-promotion-item
+kundeavisogtilbud.no##.mobile-app-banner-small
 mypolacy.de##div[class*="appBanner"]
 happymod.com##.download_button
 kayak.*##mobile-app-promo-header
@@ -264,7 +266,7 @@ yappy.media#?#.videoCollection__mobile div.drawer-swipeable:has(> img[alt="Yappy
 ilmeteo.it#%#//scriptlet('set-cookie-reload', 'sb_user_close', '1')
 openrec.tv##div[class^="ComponentMobile__AppBannerDialogWrapper"]
 openrec.tv##section[class^="AppSuggestionCardSection__Section"]
-offertevolantini.it##.corner-popup-container
+kundeavisogtilbud.no,offertevolantini.it##.corner-popup-container
 airbnb.*##div[data-plugin-in-point-id="NAV_MOBILE"]
 fora.ua##.jss121
 goo-net.com#$#.app_top_search { display: none !important; }

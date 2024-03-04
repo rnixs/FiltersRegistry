@@ -1,9 +1,9 @@
-! Checksum: RR/HBmO9y7Ldv2N0dEhZuw
-! Diff-Path: ../patches/14/14-s-1709566623-3600.patch
+! Checksum: v5xVBBtZVv2oIqHCgp2VXA
+! Diff-Path: ../patches/14/14-s-1709570196-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.64
-! TimeUpdated: 2024-03-04T15:32:21+00:00
+! Version: 2.1.89.65
+! TimeUpdated: 2024-03-04T16:32:17+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -30394,6 +30394,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+trustwave.com#$##hs-web-interactives-top-anchor { display: none !important; }
+trustwave.com#$#body.Fixed { overflow: auto !important; }
 metropoles.com###m-newsletter
 terra.com.br###article-sign-notifications-container
 asiaplustj.info###subscribe-popup
@@ -36998,6 +37000,8 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 temu.com#?#div[role="main"] div[style] > div[style]:has(> div[style] div[js-selector="mobile-download-ui"])
 !
+kundeavisogtilbud.no##.page-promotion-item
+kundeavisogtilbud.no##.mobile-app-banner-small
 mypolacy.de##div[class*="appBanner"]
 happymod.com##.download_button
 kayak.*##mobile-app-promo-header
@@ -37141,7 +37145,7 @@ yappy.media#?#.videoCollection__mobile div.drawer-swipeable:has(> img[alt="Yappy
 ilmeteo.it#%#//scriptlet('set-cookie-reload', 'sb_user_close', '1')
 openrec.tv##div[class^="ComponentMobile__AppBannerDialogWrapper"]
 openrec.tv##section[class^="AppSuggestionCardSection__Section"]
-offertevolantini.it##.corner-popup-container
+kundeavisogtilbud.no,offertevolantini.it##.corner-popup-container
 airbnb.*##div[data-plugin-in-point-id="NAV_MOBILE"]
 fora.ua##.jss121
 goo-net.com#$#.app_top_search { display: none !important; }

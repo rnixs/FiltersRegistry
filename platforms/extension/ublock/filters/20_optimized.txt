@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: vxw9E18znw9DEq0qD6DYAw
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1709563033-3600.patch
+! Checksum: AZPgANfEC73PLOxvL2l+3w
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1709570223-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.79
-! TimeUpdated: 2024-03-04T14:32:31+00:00
+! Version: 2.0.12.80
+! TimeUpdated: 2024-03-04T16:32:41+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ##amp-app-banner
@@ -17,6 +17,8 @@
 ###SmBnLink
 turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.global.ssl.fastly.net,meduza.io##body .smartbanner
 temu.com#?#div[role="main"] div[style] > div[style]:has(> div[style] div[js-selector="mobile-download-ui"])
+kundeavisogtilbud.no##.page-promotion-item
+kundeavisogtilbud.no##.mobile-app-banner-small
 mypolacy.de##div[class*="appBanner"]
 happymod.com##.download_button
 kayak.*##mobile-app-promo-header
@@ -131,7 +133,7 @@ sinefy3.com##.btn-watch-together.app
 free-url-shortener.rb.gy#?#body > div.ReactModalPortal:has(> div.ReactModal__Overlay > .ReactModal__Content > div.ModalContent button:contains(Get Chrome extension))
 free-url-shortener.rb.gy#$#body.ReactModal__Body--open { overflow-y: auto !important; }
 ilmeteo.it##+js(set-cookie-reload, sb_user_close, 1)
-offertevolantini.it##.corner-popup-container
+kundeavisogtilbud.no,offertevolantini.it##.corner-popup-container
 airbnb.*##div[data-plugin-in-point-id="NAV_MOBILE"]
 fora.ua##.jss121
 goo-net.com#$#.app_top_search { display: none !important; }
