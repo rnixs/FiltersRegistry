@@ -1,9 +1,9 @@
-! Checksum: Y6lLY4Q3yCFyLGFLhkCZrQ
-! Diff-Path: ../patches/14/14-s-1709537801-3600.patch
+! Checksum: qXNNiN/6l3xuzajEXDQ5Mg
+! Diff-Path: ../patches/14/14-s-1709541416-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.58
-! TimeUpdated: 2024-03-04T07:32:04+00:00
+! Version: 2.1.89.59
+! TimeUpdated: 2024-03-04T08:32:05+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2379,6 +2379,7 @@ cmp.chip.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9:not(.last-
 !
 ! NOTE: Regular rules
 !
+||assets.investisdigital.com/cookiemanager/
 ||bettercollective.com/*/cookies.js
 communitynotes.x.com#%#//scriptlet('set-cookie', 'twtr_pixel_opt_in', 'N')
 myniacin.com##.nx-popup
@@ -5307,7 +5308,7 @@ hunter.io,pkspolonus.pl###cookies-management
 luckyniki.com##son-cookie-consent
 pccomponentes.com##.notificacion-cookies
 sekerbank.com.tr##div[class^="cookiebox_cookieBox"]
-interactivebrokers.com###cookie-modal ~ .modal-backdrop:not(.modal-backdrop + .modal-backdrop)
+interactivebrokers.ie,interactivebrokers.com###cookie-modal ~ .modal-backdrop:not(.modal-backdrop + .modal-backdrop)
 gx.games#?#body > div.ReactModalPortal:has(> div[class^="sc-"] a[href="https://www.opera.com/privacy"])
 productz.com##.c-rodo-bar
 chaynikam.info##body > div[style^="position: fixed;"][style*="text-align: center;"]
@@ -14958,6 +14959,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174001
+@@||webtic.it/js/cookieconsent-init.js
+@@||cdn.jsdelivr.net/gh/*/cookieconsent@v*/dist/cookieconsent.js$domain=webtic.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174013
 budni.de#@##footer_tc_privacy
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173863
