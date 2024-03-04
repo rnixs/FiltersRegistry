@@ -1,9 +1,9 @@
-! Checksum: SCWd3AuQublY3wA4PAMkvA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709555834-3600.patch
+! Checksum: t8qlovUWjmSVu/oeQux6Lg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709559456-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.25.11
-! TimeUpdated: 2024-03-04T12:33:03+00:00
+! Version: 2.3.25.12
+! TimeUpdated: 2024-03-04T13:33:22+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -5182,6 +5182,7 @@ gostynska.pl,ddbelchatow.pl,jarocinska.pl,klodzko24.eu,nowaruda24.pl,portalplock
 glospowiatusredzkiego.pl,wgospodarce.pl,gostynska.pl,ddbelchatow.pl,jarocinska.pl,klodzko24.eu,nowaruda24.pl,portalplock.pl,korsosanockie.pl,korsokolbuszowskie.pl,korso.pl,korso24.pl,forsal.pl,zwielkopolski24.pl,se.pl,dziennik.pl,rawicz24.pl,tko.pl,tvn.pl,roweroweporady.pl,tulodz.pl,weszlo.com#%#//scriptlet('set-constant', 'questpassGuard', 'noopFunc')
 roweroweporady.pl#@#.ad_container
 ||cdn.questvert.pl/publishers/*/qpscript.js
+mypolacy.de##.wnr
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=swiatgwiazd.pl
 topnewsy.pl##.art div:not([class]) > .lazyload-wrapper:has(button.close + div[class] > a[href="/twoja-prywatnosc"])
 podrozezantena.pl###m_top_1_mainpage
@@ -21097,6 +21098,7 @@ browsershots.org#@#.advert_area
 ||bauviseph.com^
 ||baxascpkean.com^
 ||bbangads.b-cdn.net^
+||bbiuowdofb.com^
 ||bbjnttjqknnmf.com^
 ||bbkydnakc.com^
 ||bbrdbr.com^
@@ -21352,6 +21354,7 @@ browsershots.org#@#.advert_area
 ||boatoamo.com^
 ||bobabillydirect.org^
 ||bobboro.com^
+||bobqucc.com^
 ||bocoyoutage.com^
 ||bodelen.com^
 ||bodytasted.com^
@@ -21559,6 +21562,7 @@ browsershots.org#@#.advert_area
 ||bxacmsvmxb.com^
 ||bxmpcfzlllej.com^
 ||bxvirhgaq.com^
+||bxvlyrw.com^
 ||byambipoman.com^
 ||bydcczwmxyd.com^
 ||bydurantr.com^
@@ -24524,6 +24528,7 @@ browsershots.org#@#.advert_area
 ||kavanga.ru^
 ||kbevcidiiqwa.com^
 ||kdmjvnk.com^
+||kdwsfvwrbrzke.com^
 ||kdxhsaaealyadm.com^
 ||kdyxxkcd.com^
 ||keedaipa.xyz^
@@ -25065,6 +25070,7 @@ browsershots.org#@#.advert_area
 ||matchjunkie.com^
 ||matecatenae.com^
 ||mathssyrupword.com^
+||maticalmasterouh.info^
 ||matreedknifes.com^
 ||mattressstumpcomplement.com^
 ||mauchopt.net^
@@ -25750,6 +25756,7 @@ browsershots.org#@#.advert_area
 ||ocoaksib.com^
 ||ocogmhqo.com^
 ||octanmystes.com^
+||octavdtabacco.top^
 ||octobergypsydeny.com^
 ||octopuspop.com^
 ||ocumknxm.com^
@@ -25778,6 +25785,7 @@ browsershots.org#@#.advert_area
 ||offpaycrinet.life^
 ||offpichuan.com^
 ||offshuppetchan.com^
+||offxkeapbvwe.com^
 ||ofgogoatan.com^
 ||ofhypnoer.com^
 ||ofitstefukste.org^
@@ -29208,6 +29216,7 @@ browsershots.org#@#.advert_area
 ||xtrackme.com^
 ||xueserverhost.com^
 ||xuircnbbidmu.com^
+||xvhgtyvpaav.xyz^
 ||xvpqmcgf.com^
 ||xvuslink.com^
 ||xwcfvvnegv.com^
