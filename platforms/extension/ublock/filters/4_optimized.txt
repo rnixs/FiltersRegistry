@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BEBo3wksyd+IFCwIAIEIJg
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1709519804-3600.patch
+! Checksum: cMR3ntpKj2gIqHjLVuib9g
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1709523378-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.98.1
-! TimeUpdated: 2024-03-01T22:33:11+00:00
+! Version: 2.0.98.2
+! TimeUpdated: 2024-03-04T03:33:08+00:00
 ! Expires: 5 days (update frequency)
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
@@ -1223,6 +1223,7 @@ tagesanzeiger.ch##div[class^="ShareAndComment_buttonscontainer"] > div[class^="S
 hre-net.com###article-sns
 genxy-net.com##.sns_share_btn
 ||cdn.incheonilbo.com/script/share.sns.js
+vogue.co.jp,gq.ru##div[class^="ContentHeaderNativeShareButton-"]
 about.netflix.com##div[class^="social-media-buttonsstyles__"]
 apkmody.io##.thirdSharePhoneBox
 xfolio.jp##.share__wrap

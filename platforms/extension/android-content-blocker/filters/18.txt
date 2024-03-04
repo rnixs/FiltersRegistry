@@ -1,9 +1,9 @@
-! Checksum: wfM9IvAJ20VthmhljwVRPQ
-! Diff-Path: ../patches/18/18-s-1709501767-3600.patch
+! Checksum: n9LOsk2wXnyGD91Pn6EaCg
+! Diff-Path: ../patches/18/18-s-1709523358-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.94
-! TimeUpdated: 2024-03-03T21:32:16+00:00
+! Version: 2.0.34.95
+! TimeUpdated: 2024-03-04T03:32:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2341,6 +2341,7 @@ multiplayer.it,tomshw.it,moto.it#$#html { overflow: auto !important; }
 !
 ! NOTE: Regular rules
 !
+myniacin.com##.nx-popup
 lebiscuit.com.br##div[class*="modalcookie"]
 budni.de#$##tc-privacy-wrapper { display: none !important; }
 budni.de#$##grey-overlay { display: none !important; }
