@@ -1,9 +1,9 @@
-! Checksum: Tn8Rzz/CAKPLqQdPaFctdA
-! Diff-Path: ../patches/1/1-s-1709307379-3600.patch
+! Checksum: atlvgNjZTlLkNdHKXNQ/lw
+! Diff-Path: ../patches/1/1-s-1709552203-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.97
-! TimeUpdated: 2024-03-01T15:32:44+00:00
+! Version: 2.0.88.98
+! TimeUpdated: 2024-03-04T11:32:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -17088,7 +17088,6 @@ rambler.ru##div[class*="xmr"][style^="min-height:"]
 weekend.rambler.ru,auto.rambler.ru,kino.rambler.ru,weather.rambler.ru,doctor.rambler.ru,travel.rambler.ru,sport.rambler.ru,woman.rambler.ru,news.rambler.ru,finance.rambler.ru##div[class*="banner-"]
 weekend.rambler.ru,auto.rambler.ru,kino.rambler.ru,doctor.rambler.ru,travel.rambler.ru,sport.rambler.ru,woman.rambler.ru,news.rambler.ru,finance.rambler.ru##div[style^="order:"][style*="-1"]
 weather.rambler.ru##div[data-block="seo"]
-tv.rambler.ru##div[style^="min-height:"][style*="px"]
 r0.ru##div[class^="News__adv"]
 ! END: rambler.ru
 !
@@ -17246,7 +17245,7 @@ adme.media##div[data-test-id="article-content"] > div[class*=" "]:not([tabindex]
 ! ads in the recommended feed - articles
 !
 ! Start: vc.ru, dtf.ru, spark.ru
-dtf.ru##.propaganda
+dtf.ru,vc.ru##.propaganda
 dtf.ru##.rotator
 dtf.ru##div.subsite-header > div.subsite-header__cover > a.subsite-branding
 dtf.ru##.post-branding-top

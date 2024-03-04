@@ -1,9 +1,9 @@
-! Checksum: sT2TX39cbHGJK80FIj3yCA
-! Diff-Path: ../patches/19/19-s-1709501767-3600.patch
+! Checksum: ku704LL6jlAvS5iQENTyZQ
+! Diff-Path: ../patches/19/19-s-1709552205-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.62
-! TimeUpdated: 2024-03-03T21:32:19+00:00
+! Version: 2.0.32.63
+! TimeUpdated: 2024-03-04T11:32:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4443,7 +4443,8 @@ inc.com#$#.sticky-bar { top: 0px !important; }
 inc.com#$#.announcement { display: none !important; }
 pixlr.com#$#body { overflow: auto !important; }
 theinformation.com##.ti-awareness-bar
-trans.info##.header-infobar_link
+trans.info#$#footer[style^="bottom: 48px;"] { bottom: 0 !important; }
+trans.info#$#footer[style^="bottom: 48px;"] > div[class^="_footer-premium_promo__"]  { bottom: 34px !important; }
 maxima.pt##.nextnews
 forbes.com,surfshark.com##.sticky-cta
 drugs.com###ddc-toast

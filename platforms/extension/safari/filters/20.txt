@@ -1,9 +1,9 @@
-! Checksum: ipMs6mocWDWOTYDMSkjWSg
-! Diff-Path: ../patches/20/20-s-1709501800-3600.patch
+! Checksum: llv5Cbn1JJjC6g5ZZcKcZQ
+! Diff-Path: ../patches/20/20-s-1709552278-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.76
-! TimeUpdated: 2024-03-03T21:32:30+00:00
+! Version: 2.0.12.77
+! TimeUpdated: 2024-03-04T11:32:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -121,6 +121,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161301
 temu.com#?#div[role="main"] div[style] > div[style]:has(> div[style] div[js-selector="mobile-download-ui"])
 !
+happymod.com##.download_button
 recipe-blog.jp##.app-banner
 kayak.*##mobile-app-promo-header
 hellobacsi.com##a[href="https://hellobacsivn.page.link/app"]

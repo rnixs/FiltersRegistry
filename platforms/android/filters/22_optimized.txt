@@ -1,9 +1,9 @@
-! Checksum: 6uhb5PFz3RNZb5aPXzDl4g
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1709519767-3600.patch
+! Checksum: vagBaFbx/V9TjB18lCf8ig
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1709552193-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.45
-! TimeUpdated: 2024-03-01T12:32:55+00:00
+! Version: 2.0.7.46
+! TimeUpdated: 2024-03-04T11:32:52+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -848,6 +848,7 @@ vinmec.com##.global-thread-create-cta
 ||w.chatlio.com/v5/w.chatlio-widget.js
 ||wchat.freshchat.com/js/widget.js
 ||yastatic.net/*/chat/widget.js$domain=next24.ru|goodprice4you.ru
+@@||secure.livechatinc.com/customer/action/open_chat?$domain=kinguin.net
 ||static.elfsight.com^$third-party,domain=cafemarta.ch|trestlebrewing.com|taube-rankweil.at|savearizonafund.com|avproedge.com
 @@||code.jivo.ru/widget/$domain=coffee-tea-bravos.ru
 @@||components.justanswer.com^$domain=justanswer.co.uk|justanswer.es|justanswer.de|justanswer.jp
@@ -1057,6 +1058,7 @@ ukr.net###sinoptik_container
 ##.gsInformer
 /gs_informerClient.min.$third-party
 ||gismeteo.*/getInformer/$third-party
+gigazine.net###donation_wrapper
 montanafreepress.org##.newspack-popup-container:has(a[href^="https://montanafreepress.org/donate?"])
 vsquare.org##.section-blocks div.elements > a[href="https://vsquare.org/support-us/"]
 theportugalnews.com##.donation

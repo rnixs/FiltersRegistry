@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BzaZEzeuxIVZSUzkyklCVg
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1709519801-3600.patch
+! Checksum: 3R5UeR0ov7qNRuBMHzsX3g
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1709552289-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.62
-! TimeUpdated: 2024-03-03T21:32:19+00:00
+! Version: 2.0.32.63
+! TimeUpdated: 2024-03-04T11:32:33+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -2028,7 +2028,8 @@ inc.com#$#.sticky-bar { top: 0px !important; }
 inc.com#$#.announcement { display: none !important; }
 pixlr.com#?#body > div[id^="modal-"]:has(> div.announce > div.content > div#after-content)
 pixlr.com#$#body { overflow: auto !important; }
-trans.info##.header-infobar_link
+trans.info#$#footer[style^="bottom: 48px;"] { bottom: 0 !important; }
+trans.info#$#footer[style^="bottom: 48px;"] > div[class^="_footer-premium_promo__"]  { bottom: 34px !important; }
 maxima.pt##.nextnews
 boyfriendtv.com##+js(addEventListener-defuser, click, interstitial)
 rbc.ru#$?##js_col_left > div.l-sticky:has(> div.g-relative > div.live-tv) { position: static !important; }

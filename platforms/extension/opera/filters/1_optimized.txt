@@ -1,9 +1,9 @@
-! Checksum: oaiPnQ4AGESEFzT56sPpNw
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1709519791-3600.patch
+! Checksum: 421Jfa2Oeq5RlrA5T2KI/A
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1709552261-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.88.97
-! TimeUpdated: 2024-03-01T15:32:44+00:00
+! Version: 2.0.88.98
+! TimeUpdated: 2024-03-04T11:32:43+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -6702,8 +6702,8 @@ weekend.rambler.ru,auto.rambler.ru,kino.rambler.ru,doctor.rambler.ru,travel.ramb
 weekend.rambler.ru,auto.rambler.ru,kino.rambler.ru,doctor.rambler.ru,travel.rambler.ru,sport.rambler.ru,woman.rambler.ru,news.rambler.ru,finance.rambler.ru#$?#script + div[class] > div[class]:has(> div[class^="banner-"]) { min-height: 0 !important; }
 weather.rambler.ru##div[data-block="seo"]
 weather.rambler.ru##.commercial-branding div[class]:has(> div[class] > div > div > div[id^="fabex-"])
-tv.rambler.ru##div[style^="min-height:"][style*="px"]
-tv.rambler.ru##body > div:has(> div[class] > div[id^="lex"])
+tv.rambler.ru#?#div[style^="min-height:"][style*="px"]
+tv.rambler.ru#?#body > div:has(> div[class] > div[id^="lex"])
 r0.ru##div[class^="News__adv"]
 gazeta.ru##.banner ~ div[id]:empty
 gazeta.ru###sticky_timing_wrapper > div.adv_news_240 ~ noindex > div[id] > div.sausage
@@ -6787,7 +6787,7 @@ spcs.reviews,spcs.pro,spcs.news,spac1.info,spcs.social,spac1.org,gdespaces.com,s
 adme.media###root > div > div.g-recaptcha ~ div:not([id]):not([class])
 adme.media##div[data-test-id="article-content"] > div[class*=" "]:not([tabindex]):empty
 adme.media#?#div[data-test-id="article-bottom-recommended"] > div > div > div[style="position:relative"] > div > div:has(div:empty + div:empty + div:empty)
-dtf.ru##.propaganda
+dtf.ru,vc.ru##.propaganda
 dtf.ru#?#.content-list > div[class]:has(> div > div:contains(реклама))
 dtf.ru##.rotator
 dtf.ru#?#.feed-page__content-list > div.content-list > div.content + div[class][style]:has(> a[target="_blank"])
