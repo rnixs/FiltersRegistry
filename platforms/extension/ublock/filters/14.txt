@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: avvr9GOPgKO0Z2xc1EL68A
-! Diff-Path: ../patches/14/14-s-1709580992-3600.patch
+! Checksum: S5jHq69PyngSybiseNHYtQ
+! Diff-Path: ../patches/14/14-s-1709588182-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.68
-! TimeUpdated: 2024-03-04T19:32:16+00:00
+! Version: 2.1.89.69
+! TimeUpdated: 2024-03-04T21:31:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6962,7 +6962,7 @@ remember.de#$##trocookie-cookiebox { display: none !important; }
 remember.de#$#body { overflow: visible !important; padding-right: 0 !important; }
 ||blik.com/assets/ConsentManager/js/cmp.js
 corporate.ccc.eu,modivo.com,medezin.pl,erbud.pl,nomonday.pl,blik.com###cm-overlay
-hagibis.com.br,hidromelphilipmead.com.br##.js-notification-cookie-banner
+urbanbasics.com.br,hagibis.com.br,hidromelphilipmead.com.br##.js-notification-cookie-banner
 royalpets.com.br##.footer__terms
 bikroy.com##div[class^="cookie-consent-container"]
 gamersgate.com#$#body { overflow: visible !important; }

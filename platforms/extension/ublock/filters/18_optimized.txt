@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: k+7yCdRljAVbsl+rgF5ypA
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1709580993-3600.patch
+! Checksum: ivkB0WVKQpRNyWU3WN7frg
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1709588183-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.35.4
-! TimeUpdated: 2024-03-04T19:32:26+00:00
+! Version: 2.0.35.5
+! TimeUpdated: 2024-03-04T21:32:08+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -3782,6 +3782,7 @@ alphabet.com#$#body { padding-top: 0!important; }
 remember.de#$#body { overflow: visible !important; padding-right: 0 !important; }
 ||blik.com/assets/ConsentManager/js/cmp.js
 corporate.ccc.eu,modivo.com,medezin.pl,erbud.pl,nomonday.pl,blik.com###cm-overlay
+urbanbasics.com.br,hagibis.com.br,hidromelphilipmead.com.br##.js-notification-cookie-banner
 gamersgate.com#$#body { overflow: visible !important; }
 gamersgate.com#$#.popup + .wrapper { filter: none !important; }
 adulttime.com##.CookieConsent-Window
