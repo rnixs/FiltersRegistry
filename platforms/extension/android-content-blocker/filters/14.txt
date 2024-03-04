@@ -1,9 +1,9 @@
-! Checksum: U/MgEmGVP/l6e4i5zcW1yA
-! Diff-Path: ../patches/14/14-s-1709570185-3600.patch
+! Checksum: Unme9puoHFxApNv73Hb4ug
+! Diff-Path: ../patches/14/14-s-1709573781-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.65
-! TimeUpdated: 2024-03-04T16:32:17+00:00
+! Version: 2.1.89.66
+! TimeUpdated: 2024-03-04T17:32:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -28268,7 +28268,7 @@ istories.media##div[class^="SocialMediaBanner"]
 ||visme.co/blog/wp-content/themes/blog/js/vismeforms.embed.min.js
 technews.tw##.googlenews_Content
 technews.tw##.newsLetter_articleContent
-webnews.it,tvblog.it##.partial-newsletter
+melablog.it,webnews.it,tvblog.it##.partial-newsletter
 edealinfo.com###main-telegram-alert
 edealinfo.com###main-whatsapp-alert
 edealinfo.com###main-telegram-alert

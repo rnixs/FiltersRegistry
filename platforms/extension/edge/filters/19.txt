@@ -1,9 +1,9 @@
-! Checksum: NuZswuo/3jKSplphry+HFQ
-! Diff-Path: ../patches/19/19-s-1709570197-3600.patch
+! Checksum: jDd1iG5fGcyJFD5EUcV/+A
+! Diff-Path: ../patches/19/19-s-1709573791-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.67
-! TimeUpdated: 2024-03-04T16:32:30+00:00
+! Version: 2.0.32.68
+! TimeUpdated: 2024-03-04T17:32:24+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12323,7 +12323,7 @@ istories.media##div[class^="SocialMediaBanner"]
 ||visme.co/blog/wp-content/themes/blog/js/vismeforms.embed.min.js
 technews.tw##.googlenews_Content
 technews.tw##.newsLetter_articleContent
-webnews.it,tvblog.it##.partial-newsletter
+melablog.it,webnews.it,tvblog.it##.partial-newsletter
 edealinfo.com###main-telegram-alert
 edealinfo.com###main-whatsapp-alert
 edealinfo.com###main-telegram-alert

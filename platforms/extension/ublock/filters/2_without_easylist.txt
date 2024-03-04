@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: KSWcdhE/ZprxEdKDoqgwqg
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709570224-3600.patch
+! Checksum: d9RDrAgbHcSA9GiLpQ4Oig
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709573811-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.25.15
-! TimeUpdated: 2024-03-04T16:33:15+00:00
+! Version: 2.3.25.16
+! TimeUpdated: 2024-03-04T17:33:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -50101,6 +50101,7 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174071
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173478
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=purepeople.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=purepeople.com
@@ -54166,6 +54167,7 @@ implbits.com#@#.banner_container
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174074
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173995
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173999
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170006
