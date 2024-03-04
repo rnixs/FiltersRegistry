@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 10abuYQ1NfVUQcj7lJIYSQ
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1709552288-3600.patch
+! Checksum: KAyMgWbGcS4jROdYJGiwfA
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1709555807-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.98
-! TimeUpdated: 2024-03-04T11:32:30+00:00
+! Version: 2.0.34.99
+! TimeUpdated: 2024-03-04T12:32:16+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -2581,7 +2581,8 @@ grafana.com##.consent-footer
 bb.com.br##bb-cookies-wc
 lego.com#?#body > div[data-focus-lock-disabled="false"]:has(> div div[data-test="cookie-modal-content"])
 milenio.com###camus-cookie-disclaimer
-postbank.de#$##usercentrics-root { display: none !important; }
+aldi.pl#$#html > body:not(#style_important) { overflow-y: auto !important; }
+aldi.pl,postbank.de#$##usercentrics-root { display: none !important; }
 postbank.de#$#body.overflowHidden { overflow: auto !important; }
 nembus.ru#$#.modal-cookies { display: none !important; }
 nembus.ru#$#.modals__overlay { display: none !important; }
@@ -3460,7 +3461,7 @@ sozialversicherung-kompetent.de#$#body { filter: none !important; pointer-events
 yasensvit.ua,informator.ua##.coockies
 ancestry.com###BannerRegion
 blockchain.com##body div[class^="TrackingProvider__Banner"]
-appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
+sbertech.ru,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 otelo.de#$?#div[data-reactroot] > div > div.Lightbox:has(p.TextHeadline:contains(/^Cookies/)) { display: none!important; }
 otelo.de#$#body { overflow: visible!important; }
 fb.ru##.cookie-notify__wrapper
@@ -6501,7 +6502,7 @@ withings.com##+js(set-cookie, withings_cookieconsent_dismissed, 1)
 withings.com##+js(set-cookie, cookieconsent_statistics, false)
 withings.com##+js(set-cookie, cookieconsent_advertising, false)
 withings.com##+js(set-cookie, cookieconsent_social, false)
-thehacker.recipes,support.threads.com,docs.fluentbit.io,book.hacktricks.xyz,docs.ibracorp.io,docs.readyplayer.me,wiki.provenance-emu.com,docs.expandrive.com,docs.paperspace.com,help.senler.ru,gitbook.com,gitbook.io##+js(set-cookie, __gitbook_cookie_granted, no)
+docs.bird.com,thehacker.recipes,support.threads.com,docs.fluentbit.io,book.hacktricks.xyz,docs.ibracorp.io,docs.readyplayer.me,wiki.provenance-emu.com,docs.expandrive.com,docs.paperspace.com,help.senler.ru,gitbook.com,gitbook.io##+js(set-cookie, __gitbook_cookie_granted, no)
 sevdesk.at,sevdesk.de##+js(set-cookie, userConsent, false)
 romshub.com##+js(abort-current-script, $, #kuk)
 terminix.com##+js(set-cookie, cookieconsent, true)

@@ -1,9 +1,9 @@
-! Checksum: AinU6GypQyzDWan0y7QCjw
-! Diff-Path: ../patches/4/4-s-1709552229-3600.patch
+! Checksum: GGSy+y9MASJgiPBV2EjEMA
+! Diff-Path: ../patches/4/4-s-1709555781-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.98.3
-! TimeUpdated: 2024-03-04T11:33:31+00:00
+! Version: 2.0.98.4
+! TimeUpdated: 2024-03-04T12:33:17+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -8389,7 +8389,7 @@ handelsblatt.com##.vhb-share-social > a[title*="teilen"]
 tiscali.it##.meetic-box
 otvet.mail.ru##.action--share
 otvet.mail.ru##.actions--social
-the-miyanichi.co.jp,archive.org,dailyportalz.jp,otakomu.jp##.social_button
+tegevajaro.com,the-miyanichi.co.jp,archive.org,dailyportalz.jp,otakomu.jp##.social_button
 treetix.com,rappler.com##.share-button-container
 japan.cnet.com##.social-item > li.icon-hatebu
 japan.cnet.com##.social-item > li.icon-pocket

@@ -1,9 +1,9 @@
-! Checksum: ku704LL6jlAvS5iQENTyZQ
-! Diff-Path: ../patches/19/19-s-1709552205-3600.patch
+! Checksum: e5p77Q+RvePOlop/dBymgg
+! Diff-Path: ../patches/19/19-s-1709555773-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.63
-! TimeUpdated: 2024-03-04T11:32:33+00:00
+! Version: 2.0.32.64
+! TimeUpdated: 2024-03-04T12:32:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7273,7 +7273,7 @@ mojanorwegia.pl#$#.newLayerOuter { display: none !important; }
 mojanorwegia.pl#$#.modMnNewLayerBack { display: none !important; }
 mojanorwegia.pl#$#.filter-blur { filter: none !important; }
 mojanorwegia.pl#$#body { overflow: visible !important; }
-vanityfair.com##.persistent-bottom
+vogue.co.uk,vanityfair.com##.persistent-bottom
 fastbikesmag.com#$#.hustle-popup { display: none !important; }
 zuketcreation.net##.ccw_plugin.chatbot
 ||infomercado.pe/wp-content/plugins/wordpress-popup/assets/hustle-ui/js/hustle-ui.min.js

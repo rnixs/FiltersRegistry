@@ -1,9 +1,9 @@
-! Checksum: loZuKVBCz416/yQ8PiXB0A
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1709552205-3600.patch
+! Checksum: NtV1XHcJS3IvXkFeBb3bwQ
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1709555773-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.98
-! TimeUpdated: 2024-03-04T11:32:30+00:00
+! Version: 2.0.34.99
+! TimeUpdated: 2024-03-04T12:32:16+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -2402,7 +2402,8 @@ flocktory.com##.base-cookie
 grafana.com##.consent-footer
 bb.com.br##bb-cookies-wc
 milenio.com###camus-cookie-disclaimer
-postbank.de#$##usercentrics-root { display: none !important; }
+aldi.pl#$#html > body:not(#style_important) { overflow-y: auto !important; }
+aldi.pl,postbank.de#$##usercentrics-root { display: none !important; }
 postbank.de#$#body.overflowHidden { overflow: auto !important; }
 nembus.ru#$#.modal-cookies { display: none !important; }
 nembus.ru#$#.modals__overlay { display: none !important; }
@@ -3236,7 +3237,7 @@ sozialversicherung-kompetent.de#$#body { filter: none !important; pointer-events
 yasensvit.ua,informator.ua##.coockies
 ancestry.com###BannerRegion
 blockchain.com##body div[class^="TrackingProvider__Banner"]
-appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
+sbertech.ru,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 otelo.de#$#body { overflow: visible!important; }
 fb.ru##.cookie-notify__wrapper
 stickypassword.com#$##StickieCookies { display: none!important; }

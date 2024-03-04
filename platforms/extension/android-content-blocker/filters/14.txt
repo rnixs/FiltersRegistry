@@ -1,9 +1,9 @@
-! Checksum: sxJp/EzUSgxWem1haxh9Ww
-! Diff-Path: ../patches/14/14-s-1709552203-3600.patch
+! Checksum: XPwYWESiQNMqMdjc6nry/Q
+! Diff-Path: ../patches/14/14-s-1709555771-3600.patch
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.60
-! TimeUpdated: 2024-03-04T11:32:20+00:00
+! Version: 2.1.89.61
+! TimeUpdated: 2024-03-04T12:32:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4294,7 +4294,8 @@ grafana.com##.consent-footer
 bb.com.br##bb-cookies-wc
 spb-guide.ru##.snowdiv-modal
 milenio.com###camus-cookie-disclaimer
-postbank.de#$##usercentrics-root { display: none !important; }
+aldi.pl#$#html > body:not(#style_important) { overflow-y: auto !important; }
+aldi.pl,postbank.de#$##usercentrics-root { display: none !important; }
 postbank.de#$#body.overflowHidden { overflow: auto !important; }
 nembus.ru#$#.modal-cookies { display: none !important; }
 nembus.ru#$#.modals__overlay { display: none !important; }
@@ -5965,7 +5966,7 @@ quixel.com##.css-wzviqn
 zutobi.com##div[class^="ModalCookiestyled"]
 blockchain.com##body div[class^="TrackingProvider__Banner"]
 whatsonstage.com##div[class^="Cookie__CookieBannerContainer-"]
-appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
+sbertech.ru,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 steller.co##div[class^="Disclaimer_"]
 otelo.de#$#body { overflow: visible!important; }
 fb.ru##.cookie-notify__wrapper
@@ -24114,7 +24115,7 @@ mojanorwegia.pl#$#.newLayerOuter { display: none !important; }
 mojanorwegia.pl#$#.modMnNewLayerBack { display: none !important; }
 mojanorwegia.pl#$#.filter-blur { filter: none !important; }
 mojanorwegia.pl#$#body { overflow: visible !important; }
-vanityfair.com##.persistent-bottom
+vogue.co.uk,vanityfair.com##.persistent-bottom
 fastbikesmag.com#$#.hustle-popup { display: none !important; }
 zuketcreation.net##.ccw_plugin.chatbot
 ||infomercado.pe/wp-content/plugins/wordpress-popup/assets/hustle-ui/js/hustle-ui.min.js

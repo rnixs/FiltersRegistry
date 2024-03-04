@@ -1,9 +1,9 @@
-! Checksum: WPFFKAcDhj1QLrD5McYqbA
-! Diff-Path: ../patches/18/18-s-1709552204-3600.patch
+! Checksum: zig2+2JEBjQIQFca6l7SCQ
+! Diff-Path: ../patches/18/18-s-1709555772-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.34.98
-! TimeUpdated: 2024-03-04T11:32:30+00:00
+! Version: 2.0.34.99
+! TimeUpdated: 2024-03-04T12:32:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4294,7 +4294,8 @@ grafana.com##.consent-footer
 bb.com.br##bb-cookies-wc
 spb-guide.ru##.snowdiv-modal
 milenio.com###camus-cookie-disclaimer
-postbank.de#$##usercentrics-root { display: none !important; }
+aldi.pl#$#html > body:not(#style_important) { overflow-y: auto !important; }
+aldi.pl,postbank.de#$##usercentrics-root { display: none !important; }
 postbank.de#$#body.overflowHidden { overflow: auto !important; }
 nembus.ru#$#.modal-cookies { display: none !important; }
 nembus.ru#$#.modals__overlay { display: none !important; }
@@ -5965,7 +5966,7 @@ quixel.com##.css-wzviqn
 zutobi.com##div[class^="ModalCookiestyled"]
 blockchain.com##body div[class^="TrackingProvider__Banner"]
 whatsonstage.com##div[class^="Cookie__CookieBannerContainer-"]
-appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
+sbertech.ru,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 steller.co##div[class^="Disclaimer_"]
 otelo.de#$#body { overflow: visible!important; }
 fb.ru##.cookie-notify__wrapper

@@ -1,9 +1,9 @@
-! Checksum: n3Gcu1oa920OgRAUeNZxKQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1709552275-3600.patch
+! Checksum: ydkw0Xm1wEqiK40gqLTGYg
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1709555800-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.60
-! TimeUpdated: 2024-03-04T11:32:20+00:00
+! Version: 2.1.89.61
+! TimeUpdated: 2024-03-04T12:32:06+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -2902,7 +2902,8 @@ grafana.com##.consent-footer
 bb.com.br##bb-cookies-wc
 lego.com#?#body > div[data-focus-lock-disabled="false"]:has(> div div[data-test="cookie-modal-content"])
 milenio.com###camus-cookie-disclaimer
-postbank.de#$##usercentrics-root { display: none !important; }
+aldi.pl#$#html > body:not(#style_important) { overflow-y: auto !important; }
+aldi.pl,postbank.de#$##usercentrics-root { display: none !important; }
 postbank.de#$#body.overflowHidden { overflow: auto !important; }
 nembus.ru#$#.modal-cookies { display: none !important; }
 nembus.ru#$#.modals__overlay { display: none !important; }
@@ -3798,7 +3799,7 @@ sozialversicherung-kompetent.de#$#body { filter: none !important; pointer-events
 yasensvit.ua,informator.ua##.coockies
 ancestry.com###BannerRegion
 blockchain.com##body div[class^="TrackingProvider__Banner"]
-appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
+sbertech.ru,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 otelo.de#$?#div[data-reactroot] > div > div.Lightbox:has(p.TextHeadline:contains(/^Cookies/)) { display: none!important; }
 otelo.de#$#body { overflow: visible!important; }
 fb.ru##.cookie-notify__wrapper
@@ -7074,7 +7075,7 @@ withings.com#%#//scriptlet('set-cookie', 'withings_cookieconsent_dismissed', '1'
 withings.com#%#//scriptlet('set-cookie', 'cookieconsent_statistics', 'false')
 withings.com#%#//scriptlet('set-cookie', 'cookieconsent_advertising', 'false')
 withings.com#%#//scriptlet('set-cookie', 'cookieconsent_social', 'false')
-thehacker.recipes,support.threads.com,docs.fluentbit.io,book.hacktricks.xyz,docs.ibracorp.io,docs.readyplayer.me,wiki.provenance-emu.com,docs.expandrive.com,docs.paperspace.com,help.senler.ru,gitbook.com,gitbook.io#%#//scriptlet('set-cookie', '__gitbook_cookie_granted', 'no')
+docs.bird.com,thehacker.recipes,support.threads.com,docs.fluentbit.io,book.hacktricks.xyz,docs.ibracorp.io,docs.readyplayer.me,wiki.provenance-emu.com,docs.expandrive.com,docs.paperspace.com,help.senler.ru,gitbook.com,gitbook.io#%#//scriptlet('set-cookie', '__gitbook_cookie_granted', 'no')
 sevdesk.at,sevdesk.de#%#//scriptlet('set-cookie', 'userConsent', 'false')
 romshub.com#%#//scriptlet("abort-current-inline-script", "$", "#kuk")
 uusisuomi.fi#%#//scriptlet('trusted-click-element', '#almacmp-modalConfirmBtn')
@@ -10823,6 +10824,7 @@ api.flocktory.com
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+laftel.net#?#div[class*=" "] > video ~ div:not([class]) > div[style] > div:contains(광고없이 고화질로 끊김없이 감상해보세요!)
 mashnews.ru#$#.fancybox__container { display: none !important; }
 mashnews.ru#$#.with-fancybox { overflow: auto !important; }
 comet.it#$#.custombox-open { display: none !important; }
@@ -12973,7 +12975,7 @@ christianpost.com##iframe[src^="/newsletter/"]
 glavkniga.ru##.popup_banner_area
 rent.591.com.tw##.accreditPop
 mojanorwegia.pl#$#body { overflow: visible !important; }
-vanityfair.com##.persistent-bottom
+vogue.co.uk,vanityfair.com##.persistent-bottom
 fastbikesmag.com#%#//scriptlet('remove-class', 'hustle-no-scroll', 'html')
 fratelliguzzini.com#$#body { overflow: auto !important; }
 fratelliguzzini.com#$#.newletterModal { display: none !important; }

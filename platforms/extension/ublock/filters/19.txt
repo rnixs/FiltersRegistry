@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZRuSeq3Gzo+XrOF7Pd7Ziw
-! Diff-Path: ../patches/19/19-s-1709552289-3600.patch
+! Checksum: PdSI6ufIvkUs+uH4L+XT8w
+! Diff-Path: ../patches/19/19-s-1709555807-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.63
-! TimeUpdated: 2024-03-04T11:32:33+00:00
+! Version: 2.0.32.64
+! TimeUpdated: 2024-03-04T12:32:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4041,6 +4041,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+laftel.net#?#div[class*=" "] > video ~ div:not([class]) > div[style] > div:contains(광고없이 고화질로 끊김없이 감상해보세요!)
 mashnews.ru#$#.fancybox__container { display: none !important; }
 mashnews.ru#$#.with-fancybox { overflow: auto !important; }
 comet.it#$#.custombox-open { display: none !important; }
@@ -7868,7 +7869,7 @@ mojanorwegia.pl#$#.newLayerOuter { display: none !important; }
 mojanorwegia.pl#$#.modMnNewLayerBack { display: none !important; }
 mojanorwegia.pl#$#.filter-blur { filter: none !important; }
 mojanorwegia.pl#$#body { overflow: visible !important; }
-vanityfair.com##.persistent-bottom
+vogue.co.uk,vanityfair.com##.persistent-bottom
 fastbikesmag.com#$#.hustle-popup { display: none !important; }
 fastbikesmag.com##+js(remove-class, hustle-no-scroll, html)
 zuketcreation.net##.ccw_plugin.chatbot
