@@ -1,10 +1,12 @@
-! Checksum: RVlzPcjDreVxQ8CLCY0k5Q
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709559398-3600.patch
+! Checksum: EWtp8DalHmRejUYhY48IOw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709562993-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.25.12
-! TimeUpdated: 2024-03-04T13:33:22+00:00
+! Version: 2.3.25.13
+! TimeUpdated: 2024-03-04T14:33:04+00:00
 ! Expires: 5 days (update frequency)
+||servetag.com^
+||madurird.com^
 ||vhsugcbelruygy.com^
 ||tauphaub.net^
 ||koophaip.net^
@@ -34804,6 +34806,7 @@ motortrend.com##.GR_6-
 metservice.com##.Header
 sporcle.com##.IMGgi
 wayfair.com##.MediaNativePlacement-wrapper-link
+boardgameoracle.com##.MuiContainer-root > .jss232
 quora.com##.PageContentsLayout___StyledBox-d2uxks-0 > .q-box > .q-sticky > .qu-pb--medium
 thekitchn.com##.Post__inPostVideoAdDesktop
 stocktwits.com##.Primis_container__KwtjV

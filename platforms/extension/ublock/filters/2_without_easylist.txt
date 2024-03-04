@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 7TExKx8h0MB1vB2vZHXEQw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709559429-3600.patch
+! Checksum: UQtrTzDd0yh4GW7H7emeCw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709563034-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.25.12
-! TimeUpdated: 2024-03-04T13:33:22+00:00
+! Version: 2.3.25.13
+! TimeUpdated: 2024-03-04T14:33:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -78,6 +78,11 @@
 !
 !
 !
+||randomadsrv.com^$all
+||crmentjg.com^$all
+||crmtt.livejasmin.com^$all
+||servetag.com^
+||madurird.com^
 ||vhsugcbelruygy.com^
 ||tauphaub.net^
 ||koophaip.net^
@@ -26971,6 +26976,8 @@ kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekic
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174065
+bestmp3converter.org##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173888
 embedz.click##+js(window.open-defuser)
 embedz.click##+js(abort-on-property-write, _didpop)
