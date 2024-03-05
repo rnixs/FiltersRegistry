@@ -1,9 +1,9 @@
-! Checksum: vsenTCzu8+XL5p6ZhoR83g
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1709600818-14400.patch
+! Checksum: NHGZ3uduSsCI+5V3sRyr5Q
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1709658431-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.30.26
-! TimeUpdated: 2024-03-05T01:03:11+00:00
+! Version: 2.1.30.27
+! TimeUpdated: 2024-03-05T17:03:10+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -18560,6 +18560,7 @@
 ||jacquelinewilson.co.uk/style/cookies.css$stylesheet
 ||jimmychoo.com^*/first-time-visitor-
 ||jobsite.co.uk/viewlets/consent/
+||js.shiksha.ws/pwa/public/js/GDPRCookieBannerWrapper.
 ||jzzo.com/jss/cp01.js
 ||kayak.*/privacy/
 ||kotaku.com/wrapper/*/gdpr/$xmlhttprequest,domain=kotaku.com
@@ -22361,6 +22362,7 @@ bizkaia.eus#%#//scriptlet('ubo-set-cookie.js', 'pc_tecnicas_bizkaia', 'true')
 sinparty.com#%#//scriptlet('ubo-set-cookie.js', 'gdrp_popup_showed', '1')
 deltatre.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preferences-technical', 'yes')
 mantel.com#%#//scriptlet('ubo-set-cookie.js', 'tracking_cookie', '1')
+armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preference', '1')
 armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent_group_technical', '1')
 armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preference_renew10', '1')
 e-dojus.lv#%#//scriptlet('ubo-set-cookie.js', 'pc234978122321234', '1')
@@ -22517,6 +22519,7 @@ textshuttle.com#%#//scriptlet('ubo-set-local-storage-item.js', 'textshuttle_cook
 simpleswap.io#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies-notification-message-is-hidden', 'true')
 cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasConsent', '1')
 cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasDsg', '1')
+wales.nhs.attendanywhere.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieBanner', 'false')
 astondevs.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'banner', 'true')
 comnet.com.tr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieConsent', 'true')
 geomiq.com#%#//scriptlet('ubo-set-local-storage-item.js', 'gtag_enabled', '1')

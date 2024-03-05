@@ -1,9 +1,9 @@
-! Checksum: HKdnzqSe/m5CDcPBhK2Adw
-! Diff-Path: ../patches/120_optimized/120_optimized-s-1709572021-14400.patch
+! Checksum: ffLVDzRCM8ynF8atxF3mtw
+! Diff-Path: ../patches/120_optimized/120_optimized-s-1709658395-14400.patch
 ! Title: AdBlockID (Optimized)
 ! Description: Additional filter list for websites in Indonesian.
-! Version: 2.0.19.47
-! TimeUpdated: 2024-03-04T17:02:34+00:00
+! Version: 2.0.19.48
+! TimeUpdated: 2024-03-05T17:02:12+00:00
 ! Expires: 5 days (update frequency)
 .id^*/bnr/$domain=~kalbarprov.go.id
 /iklan/*$image,domain=~jualrumahjakarta.com|~jualsewakios.com|~jualsewaruko.com|~kostjakarta.com|~pusatiklan.co.id|~sewa-apartemen.net|~sewa-rumah.net|~sewa-villa.com|~situsproperti.com|~tempat-usaha.com
@@ -1993,6 +1993,8 @@ industry.co.id###skinAds
 harianmerdeka.id###slotbanner
 amartha.com###sticky-banner
 tirto.id###sticky-bottom
+kapanlagi.com###v5-marcommpromotion
+kapanlagi.com###v5-marcommpromotion2
 ewarta.co###views-bootstrap-promotion-block-1
 wahananews.co###wahanaHeroAds
 kotakgame.com###wrap_banner_btm_pop

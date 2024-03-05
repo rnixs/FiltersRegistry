@@ -1,15 +1,15 @@
-! Checksum: obrW4ZYdXURePWnZr5pPeA
-! Diff-Path: ../patches/122/122-s-1709600831-14400.patch
+! Checksum: bW2BQZMg3v5cZZoM6fn9pA
+! Diff-Path: ../patches/122/122-s-1709658447-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.24
-! TimeUpdated: 2024-03-05T01:02:25+00:00
+! Version: 2.1.22.25
+! TimeUpdated: 2024-03-05T17:02:23+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: fSU0XGTBQYOEuOdWwPypqQ
-! OriginalVersion: 202403042340
+! Checksum: A4ZVHK1b+kBG4+dd+KlkVA
+! OriginalVersion: 202403051640
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-03-04 23:40 UTC
+! Last modified: 2024-03-05 16:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34865,6 +34865,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||jacquelinewilson.co.uk/style/cookies.css$stylesheet
 ||jimmychoo.com^*/first-time-visitor-
 ||jobsite.co.uk/viewlets/consent/
+||js.shiksha.ws/pwa/public/js/GDPRCookieBannerWrapper.
 ||jzzo.com/jss/cp01.js
 ||kayak.*/privacy/
 ||kotaku.com/wrapper/*/gdpr/$xmlhttprequest,domain=kotaku.com
@@ -35622,6 +35623,7 @@ techcrunch.com##.homepage__event-promo
 betootaadvocate.com##.hustle-slidein-content
 miaminewtimes.com##.ia-support
 insideclimatenews.org##.icn-donate-block
+tabler.io##.icon-banner
 informationisbeautiful.net##.iib-banner-link
 informationisbeautiful.net##.iib-page-promo
 metservice.com##.img-responsive-container
@@ -40192,6 +40194,7 @@ santatracker.google.com##SANTA-NOTICE
 trustnet.com##USER-TYPE-POPUP
 dollarshaveclub.com##[aria-describedby="banner-description"]
 lemonade.com##[aria-describedby="cookie-consent-description"]
+ticketmaster.com##[aria-describedby="mobileMobileTOUMessage"]
 1password.com##[aria-label="Cookie Consent"]
 perlego.com##[aria-label="cookie banner"]
 norwegianholidays.com##[aria-label="cookieconsent"]
@@ -42066,6 +42069,7 @@ bizkaia.eus#%#//scriptlet('ubo-set-cookie.js', 'pc_tecnicas_bizkaia', 'true')
 sinparty.com#%#//scriptlet('ubo-set-cookie.js', 'gdrp_popup_showed', '1')
 deltatre.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preferences-technical', 'yes')
 mantel.com#%#//scriptlet('ubo-set-cookie.js', 'tracking_cookie', '1')
+armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preference', '1')
 armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent_group_technical', '1')
 armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preference_renew10', '1')
 e-dojus.lv#%#//scriptlet('ubo-set-cookie.js', 'pc234978122321234', '1')
@@ -42119,9 +42123,13 @@ store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_POLICY_ACCEPTE
 store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_POLICY_VIEWED', 'true')
 store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_VID_OPTOUT', 'false')
 store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_VIDEO_OPTOUT', 'false')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_VIEWED', '1')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_LOADED', '1')
 ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_LOADED', '1')
 ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_VIEWED', '1')
 ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Functional', '1')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Marketing', '0')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Analytics', '0')
 cineman.pl,tv-trwam.pl#%#//scriptlet('ubo-set-cookie.js', 'ARE_FUNCTIONAL_COOKIES_ACCEPTED', 'true')
 cineman.pl,tv-trwam.pl#%#//scriptlet('ubo-set-cookie.js', 'ARE_MARKETING_COOKIES_ACCEPTED', 'true')
 cineman.pl,tv-trwam.pl#%#//scriptlet('ubo-set-cookie.js', 'ARE_REQUIRED_COOKIES_ACCEPTED', 'true')
@@ -42228,6 +42236,7 @@ textshuttle.com#%#//scriptlet('ubo-set-local-storage-item.js', 'textshuttle_cook
 simpleswap.io#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies-notification-message-is-hidden', 'true')
 cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasConsent', '1')
 cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasDsg', '1')
+wales.nhs.attendanywhere.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieBanner', 'false')
 astondevs.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'banner', 'true')
 comnet.com.tr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieConsent', 'true')
 geomiq.com#%#//scriptlet('ubo-set-local-storage-item.js', 'gtag_enabled', '1')
@@ -48968,6 +48977,7 @@ bizkaia.eus#%#//scriptlet('ubo-set-cookie.js', 'pc_tecnicas_bizkaia', 'true')
 sinparty.com#%#//scriptlet('ubo-set-cookie.js', 'gdrp_popup_showed', '1')
 deltatre.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preferences-technical', 'yes')
 mantel.com#%#//scriptlet('ubo-set-cookie.js', 'tracking_cookie', '1')
+armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preference', '1')
 armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie_consent_group_technical', '1')
 armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preference_renew10', '1')
 e-dojus.lv#%#//scriptlet('ubo-set-cookie.js', 'pc234978122321234', '1')
@@ -49021,9 +49031,13 @@ store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_POLICY_ACCEPTE
 store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_POLICY_VIEWED', 'true')
 store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_VID_OPTOUT', 'false')
 store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_VIDEO_OPTOUT', 'false')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_VIEWED', '1')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_LOADED', '1')
 ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_LOADED', '1')
 ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_VIEWED', '1')
 ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Functional', '1')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Marketing', '0')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Analytics', '0')
 cineman.pl,tv-trwam.pl#%#//scriptlet('ubo-set-cookie.js', 'ARE_FUNCTIONAL_COOKIES_ACCEPTED', 'true')
 cineman.pl,tv-trwam.pl#%#//scriptlet('ubo-set-cookie.js', 'ARE_MARKETING_COOKIES_ACCEPTED', 'true')
 cineman.pl,tv-trwam.pl#%#//scriptlet('ubo-set-cookie.js', 'ARE_REQUIRED_COOKIES_ACCEPTED', 'true')
@@ -49130,6 +49144,7 @@ textshuttle.com#%#//scriptlet('ubo-set-local-storage-item.js', 'textshuttle_cook
 simpleswap.io#%#//scriptlet('ubo-set-local-storage-item.js', 'cookies-notification-message-is-hidden', 'true')
 cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasConsent', '1')
 cachecrawler.com#%#//scriptlet('ubo-set-session-storage-item.js', 'hasDsg', '1')
+wales.nhs.attendanywhere.com#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieBanner', 'false')
 astondevs.ru#%#//scriptlet('ubo-set-local-storage-item.js', 'banner', 'true')
 comnet.com.tr#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieConsent', 'true')
 geomiq.com#%#//scriptlet('ubo-set-local-storage-item.js', 'gtag_enabled', '1')
