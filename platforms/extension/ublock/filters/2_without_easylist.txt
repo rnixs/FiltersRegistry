@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 4iMLUzTopBzc6ycVpKMukA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709645819-3600.patch
+! Checksum: Sgcb8QOZ5Y4SxpJkBDsdng
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709649418-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.25.29
-! TimeUpdated: 2024-03-05T13:33:13+00:00
+! Version: 2.3.25.30
+! TimeUpdated: 2024-03-05T14:33:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -50841,7 +50841,6 @@ tomshardware.com#@#.sponsored-article
 ||uptodatefinishconferenceroom.com^$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174096
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118378
-||sharonwhiledemocratic.com^$badfilter
 ||321naturelikefurfuroid.com^$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118188
 !+ NOT_PLATFORM(windows, mac, android, ext_chromium)

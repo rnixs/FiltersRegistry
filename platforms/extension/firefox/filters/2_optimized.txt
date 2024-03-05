@@ -1,9 +1,9 @@
-! Checksum: zhmxlg0mvDfDgXhNpmNpQA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709645800-3600.patch
+! Checksum: lqsdi1J4z3yXdWHk7u+LMQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709649403-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.25.29
-! TimeUpdated: 2024-03-05T13:33:13+00:00
+! Version: 2.3.25.30
+! TimeUpdated: 2024-03-05T14:33:12+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -14175,7 +14175,6 @@ tomshardware.com#@#.sponsored-article
 ||sizyreelingly.com^$badfilter
 ||realfinanceblogcenter.com^$badfilter
 ||uptodatefinishconferenceroom.com^$badfilter
-||sharonwhiledemocratic.com^$badfilter
 ||321naturelikefurfuroid.com^$badfilter
 !+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||i.cdn.turner.com/ads/adfuel/*/nba-teams-ais.min.js$domain=nba.com
@@ -21661,6 +21660,7 @@ browsershots.org#@#.advert_area
 ||army.delivery^
 ||armypresentlyproblem.com^
 ||arnditluplfa.com^
+||arointitacism.com^
 ||aromatic-possibility.pro^
 ||aroundpayslips.com^
 ||arragouts.com^
@@ -21700,6 +21700,7 @@ browsershots.org#@#.advert_area
 ||asidefeetsergeant.com^
 ||askdomainad.com^
 ||askprivate.com^
+||aslantrhabdom.com^
 ||asleavannychan.com^
 ||aslnk.link^
 ||asnincadar.com^
@@ -21987,6 +21988,7 @@ browsershots.org#@#.advert_area
 ||beloveupcreep.com^
 ||beludicolor.com^
 ||bemadsonline.com^
+||bembabewhore.com^
 ||bemedichamchan.com^
 ||bemobpath.com^
 ||bemobtrcks.com^
@@ -22244,6 +22246,7 @@ browsershots.org#@#.advert_area
 ||boxofficehelping.com^
 ||boxofwhisper.com^
 ||boycottcandle.com^
+||boyunakylie.com^
 ||bpjgiwzzmgjp.com^
 ||bpmvkvb.com^
 ||bpnygytgjt.com^
@@ -23009,6 +23012,7 @@ browsershots.org#@#.advert_area
 ||cuplikenominee.com^
 ||cupoabie.net^
 ||curledbuffet.com^
+||curlingtyphon.com^
 ||curnberthed.com^
 ||currantsummary.com^
 ||curriculture.com^
@@ -23188,6 +23192,7 @@ browsershots.org#@#.advert_area
 ||desekansr.com^
 ||desgolurkom.com^
 ||deshourty.com^
+||designerdeclinedfrail.com^
 ||desireddelayaspirin.com^
 ||desiregig.com^
 ||despanpouran.com^
@@ -24947,6 +24952,7 @@ browsershots.org#@#.advert_area
 ||illinformednative.com^
 ||illishrastus.com^
 ||illiticguiding.com^
+||illocalvetoes.com^
 ||iloacmoam.com^
 ||iloptrex.com^
 ||ilvpbrvrpzrys.com^
@@ -25339,6 +25345,7 @@ browsershots.org#@#.advert_area
 ||junmediadirect.com^
 ||junmediadirect1.com^
 ||juntfemoral.com^
+||juslsp.info^
 ||juslxp.com^
 ||just-news.pro^
 ||justey.com^
@@ -25680,6 +25687,7 @@ browsershots.org#@#.advert_area
 ||lingerdisquietcute.com^
 ||lingerincle.com^
 ||lingrethertantin.com^
+||linhacitoyen.com^
 ||linkedprepenseprepense.com^
 ||linkexchange.com^
 ||linkmanglazers.com^
@@ -25760,6 +25768,7 @@ browsershots.org#@#.advert_area
 ||loosishunproud.top^
 ||lootynews.com^
 ||looverfamose.top^
+||lopslascars.com^
 ||lorybnfh.com^
 ||lossactivity.com^
 ||lostinfuture.com^
@@ -25933,6 +25942,7 @@ browsershots.org#@#.advert_area
 ||matchjunkie.com^
 ||matecatenae.com^
 ||maternityiticy.com^
+||mathematicalma.info^
 ||mathssyrupword.com^
 ||maticalmasterouh.info^
 ||matreedknifes.com^
@@ -26027,6 +26037,7 @@ browsershots.org#@#.advert_area
 ||mghkpg.com^
 ||mgjgqztw.com^
 ||mglfhedrib.com^
+||mglvfetiub.com^
 ||mgxacxiua.com^
 ||mgxxuqp.com^
 ||mgyccfrshz.com^
@@ -26295,6 +26306,7 @@ browsershots.org#@#.advert_area
 ||mythings.com^
 ||mywondertrip.com^
 ||mznbrazfty.com^
+||mzodalowsh.com^
 ||mzotuklkorr.com^
 ||n0gge40o.de^
 ||n0v1cdn.com^
@@ -28396,6 +28408,7 @@ browsershots.org#@#.advert_area
 ||sierrasectormacaroni.com^
 ||sifenews.com^
 ||sightsskinnyintensive.com^
+||sightyiambs.com^
 ||signalsuedejolly.com^
 ||silebu.xyz^
 ||silentinevitable.com^
@@ -29135,6 +29148,7 @@ browsershots.org#@#.advert_area
 ||towerslady.com^
 ||toxaminbowtell.com^
 ||toxemiaslier.com^
+||toxonetwigger.com^
 ||toxtren.com^
 ||tozqvor.com^
 ||tpciqzm.com^
@@ -29411,6 +29425,7 @@ browsershots.org#@#.advert_area
 ||unmbxnksvtts.com^
 ||unmightboxen.com^
 ||unmisdreavusom.com^
+||unpackjanuary.com^
 ||unpackthousandmineral.com^
 ||unphionetor.com^
 ||unrulymedia.com^
@@ -29428,6 +29443,7 @@ browsershots.org#@#.advert_area
 ||unylgxxmrsbb.com^
 ||unynwld.com^
 ||uoktyggqexq.com^
+||uommwhqyefutlp.com^
 ||uosyiozyu.com^
 ||uowjsjkanqmw.com^
 ||update-it-now.com^
@@ -29966,6 +29982,7 @@ browsershots.org#@#.advert_area
 ||wooballast.com^
 ||wooden-comfort.com^
 ||woodenguardsheartburn.com^
+||woodhenmils.com^
 ||woodlandsmonthlyelated.com^
 ||woodtipvpnrh.com^
 ||woodymotherhood.com^
@@ -30137,6 +30154,7 @@ browsershots.org#@#.advert_area
 ||xporn.in^
 ||xqzwtvjkjj.com^
 ||xszcdn.com^
+||xszpuvwr7.com^
 ||xtrackme.com^
 ||xueserverhost.com^
 ||xuircnbbidmu.com^
@@ -31749,6 +31767,7 @@ browsershots.org#@#.advert_area
 ||google.com/favicon.ico$popup
 ||performrecentintenselyinfo-program.info^$popup
 ||stake.com/*&clickId=$popup
+||a.lakmus.xyz^
 ||a1tb.com/300x250$subdocument
 ||adultfriendfinder.com/go/$third-party
 ||bbb.dagobert33.xyz^
@@ -34427,6 +34446,7 @@ boobieblog.com,imgadult.com,lolhentai.net,picdollar.com,porngames.com,thenipslip
 redtube.com##div > iframe
 motherless.com##div > table[style][border]
 underhentai.net##div[class*="afi-"]
+twiman.net##div[class*="my-"][class*="px\]"]
 camsoda.com##div[class^="AdsRight-"]
 hentaimama.io##div[class^="in-between-ad"]
 sleazyneasy.com##div[data-banner]
