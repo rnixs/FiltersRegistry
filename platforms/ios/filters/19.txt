@@ -1,9 +1,9 @@
-! Checksum: TaKePvCirguf0BExunWVUw
-! Diff-Path: ../patches/19/19-s-1709663806-3600.patch
+! Checksum: fZneI8HK9Wp0PNCBu4oMSA
+! Diff-Path: ../patches/19/19-s-1709674637-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.76
-! TimeUpdated: 2024-03-05T18:32:10+00:00
+! Version: 2.0.32.77
+! TimeUpdated: 2024-03-05T21:33:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12265,6 +12265,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+thediplomat.com###td-newsletter-home
 onona.ru##.wheel-wrapper
 onona.ru##.wrap-block-form
 kartoteka.ru#%#//scriptlet('prevent-setTimeout', '#modalSubscribe')

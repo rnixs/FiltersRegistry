@@ -1,9 +1,9 @@
-! Checksum: qT+LL2nw/4zaxf64od0hug
-! Diff-Path: ../patches/4/4-s-1709660197-3600.patch
+! Checksum: v4E105WSHqy+eYiS/32mYg
+! Diff-Path: ../patches/4/4-s-1709674625-3600.patch
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.98.11
-! TimeUpdated: 2024-03-05T17:33:12+00:00
+! Version: 2.0.98.12
+! TimeUpdated: 2024-03-05T21:33:58+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6994,7 +6994,7 @@ lrytas.lt##.socialMsngr
 wykop.pl##section.actions > ul > li.no-separator > .share-socials
 wykop.pl##.dropdown .actions > .icon-facebook
 wykop.pl##.dropdown .actions > .icon-twitter
-lemonde.fr##.meta__social
+lemonde.fr##.meta__social > li.meta__icon--dropdown
 tele1.com.tr##.yenisocial > li:not(.google-news-follow)
 mumsnet.com##.social-sharing-icons
 ubr.ua###sharingtoolbox
