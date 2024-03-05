@@ -1,9 +1,9 @@
-! Checksum: e0GELqbEzNQIjRUlQe4xEw
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1709555777-3600.patch
+! Checksum: aNTvo5xiEEap0vOZxdjv2A
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1709632761-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.8.10
-! TimeUpdated: 2024-03-04T12:32:14+00:00
+! Version: 2.0.8.11
+! TimeUpdated: 2024-03-05T09:54:11+00:00
 ! Expires: 10 days (update frequency)
 $removeparam=vsm_type
 $removeparam=vsm_cid
@@ -785,7 +785,6 @@ $removeparam=xptdk,domain=shopee.ph|shopee.co.th
 ||store.udiscovermusic.com^$removeparam=/utm_/
 ||hktvmall.com/yuicombo?$script,removeparam=/^\/_ui\/desktop\/common\/js\/uiAnalytics\//
 ||hktvmall.com/yuicombo?$script,removeparam=/_ui\/shared\/common\/js\/analytics\/with-intersection-track.js/
-||hktvmall.com/yuicombo?$script,removeparam=/_ui\/shared\/common\/js\/util\/jquery.analytics-utils.js/
 ||go.xlivrdr.com^$removeparam
 ||stripchat.com^$removeparam=affiliateId
 ||stripchat.com^$removeparam=referrer

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: L/9X+3dfiY0YkFKNbmTBpQ
-! Diff-Path: ../patches/18/18-s-1709627835-3600.patch
+! Checksum: Xo+IB5N+vQLWys83S1Mx4w
+! Diff-Path: ../patches/18/18-s-1709632796-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.35.7
-! TimeUpdated: 2024-03-05T08:32:54+00:00
+! Version: 2.0.35.8
+! TimeUpdated: 2024-03-05T09:54:13+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5968,8 +5968,8 @@ inbank.ee#$#body.modal-open { overflow: visible !important; padding-right: 0 !im
 ||coal.gamemaker.io/sites/*/theme/javascripts/cookie.umd.min.js
 link1one.com,claimercorner.xyz,faucetzoid.online,waterfaucet.online###gath3r-optin-dialog
 brf.be###cookieDashboard
-jesus.de,airindia.com,lovekrakow.pl,mediccentre.pl#$#html.force--consent.show--consent:not(#style_important) { overflow: auto !important; }
-jesus.de,airindia.com,lovekrakow.pl,mediccentre.pl,giga-hamburg.de,gerth.de#$##cc--main { display: none !important; }
+atmoskop.cz,pulser.hr,jesus.de,airindia.com,lovekrakow.pl,mediccentre.pl#$#html.force--consent.show--consent:not(#style_important) { overflow: auto !important; }
+atmoskop.cz,pulser.hr,jesus.de,airindia.com,lovekrakow.pl,mediccentre.pl,giga-hamburg.de,gerth.de#$##cc--main { display: none !important; }
 nytimes.com#?#footer + div > span[data-gtm-trigger="cookie_banner_dismiss"]:upward(1)
 ||consent.prointernet.com/consent.js
 consumer.apacer.com###cookie_lightbox
