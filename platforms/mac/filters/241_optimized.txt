@@ -1,9 +1,9 @@
-! Checksum: RmBS1PBVasFrQYeDvTeyXQ
-! Diff-Path: ../patches/241_optimized/241_optimized-s-1709586505-14400.patch
+! Checksum: iq0upca14r3DtcAQ3t5mFg
+! Diff-Path: ../patches/241_optimized/241_optimized-s-1709600834-14400.patch
 ! Title: EasyList Cookie List (Optimized)
 ! Description: Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.
-! Version: 2.1.30.25
-! TimeUpdated: 2024-03-04T21:04:06+00:00
+! Version: 2.1.30.26
+! TimeUpdated: 2024-03-05T01:03:11+00:00
 ! Expires: 5 days (update frequency)
 -consent-banner-
 -consent-banner.
@@ -14437,6 +14437,7 @@
 ##.globalcookiepolicycontainer
 ##.glowCookies__banner
 ##.glowCookies__show
+##.glue-cookie-notification-bar
 ##.gmt_consent_popup
 ##.gmt_gdpr
 ##.gmt_gdpr_button_config
@@ -18392,7 +18393,6 @@
 ||global.mgr.consensu.org^$third-party
 ||goadopt.io^$third-party
 ||grvmedia.com^$third-party
-||gstatic.com/glue/cookienotificationbar/$domain=play.google.com
 ||hs-banner.com^$third-party
 ||hu-manity.co/hu-banner.min.js
 ||illow.io/public/cookies/
@@ -20847,6 +20847,7 @@ santatracker.google.com##SANTA-NOTICE
 trustnet.com##USER-TYPE-POPUP
 dollarshaveclub.com##[aria-describedby="banner-description"]
 lemonade.com##[aria-describedby="cookie-consent-description"]
+ticketmaster.com##[aria-describedby="mobileMobileTOUMessage"]
 1password.com##[aria-label="Cookie Consent"]
 perlego.com##[aria-label="cookie banner"]
 norwegianholidays.com##[aria-label="cookieconsent"]
@@ -22414,9 +22415,13 @@ store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_POLICY_ACCEPTE
 store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_POLICY_VIEWED', 'true')
 store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_VID_OPTOUT', 'false')
 store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_VIDEO_OPTOUT', 'false')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_VIEWED', '1')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_LOADED', '1')
 ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_LOADED', '1')
 ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_VIEWED', '1')
 ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Functional', '1')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Marketing', '0')
+ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Analytics', '0')
 cineman.pl,tv-trwam.pl#%#//scriptlet('ubo-set-cookie.js', 'ARE_FUNCTIONAL_COOKIES_ACCEPTED', 'true')
 cineman.pl,tv-trwam.pl#%#//scriptlet('ubo-set-cookie.js', 'ARE_MARKETING_COOKIES_ACCEPTED', 'true')
 cineman.pl,tv-trwam.pl#%#//scriptlet('ubo-set-cookie.js', 'ARE_REQUIRED_COOKIES_ACCEPTED', 'true')

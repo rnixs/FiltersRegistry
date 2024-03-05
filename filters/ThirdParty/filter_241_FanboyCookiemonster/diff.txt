@@ -1636,12 +1636,20 @@ store.ubisoft.com##+js(set-cookie, UBI_PRIVACY_POLICY_VIEWED, true)
 store.ubisoft.com##+js(set-cookie, UBI_PRIVACY_VID_OPTOUT, false)
 ! Rule "store.ubisoft.com##+js(set-cookie, UBI_PRIVACY_VIDEO_OPTOUT, false)" converted to: "store.ubisoft.com#%#//scriptlet('ubo-set-cookie.js', 'UBI_PRIVACY_VIDEO_OPTOUT', 'false')"
 store.ubisoft.com##+js(set-cookie, UBI_PRIVACY_VIDEO_OPTOUT, false)
+! Rule "ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_VIEWED, 1)" converted to: "ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_VIEWED', '1')"
+ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_VIEWED, 1)
+! Rule "ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_LOADED, 1)" converted to: "ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_LOADED', '1')"
+ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_MODAL_LOADED, 1)
 ! Rule "ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_LOADED, 1)" converted to: "ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_LOADED', '1')"
 ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_LOADED, 1)
 ! Rule "ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_VIEWED, 1)" converted to: "ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_VIEWED', '1')"
 ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_BANNER_VIEWED, 1)
 ! Rule "ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Functional, 1)" converted to: "ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Functional', '1')"
 ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Functional, 1)
+! Rule "ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Marketing, 0)" converted to: "ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Marketing', '0')"
+ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Marketing, 0)
+! Rule "ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Analytics, 0)" converted to: "ba.com,britishairways.com#%#//scriptlet('ubo-set-cookie.js', 'BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Analytics', '0')"
+ba.com,britishairways.com##+js(set-cookie, BRITISHAIRWAYS_ENSIGHTEN_PRIVACY_Analytics, 0)
 ! Rule "cineman.pl,tv-trwam.pl##+js(set-cookie, ARE_FUNCTIONAL_COOKIES_ACCEPTED, true)" converted to: "cineman.pl,tv-trwam.pl#%#//scriptlet('ubo-set-cookie.js', 'ARE_FUNCTIONAL_COOKIES_ACCEPTED', 'true')"
 cineman.pl,tv-trwam.pl##+js(set-cookie, ARE_FUNCTIONAL_COOKIES_ACCEPTED, true)
 ! Rule "cineman.pl,tv-trwam.pl##+js(set-cookie, ARE_MARKETING_COOKIES_ACCEPTED, true)" converted to: "cineman.pl,tv-trwam.pl#%#//scriptlet('ubo-set-cookie.js', 'ARE_MARKETING_COOKIES_ACCEPTED', 'true')"
