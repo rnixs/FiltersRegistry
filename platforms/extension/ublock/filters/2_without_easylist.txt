@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Qn2Ju6Zwh43kw8OeNUGIgw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709638615-3600.patch
+! Checksum: oG9sEcx0ux0gyntnJFtiUw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709642255-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.25.27
-! TimeUpdated: 2024-03-05T11:33:16+00:00
+! Version: 2.3.25.28
+! TimeUpdated: 2024-03-05T12:33:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7593,7 +7593,8 @@ uptoearn.xyz##+js(no-fetch-if, pagead2.googlesyndication.com)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=anidraw.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173512
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164623
-@@||decrypt.day^$generichide
+decrypt.day#$?#ins.adsbygoogle { height: 52px !important; }
+decrypt.day#$#body ins.adsbygoogle { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165068
 @@||static.doubleclick.net/instream/ad_status.js$domain=bloggingsathi.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bloggingsathi.com

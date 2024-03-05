@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mkj2HXKXkB8p3U1h8GUFGg
-! Diff-Path: ../patches/11/11-s-1709638610-3600.patch
+! Checksum: 2PjZaUPIRzo4BqL3i8mAcw
+! Diff-Path: ../patches/11/11-s-1709642250-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.49.77
-! TimeUpdated: 2024-03-05T11:32:00+00:00
+! Version: 2.0.49.78
+! TimeUpdated: 2024-03-05T12:32:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2274,6 +2274,8 @@ otakei.otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.sm
 !
 ! SECTION: Regular rules
 !
+miaminewtimes.com##.fdn-content-body > div[data-component-id]:has(> div[class^="uk-hidden"] > div[apn-ad-hook])
+miaminewtimes.com##div[apn-ad-hook]
 gameblog.fr##.r89-mobile-billboard-top
 sorkab.com##a[href^="https://ad-nex.com/"]
 asagei.com##.popular-article-side ~ div[style^="text-align"]:has(> a[href] > img[src*="images/bn/"])

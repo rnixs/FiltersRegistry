@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: kKGL4XqS4JGupT9IpkCuvg
-! Diff-Path: ../patches/20/20-s-1709635024-3600.patch
+! Checksum: Oy5HIjHsXh3HZC6N0bgUFQ
+! Diff-Path: ../patches/20/20-s-1709642254-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.81
-! TimeUpdated: 2024-03-05T10:32:44+00:00
+! Version: 2.0.12.82
+! TimeUpdated: 2024-03-05T12:32:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -131,8 +131,9 @@ japantravel.navitime.com##.l-footer-app-list
 www.op.gg##html[lang="ko"] .tooltip__talkg_ad:has(> .react-tooltip-lite a[href*="talk.op.gg/app-download"])
 youla.ru##+js(set-cookie, youla_fullscreenbanner, disabled)
 aliexpress.com###mobile-download
-japantravel.navitime.com###appli-japan-travel
-japantravel.navitime.com##.appli-japan-travel-banner
+navitime.co.jp##.appli-japan-travel
+navitime.com###appli-japan-travel
+navitime.com##.appli-japan-travel-banner
 mixch.tv#$#body { overflow: auto !important; }
 mixch.tv#$#.css-n16vot > div.eglqwv00 { display: none !important; }
 mirrativ.com##div[class^="_appDlNoBanner_"]
@@ -3115,6 +3116,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! Limit it to mobile versions only
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 !
+sports.yahoo.co.jp##.sn-modAppCarousel
 m.vk.com##a[class^="OpenInAppPromoButton-"]
 clubd.co.jp###FixedBanner
 clubd.co.jp###footerBanner

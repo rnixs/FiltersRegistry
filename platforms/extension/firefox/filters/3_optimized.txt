@@ -1,9 +1,9 @@
-! Checksum: mTuG+BIJWorO5qwb++iI0A
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1709635006-3600.patch
+! Checksum: KAHnRFZmh5Tv+biILx6hpA
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1709642235-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.67.35
-! TimeUpdated: 2024-03-05T10:33:25+00:00
+! Version: 2.0.67.36
+! TimeUpdated: 2024-03-05T12:33:33+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -109582,6 +109582,7 @@ nethunt.com/api/v1/track/email/$image
 @@||stacksocial.com^$cookie=ajs_anonymous_id
 @@||dkb.de^$cookie=dtCookie
 @@||centrum24.pl^$cookie=dtCookie
+$cookie=Wysistat
 $cookie=_pulse2data
 $cookie=_pulsesession
 $cookie=__pulseEnvironmentId

@@ -1,9 +1,9 @@
-! Checksum: ixEZ/zZThnJwXDD1aQhQ9A
-! Diff-Path: ../patches/20/20-s-1709634997-3600.patch
+! Checksum: zl28Gxt0BFVRN2C6M1N+tw
+! Diff-Path: ../patches/20/20-s-1709642225-3600.patch
 ! Title: AdGuard Mobile App Banners filter
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.12.81
-! TimeUpdated: 2024-03-05T10:32:44+00:00
+! Version: 2.0.12.82
+! TimeUpdated: 2024-03-05T12:32:52+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -139,8 +139,9 @@ japantravel.navitime.com##.l-footer-app-list
 www.op.gg##html[lang="ko"] .tooltip__talkg_ad:has(> .react-tooltip-lite a[href*="talk.op.gg/app-download"])
 youla.ru#%#//scriptlet('set-cookie', 'youla_fullscreenbanner', 'disabled')
 aliexpress.com###mobile-download
-japantravel.navitime.com###appli-japan-travel
-japantravel.navitime.com##.appli-japan-travel-banner
+navitime.co.jp##.appli-japan-travel
+navitime.com###appli-japan-travel
+navitime.com##.appli-japan-travel-banner
 mixch.tv#$#body { overflow: auto !important; }
 mixch.tv#$#.css-n16vot > div.eglqwv00 { display: none !important; }
 mirrativ.com##div[class^="_appDlNoBanner_"]
