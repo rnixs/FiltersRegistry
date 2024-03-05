@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: RgM0USfnEaQyNo+RbQ7bzA
-! Diff-Path: ../patches/4_optimized/4_optimized-s-1709645822-3600.patch
+! Checksum: AsLi9VAKLJcp8+mn6mVglQ
+! Diff-Path: ../patches/4_optimized/4_optimized-s-1709660208-3600.patch
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.98.10
-! TimeUpdated: 2024-03-05T13:33:27+00:00
+! Version: 2.0.98.11
+! TimeUpdated: 2024-03-05T17:33:12+00:00
 ! Expires: 5 days (update frequency)
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
@@ -4255,7 +4255,7 @@ nba.com##.stats-share-button
 mid-day.com##.social-sharing-post-txt ul.social-icons-inline
 ||player.daznservices.com/player/releases/v*/unfilled/share.chunk.js$domain=goal.com
 lsm.lv##.share-caption
-diabetes.org,cyclowired.jp,harvardmagazine.com,datacenterdynamics.com,kienyke.com,presentslide.in,learnmetrics.com,nepisirsem.com,voguehk.com,sadhguru.org,pagamentidigitali.it,ogsoundfx.com##.a2a_kit
+military.com,diabetes.org,cyclowired.jp,harvardmagazine.com,datacenterdynamics.com,kienyke.com,presentslide.in,learnmetrics.com,nepisirsem.com,voguehk.com,sadhguru.org,pagamentidigitali.it,ogsoundfx.com##.a2a_kit
 wellsfargo.com##.sideUtility
 nytimes.com##div[data-testid="share-tools"] li:not([class^="css-"])
 spid.center##._37vAM

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZKD7LnlAjEI0FPXY7B9yVw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709656607-3600.patch
+! Checksum: xGwkFDAG2yvgklA1wzB0cQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709660206-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.25.32
-! TimeUpdated: 2024-03-05T16:32:59+00:00
+! Version: 2.3.25.33
+! TimeUpdated: 2024-03-05T17:32:58+00:00
 ! Expires: 5 days (update frequency)
 ||virusscanner.to^$all
 ||randomadsrv.com^$all
@@ -13,28 +13,6 @@
 ||servetag.com^
 ||madurird.com^
 ||vhsugcbelruygy.com^
-||tauphaub.net^
-||koophaip.net^
-||regardsperformedgreens.com^
-||bywordmiddleagedpowder.com^
-||layoutsdaydawn.top^
-||eveneraw.digital^
-||tpciqzm.com^
-||vhdbohe.com^
-||showdoyoukno.info^
-||hfjvuxuwasf.com^
-||phaiseen.com^
-||interimmemory.com^
-||jpsthqhvxynfdx.com^
-||joaqaylueycfqw.xyz^
-||minsaith.xyz^
-||billiardsnotealertness.com^
-||perverseunsuccessful.com^
-||hadseaside.com^
-||sheardirectly.com^
-||frulednulx.com^
-||divorcebelievable.com^
-||swzgvmlvt.com^
 ||aeoqmogkswsd.com^
 ||aunauque.net^
 ||gvwdwrtzrs.com^
@@ -48,7 +26,6 @@
 ||showoffmanifer.guru^$all
 ||noopapnoeic.digital^$all
 ||meniscigox.digital^$all
-||aj2555.bid^
 ||vlkxsrhi.com^
 ||lxvluwda.com^
 ||afeerdah.net^
@@ -1515,8 +1492,9 @@ tikmate.app##+js(set-constant, powerAPITag, {})
 tikmate.app##+js(set-constant, detectAdBlock, noopFunc)
 cnpics.org,cnxx.me##+js(abort-on-property-write, detectAdBlock)
 uptoearn.xyz##+js(no-fetch-if, pagead2.googlesyndication.com)
-decrypt.day#$?#ins.adsbygoogle { height: 52px !important; }
-decrypt.day#$#body ins.adsbygoogle { display: block !important; }
+@@||decrypt.day^$generichide
+decrypt.day##+js(set-constant, adsbygoogle, {})
+decrypt.day##+js(set-constant, adsbygoogle.loaded, true)
 @@||static.doubleclick.net/instream/ad_status.js$domain=bloggingsathi.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bloggingsathi.com
 porn4f.com##+js(no-fetch-if, pagead2.googlesyndication.com)
@@ -20004,6 +19982,7 @@ browsershots.org#@#.advert_area
 ||aj2495.online^
 ||aj2532.bid^
 ||aj2550.bid^
+||aj2555.bid^
 ||ajar-substance.com^
 ||ajfnee.com^
 ||ajgzylr.com^
@@ -20293,6 +20272,7 @@ browsershots.org#@#.advert_area
 ||asqualmag.com^
 ||assholeamarin.top^
 ||assistedadultrib.com^
+||assortmentberry.com^
 ||assortplaintiffwailing.com^
 ||ast2ya4ee8wtnax.com^
 ||astarboka.com^
@@ -20663,6 +20643,7 @@ browsershots.org#@#.advert_area
 ||bihunekus.com^
 ||bikrurda.net^
 ||bilateralgodmother.com^
+||billiardsnotealertness.com^
 ||billybobandirect.org^
 ||billyhis.com^
 ||bilsyndication.com^
@@ -21880,6 +21861,7 @@ browsershots.org#@#.advert_area
 ||disturbedaccruesurfaces.com^
 ||divergeimperfect.com^
 ||dividedkidblur.com^
+||divorcebelievable.com^
 ||divotsleucyl.space^
 ||dizainejerrie.top^
 ||dj-updates.com^
@@ -22326,6 +22308,7 @@ browsershots.org#@#.advert_area
 ||evasiondemandedlearning.com^
 ||evecticvocoder.life^
 ||eveenaiftoa.com^
+||eveneraw.digital^
 ||eventsbands.com^
 ||evenuewasadi.xyz^
 ||everlastinghighlight.com^
@@ -23150,6 +23133,7 @@ browsershots.org#@#.advert_area
 ||habeglee.net^
 ||habovethecity.info^
 ||hadabqhbewcrt.com^
+||hadseaside.com^
 ||hadsimz.com^
 ||hagweedtoytown.com^
 ||haihaime.net^
@@ -23267,6 +23251,7 @@ browsershots.org#@#.advert_area
 ||heycompassion.com^
 ||hf5rbejvpwds.com^
 ||hfeoveukrn.info^
+||hfjvuxuwasf.com^
 ||hfugukhcea.com^
 ||hfxgxzmik.com^
 ||hg-bn.com^
@@ -23666,6 +23651,7 @@ browsershots.org#@#.advert_area
 ||interbuzznews.com^
 ||interdependentpredestine.com^
 ||intergient.com^
+||interimmemory.com^
 ||internalpound.com^
 ||internewsweb.com^
 ||interposedflickhip.com^
@@ -23857,6 +23843,7 @@ browsershots.org#@#.advert_area
 ||jnrtavp2x66u.com^
 ||jnxm2.com^
 ||joaglouwulin.com^
+||joaqaylueycfqw.xyz^
 ||joastaca.com^
 ||joastoom.xyz^
 ||joathath.com^
@@ -27425,6 +27412,7 @@ browsershots.org#@#.advert_area
 ||swmg.top^
 ||swordbloatgranny.com^
 ||swpnyrxgobtryu.com^
+||swzgvmlvt.com^
 ||swzydgm.com^
 ||sxirpkuxm.com^
 ||sxlflt.com^
@@ -27491,6 +27479,7 @@ browsershots.org#@#.advert_area
 ||tasesetitoefany.info^
 ||tastierxyphoid.com^
 ||tat3ayogh6.com^
+||tauphaub.net^
 ||tauvoojo.net^
 ||taxaixkpruxj.com^
 ||taximenmugwort.com^
