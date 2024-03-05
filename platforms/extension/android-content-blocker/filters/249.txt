@@ -1,14 +1,14 @@
-! Checksum: TbEI2oX8smZIbwFknOshWw
-! Diff-Path: ../patches/249/249-s-1708967200-14400.patch
+! Checksum: IGRK5TRIqp7hNhd8BCR+gQ
+! Diff-Path: ../patches/249/249-s-1709672785-14400.patch
 ! Title: Dandelion Sprout's Nordic Filters
 ! Description: This list covers websites for Norway, Denmark, Iceland, Danish territories, and the Sami indigenous population.
-! Version: 2.0.7.29
-! TimeUpdated: 2024-02-26T17:03:19+00:00
+! Version: 2.0.7.30
+! TimeUpdated: 2024-03-05T21:03:13+00:00
 ! Expires: 5 days (update frequency)
 !
 ! Title: 🏔️ Dandelion Sprouts nordiske filtre for ryddigere nettsider (for AdGuard)
 ! Title 🇬🇧: Dandelion Sprout's Nordic filters for tidier websites
-! OriginalVersion: 26February2024v2
+! OriginalVersion: 04March2024v1
 ! Expires: 18 hours
 ! Lisens / Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
@@ -1508,6 +1508,7 @@ samvirke.dk##.external-banner--continue
 insidetelecom.no##.items-center:empty
 digi.no##.hidden[class*=" lg:flex"]
 vg.no##.advert
+alletilbudsaviser.co.no##div[class*=banner i]
 ! — — — — —
 ! 🇳🇴: Oppføringer med spesielle omstendigheter
 ! 🇬🇧: Entries with special circumstances
