@@ -1,9 +1,9 @@
-! Checksum: MCme/PYc34gCmTc9BfyWiA
-! Diff-Path: ../patches/17_optimized/17_optimized-s-1709632824-3600.patch
+! Checksum: 0MJRsb/FMMgnSys1/ZnSGw
+! Diff-Path: ../patches/17_optimized/17_optimized-s-1709645844-3600.patch
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.8.11
-! TimeUpdated: 2024-03-05T09:54:11+00:00
+! Version: 2.0.8.12
+! TimeUpdated: 2024-03-05T13:32:25+00:00
 ! Expires: 12 hours (update frequency)
 $removeparam=vsm_type
 $removeparam=vsm_cid
@@ -222,6 +222,7 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||crunchyroll.com^$removeparam=referrer
 ||zapiska.substack.com^$removeparam=publication_id
 ||zapiska.substack.com^$removeparam=post_id
 ||zapiska.substack.com^$removeparam=r

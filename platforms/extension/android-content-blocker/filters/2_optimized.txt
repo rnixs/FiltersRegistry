@@ -1,9 +1,9 @@
-! Checksum: BSgq3RAK1DQ1v1uyPtrfbg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709642211-3600.patch
+! Checksum: bH6S23yPtm0O/WLA3CAjfQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709645780-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.25.28
-! TimeUpdated: 2024-03-05T12:33:25+00:00
+! Version: 2.3.25.29
+! TimeUpdated: 2024-03-05T13:33:13+00:00
 ! Expires: 5 days (update frequency)
 ||servetag.com^
 ||madurird.com^
@@ -34241,6 +34241,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||jamanetwork.com/AMA/AdTag
 ||japfg-trending-content.uc.r.appspot.com^
 ||jsdelivr.net/gh/$domain=chrome-stats.com|edge-stats.com|firefox-stats.com
+||kickassanimes.info/a_im/
 ||koreatimes.co.kr/ad/
 ||kta.etherscan.com^
 ||linkedin.com/tscp-serving/
@@ -35418,6 +35419,7 @@ legit.ng,tuko.co.ke##.l-adv-branding__top
 wwe.com##.l-hybrid-col-frame_rail-wrap
 vox.com##.l-leaderboard-slot
 wzstats.gg##.landscape-ad-container
+kickassanimes.io##.latest-update > .mt-0.row > .col-12.col-lg-4.col-md-6
 trueachievements.com,truesteamachievements.com,truetrophies.com##.lb_holder
 soaphub.com##.ldm_ad
 versus.com##.lead_top
@@ -35640,6 +35642,7 @@ smartasset.com##.riklam-container
 rocket-league.com##.rlg-trading-spacer
 indiatimes.com##.rmfp
 beforeitsnews.com##.rotating_text_link
+kickassanimes.io##.row > .col-12 > .rs.text-center[style="position: relative;"]
 elnacional.cat##.row-top-banner
 onlineocr.net##.row[style*="text-align:right"]
 jdpower.com##.rrail__ad-wrap
@@ -35846,7 +35849,7 @@ twistedsifter.com##.widget_sifter_ad_bigbox_widget
 mypunepulse.com,optimyz.com##.widget_smartslider3
 captainaltcoin.com,dailyboulder.com,lostintechnology.com,ripplecoinnews.com,utahgunexchange.com,webkinznewz.ganzworld.com##.widget_text
 ign.com##.wiki-bobble
-dotesports.com##.wp-block-gamurs-ad
+dotesports.com,primagames.com##.wp-block-gamurs-ad
 gearpatrol.com##.wp-block-gearpatrol-ad-slot
 hyperallergic.com,repeatreplay.com,steamdeckhq.com##.wp-block-spacer
 thewrap.com##.wp-block-the-wrap-ad
@@ -35936,6 +35939,7 @@ freedomfirstnetwork.com##[href="https://freedomfirstcoffee.com"]
 unogs.com##[href^="/ad/"]
 open.spotify.com##[href^="https://adclick.g.doubleclick.net/"]
 wiki.gg##[href^="https://app.wiki.gg/showcase/"]
+kickassanimes.io##[href^="https://l.erodatalabs.com/s/"]
 theburningplatform.com##[href^="https://libertasbella.com/collections/"]
 unknowncheats.me##[href^="https://proxy-seller.com/"]
 cryptonews.com##[href^="https://rapi.cryptonews.com/"]

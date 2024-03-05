@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: oG9sEcx0ux0gyntnJFtiUw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709642255-3600.patch
+! Checksum: 4iMLUzTopBzc6ycVpKMukA
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709645819-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.25.28
-! TimeUpdated: 2024-03-05T12:33:25+00:00
+! Version: 2.3.25.29
+! TimeUpdated: 2024-03-05T13:33:13+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -78,6 +78,7 @@
 !
 !
 !
+||virusscanner.to^$all
 ||randomadsrv.com^$all
 ||crmentjg.com^$all
 ||crmtt.livejasmin.com^$all
@@ -31988,6 +31989,8 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+indy100.com##.relatedLink_content:has(> div[id^="taboola"])
+gamesystemrequirements.com##.act_eng
 minnpost.com#?#.wp-block-group:has(> div > p[style] > strong:contains(Thanks to our major sponsors))
 minnpost.com###block-21
 minnpost.com##.wp-block-spacer

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: AfJchSE/Rez9V7s0yFXkig
-! Diff-Path: ../patches/7/7-s-1709642258-3600.patch
+! Checksum: abX594jtkrbs/kfVwTJd9A
+! Diff-Path: ../patches/7/7-s-1709645822-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.49.13
-! TimeUpdated: 2024-03-05T12:33:56+00:00
+! Version: 2.0.49.14
+! TimeUpdated: 2024-03-05T13:33:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1115,6 +1115,8 @@ avgle.com##+js(abort-current-script, __htapop)
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174081
+telling.asahi.com#$#.p-header-billboard { min-height: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171466
 erologz.com#$##sidebar-small[style^="height:"] { height: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169518

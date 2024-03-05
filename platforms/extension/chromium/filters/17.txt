@@ -1,9 +1,9 @@
-! Checksum: aHlYjlvpB4HVfO0duJIWTw
-! Diff-Path: ../patches/17/17-s-1709632761-3600.patch
+! Checksum: a2ef6ibxfVO7y7j9eBCOGw
+! Diff-Path: ../patches/17/17-s-1709645784-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.8.11
-! TimeUpdated: 2024-03-05T09:54:11+00:00
+! Version: 2.0.8.12
+! TimeUpdated: 2024-03-05T13:32:25+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -345,6 +345,8 @@ $removeparam=fb_source
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173941
+||crunchyroll.com^$removeparam=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173987
 ||zapiska.substack.com^$removeparam=publication_id
 ||zapiska.substack.com^$removeparam=post_id
