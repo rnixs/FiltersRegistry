@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JUbetDsbE89QgjflvX26Ew
-! Diff-Path: ../patches/16/16-s-1709642252-3600.patch
+! Checksum: GWoIg1AoR10H3SpP1kC6ew
+! Diff-Path: ../patches/16/16-s-1709653203-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.85
-! TimeUpdated: 2024-03-05T12:32:35+00:00
+! Version: 2.0.43.86
+! TimeUpdated: 2024-03-05T15:35:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -822,6 +822,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+emugen.net#?#.l-section:has(> div.l-section-h > div.g-cols > div > div.vc_column-inner > div.wpb_wrapper > div.w-separator > div.w-separator-h > h6 > span:contains(Publicité))
 virgule.lu##div[id^="ad_"]
 science-et-vie.com,mariefrance.fr##.viously-player
 deco.fr,fourchette-et-bikini.fr##.ads-core-placeholder

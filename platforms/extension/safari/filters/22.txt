@@ -1,9 +1,9 @@
-! Checksum: J5Rdy+Yukuz+N33jEB2huQ
-! Diff-Path: ../patches/22/22-s-1709552278-3600.patch
+! Checksum: 8zSVlHcLV9DsuZ9+Z7D25g
+! Diff-Path: ../patches/22/22-s-1709653201-3600.patch
 ! Title: AdGuard Widgets filter
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
-! Version: 2.0.7.46
-! TimeUpdated: 2024-03-04T11:32:52+00:00
+! Version: 2.0.7.47
+! TimeUpdated: 2024-03-05T15:35:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1322,6 +1322,7 @@ beasoku.com##.l-rss-header
 !
 !   SECTION: Widgets - Marketing (specific)
 !
+kartoteka.ru##.callback-container
 g2.com##.g2-sideframe__toggle
 g2.com##.g2-sideframe__initial
 ||snippet.maze.co^$domain=traderie.com
