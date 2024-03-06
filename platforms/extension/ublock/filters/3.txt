@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /vMBmnAShSduKsz11L4F6g
-! Diff-Path: ../patches/3/3-s-1709732207-3600.patch
+! Checksum: ZoVQYk5A1OQJusVyUcp+TQ
+! Diff-Path: ../patches/3/3-s-1709735886-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.67.42
-! TimeUpdated: 2024-03-06T13:33:08+00:00
+! Version: 2.0.67.43
+! TimeUpdated: 2024-03-06T14:34:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -110412,6 +110412,7 @@ nethunt.com/api/v1/track/email/$image
 ! Bad:  example.org#@##cookie
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174219
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171285
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170920
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164914
@@ -111885,6 +111886,9 @@ inapps.appsflyersdk.com^
 ! For platforms which do not support $redirect rules
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174219
+@@||googletagmanager.com/gtm.js$domain=haisenryakuzu.net
+@@||google-analytics.com/analytics.js$domain=haisenryakuzu.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173847
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173780
 @@||googletagmanager.com/gtm.js$domain=sportingnews.com

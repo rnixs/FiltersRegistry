@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Z21kslgALnNVaHroF9bzXA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709732206-3600.patch
+! Checksum: zXM0sTGEQ6fIXM/xF/JBjg
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709735885-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.25.50
-! TimeUpdated: 2024-03-06T13:33:00+00:00
+! Version: 2.3.25.51
+! TimeUpdated: 2024-03-06T14:34:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -8442,7 +8442,7 @@ webgradee.com##+js(no-setTimeout-if, .offsetHeight)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146269
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136189
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145796
-stfly.me##+js(abort-current-script, document.createElement, .onerror)
+stfly.xyz,stfly.me##+js(abort-current-script, document.createElement, .onerror)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145653 Brave detected on Vidstreaming
 rapid-cloud.co##+js(set-constant, navigator.brave, undefined)
 ! javgg.net - at the download page
@@ -20884,6 +20884,9 @@ roweroweporady.pl#@#.ad_container
 ||lib.wtg-ads.com/prebid/prebid_*.js$xmlhttprequest,redirect=noop.txt
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174213
+naukowiec.org##.spolecznoscinet
+naukowiec.org##div[style="text-align:center; margin: 15px 0;width: 100%;"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174061
 mypolacy.de##.wnr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174039
