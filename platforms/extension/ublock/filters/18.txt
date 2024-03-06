@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0NyIEW68HbC+HMfszl6iMg
-! Diff-Path: ../patches/18/18-s-1709735882-3600.patch
+! Checksum: 7WPykLYho5evbNIK4K/Ayw
+! Diff-Path: ../patches/18/18-s-1709739523-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.35.24
-! TimeUpdated: 2024-03-06T14:33:17+00:00
+! Version: 2.0.35.25
+! TimeUpdated: 2024-03-06T15:33:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2359,6 +2359,7 @@ pracazarohom.*,seduo.*##+js(remove-class, force--consent|show--consent, html)
 !
 ! NOTE: Regular rules
 !
+play.google.*##.glue-cookie-notification-bar
 meteored.com.ar#$#.cmp_gdpr { display: none !important; }
 meteored.com.ar#$#body { overflow: auto !important; }
 dzieciecyszpital.pl###cookies-glass

@@ -1,9 +1,9 @@
-! Checksum: 21xw65ukfriLX0/8A2KyKQ
-! Diff-Path: ../patches/18/18-s-1709735889-3600.patch
+! Checksum: 4SaDqDVnadp8bpAr6L/dAw
+! Diff-Path: ../patches/18/18-s-1709739531-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.35.24
-! TimeUpdated: 2024-03-06T14:33:17+00:00
+! Version: 2.0.35.25
+! TimeUpdated: 2024-03-06T15:33:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2390,6 +2390,7 @@ pracazarohom.*,seduo.*#%#//scriptlet('remove-class', 'force--consent|show--conse
 !
 ! NOTE: Regular rules
 !
+play.google.*##.glue-cookie-notification-bar
 svt.se#%#//scriptlet('trusted-set-cookie', 'cookie-consent-1', '{"optedIn":true,"functionality":false,"statistics":false}')
 svtplay.se#%#//scriptlet('trusted-set-cookie', 'cookie-consent-1', '{"required_storage":true,"functionality_storage":false,"statistics_storage":false,"ad_storage":false}')
 jow.fr#%#//scriptlet('trusted-set-cookie', 'jow_cookie_consent', 'none')
