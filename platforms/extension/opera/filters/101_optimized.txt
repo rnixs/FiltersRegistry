@@ -1,9 +1,9 @@
-! Checksum: cBZj2WgowYT1sbDCa7IYHQ
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1709744817-14400.patch
+! Checksum: TlSS2UAHo7uQaVWlvQMDFQ
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1709759205-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.22.4
-! TimeUpdated: 2024-03-06T17:01:45+00:00
+! Version: 2.1.22.5
+! TimeUpdated: 2024-03-06T21:01:44+00:00
 ! Expires: 10 days (update frequency)
 &sadbl=1$third-party
 -ad-300x600-
@@ -9950,6 +9950,7 @@ browsershots.org#@#.advert_area
 ||achaipheegly.com^
 ||achcdn.com^
 ||achecaskmeditate.com^
+||achejoos.com^
 ||achelessintegralsigh.com^
 ||achievablecpmrevenue.com^
 ||achievebeneficial.com^
@@ -15419,6 +15420,7 @@ browsershots.org#@#.advert_area
 ||fqnyvwyplel.com^
 ||fqpxjydyj.com^
 ||fqskuzqwpgu.com^
+||fqxjrbepn.com^
 ||fragrancepneumoniatinker.com^
 ||frailcockroachconfiguration.com^
 ||frailshootingexamination.com^
@@ -19439,6 +19441,7 @@ browsershots.org#@#.advert_area
 ||nagarh.com^
 ||naggingirresponsible.com^
 ||nagwrotedetain.com^
+||naiglipu.xyz^
 ||naigristoa.com^
 ||naipatouz.com^
 ||naipsouz.net^
@@ -26869,6 +26872,7 @@ browsershots.org#@#.advert_area
 ||yvmads.com^
 ||yvzgazds6d.com^
 ||ywhowascryin.com^
+||ywopyohpihnkppc.xyz^
 ||ywronwasthetron.com^
 ||ywvjyxp.com^
 ||yx-ads6.com^
@@ -31184,6 +31188,7 @@ winscp.net##.promo-block
 forums.minecraftforge.net,nextdoor.com,uploadvr.com##.promo-container
 texasmonthly.com##.promo-in-body
 texasmonthly.com##.promo-inline
+spin.com##.promo-lead
 coveteur.com##.promo-placeholder
 texasmonthly.com##.promo-topper
 texasmonthly.com##.promo__vertical
@@ -31924,6 +31929,8 @@ twitter.com##div[data-testid="cellInnerDiv"] > div > div[class] > div[class][dat
 qwant.com##div[data-testid="heroTiles"]
 qwant.com##div[data-testid="homeTrendsContainer"] a[href^="https://api.qwant.com/v3/r/?u="]
 sitepoint.com##div[data-unit-code]
+spin.com##div[id*="-promo-lead-"]
+spin.com##div[id*="-promo-mrec-"]
 geeksforgeeks.org##div[id^="GFG_AD_"]
 kisshentai.net,onworks.net##div[id^="ad"]
 songlyrics.com##div[id^="ad-absolute-160"]
@@ -32033,7 +32040,6 @@ titantv.com##td[id^="menutablelogocell"]
 trademe.co.nz##tm-display-ad
 greatandhra.com##ul.sortable-list > div
 backgrounds.wetransfer.net##we-wallpaper
-twidouga.net###container > .item:not(:has(> a[href*="https://video.twimg.com/"]))
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se###headerTopBar ~ div > div:has(div#RAD_D_station_top)
 gtaforums.com###ipsLayout_mainArea div:has(> #pwDeskLbAtf)
 aleteia.org###root > div[class]:has(> .adslot)
@@ -32636,6 +32642,7 @@ internationalsexguide.nl,usasexguide.nl##.isg_banner
 e-hentai.org##.itd[colspan="4"]
 amateurporn.me,eachporn.com##.item[style]
 drtuber.com##.item_spots
+twidouga.net##.item_w360
 pornwhite.com,sleazyneasy.com##.items-holder
 escortdirectory.com##.ixs-govazd-item
 alastonsuomi.com##.jb
