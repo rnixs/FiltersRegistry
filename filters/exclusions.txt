@@ -435,5 +435,11 @@ $~object-subrequest
 ,object-subrequest
 !#####################
 !
+!### EasyList Czech and Slovak ###
+! https://github.com/AdguardTeam/AdguardFilters/issues/174196
+/^(~.*)?##\.r-main$/
+! End: EasyList Czech and Slovak
+!###########################
+!
 !----- TEMPORARY -----
 !----- TEMPORARY -----
