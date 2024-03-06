@@ -1,12 +1,15 @@
-! Checksum: APvBTVE05sDRWl76/zezfg
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1709742985-3600.patch
+! Checksum: azrDxNUQiNCeO6dUDUuHLQ
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1709746568-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.20.46
-! TimeUpdated: 2024-03-06T16:32:22+00:00
+! Version: 2.0.20.47
+! TimeUpdated: 2024-03-06T17:32:30+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com##._aagw:empty
+newsmaker.md##.evo-search-holder
+newsmaker.md###custom_html-13
+agar.io#$#div[id^="agar-io_"] { display: none !important; }
 hwupgrade.it###live-player
 ||player.glomex.com^$domain=ga.de
 sports.kz##div.stories_
