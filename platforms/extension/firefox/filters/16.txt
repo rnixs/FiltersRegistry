@@ -1,9 +1,9 @@
-! Checksum: HxAvQtxMpiqMUtzFwQ4ROw
-! Diff-Path: ../patches/16/16-s-1709699764-3600.patch
+! Checksum: 3mK42waaz9V0rq6ZDY5dWg
+! Diff-Path: ../patches/16/16-s-1709724991-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.88
-! TimeUpdated: 2024-03-06T04:32:04+00:00
+! Version: 2.0.43.89
+! TimeUpdated: 2024-03-06T11:32:11+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1580,6 +1580,8 @@ app.molotov.tv#%#//scriptlet('prevent-xhr', '/ping?token=')
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174201#issuecomment-1980613664
+@@||cdn.gwdang.com/plt_nuxt/public/web_banner_close.*.js$domain=gwdang.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172480
 uokufa.edu.iq#@#.e3lan
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168065

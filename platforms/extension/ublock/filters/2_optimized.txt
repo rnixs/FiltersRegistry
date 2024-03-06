@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: yjEyLfSMutXMbQww97naqw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709721396-3600.patch
+! Checksum: g38lmeXtSJZ8z+wFxeKAbw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709725013-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.25.47
-! TimeUpdated: 2024-03-06T10:32:56+00:00
+! Version: 2.3.25.48
+! TimeUpdated: 2024-03-06T11:33:01+00:00
 ! Expires: 5 days (update frequency)
 ||bj2550.com^
 ||nastokit.com^
@@ -4638,6 +4638,8 @@ iamgujarat.com,eisamay.com,samayam.com,vijaykarnataka.com,indiatimes.com##div[cl
 banglatribune.com##div[id^="BT_Inner_R"]
 bdjobs.com##.single-promo
 banglanews24.com##+js(abort-current-script, $, #myModal)
+net.hr##.VoyoSlider_container
+net.hr##div[class*="__ads-"]
 dalmatinskiportal.hr##.ad-click-banner
 espreso.co.rs##body .ads
 net.hr###sliding_wrapper
@@ -8941,6 +8943,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||olalivehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+modsfire.com##a[href^="https://offergate-software"]
 lyricsbox.com##div[class^="lai_"]
 thediplomat.com##[class*="td-ad"]
 royaledudes.io##.gifts
@@ -19603,6 +19606,7 @@ browsershots.org#@#.advert_area
 ||abrhydona.com^
 ||abruptcompliments.com^
 ||abruptlyretortedbat.com^
+||absentcleannewspapers.com^
 ||absentlybiddingleopard.com^
 ||abservinean.com^
 ||absoluteroute.com^
@@ -20402,6 +20406,7 @@ browsershots.org#@#.advert_area
 ||awptlpu.com^
 ||aws-itcloud.net^
 ||awtpguxqtf.com^
+||axallarded.top^
 ||axkwmsivme.com^
 ||axlohcsruwak.com^
 ||axvkdpcnadgdt.com^
@@ -21535,6 +21540,7 @@ browsershots.org#@#.advert_area
 ||creditbitesize.com^
 ||creditorapido.xyz^
 ||creepybuzzing.com^
+||crepeyindited.top^
 ||cresfpho2ntesepapillo3.com^
 ||crestfallenwall.com^
 ||crevicedepressingpumpkin.com^
@@ -23625,6 +23631,7 @@ browsershots.org#@#.advert_area
 ||injuredripplegentleman.com^
 ||inkfeedmausoleum.com^
 ||inklinkor.com^
+||inlardbroigne.top^
 ||inlugiar.com^
 ||innity.net^
 ||innyweakela.co^
@@ -27598,6 +27605,7 @@ browsershots.org#@#.advert_area
 ||theonlins.com^
 ||theoriamungey.com^
 ||theorysuspendlargest.com^
+||thepsimp.net^
 ||therelimitless.com^
 ||thesekid.pro^
 ||theshafou.com^
@@ -28932,6 +28940,7 @@ browsershots.org#@#.advert_area
 ||zelatorpukka.com^
 ||zelqytckpgzwag.com^
 ||zelsaips.com^
+||zendonetwise.com^
 ||zendplace.pro^
 ||zepazupi.com^
 ||zerads.com^
@@ -31338,7 +31347,6 @@ news12.com##.banner-middleboard-area
 timesofisrael.com##.banner-placeholder
 bikepacking.com##.banner-sidebar
 historydaily.org,israelnationalnews.com,news12.com,pwinsider.com,spaceref.com,usahealthcareguide.com##.banner-top
-albertsons.com##.banner-unit
 depositfiles.com,dfiles.eu##.banner1
 forexlive.com,tass.com##.banner__wrapper
 news.am##.banner_click
@@ -31883,6 +31891,7 @@ last.fm##.recs-feed-item--ad
 knowyourmeme.com##.rectangle-unit-wrapper
 futbol24.com##.rek
 timesofindia.indiatimes.com##.relatedVideoWrapper
+m.tribunnews.com##.reserved-topmedium
 jetphotos.com##.result--adv
 myminifactory.com##.result-adv
 curseforge.com##.rev-container

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 5e6YEx76HDAPY7Y9bpmYrA
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709721396-3600.patch
+! Checksum: qphaTeJDQRFtW2lW5ryl7A
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709725014-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.25.47
-! TimeUpdated: 2024-03-06T10:32:56+00:00
+! Version: 2.3.25.48
+! TimeUpdated: 2024-03-06T11:33:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -16533,6 +16533,9 @@ fofmyanmar.com##center > a[rel="noopener noreferrer"] > img
 !---------------------------------------------------------------------
 ! NOTE: Croatian
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173898
+net.hr##.VoyoSlider_container
+net.hr##div[class*="__ads-"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171304
 dalmatinskiportal.hr##.ad-click-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167246
@@ -31972,6 +31975,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 !
 ! NOTE: Specific rules
 !
+modsfire.com##a[href^="https://offergate-software"]
 lyricsbox.com##div[class^="lai_"]
 thediplomat.com##[class*="td-ad"]
 royaledudes.io##.gifts
