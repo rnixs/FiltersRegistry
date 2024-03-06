@@ -1,9 +1,9 @@
-! Checksum: FuDd5WHz6j0WVz9sD480ng
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1709692550-3600.patch
+! Checksum: UeVWVTuTCOtAGakB05ts+w
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1709696183-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.82
-! TimeUpdated: 2024-03-05T21:32:48+00:00
+! Version: 2.1.89.83
+! TimeUpdated: 2024-03-06T03:32:29+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -5505,6 +5505,7 @@ techbang.com##.notify_stickie
 nordot.app##.page__gdpr
 create.vista.com,shephardmedia.com,roosterteeth.com##.policy-banner
 hotellook.com,kongregate.com##.policy-bar
+pdftoexcel.com,netart-registrar.com,nazwa.pl##.policy-box
 netia.pl,vitalia.pl,makeup.ru,skin.ru##.popup-cookies
 extremetech.com,ign.com##.privacy-content
 cbc.ca##.privacyNotification
@@ -9045,6 +9046,7 @@ api.flocktory.com
 ||unpkg.com/@textback/notification-widget
 ||widget.pico.tools^$third-party
 ||widget.privy.com^$third-party
+ernesto.it###scroll-cta
 theinformation.com##.top-sticky-banner
 sport24.ru##.fxRfnB
 onona.ru###recomendation-popup

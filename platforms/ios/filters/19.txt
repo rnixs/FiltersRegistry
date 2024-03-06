@@ -1,9 +1,9 @@
-! Checksum: fZneI8HK9Wp0PNCBu4oMSA
-! Diff-Path: ../patches/19/19-s-1709674637-3600.patch
+! Checksum: NzmG9WbpuMqGCuWaf0yJfA
+! Diff-Path: ../patches/19/19-s-1709696219-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.77
-! TimeUpdated: 2024-03-05T21:33:00+00:00
+! Version: 2.0.32.78
+! TimeUpdated: 2024-03-06T03:32:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4336,6 +4336,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+ernesto.it###scroll-cta
 theinformation.com##.top-sticky-banner
 sport24.ru##.fxRfnB
 onona.ru###recomendation-popup
