@@ -1,5 +1,5 @@
-! Checksum: a7fD2TOqT87FNyVHvAYS6w
-! Diff-Path: ../patches/22_optimized/22_optimized-s-1709660185-3600.patch
+! Checksum: 8g8h5QPP6DCsquF0LBkDfg
+! Diff-Path: ../patches/22_optimized/22_optimized-s-1709692561-3600.patch
 ! Title: AdGuard Widgets filter (Optimized)
 ! Description: Blocks annoying third-party widgets: online assistants, live support chats, etc.
 ! Version: 2.0.7.48
@@ -423,6 +423,7 @@ gameinn.jp##.p-linkList
 ||2chnewsblog.blog.jp/imgrss_$subdocument
 squallchannel.com,2chnewsblog.blog.jp##.article-body-more > a[target="_blank"]
 squallchannel.com,2chnewsblog.blog.jp##.article-body-more > a[target="_blank"] + br
+||doucolle-kako.livedoor.biz/pick-$subdocument
 doucolle.net###freebox
 m4ex.com#?##the-content > center > b:has(> div.inmaincmframe)
 ||dameparts.com/pbanner/
@@ -1107,6 +1108,7 @@ proagro.com.ua#%#//scriptlet("abort-on-property-read", "wpsite_clickable_data")
 delo.ua##.c-support
 texty.org.ua###the-only-donate-banner
 mediazona.online,fourth-sphere-302420.appspot.com,zona.media##.tools__support_container
+||static.theprint.in/wp-content/uploads/*/subscribe_*.png
 theinternetpatrol.com##.adsbygoogle ~ table[Width="350"]
 bitcoin.org##.donation-container
 gellerreport.com#?#.widget-area > section.widget h2.donate-title:upward(section.widget)
