@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZfEkR2qXskcxcPVsjKlVBQ
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709714199-3600.patch
+! Checksum: 8ATsGuMay4J51HevOK1Nxw
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709717790-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.25.45
-! TimeUpdated: 2024-03-06T08:32:59+00:00
+! Version: 2.3.25.46
+! TimeUpdated: 2024-03-06T09:32:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -78,6 +78,7 @@
 !
 !
 !
+||bj2550.com^
 ||nastokit.com^
 ||jfssblglhreubu.com^
 ||virusscanner.to^$all
@@ -30010,6 +30011,8 @@ spectrum.ieee.org##+js(set-constant, splashpage, undefined)
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/173921
+myanimelist.net#$#body { background-color: inherit!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173776
 whattoexpect.com#$?#div[id][style="min-height:277px"] { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171909

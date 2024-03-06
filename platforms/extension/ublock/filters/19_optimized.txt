@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 16KpJQ5zx0PJbUPQsDOMSg
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1709710598-3600.patch
+! Checksum: p6mzzJvTbbZn2YsJjBkngw
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1709717787-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.79
-! TimeUpdated: 2024-03-06T07:32:23+00:00
+! Version: 2.0.32.80
+! TimeUpdated: 2024-03-06T09:32:08+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -7920,7 +7920,7 @@ kbzk.com,thedenverchannel.com,wcpo.com##.newsletter-opt
 pga.com##div[data-cy="gdpr-banner"]
 elespanol.com##.md-suscription
 lefigaro.fr,ccm.net,journaldesfemmes.fr,commentcamarche.net##.nl-box
-||cdn.convertbox.com^$third-party
+||cdn.convertbox.com^$third-party,domain=~brasilparalelo.com.br
 ||app.conversiobot.com^$third-party
 correiobraziliense.com.br##.revue-embed
 cnx-software.com#?##secondary > section.widget:has(> div.textwidget a[rel="nofollow"]:contains(Subscribe))
