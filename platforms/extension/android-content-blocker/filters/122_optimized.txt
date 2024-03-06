@@ -1,9 +1,9 @@
-! Checksum: xl+26dG61qKLZjA43SKZ1Q
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1709672784-14400.patch
+! Checksum: GF7ZCVoct/SPvXulAIshvw
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1709687183-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.26
-! TimeUpdated: 2024-03-05T21:02:20+00:00
+! Version: 2.1.22.27
+! TimeUpdated: 2024-03-06T01:02:12+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -11643,6 +11643,7 @@ ndtv.com##.new_nextarrow
 ndtv.com##.new_prevarrow
 businesstech.co.za,mybroadband.co.za##.next-previous-article
 ancient-origins.net##.nextart
+nerdwallet.com##.nw-auth-stepper
 politifact.com##.o-disruptor
 slickdeals.net##.omegaBanner
 app.slack.com##.p-ia__workspace_banner.p-client__banners
@@ -11906,6 +11907,7 @@ theguardian.com##[name="SlotBodyEnd"]
 theguardian.com##[name="StickyBottomBanner"]
 tech-camp.in##a[data-gtm-tcb="TCB_CLICK_scrollbanner_default_exp_income"]
 tech-camp.in##a[data-gtm-tcb^="TCB_CLICK_buntyubanner_"]
+nerdwallet.com##div._3VJt4n > div > ._3eCw6n._2247K8
 amazon.com##div[class^="DesktopFlexBannerLayout-module__playerContainer_"]
 scribd.com##div[data-testid="bottom-right-mrec"]
 scribd.com##div[data-testid="sticky-wrapper"]
@@ -12109,6 +12111,8 @@ docs.github.com##[aria-label="Scroll to top"]
 linuxbabe.com#$#html { overflow: auto !important }
 fastcompany.com#$#body,html { height: auto !important; overflow: auto !important }
 huckberry.com#$#body,html { height: auto !important; overflow: auto !important }
+nerdwallet.com##._1y2JXo
+nerdwallet.com#$#body,html { overflow: auto !important; position: initial !important; }
 talkingpointsmemo.com##.MeteredBumperWinter24Widget
 opensecrets.org##.is-visible.js-init.Modal
 kartable.fr#$#body,html { overflow: auto !important; position: initial !important; }
@@ -15543,6 +15547,8 @@ finance.yahoo.com#$#html { overflow: auto !important; position: initial !importa
 linuxbabe.com#$#html { overflow: auto !important }
 fastcompany.com#$#body,html { height: auto !important; overflow: auto !important }
 huckberry.com#$#body,html { height: auto !important; overflow: auto !important }
+nerdwallet.com##._1y2JXo
+nerdwallet.com#$#body,html { overflow: auto !important; position: initial !important; }
 talkingpointsmemo.com##.MeteredBumperWinter24Widget
 opensecrets.org##.is-visible.js-init.Modal
 kartable.fr#$#body,html { overflow: auto !important; position: initial !important; }
@@ -17639,6 +17645,7 @@ dikidi.net#@#.item-shares
 tradingview.com#@#.js-follow-user
 faz.net#@#.js-sharebuttons
 deezer.com#@#.link-social
+lemonde.fr#@#.meta__social
 interior.ru#@#.pinterest-wrapper
 needlenthread.com#@#.pinterest1
 marieclaire.ru#@#.pinterestShare

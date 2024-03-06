@@ -1,9 +1,9 @@
-! Checksum: s559fEhDEdiyNLcIhvQ5QQ
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1709672833-14400.patch
+! Checksum: 5CpTc37BBq/JKbNUWMLnQw
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1709687229-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.26
-! TimeUpdated: 2024-03-05T21:02:20+00:00
+! Version: 2.1.22.27
+! TimeUpdated: 2024-03-06T01:02:12+00:00
 ! Expires: 12 hours (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -11643,6 +11643,7 @@ ndtv.com##.new_nextarrow
 ndtv.com##.new_prevarrow
 businesstech.co.za,mybroadband.co.za##.next-previous-article
 ancient-origins.net##.nextart
+nerdwallet.com##.nw-auth-stepper
 politifact.com##.o-disruptor
 slickdeals.net##.omegaBanner
 app.slack.com##.p-ia__workspace_banner.p-client__banners
@@ -11906,6 +11907,7 @@ theguardian.com##[name="SlotBodyEnd"]
 theguardian.com##[name="StickyBottomBanner"]
 tech-camp.in##a[data-gtm-tcb="TCB_CLICK_scrollbanner_default_exp_income"]
 tech-camp.in##a[data-gtm-tcb^="TCB_CLICK_buntyubanner_"]
+nerdwallet.com##div._3VJt4n > div > ._3eCw6n._2247K8
 amazon.com##div[class^="DesktopFlexBannerLayout-module__playerContainer_"]
 scribd.com##div[data-testid="bottom-right-mrec"]
 scribd.com##div[data-testid="sticky-wrapper"]
@@ -12113,6 +12115,8 @@ bestrecipes.com.au#%#//scriptlet('ubo-cookie-remover.js', 'br_mc')
 androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com#%#//scriptlet('ubo-cookie-remover.js', 'articlesRead')
 zippia.com#%#//scriptlet('ubo-nosiif.js', '/onGatedSignupPopupTrigger|zippia-popup/')
 zippia.com#%#//scriptlet('ubo-cookie-remover.js', '_zippia-popup-s_t')
+nerdwallet.com##._1y2JXo
+nerdwallet.com#$#body,html { overflow: auto !important; position: initial !important; }
 talkingpointsmemo.com##.MeteredBumperWinter24Widget
 talkingpointsmemo.com#%#//scriptlet('ubo-cookie-remover.js', 'tpm_article_views')
 talkingpointsmemo.com#%#//scriptlet('ubo-cookie-remover.js', 'tpm_page_views')
@@ -16836,6 +16840,8 @@ bestrecipes.com.au#%#//scriptlet('ubo-cookie-remover.js', 'br_mc')
 androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com#%#//scriptlet('ubo-cookie-remover.js', 'articlesRead')
 zippia.com#%#//scriptlet('ubo-nosiif.js', '/onGatedSignupPopupTrigger|zippia-popup/')
 zippia.com#%#//scriptlet('ubo-cookie-remover.js', '_zippia-popup-s_t')
+nerdwallet.com##._1y2JXo
+nerdwallet.com#$#body,html { overflow: auto !important; position: initial !important; }
 talkingpointsmemo.com##.MeteredBumperWinter24Widget
 talkingpointsmemo.com#%#//scriptlet('ubo-cookie-remover.js', 'tpm_article_views')
 talkingpointsmemo.com#%#//scriptlet('ubo-cookie-remover.js', 'tpm_page_views')
@@ -20196,6 +20202,7 @@ dikidi.net#@#.item-shares
 tradingview.com#@#.js-follow-user
 faz.net#@#.js-sharebuttons
 deezer.com#@#.link-social
+lemonde.fr#@#.meta__social
 interior.ru#@#.pinterest-wrapper
 needlenthread.com#@#.pinterest1
 marieclaire.ru#@#.pinterestShare

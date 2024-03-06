@@ -1,16 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: +klicfZABKfHo2Fh0AAU/A
-! Diff-Path: ../patches/122/122-s-1709672816-14400.patch
+! Checksum: T0LByHq0EIyh1E6nILoqXQ
+! Diff-Path: ../patches/122/122-s-1709687213-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.26
-! TimeUpdated: 2024-03-05T21:02:20+00:00
+! Version: 2.1.22.27
+! TimeUpdated: 2024-03-06T01:02:12+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: VFUZ7oGe/zw7iZIB8nMCyw
-! OriginalVersion: 202403052015
+! Checksum: oLXUba/DdC+NIaG+oETACA
+! OriginalVersion: 202403060040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-03-05 20:15 UTC
+! Last modified: 2024-03-06 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35247,6 +35247,7 @@ ancient-origins.net##.nextart
 bellasugar.com.au##.node-navigation
 reed.co.uk,thecourier.co.uk,thephuketnews.com##.notification
 hth-kitchen.com##.notificationbar
+nerdwallet.com##.nw-auth-stepper
 latinospost.com##.nw_cont
 latinospost.com##.nwletter
 politifact.com##.o-disruptor
@@ -35845,6 +35846,7 @@ theguardian.com##[name="StickyBottomBanner"]
 xhamster.com,xhamster.desi##a[class*="promoMessageBanner-"]
 tech-camp.in##a[data-gtm-tcb="TCB_CLICK_scrollbanner_default_exp_income"]
 tech-camp.in##a[data-gtm-tcb^="TCB_CLICK_buntyubanner_"]
+nerdwallet.com##div._3VJt4n > div > ._3eCw6n._2247K8
 amazon.com##div[class^="DesktopFlexBannerLayout-module__playerContainer_"]
 semafor.com##div[class^="styles_floatingBanner_"]
 scribd.com##div[data-testid="bottom-right-mrec"]
@@ -36288,6 +36290,9 @@ androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.c
 ! zippia.com (forced login) https://github.com/uBlockOrigin/uAssets/issues/21354
 zippia.com##+js(no-setInterval-if, /onGatedSignupPopupTrigger|zippia-popup/)
 zippia.com##+js(cookie-remover, _zippia-popup-s_t)
+! reg nag
+nerdwallet.com##._1y2JXo
+nerdwallet.com#$#body,html { overflow: auto !important; position: initial !important; }
 ! pageview counter
 ! talkingpointsmemo.com
 talkingpointsmemo.com##.MeteredBumperWinter24Widget
@@ -47899,6 +47904,9 @@ androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.c
 ! zippia.com (forced login) https://github.com/uBlockOrigin/uAssets/issues/21354
 zippia.com##+js(no-setInterval-if, /onGatedSignupPopupTrigger|zippia-popup/)
 zippia.com##+js(cookie-remover, _zippia-popup-s_t)
+! reg nag
+nerdwallet.com##._1y2JXo
+nerdwallet.com#$#body,html { overflow: auto !important; position: initial !important; }
 ! pageview counter
 ! talkingpointsmemo.com
 talkingpointsmemo.com##.MeteredBumperWinter24Widget
@@ -57067,6 +57075,7 @@ dikidi.net#@#.item-shares
 tradingview.com#@#.js-follow-user
 faz.net#@#.js-sharebuttons
 deezer.com#@#.link-social
+lemonde.fr#@#.meta__social
 interior.ru#@#.pinterest-wrapper
 needlenthread.com#@#.pinterest1
 marieclaire.ru#@#.pinterestShare
