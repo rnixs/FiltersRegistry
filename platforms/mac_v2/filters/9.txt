@@ -1,9 +1,9 @@
-! Checksum: IK1ViI9pROHDCTKAz51QDA
-! Diff-Path: ../patches/9/9-s-1709710617-3600.patch
+! Checksum: XPBFP/50QyPF9r/N3mV+FA
+! Diff-Path: ../patches/9/9-s-1709714216-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.63
-! TimeUpdated: 2024-03-06T07:33:41+00:00
+! Version: 2.0.23.64
+! TimeUpdated: 2024-03-06T08:33:36+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1860,6 +1860,7 @@ windowsblogitalia.com#$#.sidebar > div.tile-top.tile { height: auto!important; }
 ! Bad: .org/ads/$domain=example.org (for instance, should be in speficic.txt)
 !
 !
+/vast_1win.xml
 /imagenes_publicidad/*
 -publicidad-
 -publicidad/
