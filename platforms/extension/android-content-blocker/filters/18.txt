@@ -1,9 +1,9 @@
-! Checksum: 1VPxQMed2T6SP9ZxaD3Ubg
-! Diff-Path: ../patches/18/18-s-1709739481-3600.patch
+! Checksum: nG2S93sYqlUK1wKCmKXArg
+! Diff-Path: ../patches/18/18-s-1709778956-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.35.25
-! TimeUpdated: 2024-03-06T15:33:33+00:00
+! Version: 2.0.35.26
+! TimeUpdated: 2024-03-07T02:32:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2349,6 +2349,8 @@ tuttotech.net,tuttoandroid.net,multiplayer.it,tomshw.it,moto.it#$#html { overflo
 !
 ! NOTE: Regular rules
 !
+lvbet.pl#$#bcf-modal-cookies-consent { display: none !important; }
+lvbet.pl#$#body { overflow: auto !important; }
 play.google.*##.glue-cookie-notification-bar
 meteored.com.ar#$#.cmp_gdpr { display: none !important; }
 meteored.com.ar#$#body { overflow: auto !important; }
