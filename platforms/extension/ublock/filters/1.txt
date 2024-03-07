@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: rJGsWV5i1WYufIuEmtFxgQ
-! Diff-Path: ../patches/1/1-s-1709825801-3600.patch
+! Checksum: 8WDke6wGopQgEpkn2wrfBQ
+! Diff-Path: ../patches/1/1-s-1709832987-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.89.6
-! TimeUpdated: 2024-03-07T15:32:26+00:00
+! Version: 2.0.89.7
+! TimeUpdated: 2024-03-07T17:32:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4356,8 +4356,9 @@ volley.ru##+js(no-fetch-if, exchange.buzzoola.com)
 @@||textovod.com/images/ads.png
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168541
 torlook.in##+js(set-constant, adBlockFunction, noopFunc)
-! https://github.com/AdguardTeam/AdguardFilters/issues/168249
-positiverecords.ru##+js(abort-current-script, $, Adblock)
+! https://github.com/AdguardTeam/AdguardFilters/issues/174225
+positiverecords.ru##+js(abort-current-script, $, .height())
+positiverecords.ru#@#.ad-google
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167304
 ! pikabu.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164131#issuecomment-1784848634

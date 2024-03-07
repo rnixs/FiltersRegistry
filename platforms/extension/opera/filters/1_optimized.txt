@@ -1,9 +1,9 @@
-! Checksum: s99ucrAlWZaFV5uU0d+PrA
-! Diff-Path: ../patches/1_optimized/1_optimized-s-1709825792-3600.patch
+! Checksum: pyCia29PSTnBL7SSyhPHcw
+! Diff-Path: ../patches/1_optimized/1_optimized-s-1709832981-3600.patch
 ! Title: AdGuard Russian filter (Optimized)
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.89.6
-! TimeUpdated: 2024-03-07T15:32:26+00:00
+! Version: 2.0.89.7
+! TimeUpdated: 2024-03-07T17:32:25+00:00
 ! Expires: 10 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -2019,7 +2019,8 @@ volley.ru#%#//scriptlet('prevent-fetch', 'exchange.buzzoola.com')
 tragtorr.in#%#//scriptlet('trusted-replace-node-text', 'script', 'function getCookie', '/var [a-zA-Z]{5,10} .*\s*if\([a-zA-Z]{5,10}\){\s*.*\s*\} else /', '')
 @@||textovod.com/images/728x90.png
 torlook.in#%#//scriptlet("set-constant", "adBlockFunction", "noopFunc")
-positiverecords.ru#%#//scriptlet("abort-current-inline-script", "$", "Adblock")
+positiverecords.ru#%#//scriptlet('abort-current-inline-script', '$', '.height()')
+positiverecords.ru#@#.ad-google
 ||tests24.su^$cookie=/^ai/
 pikabu.ru#%#//scriptlet('abort-on-stack-trace', 'XMLHttpRequest', 'createAd')
 pikabu.ru#%#//scriptlet('prevent-setTimeout', '_sendAnalytics')

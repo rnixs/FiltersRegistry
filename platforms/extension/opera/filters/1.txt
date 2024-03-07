@@ -1,9 +1,9 @@
-! Checksum: jzMV+hvzbccgQpesRSx4/g
-! Diff-Path: ../patches/1/1-s-1709825789-3600.patch
+! Checksum: AYfJ6rq1xhBov26ZK3grSQ
+! Diff-Path: ../patches/1/1-s-1709832980-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.89.6
-! TimeUpdated: 2024-03-07T15:32:26+00:00
+! Version: 2.0.89.7
+! TimeUpdated: 2024-03-07T17:32:25+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4370,8 +4370,9 @@ tragtorr.in#%#//scriptlet('trusted-replace-node-text', 'script', 'function getCo
 @@||textovod.com/images/ads.png
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168541
 torlook.in#%#//scriptlet("set-constant", "adBlockFunction", "noopFunc")
-! https://github.com/AdguardTeam/AdguardFilters/issues/168249
-positiverecords.ru#%#//scriptlet("abort-current-inline-script", "$", "Adblock")
+! https://github.com/AdguardTeam/AdguardFilters/issues/174225
+positiverecords.ru#%#//scriptlet('abort-current-inline-script', '$', '.height()')
+positiverecords.ru#@#.ad-google
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167304
 ||tests24.su^$cookie=/^ai/
 ! pikabu.ru
