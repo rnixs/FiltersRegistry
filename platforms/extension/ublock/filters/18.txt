@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: bFSPBd8gm9Wj8NAYFuLrpQ
-! Diff-Path: ../patches/18/18-s-1709822255-3600.patch
+! Checksum: D6qLpTWTTGKS3AXh8Vgv0Q
+! Diff-Path: ../patches/18/18-s-1709829393-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.35.32
-! TimeUpdated: 2024-03-07T14:32:59+00:00
+! Version: 2.0.35.33
+! TimeUpdated: 2024-03-07T16:32:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -14314,6 +14314,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174328
+@@||sdk.privacy-center.org^$domain=blablacar.pl
 ! businessinsider.com - memory leak
 ! https://www.businessinsider.com/bo-burnham-inside-all-eyes-on-me-analysis-ending-explained-2021-6?r=US&IR=T
 @@||cmp.osano.com/*/osano.js$domain=businessinsider.com
