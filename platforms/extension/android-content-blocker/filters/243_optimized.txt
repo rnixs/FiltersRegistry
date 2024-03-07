@@ -1,9 +1,9 @@
-! Checksum: k9QJ0asf0bIVByv8TDiuEg
-! Diff-Path: ../patches/243_optimized/243_optimized-s-1709802400-14400.patch
+! Checksum: KwDFbI3kxl/FZJCgSPX79g
+! Diff-Path: ../patches/243_optimized/243_optimized-s-1709831229-14400.patch
 ! Title: Frellwit's Swedish Filter (Optimized)
 ! Description: Filter that aims to remove regional Swedish ads, tracking, social media, annoyances, sponsored articles etc.
-! Version: 2.0.17.87
-! TimeUpdated: 2024-03-07T09:03:15+00:00
+! Version: 2.0.17.88
+! TimeUpdated: 2024-03-07T17:03:07+00:00
 ! Expires: 5 days (update frequency)
 .ads-gdprlock
 .ax/ad/
@@ -761,7 +761,6 @@ svensktidskrift.se###bannercolumn, img[title^="Annons"]
 svensktidskrift.se#$#.tf_svg_lazy { transition:none!important; filter:none!important; transform:none!important; }
 sverigesnatur.org##div[id^="sverigesNaturPopup"]
 sverigespringer.se##.cd-desktop-banner
-swebbtv.se##.modal, .modal-backdrop
 sweclockers.com###prisjakt-popular, .ad:not(.adPanorama), .adForumSticker, .dark-mode__sponsor
 sweclockers.com#$#.ad.adPanorama { height:100px!important; position:absolute!important; }
 swedroid.se##div[id$="_ad"], div[id$="_ad_mobile"], .externalTopMobile, #externalTopMobile, a[href^="//www.prisjakt.nu/produkt"], #nativendo-mainfeed + aside > .article, .article-footer > h3, .article-footer > .aeChart, #newExternal
