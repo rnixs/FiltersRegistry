@@ -1,9 +1,9 @@
-! Checksum: IpRQq/cM01+PkQhrduy3eQ
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1709822219-3600.patch
+! Checksum: y4Z2JIQAqCYyTJSqeAl+OQ
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1709825769-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.92
-! TimeUpdated: 2024-03-07T14:33:02+00:00
+! Version: 2.0.32.93
+! TimeUpdated: 2024-03-07T15:32:16+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -4425,7 +4425,7 @@ mdjonline.com,wfmz.com,tv6tnt.com##.notification-button
 betcity.ru##app-push-confirm-form
 polskieradio.pl,polskieradio24.pl##.main-page__bell
 popcornnews.ru##.notifications_popup
-wtsp.com,wfaa.com,13newsnow.com,wusa9.com,kgw.com,king5.com,wcnc.com,kens5.com,khou.com,wkyc.com,ksdk.com##.page__notifications
+11alive.com,wtsp.com,wfaa.com,13newsnow.com,wusa9.com,kgw.com,king5.com,wcnc.com,kens5.com,khou.com,wkyc.com,ksdk.com##.page__notifications
 ||rankomat.pl/kalkulator/client_app/assets/push-notifications/push-notifications.script.js
 ceneo.pl###notifications-toast.js_popup_shown
 elnuevodia.com###push-popup

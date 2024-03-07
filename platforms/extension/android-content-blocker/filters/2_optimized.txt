@@ -1,9 +1,9 @@
-! Checksum: 7NfK4GQRV0U4Uy5cmgG5Fg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709822221-3600.patch
+! Checksum: gxTX8vKEVqYhAiGS2JJOkQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709825771-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.25.68
-! TimeUpdated: 2024-03-07T14:33:50+00:00
+! Version: 2.3.25.69
+! TimeUpdated: 2024-03-07T15:33:01+00:00
 ! Expires: 5 days (update frequency)
 ||cqeomumqwx.com^
 ||d3c.life^
@@ -7476,6 +7476,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||olalivehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+sittingonclouds.net##iframe[id^="id0"][title]
 progamerage.com##div[class^="adsslotcustom"]
 etherscan.io##form[action="/search"] + p.text-white
 ||previbes.online/z-

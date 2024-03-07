@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: kcKzzMASG/hLhr0XJxLoKw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709822258-3600.patch
+! Checksum: OOkcHyHsAjROE5+l8Ox7bA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709825808-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.25.68
-! TimeUpdated: 2024-03-07T14:33:50+00:00
+! Version: 2.3.25.69
+! TimeUpdated: 2024-03-07T15:33:01+00:00
 ! Expires: 5 days (update frequency)
 ||cqeomumqwx.com^
 ||d3c.life^
@@ -8923,6 +8923,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||olalivehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+sittingonclouds.net##iframe[id^="id0"][title]
 progamerage.com##div[class^="adsslotcustom"]
 etherscan.io##.container-xxl:has(> div[class^="py-"] > div > span#ContentPlaceHolder1_lblAdResult)
 etherscan.io##form[action="/search"] + p.text-white

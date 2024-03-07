@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: knZsvkfyrw/bCgPTlm2yeA
-! Diff-Path: ../patches/19/19-s-1709822256-3600.patch
+! Checksum: OF45O322DKdjFeh9kUe0Pw
+! Diff-Path: ../patches/19/19-s-1709825805-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.92
-! TimeUpdated: 2024-03-07T14:33:02+00:00
+! Version: 2.0.32.93
+! TimeUpdated: 2024-03-07T15:32:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4411,7 +4411,7 @@ novaescola.org.br###evaDrawerOpacity
 sat-sagasu.com##div[id^="xeory-fixed-banner"]
 csdn.net##.csdn-toolbar-creative-mp
 kcrw.com###overlay-keychain-ends-tonight-background
-wtsp.com,wnep.com,wfaa.com,firstcoastnews.com#$?#.grid__section_behavior_modal[data-name="exitInterstitial"] { remove: true; }
+11alive.com,wtsp.com,wnep.com,wfaa.com,firstcoastnews.com#$?#.grid__section_behavior_modal[data-name="exitInterstitial"] { remove: true; }
 cvs.com#$##MDigitalInvitationWrapper { display: none !important; }
 cvs.com#$#body { overflow: auto !important; }
 reviversoft.com#$#body { overflow: auto !important; }
@@ -11557,7 +11557,7 @@ square-enix-games.com##div[class^="notificationsBannerPadding_Layout"]
 square-enix-games.com##div[class^="container_NotificationsBanner"]
 thebell.io##.banner-bottom-subscribe
 woman.rambler.ru##.popup.j-mail-alert
-wtsp.com,wfaa.com,13newsnow.com,wusa9.com,kgw.com,king5.com,wcnc.com,kens5.com,khou.com,wkyc.com,ksdk.com##.page__notifications
+11alive.com,wtsp.com,wfaa.com,13newsnow.com,wusa9.com,kgw.com,king5.com,wcnc.com,kens5.com,khou.com,wkyc.com,ksdk.com##.page__notifications
 fox17online.com###desktop-notifications
 ||s.aimg.sk/zive_symfony/build/push-notification.*.js
 ||rankomat.pl/kalkulator/client_app/assets/push-notifications/push-notifications.script.js

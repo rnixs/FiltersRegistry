@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8CxFlyjXKd6qFp/W08TEmQ
-! Diff-Path: ../patches/9_optimized/9_optimized-s-1709818632-3600.patch
+! Checksum: 87MC70G7ekXWqpHeudYt4A
+! Diff-Path: ../patches/9_optimized/9_optimized-s-1709825810-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.70
-! TimeUpdated: 2024-03-07T13:34:02+00:00
+! Version: 2.0.23.71
+! TimeUpdated: 2024-03-07T15:33:39+00:00
 ! Expires: 5 days (update frequency)
 ||adzonestatic.com^
 ||adzep.com.br^$third-party
@@ -917,7 +917,6 @@ playerflix.com##+js(nano-setInterval-booster, myInterval, *, 0.001)
 animesbr.cc##+js(abort-on-property-write, redirectpage)
 assistirfilmeshdgratis.*##+js(remove-attr, href, a[href]#clickfakeplayer)
 sub100.com.br##+js(json-prune, *, *.media.*.advertisement_id)
-suaurl.com##+js(window.open-defuser)
 megafire.net##+js(set-constant, contadorClics, 1)
 playpaste.com##+js(abort-current-script, $, window.open)
 playpaste.com##+js(abort-current-script, enlace, document.write)
@@ -933,7 +932,7 @@ hentaikai.com,superhq.net##+js(abort-on-property-write, protData)
 poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(window.open-defuser)
 poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(abort-on-property-read, cJsEdge)
 pobre.wtf##+js(set-constant, ads, false)
-suaurl.com##+js(set-constant, acdl, undefined)
+suaurl.com,reidoplacar.com##+js(set-constant, acdl, noopFunc)
 suaurl.com##+js(no-setTimeout-if, window.location.href)
 suaurl.com##+js(abort-current-script, $, notficationAd)
 suaurl.com##+js(abort-current-script, open, document.getElementById)

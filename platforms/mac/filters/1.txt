@@ -1,9 +1,9 @@
-! Checksum: j+k7EhSPd0P60kPsLPviLw
-! Diff-Path: ../patches/1/1-s-1709815038-3600.patch
+! Checksum: tobkw2mA8tKcARF+YuyLYw
+! Diff-Path: ../patches/1/1-s-1709825816-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.89.5
-! TimeUpdated: 2024-03-07T12:32:23+00:00
+! Version: 2.0.89.6
+! TimeUpdated: 2024-03-07T15:32:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4386,7 +4386,7 @@ volley.ru#%#//scriptlet('prevent-fetch', 'exchange.buzzoola.com')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172229
 @@||yandex.ru/ads/system/context.js$domain=tvzvezda.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171998
-tragtorr.in#%#//scriptlet('trusted-replace-node-text', 'script', 'function getCookie', '/var adblock .*\s*if\(adblock\){\s*.*\s*\} else /', '')
+tragtorr.in#%#//scriptlet('trusted-replace-node-text', 'script', 'function getCookie', '/var [a-zA-Z]{5,10} .*\s*if\([a-zA-Z]{5,10}\){\s*.*\s*\} else /', '')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170949
 @@||textovod.com/images/728x90.png
 @@||textovod.com/images/ads.png
