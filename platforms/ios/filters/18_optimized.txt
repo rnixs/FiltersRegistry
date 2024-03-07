@@ -1,9 +1,9 @@
-! Checksum: RL1HwlOE7nFQBN0Kvw8Kkg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1709800644-3600.patch
+! Checksum: Kjh8eB1US8FiC+WkAu7x4Q
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1709804203-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.35.28
-! TimeUpdated: 2024-03-07T08:32:14+00:00
+! Version: 2.0.35.29
+! TimeUpdated: 2024-03-07T09:32:11+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -6523,7 +6523,7 @@ mentimeter.com#%#//scriptlet('set-cookie-reload', 'has_approved_cookie_policy', 
 zdnet.com#%#//scriptlet('trusted-set-cookie', 'OptanonConsent', 'groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CC0005%3A1')
 help.snapchat.com#%#//scriptlet('prevent-addEventListener', 'wheel', 'preventDefault()')
 sudameapteek.ee#%#//scriptlet('set-cookie', 'gdpr_cookie_token', '1')
-parkerlebnis.de,moin.de,futurezone.de,derwesten.de#%#//scriptlet('trusted-click-element', '.cmpboxbtnspan > a.cmpboxbtnyes')
+fraenkische-rezepte.de,parkerlebnis.de,moin.de,futurezone.de,derwesten.de#%#//scriptlet('trusted-click-element', '.cmpboxbtnspan > a.cmpboxbtnyes')
 chrono24.*#%#//scriptlet('trusted-set-cookie', 'c24-consent', 'AAAAH0Eq')
 xvideos.com#%#//scriptlet('trusted-click-element', 'span#disclaimer-reject_cookies')
 crtm.es#%#//scriptlet('set-cookie', 'crtmcookiesCPersonalizacion', '1')
