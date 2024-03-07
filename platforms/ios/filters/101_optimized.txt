@@ -1,9 +1,9 @@
-! Checksum: ZVj5UAfvXPDqU25PQ93Ljw
-! Diff-Path: ../patches/101_optimized/101_optimized-s-1709788023-14400.patch
+! Checksum: Iqbu+IU+GRDGwHKZDelEwg
+! Diff-Path: ../patches/101_optimized/101_optimized-s-1709802434-14400.patch
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.22.7
-! TimeUpdated: 2024-03-07T05:01:41+00:00
+! Version: 2.1.22.8
+! TimeUpdated: 2024-03-07T09:01:49+00:00
 ! Expires: 5 days (update frequency)
 &sadbl=1$third-party
 -ad-300x600-
@@ -31629,6 +31629,7 @@ unogs.com##[href^="/ad/"]
 modrinth.com##[href^="http://bisecthosting.com/"]
 open.spotify.com##[href^="https://adclick.g.doubleclick.net/"]
 wiki.gg##[href^="https://app.wiki.gg/showcase/"]
+romsdl.net##[href^="https://browimeto.click/"]
 analyticsindiamag.com##[href^="https://business.louisville.edu/"]
 gelbooru.com##[href^="https://buymyshit.moneygrubbingwhore.com/"]
 50gameslike.com,highdemandskills.com,yumyumnews.com##[href^="https://click.linksynergy.com/"]
