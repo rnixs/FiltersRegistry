@@ -1,9 +1,9 @@
-! Checksum: BEBM9HhiKb6rrFMBblT3aA
-! Diff-Path: ../patches/19/19-s-1709804219-3600.patch
+! Checksum: RsxowVGxsXESqowaw5MTnQ
+! Diff-Path: ../patches/19/19-s-1709811443-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.89
-! TimeUpdated: 2024-03-07T09:32:14+00:00
+! Version: 2.0.32.90
+! TimeUpdated: 2024-03-07T11:32:27+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4140,6 +4140,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+foxla.com##footer.site-footer > div.site-banner
 supertoinette.com#$#.lmp_banner { display: none !important; }
 supertoinette.com#$##top { margin-top: 0 !important; }
 rosario3.com##.popup-redes
@@ -4166,7 +4167,7 @@ hokiesports.com###polite-pop-up
 fox4kc.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'firstLoad')
 geeksforgeeks.org#%#//scriptlet('trusted-set-local-storage-item', 'problemPageShowOnboardingPopup', 'true')
 democracynow.org#%#//scriptlet('set-cookie', 'campaign_seen_today', 'true')
-wkyc.com,wzzm13.com,kare11.com,13newsnow.com,12news.com#$?#div[data-module="grid"] > dialog[data-name="exitInterstitial"] { remove: true; }
+9news.com,wkyc.com,wzzm13.com,kare11.com,13newsnow.com,12news.com#$?#div[data-module="grid"] > dialog[data-name="exitInterstitial"] { remove: true; }
 authentikcanada.com#%#//scriptlet('set-cookie', 'Klaviyo-Popup', 'true')
 zhihu.com##div[style^="transform-origin: center bottom; margin-top:"]
 community.atlassian.com##.login-spotlight
@@ -11222,7 +11223,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 ||print24.com.pl/ajax/js/webpush_subscription.js
 hokiesports.com##div[class$="container"]:has(button[type="button"] + div[class] div.tip-contents)
 wzzm13.com##.page__notifications
-/notifications*.js$domain=kare11.com|13newsnow.com|12news.com
+/notifications*.js$domain=9news.com|wkyc.com|wzzm13.com|kare11.com|13newsnow.com|12news.com
 nowtv.com.tr##.gospock-webpush-permission-modal-contanier
 ||heraldsun.com/*/messaging/webpush_
 themirror.com##.pwa-modal-prompt
@@ -16816,7 +16817,7 @@ vozpopuli.com##.widget_sf_newsletter_form
 bestreviews.net###contact-form
 htxt.co.za#?#.elementor-widget-container:has(> h2:contains(NEWSLETTER))
 notateslaapp.com#?#.content > div[class^="col-a"] > div.container:has(> div.release > div.subscribe-container)
-builtin.com,mylifetime.com,forward.com##.newsletter-signup-container
+aetv.com,builtin.com,mylifetime.com,forward.com##.newsletter-signup-container
 britannica.com##.col-da-300 > div.rr-module > div.pl300
 hackaday.com##.widget-had-subscribe
 highspeedinternet.com##.active-campaign__form-wrapper

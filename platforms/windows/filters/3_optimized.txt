@@ -1,9 +1,9 @@
-! Checksum: FDIOQdNfYdfU11+tg9DiyA
-! Diff-Path: ../patches/3_optimized/3_optimized-s-1709797031-3600.patch
+! Checksum: leVS0lDg1pKI7AzXwhTBng
+! Diff-Path: ../patches/3_optimized/3_optimized-s-1709811446-3600.patch
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.67.45
-! TimeUpdated: 2024-03-07T07:33:02+00:00
+! Version: 2.0.67.46
+! TimeUpdated: 2024-03-07T11:33:21+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -232,6 +232,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||adoric-om.com^$third-party
 ||lz-pub-ads.com^
 ||w4h5ae.ru^
 ||get4click.ru^$third-party
@@ -3984,6 +3985,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ PLATFORM(windows, mac, android)
 ||telemetry.mozilla.org^
 |piwik.
+||3p-udc.yahoo.com^
+||3p-geo.yahoo.com^
+||blue.nbc4i.com^
 ||t.streetsblog.org^
 ||receive.wmcdp.io^
 ||event-router.olympics.com^
@@ -106652,7 +106656,6 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||ardmediathek.de/tp/
 ||cdn.threadloom.com/ga/
 ||sportskeeda.com/service-workers/helpers/google-analytics
-||3p-geo.yahoo.com/p?s=
 ||api.remanga.org/api/logging/
 ||bilet.yandex.com.tr/log/
 ||travel.yandex.ru/api/*/log/

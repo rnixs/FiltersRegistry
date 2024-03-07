@@ -357,8 +357,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/2.txt",
 			"trustLevel": "full",
-			"version": "2.3.25.64",
-			"timeUpdated": "2024-03-07T09:33:00+0000",
+			"version": "2.3.25.65",
+			"timeUpdated": "2024-03-07T11:33:13+0000",
 			"languages": [],
 			"tags": [
 				10,
@@ -378,8 +378,8 @@
 			"groupId": 2,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/3.txt",
 			"trustLevel": "full",
-			"version": "2.0.67.45",
-			"timeUpdated": "2024-03-07T07:33:02+0000",
+			"version": "2.0.67.46",
+			"timeUpdated": "2024-03-07T11:33:21+0000",
 			"languages": [],
 			"tags": [
 				2,
@@ -397,8 +397,8 @@
 			"groupId": 3,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/4.txt",
 			"trustLevel": "full",
-			"version": "2.0.98.21",
-			"timeUpdated": "2024-03-07T09:33:13+0000",
+			"version": "2.0.98.22",
+			"timeUpdated": "2024-03-07T11:33:26+0000",
 			"languages": [],
 			"tags": [
 				3,
@@ -434,8 +434,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/6.txt",
 			"trustLevel": "full",
-			"version": "2.0.40.82",
-			"timeUpdated": "2024-03-07T09:33:24+0000",
+			"version": "2.0.40.83",
+			"timeUpdated": "2024-03-07T11:33:38+0000",
 			"languages": [
 				"de"
 			],
@@ -543,8 +543,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/11.txt",
 			"trustLevel": "full",
-			"version": "2.0.49.84",
-			"timeUpdated": "2024-03-07T08:31:47+0000",
+			"version": "2.0.49.85",
+			"timeUpdated": "2024-03-07T11:31:56+0000",
 			"languages": [],
 			"tags": [
 				1,
@@ -588,8 +588,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/14.txt",
 			"trustLevel": "full",
-			"version": "2.1.89.98",
-			"timeUpdated": "2024-03-07T09:32:00+0000",
+			"version": "2.1.89.99",
+			"timeUpdated": "2024-03-07T11:32:14+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -683,8 +683,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/18.txt",
 			"trustLevel": "full",
-			"version": "2.0.35.29",
-			"timeUpdated": "2024-03-07T09:32:11+0000",
+			"version": "2.0.35.30",
+			"timeUpdated": "2024-03-07T11:32:24+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -703,8 +703,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/19.txt",
 			"trustLevel": "full",
-			"version": "2.0.32.89",
-			"timeUpdated": "2024-03-07T09:32:14+0000",
+			"version": "2.0.32.90",
+			"timeUpdated": "2024-03-07T11:32:27+0000",
 			"languages": [],
 			"tags": [
 				5,
@@ -1506,8 +1506,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/224.txt",
 			"trustLevel": "full",
-			"version": "2.1.12.9",
-			"timeUpdated": "2024-03-07T07:32:30+0000",
+			"version": "2.1.12.10",
+			"timeUpdated": "2024-03-07T11:32:48+0000",
 			"languages": [
 				"zh"
 			],
@@ -1577,24 +1577,6 @@
 			"tags": [
 				1,
 				31
-			]
-		},
-		{
-			"filterId": 229,
-			"name": "I don't care about cookies",
-			"description": "Hides annoying cookie warnings from almost all websites and saves you from unnecessary clicks.",
-			"timeAdded": "2014-06-30T07:56:55+0000",
-			"homepage": "https://www.i-dont-care-about-cookies.eu/",
-			"expires": 864000,
-			"displayNumber": 100,
-			"groupId": 4,
-			"subscriptionUrl": "https://www.i-dont-care-about-cookies.eu/abp/",
-			"trustLevel": "low",
-			"version": "2.0.4.88",
-			"timeUpdated": "2023-12-14T09:01:36+0000",
-			"languages": [],
-			"tags": [
-				6
 			]
 		},
 		{

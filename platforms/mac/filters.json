@@ -61,8 +61,8 @@
 			"displayNumber": 1,
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/2.txt",
-			"version": "2.3.25.64",
-			"timeUpdated": "2024-03-07T09:33:00+0000",
+			"version": "2.3.25.65",
+			"timeUpdated": "2024-03-07T11:33:13+0000",
 			"languages": []
 		},
 		{
@@ -74,8 +74,8 @@
 			"displayNumber": 1,
 			"groupId": 2,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/3.txt",
-			"version": "2.0.67.45",
-			"timeUpdated": "2024-03-07T07:33:02+0000",
+			"version": "2.0.67.46",
+			"timeUpdated": "2024-03-07T11:33:21+0000",
 			"languages": []
 		},
 		{
@@ -87,8 +87,8 @@
 			"displayNumber": 1,
 			"groupId": 3,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/4.txt",
-			"version": "2.0.98.21",
-			"timeUpdated": "2024-03-07T09:33:13+0000",
+			"version": "2.0.98.22",
+			"timeUpdated": "2024-03-07T11:33:26+0000",
 			"languages": []
 		},
 		{
@@ -113,8 +113,8 @@
 			"displayNumber": 1,
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/6.txt",
-			"version": "2.0.40.82",
-			"timeUpdated": "2024-03-07T09:33:24+0000",
+			"version": "2.0.40.83",
+			"timeUpdated": "2024-03-07T11:33:38+0000",
 			"languages": [
 				"de"
 			]
@@ -187,8 +187,8 @@
 			"displayNumber": 2,
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/11.txt",
-			"version": "2.0.49.84",
-			"timeUpdated": "2024-03-07T08:31:47+0000",
+			"version": "2.0.49.85",
+			"timeUpdated": "2024-03-07T11:31:56+0000",
 			"languages": []
 		},
 		{
@@ -228,8 +228,8 @@
 			"displayNumber": 1,
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/14.txt",
-			"version": "2.1.89.98",
-			"timeUpdated": "2024-03-07T09:32:00+0000",
+			"version": "2.1.89.99",
+			"timeUpdated": "2024-03-07T11:32:14+0000",
 			"languages": []
 		},
 		{
@@ -287,8 +287,8 @@
 			"displayNumber": 2,
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/18.txt",
-			"version": "2.0.35.29",
-			"timeUpdated": "2024-03-07T09:32:11+0000",
+			"version": "2.0.35.30",
+			"timeUpdated": "2024-03-07T11:32:24+0000",
 			"languages": []
 		},
 		{
@@ -300,8 +300,8 @@
 			"displayNumber": 2,
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/19.txt",
-			"version": "2.0.32.89",
-			"timeUpdated": "2024-03-07T09:32:14+0000",
+			"version": "2.0.32.90",
+			"timeUpdated": "2024-03-07T11:32:27+0000",
 			"languages": []
 		},
 		{
@@ -1018,8 +1018,8 @@
 			"displayNumber": 1,
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/mac/filters/224.txt",
-			"version": "2.1.12.9",
-			"timeUpdated": "2024-03-07T07:32:30+0000",
+			"version": "2.1.12.10",
+			"timeUpdated": "2024-03-07T11:32:48+0000",
 			"languages": [
 				"zh"
 			]
@@ -1080,7 +1080,7 @@
 		},
 		{
 			"filterId": 229,
-			"name": "I don't care about cookies",
+			"name": "(Obsolete) I don't care about cookies",
 			"description": "Hides annoying cookie warnings from almost all websites and saves you from unnecessary clicks.",
 			"homepage": "https://www.i-dont-care-about-cookies.eu/",
 			"expires": 432000,
