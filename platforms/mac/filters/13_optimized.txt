@@ -1,9 +1,9 @@
-! Checksum: 7Pz+Dd4/9GSspWUP4Zfo8Q
-! Diff-Path: ../patches/13_optimized/13_optimized-s-1709778995-3600.patch
+! Checksum: hAoiimyvxx1Ds/nZuCdMlw
+! Diff-Path: ../patches/13_optimized/13_optimized-s-1709797010-3600.patch
 ! Title: AdGuard Turkish filter (Optimized)
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.50.32
-! TimeUpdated: 2024-03-07T02:31:43+00:00
+! Version: 2.0.50.33
+! TimeUpdated: 2024-03-07T07:31:44+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -5255,6 +5255,7 @@ saglamindir.net##.text-center.visible-lg > a[class="download"][rel="nofollow"]
 ||video.twimg.com/ext_tw_video/*/*.m3u8$domain=/^i[a-z]*\.strmrdr[a-z]+\..*/
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_turkish
+dizilla.club#@#div[id^="gpt_ad_"]
 makemytrip.com#@##top-banner
 mislink3.com#@##reklamlar
 ralphlauren.co.uk#@##top-banner
