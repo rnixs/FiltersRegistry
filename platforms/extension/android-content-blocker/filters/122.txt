@@ -1,15 +1,15 @@
-! Checksum: 2RRy3f1nynRZM3ccggSRzA
-! Diff-Path: ../patches/122/122-s-1709759185-14400.patch
+! Checksum: xmTN0PLxzMFKDxsAnrd57w
+! Diff-Path: ../patches/122/122-s-1709773590-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.32
-! TimeUpdated: 2024-03-06T21:02:17+00:00
+! Version: 2.1.22.33
+! TimeUpdated: 2024-03-07T01:02:19+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: sRH5OWYO+pGK9ahE2wnbyg
-! OriginalVersion: 202403062040
+! Checksum: m/Jc/4QdRcsCCrK37FeDow
+! OriginalVersion: 202403062340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-03-06 20:40 UTC
+! Last modified: 2024-03-06 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36295,6 +36295,7 @@ nerdwallet.com#$#body,html { overflow: auto !important; position: initial !impor
 ! pageview counter
 ! talkingpointsmemo.com
 talkingpointsmemo.com##.MeteredBumperWinter24Widget
+! nzherald.co.nz disable autoplay video
 ! opensecrets.org
 opensecrets.org##.is-visible.js-init.Modal
 ! kartable.fr
@@ -46619,6 +46620,7 @@ nerdwallet.com#$#body,html { overflow: auto !important; position: initial !impor
 ! pageview counter
 ! talkingpointsmemo.com
 talkingpointsmemo.com##.MeteredBumperWinter24Widget
+! nzherald.co.nz disable autoplay video
 ! opensecrets.org
 opensecrets.org##.is-visible.js-init.Modal
 ! kartable.fr
@@ -50395,6 +50397,7 @@ ledojomanga.com##.btns-partage
 gossip-room.fr##.bubblegum
 allocine.fr##.button-sign-social
 rfm.fr##.communities
+boursedirect.fr##.content-social
 justgeek.fr##.cs-meta-shares
 sanarmed.com##.dQkCRJ
 lefigaro.fr##.fig-share-mobile-layer
@@ -50426,6 +50429,7 @@ la-croix.com##.send-article-icon
 quebeccoupongratuit.com##.share-site
 homap.fr##.share_content_button
 rtl.fr##.shared-logo
+boursedirect.fr##.slide-share
 pix-geeks.com##.social_icons
 planetebd.com##.social_network
 20minutes.fr##.socialbar

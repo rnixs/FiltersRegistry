@@ -1,9 +1,9 @@
-! Checksum: m9Nc91D6dxoz+9D2hiFWOQ
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1709759240-14400.patch
+! Checksum: +x4PNTp4XUnQqR4U8zB00g
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1709773637-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.32
-! TimeUpdated: 2024-03-06T21:02:17+00:00
+! Version: 2.1.22.33
+! TimeUpdated: 2024-03-07T01:02:19+00:00
 ! Expires: 12 hours (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -12125,6 +12125,7 @@ nerdwallet.com#$#body,html { overflow: auto !important; position: initial !impor
 talkingpointsmemo.com##.MeteredBumperWinter24Widget
 talkingpointsmemo.com#%#//scriptlet('ubo-cookie-remover.js', 'tpm_article_views')
 talkingpointsmemo.com#%#//scriptlet('ubo-cookie-remover.js', 'tpm_page_views')
+nzherald.co.nz#%#//scriptlet('ubo-set-cookie.js', 'apv', 'false')
 opensecrets.org##.is-visible.js-init.Modal
 opensecrets.org#%#//scriptlet('ubo-rc.js', 'js-no-scroll', 'html', 'stay')
 kartable.fr#$#body,html { overflow: auto !important; position: initial !important; }
@@ -13813,6 +13814,7 @@ playbalatro.com#%#//scriptlet('ubo-set-cookie.js', '_gdpr_playbalatro', '1')
 kastner-oehler.de,kastner-oehler.at,kastner-oehler.ch#%#//scriptlet('ubo-set-cookie.js', 'consentAll', '0')
 twenga.it,twenga.fr,twenga.co.uk,twenga.de,twenga.es,twenga.pl,twenga.nl,twenga.se#%#//scriptlet('ubo-set-cookie.js', 'cookiewarning', '1', '', 'reload', '1')
 olx.kz#%#//scriptlet('ubo-set-cookie.js', 'cookieBarSeen', 'true')
+vitbikes.de#%#//scriptlet('ubo-set-cookie.js', 'custom-cookies-accepted', '1', '', 'reload', '1')
 gourmetfoodstore.com#%#//scriptlet('ubo-set-cookie.js', 'AnalyticsAcceptancePopOver', 'false')
 schulfahrt.de#%#//scriptlet('ubo-set-cookie.js', 'cookiecookie', '1')
 deutsche-finanzagentur.de#%#//scriptlet('ubo-set-cookie.js', 'disclaimer-overlay', 'true')
@@ -14464,6 +14466,7 @@ armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preference_renew10', 
 e-dojus.lv#%#//scriptlet('ubo-set-cookie.js', 'pc234978122321234', '1')
 burnesspaull.com#%#//scriptlet('ubo-set-cookie.js', 'ck_pref_all', '1')
 oncosur.org#%#//scriptlet('ubo-set-cookie.js', 'ONCOSURCOOK', '2')
+photobooth.online#%#//scriptlet('ubo-set-cookie.js', 'cookie_accepted', 'true')
 ryanair.com#%#//scriptlet('ubo-set-cookie.js', 'RY_COOKIE_CONSENT', 'true')
 refurbished.at,refurbished.nl,refurbished.be,refurbishedstore.de#%#//scriptlet('ubo-set-cookie.js', 'COOKIE_CONSENT', '1', '', 'reload', '1')
 refurbished.at,refurbished.nl,refurbished.be,refurbishedstore.de#%#//scriptlet('ubo-set-cookie.js', 'COOKIE_STATIC', 'false')
@@ -14605,6 +14608,7 @@ tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-t
 web.bunq.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bunq:CookieConsentStore:isBannerVisible', 'false')
 google.com#%#//scriptlet('ubo-set-local-storage-item.js', 'wf-promo-2::d', '1')
 sawren.pl#%#//scriptlet('ubo-set-local-storage-item.js', 'consent_popup', '1')
+passport-photo.online#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieAccepted', 'true')
 triumphtechnicalinformation.com#%#//scriptlet('ubo-set-local-storage-item.js', 'ROCUMENTS.cookieConsent', 'true')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-other', 'false')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-seen', 'true')
@@ -16869,6 +16873,7 @@ nerdwallet.com#$#body,html { overflow: auto !important; position: initial !impor
 talkingpointsmemo.com##.MeteredBumperWinter24Widget
 talkingpointsmemo.com#%#//scriptlet('ubo-cookie-remover.js', 'tpm_article_views')
 talkingpointsmemo.com#%#//scriptlet('ubo-cookie-remover.js', 'tpm_page_views')
+nzherald.co.nz#%#//scriptlet('ubo-set-cookie.js', 'apv', 'false')
 opensecrets.org##.is-visible.js-init.Modal
 opensecrets.org#%#//scriptlet('ubo-rc.js', 'js-no-scroll', 'html', 'stay')
 kartable.fr#$#body,html { overflow: auto !important; position: initial !important; }
@@ -17095,6 +17100,7 @@ playbalatro.com#%#//scriptlet('ubo-set-cookie.js', '_gdpr_playbalatro', '1')
 kastner-oehler.de,kastner-oehler.at,kastner-oehler.ch#%#//scriptlet('ubo-set-cookie.js', 'consentAll', '0')
 twenga.it,twenga.fr,twenga.co.uk,twenga.de,twenga.es,twenga.pl,twenga.nl,twenga.se#%#//scriptlet('ubo-set-cookie.js', 'cookiewarning', '1', '', 'reload', '1')
 olx.kz#%#//scriptlet('ubo-set-cookie.js', 'cookieBarSeen', 'true')
+vitbikes.de#%#//scriptlet('ubo-set-cookie.js', 'custom-cookies-accepted', '1', '', 'reload', '1')
 gourmetfoodstore.com#%#//scriptlet('ubo-set-cookie.js', 'AnalyticsAcceptancePopOver', 'false')
 schulfahrt.de#%#//scriptlet('ubo-set-cookie.js', 'cookiecookie', '1')
 deutsche-finanzagentur.de#%#//scriptlet('ubo-set-cookie.js', 'disclaimer-overlay', 'true')
@@ -17746,6 +17752,7 @@ armedangels.com#%#//scriptlet('ubo-set-cookie.js', 'cookie-preference_renew10', 
 e-dojus.lv#%#//scriptlet('ubo-set-cookie.js', 'pc234978122321234', '1')
 burnesspaull.com#%#//scriptlet('ubo-set-cookie.js', 'ck_pref_all', '1')
 oncosur.org#%#//scriptlet('ubo-set-cookie.js', 'ONCOSURCOOK', '2')
+photobooth.online#%#//scriptlet('ubo-set-cookie.js', 'cookie_accepted', 'true')
 ryanair.com#%#//scriptlet('ubo-set-cookie.js', 'RY_COOKIE_CONSENT', 'true')
 refurbished.at,refurbished.nl,refurbished.be,refurbishedstore.de#%#//scriptlet('ubo-set-cookie.js', 'COOKIE_CONSENT', '1', '', 'reload', '1')
 refurbished.at,refurbished.nl,refurbished.be,refurbishedstore.de#%#//scriptlet('ubo-set-cookie.js', 'COOKIE_STATIC', 'false')
@@ -17887,6 +17894,7 @@ tampereenratikka.fi#%#//scriptlet('ubo-set-cookie.js', 'cookielawinfo-checkbox-t
 web.bunq.com#%#//scriptlet('ubo-set-local-storage-item.js', 'bunq:CookieConsentStore:isBannerVisible', 'false')
 google.com#%#//scriptlet('ubo-set-local-storage-item.js', 'wf-promo-2::d', '1')
 sawren.pl#%#//scriptlet('ubo-set-local-storage-item.js', 'consent_popup', '1')
+passport-photo.online#%#//scriptlet('ubo-set-local-storage-item.js', 'cookieAccepted', 'true')
 triumphtechnicalinformation.com#%#//scriptlet('ubo-set-local-storage-item.js', 'ROCUMENTS.cookieConsent', 'true')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-other', 'false')
 omroepbrabant.nl#%#//scriptlet('ubo-set-local-storage-item.js', 'psh:cookies-seen', 'true')
@@ -19409,6 +19417,7 @@ radiofrance.fr##.ShareManager
 francebleu.fr##.ShareNetwork
 radiofrance.fr##.StationFooter-social
 auto-moto.com##.bloc-partage
+boursedirect.fr##.content-social
 sanarmed.com##.dQkCRJ
 lefigaro.fr##.fig-share-mobile-layer
 lefigaro.fr##.fig-sharebar
@@ -19421,6 +19430,7 @@ lesnumeriques.com##.ln__m-shr
 autoplus.fr##.nl-social
 moneyvox.fr##.reseau-soc-page
 la-croix.com##.send-article-icon
+boursedirect.fr##.slide-share
 pix-geeks.com##.social_icons
 20minutes.fr##.socialbar
 tv5monde.com##.tv5monde-footer-menu--social
