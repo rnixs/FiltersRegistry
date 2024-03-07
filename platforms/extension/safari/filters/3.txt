@@ -1,9 +1,9 @@
-! Checksum: 65fWXQIZ0KaF5jTZ17RWNA
-! Diff-Path: ../patches/3/3-s-1709811413-3600.patch
+! Checksum: Y1m4MiL8ZNgM4ge+GJJtxA
+! Diff-Path: ../patches/3/3-s-1709815023-3600.patch
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.67.46
-! TimeUpdated: 2024-03-07T11:33:21+00:00
+! Version: 2.0.67.47
+! TimeUpdated: 2024-03-07T12:33:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4345,6 +4345,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||apcdp.apnews.com^
 ||3p-udc.yahoo.com^
 ||3p-geo.yahoo.com^
 ||blue.nbc4i.com^

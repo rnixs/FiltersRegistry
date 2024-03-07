@@ -1,9 +1,9 @@
-! Checksum: nhG4/bF8Bl8VJspuMZuDZg
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1709811376-3600.patch
+! Checksum: vjRE6QWsacG6M49U+qfilA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1709814980-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.89.99
-! TimeUpdated: 2024-03-07T11:32:14+00:00
+! Version: 2.1.90.0
+! TimeUpdated: 2024-03-07T12:32:00+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -11883,7 +11883,7 @@ epaper.thehindu.com,h5.g123.jp,accounts.binance.com,zlavomat.sk,id.rambler.ru,pi
 ||rosario3.com/*/scripts/PushFirebase.js
 ||print24.com.pl/ajax/js/webpush_subscription.js
 wzzm13.com##.page__notifications
-/notifications*.js$domain=9news.com|wkyc.com|wzzm13.com|kare11.com|13newsnow.com|12news.com
+/notifications*.js$domain=thv11.com|9news.com|wkyc.com|wzzm13.com|kare11.com|13newsnow.com|12news.com
 nowtv.com.tr##.gospock-webpush-permission-modal-contanier
 ||heraldsun.com/*/messaging/webpush_
 themirror.com##.pwa-modal-prompt
