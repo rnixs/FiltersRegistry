@@ -1,9 +1,9 @@
-! Checksum: s6RpMGdco7nZm2YUAF7vPw
-! Diff-Path: ../patches/11/11-s-1709750197-3600.patch
+! Checksum: jdhbPQYcf271O/YJa9HRKA
+! Diff-Path: ../patches/11/11-s-1709800625-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.49.83
-! TimeUpdated: 2024-03-06T18:31:49+00:00
+! Version: 2.0.49.84
+! TimeUpdated: 2024-03-07T08:31:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2309,6 +2309,7 @@ otakei.otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.sm
 !
 ! SECTION: Regular rules
 !
+giga.de##.alice-root-header-ads__ad--top
 ole.com.ar##article > div[class]:has(> div.lazyBanner)
 telling.asahi.com##.p-pickup__row > div[class="c-article-block__group"]:has(> div[id^="div-gpt-"])
 telling.asahi.com##.p-promotion

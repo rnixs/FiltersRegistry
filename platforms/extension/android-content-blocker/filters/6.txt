@@ -1,9 +1,9 @@
-! Checksum: R3y8nN69W7LJS0BtFvaTSA
-! Diff-Path: ../patches/6/6-s-1709761336-3600.patch
+! Checksum: ksPMrrMf6ZfJ2GC/pfbKsg
+! Diff-Path: ../patches/6/6-s-1709800595-3600.patch
 ! Title: AdGuard German filter
 ! Description: EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.
-! Version: 2.0.40.80
-! TimeUpdated: 2024-03-06T21:39:37+00:00
+! Version: 2.0.40.81
+! TimeUpdated: 2024-03-07T08:33:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1977,6 +1977,9 @@ spiegel.de###Inhalt .relative > .relative > div[class] > section[class="clear-bo
 ! http://forum.adguard.com/showthread.php?8979 (#17)
 ||static.p7s1.com/vendor/webtrekk
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174274
+!+ NOT_OPTIMIZED
+giga.de,kino.de,watson.de###teaserheld-header
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148571
 ! https://github.com/AdguardTeam/AdguardFilters/issues/124356
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107055
