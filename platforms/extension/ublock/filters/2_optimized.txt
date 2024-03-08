@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qVWDlZpnt7cvRLR224OBtg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709908585-3600.patch
+! Checksum: /F5eknPjG1nLsFLkeCvODw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709919388-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.25.83
-! TimeUpdated: 2024-03-08T14:32:54+00:00
+! Version: 2.3.25.84
+! TimeUpdated: 2024-03-08T17:32:51+00:00
 ! Expires: 5 days (update frequency)
 ||cqeomumqwx.com^
 ||d3c.life^
@@ -1474,7 +1474,6 @@ uptoearn.xyz##+js(no-fetch-if, pagead2.googlesyndication.com)
 @@||decrypt.day^$generichide
 decrypt.day##+js(set-constant, adsbygoogle, {})
 decrypt.day##+js(set-constant, adsbygoogle.loaded, true)
-decrypt.day##+js(set-constant, adsbygoogle.push, noopFunc)
 decrypt.day##+js(no-fetch-if, pagead2.googlesyndication.com)
 @@||static.doubleclick.net/instream/ad_status.js$domain=bloggingsathi.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bloggingsathi.com
