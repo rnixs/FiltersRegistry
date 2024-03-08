@@ -1,15 +1,15 @@
-! Checksum: 15+3NdEqhvFndOt8H2yzkg
-! Diff-Path: ../patches/101/101-s-1709859984-14400.patch
+! Checksum: JtrALchpYug+kl1hJTWYbA
+! Diff-Path: ../patches/101/101-s-1709874373-14400.patch
 ! Title: EasyList
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.1.22.12
-! TimeUpdated: 2024-03-08T01:01:44+00:00
+! Version: 2.1.22.13
+! TimeUpdated: 2024-03-08T05:01:47+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: u5FhBhwSyvpLuBLNGpjB/g
-! OriginalVersion: 202403080051
+! Checksum: lxPJquxGb4cab1MF6V1lDw
+! OriginalVersion: 202403080451
 ! Title: EasyList
-! Last modified: 08 Mar 2024 00:51 UTC
+! Last modified: 08 Mar 2024 04:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -70258,6 +70258,7 @@ porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 @@||oisd.nl^$generichide
 @@||onedrive.live.com^$generichide
 @@||open.spotify.com^$generichide
+@@||openai.com^$generichide
 @@||pandora.com^$generichide
 @@||paramountplus.com^$generichide
 @@||peacocktv.com^$generichide
