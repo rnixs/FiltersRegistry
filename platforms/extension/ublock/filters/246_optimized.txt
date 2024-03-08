@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: D6bRoWjzpw+8EduL14T3kQ
-! Diff-Path: ../patches/246_optimized/246_optimized-s-1709903225-14400.patch
+! Checksum: QBsgGbDu6SQYaeaMRFUPHQ
+! Diff-Path: ../patches/246_optimized/246_optimized-s-1709917679-14400.patch
 ! Title: EasyList Polish (Optimized)
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.41.20
-! TimeUpdated: 2024-03-08T13:03:09+00:00
+! Version: 2.1.41.21
+! TimeUpdated: 2024-03-08T17:04:01+00:00
 ! Expires: 5 days (update frequency)
 /adserwer.
 =adv/GetAdvertisment|
@@ -182,7 +182,6 @@ _baner%$domain=transg.pl
 _baner_$domain=biegologia.pl|goal.pl|kuriersuwalski.pl|magazynfakty.pl|ostrodanews.pl|podlaskie24.pl|poscigi.pl|radiotczew.pl|sokolka.tv|wdrawskupomorskim.pl
 _banerek.$domain=plytkiceramiczne.info.pl
 _banerowy^$domain=nowywyszkowiak.pl
-_banery_$domain=stolarkabudowlana.eu
 _banner.$domain=polacywewloszech.com|swiatmetali.eu
 _banner_$domain=chemiaibiznes.com.pl|cire.pl|cksport.pl|dzisiajwgliwicach.pl|e-pingpong.pl|forumfajerwerki.pl|itwiz.pl|jagodnik.pl|juliarozumek.pl|katalogprzedsiebiorstw.pl|kb.pl|kuriergarwolinski.pl|nowy-sacz.info|pionki24.pl|polishexpress.co.uk|poradnikhandlowca.com.pl|przewodnicywedkarscy.pl|starosadeckie.info|stolarkabudowlana.eu|swarzedz24.pl|tygodnik-rolniczy.pl|wydawca.com.pl
 _reklama.$domain=radomsport.pl|staraoliwa.pl
@@ -1420,6 +1419,7 @@ tko.pl##.oln-sticky
 e-szczuczyn.pl##.one-1 .post-content
 donald.pl##.onnetwork_ad
 okkolobrzeg.pl##.ot-home-block
+centrumwitalnosci.pl##.ot-widget-banner
 stefczyk.info##.our-sites-links
 burda.pl,glamour.pl,kobieta.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.outerstitial-container
 nowykamieniarz.pl##.outerwide

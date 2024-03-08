@@ -1,15 +1,15 @@
-! Checksum: Zar+SMOfk7dHxzrBuJwWzg
-! Diff-Path: ../patches/246/246-s-1709903247-14400.patch
+! Checksum: IOadOXn3uRD35iLnK6GdEg
+! Diff-Path: ../patches/246/246-s-1709917703-14400.patch
 ! Title: EasyList Polish
 ! Description: Additional filter list for websites in Polish.
-! Version: 2.1.41.20
-! TimeUpdated: 2024-03-08T13:03:09+00:00
+! Version: 2.1.41.21
+! TimeUpdated: 2024-03-08T17:04:01+00:00
 ! Expires: 12 hours (update frequency)
 !
-! Checksum: UIhX1l4YA55JXx9kZfNYLw
-! OriginalVersion: 202403081251
+! Checksum: aorC27YGCFlydBx37PrIeA
+! OriginalVersion: 202403081651
 ! Title: EasyList Polish
-! Last modified: 08 Mar 2024 12:51 UTC
+! Last modified: 08 Mar 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -212,7 +212,6 @@ _baner%$domain=transg.pl
 _baner_$domain=biegologia.pl|goal.pl|kuriersuwalski.pl|magazynfakty.pl|ostrodanews.pl|podlaskie24.pl|poscigi.pl|radiotczew.pl|sokolka.tv|wdrawskupomorskim.pl
 _banerek.$domain=plytkiceramiczne.info.pl
 _banerowy^$domain=nowywyszkowiak.pl
-_banery_$domain=stolarkabudowlana.eu
 _banner.$domain=polacywewloszech.com|swiatmetali.eu
 _banner_$domain=chemiaibiznes.com.pl|cire.pl|cksport.pl|dzisiajwgliwicach.pl|e-pingpong.pl|forumfajerwerki.pl|itwiz.pl|jagodnik.pl|juliarozumek.pl|katalogprzedsiebiorstw.pl|kb.pl|kuriergarwolinski.pl|nowy-sacz.info|pionki24.pl|polishexpress.co.uk|poradnikhandlowca.com.pl|przewodnicywedkarscy.pl|starosadeckie.info|stolarkabudowlana.eu|swarzedz24.pl|tygodnik-rolniczy.pl|wydawca.com.pl
 _reklama.$domain=radomsport.pl|staraoliwa.pl
@@ -1455,6 +1454,7 @@ tko.pl##.oln-sticky
 e-szczuczyn.pl##.one-1 .post-content
 donald.pl##.onnetwork_ad
 okkolobrzeg.pl##.ot-home-block
+centrumwitalnosci.pl##.ot-widget-banner
 stefczyk.info##.our-sites-links
 burda.pl,glamour.pl,kobieta.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.outerstitial-container
 nowykamieniarz.pl##.outerwide

@@ -1,14 +1,14 @@
-! Checksum: wK8RATYLJZjBHZ4cRyjoNA
-! Diff-Path: ../patches/118/118-s-1709903204-14400.patch
+! Checksum: u59EycGnPgrwwo7eVUUk9g
+! Diff-Path: ../patches/118/118-s-1709917657-14400.patch
 ! Title: EasyPrivacy
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.23.30
-! TimeUpdated: 2024-03-08T13:02:04+00:00
+! Version: 2.1.23.31
+! TimeUpdated: 2024-03-08T17:03:02+00:00
 ! Expires: 10 days (update frequency)
 !
-! OriginalVersion: 202403081145
+! OriginalVersion: 202403081641
 ! Title: EasyPrivacy
-! Last modified: 08 Mar 2024 11:45 UTC
+! Last modified: 08 Mar 2024 16:41 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -49524,6 +49524,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||jdsports.co.kr/collect.php
 ||kyson.kakao.com^
 ||l.m.naver.com^
+||ljc.coupang.com^
 ||log.etoday.co.kr^
 ||log.kinolights.com^
 ||log.zdnet.co.kr^
