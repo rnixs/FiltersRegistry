@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: FMrV7sFNJxGT62vFy8BMyw
-! Diff-Path: ../patches/118_optimized/118_optimized-s-1709874403-14400.patch
+! Checksum: EhSW6jQIpxCh1zZqVSBNpw
+! Diff-Path: ../patches/118_optimized/118_optimized-s-1709903221-14400.patch
 ! Title: EasyPrivacy (Optimized)
 ! Description: Privacy protection supplement for EasyList.
-! Version: 2.1.23.29
-! TimeUpdated: 2024-03-08T05:02:06+00:00
+! Version: 2.1.23.30
+! TimeUpdated: 2024-03-08T13:02:04+00:00
 ! Expires: 5 days (update frequency)
 &action=js_stats&
 &ev=PageView&
@@ -4792,6 +4792,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fbot.me/events/
 ||fcmatch.google.com^
 ||fcmatch.youtube.com^
+||feliz.data.tm-awx.com^
 ||filament-stats.herokuapp.com^
 ||fingerprinter-production.herokuapp.com^
 ||firebaselogging-pa.googleapis.com^

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: A80EnaEgumZFUTmdK87nxw
-! Diff-Path: ../patches/122_optimized/122_optimized-s-1709888804-14400.patch
+! Checksum: 4QXrWy4tWfHRVbMPi8j8nw
+! Diff-Path: ../patches/122_optimized/122_optimized-s-1709903222-14400.patch
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.41
-! TimeUpdated: 2024-03-08T09:02:16+00:00
+! Version: 2.1.22.42
+! TimeUpdated: 2024-03-08T13:02:18+00:00
 ! Expires: 5 days (update frequency)
 /arscode-ninja-popups/*$~stylesheet
 /dreamgrow-scroll-triggered-box/js/script.js
@@ -12072,7 +12072,7 @@ linuxbabe.com#$#html { overflow: auto !important }
 fastcompany.com#$#body,html { height: auto !important; overflow: auto !important }
 huckberry.com#$#body,html { height: auto !important; overflow: auto !important }
 bestrecipes.com.au##+js(cookie-remover, br_mc)
-androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com##+js(cookie-remover, articlesRead)
+screenrant.com,androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com##+js(cookie-remover, articlesRead)
 zippia.com##+js(no-setInterval-if, /onGatedSignupPopupTrigger|zippia-popup/)
 zippia.com##+js(cookie-remover, _zippia-popup-s_t)
 nerdwallet.com##._1y2JXo
@@ -16820,7 +16820,7 @@ linuxbabe.com#$#html { overflow: auto !important }
 fastcompany.com#$#body,html { height: auto !important; overflow: auto !important }
 huckberry.com#$#body,html { height: auto !important; overflow: auto !important }
 bestrecipes.com.au##+js(cookie-remover, br_mc)
-androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com##+js(cookie-remover, articlesRead)
+screenrant.com,androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com##+js(cookie-remover, articlesRead)
 zippia.com##+js(no-setInterval-if, /onGatedSignupPopupTrigger|zippia-popup/)
 zippia.com##+js(cookie-remover, _zippia-popup-s_t)
 nerdwallet.com##._1y2JXo

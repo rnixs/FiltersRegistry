@@ -1,15 +1,15 @@
-! Checksum: 7AMMqbi+Ch9jutcOTZvyzQ
-! Diff-Path: ../patches/122/122-s-1709888808-14400.patch
+! Checksum: Leal/ibuPY7Tjj3JoZldrg
+! Diff-Path: ../patches/122/122-s-1709903227-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.41
-! TimeUpdated: 2024-03-08T09:02:16+00:00
+! Version: 2.1.22.42
+! TimeUpdated: 2024-03-08T13:02:18+00:00
 ! Expires: 5 days (update frequency)
 !
-! Checksum: tw7bDi6x3uh/67fzReLi/g
-! OriginalVersion: 202403080740
+! Checksum: sQFtG7FF6G+w/I8pts+Agg
+! OriginalVersion: 202403081240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-03-08 07:40 UTC
+! Last modified: 2024-03-08 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36223,7 +36223,7 @@ huckberry.com##.fade
 ! bestrecipes.com.au (forced login)
 bestrecipes.com.au#%#//scriptlet('ubo-cookie-remover.js', 'br_mc')
 ! xda-developers.com (forced login)
-androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com#%#//scriptlet('ubo-cookie-remover.js', 'articlesRead')
+screenrant.com,androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com#%#//scriptlet('ubo-cookie-remover.js', 'articlesRead')
 ! zippia.com (forced login) https://github.com/uBlockOrigin/uAssets/issues/21354
 zippia.com#%#//scriptlet('ubo-nosiif.js', '/onGatedSignupPopupTrigger|zippia-popup/')
 zippia.com#%#//scriptlet('ubo-cookie-remover.js', '_zippia-popup-s_t')
@@ -47855,7 +47855,7 @@ huckberry.com##.fade
 ! bestrecipes.com.au (forced login)
 bestrecipes.com.au#%#//scriptlet('ubo-cookie-remover.js', 'br_mc')
 ! xda-developers.com (forced login)
-androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com#%#//scriptlet('ubo-cookie-remover.js', 'articlesRead')
+screenrant.com,androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com#%#//scriptlet('ubo-cookie-remover.js', 'articlesRead')
 ! zippia.com (forced login) https://github.com/uBlockOrigin/uAssets/issues/21354
 zippia.com#%#//scriptlet('ubo-nosiif.js', '/onGatedSignupPopupTrigger|zippia-popup/')
 zippia.com#%#//scriptlet('ubo-cookie-remover.js', '_zippia-popup-s_t')
