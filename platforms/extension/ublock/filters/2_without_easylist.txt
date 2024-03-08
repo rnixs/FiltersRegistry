@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6lTnWIJEXF6wZCsnbBUPhw
-! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709901441-3600.patch
+! Checksum: f89ZcmCXjtE8+wizhAj8BQ
+! Diff-Path: ../patches/2_without_easylist/2_without_easylist-s-1709904989-3600.patch
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.3.25.81
-! TimeUpdated: 2024-03-08T12:33:34+00:00
+! Version: 2.3.25.82
+! TimeUpdated: 2024-03-08T13:32:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7604,6 +7604,7 @@ uptoearn.xyz##+js(no-fetch-if, pagead2.googlesyndication.com)
 @@||decrypt.day^$generichide
 decrypt.day##+js(set-constant, adsbygoogle, {})
 decrypt.day##+js(set-constant, adsbygoogle.loaded, true)
+decrypt.day##+js(set-constant, adsbygoogle.push, noopFunc)
 decrypt.day##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! Hiding this element causes detection, but it's fixed by the $replace rule
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165068

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: SVwe00shWGHUeV2PHvjnpw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1709897973-3600.patch
+! Checksum: z1KMG0/+l+q2H7M1sr226g
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1709904986-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.1.90.10
-! TimeUpdated: 2024-03-08T11:33:45+00:00
+! Version: 2.1.90.11
+! TimeUpdated: 2024-03-08T13:32:00+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -19531,6 +19531,8 @@ mail.yandex.*##div[class^="DisableAdsButton"]
 rasp.yandex.*##.TravelHotelsBanner
 tv.yandex.*##.recommended-ott
 www.kinopoisk.ru##div[class^="trailer-promo"]
+brighteon.social##.sticky-inner-wrapper > .brighteon-shop
+brighteon.social#?#.sticky-inner-wrapper > .announcements:has(> .announcements__container > .header > span.title:contains(Sponsored Post))
 vas3k.blog##.post-footer > a[href="/donate/"]
 igromania.ru##div[class^="AdFoxBannerFooter_footer"]
 dtf.ru##div.view > div:has(> div[class][style] > a[href^="https://booster.osnova.io/a/"])

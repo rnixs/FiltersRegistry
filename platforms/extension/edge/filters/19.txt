@@ -1,9 +1,9 @@
-! Checksum: rGD/FRGQS1eFX75LWcAyXg
-! Diff-Path: ../patches/19/19-s-1709897947-3600.patch
+! Checksum: P4l5zWR2k0M67ABBu5jqRg
+! Diff-Path: ../patches/19/19-s-1709904968-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.97
-! TimeUpdated: 2024-03-08T11:34:12+00:00
+! Version: 2.0.32.98
+! TimeUpdated: 2024-03-08T13:32:14+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1539,7 +1539,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 #$#body > div.ad.banner-ad[data-freestar-ad][style]:empty { display: block !important; }
 ||a.pub.network/core/prebid-universal-creative.js$script,redirect=noopjs
 ! In the case if DNS filtering is enabled
-thisisanfield.com,mouse-sensitivity.com,hostednovel.com,getemoji.com,concertarchives.org#%#//scriptlet('prevent-element-src-loading', 'script', 'a.pub.network')
+titantv.com,thisisanfield.com,mouse-sensitivity.com,hostednovel.com,getemoji.com,concertarchives.org#%#//scriptlet('prevent-element-src-loading', 'script', 'a.pub.network')
 ! If the script in a separate file
 ||getemoji.com/scripts/apester.js
 ! NOTE: Freestar Recovered end ⬆️
