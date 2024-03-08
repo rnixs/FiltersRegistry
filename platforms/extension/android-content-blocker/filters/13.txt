@@ -1,9 +1,9 @@
-! Checksum: CafUT2ISf/17vzAldZSPSw
-! Diff-Path: ../patches/13/13-s-1709897934-3600.patch
+! Checksum: Wd7VeuuRyvQ6P+Hl3UyY4Q
+! Diff-Path: ../patches/13/13-s-1709901413-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.50.40
-! TimeUpdated: 2024-03-08T11:33:19+00:00
+! Version: 2.0.50.41
+! TimeUpdated: 2024-03-08T12:31:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1711,6 +1711,7 @@ $xmlhttprequest,third-party,denyallow=linkvertise.com|fastly.net|statically.io|s
 ! Sometimes some images do not load if above request is blocked, redirect rule fixes it
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+||yenisoz.com.tr/modules/adblock/
 ||hops1s.site/gobahis.gif
 ||hops1s.site/radisoninside.gif
 turkiyegazetesi.com.tr##.masthead-cls
@@ -5270,7 +5271,6 @@ dogruses.com##div[style^="background:url(images/banner_"]
 t24.com.tr##div[style^="height:600px; width:300px;"]
 fotomac.com.tr##div[style^="width: 300px; height: 250px;"]
 webtekno.com##div[style^="width:1048px;height: 90px;"]
-yenisoz.com.tr##div[style^="width:300px;height:250px;"]
 sanalokulumuz.com##div[style^="width:336px;height:280px;"]
 ||grbcdn.com/grandroyalbet/
 takvim.com.tr##iframe[name$="BIKADV"]
