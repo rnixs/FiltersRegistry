@@ -1,9 +1,9 @@
-! Checksum: OK28jE/jxSIU+giRgggz0A
-! Diff-Path: ../patches/16_optimized/16_optimized-s-1709865377-3600.patch
+! Checksum: yXQV0ejxjHINtdyoiFdPXw
+! Diff-Path: ../patches/16_optimized/16_optimized-s-1709890604-3600.patch
 ! Title: AdGuard French filter (Optimized)
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.43.92
-! TimeUpdated: 2024-03-07T17:32:09+00:00
+! Version: 2.0.43.93
+! TimeUpdated: 2024-03-08T09:32:08+00:00
 ! Expires: 5 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4945,6 +4945,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||ccbill.com/cgi-bin/clicks.cgi?$popup,third-party
 ||chaturbate.com/in/?*&tour=$popup,third-party
 ||g2a.com/r/$popup
+||go.hackmodsapk.com^$popup
 ||google.com/favicon.ico$popup,third-party
 ||iqbroker.com/lp/$popup
 ||livejasmin.com^*&utm_$popup
@@ -5054,6 +5055,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||freenduro.com/images/banners/
 ||fusacq.com^*/images/pub.gif
 ||gauleporno.xxx/assets/js/head.
+||geeek.org/amazon/
 ||geny.com/web/images/genybet/
 ||goal.com^$subdocument,~third-party
 ||hackforums.net/uploads/mam/$image
