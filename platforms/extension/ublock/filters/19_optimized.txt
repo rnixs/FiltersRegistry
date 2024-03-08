@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: rR4tPd4ee8NmhV5azAU8ig
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1709904987-3600.patch
+! Checksum: N2B3guguqJIsmMc132aw1A
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1709908584-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.98
-! TimeUpdated: 2024-03-08T13:32:14+00:00
+! Version: 2.0.32.99
+! TimeUpdated: 2024-03-08T14:32:09+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 ya.ru,yandex.*##:matches-path(/images).Root > div.MastHead
@@ -1587,6 +1587,7 @@ programmercollege.jp##.singlewrapper__side
 games.dmm.co.jp#?#main > div[class] > aside[class]:has(> div[class] > a[href^="https://rcv.ixd.dmm.com/api/surl?"])
 games.dmm.co.jp#?#main > div[class] > div[class]:has(> div[class] > div[class] > button[data-gtm-pwa-android-install])
 gamechampions.com#$#body { overflow-y: auto !important; }
+aftermath.site##div[class^="single_metaContainer"] > div[class^="PostContent_wrapper"] div[class^="ContentGate_wrapper"]
 frag-mutti.de##.popup-box.guest
 frag-mutti.de###signup-popup
 codereliant.io##.kg-signup-card

@@ -1,9 +1,9 @@
-! Checksum: aB9xlQcv7hSnlXM6NY2ITA
-! Diff-Path: ../patches/19_optimized/19_optimized-s-1709904959-3600.patch
+! Checksum: unmusBvGo8wX1vOA1Zavrw
+! Diff-Path: ../patches/19_optimized/19_optimized-s-1709908555-3600.patch
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.98
-! TimeUpdated: 2024-03-08T13:32:14+00:00
+! Version: 2.0.32.99
+! TimeUpdated: 2024-03-08T14:32:09+00:00
 ! Expires: 5 days (update frequency)
 ://yandex.*/images/_$xmlhttprequest,method=post
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
@@ -1452,6 +1452,7 @@ investorshub.advfn.com###interstitial-wrapper
 programmercollege.jp###goSessionPopup
 programmercollege.jp##.singlewrapper__side
 gamechampions.com#$#body { overflow-y: auto !important; }
+aftermath.site##div[class^="single_metaContainer"] > div[class^="PostContent_wrapper"] div[class^="ContentGate_wrapper"]
 frag-mutti.de##.popup-box.guest
 frag-mutti.de###signup-popup
 codereliant.io##.kg-signup-card

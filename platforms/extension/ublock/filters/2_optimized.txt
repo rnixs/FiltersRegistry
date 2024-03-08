@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 1Q74C0ZiLMxYa2XmnjZvvA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1709904989-3600.patch
+! Checksum: qVWDlZpnt7cvRLR224OBtg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1709908585-3600.patch
 ! Title: AdGuard Base filter + EasyList (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.25.82
-! TimeUpdated: 2024-03-08T13:32:56+00:00
+! Version: 2.3.25.83
+! TimeUpdated: 2024-03-08T14:32:54+00:00
 ! Expires: 5 days (update frequency)
 ||cqeomumqwx.com^
 ||d3c.life^
@@ -8911,6 +8911,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||olalivehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+aap.org##.self-serve-content-ad
 novelcool.com##.mangaread-ad-box
 sittingonclouds.net##iframe[id^="id0"][title]
 progamerage.com##div[class^="adsslotcustom"]
@@ -11602,7 +11603,7 @@ subs.ro###side a[rel="external nofollow"] > img
 themirror.com,myyearbook.com###takeover
 rt.com###today-media-article
 aarp.org##.aarpe-ad
-bbcgoodfood.com,gardenersworld.com,historyextra.com,ndtv.com##.ad-banner
+aap.org,bbcgoodfood.com,gardenersworld.com,historyextra.com,ndtv.com##.ad-banner
 pcgamesn.com,ign.com,theatlantic.com##.ad-wrapper
 pornhub.com,pornhub.org,pornhub.net##.adContainer
 hqporner.com##.ad_video
