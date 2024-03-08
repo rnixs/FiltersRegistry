@@ -1,15 +1,15 @@
-! Checksum: M8kKK33U8Uya1O8wQr5fIA
-! Diff-Path: ../patches/122/122-s-1709874379-14400.patch
+! Checksum: PsTPDOBwJQsf6l3ly8Kc5Q
+! Diff-Path: ../patches/122/122-s-1709888779-14400.patch
 ! Title: Fanboy's Annoyances
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.1.22.40
-! TimeUpdated: 2024-03-08T05:02:18+00:00
+! Version: 2.1.22.41
+! TimeUpdated: 2024-03-08T09:02:16+00:00
 ! Expires: 10 days (update frequency)
 !
-! Checksum: qkELxkAHPtQkgWcg2O+dvg
-! OriginalVersion: 202403080415
+! Checksum: tw7bDi6x3uh/67fzReLi/g
+! OriginalVersion: 202403080740
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-03-08 04:15 UTC
+! Last modified: 2024-03-08 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -56976,8 +56976,6 @@ uservoice.com#@##uservoice-feedback-tab
 cnn.com#@#.OUTBRAIN
 dell.com#@#.back-to-top-container
 realme.com#@#.btn-back-to-top
-facebook.com#@#.connect_widget
-youtube.com#@#.feed-icon
 ixbt.com#@#.glyphicon-arrow-up
 stackcommerce.com,zalando.com#@#.grecaptcha-badge
 ! fanboy_notifications_allowlist_general_hide.txt
@@ -56994,9 +56992,7 @@ mobi24.net#@#a[href^="https://www.mobi24.net/"]
 gifyagusi.pl#@##fan-exit
 gifyagusi.pl#@##fanback
 facebook.com#@##fb_header
-facebook.com#@##likebtn
 mmo13.ru#@##menu-share
-satkurier.pl#@##menu_social
 lastampa.it#@##shareBar
 facebook.com#@##share_feed
 smbc-comics.com#@##sharebar
@@ -57020,15 +57016,12 @@ petsmart.com#@#.article-social-sharing
 wylecz.to#@#.article__social
 nbcnews.com#@#.article_share
 thetoc.gr#@#.authorSocial
-mos.ru#@#.b-social
 engage.it#@#.block-social
-azlyrics.com#@#.btn-share
 forum.figma.com#@#.category-share
 2001online.com#@#.entry-social
 accounts.motorsport.com#@#.facebook-block
 flugzeugbilder.de#@#.fb-footer
 mixcloud.com#@#.follow-text
-douyutv.com,steampowered.com#@#.follow_btn
 rainn.org#@#.footer-social
 kioskpolis.pl#@#.footer__socials
 gab.com#@#.gab-bttn
@@ -57037,13 +57030,8 @@ imagenradio.com.mx#@#.header-shares
 xboxdynasty.de#@#.header-socials
 inosmi.ru#@#.header__social
 zont-online.ru#@#.header_social
-letsknowthings.com#@#.hide-social
 wpolityce.pl#@#.icon-facebook-official
 petsmart.com#@#.icon-facebook2
-hacpai.com#@#.icon-telegram
-yourstory.com#@#.icon-twitter-bird
-cc.cc#@#.icon-twitter-sign
-hacpai.com#@#.icon-wechat
 roblox.com#@#.inline-social
 dikidi.net#@#.item-shares
 tradingview.com#@#.js-follow-user
@@ -57067,7 +57055,6 @@ app.degoo.com#@#.share-icon-container
 pornhub.com#@#.share-link-container
 baidu.com#@#.share-list
 deezer.com#@#.share-message
-dropbox.com,ge.tt#@#.share-page
 podbean.com#@#.share-podcast
 osf.io#@#.share-row
 inman.com,simpletax.ca#@#.share-section
@@ -57093,7 +57080,6 @@ lupus.org#@#.social-share-wrapper
 medialeaks.ru#@#.social-widgets
 keepa.com#@#.socialButtons
 kuriertczewski.pl#@#.social_header
-ixbt.com#@#.social_links
 40ton.net#@#.td-post-sharing-top
 nothiefsallowed.com#@#.twitter-timeline
 petsmart.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
