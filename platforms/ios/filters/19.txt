@@ -1,9 +1,9 @@
-! Checksum: O/aWgQCv6YgVZNlRKJ8TYQ
-! Diff-Path: ../patches/19/19-s-1709843796-3600.patch
+! Checksum: 8TwHqY0wQWt3IR/MoQTxxA
+! Diff-Path: ../patches/19/19-s-1709894330-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.32.95
-! TimeUpdated: 2024-03-07T20:32:15+00:00
+! Version: 2.0.32.96
+! TimeUpdated: 2024-03-08T10:33:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1656,6 +1656,9 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+@@||sfchronicle.com/sites/jquery.adx.js
+sfchronicle.com#%#//scriptlet('set-constant', 'HDN.dataLayer.ads.adBlockerDetected', 'false')
+sfchronicle.com#%#//scriptlet('prevent-element-src-loading', 'script', 'sfchronicle.com/script.js')
 realmz.io###realmz-io_728x90
 /assets/adblock_$domain=mageclash.io|monstermaster.io|grix.io
 starblast.io#%#//scriptlet('prevent-element-src-loading', 'script', 'pafvertizing.crazygames.com')
@@ -3025,6 +3028,7 @@ uwaterloo.ca##div[aria-label="Ad Blocker Detected"]
 ! SECTION[id=general]: Anti-adblock - Common '!#safari_cb_affinity(general)' directive
 !#safari_cb_affinity(general)
 !
+@@||expressnews.com/sites/jquery.adx.js
 @@||pafvertizing.crazygames.com/rafvertizing-v7.js$domain=starblast.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=textstudio.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=phoneky.com
